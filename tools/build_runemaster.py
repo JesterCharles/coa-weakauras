@@ -38,13 +38,16 @@ def data(name):
     return p if os.path.exists(p) else os.path.join(SP, name)
 
 
-# Bump on every published build. Feeds the uid salt AND the group name,
-# so a reimport is unambiguously a new pack and the loaded version is
-# visible in the WeakAuras list.
-# Release tag. Feeds the uid salt AND the group name. WeakAuras dedupes
-# imports on uid, so a rebuilt pack MUST carry a different salt or the client
-# treats it as already-installed and silently keeps the old copy. Bump this
-# (final2, final3, ...) on any future release.
+# Release tag. Feeds the uid salt ONLY -- set_salt() below, nothing else.
+# WeakAuras dedupes imports on uid, so a rebuilt pack MUST carry a different
+# salt or the client treats it as already-installed and silently keeps the old
+# copy. Bump this (final2, final3, ...) on any future release.
+#
+# It does NOT reach the group name, despite what an earlier revision of this
+# comment claimed: every release imports as the same "Runemaster [CoA]", so the
+# loaded version is NOT visible in the WeakAuras list and a delivered file
+# carries no readable version string. Identify one by recomputing uids -- see
+# notes/class-pack-process.md.
 VERSION = "final15"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus

@@ -102,18 +102,21 @@ goes into `resources/in-game-verified.json` and wins over everything.
 ```
 ~/ascoa/weakauras/<class>/
   README.md
-  <class>-coa.txt           all specs        <- always the CURRENT release
+  <class>-coa.txt            all specs        <- always the CURRENT release
   <class>-<spec>.txt         one per spec     <- always the CURRENT release
-  final<NN>-archive/
-    <class>-coa.txt          the outgoing all-specs pack, and only that
+  archive/
+    v<NN>-<class>-coa.txt    every superseded all-specs pack, one flat folder
 ```
 
 **The delivery folder always holds the current release at the top level.**
-Before overwriting it, archive the outgoing **all-specs** file into
-`final<NN>-archive/` named for the version being replaced. Only the all-specs
-pack is archived — the per-spec packs are strict subsets of it and rebuild from
-the same tag. (`runemaster/final8-archive/` predates this rule and holds all
-four.)
+Before overwriting it, copy the outgoing **all-specs** file to
+`archive/v<NN>-<class>-coa.txt`, numbered for the version being replaced. Only
+the all-specs pack is archived — the per-spec packs are strict subsets of it and
+rebuild from the same tag. (`runemaster/archive/v8-*` predates that rule and has
+all four.)
+
+One flat `archive/` folder, not a folder per release: at 21 classes a
+per-release directory each would bury the four files that actually matter.
 
 Copy from `docs/packs/`, which `mksite.py` has already regenerated, so the
 delivery folder and the site can never disagree.
@@ -121,6 +124,15 @@ delivery folder and the site can never disagree.
 Bump `VERSION` on **every** release — it salts the uids. Without a bump,
 WeakAuras treats the import as already-installed and silently keeps the old
 copy, which is bug #1 in the retro and cost ten iterations.
+
+⚠️ **`VERSION` is not recoverable from a delivered file.** It only feeds
+`set_salt()`, so it never appears as a readable string, and the group name is
+the same on every release — a delivered pack cannot be identified by opening it
+or by looking at the WeakAuras list. (The builder comment claiming VERSION feeds
+"the uid salt AND the group name" is wrong; it only does the former.) Identify a
+stray file by recomputing uids: `sha256(f"{class}-{spec}-{version}|{display_id}")`
+mapped through `wabuild._UID_ALPHA`, and see which candidate version matches.
+The delivery README and the `v<NN>-` prefix exist because of this.
 
 ## Running classes in parallel
 
