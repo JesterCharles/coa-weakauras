@@ -1,44 +1,52 @@
-"""Find every Runemaster ability that has a cooldown, which spec owns it, and
+"""Find every ability of a class that has a cooldown, which spec owns it, and
 whether it triggers the global cooldown.
+
+    python3 audit_cds.py                 # runemaster (default)
+    python3 audit_cds.py chronomancer    # any class in classes.py
+
+Needs Firecrawl up at localhost:3002. Pages cache to tools/spellchk/ keyed by
+spell id, so reruns are free and a partial run can simply be repeated.
 
 The GCD half matters because WeakAuras cannot work it out. `use_showgcd`
 substitutes the tracked global for ANY spell not already on cooldown
-(`GenericTrigger.lua:2795`), with no per-spell knowledge, so an off-GCD
-ability sweeps every time you press something else. The only fix is telling
-the builder which abilities those are, and this is where that comes from.
+(`GenericTrigger.lua:2795`), with no per-spell knowledge, so an off-GCD ability
+sweeps every time you press something else. The only fix is telling the builder
+which abilities those are, and this is where that comes from.
 
 db.exil.es renders a `GCD` row on the spell page when the spell is on the
-global, and OMITS the row entirely when it is not. That absence is the
-signal -- see `notes/off-gcd-detection.md`.
+global, and OMITS the row entirely when it is not. That absence is the signal
+-- see `notes/off-gcd-detection.md`.
 """
 import json, os, re, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 
-SP = os.path.dirname(os.path.abspath(__file__))
-RESOURCES = os.path.join(os.path.dirname(SP), "resources")
+from classes import get, data, SP
+
 CACHE = os.path.join(SP, "spellchk")
 
+CLS = get(sys.argv[1] if len(sys.argv) > 1 else "runemaster")
 
-def data(name):
-    """Resolve a data file: resources/ wins, tools/ is the legacy fallback.
+for f in (CLS.exiles, CLS.skills):
+    if not os.path.exists(data(f)):
+        raise SystemExit(
+            f"missing {f} -- scrape it first, see notes/class-pack-process.md "
+            f"section 2")
 
-    Same resolver as build_runemaster.py. This module pointed at `tools/`
-    after the data moved to `resources/` and had been silently broken since;
-    check this first in any fork.
-    """
-    p = os.path.join(RESOURCES, name)
-    return p if os.path.exists(p) else os.path.join(SP, name)
-
-
-EX = json.load(open(data("exiles-runemaster.json")))
-SKILLS = {r["name"] for r in json.load(open(data("coa-runemaster-skills.json")))}
-SIDEKICK = {s: open(data(f"sidekick-runemaster-{s}.md")).read()
-            for s in ("glyphic", "engravement", "riftblade")}
+EX = json.load(open(data(CLS.exiles)))
+SKILLS = {r["name"] for r in json.load(open(data(CLS.skills)))}
+SIDEKICK = {}
+for s in CLS.specs:
+    p = data(CLS.sidekick(s))
+    if os.path.exists(p):
+        SIDEKICK[s] = open(p).read()
+if not SIDEKICK:
+    raise SystemExit(f"no sidekick pages for {CLS.name} -- expected "
+                     f"{CLS.sidekick(CLS.specs[0])} etc in resources/")
 
 # Player-facing abilities: anything coabuildhub lists, PLUS anything Sidekick
-# mentions by name. coabuildhub's 150 is incomplete (no Zenith, Hurricane,
-# Convergence, Runic Tempest...), so intersecting on it alone hides real
-# cooldowns.
+# mentions by name. coabuildhub's list is incomplete (for Runemaster it missed
+# Zenith, Hurricane, Convergence, Runic Tempest...), so intersecting on it
+# alone hides real cooldowns.
 ALLSK = "\n".join(SIDEKICK.values())
 cands = {}
 for n, v in EX.items():
@@ -61,16 +69,16 @@ def fetch(item):
                             "-H", "Content-Type: application/json",
                             "-d", payload, "-o", p], check=True, timeout=120)
         except Exception:
-            return name, sid, None
+            return name, sid, None, None
     try:
         md = json.load(open(p))["data"].get("markdown") or ""
     except Exception:
         return name, sid, None, None
     md = re.sub(r"\s+", " ", md)
 
-    # A page that did not render has no GCD row either, and would otherwise
-    # be indistinguishable from a genuinely off-GCD ability. The Spell ID row
-    # is on every real page, so it is the proof the scrape actually landed.
+    # A page that did not render has no GCD row either, and would otherwise be
+    # indistinguishable from a genuinely off-GCD ability. The Spell ID row is
+    # on every real page, so it is the proof the scrape actually landed.
     # Without it we return gcd=None (unknown) rather than False (off-GCD).
     ok = re.search(r"Spell ID \| \d+", md) is not None
 
@@ -83,6 +91,8 @@ def fetch(item):
 
 
 if __name__ == "__main__":
+    os.makedirs(CACHE, exist_ok=True)
+    print(f"{CLS.name} (class {CLS.id}) -- {len(cands)} candidate abilities\n")
     out, unknown = {}, []
     with ThreadPoolExecutor(max_workers=8) as ex:
         for name, sid, cd, gcd in ex.map(fetch, sorted(cands.items())):
@@ -98,7 +108,7 @@ if __name__ == "__main__":
                 else:
                     rec["gcd"] = gcd
                 out[name] = rec
-    json.dump(out, open(data("cooldown-abilities.json"), "w"), indent=1)
+    json.dump(out, open(data(CLS.cooldowns), "w"), indent=1)
 
     off = sorted(n for n, v in out.items() if v.get("gcd") is False)
     print(f"{len(cands)} abilities checked, {len(out)} have a cooldown")
@@ -112,3 +122,4 @@ if __name__ == "__main__":
         print("\nUNRESOLVED (scrape did not land, rerun to settle):")
         for n in unknown:
             print(f"  {n}")
+    print(f"\nwrote {CLS.cooldowns}")

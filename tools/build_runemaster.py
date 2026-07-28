@@ -148,7 +148,7 @@ EXILES = json.load(open(data("exiles-runemaster.json")))
 # Every Runemaster ability that actually has a cooldown, audited from
 # db.exil.es spell pages (see audit_cds.py). Hand-maintained lists kept missing
 # things like Convergence and Primordial Fury.
-COOLDOWNS = json.load(open(data("cooldown-abilities.json")))
+COOLDOWNS = json.load(open(data("cooldown-abilities-runemaster.json")))
 
 
 def _cd_secs(text):

@@ -24,24 +24,25 @@ DOCS = os.path.join(ROOT, "docs")
 
 sys.path.insert(0, SP)
 from wacodec import wa_decode  # noqa: E402
+from classes import CLASSES, built as built_classes  # noqa: E402
 
 SITE_TITLE = "Conquest of Azeroth WeakAuras"
 REPO = "https://github.com/JesterCharles/coa-weakauras"
 
 # Which classes have shipped packs, and what each pack is.
 # `file` is the built artifact in tools/; `slug` is what it becomes in docs/packs/.
+# Derived from classes.py -- a class appears here as soon as it has a builder on
+# disk, so there is no second list to keep in step.
 SHIPPED = {
-    "runemaster": [
-        ("All specs", "runemaster-all-specs.txt", "runemaster-coa.txt",
-         "Every spec in one pack. Displays load only for the spec you are "
-         "currently playing."),
-        ("Glyphic", "runemaster-glyphic.txt", "runemaster-glyphic.txt",
-         "Glyphic only -- smaller import if you never play the others."),
-        ("Engravement", "runemaster-engravement.txt", "runemaster-engravement.txt",
-         "Engravement only."),
-        ("Riftblade", "runemaster-riftblade.txt", "runemaster-riftblade.txt",
-         "Riftblade only."),
-    ],
+    c.slug: [("All specs", f"{c.slug}-all-specs.txt", f"{c.slug}-coa.txt",
+              "Every spec in one pack. Displays load only for the spec you are "
+              "currently playing.")] +
+            [(c.spec_label(sp), f"{c.slug}-{sp}.txt", f"{c.slug}-{sp}.txt",
+              f"{c.spec_label(sp)} only." if i else
+              f"{c.spec_label(sp)} only -- smaller import if you never play "
+              f"the others.")
+             for i, sp in enumerate(c.specs)]
+    for c in built_classes()
 }
 
 
@@ -50,33 +51,17 @@ def slugify(name):
 
 
 def read_classes():
-    """Parse the class table out of resources/ascension-coa-class-ids.md."""
-    path = os.path.join(RESOURCES, "ascension-coa-class-ids.md")
-    out = []
-    for line in open(path):
-        m = re.match(r"\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|", line)
-        if not m:
-            continue
-        cid, name, specs = m.groups()
-        out.append({
-            "id": int(cid),
-            "name": name,
-            "slug": slugify(name),
-            "specs": [s.strip() for s in specs.split(",")],
-        })
-    return sorted(out, key=lambda c: c["name"])
+    """Class list for the site, sourced from classes.py so the slugs, specs and
+    ids match every other tool. Kept as plain dicts because the page builders
+    below index into them."""
+    return sorted(({"id": c.id, "name": c.name, "slug": c.slug,
+                    "specs": c.specs} for c in CLASSES.values()),
+                  key=lambda c: c["name"])
 
 
 def read_tokens():
-    """Parse resources/class-tokens.md -> {class name: load token}."""
-    path = os.path.join(RESOURCES, "class-tokens.md")
-    out = {}
-    for line in open(path):
-        m = re.match(r"\|\s*\d+\s*\|\s*\**([^|*]+?)\**\s*\|\s*`?([A-Z]+)`?\s*\|",
-                     line)
-        if m:
-            out[m.group(1).strip()] = m.group(2)
-    return out
+    """{class display name: load token}, from classes.py."""
+    return {c.name: c.token for c in CLASSES.values()}
 
 
 def version_of(builder):

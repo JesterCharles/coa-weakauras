@@ -33,6 +33,38 @@ Spin both down when the class is finished.
 | `notes/layout-standard.md` | the band layout every class follows |
 | `notes/runemaster-retro.md` | the ten bugs, so none is repeated |
 | `resources/import-strings/*.txt` | four decoded working packs — the reference for "does this mechanism work" |
+| `notes/off-gcd-detection.md` | why `use_showgcd` needs per-ability data, and where it comes from |
+
+### `tools/classes.py` — one place a class is described
+
+Every tool reads class metadata from here: id, load token, spec list, and the
+names of that class's data files and packs. It parses
+`resources/class-tokens.md` and `resources/ascension-coa-class-ids.md` rather
+than copying them, so the reference tables stay authoritative.
+
+```bash
+python3 tools/classes.py          # all 21, and which have a builder
+```
+
+Slugs are hyphenated — `knight-of-xoroth`, not `knightofxoroth` — because the
+91 class/spec icons under `docs/assets/class-icons/` and the published docs/
+URLs already use that form. One slug per class, everywhere: data files, pack
+names, docs directories, icon paths.
+
+**The tooling is class-driven, not Runemaster-shaped.** A class with a
+`build_<slug>.py` in `tools/` is picked up automatically by:
+
+| Tool | What it does for a new class |
+|---|---|
+| `tests/run.py` | runs all 10 checks against its packs — nothing to write |
+| `tests/freeze.py` | freezes its fixtures (`python3 tests/freeze.py <class>` for one) |
+| `tools/audit_cds.py` | `python3 tools/audit_cds.py <class>` |
+| `tools/mksite.py` | adds its pack page and flips its card to shipped |
+| `tools/mksubmit.py` | emits its submission entries |
+
+The one thing that is not automatic: after the first build, `tests/run.py` will
+tell you to record `core_leaves=<n>` in `classes.CORE_LEAVES`. That pins the
+Core/spec split as a regression guard.
 
 ## 2. Gather data (all scriptable, no in-game step)
 

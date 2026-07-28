@@ -5,21 +5,36 @@
 Stdlib only -- no pytest, no venv, no dependencies. Run it after every change
 to the builder or the engine.
 
+Class-driven: every class with a `build_<slug>.py` in tools/ is picked up
+automatically from classes.py, so a new class inherits the whole suite by
+existing. There is no per-class test to remember to write.
+
 The checks, and what each is actually protecting:
 
-  1. Runemaster rebuilds to the frozen fixture, all four packs.
-     THE refactor gate. If this passes, the extraction preserved the pack.
+  1. Every class rebuilds to its frozen fixture, all packs.
+     THE refactor gate. If this passes, the change preserved the packs.
 
   2-6. The comparator is honest -- five mutations it MUST catch.
      A comparator that cannot fail is decoration, and would silently bless a
      broken pack. These test the test.
 
-  7. Every leaf carries a spellknown gate.
-     `use_class` is inert on this fork, so a leaf without `use_spellknown`
-     loads on every character of every class.
+  7. Load gates: class token on every leaf, spec gating on spec packs.
+     The token comes from resources/class-tokens.md and is NOT derivable from
+     the class name (Runemaster is SPIRITMAGE, Templar is MONK). `use_class`
+     does work -- an early result suggesting otherwise was a stale
+     SavedVariables state on the client, not the condition.
 
   8. No repeated icon art within a row.
      Two identical icons side by side means an id resolved to the wrong art.
+
+  9. Readiness. Every spell cooldown icon desaturates on `spellUsable == 0`,
+     and no escalation tier reads a bare `expirationTime` (which would fire on
+     every global cooldown -- that shipped once as final12).
+
+ 10. Off-GCD. WeakAuras substitutes the tracked global for any spell not
+     already on cooldown, blindly (GenericTrigger.lua:2795), so an off-GCD
+     ability must not carry `use_showgcd` -- and an on-GCD one must. Which is
+     which is scraped into cooldown-abilities-<class>.json, never guessed.
 """
 import copy
 import json
@@ -36,13 +51,16 @@ sys.path.insert(0, HERE)
 sys.path.insert(0, TOOLS)
 
 from compare import diff, diff_files, load, displays, normalise  # noqa: E402
+from classes import built as built_classes, data as class_data  # noqa: E402
 
-PACKS = [
-    (None, "runemaster-all-specs"),
-    ("glyphic", "runemaster-glyphic"),
-    ("engravement", "runemaster-engravement"),
-    ("riftblade", "runemaster-riftblade"),
-]
+# Every class with a builder on disk. Checks 1 and 7-10 run against all of
+# them, so a new class inherits the whole suite by existing -- there is no
+# per-class test to remember to write. Checks 2-6 test the comparator itself
+# and only need one pack.
+UNDER_TEST = built_classes()
+if not UNDER_TEST:
+    raise SystemExit("no class builders found in tools/")
+PACKS = [(cls, spec, name) for cls in UNDER_TEST for spec, name in cls.packs]
 
 _fails = []
 
@@ -56,24 +74,25 @@ def check(name, ok, detail=""):
         _fails.append(name)
 
 
-def build(spec):
+def build(cls, spec):
     env = dict(os.environ)
     env.pop("WA_SPEC", None)
     env.pop("WA_GLOW", None)
     if spec:
         env["WA_SPEC"] = spec
-    r = subprocess.run([sys.executable, "build_runemaster.py"],
+    r = subprocess.run([sys.executable, cls.builder],
                        cwd=TOOLS, env=env, capture_output=True, text=True)
     if r.returncode != 0:
-        raise SystemExit(f"build failed (WA_SPEC={spec}):\n{r.stdout}{r.stderr}")
+        raise SystemExit(
+            f"{cls.builder} failed (WA_SPEC={spec}):\n{r.stdout}{r.stderr}")
     return r.stdout
 
 
 # --------------------------------------------------------------- 1. rebuild
 print("\n1. rebuild matches frozen fixture")
 built = {}
-for spec, name in PACKS:
-    out = build(spec)
+for cls, spec, name in PACKS:
+    out = build(cls, spec)
     path = os.path.join(TOOLS, f"{name}.txt")
     built[name] = out
     fixture = os.path.join(FIXTURES, f"{name}.txt")
@@ -86,8 +105,10 @@ for spec, name in PACKS:
 
 
 # ------------------------------------------------- 2-6. comparator honesty
+# These test the comparator, not any class, so one pack is enough -- the first
+# built class's all-specs pack.
 print("\n2-6. comparator catches mutations")
-base_path = os.path.join(TOOLS, "runemaster-all-specs.txt")
+base_path = os.path.join(TOOLS, f"{UNDER_TEST[0].packs[0][1]}.txt")
 base = load(base_path)
 
 
@@ -126,7 +147,12 @@ def m_drop_trigger(p):
 
 
 def m_reparent(p):
-    first_leaf(p)["parent"] = "RM Core"
+    # move a leaf under some OTHER existing group, whichever the pack has --
+    # hardcoding a group id would tie this mutation to one class.
+    leaf = first_leaf(p)
+    other = next(d["id"] for d in p["c"].values()
+                 if d.get("controlledChildren") and d["id"] != leaf.get("parent"))
+    leaf["parent"] = other
 
 
 def m_reorder(p):
@@ -156,17 +182,19 @@ check("uid change ignored", not mutated(m_uid))
 
 # ------------------------------------------------------------- 7. load gates
 print("\n7. load gates")
-CLASS_TOKEN = "SPIRITMAGE"
-for spec, name in PACKS:
+for cls, spec, name in PACKS:
     pack = load(os.path.join(TOOLS, f"{name}.txt"))
     leaves = [d for d in pack["c"].values() if not d.get("controlledChildren")]
 
     # class gate on EVERY leaf, always. Without it the pack loads on every
-    # character of every class.
+    # character of every class. The token is NOT derivable from the class name
+    # -- Runemaster is SPIRITMAGE, Templar is MONK -- so it comes from
+    # resources/class-tokens.md via classes.py, never from a guess.
     bad = [d["id"] for d in leaves
            if not d.get("load", {}).get("use_class")
-           or d.get("load", {}).get("class", {}).get("single") != CLASS_TOKEN]
-    check(f"{name}: {len(leaves)} leaves class-gated", not bad, "\n".join(bad[:8]))
+           or d.get("load", {}).get("class", {}).get("single") != cls.token]
+    check(f"{name}: {len(leaves)} leaves class-gated to {cls.token}",
+          not bad, "\n".join(bad[:8]))
 
     if spec:
         # a spec-scoped pack must narrow every leaf, Core included -- else the
@@ -181,14 +209,24 @@ for spec, name in PACKS:
         # break them for a levelling character who has not learned it yet.
         core = [d for d in leaves if not d.get("load", {}).get("use_spellknown")]
         specd = [d for d in leaves if d.get("load", {}).get("use_spellknown")]
-        check(f"{name}: Core class-wide ({len(core)}), spec leaves gated ({len(specd)})",
-              len(core) == 17 and len(specd) == len(leaves) - 17,
-              f"expected 17 Core leaves, got {len(core)}")
+        want = cls.core_leaves
+        if want is None:
+            # class not yet pinned in classes.CORE_LEAVES -- assert the shape
+            # (some Core, some spec-gated) and report the number to record.
+            check(f"{name}: Core class-wide ({len(core)}), spec leaves gated "
+                  f"({len(specd)}) -- add core_leaves={len(core)} to "
+                  f"classes.CORE_LEAVES to pin it",
+                  bool(core) and bool(specd),
+                  "expected a mix of Core and spec-gated leaves")
+        else:
+            check(f"{name}: Core class-wide ({len(core)}), spec leaves gated ({len(specd)})",
+                  len(core) == want and len(specd) == len(leaves) - want,
+                  f"expected {want} Core leaves, got {len(core)}")
 
 
 # -------------------------------------------------------------- 8. icon art
 print("\n8. no repeated icon art within a row")
-for spec, name in PACKS:
+for cls, spec, name in PACKS:
     ok = "no repeated icon art within any row" in built[name]
     check(f"{name}", ok, built[name])
 
@@ -230,7 +268,7 @@ def has_usable_cond(d):
     return False
 
 
-for spec, name in PACKS:
+for cls, spec, name in PACKS:
     pack = load(os.path.join(TOOLS, f"{name}.txt"))
     cds = cd_triggered(pack)
     # A cooldown icon that is off cooldown but uncastable -- no mana, no
@@ -259,9 +297,18 @@ for spec, name in PACKS:
 # --------------------------------------------------------------- 10. off-GCD
 print("\n10. off-GCD abilities do not show the global cooldown")
 
-COOLDOWNS = json.load(open(os.path.join(ROOT, "resources",
-                                        "cooldown-abilities.json")))
-OFF_GCD = {n for n, v in COOLDOWNS.items() if v.get("gcd") is False}
+def off_gcd_for(cls):
+    """Ability names this class's scrape proved are off the global.
+
+    Only an explicit `gcd: false` counts. A missing key means audit_cds.py
+    could not settle it, and treating unknown as off-GCD would silently drop
+    the anti-clipping cue on an ability that does obey the global.
+    """
+    p = class_data(cls.cooldowns)
+    if not os.path.exists(p):
+        return None
+    cd = json.load(open(p))
+    return {n for n, v in cd.items() if v.get("gcd") is False}
 
 
 def showgcd_of(d):
@@ -275,7 +322,12 @@ def showgcd_of(d):
     return None
 
 
-for spec, name in PACKS:
+for cls, spec, name in PACKS:
+    OFF_GCD = off_gcd_for(cls)
+    if OFF_GCD is None:
+        check(f"{name}: {cls.cooldowns} exists", False,
+              f"run: python3 tools/audit_cds.py {cls.slug}")
+        continue
     pack = load(os.path.join(TOOLS, f"{name}.txt"))
     # `use_showgcd` makes WeakAuras substitute the tracked global for any spell
     # not already on cooldown -- blindly, with no per-spell knowledge
