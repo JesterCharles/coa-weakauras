@@ -1,0 +1,752 @@
+[
+ {
+  "name": "Alertness",
+  "icon": "spell_nature_mentalquickness",
+  "meta": "Talent"
+ },
+ {
+  "name": "Alteration",
+  "icon": "nhi_arcanesmoke_border",
+  "meta": "Talent \u00b7 max L15"
+ },
+ {
+  "name": "Ancient Carvings",
+  "icon": "inv_relics_6orunestone_ogremissive",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Arcane Blade",
+  "icon": "inv_knife_1h_grimbatolraid_d_03",
+  "meta": "Ability Lvl 11"
+ },
+ {
+  "name": "Aspect of The Rune Knight",
+  "icon": "_auracloak_felfire",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Augur's Shield",
+  "icon": "spell_arcane_prismaticcloak",
+  "meta": "Ability Rank 1 \u00b7 max L49"
+ },
+ {
+  "name": "Bounty Hunter",
+  "icon": "inv_misc_scrollrolled04c",
+  "meta": "Talent"
+ },
+ {
+  "name": "Chaos Engraving",
+  "icon": "_auracloak_fire",
+  "meta": "Ability Engraving"
+ },
+ {
+  "name": "Concentrated Magic",
+  "icon": "nhi_arcaneburst_border",
+  "meta": "Talent Lvl 17"
+ },
+ {
+  "name": "Contract Killing",
+  "icon": "inv_garrison_blueprints2",
+  "meta": "Talent"
+ },
+ {
+  "name": "Devour Mana",
+  "icon": "_soulsdevourer_blue",
+  "meta": "Ability Rank 1 \u00b7 max L49"
+ },
+ {
+  "name": "Displace Familiar",
+  "icon": "_enslavespell_arcane",
+  "meta": "Ability Lvl 10 \u00b7 max L54"
+ },
+ {
+  "name": "Echo Rune",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 29"
+ },
+ {
+  "name": "Elder Magi Rune",
+  "icon": "_runeorcpurple",
+  "meta": "Talent Lvl 10 \u00b7 max L51"
+ },
+ {
+  "name": "Elemental Burst",
+  "icon": "nhi_arcanebolt_border",
+  "meta": "Ability Lvl 14 \u00b7 max L60"
+ },
+ {
+  "name": "Elemental Carvings",
+  "icon": "inv_ascend_carvings_b_01",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Engraved and Ready",
+  "icon": "novart_magicspell_(30)_border",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Engravement - Level 40 Passive",
+  "icon": "spell_arcane_rune",
+  "meta": "Ability Specialization"
+ },
+ {
+  "name": "Etching of the Magi",
+  "icon": "inv_glyph_minorpaladin",
+  "meta": "Ability Lvl 40"
+ },
+ {
+  "name": "Evasive",
+  "icon": "spell_shadow_charm",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Everfrost Scroll",
+  "icon": "trade_engineering",
+  "meta": "Ability Lvl 9 \u00b7 max L57"
+ },
+ {
+  "name": "Eye of the Beholder",
+  "icon": "nhi_arcanevision_border",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Fire Blade",
+  "icon": "inv_sword_1h_artifactfelomelorn_d_01",
+  "meta": "Ability Lvl 11"
+ },
+ {
+  "name": "Fists of Power",
+  "icon": "inv_misc_trinket6oog_stonefist2",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Focusing Crystals",
+  "icon": "spell_arcane_blast",
+  "meta": "Talent Lvl 15"
+ },
+ {
+  "name": "For the Salvos!",
+  "icon": "spell_shadow_teleport",
+  "meta": "Ability"
+ },
+ {
+  "name": "Fracture",
+  "icon": "nhi_manaspike_border",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Freezing Codex",
+  "icon": "item_icecrownringd",
+  "meta": "Talent Lvl 33"
+ },
+ {
+  "name": "Frigid Blast",
+  "icon": "skill_icon_skill40_border",
+  "meta": "Talent Lvl 17"
+ },
+ {
+  "name": "Frost Blade",
+  "icon": "inv_weapon_shortblade_92",
+  "meta": "Ability Lvl 11"
+ },
+ {
+  "name": "Frost Glyph",
+  "icon": "70_inscription_vantus_rune_azure",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Frost Spectre",
+  "icon": "novart_magicspell_(3)_border",
+  "meta": "Talent Lvl 27"
+ },
+ {
+  "name": "Frostburn",
+  "icon": "nhi_frost_knife_border",
+  "meta": "Talent Lvl 33"
+ },
+ {
+  "name": "Glyph of Disappearance",
+  "icon": "_d3familiar",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Glyph Seeker",
+  "icon": "inv_pet_wretchedelf",
+  "meta": "Talent Lvl 33"
+ },
+ {
+  "name": "Glyphic Destruction",
+  "icon": "achievement_zone_crystalsong_01",
+  "meta": "Talent Lvl 31"
+ },
+ {
+  "name": "Glyphic Infusion",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 17"
+ },
+ {
+  "name": "Glyphic Invocation",
+  "icon": "novart_passivemastery_(22)_border",
+  "meta": "Ability"
+ },
+ {
+  "name": "Glyphic Overload",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent"
+ },
+ {
+  "name": "Glyphic Ruin",
+  "icon": "achievement_raidprimalist_council",
+  "meta": "Talent Lvl 10 \u00b7 max L44"
+ },
+ {
+  "name": "Granite Resolve",
+  "icon": "nhi_earthtranquility_border",
+  "meta": "Ability Lvl 16"
+ },
+ {
+  "name": "Greater Runes",
+  "icon": "nhi_arcaneaid_border",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Hasty Imbue",
+  "icon": "inv_misc_ancient_mana",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Hired Crossbow",
+  "icon": "inv_bountyhunting",
+  "meta": "Talent"
+ },
+ {
+  "name": "Homebound Runestone",
+  "icon": "spell_arcane_portaltheramore",
+  "meta": "Ability Lvl 32"
+ },
+ {
+  "name": "Improved Atomic Split",
+  "icon": "spell_magic_managain",
+  "meta": "Talent"
+ },
+ {
+  "name": "Inscription: Permafrost",
+  "icon": "nhi_icestone_border",
+  "meta": "Ability Lvl 9 \u00b7 max L57"
+ },
+ {
+  "name": "Kirin Tor Adept",
+  "icon": "5_mageskill25_border",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Kirin Tor Agent",
+  "icon": "inv_staff_2h_artifactaegwynsstaff_d_06",
+  "meta": "Talent Lvl 59"
+ },
+ {
+  "name": "Ley Constitution",
+  "icon": "spell_shadow_mindtwisting",
+  "meta": "Ability Lvl 12"
+ },
+ {
+  "name": "Ley Focus",
+  "icon": "ability_mage_incantersabsorbtion",
+  "meta": "Talent"
+ },
+ {
+  "name": "Ley Lock",
+  "icon": "nhi_magicblock_border",
+  "meta": "Ability Lvl 14"
+ },
+ {
+  "name": "Ley Power",
+  "icon": "inv_ascend_magicartifact_13",
+  "meta": "Talent Lvl 59"
+ },
+ {
+  "name": "Ley Walker",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 33"
+ },
+ {
+  "name": "Leyborn",
+  "icon": "achievement_zone_newshadowmoonvalley",
+  "meta": "Talent Lvl 27"
+ },
+ {
+  "name": "Leyfeed",
+  "icon": "custom_t_nhance_rpg_icons_magicinyourhands_border",
+  "meta": "Ability Lvl 22"
+ },
+ {
+  "name": "Leyline Rider",
+  "icon": "inv_enchanting_70_leylightcrystal",
+  "meta": "Talent"
+ },
+ {
+  "name": "Magebreaker",
+  "icon": "inv_magemount",
+  "meta": "Talent Lvl 31"
+ },
+ {
+  "name": "Magic Feeder",
+  "icon": "ability_racial_shadowmeld",
+  "meta": "Ability Lvl 30"
+ },
+ {
+  "name": "Magnificence of Millhouse",
+  "icon": "inv_misc_head_gnome_01",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Master Engraver",
+  "icon": "inv_blacksmithing_greatersharpeningstone",
+  "meta": "Ability Lvl 30"
+ },
+ {
+  "name": "Master of Runes",
+  "icon": "inv_custom_rune",
+  "meta": "Ability Lvl 30"
+ },
+ {
+  "name": "Melting Runes",
+  "icon": "novart_magicspell_(44)_border",
+  "meta": "Talent Lvl 15"
+ },
+ {
+  "name": "Mind Wrath",
+  "icon": "nhi_corruptionmind_border",
+  "meta": "Ability Lvl 32"
+ },
+ {
+  "name": "Open Riftgate",
+  "icon": "inv_netherportal",
+  "meta": "Ability Lvl 60"
+ },
+ {
+  "name": "Palm Sigil: Arcane",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 20"
+ },
+ {
+  "name": "Palm Sigil: Earth",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 8"
+ },
+ {
+  "name": "Palm Sigil: Frost",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 34"
+ },
+ {
+  "name": "Permafrost Rune",
+  "icon": "nhi_icestone_border",
+  "meta": "Talent Lvl 28"
+ },
+ {
+  "name": "Phase Out",
+  "icon": "ability_mage_greaterinvisibility",
+  "meta": "Talent Lvl 14"
+ },
+ {
+  "name": "Phase Rush",
+  "icon": "ability_socererking_arcaneacceleration",
+  "meta": "Talent Lvl 31"
+ },
+ {
+  "name": "Pierce Resistances",
+  "icon": "inv_enchanting_80_veiledcrystal",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Portal Hopper",
+  "icon": "spell_shadow_teleport",
+  "meta": "Ability Rank 3"
+ },
+ {
+  "name": "Power Engraving",
+  "icon": "ability_deathknight_hungeringruneblade",
+  "meta": "Ability Lvl 58"
+ },
+ {
+  "name": "Power of Air",
+  "icon": "sha_inv_elemental_primal_shadow",
+  "meta": "Ability Rank 2 \u00b7 max L0"
+ },
+ {
+  "name": "Primordial Blast",
+  "icon": "spell_frostfire_orb",
+  "meta": "Ability Lvl 2 \u00b7 max L44"
+ },
+ {
+  "name": "Primordial Power",
+  "icon": "spell_mage_overpowered",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Primordial Salvos",
+  "icon": "ability_shaman_ascendance",
+  "meta": "Talent Lvl 27"
+ },
+ {
+  "name": "Primordial Studies",
+  "icon": "ability_shaman_echooftheelements",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Prismatic Blade",
+  "icon": "inv_sword_76",
+  "meta": "Talent Rank 1 \u00b7 max L51"
+ },
+ {
+  "name": "Prismatic Flow",
+  "icon": "spell_shadow_manafeed",
+  "meta": "Talent Lvl 26"
+ },
+ {
+  "name": "Prismatic Knight",
+  "icon": "spell_mage_evanesce",
+  "meta": "Ability"
+ },
+ {
+  "name": "Protective Warding",
+  "icon": "ability_bastion_mage",
+  "meta": "Talent Lvl 31"
+ },
+ {
+  "name": "Residual Power",
+  "icon": "novart_magicspell_(17)_border",
+  "meta": "Talent Lvl 27"
+ },
+ {
+  "name": "Riftblade",
+  "icon": "trade_archaeology_zinrokh_sword",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Rune Master",
+  "icon": "inv_misc_rune_15",
+  "meta": "Ability Lvl 57"
+ },
+ {
+  "name": "Rune of the Elder Magus",
+  "icon": "inv_relics_runestone",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Rune of the Kirin Tor",
+  "icon": "inv_trinket_naxxramas02",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Runed Cascade",
+  "icon": "nhi_arcanebeam_border",
+  "meta": "Talent Lvl 27 \u00b7 max L57"
+ },
+ {
+  "name": "Runefeed",
+  "icon": "spell_mage_focusingcrystal",
+  "meta": "Ability"
+ },
+ {
+  "name": "Runes of Quickness",
+  "icon": "nhi_unholyrune_border",
+  "meta": "Talent Lvl 31"
+ },
+ {
+  "name": "Runeshroud",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 4"
+ },
+ {
+  "name": "Runeslinger",
+  "icon": "inv_archaeology_70_starlightbeacon",
+  "meta": "Talent Lvl 27"
+ },
+ {
+  "name": "Runestone: Dazzling Spray",
+  "icon": "spell_firefrost_orb",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Foretelling",
+  "icon": "spell_arcane_focusedpower",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Frost Prison",
+  "icon": "novart_magicspell_(74)_border",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Frozen Touch",
+  "icon": "novart_magicspell_(79)_border",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Pyrostrike",
+  "icon": "novart_magicspell_(36)_border",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Spellsnap",
+  "icon": "novart_magicspell_(19)_border",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Torch",
+  "icon": "novart_magicspell_(51)_border",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runestone: Walking Flame",
+  "icon": "novart_magicspell_(33)_border",
+  "meta": "Ability Passive - Runestone"
+ },
+ {
+  "name": "Runic Affinity",
+  "icon": "inv_misc_rune_05",
+  "meta": "Ability Lvl 16"
+ },
+ {
+  "name": "Runic Breakout",
+  "icon": "spell_shadow_teleport",
+  "meta": "Ability Lvl 56"
+ },
+ {
+  "name": "Runic Convergence",
+  "icon": "ability_mage_greaterinvisibility",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Runic Devastation",
+  "icon": "ability_shaman_astralshift",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Runic Devastation unused",
+  "icon": "ability_shaman_astralshift",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Runic Knowledge",
+  "icon": "ability_mage_studentofthemind",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Runic Obliteration",
+  "icon": "novart_magicspell_(58)_border",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Runic Quickness",
+  "icon": "inv_inscription_runescrolloffortitude_blue",
+  "meta": "Talent"
+ },
+ {
+  "name": "Runic Tattoos",
+  "icon": "70_inscription_vantus_rune_azure",
+  "meta": "Talent Lvl 12"
+ },
+ {
+  "name": "Runic Wrath",
+  "icon": "spell_fire_bluerainoffire",
+  "meta": "Ability"
+ },
+ {
+  "name": "Salvage Fragments",
+  "icon": "_energeticorbpurple",
+  "meta": "Ability"
+ },
+ {
+  "name": "Scroll of Magic",
+  "icon": "custom_t_nhance_rpg_icons_scrollofmagic_border",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Scrying Orb",
+  "icon": "spell_druid_momentofclarity",
+  "meta": "Ability Lvl 22"
+ },
+ {
+  "name": "Shrouded Hand",
+  "icon": "nhi_magicinyourhands_border",
+  "meta": "Ability"
+ },
+ {
+  "name": "Shroudwalker",
+  "icon": "ability_rogue_shroudofconcealment",
+  "meta": "Talent Lvl 26"
+ },
+ {
+  "name": "Sigilist",
+  "icon": "inv_ascend_runestone_05",
+  "meta": "Ability Lvl 58"
+ },
+ {
+  "name": "Silence In The Cage",
+  "icon": "nhi_arcanedemon_border",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Smolder",
+  "icon": "uico_fire_spell_02_border",
+  "meta": "Talent Lvl 11 \u00b7 max L58"
+ },
+ {
+  "name": "Sorcerer's Speedway",
+  "icon": "spell_arcane_portalexodar",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Spellblade",
+  "icon": "custom_t_nhance_rpg_icons_swordofflame_border",
+  "meta": "Talent Lvl 17"
+ },
+ {
+  "name": "Spellblades",
+  "icon": "inv_throwingknife_06",
+  "meta": "Talent"
+ },
+ {
+  "name": "Spellfire Runes",
+  "icon": "custom_t_nhance_rpg_icons_firerune_border",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Stack The Deck",
+  "icon": "inv_arcane_orb",
+  "meta": "Ability"
+ },
+ {
+  "name": "Steam Conjurer",
+  "icon": "novart_magicspell_(77)_border",
+  "meta": "Talent Lvl 59"
+ },
+ {
+  "name": "Surging Slash",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Swift Etching",
+  "icon": "inv_misc_rune_14",
+  "meta": "Talent Lvl 33"
+ },
+ {
+  "name": "Tablet of Sorcery",
+  "icon": "inv_misc_rune_13",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Thaumaturgy",
+  "icon": "spell_nature_elementalprecision_2",
+  "meta": "Talent Lvl 29 \u00b7 max L60"
+ },
+ {
+  "name": "Tome of Swiftness",
+  "icon": "nhi_bookthrow_border",
+  "meta": "Ability"
+ },
+ {
+  "name": "Trap Runes",
+  "icon": "70_inscription_vantus_rune_suramar",
+  "meta": "Ability"
+ },
+ {
+  "name": "Traprune: Blasting Glyph",
+  "icon": "inv_misc_rune_05",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Traprune: Stunning Glyph",
+  "icon": "inv_misc_rune_06",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Traprune: Unmaking Glyph",
+  "icon": "inv_misc_rune_08",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Turbulence",
+  "icon": "skill_icon_skill79_border",
+  "meta": "Talent Lvl 59"
+ },
+ {
+  "name": "Unleash Essences",
+  "icon": "ability_paladin_bladeofjusticeblue",
+  "meta": "Ability Lvl 7 \u00b7 max L56"
+ },
+ {
+  "name": "Unmaker",
+  "icon": "ability_mage_netherwindpresence",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Warding Rune",
+  "icon": "inv_qiraj_jewelglyphed",
+  "meta": "Ability Lvl 34"
+ },
+ {
+  "name": "Warp Shift",
+  "icon": "spell_nature_massteleport",
+  "meta": "Talent Lvl 17 \u00b7 max L59"
+ },
+ {
+  "name": "Warpdagger",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 10"
+ },
+ {
+  "name": "Warpmaster",
+  "icon": "achievement_dungeon_ulduarraid_archway_01",
+  "meta": "Ability Lvl 12"
+ },
+ {
+  "name": "Waveforged",
+  "icon": "nhi_watersword_border",
+  "meta": "Talent Lvl 59"
+ },
+ {
+  "name": "Well Educated",
+  "icon": "spell_arcane_mindmastery",
+  "meta": "Ability"
+ },
+ {
+  "name": "Wind Surge",
+  "icon": "epic_rpg_icon_pack_wind_icon_0000s_0000_elemental_border",
+  "meta": "Talent Lvl 29"
+ },
+ {
+  "name": "Windsage",
+  "icon": "inv_weapon_shortblade_83",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Wizardry",
+  "icon": "inv_staff_2h_artifactaegwynsstaff_d_01",
+  "meta": "Ability"
+ },
+ {
+  "name": "Word of Flames",
+  "icon": "boss_odunrunes_orange",
+  "meta": "Talent"
+ },
+ {
+  "name": "Word of Oblivion",
+  "icon": "boss_odunrunes_purple",
+  "meta": "Talent"
+ },
+ {
+  "name": "Words of Power",
+  "icon": "_runesauvagepourpre",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Words of Wrath",
+  "icon": "boss_odunrunes_yellow",
+  "meta": "Talent Passive"
+ }
+]

@@ -1,0 +1,15 @@
+# Build artifacts. Regenerable from tools/ + resources/, never a source of
+# truth. The published copies live in docs/packs/ and the frozen regression
+# baselines in tests/fixtures/ -- both of those ARE tracked.
+tools/runemaster-*.txt
+tools/guide.html
+output/
+
+# Scraped snapshots under resources/ are deliberately NOT ignored: they are
+# third-party pages that can change or vanish, which makes them the least
+# reproducible asset here. resources/in-game-verified.json is ground truth read
+# off tooltips and cannot be regenerated at all. See NOTICE.
+
+__pycache__/
+*.pyc
+.DS_Store

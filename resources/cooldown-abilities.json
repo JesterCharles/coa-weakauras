@@ -1,0 +1,443 @@
+{
+ "Augur's Shield": {
+  "id": 804126,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Casting Cuffs": {
+  "id": 706363,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Cinderwake": {
+  "id": 807828,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Devour Mana": {
+  "id": 800104,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Displace Familiar": {
+  "id": 800741,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Echo Rune": {
+  "id": 500270,
+  "cd": "2 min cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Elder Magi Rune": {
+  "id": 500253,
+  "cd": "1 min cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Etch": {
+  "id": 805623,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Eye of the Beholder": {
+  "id": 500121,
+  "cd": "3 min cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Fist of the Ancients": {
+  "id": 712326,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement"
+  ]
+ },
+ "Genesis": {
+  "id": 500501,
+  "cd": "3 min cooldown",
+  "specs": [
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Glacial Rune": {
+  "id": 805730,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Glyphic Infusion": {
+  "id": 800733,
+  "cd": "1 min cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Glyphic Invocation": {
+  "id": 704141,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Glyphic Overload": {
+  "id": 520099,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Granite Resolve": {
+  "id": 520229,
+  "cd": "1 min cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Guarding Rune": {
+  "id": 500464,
+  "cd": "2 min cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Homebound Runestone": {
+  "id": 560316,
+  "cd": "30 min cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Hurricane": {
+  "id": 645435,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Ice Rune": {
+  "id": 524930,
+  "cd": "1 min cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Inscription: Permafrost": {
+  "id": 503423,
+  "cd": "1 min cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Ley Focus": {
+  "id": 805723,
+  "cd": "3 min cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Ley Lock": {
+  "id": 800995,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Ley Power": {
+  "id": 801096,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Leyline Adjustment": {
+  "id": 561265,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Manastorm": {
+  "id": 502614,
+  "cd": "2.5 hour cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Manuscription": {
+  "id": 524952,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Open Riftgate": {
+  "id": 500279,
+  "cd": "2 min cooldown",
+  "specs": [
+   "glyphic",
+   "engravement"
+  ]
+ },
+ "Permafrost Rune": {
+  "id": 804060,
+  "cd": "1 min cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Phase Out": {
+  "id": 500671,
+  "cd": "2 min cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Power Engraving": {
+  "id": 500296,
+  "cd": "5 min cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Primordial Blast": {
+  "id": 800732,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Prismatic Blade": {
+  "id": 804127,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Resonance Rune": {
+  "id": 803679,
+  "cd": "1 min cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Rune Master": {
+  "id": 800126,
+  "cd": "3 min cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Runed Cascade": {
+  "id": 804128,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Runefeed": {
+  "id": 804156,
+  "cd": "16.667 min cooldown",
+  "specs": []
+ },
+ "Runeshroud": {
+  "id": 500288,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Runic Brand": {
+  "id": 712299,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement"
+  ]
+ },
+ "Runic Tempest": {
+  "id": 560036,
+  "cd": "3 min cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Silencing Rune": {
+  "id": 802631,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Spellblades": {
+  "id": 801084,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Stack The Deck": {
+  "id": 800711,
+  "cd": "2 min cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Thaumaturgy": {
+  "id": 804550,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Tome of Swiftness": {
+  "id": 802034,
+  "cd": "2 min cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Torch": {
+  "id": 500252,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Trap Runes": {
+  "id": 805619,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Traprune: Stunning Glyph": {
+  "id": 802231,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Traprune: Unmaking Glyph": {
+  "id": 802232,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Turbulence": {
+  "id": 705575,
+  "cd": "1 min cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Unleash Essences": {
+  "id": 500251,
+  "cd": "2.5 sec cooldown",
+  "specs": [
+   "riftblade"
+  ]
+ },
+ "Warding Rune": {
+  "id": 804232,
+  "cd": "2 min cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Warp Shift": {
+  "id": 800120,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Warpdagger": {
+  "id": 500287,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ },
+ "Whisperwind": {
+  "id": 807823,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "glyphic"
+  ]
+ },
+ "Wild Steam": {
+  "id": 802632,
+  "cd": "24 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Word of Flames": {
+  "id": 800306,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Word of Oblivion": {
+  "id": 800333,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "engravement"
+  ]
+ },
+ "Zenith": {
+  "id": 712325,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "glyphic",
+   "engravement",
+   "riftblade"
+  ]
+ }
+}

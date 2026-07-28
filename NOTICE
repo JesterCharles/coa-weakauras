@@ -1,0 +1,26 @@
+NOTICE
+======
+
+Spell data, cooldowns, icons and ability metadata cached under `resources/`
+are scraped from:
+
+  * db.exil.es                 -- Conquest of Azeroth spell database
+  * db.ascension.gg            -- Ascension spell database (aowow)
+  * ascensionsidekick.com      -- class and spec guides
+  * coabuildhub                -- build reference
+
+They are committed so a pack can be rebuilt reproducibly. These are
+third-party sites that change without notice and have no API, so a cached
+snapshot is the only way to make a build deterministic -- re-scraping is not
+guaranteed to return the same data, or any data.
+
+All game data, ability names, spell IDs and icon art remain the property of
+their respective owners. World of Warcraft is a trademark of Blizzard
+Entertainment. Ascension and Conquest of Azeroth are unaffiliated with
+Blizzard Entertainment.
+
+This project is an unofficial community tool. It generates WeakAuras import
+strings; it ships no game client code and modifies nothing on any server.
+
+If you own one of the sites above and would prefer the cached data not be
+redistributed here, open an issue and it will be removed.

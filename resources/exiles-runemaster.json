@@ -1,0 +1,4136 @@
+{
+ "Ace of Flame": {
+  "ids": [
+   804542
+  ],
+  "icon": null
+ },
+ "Ace of Ice": {
+  "ids": [
+   804544
+  ],
+  "icon": null
+ },
+ "Ace of Magic": {
+  "ids": [
+   804543
+  ],
+  "icon": null
+ },
+ "Ace of Mana": {
+  "ids": [
+   804546
+  ],
+  "icon": null
+ },
+ "Ace of Power": {
+  "ids": [
+   804547
+  ],
+  "icon": null
+ },
+ "Ace of Runes": {
+  "ids": [
+   804545
+  ],
+  "icon": null
+ },
+ "Ace of Stars": {
+  "ids": [
+   804553
+  ],
+  "icon": null
+ },
+ "Ace of Wizardry": {
+  "ids": [
+   804552
+  ],
+  "icon": null
+ },
+ "Ace of Wizzardry or Stars": {
+  "ids": [
+   520037
+  ],
+  "icon": null
+ },
+ "Advanced Magi": {
+  "ids": [
+   804557
+  ],
+  "icon": "nhi_icetorch_border"
+ },
+ "After Manastrike Delayer": {
+  "ids": [
+   804957
+  ],
+  "icon": null
+ },
+ "Airburst": {
+  "ids": [
+   806985
+  ],
+  "icon": null
+ },
+ "Air Carving": {
+  "ids": [
+   653253
+  ],
+  "icon": null
+ },
+ "Air Engraving": {
+  "ids": [
+   653223
+  ],
+  "icon": null
+ },
+ "Alertness": {
+  "ids": [
+   805769
+  ],
+  "icon": null
+ },
+ "Alteration": {
+  "ids": [
+   705619
+  ],
+  "icon": null
+ },
+ "Alteration Trigger": {
+  "ids": [
+   725391
+  ],
+  "icon": null
+ },
+ "Ancient Carvings": {
+  "ids": [
+   705616
+  ],
+  "icon": null
+ },
+ "Ancient Teachings": {
+  "ids": [
+   705558
+  ],
+  "icon": null
+ },
+ "Ancient Touch": {
+  "ids": [
+   806702
+  ],
+  "icon": null
+ },
+ "Ancient Warrior": {
+  "ids": [
+   520755
+  ],
+  "icon": null
+ },
+ "Ancient Wrath": {
+  "ids": [
+   806719
+  ],
+  "icon": null
+ },
+ "Apply Glyph Dummy": {
+  "ids": [
+   520139
+  ],
+  "icon": null
+ },
+ "Arcane Blade": {
+  "ids": [
+   706667
+  ],
+  "icon": null
+ },
+ "Arcane Engraving": {
+  "ids": [
+   653267
+  ],
+  "icon": null
+ },
+ "Arcane Eruption": {
+  "ids": [
+   520113
+  ],
+  "icon": null
+ },
+ "Arcane Glyph": {
+  "ids": [
+   520092
+  ],
+  "icon": null
+ },
+ "Arcane Glyph Trigger Glyphic Ruin": {
+  "ids": [
+   520761
+  ],
+  "icon": null
+ },
+ "Arcane Imprisonment": {
+  "ids": [
+   705628
+  ],
+  "icon": null
+ },
+ "Arcane Mastery": {
+  "ids": [
+   705589
+  ],
+  "icon": null
+ },
+ "Arcane Runes": {
+  "ids": [
+   705597
+  ],
+  "icon": null
+ },
+ "Arcane Salvo": {
+  "ids": [
+   800731
+  ],
+  "icon": null
+ },
+ "Arcane Salvo (Melee)": {
+  "ids": [
+   804509
+  ],
+  "icon": null
+ },
+ "Arcane Student": {
+  "ids": [
+   300576
+  ],
+  "icon": "novart_books_(6)_border"
+ },
+ "Arcane Transcriptions": {
+  "ids": [
+   525401
+  ],
+  "icon": null
+ },
+ "Arcane Wrath": {
+  "ids": [
+   520060
+  ],
+  "icon": null
+ },
+ "Arcanotronics": {
+  "ids": [
+   680474
+  ],
+  "icon": null
+ },
+ "Arcanotronics Remover": {
+  "ids": [
+   560043
+  ],
+  "icon": null
+ },
+ "ARCHMAGE DECK DEPRECATED": {
+  "ids": [
+   804554
+  ],
+  "icon": null
+ },
+ "Aspect of Runes": {
+  "ids": [
+   800658
+  ],
+  "icon": null
+ },
+ "Aspect of The Rune Knight": {
+  "ids": [
+   804151
+  ],
+  "icon": null
+ },
+ "Aspect of the Spellblade": {
+  "ids": [
+   560273
+  ],
+  "icon": null
+ },
+ "At Least 3 Inscribed Rune DEPRECATED": {
+  "ids": [
+   520116
+  ],
+  "icon": null
+ },
+ "At Least 4 Inscribed Rune DEPRECATED": {
+  "ids": [
+   520117
+  ],
+  "icon": null
+ },
+ "Attack": {
+  "ids": [
+   802641
+  ],
+  "icon": null
+ },
+ "Augur's Shield": {
+  "ids": [
+   804126
+  ],
+  "icon": null
+ },
+ "Basic Magic Training": {
+  "ids": [
+   520053
+  ],
+  "icon": null
+ },
+ "Battle Engravings": {
+  "ids": [
+   706674
+  ],
+  "icon": null
+ },
+ "Battlemage 2h Helper": {
+  "ids": [
+   500172
+  ],
+  "icon": null
+ },
+ "Battlemage: Large Weapons": {
+  "ids": [
+   500034
+  ],
+  "icon": null
+ },
+ "Battlemage: Quick Weapons": {
+  "ids": [
+   500064
+  ],
+  "icon": null
+ },
+ "Blade of Flames": {
+  "ids": [
+   804952
+  ],
+  "icon": null
+ },
+ "Blade of Frost": {
+  "ids": [
+   804953
+  ],
+  "icon": null
+ },
+ "Blade of Magic": {
+  "ids": [
+   804954
+  ],
+  "icon": null
+ },
+ "Blade Rift": {
+  "ids": [
+   520237
+  ],
+  "icon": "5_magicresistance_border"
+ },
+ "Blade Stacker": {
+  "ids": [
+   805004
+  ],
+  "icon": null
+ },
+ "Blazing Aura": {
+  "ids": [
+   802657
+  ],
+  "icon": null
+ },
+ "Blazing Aura Trigger": {
+  "ids": [
+   802650
+  ],
+  "icon": null
+ },
+ "Boiling Point": {
+  "ids": [
+   806981
+  ],
+  "icon": null
+ },
+ "Boiling Rune": {
+  "ids": [
+   803695
+  ],
+  "icon": null
+ },
+ "Boiling Runes": {
+  "ids": [
+   803259
+  ],
+  "icon": null
+ },
+ "Book of the Magi": {
+  "ids": [
+   807183
+  ],
+  "icon": null
+ },
+ "Bounce Pad": {
+  "ids": [
+   806226
+  ],
+  "icon": null
+ },
+ "Bounty Hunter": {
+  "ids": [
+   705510
+  ],
+  "icon": null
+ },
+ "Branded": {
+  "ids": [
+   707717
+  ],
+  "icon": null
+ },
+ "Brandmaster": {
+  "ids": [
+   520524
+  ],
+  "icon": null
+ },
+ "Burned Etching": {
+  "ids": [
+   500474
+  ],
+  "icon": null
+ },
+ "Bursting Pulses": {
+  "ids": [
+   300584
+  ],
+  "icon": "novart_magicspell_(57)_border"
+ },
+ "Casting Cuffs": {
+  "ids": [
+   706363
+  ],
+  "icon": null
+ },
+ "Chaos Engraving": {
+  "ids": [
+   800735
+  ],
+  "icon": null
+ },
+ "Chaotic Good": {
+  "ids": [
+   524984
+  ],
+  "icon": null
+ },
+ "Chapter of Arcana": {
+  "ids": [
+   525400
+  ],
+  "icon": null
+ },
+ "Chapter of Flame": {
+  "ids": [
+   525327
+  ],
+  "icon": null
+ },
+ "Chapter of Frost": {
+  "ids": [
+   525363
+  ],
+  "icon": null
+ },
+ "Chapter of Nature": {
+  "ids": [
+   525387
+  ],
+  "icon": null
+ },
+ "Chilled": {
+  "ids": [
+   520109
+  ],
+  "icon": null
+ },
+ "Chilling Roar": {
+  "ids": [
+   807474
+  ],
+  "icon": null
+ },
+ "Cinderstorm Rune": {
+  "ids": [
+   806927
+  ],
+  "icon": null
+ },
+ "Cinderstorm Runes": {
+  "ids": [
+   706458
+  ],
+  "icon": null
+ },
+ "Cinderwake": {
+  "ids": [
+   807828
+  ],
+  "icon": null
+ },
+ "CoA Aura - Runemaster Class": {
+  "ids": [
+   887020
+  ],
+  "icon": null
+ },
+ "CoA Aura - Runemaster - Engravement": {
+  "ids": [
+   887089
+  ],
+  "icon": null
+ },
+ "CoA Aura - Runemaster - Glyphic": {
+  "ids": [
+   887088
+  ],
+  "icon": null
+ },
+ "CoA Aura - Runemaster - Riftblade": {
+  "ids": [
+   887090
+  ],
+  "icon": null
+ },
+ "CoA General Spell Haste Debuff": {
+  "ids": [
+   520417
+  ],
+  "icon": null
+ },
+ "Cold Elements": {
+  "ids": [
+   520138
+  ],
+  "icon": "epic_rpg_icon_pack_frost_0004s_0000_bolt_border"
+ },
+ "Coldrune Blast Slow": {
+  "ids": [
+   524929
+  ],
+  "icon": null
+ },
+ "Collecting Fragments": {
+  "ids": [
+   705542
+  ],
+  "icon": null
+ },
+ "Concentrated Magic": {
+  "ids": [
+   560995
+  ],
+  "icon": "nhi_arcaneburst_border"
+ },
+ "Contract Killing": {
+  "ids": [
+   705506
+  ],
+  "icon": null
+ },
+ "Controlled Magic": {
+  "ids": [
+   800748
+  ],
+  "icon": null
+ },
+ "Convergence": {
+  "ids": [
+   560241
+  ],
+  "icon": null
+ },
+ "Corrupted Water Jet": {
+  "ids": [
+   504654
+  ],
+  "icon": null
+ },
+ "Corrupted Waters": {
+  "ids": [
+   504656
+  ],
+  "icon": null
+ },
+ "Cosmic Force": {
+  "ids": [
+   800742
+  ],
+  "icon": null
+ },
+ "Cosmic Impact": {
+  "ids": [
+   800738
+  ],
+  "icon": null
+ },
+ "Cryobrand": {
+  "ids": [
+   807822
+  ],
+  "icon": null
+ },
+ "Cryomagi": {
+  "ids": [
+   805726
+  ],
+  "icon": "nhi_icelaser_border"
+ },
+ "Cycle Blade Of Flame": {
+  "ids": [
+   804960
+  ],
+  "icon": null
+ },
+ "Cycle Blade Of Frost": {
+  "ids": [
+   804959
+  ],
+  "icon": null
+ },
+ "Cycle Blade of Magic": {
+  "ids": [
+   804958
+  ],
+  "icon": null
+ },
+ "Darkflock Anguish Spreader": {
+  "ids": [
+   800749
+  ],
+  "icon": null
+ },
+ "Dazzling Spray": {
+  "ids": [
+   801113
+  ],
+  "icon": null
+ },
+ "Decay Momentum": {
+  "ids": [
+   800116
+  ],
+  "icon": null
+ },
+ "Deck of Wonders": {
+  "ids": [
+   804548
+  ],
+  "icon": null
+ },
+ "Decoder": {
+  "ids": [
+   706523
+  ],
+  "icon": "inv_ascend_magicartifact_10"
+ },
+ "Decoder Trigger": {
+  "ids": [
+   681500
+  ],
+  "icon": null
+ },
+ "Decoder Trigger2": {
+  "ids": [
+   681528
+  ],
+  "icon": null
+ },
+ "Decrement Spellwrath -1": {
+  "ids": [
+   520126
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   800690
+  ],
+  "icon": null
+ },
+ "DEPRECATED": {
+  "ids": [
+   803263
+  ],
+  "icon": null
+ },
+ "Destiny": {
+  "ids": [
+   500150
+  ],
+  "icon": null
+ },
+ "Devastating Flames": {
+  "ids": [
+   806993
+  ],
+  "icon": null
+ },
+ "Devour Mana": {
+  "ids": [
+   800104
+  ],
+  "icon": null
+ },
+ "Dismantle": {
+  "ids": [
+   806707
+  ],
+  "icon": null
+ },
+ "Displace Familiar": {
+  "ids": [
+   800741
+  ],
+  "icon": null
+ },
+ "Dominion": {
+  "ids": [
+   800045
+  ],
+  "icon": null
+ },
+ "Earth and Water": {
+  "ids": [
+   707235
+  ],
+  "icon": null
+ },
+ "Earth Carving": {
+  "ids": [
+   712300
+  ],
+  "icon": null
+ },
+ "Earthen Aura": {
+  "ids": [
+   802659
+  ],
+  "icon": null
+ },
+ "Earthen Codex": {
+  "ids": [
+   707460
+  ],
+  "icon": null
+ },
+ "Earthen Endurance": {
+  "ids": [
+   653302
+  ],
+  "icon": null
+ },
+ "Earthen Fists": {
+  "ids": [
+   806982
+  ],
+  "icon": null
+ },
+ "Earth Engraving": {
+  "ids": [
+   653219
+  ],
+  "icon": null
+ },
+ "Earthen Roots Trigger": {
+  "ids": [
+   802654
+  ],
+  "icon": null
+ },
+ "Earthen Wind": {
+  "ids": [
+   532729
+  ],
+  "icon": null
+ },
+ "Earthen Winds": {
+  "ids": [
+   532730
+  ],
+  "icon": null
+ },
+ "Earth, Wind, and Fire": {
+  "ids": [
+   706531
+  ],
+  "icon": null
+ },
+ "Echo": {
+  "ids": [
+   500272
+  ],
+  "icon": null
+ },
+ "Echoes of Eternity": {
+  "ids": [
+   521211
+  ],
+  "icon": null
+ },
+ "Echo Fragment delayed removal": {
+  "ids": [
+   803526
+  ],
+  "icon": null
+ },
+ "Echo Fragment Removal": {
+  "ids": [
+   803723
+  ],
+  "icon": null
+ },
+ "Echoing Wave": {
+  "ids": [
+   521212
+  ],
+  "icon": null
+ },
+ "Echo Rune": {
+  "ids": [
+   500270
+  ],
+  "icon": null
+ },
+ "Echo Trigger": {
+  "ids": [
+   803025
+  ],
+  "icon": null
+ },
+ "Elder Magi Rune": {
+  "ids": [
+   500253
+  ],
+  "icon": null
+ },
+ "Elemental Acuity": {
+  "ids": [
+   706671
+  ],
+  "icon": null
+ },
+ "Elemental Assassin": {
+  "ids": [
+   705541
+  ],
+  "icon": null
+ },
+ "Elemental Blade (Arcane)": {
+  "ids": [
+   804951
+  ],
+  "icon": null
+ },
+ "Elemental Blade (Fire)": {
+  "ids": [
+   804949
+  ],
+  "icon": null
+ },
+ "Elemental Blade Remover": {
+  "ids": [
+   805005
+  ],
+  "icon": null
+ },
+ "Elemental Burst": {
+  "ids": [
+   802202
+  ],
+  "icon": null
+ },
+ "Elemental Burst Fire": {
+  "ids": [
+   520066
+  ],
+  "icon": null
+ },
+ "Elemental Burst Frost": {
+  "ids": [
+   520065
+  ],
+  "icon": null
+ },
+ "Elemental Carvings": {
+  "ids": [
+   705618
+  ],
+  "icon": null
+ },
+ "Elemental Inscription": {
+  "ids": [
+   706226
+  ],
+  "icon": null
+ },
+ "Elementalist": {
+  "ids": [
+   300583
+  ],
+  "icon": null
+ },
+ "Elemental Mastery": {
+  "ids": [
+   806711
+  ],
+  "icon": null
+ },
+ "Elemental Obliteration": {
+  "ids": [
+   800763
+  ],
+  "icon": null
+ },
+ "Elemental Prowess": {
+  "ids": [
+   705606
+  ],
+  "icon": null
+ },
+ "Elemental Scribe": {
+  "ids": [
+   706682
+  ],
+  "icon": null
+ },
+ "Elemental Secrets": {
+  "ids": [
+   707149
+  ],
+  "icon": "novart_books_(7)_border"
+ },
+ "Elemental Strikes": {
+  "ids": [
+   806704
+  ],
+  "icon": null
+ },
+ "Elements, Heed My Call!": {
+  "ids": [
+   706670
+  ],
+  "icon": null
+ },
+ "Elements of Fury": {
+  "ids": [
+   707413
+  ],
+  "icon": "ability_shaman_echooftheelements"
+ },
+ "Empowered Magi": {
+  "ids": [
+   706463
+  ],
+  "icon": null
+ },
+ "Enchanted Blades": {
+  "ids": [
+   801108
+  ],
+  "icon": null
+ },
+ "Energized": {
+  "ids": [
+   805275
+  ],
+  "icon": null
+ },
+ "Engraved and Ready": {
+  "ids": [
+   706364
+  ],
+  "icon": null
+ },
+ "Engravement - Level 15 Passive": {
+  "ids": [
+   807506
+  ],
+  "icon": null
+ },
+ "Engravement - Level 40 Passive": {
+  "ids": [
+   705622
+  ],
+  "icon": null
+ },
+ "Engraving Primordial Energy Proc Aura": {
+  "ids": [
+   520123
+  ],
+  "icon": null
+ },
+ "Etch": {
+  "ids": [
+   805623
+  ],
+  "icon": null
+ },
+ "Etching of the Dextrous": {
+  "ids": [
+   561237
+  ],
+  "icon": null
+ },
+ "Etching of the Leylines": {
+  "ids": [
+   561236
+  ],
+  "icon": null
+ },
+ "Etching of the Magi": {
+  "ids": [
+   560295
+  ],
+  "icon": null
+ },
+ "Eternal Burst": {
+  "ids": [
+   800192
+  ],
+  "icon": null
+ },
+ "Eternal Magic": {
+  "ids": [
+   806698
+  ],
+  "icon": null
+ },
+ "Evasive": {
+  "ids": [
+   805767
+  ],
+  "icon": null
+ },
+ "Everfrost Scroll": {
+  "ids": [
+   801090
+  ],
+  "icon": null
+ },
+ "Expel Fire": {
+  "ids": [
+   706225
+  ],
+  "icon": null
+ },
+ "Expel Frost": {
+  "ids": [
+   706224
+  ],
+  "icon": null
+ },
+ "Expert Elementalist": {
+  "ids": [
+   807505
+  ],
+  "icon": "inv_elemental_eternal_shadow"
+ },
+ "Explosive Runes": {
+  "ids": [
+   521219
+  ],
+  "icon": null
+ },
+ "Eye of the Beholder": {
+  "ids": [
+   500121
+  ],
+  "icon": "nhi_arcanevision_border"
+ },
+ "Familiar Attunement: Arcane": {
+  "ids": [
+   704268
+  ],
+  "icon": null
+ },
+ "Familiar Attunement: Fire": {
+  "ids": [
+   524698
+  ],
+  "icon": null
+ },
+ "Familiar Attunement: Frost": {
+  "ids": [
+   704267
+  ],
+  "icon": null
+ },
+ "Familiar Manashroud Remover": {
+  "ids": [
+   560044
+  ],
+  "icon": null
+ },
+ "Fate": {
+  "ids": [
+   645441
+  ],
+  "icon": null
+ },
+ "Finally Silence": {
+  "ids": [
+   572713
+  ],
+  "icon": null
+ },
+ "Fire Blade": {
+  "ids": [
+   706665
+  ],
+  "icon": null
+ },
+ "Firebrand": {
+  "ids": [
+   578337
+  ],
+  "icon": null
+ },
+ "Firebrand Conditioned Proc": {
+  "ids": [
+   681241
+  ],
+  "icon": null
+ },
+ "Fire Carving": {
+  "ids": [
+   706520
+  ],
+  "icon": null
+ },
+ "Fire Engraving": {
+  "ids": [
+   653211
+  ],
+  "icon": null
+ },
+ "Fire Mark": {
+  "ids": [
+   535213
+  ],
+  "icon": null
+ },
+ "Fire Mastery": {
+  "ids": [
+   705587
+  ],
+  "icon": null
+ },
+ "Fist of the Ancients": {
+  "ids": [
+   712326
+  ],
+  "icon": null
+ },
+ "Fist of the Ancients (Runic Tempest)": {
+  "ids": [
+   712355
+  ],
+  "icon": null
+ },
+ "Fists of Power": {
+  "ids": [
+   92153
+  ],
+  "icon": null
+ },
+ "Flak Target": {
+  "ids": [
+   520685
+  ],
+  "icon": null
+ },
+ "Flame Eruption": {
+  "ids": [
+   520112
+  ],
+  "icon": null
+ },
+ "Flame Glyph": {
+  "ids": [
+   520091
+  ],
+  "icon": null
+ },
+ "Flame Salvo": {
+  "ids": [
+   800729
+  ],
+  "icon": null
+ },
+ "Flame Salvo (Melee)": {
+  "ids": [
+   804510
+  ],
+  "icon": null
+ },
+ "Flame Transcriptions": {
+  "ids": [
+   525601
+  ],
+  "icon": null
+ },
+ "Flowing Aura": {
+  "ids": [
+   802660
+  ],
+  "icon": null
+ },
+ "Flowing Rivers": {
+  "ids": [
+   524697
+  ],
+  "icon": null
+ },
+ "Flowing Waters Trigger": {
+  "ids": [
+   802656
+  ],
+  "icon": null
+ },
+ "Focusing Crystals": {
+  "ids": [
+   705564
+  ],
+  "icon": "spell_arcane_blast"
+ },
+ "Forbidden Engraving": {
+  "ids": [
+   705543
+  ],
+  "icon": null
+ },
+ "Forcefield": {
+  "ids": [
+   805842
+  ],
+  "icon": null
+ },
+ "For the Salvos!": {
+  "ids": [
+   705552
+  ],
+  "icon": null
+ },
+ "Fortitude of Air": {
+  "ids": [
+   705694
+  ],
+  "icon": null
+ },
+ "Fracture": {
+  "ids": [
+   803018
+  ],
+  "icon": null
+ },
+ "Fractured": {
+  "ids": [
+   801101
+  ],
+  "icon": null
+ },
+ "Fragmentation": {
+  "ids": [
+   800959
+  ],
+  "icon": null
+ },
+ "Fragmented": {
+  "ids": [
+   712338
+  ],
+  "icon": null
+ },
+ "Freezing Codex": {
+  "ids": [
+   705577
+  ],
+  "icon": null
+ },
+ "Frigid Blast": {
+  "ids": [
+   500118
+  ],
+  "icon": "skill_icon_skill40_border"
+ },
+ "Frigid Elements": {
+  "ids": [
+   707654
+  ],
+  "icon": "nhi_magicdevour_border"
+ },
+ "Frigid Fusion": {
+  "ids": [
+   572338
+  ],
+  "icon": null
+ },
+ "Frigid Spectre": {
+  "ids": [
+   706529
+  ],
+  "icon": null
+ },
+ "Frost Blade": {
+  "ids": [
+   706666
+  ],
+  "icon": null
+ },
+ "Frostburn": {
+  "ids": [
+   561063
+  ],
+  "icon": null
+ },
+ "Frost Claw": {
+  "ids": [
+   807208
+  ],
+  "icon": null
+ },
+ "Frostfire": {
+  "ids": [
+   801114
+  ],
+  "icon": null
+ },
+ "Frost Glyph": {
+  "ids": [
+   92152
+  ],
+  "icon": "70_inscription_vantus_rune_azure"
+ },
+ "Frost Mastery": {
+  "ids": [
+   705588
+  ],
+  "icon": null
+ },
+ "Frost Prison": {
+  "ids": [
+   801105
+  ],
+  "icon": null
+ },
+ "Frost Salvo": {
+  "ids": [
+   800730
+  ],
+  "icon": null
+ },
+ "Frost Salvo (Melee)": {
+  "ids": [
+   804511
+  ],
+  "icon": null
+ },
+ "Frost Sigil": {
+  "ids": [
+   500285
+  ],
+  "icon": null
+ },
+ "Frost Spectre": {
+  "ids": [
+   560039
+  ],
+  "icon": null
+ },
+ "Frost Storm": {
+  "ids": [
+   807031
+  ],
+  "icon": null
+ },
+ "Frost Transcriptions": {
+  "ids": [
+   525516
+  ],
+  "icon": null
+ },
+ "Frozen": {
+  "ids": [
+   560231
+  ],
+  "icon": null
+ },
+ "Frozen Earth": {
+  "ids": [
+   705592
+  ],
+  "icon": null
+ },
+ "Frozen Inferno": {
+  "ids": [
+   705571
+  ],
+  "icon": null
+ },
+ "Frozen Pulse": {
+  "ids": [
+   520324
+  ],
+  "icon": null
+ },
+ "Frozen Pulse Triggoni": {
+  "ids": [
+   524695
+  ],
+  "icon": null
+ },
+ "Genesis": {
+  "ids": [
+   500501
+  ],
+  "icon": null
+ },
+ "Geothermal": {
+  "ids": [
+   300722
+  ],
+  "icon": null
+ },
+ "Glacial Rune": {
+  "ids": [
+   805730
+  ],
+  "icon": null
+ },
+ "Glowing Glyphs": {
+  "ids": [
+   706382
+  ],
+  "icon": null
+ },
+ "Glyph Cleaner": {
+  "ids": [
+   520933
+  ],
+  "icon": null
+ },
+ "Glyph Cleaner Starter": {
+  "ids": [
+   520856
+  ],
+  "icon": null
+ },
+ "Glyph God": {
+  "ids": [
+   520156
+  ],
+  "icon": "ability_racial_ultravision"
+ },
+ "Glyphic Arcane Blade": {
+  "ids": [
+   532454
+  ],
+  "icon": null
+ },
+ "Glyphic Arcane Trigger": {
+  "ids": [
+   582586
+  ],
+  "icon": null
+ },
+ "Glyphic Blade": {
+  "ids": [
+   532457
+  ],
+  "icon": null
+ },
+ "Glyphic Companion": {
+  "ids": [
+   705623
+  ],
+  "icon": null
+ },
+ "Glyphic Destruction": {
+  "ids": [
+   800758
+  ],
+  "icon": "achievement_zone_crystalsong_01"
+ },
+ "Glyphic Fire Blade": {
+  "ids": [
+   532453
+  ],
+  "icon": null
+ },
+ "Glyphic Fire Trigger": {
+  "ids": [
+   582585
+  ],
+  "icon": null
+ },
+ "Glyphic Frost Blade": {
+  "ids": [
+   532455
+  ],
+  "icon": null
+ },
+ "Glyphic Frost Trigger": {
+  "ids": [
+   582587
+  ],
+  "icon": null
+ },
+ "Glyphic Infusion": {
+  "ids": [
+   800733
+  ],
+  "icon": null
+ },
+ "Glyphic Invocation": {
+  "ids": [
+   704141
+  ],
+  "icon": null
+ },
+ "Glyphic Overload": {
+  "ids": [
+   520099
+  ],
+  "icon": "glyphicoverload"
+ },
+ "Glyphic Overload Remover": {
+  "ids": [
+   520301
+  ],
+  "icon": null
+ },
+ "Glyphic Ruin": {
+  "ids": [
+   801179
+  ],
+  "icon": "achievement_raidprimalist_council"
+ },
+ "Glyphic Ruin Snapshot Arcane": {
+  "ids": [
+   520889
+  ],
+  "icon": null
+ },
+ "Glyphic Ruin Snapshot Flame": {
+  "ids": [
+   520888
+  ],
+  "icon": null
+ },
+ "Glyphic Ruin Snapshot Frost": {
+  "ids": [
+   520887
+  ],
+  "icon": null
+ },
+ "Glyph Master": {
+  "ids": [
+   520015
+  ],
+  "icon": "nhi_arcanestone_border"
+ },
+ "Glyph of Disappearance": {
+  "ids": [
+   560037
+  ],
+  "icon": null
+ },
+ "Glyph Seeker": {
+  "ids": [
+   705627
+  ],
+  "icon": "inv_pet_wretchedelf"
+ },
+ "Glyphs of Power": {
+  "ids": [
+   520145
+  ],
+  "icon": "inv_misc_rune_03"
+ },
+ "Glyph Trigger Obliteration": {
+  "ids": [
+   520918
+  ],
+  "icon": null
+ },
+ "Glypic Overload Periodic Remover": {
+  "ids": [
+   520300
+  ],
+  "icon": null
+ },
+ "Golemancy Check": {
+  "ids": [
+   704297
+  ],
+  "icon": null
+ },
+ "Golemancy Force Reapply Runic Familiar": {
+  "ids": [
+   704298
+  ],
+  "icon": null
+ },
+ "Golemancy Hidden Passive": {
+  "ids": [
+   704284
+  ],
+  "icon": null
+ },
+ "Golemancy Scale": {
+  "ids": [
+   806701
+  ],
+  "icon": null
+ },
+ "Graceful": {
+  "ids": [
+   806708
+  ],
+  "icon": null
+ },
+ "Granite Resolve": {
+  "ids": [
+   520229
+  ],
+  "icon": "nhi_earthtranquility_border"
+ },
+ "Granite Shield": {
+  "ids": [
+   520822
+  ],
+  "icon": null
+ },
+ "Greater Etching of the Dextrous": {
+  "ids": [
+   561241
+  ],
+  "icon": null
+ },
+ "Greater Etching of the Leylines": {
+  "ids": [
+   561242
+  ],
+  "icon": null
+ },
+ "Greater Etching of the Magi": {
+  "ids": [
+   561243
+  ],
+  "icon": null
+ },
+ "Greater Inscription: Arcane": {
+  "ids": [
+   561255
+  ],
+  "icon": null
+ },
+ "Greater Inscription: Fire": {
+  "ids": [
+   561251
+  ],
+  "icon": null
+ },
+ "Greater Inscription: Frost": {
+  "ids": [
+   561247
+  ],
+  "icon": null
+ },
+ "Greater Inscription: Leyline": {
+  "ids": [
+   561264
+  ],
+  "icon": null
+ },
+ "Greater Inscription: Nature": {
+  "ids": [
+   561259
+  ],
+  "icon": null
+ },
+ "Greater Runes": {
+  "ids": [
+   520124
+  ],
+  "icon": null
+ },
+ "Guarding Rune": {
+  "ids": [
+   500464
+  ],
+  "icon": null
+ },
+ "Harnessed Leylines": {
+  "ids": [
+   804316
+  ],
+  "icon": null
+ },
+ "Harnessing Leylines": {
+  "ids": [
+   704139
+  ],
+  "icon": "novart_magicspell_(25)_border"
+ },
+ "Harvested Ley Energy": {
+  "ids": [
+   803258
+  ],
+  "icon": null
+ },
+ "Hasty Imbue": {
+  "ids": [
+   705584
+  ],
+  "icon": null
+ },
+ "Heavy Spider Bomb Passive": {
+  "ids": [
+   802783
+  ],
+  "icon": null
+ },
+ "Hellseed Ritual": {
+  "ids": [
+   804170
+  ],
+  "icon": null
+ },
+ "Hidden Flame": {
+  "ids": [
+   560232
+  ],
+  "icon": null
+ },
+ "Hired Crossbow": {
+  "ids": [
+   705501
+  ],
+  "icon": null
+ },
+ "Hoarfrost": {
+  "ids": [
+   801104
+  ],
+  "icon": null
+ },
+ "Hoarfrost Checker": {
+  "ids": [
+   572755
+  ],
+  "icon": null
+ },
+ "Homebound Runestone": {
+  "ids": [
+   560316
+  ],
+  "icon": null
+ },
+ "Hurricane": {
+  "ids": [
+   645435
+  ],
+  "icon": null
+ },
+ "Hydros": {
+  "ids": [
+   713002
+  ],
+  "icon": null
+ },
+ "Hypothermia": {
+  "ids": [
+   560068
+  ],
+  "icon": null
+ },
+ "Iceborn Resilience": {
+  "ids": [
+   531526
+  ],
+  "icon": null
+ },
+ "Ice Engraving": {
+  "ids": [
+   653266
+  ],
+  "icon": null
+ },
+ "Ice Magi": {
+  "ids": [
+   807375
+  ],
+  "icon": null
+ },
+ "Ice Mastery": {
+  "ids": [
+   560045
+  ],
+  "icon": null
+ },
+ "Ice Rune": {
+  "ids": [
+   524930
+  ],
+  "icon": null
+ },
+ "Icy Runes": {
+  "ids": [
+   705595
+  ],
+  "icon": null
+ },
+ "Icy Shackles": {
+  "ids": [
+   800309
+  ],
+  "icon": null
+ },
+ "Ignis": {
+  "ids": [
+   712668
+  ],
+  "icon": null
+ },
+ "Imbued Companion Air": {
+  "ids": [
+   802651
+  ],
+  "icon": null
+ },
+ "Imbued Companion Earth": {
+  "ids": [
+   802653
+  ],
+  "icon": null
+ },
+ "Imbued Companion Fire": {
+  "ids": [
+   802649
+  ],
+  "icon": null
+ },
+ "Imbued Companion Water": {
+  "ids": [
+   802655
+  ],
+  "icon": null
+ },
+ "Improved Atomic Split": {
+  "ids": [
+   802035
+  ],
+  "icon": null
+ },
+ "Improved Elemental Blade": {
+  "ids": [
+   704406
+  ],
+  "icon": null
+ },
+ "Improved Fastcast": {
+  "ids": [
+   705637
+  ],
+  "icon": null
+ },
+ "Improved Primordial Blast": {
+  "ids": [
+   705607
+  ],
+  "icon": null
+ },
+ "Improved Spellsling": {
+  "ids": [
+   705537
+  ],
+  "icon": null
+ },
+ "Improved Warpslide": {
+  "ids": [
+   520549
+  ],
+  "icon": null
+ },
+ "Inferno Rune": {
+  "ids": [
+   803257
+  ],
+  "icon": null
+ },
+ "Init Blade Of": {
+  "ids": [
+   804955
+  ],
+  "icon": null
+ },
+ "Innovation": {
+  "ids": [
+   800759
+  ],
+  "icon": null
+ },
+ "Inscribed Rune Checker DEPRECATED": {
+  "ids": [
+   520122
+  ],
+  "icon": null
+ },
+ "Inscribe Rune": {
+  "ids": [
+   800723
+  ],
+  "icon": null
+ },
+ "Inscription: Arcane": {
+  "ids": [
+   561252
+  ],
+  "icon": null
+ },
+ "Inscription: Fire": {
+  "ids": [
+   561248
+  ],
+  "icon": null
+ },
+ "Inscription: Frost": {
+  "ids": [
+   561244
+  ],
+  "icon": null
+ },
+ "Inscription: Leyline": {
+  "ids": [
+   561260
+  ],
+  "icon": null
+ },
+ "Inscription: Nature": {
+  "ids": [
+   561256
+  ],
+  "icon": null
+ },
+ "Inscription: Permafrost": {
+  "ids": [
+   503423
+  ],
+  "icon": null
+ },
+ "Inscription: Sorcery": {
+  "ids": [
+   560033
+  ],
+  "icon": null
+ },
+ "In Your Element": {
+  "ids": [
+   802646
+  ],
+  "icon": null
+ },
+ "Jagged Reinforcement": {
+  "ids": [
+   653281
+  ],
+  "icon": null
+ },
+ "Khadgar's Revenge": {
+  "ids": [
+   805983
+  ],
+  "icon": null
+ },
+ "Kirin Tor Adept": {
+  "ids": [
+   705635
+  ],
+  "icon": null
+ },
+ "Kirin Tor Agent": {
+  "ids": [
+   705634
+  ],
+  "icon": "inv_staff_2h_artifactaegwynsstaff_d_06"
+ },
+ "Leyborn": {
+  "ids": [
+   705609
+  ],
+  "icon": null
+ },
+ "Leybreaker": {
+  "ids": [
+   520555
+  ],
+  "icon": null
+ },
+ "Ley Constitution": {
+  "ids": [
+   705562
+  ],
+  "icon": "spell_shadow_mindtwisting"
+ },
+ "Leyfeed": {
+  "ids": [
+   520269
+  ],
+  "icon": null
+ },
+ "Ley Focus": {
+  "ids": [
+   805723
+  ],
+  "icon": null
+ },
+ "Leyfrost": {
+  "ids": [
+   712308
+  ],
+  "icon": null
+ },
+ "Leyline Adjustment": {
+  "ids": [
+   561265
+  ],
+  "icon": null
+ },
+ "Leyline Channeling": {
+  "ids": [
+   573332
+  ],
+  "icon": null
+ },
+ "Leyline Disturbance": {
+  "ids": [
+   560540
+  ],
+  "icon": null
+ },
+ "Leyline Fractures": {
+  "ids": [
+   520078
+  ],
+  "icon": null
+ },
+ "Leyline Magician": {
+  "ids": [
+   520146
+  ],
+  "icon": null
+ },
+ "Leyline Rider": {
+  "ids": [
+   805616
+  ],
+  "icon": null
+ },
+ "Leyline Stalker": {
+  "ids": [
+   704138
+  ],
+  "icon": null
+ },
+ "Leyline Tattoos": {
+  "ids": [
+   653229
+  ],
+  "icon": null
+ },
+ "Ley Lock": {
+  "ids": [
+   800995
+  ],
+  "icon": null
+ },
+ "Ley Magician": {
+  "ids": [
+   804580
+  ],
+  "icon": "_auracloak_fire"
+ },
+ "Ley Mark": {
+  "ids": [
+   504844
+  ],
+  "icon": null
+ },
+ "Ley Power": {
+  "ids": [
+   801096
+  ],
+  "icon": null
+ },
+ "Ley Reflection": {
+  "ids": [
+   500500
+  ],
+  "icon": null
+ },
+ "Ley Spectre": {
+  "ids": [
+   704398
+  ],
+  "icon": null
+ },
+ "Leystone Springs": {
+  "ids": [
+   300581
+  ],
+  "icon": null
+ },
+ "Ley Synergy": {
+  "ids": [
+   706673
+  ],
+  "icon": null
+ },
+ "Ley Walker": {
+  "ids": [
+   500250
+  ],
+  "icon": "leywalk"
+ },
+ "Lil Buddy Aura": {
+  "ids": [
+   706470
+  ],
+  "icon": null
+ },
+ "Linger": {
+  "ids": [
+   800740
+  ],
+  "icon": null
+ },
+ "Lithos": {
+  "ids": [
+   712858
+  ],
+  "icon": null
+ },
+ "Magebreaker": {
+  "ids": [
+   704430
+  ],
+  "icon": null
+ },
+ "Magecraft Bolt": {
+  "ids": [
+   804135
+  ],
+  "icon": null
+ },
+ "Magic Etchings": {
+  "ids": [
+   300582
+  ],
+  "icon": null
+ },
+ "Magic Feeder": {
+  "ids": [
+   705546
+  ],
+  "icon": "ability_racial_shadowmeld"
+ },
+ "Magician": {
+  "ids": [
+   560942
+  ],
+  "icon": null
+ },
+ "Magic Impact": {
+  "ids": [
+   806717
+  ],
+  "icon": null
+ },
+ "Magic Intolerance": {
+  "ids": [
+   806798
+  ],
+  "icon": null
+ },
+ "Magic Reinforcement": {
+  "ids": [
+   653304
+  ],
+  "icon": null
+ },
+ "Magic Tolerance": {
+  "ids": [
+   806716
+  ],
+  "icon": null
+ },
+ "Magic Well": {
+  "ids": [
+   800744
+  ],
+  "icon": null
+ },
+ "Magmastrike": {
+  "ids": [
+   806987
+  ],
+  "icon": null
+ },
+ "Magnificence of Millhouse": {
+  "ids": [
+   705630
+  ],
+  "icon": null
+ },
+ "Manamelt": {
+  "ids": [
+   805353
+  ],
+  "icon": null
+ },
+ "Mana Shroud": {
+  "ids": [
+   560987
+  ],
+  "icon": null
+ },
+ "Mana Shroud Blade Aura Check": {
+  "ids": [
+   560408
+  ],
+  "icon": null
+ },
+ "Mana Shroud Blade CD": {
+  "ids": [
+   560271
+  ],
+  "icon": null
+ },
+ "Mana Shroud Condition": {
+  "ids": [
+   560085
+  ],
+  "icon": null
+ },
+ "Manastorm": {
+  "ids": [
+   502614
+  ],
+  "icon": null
+ },
+ "Manastrike": {
+  "ids": [
+   502603
+  ],
+  "icon": null
+ },
+ "Mana Tap": {
+  "ids": [
+   805538
+  ],
+  "icon": null
+ },
+ "Manuscription": {
+  "ids": [
+   524952
+  ],
+  "icon": "inv_inscription_80_contract_vulpera"
+ },
+ "Marked: Runic Brand": {
+  "ids": [
+   712323
+  ],
+  "icon": null
+ },
+ "Mark of Strength": {
+  "ids": [
+   560050
+  ],
+  "icon": null
+ },
+ "Master Engraver": {
+  "ids": [
+   705605
+  ],
+  "icon": "inv_blacksmithing_greatersharpeningstone"
+ },
+ "Master of Runes": {
+  "ids": [
+   804531
+  ],
+  "icon": "inv_custom_rune"
+ },
+ "Matter Jump": {
+  "ids": [
+   500681
+  ],
+  "icon": null
+ },
+ "Matter Jump Delayer": {
+  "ids": [
+   500684
+  ],
+  "icon": null
+ },
+ "Matter Swap": {
+  "ids": [
+   803167
+  ],
+  "icon": null
+ },
+ "Melting Runes": {
+  "ids": [
+   803013
+  ],
+  "icon": null
+ },
+ "Mind Guard": {
+  "ids": [
+   804945
+  ],
+  "icon": null
+ },
+ "Mind Over Matter": {
+  "ids": [
+   802669
+  ],
+  "icon": "spell_arcane_mindmastery"
+ },
+ "Mind Wrath": {
+  "ids": [
+   800757
+  ],
+  "icon": "nhi_corruptionmind_border"
+ },
+ "Mooning": {
+  "ids": [
+   706234
+  ],
+  "icon": null
+ },
+ "Mystical Etchings": {
+  "ids": [
+   806795
+  ],
+  "icon": "nhi_arcanestone_border"
+ },
+ "Mysticbind": {
+  "ids": [
+   432526
+  ],
+  "icon": null
+ },
+ "Nature Transcriptions": {
+  "ids": [
+   525395
+  ],
+  "icon": null
+ },
+ "Nomad's Scroll": {
+  "ids": [
+   707653
+  ],
+  "icon": "inv_ascend_scroll_07_b"
+ },
+ "Obliteration": {
+  "ids": [
+   800751
+  ],
+  "icon": null
+ },
+ "Oblivion Ball": {
+  "ids": [
+   520550
+  ],
+  "icon": null
+ },
+ "Oblivion Ball test": {
+  "ids": [
+   520528
+  ],
+  "icon": null
+ },
+ "Ocean Current": {
+  "ids": [
+   806992
+  ],
+  "icon": null
+ },
+ "Ocean Currents": {
+  "ids": [
+   806988
+  ],
+  "icon": null
+ },
+ "Open Riftgate": {
+  "ids": [
+   500279
+  ],
+  "icon": null
+ },
+ "Orb of Flame": {
+  "ids": [
+   804529
+  ],
+  "icon": null
+ },
+ "Orb of Frost": {
+  "ids": [
+   804530
+  ],
+  "icon": null
+ },
+ "Overloaded Arcane Glyph": {
+  "ids": [
+   520106
+  ],
+  "icon": null
+ },
+ "Overloaded Flame Glyph": {
+  "ids": [
+   520107
+  ],
+  "icon": null
+ },
+ "Overloaded Frost Glyph": {
+  "ids": [
+   520108
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Arcane": {
+  "ids": [
+   805380
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Earth": {
+  "ids": [
+   560233
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Fire": {
+  "ids": [
+   534803
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Frost": {
+  "ids": [
+   805381
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Water": {
+  "ids": [
+   500639
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Wind": {
+  "ids": [
+   807013
+  ],
+  "icon": null
+ },
+ "Permafrost Rune": {
+  "ids": [
+   804060
+  ],
+  "icon": "nhi_icestone_border"
+ },
+ "Phase Out": {
+  "ids": [
+   500671
+  ],
+  "icon": "ability_mage_greaterinvisibility"
+ },
+ "Phaser": {
+  "ids": [
+   706518
+  ],
+  "icon": null
+ },
+ "Phase Rush": {
+  "ids": [
+   805724
+  ],
+  "icon": "ability_socererking_arcaneacceleration"
+ },
+ "Pierce Resistances": {
+  "ids": [
+   704429
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   805626
+  ],
+  "icon": null
+ },
+ "Plasma Ball": {
+  "ids": [
+   802966
+  ],
+  "icon": null
+ },
+ "Poised Reinforcement": {
+  "ids": [
+   653305
+  ],
+  "icon": null
+ },
+ "Portal Hopper": {
+  "ids": [
+   705553
+  ],
+  "icon": null
+ },
+ "Power Engraving": {
+  "ids": [
+   500296
+  ],
+  "icon": "ability_deathknight_hungeringruneblade"
+ },
+ "Power of Air": {
+  "ids": [
+   705696
+  ],
+  "icon": null
+ },
+ "Power Overload": {
+  "ids": [
+   500499
+  ],
+  "icon": null
+ },
+ "Power Overwhelming": {
+  "ids": [
+   560051
+  ],
+  "icon": null
+ },
+ "Predictive Writing": {
+  "ids": [
+   525301
+  ],
+  "icon": null
+ },
+ "Premonition": {
+  "ids": [
+   806926
+  ],
+  "icon": null
+ },
+ "Premonition: Arcane Blade": {
+  "ids": [
+   561275
+  ],
+  "icon": null
+ },
+ "Premonition: Fire Blade": {
+  "ids": [
+   561015
+  ],
+  "icon": null
+ },
+ "Premonition: Frost Blade": {
+  "ids": [
+   561276
+  ],
+  "icon": null
+ },
+ "Primal Rune": {
+  "ids": [
+   705636
+  ],
+  "icon": "ability_druid_fortifiedbark"
+ },
+ "Primeval Carving": {
+  "ids": [
+   712327
+  ],
+  "icon": null
+ },
+ "Primordial Blast": {
+  "ids": [
+   800732
+  ],
+  "icon": null
+ },
+ "Primordial Cloak Primordial Energy Trigger": {
+  "ids": [
+   520490
+  ],
+  "icon": null
+ },
+ "Primordial Cloak Trigger": {
+  "ids": [
+   520416
+  ],
+  "icon": null
+ },
+ "Primordial Echoes": {
+  "ids": [
+   705572
+  ],
+  "icon": null
+ },
+ "Primordial Echoes Trigger": {
+  "ids": [
+   547525
+  ],
+  "icon": null
+ },
+ "Primordial Engraving": {
+  "ids": [
+   704140
+  ],
+  "icon": null
+ },
+ "Primordial Fury": {
+  "ids": [
+   801095
+  ],
+  "icon": null
+ },
+ "Primordial Glyphs": {
+  "ids": [
+   705601
+  ],
+  "icon": null
+ },
+ "Primordialism": {
+  "ids": [
+   520054
+  ],
+  "icon": "spell_nature_astralrecalgroup"
+ },
+ "Primordial Power": {
+  "ids": [
+   680466
+  ],
+  "icon": null
+ },
+ "Primordial Precision": {
+  "ids": [
+   520144
+  ],
+  "icon": null
+ },
+ "Primordial Pulse": {
+  "ids": [
+   300578
+  ],
+  "icon": "primordialpulse"
+ },
+ "Primordial Rehabilitation": {
+  "ids": [
+   572712
+  ],
+  "icon": null
+ },
+ "Primordial Salvos": {
+  "ids": [
+   800752
+  ],
+  "icon": "ability_shaman_ascendance"
+ },
+ "Primordial Strength": {
+  "ids": [
+   301149
+  ],
+  "icon": null
+ },
+ "Primordial Studies": {
+  "ids": [
+   524982
+  ],
+  "icon": null
+ },
+ "Primordial Sweep": {
+  "ids": [
+   572328
+  ],
+  "icon": null
+ },
+ "Prismatic Blade": {
+  "ids": [
+   804127
+  ],
+  "icon": null
+ },
+ "Prismatic Detonation": {
+  "ids": [
+   806541
+  ],
+  "icon": null
+ },
+ "Prismatic Flow": {
+  "ids": [
+   561053
+  ],
+  "icon": null
+ },
+ "Prismatic flow delay": {
+  "ids": [
+   560375
+  ],
+  "icon": null
+ },
+ "Prismatic Knight": {
+  "ids": [
+   804129
+  ],
+  "icon": null
+ },
+ "Protective Warding": {
+  "ids": [
+   800753
+  ],
+  "icon": null
+ },
+ "Pulverized Armor": {
+  "ids": [
+   704167
+  ],
+  "icon": null
+ },
+ "Purging Fire": {
+  "ids": [
+   706530
+  ],
+  "icon": null
+ },
+ "Quicksand": {
+  "ids": [
+   806986
+  ],
+  "icon": null
+ },
+ "Quickslinger": {
+  "ids": [
+   705626
+  ],
+  "icon": null
+ },
+ "Rapid Conjuration": {
+  "ids": [
+   705610
+  ],
+  "icon": null
+ },
+ "Remove At Least 2 Inscribed Rune DEPRECATED": {
+  "ids": [
+   520120
+  ],
+  "icon": null
+ },
+ "Remove At Least 4 Inscribed Rune DEPRECATED": {
+  "ids": [
+   520118
+  ],
+  "icon": null
+ },
+ "Remove Essences": {
+  "ids": [
+   803019
+  ],
+  "icon": null
+ },
+ "Remove Mind Guard": {
+  "ids": [
+   800715
+  ],
+  "icon": null
+ },
+ "Remove Runic Familiar Aura": {
+  "ids": [
+   704269
+  ],
+  "icon": null
+ },
+ "Reset Order and Chaos (No Incarnate)": {
+  "ids": [
+   704491
+  ],
+  "icon": null
+ },
+ "Residual Power": {
+  "ids": [
+   560040
+  ],
+  "icon": null
+ },
+ "Resonance Rune": {
+  "ids": [
+   803679
+  ],
+  "icon": null
+ },
+ "Riftblade": {
+  "ids": [
+   92154
+  ],
+  "icon": null
+ },
+ "Riftblade - Level 10 Passive": {
+  "ids": [
+   807518
+  ],
+  "icon": null
+ },
+ "Riftblade - Level 15 Passive": {
+  "ids": [
+   500467
+  ],
+  "icon": null
+ },
+ "Riftblade Runemaster": {
+  "ids": [
+   500466
+  ],
+  "icon": null
+ },
+ "Rift Clone": {
+  "ids": [
+   707464
+  ],
+  "icon": null
+ },
+ "Rift Clones": {
+  "ids": [
+   707463
+  ],
+  "icon": null
+ },
+ "Rift Explosion": {
+  "ids": [
+   707466
+  ],
+  "icon": null
+ },
+ "RM Essence Counter Remover": {
+  "ids": [
+   805603
+  ],
+  "icon": null
+ },
+ "RM Glyph Remover Self": {
+  "ids": [
+   520143
+  ],
+  "icon": null
+ },
+ "Runeblade": {
+  "ids": [
+   707141
+  ],
+  "icon": null
+ },
+ "Runeblade (Off-Hand)": {
+  "ids": [
+   712298
+  ],
+  "icon": null
+ },
+ "Runebound Surge": {
+  "ids": [
+   707423
+  ],
+  "icon": null
+ },
+ "Runecarve": {
+  "ids": [
+   804948
+  ],
+  "icon": null
+ },
+ "Runed Cascade": {
+  "ids": [
+   804128
+  ],
+  "icon": null
+ },
+ "Runed Orb": {
+  "ids": [
+   804131
+  ],
+  "icon": null
+ },
+ "Runefeed": {
+  "ids": [
+   804156
+  ],
+  "icon": null
+ },
+ "Runefury": {
+  "ids": [
+   704470
+  ],
+  "icon": null
+ },
+ "Runelord": {
+  "ids": [
+   806984
+  ],
+  "icon": null
+ },
+ "Rune Master": {
+  "ids": [
+   800126
+  ],
+  "icon": null
+ },
+ "Runemaster - Teach Weapon Skills": {
+  "ids": [
+   800241
+  ],
+  "icon": null
+ },
+ "Rune of Bewilderment": {
+  "ids": [
+   537251
+  ],
+  "icon": null
+ },
+ "Rune of Impermanence": {
+  "ids": [
+   806995
+  ],
+  "icon": null
+ },
+ "Rune of Impermanence Knockback Trigger": {
+  "ids": [
+   807229
+  ],
+  "icon": null
+ },
+ "Rune of Resonance": {
+  "ids": [
+   572117
+  ],
+  "icon": null
+ },
+ "Rune of Speed": {
+  "ids": [
+   572137
+  ],
+  "icon": null
+ },
+ "Rune of the Elder Magus": {
+  "ids": [
+   572825
+  ],
+  "icon": null
+ },
+ "Rune of the Kirin Tor": {
+  "ids": [
+   705566
+  ],
+  "icon": null
+ },
+ "Rune Shifter Aura": {
+  "ids": [
+   520100
+  ],
+  "icon": null
+ },
+ "Rune Shifter Aura 2": {
+  "ids": [
+   520101
+  ],
+  "icon": null
+ },
+ "Rune Shifter Aura 3": {
+  "ids": [
+   520102
+  ],
+  "icon": null
+ },
+ "Runeshroud": {
+  "ids": [
+   500288
+  ],
+  "icon": null
+ },
+ "Runesleeve": {
+  "ids": [
+   706383
+  ],
+  "icon": null
+ },
+ "Runeslinger": {
+  "ids": [
+   520760
+  ],
+  "icon": null
+ },
+ "Runes of Quickness": {
+  "ids": [
+   560527
+  ],
+  "icon": "nhi_unholyrune_border"
+ },
+ "Runestone: Dazzling Spray": {
+  "ids": [
+   803010
+  ],
+  "icon": null
+ },
+ "Runestone: Foretelling": {
+  "ids": [
+   803016
+  ],
+  "icon": null
+ },
+ "Runestone: Frost Prison": {
+  "ids": [
+   803014
+  ],
+  "icon": null
+ },
+ "Runestone: Frozen Touch": {
+  "ids": [
+   803015
+  ],
+  "icon": null
+ },
+ "Runestone: Pyrostrike": {
+  "ids": [
+   803009
+  ],
+  "icon": null
+ },
+ "Runestone: Spellsnap": {
+  "ids": [
+   803017
+  ],
+  "icon": null
+ },
+ "Runestone: Torch": {
+  "ids": [
+   803011
+  ],
+  "icon": null
+ },
+ "Runestone: Walking Flame": {
+  "ids": [
+   803012
+  ],
+  "icon": null
+ },
+ "Runesurge": {
+  "ids": [
+   500465
+  ],
+  "icon": null
+ },
+ "Runetouched Hidden (Arcane)": {
+  "ids": [
+   705599
+  ],
+  "icon": null
+ },
+ "Runetouched Hidden (Fire)": {
+  "ids": [
+   705598
+  ],
+  "icon": null
+ },
+ "Runic Affinity": {
+  "ids": [
+   705621
+  ],
+  "icon": "inv_misc_rune_05"
+ },
+ "Runic Brand": {
+  "ids": [
+   712299
+  ],
+  "icon": null
+ },
+ "Runic Breakout": {
+  "ids": [
+   705583
+  ],
+  "icon": "spell_shadow_teleport"
+ },
+ "Runic Convergence": {
+  "ids": [
+   705585
+  ],
+  "icon": null
+ },
+ "Runic Devastation": {
+  "ids": [
+   560994
+  ],
+  "icon": null
+ },
+ "Runic Devastation unused": {
+  "ids": [
+   705545
+  ],
+  "icon": null
+ },
+ "Runic Echoes": {
+  "ids": [
+   806712
+  ],
+  "icon": null
+ },
+ "Runic Expansion": {
+  "ids": [
+   520526
+  ],
+  "icon": null
+ },
+ "Runic Explosion": {
+  "ids": [
+   712324
+  ],
+  "icon": null
+ },
+ "Runic Familiar": {
+  "ids": [
+   800714
+  ],
+  "icon": null
+ },
+ "Runic Familiar Avoidance": {
+  "ids": [
+   805379
+  ],
+  "icon": null
+ },
+ "Runic Familiar DEPRECATED": {
+  "ids": [
+   800713
+  ],
+  "icon": null
+ },
+ "Runic Invocation": {
+  "ids": [
+   500503
+  ],
+  "icon": null
+ },
+ "Runic Knowledge": {
+  "ids": [
+   705578
+  ],
+  "icon": null
+ },
+ "Runic Obliteration": {
+  "ids": [
+   705560
+  ],
+  "icon": "novart_magicspell_(58)_border"
+ },
+ "Runic Omen": {
+  "ids": [
+   520285
+  ],
+  "icon": null
+ },
+ "Runic Power": {
+  "ids": [
+   300944
+  ],
+  "icon": null
+ },
+ "Runic Proliferation": {
+  "ids": [
+   524986
+  ],
+  "icon": null
+ },
+ "Runic Protection Aura": {
+  "ids": [
+   705547
+  ],
+  "icon": null
+ },
+ "Runic Pulse": {
+  "ids": [
+   800671
+  ],
+  "icon": null
+ },
+ "Runic Quickness": {
+  "ids": [
+   805795
+  ],
+  "icon": null
+ },
+ "Runic Shield": {
+  "ids": [
+   806793
+  ],
+  "icon": null
+ },
+ "Runic Tattoos": {
+  "ids": [
+   800736
+  ],
+  "icon": "70_inscription_vantus_rune_azure"
+ },
+ "Runic Tattoos: Air": {
+  "ids": [
+   802630
+  ],
+  "icon": null
+ },
+ "Runic Tattoos: Arcane": {
+  "ids": [
+   803748
+  ],
+  "icon": null
+ },
+ "Runic Tattoos: Earth": {
+  "ids": [
+   801094
+  ],
+  "icon": null
+ },
+ "Runic Tattoos: Fire": {
+  "ids": [
+   801106
+  ],
+  "icon": null
+ },
+ "Runic Tattoos: Frost": {
+  "ids": [
+   807834
+  ],
+  "icon": null
+ },
+ "Runic Tattoos: Water": {
+  "ids": [
+   801107
+  ],
+  "icon": null
+ },
+ "Runic Tempest": {
+  "ids": [
+   560036
+  ],
+  "icon": null
+ },
+ "Runic Tempest Delayed Remover": {
+  "ids": [
+   561126
+  ],
+  "icon": null
+ },
+ "Runic Tempest Remover": {
+  "ids": [
+   561296
+  ],
+  "icon": null
+ },
+ "Runic Wrath": {
+  "ids": [
+   800737
+  ],
+  "icon": null
+ },
+ "Salvage Fragments": {
+  "ids": [
+   805797
+  ],
+  "icon": null
+ },
+ "Salvo Spark": {
+  "ids": [
+   800734
+  ],
+  "icon": null
+ },
+ "Scribed Rune": {
+  "ids": [
+   560993
+  ],
+  "icon": null
+ },
+ "Scroll of Magic": {
+  "ids": [
+   520077
+  ],
+  "icon": null
+ },
+ "Scrying Orb": {
+  "ids": [
+   804674
+  ],
+  "icon": null
+ },
+ "Scrying Orb Levitate Visual": {
+  "ids": [
+   520886
+  ],
+  "icon": null
+ },
+ "Scrying Speed": {
+  "ids": [
+   807246
+  ],
+  "icon": null
+ },
+ "Searing Codex": {
+  "ids": [
+   547526
+  ],
+  "icon": null
+ },
+ "Shard of Arcana": {
+  "ids": [
+   804567
+  ],
+  "icon": null
+ },
+ "Shard of Conflagration": {
+  "ids": [
+   804566
+  ],
+  "icon": null
+ },
+ "Shard of Ice": {
+  "ids": [
+   804582
+  ],
+  "icon": null
+ },
+ "Shrouded Hand": {
+  "ids": [
+   805383
+  ],
+  "icon": null
+ },
+ "Shroudwalker": {
+  "ids": [
+   705563
+  ],
+  "icon": "ability_rogue_shroudofconcealment"
+ },
+ "Sigil Counter": {
+  "ids": [
+   803020
+  ],
+  "icon": null
+ },
+ "Sigilist": {
+  "ids": [
+   705586
+  ],
+  "icon": "inv_ascend_runestone_05"
+ },
+ "Sigil Strike": {
+  "ids": [
+   803067
+  ],
+  "icon": null
+ },
+ "Silence In The Cage": {
+  "ids": [
+   524985
+  ],
+  "icon": null
+ },
+ "Silencing Rune": {
+  "ids": [
+   802631
+  ],
+  "icon": "ability_mage_arcanesurge"
+ },
+ "Sky and Stone": {
+  "ids": [
+   560053
+  ],
+  "icon": null
+ },
+ "Sleet": {
+  "ids": [
+   801117
+  ],
+  "icon": null
+ },
+ "Slowness": {
+  "ids": [
+   560303
+  ],
+  "icon": null
+ },
+ "Smolder": {
+  "ids": [
+   801087
+  ],
+  "icon": null
+ },
+ "Smoldered": {
+  "ids": [
+   712340
+  ],
+  "icon": null
+ },
+ "Sorcerer's Cage": {
+  "ids": [
+   801184
+  ],
+  "icon": null
+ },
+ "Sorcerer's Speedway": {
+  "ids": [
+   705561
+  ],
+  "icon": null
+ },
+ "Speed Rune": {
+  "ids": [
+   572134
+  ],
+  "icon": null
+ },
+ "Speedy Attuner": {
+  "ids": [
+   705554
+  ],
+  "icon": "custom_t_nhance_rpg_icons_magicspeed_border"
+ },
+ "Spellblade": {
+  "ids": [
+   705540
+  ],
+  "icon": null
+ },
+ "Spellblades": {
+  "ids": [
+   801084
+  ],
+  "icon": null
+ },
+ "Spellbrand": {
+  "ids": [
+   560035
+  ],
+  "icon": null
+ },
+ "Spellcraft": {
+  "ids": [
+   800125
+  ],
+  "icon": null
+ },
+ "Spellcraft hidden 2": {
+  "ids": [
+   800562
+  ],
+  "icon": null
+ },
+ "Spellfire Runes": {
+  "ids": [
+   801511
+  ],
+  "icon": null
+ },
+ "Spellfrost Invigoration": {
+  "ids": [
+   705576
+  ],
+  "icon": null
+ },
+ "Spell Impact": {
+  "ids": [
+   805744
+  ],
+  "icon": null
+ },
+ "Spellslinger Glyph Unleash Proc": {
+  "ids": [
+   500414
+  ],
+  "icon": null
+ },
+ "Spellslinger Runemaster": {
+  "ids": [
+   500460
+  ],
+  "icon": null
+ },
+ "Spellsling Essence Generation": {
+  "ids": [
+   705538
+  ],
+  "icon": null
+ },
+ "Spellweaving": {
+  "ids": [
+   803168
+  ],
+  "icon": null
+ },
+ "Spellwrath DEPRECATED": {
+  "ids": [
+   502861
+  ],
+  "icon": null
+ },
+ "Spellwrath Exemplar Elemental Burst": {
+  "ids": [
+   706462
+  ],
+  "icon": null
+ },
+ "Spellwrath Max Stack Applier": {
+  "ids": [
+   520125
+  ],
+  "icon": null
+ },
+ "Spiked Reinforcement": {
+  "ids": [
+   653386
+  ],
+  "icon": null
+ },
+ "Stack The Deck": {
+  "ids": [
+   800711
+  ],
+  "icon": null
+ },
+ "Start Attunement Cycle": {
+  "ids": [
+   500972
+  ],
+  "icon": null
+ },
+ "Steam Conjurer": {
+  "ids": [
+   805743
+  ],
+  "icon": null
+ },
+ "Steamed": {
+  "ids": [
+   802633
+  ],
+  "icon": null
+ },
+ "Steamed Out": {
+  "ids": [
+   802639
+  ],
+  "icon": null
+ },
+ "Stone Petroglyph": {
+  "ids": [
+   707157
+  ],
+  "icon": "nhi_earthmask_border"
+ },
+ "Stone Petroglyphs": {
+  "ids": [
+   712310
+  ],
+  "icon": null
+ },
+ "Stone Savant": {
+  "ids": [
+   520917
+  ],
+  "icon": null
+ },
+ "Stone Savant Recharger": {
+  "ids": [
+   803435
+  ],
+  "icon": null
+ },
+ "Stratus": {
+  "ids": [
+   712404
+  ],
+  "icon": null
+ },
+ "Student of Darkness": {
+  "ids": [
+   705517
+  ],
+  "icon": null
+ },
+ "Surging Slash": {
+  "ids": [
+   572358
+  ],
+  "icon": null
+ },
+ "Swift Aura": {
+  "ids": [
+   802658
+  ],
+  "icon": null
+ },
+ "Swift Etching": {
+  "ids": [
+   500506
+  ],
+  "icon": null
+ },
+ "Swift Winds Trigger": {
+  "ids": [
+   802652
+  ],
+  "icon": null
+ },
+ "Symbols of Power": {
+  "ids": [
+   705613
+  ],
+  "icon": null
+ },
+ "Synergy": {
+  "ids": [
+   570094
+  ],
+  "icon": null
+ },
+ "Tablet of Sorcery": {
+  "ids": [
+   705603
+  ],
+  "icon": null
+ },
+ "Tempo": {
+  "ids": [
+   807172
+  ],
+  "icon": null
+ },
+ "Terraglyphs": {
+  "ids": [
+   705551
+  ],
+  "icon": "custom_t_scrollofearth_border"
+ },
+ "Thaumaturgy": {
+  "ids": [
+   804550
+  ],
+  "icon": "spell_nature_elementalprecision_2"
+ },
+ "The Fastest Caster": {
+  "ids": [
+   806706
+  ],
+  "icon": null
+ },
+ "The Perfect Storm": {
+  "ids": [
+   806794
+  ],
+  "icon": null
+ },
+ "The True Path": {
+  "ids": [
+   712316
+  ],
+  "icon": null
+ },
+ "Tome of Swiftness": {
+  "ids": [
+   802034
+  ],
+  "icon": null
+ },
+ "Torch": {
+  "ids": [
+   500252
+  ],
+  "icon": null
+ },
+ "Tormenting the Tormented": {
+  "ids": [
+   805758
+  ],
+  "icon": null
+ },
+ "Transcribing": {
+  "ids": [
+   525609
+  ],
+  "icon": null
+ },
+ "Translocate": {
+  "ids": [
+   805615
+  ],
+  "icon": null
+ },
+ "Traprune": {
+  "ids": [
+   802234
+  ],
+  "icon": null
+ },
+ "Traprune: Blasting Glyph": {
+  "ids": [
+   800403
+  ],
+  "icon": null
+ },
+ "Trap Runes": {
+  "ids": [
+   805619
+  ],
+  "icon": null
+ },
+ "Traprune: Stunning Glyph": {
+  "ids": [
+   802231
+  ],
+  "icon": null
+ },
+ "Traprune: Unmaking": {
+  "ids": [
+   802320
+  ],
+  "icon": null
+ },
+ "Traprune: Unmaking Glyph": {
+  "ids": [
+   802232
+  ],
+  "icon": null
+ },
+ "Traprune: Wrath": {
+  "ids": [
+   805620
+  ],
+  "icon": null
+ },
+ "Trigger Blade of Fire": {
+  "ids": [
+   805001
+  ],
+  "icon": null
+ },
+ "Trigger Blade of Frost": {
+  "ids": [
+   805002
+  ],
+  "icon": null
+ },
+ "Trigger Blade of Magic": {
+  "ids": [
+   805003
+  ],
+  "icon": null
+ },
+ "Trispell": {
+  "ids": [
+   805734
+  ],
+  "icon": null
+ },
+ "Turbulence": {
+  "ids": [
+   705575
+  ],
+  "icon": null
+ },
+ "Turbulent Spiral": {
+  "ids": [
+   707153
+  ],
+  "icon": null
+ },
+ "Unbound": {
+  "ids": [
+   806718
+  ],
+  "icon": "inv_azerite_explosion"
+ },
+ "Unbound Energy": {
+  "ids": [
+   705570
+  ],
+  "icon": null
+ },
+ "Uncovered Engravings": {
+  "ids": [
+   567233
+  ],
+  "icon": null
+ },
+ "Unleashed Arcane Glyph": {
+  "ids": [
+   520098
+  ],
+  "icon": null
+ },
+ "Unleashed Engravings: Fire": {
+  "ids": [
+   807377
+  ],
+  "icon": null
+ },
+ "Unleashed Engravings: Water": {
+  "ids": [
+   807378
+  ],
+  "icon": null
+ },
+ "Unleashed Flame Glyph": {
+  "ids": [
+   520097
+  ],
+  "icon": null
+ },
+ "Unleashed Frost Glyph": {
+  "ids": [
+   520096
+  ],
+  "icon": null
+ },
+ "Unleashed Power": {
+  "ids": [
+   807504
+  ],
+  "icon": "inv_glyph_primepriest"
+ },
+ "Unleashed Tattoos": {
+  "ids": [
+   804561
+  ],
+  "icon": "skill_icon_skill127_border"
+ },
+ "Unleash Essences": {
+  "ids": [
+   500251
+  ],
+  "icon": null
+ },
+ "Unleash Essences (Only 3)": {
+  "ids": [
+   704617
+  ],
+  "icon": null
+ },
+ "Unleash Glyphs": {
+  "ids": [
+   520882
+  ],
+  "icon": null
+ },
+ "Unleash Runes DEPRECATED": {
+  "ids": [
+   502839
+  ],
+  "icon": null
+ },
+ "Unleash Runes Effect DEPRECATED": {
+  "ids": [
+   802967
+  ],
+  "icon": null
+ },
+ "Unmaker": {
+  "ids": [
+   705631
+  ],
+  "icon": null
+ },
+ "Visual Wild Steam": {
+  "ids": [
+   802638
+  ],
+  "icon": null
+ },
+ "Visual Wild Steam 2": {
+  "ids": [
+   802679
+  ],
+  "icon": null
+ },
+ "Visual Wild Steam 3": {
+  "ids": [
+   803262
+  ],
+  "icon": null
+ },
+ "Volcanic Etching": {
+  "ids": [
+   705615
+  ],
+  "icon": null
+ },
+ "Warding Rune": {
+  "ids": [
+   804232
+  ],
+  "icon": "inv_qiraj_jewelglyphed"
+ },
+ "Warp": {
+  "ids": [
+   500289
+  ],
+  "icon": null
+ },
+ "Warpdagger": {
+  "ids": [
+   500287
+  ],
+  "icon": "warpblade"
+ },
+ "Warpdagger Mana Shroud CD Reduction": {
+  "ids": [
+   560042
+  ],
+  "icon": null
+ },
+ "Warpforce": {
+  "ids": [
+   500278
+  ],
+  "icon": null
+ },
+ "Warpmaster": {
+  "ids": [
+   560992
+  ],
+  "icon": "achievement_dungeon_ulduarraid_archway_01"
+ },
+ "Warprunner": {
+  "ids": [
+   524696
+  ],
+  "icon": null
+ },
+ "Warp Shift": {
+  "ids": [
+   800120
+  ],
+  "icon": null
+ },
+ "Warp Shift (Familiar)": {
+  "ids": [
+   520525
+  ],
+  "icon": null
+ },
+ "Warpskipper": {
+  "ids": [
+   572350
+  ],
+  "icon": null
+ },
+ "Warp-torn": {
+  "ids": [
+   806709
+  ],
+  "icon": null
+ },
+ "Warp Vulnerability": {
+  "ids": [
+   560041
+  ],
+  "icon": null
+ },
+ "Water Carving": {
+  "ids": [
+   707142
+  ],
+  "icon": null
+ },
+ "Water Engraving": {
+  "ids": [
+   653214
+  ],
+  "icon": null
+ },
+ "Water Runes": {
+  "ids": [
+   707150
+  ],
+  "icon": null
+ },
+ "Waveforged": {
+  "ids": [
+   500469
+  ],
+  "icon": null
+ },
+ "Weapon Engraving: Air": {
+  "ids": [
+   653222
+  ],
+  "icon": null
+ },
+ "Weapon Engraving: Arcane": {
+  "ids": [
+   653263
+  ],
+  "icon": null
+ },
+ "Weapon Engraving: Earth": {
+  "ids": [
+   653218
+  ],
+  "icon": null
+ },
+ "Weapon Engraving: Fire": {
+  "ids": [
+   653022
+  ],
+  "icon": null
+ },
+ "Weapon Engraving: Ice": {
+  "ids": [
+   653217
+  ],
+  "icon": null
+ },
+ "Weapon Engraving: Water": {
+  "ids": [
+   653213
+  ],
+  "icon": null
+ },
+ "Weighted Reinforcement": {
+  "ids": [
+   653409
+  ],
+  "icon": null
+ },
+ "Well Educated": {
+  "ids": [
+   800495
+  ],
+  "icon": null
+ },
+ "Whisper": {
+  "ids": [
+   520658
+  ],
+  "icon": null
+ },
+ "Whisperwind": {
+  "ids": [
+   807823
+  ],
+  "icon": null
+ },
+ "Wild Magic": {
+  "ids": [
+   804103
+  ],
+  "icon": null
+ },
+ "Wild Steam": {
+  "ids": [
+   802632
+  ],
+  "icon": null
+ },
+ "Wild Steam Conjurer": {
+  "ids": [
+   802642
+  ],
+  "icon": null
+ },
+ "Windbreaker": {
+  "ids": [
+   804094
+  ],
+  "icon": null
+ },
+ "Wind Runes": {
+  "ids": [
+   706672
+  ],
+  "icon": null
+ },
+ "Windsage": {
+  "ids": [
+   705568
+  ],
+  "icon": null
+ },
+ "Wind Surge": {
+  "ids": [
+   805750
+  ],
+  "icon": null
+ },
+ "Wind Walker": {
+  "ids": [
+   807376
+  ],
+  "icon": "spell_frost_windwalkon"
+ },
+ "Wizardry": {
+  "ids": [
+   705632
+  ],
+  "icon": "nhi_arcanearrow_border"
+ },
+ "Word of Flames": {
+  "ids": [
+   800306
+  ],
+  "icon": null
+ },
+ "Word of Oblivion": {
+  "ids": [
+   800333
+  ],
+  "icon": null
+ },
+ "Words of Havoc": {
+  "ids": [
+   560054
+  ],
+  "icon": null
+ },
+ "Words of Power": {
+  "ids": [
+   705611
+  ],
+  "icon": null
+ },
+ "Words of Wrath": {
+  "ids": [
+   705617
+  ],
+  "icon": null
+ },
+ "Wrath of the Ancients": {
+  "ids": [
+   806720
+  ],
+  "icon": null
+ },
+ "Zenith": {
+  "ids": [
+   712325
+  ],
+  "icon": "custom_t_nhance_rpg_icons_magickeeper_border"
+ }
+}

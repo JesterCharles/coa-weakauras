@@ -1,0 +1,51 @@
+{
+  "_comment": "Ground truth read directly off in-game tooltips. This file OUTRANKS every scraped source (db.exil.es, db.ascension.gg, coabuildhub, ascensionsidekick). The builder consults it first for BOTH spell id and icon. Add an entry whenever a tooltip is screenshotted.",
+  "_format": "<spell name>: { id, cooldown?, note? }",
+  "Convergence": {
+    "id": 801086,
+    "cooldown": "1.5 min",
+    "note": "147 mana, instant. For 15 sec the next 10 Weapon Engravings deal +515 Elemental. db.exil.es returned 560241, which is the damage proc."
+  },
+  "Primordial Fury": {
+    "id": 806543,
+    "cooldown": "1.5 min",
+    "note": "171 mana, instant. Runic tattoos flare for 15 sec; Runeblade strikes 5 extra enemies; tattoos +100% effectiveness. db.exil.es returned 801095, a damage component."
+  },
+  "Weapon Engraving: Fire": {
+    "id": 653022,
+    "note": "73 mana, instant, 1 hour. 35% chance to ignite for 91 Fire per stack after 3 sec."
+  },
+  "Weapon Engraving: Earth": {
+    "id": 653218,
+    "note": "73 mana, instant, 1 hour. 20% chance for 86 extra Nature damage within 5 yds."
+  },
+  "Weapon Engraving: Water": {
+    "id": 653213,
+    "note": "73 mana, instant, 1 hour. 35% chance for 56 damage, drains 43 mana, grants allies Replenishment."
+  },
+  "Weapon Engraving: Air": {
+    "id": 653222,
+    "note": "73 mana, instant, 1 hour. 20% chance to replicate 45% of damage dealt."
+  },
+  "Weapon Engraving: Arcane": {
+    "id": 653265,
+    "note": "73 mana, instant, 1 hour. 30% chance for 163 Arcane and -30% healing received for 10 sec. db.exil.es returned 653263."
+  },
+  "Weapon Engraving: Ice": {
+    "id": 653264,
+    "note": "73 mana, instant, 1 hour. 45% chance for 159 Frost damage plus a movement slow. db.exil.es returned 653217."
+  },
+  "Zenith": {
+    "id": 712325,
+    "cooldown": "45 sec",
+    "variants": [
+      712389
+    ],
+    "note": "Base 712325 (122 mana, 45s). Taking Runelord REPLACES it with 712389 (134 mana, 2 charges, 45s recharge, +1% magic damage reduction) -- a different spell id, not just an extra charge, so an exact-id trigger on the base silently stops matching once talented."
+  },
+  "Fists of Power": {
+    "id": 805796,
+    "cooldown": "45 sec",
+    "note": "206 mana, instant. Engrave your fists 15 sec; autos grant Earthen Fists 10 sec (+3% melee haste, +10% chance to trigger Weapon Engraving: Earth, stacks 5). db.exil.es gave 92153."
+  }
+}

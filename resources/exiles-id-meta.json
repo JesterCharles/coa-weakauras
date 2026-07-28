@@ -1,0 +1,370 @@
+{
+ "300582": {
+  "name": "Magic Etchings",
+  "icon": "_runesauvagepourpre"
+ },
+ "300944": {
+  "name": "Runic Power",
+  "icon": "nhi_arcane_scroll_border"
+ },
+ "500118": {
+  "name": "Frigid Blast",
+  "icon": "skill_icon_skill40_border"
+ },
+ "500121": {
+  "name": "Eye of the Beholder",
+  "icon": "nhi_arcanevision_border"
+ },
+ "500270": {
+  "name": "Echo Rune",
+  "icon": "custom_t_nhance_rpg_icons_magicrune_border"
+ },
+ "500287": {
+  "name": "Warpdagger",
+  "icon": "inv_weapon_shortblade_79"
+ },
+ "500288": {
+  "name": "Runeshroud",
+  "icon": "runeshroud_runemaster"
+ },
+ "500296": {
+  "name": "Power Engraving",
+  "icon": "ability_deathknight_hungeringruneblade"
+ },
+ "500464": {
+  "name": "Guarding Rune",
+  "icon": "ever_probe_sprite_296_border"
+ },
+ "500501": {
+  "name": "Genesis",
+  "icon": null
+ },
+ "500506": {
+  "name": "Swift Etching",
+  "icon": "inv_misc_rune_14"
+ },
+ "500639": {
+  "name": "Palm Sigil: Water",
+  "icon": "watersigil"
+ },
+ "500671": {
+  "name": "Phase Out",
+  "icon": "ability_mage_greaterinvisibility"
+ },
+ "520054": {
+  "name": "Primordialism",
+  "icon": "spell_nature_astralrecalgroup"
+ },
+ "520077": {
+  "name": "Scroll of Magic",
+  "icon": "custom_t_nhance_rpg_icons_scrollofmagic_border"
+ },
+ "520091": {
+  "name": "Flame Glyph",
+  "icon": "70_inscription_vantus_rune_nightmare"
+ },
+ "520092": {
+  "name": "Arcane Glyph",
+  "icon": "70_inscription_vantus_rune_suramar"
+ },
+ "520099": {
+  "name": "Glyphic Overload",
+  "icon": "glyphicoverload"
+ },
+ "520229": {
+  "name": "Granite Resolve",
+  "icon": "nhi_earthtranquility_border"
+ },
+ "520237": {
+  "name": "Blade Rift",
+  "icon": "5_magicresistance_border"
+ },
+ "520760": {
+  "name": "Runeslinger",
+  "icon": "inv_archaeology_70_starlightbeacon"
+ },
+ "524952": {
+  "name": "Manuscription",
+  "icon": "inv_inscription_80_contract_vulpera"
+ },
+ "525609": {
+  "name": "Transcribing",
+  "icon": "inv_misc_notefolded2b"
+ },
+ "534803": {
+  "name": "Palm Sigil: Fire",
+  "icon": "rm_fire_sigil"
+ },
+ "560036": {
+  "name": "Runic Tempest",
+  "icon": "runictempest"
+ },
+ "560051": {
+  "name": "Power Overwhelming",
+  "icon": "ability_socererking_arcanefortification"
+ },
+ "560053": {
+  "name": "Sky and Stone",
+  "icon": "_stonetablet_shamanair"
+ },
+ "560233": {
+  "name": "Palm Sigil: Earth",
+  "icon": "rm_earth_sigil"
+ },
+ "560241": {
+  "name": "Convergence",
+  "icon": "nhi_arcaneaid_border"
+ },
+ "560527": {
+  "name": "Runes of Quickness",
+  "icon": "nhi_unholyrune_border"
+ },
+ "560540": {
+  "name": "Leyline Disturbance",
+  "icon": "nhi_arcaneshuriken_border"
+ },
+ "567233": {
+  "name": "Uncovered Engravings",
+  "icon": "ability_socererking_arcanemines"
+ },
+ "572358": {
+  "name": "Surging Slash",
+  "icon": "runeblade2"
+ },
+ "645435": {
+  "name": "Hurricane",
+  "icon": "skill_icon_skill153_border"
+ },
+ "653022": {
+  "name": "Weapon Engraving: Fire",
+  "icon": "weapon_engraving_fire"
+ },
+ "653211": {
+  "name": "Fire Engraving",
+  "icon": "boss_odunrunes_orange"
+ },
+ "653213": {
+  "name": "Weapon Engraving: Water",
+  "icon": "weapon_engraving_water"
+ },
+ "653214": {
+  "name": "Water Engraving",
+  "icon": "boss_odunrunes_blue"
+ },
+ "653217": {
+  "name": "Weapon Engraving: Ice",
+  "icon": "_d3frostnova"
+ },
+ "653218": {
+  "name": "Weapon Engraving: Earth",
+  "icon": "weapon_engraving_earth"
+ },
+ "653219": {
+  "name": "Earth Engraving",
+  "icon": "boss_odunrunes_green"
+ },
+ "653222": {
+  "name": "Weapon Engraving: Air",
+  "icon": "weapon_engraving_air"
+ },
+ "653223": {
+  "name": "Air Engraving",
+  "icon": "boss_odunrunes_yellow"
+ },
+ "653253": {
+  "name": "Air Carving",
+  "icon": "_monkability_rushingwind_yellow"
+ },
+ "653263": {
+  "name": "Weapon Engraving: Arcane",
+  "icon": "_d3arcaneorb"
+ },
+ "653266": {
+  "name": "Ice Engraving",
+  "icon": "boss_odunrunes_orange"
+ },
+ "653267": {
+  "name": "Arcane Engraving",
+  "icon": "boss_odunrunes_orange"
+ },
+ "704430": {
+  "name": "Magebreaker",
+  "icon": "inv_magemount"
+ },
+ "705560": {
+  "name": "Runic Obliteration",
+  "icon": null
+ },
+ "705568": {
+  "name": "Windsage",
+  "icon": "inv_weapon_shortblade_83"
+ },
+ "705575": {
+  "name": "Turbulence",
+  "icon": "skill_icon_skill79_border"
+ },
+ "706520": {
+  "name": "Fire Carving",
+  "icon": "inv_helmet_08"
+ },
+ "707141": {
+  "name": "Runeblade",
+  "icon": "inv_weapon_shortblade_100"
+ },
+ "707142": {
+  "name": "Water Carving",
+  "icon": "nhi_icestream_border"
+ },
+ "712299": {
+  "name": "Runic Brand",
+  "icon": "5_mageskill14_border"
+ },
+ "712300": {
+  "name": "Earth Carving",
+  "icon": "nhi_earthwraith_border"
+ },
+ "712323": {
+  "name": "Marked: Runic Brand",
+  "icon": "5_mageskill14_border"
+ },
+ "712324": {
+  "name": "Runic Explosion",
+  "icon": "custom_mageskill_17_border"
+ },
+ "712325": {
+  "name": "Zenith",
+  "icon": "custom_t_nhance_rpg_icons_magickeeper_border"
+ },
+ "712326": {
+  "name": "Fist of the Ancients",
+  "icon": "skill_icon_skill150_border"
+ },
+ "800732": {
+  "name": "Primordial Blast",
+  "icon": "spell_frostfire_orb"
+ },
+ "800995": {
+  "name": "Ley Lock",
+  "icon": "nhi_magicblock_border"
+ },
+ "801087": {
+  "name": "Smolder",
+  "icon": "uico_fire_spell_02_border"
+ },
+ "801094": {
+  "name": "Runic Tattoos: Earth",
+  "icon": "tattoo_earth_attunement"
+ },
+ "801095": {
+  "name": "Primordial Fury",
+  "icon": "5_mageskill04_border"
+ },
+ "801096": {
+  "name": "Ley Power",
+  "icon": "inv_ascend_magicartifact_13"
+ },
+ "801104": {
+  "name": "Hoarfrost",
+  "icon": "nhi_iceempower_border"
+ },
+ "801106": {
+  "name": "Runic Tattoos: Fire",
+  "icon": "tattoo_fire_attunement"
+ },
+ "801107": {
+  "name": "Runic Tattoos: Water",
+  "icon": "tattoo_water_attunement"
+ },
+ "801179": {
+  "name": "Glyphic Ruin",
+  "icon": "achievement_raidprimalist_council"
+ },
+ "801511": {
+  "name": "Spellfire Runes",
+  "icon": "custom_t_nhance_rpg_icons_firerune_border"
+ },
+ "802202": {
+  "name": "Elemental Burst",
+  "icon": "nhi_arcanebolt_border"
+ },
+ "802630": {
+  "name": "Runic Tattoos: Air",
+  "icon": "tattoo_air_attunement"
+ },
+ "802631": {
+  "name": "Silencing Rune",
+  "icon": "ability_mage_arcanesurge"
+ },
+ "802632": {
+  "name": "Wild Steam",
+  "icon": "wildsteam"
+ },
+ "803011": {
+  "name": "Runestone: Torch",
+  "icon": null
+ },
+ "803018": {
+  "name": "Fracture",
+  "icon": "nhi_manaspike_border"
+ },
+ "803748": {
+  "name": "Runic Tattoos: Arcane",
+  "icon": "tattoo_arcane_attunement"
+ },
+ "804232": {
+  "name": "Warding Rune",
+  "icon": "inv_qiraj_jewelglyphed"
+ },
+ "804550": {
+  "name": "Thaumaturgy",
+  "icon": "spell_nature_elementalprecision_2"
+ },
+ "805380": {
+  "name": "Palm Sigil: Arcane",
+  "icon": "rm_arcane_sigil"
+ },
+ "805381": {
+  "name": "Palm Sigil: Frost",
+  "icon": "rm_frost_sigil"
+ },
+ "806982": {
+  "name": "Earthen Fists",
+  "icon": "inv__fistofthewhitetiger"
+ },
+ "806984": {
+  "name": "Runelord",
+  "icon": "spell_nature_elementalprecision_2"
+ },
+ "807013": {
+  "name": "Palm Sigil: Wind",
+  "icon": "rm_wind_sigil"
+ },
+ "807504": {
+  "name": "Unleashed Power",
+  "icon": "inv_glyph_primepriest"
+ },
+ "807834": {
+  "name": "Runic Tattoos: Frost",
+  "icon": "tattoo_frost_attunement"
+ },
+ "887088": {
+  "name": "CoA Aura - Runemaster - Glyphic",
+  "icon": "ability_dragonriding_glyph01"
+ },
+ "887089": {
+  "name": "CoA Aura - Runemaster - Engravement",
+  "icon": "custom_enchantment_33_runescroll"
+ },
+ "887090": {
+  "name": "CoA Aura - Runemaster - Riftblade",
+  "icon": "ability_racial_spatialrift"
+ },
+ "92152": {
+  "name": "Frost Glyph",
+  "icon": "nhi_arcane_scroll_border"
+ },
+ "92153": {
+  "name": "Fists of Power",
+  "icon": null
+ }
+}
