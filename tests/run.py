@@ -35,7 +35,18 @@ The checks, and what each is actually protecting:
      already on cooldown, blindly (GenericTrigger.lua:2795), so an off-GCD
      ability must not carry `use_showgcd` -- and an on-GCD one must. Which is
      which is scraped into cooldown-abilities-<class>.json, never guessed.
+
+ 11. Merging the per-spec bands into shared ones lost nothing: loading the
+     all-specs pack as a given spec yields exactly the displays that spec's
+     own pack contains.
+
+     KNOWN LIMIT: both sides come from the SAME builder, so a bug in logic
+     they share moves both together and cancels out. It catches the merge
+     path diverging from the per-spec filter path, NOT an ability leaking to
+     a spec that cannot cast it -- that one is asserted in the builder's
+     assert_gated(), where the spec membership actually exists.
 """
+import collections
 import copy
 import json
 import os
@@ -209,6 +220,12 @@ for cls, spec, name in PACKS:
         # break them for a levelling character who has not learned it yet.
         core = [d for d in leaves if not d.get("load", {}).get("use_spellknown")]
         specd = [d for d in leaves if d.get("load", {}).get("use_spellknown")]
+        # "class-wide" now covers two legitimate cases: Core (engravings,
+        # etchings, reminders -- deliberately not spell-gated so a levelling
+        # character still gets them), AND abilities all specs share that live
+        # in a merged band. The latter are active-only aura displays, which
+        # are self-gating: they cannot show unless the buff is actually up, and
+        # a buff id is not something IsSpellKnown would recognise anyway.
         want = cls.core_leaves
         if want is None:
             # class not yet pinned in classes.CORE_LEAVES -- assert the shape
@@ -355,6 +372,62 @@ for cls, spec, name in PACKS:
             missing.append(f"{d['id']} (on-GCD, but use_showgcd is off)")
     check(f"{name}: every on-GCD ability keeps the sweep", not missing,
           "\n".join(missing[:8]))
+
+
+
+# ------------------------------------------------- 11. merge preserves content
+print("\n11. merged pack loads exactly what each spec's own pack contains")
+SIG_TO_SPEC = {}
+for cls in UNDER_TEST:
+    allspecs = os.path.join(TOOLS, f"{cls.packs[0][1]}.txt")
+    # map each spec's signature spell id from its own pack: every leaf there is
+    # gated on it, so the most common spellknown value IS the signature.
+    sig = {}
+    for spec, name in cls.packs[1:]:
+        pack = load(os.path.join(TOOLS, f"{name}.txt"))
+        vals = collections.Counter(
+            d.get("load", {}).get("spellknown")
+            for d in pack["c"].values()
+            if not d.get("controlledChildren")
+            and d.get("load", {}).get("use_spellknown"))
+        vals.pop(None, None)
+        if vals:
+            sig[vals.most_common(1)[0][0]] = spec
+
+    def norm(i):
+        for p in [f"RM {s.title()} " for _, s in cls.packs[1:]] + ["RM "]:
+            if i.startswith(p):
+                return i[len(p):]
+        return i
+
+    def content(path, spec=None):
+        out = set()
+        for d in load(path)["c"].values():
+            if d.get("controlledChildren"):
+                continue
+            if spec:
+                ld = d.get("load", {})
+                sk = ld.get("spellknown") if ld.get("use_spellknown") else None
+                if sk in sig and sig[sk] != spec:
+                    continue
+            out.add(norm(d["id"]))
+        return out
+
+    for spec, name in cls.packs[1:]:
+        label = sig.get(next((k for k, v in sig.items() if v == spec), None), spec)
+        merged = content(allspecs, spec)
+        own = content(os.path.join(TOOLS, f"{name}.txt"))
+        # Merging the per-spec bands into shared ones must not lose or add a
+        # single display. The per-spec pack is the ground truth for what one
+        # spec needs; loading the merged pack as that spec must match it
+        # exactly.
+        detail = ""
+        if own - merged:
+            detail += "missing: " + ", ".join(sorted(own - merged)[:6]) + "\n"
+        if merged - own:
+            detail += "extra: " + ", ".join(sorted(merged - own)[:6])
+        check(f"{name}: merged pack loads the same {len(own)} displays",
+              own == merged, detail)
 
 
 print()

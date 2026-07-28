@@ -126,7 +126,7 @@ class ClassInfo:
 # Per-class regression guards that only exist once the class is built. Add an
 # entry when a class ships; tests skip the check for classes not listed.
 CORE_LEAVES = {
-    "runemaster": 17,
+    "runemaster": 30,
 }
 
 

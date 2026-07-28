@@ -48,7 +48,7 @@ def data(name):
 # loaded version is NOT visible in the WeakAuras list and a delivered file
 # carries no readable version string. Identify one by recomputing uids -- see
 # notes/class-pack-process.md.
-VERSION = "final15"
+VERSION = "final16"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
@@ -999,6 +999,205 @@ TOP = ["RM Core", "RM Glyphic", "RM Engravement", "RM Riftblade"]
 root = B.group(ROOT, None, TOP, x=0, y=0)
 root["url"] = ""
 
+
+# ============================================================ band merging
+# Which spec(s) each leaf belongs to. Populated by merge_bands() and read by
+# apply_leaf_gates() and restrict_to_spec(), both of which used to infer the
+# spec by walking up to a `RM <Spec>` parent -- impossible once the bands are
+# shared.
+LEAF_SPECS = {}
+
+SPEC_NAMES = ("Glyphic", "Engravement", "Riftblade")
+MERGE_BANDS = ("Main", "Offense", "Utility", "Buffs")
+
+
+def _band_order(seqs):
+    """One order preserving every spec's sequence, where that is possible.
+
+    Each spec orders its own row "most-pressed first" and that ordering is
+    load-bearing (`controlledChildren` order is what the comparator refuses to
+    normalise away). Merging three rows into one must not quietly reshuffle
+    them, so this is a topological sort over the union: an edge a->b for every
+    adjacent pair in every spec.
+
+    Main, Offense and Utility have NO conflicting pairs, so for them the merge
+    is exactly lossless. Buffs has five cycles (Convergence vs Zenith, and the
+    shared block against spec-specific entries), which no single order can
+    satisfy; there the cycle-breaking falls back to first-appearance, which is
+    tolerable because Buffs is active-only -- a handful of icons at a time, not
+    a rotation you read left to right.
+    """
+    nodes, edges, indeg = [], {}, {}
+    for seq in seqs:
+        for a in seq:
+            if a not in edges:
+                edges[a] = []
+                indeg[a] = 0
+                nodes.append(a)
+        for a, b in zip(seq, seq[1:]):
+            if b not in edges[a]:
+                edges[a].append(b)
+                indeg[b] += 1
+    out, ready = [], [n for n in nodes if indeg[n] == 0]
+    while len(out) < len(nodes):
+        if not ready:
+            # cycle: break it at the earliest first-appearance node still left
+            ready = [n for n in nodes if n not in out and indeg[n] > 0][:1]
+        n = ready.pop(0)
+        if n in out:
+            continue
+        out.append(n)
+        for m in edges[n]:
+            indeg[m] -= 1
+            if indeg[m] == 0 and m not in out:
+                ready.append(m)
+    return out
+
+
+def _leaf_spell(leaf):
+    """The spell id a `use_spellknown` gate would test for this leaf."""
+    trs = leaf.get("triggers") or {}
+    for i in sorted(k for k in trs if isinstance(k, int)):
+        tr = trs[i]["trigger"]
+        s = tr.get("spellName")
+        if isinstance(s, (str, int)) and str(s).isdigit():
+            return int(s)
+    return None
+
+
+def merge_bands():
+    """Collapse the three per-spec copies of each band into one shared band.
+
+    Only ONE spec's leaves are ever loaded, and a dynamic group lays out only
+    children that are loaded AND showing -- `ActivateChild` is called from the
+    child's `Expand()` (DynamicGroup.lua:1227). So a single band holding all
+    three specs' abilities renders exactly the loaded spec's icons, correctly
+    centred, with no empty slots.
+
+    An ability the specs share therefore needs one display rather than three.
+    65 of the 185 spec leaves were such copies.
+
+    Gating decides which abilities can actually be merged, because a merged
+    leaf can no longer inherit a spec gate from its parent group:
+
+      * one spec        -- keep the spec's signature-spell gate, unchanged
+      * all three, Buffs -- class gate only. These are aura displays and are
+        self-gating: an active-only display cannot show unless the buff is
+        genuinely on you, so no spell check is needed or possible (a buff id is
+        not a spell IsSpellKnown would recognise).
+      * all three, cooldown row -- gate on the ability's OWN spell id. Exact,
+        and it also fixes a levelling character seeing abilities they have not
+        learned.
+      * anything else (two specs, or no db.exil.es cooldown row) -- keep one
+        copy per spec. `load.spellknown` holds a single id, so "Glyphic OR
+        Engravement" is not expressible; and an ability with no cooldown row
+        may be a proc id rather than the castable spell, where IsSpellKnown
+        would fail and the icon would silently never appear.
+    """
+    by = {c["id"]: c for c in children}
+    merged_ids, drop = [], set()
+
+    for band in MERGE_BANDS:
+        groups = [(s, f"RM {s} {band}") for s in SPEC_NAMES
+                  if f"RM {s} {band}" in by]
+        if not groups:
+            continue
+
+        seqs, owners, leaf_of = [], {}, {}
+        for spec, gid in groups:
+            cc = by[gid]["controlledChildren"]
+            kids = list(cc.values()) if isinstance(cc, dict) else list(cc)
+            seq = []
+            for cid in kids:
+                ability = cid[len(f"RM {spec} {band} "):]
+                seq.append(ability)
+                owners.setdefault(ability, set()).add(spec)
+                leaf_of[(spec, ability)] = cid
+            seqs.append(seq)
+
+        template = by[groups[0][1]]
+        order = _band_order(seqs)
+        kids_out = []
+
+        for ability in order:
+            specs = owners[ability]
+            shareable = (len(specs) == len(SPEC_NAMES)
+                         and (band == "Buffs" or ability in COOLDOWNS))
+            if shareable:
+                # one copy, taken from the first spec that has it
+                src = next(leaf_of[(s, ability)] for s in SPEC_NAMES
+                           if (s, ability) in leaf_of)
+                leaf = by[src]
+                new_id = f"RM {band} {ability}"
+                leaf["id"] = new_id
+                leaf["parent"] = f"RM {band}"
+                # record the specs that ACTUALLY have this ability, not the
+                # set we think shareable implies. Tagging it `SPEC_NAMES` here
+                # would make assert_gated() validate its own assumption, and a
+                # bug in `shareable` would sail straight through.
+                LEAF_SPECS[new_id] = set(specs)
+                kids_out.append(new_id)
+                drop |= {leaf_of[(s, ability)] for s in specs} - {src}
+            else:
+                for s in SPEC_NAMES:
+                    cid = leaf_of.get((s, ability))
+                    if not cid:
+                        continue
+                    by[cid]["parent"] = f"RM {band}"
+                    LEAF_SPECS[cid] = {s}
+                    kids_out.append(cid)
+
+        merged = B.dynamicgroup(f"RM {band}", ROOT, kids_out,
+                                x=template.get("xOffset", 0),
+                                y=template.get("yOffset", 0),
+                                grow=template.get("grow", "HORIZONTAL"),
+                                space=template.get("space", GAP))
+        children.append(merged)
+        merged_ids.append(f"RM {band}")
+        drop |= {gid for _, gid in groups}
+
+    # Anything still under a `RM <Spec>` group keeps that spec (Glyphic's glyph
+    # bar, the mana bars) -- they were never duplicated across specs.
+    for c in children:
+        if c["id"] in drop or c.get("controlledChildren"):
+            continue
+        if c["id"] in LEAF_SPECS:
+            continue
+        pid = c.get("parent")
+        while pid and pid not in SPEC_NAMES:
+            if pid in (f"RM {s}" for s in SPEC_NAMES):
+                break
+            nxt = by.get(pid, {}).get("parent")
+            if nxt is None:
+                break
+            pid = nxt
+        for s in SPEC_NAMES:
+            if pid == f"RM {s}":
+                LEAF_SPECS[c["id"]] = {s}
+
+    # drop the emptied per-spec band groups, and any spec group left with no
+    # children at all
+    children[:] = [c for c in children if c["id"] not in drop]
+    alive = {c["id"] for c in children}
+    for c in children:
+        cc = c.get("controlledChildren")
+        if not cc:
+            continue
+        kept = [k for k in (cc.values() if isinstance(cc, dict) else cc)
+                if k in alive]
+        c["controlledChildren"] = B.arr(kept)
+    empty = {c["id"] for c in children
+             if c.get("controlledChildren") is not None
+             and not len(c["controlledChildren"])
+             and c["id"] in (f"RM {s}" for s in SPEC_NAMES)}
+    children[:] = [c for c in children if c["id"] not in empty]
+
+    TOP[:] = [t for t in TOP if t not in empty] + merged_ids
+    root["controlledChildren"] = B.arr(TOP)
+
+
+merge_bands()
+
 # ---------------------------------------------------------------- leaf gating
 # A plain `group`'s triggers/conditions/load are INERT: WeakAuras skips
 # load-scanning for any aura with controlledChildren, and never registers a
@@ -1077,19 +1276,18 @@ def apply_leaf_gates():
     `use_spellknown` is used by a working community aura on this exact client.
     """
     by = {c["id"]: c for c in children}
-    group_to_spec = {f"RM {k}": k for k in SPEC_KNOWN}
 
     def owning_spec(node):
-        seen = set()
-        while node is not None:
-            pid = node.get("parent")
-            if pid in group_to_spec:
-                return group_to_spec[pid]
-            if pid is None or pid in seen:
-                return None
-            seen.add(pid)
-            node = by.get(pid)
-        return None
+        """Which spec this leaf belongs to, or None for Core.
+
+        Reads the tag merge_bands() left rather than walking up to a
+        `RM <Spec>` parent: after the merge the bands are shared, so the parent
+        chain no longer identifies a spec.
+        """
+        specs = LEAF_SPECS.get(node["id"])
+        if not specs:
+            return None
+        return next(iter(specs)) if len(specs) == 1 else None
 
     gated = anyof = classed = 0
     for c in children:
@@ -1114,6 +1312,18 @@ def apply_leaf_gates():
             c["load"]["use_spellknown"] = True
             c["load"]["spellknown"] = SPEC_KNOWN[spec]
             gated += 1
+        elif LEAF_SPECS.get(c["id"]) == set(SPEC_NAMES):
+            # Shared by all three specs, so no single signature spell can gate
+            # it. Cooldown icons gate on their OWN spell -- exact, and it stops
+            # a levelling character seeing an ability they cannot cast yet.
+            # Buff icons cannot: a buff id is not a spell IsSpellKnown knows.
+            # They do not need it either, being active-only and therefore
+            # self-gating -- the display cannot appear unless the buff is up.
+            own_id = _leaf_spell(c) if not c["id"].startswith("RM Buffs ") else None
+            if own_id:
+                c["load"]["use_spellknown"] = True
+                c["load"]["spellknown"] = own_id
+                gated += 1
     return gated, anyof, classed
 
 
@@ -1123,7 +1333,8 @@ def assert_gated():
     Cheap enough to run every build, and it is the only thing standing between
     us and shipping another pack that loads on all 21 classes.
     """
-    bad_class, bad_known = [], []
+    bad_class, bad_known, bad_share = [], [], []
+    sigs = set(SPEC_KNOWN.values())
     for c in children:
         if c.get("controlledChildren"):
             continue
@@ -1137,25 +1348,52 @@ def assert_gated():
         if SPEC_ONLY and (not load.get("use_spellknown")
                           or not load.get("spellknown")):
             bad_known.append(c["id"])
-    if bad_class or bad_known:
+
+        # A leaf may only drop the signature-spell gate -- by carrying no spec
+        # gate, or its own spell id instead -- if EVERY spec has the ability.
+        # Otherwise it loads on specs that cannot cast it. This is the one
+        # failure the merge can introduce that comparing built packs cannot
+        # see: tests/run.py check 11 compares two outputs of this same builder,
+        # so a bug here moves both sides together and cancels out. It has to be
+        # caught where the spec membership actually exists, which is here.
+        specs = LEAF_SPECS.get(c["id"])
+        if specs is not None and len(specs) < len(SPEC_NAMES):
+            sk = load.get("spellknown") if load.get("use_spellknown") else None
+            if sk not in sigs:
+                bad_share.append(f"{c['id']} (specs={sorted(specs)}, "
+                                 f"spellknown={sk})")
+    if bad_class or bad_known or bad_share:
         for i in bad_class:
             print(f"  NO CLASS GATE:     {i}")
         for i in bad_known:
             print(f"  NO SPEC GATE:       {i}")
+        for i in bad_share:
+            print(f"  SHARED BUT NOT ON EVERY SPEC: {i}")
         raise SystemExit(
             f"refusing to emit: {len(bad_class)} leaves without a class gate, "
-            f"{len(bad_known)} without a spec gate")
+            f"{len(bad_known)} without a spec gate, "
+            f"{len(bad_share)} shared without being on every spec")
 
 
 _GATED, _ANY, _CLASSED = apply_leaf_gates()
 assert_gated()
 
 def restrict_to_spec():
-    """Drop every display that does not belong to Core or the chosen spec."""
+    """Drop every display that does not belong to Core or the chosen spec.
+
+    Post-merge the shared bands hold all three specs, so membership comes from
+    the LEAF_SPECS tag rather than from which `RM <Spec>` group a display sits
+    under. Groups are kept if anything survives inside them, then emptied
+    groups are pruned -- which is what removes the merged bands from a per-spec
+    build if that spec happened to contribute nothing to one.
+    """
     by = {c["id"]: c for c in children}
     keep_roots = {"RM Core", f"RM {SPEC_TITLE}"}
 
     def kept(node):
+        specs = LEAF_SPECS.get(node["id"])
+        if specs is not None:
+            return SPEC_TITLE in specs
         seen = set()
         while node is not None:
             if node["id"] in keep_roots:
@@ -1167,9 +1405,30 @@ def restrict_to_spec():
             node = by.get(pid)
         return False
 
-    keep = [c for c in children if kept(c)]
-    children[:] = keep
-    root["controlledChildren"] = B.arr([r for r in TOP if r in keep_roots])
+    leaves = [c for c in children if not c.get("controlledChildren")]
+    keep = {c["id"] for c in leaves if kept(c)}
+
+    # keep a group iff something under it survived
+    changed = True
+    while changed:
+        changed = False
+        for c in children:
+            cc = c.get("controlledChildren")
+            if cc is None:
+                continue
+            kids = list(cc.values()) if isinstance(cc, dict) else list(cc)
+            if any(k in keep for k in kids) and c["id"] not in keep:
+                keep.add(c["id"])
+                changed = True
+
+    children[:] = [c for c in children if c["id"] in keep]
+    for c in children:
+        cc = c.get("controlledChildren")
+        if cc is None:
+            continue
+        kids = list(cc.values()) if isinstance(cc, dict) else list(cc)
+        c["controlledChildren"] = B.arr([k for k in kids if k in keep])
+    root["controlledChildren"] = B.arr([r for r in TOP if r in keep])
 
 
 if SPEC_ONLY:
@@ -1182,18 +1441,31 @@ if __name__ == "__main__":
     out = os.path.join(SP, f"{name}.txt")
     open(out, "w").write(s)
     print(f"{len(children)} displays, {len(s)} chars -> {out}")
-    from collections import Counter as _C
+    # Repeated art in a row means an id resolved to the wrong texture -- two
+    # identical icons side by side. Since the bands merged, a row also holds
+    # the deliberately-duplicated abilities (one copy per spec), which share
+    # art by definition and can never load together. Only flag leaves whose
+    # spec sets OVERLAP, i.e. that could actually appear side by side.
     _dupes = []
     for _g in children:
         if _g["regionType"] != "dynamicgroup":
             continue
         _kids = [k for k in children
                  if k.get("parent") == _g["id"] and isinstance(k.get("displayIcon"), str)]
-        _c = _C(k["displayIcon"] for k in _kids)
-        for _art, _n in _c.items():
-            if _n > 1:
+        _byart = {}
+        for _k in _kids:
+            _byart.setdefault(_k["displayIcon"], []).append(_k)
+        for _art, _ks in _byart.items():
+            if len(_ks) < 2:
+                continue
+            _clash = [k["id"] for k in _ks
+                      for j in _ks
+                      if k is not j
+                      and (LEAF_SPECS.get(k["id"], set(SPEC_NAMES))
+                           & LEAF_SPECS.get(j["id"], set(SPEC_NAMES)))]
+            if _clash:
                 _dupes.append((_g["id"], _art.split("\\")[-1],
-                               [k["id"] for k in _kids if k["displayIcon"] == _art]))
+                               sorted(set(_clash))))
     if _dupes:
         print(f"  DUPLICATE ART IN {len(_dupes)} ROW(S):")
         for _r, _a, _w in _dupes:

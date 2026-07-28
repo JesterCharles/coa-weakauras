@@ -295,6 +295,33 @@ fixed inter-band gap. No class declares an anchor.
 
   This is the concrete case of the standing rule below: the constants in the
   builder are not authority for what shipped.
+- **Bands are shared across specs, not duplicated per spec** (`final16`). One
+  dynamic group per band holds every spec's abilities; only the loaded spec's
+  leaves are laid out, because `ActivateChild` runs from the child's `Expand()`
+  (`DynamicGroup.lua:1227`) and an unloaded aura never expands. 229 displays
+  became 171.
+
+  Merge order is a **topological sort** over each spec's row sequence, so
+  "most-pressed first" survives. Main, Offense and Utility have no conflicting
+  pairs and merge exactly; Buffs has five cycles and falls back to
+  first-appearance, which is tolerable only because it is active-only.
+
+  A merged leaf cannot inherit a spec gate from its parent, so gating splits:
+  one spec keeps the signature-spell gate; all-three cooldown icons gate on
+  their **own** spell id; all-three *buff* icons take the class gate alone
+  (they are self-gating — an active-only display cannot show unless the buff
+  is up, and a buff id is not something `IsSpellKnown` recognises). Anything
+  else — two specs, or an ability with no db.exil.es cooldown row and hence a
+  possible proc id — **stays duplicated**, because `load.spellknown` holds one
+  id and a wrong id fails silently.
+
+  `assert_gated()` refuses to emit a leaf that dropped its signature gate
+  without being on every spec. That check has to live in the builder: comparing
+  built packs cannot see it, since both sides come from the same builder.
+
+  Consequence: cooldown bands now sit at one height for all three specs
+  (Glyphic's ladder, one band lower than Engravement and Riftblade used to be),
+  because a shared group has one `yOffset`.
 - **Active-only rows are the norm** — buff/proc rows are empty until something
   is up, so a 27-entry row is a handful of icons in play.
 - **Vertical order encodes urgency**: react-within-a-global nearest the
