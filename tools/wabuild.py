@@ -99,8 +99,19 @@ def aura_trigger(names, unit="player", helpful=True, stacks=None,
     return tr
 
 
-def spell_cd_trigger(spell, show_on="showOnCooldown", exact=False):
-    """Cooldown Progress (Spell). `spell` may be a name string or numeric id."""
+def spell_cd_trigger(spell, show_on="showOnCooldown", exact=False,
+                     show_gcd=True):
+    """Cooldown Progress (Spell). `spell` may be a name string or numeric id.
+
+    `show_gcd` sets `use_showgcd`, which makes the trigger report the global
+    cooldown when the ability itself is not on cooldown -- so the icon sweeps
+    for the ~1.5s you cannot press anything, and you can see whether it is
+    worth holding a cast. Verified: the Templar community pack sets it on 49
+    of its spell cooldown triggers.
+
+    Callers that pair this with `show_on="showOnCooldown"` should pass
+    `show_gcd=False`; otherwise the display pops into existence on every GCD.
+    """
     return T({
         "type": "spell",
         "event": "Cooldown Progress (Spell)",
@@ -109,6 +120,7 @@ def spell_cd_trigger(spell, show_on="showOnCooldown", exact=False):
         "use_spellName": True,
         "spellName": spell,
         "use_exact_spellName": bool(exact),
+        "use_showgcd": bool(show_gcd),
         "use_genericShowOn": True,
         "genericShowOn": show_on,
         "use_track": True,
@@ -471,6 +483,13 @@ def dynamicgroup(id_, parent, children, x=0, y=0, grow="HORIZONTAL",
 # ---------------------------------------------------------------- conditions
 def cond(checks, changes):
     return T({"check": checks, "changes": arr(changes)})
+
+
+def check_and(*checks):
+    """AND combinator check. The runtime dispatches AND/OR on `variable`
+    (Conditions.lua:234) but registers global-condition events on
+    `trigger == -2` (Conditions.lua:955), so BOTH must be emitted."""
+    return T({"trigger": -2, "variable": "AND", "checks": arr(list(checks))})
 
 
 def check_trigger(index, prop, op=None, value=None, variable=None):

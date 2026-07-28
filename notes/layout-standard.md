@@ -194,6 +194,61 @@ fixed inter-band gap. No class declares an anchor.
 - **Cooldown rows escalate as they come back**: timer appears at 20s, the icon
   glows at 10s, the glow turns urgent at 5s. The **main damage row is exempt** —
   those sit on 6–8s cooldowns, so the number is simply always shown there.
+- **Every spell cooldown trigger shows the global cooldown** (`use_showgcd` on
+  the `Cooldown Progress (Spell)` trigger, set by default in
+  `wabuild.spell_cd_trigger`). A ready ability sweeps for the ~1.5s after a
+  cast, which is the cue for holding a press rather than clipping it. The
+  Templar community pack sets it on 49 triggers, so it is verified ground on
+  this fork.
+
+  **Every escalation tier must then be ANDed with `duration > 3`**
+  (`check_and`, combinator `trigger = -2` + `variable = "AND"`). With the GCD
+  reported through the same trigger, a bare `expirationTime < 5` fires the
+  urgent glow on *every icon in the row, on every global cooldown*. Any new
+  condition reading `expirationTime` on a spell cooldown trigger inherits this
+  requirement.
+
+  ⚠️ **Guard on `duration`, NOT on `gcdCooldown`.** `gcdCooldown` is declared
+  hidden on the prototype, so it is not exposed as a condition variable (§6.3
+  requires all three of `conditionType`, `name`, `display`). WeakAuras drops the
+  unknown sub-check and the AND silently collapses back to the bare
+  `expirationTime` test — the whole guard evaporates with no error. This
+  shipped in `final12` and had to be fixed in `final13`. `duration` is
+  guaranteed present whenever `progressType == "timed"`, so it always compiles.
+
+  The GCD is 1.5s and hastes down, never up, so `3` separates it from any real
+  cooldown with margin. Abilities whose own cooldown is under 3s lose the
+  escalation cues, which is correct: a 2.5s cooldown sits permanently inside
+  the 5s tier and would pulse orange for its entire duration.
+
+  Displays built with `genericShowOn: "showOnCooldown"` should generally pass
+  `show_gcd=False`, or they pop into existence once per global. Treat this as
+  a default rather than a law: Templar ships 13 triggers pairing
+  `use_showgcd = true` with `showOnCooldown`, so the combination is legal and
+  someone chose it deliberately. We have no display that wants it yet.
+- **Every spell cooldown icon desaturates when it cannot be cast**
+  (`spellUsable == 0` → `desaturate = true`, added in `final14`). This is a
+  *different question* from the cooldown, and the swipe cannot answer it: an
+  ability that is off cooldown but unaffordable — no mana, no resource, wrong
+  form — otherwise reads as "press me". Verified on this fork: Templar drives
+  `desaturate` off `spellUsable` 9 times and off `onCooldown` 15 more.
+
+  It needs **no GCD guard**. `spellUsable` reflects `IsUsableSpell`, which is
+  independent of any cooldown, so a global does not flip it.
+
+  It applies to `cd_icon` output *only*. `spellUsable` lives on the
+  `Cooldown Progress (Spell)` prototype and means nothing on the aura,
+  enchant and custom-Lua leaves, so those must not carry the condition.
+  `tests/run.py` check 9 enforces both halves of this and check 9's second
+  half re-asserts the `final12` bare-`expirationTime` ban.
+- **`inverse = true` with `cooldown = true` is correct for cooldown icons**,
+  despite the rule written after the trinket crash. `inverse` reverses the
+  swipe direction (`cooldown:SetReverse`), it does not mean "show when there
+  is no cooldown" — see `weakauras-data-model.md` §572. Templar ships **all
+  48** of its spell cooldown icons this way. The `Icon.lua:642` crash
+  (arithmetic on a nil `expirationTime`) came from the **item** cooldown
+  trigger, which can report nil where the spell prototype does not. Scope the
+  rule to item triggers; do not carry the broad version into a new class.
 - **Cooldown rows wrap at 12** icons and push the long-term band down. A row of
   23 (Engravement utility, `final8`) is 642px against a 274px main row and must
   not ship flush.

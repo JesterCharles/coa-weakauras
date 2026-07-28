@@ -2,6 +2,7 @@
 # truth. The published copies live in docs/packs/ and the frozen regression
 # baselines in tests/fixtures/ -- both of those ARE tracked.
 tools/runemaster-*.txt
+tools/diag-*.txt
 tools/guide.html
 output/
 

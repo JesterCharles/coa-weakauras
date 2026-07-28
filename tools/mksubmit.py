@@ -137,6 +137,8 @@ def describe(cls, label, info, version, is_all):
         "- Resource bars locked to the width of the main row so they can never drift",
         "- Missing-buff reminders that only appear when something is actually missing",
         "- Long-term buffs (tattoos, engravings, raid auras) pinned at the bottom",
+        "- Every ability icon sweeps for the global cooldown, so you can see the half second left to run rather than clipping into it",
+        "- Icons grey out when you cannot actually cast them, not just when they are on cooldown, so an ability you cannot afford never looks ready",
         "",
         "NOTES",
         "- Everything is centred on your character. The layout is identical across every class pack in this series, so learning one teaches you the rest.",

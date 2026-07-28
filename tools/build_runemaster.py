@@ -45,7 +45,7 @@ def data(name):
 # imports on uid, so a rebuilt pack MUST carry a different salt or the client
 # treats it as already-installed and silently keeps the old copy. Bump this
 # (final2, final3, ...) on any future release.
-VERSION = "final11"
+VERSION = "final14"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
@@ -371,6 +371,10 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False):
     text: those abilities sit on 6-8s cooldowns, so a 20s reveal would mean
     the number is simply always there, and the escalation would be noise.
     Both kinds still glow when a proc says to press them.
+
+    Both kinds also sweep for the global cooldown (`use_showgcd` on the
+    trigger), so a ready ability still reads as "not yet" for the ~1.5s after
+    a cast -- the cue for holding a press rather than clipping it.
     """
     subs = [B.sub_background()]
     if urgency:
@@ -389,19 +393,57 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False):
     triggers = [B.spell_cd_trigger(sid(name), show_on="showAlways", exact=True)]
     conds = []
     if urgency:
+        # Every urgency tier is ANDed with "this is a real cooldown, not the
+        # GCD". The trigger reports the global cooldown (use_showgcd), so a
+        # bare `expirationTime < 5` fires the urgent glow on every global, on
+        # every icon in the row -- which is exactly what shipped in final12.
+        #
+        # The guard is on `duration`, NOT `gcdCooldown`. `gcdCooldown` is
+        # declared hidden on the prototype and is therefore not exposed as a
+        # condition variable; WeakAuras drops the unknown sub-check and the AND
+        # collapses back to the bare expirationTime test. `duration` is
+        # guaranteed present whenever progressType == "timed" (data-model
+        # 6.3), so it always compiles.
+        #
+        # The GCD is 1.5s and hastes DOWN, never up, so 3s separates it from
+        # any real cooldown with room to spare. Only Unleash Essences (2.5s)
+        # and Trap Runes (3.0s) fall below the line, and a cooldown that short
+        # sits permanently inside the 5s tier anyway -- it would pulse orange
+        # for its whole duration, which is noise, not information.
+        GCD_FLOOR = "3"
+
+        def real_cd(seconds):
+            return B.check_and(
+                B.T({"trigger": 1, "variable": "expirationTime",
+                     "op": "<", "value": seconds}),
+                B.T({"trigger": 1, "variable": "duration",
+                     "op": ">", "value": GCD_FLOOR}))
+
         conds += [
-            B.cond(B.T({"trigger": 1, "variable": "expirationTime",
-                        "op": "<", "value": "20"}),
+            B.cond(real_cd("20"),
                    [B.change(f"sub.{timer_index}.text_visible", True)]),
-            B.cond(B.T({"trigger": 1, "variable": "expirationTime",
-                        "op": "<", "value": "10"}),
+            B.cond(real_cd("10"),
                    [B.change(f"sub.{glow_index}.glow", True)]),
-            B.cond(B.T({"trigger": 1, "variable": "expirationTime",
-                        "op": "<", "value": "5"}),
+            B.cond(real_cd("5"),
                    [B.change(f"sub.{glow_index}.glowColor",
                              B.rgba(1.0, 0.45, 0.15, 1.0)),
                     B.change("color", B.rgba(1.0, 0.85, 0.7, 1.0))]),
         ]
+    # Readiness, which is a different question from cooldown. `spellUsable`
+    # is false when you cannot cast right now for a reason the cooldown swipe
+    # never shows -- out of mana, missing the resource, wrong form. Without
+    # it an off-cooldown icon looks pressable when it is not, which is the
+    # single most misleading state a rotation pack can be in.
+    #
+    # Verified exposed on this fork: the Templar community pack drives
+    # desaturate off `spellUsable` 9 times (and off `onCooldown` 15 more).
+    # It is independent of the cooldown, so it does NOT need the GCD guard --
+    # a global does not make a spell unusable, it makes it un-castable, and
+    # the sweep already says that.
+    conds.append(B.cond(
+        B.T({"trigger": 1, "variable": "spellUsable", "value": 0}),
+        [B.change("desaturate", True)]))
+
     procs = PROC_GLOW.get(name)
     if procs:
         triggers.append(B.aura_trigger(

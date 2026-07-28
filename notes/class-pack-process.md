@@ -102,9 +102,21 @@ goes into `resources/in-game-verified.json` and wins over everything.
 ```
 ~/ascoa/weakauras/<class>/
   README.md
-  <class>-coa.txt          all specs
-  <class>-<spec>.txt        one per spec
+  <class>-coa.txt           all specs        <- always the CURRENT release
+  <class>-<spec>.txt         one per spec     <- always the CURRENT release
+  final<NN>-archive/
+    <class>-coa.txt          the outgoing all-specs pack, and only that
 ```
+
+**The delivery folder always holds the current release at the top level.**
+Before overwriting it, archive the outgoing **all-specs** file into
+`final<NN>-archive/` named for the version being replaced. Only the all-specs
+pack is archived — the per-spec packs are strict subsets of it and rebuild from
+the same tag. (`runemaster/final8-archive/` predates this rule and holds all
+four.)
+
+Copy from `docs/packs/`, which `mksite.py` has already regenerated, so the
+delivery folder and the site can never disagree.
 
 Bump `VERSION` on **every** release — it salts the uids. Without a bump,
 WeakAuras treats the import as already-installed and silently keeps the old

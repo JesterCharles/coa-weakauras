@@ -192,6 +192,69 @@ for spec, name in PACKS:
     check(f"{name}", ok, built[name])
 
 
+# ------------------------------------------------------------- 9. readiness
+print("\n9. every spell cooldown icon shows readiness")
+
+
+def cd_triggered(pack):
+    """Leaves whose FIRST trigger is a spell cooldown -- i.e. cd_icon output.
+
+    Aura, enchant and custom-Lua leaves are excluded: `spellUsable` lives on
+    the spell cooldown prototype and means nothing on the others.
+    """
+    out = []
+    for d in pack["c"].values():
+        if d.get("controlledChildren") or d.get("regionType") != "icon":
+            continue
+        trs = d.get("triggers") or {}
+        vals = list(trs.values()) if isinstance(trs, dict) else list(trs)
+        for t in vals:
+            if not isinstance(t, dict):
+                continue
+            tr = t.get("trigger")
+            if isinstance(tr, dict) and tr.get("event") == "Cooldown Progress (Spell)":
+                out.append(d)
+            break
+    return out
+
+
+def has_usable_cond(d):
+    conds = d.get("conditions") or {}
+    vals = list(conds.values()) if isinstance(conds, dict) else list(conds)
+    for c in vals:
+        if not isinstance(c, dict):
+            continue
+        if (c.get("check") or {}).get("variable") == "spellUsable":
+            return True
+    return False
+
+
+for spec, name in PACKS:
+    pack = load(os.path.join(TOOLS, f"{name}.txt"))
+    cds = cd_triggered(pack)
+    # A cooldown icon that is off cooldown but uncastable -- no mana, no
+    # resource, wrong form -- reads as "press me" with nothing to say
+    # otherwise. The swipe cannot show it; only `spellUsable` can.
+    bad = [d["id"] for d in cds if not has_usable_cond(d)]
+    check(f"{name}: {len(cds)} cooldown icons desaturate when unusable",
+          cds and not bad, "\n".join(bad[:8]))
+
+    # The GCD is reported by the same trigger (use_showgcd), so any urgency
+    # tier keyed on bare expirationTime fires on every global, on every icon
+    # in the row. That shipped once as final12; it must not ship again.
+    unguarded = []
+    for d in cds:
+        conds = d.get("conditions") or {}
+        vals = list(conds.values()) if isinstance(conds, dict) else list(conds)
+        for c in vals:
+            chk = c.get("check") or {}
+            if chk.get("variable") == "expirationTime":
+                unguarded.append(d["id"])
+                break
+    check(f"{name}: no bare expirationTime tier", not unguarded,
+          "\n".join(unguarded[:8]))
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")
