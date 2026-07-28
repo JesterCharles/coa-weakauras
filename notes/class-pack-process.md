@@ -44,7 +44,11 @@ https://ascensionsidekick.com/<class>/<spec>   # mechanics, rotations, talent tr
 ```
 
 - `tools/dbsearch.py` — batch search db.ascension.gg
-- `tools/audit_cds.py` — pull the Cooldown row from every ability's page
+- `tools/audit_cds.py` — pull the Cooldown **and GCD** rows from every ability's
+  page. The GCD half is load-bearing, not a nicety: see
+  [`off-gcd-detection.md`](off-gcd-detection.md). Check its `unresolved` list is
+  empty before trusting the output — a page that failed to render looks exactly
+  like an off-GCD ability.
 - `tools/fetch_icons.py` — real name + icon per spell id
 
 **Source precedence:** in-game tooltip → db.exil.es → db.ascension.gg →
@@ -180,3 +184,41 @@ and record the decision before building the other healer classes.
 - Texture path goes in `displayIcon`; `icon` is a boolean.
 - Resource bar width is derived from the main row's icon count.
 - Change one mechanism at a time so a failure is unambiguous.
+
+## Carry-forward checklist — every class inherits these
+
+Everything below was paid for once on Runemaster. A new class must satisfy all
+of it. Where a test enforces the rule, the test name is given: run
+`python3 tests/run.py` and it fails loudly rather than shipping quietly.
+
+**Cooldown icons** (`cd_icon`)
+
+| Rule | Why | Enforced by |
+|---|---|---|
+| `spellUsable == 0` → `desaturate` on every spell-cooldown icon | Off cooldown but unaffordable otherwise reads as "press me" | check 9, *desaturate when unusable* |
+| `use_showgcd` **off** for every off-GCD ability | WA substitutes the global blindly; an off-GCD icon otherwise sweeps whenever you press something else | check 10, *no off-GCD ability shows the global* |
+| `use_showgcd` **on** for every on-GCD ability | otherwise you lose the anti-clipping cue | check 10, *keeps the sweep* |
+| Escalation tiers ANDed with `onCooldown == 1` | a bare `expirationTime` tier fires on every global, on every icon | check 9, *no bare expirationTime tier* |
+| `OFF_GCD` derived from `cooldown-abilities.json`, never hand-written | 26 of 59 on Runemaster; hand-maintenance does not scale to 21 classes | — (derive it, don't type it) |
+
+**Things that are true of the addon, not of Runemaster** — do not re-derive:
+
+- `conditionType` is what makes a trigger variable usable in a condition.
+  `hidden` does not. `gcdCooldown` has no `conditionType` and is therefore
+  unusable; `onCooldown` and `spellUsable` are both `hidden` and both work.
+- `inverse = true` + `cooldown = true` is correct for spell cooldown icons.
+  The `Icon.lua:642` nil crash came from the **item** cooldown trigger.
+- Group triggers / conditions / load are inert. Leaf only.
+- `VERSION` salts uids and nothing else — it is not recoverable from a
+  delivered file. See §6.
+
+**Layout** — `notes/layout-standard.md` is the contract, but verify against the
+generated guide, never against the constants in the builder. Runemaster shipped
+with `CD_PER_ROW` and `Y_CDS` defined and never referenced, so the documented
+wrap-at-12 did not exist and Engravement's utility row shipped 586px wide
+against a 274px main row. **Before shipping, measure every always-visible row's
+width** (`n * size + (n-1) * space`) against the resource bar; anything past
+~1.2x needs a wrap or a cut.
+
+**Delivery** — flat `archive/v<NN>-<class>-coa.txt`, bump `VERSION`, update the
+delivery README's "Current version" line and *What's new*.

@@ -267,9 +267,34 @@ fixed inter-band gap. No class declares an anchor.
   (arithmetic on a nil `expirationTime`) came from the **item** cooldown
   trigger, which can report nil where the spell prototype does not. Scope the
   rule to item triggers; do not carry the broad version into a new class.
-- **Cooldown rows wrap at 12** icons and push the long-term band down. A row of
-  23 (Engravement utility, `final8`) is 642px against a 274px main row and must
-  not ship flush.
+- **Cooldown rows should wrap at 12** icons and push the long-term band down. A
+  row of 23 (Engravement utility, `final8`) is 642px against a 274px main row
+  and must not ship flush.
+
+  ⚠️ **This is the intent, NOT what ships.** `CD_PER_ROW = 12` and `Y_CDS` are
+  defined in `build_runemaster.py` and never referenced — dead constants. Every
+  cooldown row is emitted `grow: "HORIZONTAL"` with `useLimit: false`, which is
+  one unbroken line at any child count, and the band ladder advances by a fixed
+  `CD_ROW_STEP` that assumes a single row regardless.
+
+  Measured in `final15`, always-visible rows against the 270px resource bar:
+
+  | Row | Icons | Width | vs bar |
+  |---|---|---|---|
+  | Engravement Utility | 21 | 586px | 2.17x |
+  | Riftblade Utility | 16 | 446px | 1.65x |
+  | Glyphic Offense | 14 | 390px | 1.44x |
+  | Glyphic Utility | 13 | 362px | 1.34x |
+  | Riftblade Offense | 12 | 334px | 1.24x |
+  | Engravement Offense | 11 | 306px | 1.13x |
+
+  Wiring the wrap needs both halves: `useLimit: true` + `limit: CD_PER_ROW` on
+  the dynamic group, **and** a band ladder that advances by
+  `ceil(n / CD_PER_ROW) * CD_ROW_STEP` instead of a flat step — otherwise a
+  wrapped row grows down into the band beneath it.
+
+  This is the concrete case of the standing rule below: the constants in the
+  builder are not authority for what shipped.
 - **Active-only rows are the norm** — buff/proc rows are empty until something
   is up, so a 27-entry row is a handful of icons in play.
 - **Vertical order encodes urgency**: react-within-a-global nearest the
