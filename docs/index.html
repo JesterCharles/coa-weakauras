@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Conquest of Azeroth WeakAuras</title>
+<meta name="description" content="WeakAura packs for all 21 Ascension Conquest of Azeroth custom classes. One layout, every class, gated so unused packs cost nothing.">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="Conquest of Azeroth WeakAuras">
+<meta property="og:description" content="WeakAura packs for all 21 Ascension Conquest of Azeroth custom classes. One layout, every class, gated so unused packs cost nothing.">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -20,189 +25,477 @@
 <main>
 <section class="hero index">
   <div>
-    <h1>Conquest of Azeroth WeakAuras</h1>
-    <p class="lede">WeakAura packs for Ascension's Conquest of Azeroth custom
-       classes. One consistent layout across every class, so learning one pack
-       teaches you all of them.</p>
-    <p class="lede">Every display is gated to its class and spec, so you can
-       import as many as you like &mdash; the ones you are not playing do not
-       load and cost nothing.</p>
-    <p><span class="badge ok">1 available</span>
-       <span class="badge soon">20 planned</span></p>
+    <p class="eyebrow">Ascension &middot; Conquest of Azeroth</p>
+    <h1>Every custom class,<br>one WeakAura layout.</h1>
+    <p class="lede">Rotation, cooldowns and buffs for Conquest of Azeroth's
+       custom classes. The bands sit in the same place on every pack, so
+       learning one teaches you all of them.</p>
+    <p class="lede">Each display is gated to its class and spec. Import as many
+       as you like &mdash; the ones you are not playing never load.</p>
+    <div class="stats">
+      <div class="stat"><b>1</b><span>Available</span></div>
+      <div class="stat"><b>20</b><span>Planned</span></div>
+      <div class="stat"><b>21</b><span>Classes</span></div>
+      <div class="stat"><b>70</b><span>Specs</span></div>
+    </div>
   </div>
 </section>
 
 <section>
-  <h2>Classes</h2>
-  <div class="grid">
-<a class="card" href="runemaster/index.html">
-  <img class="classicon" src="assets/class-icons/runemaster/_class-runemaster.png" alt="" loading="lazy">
+  <h2>Find your class</h2>
+  <div class="finder">
+    <div class="searchrow">
+      <div class="searchbox" id="searchbox">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M20 20l-4.2-4.2"></path>
+        </svg>
+        <input id="q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search class, spec, or load token&hellip;"
+               aria-label="Search classes">
+        <button id="clear" type="button" aria-label="Clear search">&times;</button>
+        <span class="slash">/</span>
+      </div>
+      <div class="chips" role="group" aria-label="Filter by availability">
+        <button class="chip" type="button" data-show="all"
+                aria-pressed="true">All</button>
+        <button class="chip" type="button" data-show="ready"
+                aria-pressed="false">Available</button>
+        <button class="chip" type="button" data-show="planned"
+                aria-pressed="false">Planned</button>
+      </div>
+      <span class="count" id="count"><b>21</b> of 21 classes</span>
+    </div>
+  </div>
+
+  <div class="grid" id="grid">
+<a class="card" href="runemaster/index.html"
+  style="--c:#47a2e3;--cd:#193d57;--i:0"
+  data-name="Runemaster"
+  data-specs="Glyphic Engravement Riftblade"
+  data-token="SPIRITMAGE"
+  data-id="32"
+  data-state="ready">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/runemaster/_class-runemaster.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">32</span>
+  </div>
   <div class="cardbody">
     <h3>Runemaster</h3>
-    <div class="specs"><img src="assets/class-icons/runemaster/glyphic.png" alt="glyphic" title="glyphic" loading="lazy"><img src="assets/class-icons/runemaster/engravement.png" alt="engravement" title="engravement" loading="lazy"><img src="assets/class-icons/runemaster/riftblade.png" alt="riftblade" title="riftblade" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/runemaster/glyphic.png" alt="" title="Glyphic" loading="lazy"><img src="assets/class-icons/runemaster/engravement.png" alt="" title="Engravement" loading="lazy"><img src="assets/class-icons/runemaster/riftblade.png" alt="" title="Riftblade" loading="lazy"></div>
+    <p class="token">SPIRITMAGE</p>
   </div>
-  <span class="badge ok">Available</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Available</span>
+  </div>
 </a>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/barbarian/_class-barbarian.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#e44d45;--cd:#571c19;--i:1"
+  data-name="Barbarian"
+  data-specs="Brutality Headhunting Ancestry"
+  data-token="BARBARIAN"
+  data-id="12"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/barbarian/_class-barbarian.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">12</span>
+  </div>
   <div class="cardbody">
     <h3>Barbarian</h3>
-    <div class="specs"><img src="assets/class-icons/barbarian/brutality.png" alt="brutality" title="brutality" loading="lazy"><img src="assets/class-icons/barbarian/headhunting.png" alt="headhunting" title="headhunting" loading="lazy"><img src="assets/class-icons/barbarian/ancestry.png" alt="ancestry" title="ancestry" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/barbarian/brutality.png" alt="" title="Brutality" loading="lazy"><img src="assets/class-icons/barbarian/headhunting.png" alt="" title="Headhunting" loading="lazy"><img src="assets/class-icons/barbarian/ancestry.png" alt="" title="Ancestry" loading="lazy"></div>
+    <p class="token">BARBARIAN</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/bloodmage/_class-bloodmage.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#ef5325;--cd:#572719;--i:2"
+  data-name="Bloodmage"
+  data-specs="Sanguine Accursed Eternal Fleshweaver"
+  data-token="SONOFARUGAL"
+  data-id="20"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/bloodmage/_class-bloodmage.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">20</span>
+  </div>
   <div class="cardbody">
     <h3>Bloodmage</h3>
-    <div class="specs"><img src="assets/class-icons/bloodmage/sanguine.png" alt="sanguine" title="sanguine" loading="lazy"><img src="assets/class-icons/bloodmage/accursed.png" alt="accursed" title="accursed" loading="lazy"><img src="assets/class-icons/bloodmage/eternal.png" alt="eternal" title="eternal" loading="lazy"><img src="assets/class-icons/bloodmage/fleshweaver.png" alt="fleshweaver" title="fleshweaver" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/bloodmage/sanguine.png" alt="" title="Sanguine" loading="lazy"><img src="assets/class-icons/bloodmage/accursed.png" alt="" title="Accursed" loading="lazy"><img src="assets/class-icons/bloodmage/eternal.png" alt="" title="Eternal" loading="lazy"><img src="assets/class-icons/bloodmage/fleshweaver.png" alt="" title="Fleshweaver" loading="lazy"></div>
+    <p class="token">SONOFARUGAL</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/chronomancer/_class-chronomancer.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#34d5e9;--cd:#195057;--i:3"
+  data-name="Chronomancer"
+  data-specs="Artificer Infinite Time"
+  data-token="CHRONOMANCER"
+  data-id="22"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/chronomancer/_class-chronomancer.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">22</span>
+  </div>
   <div class="cardbody">
     <h3>Chronomancer</h3>
-    <div class="specs"><img src="assets/class-icons/chronomancer/artificer.png" alt="artificer" title="artificer" loading="lazy"><img src="assets/class-icons/chronomancer/infinite.png" alt="infinite" title="infinite" loading="lazy"><img src="assets/class-icons/chronomancer/time.png" alt="time" title="time" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/chronomancer/artificer.png" alt="" title="Artificer" loading="lazy"><img src="assets/class-icons/chronomancer/infinite.png" alt="" title="Infinite" loading="lazy"><img src="assets/class-icons/chronomancer/time.png" alt="" title="Time" loading="lazy"></div>
+    <p class="token">CHRONOMANCER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/cultist/_class-cultist.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#d874ae;--cd:#57193d;--i:4"
+  data-name="Cultist"
+  data-specs="Corruption Dreadnought Godblade Heretic"
+  data-token="CULTIST"
+  data-id="25"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/cultist/_class-cultist.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">25</span>
+  </div>
   <div class="cardbody">
     <h3>Cultist</h3>
-    <div class="specs"><img src="assets/class-icons/cultist/corruption.png" alt="corruption" title="corruption" loading="lazy"><img src="assets/class-icons/cultist/dreadnought.png" alt="dreadnought" title="dreadnought" loading="lazy"><img src="assets/class-icons/cultist/godblade.png" alt="godblade" title="godblade" loading="lazy"><img src="assets/class-icons/cultist/heretic.png" alt="heretic" title="heretic" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/cultist/corruption.png" alt="" title="Corruption" loading="lazy"><img src="assets/class-icons/cultist/dreadnought.png" alt="" title="Dreadnought" loading="lazy"><img src="assets/class-icons/cultist/godblade.png" alt="" title="Godblade" loading="lazy"><img src="assets/class-icons/cultist/heretic.png" alt="" title="Heretic" loading="lazy"></div>
+    <p class="token">CULTIST</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/felsworn/_class-felsworn.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#daec2d;--cd:#515719;--i:5"
+  data-name="Felsworn"
+  data-specs="Slayer Infernal Tyrant"
+  data-token="DEMONHUNTER"
+  data-id="14"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/felsworn/_class-felsworn.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">14</span>
+  </div>
   <div class="cardbody">
     <h3>Felsworn</h3>
-    <div class="specs"><img src="assets/class-icons/felsworn/slayer.png" alt="slayer" title="slayer" loading="lazy"><img src="assets/class-icons/felsworn/infernal.png" alt="infernal" title="infernal" loading="lazy"><img src="assets/class-icons/felsworn/tyrant.png" alt="tyrant" title="tyrant" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/felsworn/slayer.png" alt="" title="Slayer" loading="lazy"><img src="assets/class-icons/felsworn/infernal.png" alt="" title="Infernal" loading="lazy"><img src="assets/class-icons/felsworn/tyrant.png" alt="" title="Tyrant" loading="lazy"></div>
+    <p class="token">DEMONHUNTER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/guardian/_class-guardian.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#48c2e3;--cd:#194a57;--i:6"
+  data-name="Guardian"
+  data-specs="Vanguard Inspiration Gladiator"
+  data-token="GUARDIAN"
+  data-id="18"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/guardian/_class-guardian.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">18</span>
+  </div>
   <div class="cardbody">
     <h3>Guardian</h3>
-    <div class="specs"><img src="assets/class-icons/guardian/vanguard.png" alt="vanguard" title="vanguard" loading="lazy"><img src="assets/class-icons/guardian/inspiration.png" alt="inspiration" title="inspiration" loading="lazy"><img src="assets/class-icons/guardian/gladiator.png" alt="gladiator" title="gladiator" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/guardian/vanguard.png" alt="" title="Vanguard" loading="lazy"><img src="assets/class-icons/guardian/inspiration.png" alt="" title="Inspiration" loading="lazy"><img src="assets/class-icons/guardian/gladiator.png" alt="" title="Gladiator" loading="lazy"></div>
+    <p class="token">GUARDIAN</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/knight-of-xoroth/_class-knight-of-xoroth.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#ef5525;--cd:#572819;--i:7"
+  data-name="Knight of Xoroth"
+  data-specs="War Hellfire Defiance"
+  data-token="FLESHWARDEN"
+  data-id="17"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/knight-of-xoroth/_class-knight-of-xoroth.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">17</span>
+  </div>
   <div class="cardbody">
     <h3>Knight of Xoroth</h3>
-    <div class="specs"><img src="assets/class-icons/knight-of-xoroth/war.png" alt="war" title="war" loading="lazy"><img src="assets/class-icons/knight-of-xoroth/hellfire.png" alt="hellfire" title="hellfire" loading="lazy"><img src="assets/class-icons/knight-of-xoroth/defiance.png" alt="defiance" title="defiance" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/knight-of-xoroth/war.png" alt="" title="War" loading="lazy"><img src="assets/class-icons/knight-of-xoroth/hellfire.png" alt="" title="Hellfire" loading="lazy"><img src="assets/class-icons/knight-of-xoroth/defiance.png" alt="" title="Defiance" loading="lazy"></div>
+    <p class="token">FLESHWARDEN</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/necromancer/_class-necromancer.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#e1d14f;--cd:#575019;--i:8"
+  data-name="Necromancer"
+  data-specs="Animation Death Rime"
+  data-token="NECROMANCER"
+  data-id="23"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/necromancer/_class-necromancer.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">23</span>
+  </div>
   <div class="cardbody">
     <h3>Necromancer</h3>
-    <div class="specs"><img src="assets/class-icons/necromancer/animation.png" alt="animation" title="animation" loading="lazy"><img src="assets/class-icons/necromancer/death.png" alt="death" title="death" loading="lazy"><img src="assets/class-icons/necromancer/rime.png" alt="rime" title="rime" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/necromancer/animation.png" alt="" title="Animation" loading="lazy"><img src="assets/class-icons/necromancer/death.png" alt="" title="Death" loading="lazy"><img src="assets/class-icons/necromancer/rime.png" alt="" title="Rime" loading="lazy"></div>
+    <p class="token">NECROMANCER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/primalist/_class-primalist.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#daab69;--cd:#573d19;--i:9"
+  data-name="Primalist"
+  data-specs="Geomancy Grovekeeper Mountain King Wildwalker"
+  data-token="WILDWALKER"
+  data-id="31"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/primalist/_class-primalist.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">31</span>
+  </div>
   <div class="cardbody">
     <h3>Primalist</h3>
-    <div class="specs"><img src="assets/class-icons/primalist/geomancy.png" alt="geomancy" title="geomancy" loading="lazy"><img src="assets/class-icons/primalist/grovekeeper.png" alt="grovekeeper" title="grovekeeper" loading="lazy"><img src="assets/class-icons/primalist/mountain-king.png" alt="mountain-king" title="mountain-king" loading="lazy"><img src="assets/class-icons/primalist/wildwalker.png" alt="wildwalker" title="wildwalker" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/primalist/geomancy.png" alt="" title="Geomancy" loading="lazy"><img src="assets/class-icons/primalist/grovekeeper.png" alt="" title="Grovekeeper" loading="lazy"><img src="assets/class-icons/primalist/mountain-king.png" alt="" title="Mountain King" loading="lazy"><img src="assets/class-icons/primalist/wildwalker.png" alt="" title="Wildwalker" loading="lazy"></div>
+    <p class="token">WILDWALKER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/pyromancer/_class-pyromancer.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#ef5125;--cd:#572719;--i:10"
+  data-name="Pyromancer"
+  data-specs="Incineration Flameweaving Draconic"
+  data-token="PYROMANCER"
+  data-id="24"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/pyromancer/_class-pyromancer.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">24</span>
+  </div>
   <div class="cardbody">
     <h3>Pyromancer</h3>
-    <div class="specs"><img src="assets/class-icons/pyromancer/incineration.png" alt="incineration" title="incineration" loading="lazy"><img src="assets/class-icons/pyromancer/flameweaving.png" alt="flameweaving" title="flameweaving" loading="lazy"><img src="assets/class-icons/pyromancer/draconic.png" alt="draconic" title="draconic" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/pyromancer/incineration.png" alt="" title="Incineration" loading="lazy"><img src="assets/class-icons/pyromancer/flameweaving.png" alt="" title="Flameweaving" loading="lazy"><img src="assets/class-icons/pyromancer/draconic.png" alt="" title="Draconic" loading="lazy"></div>
+    <p class="token">PYROMANCER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/ranger/_class-ranger.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#e1614e;--cd:#572119;--i:11"
+  data-name="Ranger"
+  data-specs="Archery Brigand Farstrider"
+  data-token="RANGER"
+  data-id="21"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/ranger/_class-ranger.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">21</span>
+  </div>
   <div class="cardbody">
     <h3>Ranger</h3>
-    <div class="specs"><img src="assets/class-icons/ranger/archery.png" alt="archery" title="archery" loading="lazy"><img src="assets/class-icons/ranger/brigand.png" alt="brigand" title="brigand" loading="lazy"><img src="assets/class-icons/ranger/farstrider.png" alt="farstrider" title="farstrider" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/ranger/archery.png" alt="" title="Archery" loading="lazy"><img src="assets/class-icons/ranger/brigand.png" alt="" title="Brigand" loading="lazy"><img src="assets/class-icons/ranger/farstrider.png" alt="" title="Farstrider" loading="lazy"></div>
+    <p class="token">RANGER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/reaper/_class-reaper.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#2985ed;--cd:#193657;--i:12"
+  data-name="Reaper"
+  data-specs="Domination Harvest Soul"
+  data-token="REAPER"
+  data-id="30"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/reaper/_class-reaper.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">30</span>
+  </div>
   <div class="cardbody">
     <h3>Reaper</h3>
-    <div class="specs"><img src="assets/class-icons/reaper/domination.png" alt="domination" title="domination" loading="lazy"><img src="assets/class-icons/reaper/harvest.png" alt="harvest" title="harvest" loading="lazy"><img src="assets/class-icons/reaper/soul.png" alt="soul" title="soul" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/reaper/domination.png" alt="" title="Domination" loading="lazy"><img src="assets/class-icons/reaper/harvest.png" alt="" title="Harvest" loading="lazy"><img src="assets/class-icons/reaper/soul.png" alt="" title="Soul" loading="lazy"></div>
+    <p class="token">REAPER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/starcaller/_class-starcaller.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#3fd0e6;--cd:#194f57;--i:13"
+  data-name="Starcaller"
+  data-specs="Moon Guard Moon Priest Sentinel Warden"
+  data-token="STARCALLER"
+  data-id="26"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/starcaller/_class-starcaller.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">26</span>
+  </div>
   <div class="cardbody">
     <h3>Starcaller</h3>
-    <div class="specs"><img src="assets/class-icons/starcaller/moon-guard.png" alt="moon-guard" title="moon-guard" loading="lazy"><img src="assets/class-icons/starcaller/moon-priest.png" alt="moon-priest" title="moon-priest" loading="lazy"><img src="assets/class-icons/starcaller/sentinel.png" alt="sentinel" title="sentinel" loading="lazy"><img src="assets/class-icons/starcaller/warden.png" alt="warden" title="warden" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/starcaller/moon-guard.png" alt="" title="Moon Guard" loading="lazy"><img src="assets/class-icons/starcaller/moon-priest.png" alt="" title="Moon Priest" loading="lazy"><img src="assets/class-icons/starcaller/sentinel.png" alt="" title="Sentinel" loading="lazy"><img src="assets/class-icons/starcaller/warden.png" alt="" title="Warden" loading="lazy"></div>
+    <p class="token">STARCALLER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/stormbringer/_class-stormbringer.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#2561ef;--cd:#192c57;--i:14"
+  data-name="Stormbringer"
+  data-specs="Lightning Wind Maelstrom"
+  data-token="STORMBRINGER"
+  data-id="16"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/stormbringer/_class-stormbringer.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">16</span>
+  </div>
   <div class="cardbody">
     <h3>Stormbringer</h3>
-    <div class="specs"><img src="assets/class-icons/stormbringer/lightning.png" alt="lightning" title="lightning" loading="lazy"><img src="assets/class-icons/stormbringer/wind.png" alt="wind" title="wind" loading="lazy"><img src="assets/class-icons/stormbringer/maelstrom.png" alt="maelstrom" title="maelstrom" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/stormbringer/lightning.png" alt="" title="Lightning" loading="lazy"><img src="assets/class-icons/stormbringer/wind.png" alt="" title="Wind" loading="lazy"><img src="assets/class-icons/stormbringer/maelstrom.png" alt="" title="Maelstrom" loading="lazy"></div>
+    <p class="token">STORMBRINGER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/sun-cleric/_class-sun-cleric.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#e8c039;--cd:#574919;--i:15"
+  data-name="Sun Cleric"
+  data-specs="Blessings Piety Seraphim Valkyrie"
+  data-token="SUNCLERIC"
+  data-id="27"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/sun-cleric/_class-sun-cleric.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">27</span>
+  </div>
   <div class="cardbody">
     <h3>Sun Cleric</h3>
-    <div class="specs"><img src="assets/class-icons/sun-cleric/blessings.png" alt="blessings" title="blessings" loading="lazy"><img src="assets/class-icons/sun-cleric/piety.png" alt="piety" title="piety" loading="lazy"><img src="assets/class-icons/sun-cleric/seraphim.png" alt="seraphim" title="seraphim" loading="lazy"><img src="assets/class-icons/sun-cleric/valkyrie.png" alt="valkyrie" title="valkyrie" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/sun-cleric/blessings.png" alt="" title="Blessings" loading="lazy"><img src="assets/class-icons/sun-cleric/piety.png" alt="" title="Piety" loading="lazy"><img src="assets/class-icons/sun-cleric/seraphim.png" alt="" title="Seraphim" loading="lazy"><img src="assets/class-icons/sun-cleric/valkyrie.png" alt="" title="Valkyrie" loading="lazy"></div>
+    <p class="token">SUNCLERIC</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/templar/_class-templar.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#ef253d;--cd:#571921;--i:16"
+  data-name="Templar"
+  data-specs="Zealot Oathkeeper Crusader"
+  data-token="MONK"
+  data-id="19"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/templar/_class-templar.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">19</span>
+  </div>
   <div class="cardbody">
     <h3>Templar</h3>
-    <div class="specs"><img src="assets/class-icons/templar/zealot.png" alt="zealot" title="zealot" loading="lazy"><img src="assets/class-icons/templar/oathkeeper.png" alt="oathkeeper" title="oathkeeper" loading="lazy"><img src="assets/class-icons/templar/crusader.png" alt="crusader" title="crusader" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/templar/zealot.png" alt="" title="Zealot" loading="lazy"><img src="assets/class-icons/templar/oathkeeper.png" alt="" title="Oathkeeper" loading="lazy"><img src="assets/class-icons/templar/crusader.png" alt="" title="Crusader" loading="lazy"></div>
+    <p class="token">MONK</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/tinker/_class-tinker.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#e5a440;--cd:#573f19;--i:17"
+  data-name="Tinker"
+  data-specs="Demolition Invention Mechanics"
+  data-token="TINKER"
+  data-id="28"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/tinker/_class-tinker.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">28</span>
+  </div>
   <div class="cardbody">
     <h3>Tinker</h3>
-    <div class="specs"><img src="assets/class-icons/tinker/demolition.png" alt="demolition" title="demolition" loading="lazy"><img src="assets/class-icons/tinker/invention.png" alt="invention" title="invention" loading="lazy"><img src="assets/class-icons/tinker/mechanics.png" alt="mechanics" title="mechanics" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/tinker/demolition.png" alt="" title="Demolition" loading="lazy"><img src="assets/class-icons/tinker/invention.png" alt="" title="Invention" loading="lazy"><img src="assets/class-icons/tinker/mechanics.png" alt="" title="Mechanics" loading="lazy"></div>
+    <p class="token">TINKER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/venomancer/_class-venomancer.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#46ea31;--cd:#205719;--i:18"
+  data-name="Venomancer"
+  data-specs="Fortitude Rot Stalking Vizier"
+  data-token="PROPHET"
+  data-id="29"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/venomancer/_class-venomancer.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">29</span>
+  </div>
   <div class="cardbody">
     <h3>Venomancer</h3>
-    <div class="specs"><img src="assets/class-icons/venomancer/fortitude.png" alt="fortitude" title="fortitude" loading="lazy"><img src="assets/class-icons/venomancer/rot.png" alt="rot" title="rot" loading="lazy"><img src="assets/class-icons/venomancer/stalking.png" alt="stalking" title="stalking" loading="lazy"><img src="assets/class-icons/venomancer/vizier.png" alt="vizier" title="vizier" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/venomancer/fortitude.png" alt="" title="Fortitude" loading="lazy"><img src="assets/class-icons/venomancer/rot.png" alt="" title="Rot" loading="lazy"><img src="assets/class-icons/venomancer/stalking.png" alt="" title="Stalking" loading="lazy"><img src="assets/class-icons/venomancer/vizier.png" alt="" title="Vizier" loading="lazy"></div>
+    <p class="token">PROPHET</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/witch-doctor/_class-witch-doctor.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#dfb358;--cd:#574319;--i:19"
+  data-name="Witch Doctor"
+  data-specs="Voodoo Brewing Shadowhunting"
+  data-token="WITCHDOCTOR"
+  data-id="13"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/witch-doctor/_class-witch-doctor.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">13</span>
+  </div>
   <div class="cardbody">
     <h3>Witch Doctor</h3>
-    <div class="specs"><img src="assets/class-icons/witch-doctor/voodoo.png" alt="voodoo" title="voodoo" loading="lazy"><img src="assets/class-icons/witch-doctor/brewing.png" alt="brewing" title="brewing" loading="lazy"><img src="assets/class-icons/witch-doctor/shadowhunting.png" alt="shadowhunting" title="shadowhunting" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/witch-doctor/voodoo.png" alt="" title="Voodoo" loading="lazy"><img src="assets/class-icons/witch-doctor/brewing.png" alt="" title="Brewing" loading="lazy"><img src="assets/class-icons/witch-doctor/shadowhunting.png" alt="" title="Shadowhunting" loading="lazy"></div>
+    <p class="token">WITCHDOCTOR</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
-<div class="card pending">
-  <img class="classicon" src="assets/class-icons/witch-hunter/_class-witch-hunter.png" alt="" loading="lazy">
+<div class="card pending"
+  style="--c:#e39d47;--cd:#573b19;--i:20"
+  data-name="Witch Hunter"
+  data-specs="Boltslinger Houndmaster Black Knight Inquisition"
+  data-token="WITCHHUNTER"
+  data-id="15"
+  data-state="planned">
+  <div class="cardtop">
+    <img class="classicon" src="assets/class-icons/witch-hunter/_class-witch-hunter.png" alt="" loading="lazy" width="52" height="52">
+    <span class="cid">15</span>
+  </div>
   <div class="cardbody">
     <h3>Witch Hunter</h3>
-    <div class="specs"><img src="assets/class-icons/witch-hunter/boltslinger.png" alt="boltslinger" title="boltslinger" loading="lazy"><img src="assets/class-icons/witch-hunter/houndmaster.png" alt="houndmaster" title="houndmaster" loading="lazy"><img src="assets/class-icons/witch-hunter/black-knight.png" alt="black-knight" title="black-knight" loading="lazy"><img src="assets/class-icons/witch-hunter/inquisition.png" alt="inquisition" title="inquisition" loading="lazy"></div>
+    <div class="specs"><img src="assets/class-icons/witch-hunter/boltslinger.png" alt="" title="Boltslinger" loading="lazy"><img src="assets/class-icons/witch-hunter/houndmaster.png" alt="" title="Houndmaster" loading="lazy"><img src="assets/class-icons/witch-hunter/black-knight.png" alt="" title="Black Knight" loading="lazy"><img src="assets/class-icons/witch-hunter/inquisition.png" alt="" title="Inquisition" loading="lazy"></div>
+    <p class="token">WITCHHUNTER</p>
   </div>
-  <span class="badge soon">Planned</span>
+  <div class="cardfoot">
+    <span class="state"><i class="dot"></i>Planned</span>
+  </div>
 </div>
+  </div>
+
+  <div class="empty">
+    <b>No class matches that.</b>
+    Search covers class names, spec names and load tokens
+    &mdash; try <code>rune</code>, <code>frost</code> or <code>SPIRITMAGE</code>.
+    <br><button id="reset" type="button">Show all 21</button>
   </div>
 </section>
 
@@ -213,5 +506,6 @@
      <a href="https://github.com/JesterCharles/coa-weakauras/blob/main/NOTICE">Data sources</a>.</p>
 </footer>
 <script src="assets/copy.js"></script>
+<script src="assets/search.js"></script>
 </body>
 </html>
