@@ -170,6 +170,47 @@ Chronomancer. Never debug the engine and a new class at the same time.
 
 ---
 
+## SEQUENCING REVISED — 2026-07-28
+
+**Phase 0 is complete. Chronomancer now runs BEFORE the engine extraction.**
+
+The plan below sequences extraction (Phases 1a/1b/1c/2) ahead of Chronomancer,
+with Chronomancer as the acceptance test. That order is reversed:
+
+1. **Now** — `build_chronomancer.py`, forked from `build_runemaster.py` with
+   Chronomancer data. Runemaster is untouched and stays comparator-protected
+   throughout.
+2. **Then** — extract `wapack.py` from what the two builders *actually* share.
+
+Reason: extracting an engine from a single example is guesswork about which
+parts are class-agnostic. A second real class is the evidence. Codex's pass-2
+review hinted at the same thing from the other direction ("JSON config is
+premature ... freeze it only after Chronomancer reveals the real shape"), and
+decision 5 already deferred the config format for exactly that reason.
+
+What this does NOT change:
+- The comparator and `tests/run.py` stay the gate. Runemaster must keep
+  rebuilding to its fixture while Chronomancer is developed.
+- The layout standard in [[layout-standard]] still governs both.
+- Phases 1a-1c and 2 still happen, just informed by two classes instead of one.
+
+Phase 4 below (Chronomancer through the new path) becomes Phase 4 *through the
+forked path*; steps 1-6 of it are otherwise unchanged.
+
+## What Phase 0 actually delivered
+
+- Path authority fixed; the builder runs again (`SP` pointed at `tools/` while
+  data had moved to `resources/`)
+- `tests/compare.py` structural comparator + `tests/run.py`, 23 checks,
+  including 5 mutation checks proving the comparator can fail
+- `tests/fixtures/` frozen at `final11`
+- Version control: public repo `github.com/JesterCharles/coa-weakauras`
+- Trinkets removed (crash source, and player gear rather than class content)
+- Class + spec load gating on every leaf, asserted at build time
+- `docs/` GitHub Pages site and `submissions/` generators
+
+---
+
 ## Phase 0 — Path authority, repo, comparator, golden fixture
 
 **The builder does not currently run.** `SP = os.path.dirname(__file__)` resolves
