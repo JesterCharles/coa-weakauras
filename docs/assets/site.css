@@ -1,342 +1,372 @@
-/* Conquest of Azeroth WeakAuras -- site styles.
+/* Conquest of Azeroth WeakAuras.
  *
- * Light on purpose. Every CoA and WoW addon site is dark, so a dark palette
- * is the thing that makes them all look alike; paper is the cheapest way to
- * not be one of them. It also fixes the practical problem with a dark grid of
- * dark cards, which is that the page reads as one undifferentiated black mass
- * with no focal point.
+ * The site is built out of the thing it ships. WeakAuras is flush bands of
+ * 56px icons at fixed offsets below your character, where anything you cannot
+ * use right now is desaturated. So: the class roster is a flush icon band, the
+ * unbuilt classes are desaturated by the pack's own rule, hovering raises a
+ * game tooltip, and the class page draws the pack to scale at the real
+ * coordinates out of the import string.
  *
- * Three rules hold the look together:
+ * That is the whole design rationale. Nothing here is a web style laid over
+ * the content -- the grammar comes from the addon, which is why it should not
+ * look like a template.
  *
- * 1. Square corners, hard offset shadows. No border-radius, no blur. The
- *    shadow is a solid ink block offset down-right, which reads as printed
- *    matter rather than as a web card.
- * 2. Heavy ink rules do the structural work -- 2px, full strength, no
- *    hairlines. On paper a 1px grey line just looks like a rendering bug.
- * 3. Colour identity is per class and comes from the art. tools/iconcolor.py
- *    reads each icon; mksite.py writes the result onto the element as --c.
- *    Nothing here hard-codes a class colour.
- *
- * Deliberately NO monospace anywhere. The previous revision leaned on it for
- * labels and it pulled everything back toward a dashboard.
+ * Sizes are the real ones. Icons are 56px because that is the texture size
+ * Blizzard ships and the size the packs use; borders are 1px because the game
+ * draws 1px. Do not round these to nicer numbers.
  */
 :root{
-  --paper:#f4f1ea;
-  --paper2:#e9e3d7;
-  --paper3:#ddd5c5;
-  --ink:#17140f;
-  --ink2:#4c443a;
-  --muted:#8b8072;
-  --ok:#1c6b3f;
-  --c:#b4442a;            /* per-class accent, overridden inline */
-  --cd:#3a1a10;           /* per-class deep, overridden inline */
+  /* The game at night: desaturated blue-black, not neutral grey. */
+  --void:#080a0d;
+  --deep:#0d1116;
+  --panel:#12171e;
+  --raise:#1a212a;
+  /* WoW UI hairlines are warm bone, never grey. This is what stops the dark
+   * from reading as a generic dark-mode dashboard. */
+  --edge:rgba(198,174,132,.28);
+  --edge2:rgba(198,174,132,.5);
+  --bone:#c6ae84;
+  --ink:#e7e3da;
+  --ink2:#a9a294;
+  --dim:#6f6a60;
+  --ok:#4ade80;
+  --c:#c6ae84;              /* per-class accent, set inline */
 
-  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",
-          Georgia,"Times New Roman",serif;
-  --sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,
-         sans-serif;
+  --ui:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,
+       Arial,sans-serif;
 
-  --shadow:4px 4px 0 var(--ink);
-  --shadow-sm:3px 3px 0 var(--ink);
+  --icon:56px;              /* the real texture size */
 }
 
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;background:var(--paper)}
+html{background:var(--void)}
 body{
-  margin:0;background:var(--paper);color:var(--ink);
-  font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased;
+  margin:0;color:var(--ink);font-family:var(--ui);line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(120% 80% at 50% -10%,#141b24 0%,transparent 60%),
+    var(--void);
+  background-attachment:fixed;
 }
 a{color:inherit;text-decoration:none}
 img{display:block}
-::selection{background:var(--ink);color:var(--paper)}
+::selection{background:var(--c);color:#0a0c10}
+
+h1,h2,h3{margin:0;font-weight:700;letter-spacing:-.02em}
+p{margin:0}
+
+/* Section label. Small, spaced, bone -- the game's own header idiom. */
+.lbl{
+  font-size:.66rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--bone);display:flex;align-items:center;gap:14px;margin:0 0 4px;
+}
+.lbl::after{content:"";flex:1;height:1px;
+  background:linear-gradient(90deg,var(--edge),transparent)}
 
 /* ------------------------------------------------------------------ header */
 header.site{
   display:flex;align-items:center;justify-content:space-between;gap:20px;
-  padding:0 clamp(16px,4vw,40px);height:62px;
-  background:var(--ink);color:var(--paper);
-  position:sticky;top:0;z-index:50;
+  padding:0 clamp(14px,3vw,30px);height:54px;
+  background:linear-gradient(180deg,#0e1319,#0a0e12);
+  border-bottom:1px solid var(--edge);
+  position:sticky;top:0;z-index:60;
 }
-.brand{display:flex;align-items:baseline;gap:10px;font-family:var(--serif);
-  font-size:1.15rem;font-weight:600;letter-spacing:-.01em}
+.brand{display:flex;align-items:center;gap:11px;font-size:.94rem;font-weight:700;
+  letter-spacing:-.01em}
 .brand .mark{
-  font-family:var(--sans);font-size:.62rem;font-weight:800;letter-spacing:.14em;
-  padding:4px 7px;background:var(--paper);color:var(--ink);
-  position:relative;top:-2px;
+  width:26px;height:26px;display:grid;place-items:center;font-size:.6rem;
+  font-weight:800;letter-spacing:.04em;color:var(--bone);
+  background:var(--panel);box-shadow:inset 0 0 0 1px var(--edge2);
 }
-header.site nav{display:flex;gap:22px;font-size:.9rem}
-header.site nav a{color:var(--paper);opacity:.72;padding:4px 0;
-  border-bottom:2px solid transparent}
-header.site nav a:hover{opacity:1;border-bottom-color:var(--paper)}
+header.site nav{display:flex;gap:20px;font-size:.86rem;color:var(--ink2)}
+header.site nav a:hover{color:var(--ink)}
 
-/* ---------------------------------------------------------------- masthead */
-.masthead{
-  padding:clamp(34px,6vw,68px) clamp(16px,4vw,40px) clamp(24px,3vw,34px);
-  max-width:1320px;margin:0 auto;
-}
-.masthead h1{
-  font-family:var(--serif);font-weight:600;
-  font-size:clamp(2.2rem,5.2vw,4.1rem);line-height:1.02;letter-spacing:-.028em;
-  margin:0 0 20px;max-width:24ch;text-wrap:balance;
-}
-.masthead h1 em{font-style:italic;color:var(--c)}
-.lede{font-size:clamp(1rem,1.5vw,1.14rem);color:var(--ink2);max-width:56ch;
-  margin:0}
-.rule{height:2px;background:var(--ink);margin:26px 0 0}
+.wrap{max-width:1240px;margin:0 auto;padding:clamp(26px,4vw,44px) clamp(14px,3vw,30px) 80px}
 
-/* Tally strip under the masthead. Big serif numerals, label beneath. */
-.tally{display:flex;flex-wrap:wrap;gap:0;margin-top:0;
-  border-bottom:2px solid var(--ink)}
-.tally div{padding:14px 26px 14px 0;margin-right:26px;position:relative}
-.tally div+div::before{content:"";position:absolute;left:-26px;top:14px;
-  bottom:14px;width:1px;background:var(--paper3)}
-.tally b{display:block;font-family:var(--serif);font-size:1.8rem;
-  font-weight:600;line-height:1;letter-spacing:-.02em}
-.tally span{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--muted);font-weight:600}
+/* ------------------------------------------------------------------ intro */
+.intro{max-width:60ch;margin:0 0 30px}
+.intro h1{font-size:clamp(1.6rem,3.4vw,2.5rem);line-height:1.1;
+  text-wrap:balance;margin:0 0 12px}
+.intro h1 span{color:var(--c)}
+.intro p{color:var(--ink2);font-size:1rem}
 
-/* ------------------------------------------------------------- the explorer
- * Two panes: a scannable list of every class on the left, a large preview on
- * the right that fills with the focused class's colour. This replaces the card
- * grid outright -- a grid of 21 near-identical tiles gives the eye nothing to
- * move along, whereas a list has a reading direction and the preview gives the
- * colour somewhere big to land.
+/* ------------------------------------------------------------ the roster
+ * A flush band of 56px icons: no gaps, 1px separators, exactly how a
+ * WeakAuras dynamic group draws a row. It re-centres when search hides
+ * entries, which is also what the addon does -- a dynamic group only lays out
+ * the children that are loaded and showing.
  */
-.explorer{
-  max-width:1320px;margin:0 auto;padding:0 clamp(16px,4vw,40px) 80px;
-  display:grid;gap:0;grid-template-columns:minmax(0,1fr) minmax(0,1.04fr);
-  align-items:start;
+.roster{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:0;
+  padding:1px;background:var(--edge);
+  box-shadow:0 0 0 1px var(--edge), 0 18px 50px -30px #000;
+  margin:0 auto;width:max-content;max-width:100%;
+}
+.cls{
+  position:relative;width:var(--icon);height:var(--icon);flex:none;
+  outline:1px solid rgba(0,0,0,.85);outline-offset:-1px;
+  background:var(--panel) center/cover no-repeat;
+  cursor:pointer;display:block;
+  transition:filter .12s,transform .1s;
+}
+.cls img{width:100%;height:100%;object-fit:cover}
+/* The pack's own rule: what you cannot use right now is desaturated. An
+ * unbuilt class is exactly that, so it gets the same treatment rather than an
+ * invented "coming soon" style. */
+.cls.planned img{filter:grayscale(1) brightness(.45)}
+.cls:hover{z-index:3;transform:scale(1.09)}
+.cls:hover img,.cls.on img{filter:none}
+.cls.on{z-index:2}
+.cls.on::after,.cls:hover::after{
+  content:"";position:absolute;inset:0;
+  box-shadow:inset 0 0 0 2px var(--c),0 0 18px -2px var(--c);
+}
+.cls:focus-visible{outline:2px solid var(--c);outline-offset:1px;z-index:4}
+.cls[hidden]{display:none}
+/* Corner pip marks a class that has a pack, readable without hovering. */
+.cls.ready::before{
+  content:"";position:absolute;right:2px;bottom:2px;width:5px;height:5px;
+  background:var(--ok);box-shadow:0 0 5px var(--ok);z-index:2;
 }
 
-.finder{padding:26px 30px 26px 0}
-.finderhead{display:flex;align-items:baseline;justify-content:space-between;
-  gap:14px;margin-bottom:14px}
-.finderhead h2{font-family:var(--serif);font-size:1.35rem;font-weight:600;
-  margin:0;letter-spacing:-.01em}
-.count{font-size:.8rem;color:var(--muted);white-space:nowrap}
-.count b{color:var(--ink);font-weight:700}
+.rosterwrap{display:flex;flex-direction:column;gap:16px;align-items:center}
 
-.searchbox{
-  display:flex;align-items:center;background:var(--paper);
-  border:2px solid var(--ink);box-shadow:var(--shadow-sm);
-  transition:box-shadow .12s,transform .12s;
+/* Progress reads as a resource bar, because that is what it is. */
+.bar{width:100%;max-width:520px}
+.bartrack{height:12px;background:#0a0d11;padding:1px;
+  box-shadow:inset 0 0 0 1px var(--edge)}
+.barfill{height:100%;background:linear-gradient(180deg,
+  color-mix(in srgb,var(--c) 85%,white),var(--c));
+  box-shadow:0 0 12px -2px var(--c)}
+.barlbl{display:flex;justify-content:space-between;font-size:.7rem;
+  color:var(--dim);margin-top:6px;letter-spacing:.06em}
+.barlbl b{color:var(--ink2);font-weight:600}
+
+/* ------------------------------------------------------------------ search
+ * Styled as the game's chat edit box, down to the slash prompt.
+ */
+.editbox{
+  display:flex;align-items:center;width:100%;max-width:420px;
+  background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
+  transition:box-shadow .12s;
 }
-.searchbox:focus-within{box-shadow:5px 5px 0 var(--c);transform:translate(-1px,-1px)}
-.searchbox svg{width:17px;height:17px;margin-left:13px;flex:none;
-  stroke:var(--ink);fill:none;stroke-width:2.2}
-#q{flex:1;min-width:0;font:inherit;font-size:1rem;color:var(--ink);
-  background:none;border:0;outline:none;padding:13px 12px}
-#q::placeholder{color:var(--muted)}
+.editbox:focus-within{box-shadow:inset 0 0 0 1px var(--c),0 0 16px -6px var(--c)}
+.editbox .slash{color:var(--c);font-weight:700;padding:0 2px 0 12px;
+  font-size:.9rem}
+#q{flex:1;min-width:0;font:inherit;font-size:.9rem;color:var(--ink);
+  background:none;border:0;outline:none;padding:11px 10px}
+#q::placeholder{color:var(--dim)}
 #q::-webkit-search-cancel-button,#q::-webkit-search-decoration{
   -webkit-appearance:none;appearance:none;display:none}
-#clear{display:none;font:inherit;font-size:1.3rem;line-height:1;cursor:pointer;
-  background:none;border:0;color:var(--muted);padding:0 14px}
+#clear{display:none;font:inherit;font-size:1.1rem;line-height:1;cursor:pointer;
+  background:none;border:0;color:var(--dim);padding:0 12px}
 #clear:hover{color:var(--ink)}
-.searchbox.has #clear{display:block}
+.editbox.has #clear{display:block}
+.hint{font-size:.72rem;color:var(--dim);text-align:center}
+.hint kbd{background:var(--panel);box-shadow:inset 0 0 0 1px var(--edge);
+  padding:1px 5px;font:inherit;font-size:.9em;color:var(--ink2)}
 
-.chips{display:flex;gap:8px;margin:14px 0 0}
-.chip{
-  font:inherit;font-size:.78rem;font-weight:600;cursor:pointer;
-  padding:7px 15px;background:var(--paper);color:var(--ink2);
-  border:2px solid var(--ink);transition:background .12s,color .12s;
-}
-.chip:hover{background:var(--paper2)}
-.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
-
-/* ------------------------------------------------------------- class list */
-.classlist{margin:20px 0 0;border-top:2px solid var(--ink)}
-.row{
-  display:flex;align-items:center;gap:14px;width:100%;
-  padding:11px 12px 11px 13px;border-bottom:1px solid var(--paper3);
-  position:relative;cursor:pointer;background:none;text-align:left;
-  transition:background .1s,padding-left .12s;
-}
-/* Every row carries its class colour as a permanent spine, so the list reads
- * as a shelf of coloured spines rather than 21 grey lines. It thickens on
- * hover instead of appearing from nothing -- the colour field is the point. */
-.row::before{
-  content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
-  background:var(--c);transition:width .12s;
-}
-.row:hover,.row.on{background:var(--paper2);padding-left:17px}
-.row:hover::before,.row.on::before{width:6px}
-.row.pending::before{opacity:.42}
-.row.pending:hover::before,.row.pending.on::before{opacity:1}
-.row.on{background:var(--paper2)}
-.row:focus-visible{outline:2px solid var(--ink);outline-offset:-2px}
-.rowicon{width:38px;height:38px;flex:none;border:1px solid var(--ink);
-  background:var(--ink)}
-.rowname{flex:1;min-width:0;font-size:1.02rem;font-weight:600;
-  letter-spacing:-.01em;white-space:nowrap;overflow:hidden;
-  text-overflow:ellipsis}
-.rowspecs{display:flex;gap:3px;flex:none}
-.rowspecs img{width:17px;height:17px;border:1px solid var(--paper3);opacity:.9}
-.rowstate{flex:none;font-size:.66rem;font-weight:700;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--muted);width:74px;text-align:right}
-.row[data-state="ready"] .rowstate{color:var(--ok)}
-.row.pending .rowicon{filter:grayscale(.55);opacity:.72}
-.row.pending .rowname{color:var(--ink2)}
-.row[hidden]{display:none}
-
-mark{background:var(--c);color:var(--paper);padding:0 2px}
-
-.noresult{display:none;padding:34px 0;color:var(--muted)}
-.noresult b{display:block;color:var(--ink);font-family:var(--serif);
-  font-size:1.2rem;margin-bottom:6px}
-.noresult button{font:inherit;font-size:.82rem;font-weight:600;margin-top:14px;
-  cursor:pointer;padding:8px 16px;background:var(--ink);color:var(--paper);
-  border:2px solid var(--ink)}
-body.noresults .noresult{display:block}
-body.noresults .classlist{display:none}
-
-/* --------------------------------------------------------------- preview
- * Sticky, so it stays beside the list while you scroll. Progressive: it is
- * hidden until search.js marks the body, because without JS there is nothing
- * to drive the selection and an empty panel would just be a hole.
+/* --------------------------------------------------------------- tooltip
+ * The classic game tooltip: black, thin border, class-coloured title.
+ * Follows the pointer, so it reads as part of a UI rather than as a card.
  */
-.preview{display:none}
-body.js .preview{
-  display:block;position:sticky;top:96px;
-  border:2px solid var(--ink);box-shadow:var(--shadow);
-  background:var(--c);color:var(--paper);overflow:hidden;margin-top:26px;
+.tip{
+  position:fixed;z-index:80;pointer-events:none;opacity:0;
+  min-width:190px;max-width:280px;padding:9px 11px;
+  background:rgba(4,6,9,.96);box-shadow:0 0 0 1px var(--edge2),0 10px 30px -8px #000;
+  transition:opacity .08s;
 }
-.pvtop{padding:30px 30px 26px;display:flex;gap:20px;align-items:flex-start;
-  position:relative}
-.pvtop::after{
-  /* Wash toward the bottom so the art has something to sit on and the panel
-   * does not read as one flat rectangle of colour. */
-  content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(160deg,rgba(255,255,255,.14),transparent 55%);
-}
-.pvicon{width:84px;height:84px;flex:none;border:2px solid var(--ink);
-  box-shadow:var(--shadow-sm);position:relative;z-index:1}
-.pvhead{position:relative;z-index:1;min-width:0}
-.pvkicker{font-size:.66rem;font-weight:700;letter-spacing:.18em;
-  text-transform:uppercase;opacity:.82;margin:0 0 6px}
-.pvname{font-family:var(--serif);font-size:clamp(1.8rem,3.4vw,2.6rem);
-  font-weight:600;line-height:1.02;letter-spacing:-.025em;margin:0;
-  text-wrap:balance}
-.pvbody{background:var(--paper);color:var(--ink);padding:22px 30px 26px;
-  border-top:2px solid var(--ink)}
-.pvspecs{display:grid;gap:10px;margin:0 0 20px;padding:0;list-style:none}
-.pvspecs li{display:flex;align-items:center;gap:11px;font-size:.94rem;
-  font-weight:500}
-.pvspecs img{width:30px;height:30px;flex:none;border:1px solid var(--ink)}
-.pvnote{font-size:.88rem;color:var(--ink2);margin:0 0 20px;max-width:44ch}
-.pvgo{
-  display:inline-block;font-size:.9rem;font-weight:700;padding:11px 22px;
-  background:var(--ink);color:var(--paper);border:2px solid var(--ink);
-  box-shadow:var(--shadow-sm);transition:transform .1s,box-shadow .1s;
-}
-.pvgo:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--c)}
-.pvsoon{display:inline-block;font-size:.8rem;font-weight:700;
-  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
-  border:2px dashed var(--paper3);padding:10px 18px}
+.tip.show{opacity:1}
+.tipname{font-size:.95rem;font-weight:700;color:var(--c);letter-spacing:-.01em}
+.tipspecs{margin:5px 0 0;font-size:.78rem;color:var(--ink2)}
+.tipstate{margin:7px 0 0;font-size:.7rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--dim)}
+.tipstate.ready{color:var(--ok)}
 
-/* --------------------------------------------------------- class page ---- */
-.classhead{
-  background:var(--c);color:var(--paper);border-bottom:2px solid var(--ink);
+/* --------------------------------------------------------------- readout
+ * The selected class, in the shape of a unit frame: portrait, name, specs.
+ */
+.readout{
+  display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;
+  background:linear-gradient(180deg,var(--panel),var(--deep));
+  box-shadow:inset 0 0 0 1px var(--edge);padding:16px 18px;margin-top:26px;
   position:relative;overflow:hidden;
 }
-.classhead::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(150deg,rgba(255,255,255,.15),transparent 50%)}
-.classhead .inner{
-  max-width:1320px;margin:0 auto;padding:clamp(30px,5vw,58px) clamp(16px,4vw,40px);
-  display:flex;gap:clamp(20px,3vw,34px);align-items:flex-end;position:relative;
-  z-index:1;flex-wrap:wrap;
+.readout::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;
+  background:var(--c);box-shadow:0 0 14px -1px var(--c)}
+.roportrait{width:64px;height:64px;flex:none;
+  box-shadow:0 0 0 1px var(--edge2)}
+.roname{font-size:1.3rem;font-weight:700;letter-spacing:-.02em}
+.rospecs{display:flex;gap:8px;flex-wrap:wrap;margin-top:7px}
+.rospec{display:flex;align-items:center;gap:6px;font-size:.8rem;
+  color:var(--ink2)}
+.rospec img{width:20px;height:20px;box-shadow:0 0 0 1px rgba(0,0,0,.8)}
+.rogo{
+  font-size:.85rem;font-weight:700;padding:11px 20px;white-space:nowrap;
+  color:#0a0c10;background:var(--c);
+  box-shadow:0 0 20px -6px var(--c);transition:filter .12s,transform .1s;
 }
-.classhead img{width:96px;height:96px;flex:none;border:2px solid var(--ink);
-  box-shadow:var(--shadow)}
-.classhead h1{font-family:var(--serif);font-weight:600;margin:0;
-  font-size:clamp(2.4rem,6vw,4.2rem);line-height:.96;letter-spacing:-.03em}
-.classhead .kicker{font-size:.7rem;font-weight:700;letter-spacing:.2em;
-  text-transform:uppercase;opacity:.85;margin:0 0 8px}
-.classhead .specline{margin:12px 0 0;font-size:.95rem;opacity:.92}
+.rogo:hover{filter:brightness(1.12)}
+.rogo:active{transform:translateY(1px)}
+.rosoon{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--dim);padding:11px 18px;box-shadow:inset 0 0 0 1px var(--edge);
+  white-space:nowrap}
 
-main{max-width:1320px;margin:0 auto;padding:0 clamp(16px,4vw,40px) 80px}
-section{padding:clamp(30px,4vw,44px) 0;border-bottom:1px solid var(--paper3)}
-section:last-child{border-bottom:0}
-h2{font-family:var(--serif);font-size:1.5rem;font-weight:600;margin:0 0 6px;
-  letter-spacing:-.015em}
-h3{font-size:1rem;margin:0;font-weight:700;letter-spacing:-.01em}
-p{margin:0}
-.desc{color:var(--ink2);font-size:.94rem;max-width:66ch;margin:0 0 22px}
-.note{font-size:.9rem;color:var(--ink2);max-width:66ch;margin:20px 0 0;
-  border-left:3px solid var(--c);padding-left:14px}
+.noresult{display:none;text-align:center;color:var(--dim);padding:30px 0}
+.noresult b{display:block;color:var(--ink);font-size:1.05rem;margin-bottom:6px}
+.noresult button{font:inherit;font-size:.78rem;font-weight:700;margin-top:14px;
+  cursor:pointer;padding:8px 16px;color:#0a0c10;background:var(--c);border:0}
+body.noresults .noresult{display:block}
+body.noresults .rosterwrap{display:none}
+
+/* ------------------------------------------------------------- class page */
+.classhead{
+  border-bottom:1px solid var(--edge);position:relative;overflow:hidden;
+  background:linear-gradient(180deg,
+    color-mix(in srgb,var(--c) 18%,var(--deep)),var(--void));
+}
+.classhead .inner{
+  max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:20px;
+  padding:clamp(22px,3.4vw,38px) clamp(14px,3vw,30px);
+}
+.classhead img{width:72px;height:72px;flex:none;
+  box-shadow:0 0 0 1px var(--edge2),0 0 34px -8px var(--c)}
+.classhead h1{font-size:clamp(1.7rem,4vw,2.7rem);line-height:1}
+.classhead .specline{margin-top:7px;font-size:.88rem;color:var(--ink2)}
+
+section{padding:0 0 clamp(30px,4vw,46px)}
+section+section{padding-top:clamp(26px,3.4vw,38px);
+  border-top:1px solid rgba(198,174,132,.12)}
+h2{font-size:1.15rem;margin:0 0 8px}
+.desc{color:var(--ink2);font-size:.92rem;max-width:70ch;margin:0 0 18px}
+.note{font-size:.86rem;color:var(--ink2);max-width:70ch;margin:16px 0 0;
+  border-left:2px solid var(--c);padding-left:13px}
+
+/* ------------------------------------------------------------- HUD preview
+ * The centrepiece: the pack drawn at the coordinates it really uses.
+ */
+.hud{margin:0}
+.hudbar{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;
+  align-items:center;margin-bottom:10px}
+.hudspecs,.hudmodes{display:flex;gap:1px;background:var(--edge)}
+.hudspec,.hudmode{
+  font:inherit;font-size:.76rem;font-weight:600;cursor:pointer;border:0;
+  padding:8px 15px;color:var(--ink2);background:var(--panel);
+  transition:background .12s,color .12s;
+}
+.hudspec:hover,.hudmode:hover{color:var(--ink);background:var(--raise)}
+.hudspec.on{background:var(--c);color:#0a0c10}
+.hudmode.on{background:var(--raise);color:var(--ink);
+  box-shadow:inset 0 1px 0 var(--edge2)}
+
+.hudscreen{
+  position:relative;background:
+    radial-gradient(90% 120% at 50% 120%,#161d26,transparent 70%),#080a0e;
+  box-shadow:inset 0 0 0 1px var(--edge);padding:20px;overflow:hidden;
+}
+.hudaxis{
+  position:absolute;left:12px;top:10px;font-size:.62rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--dim);
+}
+.hudlayer{display:none;position:relative;width:100%;margin:14px auto 0}
+.hudlayer.on{display:block}
+/* Every tile carries its own --l/--t/--w/--h as percentages of the layer's
+ * coordinate box, and the layer's aspect-ratio matches that box, so one
+ * percentage scale is correct on both axes at any container width. */
+.hudlayer .t{
+  position:absolute;left:var(--l);top:var(--t);width:var(--w);height:var(--h);
+  transform:translate(-50%,-50%);
+  background-size:cover;background-position:center;
+  outline:1px solid rgba(0,0,0,.8);outline-offset:-1px;
+  box-shadow:0 0 0 1px rgba(198,174,132,.18);
+}
+.hudlayer .t.bar{background:linear-gradient(180deg,
+  color-mix(in srgb,var(--c) 80%,white),var(--c));
+  box-shadow:0 0 0 1px rgba(0,0,0,.7)}
+/* A glyph/rune slot: a texture region with no icon. It is an empty holder in
+ * game too, so it draws as one rather than as a missing image. */
+.hudlayer .t.slot{
+  background:linear-gradient(180deg,
+    color-mix(in srgb,var(--c) 26%,#0b1016),#0b1016);
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--c) 40%,transparent);
+}
+.hudlayer .t.noart{
+  background:linear-gradient(160deg,var(--raise),#0d1218);
+  display:grid;place-items:center;
+}
+.hudlayer .t.noart::after{
+  content:attr(data-letter);font-size:.62rem;font-weight:700;
+  color:color-mix(in srgb,var(--c) 70%,var(--dim));
+}
+.hudlayer .t:hover{z-index:5;box-shadow:0 0 0 1px var(--c),0 0 14px -2px var(--c)}
+.hudnote{font-size:.8rem;color:var(--dim);margin-top:12px;max-width:78ch}
+.hudnote b{color:var(--ink2);font-weight:600}
+
+/* ------------------------------------------------------------------- packs */
+.packs{display:grid;gap:1px;background:var(--edge);
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.pack{background:var(--panel);padding:16px 17px;display:flex;
+  flex-direction:column;gap:11px}
+.packhead{display:flex;align-items:baseline;justify-content:space-between;
+  gap:10px;flex-wrap:wrap}
+.pack h3{font-size:.98rem}
+.meta{font-size:.72rem;color:var(--dim);white-space:nowrap}
+.pack .desc{font-size:.84rem;margin:0;flex:1}
+.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button.copy{
+  font:inherit;font-size:.85rem;font-weight:700;cursor:pointer;border:0;
+  padding:10px 18px;color:#0a0c10;background:var(--c);
+  transition:filter .12s,transform .1s;
+}
+button.copy:hover{filter:brightness(1.12)}
+button.copy:active{transform:translateY(1px)}
+button.copy.done{background:var(--ok)}
+button.copy.err{background:#e0525f;color:#fff}
+button.copy:disabled{opacity:.7;cursor:progress}
+.dl{font-size:.8rem;color:var(--ink2);padding:10px 4px}
+.dl:hover{color:var(--c)}
 
 /* steps ---------------------------------------------------------------- */
-.steps{margin:0;padding:0;list-style:none;display:grid;gap:14px;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));counter-reset:s}
-.steps li{counter-increment:s;position:relative;padding:18px 18px 18px 22px;
-  background:var(--paper2);border:2px solid var(--ink);font-size:.95rem}
-.steps li::before{content:counter(s);display:block;font-family:var(--serif);
-  font-size:1.5rem;font-weight:600;line-height:1;color:var(--c);
-  margin-bottom:8px}
-.steps code{font-family:var(--sans);font-weight:700;background:var(--ink);
-  color:var(--paper);padding:1px 6px;font-size:.88em}
-
-/* packs ---------------------------------------------------------------- */
-.packs{display:grid;gap:16px;
-  grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
-.pack{background:var(--paper);border:2px solid var(--ink);
-  box-shadow:var(--shadow);padding:20px;display:flex;flex-direction:column;
-  gap:12px}
-.packhead{display:flex;align-items:baseline;justify-content:space-between;
-  gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--paper3);
-  padding-bottom:10px}
-.meta{font-size:.78rem;color:var(--muted);white-space:nowrap}
-.pack .desc{font-size:.88rem;margin:0;flex:1}
-.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-button.copy{font:inherit;font-size:.9rem;font-weight:700;cursor:pointer;
-  padding:11px 20px;background:var(--c);color:var(--paper);
-  border:2px solid var(--ink);box-shadow:var(--shadow-sm);
-  transition:transform .1s,box-shadow .1s}
-button.copy:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink)}
-button.copy:active{transform:translate(0,0);box-shadow:2px 2px 0 var(--ink)}
-button.copy.done{background:var(--ok)}
-button.copy.err{background:#a3232f}
-button.copy:disabled{opacity:.75;cursor:progress}
-.dl{font-size:.86rem;font-weight:600;color:var(--ink2);
-  border-bottom:2px solid var(--paper3);padding-bottom:1px}
-.dl:hover{border-bottom-color:var(--ink);color:var(--ink)}
+.steps{margin:0;padding:0;list-style:none;display:grid;gap:1px;
+  background:var(--edge);
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.steps li{background:var(--panel);padding:14px 16px;font-size:.9rem;
+  color:var(--ink2);display:flex;gap:11px;align-items:baseline}
+.steps li::before{content:counter(s);counter-increment:s;
+  font-size:.78rem;font-weight:700;color:var(--c)}
+.steps{counter-reset:s}
+.steps code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
+  padding:1px 6px;color:var(--ink);font-family:var(--ui);font-weight:600;
+  font-size:.88em}
 
 /* table ---------------------------------------------------------------- */
-.scroll{overflow-x:auto;border:2px solid var(--ink);background:var(--paper)}
-table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:660px}
-th{text-align:left;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--paper);background:var(--ink);font-weight:700;padding:11px 15px}
-td{padding:11px 15px;border-bottom:1px solid var(--paper3);vertical-align:top}
+.scroll{overflow-x:auto;box-shadow:inset 0 0 0 1px var(--edge)}
+table{width:100%;border-collapse:collapse;font-size:.84rem;min-width:660px}
+th{text-align:left;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--bone);font-weight:700;padding:10px 14px;background:#0b0f14;
+  border-bottom:1px solid var(--edge)}
+td{padding:9px 14px;border-bottom:1px solid rgba(198,174,132,.09);
+  vertical-align:top}
 tr:last-child td{border-bottom:0}
-tbody tr:nth-child(even){background:var(--paper2)}
-td.b{font-weight:700;white-space:nowrap}
-td.sc{font-weight:600;color:var(--c);white-space:nowrap;font-size:.84rem}
-td.num{font-variant-numeric:tabular-nums;color:var(--ink2);text-align:right;
+tbody tr:hover{background:var(--panel)}
+td.b{font-weight:600;white-space:nowrap}
+td.sc{color:var(--c);white-space:nowrap;font-size:.8rem}
+td.num{font-variant-numeric:tabular-nums;color:var(--dim);text-align:right;
   white-space:nowrap}
-td.items{color:var(--ink2);font-size:.85rem}
+td.items{color:var(--ink2);font-size:.8rem}
 
-footer{background:var(--ink);color:var(--paper);padding:30px 22px;
-  text-align:center;font-size:.84rem}
-footer p{opacity:.78;max-width:70ch;margin:0 auto}
-footer a{border-bottom:1px solid rgba(244,241,234,.5)}
-footer a:hover{border-bottom-color:var(--paper)}
+footer{border-top:1px solid var(--edge);padding:24px;text-align:center;
+  color:var(--dim);font-size:.78rem;background:#070a0d}
+footer a{color:var(--ink2);border-bottom:1px solid var(--edge2)}
+footer a:hover{color:var(--c)}
 
-/* --------------------------------------------------------------- responsive
- * The preview pane is a desktop affordance. Below 900px the list becomes the
- * whole interface and rows navigate straight to the class page, which is what
- * a tap should do anyway.
- */
-@media (max-width:900px){
-  .explorer{grid-template-columns:1fr}
-  .finder{padding-right:0}
-  body.js .preview{display:none}
-}
-@media (max-width:560px){
-  .rowstate{display:none}
-  .classhead img{width:68px;height:68px}
-  .tally div{padding-right:18px;margin-right:18px}
-  .tally div+div::before{left:-18px}
+/* ------------------------------------------------------------- responsive */
+@media (max-width:720px){
+  :root{--icon:44px}
+  .readout{grid-template-columns:auto 1fr;gap:14px}
+  .rogo,.rosoon{grid-column:1 / -1;text-align:center}
+  .hudscreen{padding:12px}
 }
 @media (prefers-reduced-motion:reduce){
-  *{animation-duration:.01ms !important;transition-duration:.01ms !important}
-  html{scroll-behavior:auto}
+  *{transition-duration:.01ms !important;animation-duration:.01ms !important}
 }

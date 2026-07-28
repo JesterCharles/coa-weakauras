@@ -14,6 +14,17 @@ third-party sites that change without notice and have no API, so a cached
 snapshot is the only way to make a build deterministic -- re-scraping is not
 guaranteed to return the same data, or any data.
 
+Spell icon art under `docs/assets/spell-icons/` is cached by
+`tools/fetch_hud_icons.py` from:
+
+  * db.ascension.gg          -- Conquest of Azeroth custom icon art
+  * render.worldofwarcraft.com, wow.zamimg.com  -- stock World of Warcraft icons
+
+It is used only to draw the to-scale preview of a pack on that pack's own
+page, at the 56px size the game itself ships. Textures that resolve on none of
+those hosts are listed in `spell-icons/misses.json` and drawn as a placeholder
+rather than fetched from anywhere else.
+
 All game data, ability names, spell IDs and icon art remain the property of
 their respective owners. World of Warcraft is a trademark of Blizzard
 Entertainment. Ascension and Conquest of Azeroth are unaffiliated with

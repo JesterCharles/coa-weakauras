@@ -1,46 +1,41 @@
-// Class explorer for the index page: filter the list, drive the preview pane.
+// Class roster: filter the band, follow the pointer with a tooltip, keep the
+// readout in step.
 //
-// The list is rendered server-side and rows are only hidden as you type, so
-// with JS off you still get every class as a working link. The preview pane is
-// pure enhancement -- CSS keeps it hidden until we set body.js, because an
-// empty panel with nothing to drive it is worse than no panel.
+// The band is rendered server-side and tiles are only hidden as you type, so
+// with JS off you still get every class as a working link. Everything below is
+// enhancement.
 //
 // Searchable fields, from data- attributes written by mksite.py:
 //   data-name    display name   "Knight of Xoroth"
 //   data-specs   spec names     "Glyphic Engravement Riftblade"
-// That is deliberately all of it. Load tokens and class ids are WeakAuras and
-// database internals -- a player looking for their class knows the name and
-// the spec names, and nothing else belongs in the match.
+// Deliberately all of it. Load tokens and class ids are WeakAuras and database
+// internals -- a player knows the class name and the spec names.
 (function () {
   "use strict";
 
-  var list = document.getElementById("classlist");
-  if (!list) return;
-
-  document.body.classList.add("js");
+  var roster = document.getElementById("roster");
+  if (!roster) return;
 
   var input = document.getElementById("q");
-  var box = document.getElementById("searchbox");
+  var box = document.getElementById("editbox");
   var clear = document.getElementById("clear");
   var countEl = document.getElementById("count");
   var resetBtn = document.getElementById("reset");
-  var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
-  var rows = Array.prototype.slice.call(list.querySelectorAll(".row"));
+  var tiles = Array.prototype.slice.call(roster.querySelectorAll(".cls"));
 
-  var pv = document.getElementById("preview");
-  var pvIcon = document.getElementById("pvicon");
-  var pvKicker = document.getElementById("pvkicker");
-  var pvName = document.getElementById("pvname");
-  var pvSpecs = document.getElementById("pvspecs");
-  var pvNote = document.getElementById("pvnote");
-  var pvAction = document.getElementById("pvaction");
+  var tip = document.getElementById("tip");
+  var tipName = document.getElementById("tipname");
+  var tipSpecs = document.getElementById("tipspecs");
+  var tipState = document.getElementById("tipstate");
 
-  var state = "all";
-  var visible = rows.slice();
+  var roPortrait = document.getElementById("roportrait");
+  var roName = document.getElementById("roname");
+  var roSpecs = document.getElementById("rospecs");
+  var roAction = document.getElementById("roaction");
+
+  var visible = tiles.slice();
   var current = null;
 
-  // Fold punctuation and accents so "knight of xoroth", "Knight-of-Xoroth" and
-  // "knightofxoroth" all match the same row.
   function norm(s) {
     return (s || "")
       .toLowerCase()
@@ -51,128 +46,132 @@
       .trim();
   }
 
-  rows.forEach(function (row) {
-    row._name = row.dataset.name || "";
-    row._hay = norm(row._name + " " + (row.dataset.specs || ""));
-    row._title = row.querySelector(".rowname");
+  tiles.forEach(function (t) {
+    t._name = t.dataset.name || "";
+    t._hay = norm(t._name + " " + (t.dataset.specs || ""));
+    t._labels = (t.dataset.specLabels || "").split("|").filter(Boolean);
+    t._icons = (t.dataset.specIcons || "").split("|").filter(Boolean);
+    t._ready = t.dataset.state === "ready";
   });
 
-  function matches(row, terms) {
+  function matches(t, terms) {
     for (var i = 0; i < terms.length; i++) {
-      if (row._hay.indexOf(terms[i]) === -1) return false;
+      if (t._hay.indexOf(terms[i]) === -1) return false;
     }
     return true;
   }
 
-  // Mark the first term that occurs in the NAME. Scanning the raw lowercased
-  // name rather than the normalised one keeps the offsets valid -- norm()
-  // collapses punctuation runs and would shift them.
-  function highlight(row, terms) {
-    var h = row._title;
-    if (!h) return;
-    var name = row._name;
-    if (!terms.length) { h.textContent = name; return; }
+  // ---------------------------------------------------------------- readout
+  function select(t) {
+    if (!t) return;
+    current = t;
+    tiles.forEach(function (o) { o.classList.toggle("on", o === t); });
 
-    var lower = name.toLowerCase();
-    var at = -1, len = 0;
-    for (var i = 0; i < terms.length; i++) {
-      var p = lower.indexOf(terms[i]);
-      if (p !== -1 && (at === -1 || p < at)) { at = p; len = terms[i].length; }
-    }
-    if (at === -1) { h.textContent = name; return; }
+    document.documentElement.style.setProperty("--c", t.dataset.accent);
+    roPortrait.src = t.dataset.icon;
+    roName.textContent = t._name;
 
-    h.textContent = "";
-    h.appendChild(document.createTextNode(name.slice(0, at)));
-    var m = document.createElement("mark");
-    m.textContent = name.slice(at, at + len);
-    h.appendChild(m);
-    h.appendChild(document.createTextNode(name.slice(at + len)));
-  }
-
-  function show(row) {
-    if (!row || !pv) return;
-    current = row;
-    rows.forEach(function (r) { r.classList.toggle("on", r === row); });
-
-    var ready = row.dataset.state === "ready";
-    pv.style.setProperty("--c", row.dataset.accent || "#b4442a");
-
-    pvIcon.src = row.dataset.icon || "";
-    pvIcon.alt = "";
-    pvKicker.textContent = ready ? "Pack available" : "Not built yet";
-    pvName.textContent = row._name;
-
-    var labels = (row.dataset.specLabels || "").split("|").filter(Boolean);
-    var icons = (row.dataset.specIcons || "").split("|").filter(Boolean);
-    pvSpecs.textContent = "";
-    labels.forEach(function (label, i) {
-      var li = document.createElement("li");
-      if (icons[i]) {
+    roSpecs.textContent = "";
+    t._labels.forEach(function (label, i) {
+      var s = document.createElement("span");
+      s.className = "rospec";
+      if (t._icons[i]) {
         var img = document.createElement("img");
-        img.src = icons[i];
+        img.src = t._icons[i];
         img.alt = "";
         img.loading = "lazy";
-        li.appendChild(img);
+        s.appendChild(img);
       }
-      li.appendChild(document.createTextNode(label));
-      pvSpecs.appendChild(li);
+      s.appendChild(document.createTextNode(label));
+      roSpecs.appendChild(s);
     });
 
-    pvNote.textContent = ready
-      ? "Rotation, cooldowns and buffs for every spec. Displays load only for "
-        + "the spec you are playing."
-      : "No pack yet. Classes are built one at a time and each one follows the "
-        + "same band layout, so nothing you learn here goes to waste.";
-
-    pvAction.textContent = "";
-    if (ready) {
+    roAction.textContent = "";
+    if (t._ready) {
       var a = document.createElement("a");
-      a.className = "pvgo";
-      a.href = row.dataset.href;
-      a.textContent = "Open " + row._name + " →";
-      pvAction.appendChild(a);
+      a.className = "rogo";
+      a.href = t.dataset.href;
+      a.textContent = "Open pack";
+      roAction.appendChild(a);
     } else {
       var span = document.createElement("span");
-      span.className = "pvsoon";
-      span.textContent = "Planned";
-      pvAction.appendChild(span);
+      span.className = "rosoon";
+      span.textContent = "Not built yet";
+      roAction.appendChild(span);
     }
   }
 
+  // ---------------------------------------------------------------- tooltip
+  function showTip(t, ev) {
+    tipName.textContent = t._name;
+    tipName.style.color = t.dataset.accent;
+    tipSpecs.textContent = t._labels.join(", ");
+    tipState.textContent = t._ready ? "Pack available" : "Not built yet";
+    tipState.className = "tipstate" + (t._ready ? " ready" : "");
+    tip.classList.add("show");
+    moveTip(ev);
+  }
+
+  function moveTip(ev) {
+    if (!ev || !tip.classList.contains("show")) return;
+    var pad = 14;
+    var r = tip.getBoundingClientRect();
+    // Flip to the other side of the cursor near an edge so the tooltip is
+    // never clipped by the viewport.
+    var x = ev.clientX + pad;
+    var y = ev.clientY + pad;
+    if (x + r.width > window.innerWidth - 8) x = ev.clientX - r.width - pad;
+    if (y + r.height > window.innerHeight - 8) y = ev.clientY - r.height - pad;
+    tip.style.left = Math.max(8, x) + "px";
+    tip.style.top = Math.max(8, y) + "px";
+  }
+
+  function hideTip() { tip.classList.remove("show"); }
+
+  tiles.forEach(function (t) {
+    t.addEventListener("mouseenter", function (e) { select(t); showTip(t, e); });
+    t.addEventListener("mousemove", moveTip);
+    t.addEventListener("mouseleave", hideTip);
+    t.addEventListener("focus", function () { select(t); });
+    t.addEventListener("click", function (e) {
+      // Unbuilt classes are <button>, so a click only moves the selection.
+      if (!t._ready) { e.preventDefault(); select(t); }
+    });
+  });
+
+  // ----------------------------------------------------------------- filter
   function apply() {
     var raw = input ? input.value : "";
     var terms = norm(raw).split(" ").filter(Boolean);
     visible = [];
 
-    rows.forEach(function (row) {
-      var okState = state === "all" || row.dataset.state === state;
-      var ok = okState && matches(row, terms);
-      row.hidden = !ok;
-      if (ok) { visible.push(row); highlight(row, terms); }
+    tiles.forEach(function (t) {
+      var ok = matches(t, terms);
+      t.hidden = !ok;
+      if (ok) visible.push(t);
     });
 
     if (box) box.classList.toggle("has", raw.length > 0);
     if (countEl) {
-      countEl.innerHTML = "<b>" + visible.length + "</b> of " + rows.length;
+      countEl.textContent = visible.length === tiles.length
+        ? tiles.length + " shown"
+        : visible.length + " of " + tiles.length + " shown";
     }
     document.body.classList.toggle("noresults", visible.length === 0);
+    hideTip();
 
-    // Keep the preview on the current row when it survived the filter,
-    // otherwise fall to the top of what is now on screen.
     if (visible.length) {
-      show(visible.indexOf(current) !== -1 ? current : visible[0]);
+      select(visible.indexOf(current) !== -1 ? current : visible[0]);
     }
     syncUrl(raw);
   }
 
-  // replaceState, not pushState -- one history entry per keystroke would make
-  // the back button unusable.
+  // replaceState, not pushState -- a history entry per keystroke would make
+  // the back button useless.
   function syncUrl(raw) {
     if (!window.history || !history.replaceState) return;
     var url = new URL(window.location.href);
     if (raw) url.searchParams.set("q", raw); else url.searchParams.delete("q");
-    if (state !== "all") url.searchParams.set("show", state);
-    else url.searchParams.delete("show");
     history.replaceState(null, "", url.pathname + url.search + url.hash);
   }
 
@@ -180,33 +179,37 @@
     if (!visible.length) return;
     var i = visible.indexOf(current);
     var next = i === -1 ? 0 : Math.max(0, Math.min(visible.length - 1, i + d));
-    show(visible[next]);
-    visible[next].scrollIntoView({ block: "nearest" });
+    select(visible[next]);
+    visible[next].scrollIntoView({ block: "nearest", inline: "nearest" });
   }
 
-  function open(row) {
-    if (row && row.dataset.state === "ready" && row.dataset.href) {
-      window.location.href = row.dataset.href;
-    }
+  function open() {
+    if (current && current._ready) window.location.href = current.dataset.href;
   }
-
-  rows.forEach(function (row) {
-    row.addEventListener("mouseenter", function () { show(row); });
-    row.addEventListener("focus", function () { show(row); });
-    row.addEventListener("click", function (e) {
-      // Planned rows are not links, so a click only moves the preview.
-      if (row.dataset.state !== "ready") { e.preventDefault(); show(row); }
-    });
-  });
 
   if (input) {
     input.addEventListener("input", apply);
     input.addEventListener("keydown", function (e) {
       if (e.key === "Escape") { input.value = ""; apply(); input.blur(); }
-      else if (e.key === "ArrowDown") { e.preventDefault(); move(1); }
-      else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
-      else if (e.key === "Enter") { e.preventDefault(); open(current); }
+      else if (e.key === "ArrowRight") { e.preventDefault(); move(1); }
+      else if (e.key === "ArrowLeft") { e.preventDefault(); move(-1); }
+      else if (e.key === "ArrowDown") { e.preventDefault(); move(perRow()); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); move(-perRow()); }
+      else if (e.key === "Enter") { e.preventDefault(); open(); }
     });
+  }
+
+  // How many tiles fit on one line right now, measured from where they
+  // actually sit rather than from a hard-coded column count -- the band wraps
+  // at whatever the viewport allows.
+  function perRow() {
+    if (visible.length < 2) return 1;
+    var top = visible[0].offsetTop, n = 0;
+    for (var i = 0; i < visible.length; i++) {
+      if (visible[i].offsetTop !== top) break;
+      n++;
+    }
+    return Math.max(1, n);
   }
 
   if (clear) {
@@ -214,30 +217,12 @@
       input.value = ""; apply(); input.focus();
     });
   }
-
   if (resetBtn) {
     resetBtn.addEventListener("click", function () {
-      input.value = "";
-      state = "all";
-      chips.forEach(function (c) {
-        c.setAttribute("aria-pressed", String(c.dataset.show === "all"));
-      });
-      apply(); input.focus();
+      input.value = ""; apply(); input.focus();
     });
   }
 
-  chips.forEach(function (chip) {
-    chip.addEventListener("click", function () {
-      state = chip.dataset.show;
-      chips.forEach(function (c) {
-        c.setAttribute("aria-pressed", String(c === chip));
-      });
-      apply();
-    });
-  });
-
-  // "/" focuses search from anywhere, guarded so it does not steal the key
-  // while you are already typing.
   document.addEventListener("keydown", function (e) {
     if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
     var t = e.target;
@@ -247,23 +232,14 @@
     if (input) { input.focus(); input.select(); }
   });
 
+  window.addEventListener("scroll", hideTip, { passive: true });
+
   (function boot() {
-    var p = new URLSearchParams(window.location.search);
-    var q = p.get("q");
-    var show0 = p.get("show");
+    var q = new URLSearchParams(window.location.search).get("q");
     if (q && input) input.value = q;
-    if (show0 === "ready" || show0 === "planned") {
-      state = show0;
-      chips.forEach(function (c) {
-        c.setAttribute("aria-pressed", String(c.dataset.show === show0));
-      });
-    }
-    // Open on a shipped class rather than whatever sorts first -- the preview
-    // should show something you can actually download.
-    var firstReady = rows.filter(function (r) {
-      return r.dataset.state === "ready";
-    })[0];
-    current = firstReady || rows[0] || null;
+    // Open on a class you can actually download rather than whatever sorts
+    // first.
+    current = tiles.filter(function (t) { return t._ready; })[0] || tiles[0];
     apply();
   })();
 })();
