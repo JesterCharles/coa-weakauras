@@ -2,11 +2,15 @@
 
     python3 tools/mksite.py
 
-Everything is derived -- the class list comes from
-resources/ascension-coa-class-ids.md, the tokens from resources/class-tokens.md,
-and the per-pack stats from decoding the built import strings themselves. There
-is no hand-maintained list of packs to drift out of date, which matters at 21
-classes x 4 packs.
+Everything is derived -- the class list and spec names come from classes.py
+(itself parsed from resources/), the per-class accent colours from the icon art
+via iconcolor.py, and the per-pack stats from decoding the built import strings
+themselves. There is no hand-maintained list of packs to drift out of date,
+which matters at 21 classes x 4 packs.
+
+Load tokens and class ids are deliberately NOT published. They are WeakAuras
+and database internals; a player picking a class knows its name and its spec
+names, and that is what the page shows and what search matches.
 
 Publishing an update is: build -> mksite -> commit -> push.
 """
@@ -65,11 +69,6 @@ def read_classes():
                   key=lambda c: c["name"])
 
 
-def read_tokens():
-    """{class display name: load token}, from classes.py."""
-    return {c.name: c.token for c in CLASSES.values()}
-
-
 def version_of(builder):
     """Read VERSION out of a builder script."""
     src = open(os.path.join(SP, builder)).read()
@@ -101,10 +100,15 @@ def pack_stats(path):
 def page(title, body, depth=0, accent=None, desc=TAGLINE):
     """Wrap a body in the site chrome.
 
-    `accent` is a (hex, deep-hex) pair. It is written onto <body> as --c/--cd,
-    which every accent-coloured rule in site.css reads. On a class page that is
-    the class's own colour, so the whole page is tinted by whose page it is;
-    the index leaves it unset and each card carries its own instead.
+    `body` is everything between the header and the footer, including its own
+    <main> if it wants one. It is NOT wrapped here, because the class page
+    opens with a full-bleed colour masthead that has to escape the centred
+    content column.
+
+    `accent` is a (hex, deep-hex) pair written onto <body> as --c/--cd. Every
+    accent-coloured rule in site.css reads it, so a class page is tinted
+    throughout by whose page it is; the index leaves it at the default and each
+    row carries its own.
     """
     up = "../" * depth
     tint = ""
@@ -117,7 +121,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="light">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="website">
@@ -134,9 +138,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
     <a href="{REPO}">GitHub</a>
   </nav>
 </header>
-<main>
 {body}
-</main>
 <footer>
   <p>Unofficial community tool for Ascension Conquest of Azeroth.
      Not affiliated with Blizzard Entertainment.
@@ -149,45 +151,45 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
 """
 
 
-def class_card(c, tokens, shipped, colors, i):
-    """One tile in the atlas.
+def class_row(c, shipped, colors):
+    """One row in the class list.
 
-    Every searchable field is written as a data- attribute rather than being
-    scraped back out of the rendered text -- search.js matches on name, spec
-    names, load token and class id, and only the name is visible.
+    What a row shows is the whole of what a player needs to pick: the art, the
+    name, the spec art, and whether there is a pack. Load tokens and class ids
+    are WeakAuras and database internals -- they are not on the row and not in
+    the search index.
+
+    The extra data- attributes exist for the preview pane, which is built in
+    JS from these rather than from a second copy of the data in a script tag.
     """
     slug = c["slug"]
     col = colors[slug]
     icon = f"assets/class-icons/{slug}/_class-{slug}.png"
-    token = tokens.get(c["name"], "")
+    labels = [c["labels"][s] for s in c["specs"]]
+    spec_icons = [f"assets/class-icons/{slug}/{s}.png" for s in c["specs"]]
     specs = "".join(
-        f'<img src="assets/class-icons/{slug}/{s}.png" alt="" '
-        f'title="{html.escape(c["labels"][s])}" loading="lazy">'
-        for s in c["specs"])
+        f'<img src="{src}" alt="" title="{html.escape(lbl)}" loading="lazy">'
+        for src, lbl in zip(spec_icons, labels))
 
-    tag, extra = ("a", f' href="{slug}/index.html"') if shipped else ("div", "")
+    href = f"{slug}/index.html"
+    tag, extra = ("a", f' href="{href}"') if shipped else ("div", "")
     state = "ready" if shipped else "planned"
     label = "Available" if shipped else "Planned"
 
-    return f"""<{tag} class="card{'' if shipped else ' pending'}"{extra}
-  style="--c:{col['accent']};--cd:{col['deep']};--i:{i}"
+    return f"""<{tag} class="row{'' if shipped else ' pending'}"{extra}
+  style="--c:{col['accent']}"
   data-name="{html.escape(c['name'], quote=True)}"
-  data-specs="{html.escape(' '.join(c['labels'][s] for s in c['specs']), quote=True)}"
-  data-token="{html.escape(token, quote=True)}"
-  data-id="{c['id']}"
+  data-specs="{html.escape(' '.join(labels), quote=True)}"
+  data-spec-labels="{html.escape('|'.join(labels), quote=True)}"
+  data-spec-icons="{html.escape('|'.join(spec_icons), quote=True)}"
+  data-icon="{icon}"
+  data-href="{href}"
+  data-accent="{col['accent']}"
   data-state="{state}">
-  <div class="cardtop">
-    <img class="classicon" src="{icon}" alt="" loading="lazy" width="52" height="52">
-    <span class="cid">{c['id']}</span>
-  </div>
-  <div class="cardbody">
-    <h3>{html.escape(c['name'])}</h3>
-    <div class="specs">{specs}</div>
-    <p class="token">{html.escape(token)}</p>
-  </div>
-  <div class="cardfoot">
-    <span class="state"><i class="dot"></i>{label}</span>
-  </div>
+  <img class="rowicon" src="{icon}" alt="" loading="lazy" width="38" height="38">
+  <span class="rowname">{html.escape(c['name'])}</span>
+  <span class="rowspecs">{specs}</span>
+  <span class="rowstate">{label}</span>
 </{tag}>"""
 
 
@@ -342,7 +344,6 @@ def build():
     # would just duplicate ~1 MB of PNGs for nothing.
 
     classes = read_classes()
-    tokens = read_tokens()
     if not classes:
         raise SystemExit("no classes parsed -- check ascension-coa-class-ids.md")
 
@@ -384,46 +385,44 @@ def build():
             all_stats.append(st)
             blocks.append(pack_block(label, published, st, desc, i))
 
-        ver = version_of(f"build_{c['slug']}.py")
-        token = tokens.get(c["name"], "?")
         main_pack = os.path.join(DOCS, "packs", packs[0][2])
         head = all_stats[0] if all_stats else {"displays": 0, "triggers": 0}
+        spec_line = ", ".join(c["labels"][s] for s in c["specs"])
 
-        body = f"""<section class="hero">
-  <img class="hero-icon" src="../assets/class-icons/{c['slug']}/_class-{c['slug']}.png"
-       alt="" width="88" height="88">
-  <div>
-    <p class="eyebrow">Class {c['id']} &middot; loads as {html.escape(token)}</p>
-    <h1>{html.escape(c['name'])}</h1>
-    <p class="lede">Rotation, cooldowns, buffs and reminders for all
-      {len(c['specs'])} specs. Displays load only for the class and spec you
-      are actually playing, so importing several class packs costs nothing on
-      the ones you are not.</p>
-    <div class="stats">
-      <div class="stat"><b>{head['displays']}</b><span>Displays</span></div>
-      <div class="stat"><b>{head['triggers']}</b><span>Triggers</span></div>
-      <div class="stat"><b>{len(c['specs'])}</b><span>Specs</span></div>
-      <div class="stat"><b>{len(all_stats)}</b><span>Packs</span></div>
+        body = f"""<div class="classhead">
+  <div class="inner">
+    <img src="../assets/class-icons/{c['slug']}/_class-{c['slug']}.png"
+         alt="" width="96" height="96">
+    <div>
+      <p class="kicker">Conquest of Azeroth</p>
+      <h1>{html.escape(c['name'])}</h1>
+      <p class="specline">{html.escape(spec_line)}</p>
     </div>
-    <p><span class="badge ver">{html.escape(ver)}</span>
-       <span class="badge tok">{html.escape(token)}</span></p>
   </div>
-</section>
+</div>
 
+<main>
 <section>
   <h2>Import</h2>
+  <p class="desc">Rotation, cooldowns, buffs and reminders for all
+     {len(c['specs'])} specs. Displays load only for the class and spec you are
+     actually playing, so importing several class packs costs nothing on the
+     ones you are not.</p>
   <ol class="steps">
     <li>Copy a string below.</li>
-    <li>In game type <code>/wa</code>.</li>
-    <li>Click <strong>Import</strong>, paste, confirm.</li>
+    <li>In game, type <code>/wa</code>.</li>
+    <li>Click Import, paste, confirm.</li>
   </ol>
   <p class="note">Re-importing an updated version replaces the old one. If the
-     pack looks unchanged after an update, check the version in the group name
-     &mdash; WeakAuras keeps the old copy when the version has not moved.</p>
+     pack looks unchanged after an update, delete the old group first &mdash;
+     WeakAuras keeps what it already has when nothing tells it the pack
+     moved.</p>
 </section>
 
 <section>
   <h2>Packs</h2>
+  <p class="desc">Take the all-specs pack unless you only ever play the one
+     spec. They are built from the same source and lay out identically.</p>
   <div class="packs">
 {chr(10).join(blocks)}
   </div>
@@ -437,6 +436,7 @@ def build():
      up, so the pack looks far sparser in play than these counts suggest.</p>
 {layout_sections(main_pack, [c['labels'][s] for s in c['specs']])}
 </section>
+</main>
 """
         out = os.path.join(DOCS, c["slug"], "index.html")
         open(out, "w").write(page(
@@ -444,78 +444,92 @@ def build():
             accent=(colors[c["slug"]]["accent"], colors[c["slug"]]["deep"]),
             desc=f"{c['name']} WeakAura pack for Ascension Conquest of Azeroth "
                  f"— {head['displays']} displays across "
-                 f"{len(c['specs'])} specs, gated to {token}."))
+                 f"{len(c['specs'])} specs ({spec_line})."))
         print(f"  wrote {c['slug']}/index.html ({len(all_stats)} packs)")
 
     # ------------------------------------------------------------- index page
-    # Shipped classes first, then planned -- both alphabetical. Search filters
-    # within that order rather than re-ranking, so a card never moves position
-    # between two keystrokes, which is what makes arrow-key navigation stable.
+    # Shipped classes first, then planned -- both alphabetical. Filtering hides
+    # rows within that fixed order rather than re-ranking, so a row never jumps
+    # position between two keystrokes; that is what makes arrowing down the
+    # list predictable.
     ready = [c for c in classes if c["slug"] in SHIPPED]
     todo = [c for c in classes if c["slug"] not in SHIPPED]
     ordered = ready + todo
-    cards = "\n".join(
-        class_card(c, tokens, c["slug"] in SHIPPED, colors, i)
-        for i, c in enumerate(ordered))
+    rows = "\n".join(
+        class_row(c, c["slug"] in SHIPPED, colors) for c in ordered)
 
     total_specs = sum(len(c["specs"]) for c in classes)
 
-    body = f"""<section class="hero index">
-  <div>
-    <p class="eyebrow">Ascension &middot; Conquest of Azeroth</p>
-    <h1>Every custom class,<br>one WeakAura layout.</h1>
-    <p class="lede">Rotation, cooldowns and buffs for Conquest of Azeroth's
-       custom classes. The bands sit in the same place on every pack, so
-       learning one teaches you all of them.</p>
-    <p class="lede">Each display is gated to its class and spec. Import as many
-       as you like &mdash; the ones you are not playing never load.</p>
-    <div class="stats">
-      <div class="stat"><b>{len(ready)}</b><span>Available</span></div>
-      <div class="stat"><b>{len(todo)}</b><span>Planned</span></div>
-      <div class="stat"><b>{len(classes)}</b><span>Classes</span></div>
-      <div class="stat"><b>{total_specs}</b><span>Specs</span></div>
-    </div>
+    body = f"""<div class="masthead">
+  <h1>Weak<em>Auras</em> for every<br>Conquest of Azeroth class.</h1>
+  <p class="lede">Rotation, cooldowns and buffs, laid out the same way on every
+     class &mdash; learn one pack and you have learned all of them. Each
+     display is gated to its class and spec, so the ones you are not playing
+     never load.</p>
+  <div class="rule"></div>
+  <div class="tally">
+    <div><b>{len(ready)}</b><span>Ready to import</span></div>
+    <div><b>{len(todo)}</b><span>In the queue</span></div>
+    <div><b>{len(classes)}</b><span>Classes</span></div>
+    <div><b>{total_specs}</b><span>Specs</span></div>
   </div>
-</section>
+</div>
 
-<section>
-  <h2>Find your class</h2>
+<div class="explorer">
   <div class="finder">
-    <div class="searchrow">
-      <div class="searchbox" id="searchbox">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="11" cy="11" r="7"></circle>
-          <path d="M20 20l-4.2-4.2"></path>
-        </svg>
-        <input id="q" type="search" autocomplete="off" spellcheck="false"
-               placeholder="Search class, spec, or load token&hellip;"
-               aria-label="Search classes">
-        <button id="clear" type="button" aria-label="Clear search">&times;</button>
-        <span class="slash">/</span>
-      </div>
-      <div class="chips" role="group" aria-label="Filter by availability">
-        <button class="chip" type="button" data-show="all"
-                aria-pressed="true">All</button>
-        <button class="chip" type="button" data-show="ready"
-                aria-pressed="false">Available</button>
-        <button class="chip" type="button" data-show="planned"
-                aria-pressed="false">Planned</button>
-      </div>
-      <span class="count" id="count"><b>{len(classes)}</b> of {len(classes)} classes</span>
+    <div class="finderhead">
+      <h2>Find your class</h2>
+      <span class="count" id="count"><b>{len(classes)}</b> of {len(classes)}</span>
+    </div>
+
+    <div class="searchbox" id="searchbox">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-4.2-4.2"></path>
+      </svg>
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Type a class or spec name&hellip;"
+             aria-label="Search classes">
+      <button id="clear" type="button" aria-label="Clear search">&times;</button>
+    </div>
+
+    <div class="chips" role="group" aria-label="Filter by availability">
+      <button class="chip" type="button" data-show="all"
+              aria-pressed="true">All</button>
+      <button class="chip" type="button" data-show="ready"
+              aria-pressed="false">Available</button>
+      <button class="chip" type="button" data-show="planned"
+              aria-pressed="false">Planned</button>
+    </div>
+
+    <div class="classlist" id="classlist">
+{rows}
+    </div>
+
+    <div class="noresult">
+      <b>Nothing matches that.</b>
+      Try part of a class name, or a spec name like
+      &ldquo;Riftblade&rdquo;.
+      <br><button id="reset" type="button">Show all {len(classes)}</button>
     </div>
   </div>
 
-  <div class="grid" id="grid">
-{cards}
-  </div>
-
-  <div class="empty">
-    <b>No class matches that.</b>
-    Search covers class names, spec names and load tokens
-    &mdash; try <code>rune</code>, <code>frost</code> or <code>SPIRITMAGE</code>.
-    <br><button id="reset" type="button">Show all {len(classes)}</button>
-  </div>
-</section>
+  <!-- Filled in by search.js from the focused row. Hidden without JS. -->
+  <aside class="preview" id="preview" aria-live="polite">
+    <div class="pvtop">
+      <img class="pvicon" id="pvicon" alt="" width="84" height="84">
+      <div class="pvhead">
+        <p class="pvkicker" id="pvkicker"></p>
+        <h3 class="pvname" id="pvname"></h3>
+      </div>
+    </div>
+    <div class="pvbody">
+      <ul class="pvspecs" id="pvspecs"></ul>
+      <p class="pvnote" id="pvnote"></p>
+      <div id="pvaction"></div>
+    </div>
+  </aside>
+</div>
 """
     open(os.path.join(DOCS, "index.html"), "w").write(
         page(SITE_TITLE, body, depth=0))

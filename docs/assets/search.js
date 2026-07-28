@@ -1,38 +1,46 @@
-// Live class filtering for the index page.
+// Class explorer for the index page: filter the list, drive the preview pane.
 //
-// All 21 cards are rendered server-side and simply hidden as you type -- there
-// is no fetch, no template, and the page works with JS off (you just get the
-// full unfiltered grid, which is the correct fallback).
+// The list is rendered server-side and rows are only hidden as you type, so
+// with JS off you still get every class as a working link. The preview pane is
+// pure enhancement -- CSS keeps it hidden until we set body.js, because an
+// empty panel with nothing to drive it is worse than no panel.
 //
-// Searchable fields per card, from data- attributes written by mksite.py:
-//   data-name    display name        "Runemaster"
-//   data-specs   spec names          "glyphic engravement riftblade"
-//   data-token   load token          "SPIRITMAGE"
-//   data-id      class id            "27"
-// The token matters more than it looks: CoA load tokens are NOT derivable from
-// the class name (Runemaster loads as SPIRITMAGE, Templar as MONK), so someone
-// reading a token out of an export has no way to get back to the class without
-// this.
+// Searchable fields, from data- attributes written by mksite.py:
+//   data-name    display name   "Knight of Xoroth"
+//   data-specs   spec names     "Glyphic Engravement Riftblade"
+// That is deliberately all of it. Load tokens and class ids are WeakAuras and
+// database internals -- a player looking for their class knows the name and
+// the spec names, and nothing else belongs in the match.
 (function () {
   "use strict";
 
-  var grid = document.getElementById("grid");
-  if (!grid) return;
+  var list = document.getElementById("classlist");
+  if (!list) return;
+
+  document.body.classList.add("js");
 
   var input = document.getElementById("q");
   var box = document.getElementById("searchbox");
   var clear = document.getElementById("clear");
   var countEl = document.getElementById("count");
-  var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
   var resetBtn = document.getElementById("reset");
-  var cards = Array.prototype.slice.call(grid.querySelectorAll(".card"));
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
+  var rows = Array.prototype.slice.call(list.querySelectorAll(".row"));
+
+  var pv = document.getElementById("preview");
+  var pvIcon = document.getElementById("pvicon");
+  var pvKicker = document.getElementById("pvkicker");
+  var pvName = document.getElementById("pvname");
+  var pvSpecs = document.getElementById("pvspecs");
+  var pvNote = document.getElementById("pvnote");
+  var pvAction = document.getElementById("pvaction");
 
   var state = "all";
-  var cursor = -1;
-  var visible = cards.slice();
+  var visible = rows.slice();
+  var current = null;
 
-  // Fold accents and punctuation so "knight of xoroth", "Knight-of-Xoroth"
-  // and "knightofxoroth" all match the same card.
+  // Fold punctuation and accents so "knight of xoroth", "Knight-of-Xoroth" and
+  // "knightofxoroth" all match the same row.
   function norm(s) {
     return (s || "")
       .toLowerCase()
@@ -43,39 +51,28 @@
       .trim();
   }
 
-  cards.forEach(function (card) {
-    card._name = card.dataset.name || "";
-    card._hay = norm([
-      card.dataset.name,
-      card.dataset.specs,
-      card.dataset.token,
-      card.dataset.id
-    ].join(" "));
-    // Cache the un-highlighted title so repeated keystrokes rebuild from the
-    // original rather than from already-marked-up HTML.
-    card._title = card.querySelector("h3");
+  rows.forEach(function (row) {
+    row._name = row.dataset.name || "";
+    row._hay = norm(row._name + " " + (row.dataset.specs || ""));
+    row._title = row.querySelector(".rowname");
   });
 
-  function matches(card, terms) {
+  function matches(row, terms) {
     for (var i = 0; i < terms.length; i++) {
-      if (card._hay.indexOf(terms[i]) === -1) return false;
+      if (row._hay.indexOf(terms[i]) === -1) return false;
     }
     return true;
   }
 
-  // Rebuild the title with <mark> around the first term that appears in the
-  // NAME (terms may have matched on spec or token instead, which we do not
-  // highlight -- marking nothing is better than marking the wrong thing).
-  function highlight(card, terms) {
-    var h = card._title;
+  // Mark the first term that occurs in the NAME. Scanning the raw lowercased
+  // name rather than the normalised one keeps the offsets valid -- norm()
+  // collapses punctuation runs and would shift them.
+  function highlight(row, terms) {
+    var h = row._title;
     if (!h) return;
-    var name = card._name;
+    var name = row._name;
     if (!terms.length) { h.textContent = name; return; }
 
-    // Search the RAW lowercased name, not the normalised one. norm() collapses
-    // punctuation runs, so an offset into it does not reliably index back into
-    // the original -- "Knight-of-Xoroth" normalises to a different length. The
-    // raw scan can only ever find a real substring, so the slice is always safe.
     var lower = name.toLowerCase();
     var at = -1, len = 0;
     for (var i = 0; i < terms.length; i++) {
@@ -92,34 +89,84 @@
     h.appendChild(document.createTextNode(name.slice(at + len)));
   }
 
+  function show(row) {
+    if (!row || !pv) return;
+    current = row;
+    rows.forEach(function (r) { r.classList.toggle("on", r === row); });
+
+    var ready = row.dataset.state === "ready";
+    pv.style.setProperty("--c", row.dataset.accent || "#b4442a");
+
+    pvIcon.src = row.dataset.icon || "";
+    pvIcon.alt = "";
+    pvKicker.textContent = ready ? "Pack available" : "Not built yet";
+    pvName.textContent = row._name;
+
+    var labels = (row.dataset.specLabels || "").split("|").filter(Boolean);
+    var icons = (row.dataset.specIcons || "").split("|").filter(Boolean);
+    pvSpecs.textContent = "";
+    labels.forEach(function (label, i) {
+      var li = document.createElement("li");
+      if (icons[i]) {
+        var img = document.createElement("img");
+        img.src = icons[i];
+        img.alt = "";
+        img.loading = "lazy";
+        li.appendChild(img);
+      }
+      li.appendChild(document.createTextNode(label));
+      pvSpecs.appendChild(li);
+    });
+
+    pvNote.textContent = ready
+      ? "Rotation, cooldowns and buffs for every spec. Displays load only for "
+        + "the spec you are playing."
+      : "No pack yet. Classes are built one at a time and each one follows the "
+        + "same band layout, so nothing you learn here goes to waste.";
+
+    pvAction.textContent = "";
+    if (ready) {
+      var a = document.createElement("a");
+      a.className = "pvgo";
+      a.href = row.dataset.href;
+      a.textContent = "Open " + row._name + " →";
+      pvAction.appendChild(a);
+    } else {
+      var span = document.createElement("span");
+      span.className = "pvsoon";
+      span.textContent = "Planned";
+      pvAction.appendChild(span);
+    }
+  }
+
   function apply() {
     var raw = input ? input.value : "";
     var terms = norm(raw).split(" ").filter(Boolean);
     visible = [];
 
-    cards.forEach(function (card) {
-      var okState =
-        state === "all" ||
-        (state === "ready" && card.dataset.state === "ready") ||
-        (state === "planned" && card.dataset.state === "planned");
-      var ok = okState && matches(card, terms);
-      card.hidden = !ok;
-      if (ok) { visible.push(card); highlight(card, terms); }
+    rows.forEach(function (row) {
+      var okState = state === "all" || row.dataset.state === state;
+      var ok = okState && matches(row, terms);
+      row.hidden = !ok;
+      if (ok) { visible.push(row); highlight(row, terms); }
     });
 
     if (box) box.classList.toggle("has", raw.length > 0);
     if (countEl) {
-      countEl.innerHTML =
-        "<b>" + visible.length + "</b> of " + cards.length + " classes";
+      countEl.innerHTML = "<b>" + visible.length + "</b> of " + rows.length;
     }
     document.body.classList.toggle("noresults", visible.length === 0);
 
-    setCursor(-1);
+    // Keep the preview on the current row when it survived the filter,
+    // otherwise fall to the top of what is now on screen.
+    if (visible.length) {
+      show(visible.indexOf(current) !== -1 ? current : visible[0]);
+    }
     syncUrl(raw);
   }
 
-  // Keep the query in the URL so a filtered view can be linked. replaceState,
-  // not pushState -- every keystroke in the back stack would be unusable.
+  // replaceState, not pushState -- one history entry per keystroke would make
+  // the back button unusable.
   function syncUrl(raw) {
     if (!window.history || !history.replaceState) return;
     var url = new URL(window.location.href);
@@ -129,44 +176,36 @@
     history.replaceState(null, "", url.pathname + url.search + url.hash);
   }
 
-  function setCursor(i) {
-    cards.forEach(function (c) { c.classList.remove("cursor"); });
-    cursor = i;
-    if (i >= 0 && visible[i]) {
-      visible[i].classList.add("cursor");
-      visible[i].scrollIntoView({ block: "nearest" });
+  function move(d) {
+    if (!visible.length) return;
+    var i = visible.indexOf(current);
+    var next = i === -1 ? 0 : Math.max(0, Math.min(visible.length - 1, i + d));
+    show(visible[next]);
+    visible[next].scrollIntoView({ block: "nearest" });
+  }
+
+  function open(row) {
+    if (row && row.dataset.state === "ready" && row.dataset.href) {
+      window.location.href = row.dataset.href;
     }
   }
 
-  // Column count comes from the resolved grid template, so arrow keys follow
-  // the layout at any breakpoint without a hard-coded number.
-  function cols() {
-    var t = getComputedStyle(grid).gridTemplateColumns;
-    var n = t ? t.split(" ").filter(Boolean).length : 1;
-    return Math.max(1, n);
-  }
-
-  function move(d) {
-    if (!visible.length) return;
-    var next = cursor < 0 ? (d > 0 ? 0 : visible.length - 1) : cursor + d;
-    setCursor(Math.max(0, Math.min(visible.length - 1, next)));
-  }
+  rows.forEach(function (row) {
+    row.addEventListener("mouseenter", function () { show(row); });
+    row.addEventListener("focus", function () { show(row); });
+    row.addEventListener("click", function (e) {
+      // Planned rows are not links, so a click only moves the preview.
+      if (row.dataset.state !== "ready") { e.preventDefault(); show(row); }
+    });
+  });
 
   if (input) {
     input.addEventListener("input", apply);
     input.addEventListener("keydown", function (e) {
       if (e.key === "Escape") { input.value = ""; apply(); input.blur(); }
-      else if (e.key === "ArrowDown") { e.preventDefault(); move(cols()); }
-      else if (e.key === "ArrowUp") { e.preventDefault(); move(-cols()); }
-      else if (e.key === "ArrowRight" && cursor >= 0) { e.preventDefault(); move(1); }
-      else if (e.key === "ArrowLeft" && cursor >= 0) { e.preventDefault(); move(-1); }
-      else if (e.key === "Enter") {
-        // With no cursor, Enter takes the single result if there is exactly
-        // one -- type three letters, hit Enter, you are on the page.
-        var target = cursor >= 0 ? visible[cursor]
-                   : (visible.length === 1 ? visible[0] : null);
-        if (target && target.tagName === "A") { e.preventDefault(); target.click(); }
-      }
+      else if (e.key === "ArrowDown") { e.preventDefault(); move(1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
+      else if (e.key === "Enter") { e.preventDefault(); open(current); }
     });
   }
 
@@ -197,8 +236,8 @@
     });
   });
 
-  // "/" to focus from anywhere, the convention every search-first site uses.
-  // Guarded so it does not steal the key while you are typing in a field.
+  // "/" focuses search from anywhere, guarded so it does not steal the key
+  // while you are already typing.
   document.addEventListener("keydown", function (e) {
     if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
     var t = e.target;
@@ -208,18 +247,23 @@
     if (input) { input.focus(); input.select(); }
   });
 
-  // Restore ?q= / ?show= on load so a shared link opens filtered.
   (function boot() {
     var p = new URLSearchParams(window.location.search);
     var q = p.get("q");
-    var show = p.get("show");
+    var show0 = p.get("show");
     if (q && input) input.value = q;
-    if (show === "ready" || show === "planned") {
-      state = show;
+    if (show0 === "ready" || show0 === "planned") {
+      state = show0;
       chips.forEach(function (c) {
-        c.setAttribute("aria-pressed", String(c.dataset.show === show));
+        c.setAttribute("aria-pressed", String(c.dataset.show === show0));
       });
     }
+    // Open on a shipped class rather than whatever sorts first -- the preview
+    // should show something you can actually download.
+    var firstReady = rows.filter(function (r) {
+      return r.dataset.state === "ready";
+    })[0];
+    current = firstReady || rows[0] || null;
     apply();
   })();
 })();
