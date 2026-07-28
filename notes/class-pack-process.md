@@ -34,6 +34,7 @@ Spin both down when the class is finished.
 | `notes/runemaster-retro.md` | the ten bugs, so none is repeated |
 | `resources/import-strings/*.txt` | four decoded working packs — the reference for "does this mechanism work" |
 | `notes/off-gcd-detection.md` | why `use_showgcd` needs per-ability data, and where it comes from |
+| `notes/universal-vs-class.md` | **the fork guide** — what to copy verbatim, replace, and rewrite |
 
 ### `tools/classes.py` — one place a class is described
 
@@ -56,7 +57,7 @@ names, docs directories, icon paths.
 
 | Tool | What it does for a new class |
 |---|---|
-| `tests/run.py` | runs all 10 checks against its packs — nothing to write |
+| `tests/run.py` | runs all 11 checks against its packs — nothing to write |
 | `tests/freeze.py` | freezes its fixtures (`python3 tests/freeze.py <class>` for one) |
 | `tools/audit_cds.py` | `python3 tools/audit_cds.py <class>` |
 | `tools/mksite.py` | adds its pack page and flips its card to shipped |
@@ -217,6 +218,23 @@ and record the decision before building the other healer classes.
 - Resource bar width is derived from the main row's icon count.
 - Change one mechanism at a time so a failure is unambiguous.
 
+## Forking the builder
+
+`notes/universal-vs-class.md` measures `build_runemaster.py` line by line:
+**~56% is machinery that transfers unchanged**, 107 lines are data tables to
+replace wholesale, and 408 lines are assembly to rewrite for the class's actual
+shape. Read it before copying anything — the point is to copy the 661 lines
+deliberately and rewrite the rest, not to fork 1495 lines hopefully and prune.
+
+Do **not** extract `wapack.py` yet. `pipeline-plan.md` sequences that after
+Chronomancer on purpose: an engine drawn from one example is a guess about what
+is class-agnostic. Re-measure the 56% once a second class is built; if it holds,
+the extraction is mechanical.
+
+First thing to check in any fork, before anything else: the `data()` resolver.
+`audit_cds.py` sat broken for weeks because it still resolved against `tools/`
+after the data moved to `resources/`, and nothing failed loudly.
+
 ## Carry-forward checklist — every class inherits these
 
 Everything below was paid for once on Runemaster. A new class must satisfy all
@@ -232,6 +250,23 @@ of it. Where a test enforces the rule, the test name is given: run
 | `use_showgcd` **on** for every on-GCD ability | otherwise you lose the anti-clipping cue | check 10, *keeps the sweep* |
 | Escalation tiers ANDed with `onCooldown == 1` | a bare `expirationTime` tier fires on every global, on every icon | check 9, *no bare expirationTime tier* |
 | `OFF_GCD` derived from `cooldown-abilities.json`, never hand-written | 26 of 59 on Runemaster; hand-maintenance does not scale to 21 classes | — (derive it, don't type it) |
+
+**Bands and gating** (from `final16`/`final17`)
+
+| Rule | Why | Enforced by |
+|---|---|---|
+| One shared band per row, not one per spec | A dynamic group lays out only loaded+showing children (`DynamicGroup.lua:1227`), so a shared band renders exactly the loaded spec's icons. Cut Runemaster 229 → 171 displays | check 11, *merged pack loads the same displays* |
+| Merge order is a topological sort, never a concatenation | `controlledChildren` order encodes "most-pressed first" and is load-bearing | `_band_order` |
+| A leaf that drops its signature gate must be on **every** spec | `load.spellknown` holds one id, so two-spec abilities cannot be expressed and must stay duplicated | `assert_gated`, *SHARED BUT NOT ON EVERY SPEC* |
+| Shared **buff** rows take the class gate alone | Active-only aura displays are self-gating, and a buff id is not something `IsSpellKnown` recognises | — |
+| An ability with no db.exil.es cooldown row stays duplicated | Its id may be a proc rather than the castable spell; `IsSpellKnown` would fail and the icon would silently never appear | — |
+| Resource area is a **fixed-height envelope** | A shared band has one `yOffset`, so a variable-height resource stack pushes an empty slot onto specs that do not need it | `layout-standard.md` |
+
+**Where an invariant belongs.** If a check would compare two outputs of the same
+builder, a bug in logic they share moves both sides together and cancels out —
+`tests/run.py` check 11 has exactly this limit. Assertions about *intent* go in
+the builder, where the source data still exists. Prove it either way by mutating
+the builder and confirming the check fails.
 
 **Things that are true of the addon, not of Runemaster** — do not re-derive:
 
