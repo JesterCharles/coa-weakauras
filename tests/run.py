@@ -22,6 +22,7 @@ The checks, and what each is actually protecting:
      Two identical icons side by side means an id resolved to the wrong art.
 """
 import copy
+import json
 import os
 import subprocess
 import sys
@@ -253,6 +254,55 @@ for spec, name in PACKS:
                 break
     check(f"{name}: no bare expirationTime tier", not unguarded,
           "\n".join(unguarded[:8]))
+
+
+# --------------------------------------------------------------- 10. off-GCD
+print("\n10. off-GCD abilities do not show the global cooldown")
+
+COOLDOWNS = json.load(open(os.path.join(ROOT, "resources",
+                                        "cooldown-abilities.json")))
+OFF_GCD = {n for n, v in COOLDOWNS.items() if v.get("gcd") is False}
+
+
+def showgcd_of(d):
+    trs = d.get("triggers") or {}
+    vals = list(trs.values()) if isinstance(trs, dict) else list(trs)
+    for t in vals:
+        if isinstance(t, dict):
+            tr = t.get("trigger")
+            if isinstance(tr, dict) and "use_showgcd" in tr:
+                return bool(tr["use_showgcd"])
+    return None
+
+
+for spec, name in PACKS:
+    pack = load(os.path.join(TOOLS, f"{name}.txt"))
+    # `use_showgcd` makes WeakAuras substitute the tracked global for any spell
+    # not already on cooldown -- blindly, with no per-spell knowledge
+    # (GenericTrigger.lua:2795). On an ability that does not obey the global
+    # that is a phantom sweep every time you press something else. Which
+    # abilities those are is scraped, not guessed: db.exil.es omits the GCD row
+    # for them and audit_cds.py records it as `gcd: false`.
+    wrong = []
+    for d in cd_triggered(pack):
+        # display ids are "RM <Spec> <Row> <Ability>"; match on suffix so the
+        # check does not have to know the row naming.
+        ability = next((a for a in OFF_GCD if d["id"].endswith(" " + a)), None)
+        if ability and showgcd_of(d) is not False:
+            wrong.append(f"{d['id']} (off-GCD, but use_showgcd is on)")
+    check(f"{name}: no off-GCD ability shows the global", not wrong,
+          "\n".join(wrong[:8]))
+
+    # The converse: a GCD-obeying ability that lost the flag silently drops the
+    # anti-clipping cue, which is the whole reason showgcd is on by default.
+    missing = []
+    for d in cd_triggered(pack):
+        if any(d["id"].endswith(" " + a) for a in OFF_GCD):
+            continue
+        if showgcd_of(d) is False:
+            missing.append(f"{d['id']} (on-GCD, but use_showgcd is off)")
+    check(f"{name}: every on-GCD ability keeps the sweep", not missing,
+          "\n".join(missing[:8]))
 
 
 print()

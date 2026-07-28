@@ -1,13 +1,38 @@
-"""Find every Runemaster ability that has a cooldown, and which spec owns it."""
+"""Find every Runemaster ability that has a cooldown, which spec owns it, and
+whether it triggers the global cooldown.
+
+The GCD half matters because WeakAuras cannot work it out. `use_showgcd`
+substitutes the tracked global for ANY spell not already on cooldown
+(`GenericTrigger.lua:2795`), with no per-spell knowledge, so an off-GCD
+ability sweeps every time you press something else. The only fix is telling
+the builder which abilities those are, and this is where that comes from.
+
+db.exil.es renders a `GCD` row on the spell page when the spell is on the
+global, and OMITS the row entirely when it is not. That absence is the
+signal -- see `notes/off-gcd-detection.md`.
+"""
 import json, os, re, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 
 SP = os.path.dirname(os.path.abspath(__file__))
+RESOURCES = os.path.join(os.path.dirname(SP), "resources")
 CACHE = os.path.join(SP, "spellchk")
-EX = json.load(open(f"{SP}/exiles-runemaster.json"))
-SKILLS = {r["name"] for r in json.load(open(f"{SP}/coa-runemaster-skills.json"))}
-SB = os.path.expanduser("~/second-brain/projects/coa-weakauras/resources")
-SIDEKICK = {s: open(f"{SB}/sidekick-runemaster-{s}.md").read()
+
+
+def data(name):
+    """Resolve a data file: resources/ wins, tools/ is the legacy fallback.
+
+    Same resolver as build_runemaster.py. This module pointed at `tools/`
+    after the data moved to `resources/` and had been silently broken since;
+    check this first in any fork.
+    """
+    p = os.path.join(RESOURCES, name)
+    return p if os.path.exists(p) else os.path.join(SP, name)
+
+
+EX = json.load(open(data("exiles-runemaster.json")))
+SKILLS = {r["name"] for r in json.load(open(data("coa-runemaster-skills.json")))}
+SIDEKICK = {s: open(data(f"sidekick-runemaster-{s}.md")).read()
             for s in ("glyphic", "engravement", "riftblade")}
 
 # Player-facing abilities: anything coabuildhub lists, PLUS anything Sidekick
@@ -40,20 +65,50 @@ def fetch(item):
     try:
         md = json.load(open(p))["data"].get("markdown") or ""
     except Exception:
-        return name, sid, None
+        return name, sid, None, None
     md = re.sub(r"\s+", " ", md)
+
+    # A page that did not render has no GCD row either, and would otherwise
+    # be indistinguishable from a genuinely off-GCD ability. The Spell ID row
+    # is on every real page, so it is the proof the scrape actually landed.
+    # Without it we return gcd=None (unknown) rather than False (off-GCD).
+    ok = re.search(r"Spell ID \| \d+", md) is not None
+
     m = re.search(r"Cooldown \| ([^|]+?)\|", md)
-    return name, sid, (m.group(1).strip() if m else None)
+    cd = m.group(1).strip() if m else None
+
+    g = re.search(r"GCD \| ([^|]+?)\|", md)
+    gcd = g.group(1).strip() if g else (False if ok else None)
+    return name, sid, cd, gcd
 
 
 if __name__ == "__main__":
-    out = {}
+    out, unknown = {}, []
     with ThreadPoolExecutor(max_workers=8) as ex:
-        for name, sid, cd in ex.map(fetch, sorted(cands.items())):
+        for name, sid, cd, gcd in ex.map(fetch, sorted(cands.items())):
             if cd:
                 specs = [s for s, t in SIDEKICK.items() if name in t]
-                out[name] = {"id": sid, "cd": cd, "specs": specs}
-    json.dump(out, open(f"{SP}/cooldown-abilities.json", "w"), indent=1)
-    print(f"{len(cands)} abilities checked, {len(out)} have a cooldown\n")
+                rec = {"id": sid, "cd": cd, "specs": specs}
+                # `gcd` is the rendered value ("1.0 sec") when the ability is
+                # on the global, False when the page proved it is not, and
+                # omitted when the scrape could not settle it. The builder
+                # treats only an explicit False as off-GCD.
+                if gcd is None:
+                    unknown.append(name)
+                else:
+                    rec["gcd"] = gcd
+                out[name] = rec
+    json.dump(out, open(data("cooldown-abilities.json"), "w"), indent=1)
+
+    off = sorted(n for n, v in out.items() if v.get("gcd") is False)
+    print(f"{len(cands)} abilities checked, {len(out)} have a cooldown")
+    print(f"{len(off)} are OFF the global cooldown, {len(unknown)} unresolved\n")
     for n, v in sorted(out.items()):
-        print(f"  {n:<28} id={v['id']:<8} {v['cd']:<20} {','.join(v['specs']) or 'shared/none'}")
+        g = v.get("gcd", "?")
+        g = "OFF-GCD" if g is False else ("unknown" if g == "?" else g)
+        print(f"  {n:<28} id={v['id']:<8} {v['cd']:<20} {g:<10} "
+              f"{','.join(v['specs']) or 'shared/none'}")
+    if unknown:
+        print("\nUNRESOLVED (scrape did not land, rerun to settle):")
+        for n in unknown:
+            print(f"  {n}")

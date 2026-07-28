@@ -45,7 +45,7 @@ def data(name):
 # imports on uid, so a rebuilt pack MUST carry a different salt or the client
 # treats it as already-installed and silently keeps the old copy. Bump this
 # (final2, final3, ...) on any future release.
-VERSION = "final14"
+VERSION = "final15"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
@@ -339,6 +339,27 @@ def spec_group(id_, kids, trigger):
 # the count is harmless on the base version.
 CHARGES = {"Runeblade": 3, "Zenith": 2}
 
+# Abilities that do NOT trigger the global cooldown.
+#
+# `use_showgcd` is per-trigger and WeakAuras applies it BLINDLY: for any spell
+# not already on its own cooldown it substitutes the tracked global
+# (`GenericTrigger.lua:2795`), with no per-spell knowledge of whether that
+# spell obeys one -- the addon polls a single reference spell for the global
+# and has nothing else to go on. Set the flag on an off-GCD ability and its
+# icon sweeps every time you press something ELSE: a cooldown that is not
+# real, on an ability you could have used the whole time. Shipped in final14.
+#
+# Scraped, not curated. db.exil.es renders a `GCD` row on the spell page when
+# the ability is on the global and omits the row entirely when it is not;
+# `audit_cds.py` turns that absence into `gcd: false`. 26 of Runemaster's 59
+# cooldown abilities are off-GCD, which is far too many to have kept by hand
+# and would not have scaled to 21 classes at all.
+#
+# Ground truth behind the rendered row is Spell.dbc field 206
+# StartRecoveryCategory (133 = on the global, 0 = not) / field 207
+# StartRecoveryTime. See `notes/off-gcd-detection.md`.
+OFF_GCD = {n for n, v in COOLDOWNS.items() if v.get("gcd") is False}
+
 # When one of these buffs is up, the ABILITY it empowers glows -- the same
 # "use this now" cue the game gives you. Keyed ability -> the procs that light
 # it, taken from the talent text.
@@ -374,7 +395,9 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False):
 
     Both kinds also sweep for the global cooldown (`use_showgcd` on the
     trigger), so a ready ability still reads as "not yet" for the ~1.5s after
-    a cast -- the cue for holding a press rather than clipping it.
+    a cast -- the cue for holding a press rather than clipping it. Abilities
+    listed in OFF_GCD opt out: they do not obey the global, so showing it
+    would sweep them every time you pressed something else.
     """
     subs = [B.sub_background()]
     if urgency:
@@ -390,7 +413,8 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False):
         subs.append(B.sub_text("%s", size=max(11, int(size * 0.34)),
                                anchor="INNER_TOPRIGHT", color=(1, 1, 1, 1)))
 
-    triggers = [B.spell_cd_trigger(sid(name), show_on="showAlways", exact=True)]
+    triggers = [B.spell_cd_trigger(sid(name), show_on="showAlways", exact=True,
+                                   show_gcd=name not in OFF_GCD)]
     conds = []
     if urgency:
         # Every urgency tier is ANDed with "this is a real cooldown, not the
@@ -398,26 +422,29 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False):
         # bare `expirationTime < 5` fires the urgent glow on every global, on
         # every icon in the row -- which is exactly what shipped in final12.
         #
-        # The guard is on `duration`, NOT `gcdCooldown`. `gcdCooldown` is
-        # declared hidden on the prototype and is therefore not exposed as a
-        # condition variable; WeakAuras drops the unknown sub-check and the AND
-        # collapses back to the bare expirationTime test. `duration` is
-        # guaranteed present whenever progressType == "timed" (data-model
-        # 6.3), so it always compiles.
+        # The guard is `onCooldown`, which is EXACT. Its conditionTest is
+        # `not state.gcdCooldown and state.expirationTime > GetTime()`
+        # (`Prototypes.lua:5700`), i.e. the prototype itself excludes the
+        # global, using the same `gcdCooldown` flag GetSpellCooldown sets when
+        # the reported cooldown came from the global rather than the spell.
         #
-        # The GCD is 1.5s and hastes DOWN, never up, so 3s separates it from
-        # any real cooldown with room to spare. Only Unleash Essences (2.5s)
-        # and Trap Runes (3.0s) fall below the line, and a cooldown that short
-        # sits permanently inside the 5s tier anyway -- it would pulse orange
-        # for its whole duration, which is noise, not information.
-        GCD_FLOOR = "3"
-
+        # `gcdCooldown` cannot be used directly: it is declared `store = true`
+        # with NO `conditionType` / `conditionTest`, so it is not a condition
+        # variable and WeakAuras drops the sub-check, collapsing the AND back
+        # to the bare expirationTime test. Note this is NOT because it is
+        # `hidden` -- both `onCooldown` and `spellUsable` are `hidden = true`
+        # and both work. `conditionType` is what makes a variable usable.
+        #
+        # This replaces a `duration > 3` floor (final13/14), which cost the
+        # escalation cues on every ability whose own cooldown was under 3s --
+        # Unleash Essences (2.5s) and Trap Runes (3.0s). The floor was also
+        # built on the wrong number: the global here is 1.0s base, not 1.5s,
+        # and ranges from 0.5s (Warpdagger) to 1.5s (Elder Magi Rune).
         def real_cd(seconds):
             return B.check_and(
                 B.T({"trigger": 1, "variable": "expirationTime",
                      "op": "<", "value": seconds}),
-                B.T({"trigger": 1, "variable": "duration",
-                     "op": ">", "value": GCD_FLOOR}))
+                B.T({"trigger": 1, "variable": "onCooldown", "value": 1}))
 
         conds += [
             B.cond(real_cd("20"),

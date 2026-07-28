@@ -11,6 +11,13 @@ output/
 # reproducible asset here. resources/in-game-verified.json is ground truth read
 # off tooltips and cannot be regenerated at all. See NOTICE.
 
+# audit_cds.py's per-spell scrape cache: 338 raw Firecrawl response envelopes,
+# ~1.5M, keyed by spell id. Ignored rather than kept, because unlike the
+# resources/ snapshots these are not the asset -- the facts distilled out of
+# them (cd, gcd, specs) land in resources/cooldown-abilities.json, which IS
+# tracked. Delete the directory to force a full re-scrape.
+tools/spellchk/
+
 __pycache__/
 *.pyc
 .DS_Store

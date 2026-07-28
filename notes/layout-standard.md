@@ -194,32 +194,50 @@ fixed inter-band gap. No class declares an anchor.
 - **Cooldown rows escalate as they come back**: timer appears at 20s, the icon
   glows at 10s, the glow turns urgent at 5s. The **main damage row is exempt** —
   those sit on 6–8s cooldowns, so the number is simply always shown there.
-- **Every spell cooldown trigger shows the global cooldown** (`use_showgcd` on
-  the `Cooldown Progress (Spell)` trigger, set by default in
-  `wabuild.spell_cd_trigger`). A ready ability sweeps for the ~1.5s after a
-  cast, which is the cue for holding a press rather than clipping it. The
-  Templar community pack sets it on 49 triggers, so it is verified ground on
-  this fork.
+- **Spell cooldown triggers show the global cooldown — unless the ability is
+  off-GCD.** `use_showgcd` is set by default in `wabuild.spell_cd_trigger`, so a
+  ready ability sweeps for the ~1s after a cast: the cue for holding a press
+  rather than clipping it. Templar sets it on 49 triggers, so it is verified
+  ground on this fork.
 
-  **Every escalation tier must then be ANDed with `duration > 3`**
-  (`check_and`, combinator `trigger = -2` + `variable = "AND"`). With the GCD
-  reported through the same trigger, a bare `expirationTime < 5` fires the
-  urgent glow on *every icon in the row, on every global cooldown*. Any new
-  condition reading `expirationTime` on a spell cooldown trigger inherits this
-  requirement.
+  ⚠️ **WeakAuras applies the flag blindly.** For any spell not already on its
+  own cooldown it substitutes the tracked global (`GenericTrigger.lua:2795`),
+  with no per-spell knowledge — it polls one reference spell and every flagged
+  trigger borrows that timer. On an ability that does not obey the global, the
+  icon sweeps *every time you press something else*. **26 of Runemaster's 59
+  cooldown abilities are off-GCD**, so this is the common case, not the corner
+  case. Shipped broken in `final14`.
 
-  ⚠️ **Guard on `duration`, NOT on `gcdCooldown`.** `gcdCooldown` is declared
-  hidden on the prototype, so it is not exposed as a condition variable (§6.3
-  requires all three of `conditionType`, `name`, `display`). WeakAuras drops the
-  unknown sub-check and the AND silently collapses back to the bare
-  `expirationTime` test — the whole guard evaporates with no error. This
-  shipped in `final12` and had to be fixed in `final13`. `duration` is
-  guaranteed present whenever `progressType == "timed"`, so it always compiles.
+  `OFF_GCD` in the builder derives from `resources/cooldown-abilities.json`,
+  scraped rather than curated: db.exil.es omits the `GCD` row for off-GCD
+  spells and `audit_cds.py` records that as `gcd: false`. Full method, and how
+  to run it for the next class, in [`off-gcd-detection.md`](off-gcd-detection.md).
 
-  The GCD is 1.5s and hastes down, never up, so `3` separates it from any real
-  cooldown with margin. Abilities whose own cooldown is under 3s lose the
-  escalation cues, which is correct: a 2.5s cooldown sits permanently inside
-  the 5s tier and would pulse orange for its entire duration.
+  **Every escalation tier must be ANDed with `onCooldown == 1`** (`check_and`,
+  combinator `trigger = -2` + `variable = "AND"`). With the GCD reported through
+  the same trigger, a bare `expirationTime < 5` fires the urgent glow on *every
+  icon in the row, on every global cooldown*. Any new condition reading
+  `expirationTime` on a spell cooldown trigger inherits this requirement.
+
+  `onCooldown` is exact: its `conditionTest` is `not state.gcdCooldown and
+  state.expirationTime > GetTime()` (`Prototypes.lua:5700`), so the prototype
+  itself excludes the global.
+
+  ⚠️ **Do not guard on `gcdCooldown` directly.** It is declared `store = true`
+  with no `conditionType` / `conditionTest`, so it is not a condition variable;
+  WeakAuras drops the unknown sub-check and the AND silently collapses back to
+  the bare `expirationTime` test, with no error. That shipped as `final12`.
+
+  This is **not** because it is `hidden` — an earlier revision of this note gave
+  that reason and it was wrong. `onCooldown` and `spellUsable` are both
+  `hidden = true` and both work. `conditionType` is what makes a variable usable
+  in a condition; `hidden` only keeps it out of the display-text picker.
+
+  `final13`/`final14` used a `duration > 3` floor instead, which cost the
+  escalation cues on every ability with a sub-3s cooldown (Unleash Essences
+  2.5s, Trap Runes 3.0s) and was built on the wrong number besides: the global
+  here is **1.0s base**, not 1.5s, and ranges 0.5s (`Warpdagger`) to 1.5s
+  (`Elder Magi Rune`). Any fixed-length GCD heuristic is wrong on this server.
 
   Displays built with `genericShowOn: "showOnCooldown"` should generally pass
   `show_gcd=False`, or they pop into existence once per global. Treat this as
