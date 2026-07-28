@@ -48,7 +48,7 @@ def data(name):
 # loaded version is NOT visible in the WeakAuras list and a delivered file
 # carries no readable version string. Identify one by recomputing uids -- see
 # notes/class-pack-process.md.
-VERSION = "final16"
+VERSION = "final17"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
@@ -112,26 +112,41 @@ Y_ALERT = -18       # missing-buff reminders, high and central
 Y_PROCS = -60       # spec procs, short windows, active-only
 Y_BUFFS = -84       # single row: procs, running CDs, buffs, debuffs
 Y_MAIN = -132       # main damage row
-Y_BAR = -168        # resource bar, clears the main row
-Y_SEG = -194        # Glyphic glyph bar. Riftblade and Engravement have
-                    # nothing here, so their bottom block starts at this
-                    # band instead of leaving it empty.
-Y_CDS = -242        # rotational cooldowns (wraps)
+
+# ---- resource envelope -----------------------------------------------------
+# A FIXED-HEIGHT block under the main row, spanning roughly -156..-186. Every
+# spec fills it however its resources require and the block is the same height
+# either way, so everything below it sits at ONE anchor for all three specs.
+#
+# This replaces a per-spec ladder (`Y_SEG - CD_ROW_STEP if glyphic`). That
+# worked while each spec owned its own band groups, but the bands are shared
+# now and a dynamic group has a single yOffset -- so Glyphic's taller stack was
+# pushing an empty 30px slot onto Engravement and Riftblade, which have no
+# glyph bar to put in it.
+#
+# The tradeoff, deliberately taken: Glyphic's mana bar is thinner than the
+# other two specs', because it shares the envelope with the glyph bar.
+Y_BAR = -164        # Glyphic mana bar (shares the envelope with the glyphs)
+BAR_H_STACKED = 14  #   its height
+Y_SEG = -180        # Glyphic glyph bar, directly beneath its mana bar
+Y_BAR_SOLO = -170   # Engravement / Riftblade: mana is the whole envelope
+BAR_H_SOLO = 24     #   so it gets the full height
 CD_PER_ROW = 12
 CD_ROW_STEP = 30
 SZ_CD = 26
 SZ_ALERT = 38
 SZ_BUFF = 36         # buff row -- larger so the timer is legible
-Y_LONG = -300       # long-term buffs, pinned to the bottom
-Y_DOTS = -333       # applied DoTs / debuffs, below the cooldown block
+Y_CDS = -202        # first cooldown row, one anchor for every spec
+Y_LONG = -278       # long-term buffs, pinned to the bottom
+Y_DOTS = -311       # applied DoTs / debuffs, below the cooldown block
 
 SZ_MAIN = 44
 SZ_SMALL = 28
 SZ_STATE = 28
 GAP = 2             # tight, but enough that overlaid text does not collide
 BAR_W = 270
-BAR_H = 20           # resource bar height
-SEG_H = 16           # glyph segment height
+BAR_H = BAR_H_SOLO   # default resource bar height
+SEG_H = 10           # glyph segment height (thin: it shares the envelope)
 GLYPH_GAP = 2        # gap between glyph segments
 SOLID = "Interface\\ChatFrame\\ChatFrameBackground"
 EDGE = "Square Full White"
@@ -619,9 +634,9 @@ def row_w(n, size=SZ_MAIN):
     return n * size + (n - 1) * GAP
 
 
-def mana_bar(gid, parent, y, color, w=None):
+def mana_bar(gid, parent, y, color, w=None, h=None):
     add(B.aurabar(gid, parent, [B.power_trigger("player", 0)],
-                  x=0, y=y, w=w or BAR_W, h=BAR_H, color=color,
+                  x=0, y=y, w=w or BAR_W, h=h or BAR_H, color=color,
                   subregions=[
                       B.sub_text("%p", size=10, anchor="INNER_RIGHT", x=-4,
                                  justify="RIGHT"),
@@ -825,9 +840,9 @@ def emit_bottom_block(spec_name, spec_key, out, procs, state=()):
         2. Utility   -- defensives and utility merged
         3. Buffs     -- short-window procs, active-only
 
-    Glyphic keeps its glyph bar at Y_SEG so its block starts one band lower;
-    the other two specs have nothing there and start at Y_SEG itself rather
-    than leaving the gap empty. Returns the y for the DoT row.
+    All three specs start at the same Y_CDS: the resource envelope above is a
+    fixed height whatever a spec puts in it, so there is no per-spec offset to
+    apply and no empty band left behind. Returns the y for the DoT row.
     """
     have = {n for n, v in COOLDOWNS.items()
             if (spec_key in v["specs"] or not v["specs"])
@@ -847,7 +862,7 @@ def emit_bottom_block(spec_name, spec_key, out, procs, state=()):
     defensive = [n for n in DEFENSIVE if n in have]
     utility = defensive + sorted(have - set(offense) - set(defensive))
 
-    y = Y_SEG - (CD_ROW_STEP if spec_key == "glyphic" else 0)
+    y = Y_CDS
 
     for label, names in (("Offense", offense), ("Utility", utility)):
         ids = []
@@ -907,7 +922,7 @@ G.append(cd_group("RM Glyphic Main", "RM Glyphic",
                    "Elemental Burst", "Runic Obliteration"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14))
 G.append(mana_bar("RM Glyphic Mana", "RM Glyphic", Y_BAR,
-                  (0.30, 0.45, 0.95, 1.0), w=row_w(5)))
+                  (0.30, 0.45, 0.95, 1.0), w=row_w(5), h=BAR_H_STACKED))
 # Glyph chain is the spec's segmented resource; all three can be up at once
 # under Glyphic Overload.
 # Glyph segments: Frost -> Flame -> Arcane fill as you build. All three can be
@@ -944,7 +959,7 @@ E.append(cd_group("RM Engravement Main", "RM Engravement",
                   ["Runeblade", "Fist of the Ancients", "Runic Brand",
                    "Primordial Blast", "Runic Explosion"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14))
-E.append(mana_bar("RM Engravement Mana", "RM Engravement", Y_BAR,
+E.append(mana_bar("RM Engravement Mana", "RM Engravement", Y_BAR_SOLO,
                   (0.30, 0.45, 0.95, 1.0), w=row_w(5)))
 _y_E = emit_bottom_block("Engravement", "engravement", E,
 [("Fire Carving", (0.95, 0.45, 0.15)),
@@ -973,7 +988,7 @@ R.append(cd_group("RM Riftblade Main", "RM Riftblade",
                   ["Runeblade", "Smolder", "Fracture", "Hoarfrost",
                    "Hurricane", "Primordial Blast"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14))
-R.append(mana_bar("RM Riftblade Mana", "RM Riftblade", Y_BAR,
+R.append(mana_bar("RM Riftblade Mana", "RM Riftblade", Y_BAR_SOLO,
                   (0.30, 0.45, 0.95, 1.0), w=row_w(6)))
 
 # No segmented bar for Riftblade. Sidekick is explicit that this is "a straight

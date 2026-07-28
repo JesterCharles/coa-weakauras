@@ -27,23 +27,33 @@ declared 8 bands with anchors that never existed in any shipped build.
   ├────────────┤  (drv)   28px   TARGET   on target      your DoTs or your HoTs
   ├────────────┤  -84     36px   player   on me          procs, running CDs, buffs
   ├────────────┤ -132     44px   —        MAIN           core rotation, always on
-  ├─ ─ ─ ─ ─ ─ ┤ -168     20px   —        resource 1   ┐ RESOURCE STACK
-  ├─ ─ ─ ─ ─ ─ ┤ -194     16px   —        resource 2   │ 1..N bands, ordered
-  ├─ ─ ─ ─ ─ ─ ┤ (drv)     ..    —        resource N   ┘ by config
-  ├────────────┤ -224*    26px   —        offensive CDs  wraps at 12
-  ├────────────┤ -254*    26px   —        defensive+util wraps at 12, trinkets last
-  └────────────┘ (drv)    28px   —        long-term      derived from 6/7 depth
+  ├─ ─ ─ ─ ─ ─ ┤ -156..-186     —        RESOURCE ENVELOPE   fixed height
+  ├────────────┤ -202     26px   —        offensive CDs  wraps at 12
+  ├────────────┤ -232     26px   —        defensive+util wraps at 12, trinkets last
+  └────────────┘ -278     28px   —        long-term
 
-  * anchors shown for a 2-resource class. The resource stack is the only
-    variable-height section above the cooldowns, so every anchor below it is
-    derived from the stack's real depth:
+  The resource area is a FIXED-HEIGHT envelope (~-156..-186), not a variable
+  stack. Each spec fills it however its resources require and the block is the
+  same height either way, so every anchor below it is a constant:
 
-      1 resource   Engravement, Riftblade   mana                 -168
-      2 resources  Glyphic                  mana + glyphs        -168 -194
-      3 resources  Pyromancer               heat, ember, mana    -168 -194 -2xx
+      1 resource   Engravement, Riftblade   mana h24            -170
+      2 resources  Glyphic                  mana h14  -164
+                                            glyphs h10 -180
 
-    A shorter stack pulls everything below it UP. This is the only dynamic
-    geometry in a pack and it is engine-owned, not per-class arithmetic.
+  This changed in `final17`. It USED to be a variable stack, with a shorter
+  stack pulling everything below it up (`Y_SEG - CD_ROW_STEP if glyphic`). That
+  worked while each spec owned its own band groups. Once the bands are shared
+  across specs (`final16`, see below) a dynamic group has a single `yOffset`,
+  so Glyphic's taller stack pushed an empty 30px slot onto Engravement and
+  Riftblade -- which have no glyph bar to put in it. A fixed envelope removes
+  the variable entirely.
+
+  The tradeoff, deliberately taken: **Glyphic's mana bar is thinner** than the
+  other two specs', because it shares the envelope with the glyph bar. The
+  alternatives were a `grow="VERTICAL"` dynamic group letting the absent glyph
+  bar collapse its own space (standard-faithful, but replaces the deliberate
+  30px/46px band gaps with one uniform spacing), or un-merging the cooldown
+  bands again (correct, but hands back half the display saving).
 
   (drv) = anchor derived, not a constant. See "Derived anchors" below.
 ```
@@ -54,9 +64,9 @@ declared 8 bands with anchors that never existed in any shipped build.
 | On target | derived | 28px | **target** | Spec | Your DoTs *or* your HoTs, whichever applies to the current target. Swaps automatically on retarget |
 | On me | −84 | 36px | player | Spec | Everything currently up on you: procs, running cooldowns, own buffs |
 | Main damage | −132 | 44px | — | Spec | Core rotation. Always visible, largest icons, glows on proc |
-| **Resource stack** | −168 … | h20 / h16 | — | Spec | **1..N bands**, one per resource the class actually uses. Every band's width is locked to the main row. See below |
-| Offensive cooldowns | −224\* | 26px | — | Spec | Damage cooldowns, most-pressed first. Interrupt and mobility pinned last |
-| Defensive + utility | −254\* | 26px | — | Spec | Defensives, then utility, then on-use trinkets by slot |
+| **Resource envelope** | −156…−186 | fixed | — | Spec | Constant-height block, whatever the spec puts in it. Every band's width is locked to the main row. See below |
+| Offensive cooldowns | −202 | 26px | — | Spec | Damage cooldowns, most-pressed first. Interrupt and mobility pinned last |
+| Defensive + utility | −232 | 26px | — | Spec | Defensives, then utility, then on-use trinkets by slot |
 | Long-term buffs | derived | 28px | — | **Core** | Stances, hour-long imbues, raid auras. Checked once per pull |
 
 ## The resource stack
