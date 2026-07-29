@@ -41,14 +41,15 @@ def data(name):
 # Release tag. Feeds the uid salt ONLY -- set_salt() below, nothing else.
 # WeakAuras dedupes imports on uid, so a rebuilt pack MUST carry a different
 # salt or the client treats it as already-installed and silently keeps the old
-# copy. Bump this (final2, final3, ...) on any future release.
+# copy. Bump this (1.1, 1.2, ...) on any future release. The pre-release tags
+# were final2..final17; `1.0` is the first db.ascension submission.
 #
 # It does NOT reach the group name, despite what an earlier revision of this
 # comment claimed: every release imports as the same "Runemaster [CoA]", so the
 # loaded version is NOT visible in the WeakAuras list and a delivered file
 # carries no readable version string. Identify one by recomputing uids -- see
 # notes/class-pack-process.md.
-VERSION = "final17"
+VERSION = "1.0"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
