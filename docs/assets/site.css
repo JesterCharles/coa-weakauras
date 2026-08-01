@@ -370,3 +370,30 @@ footer a:hover{color:var(--c)}
 @media (prefers-reduced-motion:reduce){
   *{transition-duration:.01ms !important;animation-duration:.01ms !important}
 }
+
+/* ---- Top logs panel. Brackets are server-rendered layers; rankings.js only
+   toggles visibility, so the panel reads fine with JS off. Mirrors .hudspec /
+   .hudlayer so the two panels on a class page feel like one control. */
+.rankcats{display:flex;gap:1px;background:var(--edge);flex-wrap:wrap}
+.rankcat{
+  flex:1 1 auto;padding:8px 12px;border:0;background:var(--sink);
+  color:var(--dim);font:inherit;font-size:13px;cursor:pointer}
+.rankcat:hover{color:var(--ink);background:var(--raise)}
+.rankcat.on{background:var(--c);color:#0a0c10}
+.ranklayer{display:none;margin-top:14px}
+.ranklayer.on{display:block}
+.ranktable{width:100%;border-collapse:collapse;font-size:14px}
+.ranktable th{
+  text-align:left;padding:6px 8px;color:var(--dim);font-weight:500;
+  border-bottom:1px solid var(--edge)}
+.ranktable td{padding:6px 8px;border-bottom:1px solid var(--edge)}
+.ranktable .rankn{color:var(--dim);width:2.5em}
+.ranktable .rankv{font-variant-numeric:tabular-nums}
+.rankempty{color:var(--dim);padding:14px 2px;font-size:14px}
+/* A parse with no matching published build is the interesting record, so it
+   is marked rather than hidden. */
+.rankflag{
+  display:inline-block;padding:1px 7px;border-radius:10px;font-size:12px;
+  background:var(--raise);color:var(--dim)}
+.rankflag.rank-unpublished{color:#f0c674}
+.rankflag.rank-differs{color:#8fc7ff}

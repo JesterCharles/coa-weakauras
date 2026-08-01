@@ -707,6 +707,52 @@ for cls in UNDER_TEST:
           by_flag > by_type * 2)
 
 
+# ------------------------------------------------------- 17. rankings records
+#
+# These name real players. A malformed record renders as confident nonsense
+# about them, so the validator is stricter here than elsewhere and mksite drops
+# the whole panel rather than publishing a half-broken one.
+print("\n17. rankings records")
+import rankings as RK  # noqa: E402
+
+for cls in UNDER_TEST:
+    rec = RK.load(cls)
+    check(f"{cls.slug}: rankings record exists and validates",
+          rec is not None and not RK.validate(cls, rec),
+          "; ".join(RK.validate(cls, rec)) if rec else "no file")
+
+    if rec is None:
+        continue
+    # Empty is a legitimate state and must stay distinguishable from broken:
+    # Zul'Gurub released the day this shipped, so "nobody has cleared it" and
+    # "we failed to collect" have to look different on the page.
+    check(f"{cls.slug}: an empty record is valid, not an error",
+          not RK.validate(cls, RK.blank(cls)))
+
+    # Entries about named people without provenance is the fault worth
+    # catching hardest.
+    orphan = RK.blank(cls)
+    orphan["categories"]["overall"]["entries"] = [dict(
+        RK.TEMPLATE_ENTRY, spec=cls.specs[0])]
+    check(f"{cls.slug}: entries without collected_at are rejected",
+          any("collected_at" in p for p in RK.validate(cls, orphan)))
+
+    bogus = RK.blank(cls)
+    bogus["categories"]["overall"]["entries"] = [
+        {"rank": 1, "character": "A", "spec": "not-a-spec",
+         "build": {"status": "matches"}},
+        {"rank": 1, "character": "B", "spec": cls.specs[0],
+         "build": {"status": "invented"}}]
+    bogus["collected_at"] = "2026-01-01"
+    faults = " ".join(RK.validate(cls, bogus))
+    check(f"{cls.slug}: rejects unknown spec, duplicate rank, bad status",
+          "unknown spec" in faults and "twice" in faults
+          and "build.status" in faults)
+
+check("the rankings source is declared as link-only",
+      SRC.SOURCES["coa.ascensionlogs.gg"]["policy"] == "reference")
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

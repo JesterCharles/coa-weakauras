@@ -32,6 +32,7 @@ from wacodec import wa_decode  # noqa: E402
 from classes import CLASSES, built as built_classes  # noqa: E402
 from iconcolor import class_icon, colors_for, read_png  # noqa: E402
 import hud  # noqa: E402
+import rankings  # noqa: E402
 
 SITE_TITLE = "Conquest of Azeroth WeakAuras"
 TAGLINE = ("WeakAura packs for all 21 Ascension Conquest of Azeroth custom "
@@ -151,6 +152,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
 <script src="{up}assets/copy.js"></script>
 <script src="{up}assets/search.js"></script>
 <script src="{up}assets/hud.js"></script>
+<script src="{up}assets/rankings.js"></script>
 </body>
 </html>
 """
@@ -207,6 +209,100 @@ def pack_block(label, pack_file, stats, desc, idx):
     <a class="dl" href="../packs/{pack_file}" download>Download .txt</a>
   </div>
 </article>"""
+
+
+def rankings_panel(c):
+    """Top logged parses per encounter category, with links out to the source.
+
+    Every layer is rendered server-side and only visibility changes, the same
+    way hud_preview works, so the panel is readable with JS off -- you get the
+    Overall list, which is the right default anyway.
+
+    LINKS OUT, NEVER SCRAPES. coa.ascensionlogs.gg publishes
+    `Content-Signal: use=reference` and blocks programmatic API reads, so the
+    rows here are transcribed by a person and every one of them carries a link
+    back to the character it came from. See tools/sources.py.
+
+    An empty category is rendered as a STATEMENT, not as a blank. "Nobody has
+    cleared this yet" and "we failed to collect anything" look identical in an
+    empty table and mean opposite things, and Zul'Gurub released the same day
+    this shipped -- so the note field says which it is.
+    """
+    info = CLASSES.get(c["slug"])
+    rec = rankings.load(info) if info else None
+    if rec is None:
+        return ""
+    if rankings.validate(info, rec):
+        # A malformed record would render as confident nonsense about real
+        # named players. Drop the panel and say so in the build output.
+        print(f"  !! {c['slug']}: rankings file invalid, panel omitted "
+              f"(python3 tools/rankings.py {c['slug']} --validate)")
+        return ""
+
+    src = html.escape(rec.get("source_url") or "", quote=True)
+    cats, layers = [], []
+    for i, (key, _default_label) in enumerate(rankings.CATEGORIES):
+        cat = (rec.get("categories") or {}).get(key) or {}
+        label = cat.get("label") or _default_label
+        entries = sorted(cat.get("entries") or [],
+                         key=lambda e: e.get("rank", 99))
+        cats.append(
+            '<button class="rankcat{on}" type="button" data-cat="{k}" '
+            'aria-pressed="{p}">{lbl}</button>'.format(
+                on=" on" if i == 0 else "", k=html.escape(key, quote=True),
+                p="true" if i == 0 else "false", lbl=html.escape(label)))
+
+        if entries:
+            rows = []
+            for e in entries:
+                b = e.get("build") or {}
+                st = b.get("status", "unknown")
+                who = html.escape(str(e.get("character", "?")))
+                link = e.get("armory_url")
+                who_html = (f'<a href="{html.escape(link, quote=True)}" '
+                            f'rel="nofollow noopener" target="_blank">{who}</a>'
+                            if link else who)
+                badge = "" if st == "matches" else (
+                    f'<span class="rankflag rank-{html.escape(st)}">'
+                    f'{html.escape(st)}</span>')
+                rows.append(
+                    f'<tr><td class="rankn">{html.escape(str(e.get("rank","")))}</td>'
+                    f'<td>{who_html}</td>'
+                    f'<td>{html.escape(str(c["labels"].get(e.get("spec",""), e.get("spec","")or""))) }</td>'
+                    f'<td class="rankv">{html.escape(str(e.get("value","") or ""))}</td>'
+                    f'<td>{badge}</td></tr>')
+            inner = ('<table class="ranktable"><thead><tr><th>#</th>'
+                     '<th>Character</th><th>Spec</th><th>Metric</th>'
+                     '<th>Build</th></tr></thead><tbody>'
+                     + "".join(rows) + "</tbody></table>")
+        else:
+            note = cat.get("note") or (
+                "Nothing collected for this bracket yet.")
+            inner = f'<p class="rankempty">{html.escape(note)}</p>'
+        layers.append(
+            '<div class="ranklayer{on}" data-cat="{k}">{inner}</div>'.format(
+                on=" on" if i == 0 else "",
+                k=html.escape(key, quote=True), inner=inner))
+
+    stamp = rec.get("collected_at")
+    prov = (f"Read by hand from the rankings on {html.escape(stamp)}."
+            if stamp else "Nothing transcribed yet.")
+    return f"""
+<section id="ranks">
+  <p class="lbl">Who is actually clearing content</p>
+  <h2>Top logs</h2>
+  <p class="desc">Where the defaults come from. Sidekick says what a class can
+     do and says outright that optimal order is unsettled; the official builder
+     says what a build can reach; these are the people doing it. A parse whose
+     talents match no published build is flagged, because that is the
+     interesting case, not a broken row.</p>
+  <div class="rankcats" role="group" aria-label="Encounter">{''.join(cats)}</div>
+  {''.join(layers)}
+  <p class="note">{prov} Source:
+     <a href="{src}" rel="nofollow noopener" target="_blank">Conquest of
+     Azeroth Logs</a>. We link to it and do not crawl it.</p>
+</section>
+"""
 
 
 def hud_preview(c, packs):
@@ -558,7 +654,7 @@ def build():
      ones you are not.</p>
 {hud_preview(c, packs)}
 </section>
-
+{rankings_panel(c)}
 <section>
   <p class="lbl">Import</p>
   <h2>Three steps</h2>

@@ -1,0 +1,30 @@
+{
+ "class": "chronomancer",
+ "source": "coa.ascensionlogs.gg",
+ "source_url": "https://coa.ascensionlogs.gg/rankings",
+ "policy": "reference",
+ "collected_at": null,
+ "collected_by": null,
+ "categories": {
+  "overall": {
+   "label": "Overall",
+   "note": "",
+   "entries": []
+  },
+  "world-boss": {
+   "label": "World Bosses",
+   "note": "",
+   "entries": []
+  },
+  "dungeon": {
+   "label": "Dungeons",
+   "note": "",
+   "entries": []
+  },
+  "raid": {
+   "label": "Zul'Gurub",
+   "note": "Zul'Gurub released 2026-08-01 14:00. Empty until clears are logged -- this is 'nobody has done it yet', not 'we have no data'.",
+   "entries": []
+  }
+ }
+}
