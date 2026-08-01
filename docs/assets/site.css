@@ -397,3 +397,6 @@ footer a:hover{color:var(--c)}
   background:var(--raise);color:var(--dim)}
 .rankflag.rank-unpublished{color:#f0c674}
 .rankflag.rank-differs{color:#8fc7ff}
+/* Pack version, paired with the WeakAuras group name so the page and the
+   in-game list say the same thing. */
+.packver{color:var(--ink)}

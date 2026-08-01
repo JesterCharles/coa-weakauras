@@ -193,13 +193,23 @@ def class_tile(c, shipped, colors):
 ><img src="{icon}" alt="" loading="lazy" width="56" height="56"></{tag}>"""
 
 
-def pack_block(label, pack_file, stats, desc, idx):
+def pack_block(label, pack_file, stats, desc, idx, version=""):
+    """One downloadable pack.
+
+    The version is shown because it is the only way to answer "is this newer
+    than what I already imported". It is the SAME string the pack writes into
+    its WeakAuras group name, so the page and the in-game list agree: you read
+    "v1.1" here and see "Chronomancer [CoA] v1.1" in /wa. Before that pairing
+    existed a delivered file could only be identified by recomputing uids.
+    """
+    ver = (f' &middot; <span class="packver">v{html.escape(version)}</span>'
+           if version else "")
     return f"""<article class="pack">
   <div class="packhead">
     <h3>{html.escape(label)}</h3>
     <span class="meta">{stats['displays']} displays &middot;
       {stats['triggers']} triggers &middot;
-      {stats['bytes'] // 1024} KB</span>
+      {stats['bytes'] // 1024} KB{ver}</span>
   </div>
   <p class="desc">{html.escape(desc)}</p>
   <div class="actions">
@@ -625,8 +635,9 @@ def build():
             st = pack_stats(dst)
             all_stats.append(st)
             # href is relative to docs/<class>/index.html
-            blocks.append(pack_block(label, f"{c['slug']}/{published}",
-                                     st, desc, i))
+            blocks.append(pack_block(
+                label, f"{c['slug']}/{published}", st, desc, i,
+                version=version_of(f"build_{c['slug']}.py")))
 
         main_pack = os.path.join(DOCS, "packs", c["slug"], packs[0][2])
         head = all_stats[0] if all_stats else {"displays": 0, "triggers": 0}
