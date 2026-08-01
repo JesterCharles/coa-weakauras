@@ -61,9 +61,11 @@ CLS = _get_class("chronomancer")
 # build. That is what makes a community bug report triageable; before it, a
 # delivered file could only be identified by recomputing uids.
 #
-# 1.1: five single-spec abilities that the 1.0 inventory never carried a row
-# for -- Accelerate and Decelerate (artificer), Chronostasis (infinite),
-# Moment's Reprieve and Rehatch (time). NOT YET VERIFIED IN GAME.
+# 1.1: six abilities the 1.0 inventory never carried a row for. Five single-spec
+# castables -- Accelerate, Decelerate (artificer), Chronostasis (infinite),
+# Moment's Reprieve, Rehatch (time) -- plus Shifting Sands, an 8s attack-power
+# debuff on the Infinite target band, found by a rotation citation naming an
+# ability no inventory row had. NOT YET VERIFIED IN GAME.
 VERSION = "1.1"
 
 # WA_SPEC=artificer|infinite|time emits a single-spec pack: Core plus that one
@@ -1301,7 +1303,11 @@ I.append(dot_bars("CM Infinite Target", "CM Infinite",
                   [("Melt Reality", (0.90, 0.35, 0.85), {}),
                    ("Timerend", (0.70, 0.60, 1.00), {}),
                    ("Unmake", (0.85, 0.45, 0.35), {}),
-                   ("Decomposition", (0.60, 0.85, 0.55), {})],
+                   ("Decomposition", (0.60, 0.85, 0.55), {}),
+                   # 8s attack-power cut, off-GCD and cheap, so the useful cue
+                   # is the timer rather than the button. Sidekick buckets it
+                   # as `maintain` for the same reason.
+                   ("Shifting Sands", (1.00, 0.80, 0.35), {})],
                   y=Y_TARGET, refresh_at=5))
 _y_I = emit_bottom_block("Infinite", "infinite", I,
                          [("Anomaly Spikes", (0.9, 0.5, 1.0)),

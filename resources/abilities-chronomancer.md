@@ -221,6 +221,7 @@ spells — the specs that have no override use the default.
 | Shield of The Keeper | 706124 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Shield of the Ages | 804444 | all | ignore | Passive | db says Passive -- not a button |
 | Shifting Chaos | 706059 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Shifting Sands | 806317 | infinite | target | Rank 1 | 806317, Rank 1, 18% mana, level 13, off-GCD: blasts an enemy, cuts their attack power by 30 for 8 sec and grants Sands of Time. Tracked on the target because the useful cue is the debuff falling off, not the button -- Sidekick buckets it as `maintain` for the same reason. Found via a rotation citation naming an ability no inventory row had. |
 | Shimmering Shard | 806302 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Singularity Core | 804438 | artificer | offensive |  |  |
 | Slipstream | 706056 | all | ignore | Passive | passive talent; modifies another ability, not a button |

@@ -526,6 +526,20 @@ else:
 # Judged on triggers, not display ids: a resource bar has no ability behind it
 # and must not be counted, or the number never reaches zero and stops meaning
 # anything.
+def _rows_of(path):
+    """{ability: cells} from an inventory table."""
+    out = {}
+    for line in open(path, encoding="utf-8"):
+        if line.startswith("| ") and line.count("|") >= 6:
+            c = [x.strip() for x in line.split("|")[1:-1]]
+            if c[0] and c[0] != "Ability" and set(c[0]) != {"-"}:
+                out[c[0]] = c
+    return out
+
+
+# NOTE pack_refs reads docs/packs/ -- the PUBLISHED copy, which mksite.py
+# writes. The builder writes tools/packs/, so a rebuild alone leaves this
+# reading the previous release. Run mksite.py before trusting a result here.
 print("\n13. every ability the pack renders has an inventory row")
 import json as _json  # noqa: E402
 import mkabilities as MK  # noqa: E402
@@ -544,6 +558,19 @@ for cls in UNDER_TEST:
     known = set(MK.read(inv_path))
     refs = MK.pack_refs(cls, _load(cls.exiles),
                         _load(f"spell-meta-{cls.slug}.json"))
+    # The reverse direction, for the one role that is NOT derived. Offensive,
+    # defensive and utility rows reach the pack through _named(), so assigning
+    # one has a visible effect. The TARGET band is a hand-written list in the
+    # builder, so `role: target` on a row does nothing at all unless somebody
+    # also edits that list -- a silent no-op, and exactly how Shifting Sands
+    # sat assigned-but-invisible until this check existed.
+    drawn = {n for r in refs.values() for n in r}
+    inert = sorted(n for n, cells in _rows_of(inv_path).items()
+                   if "target" in cells[3] and n not in drawn)
+    check(f"{cls.slug}: every `target` row actually renders", not inert,
+          "assigned target but drawn nowhere -- add it to the dot_bars() list "
+          "in the builder: " + ", ".join(inert))
+
     missing = {d: r for d, r in refs.items() if r and not (r & known)}
     detail = "\n".join(f"{d} -> {', '.join(sorted(r)[:4])}"
                        for d, r in sorted(missing.items()))
