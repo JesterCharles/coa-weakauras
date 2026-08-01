@@ -69,8 +69,35 @@ def _trigger_wrap(triggers, mode=-10, disjunctive=None, custom_logic=None):
 
 def aura_trigger(names, unit="player", helpful=True, stacks=None,
                  stacks_op=">=", own_only=True, match_count=None,
-                 show_on=None):
-    """Aura (aura2) trigger matched by NAME. `names` may hold names or id-strings."""
+                 show_on=None, exact_id=False):
+    """Aura (aura2) trigger. `names` may hold names or id-strings.
+
+    `exact_id=True` matches on `auraspellids` instead of `auranames`. Prefer it
+    whenever the aura has NAME COLLISIONS: Chronomancer has two spells called
+    "Aeon of Resilience" and a stale "Aeon of Oblivion SLS" carrying the same
+    name and icon as the live one, so a name match can bind to the wrong entry.
+    It is also the shape the working community pack uses for these auras.
+    """
+    ids = [str(n) for n in names]
+    if exact_id:
+        return T({
+            "type": "aura2",
+            "event": "Health",
+            "unit": unit,
+            "debuffType": "HELPFUL" if helpful else "HARMFUL",
+            "useExactSpellId": True,
+            "auraspellids": arr(ids),
+            "auranames": LuaTable(),
+            "names": LuaTable(),
+            "spellIds": LuaTable(),
+            "subeventPrefix": "SPELL",
+            "subeventSuffix": "_CAST_START",
+            "useStacks": stacks is not None,
+            "stacks": str(stacks) if stacks is not None else "1",
+            "stacksOperator": stacks_op,
+            **({"matchesShowOn": show_on} if show_on else {}),
+            **({"ownOnly": True} if own_only else {}),
+        })
     tr = T({
         "type": "aura2",
         "event": "Health",
@@ -124,6 +151,34 @@ def spell_cd_trigger(spell, show_on="showOnCooldown", exact=False,
         "use_genericShowOn": True,
         "genericShowOn": show_on,
         "use_track": True,
+        "names": LuaTable(),
+        "spellIds": LuaTable(),
+        "auraspellids": LuaTable(),
+        "subeventPrefix": "SPELL",
+        "subeventSuffix": "_CAST_START",
+    })
+
+
+def spell_known_trigger(spell, inverse=False):
+    """"Spell Known" status trigger -- true while IsSpellKnown(spell) is true.
+
+    The right way to ask "does this character have that passive". An aura2
+    trigger cannot answer it: a passive is implemented as a permanent hidden
+    dummy aura, so UnitAura does not report it and the trigger never fires.
+
+    Prototype `["Spell Known"]` in Prototypes.lua, driven by
+    `WeakAuras.IsSpellKnown(spellName, usePet)` off SPELLS_CHANGED and
+    PLAYER_TALENT_UPDATE, so it also re-evaluates when talents change.
+    """
+    return T({
+        "type": "spell",
+        "event": "Spell Known",
+        "unit": "player",
+        "debuffType": "HELPFUL",
+        "use_spellName": True,
+        "spellName": spell,
+        "use_exact_spellName": True,
+        "use_inverse": bool(inverse),
         "names": LuaTable(),
         "spellIds": LuaTable(),
         "auraspellids": LuaTable(),
@@ -448,12 +503,40 @@ def group(id_, parent, children, x=0, y=0, conditions=None):
 
 
 def dynamicgroup(id_, parent, children, x=0, y=0, grow="HORIZONTAL",
-                 space=4, align="CENTER", sort="none", limit=8):
+                 space=4, align="CENTER", sort="none", limit=8,
+                 grid_width=None, grid_type="HD", row_space=4):
     """grow="HORIZONTAL" centres children on the anchor.
 
     "RIGHT" left-aligns them at the anchor and extends rightward, so rows of
-    different lengths end up ragged and never line up with a centred bar."""
+    different lengths end up ragged and never line up with a centred bar.
+
+    grow="GRID" wraps. Pass `grid_width` and the row breaks every N *shown*
+    children -- `growers.GRID` runs over `sortedChildren`, which every
+    insertion path gates on `toShow` (`DynamicGroup.lua:1180-1198, 1220,
+    1234`), so a shared band wraps on the loaded spec's icons rather than on
+    the stored child count. That is what makes wrapping compatible with one
+    band serving three specs.
+
+    `gridType` is two chars. "HD" = row-first, each completed row re-centred
+    horizontally, rows stacking downward -- geometry identical to HORIZONTAL
+    for the first row, so a band's yOffset does not change when it gains a
+    wrap. Keep `selfPoint` CENTER; the options UI would write "TOP" for a
+    grid, which silently redefines yOffset as the top edge.
+
+    ⚠️ NEVER set `useLimit`. It does not wrap -- it CAPS. Children past
+    `limit` are dropped from `newPositions` and then explicitly hidden
+    (`DynamicGroup.lua:1520-1524`), so a 21-icon row "wraps" by deleting nine
+    icons and looking tidy. `layout-standard.md` prescribed exactly that and
+    was wrong; no working pack sets it.
+
+    ⚠️ GRID ignores `data.space`, `data.align` and `data.stagger`. Gaps come
+    from `columnSpace`/`rowSpace` only, so `space` is mirrored into
+    `columnSpace` to keep one knob at the call site.
+    """
     d = _group_common(id_, parent, children, x, y, None, None)
+    grid = grow == "GRID"
+    if grid and not grid_width:
+        raise ValueError(f"{id_}: grow=GRID needs grid_width")
     d.update({
         "regionType": "dynamicgroup",
         "grow": grow,
@@ -465,10 +548,10 @@ def dynamicgroup(id_, parent, children, x=0, y=0, grow="HORIZONTAL",
         "animate": False,
         "useLimit": False,
         "limit": limit,
-        "gridType": "RD",
-        "gridWidth": 5,
-        "rowSpace": 1,
-        "columnSpace": 1,
+        "gridType": grid_type if grid else "RD",
+        "gridWidth": grid_width if grid else 5,
+        "rowSpace": row_space if grid else 1,
+        "columnSpace": space if grid else 1,
         "rotation": 0,
         "arcLength": 360,
         "stepAngle": 15,
