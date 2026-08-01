@@ -843,6 +843,46 @@ if os.path.exists(_p):
           len(_ys) > 5, f"rows: {sorted(_ys)}")
 
 
+# ------------------------------- 20. a per-spec pack reserves only its own depth
+#
+# The cooldown bands are shared: one dynamic group, one yOffset, serving every
+# spec. In the ALL-SPECS pack that anchor must clear the deepest spec, so the
+# shallower ones carry dead air -- the price of the merge, which bought
+# 229 -> 171 displays.
+#
+# A PER-SPEC pack has no such excuse. Only one spec is in the file, so anything
+# reserved for another spec is a gap under the last cooldown row of a pack that
+# cannot possibly need it. Runemaster reserved the max regardless and left
+# Glyphic and Riftblade 30px short of the bottom.
+print("\n20. per-spec packs close their own ladder")
+# Measured on RESOLVED geometry, not stored yOffsets. A band's yOffset is
+# relative to its parent, and these bands hang off different parents, so
+# comparing raw offsets across them is meaningless -- it reported Chronomancer
+# as having negative slack, which is not a thing.
+for cls in UNDER_TEST:
+    for spec in cls.specs:
+        p = os.path.join(ROOT, "docs", "packs", cls.slug,
+                         f"{cls.slug}-{spec}.txt")
+        if not os.path.exists(p):
+            continue
+        # only_persistent=False on purpose. The band that moves is Long-term,
+        # which is active-only and absent from the in-play view -- measuring
+        # that view reports 30px whether the bug is present or not, which is
+        # how the first version of this check passed on both.
+        items = HUD.displays(p, only_persistent=False)
+        levels = sorted({round(d["y"], 0) for d in items})
+        if len(levels) < 2:
+            continue
+        gap = levels[1] - levels[0]
+        # 33px when the ladder closes on this spec's own rows; 63px -- a whole
+        # extra CD_ROW_STEP -- when depth is reserved for a spec that is not in
+        # the file. Measured both ways before the threshold was chosen.
+        check(f"{cls.slug}/{spec}: bottom band closes up ({gap:.0f}px)",
+              gap <= 45,
+              f"{gap:.0f}px above the bottom band -- roughly one unused row, "
+              f"reserved for a spec this pack does not contain")
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

@@ -403,10 +403,23 @@ def _bottom_rows(spec_key):
 # that wraps deepest -- Engravement's 21-name utility row at three rows, while
 # Glyphic and Riftblade take two. The shallower specs get a 30px gap under
 # their last row, which is cosmetic; anything less than the max is a collision.
+#
+# In a PER-SPEC build only one spec is in the pack, so the ladder closes up
+# behind that spec's own rows instead of reserving the worst case. Glyphic and
+# Riftblade wrap utility at two rows where Engravement takes three, so without
+# this narrowing their single-spec packs carry 30px of dead air under the last
+# cooldown row -- reserved for a spec that is not in the file. Chronomancer's
+# _DEEPEST already narrows the same way; this is Runemaster catching up.
+#
+# The ALL-SPECS pack cannot do this and still must take the max: the bands are
+# merged, so `RM Utility` is one dynamic group with one yOffset serving all
+# three specs, and anything less than the deepest collides. That gap is the
+# price of the merge, which buys 229 -> 171 displays.
+_SPECS_IN_PACK = [SPEC_ONLY] if SPEC_ONLY else SPECS
 _ROWS = {}
 for _label, _idx in (("Offense", 0), ("Utility", 1)):
     _ROWS[_label] = max(
-        -(-len(_bottom_rows(_s)[_idx]) // CD_PER_ROW) for _s in SPECS)
+        -(-len(_bottom_rows(_s)[_idx]) // CD_PER_ROW) for _s in _SPECS_IN_PACK)
 
 # Long-term is the last band, so it hangs off the real depth of the two above
 # it rather than a hand-picked constant. The old fixed -278 assumed one row
