@@ -551,6 +551,32 @@ for cls in UNDER_TEST:
           not missing, detail)
 
 
+# ------------------------------------------- 14. the source policy gate holds
+#
+# Cheap to test and expensive to get wrong: the cost of fetching something an
+# operator asked us not to fetch lands on their server, not ours.
+print("\n14. external source policy gate")
+import sources as SRC  # noqa: E402
+
+check("an unlisted host is blocked, not allowed by default",
+      not SRC.allowed("https://example.com/anything")[0])
+check("a use=reference source is not fetchable",
+      not SRC.allowed("https://coa.ascensionlogs.gg/api/home/phases")[0])
+check("the changelog source is fetchable",
+      SRC.allowed("https://ascension.gg/en/changelog/4")[0])
+check("the sidekick bundle is fetchable",
+      SRC.allowed("https://ascensionsidekick.com/data.js")[0])
+check("www. and case do not change the answer",
+      SRC.allowed("https://WWW.Ascension.gg/en/changelog/4")[0])
+# A blocked answer that says nothing is a blocked answer someone overrides.
+check("every refusal explains itself",
+      all(len(SRC.allowed(u)[1]) > 60 for u in
+          ("https://example.com/x",
+           "https://coa.ascensionlogs.gg/api/home/phases")))
+check("every declared source names what it is and when it was checked",
+      all(s.get("what") and s.get("checked") for s in SRC.SOURCES.values()))
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

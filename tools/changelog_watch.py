@@ -61,6 +61,7 @@ import urllib.request
 
 SP = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SP)
+import sources  # noqa: E402
 from classes import CLASSES, built, dest, data  # noqa: E402
 
 SECTION = 4                     # Conquest of Azeroth
@@ -119,6 +120,7 @@ def tag_to_slug(tag):
 
 def fetch(page, section=SECTION, retries=2):
     url = f"{BASE}/{section}" + (f"?page={page}" if page > 1 else "")
+    sources.require(url)        # policy gate -- see tools/sources.py
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     for attempt in range(retries + 1):
         try:

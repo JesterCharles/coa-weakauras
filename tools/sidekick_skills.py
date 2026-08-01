@@ -52,6 +52,7 @@ import urllib.request
 
 SP = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SP)
+import sources  # noqa: E402
 from classes import CLASSES, get, dest, data  # noqa: E402
 
 URL = "https://ascensionsidekick.com/data.js"
@@ -73,6 +74,7 @@ def bundle(refresh=False):
     """
     path = data(CACHE)
     if refresh or not os.path.exists(path):
+        sources.require(URL)    # policy gate -- see tools/sources.py
         req = urllib.request.Request(URL, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=60) as r:
             raw = r.read().decode("utf-8", "replace")
