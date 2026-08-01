@@ -96,7 +96,7 @@ import os
 import re
 import sys
 
-from classes import data, dest, get
+from classes import SP, data, dest, get
 
 ROLES = ["main", "offensive", "defensive", "utility", "resource", "buff",
          "target", "longterm", "ignore"]
@@ -185,6 +185,104 @@ def seed_note(meta_str, hits):
     return SEED + "; ".join(bits)
 
 
+def pack_refs(cls, exiles, meta):
+    """{display id: {ability names it references}} for the BUILT PACK.
+
+    The third membership source, and the only one that cannot be short.
+
+    The skillbook and the cooldown audit are both scrapes of somebody else's
+    page, and both have been wrong in the same direction: Runemaster's
+    skillbook held 150 entries and omitted Runeblade, Runic Explosion,
+    Hoarfrost and Tempo -- abilities the shipped pack RENDERS. A row that is
+    never created cannot be reported missing, so coverage measured against
+    those two sources alone read 100% while the main rotation was incomplete.
+
+    A pack, by contrast, cannot reference an ability it does not have. So
+    whatever it points at is a floor on membership: if we are drawing it, it
+    needs a row.
+
+    Read from TRIGGERS, not from display ids. Ids like "RM Engravement Main
+    Runic Explosion" would need per-class band-prefix stripping, which is one
+    more thing to maintain per class and gets Chronomancer's "CM Artificer
+    Utility Buy Time" wrong the moment a band is renamed. Triggers carry the
+    spell directly and mean the same thing in every class:
+
+        spell   spellName          an id or a name
+        aura2   auranames          MIXED ids and names, in one table
+                auraspellids       ids, when useExactSpellId is set
+        item    enchant            a weapon-enchant name
+
+    `unit` triggers (the mana and resource bars) carry no ability and drop out
+    on their own, which is why resource displays do not pollute the result.
+    """
+    path = os.path.join(os.path.dirname(SP), "docs", "packs", cls.slug,
+                        f"{cls.slug}-coa.txt")
+    if not os.path.exists(path):
+        return {}
+    import wacodec as w
+    kids = w.wa_decode(open(path, encoding="utf-8").read())["c"].array_part()
+    bands = {k["id"] for k in kids
+             if k.get("regionType") in ("group", "dynamicgroup")}
+
+    # id -> name, so a trigger holding only an id still names its ability.
+    by_id = {}
+    for n, v in exiles.items():
+        for i in (v.get("ids") or []):
+            by_id.setdefault(str(i), n)
+    for i, v in meta.items():
+        if v.get("name"):
+            by_id.setdefault(str(i), v["name"])
+
+    def vals(x):
+        if isinstance(x, dict):
+            return list(x.values())
+        if isinstance(x, (list, tuple)):
+            return list(x)
+        return [x] if x else []
+
+    out = {}
+    for k in kids:
+        if k["id"] in bands:
+            continue
+        trs = k.get("triggers") or {}
+        names = set()
+        for e in (trs.values() if isinstance(trs, dict) else trs):
+            tr = e.get("trigger") if isinstance(e, dict) else None
+            if not isinstance(tr, dict):
+                continue
+            raw = []
+            if tr.get("type") == "spell":
+                raw += vals(tr.get("spellName"))
+            elif tr.get("type") == "aura2":
+                raw += vals(tr.get("auranames")) + vals(tr.get("auraspellids"))
+            elif tr.get("type") == "item":
+                raw += vals(tr.get("enchant"))
+            for r in raw:
+                s = str(r).strip()
+                if not s:
+                    continue
+                # A trigger entry is either an id or a display name. Resolve
+                # ids where we can and drop the ones we cannot: an unresolved
+                # number is not a name a reviewer could act on, and inventing
+                # a row called "712324" would be noise, not coverage.
+                if s.isdigit():
+                    s = by_id.get(s)
+                    if not s:
+                        continue
+                names.add(s)
+        out[k["id"]] = names
+    return out
+
+
+def pack_names(cls, exiles, meta):
+    """{ability name: one display that references it}, from pack_refs."""
+    out = {}
+    for display, names in pack_refs(cls, exiles, meta).items():
+        for n in names:
+            out.setdefault(n, display)
+    return out
+
+
 def candidates(exiles, meta, known):
     """exiles rows outside the seed that look like a player button.
 
@@ -222,7 +320,9 @@ def main(argv):
     # (14 for Chronomancer -- Wand of Time, Timeguard, Chronobeam and friends),
     # plus anything already reviewed. The audit no longer decides on its own.
     book = {s["name"]: s for s in skills}
-    names = set(book) | set(cds) | set(existing)
+    # Third source: whatever the built pack points at. See pack_names().
+    drawn = pack_names(cls, exiles, meta)
+    names = set(book) | set(cds) | set(existing) | set(drawn)
 
     rows, added = [], []
     for name in sorted(names):
@@ -244,6 +344,11 @@ def main(argv):
         # decision visible without drowning the real work.
         role = "ignore" if "Passive" in meta_str else "utility"
         note = seed_note(meta_str, sidekick_hits(cls, name))
+        if name in drawn:
+            # Worth saying loudly on the row itself: this one is ALREADY on
+            # screen. It is not a candidate to consider, it is a display
+            # whose role was never written down.
+            note += f"; RENDERED BY THE PACK as `{drawn[name]}`"
 
         row = [name, str(sid), specs, role, rank, note]
         rows.append(row)

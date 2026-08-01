@@ -61,6 +61,7 @@ BAND_ROLE = {
     "Buffs": "buff",
     "Longterm": "longterm",
     "Alerts": "reminder",
+    "Target": "target",       # your DoTs / your HoTs on the current target
 }
 
 # Displays that stand for a WHOLE FAMILY of abilities rather than one each.
@@ -130,6 +131,46 @@ def all_leaf_ids(cls):
     return [k["id"] for k in kids if k["id"] not in bands]
 
 
+def ref_roles_for(cls, refs, defensive):
+    """{ability name: (role, evidence)} keyed by what each display REFERENCES.
+
+    Matching a name against display IDS instead is ambiguous and silently
+    wrong. "Oblivion" is a suffix of both `CM Longterm Aeon of Oblivion` and
+    `CM Time Target Oblivion`, so an endswith() match picks whichever comes
+    first and can file a target HoT as a long-term buff -- while `Aeon of
+    Oblivion` already has its own row. Triggers name the aura exactly, so
+    there is nothing to disambiguate.
+
+    A name referenced by two bands takes the higher-priority role, which is
+    the same tie-break the inventory documents: an ability that could be two
+    things takes the first that applies.
+    """
+    rank = {r: i for i, r in enumerate(
+        ["main", "offensive", "defensive", "utility", "resource", "buff",
+         "target", "longterm", "reminder"])}
+    out = {}
+    for leaf_id, names in refs.items():
+        parent = leaf_id.rsplit(" ", 1)[0] if " " in leaf_id else ""
+        band = None
+        for word, role in BAND_ROLE.items():
+            if re.search(rf"\b{word}\b", leaf_id):
+                band = role
+                break
+        if band is None:
+            continue
+        for n in names:
+            role = band
+            if role == "utility" and n in defensive:
+                role = "defensive"
+            why = f"shipped pack, `{leaf_id}`"
+            if role == "defensive" and band == "utility":
+                why += " (builder DEFENSIVE list)"
+            prev = out.get(n)
+            if prev is None or rank.get(role, 99) < rank.get(prev[0], 99):
+                out[n] = (role, why)
+    return out
+
+
 def pack_roles(cls, defensive):
     """{ability name: (role, evidence)} from the shipped pack's bands."""
     path = os.path.join(os.path.dirname(SP), "docs", "packs", cls.slug,
@@ -172,7 +213,20 @@ def main():
     items = read_table(inv)
     rows = [p for k, p in items if k == "row"]
 
+    def _load(name):
+        p = data(name)
+        try:
+            return json.load(open(p, encoding="utf-8"))
+        except Exception:
+            return {}
+
+    exiles_data = _load(cls.exiles)
+    meta_data = _load(f"spell-meta-{cls.slug}.json")
+
     defensive = builder_defensive(cls)
+    import mkabilities as MK
+    pack_ref_map = MK.pack_refs(cls, exiles_data, meta_data)
+    ref_roles = ref_roles_for(cls, pack_ref_map, defensive)
     leaf_roles = pack_roles(cls, defensive)
     # The glyph resources, read off the pack rather than guessed from the word
     # "glyph": the bar renders "RM Glyph Empty/Fill <Name>" per glyph, so that
@@ -229,11 +283,7 @@ def main():
             continue                     # a human already decided; never touch
 
         # 1. shipped pack
-        hit = None
-        for leaf_id, (role, why) in leaf_roles.items():
-            if leaf_id == name or leaf_id.endswith(" " + name):
-                hit = (role, why)
-                break
+        hit = ref_roles.get(name)
         if hit:
             role, why = hit
             if role == "utility" and name in defensive:
@@ -304,12 +354,21 @@ def main():
     # Runemaster shipped exactly this: the skillbook carries "Frost Glyph" and
     # not "Flame Glyph" or "Arcane Glyph", while the Glyphic bar renders all
     # three. Coverage measured against the inventory alone reported 100%.
+    # Judged on TRIGGERS, the same way mkabilities decides membership. Judging
+    # on display ids instead splits the two apart and makes the count
+    # unreachable: a mana bar or the inverse "No Etching" alert has no single
+    # ability behind it, so it can never gain a row and would be reported
+    # forever. A number that cannot reach zero is one you learn to ignore.
+    #
+    # So: a display is satisfied when it references NO ability (resource bars,
+    # which use unit triggers), or when at least one ability it references has
+    # a row.
     known = {c[0] for c in rows}
     orphans = []
-    for leaf_id in all_leaf_ids(cls):
-        if any(leaf_id == n or leaf_id.endswith(" " + n) for n in known):
+    for leaf_id, names in pack_ref_map.items():
+        if not names or (names & known):
             continue
-        orphans.append(leaf_id)
+        orphans.append(f"{leaf_id}  -> {', '.join(sorted(names)[:4])}")
     if orphans:
         print(f"\n  {len(orphans)} display(s) the pack RENDERS with no "
               f"inventory row. Coverage cannot be 100% while this is nonzero:")

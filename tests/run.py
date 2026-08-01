@@ -515,6 +515,42 @@ else:
           len(_rm) == 9, f"expected 9, got {len(_rm)}")
 
 
+# ------------------------------ 13. every rendered ability has an inventory row
+#
+# The coverage floor, and the one direction the scrapes cannot cover. The
+# skillbook and the cooldown audit are both somebody else's page; a pack cannot
+# reference an ability it does not have. Runemaster shipped with 150 skillbook
+# entries that omitted Runeblade and Runic Explosion while rendering both, and
+# coverage measured against that inventory read 100%.
+#
+# Judged on triggers, not display ids: a resource bar has no ability behind it
+# and must not be counted, or the number never reaches zero and stops meaning
+# anything.
+print("\n13. every ability the pack renders has an inventory row")
+import json as _json  # noqa: E402
+import mkabilities as MK  # noqa: E402
+
+def _load(name):
+    p = class_data(name)
+    return _json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+
+
+for cls in UNDER_TEST:
+    inv_path = class_data(f"abilities-{cls.slug}.md")
+    if not os.path.exists(inv_path):
+        check(f"{cls.slug}: inventory exists", False, inv_path)
+        continue
+
+    known = set(MK.read(inv_path))
+    refs = MK.pack_refs(cls, _load(cls.exiles),
+                        _load(f"spell-meta-{cls.slug}.json"))
+    missing = {d: r for d, r in refs.items() if r and not (r & known)}
+    detail = "\n".join(f"{d} -> {', '.join(sorted(r)[:4])}"
+                       for d, r in sorted(missing.items()))
+    check(f"{cls.slug}: {len(refs)} displays, all covered by the inventory",
+          not missing, detail)
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

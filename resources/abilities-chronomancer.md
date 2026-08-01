@@ -13,6 +13,11 @@ two things takes the first that applies.
 A Notes cell starting `seed:` is a row the seeder wrote and nobody has
 reviewed. Delete the prefix once you have placed the ability.
 
+Role and ID both take per-spec overrides, `<default>; <spec>:<value>`:
+`defensive; time:offensive` renders one ability in two different rows, and
+`520188; time:801280` covers the case where one NAME is two different
+spells — the specs that have no override use the default.
+
 | Ability | ID | Specs | Role | Rank | Notes |
 |---|---|---|---|---|---|
 | A Ripple In Time | 706096 | all | ignore | Passive | passive talent; modifies another ability, not a button |
@@ -25,6 +30,7 @@ reviewed. Delete the prefix once you have placed the ability.
 | Aether Compression | 804436 | artificer | offensive | Wand Spell |  |
 | Age of Empires | 706097 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Ancient Text | 706081 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Anomaly Spikes | 503825 | all | buff | Rank 1 | shipped pack, `CM Infinite Buffs Anomaly Spikes`; verified in game |
 | Arc Collision | 524853 | artificer,infinite | offensive |  |  |
 | Archaeology | 560130 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Artificer's Empowerment | 806167 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
@@ -40,9 +46,12 @@ reviewed. Delete the prefix once you have placed the ability.
 | Black Hole | 706045 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
 | Breath of Time | 805162 | all | ignore |  | pet spellbook, not a player button |
 | Buy Time | 520188; time:801280 | all | utility |  | SAME NAME, TWO ABILITIES -- artificer + infinite 520188 (8yd, 6s banish, 30% mana, 180s cd, on GCD, lvl59), time 801280 (10yd, 10s stop, 120s cd, off GCD). 520185 is only the aura and is castable by nobody, which is why the ID column carries a per-spec override |
+| Cadence of Time | 560397 | all | buff | Passive | shipped pack, `CM Time Buffs Cadence of Time`; verified in game |
 | Carbon Dating | 706101 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Chaos Embrace | 805167 | all | ignore | DEPRECATED | pet spellbook, not a player button |
+| Chaos Fusion | 807578 | all | main | Passive | shipped pack, `CM Infinite Main Chromatic Shard`; verified in game |
 | Chaos Omen | 706063 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Chaotic Time | 583245 | all | main | Passive | shipped pack, `CM Infinite Main Melt Reality`; verified in game |
 | Charm of Power | 706100 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Chromatic Misalignment | 706120 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Chromatic Shard | 801292 | infinite | main | Rank 1 | core rotation |
@@ -121,6 +130,7 @@ reviewed. Delete the prefix once you have placed the ability.
 | Infinite Clone | 804492 | all | defensive |  | paired with Rewind in one slot -- must share Rewind's role |
 | Infinite Horizon | 560528 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Infinite Keeper | 806312 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Infinite Power | 92118 | all | buff | Specialization | shipped pack, `CM Infinite Buffs Infinite Power`; verified in game |
 | Infinite Sands | 500115 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Infinite Shield | 520457 | artificer,infinite,time | defensive; time:offensive |  |  |
 | Infinite Shroud | 805168 | all | ignore |  | pet spellbook, not a player button |
@@ -141,23 +151,28 @@ reviewed. Delete the prefix once you have placed the ability.
 | Maw of Chaos | 806316 | infinite | offensive |  |  |
 | Melt Reality | 806335 | infinite | main | Rank 1 | core rotation |
 | Nozdormu's Wisdom | 572391 | all | longterm | Rank 1 |  |
+| Oblivion | 560376 | all | target |  | shipped pack, `CM Time Target Oblivion`; verified in game |
 | Orderly Protector | 704482 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Paradox Cannon | 806203 | artificer | offensive | Wand Spell |  |
 | Past Mistakes | 520043 | artificer,infinite | offensive |  |  |
 | Past Self | 801278 | time | defensive |  |  |
 | Plentiful Orbs | 706069 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
+| Protection | 560374 | all | target |  | shipped pack, `CM Time Target Protection`; verified in game |
 | Protector Training | 706073 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button (buffs the pet) |
 | Pulse Driver | 706121 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Quickcaster | 706132 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
 | Reconstruction | 524850 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Reflection | 801296 | infinite | defensive | Rank 1 |  |
 | Remake | 804501 | all | ignore; infinite:main |  | 1.5s cast, 40yd, 10% mana heal, gated on Order/Balance majority -- an Infinite spender, dead weight on the other specs |
+| Renewal | 560355 | all | target |  | shipped pack, `CM Time Target Renewal`; verified in game |
+| Resilience | 560373 | all | target |  | shipped pack, `CM Time Target Resilience`; verified in game |
 | Resonance | 706079 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Resynchronize | 804495 | time | defensive | Rank 1 |  |
 | Reverse Wound | 801303 | all | ignore; time:main | Rank 1 | 1.5s cast, 40yd, 31% mana, lvl1 direct heal; extends Accelerated Recovery by 2s. Time's rotation, not a damage spec's |
 | Revolving Sands | 500113 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Rewind | 801294 | artificer,infinite,time | defensive |  | paired with Infinite Clone in one slot |
 | Ripple | 806296 | time | main |  | core rotation |
+| Ripple in Time | 806297 | all | buff |  | shipped pack, `CM Time Buffs Ripple in Time`; verified in game |
 | Rippling Power | 806300 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Roll Back | 524966 | time | defensive; time:offensive |  |  |
 | Rumble | 805166 | all | ignore |  | pet spellbook, not a player button |
@@ -188,6 +203,7 @@ reviewed. Delete the prefix once you have placed the ability.
 | Temporal Swiftness | 680390 | all | longterm |  |  |
 | The Bieko Effect | 706099 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | The Vast Infinite | 542712 | time | defensive; time:offensive |  |  |
+| Thread of Eternity | 572127 | all | target |  | shipped pack, `CM Artificer Target Thread of Eternity`; verified in game |
 | Threads of Eternity | 806209 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Time Is A Circle | 806206 | all | ignore | Specialization | passive talent; modifies another ability, not a button |
 | Time Loop | 801297 | time | offensive | Rank 1 |  |
