@@ -159,7 +159,7 @@ def spell_cd_trigger(spell, show_on="showOnCooldown", exact=False,
     })
 
 
-def spell_known_trigger(spell, inverse=False):
+def spell_known_trigger(spell, inverse=False, exact=True):
     """"Spell Known" status trigger -- true while IsSpellKnown(spell) is true.
 
     The right way to ask "does this character have that passive". An aura2
@@ -177,7 +177,14 @@ def spell_known_trigger(spell, inverse=False):
         "debuffType": "HELPFUL",
         "use_spellName": True,
         "spellName": spell,
-        "use_exact_spellName": True,
+        # `exact` is the whole question for RANKED spells. IsSpellKnown against
+        # a rank's id is true only for that exact rank, so gating a level-60
+        # character on the rank-1 id hides the display with no error anywhere.
+        # Matching by NAME should span ranks -- should, because the one Spell
+        # Known trigger witnessed on this fork (Templar's Chastise__) passes an
+        # id with exact=False, and the by-name case is witnessed nowhere.
+        # tools/build_diag.py pack 6 exists to settle it in game.
+        "use_exact_spellName": bool(exact),
         "use_inverse": bool(inverse),
         "names": LuaTable(),
         "spellIds": LuaTable(),
