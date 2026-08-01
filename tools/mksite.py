@@ -14,6 +14,7 @@ names, and that is what the page shows and what search matches.
 
 Publishing an update is: build -> mksite -> commit -> push.
 """
+import collections
 import html
 import json
 import os
@@ -39,7 +40,9 @@ TAGLINE = ("WeakAura packs for all 21 Ascension Conquest of Azeroth custom "
 REPO = "https://github.com/JesterCharles/coa-weakauras"
 
 # Which classes have shipped packs, and what each pack is.
-# `file` is the built artifact in tools/; `slug` is what it becomes in docs/packs/.
+# `file` is the built artifact in tools/packs/<slug>/; `slug` is what it becomes
+# in docs/packs/<slug>/. Both sides are per-class folders holding the same
+# filenames, so the copy below is a straight move between two mirrored trees.
 # Derived from classes.py -- a class appears here as soon as it has a builder on
 # disk, so there is no second list to keep in step.
 SHIPPED = {
@@ -224,7 +227,7 @@ def hud_preview(c, packs):
               CAN draw. Those rows re-centre as auras come and go, so the wide
               spread is a maximum, not a resting state.
     """
-    spec_packs = [(label, os.path.join(DOCS, "packs", published))
+    spec_packs = [(label, os.path.join(DOCS, "packs", c["slug"], published))
                   for label, _built, published, _desc in packs[1:]]
     spec_packs = [(l, p) for l, p in spec_packs if os.path.exists(p)]
     if not spec_packs:
@@ -252,6 +255,10 @@ def hud_preview(c, packs):
     for mode, (bx, per_spec) in data.items():
         x0, y0, x1, y1 = bx
         span_x, span_y = (x1 - x0) or 1, (y1 - y0) or 1
+        # Namespace prefix for this class's display ids ("RM", "CM", ...).
+        _ids = [d["id"] for ds in per_spec.values() for d in ds if " " in d["id"]]
+        tile_prefix = (collections.Counter(i.split(" ", 1)[0] for i in _ids)
+                       .most_common(1)[0][0] if _ids else "")
         for i, (label, _p) in enumerate(spec_packs):
             tiles = []
             for d in per_spec[label]:
@@ -259,7 +266,16 @@ def hud_preview(c, packs):
                 top = (y1 - d["y"]) / span_y * 100
                 w = d["w"] / span_x * 100
                 h = d["h"] / span_y * 100
-                name = re.sub(r"^RM\s+", "", d["id"])
+                # Was hardcoded to strip "RM ", so every Chronomancer tile
+                # tooltip read "CM Artificer Main Shatter Echo".
+                band = d.get("band", "")
+                if band.startswith(tile_prefix):
+                    band = band[len(tile_prefix):].strip()
+                for _sp in c["labels"].values():
+                    if band.startswith(_sp + " "):
+                        band = band[len(_sp):].strip()
+                name = _ability_name(d["id"], tile_prefix, band,
+                                     list(c["labels"].values()))
                 cls = "t" + (" bar" if d["kind"] == "aurabar" else "")
                 pos = (f"--l:{left:.3f}%;--t:{top:.3f}%;"
                        f"--w:{w:.3f}%;--h:{h:.3f}%")
@@ -313,33 +329,54 @@ def hud_preview(c, packs):
 </div>"""
 
 
-def _band_preview(group_id, leaves, band_label="", spec_labels=()):
-    """"RM Glyphic Utility Granite Resolve" -> "Granite Resolve", capped.
+def _pack_prefix(tops):
+    """The display-id namespace this pack uses -- "RM", "CM", ...
 
-    Three prefixes have to come off, because a merged band holds displays that
-    still carry the name they had when they lived under a spec:
-    the "RM " namespace, the spec ("Glyphic"), and the band ("Buffs"). Without
-    all three the table reads "Glyphic Buffs Glyphic Overload" instead of
-    "Glyphic Overload".
+    Every builder namespaces its displays with the class's initials so two
+    installed packs cannot collide on a display id. It was hardcoded to "RM"
+    here, which meant Chronomancer rendered every band label and every ability
+    name with the raw prefix still attached, and scope_of() below could never
+    match a spec container so all 12 bands claimed to be "Shared".
     """
-    def strip(n, prefix):
-        if prefix and n.lower().startswith(prefix.lower() + " "):
-            return n[len(prefix):].strip()
-        return n
+    first = [t["id"].split(" ", 1)[0] for t in tops if " " in t["id"]]
+    return collections.Counter(first).most_common(1)[0][0] if first else ""
 
+
+def _ability_name(leaf_id, prefix, band_label, spec_labels):
+    """"CM Artificer Utility Time Out!" -> "Time Out!".
+
+    Longest-prefix match against the id shapes a builder actually emits, and
+    it strips ONCE. The previous version stripped each spec label and the band
+    label off the front repeatedly wherever they matched, which is fine until a
+    class has a spec whose name is also an English word: Chronomancer's TIME
+    spec turned "Time Out!" into "Out!" and "Time Loop" into "Loop".
+
+    Matching whole id prefixes rather than loose words cannot do that -- after
+    "CM Artificer Utility " comes off, nothing further is stripped.
+    """
+    band = band_label.strip()
+    cands = []
+    for sp in spec_labels:
+        cands.append(f"{prefix} {sp} {band} ")
+        cands.append(f"{prefix} {sp} ")
+    cands += [f"{prefix} {band} ", f"{prefix} "]
+    for c in sorted(cands, key=len, reverse=True):
+        if c.strip() and leaf_id.startswith(c):
+            return leaf_id[len(c):].strip() or leaf_id
+    return leaf_id
+
+
+def _band_preview(group_id, leaves, band_label="", spec_labels=(), prefix="RM"):
+    """The first few ability names in a band, for the Layout table."""
     names = []
     for c in leaves:
         n = c["id"]
         if n.startswith(group_id):
             n = n[len(group_id):].strip()
-        # Core leaves are named "RM Alert No Engraving" against a band called
-        # "RM Alerts", so the prefix strip above misses them.
-        n = re.sub(r"^RM\s+", "", n)
-        for _ in range(2):          # spec then band, in either order
-            for p in list(spec_labels) + [band_label]:
-                n = strip(n, p)
-        names.append(n or c["id"])
-    preview = ", ".join(names[:6])
+        names.append(_ability_name(n if n != c["id"] else c["id"],
+                                   prefix, band_label, spec_labels)
+                     or c["id"])
+    preview = ", ".join(html.escape(n) for n in names[:6])
     if len(names) > 6:
         preview += f" &hellip; +{len(names) - 6} more"
     return preview
@@ -368,6 +405,7 @@ def layout_sections(pack_path, spec_labels):
 
     tops = [by_id[i] for i in (d["d"].get("controlledChildren") or {}).values()
             if i in by_id]
+    prefix = _pack_prefix(tops)
     specs_lower = {s.lower(): s for s in spec_labels}
 
     def scope_of(name):
@@ -377,7 +415,7 @@ def layout_sections(pack_path, spec_labels):
 
     bands = []
     for top in tops:
-        top_name = re.sub(r"^RM\s+", "", top["id"])
+        top_name = top["id"][len(prefix):].strip() if top["id"].startswith(prefix) else top["id"]
         children = by_parent.get(top["id"], [])
         groups = [c for c in children if c.get("controlledChildren")]
         leaves = [c for c in children if not c.get("controlledChildren")]
@@ -392,9 +430,11 @@ def layout_sections(pack_path, spec_labels):
             label = g["id"]
             if label.startswith(top["id"]):
                 label = label[len(top["id"]):].strip() or label
-            bands.append((int(y), re.sub(r"^RM\s+", "", label),
-                          scope_of(top_name), len(gl),
-                          _band_preview(g["id"], gl, label, spec_labels)))
+            if label.startswith(prefix):
+                label = label[len(prefix):].strip() or label
+            bands.append((int(y), label, scope_of(top_name), len(gl),
+                          _band_preview(g["id"], gl, label, spec_labels,
+                                        prefix)))
 
         # Shape B: the node IS a band -- displays hang directly off it. Its own
         # yOffset is 0 for a spec container, so the anchor comes from the
@@ -406,7 +446,7 @@ def layout_sections(pack_path, spec_labels):
                 bands.append((int(y), top_name, scope_of(top_name),
                               len(leaves),
                               _band_preview(top["id"], leaves, top_name,
-                                            spec_labels)))
+                                            spec_labels, prefix)))
 
     if not bands:
         return ""
@@ -474,20 +514,25 @@ def build():
         if not packs:
             continue
         os.makedirs(os.path.join(DOCS, c["slug"]), exist_ok=True)
+        # One folder per class. Flat, 21 classes x 4 packs is 84 files in one
+        # directory with the class name repeated in every filename.
+        os.makedirs(os.path.join(DOCS, "packs", c["slug"]), exist_ok=True)
 
         blocks, all_stats = [], []
         for i, (label, built, published, desc) in enumerate(packs):
-            src = os.path.join(SP, built)
+            src = os.path.join(SP, "packs", c["slug"], built)
             if not os.path.exists(src):
                 print(f"  !! missing build artifact: {built}")
                 continue
-            dst = os.path.join(DOCS, "packs", published)
+            dst = os.path.join(DOCS, "packs", c["slug"], published)
             shutil.copy2(src, dst)
             st = pack_stats(dst)
             all_stats.append(st)
-            blocks.append(pack_block(label, published, st, desc, i))
+            # href is relative to docs/<class>/index.html
+            blocks.append(pack_block(label, f"{c['slug']}/{published}",
+                                     st, desc, i))
 
-        main_pack = os.path.join(DOCS, "packs", packs[0][2])
+        main_pack = os.path.join(DOCS, "packs", c["slug"], packs[0][2])
         head = all_stats[0] if all_stats else {"displays": 0, "triggers": 0}
         spec_line = ", ".join(c["labels"][s] for s in c["specs"])
 

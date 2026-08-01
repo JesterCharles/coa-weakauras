@@ -1,0 +1,115 @@
+{
+  "BARBARIAN": {
+    "ANCESTRY": "spell_brew_wheat",
+    "BRUTALITY": "_Orc_06",
+    "HEADHUNTING": "inv_axe_2h_artifactmaw_d_01"
+  },
+  "WITCHDOCTOR": {
+    "SHADOWHUNTING": "ShadowHunter",
+    "VOODOO": "trade_archaeology_troll_voodoodoll",
+    "BREWING": "INV_Misc_Cauldron_Nature"
+  },
+  "FELSWORN": {
+    "INFERNAL": "_AuraCloak_Felfire",
+    "TYRANT": "ability_demonhunter_demonictrample",
+    "SLAYING": "inv_sword_1h_artifactfelomelorn_d_03dual"
+  },
+  "WITCHHUNTER": {
+    "INQUISITION": "Spell_Shadow_ShadowandFlame",
+    "HOUNDMASTER": "custom_14_summon_dogs_Border",
+    "BLACK KNIGHT": "nhi_brokensword_Border",
+    "BOLTSLINGER": "_d3preparation"
+  },
+  "STORMBRINGER": {
+    "MAELSTROM": "ability_shawaterelemental_reform",
+    "LIGHTNING": "nhi_frozenlightning_Border",
+    "WIND": "inv_progenitorelemental_black"
+  },
+  "CULTIST": {
+    "HERETIC": "Yogg-SaronIcon",
+    "DREADNOUGHT": "custom_T_Nhance_RPG_Icons_ShadowGuard_Border",
+    "CORRUPTION": "CThunIcon",
+    "GODBLADE": "NZothIcon"
+  },
+  "KNIGHTXOROTH": {
+    "HELLFIRE": "ability_paladin_bladeofjustice",
+    "DEFIANCE": "spell_warlock_soulburn_haunt",
+    "WAR": "ability_warlock_baneofhavoc"
+  },
+  "GUARDIAN": {
+    "VANGUARD": "_Human_06",
+    "GLADIATOR": "epic_rpg_icon_pack_brutal_icon_0001s_0000_warrior_Border",
+    "INSPIRATION": "ACHIEVEMENT_GUILDPERK_EVERYONES_A_HERO"
+  },
+  "STARCALLER": {
+    "MOON PRIEST": "custom_T_Nhance_RPG_Icons_MagicMoonBuff_Border",
+    "WARDEN": "inv_pet_wardenowl",
+    "SENTINEL": "_Diablo3_ArrowRain_Mage",
+    "MOON GUARD": "artifactability_balancedruid_newmoon"
+  },
+  "SUNCLERIC": {
+    "BLESSINGS": "item_holyspark",
+    "VALKYRIE": "inv_valkiergoldpet",
+    "PIETY": "custom_T_Nhance_RPG_Icons_HolyMeditation_Border",
+    "SERAPHIM": "ability_paladin_conviction"
+  },
+  "TEMPLAR": {
+    "ZEALOT": "custom_Paladinskill_24_Border",
+    "CRUSADER": "nhi_firesword_Border",
+    "OATHKEEPER": "inv_staff_2h_nazmirraid_d_01"
+  },
+  "PRIMALIST": {
+    "WILDWALKER": "ability_druid_ripandtear",
+    "MOUNTAIN KING": "ability_racial_avatar",
+    "GEOMANCY": "inv_custom_hearthstone_fire",
+    "GROVEKEEPER": "ui_darkshore_warfront_alliance_keeper_of_the_grove"
+  },
+  "BLOODMAGE": {
+    "SANGUINE": "epic_rpg_icon_pack_blood_0003s_0000_hand_Border",
+    "FLESHWEAVER": "inv_misc_food_legion_gooamber_pool",
+    "ACCURSED": "artifactability_feraldruid_ashamanesbite",
+    "ETERNAL": "ability_racial_viciousness"
+  },
+  "PYROMANCER": {
+    "FLAMEWEAVING": "Ability_Warlock_Backdraft",
+    "DRACONIC": "inv_misc_head_dragon_bronze",
+    "INCINERATION": "nhi_corruptionfire_Border"
+  },
+  "RANGER": {
+    "BRIGAND": "ability_rogue_energeticrecovery",
+    "ARCHERY": "inv_archaeology_70_tauren_stonewoodbow",
+    "FARSTRIDER": "inv_legion_faction_dreamweavers"
+  },
+  "REAPER": {
+    "SOUL": "nhi_souldarkening_Border",
+    "HARVEST": "ability_revendreth_deathknight",
+    "DOMINATION": "nhi_ghosthand_Border"
+  },
+  "RUNEMASTER": {
+    "GLYPHIC": "70_inscription_vantus_rune_azure",
+    "RIFTBLADE": "Warpblade",
+    "ENGRAVEMENT": "custom_T_Nhance_RPG_Icons_MagicKeeper_Border"
+  },
+  "CHRONOMANCER": {
+    "TIME": "inv_trinket_80_kultiras02a",
+    "INFINITE": "achievement_boss_infinitecorruptor",
+    "ARTIFICER": "achievement_guildperk_workingovertime"
+  },
+  "NECROMANCER": {
+    "ANIMATION": "_Undead_03",
+    "DEATH": "Spell_Shadow_PlagueCloud",
+    "RIME": "WC3LichOriginal"
+  },
+  "VENOMANCER": {
+    "STALKING": "_D3corpsespiders",
+    "VIZIER": "achievement_boss_eldernadox",
+    "FORTITUDE": "inv_nerubianbeetlepet_green",
+    "ROT": "WeaverForm",
+    "ROTWEAVER": "WeaverForm"
+  },
+  "TINKER": {
+    "DEMOLITION": "inv_eng_bombfire",
+    "MECHANICS": "inv_engineering_815_uberspanner",
+    "INVENTION": "inv_plate_mechagnome_c_01shoulder"
+  }
+}
