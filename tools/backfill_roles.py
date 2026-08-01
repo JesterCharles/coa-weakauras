@@ -85,6 +85,29 @@ GENERIC_PREFIX = {
                             "displays and the No Etching alert"),
 }
 
+# `Name: Element` families. Each is one ability per element with an hour-long
+# or stance-like duration, and the pack draws ONE display per element rather
+# than one per ability -- so the individual abilities are covered without ever
+# appearing by name, exactly like the engraving and etching families above.
+#
+# The pack rule runs BEFORE this, which matters: `Inscription: Permafrost` is a
+# utility icon in its own right and keeps `defensive` from its band rather than
+# being swept into the family. Evidence order does the work, so the family rule
+# does not need to enumerate its own exceptions.
+GENERIC_COLON = {
+    "weapon engraving": ("longterm", "one of the weapon engravings; the pack "
+                                     "draws these per element as RM Engraving "
+                                     "<element> plus the No Engraving alert"),
+    "runic tattoos": ("longterm", "an attunement stance, off-GCD, 30% mana; "
+                                  "the pack draws these per element as "
+                                  "RM Tattoo <element>"),
+    "inscription": ("longterm", "party/raid resistance buff, only one "
+                                "Inscription active at a time -- a stance, not "
+                                "a rotational button"),
+    "greater inscription": ("longterm", "raid-wide resistance buff, only one "
+                                        "Inscription active at a time"),
+}
+
 PASSIVE_RE = re.compile(r"\b(Passive|Specialization|Proc)\b", re.I)
 
 # db.exil.es `rank` values that mean "not a castable ability". Same list the
@@ -310,6 +333,9 @@ def main():
                     if re.search(rf"\b{pre}\b of\b", low):
                         fam = v
                         break
+            if fam is None and ":" in low:
+                head = low.split(":", 1)[0].strip()
+                fam = GENERIC_COLON.get(head)
         if fam:
             cells[3], cells[5] = fam[0], fam[1]
             decided["generic"] += 1

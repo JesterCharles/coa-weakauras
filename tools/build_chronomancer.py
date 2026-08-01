@@ -56,11 +56,15 @@ CLS = _get_class("chronomancer")
 # salt or the client treats it as already-installed and silently keeps the old
 # copy. Bump this (1.1, 1.2, ...) on any future release.
 #
-# It does NOT reach the group name: every release imports as the same
-# "Chronomancer [CoA]", so the loaded version is NOT visible in the WeakAuras
-# list and a delivered file carries no readable version string. Identify one by
-# recomputing uids -- see notes/class-pack-process.md.
-VERSION = "1.0"
+# It ALSO reaches the group name now ("Chronomancer [CoA] v1.1"), so the loaded
+# version is readable in the WeakAuras list and a screenshot identifies its own
+# build. That is what makes a community bug report triageable; before it, a
+# delivered file could only be identified by recomputing uids.
+#
+# 1.1: five single-spec abilities that the 1.0 inventory never carried a row
+# for -- Accelerate and Decelerate (artificer), Chronostasis (infinite),
+# Moment's Reprieve and Rehatch (time). NOT YET VERIFIED IN GAME.
+VERSION = "1.1"
 
 # WA_SPEC=artificer|infinite|time emits a single-spec pack: Core plus that one
 # spec, for players who only ever play the one.

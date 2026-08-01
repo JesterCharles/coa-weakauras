@@ -21,6 +21,7 @@ spells — the specs that have no override use the default.
 | Ability | ID | Specs | Role | Rank | Notes |
 |---|---|---|---|---|---|
 | A Ripple In Time | 706096 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Accelerate | 572633 | artificer | utility | Rank 1 | artificer, 572633, 32% mana, cast on a party member to amplify magic used against them -- a support cast |
 | Accelerated Mending | 570152 | all | ignore | Proc | db rank=Proc -- an effect of another spell, not castable |
 | Accelerated Recovery | 800857 | all | main | Rank 1 | core rotation |
 | Aeon of Oblivion | 806293 | time | longterm |  |  |
@@ -29,10 +30,12 @@ spells — the specs that have no override use the default.
 | Aeon of Resilience | 806291 | time | longterm |  |  |
 | Aether Compression | 804436 | artificer | offensive | Wand Spell |  |
 | Age of Empires | 706097 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Ahead of the Game | 560948 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Ancient Text | 706081 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Anomaly Spikes | 503825 | all | buff | Rank 1 | shipped pack, `CM Infinite Buffs Anomaly Spikes`; verified in game |
 | Arc Collision | 524853 | artificer,infinite | offensive |  |  |
 | Archaeology | 560130 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Artificer's Amplification |  | all | ignore |  | the enabler for the Artificer Chronobuffs, which are themselves `ignore` as the PET's spellbook; no spell id in any source |
 | Artificer's Empowerment | 806167 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Artificer's Magic | 804422 | all | ignore | Chronobuff | db rank=Chronobuff, 40yd -- the pet casts it on you, same family as the other Chronobuffs |
 | Artificer's Spellplate | 804431 | all | ignore | Chronobuff | db rank=Chronobuff, 40yd -- the pet casts it on you, same family as the other Chronobuffs |
@@ -63,18 +66,27 @@ spells — the specs that have no override use the default.
 | Chrono Mend | 578338 | all | ignore |  | no cast, no GCD, no cost -- an effect, not a button; the group-heal component of Epoch |
 | Chrono Sorcery | 706115 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
 | Chronobeam | 801267 | infinite | offensive | Rank 1 |  |
+| Chronostasis | 706969 | infinite | utility |  | infinite, 706969, 10% mana, 3 charges on a 15s recharge, slows an enemy -- a charged CC |
 | Chronurgy | 806326 | infinite | offensive | Rank 1 |  |
 | Clasp of Infinity | 805847 | artificer,infinite,time | defensive |  |  |
 | Clocked In | 520168 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Collapse | 804448 | artificer | offensive |  |  |
 | Concentrated Fate | 706122 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Conduction Burst | 804452 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
+| Constant Recovery | 555729 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Continuum Restoration | 801271 | time | defensive; time:offensive |  |  |
+| Converge the Infinite | 520045 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Correct the Mistake | 572352 | time | main | Rank 1 | core rotation |
 | Crown of Power | 805854 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Crystal Cannon | 560134 | all | ignore | Proc | db rank=Proc -- an effect of another spell, not castable (Resonance's tooltip names it, but it is a proc) |
+| Cursed ID - Procs wont work on it |  | all | ignore |  | the name is a developer note, not an ability; describes a Tailwind talent effect. No spell id |
 | Dark Star | 706062 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Dazzled |  | all | ignore |  | the debuff NAME applied by a blind effect, not the button that applies it. No spell id in any source -- revisit if one appears |
+| Decelerate | 572632 | artificer | defensive |  | artificer, 572632, 32% mana, cast on a party member to cut spell damage taken -- external mitigation |
 | Decomposition | 800856 | all | main | Rank 1 | core rotation |
 | Deconstruction | 805851 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
+| Destabilize Time | 570761 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
+| Destroyer's Legacy |  | all | ignore |  | "causes Fire Damage to nearby enemies" -- a damage component of another spell. No spell id |
 | Desynchronization | 561310 | artificer,infinite,time | defensive |  |  |
 | Dilation | 560168 | artificer,infinite | defensive |  |  |
 | Dimensional Divergence | 802790 | artificer,infinite,time | offensive |  |  |
@@ -85,20 +97,25 @@ spells — the specs that have no override use the default.
 | Discovery | 500116 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Discs Upon Discs | 706074 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Disenchant Weapon | 806208 | all | ignore |  | passive talent; modifies another ability, not a button |
+| Dismiss Protector |  | all | ignore |  | dismisses your Bronze Protector -- pet housekeeping with no rotation, CD or resource value. No spell id in any source |
 | Displacement | 806727 | infinite,time | offensive |  |  |
+| Distorted Time | 707553 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Do Over | 800669 | all | ignore | Rank 1 | 8s-cast resurrect, out of combat only -- no combat state |
 | Echo | 804487 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Echo Fragment | 804455 | artificer | resource |  | drives the segment bar |
+| Echo Fragments | 92120 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 10" -- not a player button |
 | Elder Tome | 706044 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Empowered Restoration | 706090 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Enchanted Collar | 706066 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button (buffs the pet) |
 | End of Time | 525050 | all | ignore | Proc | db rank=Proc -- an effect of another spell, not castable |
 | Endless Sands | 806338 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Entropy Overload | 706084 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Entropy Reversal | 520780 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Epic Recovery | 706098 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Epoch | 801270 | all | main | Rank 1 | core rotation |
 | Erase | 804450 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Erasion | 704489 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Eternal | 706777 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Eternity | 706057 | all | ignore | Proc | passive talent; modifies another ability, not a button |
 | Eternity Warper | 806301 | all | ignore | Specialization | passive talent; modifies another ability, not a button; the builder gates Ripple on it |
 | Eternity's End | 706072 | all | ignore | Passive | passive talent; modifies another ability, not a button |
@@ -119,6 +136,7 @@ spells — the specs that have no override use the default.
 | Hasten | 801304 | artificer,infinite,time | utility |  |  |
 | Hourglass of Eternity | 504726 | all | ignore | Proc | passive talent; modifies another ability, not a button |
 | Hyperwand | 706071 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Impeccable Timing | 560949 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Improved Past Self | 706091 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Improved Reverse Wound | 706052 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Improved Temporal Focus | 706127 | all | ignore | Passive | passive talent; modifies another ability, not a button |
@@ -128,6 +146,7 @@ spells — the specs that have no override use the default.
 | Incarnation of Order | 503883 | infinite | offensive |  |  |
 | Infinite - Level 30 Passive | 706058 | all | ignore | Specialization | passive talent; modifies another ability, not a button |
 | Infinite Clone | 804492 | all | defensive |  | paired with Rewind in one slot -- must share Rewind's role |
+| Infinite Guard | 574312 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 40" -- not a player button |
 | Infinite Horizon | 560528 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Infinite Keeper | 806312 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Infinite Power | 92118 | all | buff | Specialization | shipped pack, `CM Infinite Buffs Infinite Power`; verified in game |
@@ -138,31 +157,44 @@ spells — the specs that have no override use the default.
 | Infinite Wrath | 804498 | all | ignore |  | db line=Pet - Infinite Protector -- the pet's spell |
 | Infinity | 706128 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Infinity Crash | 706040 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Infinity Stone | 300873 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
+| Instilling Balance SLS |  | all | ignore |  | an `SLS` suffix marks a stale duplicate on this fork, the same family as the dead `Aeon of Oblivion SLS`. No spell id |
 | Keeper of Balance Trigger | 806314 | infinite | offensive |  |  |
 | Last Wish | 806207 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Life Cycles | 680808 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Luck | 706085 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Luck or Fate? | 706065 | all | ignore |  | no cast, no GCD, no cost -- an effect, not a button |
 | Magic Erosion | 570060 | all | ignore | Proc | passive talent; modifies another ability, not a button |
+| Maker of Realities | 707656 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Mark of Order | 704488 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Mass Babify | 520181 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Mass Decomposition | 801283 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Master of Chaos | 706047 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
 | Master of Duality | 706049 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Master of Order | 706050 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
 | Maw of Chaos | 806316 | infinite | offensive |  |  |
 | Melt Reality | 806335 | infinite | main | Rank 1 | core rotation |
+| Mind Over Matter | 520923 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
+| Moment's Reprieve | 572631 | time | utility |  | time, 572631, drops a party member's threat over time. NOTE: our scrape shows 0 cost and 0 cooldown, which is the exact bug the 2026-07-31 changelog says was FIXED -- the numbers here predate the patch and will change on the next scrape |
+| Not Even A Scratch | 503791 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 30" -- not a player button |
 | Nozdormu's Wisdom | 572391 | all | longterm | Rank 1 |  |
 | Oblivion | 560376 | all | target |  | shipped pack, `CM Time Target Oblivion`; verified in game |
+| Order and Chaos |  | all | ignore |  | describes how Order and Chaos stacks total 20 -- the Infinite resource RULE, not a button. The stacks themselves already render as the Sands cells. No spell id |
 | Orderly Protector | 704482 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Paradox Cannon | 806203 | artificer | offensive | Wand Spell |  |
 | Past Mistakes | 520043 | artificer,infinite | offensive |  |  |
 | Past Self | 801278 | time | defensive |  |  |
+| Perfect Timing | 520164 | all | ignore | Rank 1 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
+| Plaguestorm |  | all | ignore |  | "deals Plague damage in a radius" -- a damage component. No spell id |
 | Plentiful Orbs | 706069 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
+| Procrastination | 520854 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Protection | 560374 | all | target |  | shipped pack, `CM Time Target Protection`; verified in game |
 | Protector Training | 706073 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button (buffs the pet) |
 | Pulse Driver | 706121 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Quickcaster | 706132 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
 | Reconstruction | 524850 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Reflection | 801296 | infinite | defensive | Rank 1 |  |
+| Rehatch | 578265 | time | utility |  | time, 578265, 12% mana, resurrects your Bronze Protector -- pet recovery |
 | Remake | 804501 | all | ignore; infinite:main |  | 1.5s cast, 40yd, 10% mana heal, gated on Order/Balance majority -- an Infinite spender, dead weight on the other specs |
 | Renewal | 560355 | all | target |  | shipped pack, `CM Time Target Renewal`; verified in game |
 | Resilience | 560373 | all | target |  | shipped pack, `CM Time Target Resilience`; verified in game |
@@ -178,12 +210,14 @@ spells — the specs that have no override use the default.
 | Rumble | 805166 | all | ignore |  | pet spellbook, not a player button |
 | Runed Rod | 706067 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Rust Creation | 704479 | all | ignore |  | passive talent; modifies another ability, not a button |
+| Sand Bomb | 560354 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Sandblast | 501918 | all | main | Rank 2 | 2s cast, 40yd, 5% mana, lvl7 filler; grants Sands of Time. RANKED (Rank 2) so match by NAME, never by exact id |
 | Sandpage | 806244 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Sands of Life | 560383 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Sands of Time | 501843 | artificer,infinite,time | resource | Rank 2 | drives the segment bar |
 | Saviour | 706109 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Shatter Echo | 804503 | artificer | main | Rank 1 | core rotation |
+| Shattered |  | all | ignore |  | "armor reduced by %" -- a debuff effect name, not the button applying it. No spell id |
 | Shield of The Keeper | 706124 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Shield of the Ages | 804444 | all | ignore | Passive | db says Passive -- not a button |
 | Shifting Chaos | 706059 | all | ignore | Passive | passive talent; modifies another ability, not a button |
@@ -193,9 +227,11 @@ spells — the specs that have no override use the default.
 | Slow Time | 801295 | infinite | ignore | Deprecated | db says Deprecated |
 | Spatial Distortion | 706094 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Splitting Time | 555730 | all | ignore | Aura | passive talent; modifies another ability, not a button |
+| Stasis |  | all | ignore |  | reads like a real incapacitate, but carries no spell id in the skillbook, the cooldown audit or exiles -- most likely the debuff name of another cast. Revisit if an id appears |
 | Tamed Incantations | 706077 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Teleport: Caverns of Time | 804753 | all | ignore |  | 10s-cast travel spell -- no combat state |
 | Temporal Anomaly | 806315 | artificer,infinite,time | defensive |  |  |
+| Temporal Dissonance | 520922 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Temporal Focus | 806165 | artificer,infinite,time | defensive |  |  |
 | Temporal Resilience | 680389 | all | longterm | Rank 1 |  |
 | Temporal Restoration | 680456 | all | longterm | Rank 2 |  |
@@ -205,12 +241,14 @@ spells — the specs that have no override use the default.
 | The Vast Infinite | 542712 | time | defensive; time:offensive |  |  |
 | Thread of Eternity | 572127 | all | target |  | shipped pack, `CM Artificer Target Thread of Eternity`; verified in game |
 | Threads of Eternity | 806209 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Time Beacon | 574310 | all | ignore | Rank 1 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Time Is A Circle | 806206 | all | ignore | Specialization | passive talent; modifies another ability, not a button |
 | Time Loop | 801297 | time | offensive | Rank 1 |  |
 | Time Out! | 802229 | artificer,infinite,time | defensive; time:offensive | Rank 1 |  |
 | Time Skip | 704485 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Time Stretch | 560404 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Timeguard | 804441 | artificer,infinite,time | defensive; time:offensive |  |  |
+| Timekeeper | 680845 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Timeless | 706131 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Timeline Destroyer | 805846 | all | offensive |  | instant, off GCD, 10% mana, 16s Chromatic empower +40% |
 | Timeline Guardian | 805845 | all | offensive |  | instant, off GCD, 10% mana, 16s Order empower +40% |
@@ -223,15 +261,19 @@ spells — the specs that have no override use the default.
 | Titan's Gaze | 704484 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Tome of Chaos | 503833 | all | ignore | Proc | db rank=Proc -- an effect of another spell, not castable |
 | Tome of Time | 805848 | all | ignore | Energize | db rank=Energize -- a resource tick, not a button |
+| Tripping the Rift | 520173 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Truly Infinite | 706087 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Unearth | 503884 | artificer,infinite,time | offensive | Rank 2 |  |
 | Unearthed Passage | 706112 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Unearthed Pools | 503792 | all | ignore | Proc | db.exil.es rank=Proc -- not a castable ability |
 | Unmake | 804418 | all | main | Rank 1 | core rotation |
 | Unmaker of Realities | 706107 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Unstable Chronoglass | 503836 | artificer,infinite | defensive |  |  |
 | Vivid Memory | 706086 | all | ignore | Passive | passive talent; modifies another ability, not a button |
+| Wand Expert | 574308 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 20" -- not a player button |
 | Wand of Entropy | 706126 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Wand of Time | 520175 | artificer,infinite | main | Rank 1 | core rotation |
+| Warpstriker | 707556 | all | ignore | Rank 1 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Waves of Time | 801265 | artificer,time | utility | Slow | knockback peel; no cooldown row so audit_cds missed it |
 | Wisdom | 706105 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Wonders of Time | 560541 | all | ignore | Passive | passive talent; modifies another ability, not a button |
@@ -246,14 +288,11 @@ placed. Most are components, deprecated spells or near-name traps.
 Decide one by writing it into the table above; it leaves this list on the
 next refresh. Bullets, not a table, so the builder's parser cannot read them.
 
-- `572633` **Accelerate** — level=30, gcd_ms=1500, cost_pct=32, rank=Rank 1
 - `680879` **Aura of Experience Visual Test Spell** — gcd_ms=1500, cost_pct=12
 - `805850` **Blinding Sand** — gcd_ms=1000, cost_pct=9
 - `704135` **Chaos Shift** — gcd_ms=1500
 - `804425` **Chaos Wand** — level=1, cost_pct=7
-- `706969` **Chronostasis** — level=4, gcd_ms=1500, cost_pct=10
 - `524710` **Correct The Mistake** — gcd_ms=1500, cost_pct=17, rank=Dispell
-- `572632` **Decelerate** — level=26, gcd_ms=1500, cost_pct=32
 - `804496` **Decrement Orb of Fate** — cost_pct=10
 - `806199` **Disc of Legend (Deprecated)** — level=10, cost_pct=8
 - `542725` **Epic Recovery Trigger** — level=13, gcd_ms=1500
@@ -264,11 +303,9 @@ next refresh. Bullets, not a table, so the builder's parser cannot read them.
 - `806144` **Fizzle** — gcd_ms=1500
 - `801298` **Flashback** — cost_pct=30, rank=Rank 1
 - `806493` **Lost Pendant** — level=1, gcd_ms=1500, rank=Lvl3 Quest Sun Cleric
-- `572631` **Moment's Reprieve** — level=50, gcd_ms=1250
 - `680916` **OMEGA Babify** — gcd_ms=1500, cost_pct=8
 - `704136` **Order Shift** — gcd_ms=1500
 - `680849` **Potion of Experience Visual Test Spell** — gcd_ms=1500, cost_pct=12
-- `578265` **Rehatch** — gcd_ms=1500, cost_pct=12
 - `583404` **Resting** — level=1, gcd_ms=1500, cost_pct=6, rank=Buff
 - `561388` **Resynchronization** — level=18, gcd_ms=1250, rank=Debuff
 - `807033` **Sand Barrage** — level=1, gcd_ms=1500, cost_pct=6

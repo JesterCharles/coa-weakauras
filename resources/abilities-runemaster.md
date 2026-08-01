@@ -43,17 +43,17 @@ spells — the specs that have no override use the default.
 | Concentrated Magic | 560995 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Contract Killing | 705506 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Convergence | 560241 | all | offensive | Proc | shipped pack, band RM Offense; verified in game |
-| Cosmic Impact | 800738 | all | utility |  | seed: Ability; sidekicks g1 |
-| Cryobrand | 807822 | all | utility |  | seed: Ability; sidekicks g2 |
+| Cosmic Impact | 800738 | all | buff |  | glyphic, self-buff raising spell crit and haste. UNCERTAIN: 0 mana cost with a 1s GCD is an odd shape for a button -- if it turns out to be a proc rather than a cast, this is `buff` for the right reason anyway, but confirm in game |
+| Cryobrand | 807822 | all | utility |  | glyphic, 4% mana, freezes one enemy in place (8s vs players), one target at a time -- a CC |
 | Darkflock Anguish Spreader | 800749 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
-| Deadly Defense |  | all | utility |  | seed: Ability; no sidekick mention |
+| Deadly Defense |  | all | ignore |  | "each of your summons reduces your damage taken" -- a passive; no spell id, so it could not be built even if it were a button |
 | Decoder | 706523 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Devour Mana | 800104 | glyphic | utility | Rank 1 | shipped pack, band RM Utility; verified in game |
 | Displace Familiar | 800741 | engravement | utility |  | shipped pack, band RM Utility; verified in game |
 | Earth Carving | 712300 | all | buff | Periodic Trigger | shipped pack, `RM Engravement Buffs Earth Carving`; verified in game |
 | Earth Engraving | 653219 | all | longterm | Passive | tracked collectively by the per-element RM Engraving displays and the No Engraving alert |
 | Earthen Fists | 806982 | all | buff |  | shipped pack, `RM Engravement Buffs Earthen Fists`; verified in game |
-| Earthen Wind | 532729 | all | utility | Damage | seed: Ability; no sidekick mention |
+| Earthen Wind | 532729 | all | offensive | Damage | engravement, 12% mana, AoE Nature damage in a radius beneath you. UNCERTAIN: db.exil.es reports rank=Damage, which is usually a COMPONENT rather than a castable -- but a component does not carry a mana cost. Confirm in game before trusting the row |
 | Echo Rune | 500270 | riftblade | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Elder Magi Rune | 500253 | riftblade | utility |  | shipped pack, band RM Utility; verified in game |
 | Elemental Assassin | 705541 | all | ignore | Specialization | skillbook says "Talent Passive Lvl 20" -- not a player button |
@@ -70,7 +70,7 @@ spells — the specs that have no override use the default.
 | Etching of the Dextrous | 561237 | all | longterm | Rank 1 | tracked collectively by the per-element RM Tattoo displays and the No Etching alert |
 | Etching of the Leylines | 561236 | all | longterm |  | tracked collectively by the per-element RM Tattoo displays and the No Etching alert |
 | Etching of the Magi | 560295 | all | longterm |  | tracked collectively by the per-element RM Tattoo displays and the No Etching alert |
-| Ethereal Oil |  | all | utility |  | seed: Ability; no sidekick mention |
+| Ethereal Oil |  | all | ignore |  | "make yourself translucent" -- cosmetic, no rotation or CD value; no spell id |
 | Evasive | 805767 | all | ignore |  | skillbook says "Talent Passive" -- not a player button |
 | Everfrost Scroll | 801090 | all | utility |  | 3.5s stun that also raises Frost damage taken by 20% |
 | Expert Elementalist | 807505 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
@@ -110,11 +110,11 @@ spells — the specs that have no override use the default.
 | Greater Etching of the Dextrous | 561241 | all | longterm |  | tracked collectively by the per-element RM Tattoo displays and the No Etching alert |
 | Greater Etching of the Leylines | 561242 | all | longterm |  | tracked collectively by the per-element RM Tattoo displays and the No Etching alert |
 | Greater Etching of the Magi | 561243 | all | longterm |  | tracked collectively by the per-element RM Tattoo displays and the No Etching alert |
-| Greater Inscription: Arcane | 561255 | all | utility |  | seed: Ability; no sidekick mention |
-| Greater Inscription: Fire | 561251 | all | utility |  | seed: Ability; no sidekick mention |
-| Greater Inscription: Frost | 561247 | all | utility |  | seed: Ability; no sidekick mention |
-| Greater Inscription: Leyline | 561264 | all | utility | Rank 4 | seed: Ability; no sidekick mention |
-| Greater Inscription: Nature | 561259 | all | utility |  | seed: Ability; no sidekick mention |
+| Greater Inscription: Arcane | 561255 | all | longterm |  | raid-wide resistance buff, only one Inscription active at a time |
+| Greater Inscription: Fire | 561251 | all | longterm |  | raid-wide resistance buff, only one Inscription active at a time |
+| Greater Inscription: Frost | 561247 | all | longterm |  | raid-wide resistance buff, only one Inscription active at a time |
+| Greater Inscription: Leyline | 561264 | all | longterm | Rank 4 | raid-wide resistance buff, only one Inscription active at a time |
+| Greater Inscription: Nature | 561259 | all | longterm |  | raid-wide resistance buff, only one Inscription active at a time |
 | Greater Runes | 520124 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
 | Guarding Rune | 500464 | engravement | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Hasty Imbue | 705584 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
@@ -127,11 +127,11 @@ spells — the specs that have no override use the default.
 | Improved Atomic Split | 802035 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Improved Fastcast | 705637 | all | ignore | Rank 2 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Improved Primordial Blast | 705607 | all | ignore | Rank 2 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
-| Inscription: Arcane | 561252 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
-| Inscription: Fire | 561248 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
-| Inscription: Frost | 561244 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
-| Inscription: Leyline | 561260 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
-| Inscription: Nature | 561256 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
+| Inscription: Arcane | 561252 | all | longterm | Rank 1 | party/raid resistance buff, only one Inscription active at a time -- a stance, not a rotational button |
+| Inscription: Fire | 561248 | all | longterm | Rank 1 | party/raid resistance buff, only one Inscription active at a time -- a stance, not a rotational button |
+| Inscription: Frost | 561244 | all | longterm | Rank 1 | party/raid resistance buff, only one Inscription active at a time -- a stance, not a rotational button |
+| Inscription: Leyline | 561260 | all | longterm | Rank 1 | party/raid resistance buff, only one Inscription active at a time -- a stance, not a rotational button |
+| Inscription: Nature | 561256 | all | longterm | Rank 1 | party/raid resistance buff, only one Inscription active at a time -- a stance, not a rotational button |
 | Inscription: Permafrost | 503423 | riftblade | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Kirin Tor Adept | 705635 | all | ignore |  | skillbook says "Talent Passive" -- not a player button |
 | Kirin Tor Agent | 705634 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
@@ -152,7 +152,7 @@ spells — the specs that have no override use the default.
 | Magic Etchings | 300582 | all | buff | Passive | shipped pack, band RM Buffs; verified in game |
 | Magic Feeder | 705546 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
 | Magnificence of Millhouse | 705630 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
-| Mana Runes |  | all | utility |  | seed: Ability; no sidekick mention |
+| Mana Runes |  | all | ignore |  | "increases maximum mana and critical strike chance" -- a passive stat modifier; no spell id |
 | Manastorm | 502614 | glyphic | ignore |  | db.exil.es desc is literally "Deprecated"; rank=Rank 2 |
 | Manuscription | 524952 | glyphic | offensive |  | shipped pack, band RM Offense; verified in game |
 | Marked: Runic Brand | 712323 | all | buff |  | shipped pack, `RM Engravement Buffs Marked: Runic Brand`; verified in game |
@@ -184,7 +184,7 @@ spells — the specs that have no override use the default.
 | Primordial Fury | 801095 | all | offensive |  | shipped pack, band RM Offense; verified in game |
 | Primordial Glyphs | 705601 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Primordial Power | 680466 | all | ignore | Rank 2 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
-| Primordial Pulse | 300578 | all | utility | Rank 1 | seed: Ability; sidekicks g7 |
+| Primordial Pulse | 300578 | all | offensive | Rank 1 | glyphic, 20% mana, ground AoE dealing Elemental Damage every sec -- an AoE damage ability |
 | Primordial Salvos | 800752 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
 | Primordial Strength | 301149 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 20" -- not a player button |
 | Primordial Studies | 524982 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
@@ -198,13 +198,13 @@ spells — the specs that have no override use the default.
 | Resonance Rune | 803679 | engravement | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Riftblade | 92154 | all | ignore |  | db.exil.es rank=Specialization -- not a castable ability |
 | Riftblade - Level 10 Passive | 807518 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 15" -- not a player button |
-| Riftgate: Prison |  | all | utility |  | seed: Ability; no sidekick mention |
-| Riftgate: Transfer |  | all | utility |  | seed: Ability; no sidekick mention |
+| Riftgate: Prison |  | all | utility |  | engravement, teleports an enemy to the nearest Riftgate and stuns -- CC. NO SPELL ID in any source, so it cannot be built until one is found |
+| Riftgate: Transfer |  | all | utility |  | glyphic, teleports you to the nearest Riftgate -- mobility. NO SPELL ID in any source, so it cannot be built until one is found |
 | Rune Master | 800126 | glyphic | offensive |  | shipped pack, band RM Offense; verified in game |
 | Rune of the Elder Magus | 572825 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
 | Rune of the Kirin Tor | 705566 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
 | Runeblade | 707141 | all | main | Rank 1 | shipped pack, band RM Main; verified in game |
-| Runecarve | 804948 | all | utility |  | seed: Ability; no sidekick mention |
+| Runecarve | 804948 | all | utility |  | riftblade, 5% mana, clears active Sigils without breaking Runeshroud -- a manual reset |
 | Runed Cascade | 804128 | glyphic | offensive |  | shipped pack, band RM Offense; verified in game |
 | Runefeed | 804156 | all | utility |  | removes 1 curse from an ally -- a dispel |
 | Runelord | 806984 | all | buff | Passive | shipped pack, `RM Engravement Buffs Runelord`; verified in game |
@@ -232,12 +232,12 @@ spells — the specs that have no override use the default.
 | Runic Power | 300944 | all | longterm | Passive | shipped pack, band RM Longterm; verified in game |
 | Runic Quickness | 805795 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Runic Tattoos | 800736 | all | longterm |  | tracked collectively by the per-element RM Tattoo displays |
-| Runic Tattoos: Air | 802630 | all | utility | Attunement | seed: Ability; sidekicks g4/e4/r4 |
-| Runic Tattoos: Arcane | 803748 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
-| Runic Tattoos: Earth | 801094 | all | utility | Rank 1 | seed: Ability; sidekicks g2/e5/r2 |
-| Runic Tattoos: Fire | 801106 | all | utility | Rank 1 | seed: Ability; sidekicks g1 |
-| Runic Tattoos: Frost | 807834 | all | utility | Rank 1 | seed: Ability; no sidekick mention |
-| Runic Tattoos: Water | 801107 | all | utility | Rank 1 | seed: Ability; sidekicks g1/e5/r3 |
+| Runic Tattoos: Air | 802630 | all | longterm | Attunement | an attunement stance, off-GCD, 30% mana; the pack draws these per element as RM Tattoo <element> |
+| Runic Tattoos: Arcane | 803748 | all | longterm | Rank 1 | an attunement stance, off-GCD, 30% mana; the pack draws these per element as RM Tattoo <element> |
+| Runic Tattoos: Earth | 801094 | all | longterm | Rank 1 | an attunement stance, off-GCD, 30% mana; the pack draws these per element as RM Tattoo <element> |
+| Runic Tattoos: Fire | 801106 | all | longterm | Rank 1 | an attunement stance, off-GCD, 30% mana; the pack draws these per element as RM Tattoo <element> |
+| Runic Tattoos: Frost | 807834 | all | longterm | Rank 1 | an attunement stance, off-GCD, 30% mana; the pack draws these per element as RM Tattoo <element> |
+| Runic Tattoos: Water | 801107 | all | longterm | Rank 1 | an attunement stance, off-GCD, 30% mana; the pack draws these per element as RM Tattoo <element> |
 | Runic Tempest | 560036 | engravement | offensive |  | shipped pack, band RM Offense; verified in game |
 | Runic Wrath | 800737 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Salvage Fragments | 805797 | all | utility |  | consumes 1 Inscribed Rune to cut the next Familiar cooldown by 33% |
@@ -289,13 +289,13 @@ spells — the specs that have no override use the default.
 | Water Carving | 707142 | all | buff | Aura | shipped pack, `RM Engravement Buffs Water Carving`; verified in game |
 | Water Engraving | 653214 | all | longterm | Passive | tracked collectively by the per-element RM Engraving displays and the No Engraving alert |
 | Waveforged | 500469 | all | ignore |  | db.exil.es rank=proc -- not a castable ability |
-| Weapon Engraving: Air | 653222 | all | utility | Engraving | seed: Ability; sidekicks e4/r3 |
-| Weapon Engraving: Arcane | 653263 | all | utility |  | seed: Ability; no sidekick mention |
-| Weapon Engraving: Earth | 653218 | all | utility | Engraving | seed: Ability; sidekicks g4/e8 |
-| Weapon Engraving: Fire | 653022 | all | utility | Engraving | seed: Ability; sidekicks g2/e6/r1 |
-| Weapon Engraving: Frost |  | all | utility |  | seed: no sidekick mention; RENDERED BY THE PACK as `RM Engraving Ice` |
-| Weapon Engraving: Ice | 653217 | all | utility |  | seed: Ability; sidekicks r1 |
-| Weapon Engraving: Water | 653213 | all | utility | Engraving | seed: Ability; sidekicks r1 |
+| Weapon Engraving: Air | 653222 | all | longterm | Engraving | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
+| Weapon Engraving: Arcane | 653263 | all | longterm |  | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
+| Weapon Engraving: Earth | 653218 | all | longterm | Engraving | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
+| Weapon Engraving: Fire | 653022 | all | longterm | Engraving | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
+| Weapon Engraving: Frost |  | all | longterm |  | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
+| Weapon Engraving: Ice | 653217 | all | longterm |  | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
+| Weapon Engraving: Water | 653213 | all | longterm | Engraving | one of the weapon engravings; the pack draws these per element as RM Engraving <element> plus the No Engraving alert |
 | Well Educated | 800495 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Whisperwind | 807823 | glyphic | utility |  | shipped pack, band RM Utility; verified in game |
 | Wild Magic | 804103 | all | ignore | Proc | db.exil.es rank=Proc -- not a castable ability |

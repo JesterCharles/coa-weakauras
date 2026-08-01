@@ -334,7 +334,22 @@ def main(argv):
         m = meta.get(str(sid), {})
         meta_str = (book.get(name) or {}).get("meta", "")
 
-        specs = ",".join(cd.get("specs") or []) or "all"
+        # Specs: the cooldown audit first, then the skillbook, then `all`.
+        #
+        # The audit only has a row for an ability with a cooldown, so every
+        # filler, spender and direct heal fell through to `all` and rendered on
+        # every spec. Accelerate, Decelerate, Chronostasis, Moment's Reprieve
+        # and Rehatch each did exactly that: five single-spec abilities drawn
+        # on all three.
+        #
+        # The skillbook fallback is sound for the reason set out in
+        # sidekick_skills.py -- coaKits states each spec's abilities outright,
+        # which is a different thing from the mention-count inference this
+        # module refuses to make. It still loses to the audit, to a hand edit
+        # and to an in-game tooltip.
+        specs = ",".join(cd.get("specs") or []) \
+            or ",".join((book.get(name) or {}).get("specs") or []) \
+            or "all"
         rank = m.get("rank") or ""
         if not rank:
             found = RANK_IN_META.search(meta_str)

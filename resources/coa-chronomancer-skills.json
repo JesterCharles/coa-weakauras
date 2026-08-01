@@ -2,906 +2,2173 @@
  {
   "name": "A Ripple In Time",
   "icon": "ability_paladin_righteousvengeance",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Your damaging and healing critical strikes now reduce the remaining cooldown of Ripple by sec."
+ },
+ {
+  "name": "Accelerate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Accelerates magic used against the targeted party member, increasing damage taken from spells by up to and healing spells by. Lasts."
  },
  {
   "name": "Accelerated Mending",
-  "icon": "spell_nature_astralrecalgroup",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Accelerated Recovery now increases healing received by an ally by %."
  },
  {
   "name": "Accelerated Recovery",
   "icon": "spell_holy_healingfocus",
-  "meta": "Ability Lvl 10 \u00b7 max L58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Accelerates the bodies natural healing process, healing the target for its value over. Increases healing done to an ally by %. Periodic healing done by this scales with your spell haste."
  },
  {
   "name": "Aeon of Oblivion",
   "icon": "inv_trinket_80_kultiras02e",
-  "meta": "Talent"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases Epoch's mana cost by %, critical strike chance by %, and healing done by %. In addition, healing with Epoch now increases the target's damage dealt by %. Shares a cooldown with other Aeon spells."
  },
  {
   "name": "Aeon of Protection",
   "icon": "inv_trinket_80_kultiras02d",
-  "meta": "Talent"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases Epoch's cast time by %, healing done by %, and causes it to apply a damage absorption shield equal to 30% of the amount healed. Shares a cooldown with other Aeon spells."
  },
  {
   "name": "Aeon of Renewal",
   "icon": "inv_trinket_80_kultiras02b",
-  "meta": "Talent"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces Epoch's healing by %, but causes it to heal for an additional its value% of the amount healed over. Shares a cooldown with other Aeon spells. Healing done by this ability cannot critically hit."
  },
  {
   "name": "Aeon of Resilience",
   "icon": "inv_trinket_80_kultiras02a",
-  "meta": "Ability"
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "time"
+  ],
+  "desc": "Level 10 Passive Teaches you Aeon of Resilience."
  },
  {
   "name": "Aether Compression",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 57"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Continuum Spell Artificer's Wand and Reverse Wound can be cast while moving. Duration increased by sec per Echo Fragment. Can only have 1 Continuum spell active at a time."
  },
  {
   "name": "Age of Empires",
-  "icon": "spell_holy_divineshield",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces the cooldown of your Shield of Ages by sec and increases its effectiveness by %."
+ },
+ {
+  "name": "Ahead of the Game",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Every 10th instance of your damage dealt or healing now gives you 60 increased spell power for 10 seconds."
  },
  {
   "name": "Ancient Text",
-  "icon": "inv_jewelry_trinket_18",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Enscribe increases your Wand attack speed by % for sec."
  },
  {
   "name": "Arc Collision",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 57"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Distortion Spell Create a timestorm around an enemy that causes them and up to nearby enemies to take its value Arcane damage, repeating over. Duration increased by sec for each Echo Fragment consumed."
  },
  {
   "name": "Archaeology",
   "icon": "inv_pick_05",
-  "meta": "Ability"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Causes wand attacks to grant Sands of Time."
+ },
+ {
+  "name": "Artificer's Amplification",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Grants the ability to use Artificer Chronobuffs. Can only have one effect active at a time. These abilities scale based on your Spirit."
  },
  {
   "name": "Artificer's Empowerment",
   "icon": "inv_azeritedebuff",
-  "meta": "Talent Rank 1"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases your Spirit by %."
  },
  {
   "name": "Artificer's Magic",
-  "icon": "inv_glove_mail_nazmirraid_d_01",
-  "meta": "Ability Chronobuff"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Gain spell power based on your Spirit."
  },
  {
   "name": "Artificer's Spellplate",
-  "icon": "inv_shoulder_plate_nazmirraid_d_01",
-  "meta": "Ability Chronobuff"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Gain magic resistance based on your Spirit."
  },
  {
   "name": "Artificer's Toughness",
-  "icon": "inv_chest_mail_nazmirraid_d_01",
-  "meta": "Ability Chronobuff"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Gain Armor based on your Spirit."
+ },
+ {
+  "name": "Artificer's Wand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Focus to unleash 2 wand attacks dealing Ranged Weapon damage plus its value over. Generates 1 Echo Fragment."
  },
  {
   "name": "Babify",
-  "icon": "inv_snowkid",
-  "meta": "Talent Lvl 6"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Transform the enemy into a baby, preventing it from acting for (8 sec vs players), damage dealt will interrupt this effect. Removes harmful magic effects from the target, and can only affect 1 target at a time. Only works on Humanoids and Beasts."
  },
  {
   "name": "Backtrack",
-  "icon": "ability_paladin_speedoflight",
-  "meta": "Ability Lvl 34"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Marks an enemy's location, yanking them back to the location after."
  },
  {
   "name": "Balance of Power",
-  "icon": "achievement_zone_spiresofarak",
-  "meta": "Ability Rank 1"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the effectiveness of Chromatic Empowerment and Order Empowerment stacks by %."
  },
  {
   "name": "Beam of Time",
-  "icon": "nhi_corruptionbeam_border",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Damage dealt by your Chronobeam now applies Passage of Time to the target."
  },
  {
   "name": "Biting Chaos",
-  "icon": "_virus_yellow",
-  "meta": "Talent Specialization"
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Level 40 Passive Damage dealt by your Melt Reality now extends the duration of your active Decomposition on the target by sec."
  },
  {
   "name": "Black Hole",
   "icon": "spell_shadow_mindtwisting",
-  "meta": "Ability Rank 2"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the damage of Chronurgy by % against enemies affected by Decomposition. Increases the critical strike damage bonus of your spells by %."
  },
  {
   "name": "Breath of Time",
   "icon": "inv_pet_wisp_gold",
-  "meta": "Ability Lvl 10"
+  "meta": "Ability Lvl 10",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Buy Time",
   "icon": "ability_racial_timeismoney",
-  "meta": "Ability"
+  "meta": "Ability",
+  "specs": [
+   "artificer",
+   "time"
+  ],
+  "desc": "Stop time in a yds radius. Up to 10 party members and enemies in the area, or those that enter the area within the duration, will become frozen in time, effectively stunning them for the duration. Affected targets are immune to damage and receive % reduced healing."
  },
  {
   "name": "Carbon Dating",
   "icon": "trade_archaeology",
-  "meta": "Ability Rank 1 \u00b7 max L0"
+  "meta": "Talent",
+  "specs": [
+   "time"
+  ],
+  "desc": "Sands of Time stacks boost the healing of Epoch by %."
  },
  {
   "name": "Chaos Embrace",
   "icon": "inv_chest_armor_voidelf_d_01",
-  "meta": "Ability Lvl 12"
+  "meta": "Ability Lvl 12",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Chaos Omen",
   "icon": "inv_misc_starmetal",
-  "meta": "Ability Lvl 58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Gravity Bomb by sec, and its explosion occurs sec faster."
  },
  {
   "name": "Charm of Power",
   "icon": "inv_inscription_trinket_healer",
-  "meta": "Ability Lvl 58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the damage dealt by Gravity Bomb by %."
  },
  {
   "name": "Chromatic Misalignment",
-  "icon": "inv_offhand_stratholme_a_02",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces the cooldown of Fray Magic by sec and causes it to increase the target's resource costs by % while interrupted."
+ },
+ {
+  "name": "Chromatic Shard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Fling a shard of chaos at an enemy, dealing its value Chromatic Damage, piercing immunities and resistances. Dealing damage with Anomaly Spikes reduces the cast time of this ability by %, stacking times."
  },
  {
   "name": "Chromatic Shards",
-  "icon": "inv_enchanting_wod_crystalshard2",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "For each stack of Chromatic above 10, Chronobeam will launch a Chromatic Shard at the target. Each tick causes Chromatic Damage and generates 1 Order."
  },
  {
   "name": "Chromie's Wisdom",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 12"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Share Chromie's wisdom with an allied player, increasing their Spirit. Lasts. Only one Wisdom per Chronomancer can be active."
  },
  {
   "name": "Chronicler",
   "icon": "ability_priest_bindingprayers",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Casting Fortify Timeline now extends the duration of Accelerated Recovery on all targets within yds by an additional sec."
  },
  {
   "name": "Chronicles of History",
-  "icon": "inv_inscription_weaponscroll02",
-  "meta": "Talent Rank 1 \u00b7 max L51"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "You begin magically documenting the actions of an ally. At the end of the duration, they will recast all spells abilities that they cast during the documentation period upon their current target."
  },
  {
   "name": "Chrono Herald",
-  "icon": "spell_holy_mindvision",
-  "meta": "Ability Rank 1 \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces the cooldown of Aeons by sec."
  },
  {
   "name": "Chrono Mend",
   "icon": "priest_icon_chakra",
-  "meta": "Ability Lvl 13"
+  "meta": "Ability Lvl 13",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Chrono Sorcery",
-  "icon": "_castercloak_arcanes",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases maximum mana by % and spell damage by % of Intellect."
+ },
+ {
+  "name": "Chronostasis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "3 Charges, 15 sec recharge Slows an enemy's movement speed by %."
  },
  {
   "name": "Clasp of Infinity",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 10"
+  "icon": "_warlock_brise_ame",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place. While rooted, targets take % increased damage."
  },
  {
   "name": "Clocked In",
-  "icon": "ability_racial_timeismoney",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Casting Discordance now makes your next Artificer's Wand within instant cast and causes it to generate an additional Echo Fragment."
  },
  {
   "name": "Collapse",
-  "icon": "spell_arcane_arcane01_nightborne",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Marks an enemy. At the end of the duration, they will be stunned. The target takes % increased periodic damage while stunned. Dare you to use this."
  },
  {
   "name": "Concentrated Fate",
   "icon": "inv_wand_1h_warfrontsalliance_c_01",
-  "meta": "Talent Passive"
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the effectiveness of your Echo Fragments by %."
+ },
+ {
+  "name": "Conduction Burst",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Your Shatter Echo now deals % additional damage while a Continuum spell is active."
+ },
+ {
+  "name": "Constant Recovery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Healing done by Reverse Wound now increases all healing taken the target receives by 6% for 10 seconds."
  },
  {
   "name": "Continuum Restoration",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 31"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Restore the continuum at target location for all allies and enemies, removing all beneficial magic effects from enemies and harmful magic effects from allies. This dispel is potent enough to remove magic effects that are normally undispellable"
+ },
+ {
+  "name": "Converge the Infinite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Casting Fortify Timeline now grants you Converge the Infinite."
  },
  {
   "name": "Correct the Mistake",
   "icon": "5_heal_border",
-  "meta": "Talent Lvl 15 \u00b7 max L48"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Retell the fate of party members within yds, healing them for its value."
  },
  {
   "name": "Crown of Power",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the tick rate of Melt Reality by %."
  },
  {
   "name": "Crystal Cannon",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Specialization"
+  "icon": "inv_wand_1h_draenorraid_d_01blue",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Level 30 Passive Casting Discordance now unleashes the Crystal Cannon, launching 2 quick lesser Wand attacks at the enemy over, scaling with Spirit."
+ },
+ {
+  "name": "Cursed ID - Procs wont work on it",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Tailwind now empowers your Air Elemental with Gift of Air."
  },
  {
   "name": "Dark Star",
-  "icon": "spell_priest_divinestar_shadow",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Reduces the cooldown of Gravity Bomb by sec."
+ },
+ {
+  "name": "Dazzled",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Blinds the target, causing it to wander disoriented for. Any damage caused will remove the effect."
+ },
+ {
+  "name": "Decelerate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Decelerates magic used against the targeted party member. Reduces all spell damage taken by % and reduces all healing taken by %."
+ },
+ {
+  "name": "Decomposition",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Distortion Spell Decompose an enemy, dealing Chromatic Damage over. This damage is dealt slowly, and accelerates as it reaches the full duration. Damage increased by % for each Echo Fragment consumed. Haste does not decrease the duration but increases the total"
  },
  {
   "name": "Deconstruction",
   "icon": "inv_chest_armor_voidelf_d_01",
-  "meta": "Talent Rank 1"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the critical strike chance of Unmake by %."
+ },
+ {
+  "name": "Destabilize Time",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Reduces enemy casting speed by %, increasing by % every time they cast. Gaining stacks does not extend the duration of the spell."
+ },
+ {
+  "name": "Destroyer's Legacy",
+  "icon": "spell_shaman_firenova",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Causes Fire Damage to nearby enemies."
+ },
+ {
+  "name": "Desynchronization",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Shift an enemy out of sync with the present, causing their grip to fail, disarming their melee and ranged weapons. Upon removal, they are resynced, preventing them from regenerating their health."
  },
  {
   "name": "Dilation",
-  "icon": "inv_magemount",
-  "meta": "Talent \u00b7 max L0"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer",
+   "infinite"
+  ],
+  "desc": "Shields your spellcasting, granting Immunity to Interrupt effects and prevents pushback from taking damage while casting. Usable while casting or channeling another spell."
+ },
+ {
+  "name": "Dimensional Divergence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Swap places with a target. they're an enemy, you steal % of their movement speed."
  },
  {
   "name": "Dimensional Phasing",
-  "icon": "ability_priest_phantasm",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces magic damage taken by % and causes taking damage to increase your movement speed by %. This can occur only once every 10 seconds."
  },
  {
   "name": "Discordance",
-  "icon": "spell_animamaw_missile",
-  "meta": "Talent Lvl 8 \u00b7 max L42"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Blast an enemy and up to its value nearby enemies for its value Chromatic Damage. Generates 1 Echo Fragment."
  },
  {
   "name": "Discordant Blast",
-  "icon": "inv_enchant_voidsphere",
-  "meta": "Ability Rank 1 \u00b7 max L58"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Hurl a mass of chaotic magic an enemy target for Time Damage. Time Damage is a combination of Frost and Arcane. Grants 1 Chromatic. While Chromatic Incarnate is active, this ability deals % increased damage."
  },
  {
   "name": "Discovery",
   "icon": "5_wandshot_(2)_border",
-  "meta": "Talent Lvl 15"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Casting Artificers's Wand and Wand of Time now grants Discovery, stacking times."
  },
  {
   "name": "Discs Upon Discs",
-  "icon": "inv_7_0raid_trinket_04a",
-  "meta": "Talent Passive \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Reduces the cooldown of Disc of Legend by sec."
  },
  {
   "name": "Disenchant Weapon",
-  "icon": "inv_enchant_disenchant",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Reduces the cooldown of Fray Magic by sec and causes it to also Disarm the target."
+ },
+ {
+  "name": "Dismiss Protector",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Dismiss your Bronze Protector."
+ },
+ {
+  "name": "Displacement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Displaces a party or raid member and pulls them to you, dispelling root and snare effects from them."
+ },
+ {
+  "name": "Distorted Time",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Reduces the cooldown of Timerend by sec and increases the duration of Decomposition by sec."
  },
  {
   "name": "Do Over",
-  "icon": "ability_crown_of_the_heavens_icon",
-  "meta": "Ability Lvl 10"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Restores a dead ally to life with health and mana. Cannot be cast when in combat."
  },
  {
   "name": "Echo",
-  "icon": "inv_misc_trinket6oih_orb4",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "While at 4 stacks of Discovery, casting Unearth consumes these stacks to generate an Echo."
+ },
+ {
+  "name": "Echo Fragments",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Level 10 Passive Wand of Time now generates an Echo Fragment, which can be used to unleash Distortion and Continuum spells. Decomposition is now a Distortion spell, dealing increased damage based on how many Echo Fragments you have."
  },
  {
   "name": "Elder Tome",
-  "icon": "_book5_brown",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "While Chronostasis is active on an enemy, your Timerend will not expire on them."
  },
  {
   "name": "Empowered Restoration",
-  "icon": "spell_holy_healingaura",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases healing done by %."
  },
  {
   "name": "Enchanted Collar",
-  "icon": "inv_misc_cat_trinket07",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the damage dealt by your pet by % and reduces damage it takes by %."
  },
  {
   "name": "End of Time",
-  "icon": "spell_priest_divinestar_shadow2",
-  "meta": "Talent Specialization"
+  "icon": "",
+  "meta": "Talent Passive Lvl 50",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Level 50 Passive Mind Melt now also increases the target's periodic damage taken from you by % per stack."
  },
  {
   "name": "Endless Sands",
   "icon": "inv_enchant_dustspirit",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Casting Epoch now grants you Endless Sands."
  },
  {
   "name": "Entropy Overload",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your chance to resist movement slowing effects by %."
+ },
+ {
+  "name": "Entropy Reversal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of disease effects by -40%."
  },
  {
   "name": "Epic Recovery",
   "icon": "inv_shield_1h_bastionquest_b_01",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "When you cast Epoch you now also cast a Rank 1 Epoch on up to allies affected by Accelerated Recovery."
  },
  {
   "name": "Epoch",
-  "icon": "ability_rewindtime",
-  "meta": "Ability Rank 1 \u00b7 max L58"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite",
+   "time"
+  ],
+  "desc": "Blasts the target for Time Damage. Time Damage is a combination of Arcane and Frost. Grants 1 Order."
  },
  {
   "name": "Erase",
-  "icon": "spell_animamaw_wave",
-  "meta": "Ability Lvl 15"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Periodic damage taken from the Chronomancer's periodic effects increased by %."
  },
  {
   "name": "Erasion",
   "icon": "spell_animamaw_wave",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the chance to trigger Anomaly Spikes by % and their damage by %."
+ },
+ {
+  "name": "Eternal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of your Accelerated Recovery by 6 sec and Decomposition by 3 sec."
  },
  {
   "name": "Eternity",
   "icon": "inv_enchant_dreamshard_01",
-  "meta": "Ability Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Your Clasp of Infinity now increases your damage dealt to the target by %."
  },
  {
   "name": "Eternity Warper",
-  "icon": "ability_bossmagistrix_timewarp2",
-  "meta": "Talent Specialization"
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "time"
+  ],
+  "desc": "Level 50 Passive Your Ripple channel performs a unique effect based on your active Aeon:"
  },
  {
   "name": "Eternity's End",
-  "icon": "_d3slowtime",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Reduces the cooldown of Thread of Eternity by sec."
  },
  {
   "name": "Expediting Time",
-  "icon": "spell_holy_ashestoashes",
-  "meta": "Ability Lvl 28"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the channel time of your Time Out! by %."
  },
  {
   "name": "Fabric of Time",
   "icon": "spell_monk_diffusemagic",
-  "meta": "Talent Lvl 27 \u00b7 max L52"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Alter the fabric of time, healing an ally for its value. Your next Aeon used within will trigger with no cooldown or cost."
  },
  {
   "name": "Fate Twister",
   "icon": "spell_arcane_blast",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Reduces the cooldown of Unstable Chronoglass by sec."
  },
  {
   "name": "Flow of Infinity",
-  "icon": "inv_enchanting_crystal",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Causes % of all Threat you generate to be redirected to your active permanent pet."
  },
  {
   "name": "Flux Emitter",
-  "icon": "inv_wand_25",
-  "meta": "Talent Lvl 29"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Continuum Spell Empower Wand attacks to affect up to its value additional nearby enemies for 3 sec plus sec per Echo Fragment. Affected attacks deal less damage per additional enemy hit. Can only have 1 Continuum spell active at a time."
  },
  {
   "name": "Fortify Timeline",
   "icon": "achievement_guildperk_workingovertime_rank2",
-  "meta": "Talent Lvl 27"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Fortify the current timeline, instantly healing all allies for its value and extending the duration of Accelerated Recovery on them by sec."
  },
  {
   "name": "Fracture Timeline",
-  "icon": "achievement_bg_winwsg_underxminutes",
-  "meta": "Talent Lvl 8"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Creates a clone of an enemy player for which will deal % of all damage it takes to the original target."
  },
  {
   "name": "Future Vision",
-  "icon": "priest_icon_chakra",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "See into the future, causing your direct critical strikes to grant your next spell % increased haste."
  },
  {
   "name": "Gift of the Infinite Dragonflight",
-  "icon": "spell_shadow_skull",
-  "meta": "Talent Specialization"
+  "icon": "",
+  "meta": "Talent Passive Lvl 20",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of your Spirit and your spell hit rating by % of your Spirit."
  },
  {
   "name": "Gift of the Timeways",
   "icon": "spell_holy_persecution",
-  "meta": "Talent Passive \u00b7 max L0"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Casting Melt Reality now causes your Timerend and Unmake's periodic damage to benefit from haste."
  },
  {
   "name": "Gravity Bomb",
   "icon": "spell_mage_supernova",
-  "meta": "Ability Lvl 14 \u00b7 max L58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Places a gravity bomb on the target. After, they explode for Shadow damage and pull other nearby enemies toward their position. The target takes % increased damage from you during the delay. This spell belongs to Chromatic."
+ },
+ {
+  "name": "Greater Chromie's Wisdom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Empowers nearby party and raid members, increasing their Spirit. Lasts."
+ },
+ {
+  "name": "Greater Nozdormu's Wisdom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Share Nozdormu's Wisdom with an allied player, increasing their Intellect by."
  },
  {
   "name": "Hasten",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 36"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Hasten time for an ally, increasing movement speed and haste by % and granting them a % chance when they deal damage to strike the target an additional time equal to % of the damage dealt. Lasts.?s706099[ While active the cooldowns of Dimensional Divergence, Backtrack, and |c"
  },
  {
   "name": "Hourglass of Eternity",
   "icon": "inv_relics_hourglass",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to grant you % increased haste."
  },
  {
   "name": "Hyperwand",
   "icon": "inv_misc_cat_trinket10",
-  "meta": "Talent Passive"
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the damage and critical damage of your Shatter Echo by %."
+ },
+ {
+  "name": "Impeccable Timing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your periodic damage and healing effects can now critically strike."
  },
  {
   "name": "Improved Past Self",
-  "icon": "spell_mage_overpowered",
-  "meta": "Talent Rank 1 \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces the cooldown of Past Self by sec."
  },
  {
   "name": "Improved Reverse Wound",
   "icon": "spell_holy_blessedrecovery",
-  "meta": "Ability Rank 1 \u00b7 max L12"
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Reverse Wound by sec."
  },
  {
   "name": "Improved Temporal Focus",
-  "icon": "inv_staff_03",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases the duration of Temporal Focus by sec and reduces its cooldown by sec."
  },
  {
   "name": "Improved Time Stop",
-  "icon": "spell_frost_stun",
-  "meta": "Talent Rank 1 \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces the cooldown of Mend Timeline by sec."
  },
  {
   "name": "Incarnation",
-  "icon": "achievement_bg_overcome500disadvantage",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Whenever you reach 20 stacks of either Order or Chromatic, you will now gain an Incarnate effect."
+ },
+ {
+  "name": "Incarnation of Chaos",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Transform into an Incarnate of Chaos, instantly resetting the cooldown of Chromatic Shard and causing your next cast to not incur a cooldown. In addition, your damage dealt is increased by %."
  },
  {
   "name": "Incarnation of Order",
-  "icon": "novart_magicspell_(39)_border",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Transform into an Order Incarnate, causing your Order spells to hit additional enemies while in Order Empowerment."
  },
  {
   "name": "Infinite - Level 30 Passive",
-  "icon": "spell_frost_manaburn",
-  "meta": "Ability Specialization"
+  "icon": "",
+  "meta": "Talent Passive Lvl 30",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Level 30 Passive Increases the tick rate of Decomposition, Accelerated Recovery and Chronobeam by %."
  },
  {
   "name": "Infinite Clone",
-  "icon": "ability_priest_savinggrace",
-  "meta": "Ability Lvl 30"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Create an Infinite Clone of yourself for that records your current location, health, and mana. You can cast Rewind to reset your location, health and mana to the recorded state."
+ },
+ {
+  "name": "Infinite Guard",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Level 40 Passive Increases the effectiveness of your Temporal Resilience, Temporal Swiftness, and Temporal Restoration spells by %."
  },
  {
   "name": "Infinite Horizon",
-  "icon": "achievement_boss_triumvirate_shadowguardetherealmelee",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the all damage dealt by party and raid members by %. Does not stack with similar effects. In addition, your Unmake and Timerend gain an additional % bonus spell scaling."
  },
  {
   "name": "Infinite Keeper",
-  "icon": "inv_inscription_armorscroll02",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Using Unmake on an enemy affected by your Timerend now causes the enemy to erupt in a vortex of sand, dealing its value Chromatic Damage every sec to up to enemies for in an yd radius."
+ },
+ {
+  "name": "Infinite Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Level 10 Passive Casting damaging spells now reduces your damaging spell cooldowns by % of their remaining cooldown."
  },
  {
   "name": "Infinite Sands",
   "icon": "ability_priest_voidshift",
-  "meta": "Ability Lvl 26"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Infinite Clone by sec."
  },
  {
   "name": "Infinite Shield",
   "icon": "sha_spell_fire_felfireward",
-  "meta": "Ability Lvl 58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Shield an ally with 10 charges of Infinite Shield. Each time they take damage, they will be healed for its value and lose 1 charge. Can only occur once per sec and can only affect 1 target at a time."
  },
  {
   "name": "Infinite Shroud",
   "icon": "inv_belt_armor_voidelf_d_01",
-  "meta": "Ability Lvl 30"
+  "meta": "Ability Lvl 30",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Infinite Tome",
-  "icon": "trade_archaeology_draenei_tome",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Every time you cast a Chromatic or Order spell, you will gain a Chromatic Charge or Order Charge respectively. Upon reaching 4 charges of any kind, you will perform an additional effect based on the combination of charges. Order + Order + Order + Order = Add 3 stacks of Accelerated Recovery to party and raid members within 40 yards. Or"
  },
  {
   "name": "Infinite Wrath",
   "icon": "sha_inv_elemental_primal_shadow_nightborne",
-  "meta": "Ability Lvl 1"
+  "meta": "Ability Lvl 1",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Infinity",
-  "icon": "achievement_zone_thousandneedles_01",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the cooldown of Infinite Shield."
  },
  {
   "name": "Infinity Crash",
-  "icon": "spell_shadow_auraofdarkness",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the critical damage of Discordance and Chromatic Shard by %."
+ },
+ {
+  "name": "Infinity Stone",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, increases your critical strike chance by %."
+ },
+ {
+  "name": "Instilling Balance SLS",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Shifting Sands now increases damage taken from your Order spells by %."
+ },
+ {
+  "name": "Keeper of Balance Trigger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": ""
  },
  {
   "name": "Last Wish",
-  "icon": "spell_holy_impholyconcentration",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the damage of your Pendant of Time and Gravity Bomb by % and causes them to grant you an Orb of Fate."
+ },
+ {
+  "name": "Life Cycles",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of your Babify by 0.25 sec and its mana cost by -15%."
  },
  {
   "name": "Luck",
   "icon": "racial_dwarf_findtreasure",
-  "meta": "Talent Rank 1"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Allows % of your mana regeneration to continue while in combat."
  },
  {
   "name": "Luck or Fate?",
-  "icon": "achievement_halloween_smiley_01",
-  "meta": "Ability \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": ""
  },
  {
   "name": "Magic Erosion",
   "icon": "spell_shadow_charm",
-  "meta": "Talent Passive"
+  "meta": "Talent",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Your Decomposition|R now applies Magic Erosion to the target, increasing attackers chance to hit the target with spells by %."
+ },
+ {
+  "name": "Maker of Realities",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Hasten now also always reduces the cast time of your healing spells by an additional -20%."
  },
  {
   "name": "Mark of Order",
   "icon": "inv_inscription_80_vantusrune_uldir",
-  "meta": "Ability Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Healing done by Fortify Timeline now applies Mark of Order."
+ },
+ {
+  "name": "Mass Babify",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Instantly transform all enemies into a baby, preventing them from acting for 40 seconds, damage dealt will interrupt this effect. While babified, enemies will rapidly regenerate health. Scales with modifiers to Babify."
  },
  {
   "name": "Mass Decomposition",
-  "icon": "achievement_boss_triumvirate_voidbrokenbrute",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Chronurgy spreads Decomposition to enemies within yds."
  },
  {
   "name": "Master of Chaos",
-  "icon": "spell_shadow_charm",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the damage dealt by Chromatic spells by %."
  },
  {
   "name": "Master of Duality",
-  "icon": "uico_shadow_spell_09_nobg_border",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the damage of Chromatic and Order spells by %."
  },
  {
   "name": "Master of Order",
-  "icon": "spell_holy_spiritualguidence",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the damage of Order spells by %."
  },
  {
   "name": "Maw of Chaos",
-  "icon": "inv_voiddragonmount",
-  "meta": "Ability Lvl 10"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Instantly Heals an ally, increasing their Spell Haste by %. Grants 1 Chromatic."
  },
  {
   "name": "Melt Reality",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 13 \u00b7 max L48"
+  "icon": "uico_shadow_spell_07_nobg_border",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Melt the target's reality, dealing its value Chromatic Damage every sec. While active, periodic damage dealt to the target is replicated for % of the value to all enemies near them."
+ },
+ {
+  "name": "Mind Over Matter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Wisdom spells by 20%."
+ },
+ {
+  "name": "Moment's Reprieve",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Grant a party or raid member a moment of reprieve, reducing their total threat by % every sec."
+ },
+ {
+  "name": "Not Even A Scratch",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "time"
+  ],
+  "desc": "Level 30 Passive Your Reverse Wound now gains an additional % of your bonus healing."
+ },
+ {
+  "name": "Nozdormu's Wisdom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Share Nozdormu's Wisdom with an allied player, increasing their Intellect by. Only one Wisdom per Chronomancer can be active."
+ },
+ {
+  "name": "Order and Chaos",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Order and Chaos stacks will always add up to 20, empowering abilities of the same type. Reaching 20 stacks of either kind will reset them back to"
  },
  {
   "name": "Orderly Protector",
   "icon": "icon_dragonflygold",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Healing done by your Epoch now increases the healing of Fabric of Time by %, stacking times. Each stack gives you a % chance when you cast Fabric of Time to reset its own cooldown."
  },
  {
   "name": "Paradox Cannon",
-  "icon": "inv_staff_2h_artifactaegwynsstaff_d_06",
-  "meta": "Talent Lvl 29"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Continuum Spell Generate 1 Echo Fragment every sec, plus an additional sec per Echo Fragment consumed. Can only have 1 Continuum spell active at a time."
  },
  {
   "name": "Past Mistakes",
-  "icon": "epic_rpg_icon_pack_general_icon_0000s_0000_book_border",
-  "meta": "Talent Lvl 40"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Expose an enemy's past, causing them to take % more magic damage from you."
  },
  {
   "name": "Past Self",
-  "icon": "ability_paladin_beaconsoflight",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Creates a clone of an ally for which will mimic their spells and abilities (except this spell) on a 2 sec delay. After being targeted by this spell, Past Self cannot be cast on the ally again. you cast this spell on yourself, you cannot cast it again at all for another."
+ },
+ {
+  "name": "Perfect Timing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your haste by 4% and reduces your spell pushback suffered from damaging attacks by 35%. (up to 2 ranks)"
+ },
+ {
+  "name": "Plaguestorm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Deals Plague damage in a yd radius."
  },
  {
   "name": "Plentiful Orbs",
-  "icon": "inv_7_0raid_trinket_06a",
-  "meta": "Ability Rank 1 \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Allows Echo to stack additional time."
+ },
+ {
+  "name": "Procrastination",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Timeguard by -30 sec."
  },
  {
   "name": "Protector Training",
-  "icon": "inv_7_0raid_trinket_05d",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Reduces the cooldowns of your pet's spells and abilities by %."
  },
  {
   "name": "Pulse Driver",
-  "icon": "inv_wand_33",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Singularity Core now increases the damage of Shatter Echo while its active by % and allows Shatter Echo to trigger its damage."
  },
  {
   "name": "Quickcaster",
-  "icon": "spell_nature_mentalquickness",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases haste by %."
  },
  {
   "name": "Reconstruction",
-  "icon": "inv_artifact_tome01",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Your damaging Order spells have a % chance to apply a stack of Reconstruction. At 4 stacks, your next Order spell will consume the stacks to deal its value Holy damage to up to enemies."
+ },
+ {
+  "name": "Rehatch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reach your hand back through time, bringing your Bronze Protector back to life."
  },
  {
   "name": "Remake",
-  "icon": "inv_trinket_80_titan02d",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Requires Balance or Order Majority Remakes an ally, Healing them for every. Grants 1 Order."
  },
  {
   "name": "Resonance",
-  "icon": "inv_6_2raid_trinket_4a",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Casting Artificer's Wand or Crystal Cannon now has a % chance to reduce the cooldown of Hasten by sec."
  },
  {
   "name": "Resynchronize",
-  "icon": "achievement_challengemode_auchindoun_hourglass",
-  "meta": "Ability Lvl 52"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Switch to the timeline where your party didn't die, returning all party members to life with health and mana. Can be cast while dead, but cannot be used in combat."
  },
  {
   "name": "Reverse Wound",
-  "icon": "ability_pvp_innerrenewal",
-  "meta": "Ability Lvl 1 \u00b7 max L54"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reverse an ally's wound, healing them for its value. Extends the duration of Accelerated Recovery by sec."
  },
  {
   "name": "Revolving Sands",
-  "icon": "spell_shadow_painfulafflictions",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Alternate between Golden Opportunity and Momentum Shift every sec."
  },
  {
   "name": "Rewind",
-  "icon": "ability_priest_voidshift",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "You rewind back to your last Infinite Clone, setting your health, mana, and position to what it was when the clone was created."
  },
  {
   "name": "Ripple",
   "icon": "inv_staff_2h_nazmirraid_d_01",
-  "meta": "Talent Lvl 11"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Channel for. When the channel ends, you channeled for at least 1.5 sec, allies within yds are healed based on the duration of the channel. While channeling, you are immune to stun effects."
  },
  {
   "name": "Rippling Power",
   "icon": "ability_bossmagistrix_timewarp1",
-  "meta": "Ability Lvl 16"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Spirit by %."
  },
  {
   "name": "Roll Back",
-  "icon": "epic_rpg_icon_pack_general_icon_0003s_0000_clock_border",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Roll back time, cleansing disease and poison effects from an ally target."
  },
  {
   "name": "Rumble",
   "icon": "ability_malkorok_blightofyshaarj_yellow",
-  "meta": "Ability Lvl 1"
+  "meta": "Ability Lvl 1",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Runed Rod",
-  "icon": "inv_jewelry_trinket_02",
-  "meta": "Talent Passive \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Casting Wand of Time increases your attack speed by %."
  },
  {
   "name": "Rust Creation",
-  "icon": "inv_ore_trueironore",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Your Wand attacks now reduce enemy Armor by %."
+ },
+ {
+  "name": "Sand Bomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Launch a blast of magical sand, dealing its value Arcane Damage to up to enemies within yds of the target. This spell belongs to Order. The next time the primary target receives damage, allies within yds are healed for % maximum health."
  },
  {
   "name": "Sandblast",
-  "icon": "spell_sandbolt",
-  "meta": "Ability Lvl 25"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Fire a blast of enchanted sand at an enemy, dealing its value Arcane Damage and granting you Sands of Time. This spell belongs to Order."
  },
  {
   "name": "Sandpage",
-  "icon": "_book2motif_paladinsamwise",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases the damage of Sand Bomb by %."
  },
  {
   "name": "Sands of Life",
   "icon": "spell_quicksand",
-  "meta": "Talent Rank 1"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases your healing power by % of your Spirit."
  },
  {
   "name": "Sands of Time",
-  "icon": "inv_inscription_tarot_earthquakecard",
-  "meta": "Ability Lvl 17 \u00b7 max L49"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Inflicts Chromatic Damage to enemies in a yd cone and reduces their movement speed by %."
  },
  {
   "name": "Saviour",
-  "icon": "spell_holy_redemption",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Reverse Wound now extends the duration of Accelerated Recovery by sec."
  },
  {
   "name": "Shatter Echo",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 11"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Distortion Spell Launch a distorted echo from your wand at an enemy, dealing % Ranged Weapon damage plus its value Arcane damage. Damage increased by % for each Echo Fragment consumed."
  },
  {
-  "name": "Shield of the Ages",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 57"
+  "name": "Shattered",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Armor reduced by %."
  },
  {
   "name": "Shield of The Keeper",
-  "icon": "sha_ability_rogue_envelopingshadows",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the healing of Infinite Shield by % and gives it additional charges."
+ },
+ {
+  "name": "Shield of the Ages",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "When hit by a damaging critical strike, your damage taken is reduced by %, and healing received is increased by %, stacking times."
  },
  {
   "name": "Shifting Chaos",
-  "icon": "inv_jewelcrafting_shadowspirit_02",
-  "meta": "Talent Passive"
+  "icon": "inv_pet_chromaticdragon",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Your Chromatic Shard and Anomaly Spikes now deal an additional % their damage dealt as Chromatic Damage all nearby enemies."
  },
  {
   "name": "Shimmering Shard",
   "icon": "inv_misc_gem_x4_uncommon_perfectcut_yellow",
-  "meta": "Talent"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Activating Aeon spells now grants you % increased damage and healing, stacking times."
  },
  {
   "name": "Singularity Core",
-  "icon": "inv_staff_2h_jaina_d_01",
-  "meta": "Talent Lvl 17"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Continuum Spell Empower your Wand attacks to deal an additional % Ranged Weapon Damage plus its value additional Arcane damage for 3 sec plus sec per Echo Fragment. Can only have 1 Continuum spell active at a time."
  },
  {
   "name": "Slipstream",
-  "icon": "spell_priest_void_blast",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Transforms Displacement into Slipstream."
  },
  {
   "name": "Slow Time",
-  "icon": "spell_nature_timestop",
-  "meta": "Ability Lvl 28"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Slows your targets movement speed by % and their attack speed by %. Grants 1 Order."
  },
  {
   "name": "Spatial Distortion",
-  "icon": "ability_mage_studentofthemind",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "When your Ripple heals, you gain Spatial Distortion."
  },
  {
   "name": "Splitting Time",
   "icon": "ability_mage_arcanebarrage_nightborne",
-  "meta": "Ability Passive"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Your Crystal Cannon now strikes additional nearby enemies."
+ },
+ {
+  "name": "Stasis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Incapacitate an enemy. Damage taken will interrupt the effect."
  },
  {
   "name": "Tamed Incantations",
-  "icon": "inv_misc_questionmark",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the duration of Continuum spells per Echo Fragment consumed by sec."
  },
  {
   "name": "Teleport: Caverns of Time",
-  "icon": "spell_arcane_portal_valeofblossoms",
-  "meta": "Ability Lvl 40"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Teleports the caster to the Caverns of Time in Tanaris."
  },
  {
   "name": "Temporal Anomaly",
-  "icon": "novart_magicspell_(39)_border",
-  "meta": "Ability Lvl 26"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Augment reality, causing 50% of the damage taken to be absorbed and converted into healing at the end of the duration."
+ },
+ {
+  "name": "Temporal Dissonance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Chronostasis now slows your target's movement speed by an additional -10%."
  },
  {
   "name": "Temporal Focus",
   "icon": "_d3serenity",
-  "meta": "Ability Lvl 28"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You lock yourself into a perfect moment, removing and becoming immune to banish, silence, and interrupt effects."
+ },
+ {
+  "name": "Temporal Resilience",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Surround yourself with temporal magic, increasing your Armor by its value. While active, an enemy strikes you, they will have their time between their attacks increased by %."
+ },
+ {
+  "name": "Temporal Restoration",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Surround yourself with restorative magic, allows % of your mana regeneration to continue during combat and increases your mana regeneration by % of your Spirit."
+ },
+ {
+  "name": "Temporal Return",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Fly through time back to. You may speak to an Innkeeper in a different place to change your home location."
+ },
+ {
+  "name": "Temporal Swiftness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Surround yourself with bronze magic, increasing your spell haste by % of your Spirit and reducing the duration of Magic spells on you by %."
  },
  {
   "name": "The Bieko Effect",
   "icon": "inv_60pvp_trinket3b",
-  "meta": "Ability Lvl 56"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While Hasten is active the cooldowns of Dimensional Divergence, Temporal Anomaly, and Temporal Focus are reduced by % every sec."
  },
  {
   "name": "The Vast Infinite",
   "icon": "ability_racial_chillofnight",
-  "meta": "Talent Lvl 59"
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "All party and raid members become one, equally sharing 25% of all damage dealt to them, up to a maximum of 100% of their total health. At the end of the duration, all affected allies are healed equal to the total damage shared split evenly amongst all allies."
  },
  {
   "name": "Threads of Eternity",
-  "icon": "inv_tailoring_80_nylonthread",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Damage dealt by Discordance now applies Thread of Eternity to enemies."
+ },
+ {
+  "name": "Time Beacon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases the duration of effects applied by your Aeons by sec."
  },
  {
   "name": "Time Is A Circle",
-  "icon": "inv_wand_1h_maldraxxusquest_b_01",
-  "meta": "Talent Specialization"
+  "icon": "",
+  "meta": "Talent Passive Lvl 40",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Level 40 Passive Casting Wand of Time now extends the duration of your Continuum spells by sec. Continuum spells cannot be extended beyond their maximum duration."
  },
  {
   "name": "Time Loop",
-  "icon": "ability_mage_timewarp",
-  "meta": "Ability Rank 1 \u00b7 max L54"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "You place a Time Loop on an ally. The next spell or ability they use within (that has a resource cost or a cast time) will instantly restore its resource cost and not incur a cooldown."
  },
  {
   "name": "Time Out!",
-  "icon": "spell_nature_timestop",
-  "meta": "Ability Lvl 14"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Enter a stasis, instantly restoring % of your maximum mana and regenerating % of your maximum mana every sec. While active, your damage taken is reduced by % but any direct damage taken may end the effect."
  },
  {
   "name": "Time Skip",
   "icon": "nhi_arcanespeed_border",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Your Roll Back now removes 1 additional harmful effect."
  },
  {
   "name": "Time Stretch",
-  "icon": "_d3slowtime",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Changing Aeons now extends the duration of active buffs applied by Aeons by sec. Aeon buffs cannot be extended beyond their maximum duration."
+ },
+ {
+  "name": "Timeguard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Place a magical guard on an ally, causing the next 3 instances of direct damage that would reduce the target below 35% health to deal % less damage."
+ },
+ {
+  "name": "Timekeeper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of Timeguard by 25%."
  },
  {
   "name": "Timeless",
-  "icon": "spell_nature_mentalquickness",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "time"
+  ],
+  "desc": "While Endless Sands is active, the mana costs of your spells and abilities is reduced by % per stack."
  },
  {
   "name": "Timeline Destroyer",
-  "icon": "_darkhand_shadow",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Empowers Chromatic spells, increasing the magnitude of their effects by % and generating 1 Chromatic every sec. In addition, you generate 1 stack of Chromatic every sec for the duration."
  },
  {
   "name": "Timeline Guardian",
-  "icon": "spell_holy_rebuke",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Empowers Order spells, increasing the magnitude of their effects by % and generating 1 Order every sec."
  },
  {
   "name": "Timeline Tether",
   "icon": "_enslavespell_holy",
-  "meta": "Ability Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Your periodic damage and healing reduces the cooldown of your Fortify Timeline by sec."
  },
  {
   "name": "Timelink",
   "icon": "inv_alchemy_90_reagent_yellow",
-  "meta": "Ability Lvl 40"
+  "meta": "Ability Lvl 40",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Timemancy",
-  "icon": "inv_misc_dust",
-  "meta": "Talent Rank 1 \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "time"
+  ],
+  "desc": "Increases the damage of Sandblast and Unmake by %, and the healing of Epoch by %."
  },
  {
   "name": "Timerend",
   "icon": "spell_animamaw_beam",
-  "meta": "Ability Lvl 4 \u00b7 max L46"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Rend the fabric of time, dealing Chromatic Damage over."
  },
  {
   "name": "Timewalking",
   "icon": "spell_holy_divineprovidence",
-  "meta": "Ability"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Every sec you will leave behind an Infinite Clone that will save your health, mana and physical location at that time. You can rewind back to your clones with the Rewind ability."
  },
  {
   "name": "Timewarped Shield",
-  "icon": "sha_ability_rogue_sturdyrecuperate",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Makes Infinite Shield instant and reduces its mana cost by %."
  },
  {
   "name": "Titan's Gaze",
   "icon": "inv_archaeology_ogres_hargunn_eye",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Your Time Out! no longer breaks on damage, but now only reduces damage taken by 15%."
  },
  {
   "name": "Tome of Chaos",
-  "icon": "_book4_purple",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Generates 5 stacks of Chromatic over."
  },
  {
   "name": "Tome of Time",
-  "icon": "inv_inscription_tomeoftheclearmind",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Generates 1 stack of |CffffffffOrder or Chromatic every sec, whichever is higher."
+ },
+ {
+  "name": "Tripping the Rift",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Clasp of Infinity now reduces the cooldown of Backtrack by -10 sec."
  },
  {
   "name": "Truly Infinite",
-  "icon": "spell_mage_presenceofmind",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Reduces the cooldown of your Ripple by sec."
  },
  {
   "name": "Unearthed Passage",
-  "icon": "inv_7_0raid_trinket_08d",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Casting Melt Reality now reduces the cooldown of Waves of Time, |CffffffffReflection, and Backtrack by %."
+ },
+ {
+  "name": "Unearthed Pools",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Unmake by -15% and reduces the mana cost of your instant spells by 10%."
  },
  {
   "name": "Unmake",
-  "icon": "spell_animamaw_nova",
-  "meta": "Ability Rank 1 \u00b7 max L44"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Unmake an enemy, dealing its value Chromatic Damage over."
  },
  {
   "name": "Unmaker of Realities",
   "icon": "achievement_dungeon_arakkoaspires",
-  "meta": "Ability Lvl 30"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While Hasten is active the ally now has a % chance when they deal damage to strike the target an additional time equal to % of the damage dealt."
  },
  {
   "name": "Unstable Chronoglass",
   "icon": "nhi_arcanesandwatch_border",
-  "meta": "Talent Lvl 29"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Place an Unstable Chronoglass at target location for that will redirect the next 3 offensive enemy spell casts onto itself."
  },
  {
   "name": "Vivid Memory",
-  "icon": "ability_mage_potentspirit",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "time"
+  ],
+  "desc": "Removes the cast time of Infinite Shield and adds charges to it."
+ },
+ {
+  "name": "Wand Expert",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Level 20 Passive Increases your ranged attack power by % of your Spirit."
  },
  {
   "name": "Wand of Entropy",
-  "icon": "invstaff_2h_draenordungeon_c_04",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases the damage dealt by Empower Wand: Chromatic by %."
+ },
+ {
+  "name": "Wand of Time",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Fires off a Wand attack at an enemy and deals an additional Arcane damage. This spell is guaranteed to critically strike against Undead and Demons. Generates 1 Echo Fragment."
+ },
+ {
+  "name": "Warpstriker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Reduces the cost of your spells by % and the chance for your spells to be dispelled by %."
  },
  {
   "name": "Waves of Time",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 10"
+  "icon": "achievement_challengemode_stormstoutbrewery_hourglass",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Blast enemies in a frontal cone with time fractals, knocking them back slightly. The knockback repeats 1 additional time after 2 sec."
  },
  {
   "name": "Wisdom",
-  "icon": "spell_holy_divinespirit",
-  "meta": "Ability Rank 1 \u00b7 max L0"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "artificer"
+  ],
+  "desc": "Increases Spirit by %."
  },
  {
   "name": "Wonders of Time",
   "icon": "ability_hunter_readiness",
-  "meta": "Talent Passive"
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the spell haste of all party and raid members by %. Does not stack with similar effects. Additionally, all healing done now has a % chance to grant you Endless Sands."
  },
  {
   "name": "Wound Removal",
-  "icon": "inv_glove_cloth_raidpriest_r_01_gold",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "infinite"
+  ],
+  "desc": "Increases the critical strike chance of your Reverse Wound by %."
  }
 ]
