@@ -1,0 +1,76 @@
+{
+ "sidekick-chronomancer-artificer-2026-08-01": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Gravity Lapse"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Echo Fragments"
+   ]
+  },
+  "class": "chronomancer",
+  "content_sha256": "e52c342e95c13f65",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-01",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/chronomancer/artificer",
+  "spec": "artificer"
+ },
+ "sidekick-chronomancer-infinite-2026-08-01": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Shifting Sands",
+    "Melt Reality",
+    "Timerend",
+    "Chronobeam"
+   ],
+   "priority": [],
+   "signature": [
+    "Infinite Power"
+   ]
+  },
+  "class": "chronomancer",
+  "content_sha256": "78044afcabf22a12",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-01",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/chronomancer/infinite",
+  "spec": "infinite"
+ },
+ "sidekick-chronomancer-time-2026-08-01": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Buy Time",
+    "Word of Balance: Guard",
+    "Fracture Timeline"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Aeon of Resilience"
+   ]
+  },
+  "class": "chronomancer",
+  "content_sha256": "9dd3f33f663ae53b",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-01",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/chronomancer/time",
+  "spec": "time"
+ }
+}

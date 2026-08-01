@@ -577,6 +577,46 @@ check("every declared source names what it is and when it was checked",
       all(s.get("what") and s.get("checked") for s in SRC.SOURCES.values()))
 
 
+# ------------------------------------------------ 15. rotation citation corpus
+print("\n15. rotation citations")
+import citations as CIT  # noqa: E402
+
+for cls in UNDER_TEST:
+    cites = CIT.load(cls)
+    names = CIT.inventory_names(cls)
+    check(f"{cls.slug}: {len(cites)} citation(s) present", bool(cites),
+          "no citations -- every priority this class renders is uncited")
+
+    # Synthetic bad record: the validator must object to all five faults.
+    bogus = {"x": {"class": cls.slug, "spec": "nope", "source": "evil.example",
+                   "origin": "invalid", "retrieved_at": "2026-01-01",
+                   "claims": {"priority": ["No Such Ability"], "junk": ["y"]}}}
+    faults = {w for _, w in CIT.validate(cls, bogus, names)}
+    check(f"{cls.slug}: validator rejects an unknown spec",
+          any("unknown spec" in f for f in faults))
+    check(f"{cls.slug}: validator rejects an undeclared source",
+          any("not in sources.py" in f for f in faults))
+    check(f"{cls.slug}: validator rejects an ability with no inventory row",
+          any("no inventory row" in f for f in faults))
+    check(f"{cls.slug}: validator rejects an unknown claim bucket",
+          any("unknown claim bucket" in f for f in faults))
+
+    # Structural faults in the REAL corpus are a build problem. A name that
+    # does not resolve is NOT: it means a source disagrees with our inventory,
+    # which is information to act on, not a broken tree. Surfaced, not failed --
+    # the same treatment mkabilities gives its Candidates list.
+    real = CIT.validate(cls, cites, names)
+    structural = [(c, w) for c, w in real if "no inventory row" not in w]
+    check(f"{cls.slug}: every citation is structurally valid", not structural,
+          "\n".join(f"{c}: {w}" for c, w in structural))
+    unresolved = sorted({w.split("'")[1] for c, w in real
+                         if "no inventory row" in w})
+    if unresolved:
+        print(f"          NOTE {cls.slug}: {len(unresolved)} cited name(s) "
+              f"with no inventory row -- a source disagrees with us: "
+              f"{', '.join(unresolved)}")
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")
