@@ -450,6 +450,71 @@ for cls in UNDER_TEST:
               own == merged, detail)
 
 
+# ----------------------------------------------- 12. changelog watcher parse
+#
+# Against a COMMITTED fixture, never the live page. The watcher's whole job is
+# to notice when ascension.gg changes, so a test that fetches it would go red
+# for the thing the tool exists to report -- and would go red on a train.
+print("\n12. changelog watcher parses the committed fixture")
+sys.path.insert(0, TOOLS)
+import changelog_watch as CW  # noqa: E402
+
+_FIX = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    "fixtures", "changelog-section4-page1.html")
+if not os.path.exists(_FIX):
+    check("changelog fixture present", False, _FIX)
+else:
+    _entries = CW.parse(open(_FIX, encoding="utf-8").read())
+
+    check(f"parses {len(_entries)} entries", len(_entries) == 100,
+          f"expected 100 entries on a full page, got {len(_entries)}")
+
+    # Every entry must land under a date. A None date means the header-offset
+    # binding broke, which would silently make every entry undateable and
+    # therefore unable to invalidate a citation.
+    _undated = [e for e in _entries if not e["date"]]
+    check("every entry binds to a date header", not _undated,
+          f"{len(_undated)} undated, first: {_undated[0]['text'][:70]}"
+          if _undated else "")
+
+    # The two tag shapes that an exact-match parser drops silently.
+    check("a misspelled class tag still resolves",
+          CW.tag_to_slug("Strombringer") == ("stormbringer", None, True),
+          f'got {CW.tag_to_slug("Strombringer")}')
+    check("a class-and-spec tag resolves to both",
+          CW.tag_to_slug("Witch Hunter - Inquisition")
+          == ("witch-hunter", "inquisition", True),
+          f'got {CW.tag_to_slug("Witch Hunter - Inquisition")}')
+
+    # An unknown tag must report as unrecognised rather than resolving to
+    # something. Silently attributing it to the wrong class is worse than
+    # saying "I do not know what this is".
+    check("an unknown tag is not attributed",
+          CW.tag_to_slug("Nonsense Class")[2] is False)
+
+    # Nothing in the fixture should be unattributable: every tag on it is
+    # either a known class or a known non-class. If this fails, the fixture
+    # was refreshed and a new tag appeared -- add it, do not ignore it.
+    _unknown = sorted({e["tag"] for e in _entries
+                       if e["tag"] and not e["recognised"]
+                       and e["tag"].strip().lower() not in CW.NON_CLASS_TAGS})
+    check("no unattributable tags in the fixture", not _unknown,
+          "unrecognised: " + ", ".join(_unknown) if _unknown else "")
+
+    # The hash keys on attributed text, so re-tagging a typo is not "new".
+    check("re-tagging a typo does not read as a new entry",
+          CW.parse('<p class="text-neutral-300">[Strombringer] X.</p>'
+                   )[0]["hash"]
+          == CW.parse('<p class="text-neutral-300">[Stormbringer] X.</p>'
+                      )[0]["hash"])
+
+    # The known drift this tool was written for. If the fixture ever stops
+    # carrying it, the fixture was replaced and this test is meaningless.
+    _rm = [e for e in _entries if e["slug"] == "runemaster"]
+    check(f"finds the {len(_rm)} Runemaster entries that postdate its 1.0",
+          len(_rm) == 9, f"expected 9, got {len(_rm)}")
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")
