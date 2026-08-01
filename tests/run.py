@@ -617,6 +617,43 @@ for cls in UNDER_TEST:
               f"{', '.join(unresolved)}")
 
 
+# ------------------------------------------------- 16. official talent trees
+print("\n16. official talent tree vs inventory")
+for cls in UNDER_TEST:
+    tp = class_data(f"talents-{cls.slug}.json")
+    if not os.path.exists(tp):
+        check(f"{cls.slug}: talent tree extracted", False,
+              f"{tp} missing -- run tools/talents.py {cls.slug}")
+        continue
+    tal = _json.load(open(tp, encoding="utf-8"))
+
+    check(f"{cls.slug}: every spec resolved to a tree tab",
+          not tal["missing_specs"],
+          "unresolved: " + ", ".join(tal["missing_specs"]))
+
+    inv = set(CIT.inventory_names(cls))
+    granted = [n for group in list(tal["specs"].values()) + [tal["class_tab"]]
+               for n in group if n["grants_ability"] and n["name"]]
+    missing = sorted({n["name"] for n in granted if n["name"] not in inv})
+    # The game's own tree is the strongest possible statement that an ability
+    # exists. If it can grant a button we have no row for, that is a coverage
+    # hole no scrape would report.
+    check(f"{cls.slug}: all {len(granted)} talent-granted abilities tracked",
+          not missing, "untracked: " + ", ".join(missing))
+
+    # Regression guard on the flag that lies. isPassive reports 0 for 145 of
+    # Runemaster's 160 nodes including pure stat passives; if a future edit
+    # switches back to it, this catches the day it happens.
+    raw = _json.load(open(class_data("talents-voljin.json"), encoding="utf-8"))
+    rn = [n for k, v in raw["entriesByTab"].items()
+          if k.startswith(f"{cls.id}:") for n in v]
+    by_type = sum(1 for n in rn if n.get("entryType") == "Ability")
+    by_flag = sum(1 for n in rn if not n.get("isPassive"))
+    check(f"{cls.slug}: entryType and isPassive still disagree "
+          f"({by_type} vs {by_flag}) -- isPassive stays unused",
+          by_flag > by_type * 2)
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")
