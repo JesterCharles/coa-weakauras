@@ -104,7 +104,7 @@ print("\n1. rebuild matches frozen fixture")
 built = {}
 for cls, spec, name in PACKS:
     out = build(cls, spec)
-    path = os.path.join(TOOLS, f"{name}.txt")
+    path = cls.pack_path(name)
     built[name] = out
     fixture = os.path.join(FIXTURES, f"{name}.txt")
     if not os.path.exists(fixture):
@@ -119,7 +119,7 @@ for cls, spec, name in PACKS:
 # These test the comparator, not any class, so one pack is enough -- the first
 # built class's all-specs pack.
 print("\n2-6. comparator catches mutations")
-base_path = os.path.join(TOOLS, f"{UNDER_TEST[0].packs[0][1]}.txt")
+base_path = UNDER_TEST[0].pack_path(UNDER_TEST[0].packs[0][1])
 base = load(base_path)
 
 
@@ -194,7 +194,7 @@ check("uid change ignored", not mutated(m_uid))
 # ------------------------------------------------------------- 7. load gates
 print("\n7. load gates")
 for cls, spec, name in PACKS:
-    pack = load(os.path.join(TOOLS, f"{name}.txt"))
+    pack = load(cls.pack_path(name))
     leaves = [d for d in pack["c"].values() if not d.get("controlledChildren")]
 
     # class gate on EVERY leaf, always. Without it the pack loads on every
@@ -286,7 +286,7 @@ def has_usable_cond(d):
 
 
 for cls, spec, name in PACKS:
-    pack = load(os.path.join(TOOLS, f"{name}.txt"))
+    pack = load(cls.pack_path(name))
     cds = cd_triggered(pack)
     # A cooldown icon that is off cooldown but uncastable -- no mana, no
     # resource, wrong form -- reads as "press me" with nothing to say
@@ -298,15 +298,35 @@ for cls, spec, name in PACKS:
     # The GCD is reported by the same trigger (use_showgcd), so any urgency
     # tier keyed on bare expirationTime fires on every global, on every icon
     # in the row. That shipped once as final12; it must not ship again.
+    def _trigger_type(d, idx):
+        """Type of trigger `idx` (1-based) on display `d`."""
+        trs = d.get("triggers") or {}
+        t = trs.get(idx) if isinstance(trs, dict) else None
+        if not isinstance(t, dict):
+            return None
+        tr = t.get("trigger")
+        return tr.get("type") if isinstance(tr, dict) else None
+
     unguarded = []
     for d in cds:
         conds = d.get("conditions") or {}
         vals = list(conds.values()) if isinstance(conds, dict) else list(conds)
         for c in vals:
             chk = c.get("check") or {}
-            if chk.get("variable") == "expirationTime":
-                unguarded.append(d["id"])
-                break
+            if chk.get("variable") != "expirationTime":
+                continue
+            # Scope to the SPELL cooldown trigger, which is the only place the
+            # bug lives: use_showgcd makes that trigger report the global, so a
+            # bare tier there fires on every icon on every global (final12).
+            #
+            # The same variable on an AURA trigger is just the aura's remaining
+            # time -- no global to contaminate it -- and is how the refresh
+            # cues work (chronomancer-nnoop's Ripple does exactly this). A
+            # check that cannot tell them apart forbids a correct mechanism.
+            if _trigger_type(d, chk.get("trigger")) != "spell":
+                continue
+            unguarded.append(d["id"])
+            break
     check(f"{name}: no bare expirationTime tier", not unguarded,
           "\n".join(unguarded[:8]))
 
@@ -345,7 +365,7 @@ for cls, spec, name in PACKS:
         check(f"{name}: {cls.cooldowns} exists", False,
               f"run: python3 tools/audit_cds.py {cls.slug}")
         continue
-    pack = load(os.path.join(TOOLS, f"{name}.txt"))
+    pack = load(cls.pack_path(name))
     # `use_showgcd` makes WeakAuras substitute the tracked global for any spell
     # not already on cooldown -- blindly, with no per-spell knowledge
     # (GenericTrigger.lua:2795). On an ability that does not obey the global
@@ -379,12 +399,12 @@ for cls, spec, name in PACKS:
 print("\n11. merged pack loads exactly what each spec's own pack contains")
 SIG_TO_SPEC = {}
 for cls in UNDER_TEST:
-    allspecs = os.path.join(TOOLS, f"{cls.packs[0][1]}.txt")
+    allspecs = cls.pack_path(cls.packs[0][1])
     # map each spec's signature spell id from its own pack: every leaf there is
     # gated on it, so the most common spellknown value IS the signature.
     sig = {}
     for spec, name in cls.packs[1:]:
-        pack = load(os.path.join(TOOLS, f"{name}.txt"))
+        pack = load(cls.pack_path(name))
         vals = collections.Counter(
             d.get("load", {}).get("spellknown")
             for d in pack["c"].values()
@@ -416,7 +436,7 @@ for cls in UNDER_TEST:
     for spec, name in cls.packs[1:]:
         label = sig.get(next((k for k, v in sig.items() if v == spec), None), spec)
         merged = content(allspecs, spec)
-        own = content(os.path.join(TOOLS, f"{name}.txt"))
+        own = content(cls.pack_path(name))
         # Merging the per-spec bands into shared ones must not lose or add a
         # single display. The per-spec pack is the ground truth for what one
         # spec needs; loading the merged pack as that spec must match it

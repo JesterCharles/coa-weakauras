@@ -28,9 +28,14 @@ declared 8 bands with anchors that never existed in any shipped build.
   ├────────────┤  -84     36px   player   on me          procs, running CDs, buffs
   ├────────────┤ -132     44px   —        MAIN           core rotation, always on
   ├─ ─ ─ ─ ─ ─ ┤ -156..-186     —        RESOURCE ENVELOPE   fixed height
-  ├────────────┤ -202     26px   —        offensive CDs  wraps at 12
-  ├────────────┤ -232     26px   —        defensive+util wraps at 12, trinkets last
-  └────────────┘ -278     28px   —        long-term
+  ├────────────┤ -202     26px   —        offensive CDs  wraps at 9
+  ├────────────┤ (drv)    26px   —        defensive+util wraps at 9, trinkets last
+  └────────────┘ (drv)    28px   —        long-term
+
+  The two cooldown bands wrap (grow="GRID"), so everything under the offense
+  row is derived from how deep the bands actually go -- see the wrap bullet.
+  Runemaster at 1.1: offense -202 (2 rows), utility -262 (2 rows, 3 on
+  Engravement), long-term -368.
 
   The resource area is a FIXED-HEIGHT envelope (~-156..-186), not a variable
   stack. Each spec fills it however its resources require and the block is the
@@ -66,7 +71,7 @@ declared 8 bands with anchors that never existed in any shipped build.
 | Main damage | −132 | 44px | — | Spec | Core rotation. Always visible, largest icons, glows on proc |
 | **Resource envelope** | −156…−186 | fixed | — | Spec | Constant-height block, whatever the spec puts in it. Every band's width is locked to the main row. See below |
 | Offensive cooldowns | −202 | 26px | — | Spec | Damage cooldowns, most-pressed first. Interrupt and mobility pinned last |
-| Defensive + utility | −232 | 26px | — | Spec | Defensives, then utility, then on-use trinkets by slot |
+| Defensive + utility | derived | 26px | — | Spec | Defensives, then utility, then on-use trinkets by slot. Sits below however deep the offense band wraps |
 | Long-term buffs | derived | 28px | — | **Core** | Stances, hour-long imbues, raid auras. Checked once per pull |
 
 ## The resource stack
@@ -79,7 +84,9 @@ Runemaster, which happens to have at most two.
 |---|---|---|
 | 1 | Runemaster · Engravement, Riftblade | mana |
 | 2 | Runemaster · Glyphic | mana + 3-cell glyph bar |
-| 2 | Chronomancer · Artificer | mana + combo points |
+| 2 | Chronomancer · Artificer | mana + Echo Fragments (`aura_stacks`) |
+| 2 | Chronomancer · Time | mana + Sands of Time (`aura_stacks`) |
+| 1 | Chronomancer · Infinite | mana |
 | 3 | **Pyromancer** (class 24) | ember, mana, heat |
 
 ### Three axes
@@ -96,8 +103,18 @@ express ember at all.
 | `aura_stacks` | **One** aura on the player, its stack count fills N cells | **ember** (5 stacks) |
 | `aura_set` | **N distinct** auras, one per cell | Glyphic's Frost / Flame / Arcane |
 
-`aura_set` is what `seg_bar` implements today. `aura_stacks` does not exist yet
-and is the one genuinely new mechanism the stack needs.
+`aura_set` is what `seg_bar` implements today. `aura_stacks` is built for
+Chronomancer, which needed it on two of three specs — Artificer's **Echo
+Fragments** (`804455`) and Time's **Sands of Time** (`804488`). This file
+previously called Artificer's second resource "combo points"; that was wrong,
+the class has none.
+
+The two differ in exactly one place. `aura_set` reads N auras and lights cell
+*i* when aura *i* is present. `aura_stacks` reads ONE aura and lights cell *i*
+when `stacks >= i`, which is `useStacks: true` + a per-cell `stacks` threshold
+on the trigger rather than N distinct name matches. Everything else — the dim
+outline under every cell, two displays per cell rather than one plus a
+condition, the width lock to the main row — is shared.
 
 **2. `render` — how it draws**
 
@@ -298,13 +315,57 @@ fixed inter-band gap. No class declares an anchor.
   | Riftblade Offense | 12 | 334px | 1.24x |
   | Engravement Offense | 11 | 306px | 1.13x |
 
-  Wiring the wrap needs both halves: `useLimit: true` + `limit: CD_PER_ROW` on
-  the dynamic group, **and** a band ladder that advances by
-  `ceil(n / CD_PER_ROW) * CD_ROW_STEP` instead of a flat step — otherwise a
-  wrapped row grows down into the band beneath it.
+  ⚠️ **`useLimit` does NOT wrap — it DELETES.** An earlier revision of this
+  bullet prescribed `useLimit: true` + `limit: CD_PER_ROW` and that is wrong,
+  destructively so. Every grower computes
+  `numVisible = min(limit, #regionDatas)`; children past it never enter
+  `newPositions`, and `DoPositionChildren` then explicitly hides them
+  (`DynamicGroup.lua:1520-1524`). Applied to Engravement's 21-icon utility row
+  it would have dropped nine icons and looked tidy doing it. **No working pack
+  sets `useLimit`** — zero occurrences across all four in
+  `resources/import-strings/`.
+
+  The wrap is `grow: "GRID"` (fixed in `1.1`):
+
+  | field | value | why |
+  |---|---|---|
+  | `grow` | `"GRID"` | the only mode that wraps |
+  | `gridType` | `"HD"` | row-first, **each row re-centred horizontally**, rows stack downward |
+  | `gridWidth` | `CD_PER_ROW` | icons per row |
+  | `columnSpace` | `GAP` | **GRID ignores `data.space`**, `align` and `stagger` |
+  | `rowSpace` | `CD_ROW_STEP - SZ_CD` | so a wrapped row advances exactly one band step |
+  | `selfPoint` | `"CENTER"` | keeps row 1 where the HORIZONTAL row was, so yOffset is unchanged |
+
+  `growers.GRID` runs over `sortedChildren`, which every insertion path gates
+  on `toShow` (`DynamicGroup.lua:1180-1198, 1220, 1234`), so it wraps on the
+  children **actually showing**. That is what makes wrapping compatible with a
+  shared band: each spec wraps on its own loaded icons. A build-time split into
+  fixed chunks cannot do this — each spec owns a different subset and would get
+  two ragged part-rows.
+
+  **The ladder must reserve the DEEPEST spec's row count**, not the local one.
+  A shared band has one yOffset, so stepping by the current spec's rows drops
+  the next band onto Engravement's third utility row. `_ROWS` in the builder
+  takes the max across specs; shallower specs get a cosmetic 30px gap, which is
+  the correct trade against a collision.
+
+  `CD_PER_ROW = 9`, not 12: a row is `w * SZ_CD + (w-1) * GAP`, so 9 icons is
+  250px against the narrowest main row (228px) = 1.10x. 12 would be 334px =
+  1.46x — the shape of the bug, not the fix.
+
+  `tools/rowwidths.py` now measures this on the built packs and exits non-zero
+  past 1.2x, so the rule is enforced rather than asserted. Post-fix:
+
+  | Row | Icons | Rows | Width | vs bar |
+  |---|---|---|---|---|
+  | Engravement Utility | 21 | 3 | 250px | 1.10x |
+  | Riftblade Utility | 16 | 2 | 250px | 0.91x |
+  | Glyphic Offense | 14 | 2 | 250px | 1.10x |
 
   This is the concrete case of the standing rule below: the constants in the
-  builder are not authority for what shipped.
+  builder are not authority for what shipped. It is also a case of the rule
+  above it — this bullet asserted a mechanism no working pack used, and the
+  mechanism turned out to destroy data.
 - **Bands are shared across specs, not duplicated per spec** (`final16`). One
   dynamic group per band holds every spec's abilities; only the loaded spec's
   leaves are laid out, because `ActivateChild` runs from the child's `Expand()`
@@ -428,12 +489,18 @@ Defined in `build_runemaster.py`, referenced nowhere, and corresponding to no
 band that has ever rendered. These are what produced the earlier wrong versions
 of this document:
 
-`Y_PROCS = -60` · `Y_CDS = -242` · `Y_DOTS = -333` · `CD_PER_ROW = 12` ·
-`SZ_STATE = 28` · `dot_bars()` (`:476`, zero callers)
+`Y_PROCS = -60` · `Y_DOTS = -333` · `SZ_STATE = 28` ·
+`dot_bars()` (`:476`, zero callers)
 
-`CD_PER_ROW` and `dot_bars()` are the exceptions — both get wired up rather than
-deleted: `CD_PER_ROW` becomes the band 6/7 wrap, and `dot_bars()` becomes the
-target band's implementation.
+`CD_PER_ROW` is **no longer dead** — `1.1` wired it to `gridWidth` on the
+two wrapping bands and moved it from 12 to 9. `Y_CDS` is live (it anchors the
+offense row); `Y_LONG` stopped being a constant and is now derived from the
+real band depth.
+
+`dot_bars()` is the remaining one, and it gets wired up rather than deleted:
+it becomes the **target band's** implementation (unit=`"target"`, `own_only`,
+`helpful` selecting DoTs vs HoTs). Chronomancer's Time spec is the first spec
+that needs it.
 
 Generated view: `tools/mkguide.py` reads a built pack and renders this plus the
 per-spec breakdown. Build the guide and agree the layout *before* spending an

@@ -22,6 +22,7 @@ import re
 
 import wabuild as B
 from wacodec import LuaTable
+from classes import build_path
 
 SP = os.path.dirname(os.path.abspath(__file__))
 # Source data lives in resources/, code lives in tools/. Some files still sit
@@ -49,7 +50,7 @@ def data(name):
 # loaded version is NOT visible in the WeakAuras list and a delivered file
 # carries no readable version string. Identify one by recomputing uids -- see
 # notes/class-pack-process.md.
-VERSION = "1.0"
+VERSION = "1.1"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
@@ -132,13 +133,24 @@ BAR_H_STACKED = 14  #   its height
 Y_SEG = -180        # Glyphic glyph bar, directly beneath its mana bar
 Y_BAR_SOLO = -170   # Engravement / Riftblade: mana is the whole envelope
 BAR_H_SOLO = 24     #   so it gets the full height
-CD_PER_ROW = 12
+# Icons per cooldown row before it wraps. Wired to `gridWidth` on a
+# grow="GRID" band -- for six releases this constant existed with NO callers
+# while every row shipped as one unbroken line, which is how Engravement's
+# utility row went out at 586px against a 228px main row.
+#
+# 9, not the 12 this constant used to claim: a row is `w*SZ_CD + (w-1)*GAP`,
+# so 9 icons is 250px against the narrowest main row in the pack (228px, the
+# five-icon Glyphic and Engravement rows) = 1.10x. 12 would be 334px = 1.46x,
+# which is the shape of the bug, not the fix. `tools/rowwidths.py` measures
+# the built packs and fails past 1.2x.
+CD_PER_ROW = 9
 CD_ROW_STEP = 30
 SZ_CD = 26
 SZ_ALERT = 38
 SZ_BUFF = 36         # buff row -- larger so the timer is legible
 Y_CDS = -202        # first cooldown row, one anchor for every spec
-Y_LONG = -278       # long-term buffs, pinned to the bottom
+LONG_GAP = 16       # extra clearance between the last cooldown row and long-term
+SPECS = ("glyphic", "engravement", "riftblade")
 Y_DOTS = -311       # applied DoTs / debuffs, below the cooldown block
 
 SZ_MAIN = 44
@@ -178,7 +190,7 @@ ELSEWHERE = {
     "Glyphic Ruin", "Primordial Blast", "Thaumaturgy", "Elemental Burst",
     "Runic Obliteration", "Runeblade", "Fist of the Ancients", "Runic Brand",
     "Runic Explosion", "Smolder", "Fracture", "Hoarfrost", "Hurricane",
-    "Runeshroud", "Frigid Blast",
+    "Frigid Blast",
 } | {f"Weapon Engraving: {e}"          # shown in the status row
      for e in ("Air", "Arcane", "Earth", "Fire", "Ice", "Water")}
 
@@ -357,6 +369,49 @@ def spec_group(id_, kids, trigger):
 # Zenith only has charges once Runelord is talented (it becomes 712389), but
 # the count is harmless on the base version.
 CHARGES = {"Runeblade": 3, "Zenith": 2}
+
+
+def _bottom_rows(spec_key):
+    """(offense, utility) ability names for one spec, in press order.
+
+    Split out of emit_bottom_block so the ladder can be planned across ALL
+    specs before any band is emitted: a shared band has one yOffset, so the
+    depth it reserves has to cover the spec that wraps deepest.
+    """
+    have = {n for n, v in COOLDOWNS.items()
+            if (spec_key in v["specs"] or not v["specs"])
+            and _cd_secs(v["cd"]) <= 300 and n not in ELSEWHERE}
+    have |= {n for n in ID_OVERRIDE if n in EXILES and n not in ELSEWHERE}
+    # The audit DISCOVERS abilities; the curated lists are authoritative. Fists
+    # of Power and friends have no cooldown row on db.exil.es but are real
+    # buttons, so never drop a curated name just because the scrape is thin.
+    have |= {n for n in OFFENSIVE + OFFENSIVE_TAIL + DEFENSIVE
+             if n not in ELSEWHERE and (n in ID_OVERRIDE or n in EXILES)
+             and in_spec(n, spec_key)}
+
+    # the tail is pinned to every spec, spec-membership check bypassed
+    offense = [n for n in OFFENSIVE if n in have] + \
+              [n for n in OFFENSIVE_TAIL
+               if n in ID_OVERRIDE or n in EXILES]
+    defensive = [n for n in DEFENSIVE if n in have]
+    utility = defensive + sorted(have - set(offense) - set(defensive))
+    return offense, utility
+
+
+# How deep each cooldown band actually goes, across every spec. A band is
+# shared, so it has ONE yOffset and the next band down must clear the spec
+# that wraps deepest -- Engravement's 21-name utility row at three rows, while
+# Glyphic and Riftblade take two. The shallower specs get a 30px gap under
+# their last row, which is cosmetic; anything less than the max is a collision.
+_ROWS = {}
+for _label, _idx in (("Offense", 0), ("Utility", 1)):
+    _ROWS[_label] = max(
+        -(-len(_bottom_rows(_s)[_idx]) // CD_PER_ROW) for _s in SPECS)
+
+# Long-term is the last band, so it hangs off the real depth of the two above
+# it rather than a hand-picked constant. The old fixed -278 assumed one row
+# per band and would have been overlapped outright by the first wrap.
+Y_LONG = Y_CDS - (_ROWS["Offense"] + _ROWS["Utility"]) * CD_ROW_STEP - LONG_GAP
 
 # Abilities that do NOT trigger the global cooldown.
 #
@@ -724,6 +779,11 @@ SHORT_ENTRIES = [
     ("Frost Prison", (0.4, 0.8, 1.0), {"unit": "target", "helpful": False,
                                        "alt": ["Permafrost Rune", "Glacial Rune",
                                                "Cryobrand", "Frozen"]}),
+    # Deliberately in TWO places, unlike everything else here: the buff row
+    # says "you are shrouded right now" (which gates Warpdagger, the Imbues
+    # and Inscription: Permafrost), the utility row says "you can re-enter in
+    # N seconds" off its 10s cooldown. Neither answers the other's question,
+    # so Runeshroud is NOT in ELSEWHERE.
     ("Runeshroud", (0.6, 0.5, 0.9), {}),
     ("Palm Sigil: Arcane", (0.75, 0.40, 0.95), {}),
     ("Palm Sigil: Earth", (0.62, 0.44, 0.20), {}),
@@ -845,23 +905,7 @@ def emit_bottom_block(spec_name, spec_key, out, procs, state=()):
     fixed height whatever a spec puts in it, so there is no per-spec offset to
     apply and no empty band left behind. Returns the y for the DoT row.
     """
-    have = {n for n, v in COOLDOWNS.items()
-            if (spec_key in v["specs"] or not v["specs"])
-            and _cd_secs(v["cd"]) <= 300 and n not in ELSEWHERE}
-    have |= {n for n in ID_OVERRIDE if n in EXILES and n not in ELSEWHERE}
-    # The audit DISCOVERS abilities; the curated lists are authoritative. Fists
-    # of Power and friends have no cooldown row on db.exil.es but are real
-    # buttons, so never drop a curated name just because the scrape is thin.
-    have |= {n for n in OFFENSIVE + OFFENSIVE_TAIL + DEFENSIVE
-             if n not in ELSEWHERE and (n in ID_OVERRIDE or n in EXILES)
-             and in_spec(n, spec_key)}
-
-    # the tail is pinned to every spec, spec-membership check bypassed
-    offense = [n for n in OFFENSIVE if n in have] + \
-              [n for n in OFFENSIVE_TAIL
-               if n in ID_OVERRIDE or n in EXILES]
-    defensive = [n for n in DEFENSIVE if n in have]
-    utility = defensive + sorted(have - set(offense) - set(defensive))
+    offense, utility = _bottom_rows(spec_key)
 
     y = Y_CDS
 
@@ -889,10 +933,19 @@ def emit_bottom_block(spec_name, spec_key, out, procs, state=()):
         # cooldown to draw, so the swipe can only ever be nil arithmetic.
         if not ids:
             continue
+        # GRID, not HORIZONTAL: these are the two rows that overrun. It wraps
+        # on the children actually SHOWING, so a shared band still renders
+        # exactly the loaded spec's icons and re-centres around them --
+        # a build-time split into chunks could not, since each spec owns a
+        # different subset and would get two ragged part-rows.
         add(B.dynamicgroup(f"RM {spec_name} {label}", f"RM {spec_name}", ids,
-                           x=0, y=y, grow="HORIZONTAL", space=GAP))
+                           x=0, y=y, grow="GRID", space=GAP,
+                           grid_width=CD_PER_ROW, row_space=CD_ROW_STEP - SZ_CD))
         out.append(f"RM {spec_name} {label}")
-        y -= CD_ROW_STEP
+        # Reserve the DEEPEST spec's row count, not this spec's. One yOffset
+        # is shared, so stepping by the local count would drop the next band
+        # on top of Engravement's third utility row.
+        y -= _ROWS[label] * CD_ROW_STEP
 
     # An offensive cooldown that is CURRENTLY RUNNING belongs in the buff row
     # too -- otherwise the only cue that Zenith or Primordial Fury is live is
@@ -1163,11 +1216,18 @@ def merge_bands():
                     LEAF_SPECS[cid] = {s}
                     kids_out.append(cid)
 
+        # Carry the template's grid settings through. A wrapped band that lost
+        # them here would silently revert to one unbroken line -- the merge is
+        # exactly where the per-spec band stops existing, so it is the last
+        # place a dropped field is still recoverable.
         merged = B.dynamicgroup(f"RM {band}", ROOT, kids_out,
                                 x=template.get("xOffset", 0),
                                 y=template.get("yOffset", 0),
                                 grow=template.get("grow", "HORIZONTAL"),
-                                space=template.get("space", GAP))
+                                space=template.get("space", GAP),
+                                grid_width=template.get("gridWidth"),
+                                grid_type=template.get("gridType", "HD"),
+                                row_space=template.get("rowSpace", 4))
         children.append(merged)
         merged_ids.append(f"RM {band}")
         drop |= {gid for _, gid in groups}
@@ -1454,7 +1514,7 @@ if SPEC_ONLY:
 if __name__ == "__main__":
     s = B.export_string(root, children)
     name = f"runemaster-{SPEC_ONLY}" if SPEC_ONLY else "runemaster-all-specs"
-    out = os.path.join(SP, f"{name}.txt")
+    out = build_path("runemaster", name)
     open(out, "w").write(s)
     print(f"{len(children)} displays, {len(s)} chars -> {out}")
     # Repeated art in a row means an id resolved to the wrong texture -- two
