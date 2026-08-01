@@ -1,0 +1,2858 @@
+{
+ "Accelerate": {
+  "ids": [
+   572633
+  ],
+  "icon": null
+ },
+ "Accelerated Mending": {
+  "ids": [
+   570152
+  ],
+  "icon": null
+ },
+ "Accelerated Recovery": {
+  "ids": [
+   800857
+  ],
+  "icon": "spell_holy_healingfocus"
+ },
+ "Accelerated Recovery Hidden Passive": {
+  "ids": [
+   704542
+  ],
+  "icon": null
+ },
+ "Acclimation": {
+  "ids": [
+   520935
+  ],
+  "icon": null
+ },
+ "Add Chaos 1": {
+  "ids": [
+   804482
+  ],
+  "icon": null
+ },
+ "Add Order 5": {
+  "ids": [
+   804481
+  ],
+  "icon": null
+ },
+ "Aeon of Oblivion": {
+  "ids": [
+   806293
+  ],
+  "icon": "inv_trinket_80_kultiras02e"
+ },
+ "Aeon of Protection": {
+  "ids": [
+   806292
+  ],
+  "icon": "inv_trinket_80_kultiras02d"
+ },
+ "Aeon of Renewal": {
+  "ids": [
+   806290
+  ],
+  "icon": "inv_trinket_80_kultiras02b"
+ },
+ "Aeon of Resilience": {
+  "ids": [
+   92119
+  ],
+  "icon": "inv_trinket_80_kultiras02a"
+ },
+ "Aeon Rend": {
+  "ids": [
+   583247
+  ],
+  "icon": null
+ },
+ "Aether Compression": {
+  "ids": [
+   804436
+  ],
+  "icon": "ui_profession_enchanting"
+ },
+ "Age of Empires": {
+  "ids": [
+   706097
+  ],
+  "icon": null
+ },
+ "Ahead of the Game": {
+  "ids": [
+   560948
+  ],
+  "icon": "achievement_bg_win_av_x_times"
+ },
+ "Ancient Text": {
+  "ids": [
+   706081
+  ],
+  "icon": null
+ },
+ "Anomalous Armor": {
+  "ids": [
+   504641
+  ],
+  "icon": null
+ },
+ "Anomaly Spike": {
+  "ids": [
+   503826
+  ],
+  "icon": null
+ },
+ "Anomaly Spikes": {
+  "ids": [
+   503825
+  ],
+  "icon": "inv_ingot_titansteel_dark"
+ },
+ "Arc Collision": {
+  "ids": [
+   524853
+  ],
+  "icon": "nhi_arcaneburst_border"
+ },
+ "Archaeology": {
+  "ids": [
+   560130
+  ],
+  "icon": "trade_archaeology_dwarf_artifactfragment"
+ },
+ "A Ripple In Time": {
+  "ids": [
+   706096
+  ],
+  "icon": "ability_paladin_righteousvengeance"
+ },
+ "Artificer Autoshot learner": {
+  "ids": [
+   560177
+  ],
+  "icon": null
+ },
+ "Artificer's Empowerment": {
+  "ids": [
+   806167
+  ],
+  "icon": "inv_azeritedebuff"
+ },
+ "Artificer's Magic": {
+  "ids": [
+   804422
+  ],
+  "icon": null
+ },
+ "Artificer's Spellplate": {
+  "ids": [
+   804431
+  ],
+  "icon": null
+ },
+ "Artificer's Toughness": {
+  "ids": [
+   804420
+  ],
+  "icon": null
+ },
+ "Artificer's Wand": {
+  "ids": [
+   561284
+  ],
+  "icon": null
+ },
+ "Artificer's Wand delayer": {
+  "ids": [
+   570053
+  ],
+  "icon": null
+ },
+ "Artificer's Wand trigger": {
+  "ids": [
+   570069
+  ],
+  "icon": null
+ },
+ "Aura of Experience Visual Test Spell": {
+  "ids": [
+   680879
+  ],
+  "icon": null
+ },
+ "Auto Shot": {
+  "ids": [
+   572823
+  ],
+  "icon": null
+ },
+ "Babify": {
+  "ids": [
+   520499
+  ],
+  "icon": null
+ },
+ "Babify Regen": {
+  "ids": [
+   680357
+  ],
+  "icon": null
+ },
+ "Back To The Future": {
+  "ids": [
+   560217
+  ],
+  "icon": null
+ },
+ "Backtrack": {
+  "ids": [
+   706973
+  ],
+  "icon": null
+ },
+ "Backtracked": {
+  "ids": [
+   706978
+  ],
+  "icon": null
+ },
+ "Balance of Order": {
+  "ids": [
+   503902
+  ],
+  "icon": null
+ },
+ "Balance of Power": {
+  "ids": [
+   706108
+  ],
+  "icon": null
+ },
+ "Barrager Man": {
+  "ids": [
+   504599
+  ],
+  "icon": null
+ },
+ "Beam of Time": {
+  "ids": [
+   706110
+  ],
+  "icon": null
+ },
+ "Biting Chaos": {
+  "ids": [
+   572744
+  ],
+  "icon": null
+ },
+ "Black Hole": {
+  "ids": [
+   706045
+  ],
+  "icon": null
+ },
+ "Blinding Sand": {
+  "ids": [
+   805850
+  ],
+  "icon": null
+ },
+ "Borrowed Time": {
+  "ids": [
+   680373
+  ],
+  "icon": "inv_wand_29"
+ },
+ "Breath of Time": {
+  "ids": [
+   805162
+  ],
+  "icon": null
+ },
+ "Brilliance": {
+  "ids": [
+   524842
+  ],
+  "icon": null
+ },
+ "Bronze Echoes": {
+  "ids": [
+   520800
+  ],
+  "icon": "achievement_challengemode_bronze"
+ },
+ "Bronze Timeways": {
+  "ids": [
+   807309
+  ],
+  "icon": "inv_progenitorbeetlebronze"
+ },
+ "Buy Time": {
+  "ids": [
+   520185
+  ],
+  "icon": null
+ },
+ "Cadence of Time": {
+  "ids": [
+   560397
+  ],
+  "icon": "ability_racial_timeismoney"
+ },
+ "Carbon Dating": {
+  "ids": [
+   706101
+  ],
+  "icon": null
+ },
+ "Caverns of Time": {
+  "ids": [
+   520166
+  ],
+  "icon": "inv_elementalearth2"
+ },
+ "Caverns of Time Trigger": {
+  "ids": [
+   520170
+  ],
+  "icon": null
+ },
+ "Ceaseless Flow": {
+  "ids": [
+   582366
+  ],
+  "icon": null
+ },
+ "Chains of Time": {
+  "ids": [
+   706970
+  ],
+  "icon": null
+ },
+ "Chaos": {
+  "ids": [
+   503814
+  ],
+  "icon": null
+ },
+ "Chaos Baseline Negative": {
+  "ids": [
+   804517
+  ],
+  "icon": null
+ },
+ "Chaosbringer": {
+  "ids": [
+   628323
+  ],
+  "icon": null
+ },
+ "Chaos Embrace": {
+  "ids": [
+   805167
+  ],
+  "icon": null
+ },
+ "Chaos Fusion": {
+  "ids": [
+   807578
+  ],
+  "icon": "nhi_shadowsun_border"
+ },
+ "Chaos Generation Passive": {
+  "ids": [
+   804486
+  ],
+  "icon": null
+ },
+ "Chaos Incarnate": {
+  "ids": [
+   804484
+  ],
+  "icon": null
+ },
+ "Chaos Incarnate Transform": {
+  "ids": [
+   560323
+  ],
+  "icon": null
+ },
+ "Chaos Majority": {
+  "ids": [
+   806305
+  ],
+  "icon": null
+ },
+ "Chaos Omen": {
+  "ids": [
+   706063
+  ],
+  "icon": "inv_misc_starmetal"
+ },
+ "Chaos or Order Empowerment": {
+  "ids": [
+   563264
+  ],
+  "icon": null
+ },
+ "Chaos Shift": {
+  "ids": [
+   704135
+  ],
+  "icon": null
+ },
+ "Chaos Wand": {
+  "ids": [
+   804425
+  ],
+  "icon": null
+ },
+ "Chaotic Neutral": {
+  "ids": [
+   592012
+  ],
+  "icon": null
+ },
+ "Chaotic Time": {
+  "ids": [
+   583245
+  ],
+  "icon": "inv_chest_dragonblue_infinite"
+ },
+ "Charm of Power": {
+  "ids": [
+   706100
+  ],
+  "icon": "inv_inscription_trinket_healer"
+ },
+ "Cheating Time": {
+  "ids": [
+   524944
+  ],
+  "icon": null
+ },
+ "Chromatic Misalignment": {
+  "ids": [
+   706120
+  ],
+  "icon": null
+ },
+ "Chromatic Shard": {
+  "ids": [
+   801292
+  ],
+  "icon": "inv_enchanting_wod_crystalshard2"
+ },
+ "Chromatic Shard dummy": {
+  "ids": [
+   620609
+  ],
+  "icon": null
+ },
+ "Chromatic Shards": {
+  "ids": [
+   704492
+  ],
+  "icon": null
+ },
+ "Chromie's Wisdom": {
+  "ids": [
+   801523
+  ],
+  "icon": null
+ },
+ "Chronicler": {
+  "ids": [
+   680391
+  ],
+  "icon": null
+ },
+ "Chronicles of History": {
+  "ids": [
+   801288
+  ],
+  "icon": null
+ },
+ "Chronobeam": {
+  "ids": [
+   801267
+  ],
+  "icon": null
+ },
+ "Chronobeam Passive": {
+  "ids": [
+   804502
+  ],
+  "icon": null
+ },
+ "Chronoblessing": {
+  "ids": [
+   805163
+  ],
+  "icon": null
+ },
+ "Chrono Herald": {
+  "ids": [
+   706103
+  ],
+  "icon": null
+ },
+ "Chronological": {
+  "ids": [
+   542728
+  ],
+  "icon": null
+ },
+ "Chronomancer hidden tooltip temporary condition for From Order. Comes Chaos.": {
+  "ids": [
+   504044
+  ],
+  "icon": null
+ },
+ "Chronomancer (Infinite)": {
+  "ids": [
+   504727
+  ],
+  "icon": null
+ },
+ "Chronomancer Instant Pet Scaling / Heal Aura Applier": {
+  "ids": [
+   524786
+  ],
+  "icon": null
+ },
+ "Chronomancer Pet Scaling Aura": {
+  "ids": [
+   524787
+  ],
+  "icon": null
+ },
+ "Chrono Mend": {
+  "ids": [
+   578338
+  ],
+  "icon": null
+ },
+ "Chrono Sorcery": {
+  "ids": [
+   706115
+  ],
+  "icon": null
+ },
+ "Chronostasis": {
+  "ids": [
+   706969
+  ],
+  "icon": null
+ },
+ "Chronotrapped": {
+  "ids": [
+   503868
+  ],
+  "icon": null
+ },
+ "Chronurgy": {
+  "ids": [
+   806326
+  ],
+  "icon": null
+ },
+ "Chronurgy (Chaos)": {
+  "ids": [
+   806331
+  ],
+  "icon": null
+ },
+ "Chronurgy (Order)": {
+  "ids": [
+   806330
+  ],
+  "icon": null
+ },
+ "Clasp of Infinity": {
+  "ids": [
+   805847
+  ],
+  "icon": "handbeamblackhand"
+ },
+ "Clocked In": {
+  "ids": [
+   520168
+  ],
+  "icon": null
+ },
+ "CoA Aura - Chronomancer - Artificer": {
+  "ids": [
+   887055
+  ],
+  "icon": null
+ },
+ "CoA Aura - Chronomancer Class": {
+  "ids": [
+   887010
+  ],
+  "icon": null
+ },
+ "CoA Aura - Chronomancer - Infinite": {
+  "ids": [
+   887053
+  ],
+  "icon": null
+ },
+ "CoA Aura - Chronomancer - Time": {
+  "ids": [
+   887054
+  ],
+  "icon": null
+ },
+ "CoA Aura: Dispel modifier Fizzle": {
+  "ids": [
+   806231
+  ],
+  "icon": null
+ },
+ "Collapse": {
+  "ids": [
+   804448
+  ],
+  "icon": null
+ },
+ "Concentrated Fate": {
+  "ids": [
+   706122
+  ],
+  "icon": "inv_wand_1h_warfrontsalliance_c_01"
+ },
+ "Conduction Burst": {
+  "ids": [
+   804452
+  ],
+  "icon": "ability_monk_chiexplosion"
+ },
+ "Constant Recovery": {
+  "ids": [
+   555729
+  ],
+  "icon": "spell_holy_purify"
+ },
+ "Continuity Error": {
+  "ids": [
+   802172
+  ],
+  "icon": null
+ },
+ "Continuum Restoration": {
+  "ids": [
+   801271
+  ],
+  "icon": "ability_evoker_timedilation"
+ },
+ "Converge the Infinite": {
+  "ids": [
+   520045
+  ],
+  "icon": "nhi_arcanetwist_border"
+ },
+ "Correct the Mistake": {
+  "ids": [
+   572352
+  ],
+  "icon": "5_heal_border"
+ },
+ "Correct The Mistake": {
+  "ids": [
+   524710
+  ],
+  "icon": null
+ },
+ "Create Chaos Pet": {
+  "ids": [
+   805866
+  ],
+  "icon": null
+ },
+ "Critical Moment": {
+  "ids": [
+   570148
+  ],
+  "icon": null
+ },
+ "Crown of Power": {
+  "ids": [
+   805854
+  ],
+  "icon": "inv_helm_crown_c_01_purple white"
+ },
+ "Crown of Time": {
+  "ids": [
+   805855
+  ],
+  "icon": null
+ },
+ "Crystal Cannon": {
+  "ids": [
+   560134
+  ],
+  "icon": null
+ },
+ "Cutthroat's Guile": {
+  "ids": [
+   536283
+  ],
+  "icon": null
+ },
+ "Cycling Aeons": {
+  "ids": [
+   570149
+  ],
+  "icon": "skill_icon_skill42_border"
+ },
+ "Dark Bomb": {
+  "ids": [
+   712416
+  ],
+  "icon": null
+ },
+ "Dark Star": {
+  "ids": [
+   706062
+  ],
+  "icon": null
+ },
+ "Decelerate": {
+  "ids": [
+   572632
+  ],
+  "icon": null
+ },
+ "Decombobulation": {
+  "ids": [
+   806336
+  ],
+  "icon": null
+ },
+ "Decomposition": {
+  "ids": [
+   800856
+  ],
+  "icon": null
+ },
+ "Deconstruction": {
+  "ids": [
+   805851
+  ],
+  "icon": "inv_chest_armor_voidelf_d_01"
+ },
+ "Decrement Orb of Fate": {
+  "ids": [
+   804496
+  ],
+  "icon": null
+ },
+ "Destabilise Time": {
+  "ids": [
+   570760
+  ],
+  "icon": null
+ },
+ "Destabilize Time": {
+  "ids": [
+   570761
+  ],
+  "icon": null
+ },
+ "Desynchronization": {
+  "ids": [
+   561310
+  ],
+  "icon": "novart_magicspell_(11)_border"
+ },
+ "Dilation": {
+  "ids": [
+   560168
+  ],
+  "icon": null
+ },
+ "Dimensional Divergence": {
+  "ids": [
+   802790
+  ],
+  "icon": "ability_dragonriding_bronzerewind01"
+ },
+ "Dimensional Phasing": {
+  "ids": [
+   503874
+  ],
+  "icon": null
+ },
+ "Disc of Legend": {
+  "ids": [
+   680844
+  ],
+  "icon": null
+ },
+ "Disc of Legend (Deprecated)": {
+  "ids": [
+   806199
+  ],
+  "icon": null
+ },
+ "Discordance": {
+  "ids": [
+   503875
+  ],
+  "icon": null
+ },
+ "Discordant Blast": {
+  "ids": [
+   801290
+  ],
+  "icon": null
+ },
+ "Discovery": {
+  "ids": [
+   500116
+  ],
+  "icon": "5_wandshot_(2)_border"
+ },
+ "Discovery Trigger": {
+  "ids": [
+   524963
+  ],
+  "icon": null
+ },
+ "Discs Upon Discs": {
+  "ids": [
+   706074
+  ],
+  "icon": null
+ },
+ "Disenchant Weapon": {
+  "ids": [
+   806208
+  ],
+  "icon": null
+ },
+ "Disintegration": {
+  "ids": [
+   704529
+  ],
+  "icon": null
+ },
+ "Displacement": {
+  "ids": [
+   806727
+  ],
+  "icon": "5_teleport_border"
+ },
+ "Distorted Time": {
+  "ids": [
+   707553
+  ],
+  "icon": "spell_shadow_shadowpower"
+ },
+ "Do Over": {
+  "ids": [
+   800669
+  ],
+  "icon": null
+ },
+ "Duality Chronomancer": {
+  "ids": [
+   503872
+  ],
+  "icon": null
+ },
+ "Echo": {
+  "ids": [
+   804487
+  ],
+  "icon": null
+ },
+ "Echo Fragment": {
+  "ids": [
+   804455
+  ],
+  "icon": null
+ },
+ "Echo Fragment 1 Stack": {
+  "ids": [
+   807572
+  ],
+  "icon": null
+ },
+ "Echo Fragment 2 Stack": {
+  "ids": [
+   807573
+  ],
+  "icon": null
+ },
+ "Echo Fragment 3 Stack": {
+  "ids": [
+   807574
+  ],
+  "icon": null
+ },
+ "Echo Fragment 4 Stack": {
+  "ids": [
+   807575
+  ],
+  "icon": null
+ },
+ "Echo Fragment 5 Stack": {
+  "ids": [
+   807576
+  ],
+  "icon": null
+ },
+ "Echo Fragments": {
+  "ids": [
+   92120
+  ],
+  "icon": "achievement_guildperk_workingovertime"
+ },
+ "Elder Tome": {
+  "ids": [
+   706044
+  ],
+  "icon": null
+ },
+ "Elder Wand": {
+  "ids": [
+   560128
+  ],
+  "icon": null
+ },
+ "Empowered Restoration": {
+  "ids": [
+   706090
+  ],
+  "icon": null
+ },
+ "Empowerment Chaos CD refresh": {
+  "ids": [
+   528312
+  ],
+  "icon": null
+ },
+ "Empower Wand: Expulso": {
+  "ids": [
+   575835
+  ],
+  "icon": null
+ },
+ "Enchanted Collar": {
+  "ids": [
+   706066
+  ],
+  "icon": null
+ },
+ "Endless Sands": {
+  "ids": [
+   806338
+  ],
+  "icon": "inv_enchant_dustspirit"
+ },
+ "End of Time": {
+  "ids": [
+   525050
+  ],
+  "icon": null
+ },
+ "Entropy Overload": {
+  "ids": [
+   706084
+  ],
+  "icon": "novart_magicspell_(39)_border"
+ },
+ "Entropy Reversal": {
+  "ids": [
+   520780
+  ],
+  "icon": "spell_shadow_spectralsight"
+ },
+ "Epic Recovery": {
+  "ids": [
+   706098
+  ],
+  "icon": "inv_shield_1h_bastionquest_b_01"
+ },
+ "Epic Recovery Trigger": {
+  "ids": [
+   542725
+  ],
+  "icon": null
+ },
+ "Epic Recovery Trigger2": {
+  "ids": [
+   542726
+  ],
+  "icon": null
+ },
+ "Epoch": {
+  "ids": [
+   801270
+  ],
+  "icon": null
+ },
+ "Erase": {
+  "ids": [
+   804450
+  ],
+  "icon": null
+ },
+ "Erasion": {
+  "ids": [
+   704489
+  ],
+  "icon": "spell_animamaw_wave"
+ },
+ "Erode Armaments": {
+  "ids": [
+   300157
+  ],
+  "icon": null
+ },
+ "Eternal": {
+  "ids": [
+   706777
+  ],
+  "icon": "custom_t_nhance_rpg_icons_arcanevision_border"
+ },
+ "Eternity": {
+  "ids": [
+   706057
+  ],
+  "icon": null
+ },
+ "Eternity's End": {
+  "ids": [
+   706072
+  ],
+  "icon": null
+ },
+ "Eternity Warper": {
+  "ids": [
+   806301
+  ],
+  "icon": "ability_bossmagistrix_timewarp2"
+ },
+ "Excavate": {
+  "ids": [
+   592014
+  ],
+  "icon": null
+ },
+ "Excavation": {
+  "ids": [
+   520179
+  ],
+  "icon": null
+ },
+ "Excruciating Discord": {
+  "ids": [
+   582356
+  ],
+  "icon": "ability_hunter_pet_warpstalker"
+ },
+ "Expediting Time": {
+  "ids": [
+   706055
+  ],
+  "icon": "spell_holy_ashestoashes"
+ },
+ "Fable": {
+  "ids": [
+   806268
+  ],
+  "icon": null
+ },
+ "Fabric of Time": {
+  "ids": [
+   806299
+  ],
+  "icon": "spell_monk_diffusemagic"
+ },
+ "Fatebreaker": {
+  "ids": [
+   503835
+  ],
+  "icon": null
+ },
+ "Fate Guard DEPRECATED": {
+  "ids": [
+   804504
+  ],
+  "icon": null
+ },
+ "Fate Twister": {
+  "ids": [
+   520040
+  ],
+  "icon": null
+ },
+ "Feast of Aeons": {
+  "ids": [
+   804595
+  ],
+  "icon": null
+ },
+ "Feast of Aeons remover": {
+  "ids": [
+   805302
+  ],
+  "icon": null
+ },
+ "Fizzle": {
+  "ids": [
+   806144
+  ],
+  "icon": null
+ },
+ "Flashback": {
+  "ids": [
+   801298
+  ],
+  "icon": null
+ },
+ "Flow of Infinity": {
+  "ids": [
+   804497
+  ],
+  "icon": null
+ },
+ "Flux Emitter": {
+  "ids": [
+   804435
+  ],
+  "icon": "inv_wand_25"
+ },
+ "Fortify Timeline": {
+  "ids": [
+   804491
+  ],
+  "icon": "achievement_guildperk_workingovertime_rank2"
+ },
+ "Fractured Timeline": {
+  "ids": [
+   801285
+  ],
+  "icon": null
+ },
+ "Fracture Timeline": {
+  "ids": [
+   801306
+  ],
+  "icon": null
+ },
+ "Fray Magic": {
+  "ids": [
+   800053
+  ],
+  "icon": null
+ },
+ "Future Vision": {
+  "ids": [
+   524967
+  ],
+  "icon": null
+ },
+ "Fuzzied Memories": {
+  "ids": [
+   802867
+  ],
+  "icon": null
+ },
+ "Generate SoT In Combat": {
+  "ids": [
+   706782
+  ],
+  "icon": null
+ },
+ "Gift of the Infinite Dragonflight": {
+  "ids": [
+   706114
+  ],
+  "icon": "spell_shadow_skull"
+ },
+ "Gift of the Timeways": {
+  "ids": [
+   503903
+  ],
+  "icon": null
+ },
+ "Golden Opportunity": {
+  "ids": [
+   500471
+  ],
+  "icon": null
+ },
+ "Grains of Chaos": {
+  "ids": [
+   503866
+  ],
+  "icon": null
+ },
+ "Grains of Order": {
+  "ids": [
+   503867
+  ],
+  "icon": null
+ },
+ "Gravity Bomb": {
+  "ids": [
+   501820
+  ],
+  "icon": null
+ },
+ "Gravity Bomb Area Visual": {
+  "ids": [
+   983102
+  ],
+  "icon": null
+ },
+ "Gravity Bomb Area Visual Timer": {
+  "ids": [
+   983103
+  ],
+  "icon": null
+ },
+ "Gravity Lapse": {
+  "ids": [
+   804428
+  ],
+  "icon": null
+ },
+ "Greater Chromie's Wisdom": {
+  "ids": [
+   680307
+  ],
+  "icon": null
+ },
+ "Greater Nozdormu's Wisdom": {
+  "ids": [
+   572396
+  ],
+  "icon": null
+ },
+ "Hands of Time": {
+  "ids": [
+   524855
+  ],
+  "icon": null
+ },
+ "Harrowed": {
+  "ids": [
+   537154
+  ],
+  "icon": null
+ },
+ "Hasten": {
+  "ids": [
+   801304
+  ],
+  "icon": null
+ },
+ "Hasty Strike": {
+  "ids": [
+   803706
+  ],
+  "icon": null
+ },
+ "Hourglass of Eternity": {
+  "ids": [
+   504726
+  ],
+  "icon": null
+ },
+ "Hyperwand": {
+  "ids": [
+   706071
+  ],
+  "icon": "inv_misc_cat_trinket10"
+ },
+ "Ideal Time": {
+  "ids": [
+   572746
+  ],
+  "icon": null
+ },
+ "Illumination": {
+  "ids": [
+   806205
+  ],
+  "icon": null
+ },
+ "Impeccable Timing": {
+  "ids": [
+   560949
+  ],
+  "icon": "spell_holy_dispelmagic"
+ },
+ "Improved Past Self": {
+  "ids": [
+   706091
+  ],
+  "icon": null
+ },
+ "Improved Reverse Wound": {
+  "ids": [
+   706052
+  ],
+  "icon": null
+ },
+ "Improved Temporal Focus": {
+  "ids": [
+   706127
+  ],
+  "icon": null
+ },
+ "Improved Time Stop": {
+  "ids": [
+   706088
+  ],
+  "icon": null
+ },
+ "Incarnation": {
+  "ids": [
+   804493
+  ],
+  "icon": null
+ },
+ "Incarnation of Chaos": {
+  "ids": [
+   570067
+  ],
+  "icon": "inv_belt_armor_voidelf_d_01"
+ },
+ "Incarnation of Order": {
+  "ids": [
+   503883
+  ],
+  "icon": null
+ },
+ "Infinite Clone": {
+  "ids": [
+   704154
+  ],
+  "icon": null
+ },
+ "Infinite Clone HP increase preventer": {
+  "ids": [
+   520531
+  ],
+  "icon": null
+ },
+ "Infinite Flow": {
+  "ids": [
+   583251
+  ],
+  "icon": null
+ },
+ "Infinite Guard": {
+  "ids": [
+   574312
+  ],
+  "icon": "inv_infinitedragonmount"
+ },
+ "Infinite Horizon": {
+  "ids": [
+   560528
+  ],
+  "icon": "achievement_boss_triumvirate_shadowguardetherealmelee"
+ },
+ "Infinite Keeper": {
+  "ids": [
+   806312
+  ],
+  "icon": "inv_inscription_armorscroll02"
+ },
+ "Infinite - Level 30 Passive": {
+  "ids": [
+   706058
+  ],
+  "icon": null
+ },
+ "Infinite Power": {
+  "ids": [
+   92118
+  ],
+  "icon": "achievement_boss_infinitecorruptor"
+ },
+ "Infinite Sands": {
+  "ids": [
+   500115
+  ],
+  "icon": "ability_priest_voidshift"
+ },
+ "Infinite Shield": {
+  "ids": [
+   520457
+  ],
+  "icon": "sha_spell_fire_felfireward"
+ },
+ "Infinite Shroud": {
+  "ids": [
+   805168
+  ],
+  "icon": null
+ },
+ "Infinite Tome": {
+  "ids": [
+   801293
+  ],
+  "icon": null
+ },
+ "Infinite Wrath": {
+  "ids": [
+   804498
+  ],
+  "icon": null
+ },
+ "Infinity": {
+  "ids": [
+   706128
+  ],
+  "icon": "achievement_zone_thousandneedles_01"
+ },
+ "Infinity Crash": {
+  "ids": [
+   706040
+  ],
+  "icon": "spell_shadow_auraofdarkness"
+ },
+ "Infinity Stone": {
+  "ids": [
+   300873
+  ],
+  "icon": "inv_ascend_gems_64"
+ },
+ "Init Order and Chaos": {
+  "ids": [
+   804507
+  ],
+  "icon": null
+ },
+ "Inscribed Rune Setter DEPRECATED": {
+  "ids": [
+   704494
+  ],
+  "icon": null
+ },
+ "Intuition": {
+  "ids": [
+   807589
+  ],
+  "icon": "nhi_lightning_timewarp_border"
+ },
+ "Keep Accelerating": {
+  "ids": [
+   520042
+  ],
+  "icon": "paladin_icon_speedoflight"
+ },
+ "Keeper of Balance Trigger": {
+  "ids": [
+   806314
+  ],
+  "icon": null
+ },
+ "Last Wish": {
+  "ids": [
+   806207
+  ],
+  "icon": null
+ },
+ "Legendary Charm": {
+  "ids": [
+   706078
+  ],
+  "icon": null
+ },
+ "Life and Death": {
+  "ids": [
+   592011
+  ],
+  "icon": null
+ },
+ "Life Cycles": {
+  "ids": [
+   680808
+  ],
+  "icon": "inv_pet_babymurlocs_white"
+ },
+ "Light Bomb": {
+  "ids": [
+   582357
+  ],
+  "icon": null
+ },
+ "Liquify Visual": {
+  "ids": [
+   806530
+  ],
+  "icon": null
+ },
+ "Lost Pendant": {
+  "ids": [
+   806493
+  ],
+  "icon": null
+ },
+ "Luck": {
+  "ids": [
+   706085
+  ],
+  "icon": "racial_dwarf_findtreasure"
+ },
+ "Luck or Fate?": {
+  "ids": [
+   706065
+  ],
+  "icon": null
+ },
+ "Magic Erosion": {
+  "ids": [
+   570060
+  ],
+  "icon": null
+ },
+ "Magic Sensitivity": {
+  "ids": [
+   520171
+  ],
+  "icon": "_enslavespell_arcane"
+ },
+ "Maker of Realities": {
+  "ids": [
+   707656
+  ],
+  "icon": "ability_racial_haymaker"
+ },
+ "Mark of Order": {
+  "ids": [
+   704488
+  ],
+  "icon": "inv_inscription_80_vantusrune_uldir"
+ },
+ "Mass Babify": {
+  "ids": [
+   520181
+  ],
+  "icon": null
+ },
+ "Mass Decomposition": {
+  "ids": [
+   801283
+  ],
+  "icon": null
+ },
+ "Master of Chaos": {
+  "ids": [
+   706047
+  ],
+  "icon": null
+ },
+ "Master of Duality": {
+  "ids": [
+   706049
+  ],
+  "icon": null
+ },
+ "Master of Order": {
+  "ids": [
+   706050
+  ],
+  "icon": null
+ },
+ "Maw of Chaos": {
+  "ids": [
+   806316
+  ],
+  "icon": null
+ },
+ "Melt Reality": {
+  "ids": [
+   806335
+  ],
+  "icon": "nhi_timewarp_border"
+ },
+ "Mind Melt": {
+  "ids": [
+   572771
+  ],
+  "icon": "spell_shadow_brainwash"
+ },
+ "Mind Over Matter": {
+  "ids": [
+   520923
+  ],
+  "icon": "ability_hibernation"
+ },
+ "Moment's Reprieve": {
+  "ids": [
+   572631
+  ],
+  "icon": null
+ },
+ "Momentum Shift": {
+  "ids": [
+   500507
+  ],
+  "icon": null
+ },
+ "Not Even A Scratch": {
+  "ids": [
+   503791
+  ],
+  "icon": null
+ },
+ "Nozdormu's Gaze": {
+  "ids": [
+   807691
+  ],
+  "icon": "inv_misc_head_dragon_bronze"
+ },
+ "Nozdormu's Wisdom": {
+  "ids": [
+   572391
+  ],
+  "icon": null
+ },
+ "Null Orbs": {
+  "ids": [
+   572722
+  ],
+  "icon": "scifi_skills_p_03_border"
+ },
+ "Oblivion": {
+  "ids": [
+   560376
+  ],
+  "icon": null
+ },
+ "OMEGA Babify": {
+  "ids": [
+   680916
+  ],
+  "icon": null
+ },
+ "Orb Proc Aura": {
+  "ids": [
+   520200
+  ],
+  "icon": null
+ },
+ "Order": {
+  "ids": [
+   503816
+  ],
+  "icon": null
+ },
+ "Order and Chaos WATCHER": {
+  "ids": [
+   804659
+  ],
+  "icon": null
+ },
+ "Order Baseline Negative": {
+  "ids": [
+   804516
+  ],
+  "icon": null
+ },
+ "Order Chronomancer": {
+  "ids": [
+   503811
+  ],
+  "icon": null
+ },
+ "Order Empowerment": {
+  "ids": [
+   503815
+  ],
+  "icon": null
+ },
+ "Order Generation Passive": {
+  "ids": [
+   804485
+  ],
+  "icon": null
+ },
+ "Order Incarnate": {
+  "ids": [
+   804483
+  ],
+  "icon": null
+ },
+ "Order Incarnate Transform": {
+  "ids": [
+   560324
+  ],
+  "icon": null
+ },
+ "Order Is Here": {
+  "ids": [
+   628325
+  ],
+  "icon": null
+ },
+ "Orderly Protector": {
+  "ids": [
+   704482
+  ],
+  "icon": null
+ },
+ "Order Majority": {
+  "ids": [
+   806304
+  ],
+  "icon": null
+ },
+ "Order Shift": {
+  "ids": [
+   704136
+  ],
+  "icon": null
+ },
+ "Overcorrection": {
+  "ids": [
+   561231
+  ],
+  "icon": null
+ },
+ "Paradox": {
+  "ids": [
+   680946
+  ],
+  "icon": "spell_shadow_shadowmend"
+ },
+ "Paradox Cannon": {
+  "ids": [
+   806203
+  ],
+  "icon": "inv_staff_2h_artifactaegwynsstaff_d_06"
+ },
+ "Passage of Time": {
+  "ids": [
+   801317
+  ],
+  "icon": null
+ },
+ "Passage of Time Timeway Blast": {
+  "ids": [
+   503873
+  ],
+  "icon": null
+ },
+ "Past Mistakes": {
+  "ids": [
+   520043
+  ],
+  "icon": null
+ },
+ "Past Self": {
+  "ids": [
+   801278
+  ],
+  "icon": null
+ },
+ "Pendant of Time": {
+  "ids": [
+   524852
+  ],
+  "icon": null
+ },
+ "Perfect Timing": {
+  "ids": [
+   520164
+  ],
+  "icon": "inv_misc_head_dragon_bronze"
+ },
+ "Pierce the Time": {
+  "ids": [
+   560131
+  ],
+  "icon": null
+ },
+ "Pierce the Time remover": {
+  "ids": [
+   560133
+  ],
+  "icon": null
+ },
+ "Plentiful Orbs": {
+  "ids": [
+   706069
+  ],
+  "icon": null
+ },
+ "Pocket Sand": {
+  "ids": [
+   706116
+  ],
+  "icon": null
+ },
+ "Posses the Moment": {
+  "ids": [
+   520924
+  ],
+  "icon": null
+ },
+ "Potion of Experience Visual Test Spell": {
+  "ids": [
+   680849
+  ],
+  "icon": null
+ },
+ "Precision Crafted Orbs": {
+  "ids": [
+   570084
+  ],
+  "icon": null
+ },
+ "Procrastination": {
+  "ids": [
+   520854
+  ],
+  "icon": "inv_ascend_brain_b_01"
+ },
+ "Proliferate Decomposition": {
+  "ids": [
+   503823
+  ],
+  "icon": null
+ },
+ "Prophetic Sands": {
+  "ids": [
+   706113
+  ],
+  "icon": null
+ },
+ "Protection": {
+  "ids": [
+   560374
+  ],
+  "icon": null
+ },
+ "Protector Training": {
+  "ids": [
+   706073
+  ],
+  "icon": null
+ },
+ "Psychic Burst": {
+  "ids": [
+   570213
+  ],
+  "icon": null
+ },
+ "Pulse Driver": {
+  "ids": [
+   706121
+  ],
+  "icon": "inv_wand_33"
+ },
+ "Pure Chaos": {
+  "ids": [
+   807569
+  ],
+  "icon": "spell_shadow_unstableaffliction_1"
+ },
+ "Pure Chaos Trigger": {
+  "ids": [
+   583426
+  ],
+  "icon": null
+ },
+ "Quickcaster": {
+  "ids": [
+   706132
+  ],
+  "icon": null
+ },
+ "Rapid Aging": {
+  "ids": [
+   804426
+  ],
+  "icon": null
+ },
+ "Realign Chaos": {
+  "ids": [
+   704128
+  ],
+  "icon": null
+ },
+ "Realign Order": {
+  "ids": [
+   704127
+  ],
+  "icon": null
+ },
+ "Reality Unmaked": {
+  "ids": [
+   707125
+  ],
+  "icon": null
+ },
+ "Reconstruction": {
+  "ids": [
+   524850
+  ],
+  "icon": null
+ },
+ "Recovering": {
+  "ids": [
+   680843
+  ],
+  "icon": null
+ },
+ "Reflection": {
+  "ids": [
+   801296
+  ],
+  "icon": null
+ },
+ "Rehatch": {
+  "ids": [
+   578265
+  ],
+  "icon": null
+ },
+ "Relocator Disc": {
+  "ids": [
+   806755
+  ],
+  "icon": null
+ },
+ "Remake": {
+  "ids": [
+   804501
+  ],
+  "icon": null
+ },
+ "Remove 1 Upheaval": {
+  "ids": [
+   503922
+  ],
+  "icon": null
+ },
+ "Renewal": {
+  "ids": [
+   560355
+  ],
+  "icon": null
+ },
+ "Reset Order and Chaos": {
+  "ids": [
+   804479
+  ],
+  "icon": null
+ },
+ "Reset Order and Chaos 2": {
+  "ids": [
+   804480
+  ],
+  "icon": null
+ },
+ "Resilience": {
+  "ids": [
+   560373
+  ],
+  "icon": null
+ },
+ "Resonance": {
+  "ids": [
+   706079
+  ],
+  "icon": "inv_6_2raid_trinket_4a"
+ },
+ "Resting": {
+  "ids": [
+   583404
+  ],
+  "icon": null
+ },
+ "Resynchronization": {
+  "ids": [
+   561388
+  ],
+  "icon": null
+ },
+ "Resynchronize": {
+  "ids": [
+   804495
+  ],
+  "icon": null
+ },
+ "Reverse Engineering": {
+  "ids": [
+   520875
+  ],
+  "icon": "_engineering_tanaristp"
+ },
+ "Reverse Wound": {
+  "ids": [
+   801303
+  ],
+  "icon": null
+ },
+ "Revolving Sands": {
+  "ids": [
+   500113
+  ],
+  "icon": null
+ },
+ "Rewind": {
+  "ids": [
+   801294
+  ],
+  "icon": null
+ },
+ "Ripple": {
+  "ids": [
+   806296
+  ],
+  "icon": "inv_staff_2h_nazmirraid_d_01"
+ },
+ "Ripple Aura": {
+  "ids": [
+   806267
+  ],
+  "icon": null
+ },
+ "Ripple in Time": {
+  "ids": [
+   806297
+  ],
+  "icon": null
+ },
+ "Rippling Oblivion": {
+  "ids": [
+   560386
+  ],
+  "icon": null
+ },
+ "Rippling Power": {
+  "ids": [
+   806300
+  ],
+  "icon": "ability_bossmagistrix_timewarp1"
+ },
+ "Rippling Power crit": {
+  "ids": [
+   560402
+  ],
+  "icon": null
+ },
+ "Rippling Protection": {
+  "ids": [
+   560393
+  ],
+  "icon": null
+ },
+ "Rippling Renewal": {
+  "ids": [
+   560382
+  ],
+  "icon": null
+ },
+ "Rippling Resilience": {
+  "ids": [
+   560395
+  ],
+  "icon": null
+ },
+ "Roll Back": {
+  "ids": [
+   524966
+  ],
+  "icon": null
+ },
+ "Rumble": {
+  "ids": [
+   805166
+  ],
+  "icon": null
+ },
+ "Runed Rod": {
+  "ids": [
+   706067
+  ],
+  "icon": null
+ },
+ "Rust Creation": {
+  "ids": [
+   704479
+  ],
+  "icon": null
+ },
+ "Sand Barrage": {
+  "ids": [
+   807033
+  ],
+  "icon": null
+ },
+ "Sandblast": {
+  "ids": [
+   501918
+  ],
+  "icon": null
+ },
+ "Sandblaster": {
+  "ids": [
+   520728
+  ],
+  "icon": null
+ },
+ "Sand Bomb": {
+  "ids": [
+   560354
+  ],
+  "icon": null
+ },
+ "Sandpage": {
+  "ids": [
+   806244
+  ],
+  "icon": null
+ },
+ "Sands of Life": {
+  "ids": [
+   560383
+  ],
+  "icon": "spell_quicksand"
+ },
+ "Sands of Time": {
+  "ids": [
+   501843
+  ],
+  "icon": null
+ },
+ "Sands of Time remover": {
+  "ids": [
+   125715
+  ],
+  "icon": null
+ },
+ "Sands of Time Remover": {
+  "ids": [
+   570180
+  ],
+  "icon": null
+ },
+ "Sandstorm": {
+  "ids": [
+   520169
+  ],
+  "icon": null
+ },
+ "Saviour": {
+  "ids": [
+   706109
+  ],
+  "icon": null
+ },
+ "Scales of Time": {
+  "ids": [
+   706064
+  ],
+  "icon": null
+ },
+ "Scepter of Time": {
+  "ids": [
+   560164
+  ],
+  "icon": null
+ },
+ "Scimitar Strike": {
+  "ids": [
+   804363
+  ],
+  "icon": null
+ },
+ "Shard of Order": {
+  "ids": [
+   503828
+  ],
+  "icon": null
+ },
+ "Shatter Echo": {
+  "ids": [
+   804503
+  ],
+  "icon": "shatterecho"
+ },
+ "Shield of Disintegration DEPRECATED": {
+  "ids": [
+   805843
+  ],
+  "icon": null
+ },
+ "Shield of Order": {
+  "ids": [
+   806333
+  ],
+  "icon": null
+ },
+ "Shield of the Ages": {
+  "ids": [
+   804444
+  ],
+  "icon": "custom_t_nhance_rpg_icons_holywatch_border"
+ },
+ "Shield of The Keeper": {
+  "ids": [
+   706124
+  ],
+  "icon": null
+ },
+ "Shifting Chaos": {
+  "ids": [
+   706059
+  ],
+  "icon": "inv_jewelcrafting_shadowspirit_02"
+ },
+ "Shifting Sands": {
+  "ids": [
+   806317
+  ],
+  "icon": null
+ },
+ "Shimmer": {
+  "ids": [
+   806303
+  ],
+  "icon": null
+ },
+ "Shimmering Shard": {
+  "ids": [
+   806302
+  ],
+  "icon": "inv_misc_gem_x4_uncommon_perfectcut_yellow"
+ },
+ "Singularity Core": {
+  "ids": [
+   804437
+  ],
+  "icon": null
+ },
+ "Slipstream": {
+  "ids": [
+   706056
+  ],
+  "icon": null
+ },
+ "Slow Time": {
+  "ids": [
+   801295
+  ],
+  "icon": null
+ },
+ "Source of Chaos": {
+  "ids": [
+   628327
+  ],
+  "icon": null
+ },
+ "Source of Order": {
+  "ids": [
+   628324
+  ],
+  "icon": null
+ },
+ "Spatial Distortion": {
+  "ids": [
+   706094
+  ],
+  "icon": null
+ },
+ "Spirit Communion": {
+  "ids": [
+   803560
+  ],
+  "icon": null
+ },
+ "Spirit Healing": {
+  "ids": [
+   536279
+  ],
+  "icon": null
+ },
+ "Splitting Time": {
+  "ids": [
+   555730
+  ],
+  "icon": null
+ },
+ "Sporadic Incantations": {
+  "ids": [
+   570061
+  ],
+  "icon": "custom_t_sundarkening_border"
+ },
+ "Summon Past Self": {
+  "ids": [
+   801279
+  ],
+  "icon": null
+ },
+ "Tamed Incantations": {
+  "ids": [
+   706077
+  ],
+  "icon": "novart_magicspell_(56)_border"
+ },
+ "Teleport: Caverns of Time": {
+  "ids": [
+   804753
+  ],
+  "icon": null
+ },
+ "Temporal Anomaly": {
+  "ids": [
+   806315
+  ],
+  "icon": "novart_magicspell_(39)_border"
+ },
+ "Temporal Balance": {
+  "ids": [
+   805857
+  ],
+  "icon": null
+ },
+ "Temporal Blades": {
+  "ids": [
+   804365
+  ],
+  "icon": null
+ },
+ "Temporal Convergence": {
+  "ids": [
+   807588
+  ],
+  "icon": "spell_holy_mindvision"
+ },
+ "Temporal Dissonance": {
+  "ids": [
+   520922
+  ],
+  "icon": "spell_shadow_manaburn"
+ },
+ "Temporal Duel": {
+  "ids": [
+   801110
+  ],
+  "icon": null
+ },
+ "Temporal Focus": {
+  "ids": [
+   528056
+  ],
+  "icon": null
+ },
+ "Temporally Warped": {
+  "ids": [
+   536265
+  ],
+  "icon": null
+ },
+ "Temporal Resilience": {
+  "ids": [
+   680389
+  ],
+  "icon": null
+ },
+ "Temporal Restoration": {
+  "ids": [
+   680456
+  ],
+  "icon": null
+ },
+ "Temporal Return": {
+  "ids": [
+   583403
+  ],
+  "icon": null
+ },
+ "Temporal Swiftness": {
+  "ids": [
+   680390
+  ],
+  "icon": null
+ },
+ "test": {
+  "ids": [
+   520669
+  ],
+  "icon": null
+ },
+ "The Bieko Effect": {
+  "ids": [
+   706099
+  ],
+  "icon": "inv_60pvp_trinket3b"
+ },
+ "The Vast Infinite": {
+  "ids": [
+   542712
+  ],
+  "icon": null
+ },
+ "Thread of Eternity": {
+  "ids": [
+   572127
+  ],
+  "icon": null
+ },
+ "Threads of Eternity": {
+  "ids": [
+   806209
+  ],
+  "icon": "inv_tailoring_80_nylonthread"
+ },
+ "Through The Aeons": {
+  "ids": [
+   560310
+  ],
+  "icon": "nhi_timewarp_border"
+ },
+ "Time Beacon": {
+  "ids": [
+   574310
+  ],
+  "icon": "custom_t_nhance_rpg_icons_holywhirlpool_border"
+ },
+ "Timebender": {
+  "ids": [
+   806340
+  ],
+  "icon": null
+ },
+ "Timeblender": {
+  "ids": [
+   555737
+  ],
+  "icon": "achievement_guild_timeoff"
+ },
+ "Time Bomb": {
+  "ids": [
+   582254
+  ],
+  "icon": null
+ },
+ "Timeguard": {
+  "ids": [
+   804441
+  ],
+  "icon": "inv_belt_armor_waistoftime_d_01"
+ },
+ "Timeguard Proc": {
+  "ids": [
+   804442
+  ],
+  "icon": null
+ },
+ "Time Is A Circle": {
+  "ids": [
+   806206
+  ],
+  "icon": "inv_wand_1h_maldraxxusquest_b_01"
+ },
+ "Time Is Unfair": {
+  "ids": [
+   592007
+  ],
+  "icon": null
+ },
+ "Timekeeper": {
+  "ids": [
+   680845
+  ],
+  "icon": "inv_eng_unstabletemporaltimeshifter"
+ },
+ "Timeless": {
+  "ids": [
+   706131
+  ],
+  "icon": "spell_nature_mentalquickness"
+ },
+ "Time - Level 50 Passive": {
+  "ids": [
+   574311
+  ],
+  "icon": null
+ },
+ "Timeline Destroyer": {
+  "ids": [
+   805846
+  ],
+  "icon": null
+ },
+ "Timeline Guardian": {
+  "ids": [
+   805845
+  ],
+  "icon": null
+ },
+ "Timeline Reconstruction": {
+  "ids": [
+   802866
+  ],
+  "icon": null
+ },
+ "Timeline Tether": {
+  "ids": [
+   804505
+  ],
+  "icon": "_enslavespell_holy"
+ },
+ "Timelink": {
+  "ids": [
+   805170
+  ],
+  "icon": null
+ },
+ "Time Locked": {
+  "ids": [
+   707409
+  ],
+  "icon": null
+ },
+ "Time Loop": {
+  "ids": [
+   801297
+  ],
+  "icon": null
+ },
+ "Timelost Power": {
+  "ids": [
+   807754
+  ],
+  "icon": "inv_motorcyclefelreavermount_shadow"
+ },
+ "Timemage": {
+  "ids": [
+   806753
+  ],
+  "icon": "inv_helm_goggles_draenortradeskill_d_01"
+ },
+ "Timemancy": {
+  "ids": [
+   706118
+  ],
+  "icon": null
+ },
+ "Time Means Nothing": {
+  "ids": [
+   572357
+  ],
+  "icon": "spell_animamaw_groundstate"
+ },
+ "Time Out!": {
+  "ids": [
+   802229
+  ],
+  "icon": null
+ },
+ "Timerend": {
+  "ids": [
+   801291
+  ],
+  "icon": null
+ },
+ "Time Skip": {
+  "ids": [
+   704485
+  ],
+  "icon": null
+ },
+ "Time Skip Trigger": {
+  "ids": [
+   804470
+  ],
+  "icon": null
+ },
+ "Time Stretch": {
+  "ids": [
+   560404
+  ],
+  "icon": null
+ },
+ "Timewalking": {
+  "ids": [
+   572527
+  ],
+  "icon": "spell_holy_divineprovidence"
+ },
+ "Timewalking Mount Protection": {
+  "ids": [
+   520520
+  ],
+  "icon": null
+ },
+ "Timewarped Shield": {
+  "ids": [
+   706125
+  ],
+  "icon": null
+ },
+ "Time Wizard": {
+  "ids": [
+   706779
+  ],
+  "icon": "spell_holy_flashheal"
+ },
+ "Titan's Gaze": {
+  "ids": [
+   704484
+  ],
+  "icon": null
+ },
+ "Tome of Chaos": {
+  "ids": [
+   503833
+  ],
+  "icon": null
+ },
+ "Tome of Order": {
+  "ids": [
+   572743
+  ],
+  "icon": null
+ },
+ "Tome of Time": {
+  "ids": [
+   805848
+  ],
+  "icon": null
+ },
+ "Tripping the Rift": {
+  "ids": [
+   520173
+  ],
+  "icon": "spell_holy_dizzy"
+ },
+ "True Balance": {
+  "ids": [
+   806306
+  ],
+  "icon": null
+ },
+ "Truly Infinite": {
+  "ids": [
+   706087
+  ],
+  "icon": null
+ },
+ "Twisted Fate": {
+  "ids": [
+   592013
+  ],
+  "icon": null
+ },
+ "Unbalanced": {
+  "ids": [
+   704493
+  ],
+  "icon": null
+ },
+ "Unearth": {
+  "ids": [
+   503884
+  ],
+  "icon": null
+ },
+ "Unearthed Balance": {
+  "ids": [
+   520190
+  ],
+  "icon": null
+ },
+ "Unearthed Balance Unearth Mod": {
+  "ids": [
+   520413
+  ],
+  "icon": null
+ },
+ "Unearthed Passage": {
+  "ids": [
+   706112
+  ],
+  "icon": null
+ },
+ "Unearthed Pools": {
+  "ids": [
+   503792
+  ],
+  "icon": null
+ },
+ "Unearthed Power": {
+  "ids": [
+   503831
+  ],
+  "icon": "spell_shadow_chilltouch"
+ },
+ "Unholy Command": {
+  "ids": [
+   707027
+  ],
+  "icon": null
+ },
+ "Unholy Grasp": {
+  "ids": [
+   503725
+  ],
+  "icon": null
+ },
+ "Unmade": {
+  "ids": [
+   712379
+  ],
+  "icon": null
+ },
+ "Unmake": {
+  "ids": [
+   804418
+  ],
+  "icon": null
+ },
+ "Unmake Haste Aura": {
+  "ids": [
+   707431
+  ],
+  "icon": null
+ },
+ "Unmaker of Realities": {
+  "ids": [
+   706107
+  ],
+  "icon": "achievement_dungeon_arakkoaspires"
+ },
+ "Unstable Chronoglass": {
+  "ids": [
+   503836
+  ],
+  "icon": "nhi_arcanesandwatch_border"
+ },
+ "Untimely Disposition": {
+  "ids": [
+   520205
+  ],
+  "icon": null
+ },
+ "Upheaval": {
+  "ids": [
+   804489
+  ],
+  "icon": null
+ },
+ "Uproot": {
+  "ids": [
+   520174
+  ],
+  "icon": null
+ },
+ "Vivid Memory": {
+  "ids": [
+   706086
+  ],
+  "icon": null
+ },
+ "Wand Expert": {
+  "ids": [
+   574308
+  ],
+  "icon": "inv_cloth_raidpriestdragon_d_01_helm_blue"
+ },
+ "Wand Master": {
+  "ids": [
+   707551
+  ],
+  "icon": "spell_nature_brilliance"
+ },
+ "Wand Master2": {
+  "ids": [
+   524961
+  ],
+  "icon": null
+ },
+ "Wand Mastery": {
+  "ids": [
+   806216
+  ],
+  "icon": "5_wandshot_border"
+ },
+ "Wand of Entropy": {
+  "ids": [
+   706126
+  ],
+  "icon": null
+ },
+ "Wand of Extinction": {
+  "ids": [
+   804423
+  ],
+  "icon": null
+ },
+ "Wand of Time": {
+  "ids": [
+   520175
+  ],
+  "icon": null
+ },
+ "Warped Reality": {
+  "ids": [
+   504603
+  ],
+  "icon": null
+ },
+ "Warping Reality": {
+  "ids": [
+   504602
+  ],
+  "icon": "inv_archaeology_70_highborne_violetglassvessel"
+ },
+ "Warpstriker": {
+  "ids": [
+   707556
+  ],
+  "icon": "inv_jewelcrafting_shadowsongamethyst_02"
+ },
+ "Waves of Time": {
+  "ids": [
+   801265
+  ],
+  "icon": null
+ },
+ "Window of Vulnerability": {
+  "ids": [
+   706061
+  ],
+  "icon": null
+ },
+ "Wisdom": {
+  "ids": [
+   706105
+  ],
+  "icon": null
+ },
+ "Wonders of Time": {
+  "ids": [
+   560541
+  ],
+  "icon": "ability_hunter_readiness"
+ },
+ "Wound Removal": {
+  "ids": [
+   706054
+  ],
+  "icon": null
+ }
+}

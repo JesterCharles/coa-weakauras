@@ -1,0 +1,461 @@
+{
+ "Aeon of Oblivion": {
+  "id": 806293,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": false
+ },
+ "Aeon of Protection": {
+  "id": 806292,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": false
+ },
+ "Aeon of Renewal": {
+  "id": 806290,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": false
+ },
+ "Aether Compression": {
+  "id": 804436,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": false
+ },
+ "Backtrack": {
+  "id": 706973,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Breath of Time": {
+  "id": 805162,
+  "cd": "30 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Chaos Embrace": {
+  "id": 805167,
+  "cd": "40 sec cooldown",
+  "specs": [],
+  "gcd": "1.0 sec"
+ },
+ "Chronicles of History": {
+  "id": 801288,
+  "cd": "1 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": false
+ },
+ "Chronobeam": {
+  "id": 801267,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Chronurgy": {
+  "id": 806326,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Clasp of Infinity": {
+  "id": 805847,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Collapse": {
+  "id": 804448,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": false
+ },
+ "Continuum Restoration": {
+  "id": 801271,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": false
+ },
+ "Desynchronization": {
+  "id": 561310,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Dilation": {
+  "id": 560168,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Dimensional Divergence": {
+  "id": 802790,
+  "cd": "2 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Disc of Legend": {
+  "id": 680844,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": false
+ },
+ "Discordant Blast": {
+  "id": 801290,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Displacement": {
+  "id": 806727,
+  "cd": "1 min cooldown",
+  "specs": [
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fabric of Time": {
+  "id": 806299,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "artificer",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Flow of Infinity": {
+  "id": 804497,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Flux Emitter": {
+  "id": 804435,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fortify Timeline": {
+  "id": 804491,
+  "cd": "1 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fracture Timeline": {
+  "id": 801306,
+  "cd": "2 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fray Magic": {
+  "id": 800053,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "artificer",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Gravity Bomb": {
+  "id": 501820,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hasten": {
+  "id": 801304,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Incarnation of Chaos": {
+  "id": 570067,
+  "cd": "3 min cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Incarnation of Order": {
+  "id": 503883,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Infinite Shield": {
+  "id": 520457,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Infinite Shroud": {
+  "id": 805168,
+  "cd": "35 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Keeper of Balance Trigger": {
+  "id": 806314,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Maw of Chaos": {
+  "id": 806316,
+  "cd": "24 sec cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Paradox Cannon": {
+  "id": 806203,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": false
+ },
+ "Past Mistakes": {
+  "id": 520043,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Past Self": {
+  "id": 801278,
+  "cd": "3 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Reflection": {
+  "id": 801296,
+  "cd": "1 min cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Resynchronize": {
+  "id": 804495,
+  "cd": "30 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Rewind": {
+  "id": 801294,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Ripple": {
+  "id": 806296,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Rumble": {
+  "id": 805166,
+  "cd": "15 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Sands of Time": {
+  "id": 501843,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Shatter Echo": {
+  "id": 804503,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "artificer"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Slow Time": {
+  "id": 801295,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "infinite"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Temporal Anomaly": {
+  "id": 806315,
+  "cd": "2 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Temporal Focus": {
+  "id": 528056,
+  "cd": "1 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Temporal Return": {
+  "id": 583403,
+  "cd": "15 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Time Loop": {
+  "id": 801297,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Time Out!": {
+  "id": 802229,
+  "cd": "3 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": false
+ },
+ "Timeguard": {
+  "id": 804441,
+  "cd": "2 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Timelink": {
+  "id": 805170,
+  "cd": "1.5 min cooldown",
+  "specs": [],
+  "gcd": "1.0 sec"
+ },
+ "Unearth": {
+  "id": 503884,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite",
+   "time"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Unstable Chronoglass": {
+  "id": 503836,
+  "cd": "1 min cooldown",
+  "specs": [
+   "artificer",
+   "infinite"
+  ],
+  "gcd": false
+ },
+ "Wand of Time": {
+  "id": 520175,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "artificer",
+   "infinite"
+  ],
+  "gcd": "1.5 sec"
+ }
+}

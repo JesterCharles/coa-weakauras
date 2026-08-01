@@ -1,0 +1,907 @@
+[
+ {
+  "name": "A Ripple In Time",
+  "icon": "ability_paladin_righteousvengeance",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Accelerated Mending",
+  "icon": "spell_nature_astralrecalgroup",
+  "meta": "Ability"
+ },
+ {
+  "name": "Accelerated Recovery",
+  "icon": "spell_holy_healingfocus",
+  "meta": "Ability Lvl 10 \u00b7 max L58"
+ },
+ {
+  "name": "Aeon of Oblivion",
+  "icon": "inv_trinket_80_kultiras02e",
+  "meta": "Talent"
+ },
+ {
+  "name": "Aeon of Protection",
+  "icon": "inv_trinket_80_kultiras02d",
+  "meta": "Talent"
+ },
+ {
+  "name": "Aeon of Renewal",
+  "icon": "inv_trinket_80_kultiras02b",
+  "meta": "Talent"
+ },
+ {
+  "name": "Aeon of Resilience",
+  "icon": "inv_trinket_80_kultiras02a",
+  "meta": "Ability"
+ },
+ {
+  "name": "Aether Compression",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Age of Empires",
+  "icon": "spell_holy_divineshield",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Ancient Text",
+  "icon": "inv_jewelry_trinket_18",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Arc Collision",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Archaeology",
+  "icon": "inv_pick_05",
+  "meta": "Ability"
+ },
+ {
+  "name": "Artificer's Empowerment",
+  "icon": "inv_azeritedebuff",
+  "meta": "Talent Rank 1"
+ },
+ {
+  "name": "Artificer's Magic",
+  "icon": "inv_glove_mail_nazmirraid_d_01",
+  "meta": "Ability Chronobuff"
+ },
+ {
+  "name": "Artificer's Spellplate",
+  "icon": "inv_shoulder_plate_nazmirraid_d_01",
+  "meta": "Ability Chronobuff"
+ },
+ {
+  "name": "Artificer's Toughness",
+  "icon": "inv_chest_mail_nazmirraid_d_01",
+  "meta": "Ability Chronobuff"
+ },
+ {
+  "name": "Babify",
+  "icon": "inv_snowkid",
+  "meta": "Talent Lvl 6"
+ },
+ {
+  "name": "Backtrack",
+  "icon": "ability_paladin_speedoflight",
+  "meta": "Ability Lvl 34"
+ },
+ {
+  "name": "Balance of Power",
+  "icon": "achievement_zone_spiresofarak",
+  "meta": "Ability Rank 1"
+ },
+ {
+  "name": "Beam of Time",
+  "icon": "nhi_corruptionbeam_border",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Biting Chaos",
+  "icon": "_virus_yellow",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Black Hole",
+  "icon": "spell_shadow_mindtwisting",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Breath of Time",
+  "icon": "inv_pet_wisp_gold",
+  "meta": "Ability Lvl 10"
+ },
+ {
+  "name": "Buy Time",
+  "icon": "ability_racial_timeismoney",
+  "meta": "Ability"
+ },
+ {
+  "name": "Carbon Dating",
+  "icon": "trade_archaeology",
+  "meta": "Ability Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Chaos Embrace",
+  "icon": "inv_chest_armor_voidelf_d_01",
+  "meta": "Ability Lvl 12"
+ },
+ {
+  "name": "Chaos Omen",
+  "icon": "inv_misc_starmetal",
+  "meta": "Ability Lvl 58"
+ },
+ {
+  "name": "Charm of Power",
+  "icon": "inv_inscription_trinket_healer",
+  "meta": "Ability Lvl 58"
+ },
+ {
+  "name": "Chromatic Misalignment",
+  "icon": "inv_offhand_stratholme_a_02",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Chromatic Shards",
+  "icon": "inv_enchanting_wod_crystalshard2",
+  "meta": "Talent"
+ },
+ {
+  "name": "Chromie's Wisdom",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 12"
+ },
+ {
+  "name": "Chronicler",
+  "icon": "ability_priest_bindingprayers",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Chronicles of History",
+  "icon": "inv_inscription_weaponscroll02",
+  "meta": "Talent Rank 1 \u00b7 max L51"
+ },
+ {
+  "name": "Chrono Herald",
+  "icon": "spell_holy_mindvision",
+  "meta": "Ability Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Chrono Mend",
+  "icon": "priest_icon_chakra",
+  "meta": "Ability Lvl 13"
+ },
+ {
+  "name": "Chrono Sorcery",
+  "icon": "_castercloak_arcanes",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Clasp of Infinity",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 10"
+ },
+ {
+  "name": "Clocked In",
+  "icon": "ability_racial_timeismoney",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Collapse",
+  "icon": "spell_arcane_arcane01_nightborne",
+  "meta": "Ability"
+ },
+ {
+  "name": "Concentrated Fate",
+  "icon": "inv_wand_1h_warfrontsalliance_c_01",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Continuum Restoration",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 31"
+ },
+ {
+  "name": "Correct the Mistake",
+  "icon": "5_heal_border",
+  "meta": "Talent Lvl 15 \u00b7 max L48"
+ },
+ {
+  "name": "Crown of Power",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Crystal Cannon",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Dark Star",
+  "icon": "spell_priest_divinestar_shadow",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Deconstruction",
+  "icon": "inv_chest_armor_voidelf_d_01",
+  "meta": "Talent Rank 1"
+ },
+ {
+  "name": "Dilation",
+  "icon": "inv_magemount",
+  "meta": "Talent \u00b7 max L0"
+ },
+ {
+  "name": "Dimensional Phasing",
+  "icon": "ability_priest_phantasm",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Discordance",
+  "icon": "spell_animamaw_missile",
+  "meta": "Talent Lvl 8 \u00b7 max L42"
+ },
+ {
+  "name": "Discordant Blast",
+  "icon": "inv_enchant_voidsphere",
+  "meta": "Ability Rank 1 \u00b7 max L58"
+ },
+ {
+  "name": "Discovery",
+  "icon": "5_wandshot_(2)_border",
+  "meta": "Talent Lvl 15"
+ },
+ {
+  "name": "Discs Upon Discs",
+  "icon": "inv_7_0raid_trinket_04a",
+  "meta": "Talent Passive \u00b7 max L0"
+ },
+ {
+  "name": "Disenchant Weapon",
+  "icon": "inv_enchant_disenchant",
+  "meta": "Talent"
+ },
+ {
+  "name": "Do Over",
+  "icon": "ability_crown_of_the_heavens_icon",
+  "meta": "Ability Lvl 10"
+ },
+ {
+  "name": "Echo",
+  "icon": "inv_misc_trinket6oih_orb4",
+  "meta": "Ability"
+ },
+ {
+  "name": "Elder Tome",
+  "icon": "_book5_brown",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Empowered Restoration",
+  "icon": "spell_holy_healingaura",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Enchanted Collar",
+  "icon": "inv_misc_cat_trinket07",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "End of Time",
+  "icon": "spell_priest_divinestar_shadow2",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Endless Sands",
+  "icon": "inv_enchant_dustspirit",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Entropy Overload",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Epic Recovery",
+  "icon": "inv_shield_1h_bastionquest_b_01",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Epoch",
+  "icon": "ability_rewindtime",
+  "meta": "Ability Rank 1 \u00b7 max L58"
+ },
+ {
+  "name": "Erase",
+  "icon": "spell_animamaw_wave",
+  "meta": "Ability Lvl 15"
+ },
+ {
+  "name": "Erasion",
+  "icon": "spell_animamaw_wave",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Eternity",
+  "icon": "inv_enchant_dreamshard_01",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Eternity Warper",
+  "icon": "ability_bossmagistrix_timewarp2",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Eternity's End",
+  "icon": "_d3slowtime",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Expediting Time",
+  "icon": "spell_holy_ashestoashes",
+  "meta": "Ability Lvl 28"
+ },
+ {
+  "name": "Fabric of Time",
+  "icon": "spell_monk_diffusemagic",
+  "meta": "Talent Lvl 27 \u00b7 max L52"
+ },
+ {
+  "name": "Fate Twister",
+  "icon": "spell_arcane_blast",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Flow of Infinity",
+  "icon": "inv_enchanting_crystal",
+  "meta": "Ability"
+ },
+ {
+  "name": "Flux Emitter",
+  "icon": "inv_wand_25",
+  "meta": "Talent Lvl 29"
+ },
+ {
+  "name": "Fortify Timeline",
+  "icon": "achievement_guildperk_workingovertime_rank2",
+  "meta": "Talent Lvl 27"
+ },
+ {
+  "name": "Fracture Timeline",
+  "icon": "achievement_bg_winwsg_underxminutes",
+  "meta": "Talent Lvl 8"
+ },
+ {
+  "name": "Future Vision",
+  "icon": "priest_icon_chakra",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Gift of the Infinite Dragonflight",
+  "icon": "spell_shadow_skull",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Gift of the Timeways",
+  "icon": "spell_holy_persecution",
+  "meta": "Talent Passive \u00b7 max L0"
+ },
+ {
+  "name": "Gravity Bomb",
+  "icon": "spell_mage_supernova",
+  "meta": "Ability Lvl 14 \u00b7 max L58"
+ },
+ {
+  "name": "Hasten",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 36"
+ },
+ {
+  "name": "Hourglass of Eternity",
+  "icon": "inv_relics_hourglass",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Hyperwand",
+  "icon": "inv_misc_cat_trinket10",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Improved Past Self",
+  "icon": "spell_mage_overpowered",
+  "meta": "Talent Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Improved Reverse Wound",
+  "icon": "spell_holy_blessedrecovery",
+  "meta": "Ability Rank 1 \u00b7 max L12"
+ },
+ {
+  "name": "Improved Temporal Focus",
+  "icon": "inv_staff_03",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Improved Time Stop",
+  "icon": "spell_frost_stun",
+  "meta": "Talent Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Incarnation",
+  "icon": "achievement_bg_overcome500disadvantage",
+  "meta": "Ability"
+ },
+ {
+  "name": "Incarnation of Order",
+  "icon": "novart_magicspell_(39)_border",
+  "meta": "Talent"
+ },
+ {
+  "name": "Infinite - Level 30 Passive",
+  "icon": "spell_frost_manaburn",
+  "meta": "Ability Specialization"
+ },
+ {
+  "name": "Infinite Clone",
+  "icon": "ability_priest_savinggrace",
+  "meta": "Ability Lvl 30"
+ },
+ {
+  "name": "Infinite Horizon",
+  "icon": "achievement_boss_triumvirate_shadowguardetherealmelee",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Infinite Keeper",
+  "icon": "inv_inscription_armorscroll02",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Infinite Sands",
+  "icon": "ability_priest_voidshift",
+  "meta": "Ability Lvl 26"
+ },
+ {
+  "name": "Infinite Shield",
+  "icon": "sha_spell_fire_felfireward",
+  "meta": "Ability Lvl 58"
+ },
+ {
+  "name": "Infinite Shroud",
+  "icon": "inv_belt_armor_voidelf_d_01",
+  "meta": "Ability Lvl 30"
+ },
+ {
+  "name": "Infinite Tome",
+  "icon": "trade_archaeology_draenei_tome",
+  "meta": "Ability"
+ },
+ {
+  "name": "Infinite Wrath",
+  "icon": "sha_inv_elemental_primal_shadow_nightborne",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Infinity",
+  "icon": "achievement_zone_thousandneedles_01",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Infinity Crash",
+  "icon": "spell_shadow_auraofdarkness",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Last Wish",
+  "icon": "spell_holy_impholyconcentration",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Luck",
+  "icon": "racial_dwarf_findtreasure",
+  "meta": "Talent Rank 1"
+ },
+ {
+  "name": "Luck or Fate?",
+  "icon": "achievement_halloween_smiley_01",
+  "meta": "Ability \u00b7 max L0"
+ },
+ {
+  "name": "Magic Erosion",
+  "icon": "spell_shadow_charm",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Mark of Order",
+  "icon": "inv_inscription_80_vantusrune_uldir",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Mass Decomposition",
+  "icon": "achievement_boss_triumvirate_voidbrokenbrute",
+  "meta": "Talent"
+ },
+ {
+  "name": "Master of Chaos",
+  "icon": "spell_shadow_charm",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Master of Duality",
+  "icon": "uico_shadow_spell_09_nobg_border",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Master of Order",
+  "icon": "spell_holy_spiritualguidence",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Maw of Chaos",
+  "icon": "inv_voiddragonmount",
+  "meta": "Ability Lvl 10"
+ },
+ {
+  "name": "Melt Reality",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 13 \u00b7 max L48"
+ },
+ {
+  "name": "Orderly Protector",
+  "icon": "icon_dragonflygold",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Paradox Cannon",
+  "icon": "inv_staff_2h_artifactaegwynsstaff_d_06",
+  "meta": "Talent Lvl 29"
+ },
+ {
+  "name": "Past Mistakes",
+  "icon": "epic_rpg_icon_pack_general_icon_0000s_0000_book_border",
+  "meta": "Talent Lvl 40"
+ },
+ {
+  "name": "Past Self",
+  "icon": "ability_paladin_beaconsoflight",
+  "meta": "Talent"
+ },
+ {
+  "name": "Plentiful Orbs",
+  "icon": "inv_7_0raid_trinket_06a",
+  "meta": "Ability Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Protector Training",
+  "icon": "inv_7_0raid_trinket_05d",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Pulse Driver",
+  "icon": "inv_wand_33",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Quickcaster",
+  "icon": "spell_nature_mentalquickness",
+  "meta": "Ability Rank 2"
+ },
+ {
+  "name": "Reconstruction",
+  "icon": "inv_artifact_tome01",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Remake",
+  "icon": "inv_trinket_80_titan02d",
+  "meta": "Talent"
+ },
+ {
+  "name": "Resonance",
+  "icon": "inv_6_2raid_trinket_4a",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Resynchronize",
+  "icon": "achievement_challengemode_auchindoun_hourglass",
+  "meta": "Ability Lvl 52"
+ },
+ {
+  "name": "Reverse Wound",
+  "icon": "ability_pvp_innerrenewal",
+  "meta": "Ability Lvl 1 \u00b7 max L54"
+ },
+ {
+  "name": "Revolving Sands",
+  "icon": "spell_shadow_painfulafflictions",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Rewind",
+  "icon": "ability_priest_voidshift",
+  "meta": "Ability"
+ },
+ {
+  "name": "Ripple",
+  "icon": "inv_staff_2h_nazmirraid_d_01",
+  "meta": "Talent Lvl 11"
+ },
+ {
+  "name": "Rippling Power",
+  "icon": "ability_bossmagistrix_timewarp1",
+  "meta": "Ability Lvl 16"
+ },
+ {
+  "name": "Roll Back",
+  "icon": "epic_rpg_icon_pack_general_icon_0003s_0000_clock_border",
+  "meta": "Ability"
+ },
+ {
+  "name": "Rumble",
+  "icon": "ability_malkorok_blightofyshaarj_yellow",
+  "meta": "Ability Lvl 1"
+ },
+ {
+  "name": "Runed Rod",
+  "icon": "inv_jewelry_trinket_02",
+  "meta": "Talent Passive \u00b7 max L0"
+ },
+ {
+  "name": "Rust Creation",
+  "icon": "inv_ore_trueironore",
+  "meta": "Talent"
+ },
+ {
+  "name": "Sandblast",
+  "icon": "spell_sandbolt",
+  "meta": "Ability Lvl 25"
+ },
+ {
+  "name": "Sandpage",
+  "icon": "_book2motif_paladinsamwise",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Sands of Life",
+  "icon": "spell_quicksand",
+  "meta": "Talent Rank 1"
+ },
+ {
+  "name": "Sands of Time",
+  "icon": "inv_inscription_tarot_earthquakecard",
+  "meta": "Ability Lvl 17 \u00b7 max L49"
+ },
+ {
+  "name": "Saviour",
+  "icon": "spell_holy_redemption",
+  "meta": "Talent"
+ },
+ {
+  "name": "Shatter Echo",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 11"
+ },
+ {
+  "name": "Shield of the Ages",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Lvl 57"
+ },
+ {
+  "name": "Shield of The Keeper",
+  "icon": "sha_ability_rogue_envelopingshadows",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Shifting Chaos",
+  "icon": "inv_jewelcrafting_shadowspirit_02",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Shimmering Shard",
+  "icon": "inv_misc_gem_x4_uncommon_perfectcut_yellow",
+  "meta": "Talent"
+ },
+ {
+  "name": "Singularity Core",
+  "icon": "inv_staff_2h_jaina_d_01",
+  "meta": "Talent Lvl 17"
+ },
+ {
+  "name": "Slipstream",
+  "icon": "spell_priest_void_blast",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Slow Time",
+  "icon": "spell_nature_timestop",
+  "meta": "Ability Lvl 28"
+ },
+ {
+  "name": "Spatial Distortion",
+  "icon": "ability_mage_studentofthemind",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Splitting Time",
+  "icon": "ability_mage_arcanebarrage_nightborne",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Tamed Incantations",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Teleport: Caverns of Time",
+  "icon": "spell_arcane_portal_valeofblossoms",
+  "meta": "Ability Lvl 40"
+ },
+ {
+  "name": "Temporal Anomaly",
+  "icon": "novart_magicspell_(39)_border",
+  "meta": "Ability Lvl 26"
+ },
+ {
+  "name": "Temporal Focus",
+  "icon": "_d3serenity",
+  "meta": "Ability Lvl 28"
+ },
+ {
+  "name": "The Bieko Effect",
+  "icon": "inv_60pvp_trinket3b",
+  "meta": "Ability Lvl 56"
+ },
+ {
+  "name": "The Vast Infinite",
+  "icon": "ability_racial_chillofnight",
+  "meta": "Talent Lvl 59"
+ },
+ {
+  "name": "Threads of Eternity",
+  "icon": "inv_tailoring_80_nylonthread",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Time Is A Circle",
+  "icon": "inv_wand_1h_maldraxxusquest_b_01",
+  "meta": "Talent Specialization"
+ },
+ {
+  "name": "Time Loop",
+  "icon": "ability_mage_timewarp",
+  "meta": "Ability Rank 1 \u00b7 max L54"
+ },
+ {
+  "name": "Time Out!",
+  "icon": "spell_nature_timestop",
+  "meta": "Ability Lvl 14"
+ },
+ {
+  "name": "Time Skip",
+  "icon": "nhi_arcanespeed_border",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Time Stretch",
+  "icon": "_d3slowtime",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Timeless",
+  "icon": "spell_nature_mentalquickness",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Timeline Destroyer",
+  "icon": "_darkhand_shadow",
+  "meta": "Ability"
+ },
+ {
+  "name": "Timeline Guardian",
+  "icon": "spell_holy_rebuke",
+  "meta": "Ability"
+ },
+ {
+  "name": "Timeline Tether",
+  "icon": "_enslavespell_holy",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Timelink",
+  "icon": "inv_alchemy_90_reagent_yellow",
+  "meta": "Ability Lvl 40"
+ },
+ {
+  "name": "Timemancy",
+  "icon": "inv_misc_dust",
+  "meta": "Talent Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Timerend",
+  "icon": "spell_animamaw_beam",
+  "meta": "Ability Lvl 4 \u00b7 max L46"
+ },
+ {
+  "name": "Timewalking",
+  "icon": "spell_holy_divineprovidence",
+  "meta": "Ability"
+ },
+ {
+  "name": "Timewarped Shield",
+  "icon": "sha_ability_rogue_sturdyrecuperate",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Titan's Gaze",
+  "icon": "inv_archaeology_ogres_hargunn_eye",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Tome of Chaos",
+  "icon": "_book4_purple",
+  "meta": "Ability"
+ },
+ {
+  "name": "Tome of Time",
+  "icon": "inv_inscription_tomeoftheclearmind",
+  "meta": "Talent"
+ },
+ {
+  "name": "Truly Infinite",
+  "icon": "spell_mage_presenceofmind",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Unearthed Passage",
+  "icon": "inv_7_0raid_trinket_08d",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Unmake",
+  "icon": "spell_animamaw_nova",
+  "meta": "Ability Rank 1 \u00b7 max L44"
+ },
+ {
+  "name": "Unmaker of Realities",
+  "icon": "achievement_dungeon_arakkoaspires",
+  "meta": "Ability Lvl 30"
+ },
+ {
+  "name": "Unstable Chronoglass",
+  "icon": "nhi_arcanesandwatch_border",
+  "meta": "Talent Lvl 29"
+ },
+ {
+  "name": "Vivid Memory",
+  "icon": "ability_mage_potentspirit",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Wand of Entropy",
+  "icon": "invstaff_2h_draenordungeon_c_04",
+  "meta": "Ability Passive"
+ },
+ {
+  "name": "Waves of Time",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Lvl 10"
+ },
+ {
+  "name": "Wisdom",
+  "icon": "spell_holy_divinespirit",
+  "meta": "Ability Rank 1 \u00b7 max L0"
+ },
+ {
+  "name": "Wonders of Time",
+  "icon": "ability_hunter_readiness",
+  "meta": "Talent Passive"
+ },
+ {
+  "name": "Wound Removal",
+  "icon": "inv_glove_cloth_raidpriest_r_01_gold",
+  "meta": "Talent Passive"
+ }
+]
