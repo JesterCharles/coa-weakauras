@@ -803,6 +803,46 @@ for cls in UNDER_TEST:
               badged != ok)
 
 
+# --------------------------------------------- 19. the HUD preview lays out
+#
+# The site preview claims to be drawn to scale, so it has to be. hud.py
+# simulates DynamicGroup.lua because a dynamic group stores (0,0) for every
+# child and lays them out at runtime -- so any grow mode it does NOT simulate
+# falls back to those zeroes and draws the whole band on one point.
+#
+# That is not hypothetical. GRID was documented as "a grow mode the packs do
+# not use" and fell through; the moment CD_PER_ROW was wired to gridWidth the
+# cooldown rows became GRID and every wrapped row on the published site
+# collapsed into a pile, while the page still said drawn to scale.
+print("\n19. HUD preview geometry")
+import hud as HUD  # noqa: E402
+
+for cls in UNDER_TEST:
+    for spec in cls.specs:
+        p = os.path.join(ROOT, "docs", "packs", cls.slug,
+                         f"{cls.slug}-{spec}.txt")
+        if not os.path.exists(p):
+            continue
+        items = HUD.displays(p, only_persistent=True)
+        pos = [(round(d["x"], 2), round(d["y"], 2)) for d in items]
+        dupes = {q for q in pos if pos.count(q) > 1}
+        # Two displays at the identical resolved point means a band was not
+        # laid out -- the exact signature of an unsimulated grow mode.
+        check(f"{cls.slug}/{spec}: {len(items)} displays, none stacked",
+              not dupes, f"{len(dupes)} shared position(s): "
+                         f"{sorted(dupes)[:4]}")
+
+# A wrapped band must actually occupy more than one row, or gridWidth is being
+# read but not applied.
+_p = os.path.join(ROOT, "docs", "packs", "chronomancer",
+                  "chronomancer-artificer.txt")
+if os.path.exists(_p):
+    _items = HUD.displays(_p, only_persistent=True)
+    _ys = {round(d["y"], 1) for d in _items}
+    check(f"a wrapped pack occupies {len(_ys)} distinct rows, not 1",
+          len(_ys) > 5, f"rows: {sorted(_ys)}")
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

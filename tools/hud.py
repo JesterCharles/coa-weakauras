@@ -73,6 +73,19 @@ def _size(node, by_id, keep=None):
         if grow == "VERTICAL":
             return (max(w for w, _ in sizes),
                     sum(h for _, h in sizes) + space * (len(kids) - 1))
+        if grow == "GRID":
+            # A wrapped band is as wide as its WIDEST ROW and as tall as the
+            # rows stacked. Measuring it as one long row -- which is what the
+            # horizontal fall-through below does -- reports a 25-icon utility
+            # band as ~700px wide and throws off every anchor derived from it.
+            width = int(node.get("gridWidth") or 0) or len(kids)
+            cspace = int(node.get("columnSpace") or space or 0)
+            rspace = int(node.get("rowSpace") or space or 0)
+            rows = [sizes[i:i + width] for i in range(0, len(sizes), width)]
+            return (max(sum(w for w, _ in r) + cspace * (len(r) - 1)
+                        for r in rows),
+                    sum(max(h for _, h in r) for r in rows)
+                    + rspace * (len(rows) - 1))
         return (sum(w for w, _ in sizes) + space * (len(kids) - 1),
                 max(h for _, h in sizes))
     return int(node.get("width") or 0), int(node.get("height") or 0)
@@ -96,9 +109,23 @@ def displays(pack_path, only_persistent=False):
 
     The simulation matches DynamicGroup.lua for the settings these packs use:
     children in controlledChildren order, separated by `space`, and the whole
-    row centred on the group's own anchor. Anything using a grow mode the packs
-    do not use (CIRCLE, GRID) falls back to the stored offsets rather than
-    inventing a position.
+    row centred on the group's own anchor.
+
+    GRID is simulated too, and has to be. This function once documented GRID as
+    "a grow mode the packs do not use" and fell back to stored offsets for it --
+    but a dynamic group's children all store (0,0), so the fallback silently
+    stacked an entire band on one point. The moment CD_PER_ROW was wired to
+    gridWidth the cooldown rows became GRID, and every wrapped row on the site
+    collapsed into a pile while the page still claimed to be drawn to scale.
+    A fallback that "does not invent a position" still invents ONE, and being
+    visibly wrong beats being quietly wrong.
+
+    gridType "HD" is row-first, each completed row re-centred horizontally and
+    rows stacking downward, which is what wabuild.dynamicgroup emits. Gaps come
+    from columnSpace/rowSpace: GRID ignores `space` entirely.
+
+    CIRCLE really is unused and still falls back -- but it now says so loudly
+    instead of drawing a stack.
 
     `icon` is the bare texture name, or None when the art is not cached. `kind`
     is the regionType, so a bar can be drawn as a bar rather than a square.
@@ -141,7 +168,32 @@ def displays(pack_path, only_persistent=False):
                     ky, kx = -(run + kh / 2.0), 0
                     run += kh + space
                 emit(kid, ox + kx, oy + ky)
+        elif dynamic and grow == "GRID":
+            sizes = [_size(k, by_id, shown) for k in kids]
+            width = int(node.get("gridWidth") or 0) or len(kids)
+            cspace = int(node.get("columnSpace") or space or 0)
+            rspace = int(node.get("rowSpace") or space or 0)
+            rows = [list(zip(kids, sizes))[i:i + width]
+                    for i in range(0, len(kids), width)]
+            # Row-first, each row centred on its own width -- a short last row
+            # sits centred under a full one rather than left-aligned.
+            top = 0.0
+            for row in rows:
+                rw = sum(s[0] for _, s in row) + cspace * (len(row) - 1)
+                rh = max(s[1] for _, s in row)
+                run = -rw / 2.0
+                for kid, (kw, kh) in row:
+                    emit(kid, ox + run + kw / 2.0, oy + top - rh / 2.0)
+                    run += kw + cspace
+                top -= rh + rspace
         else:
+            if dynamic:
+                # Stored offsets are (0,0) for every dynamic-group child, so
+                # this path draws them on top of each other. Say so rather than
+                # publishing a pile that looks like a layout.
+                print(f"  !! hud: {node.get('id')} uses grow={grow or 'NONE'}, "
+                      f"which is not simulated -- its {len(kids)} children will "
+                      f"stack. Add it to hud.walk() before trusting this preview.")
             for kid in kids:
                 emit(kid,
                      ox + int(kid.get("xOffset") or 0),
