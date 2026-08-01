@@ -20,6 +20,24 @@ import re
 
 SP = os.path.dirname(os.path.abspath(__file__))
 RESOURCES = os.path.join(os.path.dirname(SP), "resources")
+# Built import strings. One folder per class, the same shape docs/packs/ uses --
+# 21 classes x 4 packs is 84 files, and flat in tools/ they sat among the
+# scripts with the class name repeated in every filename. Everything here is a
+# build artifact: gitignored, and regenerable by re-running the builder.
+BUILD = os.path.join(SP, "packs")
+
+
+def build_path(slug, name):
+    """Absolute path of a built pack, creating its class folder.
+
+    The one place the layout is written down. Builders, tests, the site
+    publisher and the measuring tools all resolve through this, so moving the
+    artifacts again is a one-line change rather than a hunt through eight
+    scripts -- which is what the flat layout cost.
+    """
+    d = os.path.join(BUILD, slug)
+    os.makedirs(d, exist_ok=True)
+    return os.path.join(d, f"{name}.txt")
 
 
 def data(name):
@@ -27,6 +45,23 @@ def data(name):
     builder uses -- see the note in build_runemaster.py about why."""
     p = os.path.join(RESOURCES, name)
     return p if os.path.exists(p) else os.path.join(SP, name)
+
+
+def dest(name):
+    """Where a GENERATED data file is WRITTEN. Always resources/.
+
+    Never write through data(). It falls back to tools/ when the file does
+    not exist yet -- which is precisely the case for a class being scraped
+    for the first time -- so the first class through a fresh tool lands its
+    output in tools/ while every established class reads from resources/.
+    The fallback then hides it: the next read resolves tools/ and works, so
+    nothing fails and the two directories quietly diverge.
+
+    That is the shape of the bug that left audit_cds.py resolving against
+    tools/ for weeks after the data moved. Chronomancer's first cooldown
+    audit reproduced it exactly.
+    """
+    return os.path.join(RESOURCES, name)
 
 
 def _rows(path):
@@ -84,14 +119,25 @@ class ClassInfo:
         return f"sidekick-{self.slug}-{spec}.md"
 
     # ---- pack naming. NOTE two different names for the same pack: the
-    # builder writes `<slug>-all-specs.txt` into tools/, and mksite.py
-    # republishes it to docs/packs/ as `<slug>-coa.txt` (the name players see).
-    # Tests work on the builder's output, so `packs` uses the builder name.
+    # builder writes `<slug>-all-specs.txt` into tools/packs/<slug>/, and
+    # mksite.py republishes it to docs/packs/<slug>/ as `<slug>-coa.txt` (the
+    # name players see). Tests work on the builder's output, so `packs` uses
+    # the builder name. The slug stays IN the filename even under a per-class
+    # folder: these get copied into WA imports, chat and bug reports, where
+    # "time.txt" says nothing and "chronomancer-time.txt" says everything.
     @property
     def packs(self):
         """(spec_or_None, builder pack name), all-specs first."""
         return [(None, f"{self.slug}-all-specs")] + [
             (s, f"{self.slug}-{s}") for s in self.specs]
+
+    def pack_path(self, name):
+        """Absolute path of one of this class's built packs."""
+        return build_path(self.slug, name)
+
+    @property
+    def pack_dir(self):
+        return os.path.join(BUILD, self.slug)
 
     @property
     def core_leaves(self):
@@ -127,6 +173,7 @@ class ClassInfo:
 # entry when a class ships; tests skip the check for classes not listed.
 CORE_LEAVES = {
     "runemaster": 30,
+    "chronomancer": 21,
 }
 
 

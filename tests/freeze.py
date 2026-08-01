@@ -38,7 +38,9 @@ for cls in CLASSES:
         if r.returncode != 0:
             raise SystemExit(
                 f"{cls.builder} failed (WA_SPEC={spec}):\n{r.stdout}{r.stderr}")
-        src = os.path.join(TOOLS, f"{name}.txt")
+        src = cls.pack_path(name)
+        # fixtures stay FLAT: one directory of 8 files that a diff reads at a
+        # glance, and the filename already carries the class.
         dst = os.path.join(FIXTURES, f"{name}.txt")
         shutil.copy2(src, dst)
         print(f"froze {name}.txt  ({os.path.getsize(dst)} bytes)")

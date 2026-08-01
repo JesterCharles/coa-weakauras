@@ -1,8 +1,19 @@
 # Build artifacts. Regenerable from tools/ + resources/, never a source of
 # truth. The published copies live in docs/packs/ and the frozen regression
 # baselines in tests/fixtures/ -- both of those ARE tracked.
-tools/runemaster-*.txt
-tools/diag-*.txt
+# Every .txt in tools/ is a build artifact: the builders write
+# <slug>-all-specs.txt and <slug>-<spec>.txt there, and mksite.py republishes
+# them to docs/packs/. This was `tools/runemaster-*.txt` and therefore missed
+# Chronomancer entirely -- a per-class line is one more thing to remember for
+# each of the 21 classes, so match the directory instead. Nothing tracked in
+# tools/ has ever been a .txt.
+#
+# The packs now live one folder down, in tools/packs/<slug>/ (with the
+# diagnostic strings under tools/packs/_diag/). `tools/*.txt` does NOT match a
+# nested path, so the directory needs its own line -- keep both: the flat one
+# still catches anything written beside the scripts.
+tools/*.txt
+tools/packs/
 tools/guide.html
 output/
 

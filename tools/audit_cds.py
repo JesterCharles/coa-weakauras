@@ -20,7 +20,7 @@ global, and OMITS the row entirely when it is not. That absence is the signal
 import json, os, re, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 
-from classes import get, data, SP
+from classes import get, data, dest, SP
 
 CACHE = os.path.join(SP, "spellchk")
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
                 else:
                     rec["gcd"] = gcd
                 out[name] = rec
-    json.dump(out, open(data(CLS.cooldowns), "w"), indent=1)
+    json.dump(out, open(dest(CLS.cooldowns), "w"), indent=1)
 
     off = sorted(n for n, v in out.items() if v.get("gcd") is False)
     print(f"{len(cands)} abilities checked, {len(out)} have a cooldown")

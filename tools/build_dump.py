@@ -16,6 +16,7 @@ import os
 
 import wabuild as B
 from wacodec import LuaTable
+from classes import build_path
 
 SP = os.path.dirname(os.path.abspath(__file__))
 
@@ -171,6 +172,6 @@ a["actions"] = B.T({
 
 if __name__ == "__main__":
     s = B.export_string(a, [])
-    out = os.path.join(SP, "rm-dump.txt")
+    out = build_path("_diag", "rm-dump")
     open(out, "w").write(s)
     print(f"{len(s)} chars -> {out}")

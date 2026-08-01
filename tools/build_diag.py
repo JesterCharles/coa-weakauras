@@ -10,6 +10,7 @@ import os
 
 import wabuild as B
 from wacodec import LuaTable
+from classes import build_path
 
 SP = os.path.dirname(os.path.abspath(__file__))
 ICON = "Interface\\Icons\\spell_frost_frostbolt02"
@@ -17,7 +18,7 @@ ICON = "Interface\\Icons\\spell_frost_frostbolt02"
 
 def emit(name, root, kids):
     s = B.export_string(root, kids)
-    open(os.path.join(SP, f"diag-{name}.txt"), "w").write(s)
+    open(build_path("_diag", f"diag-{name}"), "w").write(s)
     print(f"diag-{name}.txt  {len(kids)} displays  {len(s)} chars")
 
 

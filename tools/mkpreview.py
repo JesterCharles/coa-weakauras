@@ -1,10 +1,11 @@
 """Render the built WeakAura pack to a 1:1 HTML preview."""
 import base64, json, os
 import wacodec as w
+from classes import build_path
 
 SP = os.path.dirname(os.path.abspath(__file__))
 META = json.load(open(f"{SP}/exiles-id-meta.json"))
-d = w.wa_decode(open(f"{SP}/runemaster-pack.txt").read())
+d = w.wa_decode(open(build_path("runemaster", "runemaster-all-specs")).read())
 kids = d["c"].array_part()
 byid = {k["id"]: k for k in kids}
 

@@ -1,6 +1,6 @@
 """Resolve a built pack into absolute screen geometry, for the HUD preview.
 
-    python3 tools/hud.py docs/packs/runemaster-coa.txt
+    python3 tools/hud.py docs/packs/runemaster/runemaster-coa.txt
 
 WeakAuras stores every display's offset RELATIVE TO ITS PARENT GROUP, and the
 groups nest -- a rotation icon sits at (0,0) inside `RM Main`, which sits at
@@ -162,6 +162,9 @@ def displays(pack_path, only_persistent=False):
             if leaf and leaf not in missing:
                 icon = leaf
         out.append({
+            # `band` lets the caller name a display without re-deriving the
+            # namespace: a leaf's parent group IS its band after the merge.
+            "band": node.get("parent") or "",
             "id": node["id"], "x": round(x, 1), "y": round(y, 1),
             "w": w, "h": h,
             "kind": node.get("regionType") or "icon",

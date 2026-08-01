@@ -9,10 +9,11 @@ import os
 import re
 
 import wacodec as w
+from classes import build_path
 
 SP = os.path.dirname(os.path.abspath(__file__))
 META = json.load(open(f"{SP}/exiles-id-meta.json"))
-d = w.wa_decode(open(f"{SP}/runemaster-all-specs.txt").read())
+d = w.wa_decode(open(build_path("runemaster", "runemaster-all-specs")).read())
 KIDS = d["c"].array_part()
 BY = {k["id"]: k for k in KIDS}
 

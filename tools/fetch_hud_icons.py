@@ -91,7 +91,7 @@ def main(argv):
     for c in built_classes():
         if want and c.slug not in want:
             continue
-        p = os.path.join(ROOT, "docs", "packs", f"{c.slug}-coa.txt")
+        p = os.path.join(ROOT, "docs", "packs", c.slug, f"{c.slug}-coa.txt")
         if os.path.exists(p):
             packs.append((c.slug, p))
     if not packs:
