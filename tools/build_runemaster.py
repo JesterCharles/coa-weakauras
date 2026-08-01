@@ -326,8 +326,8 @@ def thin(size=2):
 
 children = []
 B.set_salt(f"runemaster-{SPEC_ONLY or 'all'}-{VERSION}")
-ROOT = (f"Runemaster {SPEC_TITLE} [CoA]" if SPEC_TITLE
-        else "Runemaster [CoA]")
+ROOT = (f"Runemaster {SPEC_TITLE} [CoA] v{VERSION}" if SPEC_TITLE
+        else f"Runemaster [CoA] v{VERSION}")
 
 
 def add(region):

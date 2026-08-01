@@ -583,3 +583,32 @@ validation pass rather than remembered:
 - Do all Runemaster proc→ability glow mappings match real aura names? Same pass.
 - Firecrawl concurrency under parallel agents (one Colima VM, 8GB/4CPU) —
   belongs to the deferred fan-out scope.
+
+---
+
+## Superseded by the community-generation epic (2026-07-31, issue #1)
+
+**Phase 5 step 2 (freeze the JSON schema) is pulled forward, and Phases 1a/2's
+`wapack.py` extraction is superseded.**
+
+Decision 5 deferred the config format on the grounds that fan-out was out of scope
+and "the risk lands now and the benefit lands later." Fan-out is now the product:
+the site becomes a low/no-code WeakAura surface where players rearrange a generated
+pack in the browser and export an import string. That makes a published **layout
+manifest** the contract between the Python builder and a JS assembler, so the schema
+can no longer wait for two classes to reveal its shape — it is the shape.
+
+What this changes:
+
+- The manifest, not `wapack.py`, becomes the class-agnostic engine boundary. The
+  question "which parts of a builder are class-agnostic" is answered by what the
+  manifest has to carry, which is a stronger constraint than reading two builders
+  side by side.
+- `resources/abilities-<class>.md` is already ~80% of the manifest — ability, id,
+  per-spec id override, specs, role. It gains `Priority` (cited, dated) and band
+  geometry, and is emitted as JSON.
+- The structural comparator gains a second job: proving the JS assembler's output
+  matches the Python builder's. Drift fails CI rather than failing in someone's game.
+
+What this does NOT change: decisions 1, 4, 7, 12, 13, 14 all still hold, and the
+comparator remains the gate.

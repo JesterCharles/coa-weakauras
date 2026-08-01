@@ -173,7 +173,7 @@ class ClassInfo:
 # entry when a class ships; tests skip the check for classes not listed.
 CORE_LEAVES = {
     "runemaster": 30,
-    "chronomancer": 21,
+    "chronomancer": 23,
 }
 
 

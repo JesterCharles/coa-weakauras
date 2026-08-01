@@ -516,8 +516,8 @@ def thin(size=2):
 
 children = []
 B.set_salt(f"chronomancer-{SPEC_ONLY or 'all'}-{VERSION}")
-ROOT = (f"Chronomancer {SPEC_TITLE} [CoA]" if SPEC_TITLE
-        else "Chronomancer [CoA]")
+ROOT = (f"Chronomancer {SPEC_TITLE} [CoA] v{VERSION}" if SPEC_TITLE
+        else f"Chronomancer [CoA] v{VERSION}")
 
 
 def add(region):
