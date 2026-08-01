@@ -2,751 +2,2396 @@
  {
   "name": "Alertness",
   "icon": "spell_nature_mentalquickness",
-  "meta": "Talent"
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Alteration",
-  "icon": "nhi_arcanesmoke_border",
-  "meta": "Talent \u00b7 max L15"
+  "icon": "inv_custom_hearthstone_frost",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the effectiveness of your Runic Tattoos by %."
  },
  {
   "name": "Ancient Carvings",
-  "icon": "inv_relics_6orunestone_ogremissive",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Reduces the cooldown of Words by %."
+ },
+ {
+  "name": "Ancient Teachings",
+  "icon": "ability_mage_potentspirit",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases haste by %."
  },
  {
   "name": "Arcane Blade",
-  "icon": "inv_knife_1h_grimbatolraid_d_03",
-  "meta": "Ability Lvl 11"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Strike an enemy, dealing its value Arcane Damage and generating 1 Arcane Sigil. Runeshroud: Reduces the target's spell haste by %."
+ },
+ {
+  "name": "Arcane Glyph",
+  "icon": "70_inscription_vantus_rune_suramar",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Using Elemental Burst or Primordial Blast while Flame Glyph is active now grants you Arcane Glyph. Glyphs can be unleashed by Glyphic Ruin or Thaumaturgy."
+ },
+ {
+  "name": "Arcane Imprisonment",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cooldown of Sorcerer's Cage by sec."
+ },
+ {
+  "name": "Arcane Student",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "While Glyphic Overload is active, your Glyphic Ruin is guaranteed to critically strike."
  },
  {
   "name": "Aspect of The Rune Knight",
-  "icon": "_auracloak_felfire",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Reduces damage you take by %, increases maximum mana by %. Only 1 Aspect can be active at a time."
  },
  {
   "name": "Augur's Shield",
-  "icon": "spell_arcane_prismaticcloak",
-  "meta": "Ability Rank 1 \u00b7 max L49"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Regenerates % maximum mana and reduces damage taken by %."
+ },
+ {
+  "name": "Blade Rift",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While stealthed, using Warpdagger now increases your Magic Damage dealt by 10% for 8 seconds."
  },
  {
   "name": "Bounty Hunter",
   "icon": "inv_misc_scrollrolled04c",
-  "meta": "Talent"
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
+ },
+ {
+  "name": "Bursting Pulses",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Each weapon enchanted by Weapon Engraving: Earth now reduces the cooldown of Primordial Pulse by sec and increases it's damage by %."
+ },
+ {
+  "name": "Casting Cuffs",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases spell haste by % and makes you immune to silence and interrupt effects."
  },
  {
   "name": "Chaos Engraving",
   "icon": "_auracloak_fire",
-  "meta": "Ability Engraving"
+  "meta": "Ability Engraving",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
+ },
+ {
+  "name": "Cinderwake",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Incinerate the ground beneath you periodically with fire. Enemies that walk through the fire are revealed from stealth or invisibility and marked, allowing you to track them on your minimap and see them even while stealthed or invisible. Does not break stealth."
+ },
+ {
+  "name": "Collecting Fragments",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": ""
  },
  {
   "name": "Concentrated Magic",
   "icon": "nhi_arcaneburst_border",
-  "meta": "Talent Lvl 17"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases your Spirit by % and reduces spell pushback suffered from damaging attacks by %."
  },
  {
   "name": "Contract Killing",
   "icon": "inv_garrison_blueprints2",
-  "meta": "Talent"
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
+ },
+ {
+  "name": "Convergence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "For, the next 10 Weapon Engravings you trigger will now deal an additional its value Elemental Damage."
+ },
+ {
+  "name": "Cosmic Impact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases spell critical strike chance and spell haste by %."
+ },
+ {
+  "name": "Cryobrand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Blast an enemy with frost magic, freezing them in place for (8 sec vs players). Can only affect 1 enemy at a time. Does not break stealth. Damage caused may interrupt the effect."
+ },
+ {
+  "name": "Darkflock Anguish Spreader",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Placeholder"
+ },
+ {
+  "name": "Deadly Defense",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Each of your summons now reduces your damage taken by %, up to a maximum of %."
+ },
+ {
+  "name": "Decoder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Elemental Burst and Runeblade now have a 20% chance to instantly trigger your Weapon Engravings."
  },
  {
   "name": "Devour Mana",
-  "icon": "_soulsdevourer_blue",
-  "meta": "Ability Rank 1 \u00b7 max L49"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Destroys of the enemy's mana. For each mana point burned, the enemy takes Arcane Damage."
  },
  {
   "name": "Displace Familiar",
-  "icon": "_enslavespell_arcane",
-  "meta": "Ability Lvl 10 \u00b7 max L54"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Command your Familiar to warp to the target location, dealing its value Arcane Damage, where it will remain for pulsing with Energy every sec, dealing Arcane Damage to nearby enemies. Usable while casting or channeling."
+ },
+ {
+  "name": "Earthen Wind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Create a storm of earth and air in an yd radius beneath you, dealing its value Nature Damage to up to enemies in the area every sec."
  },
  {
   "name": "Echo Rune",
   "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 29"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Mark your current location with an echo rune. At the end of the duration or upon reactivation, warp back to the marked location and heal for its value health."
  },
  {
   "name": "Elder Magi Rune",
-  "icon": "_runeorcpurple",
-  "meta": "Talent Lvl 10 \u00b7 max L51"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Blasts enemies within a few yards for Arcane damage and increases all Arcane damage they take from you by %."
+ },
+ {
+  "name": "Elemental Assassin",
+  "icon": "inv_smallazeritefragment",
+  "meta": "Talent Passive Lvl 20",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of your Agility, your spell critical strike chance by % of your Agility, and your hit rating by % of your Agility."
  },
  {
   "name": "Elemental Burst",
-  "icon": "nhi_arcanebolt_border",
-  "meta": "Ability Lvl 14 \u00b7 max L60"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Blasts an enemy for its value Elemental Damage and generates a Glyph."
  },
  {
   "name": "Elemental Carvings",
   "icon": "inv_ascend_carvings_b_01",
-  "meta": "Talent Specialization"
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Level 30 Passive Fist of the Ancients now unleashes an elemental carving at random. Fire Carving: Increases your Armor penetration by %. Water Carving: Restores mana over. Earth Carving: Restores % missing health every"
+ },
+ {
+  "name": "Elemental Prowess",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the damage of Primordial Blast by %."
+ },
+ {
+  "name": "Elemental Secrets",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the cooldown of Speed Rune by 30 sec, but it now applies stealth to allies who walk on the pathway for the duration."
+ },
+ {
+  "name": "Elementalist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the damage dealt by your Weapon Engravings by %."
+ },
+ {
+  "name": "Elements of Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Palm Sigils now affect 1 additional instance of damage."
  },
  {
   "name": "Engraved and Ready",
-  "icon": "novart_magicspell_(30)_border",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the critical strike chance of your Weapon Engravings by %."
+ },
+ {
+  "name": "Engravement - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Level 15 Passive Reduces the mana cost of Runic Tattoos by %. In addition, increases the mana restored through Runic Tattoos: Water by %."
  },
  {
   "name": "Engravement - Level 40 Passive",
-  "icon": "spell_arcane_rune",
-  "meta": "Ability Specialization"
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Level 40 Passive Using Runic Brand while a specific Runic Tattoo is active unleashes its unique aura within 8 yds for 8 sec. Switching Runic Tattoos removes the current aura."
+ },
+ {
+  "name": "Etching of the Dextrous",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Enhance an ally, increasing their Agility. Lasts."
+ },
+ {
+  "name": "Etching of the Leylines",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Enhance an ally, increasing their total stats by %."
  },
  {
   "name": "Etching of the Magi",
-  "icon": "inv_glyph_minorpaladin",
-  "meta": "Ability Lvl 40"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Enhance an ally, reducing their resource costs by %."
+ },
+ {
+  "name": "Ethereal Oil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Make yourself translucent."
  },
  {
   "name": "Evasive",
   "icon": "spell_shadow_charm",
-  "meta": "Talent Passive"
+  "meta": "Talent Passive",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Everfrost Scroll",
-  "icon": "trade_engineering",
-  "meta": "Ability Lvl 9 \u00b7 max L57"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Stun an enemy target, increasing Frost damage they take from you by % for the duration."
+ },
+ {
+  "name": "Expert Elementalist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cast time of Elemental Burst and Glyphic Ruin by 0.5 sec and increases your chance to hit by %."
  },
  {
   "name": "Eye of the Beholder",
   "icon": "nhi_arcanevision_border",
-  "meta": "Talent Lvl 57"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases your spell critical strike chance by %. While active, the damage of your Glyphic Ruin and Primordial Blast is increased by %."
  },
  {
   "name": "Fire Blade",
-  "icon": "inv_sword_1h_artifactfelomelorn_d_01",
-  "meta": "Ability Lvl 11"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Strike an enemy, dealing its value Fire Damage and generating 1 Fire Sigil. Runeshroud: Causes Fire Damage over and reduces healing received by %."
+ },
+ {
+  "name": "Fist of the Ancients",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Smash an enemy and 1 nearby enemy with your rune-engraved fists, dealing its value Elemental Damage and triggering your Weapon Engraving. Upon cast, your chance to trigger your Weapon Engravings is increased by % for sec."
  },
  {
   "name": "Fists of Power",
   "icon": "inv_misc_trinket6oog_stonefist2",
-  "meta": "Talent Lvl 57"
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Level 10 Passive Runeblade now strikes your target an additional time for % of the damage dealt with your offhand weapon."
+ },
+ {
+  "name": "Flame Glyph",
+  "icon": "70_inscription_vantus_rune_nightmare",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Using Elemental Burst or Primordial Blast while Frost Glyph is active now grants you a Flame Glyph. Glyphs can be unleashed by Glyphic Ruin or Thaumaturgy."
  },
  {
   "name": "Focusing Crystals",
   "icon": "spell_arcane_blast",
-  "meta": "Talent Lvl 15"
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases your Magic Damage dealt by % and allows % of your mana regeneration to continue while in combat."
  },
  {
   "name": "For the Salvos!",
-  "icon": "spell_shadow_teleport",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Regenerates % of your maximum mana."
+ },
+ {
+  "name": "Forbidden Engraving",
+  "icon": "novart_magicspell_(49)_border",
+  "meta": "Talent",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the effectiveness of your Weapon Engravings by %."
  },
  {
   "name": "Fracture",
   "icon": "nhi_manaspike_border",
-  "meta": "Talent Lvl 57"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Strike an enemy with frozen fury, dealing its value Frost damage and burning its value of the target's mana. Damage dealt is guaranteed to critically strike against frozen targets."
  },
  {
   "name": "Freezing Codex",
   "icon": "item_icecrownringd",
-  "meta": "Talent Lvl 33"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Reduces the cooldown of Ice Rune by sec and increases the mana cost by %, but reduces its range by yds."
  },
  {
   "name": "Frigid Blast",
   "icon": "skill_icon_skill40_border",
-  "meta": "Talent Lvl 17"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Blast an enemy with frigid runic magic, dealing its value Frost damage and applying Frigid Fusion."
  },
  {
   "name": "Frost Blade",
-  "icon": "inv_weapon_shortblade_92",
-  "meta": "Ability Lvl 11"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Strike an enemy, dealing its value Frost Damage and generating 1 Frost Sigil. Runeshroud: Stuns the target."
  },
  {
   "name": "Frost Glyph",
   "icon": "70_inscription_vantus_rune_azure",
-  "meta": "Ability Lvl 1"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Using Elemental Burst and Primordial Blast now grants you Frost Glyph. Glyphs can be unleashed by Glyphic Ruin or Thaumaturgy."
  },
  {
   "name": "Frost Spectre",
   "icon": "novart_magicspell_(3)_border",
-  "meta": "Talent Lvl 27"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases the critical strike chance and critical damage of Smolder and Primordial Blast against Frozen targets by %."
  },
  {
   "name": "Frostburn",
   "icon": "nhi_frost_knife_border",
-  "meta": "Talent Lvl 33"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Removes the cast time of Glacial Rune and Permafrost Rune."
  },
  {
-  "name": "Glyph of Disappearance",
-  "icon": "_d3familiar",
-  "meta": "Talent Specialization"
+  "name": "Frozen Earth",
+  "icon": "nhi_frost_staff_border",
+  "meta": "Talent",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases the duration of Ice Rune and the stun effect from Palm Sigil: Earth by sec."
+ },
+ {
+  "name": "Frozen Inferno",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases Fire and Frost damage dealt by %."
+ },
+ {
+  "name": "Genesis",
+  "icon": "uico_venom_spell_08_border",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Apply a runic brand to an enemy, accumulating 50% of your damage dealt, and unleashing after as Elemental Damage. When this deals damage, it triggers your Weapon Engraving."
+ },
+ {
+  "name": "Glacial Rune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Place a rune at the target location that explodes after 1 sec with frigid magic, dealing its value Frost Damage to enemies inside and freezing them in place for (8 sec vs players). Damage caused may interrupt the effect. Can only affect 1 target at a time."
+ },
+ {
+  "name": "Glowing Glyphs",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the damage dealt by Unleashed Glyphs by %."
  },
  {
   "name": "Glyph Seeker",
   "icon": "inv_pet_wretchedelf",
-  "meta": "Talent Lvl 33"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the damage of Primordial Blast and Thaumaturgy by %."
+ },
+ {
+  "name": "Glyph of Disappearance",
+  "icon": "_d3familiar",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Level 40 Passive Your Phase Out can now be used 1 additional time within before incurring a cooldown."
  },
  {
   "name": "Glyphic Destruction",
   "icon": "achievement_zone_crystalsong_01",
-  "meta": "Talent Lvl 31"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the damage of Glyphic Ruin by % against Frozen targets."
  },
  {
   "name": "Glyphic Infusion",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 17"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "This spell is no longer usable. It has been combined with Glyphic Overload."
  },
  {
   "name": "Glyphic Invocation",
-  "icon": "novart_passivemastery_(22)_border",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Instantly generates 1 Sigil matching your current Attunement. This ability will not break Runeshroud."
  },
  {
   "name": "Glyphic Overload",
   "icon": "inv_misc_questionmark",
-  "meta": "Talent"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Instantly generate Frost Glyph, Flame Glyph, and Arcane Glyph on yourself and overload, granting all active Glyphs an additional effect the next time you unleash them on an enemy. Lasts. Usable while stealthed."
  },
  {
   "name": "Glyphic Ruin",
-  "icon": "achievement_raidprimalist_council",
-  "meta": "Talent Lvl 10 \u00b7 max L44"
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Unleash your active Glyph effect on an enemy and deal its value Elemental Damage."
+ },
+ {
+  "name": "Glyphs of Power",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your direct damage dealt has a 10% chance to restore 3% of your maximum mana."
  },
  {
   "name": "Granite Resolve",
   "icon": "nhi_earthtranquility_border",
-  "meta": "Ability Lvl 16"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Become hard as stone, reducing your Physical damage taken by %. Usable while stunned."
+ },
+ {
+  "name": "Greater Etching of the Dextrous",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Enhance all party and raid members, increasing their Agility. Lasts."
+ },
+ {
+  "name": "Greater Etching of the Leylines",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Enhance all party and raid members, increasing their total stats by %."
+ },
+ {
+  "name": "Greater Etching of the Magi",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Enhance all party and raid members, reducing their resource costs by %."
+ },
+ {
+  "name": "Greater Inscription: Arcane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants all party and raid members Arcane Resistance."
+ },
+ {
+  "name": "Greater Inscription: Fire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants all party and raid members Fire Resistance."
+ },
+ {
+  "name": "Greater Inscription: Frost",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants all party and raid members Frost Resistance."
+ },
+ {
+  "name": "Greater Inscription: Leyline",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Attunes all party and raid members to the leylines, increasing damage taken from spells by up to and healing spells by. Lasts."
+ },
+ {
+  "name": "Greater Inscription: Nature",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants all party and raid members Nature Resistance. Only one Inscription can be active at a time."
  },
  {
   "name": "Greater Runes",
-  "icon": "nhi_arcaneaid_border",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Whenever you spend Inscribed Runes, your next instance of damage applies Runic Brand to the enemy."
+ },
+ {
+  "name": "Guarding Rune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Inscribe a defensive rune beneath you in a yd radius, summoning a barrier that causes allies within the radius to take % reduced Magic damage. Lasts."
  },
  {
   "name": "Hasty Imbue",
-  "icon": "inv_misc_ancient_mana",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Reduces the cooldown of Imbue Weapon by %."
  },
  {
   "name": "Hired Crossbow",
   "icon": "inv_bountyhunting",
-  "meta": "Talent"
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
+ },
+ {
+  "name": "Hoarfrost",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Slash in a frozen fury in front of you, dealing its value Frost Damage to up to nearby enemies, plus an additional its value every sec. Enemies hit by the initial strike are frozen in place."
  },
  {
   "name": "Homebound Runestone",
-  "icon": "spell_arcane_portaltheramore",
-  "meta": "Ability Lvl 32"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Create a Homebound Runestone, allowing you to set your Hearthstone at its destination. Not usable in combat."
+ },
+ {
+  "name": "Hurricane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Strike an enemy 7 times over, each strike dealing its value% Weapon Damage as Nature Damage, scaling with level. While striking your target, your chance to dodge is increased by %, but you cannot use any spells or abilities."
+ },
+ {
+  "name": "Ice Rune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Requires Frozen Target Unleash a frost rune at an enemy, stunning them. Affected enemies are considered Frozen|R."
  },
  {
   "name": "Improved Atomic Split",
-  "icon": "spell_magic_managain",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the duration of your Atomic Split ability by seconds (or 2 seconds in combat), and increases the speed granted by the spell by %."
+ },
+ {
+  "name": "Improved Fastcast",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cooldown of Fastcast by sec."
+ },
+ {
+  "name": "Improved Primordial Blast",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cooldown of Primordial Blast by sec."
+ },
+ {
+  "name": "Inscription: Arcane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants an ally Arcane Resistance."
+ },
+ {
+  "name": "Inscription: Fire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants an ally Fire Resistance."
+ },
+ {
+  "name": "Inscription: Frost",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants an ally Frost Resistance."
+ },
+ {
+  "name": "Inscription: Leyline",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Attunes an ally to the leylines, increasing damage taken from spells by up to and healing spells by. Lasts."
+ },
+ {
+  "name": "Inscription: Nature",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Grants an ally Nature Resistance."
  },
  {
   "name": "Inscription: Permafrost",
-  "icon": "nhi_icestone_border",
-  "meta": "Ability Lvl 9 \u00b7 max L57"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Incapacitates an enemy. Taking damage will break the effect. Usable while stealthed and has a % reduced cooldown while Runeshroud is active."
  },
  {
   "name": "Kirin Tor Adept",
-  "icon": "5_mageskill25_border",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the effectiveness of Eye of the Beholder by %."
  },
  {
   "name": "Kirin Tor Agent",
   "icon": "inv_staff_2h_artifactaegwynsstaff_d_06",
-  "meta": "Talent Lvl 59"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Casting Eye of the Beholder now rapidly reduces the coldown of your Rune spells and Phase Out for the duration."
  },
  {
   "name": "Ley Constitution",
   "icon": "spell_shadow_mindtwisting",
-  "meta": "Ability Lvl 12"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Armor contribution from items is increased by %."
  },
  {
   "name": "Ley Focus",
-  "icon": "ability_mage_incantersabsorbtion",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Enter a state of supreme Focus, increasing spell haste by % and spell critical strike chance by %."
  },
  {
   "name": "Ley Lock",
-  "icon": "nhi_magicblock_border",
-  "meta": "Ability Lvl 14"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Interrupt your target's spellcasting, preventing any spell in that school from being cast."
+ },
+ {
+  "name": "Ley Magician",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of Spirit and % of your Intellect, and spell hit rating by % of your Spirit."
  },
  {
   "name": "Ley Power",
   "icon": "inv_ascend_magicartifact_13",
-  "meta": "Talent Lvl 59"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Divert ley energy into your weapons, drawing power from enemies within yds of you. For each enemy in the radius, your damage dealt deals an additional % of the damage as Arcane damage, up to 100%,. While active, melee attacks and abilities grant you Harnessed Leylines."
+ },
+ {
+  "name": "Ley Spectre",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": ""
  },
  {
   "name": "Ley Walker",
   "icon": "inv_misc_questionmark",
-  "meta": "Talent Lvl 33"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Casting or reactivating Warpdagger now removes all root and snare effects from you."
  },
  {
   "name": "Leyborn",
   "icon": "achievement_zone_newshadowmoonvalley",
-  "meta": "Talent Lvl 27"
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Your Marked: Runic Brand now stacks 3 times."
  },
  {
   "name": "Leyfeed",
-  "icon": "custom_t_nhance_rpg_icons_magicinyourhands_border",
-  "meta": "Ability Lvl 22"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Feed off the latent magic of an enemy, stealing beneficial magic effects from them."
+ },
+ {
+  "name": "Leyline Adjustment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Adjust the leylines beneath you, causing them to redirect the threat you generate for to the targeted party member."
+ },
+ {
+  "name": "Leyline Disturbance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases melee and ranged haste of party and raid members within yds by %. Does not stack with similar effects. Additionally, the duration of stun effects on you is reduced by %."
  },
  {
   "name": "Leyline Rider",
-  "icon": "inv_enchanting_70_leylightcrystal",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Reduces the cooldown of Warplink and Warp Shift by %."
+ },
+ {
+  "name": "Leystone Springs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Your melee auto attacks now have a % chance to restore its value mana. While Runic Tattoos: Water is active, the mana restored is increased by %."
  },
  {
   "name": "Magebreaker",
   "icon": "inv_magemount",
-  "meta": "Talent Lvl 31"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Dealing damage with Hurricane now also reduces the targets Magic damage dealt by % for and dispels 1 harmful magic effect from you with each strike."
+ },
+ {
+  "name": "Magic Etchings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Dealing damage with Primordial Blast now reduces the affected target's armor by %, stacking times."
  },
  {
   "name": "Magic Feeder",
   "icon": "ability_racial_shadowmeld",
-  "meta": "Ability Lvl 30"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Leyfeed now steals 1 additional magic effect from the target."
  },
  {
   "name": "Magnificence of Millhouse",
-  "icon": "inv_misc_head_gnome_01",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cooldown of Manastorm by sec."
+ },
+ {
+  "name": "Mana Runes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases maximum mana by % and critical strike chance by %."
+ },
+ {
+  "name": "Manuscription",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Send manuscriptions to envelop an enemy and enemies around them, dealing its value Arcane damage over. When you cast this ability, you are granted Transcribing."
  },
  {
   "name": "Master Engraver",
   "icon": "inv_blacksmithing_greatersharpeningstone",
-  "meta": "Ability Lvl 30"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the chance to trigger your Weapon Engravings by %."
  },
  {
   "name": "Master of Runes",
   "icon": "inv_custom_rune",
-  "meta": "Ability Lvl 30"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Rune spells by %."
  },
  {
   "name": "Melting Runes",
   "icon": "novart_magicspell_(44)_border",
-  "meta": "Talent Lvl 15"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Weapon Engraving: Fire now deals % increased damage against Frozen enemies."
+ },
+ {
+  "name": "Mind Over Matter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Ley Lock by 0.5 sec."
  },
  {
   "name": "Mind Wrath",
   "icon": "nhi_corruptionmind_border",
-  "meta": "Ability Lvl 32"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Ley Lock now interrupts 1 additional enemy near your primary target."
+ },
+ {
+  "name": "Mystical Etchings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces all Fire, Nature, Frost, and Arcane damage taken by -8%. (up to 2 ranks)"
+ },
+ {
+  "name": "Nomad's Scroll",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Swapping to Runic Tattoos: Air now instantly dispels 1 movement slowing effect on you."
  },
  {
   "name": "Open Riftgate",
-  "icon": "inv_netherportal",
-  "meta": "Ability Lvl 60"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Tears open a rift in space for that you can use to set your Hearthstone location, or interact with it using other spells."
  },
  {
   "name": "Palm Sigil: Arcane",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 20"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Engrave an arcane rune into your palm, causing your next instance of direct Magic damage within to deal an additional % of the damage dealt as Arcane damage every sec for and silences the target. Usable while moving."
  },
  {
   "name": "Palm Sigil: Earth",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 8"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Engrave an earth rune into your palm, causing your next instance of direct Magic damage within to stun a target enemy. Usable while moving."
+ },
+ {
+  "name": "Palm Sigil: Fire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Engrave a fire rune into your palm, your next direct damaging spell deals % bonus damage as Fire. Lasts. Usable while moving."
  },
  {
   "name": "Palm Sigil: Frost",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 34"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Engrave a frost rune into your palm, causing your next instance of direct Magic damage within to deal % of the damage dealt as Frost damage and slow the enemy's movement speed by %. Usable while moving."
+ },
+ {
+  "name": "Palm Sigil: Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Engrave a water rune into your palm, causing your next instance of direct Magic damage within to drain the target's mana equal to % of the damage dealt. Usable while moving."
+ },
+ {
+  "name": "Palm Sigil: Wind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Engrave a wind rune into your palm, causing your next instance of direct Magic damage within to make you immune to movement impairing effects and increase your movement speed by %. Usable while moving."
  },
  {
   "name": "Permafrost Rune",
   "icon": "nhi_icestone_border",
-  "meta": "Talent Lvl 28"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Requires Frozen Target Inscribe a rune of permafrost and unleash it on an enemy, incapacitating them for (8 sec vs players). Damage taken will end the effect. Affected enemies are considered Frozen|R. Using this while in Runeshroud causes it to incur an % reduced cooldown."
  },
  {
   "name": "Phase Out",
   "icon": "ability_mage_greaterinvisibility",
-  "meta": "Talent Lvl 14"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Disappear from sight, entering an improved stealth for and applying Runeshroud."
  },
  {
   "name": "Phase Rush",
   "icon": "ability_socererking_arcaneacceleration",
-  "meta": "Talent Lvl 31"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Casting Thaumaturgy now grants you % increased movement speed."
  },
  {
   "name": "Pierce Resistances",
-  "icon": "inv_enchanting_80_veiledcrystal",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Fragmentation now reduces an enemy's magic resistances by %."
  },
  {
   "name": "Portal Hopper",
-  "icon": "spell_shadow_teleport",
-  "meta": "Ability Rank 3"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cooldown of Warp by sec and Ley Walk by sec."
  },
  {
   "name": "Power Engraving",
   "icon": "ability_deathknight_hungeringruneblade",
-  "meta": "Ability Lvl 58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create a Power Engraving beneath you, granting % increased Magic Damage dealt and % increased critical strike chance to up to allies standing in the area."
+ },
+ {
+  "name": "Power Overwhelming",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Level 40 Passive Your Runeblade and Primordial Blast now have a % chance to grant you Power Overwhelming, resetting the cooldown of Runic Brand."
  },
  {
   "name": "Power of Air",
   "icon": "sha_inv_elemental_primal_shadow",
-  "meta": "Ability Rank 2 \u00b7 max L0"
+  "meta": "Ability Rank 2 · max L0",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
+ },
+ {
+  "name": "Primal Rune",
+  "icon": "ability_druid_fortifiedbark",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Granite Resolve now reduces damage taken by an additional %."
  },
  {
   "name": "Primordial Blast",
-  "icon": "spell_frostfire_orb",
-  "meta": "Ability Lvl 2 \u00b7 max L44"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Launch a primordial missile at an enemy, dealing its value Elemental Damage and generates a Glyph."
+ },
+ {
+  "name": "Primordial Echoes",
+  "icon": "custom_t_nhance_rpg_icons_magicvortex_border",
+  "meta": "Talent",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Your critical strikes dealt with Primordial Blast now have a % chance to strike an additional time."
+ },
+ {
+  "name": "Primordial Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Your runic tattoos flare up, causing Runeblade to strike up to additional enemies. For the duration, your Runic Tattoos have % increased effectiveness."
+ },
+ {
+  "name": "Primordial Glyphs",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases Fire and Frost Damage dealt by %."
  },
  {
   "name": "Primordial Power",
   "icon": "spell_mage_overpowered",
-  "meta": "Ability Rank 2"
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the duration of Frigid Fusion by sec."
+ },
+ {
+  "name": "Primordial Pulse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Inscribe an area with runes, dealing its value Elemental Damage every sec to up to enemies inside."
  },
  {
   "name": "Primordial Salvos",
   "icon": "ability_shaman_ascendance",
-  "meta": "Talent Lvl 27"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Unleashing a Glyph now deals an additional its value damage of the same magic school to all enemies within yds of the target."
+ },
+ {
+  "name": "Primordial Strength",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of your attack power, your chance to hit by % of your Agility and your spell hit rating by % of your Agility."
  },
  {
   "name": "Primordial Studies",
-  "icon": "ability_shaman_echooftheelements",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Causes Primordial Blast to reduce the cooldown of Rune Master by sec."
+ },
+ {
+  "name": "Primordialism",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your critical strike chance by 10% for 5 seconds after leaving Runeshroud."
  },
  {
   "name": "Prismatic Blade",
-  "icon": "inv_sword_76",
-  "meta": "Talent Rank 1 \u00b7 max L51"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Strike an enemy for Weapon Damage plus as Arcane, and cycle your Attunement twice."
  },
  {
   "name": "Prismatic Flow",
   "icon": "spell_shadow_manafeed",
-  "meta": "Talent Lvl 26"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Phase Out now increases your movement speed by %."
  },
  {
   "name": "Prismatic Knight",
-  "icon": "spell_mage_evanesce",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases your Armor by % of your Intellect and reduces damage done by %. Parrying an attack generates an Inscribed Rune and increases your Melee Attack Speed by %. Active while using a Two-Handed Melee Weapon."
  },
  {
   "name": "Protective Warding",
   "icon": "ability_bastion_mage",
-  "meta": "Talent Lvl 31"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Critical damage taken reduces the cooldown of Rune of Guarding by %."
+ },
+ {
+  "name": "Quickslinger",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cast time of Primordial Blast by 0.5 sec."
  },
  {
   "name": "Residual Power",
   "icon": "novart_magicspell_(17)_border",
-  "meta": "Talent Lvl 27"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases the damage replicated by Weapon Engraving: Air by %."
+ },
+ {
+  "name": "Resonance Rune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Place an arcane rune on the ground that dispels harmful magic effects from allies in the radius, and purges beneficial magic effects from enemies."
  },
  {
   "name": "Riftblade",
   "icon": "trade_archaeology_zinrokh_sword",
-  "meta": "Ability Lvl 1"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Your Primordial Blast and Smolder now refresh a charge of Runeblade. In addition, every 3rd Runeblade now restores its value mana, increased by % while Runic Tattoos: Water is active."
+ },
+ {
+  "name": "Riftblade - Level 10 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Level 15 Passive Every 3rd Runeblade now restores its value mana, increased by % while in Water Attunement."
+ },
+ {
+  "name": "Riftgate: Prison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Teleports the target enemy to the nearest Riftgate, dealing Arcane Damage and Stunning them."
+ },
+ {
+  "name": "Riftgate: Transfer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "You teleport to the nearest Riftgate."
  },
  {
   "name": "Rune Master",
-  "icon": "inv_misc_rune_15",
-  "meta": "Ability Lvl 57"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Empowers your spellcasting while draining mana periodically. Each time you deal Magic Damage you gain % increased spell haste, % increased Magic Damage, and % increased mana costs. While active you can not move, but Ley Walk|R and Warp are able to be cast to reposition."
  },
  {
   "name": "Rune of the Elder Magus",
-  "icon": "inv_relics_runestone",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the critical damage of Primordial Blast by %."
  },
  {
   "name": "Rune of the Kirin Tor",
-  "icon": "inv_trinket_naxxramas02",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Power Engraving|R now also restores % mana every sec to affected allies."
+ },
+ {
+  "name": "Runeblade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "3 Charges, 6 sec recharge Slice an enemy with a rune-etched blade, dealing its value Elemental Damage."
+ },
+ {
+  "name": "Runecarve",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Clears any active Sigils. Does not break Runeshroud."
  },
  {
   "name": "Runed Cascade",
-  "icon": "nhi_arcanebeam_border",
-  "meta": "Talent Lvl 27 \u00b7 max L57"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Blast up to enemies within yds of the enemy target for its value Spellfire Damage, and applies Spellwrath to all affected enemies. Always applies the maximum amount of Spellwrath stacks."
  },
  {
   "name": "Runefeed",
   "icon": "spell_mage_focusingcrystal",
-  "meta": "Ability"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "source": "prior scrape (not in the Sidekick bundle)"
  },
  {
   "name": "Runes of Quickness",
   "icon": "nhi_unholyrune_border",
-  "meta": "Talent Lvl 31"
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the spell haste of all party and raid members by %. Does not stack with similar effects. In addition, the range of your Glyphic spells is increased by yds."
  },
  {
   "name": "Runeshroud",
-  "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 4"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Shroud your form in mist, entering stealth, and reducing your movement speed by %. Cannot be used while in combat. While active, Warpdagger has no cooldown."
+ },
+ {
+  "name": "Runesleeve",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Ace of Runes makes Thaumaturgy incur a sec reduced cooldown."
  },
  {
   "name": "Runeslinger",
   "icon": "inv_archaeology_70_starlightbeacon",
-  "meta": "Talent Lvl 27"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Direct damage dealt has a % chance to increase your spell haste by %."
  },
  {
   "name": "Runestone: Dazzling Spray",
-  "icon": "spell_firefrost_orb",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "2 Frost Sigil 1 Fire Sigils Allows Elemental Burst to expend the above Sigil combination to deal its value Frostfire Damage and incapacitate the enemy. Damage dealt ends this effect. Enem"
  },
  {
   "name": "Runestone: Foretelling",
-  "icon": "spell_arcane_focusedpower",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "3 Arcane Sigils Allows Elemental Burst to expend the above Sigil combination to deal its value Arcane Damage to up to enemies. Teaches Arcane Blade."
  },
  {
   "name": "Runestone: Frost Prison",
-  "icon": "novart_magicspell_(74)_border",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "3 Frost Sigils Allows Elemental Burst to expend the above Sigil combination to deal its value Frost Damage to an enemy and stun them. Enemies cannot be affected by Frost Prison again. Teaches Frost Blade."
  },
  {
   "name": "Runestone: Frozen Touch",
-  "icon": "novart_magicspell_(79)_border",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "2 Arcane Sigils 1 Frost Sigil Allows Elemental Burst to expend the above Sigil combination to cause your melee attacks to deal an additional its value Frost Damage to your target and an additional nearby enemy."
  },
  {
   "name": "Runestone: Pyrostrike",
-  "icon": "novart_magicspell_(36)_border",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "3 Fire Sigils Allows Elemental Burst to expend the above Sigil combination to unleash a massive fiery attack for its value Fire Damage to an enemy."
  },
  {
   "name": "Runestone: Spellsnap",
-  "icon": "novart_magicspell_(19)_border",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "2 Frost Sigils 1 Arcane Sigil Allows Elemental Burst to expend the above Sigil combination to deal its value Spellfrost Damage to up to enemies within yds, increasing Frost and Arcane Damage they take from you by %."
  },
  {
   "name": "Runestone: Torch",
-  "icon": "novart_magicspell_(51)_border",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "2 Fire Sigils 1 Arcane Sigil Allows Elemental Burst to expend the above Sigil combination to burn an enemy for Spellfire Damage over."
  },
  {
   "name": "Runestone: Walking Flame",
-  "icon": "novart_magicspell_(33)_border",
-  "meta": "Ability Passive - Runestone"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "2 Arcane Sigils 1 Fire Sigil Allows Elemental Burst to expend the above Sigil combination to deal its value Spellfire Damage, plus an additional over, to up to enemies within"
  },
  {
   "name": "Runic Affinity",
   "icon": "inv_misc_rune_05",
-  "meta": "Ability Lvl 16"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Zenith by sec."
+ },
+ {
+  "name": "Runic Brand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Brand an enemy, dealing its value Fire damage with each weapon, and marking the enemy."
  },
  {
   "name": "Runic Breakout",
   "icon": "spell_shadow_teleport",
-  "meta": "Ability Lvl 56"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Abilities requiring Runeshroud can now be used for sec and have no cast time after Runeshroud breaks."
  },
  {
   "name": "Runic Convergence",
-  "icon": "ability_mage_greaterinvisibility",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Blade spells now have a % chance to trigger a free Manastrike."
  },
  {
   "name": "Runic Devastation",
-  "icon": "ability_shaman_astralshift",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the damage caused by Displace Familiar and Runic Pulse by %."
  },
  {
   "name": "Runic Devastation unused",
-  "icon": "ability_shaman_astralshift",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases all damage caused by your Runic Familiar by %."
  },
  {
   "name": "Runic Knowledge",
-  "icon": "ability_mage_studentofthemind",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases your spell power by % of your Intellect."
  },
  {
   "name": "Runic Obliteration",
   "icon": "novart_magicspell_(58)_border",
-  "meta": "Talent Specialization"
+  "meta": "Ability",
+  "specs": [
+   "engravement",
+   "glyphic"
+  ],
+  "desc": "Hurl powerful elemental missiles at an enemy, dealing its value Elemental Damage every sec. Each missile grants you a Glyph. Scales with modifiers to Primordial Blast."
+ },
+ {
+  "name": "Runic Power",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases the all damage dealt by party and raid members by %. Does not stack with similar effects. In addition, critical strikes now increase the chance for the target to be critically struck by your spells by %."
  },
  {
   "name": "Runic Quickness",
-  "icon": "inv_inscription_runescrolloffortitude_blue",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Word spells now activate % faster."
  },
  {
   "name": "Runic Tattoos",
   "icon": "70_inscription_vantus_rune_azure",
-  "meta": "Talent Lvl 12"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the resource costs of your spells and abilities by %."
+ },
+ {
+  "name": "Runic Tattoos: Air",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Attune yourself with air, increasing your movement speed by % and gives you a % chance to resist movement impairing effects."
+ },
+ {
+  "name": "Runic Tattoos: Arcane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Attune yourself to arcane, increasing your Arcane resistance by and reducing the duration of harmful magic and curse effects against you by %."
+ },
+ {
+  "name": "Runic Tattoos: Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Attune yourself with the earth, increasing your armor by and your Nature resistance."
+ },
+ {
+  "name": "Runic Tattoos: Fire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Attune yourself to fire, increasing your Fire resistance. and your critical damage by %."
+ },
+ {
+  "name": "Runic Tattoos: Frost",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Attune yourself to frost, increasing your Frost resistance by and causing melee and ranged attacks against you to slow the attackers movement speed and attack speed by %."
+ },
+ {
+  "name": "Runic Tattoos: Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Attune yourself with water, restoring its value mana every 5 seconds and reduces the mana cost of your spells and abilities by % and increases the mana restored through Leystone Springs by %. While active, Primordial Blast restores % of your maximum mana on cast."
+ },
+ {
+  "name": "Runic Tempest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Harness the power of your runic tattoos, resetting the cooldown of Fist of the Ancients|R and allowing the use of abilities that require Runeshroud and making them able to be cast while moving."
  },
  {
   "name": "Runic Wrath",
-  "icon": "spell_fire_bluerainoffire",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Causes your Runic Familiar to unleash a Runic Pulse."
  },
  {
   "name": "Salvage Fragments",
-  "icon": "_energeticorbpurple",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Consumes 1 Inscribed Rune Reduces the Cooldown of your next Familiar spell by %, or the Cast Time of your next Conjure: Runic Familiar by %. This effect stacks up to 3 times."
  },
  {
   "name": "Scroll of Magic",
   "icon": "custom_t_nhance_rpg_icons_scrollofmagic_border",
-  "meta": "Talent Lvl 57"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Unleashing a Glyph increases the damage of your Unleashed Glyphs by %, stacking times."
  },
  {
   "name": "Scrying Orb",
-  "icon": "spell_druid_momentofclarity",
-  "meta": "Ability Lvl 22"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Conjure a Scrying Orb for that you can control directly and see through."
  },
  {
   "name": "Shrouded Hand",
-  "icon": "nhi_magicinyourhands_border",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Teaches you Imbue Flame, Imbue Frost, and Imbue Arcane. These 3 spells share a cooldown, and are only usable during Runeshroud. They each generate 1 Sigil of their respective type and activate the matching Attunement."
  },
  {
   "name": "Shroudwalker",
   "icon": "ability_rogue_shroudofconcealment",
-  "meta": "Talent Lvl 26"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Warpdagger now incurs no cooldown used while your Runeshroud is active."
  },
  {
   "name": "Sigilist",
   "icon": "inv_ascend_runestone_05",
-  "meta": "Ability Lvl 58"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "After using a Palm Sigil, the duration of your crowd control effects is increased by %. Reduces the cast time of all Palm Sigils by sec and increases the duration of your Palm Sigil buffs by %."
  },
  {
   "name": "Silence In The Cage",
-  "icon": "nhi_arcanedemon_border",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Reduces the cast time of Silencing Rune by %."
+ },
+ {
+  "name": "Silencing Rune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Inscribe a rune in a yd radius at target location that activates after sec, silencing all enemies within."
+ },
+ {
+  "name": "Sky and Stone",
+  "icon": "_stonetablet_shamanair",
+  "meta": "Talent",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Damage dealt by Weapon Engraving: Air and Weapon Engraving: Earth now have a % chance to increase the melee attack speed of your next 10 attacks within by %."
  },
  {
   "name": "Smolder",
   "icon": "uico_fire_spell_02_border",
-  "meta": "Talent Lvl 11 \u00b7 max L58"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Ignite your blade and strike an enemy, dealing % Weapon Damage plus its value Fire Damage."
  },
  {
   "name": "Sorcerer's Speedway",
-  "icon": "spell_arcane_portalexodar",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Reduces the cooldown of Open Riftgate by sec."
+ },
+ {
+  "name": "Speed Rune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Conjure a path of runes in the direction you are facing, increasing the movement speed of allies by %. This effect can persist for a short duration after leaving the runic path."
+ },
+ {
+  "name": "Speedy Attuner",
+  "icon": "custom_t_nhance_rpg_icons_magicspeed_border",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your movement speed by % and reduces the mana cost of your Runic Tattoos by %."
  },
  {
   "name": "Spellblade",
   "icon": "custom_t_nhance_rpg_icons_swordofflame_border",
-  "meta": "Talent Lvl 17"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases your Agility and Intellect by %."
  },
  {
   "name": "Spellblades",
-  "icon": "inv_throwingknife_06",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Deliver 8 swift strikes to an enemy target over, each dealing Weapon damage as Arcane."
+ },
+ {
+  "name": "Spellbrand",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the damage of Elemental Burst and Runeblade by %."
  },
  {
   "name": "Spellfire Runes",
   "icon": "custom_t_nhance_rpg_icons_firerune_border",
-  "meta": "Talent Lvl 57"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Your Runeblade now has a % chance, and Warpdagger a % chance, to reset the cooldown of Smolder, and increase the damage of your next Smolder by %."
  },
  {
   "name": "Stack The Deck",
-  "icon": "inv_arcane_orb",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "For the next, your Spellwrath ability has % increased Casting Speed, and no longer clears your active Aces before generating more."
  },
  {
   "name": "Steam Conjurer",
   "icon": "novart_magicspell_(77)_border",
-  "meta": "Talent Lvl 59"
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Damage dealt by Weapon Engraving: Earth now has a % chance to cast |CffffffffWild Steam. Can only occur once every 3 sec."
+ },
+ {
+  "name": "Stone Petroglyph",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While in Runic Tattoos: Earth, you now heal for 3% of your maximum health every 4 sec and you become immune to knockbacks."
  },
  {
   "name": "Surging Slash",
   "icon": "inv_misc_questionmark",
-  "meta": "Talent Specialization"
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Level 50 Passive Every 3rd cast of Runeblade now transforms your next Runeblade within into Surging Slash."
  },
  {
   "name": "Swift Etching",
   "icon": "inv_misc_rune_14",
-  "meta": "Talent Lvl 33"
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "After Hurricane ends, your melee attack speed is increased by % and critical strike chance by %."
+ },
+ {
+  "name": "Symbols of Power",
+  "icon": "novart_magicspell_(17)_border",
+  "meta": "Talent",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the damage of Fist of the Ancients while you have Weapon Engraving: Fire active by %."
  },
  {
   "name": "Tablet of Sorcery",
-  "icon": "inv_misc_rune_13",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Damage dealt by Fist of the Ancients now increases the damage dealt by Runic Brand's explosion by %."
+ },
+ {
+  "name": "Tempo",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the damage of Runeblade by %."
+ },
+ {
+  "name": "Terraglyphs",
+  "icon": "custom_t_scrollofearth_border",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases the chance to trigger Weapon Engraving: Earth by %."
  },
  {
   "name": "Thaumaturgy",
   "icon": "spell_nature_elementalprecision_2",
-  "meta": "Talent Lvl 29 \u00b7 max L60"
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Blast an enemy for its value Arcane damage and unleash your active Glyph effect."
  },
  {
   "name": "Tome of Swiftness",
-  "icon": "nhi_bookthrow_border",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Transform into a flying tome, increasing movement speed by %."
  },
  {
   "name": "Trap Runes",
-  "icon": "70_inscription_vantus_rune_suramar",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Etch a Trap Rune onto a surface for. Learning this spell teaches you 3 Trap Glyphs you can carve onto the Trap Runes which determine what happens when an enemy activates them. You cannot place multiple Trap Runes within yds of eachother."
  },
  {
   "name": "Traprune: Blasting Glyph",
-  "icon": "inv_misc_rune_05",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Apply the Blasting Glyph effect to a Traprune, causing it to blast the enemy that triggers it, dealing Arcane Damage and knocking them away from it."
  },
  {
   "name": "Traprune: Stunning Glyph",
-  "icon": "inv_misc_rune_06",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Apply the Stunning Glyph effect to a Traprune, causing it to stun the enemy that triggers it."
  },
  {
   "name": "Traprune: Unmaking Glyph",
-  "icon": "inv_misc_rune_08",
-  "meta": "Ability Lvl 1"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Apply the Unmaking Glyph effect to a Traprune, applying a damage over time effect to the enemy that triggers it and increase the critical strike chance of spells cast against them by %."
  },
  {
   "name": "Turbulence",
   "icon": "skill_icon_skill79_border",
-  "meta": "Talent Lvl 59"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Send out a gust of wind from your weapon that strikes nearby enemies in a yd radius for % Weapon Damage as Nature damage every sec. While active, you leave behind a Turbulent Spiral every sec."
+ },
+ {
+  "name": "Unbound",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of harmful magic and curse effects on you by -20%."
+ },
+ {
+  "name": "Unbound Energy",
+  "icon": "custom_t_scrollofearth_border",
+  "meta": "Talent",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Increases your critical strike chance by % and your expertise."
  },
  {
   "name": "Unleash Essences",
-  "icon": "ability_paladin_bladeofjusticeblue",
-  "meta": "Ability Lvl 7 \u00b7 max L56"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Causes Arcane Damage and unleashes your current Essence Combination to trigger a Sigil effect based on the combination. Refer to individual Lost Page passives for available combinations."
+ },
+ {
+  "name": "Unleashed Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Level 40 Passive Increases the spell power scaling of your Unleashed Glyphs by %. In addition, dealing damage with |CffffffffElemental Burst now increases the target's spell damage taken by %."
  },
  {
   "name": "Unmaker",
-  "icon": "ability_mage_netherwindpresence",
-  "meta": "Ability Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Causes Glyphic Ruin to deal % increased critical strike damage and causes it to grant Cosmic Impact."
+ },
+ {
+  "name": "Volcanic Etching",
+  "icon": "inv_ascend_magicartifact_3",
+  "meta": "Talent",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the chance to trigger Weapon Engraving: Fire and Weapon Engraving: Earth by %."
  },
  {
   "name": "Warding Rune",
   "icon": "inv_qiraj_jewelglyphed",
-  "meta": "Ability Lvl 34"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Engrave anti-magic runes around you, removing all harmful magic effects and causing harmful magic effects to have no duration when cast on you."
  },
  {
   "name": "Warp Shift",
-  "icon": "spell_nature_massteleport",
-  "meta": "Talent Lvl 17 \u00b7 max L59"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Deal its value Arcane damage to an enemy, swapping you and your familiar's position with theirs."
  },
  {
   "name": "Warpdagger",
   "icon": "inv_misc_questionmark",
-  "meta": "Ability Lvl 10"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Toss an enchanted dagger forward in a line. Upon reactivation, you instantly teleport to the location of the dagger and deal its value Elemental Damage to nearby enemies. Usable while stealthed."
  },
  {
   "name": "Warpmaster",
   "icon": "achievement_dungeon_ulduarraid_archway_01",
-  "meta": "Ability Lvl 12"
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Warpdagger by sec."
  },
  {
   "name": "Waveforged",
   "icon": "nhi_watersword_border",
-  "meta": "Talent Lvl 59"
+  "meta": "Ability",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "After Hurricane ends, you may now use abilties that require Runeshroud."
+ },
+ {
+  "name": "Weapon Engraving: Air",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Engrave an air rune onto your weapon for 1 hour. Grants your direct damage dealt a % chance to replicate % of the damage dealt to the target. Can only have 1 type of Weapon Engraving active at a time."
+ },
+ {
+  "name": "Weapon Engraving: Arcane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Engrave an arcane rune onto your weapon for 1 hour. Grants your direct damage dealt a % chance to deal its value Arcane damage to the target and reduce their healing received by %. Can only have 1 type of Weapon Engraving active at a time."
+ },
+ {
+  "name": "Weapon Engraving: Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Engrave an earth rune onto your weapon for 1 hour. Grants your direct damage dealt a % chance to deal an additional its value Nature damage to enemies within yds of your target. Can only have 1 type of Weapon Engraving active at a time."
+ },
+ {
+  "name": "Weapon Engraving: Fire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Engrave a fire rune onto your weapon for 1 hour. Grants your direct damage dealt a % chance to ignite the target, dealing its value Fire Damage per stack after. Can only have 1 type of Weapon Engraving active at a time."
+ },
+ {
+  "name": "Weapon Engraving: Ice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Engrave an ice rune onto your weapon for 1 hour. Grants your direct damage dealt a % chance to deal its value Frost damage and slow the target's movement speed by %. Can only have 1 type of Weapon Engraving active at a time."
+ },
+ {
+  "name": "Weapon Engraving: Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Engrave a water rune onto your weapon for 1 hour. Grants your direct damage dealt a % chance to deal its value Frost damage, drain its value mana from the target, and grant allies Replenishment. Can only have 1 type of Weapon Engrav"
  },
  {
   "name": "Well Educated",
-  "icon": "spell_arcane_mindmastery",
-  "meta": "Ability"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases maximum mana by %."
+ },
+ {
+  "name": "Whisperwind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Create a gust of wind at target location, shifting the wind in a yd radius, distracting all enemies and increasing their movement speed by %. Does not break stealth."
+ },
+ {
+  "name": "Wild Magic",
+  "icon": "novart_magicspell_(62)_border",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Damage dealt by Dragon's Wrath now has a % chance to become unstable, dealing its value% additional damage as Magic damage, but burning its value mana. Both the damage dealt and mana burned scale with your Intellect."
  },
  {
   "name": "Wind Surge",
   "icon": "epic_rpg_icon_pack_wind_icon_0000s_0000_elemental_border",
-  "meta": "Talent Lvl 29"
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Your Weapon Engraving: Air will now strike 2 additional enemies near its target."
+ },
+ {
+  "name": "Wind Walker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While Runic Tattoos: Air is active, the cooldown of Rune spells is reduced by 5% every 5 sec."
  },
  {
   "name": "Windsage",
   "icon": "inv_weapon_shortblade_83",
-  "meta": "Talent Specialization"
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "riftblade"
+  ],
+  "desc": "Level 30 Passive Smolder now envelops you in wind, causing your next 3 Runeblades to strike an additional time equal to % of the damage dealt as Nature damage."
  },
  {
   "name": "Wizardry",
-  "icon": "inv_staff_2h_artifactaegwynsstaff_d_01",
-  "meta": "Ability"
+  "icon": "nhi_arcanearrow_border",
+  "meta": "Talent",
+  "specs": [
+   "glyphic"
+  ],
+  "desc": "Increases your Intellect by % and increases the mana gained for each point of Intellect by %."
  },
  {
   "name": "Word of Flames",
-  "icon": "boss_odunrunes_orange",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Consumes 2 Inscribed Runes Mark an enemy, after this duration the target explodes, dealing its value Fire damage scaling with Intellect."
  },
  {
   "name": "Word of Oblivion",
-  "icon": "boss_odunrunes_purple",
-  "meta": "Talent"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Consumes 2 Inscribed Runes Mark an enemy, after this duration the target explodes, dealing its value Arcane damage to up to enemies within yds, scaling with Intellect."
  },
  {
   "name": "Words of Power",
-  "icon": "_runesauvagepourpre",
-  "meta": "Ability Rank 2"
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Increases the critical strike chance of Words by %."
  },
  {
   "name": "Words of Wrath",
-  "icon": "boss_odunrunes_yellow",
-  "meta": "Talent Passive"
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "engravement"
+  ],
+  "desc": "Words now refund 1 Inscribed Rune when they activate. Critical strike damage of Words is increased by %."
+ },
+ {
+  "name": "Zenith",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "For, your runic tattoos flare up, increasing your chance to trigger your Weapon Engravings by %."
  }
 ]
