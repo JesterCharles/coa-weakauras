@@ -400,3 +400,4 @@ footer a:hover{color:var(--c)}
 /* Pack version, paired with the WeakAuras group name so the page and the
    in-game list say the same thing. */
 .packver{color:var(--ink)}
+.packver.unver{color:#f0c674}

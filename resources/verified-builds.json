@@ -1,0 +1,17 @@
+{
+ "_comment": "Built pack versions confirmed working IN GAME, per spec. Written by tools/verified.py; read by mksite.py before it publishes. This is NOT in-game-verified.json, which holds tooltip ground truth keyed by spell name and says nothing about a built pack.",
+ "runemaster": {
+  "1.0": {
+   "specs": [
+    "engravement",
+    "glyphic",
+    "riftblade"
+   ],
+   "verified_at": "2026-07-28",
+   "verified_by": "jestercharles",
+   "notes": [
+    "release 1.0 (was final17), verified in game -- per commit c5c4b83"
+   ]
+  }
+ }
+}

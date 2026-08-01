@@ -753,6 +753,56 @@ check("the rankings source is declared as link-only",
       SRC.SOURCES["coa.ascensionlogs.gg"]["policy"] == "reference")
 
 
+# ------------------------------------------------- 18. publish gate
+#
+# docs/ IS the distribution -- Pages serves it, so copying a build in and
+# committing is a release. Before this gate, regenerating the site shipped
+# whatever had just been built and nothing recorded whether a human had seen it
+# work; Chronomancer 1.1 went live with six untested displays that way.
+print("\n18. verified-build record and publish gate")
+import re  # noqa: E402
+import verified as VER  # noqa: E402
+
+_vrec = VER.load()
+check("the verified-builds record parses", isinstance(_vrec, dict))
+
+for cls in UNDER_TEST:
+    ver = re.search(r'^VERSION = "([^"]+)"',
+                    open(os.path.join(TOOLS, cls.builder),
+                         encoding="utf-8").read(), re.M)
+    ver = ver.group(1) if ver else "?"
+
+    # Exact-match only. 1.0 being verified says nothing about 1.1 -- a version
+    # bump exists precisely because the output changed.
+    ok, _ = VER.status(cls, ver, _vrec)
+    other = {cls.slug: {"0.0-not-this": {"specs": list(cls.specs),
+                                         "verified_at": "2026-01-01"}}}
+    check(f"{cls.slug}: a different recorded version does not count as this one",
+          not VER.status(cls, ver, other)[0])
+
+    # Every spec, because a pack can be right on one and wrong on another --
+    # final8's ungated Core reminders looked fine on the spec that could
+    # satisfy them.
+    partial = {cls.slug: {ver: {"specs": [cls.specs[0]],
+                                "verified_at": "2026-01-01"}}}
+    check(f"{cls.slug}: a partial per-spec record does not count as verified",
+          not VER.status(cls, ver, partial)[0])
+
+    full = {cls.slug: {ver: {"specs": list(cls.specs),
+                             "verified_at": "2026-01-01"}}}
+    check(f"{cls.slug}: a complete record does count",
+          VER.status(cls, ver, full)[0])
+
+    # Whatever the live state is, the page must not claim more than the record
+    # supports: unverified means the badge is present, verified means it is not.
+    page = os.path.join(ROOT, "docs", cls.slug, "index.html")
+    if os.path.exists(page):
+        badged = "not verified in game" in open(page, encoding="utf-8").read()
+        check(f"{cls.slug}: page badge matches the record "
+              f"(v{ver} {'verified' if ok else 'unverified'})",
+              badged != ok)
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

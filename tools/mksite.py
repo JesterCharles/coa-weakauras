@@ -33,6 +33,7 @@ from classes import CLASSES, built as built_classes  # noqa: E402
 from iconcolor import class_icon, colors_for, read_png  # noqa: E402
 import hud  # noqa: E402
 import rankings  # noqa: E402
+import verified  # noqa: E402
 
 SITE_TITLE = "Conquest of Azeroth WeakAuras"
 TAGLINE = ("WeakAura packs for all 21 Ascension Conquest of Azeroth custom "
@@ -193,7 +194,8 @@ def class_tile(c, shipped, colors):
 ><img src="{icon}" alt="" loading="lazy" width="56" height="56"></{tag}>"""
 
 
-def pack_block(label, pack_file, stats, desc, idx, version=""):
+def pack_block(label, pack_file, stats, desc, idx, version="",
+               verified_ok=True):
     """One downloadable pack.
 
     The version is shown because it is the only way to answer "is this newer
@@ -204,6 +206,12 @@ def pack_block(label, pack_file, stats, desc, idx, version=""):
     """
     ver = (f' &middot; <span class="packver">v{html.escape(version)}</span>'
            if version else "")
+    if version and not verified_ok:
+        # Said on the pack itself, not in a footnote. A player deciding whether
+        # to import needs it at the point of decision.
+        ver += (' &middot; <span class="packver unver" '
+                'title="Generated and validated, but nobody has loaded this '
+                'exact version in game yet">not verified in game</span>')
     return f"""<article class="pack">
   <div class="packhead">
     <h3>{html.escape(label)}</h3>
@@ -583,7 +591,49 @@ def layout_sections(pack_path, spec_labels):
 
 # --------------------------------------------------------------------- build
 
-def build():
+_verified_ok = {}
+
+
+def _check_verified(classes, allow_unverified):
+    """Refuse to publish a pack nobody has loaded in game, unless told to.
+
+    docs/ IS the distribution: GitHub Pages serves it, so copying a build into
+    docs/packs/ and committing is a release. Regenerating the site therefore
+    shipped whatever had just been built, and nothing recorded whether a human
+    had ever seen it work. Chronomancer 1.1 went live carrying six untested
+    displays exactly that way.
+
+    Not a wall -- an unverified pack can still ship, because that is what the
+    alpha channel will be. It just cannot ship SILENTLY: you pass the flag, and
+    the page says so on every affected pack.
+    """
+    _verified_ok.clear()
+    unverified = []
+    for c in classes:
+        if c["slug"] not in SHIPPED:
+            continue
+        v = version_of(f"build_{c['slug']}.py")
+        ok, detail = verified.status(CLASSES[c["slug"]], v)
+        _verified_ok[c["slug"]] = ok
+        if not ok:
+            unverified.append(f"{c['name']} v{v}: {detail}")
+    if not unverified:
+        return
+    print("  unverified packs:")
+    for u in unverified:
+        print(f"    {u}")
+    if not allow_unverified:
+        raise SystemExit(
+            "\nmksite: refusing to publish -- docs/ is what players download.\n"
+            "  Verify in game and record it:\n"
+            "    python3 tools/verified.py record <class> <version> --by you "
+            "--spec <each spec>\n"
+            "  Or publish anyway, with a visible badge on each affected pack:\n"
+            "    python3 tools/mksite.py --allow-unverified")
+    print("  --allow-unverified: publishing anyway, badged on the page")
+
+
+def build(allow_unverified=False):
     os.makedirs(os.path.join(DOCS, "packs"), exist_ok=True)
     os.makedirs(os.path.join(DOCS, "assets"), exist_ok=True)
 
@@ -592,6 +642,7 @@ def build():
     # would just duplicate ~1 MB of PNGs for nothing.
 
     classes = read_classes()
+    _check_verified(classes, allow_unverified)
     if not classes:
         raise SystemExit("no classes parsed -- check ascension-coa-class-ids.md")
 
@@ -637,7 +688,8 @@ def build():
             # href is relative to docs/<class>/index.html
             blocks.append(pack_block(
                 label, f"{c['slug']}/{published}", st, desc, i,
-                version=version_of(f"build_{c['slug']}.py")))
+                version=version_of(f"build_{c['slug']}.py"),
+                verified_ok=_verified_ok.get(c["slug"], True)))
 
         main_pack = os.path.join(DOCS, "packs", c["slug"], packs[0][2])
         head = all_stats[0] if all_stats else {"displays": 0, "triggers": 0}
@@ -789,5 +841,5 @@ def build():
 
 
 if __name__ == "__main__":
-    build()
+    build("--allow-unverified" in sys.argv)
     print("\nsite written to docs/")
