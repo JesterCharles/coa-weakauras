@@ -1,0 +1,12 @@
+{
+ "Gravity Lapse": {
+  "canonical": "Gravity Bomb",
+  "spell_id": 501820,
+  "why": "804428 carries no rank, no GCD, no mana cost and no description, and sits in exiles beside 'Gravity Bomb Area Visual' and 'Gravity Bomb Area Visual Timer' -- the component family of Gravity Bomb. 501820 is the castable, so the castable's name wins."
+ },
+ "Word of Balance: Guard": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "No spell id in exiles, the skillbook, the cooldown audit or the official talent tree, and no near-name: searching 'Word of Balance' returns nothing at all. Sidekick is the only source that has ever named it. Unbuildable until an id appears -- a WeakAura cannot track a spell it cannot name to the client."
+ }
+}

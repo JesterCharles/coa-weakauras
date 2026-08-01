@@ -584,6 +584,7 @@ import citations as CIT  # noqa: E402
 for cls in UNDER_TEST:
     cites = CIT.load(cls)
     names = CIT.inventory_names(cls)
+    alias = CIT.load_aliases(cls)
     check(f"{cls.slug}: {len(cites)} citation(s) present", bool(cites),
           "no citations -- every priority this class renders is uncited")
 
@@ -605,7 +606,32 @@ for cls in UNDER_TEST:
     # does not resolve is NOT: it means a source disagrees with our inventory,
     # which is information to act on, not a broken tree. Surfaced, not failed --
     # the same treatment mkabilities gives its Candidates list.
-    real = CIT.validate(cls, cites, names)
+    # An alias is only useful if it actually resolves. Build one synthetic
+    # citation per alias and confirm the validator accepts it: a rename that
+    # maps to a canonical row must pass, and a name recorded as unbuildable
+    # (canonical: null) must NOT come back as an outstanding gap -- somebody
+    # already looked, and rediscovering it every refresh is the failure.
+    def _cite(n):
+        return {"t": {"class": cls.slug, "spec": cls.specs[0],
+                      "source": "ascensionsidekick.com", "origin": "scheduled",
+                      "retrieved_at": "2026-01-01",
+                      "claims": {"priority": [n]}}}
+
+    for _name, _a in sorted(alias.items()):
+        gaps = [w for _, w in CIT.validate(cls, _cite(_name), names, alias)
+                if "no inventory row" in w]
+        kind = ("unbuildable" if _a.get("canonical") is None
+                else f"-> {_a['canonical']}")
+        check(f"{cls.slug}: alias {_name!r} resolves ({kind})", not gaps,
+              "; ".join(gaps))
+    # An unaliased nonsense name must still be reported, or the alias file
+    # would be hiding gaps rather than explaining them.
+    check(f"{cls.slug}: an unaliased unknown name is still a gap",
+          any("no inventory row" in w for _, w in
+              CIT.validate(cls, _cite("Definitely Not An Ability"), names,
+                           alias)))
+
+    real = CIT.validate(cls, cites, names, alias)
     structural = [(c, w) for c, w in real if "no inventory row" not in w]
     check(f"{cls.slug}: every citation is structurally valid", not structural,
           "\n".join(f"{c}: {w}" for c, w in structural))

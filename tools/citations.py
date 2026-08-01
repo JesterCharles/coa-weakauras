@@ -41,6 +41,29 @@ worth the same in corroboration -- the difference is `origin`, not standing.
 NAMES ARE VALIDATED against the inventory. A citation naming an ability that
 has no row is not a strong claim about a weak ability, it is a typo or a rename,
 and it would otherwise sit in the corpus corroborating nothing forever.
+
+ALIASES, because the naming conventions drifted. The same ability turns up under
+different names across sources, and the sources do not agree on which name is
+current. The tie-break is the one WeakAuras actually cares about:
+
+    THE NAME THAT CARRIES A USABLE SPELL ID WINS.
+
+An aura tracks a spell by id, so a name with no id behind it cannot be built no
+matter which source prefers it. Descriptions mostly match across the renames,
+which is what makes the id the safe discriminator rather than a risky one.
+
+`aliases-<class>.json` maps a source's name to ours, with the reasoning:
+
+    "Gravity Lapse" -> "Gravity Bomb"   804428 has no rank, GCD, cost or
+                                        description and sits beside "Gravity
+                                        Bomb Area Visual" -- a component. The
+                                        castable is 501820.
+    "Word of Balance: Guard" -> null    no id in ANY source. Unbuildable, and
+                                        recorded as such so it is not
+                                        rediscovered every refresh.
+
+A null canonical is a real answer, not a blank. It says someone looked, and
+stops the name coming back as a fresh mystery on the next import.
 """
 import argparse
 import hashlib
@@ -120,8 +143,25 @@ def _norm_date(s):
     return "-".join(m.groups()) if m else ""
 
 
-def validate(cls, cites, names):
+def load_aliases(cls):
+    """{source name: {canonical, spell_id, why}}. canonical=None means known
+    unbuildable, which is an answer and not a gap."""
+    p = data(f"aliases-{cls.slug}.json")
+    if not os.path.exists(p):
+        return {}
+    return json.load(open(p, encoding="utf-8"))
+
+
+def resolve(name, aliases):
+    """(canonical_or_None, known) -- known=False means nobody has looked."""
+    if name in aliases:
+        return aliases[name].get("canonical"), True
+    return name, False
+
+
+def validate(cls, cites, names, aliases=None):
     """[(citation_id, problem)] -- empty means the corpus is usable."""
+    aliases = aliases or {}
     bad = []
     for cid, c in sorted(cites.items()):
         for field in ("class", "spec", "source", "origin", "retrieved_at",
@@ -141,7 +181,12 @@ def validate(cls, cites, names):
                 bad.append((cid, f"unknown claim bucket {b!r}"))
                 continue
             for n in (vals if isinstance(vals, list) else [vals]):
-                if n and n not in names:
+                if not n:
+                    continue
+                canon, known = resolve(n, aliases)
+                if known and canon is None:
+                    continue          # recorded as unbuildable; not a gap
+                if canon not in names:
                     bad.append((cid, f"{b}: {n!r} has no inventory row"))
     return bad
 
@@ -211,7 +256,7 @@ def sidekick_import(cls, cites):
     return added
 
 
-def report(cls, cites, names):
+def report(cls, cites, names, aliases=None):
     """Corroboration per spec: who is named, by how many, and where they clash."""
     stale_after = newest_changelog(cls)
     by_spec = defaultdict(list)
@@ -230,11 +275,19 @@ def report(cls, cites, names):
                  if stale_after and _norm_date(c.get("retrieved_at")) <
                  _norm_date(stale_after)]
         counts = defaultdict(lambda: defaultdict(list))
+        unbuildable = set()
         for cid, c in rows:
             for b, vals in (c.get("claims") or {}).items():
                 for n in (vals if isinstance(vals, list) else [vals]):
                     if n:
-                        counts[b][n].append(c.get("source", "?"))
+                        # Count under the CANONICAL name, so two sources using
+                        # different names for one ability corroborate each
+                        # other instead of each looking like a lone claim.
+                        canon, known = resolve(n, aliases or {})
+                        if known and canon is None:
+                            unbuildable.add(n)
+                            continue
+                        counts[b][canon].append(c.get("source", "?"))
 
         for b in BUCKETS:
             if not counts.get(b):
@@ -248,6 +301,10 @@ def report(cls, cites, names):
             print(f"  STALE: {len(stale)} citation(s) predate the newest "
                   f"{cls.name} changelog entry ({stale_after}). Re-research "
                   f"before trusting a priority.")
+        for n in sorted(unbuildable):
+            why = (aliases or {}).get(n, {}).get("why", "")
+            print(f"  UNBUILDABLE: {n} -- cited, but no spell id exists to "
+                  f"track it. {why[:110]}")
         cav = [v for _, c in rows for v in (c.get("caveats") or [])]
         for v in dict.fromkeys(cav):
             print(f"  CAVEAT: {v[:150]}")
@@ -304,13 +361,14 @@ def main():
     cls = get(args.cls)
     cites = load(cls)
     names = inventory_names(cls)
+    aliases = load_aliases(cls)
 
     if args.import_sidekick:
         n = sidekick_import(cls, cites)
         p = save(cls, cites)
         print(f"imported {n} Sidekick citation(s) -> {p}")
 
-    bad = validate(cls, cites, names)
+    bad = validate(cls, cites, names, aliases)
     if bad:
         print(f"\n{len(bad)} problem(s):")
         for cid, why in bad:
@@ -318,7 +376,7 @@ def main():
     if args.validate:
         return 1 if bad else 0
 
-    report(cls, cites, names)
+    report(cls, cites, names, aliases)
     return 1 if bad else 0
 
 
