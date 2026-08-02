@@ -40,6 +40,15 @@ import verified  # noqa: E402
 # None to remove the gate entirely.
 WA_GATE_CODE = "emberfall"
 
+NOSCRIPT_UTIL = """<noscript><style>
+  /* No JS: the filter box and the roster picker do nothing, so they are not
+     offered. EVERYTHING else on this page is server-rendered and works --
+     the scarcity counts, the whole coverage grid, and all ten ability lists.
+     Nothing here is JS-only that is not also printed statically. */
+  .utiltools{display:none}
+  .mxr .open::after,.mxr .pick{display:none}
+</style></noscript>"""
+
 SITE_TITLE = "Conquest of Azeroth WeakAuras"
 TAGLINE = ("WeakAura packs for all 21 Ascension Conquest of Azeroth custom "
            "classes. One layout, every class, gated so unused packs cost "
@@ -108,7 +117,8 @@ def pack_stats(path):
 
 # ----------------------------------------------------------------- templates
 
-def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False):
+def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
+         extra_css=(), extra_js=(), head_extra=""):
     """Wrap a body in the site chrome.
 
     `body` is everything between the header and the footer, including its own
@@ -142,6 +152,8 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="{up}assets/site.css">
+{"".join(f'<link rel="stylesheet" href="{up}assets/{c}">' for c in extra_css)}
+{head_extra}
 </head>
 <body{tint}>
 <header class="site">
@@ -161,6 +173,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False):
      Not affiliated with Blizzard Entertainment.
      <a href="{REPO}/blob/main/NOTICE">Data sources</a>.</p>
 </footer>
+{"".join(f'<script src="{up}assets/{j}"></script>' for j in extra_js)}
 <script src="{up}assets/gate.js"></script>
 <script src="{up}assets/copy.js"></script>
 <script src="{up}assets/search.js"></script>
@@ -653,62 +666,18 @@ UTILITY_INTRO = (
 
 
 def utility_tables_page():
-    """The raid-utility tables as HTML, from the SAME rows as the markdown.
+    """The raid-utility page body. See tools/utility_page.py for the design.
 
-    Imports tools/utility_tables.py rather than parsing notes/raid-utility.md
-    back: one source, two renderings, and no markdown parser to keep honest.
-    Returns None if the local spell mirror is absent, so a clone without
-    tools/spellchk/ still builds the rest of the site.
+    Returns None if the local spell mirror under tools/spellchk/ is absent, so
+    a fresh clone still builds the rest of the site -- that directory is
+    gitignored and holds ~12k cached API responses.
     """
     try:
-        from utility_tables import tables
-        data_tables = tables()
+        from utility_page import render
+        return render()
     except Exception as e:                       # noqa: BLE001
         print(f"  !! raid utility page skipped: {e}")
         return None
-    if not any(rows for _c, _t, _n, _col, rows, _m in data_tables):
-        print("  !! raid utility page skipped: no rows (empty spell mirror?)")
-        return None
-
-    nav = " ".join(
-        f'<a href="#{cat}">{html.escape(title.split(". ", 1)[-1])}</a>'
-        for cat, title, _n, _col, rows, _m in data_tables if rows)
-    out = [f'<main><h1>Raid utility</h1><p class="lede">{UTILITY_INTRO}</p>',
-           f'<p class="utilnav">{nav}</p>']
-    for cat, title, note, col, rows, missing in data_tables:
-        if not rows:
-            continue
-        out.append(f'<section id="{cat}"><h2>{html.escape(title)}</h2>')
-        out.append(f'<p class="note">{_md_inline(note)}</p>')
-        out.append('<div class="tablewrap"><table><thead><tr>'
-                   f'<th>Class</th><th>Spec</th><th>Ability</th><th>{col}</th>'
-                   '<th>CD</th><th>Cost</th><th>Cast</th><th>Description</th>'
-                   '</tr></thead><tbody>')
-        for _i, cn, sp, rc, nm, url, marks, ob, cd, co, ca, ds, _sid in rows:
-            spec = html.escape(sp)
-            if rc:
-                spec += f'<br><span class="rc">{html.escape(rc)}</span>'
-            tag = ""
-            if "int" in marks:
-                tag += ' <span class="tag int" title="also interrupts non-player casting">int</span>'
-            if "noicon" in marks:
-                tag += ' <span class="tag warn" title="no icon on db.ascension.gg -- may not be in the game">?</span>'
-            out.append(
-                f'<tr><td class="b">{html.escape(cn)}</td>'
-                f'<td class="sc">{spec}</td>'
-                f'<td class="b"><a href="{url}" rel="noopener">{html.escape(nm)}</a>{tag}</td>'
-                f'<td class="obs">{html.escape(ob)}</td>'
-                f'<td class="num">{html.escape(cd)}</td>'
-                f'<td class="num">{html.escape(co)}</td>'
-                f'<td class="num">{html.escape(ca)}</td>'
-                f'<td class="items">{html.escape(ds)}</td></tr>')
-        out.append("</tbody></table></div>")
-        note2 = (f"{len(rows)} across {len({r[1] for r in rows})} classes."
-                 + (f" None for: {', '.join(missing)}." if missing else
-                    " Every class has one."))
-        out.append(f'<p class="tallies">{html.escape(note2)}</p></section>')
-    out.append("</main>")
-    return "\n".join(out)
 
 
 def _md_inline(t):
@@ -736,7 +705,9 @@ def build_utility_only():
     open(out, "w", encoding="utf-8").write(page(
         "Raid utility - CoA", util, depth=0,
         desc="Interrupts, battle rezzes, purges, spellsteals and enrage "
-             "removals across all 21 CoA classes."))
+             "removals across all 21 CoA classes.",
+        extra_css=("raid-utility.css",), extra_js=("raid-utility.js",),
+        head_extra=NOSCRIPT_UTIL))
     print(f"  wrote {out}")
     return 0
 
@@ -778,9 +749,11 @@ def build(allow_unverified=False):
     if util:
         open(os.path.join(DOCS, "raid-utility.html"), "w",
              encoding="utf-8").write(page(
-                 "Raid utility - CoA", util, depth=0,
-                 desc="Interrupts, battle rezzes, purges, spellsteals and "
-                      "enrage removals across all 21 CoA classes."))
+        "Raid utility - CoA", util, depth=0,
+        desc="Interrupts, battle rezzes, purges, spellsteals and enrage "
+             "removals across all 21 CoA classes.",
+        extra_css=("raid-utility.css",), extra_js=("raid-utility.js",),
+        head_extra=NOSCRIPT_UTIL))
         print("  wrote raid-utility.html")
 
     # -------------------------------------------------- per-class pack pages

@@ -92,9 +92,9 @@ EFFNOTE = {
            "\"cannot be used in combat\") and every 8-10 sec cast. Necromancer's "
            "`Reanimate` is excluded too -- it raises a CORPSE as a temporary "
            "pet, not a player.\n\n"
-           "The column is **Reagent Required**, not Usable on Boss: a battle "
-           "rez targets an ally, so boss immunity is meaningless, while the "
-           "reagent is the thing that stops you casting it.",
+           "Reagent cost is tracked per ability rather than boss usability: a "
+           "battle rez targets an ally, so boss immunity is meaningless, while "
+           "the reagent is the thing that stops you casting it.",
     "purge": "`effect_id 38` (DISPEL) where the tooltip names a *beneficial* "
              "effect on an *enemy*. Target flags alone are unreliable -- "
              "**Show of Force** is `target_a 6` and reads \"on a friendly "

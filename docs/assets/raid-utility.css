@@ -1,0 +1,392 @@
+/* Raid utility page.
+ *
+ * Replaces the `raid utility page` block at the foot of site.css. Everything
+ * here is built out of idioms that already exist in that file: 1px-gap grids
+ * over an --edge background (.packs, .steps), inset hairlines instead of
+ * borders, square corners, .lbl section labels, .bartrack/.barfill resource
+ * bars, the .editbox chat prompt, and the per-row --c accent stripe from
+ * .readout. Nothing new is invented. The old block's border-radius:8px was
+ * the one thing on this page that did not look like the rest of the site,
+ * and it is gone.
+ *
+ * The load-bearing rule: a stun is not an interrupt. That is enforced
+ * structurally -- the trash band is last in the grid, dim in the grid,
+ * collapsed on the page, and one line inside a class kit -- rather than by a
+ * sentence of prose that a scanning reader skips.
+ */
+
+/* ------------------------------------------------------------- masthead */
+.util h1{margin:0 0 10px;font-size:clamp(1.7rem,4vw,2.4rem)}
+.lede{color:var(--ink2);max-width:66ch;margin:0 0 20px;line-height:1.5}
+.utiltools{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap;
+  margin:0 0 40px}
+.utiltools .editbox{max-width:320px}
+.utiltools #uq{flex:1;min-width:0;font:inherit;font-size:.88rem;
+  color:var(--ink);background:none;border:0;outline:none;padding:10px}
+.utiltools #uq::placeholder{color:var(--dim)}
+.utiltools #uq::-webkit-search-cancel-button{-webkit-appearance:none;
+  appearance:none;display:none}
+.utiltools #uclear{display:none;font:inherit;font-size:1.1rem;line-height:1;
+  cursor:pointer;background:none;border:0;color:var(--dim);padding:0 11px}
+.utiltools .editbox.has #uclear{display:block}
+.rosterbtn{font:inherit;font-size:.76rem;letter-spacing:.04em;cursor:pointer;
+  border:0;padding:0 15px;color:var(--ink2);background:var(--panel);
+  box-shadow:inset 0 0 0 1px var(--edge)}
+.rosterbtn:hover{color:var(--ink);background:var(--raise)}
+
+/* site.css styles <section> for the class page (padding + a top rule between
+ * siblings). This page's sections are laid out by their own .lbl headers, so
+ * that rule is reset rather than fought. */
+.util section{padding:0;border-top:0}
+
+/* section furniture ---------------------------------------------------- */
+.lbl{margin:0 0 8px;scroll-margin-top:74px}
+.lbl.bigrule{margin-top:56px;font-size:.72rem;color:var(--ink)}
+.lbl.bigrule::after{background:linear-gradient(90deg,var(--edge2),transparent)}
+.lblnum{margin-left:auto;color:var(--dim);font-weight:600;letter-spacing:.1em;
+  flex:none;order:3}
+.lbl::after{order:2}
+.secnote{color:var(--dim);font-size:.82rem;line-height:1.6;max-width:82ch;
+  margin:0 0 14px}
+.secnote b,.secnote strong{color:var(--ink2);font-weight:600}
+.secnote code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
+  padding:1px 5px;font-size:.92em;color:var(--ink2)}
+/* The classification notes are the page's honesty, but only the first
+ * paragraph is needed to read the list. The rest -- what was excluded and
+ * why -- folds away. */
+details.why{margin:0 0 16px}
+details.why>summary{cursor:pointer;font-size:.74rem;color:var(--bone);
+  letter-spacing:.06em;list-style:none;display:inline-block;
+  box-shadow:inset 0 -1px 0 var(--edge2);padding-bottom:1px}
+details.why>summary::-webkit-details-marker{display:none}
+details.why>summary::before{content:"+ ";color:var(--dim)}
+details.why[open]>summary::before{content:"\2212 "}
+details.why p{color:var(--dim);font-size:.8rem;line-height:1.6;max-width:82ch;
+  margin:10px 0 0}
+details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
+  padding:1px 5px;font-size:.92em}
+.tallies{color:var(--dim);font-size:.74rem;margin:11px 2px 0}
+.tallies a{color:var(--ink2);box-shadow:inset 0 -1px 0 var(--edge2)}
+.tallies a:hover{color:var(--c)}
+
+/* ------------------------------------------------------------- scarcity
+ * Ten tiles, rarest first. This replaces the old .utilnav pill row: same job
+ * (jump to a section), same pixels, but they now answer "what is scarce",
+ * which is the first thing a raid lead needs and the old nav never said.
+ * The bar is site.css's own .bartrack/.barfill resource bar.
+ */
+.scarcity{list-style:none;margin:0 0 48px;padding:1px;display:grid;gap:1px;
+  grid-template-columns:repeat(5,1fr);
+  background:var(--edge);box-shadow:0 0 0 1px var(--edge)}
+.sc{--c:var(--bone)}
+.sc-stop{--c:#e8c039}      /* cast control  */
+.sc-tools{--c:#48c2e3}     /* raid tools    */
+.sc-trash{--c:var(--dim)}  /* trash control reads as furniture, on purpose */
+.sc>a{display:block;background:var(--panel);padding:13px 14px 14px;
+  height:100%;transition:background .12s}
+.sc>a:hover{background:var(--raise)}
+.scname{display:block;font-size:.76rem;color:var(--ink2);line-height:1.3;
+  min-height:2.1em}
+.scnum{display:block;font-size:1.55rem;font-weight:700;letter-spacing:-.03em;
+  color:var(--c);font-variant-numeric:tabular-nums;margin:4px 0 9px;
+  line-height:1}
+.scnum em{font-style:normal;font-size:.9rem;color:var(--dim);font-weight:600}
+.sc .bartrack{display:block;height:6px;padding:0;background:#0a0d11;
+  box-shadow:inset 0 0 0 1px var(--edge)}
+.sc .barfill{display:block;background:var(--c);
+  box-shadow:0 0 10px -3px var(--c);min-width:2px}
+.unvn{display:block;margin-top:8px;font-style:normal;font-size:.62rem;
+  letter-spacing:.1em;text-transform:uppercase;color:#f0c674}
+/* A tool nobody in your roster brings is the most important tile on the
+ * page, so it is flagged rather than dimmed. */
+.sc.gap{--c:#e0525f;order:-1}   /* a gap floats to the front of the strip */
+.sc.gap>a{background:linear-gradient(180deg,rgba(224,82,95,.09),var(--panel))}
+.sc.gap .scname{color:var(--ink)}
+.sc.gap .unvn{display:none}
+.sc.gap>a::after{content:"not covered";display:block;margin-top:8px;
+  font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+
+/* --------------------------------------------------------------- matrix
+ * 21 rows x 10 columns. It fits the 1240px content column, so the grid can
+ * be the page's index: it answers "who has one" for all ten tools at once,
+ * and carries each class's shortest cooldown so it half-answers "what is the
+ * plan" too. On a phone it scrolls sideways -- but the class column is
+ * sticky, so unlike the old 940px table you never lose the row you are on.
+ */
+.mxwrap{overflow-x:auto;box-shadow:0 0 0 1px var(--edge);background:var(--deep);
+  margin:0 0 12px}
+table.mx{border-collapse:separate;border-spacing:0;width:100%;
+  table-layout:fixed;min-width:700px;font-size:.8rem}
+.mx th,.mx td{padding:0}
+.mx .mxc{width:23%}
+.mx .mxh{width:7.7%}
+
+/* the band strip: the wall between "stops a cast" and "stun" */
+.mxbands td{font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--dim);text-align:center;padding:7px 4px;background:#090d11;
+  border-bottom:1px solid rgba(198,174,132,.16)}
+.mxbands td span{display:block;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.mxbands .b-stop{color:#e8c039;box-shadow:inset 0 2px 0 rgba(232,192,57,.5)}
+.mxbands .b-tools{color:#48c2e3;box-shadow:inset 0 2px 0 rgba(72,194,227,.45)}
+.mxbands .b-trash{color:var(--dim);box-shadow:inset 0 2px 0 rgba(111,106,96,.5);
+  background:rgba(0,0,0,.3)}
+
+.mx thead th.mxh{font-size:.6rem;letter-spacing:.1em;font-weight:700;
+  color:var(--bone);background:#0b0f14;text-align:center;padding:9px 0 8px;
+  border-bottom:1px solid var(--edge)}
+.mx thead th.mxh a{display:block}
+.mx thead th.mxh a:hover{color:var(--ink)}
+.mx thead th.mxc{background:#0b0f14;text-align:left;font-size:.62rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--bone);
+  font-weight:700;padding:9px 12px;border-bottom:1px solid var(--edge);
+  position:sticky;left:0;z-index:3}
+.bstart{box-shadow:inset 1px 0 0 var(--edge2)}
+.mx tbody .b-trash{background:rgba(0,0,0,.24)}
+
+tbody .mxr>.mxc{background:var(--deep);position:sticky;left:0;z-index:2;
+  border-bottom:1px solid rgba(198,174,132,.09)}
+.mxcin{display:flex;align-items:center;gap:9px}
+.mxr .pick{background:none;border:0;padding:6px 0 6px 9px;cursor:pointer;
+  line-height:0;flex:none}
+.mxr .pick img{width:22px;height:22px;box-shadow:0 0 0 1px rgba(0,0,0,.8);
+  filter:grayscale(.6) brightness(.78);transition:filter .12s,box-shadow .12s}
+.mxr:hover .pick img{filter:none}
+.mxr .open{background:none;border:0;color:var(--ink);font:inherit;
+  font-size:.84rem;font-weight:600;cursor:pointer;padding:10px 8px 10px 0;
+  text-align:left;flex:1;min-width:0;white-space:nowrap;overflow:hidden;
+  text-overflow:ellipsis}
+.mxr .open::after{content:"\25B8";color:var(--dim);font-size:.68em;
+  margin-left:7px;display:inline-block;transition:transform .12s}
+.mxr.open .open::after{transform:rotate(90deg);color:var(--c)}
+.mxr.open>.mxc,.mxr.open>td{background:var(--panel)}
+.mxr.open>.mxc{box-shadow:inset 2px 0 0 var(--c)}
+.mx tbody tr.mxr:hover>.mxc,.mx tbody tr.mxr:hover>td{background:var(--panel)}
+
+.mx tbody td{text-align:center;font-variant-numeric:tabular-nums;
+  border-bottom:1px solid rgba(198,174,132,.09);padding:9px 2px;
+  white-space:nowrap}
+td.mxv .cd{color:var(--ink);font-size:.76rem}
+td.mxv i{font-style:normal;font-size:.56rem;color:var(--dim);margin-left:2px;
+  vertical-align:super}
+td.mxv i.t{color:var(--bone)}
+td.mxv.unv .cd{color:#f0c674}
+td.mxv.unv::after{content:"?";font-size:.58rem;color:#f0c674;
+  vertical-align:super;margin-left:1px}
+/* Trash-band values are dim by rule. A dim cell cannot be misread as the
+ * answer to "who stops casts". */
+td.mxv.b-trash .cd{color:var(--dim);font-size:.72rem}
+td.mxx span{color:rgba(111,106,96,.45)}
+
+/* my roster ------------------------------------------------------------ */
+.mxr.mine .open{color:var(--c)}
+.mxr.mine .pick img{filter:none;
+  box-shadow:0 0 0 1px var(--c),0 0 12px -3px var(--c)}
+body.mypick .mxr:not(.mine){opacity:.26}
+body.mypick .mxr:not(.mine):hover{opacity:.62}
+
+.mxlegend{display:flex;flex-wrap:wrap;gap:7px 22px;margin:0 0 10px;
+  font-size:.7rem;color:var(--dim)}
+.mxlegend i{font-style:normal;margin-right:7px;color:var(--ink2);
+  font-variant-numeric:tabular-nums}
+.mxlegend i.t{color:var(--bone)}
+.mxlegend i.unv{color:#f0c674}
+.mxlegend i.x{color:rgba(111,106,96,.45)}
+
+/* ------------------------------------------------------------------ kit
+ * The expanded class row -- the class-first view. "If I bring a Necromancer
+ * instead of a Bloodmage, what do I lose" is answered by opening two rows;
+ * the closing .kitgap line names what the class does NOT bring, which is the
+ * half of that comparison a per-utility table can never show.
+ */
+/* the kit lives inside a <td> of .mx, which is text-align:center */
+.mx tbody .kitrow>td{text-align:left}
+.kitrow>td{padding:0!important;background:var(--panel);
+  box-shadow:inset 3px 0 0 var(--c),inset 0 1px 0 var(--edge),
+    inset 0 -1px 0 var(--edge)}
+.kit{padding:18px 20px 20px;display:grid;gap:0 26px;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.35fr)}
+.kb-stop{grid-column:1}
+.kb-tools{grid-column:2}
+.kbl{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--bone);margin:0 0 4px;padding-bottom:7px;
+  border-bottom:1px solid var(--edge)}
+.kcat{display:flex;align-items:center;gap:9px;font-size:.72rem;
+  color:var(--ink2);margin:14px 0 6px}
+.kab{font-size:.56rem;letter-spacing:.1em;font-weight:700;color:var(--bone);
+  background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);padding:2px 6px;
+  flex:none}
+.kittrash{grid-column:1/-1;margin:18px 0 0;padding-top:13px;
+  border-top:1px solid var(--edge);font-size:.76rem;color:var(--dim);
+  line-height:1.9}
+.kittrash b{color:var(--dim);font-weight:700;font-size:.6rem;
+  letter-spacing:.16em;text-transform:uppercase;margin-right:10px}
+.kittrash a{color:var(--ink2);box-shadow:inset 0 -1px 0 var(--edge)}
+.kittrash i{font-style:normal;font-size:.68rem;color:var(--dim)}
+.kitgap{grid-column:1/-1;font-size:.78rem;color:var(--ink2);margin:16px 0 0;
+  padding-top:13px;border-top:1px solid var(--edge)}
+.kitgap b{color:var(--bone);font-weight:700;font-size:.62rem;
+  letter-spacing:.16em;text-transform:uppercase;margin-right:8px}
+
+/* ------------------------------------------------------------ abilities
+ * The detail rows. NOT a table: a grid whose three numbers sit in one
+ * fixed-width .abnums strip, so they still align into columns down the list
+ * on desktop while the whole row can restack on a phone. The description
+ * used to be an eighth table column and was the sole reason the page needed
+ * min-width:940px; it is now a subline that spans the row and clamps to two
+ * lines, expanding on hover.
+ *
+ * There is no "Usable on Boss" column and no "Reagent Required" column.
+ * Both are hand-filled and both are empty for every one of the 103 rows
+ * today, so as columns they are a wall of blanks that scans as "no". When a
+ * value is filled in it appears as a chip beside the ability, where its
+ * absence claims nothing.
+ */
+.ablist{list-style:none;margin:0;padding:1px;display:grid;gap:1px;
+  background:var(--edge);box-shadow:0 0 0 1px var(--edge)}
+.ab{background:var(--panel);padding:12px 15px 13px 14px;position:relative;
+  display:grid;align-items:baseline;column-gap:16px;row-gap:6px;
+  grid-template-columns:minmax(140px,178px) minmax(0,1fr) auto;
+  grid-template-areas:"cls name nums" "cls desc desc"}
+/* the .readout accent stripe, per class */
+.ab::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;
+  background:var(--c);opacity:.75}
+.ab:hover{background:var(--raise)}
+.ablist.tight{box-shadow:none;background:rgba(198,174,132,.16)}
+/* Inside a kit the row is narrow, so name / numbers / description stack
+ * unconditionally -- chips and cooldowns must never collide. */
+.ablist.tight .ab{padding-left:12px;row-gap:5px;
+  grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"name" "nums" "desc"}
+.ablist.tight .abnums{flex-wrap:wrap;gap:3px 16px}
+.ablist.tight .abnums .n{width:auto;text-align:left;font-size:.74rem}
+.ablist.tight .abnums .n::before{display:inline}
+.ablist.tight .ab::before{width:0}
+
+.abcls{grid-area:cls;display:flex;align-items:center;gap:9px;font-size:.82rem;
+  color:var(--ink);min-width:0}
+.abcls img{width:22px;height:22px;flex:none;
+  box-shadow:0 0 0 1px rgba(0,0,0,.8)}
+.abcls b{font-weight:600;
+  box-shadow:inset 0 -1px 0 color-mix(in srgb,var(--c) 60%,transparent)}
+.abname{grid-area:name;font-size:.88rem;font-weight:600;color:var(--ink);
+  min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 2px}
+.abname>a{box-shadow:inset 0 -1px 0 var(--edge2)}
+.abname>a:hover{color:var(--c)}
+/* The magnitude is the answer to "is this a real raid cooldown", so it is
+ * loud -- but in the page's own bone, not the class accent, because the
+ * class accent would make 40% mean two different colours on two rows. */
+.mag{display:inline-block;margin-left:9px;font-size:1.05rem;font-weight:700;
+  letter-spacing:-.02em;color:var(--bone);font-variant-numeric:tabular-nums}
+
+.abnums{grid-area:nums;display:flex;gap:0;flex:none}
+.abnums .n{font-size:.78rem;color:var(--ink2);text-align:right;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.abnums .cd{width:70px;color:var(--ink);font-weight:600}
+.abnums .cost{width:96px}
+.abnums .cast{width:80px}
+.abnums .n::before{content:attr(data-l) " ";display:none;font-size:.58rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+
+.abdesc{grid-area:desc;font-size:.78rem;color:var(--dim);line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden}
+.ab:hover .abdesc{-webkit-line-clamp:8}
+
+/* Column header for a list. It restores what a <table> gave for free --
+ * labelled columns -- without the 940px min-width that came with it. Hidden
+ * on a phone, where every number carries its own inline label. */
+.abhead{background:#0b0f14;padding:8px 15px 8px 14px;
+  font-size:.6rem!important;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--bone);font-weight:700}
+.abhead::before{display:none}
+.abhead:hover{background:#0b0f14}
+.abhead .abcls,.abhead .abname,.abhead .n{font-size:.6rem;color:var(--bone);
+  font-weight:700;letter-spacing:.16em}
+.abhead .abname{text-decoration:none}
+
+/* chips ---------------------------------------------------------------- */
+.abchips{display:inline-flex;flex-wrap:wrap;gap:5px;margin-left:9px;
+  vertical-align:middle}
+.chip{font-size:.6rem;letter-spacing:.06em;font-weight:600;padding:1px 6px;
+  white-space:nowrap;color:var(--dim);box-shadow:inset 0 0 0 1px var(--edge)}
+.chip.spec{color:var(--ink2)}
+.chip.tal{color:var(--bone);font-variant-numeric:tabular-nums}
+.chip.tal::before{content:"talent ";color:var(--dim)}
+.chip.int{color:#78beff;box-shadow:inset 0 0 0 1px rgba(120,190,255,.34)}
+.chip.unv{color:#f0c674;box-shadow:inset 0 0 0 1px rgba(240,198,116,.36)}
+.chip.obs{color:var(--ok);box-shadow:inset 0 0 0 1px rgba(74,222,128,.3)}
+.chip.kind{color:var(--ink2)}
+.chip.scope{text-transform:uppercase;letter-spacing:.1em}
+.chip.scope.raid{color:var(--ok);box-shadow:inset 0 0 0 1px rgba(74,222,128,.36)}
+.chip.scope.party{color:#78beff;box-shadow:inset 0 0 0 1px rgba(120,190,255,.32)}
+.chip.scope.ally{color:var(--dim)}
+
+/* ---------------------------------------------------------- trash block
+ * Stuns and roots are 32 of the 103 rows and answer none of the five
+ * questions a raid lead asks. They stay on the page, and stay in the grid,
+ * but they do not get a third of the scroll length.
+ */
+.utilsec{margin:0 0 42px;scroll-margin-top:74px}
+.lowsec{margin-top:56px;box-shadow:inset 0 0 0 1px var(--edge);
+  background:var(--deep);scroll-margin-top:74px}
+.lowsec>summary{cursor:pointer;padding:17px 19px;list-style:none;
+  display:grid;gap:6px}
+.lowsec>summary::-webkit-details-marker{display:none}
+.lowsec>summary .lbl{color:var(--dim);margin:0}
+.lowsec>summary .lbl::after{background:linear-gradient(90deg,
+  rgba(198,174,132,.18),transparent)}
+.lowhint{font-size:.78rem;color:var(--dim);max-width:74ch;line-height:1.55}
+.lowsec>summary::after{content:"Show";position:absolute;right:19px;
+  font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--bone)}
+.lowsec[open]>summary::after{content:"Hide"}
+.lowsec>summary{position:relative}
+.lowsec[open]>summary{border-bottom:1px solid var(--edge);margin-bottom:22px}
+.lowsec>.utilsec{padding:0 19px}
+.lowsec>.utilsec:last-of-type{padding-bottom:6px}
+.lowsec .ab{opacity:.86}
+
+/* filter --------------------------------------------------------------- */
+.ab[hidden],.mxr[hidden],.kitrow[hidden]{display:none}
+.utilsec.empty,.bandblock.empty,.lowsec.empty{display:none}
+
+/* --------------------------------------------------------- responsive */
+@media (max-width:1080px){
+  .scarcity{grid-template-columns:repeat(4,1fr)}
+}
+@media (max-width:900px){
+  .abhead{display:none}
+  .ab{grid-template-columns:minmax(0,1fr);
+      grid-template-areas:"cls" "name" "nums" "desc";row-gap:7px}
+  .ablist.tight .ab{grid-template-columns:minmax(0,1fr);
+      grid-template-areas:"name" "nums" "desc"}
+  .abnums{flex-wrap:wrap;gap:4px 18px}
+  .abnums .n{text-align:left;width:auto!important}
+  .abnums .n::before{display:inline}
+  .abdesc{-webkit-line-clamp:3}
+  .kit{grid-template-columns:minmax(0,1fr);gap:0}
+  .kb-stop,.kb-tools{grid-column:1}
+  .kb-tools{margin-top:20px}
+}
+@media (max-width:720px){
+  .scarcity{grid-template-columns:repeat(2,1fr);margin-bottom:34px}
+  .scnum{font-size:1.3rem}
+  table.mx{min-width:0;font-size:.74rem;table-layout:auto}
+  .mx .mxc{width:auto}
+  .mx thead th.mxc{padding:9px 10px}
+  .mxcin{max-width:118px}
+  .mxr .open{font-size:.74rem;line-height:1.15;white-space:normal;
+    padding:9px 4px 9px 0}
+  .mxr .pick{padding-left:7px}
+  .mxr .pick img{width:18px;height:18px}
+  .mx thead th.mxh{font-size:.54rem;padding:8px 0}
+  .mx .mxh{width:42px}
+  .mx tbody td{padding:8px 1px}
+  td.mxv .cd{font-size:.7rem}
+  .mxbands td{font-size:.5rem;letter-spacing:.08em;padding:6px 2px}
+  .kitrow>td{box-shadow:inset 3px 0 0 var(--c)}
+  .kit{padding:14px}
+  .lowsec>.utilsec{padding:0 13px}
+  .lbl.bigrule{margin-top:40px}
+}
