@@ -31,7 +31,15 @@
     });
   });
 
-  /* ------------------------------------------------------------ 2. roster */
+  /* ------------------------------------------------------------ 2. roster
+   *
+   * ONE selection with two entry points -- the icon band at the top of the
+   * page and the icon on every grid row -- rather than the two overlapping
+   * mechanisms this page used to have. The old "filter by class" band dimmed
+   * grid rows to .18 and hid ability rows; the old roster picker dimmed grid
+   * rows to .26 and recounted the scarcity strip. Same gesture, same icons,
+   * two different meanings and no way to tell which one you had just used.
+   * Now: picking a class does all of it, from either place. */
   var KEY = "coa-roster";
   var mine = {};
   try { mine = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
@@ -55,9 +63,23 @@
     // NB "roster" is already a class in site.css (the index icon band),
     // so the body flag is namespaced.
     document.body.classList.toggle("mypick", on);
-    var btn = $("#rosterclear");
-    btn.hidden = !on;
-    $("#rostern").textContent = picked.length;
+    var btn = $(".cfclear");
+    if (btn) btn.hidden = !on;
+    var n = $("#rostern");
+    if (n) n.textContent = picked.length;
+
+    // the top icon band and the grid rows are two views of the same state
+    $$(".cf").forEach(function (b) {
+      b.classList.toggle("on", !!mine[b.dataset.class]);
+    });
+    rows.forEach(function (r) {
+      r.classList.toggle("mine", !!mine[r.dataset.class]);
+    });
+    // and the ability lists show only the roster, so a category tab answers
+    // "what do MY classes bring" without a second control. apply() is the
+    // single writer of li.hidden -- roster and text filter compose there
+    // rather than overwriting each other.
+    apply();
 
     Object.keys(cols).forEach(function (i) {
       var cat = cols[i];
@@ -77,30 +99,39 @@
     });
   }
 
+  function toggle(c) {
+    mine[c] = !mine[c];
+    if (!mine[c]) delete mine[c];
+    try { localStorage.setItem(KEY, JSON.stringify(mine)); } catch (e) {}
+    recount();
+  }
   rows.forEach(function (r) {
     var pick = $(".pick", r);
-    if (!pick) return;
-    pick.addEventListener("click", function () {
-      var c = r.dataset.class;
-      mine[c] = !mine[c];
-      r.classList.toggle("mine", !!mine[c]);
-      try { localStorage.setItem(KEY, JSON.stringify(mine)); } catch (e) {}
-      recount();
+    if (pick) pick.addEventListener("click", function () {
+      toggle(r.dataset.class);
     });
-    if (mine[r.dataset.class]) r.classList.add("mine");
   });
-  $("#rosterclear").addEventListener("click", function () {
+  $$(".cf").forEach(function (b) {
+    b.addEventListener("click", function () { toggle(b.dataset.class); });
+  });
+  var cfc = $(".cfclear");
+  if (cfc) cfc.addEventListener("click", function () {
     mine = {};
     try { localStorage.removeItem(KEY); } catch (e) {}
-    rows.forEach(function (r) { r.classList.remove("mine"); });
     recount();
   });
   recount();
 
-  /* ------------------------------------------------------------ 3. filter */
-  var q = $("#uq"), box = $("#fbox"), abs = $$("li.ab");
+  /* ------------------------------------------------------------ 3. filter
+   * The single writer of `hidden` on both grid rows and ability rows: text
+   * query AND roster, composed. Called by recount() too, which is why it
+   * looks its elements up lazily -- recount runs before this block. */
+  var q, box, abs;
   function apply() {
+    q = q || $("#uq"); box = box || $("#fbox"); abs = abs || $$("li.ab");
     var v = q.value.trim().toLowerCase();
+    var picked = Object.keys(mine).filter(function (k) { return mine[k]; });
+    var ros = picked.length > 0;
     box.classList.toggle("has", !!v);
     rows.forEach(function (r) {
       var hay = (r.dataset.class + " " + r.dataset.has + " " + r.title)
@@ -114,11 +145,13 @@
     });
     abs.forEach(function (li) {
       var hay = ((li.dataset.cat || "") + " " + li.textContent).toLowerCase();
-      li.hidden = !!v && hay.indexOf(v) === -1;
+      var cls = $(".abcls b", li);
+      li.hidden = (!!v && hay.indexOf(v) === -1) ||
+                  (ros && !!cls && !mine[cls.textContent]);
     });
     $$("section.utilsec").forEach(function (s) {
       s.classList.toggle("empty",
-        !!v && !$$("li.ab", s).some(function (li) { return !li.hidden; }));
+        (!!v || ros) && !$$("li.ab", s).some(function (li) { return !li.hidden; }));
     });
     // a band heading with nothing left under it goes too
     $$(".bandblock, .lowsec").forEach(function (bb) {
@@ -167,41 +200,8 @@
   window.addEventListener("hashchange", fromHash);
   fromHash();
 
-  /* ---- class filter -------------------------------------------------- */
-  var picked = Object.create(null);
-  var clear = $(".cfclear");
-  function applyClass() {
-    var names = Object.keys(picked);
-    var on = names.length > 0;
-    if (clear) clear.hidden = !on;
-    // grid rows
-    $$(".mxr").forEach(function (r) {
-      r.classList.toggle("dimmed", on && !picked[r.dataset.class]);
-    });
-    // ability rows in every panel
-    $$(".ab").forEach(function (li) {
-      var cls = $(".abcls b", li);
-      li.hidden = on && cls && !picked[cls.textContent];
-    });
-    // a section whose rows all vanished says so instead of looking broken
-    $$(".utilsec").forEach(function (sec) {
-      var any = $$(".ab", sec).some(function (li) { return !li.hidden; });
-      sec.classList.toggle("empty", on && !any);
-    });
-  }
-  $$(".cf").forEach(function (b) {
-    b.addEventListener("click", function () {
-      var c = b.dataset.class;
-      if (picked[c]) { delete picked[c]; } else { picked[c] = 1; }
-      b.classList.toggle("on", !!picked[c]);
-      applyClass();
-    });
-  });
-  if (clear) clear.addEventListener("click", function () {
-    picked = Object.create(null);
-    $$(".cf").forEach(function (b) { b.classList.remove("on"); });
-    applyClass();
-  });
+  /* The class filter that used to live here is gone -- it WAS the roster,
+     implemented twice. See block 2 above. */
 
   /* ---- hover card ---------------------------------------------------- */
   var raw = $("#abdata");

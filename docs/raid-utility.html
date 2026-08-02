@@ -16,7 +16,7 @@
      offered. EVERYTHING else on this page is server-rendered and works --
      the scarcity counts, the whole coverage grid, and all ten ability lists.
      Nothing here is JS-only that is not also printed statically. */
-  .utiltools,.tabs,.clsfilter{display:none}
+  .utiltools,.tabs,.roster-band{display:none}
   .mxr .open::after,.mxr .pick{display:none}
   /* every panel open, i.e. the long-scroll page it used to be */
   .panel[hidden]{display:block !important}
@@ -37,37 +37,37 @@
 <main class="util wrap">
 <div class="utilhead"><h1>Raid utility</h1>
 <p class="lede">Every interrupt, battle rez, purge, spellsteal, enrage removal and raid damage reduction across all 21 Conquest of Azeroth classes &mdash; classified by spell effect id, not by tooltip text.</p>
-<div class="utiltools"><label class="editbox" id="fbox"><span class="slash">/</span><input id="uq" type="search" placeholder="filter class or ability" autocomplete="off"><button id="uclear" type="button" aria-label="clear filter">&times;</button></label><button class="rosterbtn" id="rosterclear" type="button" hidden>clear roster (<span id="rostern">0</span>)</button></div></div>
-<div class="clsfilter" aria-label="filter by class">
-<span class="cfl">Filter by class</span><div class="cfrow">
-<button class="cf" type="button" data-class="Barbarian" title="Barbarian" style="--c:#e44d45"><img src="assets/class-icons/barbarian/_class-barbarian.png" alt="" width="30" height="30" loading="lazy"><span>Barbarian</span></button>
-<button class="cf" type="button" data-class="Bloodmage" title="Bloodmage" style="--c:#ef5325"><img src="assets/class-icons/bloodmage/_class-bloodmage.png" alt="" width="30" height="30" loading="lazy"><span>Bloodmage</span></button>
-<button class="cf" type="button" data-class="Chronomancer" title="Chronomancer" style="--c:#34d5e9"><img src="assets/class-icons/chronomancer/_class-chronomancer.png" alt="" width="30" height="30" loading="lazy"><span>Chronomancer</span></button>
-<button class="cf" type="button" data-class="Cultist" title="Cultist" style="--c:#d874ae"><img src="assets/class-icons/cultist/_class-cultist.png" alt="" width="30" height="30" loading="lazy"><span>Cultist</span></button>
-<button class="cf" type="button" data-class="Felsworn" title="Felsworn" style="--c:#daec2d"><img src="assets/class-icons/felsworn/_class-felsworn.png" alt="" width="30" height="30" loading="lazy"><span>Felsworn</span></button>
-<button class="cf" type="button" data-class="Guardian" title="Guardian" style="--c:#48c2e3"><img src="assets/class-icons/guardian/_class-guardian.png" alt="" width="30" height="30" loading="lazy"><span>Guardian</span></button>
-<button class="cf" type="button" data-class="Knight of Xoroth" title="Knight of Xoroth" style="--c:#ef5525"><img src="assets/class-icons/knight-of-xoroth/_class-knight-of-xoroth.png" alt="" width="30" height="30" loading="lazy"><span>Knight of Xoroth</span></button>
-<button class="cf" type="button" data-class="Necromancer" title="Necromancer" style="--c:#e1d14f"><img src="assets/class-icons/necromancer/_class-necromancer.png" alt="" width="30" height="30" loading="lazy"><span>Necromancer</span></button>
-<button class="cf" type="button" data-class="Primalist" title="Primalist" style="--c:#daab69"><img src="assets/class-icons/primalist/_class-primalist.png" alt="" width="30" height="30" loading="lazy"><span>Primalist</span></button>
-<button class="cf" type="button" data-class="Pyromancer" title="Pyromancer" style="--c:#ef5125"><img src="assets/class-icons/pyromancer/_class-pyromancer.png" alt="" width="30" height="30" loading="lazy"><span>Pyromancer</span></button>
-<button class="cf" type="button" data-class="Ranger" title="Ranger" style="--c:#e1614e"><img src="assets/class-icons/ranger/_class-ranger.png" alt="" width="30" height="30" loading="lazy"><span>Ranger</span></button>
-<button class="cf" type="button" data-class="Reaper" title="Reaper" style="--c:#2985ed"><img src="assets/class-icons/reaper/_class-reaper.png" alt="" width="30" height="30" loading="lazy"><span>Reaper</span></button>
-<button class="cf" type="button" data-class="Runemaster" title="Runemaster" style="--c:#47a2e3"><img src="assets/class-icons/runemaster/_class-runemaster.png" alt="" width="30" height="30" loading="lazy"><span>Runemaster</span></button>
-<button class="cf" type="button" data-class="Starcaller" title="Starcaller" style="--c:#3fd0e6"><img src="assets/class-icons/starcaller/_class-starcaller.png" alt="" width="30" height="30" loading="lazy"><span>Starcaller</span></button>
-<button class="cf" type="button" data-class="Stormbringer" title="Stormbringer" style="--c:#2561ef"><img src="assets/class-icons/stormbringer/_class-stormbringer.png" alt="" width="30" height="30" loading="lazy"><span>Stormbringer</span></button>
-<button class="cf" type="button" data-class="Sun Cleric" title="Sun Cleric" style="--c:#e8c039"><img src="assets/class-icons/sun-cleric/_class-sun-cleric.png" alt="" width="30" height="30" loading="lazy"><span>Sun Cleric</span></button>
-<button class="cf" type="button" data-class="Templar" title="Templar" style="--c:#ef253d"><img src="assets/class-icons/templar/_class-templar.png" alt="" width="30" height="30" loading="lazy"><span>Templar</span></button>
-<button class="cf" type="button" data-class="Tinker" title="Tinker" style="--c:#e5a440"><img src="assets/class-icons/tinker/_class-tinker.png" alt="" width="30" height="30" loading="lazy"><span>Tinker</span></button>
-<button class="cf" type="button" data-class="Venomancer" title="Venomancer" style="--c:#46ea31"><img src="assets/class-icons/venomancer/_class-venomancer.png" alt="" width="30" height="30" loading="lazy"><span>Venomancer</span></button>
-<button class="cf" type="button" data-class="Witch Doctor" title="Witch Doctor" style="--c:#dfb358"><img src="assets/class-icons/witch-doctor/_class-witch-doctor.png" alt="" width="30" height="30" loading="lazy"><span>Witch Doctor</span></button>
-<button class="cf" type="button" data-class="Witch Hunter" title="Witch Hunter" style="--c:#e39d47"><img src="assets/class-icons/witch-hunter/_class-witch-hunter.png" alt="" width="30" height="30" loading="lazy"><span>Witch Hunter</span></button>
-</div><button class="cfclear" type="button" hidden>Clear</button></div>
+<div class="utiltools"><label class="editbox" id="fbox"><span class="slash">/</span><input id="uq" type="search" placeholder="filter class or ability" autocomplete="off"><button id="uclear" type="button" aria-label="clear filter">&times;</button></label></div></div>
+<div class="roster-band" aria-label="your roster">
+<div class="rbhead"><span class="cfl">Your roster</span><span class="rbhint">Click classes to count coverage against just them.</span><button class="cfclear" type="button" hidden>Clear roster (<span id="rostern">0</span>)</button></div><div class="cfrow">
+<button class="cf" type="button" data-class="Barbarian" title="Barbarian" style="--c:#e44d45"><img src="assets/class-icons/barbarian/_class-barbarian.png" alt="" width="34" height="34" loading="lazy"><span>Barbarian</span></button>
+<button class="cf" type="button" data-class="Bloodmage" title="Bloodmage" style="--c:#ef5325"><img src="assets/class-icons/bloodmage/_class-bloodmage.png" alt="" width="34" height="34" loading="lazy"><span>Bloodmage</span></button>
+<button class="cf" type="button" data-class="Chronomancer" title="Chronomancer" style="--c:#34d5e9"><img src="assets/class-icons/chronomancer/_class-chronomancer.png" alt="" width="34" height="34" loading="lazy"><span>Chronomancer</span></button>
+<button class="cf" type="button" data-class="Cultist" title="Cultist" style="--c:#d874ae"><img src="assets/class-icons/cultist/_class-cultist.png" alt="" width="34" height="34" loading="lazy"><span>Cultist</span></button>
+<button class="cf" type="button" data-class="Felsworn" title="Felsworn" style="--c:#daec2d"><img src="assets/class-icons/felsworn/_class-felsworn.png" alt="" width="34" height="34" loading="lazy"><span>Felsworn</span></button>
+<button class="cf" type="button" data-class="Guardian" title="Guardian" style="--c:#48c2e3"><img src="assets/class-icons/guardian/_class-guardian.png" alt="" width="34" height="34" loading="lazy"><span>Guardian</span></button>
+<button class="cf" type="button" data-class="Knight of Xoroth" title="Knight of Xoroth" style="--c:#ef5525"><img src="assets/class-icons/knight-of-xoroth/_class-knight-of-xoroth.png" alt="" width="34" height="34" loading="lazy"><span>Knight of Xoroth</span></button>
+<button class="cf" type="button" data-class="Necromancer" title="Necromancer" style="--c:#e1d14f"><img src="assets/class-icons/necromancer/_class-necromancer.png" alt="" width="34" height="34" loading="lazy"><span>Necromancer</span></button>
+<button class="cf" type="button" data-class="Primalist" title="Primalist" style="--c:#daab69"><img src="assets/class-icons/primalist/_class-primalist.png" alt="" width="34" height="34" loading="lazy"><span>Primalist</span></button>
+<button class="cf" type="button" data-class="Pyromancer" title="Pyromancer" style="--c:#ef5125"><img src="assets/class-icons/pyromancer/_class-pyromancer.png" alt="" width="34" height="34" loading="lazy"><span>Pyromancer</span></button>
+<button class="cf" type="button" data-class="Ranger" title="Ranger" style="--c:#e1614e"><img src="assets/class-icons/ranger/_class-ranger.png" alt="" width="34" height="34" loading="lazy"><span>Ranger</span></button>
+<button class="cf" type="button" data-class="Reaper" title="Reaper" style="--c:#2985ed"><img src="assets/class-icons/reaper/_class-reaper.png" alt="" width="34" height="34" loading="lazy"><span>Reaper</span></button>
+<button class="cf" type="button" data-class="Runemaster" title="Runemaster" style="--c:#47a2e3"><img src="assets/class-icons/runemaster/_class-runemaster.png" alt="" width="34" height="34" loading="lazy"><span>Runemaster</span></button>
+<button class="cf" type="button" data-class="Starcaller" title="Starcaller" style="--c:#3fd0e6"><img src="assets/class-icons/starcaller/_class-starcaller.png" alt="" width="34" height="34" loading="lazy"><span>Starcaller</span></button>
+<button class="cf" type="button" data-class="Stormbringer" title="Stormbringer" style="--c:#2561ef"><img src="assets/class-icons/stormbringer/_class-stormbringer.png" alt="" width="34" height="34" loading="lazy"><span>Stormbringer</span></button>
+<button class="cf" type="button" data-class="Sun Cleric" title="Sun Cleric" style="--c:#e8c039"><img src="assets/class-icons/sun-cleric/_class-sun-cleric.png" alt="" width="34" height="34" loading="lazy"><span>Sun Cleric</span></button>
+<button class="cf" type="button" data-class="Templar" title="Templar" style="--c:#ef253d"><img src="assets/class-icons/templar/_class-templar.png" alt="" width="34" height="34" loading="lazy"><span>Templar</span></button>
+<button class="cf" type="button" data-class="Tinker" title="Tinker" style="--c:#e5a440"><img src="assets/class-icons/tinker/_class-tinker.png" alt="" width="34" height="34" loading="lazy"><span>Tinker</span></button>
+<button class="cf" type="button" data-class="Venomancer" title="Venomancer" style="--c:#46ea31"><img src="assets/class-icons/venomancer/_class-venomancer.png" alt="" width="34" height="34" loading="lazy"><span>Venomancer</span></button>
+<button class="cf" type="button" data-class="Witch Doctor" title="Witch Doctor" style="--c:#dfb358"><img src="assets/class-icons/witch-doctor/_class-witch-doctor.png" alt="" width="34" height="34" loading="lazy"><span>Witch Doctor</span></button>
+<button class="cf" type="button" data-class="Witch Hunter" title="Witch Hunter" style="--c:#e39d47"><img src="assets/class-icons/witch-hunter/_class-witch-hunter.png" alt="" width="34" height="34" loading="lazy"><span>Witch Hunter</span></button>
+</div></div>
 <nav class="tabs" role="tablist">
 <button class="tab on" role="tab" data-panel="overview">Overview</button>
 <button class="tab tb-stop" role="tab" data-panel="interrupt">Interrupt<i>23</i></button>
-<button class="tab tb-tools" role="tab" data-panel="raid_dr">Raid DR (active)<i>12</i></button>
+<button class="tab tb-tools" role="tab" data-panel="raid_dr">Raid DR<i>12</i></button>
 <button class="tab tb-tools" role="tab" data-panel="purge">Purge<i>8</i></button>
-<button class="tab tb-tools" role="tab" data-panel="raid_dr_passive">Raid DR (passive)<i>9</i></button>
+<button class="tab tb-tools" role="tab" data-panel="raid_dr_passive">Passive DR<i>9</i></button>
 <button class="tab tb-stop" role="tab" data-panel="silence">Silence<i>7</i></button>
 <button class="tab tb-tools" role="tab" data-panel="rez">Battle rez<i>5</i></button>
 <button class="tab tb-tools" role="tab" data-panel="tranq">Soothe<i>4</i></button>
@@ -76,73 +76,73 @@
 <button class="tab tb-trash" role="tab" data-panel="stun">Stun<i>17</i></button>
 </nav>
 <section class="panel on" id="panel-overview">
-<p class="lbl">What is scarce</p>
-<p class="secnote">How many of the 21 classes bring each tool, rarest first. The short bars are the ones that decide a roster. Pick classes in the grid below and these recount against <b>your</b> roster.</p>
+<p class="lbl">How many of the 21 classes bring each tool</p>
+<p class="secnote">Rarest first. A short bar is a tool you have to roster for on purpose.</p>
 <ul class="scarcity">
-<li class="sc sc-tools" data-cat="tranq"><a href="#tranq">
+<li class="sc sc-tools t-rare" data-cat="tranq"><a href="#tranq">
   <span class="scname">Soothe</span>
   <span class="scnum"><b data-count="tranq">3</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="tranq"
     style="width:14%"></span></span>
   
 </a></li>
-<li class="sc sc-tools" data-cat="spellsteal"><a href="#spellsteal">
+<li class="sc sc-tools t-rare" data-cat="spellsteal"><a href="#spellsteal">
   <span class="scname">Spellsteal</span>
   <span class="scnum"><b data-count="spellsteal">3</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="spellsteal"
     style="width:14%"></span></span>
   <i class="unvn">2 unverified</i>
 </a></li>
-<li class="sc sc-tools" data-cat="rez"><a href="#rez">
+<li class="sc sc-tools t-rare" data-cat="rez"><a href="#rez">
   <span class="scname">Battle rez</span>
   <span class="scnum"><b data-count="rez">5</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="rez"
     style="width:24%"></span></span>
   
 </a></li>
-<li class="sc sc-stop" data-cat="silence"><a href="#silence">
+<li class="sc sc-stop t-few" data-cat="silence"><a href="#silence">
   <span class="scname">Silence</span>
   <span class="scnum"><b data-count="silence">6</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="silence"
     style="width:29%"></span></span>
   
 </a></li>
-<li class="sc sc-tools" data-cat="purge"><a href="#purge">
+<li class="sc sc-tools t-few" data-cat="purge"><a href="#purge">
   <span class="scname">Purge</span>
   <span class="scnum"><b data-count="purge">7</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="purge"
     style="width:33%"></span></span>
   <i class="unvn">3 unverified</i>
 </a></li>
-<li class="sc sc-tools" data-cat="raid_dr_passive"><a href="#raid_dr_passive">
-  <span class="scname">Raid DR (passive)</span>
+<li class="sc sc-tools t-few" data-cat="raid_dr_passive"><a href="#raid_dr_passive">
+  <span class="scname">Passive DR</span>
   <span class="scnum"><b data-count="raid_dr_passive">7</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="raid_dr_passive"
     style="width:33%"></span></span>
   <i class="unvn">1 unverified</i>
 </a></li>
-<li class="sc sc-tools" data-cat="raid_dr"><a href="#raid_dr">
-  <span class="scname">Raid DR (active)</span>
+<li class="sc sc-tools t-few" data-cat="raid_dr"><a href="#raid_dr">
+  <span class="scname">Raid DR</span>
   <span class="scnum"><b data-count="raid_dr">10</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="raid_dr"
     style="width:48%"></span></span>
   <i class="unvn">1 unverified</i>
 </a></li>
-<li class="sc sc-trash" data-cat="root"><a href="#root">
+<li class="sc sc-trash t-many" data-cat="root"><a href="#root">
   <span class="scname">Root</span>
   <span class="scnum"><b data-count="root">12</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="root"
     style="width:57%"></span></span>
   <i class="unvn">5 unverified</i>
 </a></li>
-<li class="sc sc-trash" data-cat="stun"><a href="#stun">
+<li class="sc sc-trash t-many" data-cat="stun"><a href="#stun">
   <span class="scname">Stun</span>
   <span class="scnum"><b data-count="stun">12</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="stun"
     style="width:57%"></span></span>
   <i class="unvn">1 unverified</i>
 </a></li>
-<li class="sc sc-stop" data-cat="interrupt"><a href="#interrupt">
+<li class="sc sc-stop t-many" data-cat="interrupt"><a href="#interrupt">
   <span class="scname">Interrupt</span>
   <span class="scnum"><b data-count="interrupt">19</b><em>/21</em></span>
   <span class="bartrack"><span class="barfill" data-bar="interrupt"
@@ -150,40 +150,41 @@
   
 </a></li>
 </ul>
-<p class="lbl" id="matrix">Coverage grid</p>
-<p class="secnote">One row per class, one column per tool. The number is that class’s <b>shortest cooldown</b> in the column; <b>&mdash;</b> means no cooldown at all. <b>t</b> marks a tool that costs a talent point, <b>+n</b> that the class brings more than one. Click a class to open its full kit; click its icon to add it to your roster.</p>
+<p class="lbl" id="matrix">Who brings what</p>
+<p class="secnote">A filled cell is a class that brings that tool; the number is its <b>shortest cooldown</b>, and <b>&mdash;</b> means no cooldown at all. Click a class name to open its full kit.</p>
+<p class="mxlegend"><span><i class="k v">14s</i>shortest cooldown</span><span><i class="k v">&mdash;</i>no cooldown</span><span><i class="k t">t</i>costs a talent point</span><span><i class="k p">+1</i>brings another</span><span><i class="k unv">14s?</i>unverified in game</span><span><i class="k x">&nbsp;</i>blank = does not bring it</span></p>
 <div class="mxwrap"><table class="mx">
 <thead><tr class="mxbands"><td class="mxc"></td>
 <td class="bl b-stop" colspan="2"><span>Stops a cast</span></td>
 <td class="bl b-tools" colspan="6"><span>Raid tools</span></td>
 <td class="bl b-trash" colspan="2"><span>Trash only</span></td>
-</tr><tr><th class="mxc" scope="col">Class</th>
-<th class="mxh b-stop bstart" scope="col" abbr="Interrupt"><a href="#interrupt" title="Interrupt">INT</a></th>
-<th class="mxh b-stop" scope="col" abbr="Silence"><a href="#silence" title="Silence">SIL</a></th>
-<th class="mxh b-tools bstart" scope="col" abbr="Battle rez"><a href="#rez" title="Battle rez">REZ</a></th>
-<th class="mxh b-tools" scope="col" abbr="Raid DR (active)"><a href="#raid_dr" title="Raid DR (active)">DR</a></th>
-<th class="mxh b-tools" scope="col" abbr="Raid DR (passive)"><a href="#raid_dr_passive" title="Raid DR (passive)">DR·P</a></th>
-<th class="mxh b-tools" scope="col" abbr="Purge"><a href="#purge" title="Purge">PRG</a></th>
-<th class="mxh b-tools" scope="col" abbr="Spellsteal"><a href="#spellsteal" title="Spellsteal">STL</a></th>
-<th class="mxh b-tools" scope="col" abbr="Soothe"><a href="#tranq" title="Soothe">SOO</a></th>
-<th class="mxh b-trash bstart" scope="col" abbr="Stun"><a href="#stun" title="Stun">STN</a></th>
-<th class="mxh b-trash" scope="col" abbr="Root"><a href="#root" title="Root">RT</a></th>
+</tr><tr class="mxhead"><th class="mxc" scope="col">Class</th>
+<th class="mxh b-stop bstart" scope="col" abbr="Interrupt"><a href="#interrupt" title="Interrupt"><span class="hw">Interrupt</span></a></th>
+<th class="mxh b-stop" scope="col" abbr="Silence"><a href="#silence" title="Silence"><span class="hw">Silence</span></a></th>
+<th class="mxh b-tools bstart" scope="col" abbr="Battle rez"><a href="#rez" title="Battle rez"><span class="hw">Battle</span><span class="hw">rez</span></a></th>
+<th class="mxh b-tools" scope="col" abbr="Raid DR (active)"><a href="#raid_dr" title="Raid DR (active)"><span class="hw">Raid DR</span><span class="hw q">active</span></a></th>
+<th class="mxh b-tools" scope="col" abbr="Raid DR (passive)"><a href="#raid_dr_passive" title="Raid DR (passive)"><span class="hw">Raid DR</span><span class="hw q">passive</span></a></th>
+<th class="mxh b-tools" scope="col" abbr="Purge"><a href="#purge" title="Purge"><span class="hw">Purge</span></a></th>
+<th class="mxh b-tools" scope="col" abbr="Spellsteal"><a href="#spellsteal" title="Spellsteal"><span class="hw">Spellsteal</span></a></th>
+<th class="mxh b-tools" scope="col" abbr="Soothe"><a href="#tranq" title="Soothe"><span class="hw">Soothe</span></a></th>
+<th class="mxh b-trash bstart" scope="col" abbr="Stun"><a href="#stun" title="Stun"><span class="hw">Stun</span></a></th>
+<th class="mxh b-trash" scope="col" abbr="Root"><a href="#root" title="Root"><span class="hw">Root</span></a></th>
 </tr></thead><tbody>
 <tr class="mxr" data-class="Barbarian" data-has="Interrupt Stun" style="--c:#e44d45"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Barbarian to roster"><img src="assets/class-icons/barbarian/_class-barbarian.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Barbarian</button></span></th>
-<td class="mxv b-stop bstart" title="Jawbreaker" data-ids="802792"><span class="cd">14s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Headbutt" data-ids="520523"><span class="cd">40s</span></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Jawbreaker" data-l="Interrupt" data-ids="802792"><span class="cd">14s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Headbutt" data-l="Stun" data-ids="520523"><span class="cd">40s</span></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Barbarian" hidden><td colspan="11"><div class="kit" style="--c:#e44d45">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="802792" style="--c:#e44d45">
   <span class="abname"><img class="aicon" src="assets/spell-icons/achievement_dungeon_bastion_of_twilight_halfus_wyrmbreaker.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/802792" rel="noopener">Jawbreaker</a>
     <span class="abchips"><span class="chip spec">all (tree)</span><span class="chip tal" title="costs a talent point">r0 c4</span></span></span>
@@ -194,24 +195,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/520523" rel="noopener">Headbutt</a> <i>STN 40s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/520523" rel="noopener">Headbutt</a> <i>Stun 40s</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (active), Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Bloodmage" data-has="Interrupt Silence Spellsteal Stun" style="--c:#ef5325"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Bloodmage to roster"><img src="assets/class-icons/bloodmage/_class-bloodmage.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Bloodmage</button></span></th>
-<td class="mxv b-stop bstart" title="Aneurysm" data-ids="806099"><span class="cd">24s</span><i class="t" title="talent point">t</i></td>
-<td class="mxv b-stop" title="Arterial Bind" data-ids="681077"><span class="cd">1.5m</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools unv" title="Siphon" data-ids="803327"><span class="cd">6s</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Shadow Missile, Pursuit" data-ids="536273,802869"><span class="cd">24s</span><i class="p" title="1 more">+1</i></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Aneurysm" data-l="Interrupt" data-ids="806099"><span class="cd">24s</span><i class="t" title="talent point">t</i></td>
+<td class="mxv b-stop" title="Arterial Bind" data-l="Silence" data-ids="681077"><span class="cd">1.5m</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools unv" title="Siphon" data-l="Spellsteal" data-ids="803327"><span class="cd">6s</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Shadow Missile, Pursuit" data-l="Stun" data-ids="536273,802869"><span class="cd">24s</span><i class="p" title="1 more">+1</i></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Bloodmage" hidden><td colspan="11"><div class="kit" style="--c:#ef5325">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="806099" style="--c:#ef5325">
   <span class="abname"><img class="aicon" src="assets/spell-icons/spell_argus_psychic_scarring.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/806099" rel="noopener">Aneurysm</a>
     <span class="abchips"><span class="chip spec">Sanguine</span><span class="chip tal" title="costs a talent point">r3 c3</span></span></span>
@@ -221,7 +222,7 @@
   <span class="abdesc">Counter the enemy&#x27;s spellcast, preventing any spell from that school of magic from being cast for 4 seconds. Successfully interrupting an en…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">SIL</span>Silence</p><ul class="ablist tight">
+<p class="kcat">Silence</p><ul class="ablist tight">
 <li class="ab" data-cat="Silence" data-sid="681077" style="--c:#ef5325">
   <span class="abname"><img class="aicon" src="assets/spell-icons/_enslavespell_blood.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/681077" rel="noopener">Arterial Bind</a>
     <span class="abchips"><span class="chip spec">Fleshweaver</span><span class="chip tal" title="costs a talent point">r5 c8</span></span></span>
@@ -233,7 +234,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">STL</span>Spellsteal</p><ul class="ablist tight">
+<p class="kcat">Spellsteal</p><ul class="ablist tight">
 <li class="ab" data-cat="Spellsteal" data-sid="803327" style="--c:#ef5325">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/803327" rel="noopener">Siphon</a>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span></span></span>
@@ -244,24 +245,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/536273" rel="noopener">Shadow Missile</a> <i>STN 24s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/802869" rel="noopener">Pursuit</a> <i>STN 1.5m</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/536273" rel="noopener">Shadow Missile</a> <i>Stun 24s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/802869" rel="noopener">Pursuit</a> <i>Stun 1.5m</i></p>
 <p class="kitgap"><b>Brings no</b> Battle rez, Raid DR (active), Raid DR (passive), Purge, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Chronomancer" data-has="Interrupt Raid DR (active) Purge Root" style="--c:#34d5e9"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Chronomancer to roster"><img src="assets/class-icons/chronomancer/_class-chronomancer.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Chronomancer</button></span></th>
-<td class="mxv b-stop bstart" title="Fray Magic" data-ids="510236"><span class="cd">30s</span></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Decelerate" data-ids="572632"><span class="cd">—</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools unv" title="Continuum Restoration" data-ids="801271"><span class="cd">1.5m</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash unv" title="Clasp of Infinity" data-ids="805847"><span class="cd">20s</span></td>
+<td class="mxv b-stop bstart" title="Fray Magic" data-l="Interrupt" data-ids="510236"><span class="cd">30s</span></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools" title="Decelerate" data-l="Raid DR" data-ids="572632"><span class="cd">—</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools unv" title="Continuum Restoration" data-l="Purge" data-ids="801271"><span class="cd">1.5m</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxv b-trash unv" title="Clasp of Infinity" data-l="Root" data-ids="805847"><span class="cd">20s</span></td>
 </tr>
 <tr class="kitrow" data-class="Chronomancer" hidden><td colspan="11"><div class="kit" style="--c:#34d5e9">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="510236" style="--c:#34d5e9">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_mage_incantersabsorbtion.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/510236" rel="noopener">Fray Magic</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -273,7 +274,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="572632" style="--c:#34d5e9">
   <span class="abname"><img class="aicon" src="assets/spell-icons/spell_mage_altertime_active.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/572632" rel="noopener">Decelerate</a><span class="mag">5%</span>
     <span class="abchips"><span class="chip spec">artificer</span><span class="chip scope ally" title="who it covers">ally</span><span class="chip kind">magic only</span></span></span>
@@ -283,7 +284,7 @@
   <span class="abdesc">Decelerates magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. Lasts 10…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="801271" style="--c:#34d5e9">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/801271" rel="noopener">Continuum Restoration</a>
     <span class="abchips"><span class="chip spec">time</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span></span></span>
@@ -294,24 +295,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/805847" rel="noopener">Clasp of Infinity</a> <i>RT 20s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/805847" rel="noopener">Clasp of Infinity</a> <i>Root 20s</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (passive), Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Cultist" data-has="Interrupt Raid DR (active) Raid DR (passive) Purge Stun" style="--c:#d874ae"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Cultist to roster"><img src="assets/class-icons/cultist/_class-cultist.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Cultist</button></span></th>
-<td class="mxv b-stop bstart" title="Crushing Dissonance" data-ids="804056"><span class="cd">30s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Whispers of Yogg-Saron, Protection From Light" data-ids="572637,804065"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-tools" title="Voidwarding, Protection From Light" data-ids="560002,704434"><span class="cd">—</span><i class="t" title="talent point">t</i><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-tools" title="Netherstrike" data-ids="806222"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Facehug" data-ids="800013"><span class="cd">1.5m</span></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Crushing Dissonance" data-l="Interrupt" data-ids="804056"><span class="cd">30s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools" title="Whispers of Yogg-Saron, Protection From Light" data-l="Raid DR" data-ids="572637,804065"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-tools" title="Voidwarding, Protection From Light" data-l="Passive DR" data-ids="560002,704434"><span class="cd">—</span><i class="t" title="talent point">t</i><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-tools" title="Netherstrike" data-l="Purge" data-ids="806222"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Facehug" data-l="Stun" data-ids="800013"><span class="cd">1.5m</span></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Cultist" hidden><td colspan="11"><div class="kit" style="--c:#d874ae">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="804056" style="--c:#d874ae">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_kaztik_dominatemind.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/804056" rel="noopener">Crushing Dissonance</a>
     <span class="abchips"><span class="chip spec">Dreadnought</span><span class="chip tal" title="costs a talent point">r5 c7</span></span></span>
@@ -323,7 +324,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="572637" style="--c:#d874ae">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/572637" rel="noopener">Whispers of Yogg-Saron</a><span class="mag">5%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span><span class="chip scope ally" title="who it covers">ally</span><span class="chip kind">magic only</span></span></span>
@@ -341,7 +342,7 @@
   <span class="abdesc">Reduces all Holy Damage and Fire Damage taken by an ally by 40% for 10 sec. While active, the ally is Healed for 24 to 25 every 2 sec.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="560002" style="--c:#d874ae">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_glyph_primewarlock.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/560002" rel="noopener">Voidwarding</a><span class="mag">3%</span>
     <span class="abchips"><span class="chip spec">Dreadnought</span><span class="chip tal" title="costs a talent point">r6 c4</span><span class="chip scope raid" title="who it covers">raid</span></span></span>
@@ -359,7 +360,7 @@
   <span class="abdesc">Reduces all damage taken by party and raid members by -3%. In addition, your Holy Damage taken is reduced by -10%.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="806222" style="--c:#d874ae">
   <span class="abname"><img class="aicon" src="assets/spell-icons/nhi_arcanearrow_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/806222" rel="noopener">Netherstrike</a>
     <span class="abchips"><span class="chip spec">Godblade</span><span class="chip tal" title="costs a talent point">r3 c4</span></span></span>
@@ -370,24 +371,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/800013" rel="noopener">Facehug</a> <i>STN 1.5m</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/800013" rel="noopener">Facehug</a> <i>Stun 1.5m</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Felsworn" data-has="Interrupt Raid DR (active) Spellsteal" style="--c:#daec2d"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Felsworn to roster"><img src="assets/class-icons/felsworn/_class-felsworn.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Felsworn</button></span></th>
-<td class="mxv b-stop bstart" title="Felbreak" data-ids="800203"><span class="cd">18s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Infernal Whipcrack" data-ids="805243"><span class="cd">1.5m</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Consume Magic" data-ids="800353"><span class="cd">—</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Felbreak" data-l="Interrupt" data-ids="800203"><span class="cd">18s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools" title="Infernal Whipcrack" data-l="Raid DR" data-ids="805243"><span class="cd">1.5m</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Consume Magic" data-l="Spellsteal" data-ids="800353"><span class="cd">—</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Felsworn" hidden><td colspan="11"><div class="kit" style="--c:#daec2d">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="800203" style="--c:#daec2d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_deathknight_deathsiphon.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/800203" rel="noopener">Felbreak</a>
     <span class="abchips"><span class="chip spec">Infernal</span><span class="chip tal" title="costs a talent point">r5 c1</span></span></span>
@@ -399,7 +400,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="805243" style="--c:#daec2d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_warlock_whiplash.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/805243" rel="noopener">Infernal Whipcrack</a><span class="mag">15%</span>
     <span class="abchips"><span class="chip spec">Tyrant</span><span class="chip tal" title="costs a talent point">r8 c6</span><span class="chip scope party" title="who it covers">party</span></span></span>
@@ -409,7 +410,7 @@
   <span class="abdesc">Enrage up to 8 allies within 20 yds, reducing their damage taken by -15% and increasing their haste by 10% for 10 seconds.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">STL</span>Spellsteal</p><ul class="ablist tight">
+<p class="kcat">Spellsteal</p><ul class="ablist tight">
 <li class="ab" data-cat="Spellsteal" data-sid="800353" style="--c:#daec2d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_demonhunter_feldevastation.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/800353" rel="noopener">Consume Magic</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -423,20 +424,20 @@
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (passive), Purge, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Guardian" data-has="Interrupt Silence Raid DR (active) Stun Root" style="--c:#48c2e3"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Guardian to roster"><img src="assets/class-icons/guardian/_class-guardian.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Guardian</button></span></th>
-<td class="mxv b-stop bstart" title="Shield of Denial" data-ids="704159"><span class="cd">30s</span></td>
-<td class="mxv b-stop" title="Hammer of the Law" data-ids="704418"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Bastion" data-ids="802283"><span class="cd">5m</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Battle Rush" data-ids="802197"><span class="cd">30s</span></td>
-<td class="mxv b-trash" title="Net Throw" data-ids="802304"><span class="cd">15s</span><i class="t" title="talent point">t</i></td>
+<td class="mxv b-stop bstart" title="Shield of Denial" data-l="Interrupt" data-ids="704159"><span class="cd">30s</span></td>
+<td class="mxv b-stop" title="Hammer of the Law" data-l="Silence" data-ids="704418"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools" title="Bastion" data-l="Raid DR" data-ids="802283"><span class="cd">5m</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Battle Rush" data-l="Stun" data-ids="802197"><span class="cd">30s</span></td>
+<td class="mxv b-trash" title="Net Throw" data-l="Root" data-ids="802304"><span class="cd">15s</span><i class="t" title="talent point">t</i></td>
 </tr>
 <tr class="kitrow" data-class="Guardian" hidden><td colspan="11"><div class="kit" style="--c:#48c2e3">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="704159" style="--c:#48c2e3">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_shield_64.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/704159" rel="noopener">Shield of Denial</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -446,7 +447,7 @@
   <span class="abdesc">Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing 155 Physical damage and interrupting their spellcast, preventing any …</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">SIL</span>Silence</p><ul class="ablist tight">
+<p class="kcat">Silence</p><ul class="ablist tight">
 <li class="ab" data-cat="Silence" data-sid="704418" style="--c:#48c2e3">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_mace_1h_draenorguard_b_02_a.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/704418" rel="noopener">Hammer of the Law</a>
     <span class="abchips"><span class="chip spec">Vanguard</span><span class="chip tal" title="costs a talent point">r5 c6</span></span></span>
@@ -458,7 +459,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="802283" style="--c:#48c2e3">
   <span class="abname"><img class="aicon" src="assets/spell-icons/shield_draenorcrafted_d_02_a_alliance.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/802283" rel="noopener">Bastion</a><span class="mag">40%</span>
     <span class="abchips"><span class="chip spec">Vanguard</span><span class="chip tal" title="costs a talent point">r9 c4</span><span class="chip scope party" title="who it covers">party</span></span></span>
@@ -469,24 +470,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/802197" rel="noopener">Battle Rush</a> <i>STN 30s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/802304" rel="noopener">Net Throw</a> <i>RT 15s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/802197" rel="noopener">Battle Rush</a> <i>Stun 30s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/802304" rel="noopener">Net Throw</a> <i>Root 15s</i></p>
 <p class="kitgap"><b>Brings no</b> Battle rez, Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Knight of Xoroth" data-has="Interrupt Silence Stun Root" style="--c:#ef5525"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Knight of Xoroth to roster"><img src="assets/class-icons/knight-of-xoroth/_class-knight-of-xoroth.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Knight of Xoroth</button></span></th>
-<td class="mxv b-stop bstart" title="Hellgaze" data-ids="560471"><span class="cd">15s</span></td>
-<td class="mxv b-stop" title="Chainwhip" data-ids="800081"><span class="cd">20s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Chains of Malice" data-ids="803185"><span class="cd">1.5m</span><i class="t" title="talent point">t</i></td>
-<td class="mxv b-trash" title="Hellhaul" data-ids="503142"><span class="cd">3m</span></td>
+<td class="mxv b-stop bstart" title="Hellgaze" data-l="Interrupt" data-ids="560471"><span class="cd">15s</span></td>
+<td class="mxv b-stop" title="Chainwhip" data-l="Silence" data-ids="800081"><span class="cd">20s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Chains of Malice" data-l="Stun" data-ids="803185"><span class="cd">1.5m</span><i class="t" title="talent point">t</i></td>
+<td class="mxv b-trash" title="Hellhaul" data-l="Root" data-ids="503142"><span class="cd">3m</span></td>
 </tr>
 <tr class="kitrow" data-class="Knight of Xoroth" hidden><td colspan="11"><div class="kit" style="--c:#ef5525">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="560471" style="--c:#ef5525">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/560471" rel="noopener">Hellgaze</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -496,7 +497,7 @@
   <span class="abdesc">Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">SIL</span>Silence</p><ul class="ablist tight">
+<p class="kcat">Silence</p><ul class="ablist tight">
 <li class="ab" data-cat="Silence" data-sid="800081" style="--c:#ef5525">
   <span class="abname"><img class="aicon" src="assets/spell-icons/_enslavespell_fire.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/800081" rel="noopener">Chainwhip</a>
     <span class="abchips"><span class="chip spec">all (tree)</span><span class="chip tal" title="costs a talent point">r0 c2</span></span></span>
@@ -507,24 +508,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/803185" rel="noopener">Chains of Malice</a> <i>STN 1.5m</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/503142" rel="noopener">Hellhaul</a> <i>RT 3m</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/803185" rel="noopener">Chains of Malice</a> <i>Stun 1.5m</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/503142" rel="noopener">Hellhaul</a> <i>Root 3m</i></p>
 <p class="kitgap"><b>Brings no</b> Battle rez, Raid DR (active), Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Necromancer" data-has="Interrupt Battle rez Root" style="--c:#e1d14f"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Necromancer to roster"><img src="assets/class-icons/necromancer/_class-necromancer.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Necromancer</button></span></th>
-<td class="mxv b-stop bstart" title="Heartchill" data-ids="801739"><span class="cd">30s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools bstart" title="Call of The Scourge" data-ids="801792"><span class="cd">10m</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash" title="Cryo Freeze, Black Ice" data-ids="680363,801746"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-stop bstart" title="Heartchill" data-l="Interrupt" data-ids="801739"><span class="cd">30s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxv b-tools bstart" title="Call of The Scourge" data-l="Battle rez" data-ids="801792"><span class="cd">10m</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxv b-trash" title="Cryo Freeze, Black Ice" data-l="Root" data-ids="680363,801746"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
 </tr>
 <tr class="kitrow" data-class="Necromancer" hidden><td colspan="11"><div class="kit" style="--c:#e1d14f">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="801739" style="--c:#e1d14f">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_deathknight_heartstopaura.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/801739" rel="noopener">Heartchill</a>
     <span class="abchips"><span class="chip spec">Rime</span><span class="chip tal" title="costs a talent point">r4 c0</span></span></span>
@@ -536,7 +537,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">REZ</span>Battle rez</p><ul class="ablist tight">
+<p class="kcat">Battle rez</p><ul class="ablist tight">
 <li class="ab" data-cat="Battle rez" data-sid="801792" style="--c:#e1d14f">
   <span class="abname"><img class="aicon" src="assets/spell-icons/achievement_zone_icecrown_01.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/801792" rel="noopener">Call of The Scourge</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -547,24 +548,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/680363" rel="noopener">Cryo Freeze</a> <i>RT —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/801746" rel="noopener">Black Ice</a> <i>RT 30s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/680363" rel="noopener">Cryo Freeze</a> <i>Root —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/801746" rel="noopener">Black Ice</a> <i>Root 30s</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Raid DR (active), Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Primalist" data-has="Interrupt Raid DR (active) Raid DR (passive) Purge Stun Root" style="--c:#daab69"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Primalist to roster"><img src="assets/class-icons/primalist/_class-primalist.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Primalist</button></span></th>
-<td class="mxv b-stop bstart" title="Cave In" data-ids="500615"><span class="cd">24s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools unv" title="Essence of Dispersion" data-ids="572818"><span class="cd">—</span></td>
-<td class="mxv b-tools" title="Lesser Boon of the Turtle, Ring of Life" data-ids="524750,804705"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-tools unv" title="Neutralizing Touch" data-ids="572307"><span class="cd">10s</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Mountain Hammer, Monolith Smash" data-ids="681130,991349"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-trash" title="Swoop" data-ids="806546"><span class="cd">30s</span></td>
+<td class="mxv b-stop bstart" title="Cave In" data-l="Interrupt" data-ids="500615"><span class="cd">24s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools unv" title="Essence of Dispersion" data-l="Raid DR" data-ids="572818"><span class="cd">—</span></td>
+<td class="mxv b-tools" title="Lesser Boon of the Turtle, Ring of Life" data-l="Passive DR" data-ids="524750,804705"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-tools unv" title="Neutralizing Touch" data-l="Purge" data-ids="572307"><span class="cd">10s</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Mountain Hammer, Monolith Smash" data-l="Stun" data-ids="681130,991349"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-trash" title="Swoop" data-l="Root" data-ids="806546"><span class="cd">30s</span></td>
 </tr>
 <tr class="kitrow" data-class="Primalist" hidden><td colspan="11"><div class="kit" style="--c:#daab69">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="500615" style="--c:#daab69">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_deepwinddunk_dunk.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/500615" rel="noopener">Cave In</a>
     <span class="abchips"><span class="chip spec">Geomancy</span><span class="chip tal" title="costs a talent point">r7 c4</span></span></span>
@@ -576,7 +577,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="572818" style="--c:#daab69">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/572818" rel="noopener">Essence of Dispersion</a><span class="mag">5%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span><span class="chip scope ally" title="who it covers">ally</span><span class="chip kind">magic only</span></span></span>
@@ -586,7 +587,7 @@
   <span class="abdesc">Disperses magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="524750" style="--c:#daab69">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_babyturtle2_green.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/524750" rel="noopener">Lesser Boon of the Turtle</a><span class="mag">2%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip scope ally" title="who it covers">ally</span></span></span>
@@ -604,7 +605,7 @@
   <span class="abdesc">Allies within 40 yds receive 6% increased healing. Does not stack with similar effects. In addition, your Magic Damage taken is reduced by -…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="572307" style="--c:#daab69">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/572307" rel="noopener">Neutralizing Touch</a>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span></span></span>
@@ -615,24 +616,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/681130" rel="noopener">Mountain Hammer</a> <i>STN —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/991349" rel="noopener">Monolith Smash</a> <i>STN —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/806546" rel="noopener">Swoop</a> <i>RT 30s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/681130" rel="noopener">Mountain Hammer</a> <i>Stun —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/991349" rel="noopener">Monolith Smash</a> <i>Stun —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/806546" rel="noopener">Swoop</a> <i>Root 30s</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Pyromancer" data-has="Interrupt Battle rez Raid DR (active) Root" style="--c:#ef5125"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Pyromancer to roster"><img src="assets/class-icons/pyromancer/_class-pyromancer.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Pyromancer</button></span></th>
-<td class="mxv b-stop bstart" title="Spellburn" data-ids="800808"><span class="cd">25s</span></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools bstart" title="Reborn from Ash" data-ids="804231"><span class="cd">10m</span></td>
-<td class="mxv b-tools" title="Lucifron&#x27;s Lagniappe" data-ids="805497"><span class="cd">30s</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash" title="Cindergrip" data-ids="805476"><span class="cd">—</span></td>
+<td class="mxv b-stop bstart" title="Spellburn" data-l="Interrupt" data-ids="800808"><span class="cd">25s</span></td>
+<td class="mxx b-stop"></td>
+<td class="mxv b-tools bstart" title="Reborn from Ash" data-l="Battle rez" data-ids="804231"><span class="cd">10m</span></td>
+<td class="mxv b-tools" title="Lucifron&#x27;s Lagniappe" data-l="Raid DR" data-ids="805497"><span class="cd">30s</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxv b-trash" title="Cindergrip" data-l="Root" data-ids="805476"><span class="cd">—</span></td>
 </tr>
 <tr class="kitrow" data-class="Pyromancer" hidden><td colspan="11"><div class="kit" style="--c:#ef5125">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="800808" style="--c:#ef5125">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_mage_burnout.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/800808" rel="noopener">Spellburn</a>
     <span class="abchips"><span class="chip spec">incineration</span></span></span>
@@ -644,7 +645,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">REZ</span>Battle rez</p><ul class="ablist tight">
+<p class="kcat">Battle rez</p><ul class="ablist tight">
 <li class="ab" data-cat="Battle rez" data-sid="804231" style="--c:#ef5125">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_mount_pandarenphoenix.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/804231" rel="noopener">Reborn from Ash</a>
     <span class="abchips"><span class="chip spec">flameweaving</span></span></span>
@@ -654,7 +655,7 @@
   <span class="abdesc">Returns a dead ally to life with 400 health and 635 mana, can also be used on self while dead. Can be used in combat.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="805497" style="--c:#ef5125">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/805497" rel="noopener">Lucifron&#x27;s Lagniappe</a><span class="mag">10%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip scope ally" title="who it covers">ally</span></span></span>
@@ -665,24 +666,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/805476" rel="noopener">Cindergrip</a> <i>RT —</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/805476" rel="noopener">Cindergrip</a> <i>Root —</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Ranger" data-has="Interrupt Stun Root" style="--c:#e1614e"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Ranger to roster"><img src="assets/class-icons/ranger/_class-ranger.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Ranger</button></span></th>
-<td class="mxv b-stop bstart" title="Throatpunch" data-ids="500617"><span class="cd">12s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Bushwhack, Eternal Knockdown" data-ids="557333,520758"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-trash unv" title="Whipvine Arrow" data-ids="806342"><span class="cd">1m</span><i class="t" title="talent point">t</i></td>
+<td class="mxv b-stop bstart" title="Throatpunch" data-l="Interrupt" data-ids="500617"><span class="cd">12s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Bushwhack, Eternal Knockdown" data-l="Stun" data-ids="557333,520758"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-trash unv" title="Whipvine Arrow" data-l="Root" data-ids="806342"><span class="cd">1m</span><i class="t" title="talent point">t</i></td>
 </tr>
 <tr class="kitrow" data-class="Ranger" hidden><td colspan="11"><div class="kit" style="--c:#e1614e">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="500617" style="--c:#e1614e">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/500617" rel="noopener">Throatpunch</a>
     <span class="abchips"><span class="chip spec">Brigand</span><span class="chip tal" title="costs a talent point">r5 c1</span></span></span>
@@ -693,24 +694,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/557333" rel="noopener">Bushwhack</a> <i>STN —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/520758" rel="noopener">Eternal Knockdown</a> <i>STN 25s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/806342" rel="noopener">Whipvine Arrow</a> <i>RT 1m</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/557333" rel="noopener">Bushwhack</a> <i>Stun —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/520758" rel="noopener">Eternal Knockdown</a> <i>Stun 25s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/806342" rel="noopener">Whipvine Arrow</a> <i>Root 1m</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (active), Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Reaper" data-has="Interrupt Raid DR (passive) Purge" style="--c:#2985ed"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Reaper to roster"><img src="assets/class-icons/reaper/_class-reaper.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Reaper</button></span></th>
-<td class="mxv b-stop bstart" title="Siphon Essence, Ghastly Screech" data-ids="806125,806146"><span class="cd">20s</span><i class="t" title="talent point">t</i><i class="p" title="1 more">+1</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Ethereal Guard" data-ids="300969"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
-<td class="mxv b-tools" title="Reap Magic, Soul Shear" data-ids="704258,520862"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Siphon Essence, Ghastly Screech" data-l="Interrupt" data-ids="806125,806146"><span class="cd">20s</span><i class="t" title="talent point">t</i><i class="p" title="1 more">+1</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Ethereal Guard" data-l="Passive DR" data-ids="300969"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
+<td class="mxv b-tools" title="Reap Magic, Soul Shear" data-l="Purge" data-ids="704258,520862"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Reaper" hidden><td colspan="11"><div class="kit" style="--c:#2985ed">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="806125" style="--c:#2985ed">
   <span class="abname"><img class="aicon" src="assets/spell-icons/_virus_red.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/806125" rel="noopener">Siphon Essence</a>
     <span class="abchips"><span class="chip spec">Harvest</span><span class="chip tal" title="costs a talent point">r6 c6</span></span></span>
@@ -730,7 +731,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="300969" style="--c:#2985ed">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_racial_etherealconnection.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/300969" rel="noopener">Ethereal Guard</a><span class="mag">3%</span>
     <span class="abchips"><span class="chip spec">Domination</span><span class="chip tal" title="costs a talent point">r5 c3</span><span class="chip scope raid" title="who it covers">raid</span></span></span>
@@ -740,7 +741,7 @@
   <span class="abdesc">Reduces the damage taken by party and raid members by -3%. Does not stack with similar effects. In addition, increases your melee haste by 1…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="704258" style="--c:#2985ed">
   <span class="abname"><img class="aicon" src="assets/spell-icons/_demonhand_priest.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/704258" rel="noopener">Reap Magic</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -762,20 +763,20 @@
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (active), Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Runemaster" data-has="Interrupt Purge Spellsteal Stun Root" style="--c:#47a2e3"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Runemaster to roster"><img src="assets/class-icons/runemaster/_class-runemaster.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Runemaster</button></span></th>
-<td class="mxv b-stop bstart" title="Ley Lock" data-ids="800995"><span class="cd">6s</span></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Resonance Rune" data-ids="803679"><span class="cd">1m</span></td>
-<td class="mxv b-tools unv" title="Leyfeed" data-ids="520269"><span class="cd">—</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Everfrost Scroll, Ice Rune" data-ids="801090,524930"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-trash unv" title="Cryobrand, Glacial Rune" data-ids="807822,805730"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-stop bstart" title="Ley Lock" data-l="Interrupt" data-ids="800995"><span class="cd">6s</span></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Resonance Rune" data-l="Purge" data-ids="803679"><span class="cd">1m</span></td>
+<td class="mxv b-tools unv" title="Leyfeed" data-l="Spellsteal" data-ids="520269"><span class="cd">—</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Everfrost Scroll, Ice Rune" data-l="Stun" data-ids="801090,524930"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-trash unv" title="Cryobrand, Glacial Rune" data-l="Root" data-ids="807822,805730"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
 </tr>
 <tr class="kitrow" data-class="Runemaster" hidden><td colspan="11"><div class="kit" style="--c:#47a2e3">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="800995" style="--c:#47a2e3">
   <span class="abname"><img class="aicon" src="assets/spell-icons/nhi_magicblock_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/800995" rel="noopener">Ley Lock</a>
     <span class="abchips"><span class="chip spec">glyphic,engravement,riftblade</span></span></span>
@@ -787,7 +788,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="803679" style="--c:#47a2e3">
   <span class="abname"><img class="aicon" src="assets/spell-icons/spell_arcane_blast_nightborne.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/803679" rel="noopener">Resonance Rune</a>
     <span class="abchips"><span class="chip spec">engravement</span></span></span>
@@ -797,7 +798,7 @@
   <span class="abdesc">Place an arcane rune on the ground that dispels 3 harmful magic effects from allies in the radius, and purges 3 beneficial magic effects fro…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">STL</span>Spellsteal</p><ul class="ablist tight">
+<p class="kcat">Spellsteal</p><ul class="ablist tight">
 <li class="ab" data-cat="Spellsteal" data-sid="520269" style="--c:#47a2e3">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/520269" rel="noopener">Leyfeed</a>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span></span></span>
@@ -808,24 +809,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/801090" rel="noopener">Everfrost Scroll</a> <i>STN —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/524930" rel="noopener">Ice Rune</a> <i>STN 1m</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/807822" rel="noopener">Cryobrand</a> <i>RT —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/805730" rel="noopener">Glacial Rune</a> <i>RT 20s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/801090" rel="noopener">Everfrost Scroll</a> <i>Stun —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/524930" rel="noopener">Ice Rune</a> <i>Stun 1m</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/807822" rel="noopener">Cryobrand</a> <i>Root —</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/805730" rel="noopener">Glacial Rune</a> <i>Root 20s</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (active), Raid DR (passive), Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Starcaller" data-has="Interrupt Battle rez Raid DR (passive)" style="--c:#3fd0e6"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Starcaller to roster"><img src="assets/class-icons/starcaller/_class-starcaller.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Starcaller</button></span></th>
-<td class="mxv b-stop bstart" title="Halt" data-ids="805432"><span class="cd">15s</span></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools bstart" title="Tidal Rebirth" data-ids="801793"><span class="cd">10m</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Shrouded Stars" data-ids="704785"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Halt" data-l="Interrupt" data-ids="805432"><span class="cd">15s</span></td>
+<td class="mxx b-stop"></td>
+<td class="mxv b-tools bstart" title="Tidal Rebirth" data-l="Battle rez" data-ids="801793"><span class="cd">10m</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Shrouded Stars" data-l="Passive DR" data-ids="704785"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Starcaller" hidden><td colspan="11"><div class="kit" style="--c:#3fd0e6">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="805432" style="--c:#3fd0e6">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/805432" rel="noopener">Halt</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -837,7 +838,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">REZ</span>Battle rez</p><ul class="ablist tight">
+<p class="kcat">Battle rez</p><ul class="ablist tight">
 <li class="ab" data-cat="Battle rez" data-sid="801793" style="--c:#3fd0e6">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_enchanting_crystal.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/801793" rel="noopener">Tidal Rebirth</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -847,7 +848,7 @@
   <span class="abdesc">Instantly brings a dead ally back to life with 400 health and 635 mana. This spell is usable in combat.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="704785" style="--c:#3fd0e6">
   <span class="abname"><img class="aicon" src="assets/spell-icons/spell_holy_elunesgrace.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/704785" rel="noopener">Shrouded Stars</a><span class="mag">3%</span>
     <span class="abchips"><span class="chip spec">Moon Guard</span><span class="chip tal" title="costs a talent point">r5 c4</span><span class="chip scope raid" title="who it covers">raid</span></span></span>
@@ -861,20 +862,20 @@
 <p class="kitgap"><b>Brings no</b> Silence, Raid DR (active), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Stormbringer" data-has="Interrupt Raid DR (passive) Soothe Root" style="--c:#2561ef"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Stormbringer to roster"><img src="assets/class-icons/stormbringer/_class-stormbringer.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Stormbringer</button></span></th>
-<td class="mxv b-stop bstart" title="Mystic Thunder, Gust of Wind" data-ids="504846,500932"><span class="cd">30s</span><i class="p" title="1 more">+1</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools unv" title="Cyclonean Protection" data-ids="804067"><span class="cd">—</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Calm the Storm" data-ids="572303"><span class="cd">—</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash unv" title="Exhale" data-ids="801846"><span class="cd">40s</span></td>
+<td class="mxv b-stop bstart" title="Mystic Thunder, Gust of Wind" data-l="Interrupt" data-ids="504846,500932"><span class="cd">30s</span><i class="p" title="1 more">+1</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools unv" title="Cyclonean Protection" data-l="Passive DR" data-ids="804067"><span class="cd">—</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Calm the Storm" data-l="Soothe" data-ids="572303"><span class="cd">—</span></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxv b-trash unv" title="Exhale" data-l="Root" data-ids="801846"><span class="cd">40s</span></td>
 </tr>
 <tr class="kitrow" data-class="Stormbringer" hidden><td colspan="11"><div class="kit" style="--c:#2561ef">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="504846" style="--c:#2561ef">
   <span class="abname"><img class="aicon" src="assets/spell-icons/nhi_manaentagle_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/504846" rel="noopener">Mystic Thunder</a>
     <span class="abchips"><span class="chip spec">Maelstrom</span><span class="chip tal" title="costs a talent point">r4 c7</span></span></span>
@@ -894,7 +895,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="804067" style="--c:#2561ef">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/804067" rel="noopener">Cyclonean Protection</a><span class="mag">15%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span><span class="chip scope party" title="who it covers">party</span><span class="chip kind">AoE only</span></span></span>
@@ -904,7 +905,7 @@
   <span class="abdesc">Reduces the damage taken from area of effect attacks of party members within 20 yds by 15%.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">SOO</span>Soothe</p><ul class="ablist tight">
+<p class="kcat">Soothe</p><ul class="ablist tight">
 <li class="ab" data-cat="Soothe" data-sid="572303" style="--c:#2561ef">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_wand_08.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/572303" rel="noopener">Calm the Storm</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -915,24 +916,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/801846" rel="noopener">Exhale</a> <i>RT 40s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/801846" rel="noopener">Exhale</a> <i>Root 40s</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (active), Purge, Spellsteal.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Sun Cleric" data-has="Interrupt Raid DR (active) Purge Stun" style="--c:#e8c039"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Sun Cleric to roster"><img src="assets/class-icons/sun-cleric/_class-sun-cleric.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Sun Cleric</button></span></th>
-<td class="mxv b-stop bstart" title="Solar Burn" data-ids="500148"><span class="cd">25s</span></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Scroll of Hope" data-ids="680646"><span class="cd">5m</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Gavel of Wrath" data-ids="800617"><span class="cd">—</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Glare" data-ids="805583"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Solar Burn" data-l="Interrupt" data-ids="500148"><span class="cd">25s</span></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools" title="Scroll of Hope" data-l="Raid DR" data-ids="680646"><span class="cd">5m</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Gavel of Wrath" data-l="Purge" data-ids="800617"><span class="cd">—</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Glare" data-l="Stun" data-ids="805583"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Sun Cleric" hidden><td colspan="11"><div class="kit" style="--c:#e8c039">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="500148" style="--c:#e8c039">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/500148" rel="noopener">Solar Burn</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -944,7 +945,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="680646" style="--c:#e8c039">
   <span class="abname"><img class="aicon" src="assets/spell-icons/custom_t_nhance_rpg_icons_holyscroll_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/680646" rel="noopener">Scroll of Hope</a><span class="mag">30%</span>
     <span class="abchips"><span class="chip spec">Seraphim</span><span class="chip tal" title="costs a talent point">r9 c4</span><span class="chip scope raid" title="who it covers">raid</span><span class="chip kind">magic only</span></span></span>
@@ -954,7 +955,7 @@
   <span class="abdesc">Read from a scroll of hope, reducing Magic Damage taken by party and raid members within 15 yds by -30% for 10 seconds. If any ally falls be…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="800617" style="--c:#e8c039">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_paladin_enlightenedjudgements.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/800617" rel="noopener">Gavel of Wrath</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -965,24 +966,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/805583" rel="noopener">Glare</a> <i>STN —</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/805583" rel="noopener">Glare</a> <i>Stun —</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (passive), Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Templar" data-has="Silence Battle rez Raid DR (active) Raid DR (passive) Purge" style="--c:#ef253d"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Templar to roster"><img src="assets/class-icons/templar/_class-templar.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Templar</button></span></th>
-<td class="mxx b-stop bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-stop" title="Interdict, Atone for your Sins!" data-ids="560116,561309"><span class="cd">2m</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-tools bstart" title="Spiritual Ascension" data-ids="500688"><span class="cd">5m</span></td>
-<td class="mxv b-tools" title="Grace of Aman&#x27;Thul" data-ids="801477"><span class="cd">20s</span></td>
-<td class="mxv b-tools" title="Tithe of Alacrity" data-ids="804818"><span class="cd">—</span></td>
-<td class="mxv b-tools unv" title="Righteous Reprimand" data-ids="572308"><span class="cd">10s</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxx b-stop bstart"></td>
+<td class="mxv b-stop" title="Interdict, Atone for your Sins!" data-l="Silence" data-ids="560116,561309"><span class="cd">2m</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-tools bstart" title="Spiritual Ascension" data-l="Battle rez" data-ids="500688"><span class="cd">5m</span></td>
+<td class="mxv b-tools" title="Grace of Aman&#x27;Thul" data-l="Raid DR" data-ids="801477"><span class="cd">20s</span></td>
+<td class="mxv b-tools" title="Tithe of Alacrity" data-l="Passive DR" data-ids="804818"><span class="cd">—</span></td>
+<td class="mxv b-tools unv" title="Righteous Reprimand" data-l="Purge" data-ids="572308"><span class="cd">10s</span></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Templar" hidden><td colspan="11"><div class="kit" style="--c:#ef253d">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">SIL</span>Silence</p><ul class="ablist tight">
+<p class="kcat">Silence</p><ul class="ablist tight">
 <li class="ab" data-cat="Silence" data-sid="560116" style="--c:#ef253d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/spell_priest_vowofunity.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/560116" rel="noopener">Interdict</a>
     <span class="abchips"><span class="chip spec">all (tree)</span><span class="chip tal" title="costs a talent point">r4 c8</span></span></span>
@@ -1002,7 +1003,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">REZ</span>Battle rez</p><ul class="ablist tight">
+<p class="kcat">Battle rez</p><ul class="ablist tight">
 <li class="ab" data-cat="Battle rez" data-sid="500688" style="--c:#ef253d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_paladin_selflesshealer.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/500688" rel="noopener">Spiritual Ascension</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -1012,7 +1013,7 @@
   <span class="abdesc">Call an ally&#x27;s spirit back to their body, bringing them back to life. Usable while in combat.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="801477" style="--c:#ef253d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/_d3waveoflight.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/801477" rel="noopener">Grace of Aman&#x27;Thul</a>
     <span class="abchips"><span class="chip spec">all</span><span class="chip scope party" title="who it covers">party</span></span></span>
@@ -1022,7 +1023,7 @@
   <span class="abdesc">Unleash a defensive Oath Breaker, causing damage taken from melee attacks to heal yourself and allies within 10 yds for 136. Lasts 0 or unti…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="804818" style="--c:#ef253d">
   <span class="abname"><img class="aicon" src="assets/spell-icons/icon_upgradestone_critter_legendary.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/804818" rel="noopener">Tithe of Alacrity</a><span class="mag">15%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip scope raid" title="who it covers">raid</span><span class="chip kind">AoE only</span></span></span>
@@ -1032,7 +1033,7 @@
   <span class="abdesc">Emanate an aura for 1 hour, empowering party and raid members with 15% reduced damage taken from area of effect attacks.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">PRG</span>Purge</p><ul class="ablist tight">
+<p class="kcat">Purge</p><ul class="ablist tight">
 <li class="ab" data-cat="Purge" data-sid="572308" style="--c:#ef253d">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/572308" rel="noopener">Righteous Reprimand</a>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span></span></span>
@@ -1046,20 +1047,20 @@
 <p class="kitgap"><b>Brings no</b> Interrupt, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Tinker" data-has="Interrupt Silence Raid DR (active) Stun Root" style="--c:#e5a440"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Tinker to roster"><img src="assets/class-icons/tinker/_class-tinker.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Tinker</button></span></th>
-<td class="mxv b-stop bstart" title="Distracto Shot, Meltdown" data-ids="560470,581313"><span class="cd">25s</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-stop" title="Anti-Magic Grenades" data-ids="804861"><span class="cd">2m</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Arcane Bionics, Kinetic Shield" data-ids="541493,806224"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash bstart" title="Vanguard X-173: Onslaught, Drill Smash" data-ids="801828,806173"><span class="cd">20s</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-trash unv" title="Hydraulic Charge" data-ids="800582"><span class="cd">15s</span></td>
+<td class="mxv b-stop bstart" title="Distracto Shot, Meltdown" data-l="Interrupt" data-ids="560470,581313"><span class="cd">25s</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-stop" title="Anti-Magic Grenades" data-l="Silence" data-ids="804861"><span class="cd">2m</span></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxv b-tools" title="Arcane Bionics, Kinetic Shield" data-l="Raid DR" data-ids="541493,806224"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-trash bstart" title="Vanguard X-173: Onslaught, Drill Smash" data-l="Stun" data-ids="801828,806173"><span class="cd">20s</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-trash unv" title="Hydraulic Charge" data-l="Root" data-ids="800582"><span class="cd">15s</span></td>
 </tr>
 <tr class="kitrow" data-class="Tinker" hidden><td colspan="11"><div class="kit" style="--c:#e5a440">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="560470" style="--c:#e5a440">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/560470" rel="noopener">Distracto Shot</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -1077,7 +1078,7 @@
   <span class="abdesc">Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">SIL</span>Silence</p><ul class="ablist tight">
+<p class="kcat">Silence</p><ul class="ablist tight">
 <li class="ab" data-cat="Silence" data-sid="804861" style="--c:#e5a440">
   <span class="abname"><img class="aicon" src="assets/spell-icons/spell_argus_shockgrenade.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/804861" rel="noopener">Anti-Magic Grenades</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -1089,7 +1090,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="541493" style="--c:#e5a440">
   <span class="abname"><img class="aicon" src="assets/spell-icons/5_engineerskill29_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/541493" rel="noopener">Arcane Bionics</a><span class="mag">3%</span>
     <span class="abchips"><span class="chip spec">all</span><span class="chip kind">magic only</span></span></span>
@@ -1108,24 +1109,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/801828" rel="noopener">Vanguard X-173: Onslaught</a> <i>STN 20s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/806173" rel="noopener">Drill Smash</a> <i>STN 30s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/800582" rel="noopener">Hydraulic Charge</a> <i>RT 15s</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/801828" rel="noopener">Vanguard X-173: Onslaught</a> <i>Stun 20s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/806173" rel="noopener">Drill Smash</a> <i>Stun 30s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/800582" rel="noopener">Hydraulic Charge</a> <i>Root 15s</i></p>
 <p class="kitgap"><b>Brings no</b> Battle rez, Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Venomancer" data-has="Interrupt Battle rez Raid DR (active) Raid DR (passive) Soothe Stun Root" style="--c:#46ea31"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Venomancer to roster"><img src="assets/class-icons/venomancer/_class-venomancer.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Venomancer</button></span></th>
-<td class="mxv b-stop bstart" title="Nullifying Toxin" data-ids="805096"><span class="cd">16s</span></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools bstart" title="Spawn" data-ids="805568"><span class="cd">10m</span></td>
-<td class="mxv b-tools" title="Shadra&#x27;s Aid" data-ids="504352"><span class="cd">3m</span><i class="t" title="talent point">t</i></td>
-<td class="mxv b-tools" title="Charmed Plating" data-ids="300974"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Myotoxin" data-ids="572304"><span class="cd">10s</span></td>
-<td class="mxv b-trash bstart unv" title="Poison Eruption" data-ids="520232"><span class="cd">2m</span></td>
-<td class="mxv b-trash" title="Spindlebind, Venocannon" data-ids="800887,804967"><span class="cd">16s</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-stop bstart" title="Nullifying Toxin" data-l="Interrupt" data-ids="805096"><span class="cd">16s</span></td>
+<td class="mxx b-stop"></td>
+<td class="mxv b-tools bstart" title="Spawn" data-l="Battle rez" data-ids="805568"><span class="cd">10m</span></td>
+<td class="mxv b-tools" title="Shadra&#x27;s Aid" data-l="Raid DR" data-ids="504352"><span class="cd">3m</span><i class="t" title="talent point">t</i></td>
+<td class="mxv b-tools" title="Charmed Plating" data-l="Passive DR" data-ids="300974"><span class="cd">—</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Myotoxin" data-l="Soothe" data-ids="572304"><span class="cd">10s</span></td>
+<td class="mxv b-trash bstart unv" title="Poison Eruption" data-l="Stun" data-ids="520232"><span class="cd">2m</span></td>
+<td class="mxv b-trash" title="Spindlebind, Venocannon" data-l="Root" data-ids="800887,804967"><span class="cd">16s</span><i class="p" title="1 more">+1</i></td>
 </tr>
 <tr class="kitrow" data-class="Venomancer" hidden><td colspan="11"><div class="kit" style="--c:#46ea31">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="805096" style="--c:#46ea31">
   <span class="abname"><img class="aicon" src="assets/spell-icons/ability_rogue_deviouspoisons.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/805096" rel="noopener">Nullifying Toxin</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -1137,7 +1138,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">REZ</span>Battle rez</p><ul class="ablist tight">
+<p class="kcat">Battle rez</p><ul class="ablist tight">
 <li class="ab" data-cat="Battle rez" data-sid="805568" style="--c:#46ea31">
   <span class="abname"><img class="aicon" src="assets/spell-icons/achievement_halloween_rottenegg_01.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/805568" rel="noopener">Spawn</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -1147,7 +1148,7 @@
   <span class="abdesc">Bring a dead ally back to life with 400 health and 635 mana. Can be used in combat. Not usable in arena.</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR</span>Raid DR (active)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (active)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (active)" data-sid="504352" style="--c:#46ea31">
   <span class="abname"><img class="aicon" src="assets/spell-icons/nhi_natureempower_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/504352" rel="noopener">Shadra&#x27;s Aid</a><span class="mag">20%</span>
     <span class="abchips"><span class="chip spec">Vizier</span><span class="chip tal" title="costs a talent point">r8 c2</span><span class="chip scope ally" title="who it covers">ally</span></span></span>
@@ -1157,7 +1158,7 @@
   <span class="abdesc">Envelop an ally in Shadra&#x27;s grace, reducing all damage taken by -20% and causing direct damage taken to restore 3% maximum health for 15 sec…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">DR·P</span>Raid DR (passive)</p><ul class="ablist tight">
+<p class="kcat">Raid DR (passive)</p><ul class="ablist tight">
 <li class="ab" data-cat="Raid DR (passive)" data-sid="300974" style="--c:#46ea31">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_misc_monsterscales_01.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/300974" rel="noopener">Charmed Plating</a><span class="mag">3%</span>
     <span class="abchips"><span class="chip spec">Fortitude</span><span class="chip tal" title="costs a talent point">r5 c3</span><span class="chip scope raid" title="who it covers">raid</span></span></span>
@@ -1167,7 +1168,7 @@
   <span class="abdesc">Reduces damage taken by all party and raid members by 3%. Does not stack with similar effects. In addition, reduces your chance to be hit by…</span>
 </li>
 </ul>
-<p class="kcat"><span class="kab">SOO</span>Soothe</p><ul class="ablist tight">
+<p class="kcat">Soothe</p><ul class="ablist tight">
 <li class="ab" data-cat="Soothe" data-sid="572304" style="--c:#46ea31">
   <span class="abname"><img class="aicon" src="assets/spell-icons/uico_venom_spell_04_border.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/572304" rel="noopener">Myotoxin</a>
     <span class="abchips"><span class="chip spec">all</span></span></span>
@@ -1178,24 +1179,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/520232" rel="noopener">Poison Eruption</a> <i>STN 2m</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/800887" rel="noopener">Spindlebind</a> <i>RT 16s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/804967" rel="noopener">Venocannon</a> <i>RT 1m</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/520232" rel="noopener">Poison Eruption</a> <i>Stun 2m</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/800887" rel="noopener">Spindlebind</a> <i>Root 16s</i> &nbsp;/&nbsp; <a href="https://db.exil.es/spell/804967" rel="noopener">Venocannon</a> <i>Root 1m</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Purge, Spellsteal.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Witch Doctor" data-has="Silence Root" style="--c:#dfb358"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Witch Doctor to roster"><img src="assets/class-icons/witch-doctor/_class-witch-doctor.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Witch Doctor</button></span></th>
-<td class="mxx b-stop bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-stop" title="Spirit Shock" data-ids="807743"><span class="cd">28s</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-trash bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-trash" title="Bwonsamdi&#x27;s Judgement" data-ids="525386"><span class="cd">—</span></td>
+<td class="mxx b-stop bstart"></td>
+<td class="mxv b-stop" title="Spirit Shock" data-l="Silence" data-ids="807743"><span class="cd">28s</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-trash bstart"></td>
+<td class="mxv b-trash" title="Bwonsamdi&#x27;s Judgement" data-l="Root" data-ids="525386"><span class="cd">—</span></td>
 </tr>
 <tr class="kitrow" data-class="Witch Doctor" hidden><td colspan="11"><div class="kit" style="--c:#dfb358">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">SIL</span>Silence</p><ul class="ablist tight">
+<p class="kcat">Silence</p><ul class="ablist tight">
 <li class="ab" data-cat="Silence" data-sid="807743" style="--c:#dfb358">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_helm_mail_raidshaman_m_01.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/807743" rel="noopener">Spirit Shock</a>
     <span class="abchips"><span class="chip spec">Shadowhunting</span><span class="chip tal" title="costs a talent point">r6 c7</span><span class="chip int" title="tooltip also claims it interrupts non-player spellcasting">int</span></span></span>
@@ -1206,24 +1207,24 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/525386" rel="noopener">Bwonsamdi&#x27;s Judgement</a> <i>RT —</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/525386" rel="noopener">Bwonsamdi&#x27;s Judgement</a> <i>Root —</i></p>
 <p class="kitgap"><b>Brings no</b> Interrupt, Battle rez, Raid DR (active), Raid DR (passive), Purge, Spellsteal, Soothe.</p>
 </div></td></tr>
 <tr class="mxr" data-class="Witch Hunter" data-has="Interrupt Soothe Stun" style="--c:#e39d47"><th class="mxc" scope="row"><span class="mxcin"><button class="pick" type="button" aria-label="add Witch Hunter to roster"><img src="assets/class-icons/witch-hunter/_class-witch-hunter.png" alt="" width="22" height="22" loading="lazy"></button><button class="open" type="button" aria-expanded="false">Witch Hunter</button></span></th>
-<td class="mxv b-stop bstart" title="Guard Strike, Subjugate" data-ids="804432,500089"><span class="cd">18s</span><i class="p" title="1 more">+1</i></td>
-<td class="mxx b-stop"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools bstart"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxx b-tools"><span aria-label="none">&middot;</span></td>
-<td class="mxv b-tools" title="Sedative Shot, Purge Evil" data-ids="572406,572306"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
-<td class="mxv b-trash bstart" title="Darkslayer&#x27;s Lantern" data-ids="802139"><span class="cd">2m</span><i class="t" title="talent point">t</i></td>
-<td class="mxx b-trash"><span aria-label="none">&middot;</span></td>
+<td class="mxv b-stop bstart" title="Guard Strike, Subjugate" data-l="Interrupt" data-ids="804432,500089"><span class="cd">18s</span><i class="p" title="1 more">+1</i></td>
+<td class="mxx b-stop"></td>
+<td class="mxx b-tools bstart"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxx b-tools"></td>
+<td class="mxv b-tools" title="Sedative Shot, Purge Evil" data-l="Soothe" data-ids="572406,572306"><span class="cd">—</span><i class="p" title="1 more">+1</i></td>
+<td class="mxv b-trash bstart" title="Darkslayer&#x27;s Lantern" data-l="Stun" data-ids="802139"><span class="cd">2m</span><i class="t" title="talent point">t</i></td>
+<td class="mxx b-trash"></td>
 </tr>
 <tr class="kitrow" data-class="Witch Hunter" hidden><td colspan="11"><div class="kit" style="--c:#e39d47">
 <div class="kitband kb-stop"><p class="kbl">Stops a cast</p>
-<p class="kcat"><span class="kab">INT</span>Interrupt</p><ul class="ablist tight">
+<p class="kcat">Interrupt</p><ul class="ablist tight">
 <li class="ab" data-cat="Interrupt" data-sid="804432" style="--c:#e39d47">
   <span class="abname"><img class="aicon" src="assets/spell-icons/inv_qiraj_hiltornate.jpg" alt="" width="20" height="20" loading="lazy"><a href="https://db.exil.es/spell/804432" rel="noopener">Guard Strike</a>
     <span class="abchips"><span class="chip spec">WitchKnight</span><span class="chip tal" title="costs a talent point">r5 c2</span></span></span>
@@ -1243,7 +1244,7 @@
 </ul>
 </div>
 <div class="kitband kb-tools"><p class="kbl">Raid tools</p>
-<p class="kcat"><span class="kab">SOO</span>Soothe</p><ul class="ablist tight">
+<p class="kcat">Soothe</p><ul class="ablist tight">
 <li class="ab" data-cat="Soothe" data-sid="572406" style="--c:#e39d47">
   <span class="abname"><span class="aicon none" style="width:20px;height:20px"></span><a href="https://db.exil.es/spell/572406" rel="noopener">Sedative Shot</a>
     <span class="abchips"><span class="chip spec">all</span><span class="chip unv" title="no icon on the spell db &mdash; may not exist in game">unverified</span></span></span>
@@ -1262,11 +1263,10 @@
 </li>
 </ul>
 </div>
-<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/802139" rel="noopener">Darkslayer&#x27;s Lantern</a> <i>STN 2m</i></p>
+<p class="kittrash"><b>Trash only</b> <a href="https://db.exil.es/spell/802139" rel="noopener">Darkslayer&#x27;s Lantern</a> <i>Stun 2m</i></p>
 <p class="kitgap"><b>Brings no</b> Silence, Battle rez, Raid DR (active), Raid DR (passive), Purge, Spellsteal.</p>
 </div></td></tr>
 </tbody></table></div>
-<p class="mxlegend"><span><i class="k v">14s</i>shortest cooldown</span><span><i class="k v">&mdash;</i>no cooldown</span><span><i class="k t">t</i>costs a talent point</span><span><i class="k p">+1</i>brings another</span><span><i class="k unv">14s?</i>unverified in game</span><span><i class="k x">&middot;</i>none</span></p>
 </section>
 <section class="panel pn-stop" id="panel-interrupt" hidden>
 <p class="bandnote bn-stop">Actually stops a boss cast.</p>

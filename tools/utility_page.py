@@ -51,28 +51,41 @@ def ability_icon(sid, px=22):
     return (f'<img class="aicon" src="assets/spell-icons/{tex}.jpg" alt="" '
             f'width="{px}" height="{px}" loading="lazy">')
 
+# Columns carry WORDS, not a code.
+#
+# The old header row read `INT SIL REZ DR DR·P PRG STL SOO STN RT`, which is a
+# key the reader has to learn before the grid says anything -- and `DR·P` is
+# not learnable at all. At 1240px the content column gives every tool column
+# ~96px, and "Spellsteal" sets in 72px at 13px. The abbreviations were never
+# buying width; they were only costing meaning. So each column now prints its
+# real name, over two lines where the name has two parts, and the pair that the
+# abbreviation actually mangled -- active vs passive raid DR -- says so in
+# words on the second line.
+#
+# (cat, short label, full name, header lines)
 BANDS = [
     ("stop",  "Stops a cast", [
-        ("interrupt",       "INT",  "Interrupt"),
-        ("silence",         "SIL",  "Silence"),
+        ("interrupt",       "Interrupt",  "Interrupt",          ("Interrupt",)),
+        ("silence",         "Silence",    "Silence",            ("Silence",)),
     ]),
     ("tools", "Raid tools", [
-        ("rez",             "REZ",  "Battle rez"),
-        ("raid_dr",         "DR",   "Raid DR (active)"),
-        ("raid_dr_passive", "DR·P", "Raid DR (passive)"),
-        ("purge",           "PRG",  "Purge"),
-        ("spellsteal",      "STL",  "Spellsteal"),
-        ("tranq",           "SOO",  "Soothe"),
+        ("rez",             "Battle rez", "Battle rez",         ("Battle", "rez")),
+        ("raid_dr",         "Raid DR",    "Raid DR (active)",   ("Raid DR", "active")),
+        ("raid_dr_passive", "Passive DR", "Raid DR (passive)",  ("Raid DR", "passive")),
+        ("purge",           "Purge",      "Purge",              ("Purge",)),
+        ("spellsteal",      "Spellsteal", "Spellsteal",         ("Spellsteal",)),
+        ("tranq",           "Soothe",     "Soothe",             ("Soothe",)),
     ]),
     ("trash", "Trash only", [
-        ("stun",            "STN",  "Stun"),
-        ("root",            "RT",   "Root"),
+        ("stun",            "Stun",       "Stun",               ("Stun",)),
+        ("root",            "Root",       "Root",               ("Root",)),
     ]),
 ]
-CATS = [c for _b, _l, cs in BANDS for c, _a, _n in cs]
-BAND_OF = {c: b for b, _l, cs in BANDS for c, _a, _n in cs}
-ABBR = {c: a for _b, _l, cs in BANDS for c, a, _n in cs}
-LONG = {c: n for _b, _l, cs in BANDS for c, _a, n in cs}
+CATS = [c for _b, _l, cs in BANDS for c, _s, _n, _h in cs]
+BAND_OF = {c: b for b, _l, cs in BANDS for c, _s, _n, _h in cs}
+SHORT = {c: s for _b, _l, cs in BANDS for c, s, _n, _h in cs}
+LONG = {c: n for _b, _l, cs in BANDS for c, _s, n, _h in cs}
+HEAD = {c: h for _b, _l, cs in BANDS for c, _s, _n, h in cs}
 NCOL = 1 + len(CATS)
 
 
@@ -303,8 +316,7 @@ def render():
       '<input id="uq" type="search" placeholder="filter class or ability" '
       'autocomplete="off"><button id="uclear" type="button" '
       'aria-label="clear filter">&times;</button></label>'
-      '<button class="rosterbtn" id="rosterclear" type="button" hidden>'
-      'clear roster (<span id="rostern">0</span>)</button></div></div>')
+      '</div></div>')
 
     # --------------------------------------------------------- 1b. tabs
     # One long page was the complaint: nobody scrolls 190KB to find the four
@@ -314,38 +326,51 @@ def render():
     # Deep links still work -- the hash names the panel and the JS opens it on
     # load. Without JS every panel renders open and the tab bar hides itself,
     # so the page degrades to exactly what it was before.
-    # Class filter. The icons are the affordance a WoW player already reads,
-    # and it answers the roster question from the other end: "show me only what
-    # these five classes bring" rather than "who has an interrupt".
-    A('<div class="clsfilter" aria-label="filter by class">')
-    A('<span class="cfl">Filter by class</span><div class="cfrow">')
+    # ONE class selection, not two.
+    #
+    # The page used to carry a "filter by class" icon band at the top AND a
+    # roster picker on every grid row. Both dimmed the same grid rows, with
+    # different opacities, and neither told you it was the other. They are now
+    # a single thing -- your roster -- with two entry points, so an icon click
+    # always means the same thing wherever you click it.
+    A('<div class="roster-band" aria-label="your roster">')
+    A('<div class="rbhead"><span class="cfl">Your roster</span>'
+      '<span class="rbhint">Click classes to count coverage against just '
+      'them.</span>'
+      '<button class="cfclear" type="button" hidden>Clear roster '
+      '(<span id="rostern">0</span>)</button></div><div class="cfrow">')
     for c in classes:
         A(f'<button class="cf" type="button" data-class="{esc(c)}" '
-          f'title="{esc(c)}" style="--c:{acc[c]}">{icon(c, 30)}'
+          f'title="{esc(c)}" style="--c:{acc[c]}">{icon(c, 34)}'
           f'<span>{esc(c)}</span></button>')
-    A('</div><button class="cfclear" type="button" hidden>Clear</button></div>')
+    A('</div></div>')
 
     A('<nav class="tabs" role="tablist">')
     A('<button class="tab on" role="tab" data-panel="overview">Overview</button>')
     for cat in sorted(CATS, key=lambda c: (BAND_OF[c] == "trash",
                                            -counts[c], LONG[c])):
         A(f'<button class="tab tb-{BAND_OF[cat]}" role="tab" '
-          f'data-panel="{cat}">{esc(LONG[cat])}'
+          f'data-panel="{cat}">{esc(SHORT[cat])}'
           f'<i>{len(by_cat.get(cat, ()))}</i></button>')
     A('</nav>')
 
     # ------------------------------------------------------- 2. .scarcity
     A('<section class="panel on" id="panel-overview">')
-    A('<p class="lbl">What is scarce</p>')
-    A('<p class="secnote">How many of the 21 classes bring each tool, rarest '
-      'first. The short bars are the ones that decide a roster. Pick classes '
-      'in the grid below and these recount against <b>your</b> roster.</p>')
+    A('<p class="lbl">How many of the 21 classes bring each tool</p>')
+    A('<p class="secnote">Rarest first. A short bar is a tool you have to '
+      'roster for on purpose.</p>')
     A('<ul class="scarcity">')
     for cat in sorted(CATS, key=lambda c: (counts[c], LONG[c])):
         pct = round(100 * counts[cat] / N)
         unv = counts[cat] - conf[cat]
-        A(f'''<li class="sc sc-{BAND_OF[cat]}" data-cat="{cat}"><a href="#{cat}">
-  <span class="scname">{esc(LONG[cat])}</span>
+        # Scarcity is what this strip is FOR, so scarcity -- not the band --
+        # drives how loud a tile is. The band survives as a hairline on top,
+        # and the trash band still overrides everything to dim, because a stun
+        # must never look like an answer.
+        tier = ("rare" if counts[cat] <= 5
+                else "few" if counts[cat] <= 10 else "many")
+        A(f'''<li class="sc sc-{BAND_OF[cat]} t-{tier}" data-cat="{cat}"><a href="#{cat}">
+  <span class="scname">{esc(SHORT[cat])}</span>
   <span class="scnum"><b data-count="{cat}">{counts[cat]}</b><em>/{N}</em></span>
   <span class="bartrack"><span class="barfill" data-bar="{cat}"
     style="width:{pct}%"></span></span>
@@ -354,25 +379,36 @@ def render():
     A('</ul>')
 
     # --------------------------------------------------------- 3. .matrix
-    A('<p class="lbl" id="matrix">Coverage grid</p>')
-    A('<p class="secnote">One row per class, one column per tool. The number '
-      'is that class’s <b>shortest cooldown</b> in the column; <b>&mdash;'
-      '</b> means no cooldown at all. <b>t</b> marks a tool that costs a '
-      'talent point, <b>+n</b> that the class brings more than one. Click a '
-      'class to open its full kit; click its icon to add it to your roster.'
-      '</p>')
+    A('<p class="lbl" id="matrix">Who brings what</p>')
+    A('<p class="secnote">A filled cell is a class that brings that tool; the '
+      'number is its <b>shortest cooldown</b>, and <b>&mdash;</b> means no '
+      'cooldown at all. Click a class name to open its full kit.</p>')
+    # The key belongs ABOVE the thing it explains. It used to sit under a
+    # 1200px table in 11px grey, i.e. after the reader had already guessed.
+    A('<p class="mxlegend">'
+      '<span><i class="k v">14s</i>shortest cooldown</span>'
+      '<span><i class="k v">&mdash;</i>no cooldown</span>'
+      '<span><i class="k t">t</i>costs a talent point</span>'
+      '<span><i class="k p">+1</i>brings another</span>'
+      '<span><i class="k unv">14s?</i>unverified in game</span>'
+      '<span><i class="k x">&nbsp;</i>blank = does not bring it</span></p>')
 
     A('<div class="mxwrap"><table class="mx">')
     A('<thead><tr class="mxbands"><td class="mxc"></td>')
     for band, label, cs in BANDS:
         A(f'<td class="bl b-{band}" colspan="{len(cs)}"><span>{esc(label)}'
           f'</span></td>')
-    A('</tr><tr><th class="mxc" scope="col">Class</th>')
+    A('</tr><tr class="mxhead"><th class="mxc" scope="col">Class</th>')
     for band, label, cs in BANDS:
-        for i, (cat, ab, name) in enumerate(cs):
+        for i, (cat, short, name, head) in enumerate(cs):
+            # "active"/"passive" qualify the name above them; "rez" is part of
+            # the name. Only the qualifier gets the quieter second-line style.
+            lines = "".join(
+                f'<span class="hw{" q" if w in ("active", "passive") else ""}">'
+                f'{esc(w)}</span>' for w in head)
             A(f'<th class="mxh b-{band}{" bstart" if not i else ""}" '
               f'scope="col" abbr="{esc(name)}">'
-              f'<a href="#{cat}" title="{esc(name)}">{ab}</a></th>')
+              f'<a href="#{cat}" title="{esc(name)}">{lines}</a></th>')
     A('</tr></thead><tbody>')
 
     for c in classes:
@@ -388,20 +424,24 @@ def render():
           f'<button class="open" type="button" aria-expanded="false">'
           f'{esc(c)}</button></span></th>')
         for band, label, cs in BANDS:
-            for i, (cat, ab, name) in enumerate(cs):
+            for i, (cat, short, name, head) in enumerate(cs):
                 bs = " bstart" if not i else ""
                 d = have.get(cat)
                 if not d:
-                    A(f'<td class="mxx b-{band}{bs}"><span aria-label="none">'
-                      f'&middot;</span></td>')
+                    # No dot. 126 of the 210 cells are empty, and a dot in
+                    # every one of them is 126 marks competing with the 84
+                    # that mean something. Absence should be background.
+                    A(f'<td class="mxx b-{band}{bs}"></td>')
                     continue
                 mk = '<i class="t" title="talent point">t</i>' if d["talent"] else ""
                 if d["extra"]:
                     mk += (f'<i class="p" title="{d["extra"]} more">'
                            f'+{d["extra"]}</i>')
+                # data-l is the column name printed inside the cell on a
+                # phone, where the header row is off to the side of a scroll.
                 A(f'<td class="mxv b-{band}{bs}'
                   f'{" unv" if d["unverified"] else ""}" '
-                  f'title="{esc(d["names"])}" '
+                  f'title="{esc(d["names"])}" data-l="{esc(short)}" '
                   f'data-ids="{",".join(d["ids"])}">'
                   f'<span class="cd">{d["cd"]}</span>{mk}</td>')
         A('</tr>')
@@ -410,7 +450,7 @@ def render():
         A(f'<tr class="kitrow" data-class="{esc(c)}" hidden>'
           f'<td colspan="{NCOL}"><div class="kit" style="--c:{acc[c]}">')
         for band, label, cs in BANDS:
-            present = [cat for cat, _a, _n in cs if cat in have]
+            present = [cat for cat, _s, _n, _h in cs if cat in have]
             if not present:
                 continue
             if band == "trash":
@@ -422,7 +462,7 @@ def render():
                                     key=lambda r: cd_secs(r[8])):
                         bits.append(f'<a href="{r[5]}" rel="noopener">'
                                     f'{esc(r[4])}</a> '
-                                    f'<i>{ABBR[cat]} {cd_short(r[8])}</i>')
+                                    f'<i>{esc(SHORT[cat])} {cd_short(r[8])}</i>')
                 A(f'<p class="kittrash"><b>Trash only</b> '
                   f'{" &nbsp;/&nbsp; ".join(bits)}</p>')
                 continue
@@ -430,8 +470,8 @@ def render():
             for cat in present:
                 rows = sorted([r for r in by_cat[cat] if r[1] == c],
                               key=lambda r: cd_secs(r[8]))
-                A(f'<p class="kcat"><span class="kab">{ABBR[cat]}</span>'
-                  f'{esc(LONG[cat])}</p><ul class="ablist tight">')
+                A(f'<p class="kcat">{esc(LONG[cat])}</p>'
+                  f'<ul class="ablist tight">')
                 for r in rows:
                     A(ability_row(r, cat, show_class=False, accent=acc[c]))
                 A('</ul>')
@@ -442,13 +482,6 @@ def render():
             A(f'<p class="kitgap"><b>Brings no</b> {esc(", ".join(gaps))}.</p>')
         A('</div></td></tr>')
     A('</tbody></table></div>')
-    A('<p class="mxlegend">'
-      '<span><i class="k v">14s</i>shortest cooldown</span>'
-      '<span><i class="k v">&mdash;</i>no cooldown</span>'
-      '<span><i class="k t">t</i>costs a talent point</span>'
-      '<span><i class="k p">+1</i>brings another</span>'
-      '<span><i class="k unv">14s?</i>unverified in game</span>'
-      '<span><i class="k x">&middot;</i>none</span></p>')
     A('</section>')
 
     # --------------------------------------------------- 4. .utilsec x 10

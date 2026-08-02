@@ -13,13 +13,41 @@
  * structurally -- the trash band is last in the grid, dim in the grid,
  * collapsed on the page, and one line inside a class kit -- rather than by a
  * sentence of prose that a scanning reader skips.
+ *
+ * ---------------------------------------------------------------------------
+ * WHY THIS PAGE READ SMALL, AND WHAT CHANGED
+ *
+ * The complaint was "a TON of empty space and it visualizes extremely small
+ * with text". Both are the same defect measured twice, and it was not the font
+ * size: grid numbers were already 17.9px, larger than the body text.
+ *
+ * The grid is 21x10 = 210 cells and only 84 are filled -- 40%. Every one of
+ * the other 126 printed a dim middle dot. So the largest element on the page
+ * was 1180x1188px of which roughly 3% carried ink, and 60% of its marks meant
+ * "nothing here". Type read small because the eye judges type against the
+ * field it sits in, and this field was almost entirely field.
+ *
+ * The three moves:
+ *   1. Absence became background. Empty cells print nothing at all.
+ *   2. Presence became a tile. A class that brings a tool now fills its cell
+ *      with its band's colour, so the grid reads as a shape from across the
+ *      room and the numbers are what you read second, not first.
+ *   3. Supporting prose moved off --dim (#6f6a60, ~2.8:1 on this background)
+ *      onto --ink2 (~6.7:1) and up from 13px to 15px. Every instruction on
+ *      the page was previously set in the least readable colour it owns.
+ *
+ * The band tint is also what now carries the stun/interrupt separation down
+ * the whole 1000px of table rather than as a 2px line in the header: cast
+ * control is gold, raid tools are cyan, and the trash band is a sunken grey
+ * gutter with a hard rule in front of it.
  */
 
 /* ------------------------------------------------------------- masthead */
-.util h1{margin:0 0 10px;font-size:clamp(1.7rem,4vw,2.4rem)}
-.lede{color:var(--ink2);max-width:66ch;margin:0 0 20px;line-height:1.5}
+.util h1{margin:0 0 8px;font-size:clamp(1.7rem,4vw,2.4rem)}
+.lede{color:var(--ink2);max-width:62ch;margin:0 0 16px;line-height:1.5;
+  font-size:.98rem}
 .utiltools{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap;
-  margin:0 0 40px}
+  margin:0 0 22px}
 .utiltools .editbox{max-width:320px}
 .utiltools #uq{flex:1;min-width:0;font:inherit;font-size:.88rem;
   color:var(--ink);background:none;border:0;outline:none;padding:10px}
@@ -29,43 +57,45 @@
 .utiltools #uclear{display:none;font:inherit;font-size:1.1rem;line-height:1;
   cursor:pointer;background:none;border:0;color:var(--dim);padding:0 11px}
 .utiltools .editbox.has #uclear{display:block}
-.rosterbtn{font:inherit;font-size:.76rem;letter-spacing:.04em;cursor:pointer;
-  border:0;padding:0 15px;color:var(--ink2);background:var(--panel);
-  box-shadow:inset 0 0 0 1px var(--edge)}
-.rosterbtn:hover{color:var(--ink);background:var(--raise)}
+/* .rosterbtn is gone -- the roster's clear button now lives in .rbhead. */
 
 /* site.css styles <section> for the class page (padding + a top rule between
  * siblings). This page's sections are laid out by their own .lbl headers, so
  * that rule is reset rather than fought. */
 .util section{padding:0;border-top:0}
 
-/* section furniture ---------------------------------------------------- */
-.lbl{margin:0 0 8px;scroll-margin-top:74px}
+/* section furniture ----------------------------------------------------
+ * .lbl is site.css's own section label: .66rem, .24em tracking, uppercase.
+ * That is right for a label. It is wrong for the sentence underneath it,
+ * which is an INSTRUCTION -- the reader has to parse it to use the grid --
+ * and it was set two steps quieter than the label announcing it.
+ */
+.lbl{margin:0 0 8px;scroll-margin-top:74px;font-size:.72rem}
 .lbl.bigrule{margin-top:56px;font-size:.72rem;color:var(--ink)}
 .lbl.bigrule::after{background:linear-gradient(90deg,var(--edge2),transparent)}
-.lblnum{margin-left:auto;color:var(--dim);font-weight:600;letter-spacing:.1em;
+.lblnum{margin-left:auto;color:var(--ink2);font-weight:600;letter-spacing:.1em;
   flex:none;order:3}
 .lbl::after{order:2}
-.secnote{color:var(--dim);font-size:.82rem;line-height:1.6;max-width:82ch;
+.secnote{color:var(--ink2);font-size:.94rem;line-height:1.55;max-width:74ch;
   margin:0 0 14px}
-.secnote b,.secnote strong{color:var(--ink2);font-weight:600}
+.secnote b,.secnote strong{color:var(--ink);font-weight:600}
 .secnote code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
   padding:1px 5px;font-size:.92em;color:var(--ink2)}
 /* The classification notes are the page's honesty, but only the first
  * paragraph is needed to read the list. The rest -- what was excluded and
  * why -- folds away. */
 details.why{margin:0 0 16px}
-details.why>summary{cursor:pointer;font-size:.74rem;color:var(--bone);
+details.why>summary{cursor:pointer;font-size:.8rem;color:var(--bone);
   letter-spacing:.06em;list-style:none;display:inline-block;
   box-shadow:inset 0 -1px 0 var(--edge2);padding-bottom:1px}
 details.why>summary::-webkit-details-marker{display:none}
 details.why>summary::before{content:"+ ";color:var(--dim)}
 details.why[open]>summary::before{content:"\2212 "}
-details.why p{color:var(--dim);font-size:.8rem;line-height:1.6;max-width:82ch;
+details.why p{color:var(--ink2);font-size:.86rem;line-height:1.6;max-width:78ch;
   margin:10px 0 0}
 details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
   padding:1px 5px;font-size:.92em}
-.tallies{color:var(--dim);font-size:.74rem;margin:11px 2px 0}
+.tallies{color:var(--ink2);font-size:.82rem;margin:11px 2px 0}
 .tallies a{color:var(--ink2);box-shadow:inset 0 -1px 0 var(--edge2)}
 .tallies a:hover{color:var(--c)}
 
@@ -75,28 +105,40 @@ details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
  * which is the first thing a raid lead needs and the old nav never said.
  * The bar is site.css's own .bartrack/.barfill resource bar.
  */
-.scarcity{list-style:none;margin:0 0 48px;padding:1px;display:grid;gap:1px;
-  grid-template-columns:repeat(5,1fr);
+.scarcity{list-style:none;margin:0 0 40px;padding:1px;display:grid;gap:1px;
+  grid-template-columns:repeat(10,1fr);
   background:var(--edge);box-shadow:0 0 0 1px var(--edge)}
-.sc{--c:var(--bone)}
-.sc-stop{--c:#e8c039}      /* cast control  */
-.sc-tools{--c:#48c2e3}     /* raid tools    */
-.sc-trash{--c:var(--dim)}  /* trash control reads as furniture, on purpose */
-.sc>a{display:block;background:var(--panel);padding:13px 14px 14px;
-  height:100%;transition:background .12s}
+.sc{--c:var(--bone);--band:var(--edge2)}
+/* The band is now a hairline on top of the tile, not the tile's whole colour:
+ * this strip answers "what is scarce", so scarcity gets the ink. */
+.sc-stop{--band:#e8c039}
+.sc-tools{--band:#48c2e3}
+.sc-trash{--band:rgba(198,174,132,.22)}
+.sc.t-rare{--c:#f0c674}    /* 5 or fewer classes: roster for it on purpose */
+.sc.t-few{--c:#9ec8d8}
+.sc.t-many{--c:var(--ink2)}
+/* Trash overrides scarcity outright. 12 classes have a stun and that must
+ * never be presented as a healthy number for anything that matters. */
+.sc-trash.t-rare,.sc-trash.t-few,.sc-trash.t-many{--c:var(--dim)}
+.sc-trash>a{opacity:.62}
+.sc-trash>a:hover{opacity:1}
+.sc>a{display:block;background:var(--panel);padding:11px 11px 13px;
+  height:100%;transition:background .12s;
+  box-shadow:inset 0 2px 0 var(--band)}
 .sc>a:hover{background:var(--raise)}
-.scname{display:block;font-size:.76rem;color:var(--ink2);line-height:1.3;
-  min-height:2.1em}
-.scnum{display:block;font-size:1.55rem;font-weight:700;letter-spacing:-.03em;
-  color:var(--c);font-variant-numeric:tabular-nums;margin:4px 0 9px;
+.scname{display:block;font-size:.78rem;color:var(--ink2);line-height:1.25;
+  min-height:2.5em}
+.scnum{display:block;font-size:1.7rem;font-weight:700;letter-spacing:-.03em;
+  color:var(--c);font-variant-numeric:tabular-nums;margin:2px 0 8px;
   line-height:1}
-.scnum em{font-style:normal;font-size:.9rem;color:var(--dim);font-weight:600}
-.sc .bartrack{display:block;height:6px;padding:0;background:#0a0d11;
+.sc.t-rare .scnum{font-size:2rem}
+.scnum em{font-style:normal;font-size:.85rem;color:var(--dim);font-weight:600}
+.sc .bartrack{display:block;height:7px;padding:0;background:#0a0d11;
   box-shadow:inset 0 0 0 1px var(--edge)}
 .sc .barfill{display:block;background:var(--c);
   box-shadow:0 0 10px -3px var(--c);min-width:2px}
-.unvn{display:block;margin-top:8px;font-style:normal;font-size:.62rem;
-  letter-spacing:.1em;text-transform:uppercase;color:#f0c674}
+.unvn{display:block;margin-top:7px;font-style:normal;font-size:.6rem;
+  letter-spacing:.08em;text-transform:uppercase;color:#f0c674}
 /* A tool nobody in your roster brings is the most important tile on the
  * page, so it is flagged rather than dimmed. */
 .sc.gap{--c:#e0525f;order:-1}   /* a gap floats to the front of the strip */
@@ -113,47 +155,63 @@ details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
  * plan" too. On a phone it scrolls sideways -- but the class column is
  * sticky, so unlike the old 940px table you never lose the row you are on.
  */
-.mxwrap{overflow-x:auto;box-shadow:0 0 0 1px var(--edge);background:var(--deep);
-  margin:0 0 12px}
+.mxwrap{overflow-x:auto;box-shadow:0 0 0 1px var(--edge);background:#080b0f;
+  margin:0 0 14px}
 table.mx{border-collapse:separate;border-spacing:0;width:100%;
-  table-layout:fixed;min-width:940px;font-size:1.02rem}
+  table-layout:fixed;min-width:940px;font-size:1rem}
 .mx th,.mx td{padding:0}
-.mx .mxc{width:23%}
-.mx .mxh{width:7.7%}
+.mx .mxc{width:17.6%}
+.mx .mxh{width:8.24%}
 
 /* the band strip: the wall between "stops a cast" and "stun" */
-.mxbands td{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--dim);text-align:center;padding:7px 4px;background:#090d11;
-  border-bottom:1px solid rgba(198,174,132,.16)}
+.mxbands td{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:700;text-align:center;padding:6px 4px;background:#090d11}
 .mxbands td span{display:block;overflow:hidden;text-overflow:ellipsis;
   white-space:nowrap}
-.mxbands .b-stop{color:#e8c039;box-shadow:inset 0 2px 0 rgba(232,192,57,.5)}
-.mxbands .b-tools{color:#48c2e3;box-shadow:inset 0 2px 0 rgba(72,194,227,.45)}
-.mxbands .b-trash{color:var(--dim);box-shadow:inset 0 2px 0 rgba(111,106,96,.5);
-  background:rgba(0,0,0,.3)}
+.mxbands .b-stop{color:#e8c039;background:rgba(232,192,57,.10)}
+.mxbands .b-tools{color:#7fd6ef;background:rgba(72,194,227,.09)}
+.mxbands .b-trash{color:var(--ink2);background:rgba(0,0,0,.5)}
 
-.mx thead th.mxh{font-size:.78rem;letter-spacing:.1em;font-weight:700;
-  color:var(--bone);background:#0b0f14;text-align:center;padding:9px 0 8px;
-  border-bottom:1px solid var(--edge)}
+/* Column heads are WORDS. Sentence case, no tracking, two lines where the
+ * name has two parts -- tracked uppercase at 12px is what made `DR·P` feel
+ * like a code even after you had been told what it stood for. */
+.mx thead th.mxh{font-size:.82rem;font-weight:600;line-height:1.2;
+  color:var(--ink);background:#0b0f14;text-align:center;padding:9px 3px 9px;
+  border-bottom:1px solid var(--edge2);vertical-align:bottom;
+  /* site.css sets a bare `th{text-transform:uppercase;letter-spacing:.16em}`.
+     Uppercase + .16em tracking at 13px is exactly what made the old codes
+     unreadable, and it would do the same to real words. Words get sentence
+     case and no tracking. */
+  text-transform:none;letter-spacing:0}
 .mx thead th.mxh a{display:block}
-.mx thead th.mxh a:hover{color:var(--ink)}
-.mx thead th.mxc{background:#0b0f14;text-align:left;font-size:.8rem;
+.mx thead th.mxh a:hover{color:var(--c)}
+.mx thead th.mxh .hw{display:block}
+.mx thead th.mxh .hw.q{color:var(--ink2);font-size:.92em;font-weight:400}
+.mx thead th.mxh.b-trash{color:var(--ink2)}
+.mx thead th.mxc{background:#0b0f14;text-align:left;font-size:.72rem;
   letter-spacing:.16em;text-transform:uppercase;color:var(--bone);
-  font-weight:700;padding:9px 12px;border-bottom:1px solid var(--edge);
-  position:sticky;left:0;z-index:3}
-.bstart{box-shadow:inset 1px 0 0 var(--edge2)}
-.mx tbody .b-trash{background:rgba(0,0,0,.24)}
+  font-weight:700;padding:9px 12px;border-bottom:1px solid var(--edge2);
+  position:sticky;left:0;z-index:3;vertical-align:bottom}
 
-tbody .mxr>.mxc{background:var(--deep);position:sticky;left:0;z-index:2;
-  border-bottom:1px solid rgba(198,174,132,.09)}
-.mxcin{display:flex;align-items:center;gap:9px}
-.mxr .pick{background:none;border:0;padding:6px 0 6px 9px;cursor:pointer;
+/* The band tint runs the full height of the table, so the wall between "stops
+ * a cast" and "stun" is a thing you see at any scroll position rather than a
+ * 2px line 1000px above where you are looking. */
+.mx tbody .b-stop{background:rgba(232,192,57,.028)}
+.mx tbody .b-tools{background:rgba(72,194,227,.022)}
+.mx tbody .b-trash{background:rgba(0,0,0,.5)}
+.bstart{box-shadow:inset 1px 0 0 var(--edge2)}
+.mx .b-trash.bstart{box-shadow:inset 2px 0 0 var(--edge2)}
+
+tbody .mxr>.mxc{background:#0b0f14;position:sticky;left:0;z-index:2;
+  border-bottom:1px solid rgba(198,174,132,.12)}
+.mxcin{display:flex;align-items:center;gap:10px}
+.mxr .pick{background:none;border:0;padding:6px 0 6px 10px;cursor:pointer;
   line-height:0;flex:none}
-.mxr .pick img{width:22px;height:22px;box-shadow:0 0 0 1px rgba(0,0,0,.8);
-  filter:grayscale(.6) brightness(.78);transition:filter .12s,box-shadow .12s}
+.mxr .pick img{width:26px;height:26px;box-shadow:0 0 0 1px rgba(0,0,0,.8);
+  filter:grayscale(.55) brightness(.85);transition:filter .12s,box-shadow .12s}
 .mxr:hover .pick img{filter:none}
 .mxr .open{background:none;border:0;color:var(--ink);font:inherit;
-  font-size:1.02rem;font-weight:600;cursor:pointer;padding:13px 8px 13px 0;
+  font-size:1rem;font-weight:600;cursor:pointer;padding:13px 8px 13px 0;
   text-align:left;flex:1;min-width:0;white-space:nowrap;overflow:hidden;
   text-overflow:ellipsis}
 .mxr .open::after{content:"\25B8";color:var(--dim);font-size:.8em;
@@ -161,37 +219,62 @@ tbody .mxr>.mxc{background:var(--deep);position:sticky;left:0;z-index:2;
 .mxr.open .open::after{transform:rotate(90deg);color:var(--c)}
 .mxr.open>.mxc,.mxr.open>td{background:var(--panel)}
 .mxr.open>.mxc{box-shadow:inset 2px 0 0 var(--c)}
-.mx tbody tr.mxr:hover>.mxc,.mx tbody tr.mxr:hover>td{background:var(--panel)}
+.mx tbody tr.mxr:hover>.mxc{background:var(--raise)}
+.mx tbody tr.mxr:hover>td.mxx{background:rgba(255,255,255,.03)}
 
 .mx tbody td{text-align:center;font-variant-numeric:tabular-nums;
-  border-bottom:1px solid rgba(198,174,132,.09);padding:9px 2px;
+  border-bottom:1px solid rgba(198,174,132,.12);padding:12px 3px;
   white-space:nowrap}
-td.mxv .cd{color:var(--ink);font-size:1.12rem;font-variant-numeric:tabular-nums}
-td.mxv i{font-style:normal;font-size:.78rem;color:var(--dim);margin-left:2px;
-  vertical-align:super}
+
+/* PRESENCE IS A TILE, ABSENCE IS NOTHING.
+ *
+ * This is the whole fix for "it visualizes extremely small". Before, a filled
+ * cell and an empty cell were the same rectangle of background and differed
+ * only by ~30x18px of glyph, so 1.4 million pixels of grid carried about 3%
+ * ink and the reader had to read all 210 cells to find the 84 that mattered.
+ * Now a class that brings a tool paints its cell, in its band's colour, and
+ * the coverage pattern is legible before you read a single number. */
+td.mxv .cd{color:var(--ink);font-size:1.06rem;font-weight:600;
+  font-variant-numeric:tabular-nums}
+td.mxv.b-stop{background:rgba(232,192,57,.13);
+  box-shadow:inset 0 0 0 1px rgba(232,192,57,.16)}
+td.mxv.b-tools{background:rgba(72,194,227,.12);
+  box-shadow:inset 0 0 0 1px rgba(72,194,227,.15)}
+td.mxv i{font-style:normal;font-size:.72rem;color:var(--ink2);margin-left:2px;
+  vertical-align:super;font-weight:600}
 td.mxv i.t{color:var(--bone)}
 td.mxv.unv .cd{color:#f0c674}
-td.mxv.unv::after{content:"?";font-size:.78rem;color:#f0c674;
+td.mxv.unv::after{content:"?";font-size:.72rem;color:#f0c674;
   vertical-align:super;margin-left:1px}
-/* Trash-band values are dim by rule. A dim cell cannot be misread as the
- * answer to "who stops casts". */
-td.mxv.b-trash .cd{color:var(--dim);font-size:1rem}
-td.mxx span{color:rgba(111,106,96,.45)}
+/* Trash-band values stay recessive by rule -- but --dim on this background is
+ * 2.8:1, which reads as broken rather than as secondary. --ink2 at 6.7:1 on a
+ * sunken, untinted cell is still unmistakably the quiet band without being
+ * unreadable, and it is the ONLY band whose filled cells get no colour, which
+ * is the strongest available statement that it is not a cast-stop. */
+td.mxv.b-trash{background:rgba(255,255,255,.028);
+  box-shadow:inset 0 0 0 1px rgba(198,174,132,.09)}
+td.mxv.b-trash .cd{color:var(--ink2);font-weight:500;font-size:.95rem}
+td.mxv.b-trash i{color:var(--dim)}
+.mx tbody tr.mxr:hover>td.mxv{filter:brightness(1.45)}
 
 /* my roster ------------------------------------------------------------ */
 .mxr.mine .open{color:var(--c)}
 .mxr.mine .pick img{filter:none;
   box-shadow:0 0 0 1px var(--c),0 0 12px -3px var(--c)}
-body.mypick .mxr:not(.mine){opacity:.26}
-body.mypick .mxr:not(.mine):hover{opacity:.62}
+body.mypick .mxr:not(.mine){opacity:.22}
+body.mypick .mxr:not(.mine):hover{opacity:.6}
 
-.mxlegend{display:flex;flex-wrap:wrap;gap:7px 22px;margin:0 0 10px;
-  font-size:.7rem;color:var(--dim)}
-.mxlegend i{font-style:normal;margin-right:7px;color:var(--ink2);
-  font-variant-numeric:tabular-nums}
+/* The key, above the grid rather than below it. */
+.mxlegend{display:flex;flex-wrap:wrap;gap:6px 20px;margin:0 0 12px;
+  font-size:.78rem;color:var(--ink2);align-items:center}
+.mxlegend span{display:inline-flex;align-items:center;gap:7px}
+.mxlegend i{font-style:normal;color:var(--ink);
+  font-variant-numeric:tabular-nums;background:rgba(72,194,227,.12);
+  box-shadow:inset 0 0 0 1px rgba(72,194,227,.15);padding:2px 7px;
+  min-width:30px;text-align:center;font-weight:600;font-size:.86rem}
 .mxlegend i.t{color:var(--bone)}
 .mxlegend i.unv{color:#f0c674}
-.mxlegend i.x{color:rgba(111,106,96,.45)}
+.mxlegend i.x{background:none;box-shadow:inset 0 0 0 1px rgba(198,174,132,.12)}
 
 /* ------------------------------------------------------------------ kit
  * The expanded class row -- the class-first view. "If I bring a Necromancer
@@ -208,22 +291,19 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
   grid-template-columns:minmax(0,1fr) minmax(0,1.35fr)}
 .kb-stop{grid-column:1}
 .kb-tools{grid-column:2}
-.kbl{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;
+.kbl{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;
   color:var(--bone);margin:0 0 4px;padding-bottom:7px;
   border-bottom:1px solid var(--edge)}
-.kcat{display:flex;align-items:center;gap:9px;font-size:.72rem;
-  color:var(--ink2);margin:14px 0 6px}
-.kab{font-size:.56rem;letter-spacing:.1em;font-weight:700;color:var(--bone);
-  background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);padding:2px 6px;
-  flex:none}
+.kcat{display:flex;align-items:center;gap:9px;font-size:.8rem;font-weight:600;
+  color:var(--ink);margin:14px 0 6px}
 .kittrash{grid-column:1/-1;margin:18px 0 0;padding-top:13px;
-  border-top:1px solid var(--edge);font-size:.76rem;color:var(--dim);
+  border-top:1px solid var(--edge);font-size:.82rem;color:var(--ink2);
   line-height:1.9}
 .kittrash b{color:var(--dim);font-weight:700;font-size:.6rem;
   letter-spacing:.16em;text-transform:uppercase;margin-right:10px}
 .kittrash a{color:var(--ink2);box-shadow:inset 0 -1px 0 var(--edge)}
 .kittrash i{font-style:normal;font-size:.68rem;color:var(--dim)}
-.kitgap{grid-column:1/-1;font-size:.78rem;color:var(--ink2);margin:16px 0 0;
+.kitgap{grid-column:1/-1;font-size:.85rem;color:var(--ink2);margin:16px 0 0;
   padding-top:13px;border-top:1px solid var(--edge)}
 .kitgap b{color:var(--bone);font-weight:700;font-size:.62rem;
   letter-spacing:.16em;text-transform:uppercase;margin-right:8px}
@@ -263,13 +343,13 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
 .ablist.tight .abnums .n::before{display:inline}
 .ablist.tight .ab::before{width:0}
 
-.abcls{grid-area:cls;display:flex;align-items:center;gap:9px;font-size:.82rem;
+.abcls{grid-area:cls;display:flex;align-items:center;gap:9px;font-size:.9rem;
   color:var(--ink);min-width:0}
 .abcls img{width:22px;height:22px;flex:none;
   box-shadow:0 0 0 1px rgba(0,0,0,.8)}
 .abcls b{font-weight:600;
   box-shadow:inset 0 -1px 0 color-mix(in srgb,var(--c) 60%,transparent)}
-.abname{grid-area:name;font-size:.88rem;font-weight:600;color:var(--ink);
+.abname{grid-area:name;font-size:.96rem;font-weight:600;color:var(--ink);
   min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 2px}
 .abname>a{box-shadow:inset 0 -1px 0 var(--edge2)}
 .abname>a:hover{color:var(--c)}
@@ -280,7 +360,7 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
   letter-spacing:-.02em;color:var(--bone);font-variant-numeric:tabular-nums}
 
 .abnums{grid-area:nums;display:flex;gap:0;flex:none}
-.abnums .n{font-size:.78rem;color:var(--ink2);text-align:right;
+.abnums .n{font-size:.85rem;color:var(--ink2);text-align:right;
   font-variant-numeric:tabular-nums;white-space:nowrap}
 .abnums .cd{width:70px;color:var(--ink);font-weight:600}
 .abnums .cost{width:96px}
@@ -288,7 +368,7 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
 .abnums .n::before{content:attr(data-l) " ";display:none;font-size:.58rem;
   letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
 
-.abdesc{grid-area:desc;font-size:.78rem;color:var(--dim);line-height:1.5;
+.abdesc{grid-area:desc;font-size:.83rem;color:var(--ink2);line-height:1.5;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
   overflow:hidden}
 .ab:hover .abdesc{-webkit-line-clamp:8}
@@ -297,18 +377,18 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
  * labelled columns -- without the 940px min-width that came with it. Hidden
  * on a phone, where every number carries its own inline label. */
 .abhead{background:#0b0f14;padding:8px 15px 8px 14px;
-  font-size:.6rem!important;letter-spacing:.16em;text-transform:uppercase;
+  font-size:.66rem!important;letter-spacing:.16em;text-transform:uppercase;
   color:var(--bone);font-weight:700}
 .abhead::before{display:none}
 .abhead:hover{background:#0b0f14}
-.abhead .abcls,.abhead .abname,.abhead .n{font-size:.6rem;color:var(--bone);
+.abhead .abcls,.abhead .abname,.abhead .n{font-size:.66rem;color:var(--bone);
   font-weight:700;letter-spacing:.16em}
 .abhead .abname{text-decoration:none}
 
 /* chips ---------------------------------------------------------------- */
 .abchips{display:inline-flex;flex-wrap:wrap;gap:5px;margin-left:9px;
   vertical-align:middle}
-.chip{font-size:.6rem;letter-spacing:.06em;font-weight:600;padding:1px 6px;
+.chip{font-size:.66rem;letter-spacing:.04em;font-weight:600;padding:1px 6px;
   white-space:nowrap;color:var(--dim);box-shadow:inset 0 0 0 1px var(--edge)}
 .chip.spec{color:var(--ink2)}
 .chip.tal{color:var(--bone);font-variant-numeric:tabular-nums}
@@ -336,7 +416,7 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
 .lowsec>summary .lbl{color:var(--dim);margin:0}
 .lowsec>summary .lbl::after{background:linear-gradient(90deg,
   rgba(198,174,132,.18),transparent)}
-.lowhint{font-size:.78rem;color:var(--dim);max-width:74ch;line-height:1.55}
+.lowhint{font-size:.86rem;color:var(--ink2);max-width:74ch;line-height:1.55}
 .lowsec>summary::after{content:"Show";position:absolute;right:19px;
   font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;
   color:var(--bone)}
@@ -352,8 +432,11 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
 .utilsec.empty,.bandblock.empty,.lowsec.empty{display:none}
 
 /* --------------------------------------------------------- responsive */
+@media (max-width:1180px){
+  .scarcity{grid-template-columns:repeat(5,1fr)}
+}
 @media (max-width:1080px){
-  .scarcity{grid-template-columns:repeat(4,1fr)}
+  .mx thead th.mxh{font-size:.76rem}
 }
 @media (max-width:900px){
   .abhead{display:none}
@@ -369,26 +452,56 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
   .kb-stop,.kb-tools{grid-column:1}
   .kb-tools{margin-top:20px}
 }
+/* THE PHONE IS NOT A NARROW DESKTOP.
+ *
+ * A 21x10 matrix at 390px was a 482px sideways scroll with 11.2px numbers and
+ * an 8.6px header, and six of the ten columns lived off-screen behind an
+ * affordance the page never offered. Worse, at 40% fill the matrix spends most
+ * of its width printing absence -- which is exactly the wrong trade when width
+ * is the scarce resource.
+ *
+ * So below 720px the grid stops being a matrix and becomes what a matrix is
+ * for on a phone: one block per class listing only the tools it HAS, each
+ * labelled with its own column name. No sideways scroll, no 8px type, no empty
+ * cells, and the band colours still separate cast control from trash. */
 @media (max-width:720px){
-  .scarcity{grid-template-columns:repeat(2,1fr);margin-bottom:34px}
-  .scnum{font-size:1.3rem}
-  table.mx{min-width:0;font-size:.74rem;table-layout:auto}
-  .mx .mxc{width:auto}
-  .mx thead th.mxc{padding:9px 10px}
-  .mxcin{max-width:118px}
-  .mxr .open{font-size:.74rem;line-height:1.15;white-space:normal;
-    padding:9px 4px 9px 0}
-  .mxr .pick{padding-left:7px}
-  .mxr .pick img{width:18px;height:18px}
-  .mx thead th.mxh{font-size:.54rem;padding:8px 0}
-  .mx .mxh{width:42px}
-  .mx tbody td{padding:8px 1px}
-  td.mxv .cd{font-size:.7rem}
-  .mxbands td{font-size:.5rem;letter-spacing:.08em;padding:6px 2px}
+  .scarcity{grid-template-columns:repeat(2,1fr);margin-bottom:30px}
+  .scnum,.sc.t-rare .scnum{font-size:1.5rem}
+  .scname{min-height:0}
+
+  .mxwrap{overflow-x:visible;background:transparent;box-shadow:none}
+  table.mx{min-width:0;display:block;font-size:1rem}
+  .mx thead{display:none}
+  .mx tbody{display:block}
+  .mx tr.mxr:not([hidden]){display:flex;flex-wrap:wrap;align-items:center;gap:4px;
+    padding:5px 9px 8px;background:#0b0f14;
+    box-shadow:0 0 0 1px var(--edge);margin:0 0 5px}
+  .mx tbody tr.mxr>.mxc{display:block;flex:1 0 100%;position:static;
+    background:none;border:0;padding:0;box-shadow:none}
+  .mxcin{gap:9px}
+  .mxr .open{font-size:1rem;padding:6px 0}
+  .mxr .pick{padding:4px 0}
+  /* absence costs zero width */
+  .mx tbody td.mxx{display:none}
+  .mx tbody td.mxv{display:inline-flex;align-items:baseline;gap:6px;
+    width:auto;padding:3px 8px 4px;border-bottom:0;font-size:.9rem}
+  .mx tbody td.mxv::before{content:attr(data-l);font-size:.72rem;
+    color:var(--ink2);font-weight:500}
+  td.mxv .cd{font-size:.95rem}
+  td.mxv.b-trash::before{color:var(--dim)}
+  .mx .b-trash.bstart{box-shadow:inset 0 0 0 1px rgba(198,174,132,.12)}
+  .mx tbody tr.mxr:hover>td.mxv{filter:none}
+  .mx tr.kitrow:not([hidden]),.mx tr.kitrow:not([hidden])>td{
+    display:block;width:100%}
   .kitrow>td{box-shadow:inset 3px 0 0 var(--c)}
   .kit{padding:14px}
+
+  .mxlegend{font-size:.76rem;gap:5px 14px}
   .lowsec>.utilsec{padding:0 13px}
   .lbl.bigrule{margin-top:40px}
+  .rbhead{gap:6px}
+  .cfrow{gap:3px}
+  .cf img{width:32px;height:32px}
 }
 
 
@@ -401,11 +514,11 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
    the tab bar is hidden when JS is off (see the noscript block in mksite.py),
    so the page falls back to exactly the long-scroll version rather than to a
    blank screen. */
-.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 30px;
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 22px;
   padding-bottom:12px;border-bottom:1px solid var(--edge)}
 .tab{font:inherit;font-size:.86rem;letter-spacing:.01em;cursor:pointer;
   background:transparent;color:var(--ink2);border:1px solid var(--edge);
-  border-radius:99px;padding:8px 15px;display:inline-flex;align-items:center;
+  border-radius:99px;padding:7px 13px;display:inline-flex;align-items:center;
   gap:7px;white-space:nowrap;transition:color .12s,border-color .12s}
 .tab:hover{color:var(--ink);border-color:var(--bone)}
 .tab i{font-style:normal;font-size:.7rem;font-weight:700;color:var(--dim);
@@ -417,7 +530,7 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
 .tab.tb-trash{color:var(--dim);border-color:rgba(198,174,132,.13)}
 .tab.tb-trash.on{color:var(--dim);border-color:var(--dim)}
 .panel[hidden]{display:none}
-.bandnote{font-size:.78rem;letter-spacing:.03em;margin:0 0 22px;
+.bandnote{font-size:.9rem;letter-spacing:.01em;margin:0 0 22px;
   padding:9px 13px;border-radius:7px;border:1px solid var(--edge);
   color:var(--ink2);background:var(--panel)}
 .bandnote.bn-stop{border-color:rgba(240,198,116,.3);color:#f0c674}
@@ -428,29 +541,35 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
   .tab{font-size:.8rem;padding:7px 12px}
 }
 
-/* class filter -------------------------------------------------------------
-   The other end of the roster question: "show me what these five bring",
-   rather than "who has an interrupt". Icons because that is the affordance a
-   WoW player already reads. */
-.clsfilter{margin:26px 0 0}
-.cfl{display:block;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--c);margin:0 0 10px}
-.cfrow{display:flex;flex-wrap:wrap;gap:5px}
+/* your roster --------------------------------------------------------------
+   ONE selection, two entry points. This band and the icon on every grid row
+   write to the same state: picking a class dims the rest of the grid, filters
+   the ability lists, and recounts the scarcity strip against the raid you
+   actually have. Previously the top band was a "filter" (opacity .18) and the
+   grid icon was a "roster" (opacity .26) -- two mechanisms that looked almost
+   identical, did almost the same thing, and never referred to each other. */
+.roster-band{margin:0 0 4px}
+.rbhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 9px}
+.cfl{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--bone);font-weight:700}
+.rbhint{font-size:.84rem;color:var(--ink2)}
+.cfrow{display:flex;flex-wrap:wrap;gap:4px}
 .cf{position:relative;background:transparent;border:1px solid transparent;
-  border-radius:8px;padding:3px;cursor:pointer;line-height:0;opacity:.42;
+  padding:2px;cursor:pointer;line-height:0;opacity:.5;
   transition:opacity .12s,border-color .12s}
-.cf img{border-radius:5px;display:block}
+.cf img{display:block}
 .cf span{position:absolute;left:50%;top:calc(100% + 6px);transform:translateX(-50%);
-  background:var(--panel);border:1px solid var(--edge);border-radius:5px;
-  padding:3px 7px;font-size:.68rem;color:var(--ink);white-space:nowrap;
+  background:var(--panel);box-shadow:0 0 0 1px var(--edge2);
+  padding:3px 7px;font-size:.72rem;color:var(--ink);white-space:nowrap;
   opacity:0;pointer-events:none;transition:opacity .1s;z-index:6;line-height:1.2}
-.cf:hover{opacity:.85}
+.cf:hover{opacity:.9}
 .cf:hover span{opacity:1}
-.cf.on{opacity:1;border-color:var(--c)}
-.cfclear{margin-top:10px;font:inherit;font-size:.74rem;background:transparent;
-  border:1px solid var(--edge);border-radius:99px;padding:5px 13px;
+.cf.on{opacity:1;border-color:var(--c);
+  box-shadow:0 0 12px -4px var(--c)}
+.cfclear{margin-left:auto;font:inherit;font-size:.76rem;background:transparent;
+  box-shadow:inset 0 0 0 1px var(--edge);border:0;padding:5px 13px;
   color:var(--ink2);cursor:pointer}
-.cfclear:hover{color:var(--c);border-color:var(--c)}
+.cfclear:hover{color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
 .mxr.dimmed{opacity:.18}
 .utilsec.empty{display:none}
 
