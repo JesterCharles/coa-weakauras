@@ -68,11 +68,57 @@ _SPELL = re.compile(r"^- \[(?P<name>.+?)\]\("
                     r"https://db\.exil\.es/spell/(?P<id>\d+)\)"
                     r"(?:\s*\((?P<ranks>\d+) ranks?\))?\s*$")
 # ### Pyromancer â Flameweaving (slug: `pyromancer-destruction`)
-_TREE = re.compile(r"^### .*?\(slug: `(?P<slug>[^`]+)`\)\s*$")
+# ### Stormbringer - Maelstrom (slug: `stormbringer-gifts`)
+# BOTH halves are captured and the LABEL is the trustworthy one. The slug is
+# not: `stormbringer-gifts` is the Maelstrom tree, and `pyromancer-destruction`
+# is the FLAMEWEAVING tree -- which is the healing spec. Read the label.
+_TREE = re.compile(r"^###\s+(?P<label>.+?)\s+\(slug: `(?P<slug>[^`]+)`\)\s*$")
 # - (row 0, col 1) Ember Touch — [spell](https://db.exil.es/spell/800818)
 _TALENT = re.compile(r"^- \(row (?P<row>\d+), col (?P<col>\d+)\) "
                      r"(?P<name>.+?) [-—–]+ \[spell\]\("
                      r"https://db\.exil\.es/spell/(?P<id>\d+)\)\s*$")
+
+
+# A run that looks like utf-8 read as latin-1: a lead byte in the C2/C3/E2
+# range followed by continuation bytes. The SOURCE serves the digest this way
+# -- refetching with an explicit utf-8 decode does not help, because the bytes
+# genuinely are the utf-8 encoding of U+00E2 U+0080 U+0094 rather than of the
+# em-dash itself. Six ability names across four classes carry it too
+# (`Vol’jin’s Vigil` and friends), and left alone it breaks every
+# name join against another source.
+_MOJIBAKE = re.compile(r"[Â-Ãâ][-¿]+")
+
+
+def _demojibake(t):
+    """Round-trip the mis-decoded runs back to the characters they meant.
+
+    Only the runs matching _MOJIBAKE are touched, so a name with a legitimately
+    accented character is left alone.
+    """
+    def fix(m):
+        try:
+            return m.group(0).encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            return m.group(0)      # not actually mojibake; leave it
+    return _MOJIBAKE.sub(fix, t)
+
+
+def _spec_of(label):
+    """"Stormbringer - Maelstrom" -> "Maelstrom". Class root tree -> None.
+
+    THE LABEL IS AUTHORITATIVE AND THE SLUG IS NOT. `stormbringer-gifts` is the
+    Maelstrom tree; `pyromancer-destruction` is the FLAMEWEAVING tree, which is
+    the healing spec; `felsworn-felblood` is Infernal. Reading slugs as spec
+    names is wrong on at least three classes.
+
+    Split on a dash, not on `\\W`. The mojibake lead byte U+00E2 is a Unicode
+    WORD character, so a `\\W` split silently matched nothing and returned None
+    for every spec -- which reads exactly like "this class has no specs".
+    """
+    parts = re.split(r"\s*[‐-―\-]+\s*", _demojibake(label), maxsplit=1)
+    if len(parts) < 2:
+        return None
+    return parts[1].strip() or None
 
 
 def digest(slug, refresh=False):
@@ -82,8 +128,13 @@ def digest(slug, refresh=False):
     if refresh or not os.path.exists(path):
         url = URL.format(slug=slug)
         sources.require(url)        # policy gate -- see tools/sources.py
-        out = subprocess.run(["curl", "-s", "-m", "40", url],
-                             capture_output=True, text=True).stdout
+        # Bytes, then an EXPLICIT utf-8 decode. `text=True` decodes with the
+        # locale encoding, and on a latin-1 locale that turns every em-dash in
+        # the tree headers into `\xe2\x80\x94` mojibake -- which is then
+        # cached, so the corruption outlives the run that caused it.
+        raw = subprocess.run(["curl", "-s", "-m", "40", url],
+                             capture_output=True).stdout
+        out = raw.decode("utf-8", "replace")
         if not out.startswith("#"):
             raise SystemExit(
                 f"exiles: {url} did not return a digest "
@@ -91,7 +142,7 @@ def digest(slug, refresh=False):
                 f"Check the slug against `python3 tools/classes.py`.")
         open(path, "w", encoding="utf-8").write(out)
         print(f"  downloaded {len(out):,} bytes -> {path}")
-    return open(path, encoding="utf-8").read()
+    return _demojibake(open(path, encoding="utf-8").read())
 
 
 def parse(text):
@@ -106,7 +157,9 @@ def parse(text):
         m = _TREE.match(line)
         if m:
             tree = m.group("slug")
-            trees.setdefault(tree, [])
+            trees.setdefault(tree, {"label": m.group("label"),
+                                    "spec": _spec_of(m.group("label")),
+                                    "rows": []})
             continue
         if section and section.startswith("Trainable"):
             m = _SPELL.match(line)
@@ -127,8 +180,9 @@ def parse(text):
         if tree:
             m = _TALENT.match(line)
             if m:
-                trees[tree].append((int(m.group("row")), int(m.group("col")),
-                                    m.group("name"), int(m.group("id"))))
+                trees[tree]["rows"].append(
+                    (int(m.group("row")), int(m.group("col")),
+                     m.group("name"), int(m.group("id"))))
     return spells, trees
 
 
@@ -181,9 +235,10 @@ def main(argv=None):
         print(f"\n  Mind of Ascension trees -- A HINT, NOT SPEC MEMBERSHIP.")
         print(f"  db.exil.es FILES a talent under a tree; that is not the same "
               f"as which spec can\n  cast it. Read it, do not import it.")
-        for slug, rowsl in sorted(trees.items()):
-            print(f"\n  {slug}  ({len(rowsl)} talents)")
-            for r, c, name, sid in rowsl:
+        for slug, t in sorted(trees.items()):
+            print(f"\n  {t['label']}  [spec={t['spec'] or 'class-wide'}]  "
+                  f"(slug {slug}, {len(t['rows'])} talents)")
+            for r, c, name, sid in t["rows"]:
                 print(f"    r{r} c{c:<2} {name[:44]:44} {sid}")
 
     if args.dry_run:

@@ -183,6 +183,42 @@ Two traps found while doing it:
   `target_a 6` and its tooltip reads "on a friendly target", so purges are
   identified from effect + tooltip together, never from the target flag alone.
 
+## Reading the Spec column
+
+The spell page states one of three things, and they are NOT the same:
+
+| Page says | Column | Means |
+|---|---|---|
+| `Runemaster` | `all` | Baseline. Every spec has it, no talent point. |
+| `Barbarian · Barbarian (row 1, col 5)` | `all (tree)` | A talent in the **class** tree. Any spec can take it, but it **costs a point**. |
+| `Stormbringer · Stormbringer — Maelstrom (row 5, col 8)` | `Maelstrom` | A talent in that **spec's** tree. |
+
+So `all` and `all (tree)` differ in whether the raid can assume it is present:
+baseline is always there, a class-tree talent is a build choice.
+
+Where a class has a reviewed `resources/abilities-<slug>.md`, its Specs column
+wins over the tree -- that is why Runemaster and Chronomancer rows read
+`glyphic,engravement,riftblade` and `artificer,infinite,time` instead of `all`.
+
+**The tree LABEL is authoritative; the tree SLUG is not.** `stormbringer-gifts`
+is the Maelstrom tree, `felsworn-felblood` is Infernal, and
+`pyromancer-destruction` is FLAMEWEAVING -- the healing spec. Reading slugs as
+spec names is wrong on at least three classes, so the parser reads the label.
+
+## ⚠ probably not in the game
+
+An ability marked ⚠ has **no icon on db.ascension.gg**, and a CoA ability with
+no art is very likely unimplemented, cut, or a leftover database row. 26 of the
+126 abilities here are marked, including `Wrist Snap`, `Halt`, `Solar Burn`,
+`Throatpunch` and `Distracto Shot` -- five of the twenty-four interrupts.
+
+This is a STRONG HINT, not a verdict: only logging in settles it. The list
+lives in `resources/icon-missing.json`; confirm one in game and delete its id
+(recording it under `confirmed_present`), then regenerate.
+
+It matters most for the interrupt table. If those five are not real, five
+classes lose their only listed interrupt.
+
 ## The "Usable on Boss" column
 
 **Blank means untested, not "no".** Nothing in db.exil.es records immunity, so
@@ -278,6 +314,24 @@ def boss_usable():
     return {str(k): (v.get("boss") or "").strip() for k, v in raw.items()}
 
 
+def no_icon():
+    """Spell ids with no art on db.ascension.gg -- probably not in the game.
+
+    A CoA ability with no icon is very likely unimplemented, cut, or a
+    leftover database row. That is a judgement the user raised about `Wrist
+    Snap` and it generalises: 26 of the 126 abilities in these tables have no
+    art at all.
+
+    Tracked in resources/icon-missing.json rather than recomputed here, so the
+    page regenerates without a scrape and a confirmed-in-game id can be removed
+    by hand and stay removed.
+    """
+    p = data("icon-missing.json")
+    if not os.path.exists(p):
+        return set()
+    return set(json.load(open(p, encoding="utf-8")).get("ids") or {})
+
+
 def owners():
     """spell id -> [(class name, ability name)], from the cached class digests.
 
@@ -301,11 +355,19 @@ def owners():
                   file=sys.stderr)
             continue
         for name, (sid, _r) in spells.items():
-            out[str(sid)].append((c.name, name))
-        for _slug, rows in trees.items():
-            for _r, _col, name, sid in rows:
-                if (c.name, name) not in out[str(sid)]:
-                    out[str(sid)].append((c.name, name))
+            out[str(sid)].append((c.name, name, None))
+        for _slug, t in trees.items():
+            for _r, _col, name, sid in t["rows"]:
+                # THREE distinct states, and the spell page spells them out:
+                #   "Runemaster"                        -> baseline, no point
+                #   "Barbarian . Barbarian (row 1..)"   -> CLASS tree talent
+                #   "Stormbringer . Stormbringer - Maelstrom (row 5..)"
+                #                                       -> SPEC tree talent
+                # The tree LABEL carries the spec; the slug does not and is
+                # wrong on three classes. A root-tree talent is available to
+                # every spec but still COSTS A POINT, so it is not the same as
+                # baseline and must not render as plain `all`.
+                out[str(sid)].append((c.name, name, t["spec"] or "all (tree)"))
     return out
 
 
@@ -435,6 +497,7 @@ def classify(d):
 
 def main(argv):
     own, inv, cache, boss = owners(), inventory(), spells(), boss_usable()
+    noart = no_icon()
     buckets = collections.defaultdict(list)
     for sid, d in cache.items():
         if sid not in own:
@@ -454,16 +517,31 @@ def main(argv):
         print(f"\n## {TITLES[cat]}\n\n{EFFNOTE[cat]}\n")
         rows = []
         for sid, d in buckets.get(cat, []):
-            for cname, _a in own[sid]:
+            for cname, _a, tree_spec in own[sid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
                 mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
-                rows.append((c.id, cname, inv.get((c.slug, int(sid)), "?"),
+                if sid in noart:
+                    mark += " ⚠"
+                # Reviewed inventory wins; the tree label is the fallback and
+                # covers the 18 classes that have no inventory. `all` means the
+                # talent sits in the class root tree, not a spec tree.
+                # A spell in the roster but in NO spec tree is inherent to the
+                # whole class -- that is what "just the class name" means on
+                # the spell page (Ley Lock reads plain "Runemaster"). So the
+                # fallback is `all`, not `?`. `?` now only survives if a class
+                # has no digest at all.
+                spec = inv.get((c.slug, int(sid))) or tree_spec or "all"
+                rows.append((c.id, cname, spec,
                              f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
                              boss.get(sid, ""),
                              fmt_cd(d.get("cooldown_ms")), fmt_cost(d),
                              fmt_cast(d), desc(d), d["name"]))
         seen, out = set(), []
-        for r in sorted(rows):
+        # A spell listed BOTH as a trainable class spell and as a talent in a
+        # spec tree yields two rows; keep the one naming a real spec.
+        # `all (tree)` is INFORMATIVE, so it outranks a bare roster listing.
+        _generic = lambda sp: sp in ("all", "?")            # noqa: E731
+        for r in sorted(rows, key=lambda x: (x[0], x[1], x[9], _generic(x[2]))):
             if (r[1], r[9]) in seen:
                 continue
             seen.add((r[1], r[9]))
