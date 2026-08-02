@@ -401,3 +401,38 @@ footer a:hover{color:var(--c)}
    in-game list say the same thing. */
 .packver{color:var(--ink)}
 .packver.unver{color:#f0c674}
+
+/* raid utility page --------------------------------------------------------
+   Ten wide tables of reference data. The job is scanning, not reading: a raid
+   lead wants "who has an interrupt" answered at a glance, so the class column
+   is the anchor and everything else is secondary weight. */
+main > h1{margin:0 0 6px}
+.lede{color:var(--ink2);max-width:62ch;margin:0 0 18px;line-height:1.5}
+.utilnav{display:flex;flex-wrap:wrap;gap:6px 8px;margin:0 0 30px;
+  padding:12px 14px;background:var(--panel);border:1px solid var(--edge);
+  border-radius:8px}
+.utilnav a{font-size:.78rem;letter-spacing:.02em;padding:3px 9px;
+  border:1px solid var(--edge);border-radius:99px;text-decoration:none;
+  color:var(--ink2)}
+.utilnav a:hover{color:var(--c);border-color:var(--c)}
+main > section{margin:0 0 44px;scroll-margin-top:18px}
+main > section > h2{margin:0 0 6px;font-size:1.05rem}
+p.note{color:var(--dim);font-size:.8rem;line-height:1.55;max-width:78ch;
+  margin:0 0 14px}
+p.note code{font-size:.94em}
+/* Tables are wider than a phone. Scroll the TABLE, never the page -- a
+   horizontally scrolling body makes every other section unreadable too. */
+.tablewrap{overflow-x:auto;border:1px solid var(--edge);border-radius:8px}
+.tablewrap table{min-width:940px;font-size:.8rem}
+.tablewrap td{vertical-align:top}
+td.sc .rc{display:block;color:var(--dim);font-size:.7rem;
+  font-variant-numeric:tabular-nums}
+td.obs{white-space:nowrap;font-size:.78rem;color:var(--ink2)}
+.tallies{color:var(--dim);font-size:.76rem;margin:10px 2px 0}
+.tag{display:inline-block;font-size:.6rem;letter-spacing:.08em;
+  text-transform:uppercase;padding:1px 5px;border-radius:4px;
+  vertical-align:middle;font-weight:600}
+.tag.int{background:rgba(120,190,255,.14);color:#78beff;
+  border:1px solid rgba(120,190,255,.3)}
+.tag.warn{background:rgba(240,198,116,.14);color:#f0c674;
+  border:1px solid rgba(240,198,116,.34)}

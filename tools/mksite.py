@@ -141,6 +141,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
   </a>
   <nav>
     <a href="{up}index.html">Classes</a>
+    <a href="{up}raid-utility.html">Raid utility</a>
     <a href="{REPO}">GitHub</a>
   </nav>
 </header>
@@ -633,6 +634,102 @@ def _check_verified(classes, allow_unverified):
     print("  --allow-unverified: publishing anyway, badged on the page")
 
 
+UTILITY_INTRO = (
+    "Who brings an interrupt, a battle rez, a purge, a spellsteal and an "
+    "enrage removal &mdash; across all 21 Conquest of Azeroth classes. "
+    "Classified by spell effect id from db.exil.es, not by tooltip text. "
+    "Every ability links to its spell page.")
+
+
+def utility_tables_page():
+    """The raid-utility tables as HTML, from the SAME rows as the markdown.
+
+    Imports tools/utility_tables.py rather than parsing notes/raid-utility.md
+    back: one source, two renderings, and no markdown parser to keep honest.
+    Returns None if the local spell mirror is absent, so a clone without
+    tools/spellchk/ still builds the rest of the site.
+    """
+    try:
+        from utility_tables import tables
+        data_tables = tables()
+    except Exception as e:                       # noqa: BLE001
+        print(f"  !! raid utility page skipped: {e}")
+        return None
+    if not any(rows for _c, _t, _n, _col, rows, _m in data_tables):
+        print("  !! raid utility page skipped: no rows (empty spell mirror?)")
+        return None
+
+    nav = " ".join(
+        f'<a href="#{cat}">{html.escape(title.split(". ", 1)[-1])}</a>'
+        for cat, title, _n, _col, rows, _m in data_tables if rows)
+    out = [f'<main><h1>Raid utility</h1><p class="lede">{UTILITY_INTRO}</p>',
+           f'<p class="utilnav">{nav}</p>']
+    for cat, title, note, col, rows, missing in data_tables:
+        if not rows:
+            continue
+        out.append(f'<section id="{cat}"><h2>{html.escape(title)}</h2>')
+        out.append(f'<p class="note">{_md_inline(note)}</p>')
+        out.append('<div class="tablewrap"><table><thead><tr>'
+                   f'<th>Class</th><th>Spec</th><th>Ability</th><th>{col}</th>'
+                   '<th>CD</th><th>Cost</th><th>Cast</th><th>Description</th>'
+                   '</tr></thead><tbody>')
+        for _i, cn, sp, rc, nm, url, marks, ob, cd, co, ca, ds, _sid in rows:
+            spec = html.escape(sp)
+            if rc:
+                spec += f'<br><span class="rc">{html.escape(rc)}</span>'
+            tag = ""
+            if "int" in marks:
+                tag += ' <span class="tag int" title="also interrupts non-player casting">int</span>'
+            if "noicon" in marks:
+                tag += ' <span class="tag warn" title="no icon on db.ascension.gg -- may not be in the game">?</span>'
+            out.append(
+                f'<tr><td class="b">{html.escape(cn)}</td>'
+                f'<td class="sc">{spec}</td>'
+                f'<td class="b"><a href="{url}" rel="noopener">{html.escape(nm)}</a>{tag}</td>'
+                f'<td class="obs">{html.escape(ob)}</td>'
+                f'<td class="num">{html.escape(cd)}</td>'
+                f'<td class="num">{html.escape(co)}</td>'
+                f'<td class="num">{html.escape(ca)}</td>'
+                f'<td class="items">{html.escape(ds)}</td></tr>')
+        out.append("</tbody></table></div>")
+        note2 = (f"{len(rows)} across {len({r[1] for r in rows})} classes."
+                 + (f" None for: {', '.join(missing)}." if missing else
+                    " Every class has one."))
+        out.append(f'<p class="tallies">{html.escape(note2)}</p></section>')
+    out.append("</main>")
+    return "\n".join(out)
+
+
+def _md_inline(t):
+    """Just enough inline markdown for the generated notes: `code` and **bold**."""
+    t = html.escape(t)
+    t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
+    t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
+    return t.replace("\n\n", "<br><br>")
+
+
+def build_utility_only():
+    """Write docs/raid-utility.html and touch NOTHING else.
+
+    The full build republishes every pack, and the verified gate rightly
+    refuses while any class is unconfirmed in game. That gate is about packs
+    players download; the utility page is generated reference data and shares
+    none of that risk. Separating them means a pending class cannot hold the
+    page hostage, and adding the page cannot smuggle an unverified pack onto
+    the live site as a side effect.
+    """
+    util = utility_tables_page()
+    if not util:
+        raise SystemExit("no raid-utility page produced")
+    out = os.path.join(DOCS, "raid-utility.html")
+    open(out, "w", encoding="utf-8").write(page(
+        "Raid utility - CoA", util, depth=0,
+        desc="Interrupts, battle rezzes, purges, spellsteals and enrage "
+             "removals across all 21 CoA classes."))
+    print(f"  wrote {out}")
+    return 0
+
+
 def build(allow_unverified=False):
     os.makedirs(os.path.join(DOCS, "packs"), exist_ok=True)
     os.makedirs(os.path.join(DOCS, "assets"), exist_ok=True)
@@ -664,6 +761,16 @@ def build(allow_unverified=False):
         if min(w, h) < 56:
             print(f"  !! {c['slug']} class icon is {w}x{h}, want 56x56 "
                   f"(renders soft at 72px)")
+
+    # ------------------------------------------------------- raid utility
+    util = utility_tables_page()
+    if util:
+        open(os.path.join(DOCS, "raid-utility.html"), "w",
+             encoding="utf-8").write(page(
+                 "Raid utility - CoA", util, depth=0,
+                 desc="Interrupts, battle rezzes, purges, spellsteals and "
+                      "enrage removals across all 21 CoA classes."))
+        print("  wrote raid-utility.html")
 
     # -------------------------------------------------- per-class pack pages
     for c in classes:
@@ -841,5 +948,7 @@ def build(allow_unverified=False):
 
 
 if __name__ == "__main__":
+    if "--utility-only" in sys.argv:
+        sys.exit(build_utility_only())
     build("--allow-unverified" in sys.argv)
     print("\nsite written to docs/")

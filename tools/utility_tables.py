@@ -649,7 +649,14 @@ def classify(d):
     return None
 
 
-def main(argv):
+def tables():
+    """[(cat, title, note, column, rows)] -- the structured tables.
+
+    Split out so the site can render the SAME rows as HTML without
+    parsing the markdown back. One source, two outputs.
+    Each row is (class, spec, name, url, marks, observed, cd, cost,
+    cast, desc).
+    """
     own, inv, cache = owners(), inventory(), spells()
     boss, reagent = observed()
     noart, gone = no_icon()
@@ -704,75 +711,76 @@ def main(argv):
             continue
         buckets[cat].append((sid, d))
 
-    if "--check" in argv:
-        print(f"{len(cache)} spells in the mirror, {len(own)} owned by a class")
-        for cat in ORDER:
-            print(f"  {cat:11} {len(buckets.get(cat, []))}")
-        return 0
-
-    print(FRONT)
+    out_tables = []
     for cat in ORDER:
-        print(f"\n## {TITLES[cat]}\n\n{EFFNOTE[cat]}\n")
+        col = "Reagent Required" if cat == "rez" else "Usable on Boss"
         rows = []
         for sid, d in buckets.get(cat, []):
             for cname, _a, tree_spec, rc in own[sid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
-                mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
-                if sid in noart:
-                    mark += " ⚠"
-                # Reviewed inventory wins; the tree label is the fallback and
-                # covers the 18 classes that have no inventory. `all` means the
-                # talent sits in the class root tree, not a spec tree.
-                # A spell in the roster but in NO spec tree is inherent to the
-                # whole class -- that is what "just the class name" means on
-                # the spell page (Ley Lock reads plain "Runemaster"). So the
-                # fallback is `all`, not `?`. `?` now only survives if a class
-                # has no digest at all.
                 spec = inv.get((c.slug, int(sid))) or tree_spec or "all"
-                # The tree position goes UNDER the spec, so a talent row says
-                # where to spend the point. `<br>` because a markdown cell has
-                # no other line break, and it survives the copy block.
-                if rc:
-                    spec = f"{spec}<br>{rc}"
-                rows.append((c.id, cname, spec,
-                             f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
+                marks = []
+                if NPC_INTERRUPT.search(d.get("description") or ""):
+                    marks.append("int")
+                if sid in noart:
+                    marks.append("noicon")
+                rows.append((c.id, cname, spec, rc or "", d["name"],
+                             f"https://db.exil.es/spell/{sid}", marks,
                              (reagent if cat == "rez" else boss).get(sid, ""),
                              fmt_cd(d.get("cooldown_ms")), fmt_cost(d),
-                             fmt_cast(d), desc(d), d["name"], sid))
-        seen, out = set(), []
-        # Dedupe on the SPELL ID, not the name. A spell listed both as a
-        # trainable class spell and as a spec-tree talent yields two rows for
-        # ONE id -- that is what needs collapsing. Keying on the name instead
-        # silently dropped one of two DIFFERENT abilities that share a name:
-        # Cultist has `Protection From Light` twice, 704434 as a passive raid
-        # aura and 804065 as a 30s active cooldown, and only one survived.
-        # `all (tree)` is INFORMATIVE, so it outranks a bare roster listing.
-        _generic = lambda sp: sp.split("<br>")[0] in ("all", "?")   # noqa: E731
-        for r in sorted(rows, key=lambda x: (x[0], x[1], x[10], _generic(x[2]))):
-            if (r[1], r[10]) in seen:
+                             fmt_cast(d), desc(d), sid))
+        seen, keep = set(), []
+        _generic = lambda sp: sp in ("all", "?")            # noqa: E731
+        for r in sorted(rows, key=lambda x: (x[0], x[1], x[12], _generic(x[2]))):
+            if (r[1], r[12]) in seen:
                 continue
-            seen.add((r[1], r[10]))
-            out.append(r)
-        if not out:
+            seen.add((r[1], r[12]))
+            keep.append(r)
+        missing = sorted({c.name for c in CLASSES.values()} - {r[1] for r in keep})
+        out_tables.append((cat, TITLES[cat], EFFNOTE[cat], col, keep, missing))
+    return out_tables
+
+
+def _md_spec(spec, rc):
+    """Spec cell for markdown: position under the spec, `<br>` for the break."""
+    return f"{spec}<br>{rc}" if rc else spec
+
+
+def _md_name(name, url, marks):
+    s = f"[{name}]({url})"
+    if "int" in marks:
+        s += " **(int)**"
+    if "noicon" in marks:
+        s += " \u26a0"
+    return s
+
+
+def main(argv):
+    out_tables = tables()
+    if "--check" in argv:
+        for cat, _t, _n, _c, rows, _m in out_tables:
+            print(f"  {cat:16} {len(rows)}")
+        return 0
+
+    print(FRONT)
+    for cat, title, note, col, rows, missing in out_tables:
+        print(f"\n## {title}\n\n{note}\n")
+        if not rows:
             print("_None found._\n")
             continue
-        # The rez table asks a different question: a battle rez is on a
-        # player, so boss immunity is meaningless, while the reagent is the
-        # thing that stops you casting it.
-        col = "Reagent Required" if cat == "rez" else "Usable on Boss"
         head = (f"| Class | Spec | Ability | {col} | CD | "
                 "Materials Required | Cast Time | Description |")
         rule = "|---|---|---|---|---|---|---|---|"
-        body = [f"| {cn} | {sp} | {nm} | {bo} | {cd} | {co} | {ca} | {ds} |"
-                for _i, cn, sp, nm, bo, cd, co, ca, ds, _raw, _sid in out]
+        body = [f"| {cn} | {_md_spec(sp, rc)} | {_md_name(nm, url, mk)} | "
+                f"{ob} | {cd} | {co} | {ca} | {ds} |"
+                for _i, cn, sp, rc, nm, url, mk, ob, cd, co, ca, ds, _sid in rows]
         print(head)
         print(rule)
         for line in body:
             print(line)
         # The same table again as raw source, collapsed. Fencing the ONLY copy
         # would stop it rendering; showing only the rendered one leaves no way
-        # to lift it into a spreadsheet or a Discord post without reselecting
-        # 20 rows by hand.
+        # to lift 20 rows into a spreadsheet or a Discord post by hand.
         print()
         print("<details><summary>Copy this table as markdown</summary>")
         print()
@@ -784,9 +792,9 @@ def main(argv):
         print("```")
         print()
         print("</details>")
-        miss = sorted({c.name for c in CLASSES.values()} - {r[1] for r in out})
-        print(f"\n**{len(out)} across {len({r[1] for r in out})} classes.**")
-        print(f"None found for: {', '.join(miss)}." if miss else "Every class has one.")
+        print(f"\n**{len(rows)} across {len({r[1] for r in rows})} classes.**")
+        print(f"None found for: {', '.join(missing)}."
+              if missing else "Every class has one.")
     print(TAIL)
     return 0
 
