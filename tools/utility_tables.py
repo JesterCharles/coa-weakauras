@@ -205,19 +205,23 @@ is the Maelstrom tree, `felsworn-felblood` is Infernal, and
 `pyromancer-destruction` is FLAMEWEAVING -- the healing spec. Reading slugs as
 spec names is wrong on at least three classes, so the parser reads the label.
 
-## ⚠ probably not in the game
+## ❌ and ⚠ -- is it actually in the game?
 
-An ability marked ⚠ has **no icon on db.ascension.gg**, and a CoA ability with
-no art is very likely unimplemented, cut, or a leftover database row. 26 of the
-126 abilities here are marked, including `Wrist Snap`, `Halt`, `Solar Burn`,
-`Throatpunch` and `Distracto Shot` -- five of the twenty-four interrupts.
+**❌ = checked in game, NOT there.** One so far: Barbarian's `Wrist Snap`.
 
-This is a STRONG HINT, not a verdict: only logging in settles it. The list
-lives in `resources/icon-missing.json`; confirm one in game and delete its id
-(recording it under `confirmed_present`), then regenerate.
+**⚠ = no icon on db.ascension.gg, unverified.** A CoA ability with no art may
+be unimplemented, cut, or a leftover row.
 
-It matters most for the interrupt table. If those five are not real, five
-classes lose their only listed interrupt.
+**How much is ⚠ worth? Less than it first looked.** Six interrupts carried it
+and five were checked in game: `Hellgaze`, `Throatpunch`, `Halt`, `Solar Burn`
+and `Distracto Shot` are all REAL. Only `Wrist Snap` was not. So a missing icon
+ran about 1-in-6 on the sample that has been tested -- a reason to check, not a
+reason to disbelieve the row. The earlier revision of this section called it
+"very likely not in the game", and the testing says otherwise.
+
+Both lists live in `resources/icon-missing.json`. Confirm one in game, move its
+id to `confirmed_present` or `confirmed_absent`, and regenerate. 20 remain
+unverified.
 
 ## The "Usable on Boss" column
 
@@ -330,7 +334,7 @@ def boss_usable():
 
 
 def no_icon():
-    """Spell ids with no art on db.ascension.gg -- probably not in the game.
+    """(suspected, confirmed_absent) spell ids.
 
     A CoA ability with no icon is very likely unimplemented, cut, or a
     leftover database row. That is a judgement the user raised about `Wrist
@@ -343,8 +347,10 @@ def no_icon():
     """
     p = data("icon-missing.json")
     if not os.path.exists(p):
-        return set()
-    return set(json.load(open(p, encoding="utf-8")).get("ids") or {})
+        return set(), set()
+    raw = json.load(open(p, encoding="utf-8"))
+    return (set(raw.get("ids") or {}),           # no icon, unverified
+            set(raw.get("confirmed_absent") or {}))   # checked, not in the game
 
 
 def owners():
@@ -465,6 +471,43 @@ def _eff(d):
     return [e for e in d.get("effects") or [] if e.get("effect_id")]
 
 
+def _components(cache, own):
+    """Ids that are the APPLIED EFFECT of another ability, not a button.
+
+    db.exil.es copies a parent's tooltip verbatim onto the aura it applies, and
+    gives the child an adjacent id and often the parent's mana cost -- so a
+    component looks castable on every field this file reads. Chronomancer's
+    `Frayed` (510237) is the silence debuff of `Fray Magic` (510236): identical
+    text, 27% cost on both, but cd=0 and a single APPLY_AURA effect where the
+    parent has INTERRUPT_CAST.
+
+    The general signal: same class, same tooltip, one has a cooldown and the
+    other does not. The one without is the component. Past-participle naming
+    (`Burned`, `Frozen`, `Shattered`, `Dazzled`, `Frayed`) is the human tell,
+    but the tooltip match is what is actually checked.
+    """
+    by = collections.defaultdict(list)
+    for sid, d in cache.items():
+        if sid not in own:
+            continue
+        t = " ".join((d.get("description") or "").split())[:120]
+        if not t:
+            continue
+        for cname, _n, _sp in own[sid]:
+            by[(cname, t)].append((sid, d))
+    out = set()
+    for rows in by.values():
+        if len(rows) < 2:
+            continue
+        withcd = [r for r in rows if r[1].get("cooldown_ms")]
+        if not withcd:
+            continue
+        for sid, d in rows:
+            if not d.get("cooldown_ms"):
+                out.add(sid)
+    return out
+
+
 def classify(d):
     """One of the five buckets, or None. Effect id first, tooltip only to
     disambiguate what the effect id genuinely cannot."""
@@ -521,10 +564,11 @@ def classify(d):
 
 def main(argv):
     own, inv, cache, boss = owners(), inventory(), spells(), boss_usable()
-    noart = no_icon()
+    noart, gone = no_icon()
+    comps = _components(cache, own)
     buckets = collections.defaultdict(list)
     for sid, d in cache.items():
-        if sid not in own:
+        if sid not in own or sid in comps:
             continue
         cat = classify(d)
         if cat:
@@ -544,7 +588,9 @@ def main(argv):
             for cname, _a, tree_spec in own[sid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
                 mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
-                if sid in noart:
+                if sid in gone:
+                    mark += " ❌"
+                elif sid in noart:
                     mark += " ⚠"
                 # Reviewed inventory wins; the tree label is the fallback and
                 # covers the 18 classes that have no inventory. `all` means the

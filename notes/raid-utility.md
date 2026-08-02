@@ -32,23 +32,23 @@ note in `tools/sources.py`).
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Barbarian | all (tree) | [Jawbreaker](https://db.exil.es/spell/802792) |  | 14s | 30 energy | Instant | Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast for 4 seconds. |
-| Barbarian | all | [Wrist Snap](https://db.exil.es/spell/800383) ⚠ |  | 15s | 10 energy | Instant | Snap an enemy's wrist with a powerful throwing axe, interrupting them and preventing any spell from that school from being cast for 4 sec. |
+| Barbarian | all | [Wrist Snap](https://db.exil.es/spell/800383) ❌ |  | 15s | 10 energy | Instant | Snap an enemy's wrist with a powerful throwing axe, interrupting them and preventing any spell from that school from being cast for 4 sec. |
 | Felsworn | Infernal | [Felbreak](https://db.exil.es/spell/800203) |  | 18s | 10 energy | 0.5s | Interrupt a spell from being cast, preventing the target from casting spells of that school for 3 seconds and draining mana from the target … |
 | Witch Hunter | WitchKnight | [Guard Strike](https://db.exil.es/spell/804432) |  | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Stormbringer | all | [Gust of Wind](https://db.exil.es/spell/500932) |  | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
 | Stormbringer | Maelstrom | [Mystic Thunder](https://db.exil.es/spell/504846) |  | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
-| Knight of Xoroth | all | [Hellgaze](https://db.exil.es/spell/560471) ⚠ |  | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
+| Knight of Xoroth | all | [Hellgaze](https://db.exil.es/spell/560471) |  | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
 | Guardian | all | [Shield of Denial](https://db.exil.es/spell/704159) |  | 30s | 15 energy | Instant | Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing 155 Physical damage and interrupting their spellcast, preventing any … |
 | Bloodmage | Sanguine | [Aneurysm](https://db.exil.es/spell/806099) |  | 24s | 10% health | Instant | Counter the enemy's spellcast, preventing any spell from that school of magic from being cast for 4 seconds. Successfully interrupting an en… |
-| Ranger | Brigand | [Throatpunch](https://db.exil.es/spell/500617) ⚠ |  | 12s | 25 focus | Instant\* | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
+| Ranger | Brigand | [Throatpunch](https://db.exil.es/spell/500617) |  | 12s | 25 focus | Instant\* | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
 | Chronomancer | all | [Fray Magic](https://db.exil.es/spell/510236) |  | 30s | 27% mana | Instant | Stop your enemies' timeline, interrupting their spell cast for 4 sec. Successfully interrupting an enemy will additionally silence them for … |
 | Necromancer | Rime | [Heartchill](https://db.exil.es/spell/801739) |  | 30s | 19% mana | Instant | Chill an enemy's heart, interrupting their current spell cast. Successfully interrupting a spell also reduces their movement speed and haste… |
 | Pyromancer | incineration | [Spellburn](https://db.exil.es/spell/800808) |  | 25s | 9% mana | Instant | Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for 5 sec. |
 | Cultist | Dreadnought | [Crushing Dissonance](https://db.exil.es/spell/804056) |  | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
-| Starcaller | all | [Halt](https://db.exil.es/spell/805432) ⚠ |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
-| Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) ⚠ |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
-| Tinker | all | [Distracto Shot](https://db.exil.es/spell/560470) ⚠ |  | 25s | 4% mana | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. Also silences for 3 sec. |
+| Starcaller | all | [Halt](https://db.exil.es/spell/805432) |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
+| Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
+| Tinker | all | [Distracto Shot](https://db.exil.es/spell/560470) |  | 25s | 4% mana | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. Also silences for 3 sec. |
 | Tinker | all | [Meltdown](https://db.exil.es/spell/581313) |  | 30s | — | Instant | Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F… |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | all (tree) | [Ghastly Screech](https://db.exil.es/spell/806146) |  | 1.5 min | 200 runic power | Instant | Screech with ghastly intent, silencing all enemies within 8 yds for 4 seconds, and dealing 90 + 25% AP Shadowfrost Damage at the end of the … |
@@ -62,23 +62,23 @@ note in `tools/sources.py`).
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Barbarian | all (tree) | [Jawbreaker](https://db.exil.es/spell/802792) |  | 14s | 30 energy | Instant | Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast for 4 seconds. |
-| Barbarian | all | [Wrist Snap](https://db.exil.es/spell/800383) ⚠ |  | 15s | 10 energy | Instant | Snap an enemy's wrist with a powerful throwing axe, interrupting them and preventing any spell from that school from being cast for 4 sec. |
+| Barbarian | all | [Wrist Snap](https://db.exil.es/spell/800383) ❌ |  | 15s | 10 energy | Instant | Snap an enemy's wrist with a powerful throwing axe, interrupting them and preventing any spell from that school from being cast for 4 sec. |
 | Felsworn | Infernal | [Felbreak](https://db.exil.es/spell/800203) |  | 18s | 10 energy | 0.5s | Interrupt a spell from being cast, preventing the target from casting spells of that school for 3 seconds and draining mana from the target … |
 | Witch Hunter | WitchKnight | [Guard Strike](https://db.exil.es/spell/804432) |  | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Stormbringer | all | [Gust of Wind](https://db.exil.es/spell/500932) |  | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
 | Stormbringer | Maelstrom | [Mystic Thunder](https://db.exil.es/spell/504846) |  | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
-| Knight of Xoroth | all | [Hellgaze](https://db.exil.es/spell/560471) ⚠ |  | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
+| Knight of Xoroth | all | [Hellgaze](https://db.exil.es/spell/560471) |  | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
 | Guardian | all | [Shield of Denial](https://db.exil.es/spell/704159) |  | 30s | 15 energy | Instant | Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing 155 Physical damage and interrupting their spellcast, preventing any … |
 | Bloodmage | Sanguine | [Aneurysm](https://db.exil.es/spell/806099) |  | 24s | 10% health | Instant | Counter the enemy's spellcast, preventing any spell from that school of magic from being cast for 4 seconds. Successfully interrupting an en… |
-| Ranger | Brigand | [Throatpunch](https://db.exil.es/spell/500617) ⚠ |  | 12s | 25 focus | Instant\* | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
+| Ranger | Brigand | [Throatpunch](https://db.exil.es/spell/500617) |  | 12s | 25 focus | Instant\* | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
 | Chronomancer | all | [Fray Magic](https://db.exil.es/spell/510236) |  | 30s | 27% mana | Instant | Stop your enemies' timeline, interrupting their spell cast for 4 sec. Successfully interrupting an enemy will additionally silence them for … |
 | Necromancer | Rime | [Heartchill](https://db.exil.es/spell/801739) |  | 30s | 19% mana | Instant | Chill an enemy's heart, interrupting their current spell cast. Successfully interrupting a spell also reduces their movement speed and haste… |
 | Pyromancer | incineration | [Spellburn](https://db.exil.es/spell/800808) |  | 25s | 9% mana | Instant | Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for 5 sec. |
 | Cultist | Dreadnought | [Crushing Dissonance](https://db.exil.es/spell/804056) |  | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
-| Starcaller | all | [Halt](https://db.exil.es/spell/805432) ⚠ |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
-| Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) ⚠ |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
-| Tinker | all | [Distracto Shot](https://db.exil.es/spell/560470) ⚠ |  | 25s | 4% mana | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. Also silences for 3 sec. |
+| Starcaller | all | [Halt](https://db.exil.es/spell/805432) |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
+| Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
+| Tinker | all | [Distracto Shot](https://db.exil.es/spell/560470) |  | 25s | 4% mana | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. Also silences for 3 sec. |
 | Tinker | all | [Meltdown](https://db.exil.es/spell/581313) |  | 30s | — | Instant | Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F… |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | all (tree) | [Ghastly Screech](https://db.exil.es/spell/806146) |  | 1.5 min | 200 runic power | Instant | Screech with ghastly intent, silencing all enemies within 8 yds for 4 seconds, and dealing 90 + 25% AP Shadowfrost Damage at the end of the … |
@@ -104,7 +104,6 @@ None found for: Templar, Witch Doctor.
 | Templar | all | [Atone for your Sins!](https://db.exil.es/spell/561309) ⚠ |  | 2 min | 10 energy | Instant | Forbid an enemy from sinning, silencing them for 6 sec. If they are an Undead or Demon they are unable to be healed. |
 | Templar | all (tree) | [Interdict](https://db.exil.es/spell/560116) |  | 2 min | — | Instant | Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration. |
 | Bloodmage | Fleshweaver | [Arterial Bind](https://db.exil.es/spell/681077) |  | 1.5 min | 15% health | Instant | Place a pool of blood on the ground beneath enemies and allies, healing allies for 203 + 33% healing every 1 sec and silencing all enemies f… |
-| Chronomancer | all | [Frayed](https://db.exil.es/spell/510237) |  | none | 27% mana | Instant | Stop your enemies' timeline, interrupting their spell cast for 4 sec. Successfully interrupting an enemy will additionally silence them for … |
 | Tinker | all | [Anti-Magic Grenades](https://db.exil.es/spell/804861) |  | 2 min | 10% mana | Instant | Toss grenades that dispel up to 3 benefical magic effects and silences all enemies within 12 yds for 4 sec. |
 
 <details><summary>Copy this table as markdown</summary>
@@ -118,14 +117,13 @@ None found for: Templar, Witch Doctor.
 | Templar | all | [Atone for your Sins!](https://db.exil.es/spell/561309) ⚠ |  | 2 min | 10 energy | Instant | Forbid an enemy from sinning, silencing them for 6 sec. If they are an Undead or Demon they are unable to be healed. |
 | Templar | all (tree) | [Interdict](https://db.exil.es/spell/560116) |  | 2 min | — | Instant | Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration. |
 | Bloodmage | Fleshweaver | [Arterial Bind](https://db.exil.es/spell/681077) |  | 1.5 min | 15% health | Instant | Place a pool of blood on the ground beneath enemies and allies, healing allies for 203 + 33% healing every 1 sec and silencing all enemies f… |
-| Chronomancer | all | [Frayed](https://db.exil.es/spell/510237) |  | none | 27% mana | Instant | Stop your enemies' timeline, interrupting their spell cast for 4 sec. Successfully interrupting an enemy will additionally silence them for … |
 | Tinker | all | [Anti-Magic Grenades](https://db.exil.es/spell/804861) |  | 2 min | 10% mana | Instant | Toss grenades that dispel up to 3 benefical magic effects and silences all enemies within 12 yds for 4 sec. |
 ```
 
 </details>
 
-**8 across 7 classes.**
-None found for: Barbarian, Cultist, Felsworn, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Stormbringer, Sun Cleric, Venomancer, Witch Hunter.
+**7 across 6 classes.**
+None found for: Barbarian, Chronomancer, Cultist, Felsworn, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Stormbringer, Sun Cleric, Venomancer, Witch Hunter.
 
 ## 3. Stuns
 
@@ -506,19 +504,23 @@ is the Maelstrom tree, `felsworn-felblood` is Infernal, and
 `pyromancer-destruction` is FLAMEWEAVING -- the healing spec. Reading slugs as
 spec names is wrong on at least three classes, so the parser reads the label.
 
-## ⚠ probably not in the game
+## ❌ and ⚠ -- is it actually in the game?
 
-An ability marked ⚠ has **no icon on db.ascension.gg**, and a CoA ability with
-no art is very likely unimplemented, cut, or a leftover database row. 26 of the
-126 abilities here are marked, including `Wrist Snap`, `Halt`, `Solar Burn`,
-`Throatpunch` and `Distracto Shot` -- five of the twenty-four interrupts.
+**❌ = checked in game, NOT there.** One so far: Barbarian's `Wrist Snap`.
 
-This is a STRONG HINT, not a verdict: only logging in settles it. The list
-lives in `resources/icon-missing.json`; confirm one in game and delete its id
-(recording it under `confirmed_present`), then regenerate.
+**⚠ = no icon on db.ascension.gg, unverified.** A CoA ability with no art may
+be unimplemented, cut, or a leftover row.
 
-It matters most for the interrupt table. If those five are not real, five
-classes lose their only listed interrupt.
+**How much is ⚠ worth? Less than it first looked.** Six interrupts carried it
+and five were checked in game: `Hellgaze`, `Throatpunch`, `Halt`, `Solar Burn`
+and `Distracto Shot` are all REAL. Only `Wrist Snap` was not. So a missing icon
+ran about 1-in-6 on the sample that has been tested -- a reason to check, not a
+reason to disbelieve the row. The earlier revision of this section called it
+"very likely not in the game", and the testing says otherwise.
+
+Both lists live in `resources/icon-missing.json`. Confirm one in game, move its
+id to `confirmed_present` or `confirmed_absent`, and regenerate. 20 remain
+unverified.
 
 ## The "Usable on Boss" column
 
