@@ -50,7 +50,7 @@ def data(name):
 # loaded version is NOT visible in the WeakAuras list and a delivered file
 # carries no readable version string. Identify one by recomputing uids -- see
 # notes/class-pack-process.md.
-VERSION = "1.1"
+VERSION = "1.2"
 
 # WA_SPEC=glyphic|engravement|riftblade emits a single-spec pack: Core plus
 # that one spec, for players who only ever play the one.
@@ -1544,6 +1544,60 @@ def restrict_to_spec():
         kids = list(cc.values()) if isinstance(cc, dict) else list(cc)
         c["controlledChildren"] = B.arr([k for k in kids if k in keep])
     root["controlledChildren"] = B.arr([r for r in TOP if r in keep])
+
+
+# ============================================================ dynamic ladder
+def anchor_below(band_id, above_id, gap=4):
+    """Hang `band_id` off the BOTTOM of `above_id` instead of a fixed yOffset.
+
+    WeakAuras anchors an aura to another aura's region with
+        anchorFrameType = "SELECTFRAME"
+        anchorFrameFrame = "WeakAuras:<display id>"
+    which resolves through `Private.regions[name].region`
+    (WeakAuras.lua:6066-6075). There is an explicit cycle guard for it at
+    :2620, so it is a supported feature and not a trick.
+
+    THIS is what makes the ladder dynamic, and its absence is the bug two
+    earlier releases failed to fix. `emit_bottom_block` steps y by the row
+    count it computes AT BUILD TIME, but a GRID band wraps on the children
+    actually showing, and which of those show depends on what the character
+    has learned. Plan two rows for a player who renders one and the band
+    below sits 30px too low, with nothing at runtime able to close the gap.
+    Both previous attempts corrected which number the builder planned; neither
+    made the pack able to respond to a different one.
+
+    A dynamic group's Resize() calls self:SetHeight() from its real content,
+    so an anchored band follows the group above it up when that group renders
+    short. Chronomancer has done this since its ladder was written; every
+    Runemaster band shipped anchorFrameType="SCREEN" until now.
+
+    TOP-to-BOTTOM with a negative offset, so `gap` is the visible space
+    between the two bands.
+    """
+    band = next(c for c in children if c["id"] == band_id)
+    band["anchorFrameType"] = "SELECTFRAME"
+    band["anchorFrameFrame"] = f"WeakAuras:{above_id}"
+    band["selfPoint"] = "TOP"
+    band["anchorPoint"] = "BOTTOM"
+    band["xOffset"] = 0
+    band["yOffset"] = -gap
+
+
+# Offense keeps its fixed anchor -- it is the one band whose position really is
+# a constant, sitting under the fixed-height resource envelope -- and each band
+# below hangs off the one above it.
+#
+# Unlike Chronomancer, long-term chains in the ALL-SPECS pack too: Runemaster's
+# long-term band is per-spec in both pack types, so it has exactly one utility
+# band to follow and never has to pick between three, two of them unloaded.
+for _sp in SPEC_NAMES:
+    _have = {c["id"] for c in children}
+    _prev = f"RM {_sp} Offense"
+    for _band, _gap in ((f"RM {_sp} Utility", CD_ROW_STEP - SZ_CD),
+                        (f"RM {_sp} Longterm", LONG_GAP)):
+        if _band in _have and _prev in _have:
+            anchor_below(_band, _prev, gap=_gap)
+            _prev = _band
 
 
 if SPEC_ONLY:

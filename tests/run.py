@@ -815,7 +815,23 @@ for cls in UNDER_TEST:
 # cooldown rows became GRID and every wrapped row on the published site
 # collapsed into a pile, while the page still said drawn to scale.
 print("\n19. HUD preview geometry")
+import copy  # noqa: E402
 import hud as HUD  # noqa: E402
+
+
+def _band_edges(items):
+    """-> {band id: (top edge y, bottom edge y)} from resolved geometry.
+
+    Bands hang off different parents and, since the ladder anchors, a band's
+    stored yOffset may be a GAP rather than a position. Anything comparing two
+    bands has to compare where they RESOLVE, not what they store."""
+    out = {}
+    for i in items:
+        top, bot = i["y"] + i["h"] / 2, i["y"] - i["h"] / 2
+        have = out.get(i["band"])
+        out[i["band"]] = ((top, bot) if have is None
+                          else (max(have[0], top), min(have[1], bot)))
+    return out
 
 for cls in UNDER_TEST:
     for spec in cls.specs:
@@ -915,21 +931,120 @@ for cls in UNDER_TEST:
             check(f"{cls.slug} all-specs/{spec}: has its own long-term band",
                   False, "falls back to a shared band anchored elsewhere")
             continue
-        deepest = None
-        for g in groups:
-            if label not in g["id"] or g is lt:
-                continue
-            gw = g.get("gridWidth") or kids[g["id"]]
-            rows = (-(-kids[g["id"]] // gw)
-                    if g.get("grow") == "GRID" and gw else 1)
-            bottom = g.get("yOffset", 0) - rows * 30
-            deepest = bottom if deepest is None else min(deepest, bottom)
+        # RESOLVED geometry, not stored yOffsets. Once a band anchors to
+        # another band its yOffset is a GAP from that band's edge, not a
+        # position -- so `deepest - lt.yOffset` compares an absolute against a
+        # 16px gap and reports ~-300px of slack on a ladder that is correct.
+        edges = _band_edges(HUD.displays(p, only_persistent=False))
+        if lt["id"] not in edges:
+            continue
+        deepest = min((edges[g["id"]][1] for g in groups
+                       if label in g["id"] and g is not lt
+                       and g["id"] in edges), default=None)
         if deepest is None:
             continue
-        slack = deepest - lt.get("yOffset", 0)
+        slack = deepest - edges[lt["id"]][0]
         check(f"{cls.slug} all-specs/{spec}: long-term sits {slack:.0f}px "
               f"under this spec's own last row", 0 <= slack <= 30,
               f"{slack:.0f}px -- anchored to another spec's depth")
+
+
+# ------------------------------- 21. the ladder is anchored, not arithmetic
+#
+# A per-spec pack closing its own ladder (check 20) only proves the builder
+# planned the right number of rows. What the player sees depends on the rows
+# that actually RENDER: a GRID band wraps on the children showing, and which
+# show depends on what that character has learned. Plan two rows for someone
+# who renders one and every band below sits a full row too low, with nothing
+# at runtime able to close it.
+#
+# Two releases were spent correcting which number the builder planned. Neither
+# helped, because the number was never the problem. The fix is
+# anchorFrameType="SELECTFRAME": a dynamic group's Resize() sets its height
+# from real content, so an anchored band follows the one above it up.
+#
+# This check is in two halves on purpose. The first is cheap and states the
+# shape; the second proves the shape does something, by pruning a band until
+# it renders short and re-running the layout. The first half alone would pass
+# on an anchor pointing at the wrong band.
+print("\n21. the ladder follows a row that renders short")
+
+
+def _ladder(d, label):
+    """-> (offense id, utility id) for one spec, or None.
+
+    Band ids carry a per-class prefix (`RM`, `CM`) that is not recorded in
+    classes.py, so it is read back off the pack rather than hardcoded here --
+    a third class picks this check up by naming its bands the same way.
+    """
+    ids = {c["id"] for c in d["c"].values()}
+    off = next((i for i in ids if i.endswith(f"{label} Offense")), None)
+    if off is None:
+        return None
+    util = off[:-len("Offense")] + "Utility"
+    return (off, util) if util in ids else None
+
+
+for cls in UNDER_TEST:
+    for _spec, name in cls.packs:
+        p = cls.pack_path(name)
+        if not os.path.exists(p):
+            continue
+        d = load(p)
+        by_id = {c["id"]: c for c in d["c"].values()}
+        for spec in cls.specs:
+            pair = _ladder(d, cls.spec_label(spec))
+            if pair is None:
+                continue
+            off, util = pair
+            band = by_id[util]
+            check(f"{name}/{cls.spec_label(spec)}: utility hangs off its own "
+                  f"offense row",
+                  band.get("anchorFrameType") == "SELECTFRAME"
+                  and band.get("anchorFrameFrame") == f"WeakAuras:{off}",
+                  f"anchorFrameType={band.get('anchorFrameType')!r} "
+                  f"frame={band.get('anchorFrameFrame')!r} -- a fixed offset "
+                  f"reserves the planned depth whether the icons appear or not")
+
+
+def _one_row(d, band_id):
+    """A copy of `d` in which `band_id` renders a single row -- what a
+    character who has not learned the whole row actually loads."""
+    d = copy.deepcopy(d)
+    node = next(c for c in d["c"].values() if c["id"] == band_id)
+    cc = node["controlledChildren"]
+    ids = [cc[k] for k in sorted(cc, key=lambda k: int(k))]
+    keep = ids[:2]
+    node["controlledChildren"] = {str(i + 1): v for i, v in enumerate(keep)}
+    gone = set(ids) - set(keep)
+    d["c"] = {k: v for k, v in d["c"].items() if v["id"] not in gone}
+    return d
+
+
+for cls in UNDER_TEST:
+    for spec in cls.specs:
+        p = cls.pack_path(f"{cls.slug}-{spec}")
+        if not os.path.exists(p):
+            continue
+        d = load(p)
+        pair = _ladder(d, cls.spec_label(spec))
+        if pair is None:
+            continue
+        off, util = pair
+        full = _band_edges(HUD.layout(d))
+        rows = sorted({round(i["y"], 1) for i in HUD.layout(d)
+                       if i["band"] == off}, reverse=True)
+        if len(rows) < 2:
+            continue
+        short = _band_edges(HUD.layout(_one_row(d, off)))
+        pitch = rows[0] - rows[1]
+        want = (len(rows) - 1) * pitch          # the depth that disappears
+        moved = short[util][0] - full[util][0]
+        check(f"{cls.slug}/{spec}: utility rises {moved:.0f}px when offense "
+              f"renders 1 row instead of {len(rows)}",
+              abs(moved - want) < 1.5,
+              f"moved {moved:.0f}px, expected {want:.0f}px -- the band below "
+              f"is holding space for rows that did not render")
 
 
 print()

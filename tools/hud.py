@@ -56,6 +56,30 @@ def _ordered_children(node, by_id):
     return [by_id[i] for i in ids if i in by_id]
 
 
+def _anchor_target(node):
+    """-> the display id this node hangs off, or None for a normal offset.
+
+    WeakAuras anchors one aura to another's region with
+    anchorFrameType="SELECTFRAME" and anchorFrameFrame="WeakAuras:<id>"
+    (WeakAuras.lua:6066-6075). The stored yOffset is then a GAP from the
+    target's edge, not an offset from the parent -- reading it as the latter
+    puts a band that hangs 4px under a three-row group 4px under the group's
+    own anchor instead, which is roughly 90px too high.
+    """
+    if node.get("anchorFrameType") != "SELECTFRAME":
+        return None
+    frame = node.get("anchorFrameFrame") or ""
+    return frame.split(":", 1)[1] if frame.startswith("WeakAuras:") else None
+
+
+def _is_grid(node):
+    """A GRID group's anchor is the TOP of its first row; every other grow mode
+    centres its content on the anchor. The distinction matters anywhere a
+    height is turned back into an edge."""
+    return (node.get("regionType") == "dynamicgroup"
+            and (node.get("grow") or "").upper() == "GRID")
+
+
 def _size(node, by_id, keep=None):
     """Outer size of a node. A dynamic group has no meaningful stored width, so
     it is measured from the row it will lay out -- and only from the children
@@ -127,14 +151,35 @@ def displays(pack_path, only_persistent=False):
     CIRCLE really is unused and still falls back -- but it now says so loudly
     instead of drawing a stack.
 
+    SELECTFRAME anchoring is resolved too, via `_anchor_target`. A band that
+    hangs off another band's BOTTOM edge has no meaningful parent offset, so
+    reading its stored yOffset as one drew Chronomancer's 22-icon utility row
+    through the buff row and the alerts -- an overlap the pack does not have.
+    Those bands are deferred until the band they follow has been measured.
+
     `icon` is the bare texture name, or None when the art is not cached. `kind`
     is the regionType, so a bar can be drawn as a bar rather than a square.
     """
-    d = wa_decode(open(pack_path).read().strip())
+    return layout(wa_decode(open(pack_path).read().strip()), only_persistent)
+
+
+def layout(d, only_persistent=False):
+    """The geometry pass of `displays`, over an already-decoded pack.
+
+    Split out so a test can prune a band and re-run the layout, which is the
+    only way to check that the ladder still closes up when a row renders
+    SHORTER than the builder planned -- the case fixed yOffsets get wrong and
+    the reason the packs anchor instead.
+    """
     nodes = d["c"]
     by_id = {k["id"]: k for k in nodes.values()}
     missing = _missing()
     out = []
+    # id -> (centre x, bottom edge y) for every group already placed. A
+    # SELECTFRAME band needs its target's real BOTTOM, which is only known
+    # once that target has been measured, so anchored bands are deferred.
+    extents = {}
+    pending = []
 
     def shown(node):
         """A group is shown when anything under it is; an all-transient band
@@ -195,12 +240,39 @@ def displays(pack_path, only_persistent=False):
                       f"which is not simulated -- its {len(kids)} children will "
                       f"stack. Add it to hud.walk() before trusting this preview.")
             for kid in kids:
+                if _anchor_target(kid):
+                    # Its position depends on a band that may not be placed
+                    # yet. Carry the parent origin along as the fallback for
+                    # a target that turns out not to be in this pack at all.
+                    pending.append((kid, ox, oy))
+                    continue
                 emit(kid,
                      ox + int(kid.get("xOffset") or 0),
                      oy + int(kid.get("yOffset") or 0))
 
+    def place_anchored(node, ox, oy):
+        """Hang `node` off the bottom edge of the band it anchors to.
+
+        selfPoint TOP / anchorPoint BOTTOM with a negative yOffset, which is
+        what wabuild emits: the node's top edge lands `gap` below the target's
+        bottom edge, both centred on the same x.
+        """
+        target = extents.get(_anchor_target(node))
+        if target is None:
+            return False
+        tx, tbottom = target
+        top = tbottom + int(node.get("yOffset") or 0)
+        _, h = _size(node, by_id, shown)
+        emit(node, tx + int(node.get("xOffset") or 0),
+             top if _is_grid(node) else top - h / 2.0)
+        return True
+
     def emit(node, x, y):
         if node.get("controlledChildren"):
+            _, h = _size(node, by_id, shown)
+            if h:
+                extents[node["id"]] = (x, y - h if _is_grid(node)
+                                       else y - h / 2.0)
             walk(node, x, y)
             return
         w = int(node.get("width") or 0)
@@ -224,6 +296,22 @@ def displays(pack_path, only_persistent=False):
         })
 
     walk(d["d"], 0, 0)
+    # Anchors chain -- long-term hangs off utility, which hangs off offense --
+    # so resolve repeatedly until a pass places nothing new.
+    while pending:
+        rest = [p for p in pending if not place_anchored(*p)]
+        if len(rest) == len(pending):
+            for node, ox, oy in rest:
+                # WeakAuras falls back to the parent region when the anchor
+                # frame is absent, so this draws what the player would see --
+                # but it is a hole in the layout, not a position anyone chose.
+                print(f"  !! hud: {node.get('id')} anchors to "
+                      f"{_anchor_target(node)}, which is not in this pack -- "
+                      f"falling back to its stored offset.")
+                emit(node, ox + int(node.get("xOffset") or 0),
+                     oy + int(node.get("yOffset") or 0))
+            break
+        pending = rest
     # Painter's order: top of the screen first, then left to right. A stable
     # order keeps the generated HTML from churning between builds.
     out.sort(key=lambda i: (-i["y"], i["x"], i["id"]))
