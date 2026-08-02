@@ -266,6 +266,21 @@ Ranked by what actually stops a boss cast:
 Roots (table 4) are separate again and stop movement, not casting. Snares and
 slows (`mechanic 11`) are excluded entirely: a slow is not a root.
 
+**Not covered at all:** incapacitates, fears, horrors, polymorphs, banishes and
+knockbacks. They carry CC mechanics and would land in these tables on a
+mechanic-only match, but none of them is an interrupt, a stun or a root --
+`Breath of Time` incapacitates, `Holy Water Tonic` banishes, `Abyssal
+Enslavement` polymorphs. If a raid needs those, they want their own table.
+
+**A mechanic id alone does not classify an ability, and the tooltip has to
+agree.** `mechanic` is tagged per EFFECT, and it rides on effects that do
+something else entirely. Barbarian's `Deathmatch` carries `mechanic 9` on its
+ARMOUR aura -- it is a 6 sec 1v1 banish that zeroes both players' armour and
+silences nobody -- and a mechanic-only match filed it under Silences. The same
+both-signals rule was already applied to interrupts and purges; the CC tables
+were the ones missing it, and it cost 1 silence, 7 stuns and 3 roots that were
+never any of those things.
+
 ## What this file does NOT know
 
 * **No reagents.** The API exposes `power_cost`, `power_cost_percent` and
@@ -477,14 +492,23 @@ def classify(d):
     # interrupt or a battle rez with neither is still worth listing.
     pressable = bool(d.get("cooldown_ms") or d.get("power_cost_percent")
                      or d.get("power_cost"))
+    # THE MECHANIC ALONE IS NOT ENOUGH, and the tooltip has to agree.
+    # `mechanic` is tagged per EFFECT, and it rides on effects that do
+    # something else entirely: Barbarian's `Deathmatch` carries mechanic 9 on
+    # its ARMOUR aura -- it is a 6 sec 1v1 banish that zeroes both players'
+    # armour and silences nobody -- and mechanic-alone filed it under Silences.
+    # Same rule already applied to interrupts and purges; the CC tables were
+    # the ones missing it.
     if pressable:
         # A row can carry several CC mechanics; take the most specific first so
         # a rooting silence is not filed by whichever id happened to sort low.
-        if 9 in mech:
+        if 9 in mech and re.search(r"silenc", t, re.I):
             return "silence"
-        if 12 in mech:
+        if 12 in mech and re.search(r"\bstun\w*", t, re.I):
             return "stun"
-        if mech & {7, 13}:
+        if mech & {7, 13} and re.search(r"\broot\w*|freez\w*|entangl\w*|"
+                                        r"\bhold\w* .{0,12}in place|immobili",
+                                        t, re.I):
             return "root"
     if has(38) and re.search(r"beneficial|purg", t, re.I) and re.search(r"enem", t, re.I):
         return "purge"
