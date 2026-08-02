@@ -26,222 +26,222 @@ spells — the specs that have no override use the default.
 
 | Ability | ID | Specs | Role | Rank | Notes |
 |---|---|---|---|---|---|
-| Al Dente | 300921 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Alexstrasza's Gift | 300956 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Archon of Flame | 704282 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Ascension of Executus | 1119754 | flameweaving | longterm | Rank 1 | prop: permanent, 'Only 1 Ascension spell can be active' -- a stance |
-| Ascension of Ragnaros | 1119901 | incineration | longterm | Rank 1 | prop: permanent, 'Only 1 Ascension spell can be active' -- a stance |
-| Ascension of Thaurissan | 1119751 | incineration | longterm |  | prop: permanent, 'Only 1 Ascension spell can be active' -- a stance |
-| Ashen Priest | 707432 | flameweaving | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 30' |
-| Ashen Skin | 504720 | draconic | longterm |  | prop: 30 min, 'Can only have 1 Skin active at a time' -- a stance |
-| Aspect of Time | 500173 | draconic | ignore | Spec Passive | prop: rank='Spec Passive' -- not a castable player button |
-| Aspect's Blessing | 802168 | draconic | offensive |  | prop: 1 min, guarantees a crit on the next Echo/Flames and echoes it |
-| Binding Flames | 706764 | all | ignore | Debuff | prop: rank='Debuff' -- not a castable player button |
-| Blackflight Resurgence | 805587 | draconic | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 50' |
-| Blaze | 805500 | incineration | main | Rank 1 | prop: Ember spender, 15s DoT plus healing reduction |
-| Blessing of the Firelands | 504397 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Breath of Neltharion | 511109 | draconic | utility |  | prop: 1.5 min cone disarm, 6s |
-| Bright Flames | 300759 | all | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Brood of the Earthwarder | 504497 | draconic | ignore |  | prop: modifies Dragon's Fury |
-| Burn Impurities | 520149 | flameweaving | utility |  | prop: dispel: 1 magic + 1 disease off an ally |
-| Burned | 524902 | incineration | ignore |  | prop: skillbook marks it 'Ability Passive Lvl 50' |
-| Burning Armor | 520556 | flameweaving | ignore |  | prop: modifies damage taken |
-| Burning Bandages | 704841 | flameweaving | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Burning Brand | 800809 | draconic | main | Rank 1 | prop: no cooldown, 5s brand that explodes into a 12s DoT |
-| Burning Crescendo | 805378 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Burning Embers | 805624 | incineration | ignore |  | prop: modifies Spellburn |
-| Burning Spheres | 801487 | flameweaving | offensive |  | prop: 2 min, 3 spheres that lock onto an Ignited target |
-| Burning Spirit | 704840 | flameweaving | ignore |  | prop: modifies Cauterize Wounds |
-| Cataclysm | 706887 | all | ignore | Rank 1 | prop: modifies Firefall/Melt |
-| Cataclysmic Power | 804617 | incineration | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Cataclysmic Revenge | 804693 | flameweaving | ignore |  | prop: 1.5s cooldown, no cost, no tooltip -- an internal trigger |
-| Cauterize | 560749 | flameweaving | utility |  | prop: removes a bleed from an ally |
-| Cauterizing Wounds | 570001 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Chains of Fire | 706862 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Cinder Rush | 803953 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Cindergrip | 805476 | flameweaving | utility | Rank 1 | prop: root with damage over 12s, one target at a time |
-| Cinderheart | 800806 | flameweaving | main | Rank 1 | prop: L2 core direct heal |
-| Circle of Fire | 504650 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Cleansing Flames | 681145 | flameweaving | main | Rank 1 | prop: 3s channel, heals allies and damages enemies in a cone |
-| Concentrated Fire | 704864 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Conjure Campfire | 570121 | flameweaving | ignore |  | prop?: cooking campfire, non-combat -- utility if you want it visible |
-| Constant Burning | 707126 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Critical Pressure | 704804 | draconic | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Dancing Flames | 805450 | incineration | offensive |  | prop?: spreads Ignite/Blaze/Scalding Brand, but carries no cost or CD |
-| Death From Above | 520385 | draconic | ignore | Root | prop: rank='Root' -- not a castable player button |
-| Deep Breaths | 802166 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Demolisher | 300930 | flameweaving | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Destroyer's Legacy | 704815 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Destroyer's Maw | 802107 | draconic | main | Rank 1 | prop: 15s, unresistable, generates 30 Heat -- core damage |
-| Disaster | 680464 | flameweaving | ignore |  | prop: modifies Flame Step and Dragon Leap |
-| Dormant | 800128 | flameweaving | buff |  | prop: 10s, +150% mana regen while the Phoenix is dormant |
-| Draconic - Level 15 Passive |  | draconic | ignore |  | prop: skillbook marks it 'Ability Passive Lvl 15' |
-| Draconic - Level 30 Passive | 807511 | draconic | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 30' |
-| Draconic Aspect | 92128 | draconic | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 30' |
-| Draconic Heritage | 704810 | draconic | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Draconic Invocation | 802119 | draconic | offensive |  | prop: 3 min, instantly generates 5 Embers |
-| Draconic Rage | 802164 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Draconic Tempest | 301212 | draconic | buff | Proc | prop?: 10s proc window applying Inferno stacks -- may be an internal aura |
-| Dragon Leap | 806611 | all | utility | Rank 1 | prop?: 10s leap, AoE damage on landing, no cooldown -- movement first |
-| Dragon Skin | 681314 | draconic | longterm |  | prop: 30 min, 'Can only have 1 Skin active at a time' -- a stance |
-| Dragon's Bane | 504398 | all | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Dragon's Blood | 802162 | draconic | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Dragon's Edge | 300755 | flameweaving | ignore | Specialization | prop: skillbook marks it 'Talent Passive Lvl 10' |
-| Dragon's Wrath | 573229 | draconic | ignore |  | prop: this row is the 30% slow component; the ability itself is elsewhere |
-| Dragonfire | 500129 | draconic | main | Rank 1 | prop: 8s, damage plus 6% mana, brands the target |
-| Dragonscales | 524818 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Earthwarder | 706239 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Echo of Nozdormu | 802174 | draconic | main | Rank 1 | prop: L11 core nuke, reduces all cooldowns by 5% |
-| Ember Charm | 704861 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Ember Skin | 504396 | flameweaving | longterm |  | prop: 'Can only have 1 Skin active at a time' -- the fourth Skin |
-| Ember Touch | 800818 | all | main | Rank 1 | prop: Ember spender, heals -- the class-wide spender button |
-| Emberheart | 680366 | flameweaving | ignore |  | prop?: L58 bare damage line, no cost -- reads like a component |
-| Eruption | 800103 | incineration | offensive |  | prop: 2 min, +20% damage and healing, 5 Heat every 0.5s |
-| Essence of Malygos | 706892 | all | ignore | Proc | prop: rank='Proc' -- not a castable player button |
-| Eternal Flame | 805475 | flameweaving | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Expediting Power | 704814 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Explode | 800792 | incineration | main | Rank 1 | prop: L1 filler, scales with your DoTs on the target |
-| Explosive | 704845 | flameweaving | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Fiery Demeanor | 525059 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Fiery Intent | 525018 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Fiery Outburst | 704260 | draconic | ignore | Proc | prop: rank='Proc' -- not a castable player button |
-| Fiery Passion | 560525 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Final Destination Remover |  | flameweaving | ignore |  | prop: no cost, no cooldown, no tooltip -- a component |
-| Fire Safety | 300970 | all | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Fire and Brimstone | 704849 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Fired Up! | 704823 | flameweaving | offensive |  | prop: 1 min, Ember spenders instant + 30% refund + 20% crit |
-| Firefall | 801905 | draconic | main | Rank 1 | prop: 8s AoE, 10 Heat per target |
-| Firepower | 805487 | flameweaving | offensive |  | prop: 30s raid empower for allies standing in a Path of Flames |
-| Firestorm | 802791 | all | offensive |  | prop: 1 min, persistent AoE damage zone |
-| Fissure Stream | 805472 | flameweaving | ignore |  | prop: modifies Path of Flames |
-| Flame Bonding | 706858 | flameweaving | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 20' |
-| Flame Mastery | 704828 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Flame Seeker | 804868 | flameweaving | ignore |  | prop: minimap tracking for elementals and dragonkin |
-| Flame Step | 520634 | draconic | ignore | Dispel | prop: rank='Dispel' -- not a castable player button |
-| Flame Swell | 502064 | incineration | target | Rank 9 | prop?: 9s periodic on everything your Ignite is on -- an applied effect |
-| Flamecasting | 804300 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Flamer | 680836 | all | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Flames of Execution | 706238 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Flames of Focus | 500189 | flameweaving | buff |  | prop: 20s, +5% haste +3% crit, stacks 3 -- and Slag Barrage spends it |
-| Flames of Neltharion | 801915 | draconic | main | Rank 1 | prop: L12 cleave filler |
-| Flames of the Firelord | 538441 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Flameweaving - Level 15 Passive | 707130 | flameweaving | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 15' |
-| Flaming Finesse | 520030 | all | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Flare Bolt | 800790 | draconic | main | Rank 1 | prop: L1 filler, generates 20 Heat |
-| Forceblast | 804870 | incineration | ignore |  | prop: modifies Slag Barrage |
-| From The Ashes | 560561 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Gaze of Ysera | 503229 | all | utility | Sleep | prop: 30s crowd control, sleep, breaks on damage |
-| Gaze of Ysera Dispel Trigger | 503228 | incineration | ignore |  | prop: no cost, no cooldown, no tooltip -- a component |
-| Gaze of Ysera Trigger After Dispel | 503230 | incineration | ignore |  | prop: no cost, no cooldown, no tooltip -- a component |
-| Grace of Alexstrasza | 802167 | all | defensive |  | prop: 5 min raid-wide movement-impair clear + immunity |
-| Grand Finale | 300920 | flameweaving | ignore |  | prop: modifies Burning Crescendo |
-| Greater Seal of Al'ar | 808060 | flameweaving | longterm |  | prop: 30 min raid mana regen -- a Seal |
-| Greater Seal of Alysrazor | 570170 | flameweaving | longterm |  | prop: 30 min raid Intellect -- a Seal |
-| Grill Mark | 503759 | draconic | ignore | ICD tracker | prop: rank='ICD tracker' -- not a castable player button |
-| Hasty Incantation | 802169 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Heated | 504754 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Hellscape | 706886 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Hot Headed | 503806 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Hot Trail | 704825 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Hot and Dangerous | 704859 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Ignis Fatalis | 706893 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Ignis Ultimatus | 680369 | all | offensive |  | prop: 1 min channelled line, damage and healing, ignores immunities |
-| Ignite | 800791 | incineration | main | Rank 1 | prop: core 21s DoT, generates Heat per tick |
-| Improved Dragon Breaths | 704811 | draconic | ignore | Rank 2 | prop: no cost, no cooldown, modifies another ability |
-| Improved Petrifying Visage | 704808 | draconic | ignore | Rank 2 | prop: no cost, no cooldown, modifies another ability |
-| Incineration - Level 15 Passive |  | incineration | ignore |  | prop: skillbook marks it 'Talent Passive Lvl 15' |
-| Incinerator | 807510 | incineration | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 40' |
-| Infernity | 572540 | flameweaving | ignore | Applier | prop: rank='Applier' -- not a castable player button |
-| Inferno | 806736 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Inferno Barrier | 504380 | all | defensive | Rank 1 | prop: 20s absorb shield on an ally, 30s |
-| Infernus | 92124 | incineration | ignore | Specialization | prop: rank='Specialization' -- not a castable player button |
-| Inner Flame | 301974 | draconic | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Invigoration | 704863 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Invocation of Flames | 572381 | draconic | ignore | Proc | prop: rank='Proc' -- not a castable player button |
-| Kael's Command | 680375 | flameweaving | defensive | TESTING SPELL | prop: 45s, Phoenix goes dormant and radiates healing -- a healing CD |
-| Kindle | 803819 | flameweaving | main | Rank 1 | prop: L14 direct heal, the bigger of the two fillers |
-| Lava Shard | 803950 | incineration | main | Rank 1 | prop: 10s, generates 1 Ember -- the Ember engine |
-| Lava-Drenched | 706650 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Legacy of Deathwing | 520823 | draconic | buff |  | prop: 10s proc: next Destroyer's Maw or Firefall instant, free, +25% |
-| Legacy of Ragnaros | 524707 | flameweaving | ignore |  | prop: modifies Pyroclasm and Lava Shard |
-| Lifebinder's Fire | 680367 | flameweaving | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Lifedrinker |  | draconic | ignore |  | prop: no spell id in the digest -- cannot be built |
-| Lighting the Fuse | 807509 | incineration | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 30' |
-| Living Flame | 704851 | flameweaving | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Lucifron's Rage | 300932 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Magma Guardian | 706872 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Magma Skin | 680387 | draconic,incineration | longterm |  | prop: 30 min, 'Can only have 1 Skin active at a time' -- a stance |
-| Magmatic | 704807 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Make Campfire |  | flameweaving | ignore |  | prop: no spell id in the digest -- cannot be built |
-| Melt | 451267 | incineration | main |  | prop?: L12 direct damage; Cataclysm and Dancing Flames both name it |
-| Melt Bindings | 804727 | flameweaving | utility |  | prop: 2 min freedom, 3s immunity to roots and slows |
-| Melt Lock |  | incineration | ignore |  | prop: no spell id in the digest -- cannot be built |
-| Melting Point | 300757 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Meteor | 500135 | all | main | Rank 1 | prop: no cooldown, generates 50 Heat -- an AoE rotation button, not a CD |
-| Molten Fury | 704818 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Molten Rapacity | 704842 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Molten Storm | 805483 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Neltharion's Resolve | 520488 | flameweaving | defensive |  | prop: 1 min party-wide fear ward |
-| Obliteration | 706894 | all | ignore | Passive | prop: skillbook marks it 'Ability Passive Lvl 10' |
-| Overheat Delayer | 800408 | incineration | ignore | Unusued | prop: deprecated/placeholder text: 'Deprecated' |
-| Overwhelming Flames | 704813 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Petrifying Visage | 801908 | draconic | utility | Rank 1 | prop: 2 min, 3s horror |
-| Phoenix Dive | 706854 | flameweaving | main |  | prop: no cooldown, shields allies along the Phoenix's path |
-| Phoenix Egg | 707110 | flameweaving | ignore | Heal | prop: rank='Heal' -- the healing component, not the button |
-| Phoenix Egg DEPRECTAED | 500134 | flameweaving | ignore |  | prop: tooltip is literally 'DEPRECTAED' |
-| Phoenix Handler | 704865 | flameweaving | ignore | Proc | prop: rank='Proc' -- not a castable player button |
-| Phoenix Rebirth | 706867 | flameweaving | utility | Rank 1 | prop: out-of-combat resurrect |
-| Pillar of Flame | 805496 | incineration | offensive | Rank 1 | prop: 20s AoE around the primary target |
-| Pulverizespout | 706740 | flameweaving | ignore | Stun | prop: rank='Stun' -- not a castable player button |
-| Purifying Flames | 807159 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Pyroclasm | 520019 | incineration | offensive |  | prop: 1 min, consumes Burning effects for burst |
-| Pyromancy | 704831 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Pyromaniac | 500166 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Raze | 804814 | incineration | ignore |  | prop: modifies Lava Shard |
-| Realm of Fire | 704837 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Reborn from Ash | 804231 | flameweaving | utility | Rank 1 | prop: 10 min combat resurrect (Chronomancer files Rehatch the same way) |
-| Rekindle | 803379 | flameweaving | ignore | Hidden Overheat Bonus | prop: rank='Hidden Overheat Bonus' -- not a castable player button |
-| Residual Power | 300751 | draconic | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Roaring Pyre | 704278 | flameweaving | defensive |  | prop: 1 min ground-target healing pyre, 20s |
-| Sageweaving | 503915 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Scalding Brand | 680945 | incineration | target | Damage | prop: per-second burn on the enemy, extended by Firefall and Lava Shard |
-| Scorching Sermon | 704858 | flameweaving | ignore | Rank 2 | prop: modifies Flare Bolt and Cauterize Wounds |
-| Scorching Spirit | 805552 | flameweaving | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Seal of Al'ar | 803649 | flameweaving | longterm | Rank 1 | prop: 30 min single-target mana regen -- a Seal |
-| Seal of Alysrazor | 800196 | flameweaving | longterm | Rank 1 | prop: 30 min single-target Intellect -- a Seal |
-| Searing Speed | 503803 | all | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Shazzrah's Boon | 807126 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Shielded by Flames | 704275 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Sizzle | 680973 | incineration | ignore | Ally Trigger | prop: rank='Ally Trigger' -- not a castable player button |
-| Slag Barrage | 502032 | incineration | offensive | Rank 2 | prop: 30s, consumes Flames of Focus stacks |
-| Slag Works | 300922 | flameweaving | ignore |  | prop: modifies Slag Foundry consumers |
-| Slagforged Armor | 300931 | flameweaving | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Soar | 520399 | draconic | ignore |  | prop?: slow-fall leap, explicitly not usable in combat |
-| Soothing Flames | 704855 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Soul of the Dragon | 504498 | draconic | ignore |  | prop: modifies Flare Bolt |
-| Spellburn | 800808 | incineration | utility |  | prop: 25s interrupt, off the global, locks a school for 5s |
-| Spirit of Fire | 500167 | flameweaving | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Spirit of the Phoenix | 92126 | flameweaving | ignore | Specialization | prop: skillbook marks it 'Ability Passive Lvl 10' |
-| Stoke | 803952 | flameweaving | main | Rank 1 | prop?: 10s, cheap, extends Ignite and Blaze -- rotational, could read offensive |
-| Student of the Flame | 300758 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Sulfuron Blast | 801687 | incineration | ignore |  | prop: tooltip reads 'If you can read this, reach out to a Staff member' |
-| Sunstrider Array | 570003 | flameweaving | ignore | Heal | prop: rank='Heal' -- the healing component, not the button |
-| Superheated | 681196 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Supernova | 803546 | incineration | utility |  | prop?: 5 min AoE pull and 80% slow -- control, could read offensive |
-| Tender Touch | 704273 | flameweaving | ignore | Rank 1 | prop: modifies Ember Touch |
-| Third Degree Burns | 804616 | incineration | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Timed Attacks | 704812 | draconic | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| To Ashes | 300975 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Touched by Fire | 704848 | flameweaving | ignore | Rank 1 | prop: no cost, no cooldown, modifies another ability |
-| Unquenchable | 704850 | flameweaving | ignore |  | prop: no cost, no cooldown, modifies another ability |
-| Volcanic Flames | 804607 | incineration | ignore |  | prop: modifies Ignite/Blaze/Scalding Brand crit |
-| Volcanic Shell | 805477 | all | defensive | Rank 1 | prop: 2 min self absorb, off the global |
-| Volcanocannon | 806501 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Weaving Flames | 707160 | flameweaving | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| White Hot | 804606 | incineration | ignore | Passive | prop: rank='Passive' -- not a castable player button |
-| Wildfire | 706888 | draconic,incineration | main | Damage | prop: L34 DoT that spreads at the end of its duration |
-| Wreath of Flames | 802068 | incineration | ignore |  | prop: modifies Flamecasting generation |
-| Ysera's Blessing | 704820 | all | ignore | Passive | prop: rank='Passive' -- not a castable player button |
+| Al Dente | 300921 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Alexstrasza's Gift | 300956 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Archon of Flame | 704282 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Ascension of Executus | 1119754 | flameweaving | longterm | Rank 1 | permanent, 'Only 1 Ascension spell can be active' -- a stance |
+| Ascension of Ragnaros | 1119901 | incineration | longterm | Rank 1 | permanent, 'Only 1 Ascension spell can be active' -- a stance |
+| Ascension of Thaurissan | 1119751 | incineration | longterm |  | permanent, 'Only 1 Ascension spell can be active' -- a stance |
+| Ashen Priest | 707432 | flameweaving | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 30' |
+| Ashen Skin | 504720 | draconic | longterm |  | 30 min, 'Can only have 1 Skin active at a time' -- a stance |
+| Aspect of Time | 500173 | draconic | ignore | Spec Passive | rank='Spec Passive' -- not a castable player button |
+| Aspect's Blessing | 802168 | draconic | offensive |  | 1 min, guarantees a crit on the next Echo/Flames and echoes it |
+| Binding Flames | 706764 | all | ignore | Debuff | rank='Debuff' -- not a castable player button |
+| Blackflight Resurgence | 805587 | draconic | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 50' |
+| Blaze | 805500 | incineration | main | Rank 1 | Ember spender, 15s DoT plus healing reduction |
+| Blessing of the Firelands | 504397 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Breath of Neltharion | 511109 | draconic | utility |  | 1.5 min cone disarm, 6s |
+| Bright Flames | 300759 | all | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Brood of the Earthwarder | 504497 | draconic | ignore |  | modifies Dragon's Fury |
+| Burn Impurities | 520149 | flameweaving | utility |  | dispel: 1 magic + 1 disease off an ally |
+| Burned | 524902 | incineration | ignore |  | skillbook marks it 'Ability Passive Lvl 50' |
+| Burning Armor | 520556 | flameweaving | ignore |  | modifies damage taken |
+| Burning Bandages | 704841 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
+| Burning Brand | 800809 | draconic | main | Rank 1 | no cooldown, 5s brand that explodes into a 12s DoT |
+| Burning Crescendo | 805378 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Burning Embers | 805624 | incineration | ignore |  | modifies Spellburn |
+| Burning Spheres | 801487 | flameweaving | offensive |  | 2 min, 3 spheres that lock onto an Ignited target |
+| Burning Spirit | 704840 | flameweaving | ignore |  | modifies Cauterize Wounds |
+| Cataclysm | 706887 | all | ignore | Rank 1 | modifies Firefall/Melt |
+| Cataclysmic Power | 804617 | incineration | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Cataclysmic Revenge | 804693 | flameweaving | ignore |  | 1.5s cooldown, no cost, no tooltip -- an internal trigger |
+| Cauterize | 560749 | flameweaving | utility |  | removes a bleed from an ally |
+| Cauterizing Wounds | 570001 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Chains of Fire | 706862 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Cinder Rush | 803953 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Cindergrip | 805476 | flameweaving | utility | Rank 1 | root with damage over 12s, one target at a time |
+| Cinderheart | 800806 | flameweaving | main | Rank 1 | L2 core direct heal |
+| Circle of Fire | 504650 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Cleansing Flames | 681145 | flameweaving | main | Rank 1 | 3s channel, heals allies and damages enemies in a cone |
+| Concentrated Fire | 704864 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Conjure Campfire | 570121 | flameweaving | ignore |  | cooking campfire, non-combat -- utility if you want it visible |
+| Constant Burning | 707126 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Critical Pressure | 704804 | draconic | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Dancing Flames | 805450 | incineration | ignore |  | 'Spreads Ignite, Blaze and Scalding Brand' with no cost and no GCD reads as the passive that makes them spread |
+| Death From Above | 520385 | draconic | ignore | Root | rank='Root' -- not a castable player button |
+| Deep Breaths | 802166 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Demolisher | 300930 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Destroyer's Legacy | 704815 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Destroyer's Maw | 802107 | draconic | main | Rank 1 | 15s, unresistable, generates 30 Heat -- core damage |
+| Disaster | 680464 | flameweaving | ignore |  | modifies Flame Step and Dragon Leap |
+| Dormant | 800128 | flameweaving | buff |  | 10s, +150% mana regen while the Phoenix is dormant |
+| Draconic - Level 15 Passive |  | draconic | ignore |  | skillbook marks it 'Ability Passive Lvl 15' |
+| Draconic - Level 30 Passive | 807511 | draconic | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 30' |
+| Draconic Aspect | 92128 | draconic | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 30' |
+| Draconic Heritage | 704810 | draconic | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Draconic Invocation | 802119 | draconic | offensive |  | 3 min, instantly generates 5 Embers |
+| Draconic Rage | 802164 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Draconic Tempest | 301212 | draconic | ignore | Proc | rank='Proc' and a chance-to-apply tooltip -- the talent, not a buff you track |
+| Dragon Leap | 806611 | all | utility | Rank 1 | 10s leap, AoE damage on landing, no cooldown -- movement first |
+| Dragon Skin | 681314 | draconic | longterm |  | 30 min, 'Can only have 1 Skin active at a time' -- a stance |
+| Dragon's Bane | 504398 | all | ignore |  | no cost, no cooldown, modifies another ability |
+| Dragon's Blood | 802162 | draconic | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Dragon's Edge | 300755 | flameweaving | ignore | Specialization | skillbook marks it 'Talent Passive Lvl 10' |
+| Dragon's Wrath | 573229 | draconic | ignore |  | this row is the 30% slow component; the ability itself is elsewhere |
+| Dragonfire | 500129 | draconic | main | Rank 1 | 8s, damage plus 6% mana, brands the target |
+| Dragonscales | 524818 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Earthwarder | 706239 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Echo of Nozdormu | 802174 | draconic | main | Rank 1 | L11 core nuke, reduces all cooldowns by 5% |
+| Ember Charm | 704861 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Ember Skin | 504396 | flameweaving | longterm |  | 'Can only have 1 Skin active at a time' -- the fourth Skin |
+| Ember Touch | 800818 | all | main | Rank 1 | Ember spender, heals -- the class-wide spender button |
+| Emberheart | 680366 | flameweaving | ignore |  | L58 bare damage line, cost/gcd 0, and no other tooltip names it as a button -- the difference from Melt |
+| Eruption | 800103 | incineration | offensive |  | 2 min, +20% damage and healing, 5 Heat every 0.5s |
+| Essence of Malygos | 706892 | all | ignore | Proc | rank='Proc' -- not a castable player button |
+| Eternal Flame | 805475 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
+| Expediting Power | 704814 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Explode | 800792 | incineration | main | Rank 1 | L1 filler, scales with your DoTs on the target |
+| Explosive | 704845 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Fiery Demeanor | 525059 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Fiery Intent | 525018 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Fiery Outburst | 704260 | draconic | ignore | Proc | rank='Proc' -- not a castable player button |
+| Fiery Passion | 560525 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Final Destination Remover |  | flameweaving | ignore |  | no cost, no cooldown, no tooltip -- a component |
+| Fire Safety | 300970 | all | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Fire and Brimstone | 704849 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Fired Up! | 704823 | flameweaving | offensive |  | 1 min, Ember spenders instant + 30% refund + 20% crit |
+| Firefall | 801905 | draconic | main | Rank 1 | 8s AoE, 10 Heat per target |
+| Firepower | 805487 | flameweaving | offensive |  | 30s raid empower for allies standing in a Path of Flames |
+| Firestorm | 802791 | all | offensive |  | 1 min, persistent AoE damage zone |
+| Fissure Stream | 805472 | flameweaving | ignore |  | modifies Path of Flames |
+| Flame Bonding | 706858 | flameweaving | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 20' |
+| Flame Mastery | 704828 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Flame Seeker | 804868 | flameweaving | ignore |  | minimap tracking for elementals and dragonkin |
+| Flame Step | 520634 | draconic | ignore | Dispel | rank='Dispel' -- not a castable player button |
+| Flame Swell | 502064 | incineration | target | Rank 9 | 9s periodic on everything your Ignite is on -- an applied effect |
+| Flamecasting | 804300 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Flamer | 680836 | all | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Flames of Execution | 706238 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Flames of Focus | 500189 | flameweaving | buff |  | 20s, +5% haste +3% crit, stacks 3 -- and Slag Barrage spends it |
+| Flames of Neltharion | 801915 | draconic | main | Rank 1 | L12 cleave filler |
+| Flames of the Firelord | 538441 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Flameweaving - Level 15 Passive | 707130 | flameweaving | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 15' |
+| Flaming Finesse | 520030 | all | ignore |  | no cost, no cooldown, modifies another ability |
+| Flare Bolt | 800790 | draconic | main | Rank 1 | L1 filler, generates 20 Heat |
+| Forceblast | 804870 | incineration | ignore |  | modifies Slag Barrage |
+| From The Ashes | 560561 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Gaze of Ysera | 503229 | all | utility | Sleep | 30s crowd control, sleep, breaks on damage |
+| Gaze of Ysera Dispel Trigger | 503228 | incineration | ignore |  | no cost, no cooldown, no tooltip -- a component |
+| Gaze of Ysera Trigger After Dispel | 503230 | incineration | ignore |  | no cost, no cooldown, no tooltip -- a component |
+| Grace of Alexstrasza | 802167 | all | defensive |  | 5 min raid-wide movement-impair clear + immunity |
+| Grand Finale | 300920 | flameweaving | ignore |  | modifies Burning Crescendo |
+| Greater Seal of Al'ar | 808060 | flameweaving | longterm |  | 30 min raid mana regen -- a Seal |
+| Greater Seal of Alysrazor | 570170 | flameweaving | longterm |  | 30 min raid Intellect -- a Seal |
+| Grill Mark | 503759 | draconic | ignore | ICD tracker | rank='ICD tracker' -- not a castable player button |
+| Hasty Incantation | 802169 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Heated | 504754 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Hellscape | 706886 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Hot Headed | 503806 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Hot Trail | 704825 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Hot and Dangerous | 704859 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Ignis Fatalis | 706893 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Ignis Ultimatus | 680369 | all | offensive |  | 1 min channelled line, damage and healing, ignores immunities |
+| Ignite | 800791 | incineration | main | Rank 1 | core 21s DoT, generates Heat per tick |
+| Improved Dragon Breaths | 704811 | draconic | ignore | Rank 2 | no cost, no cooldown, modifies another ability |
+| Improved Petrifying Visage | 704808 | draconic | ignore | Rank 2 | no cost, no cooldown, modifies another ability |
+| Incineration - Level 15 Passive |  | incineration | ignore |  | skillbook marks it 'Talent Passive Lvl 15' |
+| Incinerator | 807510 | incineration | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 40' |
+| Infernity | 572540 | flameweaving | ignore | Applier | rank='Applier' -- not a castable player button |
+| Inferno | 806736 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Inferno Barrier | 504380 | all | defensive | Rank 1 | 20s absorb shield on an ally, 30s |
+| Infernus | 92124 | incineration | ignore | Specialization | rank='Specialization' -- not a castable player button |
+| Inner Flame | 301974 | draconic | ignore |  | no cost, no cooldown, modifies another ability |
+| Invigoration | 704863 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Invocation of Flames | 572381 | draconic | ignore | Proc | rank='Proc' -- not a castable player button |
+| Kael's Command | 680375 | flameweaving | defensive | TESTING SPELL | 45s, Phoenix goes dormant and radiates healing -- a healing CD |
+| Kindle | 803819 | flameweaving | main | Rank 1 | L14 direct heal, the bigger of the two fillers |
+| Lava Shard | 803950 | incineration | main | Rank 1 | 10s, generates 1 Ember -- the Ember engine |
+| Lava-Drenched | 706650 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Legacy of Deathwing | 520823 | draconic | buff |  | 10s proc: next Destroyer's Maw or Firefall instant, free, +25% |
+| Legacy of Ragnaros | 524707 | flameweaving | ignore |  | modifies Pyroclasm and Lava Shard |
+| Lifebinder's Fire | 680367 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
+| Lifedrinker |  | draconic | ignore |  | no spell id in the digest -- cannot be built |
+| Lighting the Fuse | 807509 | incineration | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 30' |
+| Living Flame | 704851 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
+| Lucifron's Rage | 300932 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Magma Guardian | 706872 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Magma Skin | 680387 | draconic,incineration | longterm |  | 30 min, 'Can only have 1 Skin active at a time' -- a stance |
+| Magmatic | 704807 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Make Campfire |  | flameweaving | ignore |  | no spell id in the digest -- cannot be built |
+| Melt | 451267 | incineration | main |  | L12 direct damage. Cataclysm's tooltip says 'your Melt', so something casts it. cost/gcd are 0 in the API, which Chronomancer shows is not disqualifying (Collapse, Chaos Fusion) |
+| Melt Bindings | 804727 | flameweaving | utility |  | 2 min freedom, 3s immunity to roots and slows |
+| Melt Lock |  | incineration | ignore |  | no spell id in the digest -- cannot be built |
+| Melting Point | 300757 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Meteor | 500135 | all | main | Rank 1 | no cooldown, generates 50 Heat -- an AoE rotation button, not a CD |
+| Molten Fury | 704818 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Molten Rapacity | 704842 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Molten Storm | 805483 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Neltharion's Resolve | 520488 | flameweaving | defensive |  | 1 min party-wide fear ward |
+| Obliteration | 706894 | all | ignore | Passive | skillbook marks it 'Ability Passive Lvl 10' |
+| Overheat Delayer | 800408 | incineration | ignore | Unusued | deprecated/placeholder text: 'Deprecated' |
+| Overwhelming Flames | 704813 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Petrifying Visage | 801908 | draconic | utility | Rank 1 | 2 min, 3s horror |
+| Phoenix Dive | 706854 | flameweaving | main |  | no cooldown, shields allies along the Phoenix's path |
+| Phoenix Egg | 707110 | flameweaving | ignore | Heal | rank='Heal' -- the healing component, not the button |
+| Phoenix Egg DEPRECTAED | 500134 | flameweaving | ignore |  | tooltip is literally 'DEPRECTAED' |
+| Phoenix Handler | 704865 | flameweaving | ignore | Proc | rank='Proc' -- not a castable player button |
+| Phoenix Rebirth | 706867 | flameweaving | utility | Rank 1 | out-of-combat resurrect |
+| Pillar of Flame | 805496 | incineration | offensive | Rank 1 | 20s AoE around the primary target |
+| Pulverizespout | 706740 | flameweaving | ignore | Stun | rank='Stun' -- not a castable player button |
+| Purifying Flames | 807159 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Pyroclasm | 520019 | incineration | offensive |  | 1 min, consumes Burning effects for burst |
+| Pyromancy | 704831 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Pyromaniac | 500166 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Raze | 804814 | incineration | ignore |  | modifies Lava Shard |
+| Realm of Fire | 704837 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Reborn from Ash | 804231 | flameweaving | utility | Rank 1 | 10 min combat resurrect (Chronomancer files Rehatch the same way) |
+| Rekindle | 803379 | flameweaving | ignore | Hidden Overheat Bonus | rank='Hidden Overheat Bonus' -- not a castable player button |
+| Residual Power | 300751 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
+| Roaring Pyre | 704278 | flameweaving | defensive |  | 1 min ground-target healing pyre, 20s |
+| Sageweaving | 503915 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Scalding Brand | 680945 | incineration | target | Damage | per-second burn on the enemy, extended by Firefall and Lava Shard |
+| Scorching Sermon | 704858 | flameweaving | ignore | Rank 2 | modifies Flare Bolt and Cauterize Wounds |
+| Scorching Spirit | 805552 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Seal of Al'ar | 803649 | flameweaving | longterm | Rank 1 | 30 min single-target mana regen -- a Seal |
+| Seal of Alysrazor | 800196 | flameweaving | longterm | Rank 1 | 30 min single-target Intellect -- a Seal |
+| Searing Speed | 503803 | all | ignore |  | no cost, no cooldown, modifies another ability |
+| Shazzrah's Boon | 807126 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Shielded by Flames | 704275 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Sizzle | 680973 | incineration | ignore | Ally Trigger | rank='Ally Trigger' -- not a castable player button |
+| Slag Barrage | 502032 | incineration | offensive | Rank 2 | 30s, consumes Flames of Focus stacks |
+| Slag Works | 300922 | flameweaving | ignore |  | modifies Slag Foundry consumers |
+| Slagforged Armor | 300931 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
+| Soar | 520399 | draconic | ignore |  | slow-fall leap, explicitly not usable in combat |
+| Soothing Flames | 704855 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Soul of the Dragon | 504498 | draconic | ignore |  | modifies Flare Bolt |
+| Spellburn | 800808 | incineration | utility |  | 25s interrupt, off the global, locks a school for 5s |
+| Spirit of Fire | 500167 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Spirit of the Phoenix | 92126 | flameweaving | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 10' |
+| Stoke | 803952 | flameweaving | main | Rank 1 | 10s, cheap, extends Ignite and Blaze -- rotational, could read offensive |
+| Student of the Flame | 300758 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Sulfuron Blast | 801687 | incineration | ignore |  | tooltip reads 'If you can read this, reach out to a Staff member' |
+| Sunstrider Array | 570003 | flameweaving | ignore | Heal | rank='Heal' -- the healing component, not the button |
+| Superheated | 681196 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Supernova | 803546 | incineration | utility |  | 5 min AoE pull and 80% slow -- control, could read offensive |
+| Tender Touch | 704273 | flameweaving | ignore | Rank 1 | modifies Ember Touch |
+| Third Degree Burns | 804616 | incineration | ignore |  | no cost, no cooldown, modifies another ability |
+| Timed Attacks | 704812 | draconic | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| To Ashes | 300975 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Touched by Fire | 704848 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Unquenchable | 704850 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
+| Volcanic Flames | 804607 | incineration | ignore |  | modifies Ignite/Blaze/Scalding Brand crit |
+| Volcanic Shell | 805477 | all | defensive | Rank 1 | 2 min self absorb, off the global |
+| Volcanocannon | 806501 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Weaving Flames | 707160 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| White Hot | 804606 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
+| Wildfire | 706888 | draconic,incineration | main | Damage | L34 DoT that spreads at the end of its duration |
+| Wreath of Flames | 802068 | incineration | ignore |  | modifies Flamecasting generation |
+| Ysera's Blessing | 704820 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 
 ## Candidates
 

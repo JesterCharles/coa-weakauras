@@ -115,6 +115,21 @@ Runemaster predates the table and still hand-curates `OFFENSIVE` /
 `OFFENSIVE_TAIL` / `DEFENSIVE` behind `roles_from_inventory=False`. Do not copy
 that shape into a new class.
 
+**Provenance, per class.** Runemaster's and Chronomancer's roles were assigned
+by a human reading each row. **Pyromancer's were proposed by an automated pass
+and cleared in bulk on 2026-08-02** at the user's instruction — the reasoning
+for every row is still in its Notes cell, so a wrong call is findable, but no
+human read them one at a time. The rows most likely to be wrong are the ones
+whose Notes hedge ("reads like", "could read", "no other tooltip names it"):
+`Melt`, `Emberheart`, `Dancing Flames`, `Draconic Tempest`, `Dragon Leap`,
+`Stoke`, `Supernova`, `Flame Swell`, `Conjure Campfire`, `Soar`. Check those
+against the game before trusting the first Pyromancer build.
+
+The `prop:` / `prop?:` markers exist for this: an automated pass writes them,
+they block the build exactly as `seed:` does, and clearing one is a human
+saying "I read this". Clearing them in bulk skips that, which is a choice
+available to whoever owns the class and not a default.
+
 ## 4. Build, then check the generated guide BEFORE importing
 
 ```bash
