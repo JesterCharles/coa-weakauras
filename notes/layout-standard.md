@@ -170,10 +170,25 @@ Three things this buys, in order of how much they matter:
 resource can make.** At 5 Embers, Heat keeps climbing and the Ember it
 eventually mints is *lost*. A separate heat bar cannot say that — it looks
 identical whether the next Ember will land or evaporate. The fused cell can,
-because it knows both numbers. So cell 5 glows **yellow from 50 Heat** and
-**orange from 80**, i.e. the window in which you should spend before the waste
-lands. Nothing else in the pack warns about a resource you are about to throw
-away.
+because it knows both numbers. So at full Embers **the heat number itself turns
+yellow from 50 and red from 80** — the window in which you should spend before
+the waste lands. Nothing else in the pack warns about a resource you are about
+to throw away.
+
+Recolouring the NUMBER, not glowing the cell. It was a glow first; two reasons
+it is not:
+
+* **Precision.** At the cap the heat number *is* the waste, so colouring that
+  number says exactly that. A glow around the cell only says "something about
+  this cell", and the cell is 14px.
+* **One less unverified assumption.** §8A lists both `subtext` and `subglow` as
+  supported on a `texture` region, but that is read off the WeakAuras source,
+  not seen on screen — and it is the riskiest thing about this bar. The bar
+  needs the `subtext` regardless, since that is how the number is drawn at all,
+  so putting the cue on the text makes it ride the one thing that has to work
+  anyway. It also makes the failure mode honest: no subregion support now means
+  no number at all, rather than a number that shows while the warning silently
+  never fires.
 
 **One less band.** The stack is the only variable-height section above the
 cooldowns, so removing 10px shortens every anchor below it on every Pyromancer
@@ -280,8 +295,9 @@ fixed inter-band gap. No class declares an anchor.
   never set by hand, so they cannot drift apart.
 - **Resource count varies 1–3 by class**, and the pack renders exactly what the
   class spends. Engravement and Riftblade have one (mana); Glyphic has two
-  (mana + a 3-segment glyph bar); Chronomancer's Artificer has two (mana +
-  combo points); Pyromancer has three (heat, ember, mana). A shorter stack pulls
+  (mana + a 3-segment glyph bar); Chronomancer's Artificer has two (mana + Echo
+  Fragments — NOT combo points, the class has none); Pyromancer has two (mana +
+  a 5-cell ember bar with heat `fused` into it). A shorter stack pulls
   everything below it up.
 - **Cooldown rows escalate as they come back**: timer appears at 20s, the icon
   glows at 10s, the glow turns urgent at 5s. The **main damage row is exempt** —
