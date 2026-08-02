@@ -76,21 +76,46 @@ SOURCES = {
                  "LINK OUT instead; permission has been requested.",
     },
     "db.exil.es": {
-        "policy": "ask",
-        "what": "spell ids, ranks, cooldowns, costs",
-        "robots": "no policy published",
-        "checked": "2026-08-01",
-        "notes": "Already used by spellmeta.py and audit_cds.py at low volume "
-                 "with local caching. No published policy either way; keep the "
-                 "volume low and the cache warm.",
+        "policy": "user-agent",
+        "what": "spell ids, ranks, cooldowns, costs, per-class spell digests",
+        "robots": "Disallows ~25 named training crawlers (ClaudeBot, GPTBot, "
+                  "CCBot, anthropic-ai, Google-Extended, Bytespider, ...). "
+                  "For User-agent: * it allows the site but Disallows /search "
+                  "and /static/icons*. Pages also carry "
+                  "<meta name=robots content='noai, noimageai'>.",
+        "checked": "2026-08-02",
+        "notes": "UPGRADED from `ask` on 2026-08-02: the site DOES publish a "
+                 "policy, at /llms.txt, and it draws exactly the split this "
+                 "file's `user-agent` value is for -- 'Inference-time agents "
+                 "(assistants helping a human read these pages) are welcome. "
+                 "Training-time crawlers are not.' Our use is the welcome "
+                 "half. The earlier row said `no policy published`, which was "
+                 "wrong, and the wrong answer was the restrictive one. "
+                 "TWO THINGS TO HONOUR. (1) /search is Disallow'd for general "
+                 "crawlers -- do not build name lookups on it. (2) The "
+                 "operator publishes purpose-built digests FOR agents, so use "
+                 "them instead of scraping HTML: /llms.txt indexes per-category "
+                 "guides, and `/class/{slug}/llms.txt` returns one class's "
+                 "whole spell list with ids plus every Mind-of-Ascension tree "
+                 "in a single 40KB request. tools/exiles.py uses that. "
+                 "The site also asks not to be treated as authoritative WoW "
+                 "data: it is one private server's snapshot and says outright "
+                 "that some rows are unverified scrape output.",
     },
     "db.ascension.gg": {
-        "policy": "ask",
-        "what": "ability pages, cooldown and GCD rows",
-        "robots": "no policy published",
-        "checked": "2026-08-01",
-        "notes": "Same posture as db.exil.es. audit_cds.py caches every "
-                 "response under tools/spellchk/ so a re-run costs nothing.",
+        "policy": "open",
+        "what": "ability pages, cooldown and GCD rows, icon art per spell id",
+        "robots": "User-agent: * Allow: / , with Disallow on the query-string "
+                  "routes only (?admin=, ?account=, ?compare=, ?filter=, "
+                  "?search=, ?go-to-comment=). Publishes a sitemap.",
+        "checked": "2026-08-02",
+        "notes": "UPGRADED from `ask` on 2026-08-02: robots.txt allows every "
+                 "agent on the spell pages we actually read. Honour the "
+                 "query-string Disallows -- ?search= and ?filter= are off "
+                 "limits, so resolve by spell id, which is what "
+                 "fetch_spell_icons.py already does. audit_cds.py caches "
+                 "every response under tools/spellchk/ so a re-run costs "
+                 "nothing.",
     },
 }
 

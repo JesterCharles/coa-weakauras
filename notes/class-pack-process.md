@@ -210,11 +210,21 @@ What is genuinely per-class: `tools/wapack.py` holds everything else.
 **Settled after Chronomancer:** `build_<class>.py` is class CONTENT over a
 shared engine. See "The engine" below.
 
-**Known gap:** the layout standard has never been exercised against a **healing**
-spec. Chronomancer's Time spec is the first. Group-frame health, multi-target
-HoT tracking and healer-specific cooldowns have no slot in the current standard
-— decide whether to extend it or to scope healing surfaces out of these packs,
-and record the decision before building the other healer classes.
+**Healing specs — settled on Chronomancer's Time, and it holds.** Raid-frame
+health and multi-target HoT state are scoped OUT: VuhDo/Grid own that job on
+3.3.5a. What a pack carries is the **target band** — your own HoTs and absorbs
+on whoever you are targeting right now, glowing when one needs a refresh
+(`dot_bars(helpful=True, refresh_at=...)`) — and a main row that is a healing
+rotation. Nothing wider.
+
+Which specs heal is in `resources/spec-roles.md`, read off the game and parsed
+by `classes.py` (`cls.spec_role(spec)`, `cls.healers`). `mkabilities.py` prints
+it at the top of the inventory, because a role review needs it in front of it.
+
+**It is not derivable, and the one place it looks derivable is wrong.**
+db.exil.es files Pyromancer's *healing* spec, Flameweaving, under the tree slug
+`pyromancer-destruction`. Tree slugs are filing, like `spell.line` and Sidekick
+mention counts — never role, never membership.
 
 ## Non-negotiables
 

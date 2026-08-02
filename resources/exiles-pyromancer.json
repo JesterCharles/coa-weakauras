@@ -1,0 +1,2876 @@
+{
+ "+1 Breath Charge": {
+  "ids": [
+   504577
+  ],
+  "icon": null
+ },
+ "-2 Heat Consumer": {
+  "ids": [
+   807401
+  ],
+  "icon": null
+ },
+ "Acolyte of Wyrmrest": {
+  "ids": [
+   803692
+  ],
+  "icon": null
+ },
+ "Agonizing Burns": {
+  "ids": [
+   803452
+  ],
+  "icon": null
+ },
+ "Al Dente": {
+  "ids": [
+   300921
+  ],
+  "icon": null
+ },
+ "Alexstrasza's Gift": {
+  "ids": [
+   300956
+  ],
+  "icon": null
+ },
+ "Apocalypse": {
+  "ids": [
+   562721
+  ],
+  "icon": null
+ },
+ "Arcane Embers": {
+  "ids": [
+   681517
+  ],
+  "icon": null
+ },
+ "Archon of Flame": {
+  "ids": [
+   704282
+  ],
+  "icon": null
+ },
+ "Archon of Flame Reduce CD": {
+  "ids": [
+   704281
+  ],
+  "icon": null
+ },
+ "Arsonist": {
+  "ids": [
+   301286
+  ],
+  "icon": null
+ },
+ "Ascender": {
+  "ids": [
+   525029
+  ],
+  "icon": null
+ },
+ "Ascension of Executus": {
+  "ids": [
+   1119754
+  ],
+  "icon": null
+ },
+ "Ascension of Ragnaros": {
+  "ids": [
+   1119901
+  ],
+  "icon": null
+ },
+ "Ascension of Thaurissan": {
+  "ids": [
+   1119751
+  ],
+  "icon": null
+ },
+ "Ashen Priest": {
+  "ids": [
+   707432
+  ],
+  "icon": null
+ },
+ "Ashen Skin": {
+  "ids": [
+   504720
+  ],
+  "icon": null
+ },
+ "Ashes of the Phoenix": {
+  "ids": [
+   573230
+  ],
+  "icon": null
+ },
+ "Aspect of Earth": {
+  "ids": [
+   802780
+  ],
+  "icon": null
+ },
+ "Aspect of Eternity": {
+  "ids": [
+   520770
+  ],
+  "icon": null
+ },
+ "Aspect of Magic": {
+  "ids": [
+   520786
+  ],
+  "icon": null
+ },
+ "Aspect of Time": {
+  "ids": [
+   500173
+  ],
+  "icon": null
+ },
+ "Aspect of Time (Flames of Neltharion)": {
+  "ids": [
+   504753
+  ],
+  "icon": null
+ },
+ "Aspect's Blessing": {
+  "ids": [
+   802168
+  ],
+  "icon": null
+ },
+ "Barely Human Reset": {
+  "ids": [
+   532763
+  ],
+  "icon": null
+ },
+ "Battle Rush Rooter": {
+  "ids": [
+   300843
+  ],
+  "icon": null
+ },
+ "Binding Flames": {
+  "ids": [
+   706764
+  ],
+  "icon": null
+ },
+ "Black Magic": {
+  "ids": [
+   520381
+  ],
+  "icon": null
+ },
+ "Blackflight Resurgence": {
+  "ids": [
+   805587
+  ],
+  "icon": null
+ },
+ "Blackrock Mountaineer": {
+  "ids": [
+   707494
+  ],
+  "icon": null
+ },
+ "Blaze": {
+  "ids": [
+   805500
+  ],
+  "icon": null
+ },
+ "Blaze overheat effect": {
+  "ids": [
+   681061
+  ],
+  "icon": null
+ },
+ "Blazing": {
+  "ids": [
+   806775
+  ],
+  "icon": null
+ },
+ "Blazing Purge": {
+  "ids": [
+   520489
+  ],
+  "icon": null
+ },
+ "Blessing of the Firelands": {
+  "ids": [
+   504397
+  ],
+  "icon": null
+ },
+ "Blessing of the Inferno": {
+  "ids": [
+   707451
+  ],
+  "icon": null
+ },
+ "Boil": {
+  "ids": [
+   524712
+  ],
+  "icon": null
+ },
+ "Bountiful Harvest": {
+  "ids": [
+   520749
+  ],
+  "icon": null
+ },
+ "Brand of the Lifegiver": {
+  "ids": [
+   504487
+  ],
+  "icon": null
+ },
+ "Breath Charge": {
+  "ids": [
+   504373
+  ],
+  "icon": null
+ },
+ "Breath Charge Delayer": {
+  "ids": [
+   520373
+  ],
+  "icon": null
+ },
+ "Breath Charge Exponentifier": {
+  "ids": [
+   706865
+  ],
+  "icon": null
+ },
+ "Breath Charge Exponentifier P2": {
+  "ids": [
+   706866
+  ],
+  "icon": null
+ },
+ "Breath Charge Remover": {
+  "ids": [
+   520374
+  ],
+  "icon": null
+ },
+ "Breath Charges - Malygos/Nozdormu": {
+  "ids": [
+   681123
+  ],
+  "icon": null
+ },
+ "Breath of Malygos": {
+  "ids": [
+   555701
+  ],
+  "icon": null
+ },
+ "Breath of Neltharion": {
+  "ids": [
+   511109
+  ],
+  "icon": null
+ },
+ "Breathing Cycle": {
+  "ids": [
+   300756
+  ],
+  "icon": null
+ },
+ "Bright Flames": {
+  "ids": [
+   300759
+  ],
+  "icon": null
+ },
+ "Brilliance": {
+  "ids": [
+   570207
+  ],
+  "icon": null
+ },
+ "Brood of the Earthwarder": {
+  "ids": [
+   504497
+  ],
+  "icon": null
+ },
+ "Burn Impurities": {
+  "ids": [
+   520149
+  ],
+  "icon": null
+ },
+ "Burned": {
+  "ids": [
+   524902
+  ],
+  "icon": null
+ },
+ "Burning Armor": {
+  "ids": [
+   520556
+  ],
+  "icon": null
+ },
+ "Burning Bandages": {
+  "ids": [
+   704841
+  ],
+  "icon": null
+ },
+ "Burning Brand": {
+  "ids": [
+   800809
+  ],
+  "icon": null
+ },
+ "Burning Command": {
+  "ids": [
+   806056
+  ],
+  "icon": null
+ },
+ "Burning Crescendo": {
+  "ids": [
+   805378
+  ],
+  "icon": null
+ },
+ "Burning Demeanor": {
+  "ids": [
+   706738
+  ],
+  "icon": null
+ },
+ "Burning Desire": {
+  "ids": [
+   806786
+  ],
+  "icon": null
+ },
+ "Burning Desire Proc": {
+  "ids": [
+   806785
+  ],
+  "icon": null
+ },
+ "Burning Embers": {
+  "ids": [
+   805624
+  ],
+  "icon": null
+ },
+ "Burning Passion": {
+  "ids": [
+   504733
+  ],
+  "icon": null
+ },
+ "Burning Spheres": {
+  "ids": [
+   801487
+  ],
+  "icon": null
+ },
+ "Burning Spirit": {
+  "ids": [
+   704840
+  ],
+  "icon": null
+ },
+ "Burning Vigil": {
+  "ids": [
+   805489
+  ],
+  "icon": null
+ },
+ "Burning Vortex": {
+  "ids": [
+   706873
+  ],
+  "icon": null
+ },
+ "Burning...Burning...": {
+  "ids": [
+   680368
+  ],
+  "icon": null
+ },
+ "Burst": {
+  "ids": [
+   500182
+  ],
+  "icon": null
+ },
+ "Bushfire": {
+  "ids": [
+   503809
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Edge": {
+  "ids": [
+   801983
+  ],
+  "icon": null
+ },
+ "Cascading Flames": {
+  "ids": [
+   520517
+  ],
+  "icon": null
+ },
+ "Cascading Flames :D": {
+  "ids": [
+   582821
+  ],
+  "icon": null
+ },
+ "Cataclysm": {
+  "ids": [
+   706887
+  ],
+  "icon": null
+ },
+ "Cataclysmic Flames": {
+  "ids": [
+   805501
+  ],
+  "icon": null
+ },
+ "Cataclysmic Power": {
+  "ids": [
+   804617
+  ],
+  "icon": null
+ },
+ "Cataclysmic Ray": {
+  "ids": [
+   804618
+  ],
+  "icon": null
+ },
+ "Cataclysmic Revenge": {
+  "ids": [
+   804693
+  ],
+  "icon": null
+ },
+ "Cataclysmic Revenge Featherfall": {
+  "ids": [
+   520225
+  ],
+  "icon": null
+ },
+ "Cauterize": {
+  "ids": [
+   560749
+  ],
+  "icon": null
+ },
+ "Cauterize Wounds": {
+  "ids": [
+   807150
+  ],
+  "icon": null
+ },
+ "Cauterizing Wounds": {
+  "ids": [
+   570001
+  ],
+  "icon": null
+ },
+ "Chains of Fire": {
+  "ids": [
+   706862
+  ],
+  "icon": null
+ },
+ "Cinder Rush": {
+  "ids": [
+   803953
+  ],
+  "icon": null
+ },
+ "Cinderfield": {
+  "ids": [
+   706876
+  ],
+  "icon": null
+ },
+ "Cindergrip": {
+  "ids": [
+   805476
+  ],
+  "icon": null
+ },
+ "Cinderheart": {
+  "ids": [
+   800806
+  ],
+  "icon": null
+ },
+ "Cinderstorm": {
+  "ids": [
+   706875
+  ],
+  "icon": null
+ },
+ "Circle of Fire": {
+  "ids": [
+   504650
+  ],
+  "icon": null
+ },
+ "Circlet of Fire": {
+  "ids": [
+   806790
+  ],
+  "icon": null
+ },
+ "Cleansing Flame": {
+  "ids": [
+   570052
+  ],
+  "icon": null
+ },
+ "Cleansing Flames": {
+  "ids": [
+   681145
+  ],
+  "icon": null
+ },
+ "CoA Aura - Pyromancer - Draconic": {
+  "ids": [
+   887061
+  ],
+  "icon": null
+ },
+ "CoA Aura - Pyromancer - Flameweaving": {
+  "ids": [
+   887060
+  ],
+  "icon": null
+ },
+ "CoA Aura - Pyromancer - Incineration": {
+  "ids": [
+   887059
+  ],
+  "icon": null
+ },
+ "CoA Aura - Pyromancer Class": {
+  "ids": [
+   887012
+  ],
+  "icon": null
+ },
+ "Combustion": {
+  "ids": [
+   505189
+  ],
+  "icon": null
+ },
+ "Comet Storm": {
+  "ids": [
+   524612
+  ],
+  "icon": null
+ },
+ "Comet Storm Trigger": {
+  "ids": [
+   524611
+  ],
+  "icon": null
+ },
+ "Cometfall": {
+  "ids": [
+   301281
+  ],
+  "icon": null
+ },
+ "Concentrated Fire": {
+  "ids": [
+   704864
+  ],
+  "icon": null
+ },
+ "Conjure Campfire": {
+  "ids": [
+   570121
+  ],
+  "icon": null
+ },
+ "Constant Burning": {
+  "ids": [
+   707126
+  ],
+  "icon": null
+ },
+ "Consume Heat": {
+  "ids": [
+   807535
+  ],
+  "icon": null
+ },
+ "Controlled Burn": {
+  "ids": [
+   706884
+  ],
+  "icon": null
+ },
+ "Create Path of Flame Orb": {
+  "ids": [
+   560197
+  ],
+  "icon": null
+ },
+ "Create Path of Flames": {
+  "ids": [
+   805473
+  ],
+  "icon": null
+ },
+ "Cremation": {
+  "ids": [
+   707481
+  ],
+  "icon": null
+ },
+ "Crimson Doctrine": {
+  "ids": [
+   805590
+  ],
+  "icon": null
+ },
+ "Critical Pressure": {
+  "ids": [
+   704804
+  ],
+  "icon": null
+ },
+ "Dancing Flames": {
+  "ids": [
+   805450
+  ],
+  "icon": null
+ },
+ "Dark Iron Legacy": {
+  "ids": [
+   680970
+  ],
+  "icon": null
+ },
+ "Death From Above": {
+  "ids": [
+   520385
+  ],
+  "icon": null
+ },
+ "Death Ray": {
+  "ids": [
+   704836
+  ],
+  "icon": null
+ },
+ "Death Scorch": {
+  "ids": [
+   503805
+  ],
+  "icon": null
+ },
+ "Deathwing's Revenge": {
+  "ids": [
+   806028
+  ],
+  "icon": null
+ },
+ "Decrement Flare Bolt": {
+  "ids": [
+   805633
+  ],
+  "icon": null
+ },
+ "Deep Breaths": {
+  "ids": [
+   802166
+  ],
+  "icon": null
+ },
+ "Demolisher": {
+  "ids": [
+   300930
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   805481
+  ],
+  "icon": null
+ },
+ "Descender": {
+  "ids": [
+   807399
+  ],
+  "icon": null
+ },
+ "Descender Trigger": {
+  "ids": [
+   524993
+  ],
+  "icon": null
+ },
+ "Destroyer's Legacy": {
+  "ids": [
+   704815
+  ],
+  "icon": null
+ },
+ "Destroyer's Maw": {
+  "ids": [
+   802107
+  ],
+  "icon": null
+ },
+ "Destroyers Legacy Trigger": {
+  "ids": [
+   524997
+  ],
+  "icon": null
+ },
+ "Destroyers Legacy Trigger2": {
+  "ids": [
+   524996
+  ],
+  "icon": null
+ },
+ "Dilation": {
+  "ids": [
+   806247
+  ],
+  "icon": null
+ },
+ "Disaster": {
+  "ids": [
+   680464
+  ],
+  "icon": null
+ },
+ "Doom Scroll": {
+  "ids": [
+   706739
+  ],
+  "icon": null
+ },
+ "Dormant": {
+  "ids": [
+   800128
+  ],
+  "icon": null
+ },
+ "Draconic - Level 10 Passive": {
+  "ids": [
+   93587
+  ],
+  "icon": null
+ },
+ "Draconic - Level 30 Passive": {
+  "ids": [
+   807511
+  ],
+  "icon": null
+ },
+ "Draconic Aspect": {
+  "ids": [
+   92128
+  ],
+  "icon": null
+ },
+ "Draconic Aspect Draconic Form": {
+  "ids": [
+   520829
+  ],
+  "icon": null
+ },
+ "Draconic Assault": {
+  "ids": [
+   802116
+  ],
+  "icon": null
+ },
+ "Draconic Attunement": {
+  "ids": [
+   573326
+  ],
+  "icon": null
+ },
+ "Draconic Fang": {
+  "ids": [
+   502100
+  ],
+  "icon": null
+ },
+ "Draconic Frenzy [WIP]": {
+  "ids": [
+   524992
+  ],
+  "icon": null
+ },
+ "Draconic Heritage": {
+  "ids": [
+   704810
+  ],
+  "icon": null
+ },
+ "Draconic Invocation": {
+  "ids": [
+   802119
+  ],
+  "icon": null
+ },
+ "Draconic Invocation Legacy of Deathwing": {
+  "ids": [
+   520358
+  ],
+  "icon": null
+ },
+ "Draconic Invocation Trigger": {
+  "ids": [
+   803400
+  ],
+  "icon": null
+ },
+ "Draconic Rage": {
+  "ids": [
+   802164
+  ],
+  "icon": null
+ },
+ "Draconic Rage Trigger": {
+  "ids": [
+   803454
+  ],
+  "icon": null
+ },
+ "Draconic Rage Trigger2": {
+  "ids": [
+   803713
+  ],
+  "icon": null
+ },
+ "Draconic Tempest": {
+  "ids": [
+   301212
+  ],
+  "icon": null
+ },
+ "Dragon Charmer": {
+  "ids": [
+   802259
+  ],
+  "icon": null
+ },
+ "Dragon Form Fire Missile": {
+  "ids": [
+   802102
+  ],
+  "icon": null
+ },
+ "Dragon Form Morph Size": {
+  "ids": [
+   681193
+  ],
+  "icon": null
+ },
+ "Dragon Form Trigger": {
+  "ids": [
+   802101
+  ],
+  "icon": null
+ },
+ "Dragon Leap": {
+  "ids": [
+   806611
+  ],
+  "icon": null
+ },
+ "Dragon Skin": {
+  "ids": [
+   681314
+  ],
+  "icon": null
+ },
+ "Dragon's Bane": {
+  "ids": [
+   504398
+  ],
+  "icon": null
+ },
+ "Dragon's Blood": {
+  "ids": [
+   802162
+  ],
+  "icon": null
+ },
+ "Dragon's Edge": {
+  "ids": [
+   300755
+  ],
+  "icon": null
+ },
+ "Dragon's Leap": {
+  "ids": [
+   503916
+  ],
+  "icon": null
+ },
+ "Dragon's Leap Wings Visual": {
+  "ids": [
+   520384
+  ],
+  "icon": null
+ },
+ "Dragon's Wrath": {
+  "ids": [
+   573229
+  ],
+  "icon": null
+ },
+ "Dragonfire": {
+  "ids": [
+   500129
+  ],
+  "icon": null
+ },
+ "Dragonfire Brand": {
+  "ids": [
+   500137
+  ],
+  "icon": null
+ },
+ "Dragonfire CD reset": {
+  "ids": [
+   300902
+  ],
+  "icon": null
+ },
+ "Dragonflame Crash": {
+  "ids": [
+   806375
+  ],
+  "icon": null
+ },
+ "Dragonscales": {
+  "ids": [
+   524818
+  ],
+  "icon": null
+ },
+ "Earthwarder": {
+  "ids": [
+   706239
+  ],
+  "icon": null
+ },
+ "Echo of Nozdormu": {
+  "ids": [
+   802174
+  ],
+  "icon": null
+ },
+ "Echo of Nozdormu (Aspect of Time)": {
+  "ids": [
+   503864
+  ],
+  "icon": null
+ },
+ "Ember": {
+  "ids": [
+   572806
+  ],
+  "icon": null
+ },
+ "Ember Charm": {
+  "ids": [
+   704861
+  ],
+  "icon": null
+ },
+ "Ember Consume": {
+  "ids": [
+   807536
+  ],
+  "icon": null
+ },
+ "Ember Skin": {
+  "ids": [
+   504396
+  ],
+  "icon": null
+ },
+ "Ember Tender": {
+  "ids": [
+   520828
+  ],
+  "icon": null
+ },
+ "Ember Touch": {
+  "ids": [
+   800818
+  ],
+  "icon": null
+ },
+ "Ember Trigger": {
+  "ids": [
+   807534
+  ],
+  "icon": null
+ },
+ "Emberheart": {
+  "ids": [
+   680366
+  ],
+  "icon": null
+ },
+ "Emberstorm": {
+  "ids": [
+   504395
+  ],
+  "icon": null
+ },
+ "Emberstorm Checker": {
+  "ids": [
+   504648
+  ],
+  "icon": null
+ },
+ "Embrace the Fire": {
+  "ids": [
+   503636
+  ],
+  "icon": null
+ },
+ "Enchanted Scales": {
+  "ids": [
+   301282
+  ],
+  "icon": null
+ },
+ "Eruption": {
+  "ids": [
+   800103
+  ],
+  "icon": null
+ },
+ "Essence of Malygos": {
+  "ids": [
+   706892
+  ],
+  "icon": null
+ },
+ "Eternal Flame": {
+  "ids": [
+   805475
+  ],
+  "icon": null
+ },
+ "Expediting Power": {
+  "ids": [
+   704814
+  ],
+  "icon": null
+ },
+ "Explode": {
+  "ids": [
+   800792
+  ],
+  "icon": null
+ },
+ "Explosive": {
+  "ids": [
+   704845
+  ],
+  "icon": null
+ },
+ "Explosive Force": {
+  "ids": [
+   301169
+  ],
+  "icon": null
+ },
+ "Eye of Deathwing": {
+  "ids": [
+   704261
+  ],
+  "icon": null
+ },
+ "Fiery Demeanor": {
+  "ids": [
+   525059
+  ],
+  "icon": null
+ },
+ "Fiery Execution": {
+  "ids": [
+   800604
+  ],
+  "icon": null
+ },
+ "Fiery Faith": {
+  "ids": [
+   503913
+  ],
+  "icon": null
+ },
+ "Fiery Intent": {
+  "ids": [
+   525018
+  ],
+  "icon": null
+ },
+ "Fiery Momentum": {
+  "ids": [
+   802775
+  ],
+  "icon": null
+ },
+ "Fiery Outburst": {
+  "ids": [
+   704260
+  ],
+  "icon": null
+ },
+ "Fiery Passion": {
+  "ids": [
+   560525
+  ],
+  "icon": null
+ },
+ "Fire Amplification": {
+  "ids": [
+   681137
+  ],
+  "icon": null
+ },
+ "Fire Bomber": {
+  "ids": [
+   503802
+  ],
+  "icon": null
+ },
+ "Fire Resistance": {
+  "ids": [
+   560005
+  ],
+  "icon": null
+ },
+ "Fire Safety": {
+  "ids": [
+   300970
+  ],
+  "icon": null
+ },
+ "Fire Streak": {
+  "ids": [
+   801937
+  ],
+  "icon": null
+ },
+ "Fire Trail": {
+  "ids": [
+   560766
+  ],
+  "icon": null
+ },
+ "Fire Trail DEPRECATED": {
+  "ids": [
+   805491
+  ],
+  "icon": null
+ },
+ "Fire and Brimstone": {
+  "ids": [
+   704849
+  ],
+  "icon": null
+ },
+ "Firebomb": {
+  "ids": [
+   803947
+  ],
+  "icon": null
+ },
+ "Fired Up!": {
+  "ids": [
+   704823
+  ],
+  "icon": null
+ },
+ "Firefall": {
+  "ids": [
+   801905
+  ],
+  "icon": null
+ },
+ "Firefall Passive": {
+  "ids": [
+   572581
+  ],
+  "icon": null
+ },
+ "Firelash": {
+  "ids": [
+   805861
+  ],
+  "icon": null
+ },
+ "Firelord": {
+  "ids": [
+   706737
+  ],
+  "icon": null
+ },
+ "Firepower": {
+  "ids": [
+   805487
+  ],
+  "icon": null
+ },
+ "Firestorm": {
+  "ids": [
+   802791
+  ],
+  "icon": null
+ },
+ "Firewall": {
+  "ids": [
+   806238
+  ],
+  "icon": null
+ },
+ "Fissure Stream": {
+  "ids": [
+   805472
+  ],
+  "icon": null
+ },
+ "Flame Bonding": {
+  "ids": [
+   706858
+  ],
+  "icon": null
+ },
+ "Flame Mastery": {
+  "ids": [
+   704828
+  ],
+  "icon": null
+ },
+ "Flame Orb": {
+  "ids": [
+   803152
+  ],
+  "icon": null
+ },
+ "Flame Seeker": {
+  "ids": [
+   804868
+  ],
+  "icon": null
+ },
+ "Flame Step": {
+  "ids": [
+   520634
+  ],
+  "icon": null
+ },
+ "Flame Swell": {
+  "ids": [
+   502064
+  ],
+  "icon": null
+ },
+ "Flamecasting": {
+  "ids": [
+   804300
+  ],
+  "icon": null
+ },
+ "Flamecasting (5 Stacks)": {
+  "ids": [
+   806777
+  ],
+  "icon": null
+ },
+ "Flamecasting 5 Stack": {
+  "ids": [
+   680365
+  ],
+  "icon": null
+ },
+ "Flamecasting 5 Stack Delayer": {
+  "ids": [
+   524668
+  ],
+  "icon": null
+ },
+ "Flamer": {
+  "ids": [
+   680836
+  ],
+  "icon": null
+ },
+ "Flames of Al'ar": {
+  "ids": [
+   500202
+  ],
+  "icon": null
+ },
+ "Flames of Execution": {
+  "ids": [
+   706238
+  ],
+  "icon": null
+ },
+ "Flames of Fate": {
+  "ids": [
+   707325
+  ],
+  "icon": null
+ },
+ "Flames of Focus": {
+  "ids": [
+   500189
+  ],
+  "icon": null
+ },
+ "Flames of Neltharion": {
+  "ids": [
+   801915
+  ],
+  "icon": null
+ },
+ "Flames of Neltharion (Aspect of Time)": {
+  "ids": [
+   504751
+  ],
+  "icon": null
+ },
+ "Flames of the Aspects": {
+  "ids": [
+   707493
+  ],
+  "icon": null
+ },
+ "Flames of the Firelord": {
+  "ids": [
+   538441
+  ],
+  "icon": null
+ },
+ "Flamespill": {
+  "ids": [
+   805494
+  ],
+  "icon": null
+ },
+ "Flamespiller": {
+  "ids": [
+   805468
+  ],
+  "icon": null
+ },
+ "Flamewake": {
+  "ids": [
+   706861
+  ],
+  "icon": null
+ },
+ "Flameweaving - Level 15 Passive": {
+  "ids": [
+   707130
+  ],
+  "icon": null
+ },
+ "Flaming Finesse": {
+  "ids": [
+   520030
+  ],
+  "icon": null
+ },
+ "Flare Bolt": {
+  "ids": [
+   800790
+  ],
+  "icon": null
+ },
+ "Flare Bolt (Cataclysmic Ray)": {
+  "ids": [
+   807202
+  ],
+  "icon": null
+ },
+ "Flaring Up!": {
+  "ids": [
+   301284
+  ],
+  "icon": null
+ },
+ "Flight of the Dragonborn": {
+  "ids": [
+   802163
+  ],
+  "icon": null
+ },
+ "Flint Blessing": {
+  "ids": [
+   803460
+  ],
+  "icon": null
+ },
+ "Forceblast": {
+  "ids": [
+   804870
+  ],
+  "icon": null
+ },
+ "From The Ashes": {
+  "ids": [
+   560561
+  ],
+  "icon": null
+ },
+ "Fueling the Fire": {
+  "ids": [
+   806747
+  ],
+  "icon": null
+ },
+ "Fully Heated": {
+  "ids": [
+   805860
+  ],
+  "icon": null
+ },
+ "Fury of the Phoenix Hidden Passive": {
+  "ids": [
+   800801
+  ],
+  "icon": null
+ },
+ "Gaze of Ysera": {
+  "ids": [
+   503229
+  ],
+  "icon": null
+ },
+ "Gaze of Ysera Dispel Trigger": {
+  "ids": [
+   503228
+  ],
+  "icon": null
+ },
+ "Gaze of Ysera Trigger After Dispel": {
+  "ids": [
+   503230
+  ],
+  "icon": null
+ },
+ "Generate 1 Heat": {
+  "ids": [
+   807402
+  ],
+  "icon": null
+ },
+ "Generate 1-3 Heat": {
+  "ids": [
+   808064
+  ],
+  "icon": null
+ },
+ "Generate 10 Heat": {
+  "ids": [
+   807394
+  ],
+  "icon": null
+ },
+ "Generate 2 Heat": {
+  "ids": [
+   807393
+  ],
+  "icon": null
+ },
+ "Generate 20 Heat": {
+  "ids": [
+   807391
+  ],
+  "icon": null
+ },
+ "Generate 3 Heat": {
+  "ids": [
+   808028
+  ],
+  "icon": null
+ },
+ "Generate 30 Heat": {
+  "ids": [
+   807390
+  ],
+  "icon": null
+ },
+ "Generate 5 Heat": {
+  "ids": [
+   807392
+  ],
+  "icon": null
+ },
+ "Generate 50 Heat": {
+  "ids": [
+   807613
+  ],
+  "icon": null
+ },
+ "Grace of Alexstrasza": {
+  "ids": [
+   802167
+  ],
+  "icon": null
+ },
+ "Grand Finale": {
+  "ids": [
+   300920
+  ],
+  "icon": null
+ },
+ "Greater Seal of Al'ar": {
+  "ids": [
+   808060
+  ],
+  "icon": null
+ },
+ "Greater Seal of Alysrazor": {
+  "ids": [
+   570170
+  ],
+  "icon": null
+ },
+ "Greatness of Garr": {
+  "ids": [
+   712393
+  ],
+  "icon": null
+ },
+ "Grill Mark": {
+  "ids": [
+   503759
+  ],
+  "icon": null
+ },
+ "Hasty Incantation": {
+  "ids": [
+   802169
+  ],
+  "icon": null
+ },
+ "Hatched!": {
+  "ids": [
+   520734
+  ],
+  "icon": null
+ },
+ "Hatching!": {
+  "ids": [
+   520687
+  ],
+  "icon": null
+ },
+ "Heart of Scorch": {
+  "ids": [
+   803068
+  ],
+  "icon": null
+ },
+ "Heat": {
+  "ids": [
+   807389
+  ],
+  "icon": null
+ },
+ "Heat Decay": {
+  "ids": [
+   807412
+  ],
+  "icon": null
+ },
+ "Heat Wave": {
+  "ids": [
+   503804
+  ],
+  "icon": null
+ },
+ "Heated": {
+  "ids": [
+   504754
+  ],
+  "icon": null
+ },
+ "Heating Up!": {
+  "ids": [
+   681278
+  ],
+  "icon": null
+ },
+ "Hellscape": {
+  "ids": [
+   706886
+  ],
+  "icon": null
+ },
+ "Hot Headed": {
+  "ids": [
+   503806
+  ],
+  "icon": null
+ },
+ "Hot Trail": {
+  "ids": [
+   704825
+  ],
+  "icon": null
+ },
+ "Hot Trial": {
+  "ids": [
+   503762
+  ],
+  "icon": null
+ },
+ "Hot and Dangerous": {
+  "ids": [
+   704859
+  ],
+  "icon": null
+ },
+ "Hurl Magma": {
+  "ids": [
+   801919
+  ],
+  "icon": null
+ },
+ "I'm not afraid cause yeah I'm gliding": {
+  "ids": [
+   520799
+  ],
+  "icon": null
+ },
+ "Ignis Fatalis": {
+  "ids": [
+   706893
+  ],
+  "icon": null
+ },
+ "Ignis Ultimatus": {
+  "ids": [
+   680369
+  ],
+  "icon": null
+ },
+ "Ignite": {
+  "ids": [
+   800791
+  ],
+  "icon": null
+ },
+ "Ignite Dummy": {
+  "ids": [
+   807201
+  ],
+  "icon": null
+ },
+ "Ignite Heat Generator": {
+  "ids": [
+   681360
+  ],
+  "icon": null
+ },
+ "Ignite overheat effect": {
+  "ids": [
+   680868
+  ],
+  "icon": null
+ },
+ "Ignited": {
+  "ids": [
+   803455
+  ],
+  "icon": null
+ },
+ "Immune Sap/Knockout/Charm": {
+  "ids": [
+   807636
+  ],
+  "icon": null
+ },
+ "Immune Stun/Disorient/Polymorph": {
+  "ids": [
+   803725
+  ],
+  "icon": null
+ },
+ "Improved Dragon Breaths": {
+  "ids": [
+   704811
+  ],
+  "icon": null
+ },
+ "Improved Petrifying Visage": {
+  "ids": [
+   704808
+  ],
+  "icon": null
+ },
+ "Incinerator": {
+  "ids": [
+   807510
+  ],
+  "icon": null
+ },
+ "Infernity": {
+  "ids": [
+   572540
+  ],
+  "icon": null
+ },
+ "Inferno": {
+  "ids": [
+   806736
+  ],
+  "icon": null
+ },
+ "Inferno Barrier": {
+  "ids": [
+   504380
+  ],
+  "icon": null
+ },
+ "Inferno Explosion": {
+  "ids": [
+   806742
+  ],
+  "icon": null
+ },
+ "Infernus": {
+  "ids": [
+   92124
+  ],
+  "icon": null
+ },
+ "Inner Flame": {
+  "ids": [
+   301974
+  ],
+  "icon": null
+ },
+ "Invigoration": {
+  "ids": [
+   704863
+  ],
+  "icon": null
+ },
+ "Invocation of Flames": {
+  "ids": [
+   572381
+  ],
+  "icon": null
+ },
+ "Invoke": {
+  "ids": [
+   573283
+  ],
+  "icon": null
+ },
+ "Invoking The Aspects": {
+  "ids": [
+   524820
+  ],
+  "icon": null
+ },
+ "Kael's Command": {
+  "ids": [
+   680375
+  ],
+  "icon": null
+ },
+ "Kindle": {
+  "ids": [
+   803819
+  ],
+  "icon": null
+ },
+ "Kiss of Al'ar": {
+  "ids": [
+   704280
+  ],
+  "icon": null
+ },
+ "Lantern Tender": {
+  "ids": [
+   503250
+  ],
+  "icon": null
+ },
+ "Lava Shard": {
+  "ids": [
+   803950
+  ],
+  "icon": null
+ },
+ "Lava-Drenched": {
+  "ids": [
+   706650
+  ],
+  "icon": null
+ },
+ "Legacy of Deathwing": {
+  "ids": [
+   520823
+  ],
+  "icon": null
+ },
+ "Legacy of Deathwing (invoking the Aspects)": {
+  "ids": [
+   520363
+  ],
+  "icon": null
+ },
+ "Legacy of Ragnaros": {
+  "ids": [
+   524707
+  ],
+  "icon": null
+ },
+ "Lifebinder's Fire": {
+  "ids": [
+   680367
+  ],
+  "icon": null
+ },
+ "Lifebringer's Blessing": {
+  "ids": [
+   707479
+  ],
+  "icon": null
+ },
+ "Light The Way": {
+  "ids": [
+   706743
+  ],
+  "icon": null
+ },
+ "Lighting the Fuse": {
+  "ids": [
+   807509
+  ],
+  "icon": null
+ },
+ "Living Comet": {
+  "ids": [
+   504492
+  ],
+  "icon": null
+ },
+ "Living Flame": {
+  "ids": [
+   704851
+  ],
+  "icon": null
+ },
+ "Living Torch": {
+  "ids": [
+   504632
+  ],
+  "icon": null
+ },
+ "Lucifron's Lagniappe": {
+  "ids": [
+   805497
+  ],
+  "icon": null
+ },
+ "Lucifron's Rage": {
+  "ids": [
+   300932
+  ],
+  "icon": null
+ },
+ "Mad Aspect's Scepter": {
+  "ids": [
+   706896
+  ],
+  "icon": null
+ },
+ "Magma Guardian": {
+  "ids": [
+   706872
+  ],
+  "icon": null
+ },
+ "Magma Skin": {
+  "ids": [
+   680387
+  ],
+  "icon": null
+ },
+ "Magmatic": {
+  "ids": [
+   704807
+  ],
+  "icon": null
+ },
+ "Magnitude 10": {
+  "ids": [
+   520485
+  ],
+  "icon": null
+ },
+ "Melt": {
+  "ids": [
+   451267
+  ],
+  "icon": null
+ },
+ "Melt Bindings": {
+  "ids": [
+   804727
+  ],
+  "icon": null
+ },
+ "Melt Weapon": {
+  "ids": [
+   301235
+  ],
+  "icon": null
+ },
+ "Melt Weapon (Dark Iron Legacy)": {
+  "ids": [
+   301285
+  ],
+  "icon": null
+ },
+ "Melted": {
+  "ids": [
+   803951
+  ],
+  "icon": null
+ },
+ "Melting Point": {
+  "ids": [
+   300757
+  ],
+  "icon": null
+ },
+ "Meteor": {
+  "ids": [
+   500135
+  ],
+  "icon": null
+ },
+ "Meteor Disorient Passive": {
+  "ids": [
+   571008
+  ],
+  "icon": null
+ },
+ "Meteor Slam": {
+  "ids": [
+   300985
+  ],
+  "icon": null
+ },
+ "Might of the Empire": {
+  "ids": [
+   805452
+  ],
+  "icon": null
+ },
+ "Molten Blast": {
+  "ids": [
+   504638
+  ],
+  "icon": null
+ },
+ "Molten Blast (Hellscape Swag)": {
+  "ids": [
+   532721
+  ],
+  "icon": null
+ },
+ "Molten Blast Passive": {
+  "ids": [
+   805461
+  ],
+  "icon": null
+ },
+ "Molten Courage": {
+  "ids": [
+   704819
+  ],
+  "icon": null
+ },
+ "Molten Fury": {
+  "ids": [
+   704818
+  ],
+  "icon": null
+ },
+ "Molten Rapacity": {
+  "ids": [
+   704842
+  ],
+  "icon": null
+ },
+ "Molten Storm": {
+  "ids": [
+   805483
+  ],
+  "icon": null
+ },
+ "Moonsteel Weapon": {
+  "ids": [
+   806513
+  ],
+  "icon": null
+ },
+ "Moonsteel Weapons": {
+  "ids": [
+   805540
+  ],
+  "icon": null
+ },
+ "Neltharion's Resolve": {
+  "ids": [
+   520488
+  ],
+  "icon": null
+ },
+ "Nexus Lord": {
+  "ids": [
+   302904
+  ],
+  "icon": null
+ },
+ "Obliteration": {
+  "ids": [
+   706894
+  ],
+  "icon": null
+ },
+ "Offering of Executus": {
+  "ids": [
+   806779
+  ],
+  "icon": null
+ },
+ "Opportunity": {
+  "ids": [
+   704806
+  ],
+  "icon": null
+ },
+ "Overheat": {
+  "ids": [
+   802565
+  ],
+  "icon": null
+ },
+ "Overheat (Cleansing Flames)": {
+  "ids": [
+   520027
+  ],
+  "icon": null
+ },
+ "Overheat (Flare Bolt/Destroyers Maw)": {
+  "ids": [
+   681230
+  ],
+  "icon": null
+ },
+ "Overheat Blaze": {
+  "ids": [
+   681062
+  ],
+  "icon": null
+ },
+ "Overheat Delayed Remover": {
+  "ids": [
+   803380
+  ],
+  "icon": null
+ },
+ "Overheat Delayer": {
+  "ids": [
+   800408
+  ],
+  "icon": null
+ },
+ "Overheat Ignite": {
+  "ids": [
+   680867
+  ],
+  "icon": null
+ },
+ "Overwhelming Flames": {
+  "ids": [
+   704813
+  ],
+  "icon": null
+ },
+ "Path of Flames": {
+  "ids": [
+   800815
+  ],
+  "icon": null
+ },
+ "Path of Flames Orb": {
+  "ids": [
+   560198
+  ],
+  "icon": null
+ },
+ "Perpetual Burning": {
+  "ids": [
+   707503
+  ],
+  "icon": null
+ },
+ "Petrifying Visage": {
+  "ids": [
+   801908
+  ],
+  "icon": null
+ },
+ "Phoenix": {
+  "ids": [
+   805800
+  ],
+  "icon": null
+ },
+ "Phoenix Armor": {
+  "ids": [
+   503914
+  ],
+  "icon": null
+ },
+ "Phoenix Blessing DEPRECATED": {
+  "ids": [
+   800189
+  ],
+  "icon": null
+ },
+ "Phoenix Charge": {
+  "ids": [
+   706857
+  ],
+  "icon": null
+ },
+ "Phoenix Dive": {
+  "ids": [
+   706854
+  ],
+  "icon": null
+ },
+ "Phoenix Dive Area Aura Forcer": {
+  "ids": [
+   706853
+  ],
+  "icon": null
+ },
+ "Phoenix Egg": {
+  "ids": [
+   707110
+  ],
+  "icon": null
+ },
+ "Phoenix Egg DEPRECTAED": {
+  "ids": [
+   500134
+  ],
+  "icon": null
+ },
+ "Phoenix Fire": {
+  "ids": [
+   500188
+  ],
+  "icon": null
+ },
+ "Phoenix Handler": {
+  "ids": [
+   704865
+  ],
+  "icon": null
+ },
+ "Phoenix Jump Cast": {
+  "ids": [
+   706883
+  ],
+  "icon": null
+ },
+ "Phoenix Jump Forcer": {
+  "ids": [
+   706881
+  ],
+  "icon": null
+ },
+ "Phoenix Jump Trigger": {
+  "ids": [
+   706882
+  ],
+  "icon": null
+ },
+ "Phoenix Rebirth": {
+  "ids": [
+   706867
+  ],
+  "icon": null
+ },
+ "Phoenix Shield": {
+  "ids": [
+   706855
+  ],
+  "icon": null
+ },
+ "Phoenix abilities enabler": {
+  "ids": [
+   681128
+  ],
+  "icon": null
+ },
+ "Phoenixfire": {
+  "ids": [
+   500908
+  ],
+  "icon": null
+ },
+ "Phoenixforge": {
+  "ids": [
+   805493
+  ],
+  "icon": null
+ },
+ "Pillar of Flame": {
+  "ids": [
+   805496
+  ],
+  "icon": null
+ },
+ "Placeholder (Mana Reaver?)": {
+  "ids": [
+   520383
+  ],
+  "icon": null
+ },
+ "Pulverizespout": {
+  "ids": [
+   706740
+  ],
+  "icon": null
+ },
+ "Purifying Flames": {
+  "ids": [
+   807159
+  ],
+  "icon": null
+ },
+ "Pyro Ally Tele CD Reducer": {
+  "ids": [
+   805490
+  ],
+  "icon": null
+ },
+ "Pyroclasm": {
+  "ids": [
+   520019
+  ],
+  "icon": null
+ },
+ "Pyroclasm sls": {
+  "ids": [
+   520827
+  ],
+  "icon": null
+ },
+ "Pyroclasmic Eruption": {
+  "ids": [
+   805485
+  ],
+  "icon": null
+ },
+ "Pyroclastic Flow": {
+  "ids": [
+   524874
+  ],
+  "icon": null
+ },
+ "Pyromancer Fire Resist Pen": {
+  "ids": [
+   561271
+  ],
+  "icon": null
+ },
+ "Pyromancy": {
+  "ids": [
+   704831
+  ],
+  "icon": null
+ },
+ "Pyromania": {
+  "ids": [
+   800812
+  ],
+  "icon": null
+ },
+ "Pyromaniac": {
+  "ids": [
+   500166
+  ],
+  "icon": null
+ },
+ "Pyromantic Accelerants": {
+  "ids": [
+   706889
+  ],
+  "icon": null
+ },
+ "Quickburn": {
+  "ids": [
+   704826
+  ],
+  "icon": null
+ },
+ "Rapid Incineration": {
+  "ids": [
+   504394
+  ],
+  "icon": null
+ },
+ "Raze": {
+  "ids": [
+   804814
+  ],
+  "icon": null
+ },
+ "Realm of Fire": {
+  "ids": [
+   704837
+  ],
+  "icon": null
+ },
+ "Reborn from Ash": {
+  "ids": [
+   804231
+  ],
+  "icon": null
+ },
+ "Rekindle": {
+  "ids": [
+   803379
+  ],
+  "icon": null
+ },
+ "Reset Meteor": {
+  "ids": [
+   500367
+  ],
+  "icon": null
+ },
+ "Reset Molten Blast": {
+  "ids": [
+   704199
+  ],
+  "icon": null
+ },
+ "Residual Power": {
+  "ids": [
+   300751
+  ],
+  "icon": null
+ },
+ "Roaring Fire": {
+  "ids": [
+   806613
+  ],
+  "icon": null
+ },
+ "Roaring Pyre": {
+  "ids": [
+   704278
+  ],
+  "icon": null
+ },
+ "Roasted Alive": {
+  "ids": [
+   707482
+  ],
+  "icon": null
+ },
+ "Sageweaving": {
+  "ids": [
+   503915
+  ],
+  "icon": null
+ },
+ "Scalding Brand": {
+  "ids": [
+   680945
+  ],
+  "icon": null
+ },
+ "Scepter of Fire": {
+  "ids": [
+   706860
+  ],
+  "icon": null
+ },
+ "Scorched": {
+  "ids": [
+   680962
+  ],
+  "icon": null
+ },
+ "Scorching Demeanor": {
+  "ids": [
+   706717
+  ],
+  "icon": null
+ },
+ "Scorching Sermon": {
+  "ids": [
+   704858
+  ],
+  "icon": null
+ },
+ "Scorching Spirit": {
+  "ids": [
+   805552
+  ],
+  "icon": null
+ },
+ "Seal of Al'ar": {
+  "ids": [
+   803649
+  ],
+  "icon": null
+ },
+ "Seal of Alysrazor": {
+  "ids": [
+   800196
+  ],
+  "icon": null
+ },
+ "Searing Flames": {
+  "ids": [
+   503863
+  ],
+  "icon": null
+ },
+ "Searing Power": {
+  "ids": [
+   680959
+  ],
+  "icon": null
+ },
+ "Searing Speed": {
+  "ids": [
+   503803
+  ],
+  "icon": null
+ },
+ "Searing Talon": {
+  "ids": [
+   500201
+  ],
+  "icon": null
+ },
+ "Shazzrah's Boon": {
+  "ids": [
+   807126
+  ],
+  "icon": null
+ },
+ "Shielded by Flames": {
+  "ids": [
+   704275
+  ],
+  "icon": null
+ },
+ "Sizzle": {
+  "ids": [
+   680973
+  ],
+  "icon": null
+ },
+ "Skyfire Blast": {
+  "ids": [
+   805495
+  ],
+  "icon": null
+ },
+ "Slag Barrage": {
+  "ids": [
+   502032
+  ],
+  "icon": null
+ },
+ "Slag Bellows": {
+  "ids": [
+   803214
+  ],
+  "icon": null
+ },
+ "Slag Works": {
+  "ids": [
+   300922
+  ],
+  "icon": null
+ },
+ "Slagburst": {
+  "ids": [
+   804303
+  ],
+  "icon": null
+ },
+ "Slagdragon": {
+  "ids": [
+   520438
+  ],
+  "icon": null
+ },
+ "Slagdrenched": {
+  "ids": [
+   503703
+  ],
+  "icon": null
+ },
+ "Slagforged Armor": {
+  "ids": [
+   300931
+  ],
+  "icon": null
+ },
+ "Soar": {
+  "ids": [
+   520399
+  ],
+  "icon": null
+ },
+ "Soothing Flames": {
+  "ids": [
+   704855
+  ],
+  "icon": null
+ },
+ "Soul of the Dragon": {
+  "ids": [
+   504498
+  ],
+  "icon": null
+ },
+ "Soul of the Dragon Trigger2": {
+  "ids": [
+   524991
+  ],
+  "icon": null
+ },
+ "Speed of the Dragon": {
+  "ids": [
+   802112
+  ],
+  "icon": null
+ },
+ "Spellburn": {
+  "ids": [
+   800808
+  ],
+  "icon": null
+ },
+ "Spellguard: Firewall": {
+  "ids": [
+   944833
+  ],
+  "icon": null
+ },
+ "Spirit of Fire": {
+  "ids": [
+   500167
+  ],
+  "icon": null
+ },
+ "Spirit of the Flame": {
+  "ids": [
+   560551
+  ],
+  "icon": null
+ },
+ "Spirit of the Phoenix": {
+  "ids": [
+   92126
+  ],
+  "icon": null
+ },
+ "Stoke": {
+  "ids": [
+   803952
+  ],
+  "icon": null
+ },
+ "Student of the Flame": {
+  "ids": [
+   300758
+  ],
+  "icon": null
+ },
+ "Sulfur Fumes": {
+  "ids": [
+   807224
+  ],
+  "icon": null
+ },
+ "Sulfuron Blast": {
+  "ids": [
+   801687
+  ],
+  "icon": null
+ },
+ "Sulfuron Harbinger": {
+  "ids": [
+   807146
+  ],
+  "icon": null
+ },
+ "Sunstrider": {
+  "ids": [
+   706879
+  ],
+  "icon": null
+ },
+ "Sunstrider Array": {
+  "ids": [
+   570003
+  ],
+  "icon": null
+ },
+ "Superheated": {
+  "ids": [
+   681196
+  ],
+  "icon": null
+ },
+ "Supernova": {
+  "ids": [
+   803546
+  ],
+  "icon": null
+ },
+ "Tender Touch": {
+  "ids": [
+   704273
+  ],
+  "icon": null
+ },
+ "The Dragon Within": {
+  "ids": [
+   504501
+  ],
+  "icon": null
+ },
+ "Third Degree Burns": {
+  "ids": [
+   804616
+  ],
+  "icon": null
+ },
+ "Tide of Fire": {
+  "ids": [
+   806740
+  ],
+  "icon": null
+ },
+ "Tide of Fire Remover": {
+  "ids": [
+   520771
+  ],
+  "icon": null
+ },
+ "Timed Attacks": {
+  "ids": [
+   704812
+  ],
+  "icon": null
+ },
+ "To Ashes": {
+  "ids": [
+   300975
+  ],
+  "icon": null
+ },
+ "Total Meltdown": {
+  "ids": [
+   706885
+  ],
+  "icon": null
+ },
+ "Touched by Fire": {
+  "ids": [
+   704848
+  ],
+  "icon": null
+ },
+ "Trailblaze": {
+  "ids": [
+   704352
+  ],
+  "icon": null
+ },
+ "Unfathomably Hot!": {
+  "ids": [
+   807404
+  ],
+  "icon": null
+ },
+ "Unquenchable": {
+  "ids": [
+   704850
+  ],
+  "icon": null
+ },
+ "Valdrakken Adept": {
+  "ids": [
+   504499
+  ],
+  "icon": null
+ },
+ "Veins of Fire": {
+  "ids": [
+   706859
+  ],
+  "icon": null
+ },
+ "Volcanic": {
+  "ids": [
+   680835
+  ],
+  "icon": null
+ },
+ "Volcanic Flames": {
+  "ids": [
+   804607
+  ],
+  "icon": null
+ },
+ "Volcanic Shell": {
+  "ids": [
+   805477
+  ],
+  "icon": null
+ },
+ "Volcano": {
+  "ids": [
+   807540
+  ],
+  "icon": null
+ },
+ "Volcanocannon": {
+  "ids": [
+   806501
+  ],
+  "icon": null
+ },
+ "Volcanomancy": {
+  "ids": [
+   806787
+  ],
+  "icon": null
+ },
+ "Warmth": {
+  "ids": [
+   706464
+  ],
+  "icon": null
+ },
+ "Weaving Flames": {
+  "ids": [
+   707160
+  ],
+  "icon": null
+ },
+ "Well Fed": {
+  "ids": [
+   520750
+  ],
+  "icon": null
+ },
+ "Whirlyflame's Plight..": {
+  "ids": [
+   750701
+  ],
+  "icon": null
+ },
+ "White Hot": {
+  "ids": [
+   804606
+  ],
+  "icon": null
+ },
+ "Wild Magic": {
+  "ids": [
+   705559
+  ],
+  "icon": null
+ },
+ "Wild Magic Explosion": {
+  "ids": [
+   805499
+  ],
+  "icon": null
+ },
+ "Wildfire": {
+  "ids": [
+   706888
+  ],
+  "icon": null
+ },
+ "Wreath of Flames": {
+  "ids": [
+   802068
+  ],
+  "icon": null
+ },
+ "Ysera's Blessing": {
+  "ids": [
+   704820
+  ],
+  "icon": null
+ },
+ "Zawman Undead Summon Visual": {
+  "ids": [
+   504756
+  ],
+  "icon": null
+ },
+ "Zawman Undead Summoning Visual": {
+  "ids": [
+   803456
+  ],
+  "icon": null
+ }
+}

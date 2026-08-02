@@ -118,6 +118,22 @@ class ClassInfo:
     def sidekick(self, spec):
         return f"sidekick-{self.slug}-{spec}.md"
 
+    # ---- spec roles, from resources/spec-roles.md. Observed in game; not
+    # derivable, and the one place it LOOKS derivable is wrong (db.exil.es
+    # files Pyromancer's HEALING spec under the slug `pyromancer-destruction`).
+    def spec_role(self, spec):
+        """'damage' | 'healing' | 'tank', or None if nobody has played it.
+
+        None is deliberately not 'damage'. A healer needs the target band, and
+        defaulting to damage is precisely how that would go missing with
+        nothing raising an error.
+        """
+        return SPEC_ROLES.get((self.slug, spec))
+
+    @property
+    def healers(self):
+        return [s for s in self.specs if self.spec_role(s) == "healing"]
+
     # ---- pack naming. NOTE two different names for the same pack: the
     # builder writes `<slug>-all-specs.txt` into tools/packs/<slug>/, and
     # mksite.py republishes it to docs/packs/<slug>/ as `<slug>-coa.txt` (the
@@ -182,6 +198,27 @@ CORE_LEAVES = {
     # class-wide trackers only.
     "chronomancer": 12,
 }
+
+
+def _spec_roles():
+    """(class-slug, spec) -> role, parsed from resources/spec-roles.md.
+
+    Two tables in that file start with a digit and _rows() yields both, so
+    filter on the role vocabulary rather than on position -- the corroboration
+    table's third cell is a ratio, not a role, and would otherwise land here.
+    """
+    out = {}
+    for cells in _rows(data("spec-roles.md")):
+        if len(cells) < 4:
+            continue
+        role = _clean(cells[3]).lower()
+        if role not in ("damage", "healing", "tank"):
+            continue
+        out[(_slug(_clean(cells[1])), _clean(cells[2]).lower())] = role
+    return out
+
+
+SPEC_ROLES = _spec_roles()
 
 
 def _load():

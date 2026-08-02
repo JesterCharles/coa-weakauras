@@ -299,7 +299,17 @@ def init(slug, version, prefix, *, cd_per_row=None, spec_env="WA_SPEC",
     # Which spec pages mention an ability. Read from resources/ and driven off
     # classes.py -- never from an out-of-repo path, or the build stops being
     # reproducible from a clean clone.
-    SPEC_TEXT = {sp: open(data(CLS.sidekick(sp))).read() for sp in CLS.specs}
+    #
+    # OPTIONAL, and only read by in_spec(), which only a class curating its
+    # rows by hand can reach. A class on the inventory gets spec membership
+    # from the reviewed Specs column of abilities-<slug>.md, which is the
+    # better source -- Sidekick mention counts scored 42 right / 27 too broad
+    # / 11 WRONG against the hand-reviewed Chronomancer rows. Requiring the
+    # pages here would have made every new class scrape three ~700-line page
+    # dumps to satisfy a code path it never executes. audit_cds.py still wants
+    # them, and asks for them itself.
+    SPEC_TEXT = {sp: open(data(CLS.sidekick(sp))).read() for sp in CLS.specs
+                 if os.path.exists(data(CLS.sidekick(sp)))}
 
     B.set_salt(f"{CLS.slug}-{SPEC_ONLY or 'all'}-{VERSION}")
     ROOT = (f"{CLS.name} {SPEC_TITLE} [CoA] v{VERSION}" if SPEC_TITLE
@@ -435,9 +445,23 @@ def _named(role, spec):
 
 
 def in_spec(name, spec_key):
+    """Does `spec_key` have `name`? Cooldown audit first, Sidekick pages after.
+
+    Only a class curating its rows by hand needs this. The page fallback is a
+    substring match and it is WEAK -- checked against the hand-reviewed
+    Chronomancer rows it was right 42 times, too broad 27 and wrong 11, and a
+    wrong narrow hides an ability from a spec. Prefer the Specs column.
+    """
     v = COOLDOWNS.get(name)
     if v:
         return spec_key in v["specs"] or not v["specs"]
+    if not SPEC_TEXT:
+        raise SystemExit(
+            f"in_spec({name!r}): no sidekick pages loaded for {CLS.slug}, and "
+            f"{name!r} has no cooldown row to answer from. Either scrape "
+            f"{CLS.sidekick(spec_key)} into resources/, or take spec "
+            f"membership from the Specs column of abilities-{CLS.slug}.md "
+            f"(roles_from_inventory=True), which is the better source.")
     hits = [sp for sp, t in SPEC_TEXT.items() if name in t]
     return spec_key in hits or not hits
 

@@ -1,0 +1,194 @@
+{
+ "Aspect's Blessing": {
+  "id": 802168,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Breath of Neltharion": {
+  "id": 511109,
+  "cd": "1.5 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Burning Spheres": {
+  "id": 801487,
+  "cd": "2 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Cataclysmic Revenge": {
+  "id": 804693,
+  "cd": "1.5 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Conjure Campfire": {
+  "id": 570121,
+  "cd": "30 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Destroyer's Maw": {
+  "id": 802107,
+  "cd": "15 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Draconic Invocation": {
+  "id": 802119,
+  "cd": "3 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Dragonfire": {
+  "id": 500129,
+  "cd": "8 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Eruption": {
+  "id": 800103,
+  "cd": "2 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Fired Up!": {
+  "id": 704823,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Firefall": {
+  "id": 801905,
+  "cd": "8 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Firepower": {
+  "id": 805487,
+  "cd": "30 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Firestorm": {
+  "id": 802791,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Gaze of Ysera": {
+  "id": 503229,
+  "cd": "30 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Grace of Alexstrasza": {
+  "id": 802167,
+  "cd": "5 min cooldown",
+  "specs": [],
+  "gcd": "1.0 sec"
+ },
+ "Ignis Ultimatus": {
+  "id": 680369,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Inferno Barrier": {
+  "id": 504380,
+  "cd": "20 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Kael's Command": {
+  "id": 680375,
+  "cd": "45 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Lava Shard": {
+  "id": 803950,
+  "cd": "10 sec cooldown",
+  "specs": [],
+  "gcd": "1.0 sec"
+ },
+ "Melt Bindings": {
+  "id": 804727,
+  "cd": "2 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Neltharion's Resolve": {
+  "id": 520488,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Petrifying Visage": {
+  "id": 801908,
+  "cd": "2 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Pillar of Flame": {
+  "id": 805496,
+  "cd": "20 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Pyroclasm": {
+  "id": 520019,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Reborn from Ash": {
+  "id": 804231,
+  "cd": "10 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Roaring Pyre": {
+  "id": 704278,
+  "cd": "1 min cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Slag Barrage": {
+  "id": 502032,
+  "cd": "30 sec cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Soar": {
+  "id": 520399,
+  "cd": "8 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Spellburn": {
+  "id": 800808,
+  "cd": "25 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Stoke": {
+  "id": 803952,
+  "cd": "10 sec cooldown",
+  "specs": [],
+  "gcd": false
+ },
+ "Supernova": {
+  "id": 803546,
+  "cd": "5 min cooldown",
+  "specs": [],
+  "gcd": "1.5 sec"
+ },
+ "Volcanic Shell": {
+  "id": 805477,
+  "cd": "2 min cooldown",
+  "specs": [],
+  "gcd": false
+ }
+}
