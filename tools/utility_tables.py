@@ -130,6 +130,10 @@ source: "db.exil.es /api/v1/spells/{id}, all 11,193 spell ids across the 21 clas
 Who brings an interrupt, a battle rez, a purge, a spellsteal, and an enrage
 removal. Ability names link to the spell page.
 
+Each table is followed by a collapsed **"Copy this table as markdown"** block
+holding the same rows as raw source, for lifting into a spreadsheet, a Discord
+post or a wiki without reselecting the rendered table by hand.
+
 **REGENERATE, do not hand-edit.** `python3 tools/utility_tables.py > notes/raid-utility.md`
 reads the cached spell mirror under `tools/spellchk/` and rebuilds this file
 whole -- frontmatter, tables and notes. The server patches, and a
@@ -178,6 +182,30 @@ Two traps found while doing it:
 * **Target flags do not decide friendly vs enemy.** `Show of Force` carries
   `target_a 6` and its tooltip reads "on a friendly target", so purges are
   identified from effect + tooltip together, never from the target flag alone.
+
+## The "Usable on Boss" column
+
+**Blank means untested, not "no".** Nothing in db.exil.es records immunity, so
+this column cannot be derived and is never guessed -- a raid plans around it,
+and a guess there is worse than a gap.
+
+Fill it in `resources/boss-usable.json`, NOT in this file:
+
+```json
+"spells": {
+  "800995": {"boss": "yes",     "note": "Ley Lock -- lands on every ZG boss"},
+  "991349": {"boss": "no",      "note": "Monolith Smash -- stun immune"},
+  "806599": {"boss": "partial", "note": "Stormhammer -- lands on Jin'do, not Hakkar"}
+}
+```
+
+Then re-run the generator. The column is rebuilt from that file every time, so
+a value typed into this markdown is destroyed on the next run and a value in
+the JSON survives. That is the whole reason it is a separate file: this page is
+regenerated wholesale, and hand-tested knowledge is the one thing here that
+cannot be regenerated.
+
+`yes` / `no` / `partial`; omit the id entirely while it is untested.
 
 ## A stun is not an interrupt
 
@@ -228,6 +256,26 @@ slows (`mechanic 11`) are excluded entirely: a slow is not a root.
   corpse as a temporary pet, not a player. Listed so its absence is not
   mistaken for an oversight; it is not a battle rez.
 """
+
+
+def boss_usable():
+    """spell id -> "yes" / "no" / "partial", from resources/boss-usable.json.
+
+    HAND-TESTED, and deliberately the only source. db.exil.es carries no
+    immunity data at all, so whether a stun lands on a boss cannot be derived
+    from anything in the mirror -- and a guess in this column is worse than a
+    blank, because a raid plans around it. An id with no entry renders empty.
+
+    It lives in a data file rather than in the markdown because this page is
+    regenerated wholesale; a value typed into the table would be destroyed by
+    the next run, which is exactly the trap the "do not hand-edit" banner
+    warns about.
+    """
+    p = data("boss-usable.json")
+    if not os.path.exists(p):
+        return {}
+    raw = json.load(open(p, encoding="utf-8")).get("spells") or {}
+    return {str(k): (v.get("boss") or "").strip() for k, v in raw.items()}
 
 
 def owners():
@@ -386,7 +434,7 @@ def classify(d):
 
 
 def main(argv):
-    own, inv, cache = owners(), inventory(), spells()
+    own, inv, cache, boss = owners(), inventory(), spells(), boss_usable()
     buckets = collections.defaultdict(list)
     for sid, d in cache.items():
         if sid not in own:
@@ -411,21 +459,42 @@ def main(argv):
                 mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
                 rows.append((c.id, cname, inv.get((c.slug, int(sid)), "?"),
                              f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
+                             boss.get(sid, ""),
                              fmt_cd(d.get("cooldown_ms")), fmt_cost(d),
                              fmt_cast(d), desc(d), d["name"]))
         seen, out = set(), []
         for r in sorted(rows):
-            if (r[1], r[8]) in seen:
+            if (r[1], r[9]) in seen:
                 continue
-            seen.add((r[1], r[8]))
+            seen.add((r[1], r[9]))
             out.append(r)
         if not out:
             print("_None found._\n")
             continue
-        print("| Class | Spec | Ability | CD | Materials Required | Cast Time | Description |")
-        print("|---|---|---|---|---|---|---|")
-        for _i, cn, sp, nm, cd, co, ca, ds, _raw in out:
-            print(f"| {cn} | {sp} | {nm} | {cd} | {co} | {ca} | {ds} |")
+        head = ("| Class | Spec | Ability | Usable on Boss | CD | "
+                "Materials Required | Cast Time | Description |")
+        rule = "|---|---|---|---|---|---|---|---|"
+        body = [f"| {cn} | {sp} | {nm} | {bo} | {cd} | {co} | {ca} | {ds} |"
+                for _i, cn, sp, nm, bo, cd, co, ca, ds, _raw in out]
+        print(head)
+        print(rule)
+        for line in body:
+            print(line)
+        # The same table again as raw source, collapsed. Fencing the ONLY copy
+        # would stop it rendering; showing only the rendered one leaves no way
+        # to lift it into a spreadsheet or a Discord post without reselecting
+        # 20 rows by hand.
+        print()
+        print("<details><summary>Copy this table as markdown</summary>")
+        print()
+        print("```markdown")
+        print(head)
+        print(rule)
+        for line in body:
+            print(line)
+        print("```")
+        print()
+        print("</details>")
         miss = sorted({c.name for c in CLASSES.values()} - {r[1] for r in out})
         print(f"\n**{len(out)} across {len({r[1] for r in out})} classes.**")
         print(f"None found for: {', '.join(miss)}." if miss else "Every class has one.")
