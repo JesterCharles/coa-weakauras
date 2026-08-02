@@ -45,8 +45,10 @@ NOSCRIPT_UTIL = """<noscript><style>
      offered. EVERYTHING else on this page is server-rendered and works --
      the scarcity counts, the whole coverage grid, and all ten ability lists.
      Nothing here is JS-only that is not also printed statically. */
-  .utiltools{display:none}
+  .utiltools,.tabs,.clsfilter{display:none}
   .mxr .open::after,.mxr .pick{display:none}
+  /* every panel open, i.e. the long-scroll page it used to be */
+  .panel[hidden]{display:block !important}
 </style></noscript>"""
 
 SITE_TITLE = "Conquest of Azeroth WeakAuras"

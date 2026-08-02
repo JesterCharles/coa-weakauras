@@ -14,6 +14,7 @@ with a coverage grid (21 classes x 10 tools, one screen) and the lists became
 the record rather than the index.
 """
 import html
+import json
 import os
 import re
 import sys
@@ -23,6 +24,32 @@ sys.path.insert(0, SP)
 
 from utility_tables import tables            # noqa: E402
 from iconcolor import colors_for             # noqa: E402
+from classes import data as _data            # noqa: E402
+
+
+def _spell_icons():
+    """spell id -> icon texture, from resources/utility-icons.json.
+
+    Absent id means db.ascension.gg has no art for it, which the page shows as
+    a neutral placeholder rather than a broken image -- 27 of 107 abilities are
+    in that state and it is NOT strong evidence they are missing from the game
+    (5 of 6 flagged interrupts turned out to be real).
+    """
+    p = _data("utility-icons.json")
+    if not os.path.exists(p):
+        return {}
+    return json.load(open(p, encoding="utf-8")).get("ids") or {}
+
+
+ICONS = _spell_icons()
+
+
+def ability_icon(sid, px=22):
+    tex = ICONS.get(str(sid))
+    if not tex:
+        return f'<span class="aicon none" style="width:{px}px;height:{px}px"></span>'
+    return (f'<img class="aicon" src="assets/spell-icons/{tex}.jpg" alt="" '
+            f'width="{px}" height="{px}" loading="lazy">')
 
 BANDS = [
     ("stop",  "Stops a cast", [
@@ -156,6 +183,9 @@ def cell_data(rows):
         "talent": all(r[3] for r in rows),
         "unverified": all("noicon" in r[6] for r in rows),
         "names": ", ".join(r[4] for r in rows),
+        # every spell id behind this cell, so the hover card can show the
+        # whole stack rather than just the shortest cooldown the cell prints
+        "ids": [str(r[12]) for r in rows],
     }
 
 
@@ -227,8 +257,8 @@ def ability_row(r, cat, show_class=True, accent=None):
     cast = esc(r[10]).replace("\\*", "*")   # the source escapes it for markdown
     # data-cat lets the filter match "battle rez" against a row whose text
     # says only "Spiritual Ascension"
-    return f"""<li class="ab" data-cat="{esc(LONG[cat])}" style="--c:{accent}">{cls}
-  <span class="abname"><a href="{r[5]}" rel="noopener">{esc(r[4])}</a>{big}
+    return f"""<li class="ab" data-cat="{esc(LONG[cat])}" data-sid="{r[12]}" style="--c:{accent}">{cls}
+  <span class="abname">{ability_icon(r[12], 20)}<a href="{r[5]}" rel="noopener">{esc(r[4])}</a>{big}
     <span class="abchips">{chips(r, cat)}</span></span>
   <span class="abnums"><span class="n cd" data-l="CD">{cd}</span
     ><span class="n cost" data-l="Cost">{esc(r[9])}</span
@@ -271,7 +301,36 @@ def render():
       '<button class="rosterbtn" id="rosterclear" type="button" hidden>'
       'clear roster (<span id="rostern">0</span>)</button></div></div>')
 
+    # --------------------------------------------------------- 1b. tabs
+    # One long page was the complaint: nobody scrolls 190KB to find the four
+    # soothes. Overview carries the two things that answer a question at a
+    # glance (scarcity + the grid); each category gets its own panel.
+    #
+    # Deep links still work -- the hash names the panel and the JS opens it on
+    # load. Without JS every panel renders open and the tab bar hides itself,
+    # so the page degrades to exactly what it was before.
+    # Class filter. The icons are the affordance a WoW player already reads,
+    # and it answers the roster question from the other end: "show me only what
+    # these five classes bring" rather than "who has an interrupt".
+    A('<div class="clsfilter" aria-label="filter by class">')
+    A('<span class="cfl">Filter by class</span><div class="cfrow">')
+    for c in classes:
+        A(f'<button class="cf" type="button" data-class="{esc(c)}" '
+          f'title="{esc(c)}" style="--c:{acc[c]}">{icon(c, 30)}'
+          f'<span>{esc(c)}</span></button>')
+    A('</div><button class="cfclear" type="button" hidden>Clear</button></div>')
+
+    A('<nav class="tabs" role="tablist">')
+    A('<button class="tab on" role="tab" data-panel="overview">Overview</button>')
+    for cat in sorted(CATS, key=lambda c: (BAND_OF[c] == "trash",
+                                           -counts[c], LONG[c])):
+        A(f'<button class="tab tb-{BAND_OF[cat]}" role="tab" '
+          f'data-panel="{cat}">{esc(LONG[cat])}'
+          f'<i>{len(by_cat.get(cat, ()))}</i></button>')
+    A('</nav>')
+
     # ------------------------------------------------------- 2. .scarcity
+    A('<section class="panel on" id="panel-overview">')
     A('<p class="lbl">What is scarce</p>')
     A('<p class="secnote">How many of the 21 classes bring each tool, rarest '
       'first. The short bars are the ones that decide a roster. Pick classes '
@@ -337,7 +396,8 @@ def render():
                            f'+{d["extra"]}</i>')
                 A(f'<td class="mxv b-{band}{bs}'
                   f'{" unv" if d["unverified"] else ""}" '
-                  f'title="{esc(d["names"])}">'
+                  f'title="{esc(d["names"])}" '
+                  f'data-ids="{",".join(d["ids"])}">'
                   f'<span class="cd">{d["cd"]}</span>{mk}</td>')
         A('</tr>')
 
@@ -384,6 +444,7 @@ def render():
       '<span><i class="k p">+1</i>brings another</span>'
       '<span><i class="k unv">14s?</i>unverified in game</span>'
       '<span><i class="k x">&middot;</i>none</span></p>')
+    A('</section>')
 
     # --------------------------------------------------- 4. .utilsec x 10
     def section(cat):
@@ -433,32 +494,40 @@ def render():
                     f"&mdash; see the <a href=\"#matrix\">coverage grid</a>.")
         A(f'<p class="tallies">{tail}</p></section>')
 
-    # Each band is wrapped so a filter that empties every section under a
-    # heading takes the heading with it.
-    A('<div class="bandblock">')
-    A('<p class="lbl bigrule" id="band-stop">Stops a cast</p>')
-    A('<p class="secnote">The only two categories on this page that actually '
-      'stop a boss cast. Everything under <i>Trash only</i> at the foot of '
-      'the page does not, however much the tooltip sounds like it does.</p>')
-    for cat in ("interrupt", "silence"):
+    # One panel per category. The band each belongs to is carried on the tab
+    # AND on the panel, so the stun/interrupt separation survives the move from
+    # one scrolling page to tabs -- a trash panel says so at the top, where the
+    # old design relied on the section being buried at the foot.
+    BANDNOTE = {
+        "stop": "Actually stops a boss cast.",
+        "tools": "Raid utility.",
+        "trash": "TRASH ONLY \u2014 most raid bosses are immune, so this will "
+                 "not stop a cast however much the tooltip sounds like it "
+                 "does. A stun is not an interrupt.",
+    }
+    for cat in CATS:
+        band = BAND_OF[cat]
+        A(f'<section class="panel pn-{band}" id="panel-{cat}" hidden>')
+        A(f'<p class="bandnote bn-{band}">{BANDNOTE[band]}</p>')
         section(cat)
-    A('</div>')
-
-    A('<div class="bandblock">')
-    A('<p class="lbl bigrule" id="band-tools">Raid tools</p>')
-    for cat in ("rez", "raid_dr", "raid_dr_passive", "purge", "spellsteal",
-                "tranq"):
-        section(cat)
-    A('</div>')
-
-    ntrash = sum(len(by_cat[c]) for c in ("stun", "root"))
-    A(f'<details class="lowsec" id="band-trash"><summary>'
-      f'<span class="lbl">Trash only &mdash; bosses are immune</span>'
-      f'<span class="lowhint">Stuns and roots: {ntrash} abilities, a third of '
-      f'this page, that answer none of the questions above. A stun is not an '
-      f'interrupt. Open this if you are planning a trash pull.</span>'
-      f'</summary>')
-    for cat in ("stun", "root"):
-        section(cat)
-    A('</details></main>')
+        A('</section>')
+    # ------------------------------------------------- 5. hover-card data
+    # ONE payload for the page rather than a data-* blob per cell: 103
+    # abilities inlined once is ~14KB, the same thing repeated on every cell
+    # that references them is several times that. The grid cells carry only
+    # ids; the card is built from this.
+    payload = {}
+    for cat, rows in by_cat.items():
+        for r in rows:
+            payload[str(r[12])] = {
+                "n": r[4], "c": r[1], "cat": LONG[cat], "band": BAND_OF[cat],
+                "spec": r[2], "rc": r[3], "cd": r[8], "cost": r[9],
+                "cast": r[10].replace("\\*", "*"), "d": r[11],
+                "u": r[5], "i": ICONS.get(str(r[12]), ""),
+                "m": r[6], "obs": r[7],
+            }
+    A('<script type="application/json" id="abdata">'
+      + json.dumps(payload, separators=(",", ":")).replace("</", "<\\/")
+      + '</script>')
+    A('</main>')
     return "\n".join(out)

@@ -116,13 +116,13 @@ details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
 .mxwrap{overflow-x:auto;box-shadow:0 0 0 1px var(--edge);background:var(--deep);
   margin:0 0 12px}
 table.mx{border-collapse:separate;border-spacing:0;width:100%;
-  table-layout:fixed;min-width:700px;font-size:.8rem}
+  table-layout:fixed;min-width:940px;font-size:1.02rem}
 .mx th,.mx td{padding:0}
 .mx .mxc{width:23%}
 .mx .mxh{width:7.7%}
 
 /* the band strip: the wall between "stops a cast" and "stun" */
-.mxbands td{font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;
+.mxbands td{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
   color:var(--dim);text-align:center;padding:7px 4px;background:#090d11;
   border-bottom:1px solid rgba(198,174,132,.16)}
 .mxbands td span{display:block;overflow:hidden;text-overflow:ellipsis;
@@ -132,12 +132,12 @@ table.mx{border-collapse:separate;border-spacing:0;width:100%;
 .mxbands .b-trash{color:var(--dim);box-shadow:inset 0 2px 0 rgba(111,106,96,.5);
   background:rgba(0,0,0,.3)}
 
-.mx thead th.mxh{font-size:.6rem;letter-spacing:.1em;font-weight:700;
+.mx thead th.mxh{font-size:.78rem;letter-spacing:.1em;font-weight:700;
   color:var(--bone);background:#0b0f14;text-align:center;padding:9px 0 8px;
   border-bottom:1px solid var(--edge)}
 .mx thead th.mxh a{display:block}
 .mx thead th.mxh a:hover{color:var(--ink)}
-.mx thead th.mxc{background:#0b0f14;text-align:left;font-size:.62rem;
+.mx thead th.mxc{background:#0b0f14;text-align:left;font-size:.8rem;
   letter-spacing:.16em;text-transform:uppercase;color:var(--bone);
   font-weight:700;padding:9px 12px;border-bottom:1px solid var(--edge);
   position:sticky;left:0;z-index:3}
@@ -153,10 +153,10 @@ tbody .mxr>.mxc{background:var(--deep);position:sticky;left:0;z-index:2;
   filter:grayscale(.6) brightness(.78);transition:filter .12s,box-shadow .12s}
 .mxr:hover .pick img{filter:none}
 .mxr .open{background:none;border:0;color:var(--ink);font:inherit;
-  font-size:.84rem;font-weight:600;cursor:pointer;padding:10px 8px 10px 0;
+  font-size:1.02rem;font-weight:600;cursor:pointer;padding:13px 8px 13px 0;
   text-align:left;flex:1;min-width:0;white-space:nowrap;overflow:hidden;
   text-overflow:ellipsis}
-.mxr .open::after{content:"\25B8";color:var(--dim);font-size:.68em;
+.mxr .open::after{content:"\25B8";color:var(--dim);font-size:.8em;
   margin-left:7px;display:inline-block;transition:transform .12s}
 .mxr.open .open::after{transform:rotate(90deg);color:var(--c)}
 .mxr.open>.mxc,.mxr.open>td{background:var(--panel)}
@@ -166,16 +166,16 @@ tbody .mxr>.mxc{background:var(--deep);position:sticky;left:0;z-index:2;
 .mx tbody td{text-align:center;font-variant-numeric:tabular-nums;
   border-bottom:1px solid rgba(198,174,132,.09);padding:9px 2px;
   white-space:nowrap}
-td.mxv .cd{color:var(--ink);font-size:.76rem}
-td.mxv i{font-style:normal;font-size:.56rem;color:var(--dim);margin-left:2px;
+td.mxv .cd{color:var(--ink);font-size:1.12rem;font-variant-numeric:tabular-nums}
+td.mxv i{font-style:normal;font-size:.78rem;color:var(--dim);margin-left:2px;
   vertical-align:super}
 td.mxv i.t{color:var(--bone)}
 td.mxv.unv .cd{color:#f0c674}
-td.mxv.unv::after{content:"?";font-size:.58rem;color:#f0c674;
+td.mxv.unv::after{content:"?";font-size:.78rem;color:#f0c674;
   vertical-align:super;margin-left:1px}
 /* Trash-band values are dim by rule. A dim cell cannot be misread as the
  * answer to "who stops casts". */
-td.mxv.b-trash .cd{color:var(--dim);font-size:.72rem}
+td.mxv.b-trash .cd{color:var(--dim);font-size:1rem}
 td.mxx span{color:rgba(111,106,96,.45)}
 
 /* my roster ------------------------------------------------------------ */
@@ -390,3 +390,109 @@ body.mypick .mxr:not(.mine):hover{opacity:.62}
   .lowsec>.utilsec{padding:0 13px}
   .lbl.bigrule{margin-top:40px}
 }
+
+
+/* tabs ---------------------------------------------------------------------
+   The page was one 190KB scroll and nobody reads that to find four soothes.
+   Overview holds the two things that answer a question at a glance; every
+   category gets its own panel.
+
+   Progressive enhancement, not a JS requirement: the panels render OPEN and
+   the tab bar is hidden when JS is off (see the noscript block in mksite.py),
+   so the page falls back to exactly the long-scroll version rather than to a
+   blank screen. */
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 30px;
+  padding-bottom:12px;border-bottom:1px solid var(--edge)}
+.tab{font:inherit;font-size:.86rem;letter-spacing:.01em;cursor:pointer;
+  background:transparent;color:var(--ink2);border:1px solid var(--edge);
+  border-radius:99px;padding:8px 15px;display:inline-flex;align-items:center;
+  gap:7px;white-space:nowrap;transition:color .12s,border-color .12s}
+.tab:hover{color:var(--ink);border-color:var(--bone)}
+.tab i{font-style:normal;font-size:.7rem;font-weight:700;color:var(--dim);
+  font-variant-numeric:tabular-nums}
+.tab.on{color:var(--c);border-color:var(--c);background:rgba(198,174,132,.07)}
+.tab.on i{color:var(--c)}
+/* The band a category belongs to is carried on its tab, so "trash" reads as
+   secondary before you click it rather than after. */
+.tab.tb-trash{color:var(--dim);border-color:rgba(198,174,132,.13)}
+.tab.tb-trash.on{color:var(--dim);border-color:var(--dim)}
+.panel[hidden]{display:none}
+.bandnote{font-size:.78rem;letter-spacing:.03em;margin:0 0 22px;
+  padding:9px 13px;border-radius:7px;border:1px solid var(--edge);
+  color:var(--ink2);background:var(--panel)}
+.bandnote.bn-stop{border-color:rgba(240,198,116,.3);color:#f0c674}
+.bandnote.bn-trash{border-color:rgba(198,174,132,.18);color:var(--dim)}
+.bandnote.bn-tools{display:none}
+@media (max-width:640px){
+  .tabs{gap:5px;margin:18px 0 22px}
+  .tab{font-size:.8rem;padding:7px 12px}
+}
+
+/* class filter -------------------------------------------------------------
+   The other end of the roster question: "show me what these five bring",
+   rather than "who has an interrupt". Icons because that is the affordance a
+   WoW player already reads. */
+.clsfilter{margin:26px 0 0}
+.cfl{display:block;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--c);margin:0 0 10px}
+.cfrow{display:flex;flex-wrap:wrap;gap:5px}
+.cf{position:relative;background:transparent;border:1px solid transparent;
+  border-radius:8px;padding:3px;cursor:pointer;line-height:0;opacity:.42;
+  transition:opacity .12s,border-color .12s}
+.cf img{border-radius:5px;display:block}
+.cf span{position:absolute;left:50%;top:calc(100% + 6px);transform:translateX(-50%);
+  background:var(--panel);border:1px solid var(--edge);border-radius:5px;
+  padding:3px 7px;font-size:.68rem;color:var(--ink);white-space:nowrap;
+  opacity:0;pointer-events:none;transition:opacity .1s;z-index:6;line-height:1.2}
+.cf:hover{opacity:.85}
+.cf:hover span{opacity:1}
+.cf.on{opacity:1;border-color:var(--c)}
+.cfclear{margin-top:10px;font:inherit;font-size:.74rem;background:transparent;
+  border:1px solid var(--edge);border-radius:99px;padding:5px 13px;
+  color:var(--ink2);cursor:pointer}
+.cfclear:hover{color:var(--c);border-color:var(--c)}
+.mxr.dimmed{opacity:.18}
+.utilsec.empty{display:none}
+
+/* ability icons ----------------------------------------------------------- */
+.aicon{border-radius:4px;vertical-align:-4px;margin-right:8px;flex:none}
+.aicon.none{display:inline-block;border-radius:4px;vertical-align:-4px;
+  margin-right:8px;background:var(--panel);border:1px solid var(--edge)}
+
+/* hover card ---------------------------------------------------------------
+   Everything the database has on the ability, at the point the eye is already
+   resting. A grid cell prints one number; this is the rest of it. A cell that
+   stacks several abilities shows all of them. */
+.abcard{position:fixed;z-index:60;max-width:390px;pointer-events:none;
+  background:#0b0f14;border:1px solid var(--edge);border-radius:10px;
+  box-shadow:0 18px 50px rgba(0,0,0,.6);padding:4px}
+.abcard .ac{padding:12px 13px}
+.abcard .ac + .ac{border-top:1px solid var(--edge)}
+.achead{display:flex;align-items:flex-start;gap:10px;margin:0 0 10px}
+.achead img,.achead .ph{border-radius:6px;flex:none}
+.achead .ph{width:34px;height:34px;background:var(--panel);
+  border:1px solid var(--edge);display:block}
+.achead div{flex:1;min-width:0}
+.achead b{display:block;font-size:.94rem;color:var(--ink);line-height:1.25}
+.achead span{display:block;font-size:.72rem;color:var(--dim);margin-top:2px}
+.achead span em{font-style:normal;font-variant-numeric:tabular-nums}
+.accat{flex:none;font-size:.58rem !important;letter-spacing:.1em;
+  text-transform:uppercase;padding:3px 7px;border-radius:4px;
+  border:1px solid var(--edge);color:var(--ink2) !important;margin:0 !important}
+.accat.b-stop{color:#f0c674 !important;border-color:rgba(240,198,116,.35)}
+.accat.b-trash{color:var(--dim) !important}
+.acstats{display:grid;grid-template-columns:auto 1fr auto 1fr auto 1fr;
+  gap:2px 8px;margin:0 0 9px;align-items:baseline}
+.acstats dt{font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--dim)}
+.acstats dd{margin:0;font-size:.82rem;color:var(--ink);
+  font-variant-numeric:tabular-nums}
+.acchips{margin:0 0 9px;display:flex;flex-wrap:wrap;gap:5px}
+.acchips .c{font-style:normal;font-size:.6rem;letter-spacing:.06em;
+  text-transform:uppercase;padding:2px 6px;border-radius:4px;
+  border:1px solid var(--edge);color:var(--ink2)}
+.acchips .c.int{color:#78beff;border-color:rgba(120,190,255,.32)}
+.acchips .c.warn{color:#f0c674;border-color:rgba(240,198,116,.32)}
+.acdesc{margin:0;font-size:.78rem;line-height:1.55;color:var(--ink2)}
+/* Touch has no hover; the card would never dismiss. */
+@media (hover:none){.abcard{display:none !important}}

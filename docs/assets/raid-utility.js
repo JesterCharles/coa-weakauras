@@ -137,3 +137,129 @@
   });
   apply();
 }());
+
+/* tabs, class filter, hover card ------------------------------------------
+   All three are enhancements. Without JS the tab bar and the class filter are
+   hidden by the noscript rule and every panel renders open, so the page falls
+   back to the long-scroll version rather than to nothing. */
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) {
+    return Array.prototype.slice.call((r || document).querySelectorAll(s));
+  };
+
+  /* ---- tabs ---------------------------------------------------------- */
+  var tabs = $$(".tab"), panels = $$(".panel");
+  function show(name, push) {
+    tabs.forEach(function (t) { t.classList.toggle("on", t.dataset.panel === name); });
+    panels.forEach(function (p) { p.hidden = p.id !== "panel-" + name; });
+    if (push && history.replaceState) history.replaceState(null, "", "#" + name);
+    window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+  }
+  tabs.forEach(function (t) {
+    t.addEventListener("click", function () { show(t.dataset.panel, true); });
+  });
+  // A deep link -- or a scarcity tile, which links to #<cat> -- opens that tab.
+  function fromHash() {
+    var h = (location.hash || "").replace(/^#/, "");
+    if (h && $("#panel-" + h)) show(h, false);
+  }
+  window.addEventListener("hashchange", fromHash);
+  fromHash();
+
+  /* ---- class filter -------------------------------------------------- */
+  var picked = Object.create(null);
+  var clear = $(".cfclear");
+  function applyClass() {
+    var names = Object.keys(picked);
+    var on = names.length > 0;
+    if (clear) clear.hidden = !on;
+    // grid rows
+    $$(".mxr").forEach(function (r) {
+      r.classList.toggle("dimmed", on && !picked[r.dataset.class]);
+    });
+    // ability rows in every panel
+    $$(".ab").forEach(function (li) {
+      var cls = $(".abcls b", li);
+      li.hidden = on && cls && !picked[cls.textContent];
+    });
+    // a section whose rows all vanished says so instead of looking broken
+    $$(".utilsec").forEach(function (sec) {
+      var any = $$(".ab", sec).some(function (li) { return !li.hidden; });
+      sec.classList.toggle("empty", on && !any);
+    });
+  }
+  $$(".cf").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var c = b.dataset.class;
+      if (picked[c]) { delete picked[c]; } else { picked[c] = 1; }
+      b.classList.toggle("on", !!picked[c]);
+      applyClass();
+    });
+  });
+  if (clear) clear.addEventListener("click", function () {
+    picked = Object.create(null);
+    $$(".cf").forEach(function (b) { b.classList.remove("on"); });
+    applyClass();
+  });
+
+  /* ---- hover card ---------------------------------------------------- */
+  var raw = $("#abdata");
+  if (!raw) return;
+  var DATA = JSON.parse(raw.textContent);
+  var card = document.createElement("div");
+  card.className = "abcard";
+  card.hidden = true;
+  document.body.appendChild(card);
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+  function one(a) {
+    var ico = a.i
+      ? '<img src="assets/spell-icons/' + esc(a.i) + '.jpg" width="34" height="34" alt="">'
+      : '<span class="ph"></span>';
+    var chips = [];
+    if (a.m && a.m.indexOf("int") >= 0) chips.push('<i class="c int">interrupts NPC casts</i>');
+    if (a.m && a.m.indexOf("noicon") >= 0) chips.push('<i class="c warn">unverified in game</i>');
+    if (a.obs) chips.push('<i class="c ok">' + esc(a.obs) + "</i>");
+    var spec = esc(a.spec) + (a.rc ? ' <em>' + esc(a.rc) + "</em>" : "");
+    return (
+      '<div class="ac"><div class="achead">' + ico +
+      '<div><b>' + esc(a.n) + "</b><span>" + esc(a.c) + " &middot; " + spec + "</span></div>" +
+      '<span class="accat b-' + esc(a.band) + '">' + esc(a.cat) + "</span></div>" +
+      '<dl class="acstats">' +
+      "<dt>Cooldown</dt><dd>" + esc(a.cd === "none" ? "—" : a.cd) + "</dd>" +
+      "<dt>Cost</dt><dd>" + esc(a.cost) + "</dd>" +
+      "<dt>Cast</dt><dd>" + esc(a.cast) + "</dd>" +
+      "</dl>" +
+      (chips.length ? '<p class="acchips">' + chips.join("") + "</p>" : "") +
+      '<p class="acdesc">' + esc(a.d) + "</p></div>"
+    );
+  }
+  function place(ev) {
+    var pad = 14, w = card.offsetWidth, h = card.offsetHeight;
+    var x = ev.clientX + pad, y = ev.clientY + pad;
+    if (x + w > window.innerWidth - 8) x = ev.clientX - w - pad;
+    if (y + h > window.innerHeight - 8) y = Math.max(8, window.innerHeight - h - 8);
+    card.style.left = x + "px";
+    card.style.top = y + "px";
+  }
+  function bind(el, ids) {
+    el.addEventListener("mouseenter", function (ev) {
+      var list = ids.filter(function (i) { return DATA[i]; });
+      if (!list.length) return;
+      card.innerHTML = list.map(function (i) { return one(DATA[i]); }).join("");
+      card.hidden = false;
+      place(ev);
+    });
+    el.addEventListener("mousemove", place);
+    el.addEventListener("mouseleave", function () { card.hidden = true; });
+  }
+  $$("td.mxv[data-ids]").forEach(function (td) {
+    bind(td, (td.dataset.ids || "").split(",").filter(Boolean));
+  });
+  $$(".ab[data-sid]").forEach(function (li) { bind(li, [li.dataset.sid]); });
+}());
