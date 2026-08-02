@@ -170,6 +170,12 @@ CHARGES = {}         # name -> charge count
 PROC_GLOW = {}       # ability -> the procs that say "press this now"
 PROC_STACKS = set()  # of those, the ones whose proc also stacks
 NEEDS_ALL = set()    # displays whose multiple triggers mean ALL, not ANY
+# Same meaning, but owned by the ENGINE rather than the builder. It has to be a
+# second set: configure(needs_all=...) REBINDS NEEDS_ALL to the builder's own
+# object, so anything the engine added during assembly would be dropped on the
+# floor -- silently, and the symptom would be every fused cell lighting at
+# once. apply_leaf_gates consults both.
+_ENGINE_NEEDS_ALL = set()
 SPEC_KNOWN = {}      # spec label -> signature spell id, the per-spec gate
 CONTINUUM = []       # names that lead the offense row, in press order
 NO_BUFF = set()      # offense names that apply no buff worth a buff-row icon
@@ -954,7 +960,7 @@ def seg_bar(prefix, parent, entries, y, always_trigger, total_w, out,
 
 
 def stack_bar(prefix, parent, aura, cells, col, y, always_trigger, total_w, out,
-              h=SEG_H, gap=GLYPH_GAP):
+              h=SEG_H, gap=GLYPH_GAP, feeder=None):
     """Segmented bar driven by the STACK COUNT of a single aura.
 
     `seg_bar` above reads N different auras and lights cell i when aura i is
@@ -987,6 +993,77 @@ def stack_bar(prefix, parent, aura, cells, col, y, always_trigger, total_w, out,
             [B.aura_trigger([str(aura)], stacks=i + 1, stacks_op=">=")],
             tex=SOLID, x=x, y=y, w=w, h=h, color=col + (1.0,),
             blend="BLEND")))
+        if feeder:
+            _feeder_cell(prefix, parent, i, cells, x, y, w, h, aura, feeder)
+
+
+def _feeder_cell(prefix, parent, i, cells, x, y, w, h, aura, feeder):
+    """The FUSED feeder number, drawn in the cell it is currently filling.
+
+    A feeder resource is one whose only meaning is "how close is the next
+    unit of the resource above it" -- Pyromancer's Heat (807389, stacks 0-100)
+    fills an Ember (807534, stacks 0-5) and empties at 100. Drawn as its own
+    band it states a relationship the player then reassembles by looking in two
+    places, so it goes INSIDE the cell instead. See notes/layout-standard.md.
+
+    `feeder` is (aura_id, warn_at, danger_at). Cell i shows the number when the
+    resource above holds exactly i stacks -- i.e. this is the cell being filled.
+
+    THE LAST CELL IS DIFFERENT, and it is the reason this exists. At full
+    Embers, Heat keeps climbing and the Ember it eventually mints is LOST. That
+    is the only real mistake this resource can make and a separate bar cannot
+    show it -- it looks identical whether the next Ember lands or evaporates.
+    So the last cell also renders while the bar is FULL, and glows: warn colour
+    from `warn_at`, danger from `danger_at`. Those are the window in which to
+    spend before the waste lands.
+    """
+    fid, warn_at, danger_at = feeder
+    last = i == cells - 1
+    # Trigger 1 gates on the resource ABOVE: exactly i stacks means this cell
+    # is next. The last cell also takes `>= i` so it stays lit at the cap,
+    # which is precisely when overcap is being wasted.
+    gate = B.aura_trigger([str(aura)], stacks=i, stacks_op=">=" if last else "==")
+    # `%2.s` is the STACK COUNT of trigger 2, the feeder aura -- NOT `%s`,
+    # which is trigger 1's and would read back the Ember count already drawn
+    # as cells. Same per-trigger form cd_icon uses for proc stacks, and it
+    # needs the matching format key or WeakAuras has no entry for the
+    # placeholder and the sub-region's text options page comes up blank.
+    _num = B.sub_text("%2.s", size=max(8, h - 4), anchor="INNER_CENTER")
+    _num["text_text_format_2.s_format"] = "none"
+    subs = [_num]
+    conds = None
+    if last:
+        # Base colour IS the warn colour, so the warn tier only has to switch
+        # the glow ON -- one property, not two. Danger then recolours it.
+        # Danger is LAST because conditions apply in order and the later change
+        # wins, the same ordering the urgency tiers rely on.
+        subs.append(B.sub_glow(False, "buttonOverlay", (1.0, 0.85, 0.30, 1.0)))
+        gi = len(subs)
+        full = B.T({"trigger": 1, "variable": "stacks", "op": ">=",
+                    "value": str(cells)})
+        conds = [
+            B.cond(B.check_and(full,
+                               B.T({"trigger": 2, "variable": "stacks",
+                                    "op": ">=", "value": str(warn_at)})),
+                   [B.change(f"sub.{gi}.glow", True)]),
+            B.cond(B.check_and(full,
+                               B.T({"trigger": 2, "variable": "stacks",
+                                    "op": ">=", "value": str(danger_at)})),
+                   [B.change(f"sub.{gi}.glow", True),
+                    B.change(f"sub.{gi}.glowColor",
+                             B.rgba(1.0, 0.45, 0.10, 1.0))]),
+        ]
+    d = B.texture(
+        f"{prefix} Feed {i + 1}", parent,
+        [gate, B.aura_trigger([str(fid)])],
+        tex=SOLID, x=x, y=y, w=w, h=h, color=(0, 0, 0, 0),
+        blend="BLEND", subregions=subs, conditions=conds)
+    # ALL, not any: the cell shows only when BOTH "this cell is next" and "the
+    # feeder aura is up" hold. `apply_leaf_gates` rewrites multi-trigger
+    # displays to "any" unless the id is in NEEDS_ALL, which would light every
+    # cell at once -- so register it there, the same exemption Ripple needs.
+    _ENGINE_NEEDS_ALL.add(d["id"])
+    add(d)
 
 
 def row_w(n, size=SZ_MAIN):
@@ -1359,7 +1436,8 @@ def apply_leaf_gates():
         # built with. NEEDS_ALL is why the exception is explicit rather than
         # inferred -- the two intents are indistinguishable from the trigger
         # list alone.
-        if len(own) > 1 and c["id"] not in NEEDS_ALL:
+        if len(own) > 1 and c["id"] not in NEEDS_ALL \
+                and c["id"] not in _ENGINE_NEEDS_ALL:
             c["triggers"] = B._trigger_wrap(own, -10, "any")
             anyof += 1
 

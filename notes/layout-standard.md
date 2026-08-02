@@ -87,7 +87,7 @@ Runemaster, which happens to have at most two.
 | 2 | Chronomancer · Artificer | mana + Echo Fragments (`aura_stacks`) |
 | 2 | Chronomancer · Time | mana + Sands of Time (`aura_stacks`) |
 | 1 | Chronomancer · Infinite | mana |
-| 3 | **Pyromancer** (class 24) | ember, mana, heat |
+| 2 | **Pyromancer** (class 24) | ember (`aura_stacks`, heat `fused` into it) + mana |
 
 ### Three axes
 
@@ -188,14 +188,25 @@ supported on `texture` regions (both list it in `supports(regionType)`). The
 Heat number is `%N.s` — the STACK COUNT of a second, Heat aura trigger — which
 is the same per-trigger text form `cd_icon` uses for its proc stacks.
 
-⚠️ **UNCONFIRMED: which id carries the Ember COUNT.** Heat is settled — it is a
-stacking aura, `807389`, because `Blessing of the Firelands` reads "Each stack
-of Heat now increases the damage dealt by Dragon Leap by 3%". The Ember counter
-is one of `572806` / `807534` / `807536` and the scrape cannot tell them apart;
-two of the three share a tooltip verbatim. Build `diag-7-pyro-resource` and
-read it in game before wiring this — guessing here yields a bar that looks
-like it works while counting the wrong thing, which is the exact failure the
-diag ladder exists to prevent.
+**Both ids are confirmed in game** (2026-08-02, via `diag-7-pyro-resource`):
+
+| | id | stacks |
+|---|---|---|
+| Ember count | **807534** (`Ember Trigger`) | 0–5 |
+| Heat | **807389** (`Heat`) | 0–100 |
+
+Heat was inferable from the scrape — `Blessing of the Firelands` reads "Each
+stack of Heat now increases the damage dealt by Dragon Leap by 3%", which says
+both that it stacks and what the stacks mean. The Ember counter was not: three
+ids were plausible and two of them (`807534` `Ember Trigger`, `807536` `Ember
+Consume`) carry the same tooltip verbatim, so only the game could separate
+them. Both are now in `resources/in-game-verified.json`, which outranks every
+scrape.
+
+Implemented as `stack_bar(..., feeder=(aura, warn_at, danger_at))` in
+`tools/wapack.py`. The feeder cell gates on the resource ABOVE — `stacks == i`
+picks the cell being filled — and the LAST cell takes `>= i` instead so it
+stays lit at the cap, which is exactly when the overflow is being wasted.
 
 ### Rules for the stack
 
