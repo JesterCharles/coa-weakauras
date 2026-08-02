@@ -118,7 +118,7 @@ spells — the specs that have no override use the default.
 | Flame Mastery | 704828 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
 | Flame Seeker | 804868 | flameweaving | ignore |  | minimap tracking for elementals and dragonkin |
 | Flame Step | 520634 | draconic | ignore | Dispel | rank='Dispel' -- not a castable player button |
-| Flame Swell | 502064 | incineration | target | Rank 9 | 9s periodic on everything your Ignite is on -- an applied effect |
+| Flame Swell | 502064 | incineration | ignore | Rank 9 | rank='Rank 9' periodic effect riding Ignite, not a button and not a separately-tracked DoT. Was `target`; check 13 caught that nothing drew it, which forced the call |
 | Flamecasting | 804300 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Flamer | 680836 | all | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
 | Flames of Execution | 706238 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
