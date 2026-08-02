@@ -882,6 +882,55 @@ for cls in UNDER_TEST:
               f"{gap:.0f}px above the bottom band -- roughly one unused row, "
               f"reserved for a spec this pack does not contain")
 
+# The ALL-SPECS pack has to close per spec too, and that needs BOTH halves:
+# per-spec long-term bands AND un-merged cooldown rows. With the rows merged,
+# emit_bottom_block steps by the deepest spec and every long-term band lands on
+# the same worst-case anchor -- so per-spec long-term alone changes nothing,
+# and un-merging alone changes nothing. Only together do they close the gap.
+for cls in UNDER_TEST:
+    p = cls.pack_path(f"{cls.slug}-all-specs")
+    if not os.path.exists(p):
+        continue
+    nodes = list(load(p)["c"].values())
+    kids = collections.Counter(n.get("parent") for n in nodes)
+    groups = [n for n in nodes if n.get("regionType") == "dynamicgroup"
+              and kids[n["id"]]]
+    # A single shared long-term band is the OLD shape, and it is what this
+    # check exists to catch. Skipping silently when there is no per-spec band
+    # would make the check pass on exactly the regression it is guarding --
+    # so say so out loud instead. Chronomancer legitimately still has one.
+    per_spec_lt = [g for g in groups if g["id"].endswith("Longterm")
+                   and any(cls.spec_label(s) in g["id"] for s in cls.specs)]
+    if not per_spec_lt:
+        print(f"          NOTE {cls.slug}: one SHARED long-term band, so it "
+              f"is anchored to the deepest spec and the shallower specs carry "
+              f"a gap. Per-spec bands + un-merged cooldown rows fix it.")
+        continue
+
+    for spec in cls.specs:
+        label = cls.spec_label(spec)
+        lt = next((g for g in groups
+                   if g["id"].endswith("Longterm") and label in g["id"]), None)
+        if lt is None:
+            check(f"{cls.slug} all-specs/{spec}: has its own long-term band",
+                  False, "falls back to a shared band anchored elsewhere")
+            continue
+        deepest = None
+        for g in groups:
+            if label not in g["id"] or g is lt:
+                continue
+            gw = g.get("gridWidth") or kids[g["id"]]
+            rows = (-(-kids[g["id"]] // gw)
+                    if g.get("grow") == "GRID" and gw else 1)
+            bottom = g.get("yOffset", 0) - rows * 30
+            deepest = bottom if deepest is None else min(deepest, bottom)
+        if deepest is None:
+            continue
+        slack = deepest - lt.get("yOffset", 0)
+        check(f"{cls.slug} all-specs/{spec}: long-term sits {slack:.0f}px "
+              f"under this spec's own last row", 0 <= slack <= 30,
+              f"{slack:.0f}px -- anchored to another spec's depth")
+
 
 print()
 if _fails:

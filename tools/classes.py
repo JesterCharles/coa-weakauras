@@ -172,7 +172,10 @@ class ClassInfo:
 # Per-class regression guards that only exist once the class is built. Add an
 # entry when a class ships; tests skip the check for classes not listed.
 CORE_LEAVES = {
-    "runemaster": 30,
+    # 30 -> 15 when the long-term band moved out of Core into one band per
+    # spec, so its 15 icons stopped being class-wide leaves. Core now holds
+    # the two reminder alerts and the engraving/etching trackers only.
+    "runemaster": 15,
     "chronomancer": 23,
 }
 

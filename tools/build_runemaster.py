@@ -719,8 +719,6 @@ CORE = []
 # One centred, active-only status row. Tattoo, engravings, raid buffs and
 # target state all live in a single dynamic group so they pack together and
 # stay centred instead of sitting at fixed offsets across the screen.
-LONGTERM = []
-
 TATTOOS = [
     ("Air", "802630", (0.70, 0.90, 0.95)),
     ("Arcane", "803748", (0.75, 0.40, 0.95)),
@@ -729,14 +727,6 @@ TATTOOS = [
     ("Frost", "807834", (0.40, 0.75, 1.00)),
     ("Water", "801107", (0.20, 0.55, 0.90)),
 ]
-for elem, aura_id, col in TATTOOS:
-    LONGTERM.append(add(B.icon(
-        f"RM Tattoo {elem}", "RM Longterm",
-        [B.aura_trigger([aura_id, f"Runic Tattoos: {elem}"], own_only=False)],
-        ic(f"Runic Tattoos: {elem}"), size=SZ_SMALL,
-        subregions=[B.sub_text(elem[:3].upper(), size=9,
-                               anchor="INNER_BOTTOM", color=col + (1.0,)),
-                    thin()])))
 
 # Engravings: Air/Arcane/Earth/Fire/Ice/Water (no Frost -- that is a tattoo).
 # Tracked BOTH as an aura and as a temporary weapon enchant on either hand,
@@ -767,24 +757,6 @@ ENGRAVING_AURA = {"Air": 653223, "Arcane": 653267, "Earth": 653219,
 # "Frost" is included as an alias for Ice: the data says the engraving set uses
 # Ice and that Frost belongs to the tattoos, but that is worth not betting on.
 ALIAS = {"Ice": ["Frost Engraving", "Weapon Engraving: Frost"]}
-for elem, col in ENGRAVINGS:
-    names = [str(ENGRAVING_CAST[elem]), str(ENGRAVING_AURA[elem]),
-             f"Weapon Engraving: {elem}", f"{elem} Engraving"] \
-        + ALIAS.get(elem, [])
-    trig = [B.aura_trigger(names, own_only=False),
-            B.enchant_trigger(f"{elem} Engraving", weapon="main"),
-            B.enchant_trigger(f"{elem} Engraving", weapon="off")]
-    for alt in ALIAS.get(elem, []):
-        if alt.endswith("Engraving") and ":" not in alt:
-            trig.append(B.enchant_trigger(alt, weapon="main"))
-    LONGTERM.append(add(B.icon(
-        f"RM Engraving {elem}", "RM Longterm", trig,
-        ic(f"Weapon Engraving: {elem}"), size=SZ_SMALL,
-        subregions=[B.sub_text(elem[:2].upper(), size=9,
-                               anchor="INNER_TOPLEFT", color=col + (1.0,)),
-                    B.sub_text("%p", size=9, anchor="INNER_BOTTOM"),
-                    thin()])))
-
 # Short buffs are emitted per spec (merged with that spec's target debuffs
 # into one "what is up right now" row), so they are data here rather than
 # displays.
@@ -806,23 +778,65 @@ SHORT_ENTRIES = [
     ("Palm Sigil: Wind", (0.70, 0.90, 0.95), {}),
 ]
 
-for name, col in [("Runes of Quickness", (0.4, 0.9, 1.0)),
-                  ("Leyline Disturbance", (0.9, 0.7, 1.0)),
-                  ("Runic Power", (1.0, 0.85, 0.4))]:
-    LONGTERM.append(add(B.icon(
-        f"RM Raid {name}", "RM Longterm",
-        [B.aura_trigger([str(sid(name)), name], own_only=False)],
-        ic(name), size=SZ_SMALL, subregions=[thin()])))
+RAID_BUFFS = [("Runes of Quickness", (0.4, 0.9, 1.0)),
+              ("Leyline Disturbance", (0.9, 0.7, 1.0)),
+              ("Runic Power", (1.0, 0.85, 0.4))]
 
 
+def longterm_band(spec_name, bands, y):
+    """The long-term row -- tattoos, weapon engravings, raid auras -- ONE PER
+    SPEC, anchored under that spec's own cooldown stack.
 
-# Long-term buffs -- tattoo, weapon engravings, raid auras -- live at the very
-# bottom. Fixed y rather than following each spec's stack, so they stay in one
-# place no matter which spec is loaded. Glyphic's stack is the deepest (it has
-# the glyph bar), so this clears that.
-add(B.dynamicgroup("RM Longterm", "RM Core", LONGTERM, x=0, y=Y_LONG,
-                   grow="HORIZONTAL", space=GAP))
-CORE.append("RM Longterm")
+    It used to be a single band in Core at a fixed Y_LONG that cleared the
+    DEEPEST spec. Core has one yOffset for the whole pack, so Glyphic and
+    Riftblade -- which wrap utility at two rows where Engravement takes three --
+    sat 46px above their own last cooldown row, holding space for a spec that
+    was not loaded. That gap is invisible in the in-play view because these
+    displays are active-only, which is why it went unnoticed: it only appears
+    once a long-term buff is actually up.
+
+    Per-spec costs one copy of each icon per spec. The gate comes free: the
+    merge tags any leaf whose parent chain reaches `RM <Spec>` with that spec,
+    and apply_leaf_gates then puts the spec's signature spell on it. Those
+    signatures are learned at level 10-15 while Runic Tattoos are level-30
+    attunements, so gating this content behind them costs a levelling character
+    nothing it could already use.
+    """
+    band = f"RM {spec_name} Longterm"
+    out = []
+    for elem, aura_id, col in TATTOOS:
+        out.append(add(B.icon(
+            f"RM {spec_name} Tattoo {elem}", band,
+            [B.aura_trigger([aura_id, f"Runic Tattoos: {elem}"], own_only=False)],
+            ic(f"Runic Tattoos: {elem}"), size=SZ_SMALL,
+            subregions=[B.sub_text(elem[:3].upper(), size=9,
+                                   anchor="INNER_BOTTOM", color=col + (1.0,)),
+                        thin()])))
+    for elem, col in ENGRAVINGS:
+        names = [str(ENGRAVING_CAST[elem]), str(ENGRAVING_AURA[elem]),
+                 f"Weapon Engraving: {elem}", f"{elem} Engraving"] \
+            + ALIAS.get(elem, [])
+        trig = [B.aura_trigger(names, own_only=False),
+                B.enchant_trigger(f"{elem} Engraving", weapon="main"),
+                B.enchant_trigger(f"{elem} Engraving", weapon="off")]
+        for alt in ALIAS.get(elem, []):
+            if alt.endswith("Engraving") and ":" not in alt:
+                trig.append(B.enchant_trigger(alt, weapon="main"))
+        out.append(add(B.icon(
+            f"RM {spec_name} Engraving {elem}", band, trig,
+            ic(f"Weapon Engraving: {elem}"), size=SZ_SMALL,
+            subregions=[B.sub_text(elem[:2].upper(), size=9,
+                                   anchor="INNER_TOPLEFT", color=col + (1.0,)),
+                        B.sub_text("%p", size=9, anchor="INNER_BOTTOM"),
+                        thin()])))
+    for name, col in RAID_BUFFS:
+        out.append(add(B.icon(
+            f"RM {spec_name} Raid {name}", band,
+            [B.aura_trigger([str(sid(name)), name], own_only=False)],
+            ic(name), size=SZ_SMALL, subregions=[thin()])))
+    add(B.dynamicgroup(band, f"RM {spec_name}", out, x=0, y=y - LONG_GAP,
+                       grow="HORIZONTAL", space=GAP))
+    bands.append(band)
 
 # ---- missing-buff reminders ------------------------------------------------
 # Sit high and central so they are hard to miss. Each fires only when the thing
@@ -955,10 +969,9 @@ def emit_bottom_block(spec_name, spec_key, out, procs, state=()):
                            x=0, y=y, grow="GRID", space=GAP,
                            grid_width=CD_PER_ROW, row_space=CD_ROW_STEP - SZ_CD))
         out.append(f"RM {spec_name} {label}")
-        # Reserve the DEEPEST spec's row count, not this spec's. One yOffset
-        # is shared, so stepping by the local count would drop the next band
-        # on top of Engravement's third utility row.
-        y -= _ROWS[label] * CD_ROW_STEP
+        # This spec's OWN row count. The bands are no longer shared, so each
+        # spec's ladder closes up behind its own rows.
+        y -= max(1, -(-len(ids) // CD_PER_ROW)) * CD_ROW_STEP
 
     # An offensive cooldown that is CURRENTLY RUNNING belongs in the buff row
     # too -- otherwise the only cue that Zenith or Primordial Fury is live is
@@ -1017,6 +1030,7 @@ SHORT_ENTRIES + [("Flame Glyph", (0.95, 0.45, 0.15), {"unit": "target", "helpful
      ("Manuscription", (0.75, 0.45, 0.95), {"unit": "target", "helpful": False}),
      ("Unleashed Power", (0.60, 0.80, 1.00), {"unit": "target", "helpful": False}),
      ("Magic Etchings", (0.80, 0.70, 0.50), {"unit": "target", "helpful": False})])
+longterm_band("Glyphic", G, _y_G)
 # One row: what is up on me (short buffs) and on my target (debuffs).
 add(spec_group("RM Glyphic", G, spec_gate("Glyphic")))
 
@@ -1043,6 +1057,7 @@ _y_E = emit_bottom_block("Engravement", "engravement", E,
                      ("Convergence", (0.8, 0.7, 1.0))],
 SHORT_ENTRIES + [("Genesis", (0.80, 0.50, 1.00), {"unit": "target", "helpful": False}),
      ("Magic Etchings", (0.80, 0.70, 0.50), {"unit": "target", "helpful": False})])
+longterm_band("Engravement", E, _y_E)
 # Palm Sigils are not Riftblade-only -- Engravement uses them too -- so they get
 # the same state band under the resource bar. Carvings are a random proc off
 # Fist of the Ancients and belong in the proc row below.
@@ -1073,6 +1088,7 @@ _y_R = emit_bottom_block("Riftblade", "riftblade", R,
 SHORT_ENTRIES + [("Smolder", (1.00, 0.50, 0.15), {"unit": "target", "helpful": False}),
      ("Hoarfrost", (0.45, 0.80, 1.00), {"unit": "target", "helpful": False}),
      ("Runestone: Torch", (1.00, 0.70, 0.30), {"unit": "target", "helpful": False})])
+longterm_band("Riftblade", R, _y_R)
 # One row: what is up on me (short buffs) and on my target (debuffs).
 add(spec_group("RM Riftblade", R, spec_gate("Riftblade")))
 
@@ -1090,7 +1106,17 @@ root["url"] = ""
 LEAF_SPECS = {}
 
 SPEC_NAMES = ("Glyphic", "Engravement", "Riftblade")
-MERGE_BANDS = ("Main", "Offense", "Utility", "Buffs")
+# Offense and Utility are NOT merged, matching Chronomancer.
+#
+# A merged band is one dynamic group with ONE yOffset serving all three specs,
+# so emit_bottom_block must step by the DEEPEST spec's row count and every band
+# below lands at the same y for everyone. Per-spec long-term bands then all sit
+# at that same worst-case anchor and the gap survives -- un-merging alone fixes
+# nothing, and per-spec long-term alone fixes nothing. Together they work.
+#
+# Main and Buffs stay merged: nothing below them depends on how far they wrap,
+# so sharing those is free.
+MERGE_BANDS = ("Main", "Buffs")
 
 
 def _band_order(seqs):
