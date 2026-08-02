@@ -59,12 +59,22 @@ JUNK = re.compile(r"deprecated|unused|placeholder|test|delayer|trigger|"
 # the blind spot of classifying purely by effect id, exactly mirroring the
 # blind spot of classifying purely by text.
 NPC_INTERRUPT = re.compile(r"interrupt\w*\s+non-?player", re.I)
+GROUP = re.compile(r"\b(party|raid|allies|group)\b", re.I)
 
-TITLES = {"interrupt": "1. Interrupts",
-          "interrupt_npc": "1b. Stuns / silences that interrupt NPCs",
-          "rez": "2. Battle Rezzes",
-          "purge": "3. Purges", "spellsteal": "4. Spellsteals",
-          "tranq": "5. Tranq Shots / Soothes (remove enrage)"}
+ORDER = ["interrupt", "silence", "stun", "root", "rez", "purge", "spellsteal",
+         "tranq", "raid_dr", "raid_dr_passive"]
+TITLES = {
+    "interrupt": "1. Interrupts",
+    "silence": "2. Silences",
+    "stun": "3. Stuns",
+    "root": "4. Roots",
+    "rez": "5. Battle Rezzes",
+    "purge": "6. Purges",
+    "spellsteal": "7. Spellsteals",
+    "tranq": "8. Tranq Shots / Soothes (remove enrage)",
+    "raid_dr": "9. Raid damage reduction — active",
+    "raid_dr_passive": "9b. Raid damage reduction — passive auras",
+}
 EFFNOTE = {
     "interrupt": "`effect_id 68` -- INTERRUPT_CAST. Verified against Pyromancer "
                  "**Spellburn** and Runemaster **Ley Lock**.",
@@ -76,15 +86,31 @@ EFFNOTE = {
              "effect on an *enemy*. Target flags alone are unreliable -- "
              "**Show of Force** is `target_a 6` and reads \"on a friendly "
              "target\".",
-    "interrupt_npc": "NOT `effect_id 68`. These are stuns or silences whose "
-                     "tooltip says they interrupt **non-player** spellcasting -- "
-                     "which in a raid is an interrupt, since the target is "
-                     "always an NPC. Listed separately because the mechanic is "
-                     "different: they will not stop a player cast, and several "
-                     "have no cooldown of their own because a talent grants "
-                     "them. Effect-id classification alone reports Templar and "
-                     "Witch Doctor as having no interrupt; that is wrong in "
-                     "every practical raid sense.",
+    "silence": "`mechanic 9` (SILENCE). A silence stops the NEXT cast and "
+               "locks casting for a duration. Several also state that they "
+               "interrupt non-player spellcasting, which makes "
+               "them the best interrupt substitute available -- those are "
+               "marked **(int)**. Only rows with a cost or a cooldown are "
+               "listed; a silence with neither is a component or a talent.",
+    "stun": "`mechanic 12` (STUN). **A stun is not an interrupt.** Most raid "
+            "bosses are stun-immune, so treat these as trash and add tools, "
+            "not as a cast-stopping plan. Several carry an "
+            "\"interrupts non-player spellcasting\" clause and are marked "
+            "**(int)** -- that clause is worth exactly as much as the stun "
+            "landing, which on a boss is usually nothing.",
+    "root": "`mechanic 7` (ROOT) or `13` (FREEZE). Snares and slows "
+            "(`mechanic 11`) are deliberately NOT here -- a slow is not a root, "
+            "and folding them in would triple the table with abilities that do "
+            "not hold anything in place.",
+    "raid_dr": "`aura_id 87` (MOD_DAMAGE_PERCENT_TAKEN) or `229` "
+               "(AoE damage taken), where the tooltip names the party, raid or "
+               "allies AND the ability has a cooldown or a cost -- i.e. "
+               "something you press.",
+    "raid_dr_passive": "Same auras, group-scoped, but **no cooldown and no "
+                       "cost**: talents and stances that shape the raid's "
+                       "damage intake without being pressed. Separated because "
+                       "a raid cooldown plan cares about the first list; roster "
+                       "composition cares about this one.",
     "spellsteal": "`effect_id 126` -- STEAL_BENEFICIAL_BUFF.",
     "tranq": "`effect_id 38` with `misc_value 9` -- dispel type Enrage.",
 }
@@ -126,10 +152,10 @@ this file.
 Chronomancer's `Fray Magic` at all, so every candidate list derived from its
 descriptions silently omits a real 30 sec interrupt.
 
-*Effect ids alone under-report too.* Table 1b is the proof: seven abilities
-interrupt non-player casting through a stun or silence and carry no `effect_id
-68`. Classifying purely on 68 reports **Templar and Witch Doctor as having no
-interrupt**, which is wrong in every practical raid sense.
+*Effect ids alone under-report too.* Several abilities interrupt non-player
+casting through a stun or a silence and carry no `effect_id 68`. Classifying
+purely on 68 reports Templar and Witch Doctor as having no cast-stopping tool
+at all.
 
 *And the ROSTER has two halves.* The class digest lists "Trainable / class
 spells" and, separately, the Mind-of-Ascension trees. Reading only the first
@@ -152,6 +178,29 @@ Two traps found while doing it:
 * **Target flags do not decide friendly vs enemy.** `Show of Force` carries
   `target_a 6` and its tooltip reads "on a friendly target", so purges are
   identified from effect + tooltip together, never from the target flag alone.
+
+## A stun is not an interrupt
+
+The single most important thing on this page. **Most raid bosses are
+stun-immune.** An ability that says it "interrupts non-player spellcasting"
+does so only if its stun lands, so on a boss that clause is usually worth
+nothing. Those abilities are marked **(int)** in the Stuns table and they are
+NOT counted as interrupts anywhere.
+
+A silence is different: it stops the next cast and locks casting for a
+duration, which does not depend on a stun landing. Whether a given boss resists
+silence is an in-game question this database cannot answer -- but a silence at
+least fails for a reason you can see, where a stun on a stun-immune target
+fails silently.
+
+Ranked by what actually stops a boss cast:
+
+1. **Interrupts** (table 1) -- the real thing, `mechanic 26` / `effect 68`
+2. **Silences** (table 2), especially those marked **(int)**
+3. **Stuns** (table 3) -- assume these do nothing on a boss until proven
+
+Roots (table 4) are separate again and stop movement, not casting. Snares and
+slows (`mechanic 11`) are excluded entirely: a slow is not a root.
 
 ## What this file does NOT know
 
@@ -298,18 +347,41 @@ def classify(d):
     if not t.strip() or JUNK.search(d["name"]):
         return None
     has = lambda i: any(e["effect_id"] == i for e in _eff(d))  # noqa: E731
+    mech = {e.get("mechanic") for e in _eff(d)}
+    # ORDER MATTERS, and the specific signals go FIRST. A crowd-control
+    # mechanic rides on plenty of abilities whose POINT is something else --
+    # Necromancer's `Reanimate` raises a corpse and carries mechanic 12 on the
+    # mind-control, and a mechanic-first order files a resurrect under Stuns.
     if has(68) and re.search(r"interrupt|silenc|counter", t, re.I):
         return "interrupt"
-    if NPC_INTERRUPT.search(t):
-        return "interrupt_npc"
     if has(126) and re.search(r"steal", t, re.I):
         return "spellsteal"
     if (has(18) or has(113)) and re.search(r"\blife\b|resurrect|revive|rebirth", t, re.I):
         return "rez"
     if any(e["effect_id"] == 38 and e.get("misc_value") == 9 for e in _eff(d)):
         return "tranq"
+    # CC mechanics ride on far more rows than the rare effects above -- talent
+    # modifiers, applied-debuff components, broken stubs ("silencing for -0.001
+    # sec"). Requiring a cost OR a cooldown keeps the ones that are a BUTTON.
+    # The rarer categories do not need this and are not subjected to it: an
+    # interrupt or a battle rez with neither is still worth listing.
+    pressable = bool(d.get("cooldown_ms") or d.get("power_cost_percent")
+                     or d.get("power_cost"))
+    if pressable:
+        # A row can carry several CC mechanics; take the most specific first so
+        # a rooting silence is not filed by whichever id happened to sort low.
+        if 9 in mech:
+            return "silence"
+        if 12 in mech:
+            return "stun"
+        if mech & {7, 13}:
+            return "root"
     if has(38) and re.search(r"beneficial|purg", t, re.I) and re.search(r"enem", t, re.I):
         return "purge"
+    if any(e.get("aura_id") in (87, 229) for e in _eff(d)) and GROUP.search(t) \
+            and re.search(r"damage taken|damage dealt to", t, re.I):
+        return "raid_dr" if (d.get("cooldown_ms") or d.get("power_cost_percent")
+                             or d.get("power_cost")) else "raid_dr_passive"
     return None
 
 
@@ -325,19 +397,20 @@ def main(argv):
 
     if "--check" in argv:
         print(f"{len(cache)} spells in the mirror, {len(own)} owned by a class")
-        for cat in TITLES:
+        for cat in ORDER:
             print(f"  {cat:11} {len(buckets.get(cat, []))}")
         return 0
 
     print(FRONT)
-    for cat in ("interrupt", "interrupt_npc", "rez", "purge", "spellsteal", "tranq"):
+    for cat in ORDER:
         print(f"\n## {TITLES[cat]}\n\n{EFFNOTE[cat]}\n")
         rows = []
         for sid, d in buckets.get(cat, []):
             for cname, _a in own[sid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
+                mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
                 rows.append((c.id, cname, inv.get((c.slug, int(sid)), "?"),
-                             f"[{d['name']}](https://db.exil.es/spell/{sid})",
+                             f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
                              fmt_cd(d.get("cooldown_ms")), fmt_cost(d),
                              fmt_cast(d), desc(d), d["name"]))
         seen, out = set(), []

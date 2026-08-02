@@ -55,24 +55,89 @@ note in `tools/sources.py`).
 **24 across 19 classes.**
 None found for: Templar, Witch Doctor.
 
-## 1b. Stuns / silences that interrupt NPCs
+## 2. Silences
 
-NOT `effect_id 68`. These are stuns or silences whose tooltip says they interrupt **non-player** spellcasting -- which in a raid is an interrupt, since the target is always an NPC. Listed separately because the mechanic is different: they will not stop a player cast, and several have no cooldown of their own because a talent grants them. Effect-id classification alone reports Templar and Witch Doctor as having no interrupt; that is wrong in every practical raid sense.
+`mechanic 9` (SILENCE). A silence stops the NEXT cast and locks casting for a duration. Several also state that they interrupt non-player spellcasting, which makes them the best interrupt substitute available -- those are marked **(int)**. Only rows with a cost or a cooldown are listed; a silence with neither is a component or a talent.
 
 | Class | Spec | Ability | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|
-| Witch Doctor | ? | [Spirit Shock](https://db.exil.es/spell/807743) | 28s | 25% mana | Instant | Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds. |
-| Stormbringer | ? | [Stormhammer](https://db.exil.es/spell/806599) | none | 6% mana | Instant | Stuns the target for 2 sec and interrupts non-player spellcasting for 3 sec. |
-| Templar | ? | [Aggramar's Will](https://db.exil.es/spell/572573) | none | 3% mana | Instant | Stuns the target for 3 sec and interrupts non-player spellcasting for 3 sec. This spell cannot miss. |
-| Templar | ? | [Divine Force](https://db.exil.es/spell/806153) | none | 15 energy | Instant | Leap at an enemy with divine force, stunning them for 6 seconds, dealing 25 + 100% SP + 55% AP Holy Damage, and interrupting non-player spel… |
-| Cultist | ? | [Mass Nightmare](https://db.exil.es/spell/805114) | 3 min | 21% mana | Instant | Spread nightmares of the black empire to up to 5 nearby enemies, horrifying them for 5 seconds and interrupting non-player spellcasting for … |
-| Tinker | ? | [Focused Impact](https://db.exil.es/spell/706688) | none | — | Instant | Stuns the target for 3 sec and interrupts non-player spellcasting for 3 sec. This spell cannot miss. |
-| Primalist | ? | [Monolith Smash](https://db.exil.es/spell/991349) | none | 3% mana | 5s | Stuns an enemy for 3 sec and Interrupts non-player spellcasting for 3 sec. |
+| Barbarian | ? | [Deathmatch](https://db.exil.es/spell/800950) | 1.5 min | 999 energy | Instant | You select a target enemy for a Deathmatch, banishing both you and the enemy so that you can only see each other and causing each of you to … |
+| Witch Doctor | ? | [Spirit Shock](https://db.exil.es/spell/807743) **(int)** | 28s | 25% mana | Instant | Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds. |
+| Knight of Xoroth | ? | [Chainwhip](https://db.exil.es/spell/800081) | 20s | 100 rage | Instant | Swing a chain at an enemy dealing 12 + 35% AP Physical Damage and silencing them for 2 seconds, generating a large amount of threat. If you … |
+| Guardian | ? | [Hammer of the Law](https://db.exil.es/spell/704418) | none | 40 energy | Instant | Smash an enemy and enemies behind them in a line, dealing 95 + 100% AP High Threat Physical Damage and silencing them for 3.5 seconds. |
+| Templar | ? | [Atone for your Sins!](https://db.exil.es/spell/561309) | 2 min | 10 energy | Instant | Forbid an enemy from sinning, silencing them for 6 sec. If they are an Undead or Demon they are unable to be healed. |
+| Templar | ? | [Interdict](https://db.exil.es/spell/560116) | 2 min | — | Instant | Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration. |
+| Bloodmage | ? | [Arterial Bind](https://db.exil.es/spell/681077) | 1.5 min | 15% health | Instant | Place a pool of blood on the ground beneath enemies and allies, healing allies for 203 + 33% healing every 1 sec and silencing all enemies f… |
+| Chronomancer | ? | [Frayed](https://db.exil.es/spell/510237) | none | 27% mana | Instant | Stop your enemies' timeline, interrupting their spell cast for 4 sec. Successfully interrupting an enemy will additionally silence them for … |
+| Tinker | ? | [Anti-Magic Grenades](https://db.exil.es/spell/804861) | 2 min | 10% mana | Instant | Toss grenades that dispel up to 3 benefical magic effects and silences all enemies within 12 yds for 4 sec. |
 
-**7 across 6 classes.**
-None found for: Barbarian, Bloodmage, Chronomancer, Felsworn, Guardian, Knight of Xoroth, Necromancer, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Sun Cleric, Venomancer, Witch Hunter.
+**9 across 8 classes.**
+None found for: Cultist, Felsworn, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Stormbringer, Sun Cleric, Venomancer, Witch Hunter.
 
-## 2. Battle Rezzes
+## 3. Stuns
+
+`mechanic 12` (STUN). **A stun is not an interrupt.** Most raid bosses are stun-immune, so treat these as trash and add tools, not as a cast-stopping plan. Several carry an "interrupts non-player spellcasting" clause and are marked **(int)** -- that clause is worth exactly as much as the stun landing, which on a boss is usually nothing.
+
+| Class | Spec | Ability | CD | Materials Required | Cast Time | Description |
+|---|---|---|---|---|---|---|
+| Barbarian | ? | [Headbutt](https://db.exil.es/spell/520523) | 40s | 20% energy | Instant | Savagely headbutt an enemy, dealing 48 Physical damage, knocking them down briefly and stunning them for 4 sec. |
+| Witch Hunter | ? | [Darkslayer's Lantern](https://db.exil.es/spell/802139) | 2 min | 30% mana | Instant | Empower a lantern with your Flames of Sin and let it shine, dealing 441 + 15% AP Fire Damage and stunning all enemies within 5 yds for 5 sec… |
+| Witch Hunter | ? | [Holy Water Tonic](https://db.exil.es/spell/802826) | 2 min | — | Instant | Smash a holy water tonic beneath you, banishing all Undead and Demon enemies around you for 10 sec and increasing your damage dealt against … |
+| Knight of Xoroth | ? | [Chains of Malice](https://db.exil.es/spell/803185) | 1.5 min | — | Instant | Lock an enemy down with magical chains, stunning them and dragging them with you for 5 seconds. Every 1 sec, the enemy will suffer 48 Physic… |
+| Knight of Xoroth | ? | [Hellfire Trample](https://db.exil.es/spell/804704) | 1 min | — | Instant | Your Warsteed surges forward 25 yds and deals 18 Fire damage to enemies in your path. Gains 25% increased damage for every stack of Path of … |
+| Knight of Xoroth | ? | [Imp Rush](https://db.exil.es/spell/520664) | 45s | — | Instant | Charge at an enemy, dealing 50 Fire Damage. |
+| Guardian | ? | [Battle Rush](https://db.exil.es/spell/802197) | 30s | — | Instant | Charge an enemy, dealing 21.714 Physical damage and stunning them for 1 sec. |
+| Bloodmage | ? | [Pursuit](https://db.exil.es/spell/802869) | 1.5 min | — | Instant | Requires Cursed Form Appear behind an enemy, dealing 411 Physical Damage, stunning the target for 4 sec, and reducing all damage taken by 20… |
+| Bloodmage | ? | [Shadow Missile](https://db.exil.es/spell/536273) | 24s | — | Instant | Sends a shadowy bolt at the enemy, causing 65 to 66 Shadow damage and stunning them for 3 sec. |
+| Ranger | ? | [Bushwhack](https://db.exil.es/spell/557333) | none | 60 focus | Instant | Appear behind your target from the shadows, stunning them for 4 sec. |
+| Ranger | ? | [Eternal Knockdown](https://db.exil.es/spell/520758) | 25s | — | Instant | Knock an enemy down, dealing 48 Physical Damage and stunning them for 168 hour. For the duration, enemies take 0% increased damage from Assa… |
+| Chronomancer | all | [Breath of Time](https://db.exil.es/spell/805162) | 30s | 9% mana | Instant | Breathe a blanket of sand over and enemy, dealing 394 Arcane Damage and incapacitating them for 3 sec. Taking any damage will break this eff… |
+| Pyromancer | draconic | [Petrifying Visage](https://db.exil.es/spell/801908) | 2 min | 15% mana | Instant | You produce a terrible image of a draconic maw, dealing 137 Fire damage to an enemy, and causing them to tremble in horror for 3 sec. |
+| Cultist | ? | [Abyssal Enslavement](https://db.exil.es/spell/681284) | none | 12% mana | Instant | Enslave an enemy with a mindbender for up to 15 sec, effectively polymorphing them and removing harmful magic effects. |
+| Cultist | ? | [Facehug](https://db.exil.es/spell/800013) | 1.5 min | — | Channel 3s | The Mindbender teleports to an enemy and channels on them for up to 3 sec, Stunning the target for the duration. |
+| Sun Cleric | ? | [Glare](https://db.exil.es/spell/805583) | none | 20% mana | 1.5s | Flash powerful light that deals 168 + 27.41% SP Holy Damage and stuns enemies within 8 yds for 5 seconds. |
+| Tinker | ? | [Drill Smash](https://db.exil.es/spell/806173) | 30s | — | Instant | Repeatedly drill into an enemy, dealing 125 Physical Damage, repeating every 1 sec and stunning them for 4 sec. |
+| Tinker | ? | [Vanguard X-173: Onslaught](https://db.exil.es/spell/801828) | 20s | 30 energy | Instant | Causes 216 to 219 Physical Damage to enemies in a 15yd frontal cone and stunning enemies hit for 3 sec. |
+| Venomancer | ? | [Burrow](https://db.exil.es/spell/806154) | 5 min | — | Instant | Burrow beneath the ground for 8 seconds, becoming immune to all physical attacks and spells, but unable to move or act for the duration. Whi… |
+| Venomancer | ? | [Poison Eruption](https://db.exil.es/spell/520232) | 2 min | 8% mana | Instant | Requires Scorpid Form Erupt in a poisonous frenzy, leeching 185 health and stunning enemies within 8 yds for 5 sec. |
+| Primalist | ? | [Monolith Smash](https://db.exil.es/spell/991349) **(int)** | none | 3% mana | 5s | Stuns an enemy for 3 sec and Interrupts non-player spellcasting for 3 sec. |
+| Primalist | ? | [Mountain Hammer](https://db.exil.es/spell/681130) | none | 200 rage | Instant | Throw a hammer at an enemy dealing 67 + 35.5% nature SP + 15.5% AP Physical Damage and stunning them for 5 seconds. |
+| Runemaster | ? | [Matter Swap](https://db.exil.es/spell/803167) | 10s | 7% mana | 1s | Instantly switch positions with your Runic Familiar, then stun nearby enemies for 1 sec. |
+| Runemaster | all | [Everfrost Scroll](https://db.exil.es/spell/801090) | none | 5% mana | Instant | Stun an enemy target for 3.5 sec, increasing Frost damage they take from you by 20% for the duration. |
+| Runemaster | riftblade | [Ice Rune](https://db.exil.es/spell/524930) | 1 min | 12% mana | Instant | Requires Frozen Target Unleash a frost rune at an enemy, stunning them for 4 sec. Affected enemies are considered Frozen. |
+
+**25 across 14 classes.**
+None found for: Felsworn, Necromancer, Reaper, Starcaller, Stormbringer, Templar, Witch Doctor.
+
+## 4. Roots
+
+`mechanic 7` (ROOT) or `13` (FREEZE). Snares and slows (`mechanic 11`) are deliberately NOT here -- a slow is not a root, and folding them in would triple the table with abilities that do not hold anything in place.
+
+| Class | Spec | Ability | CD | Materials Required | Cast Time | Description |
+|---|---|---|---|---|---|---|
+| Witch Doctor | ? | [Bwonsamdi's Judgement](https://db.exil.es/spell/525386) | none | 10% mana | Instant | Deals 85 Shadow Damage to an enemy and roots them for 2 sec. |
+| Stormbringer | ? | [Exhale](https://db.exil.es/spell/801846) | 40s | 11% mana | Instant | Exhale a gust of wind in a 15 yd cone in front of you, dealing 109.2 Nature Damage and rooting up to 0 enemies in place for 8 sec. Damage ca… |
+| Knight of Xoroth | ? | [Hellhaul](https://db.exil.es/spell/503142) | 3 min | — | Instant | You bind an enemy target with magical Hellfire Chains, rooting them and dragging them with you for 5 sec. Every 0.25 sec for the duration th… |
+| Guardian | ? | [Net Throw](https://db.exil.es/spell/802304) | 15s | 15 energy | Instant | Toss a weighted net at an enemy that roots them for 4 seconds. While active, the target cannot dodge attacks. |
+| Ranger | ? | [Whipvine Arrow](https://db.exil.es/spell/806342) | 1 min | 25 focus | 1.7s | Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (… |
+| Chronomancer | artificer,infinite,time | [Clasp of Infinity](https://db.exil.es/spell/805847) | 20s | 23% mana | Instant | Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for 4 seconds. |
+| Necromancer | ? | [Black Ice](https://db.exil.es/spell/801746) | 30s | 10% mana | Instant | A ring of ice erupts from the target, rooting enemies around them in ice for 8 sec, and applying Deathchill. Damage caused may interrupt the… |
+| Necromancer | ? | [Bonefreeze](https://db.exil.es/spell/500326) | 20s | 6% mana | Instant | Chill the bones of an enemy and up to 2 nearby enemies, dealing 169.29 Shadowfrost Damage, reduced by 82.8% per target. |
+| Necromancer | ? | [Cryo Freeze](https://db.exil.es/spell/680363) | none | 7% mana | Instant | Unleashes a frost explosion at teleportaion location and freezes all enemies nearby. |
+| Pyromancer | flameweaving | [Cindergrip](https://db.exil.es/spell/805476) | none | 19% mana | 1.5s | Raise a lava crag from beneath an enemy, rooting them in place, dealing 28 Fire damage every 3 sec for 12 sec (8 sec vs players). Damage cau… |
+| Tinker | ? | [Hydraulic Charge](https://db.exil.es/spell/800582) | 15s | 6% mana | Instant | Charge an enemy with your Clockwork Assistant and strike as one, each dealing 362 Physical Damage and rooting enemies in place for 2 sec. |
+| Venomancer | ? | [Spindlebind](https://db.exil.es/spell/800887) | 16s | 30 energy | Instant | Emit webs at all enemies in a 10 yd cone behind you, rooting them for 4 seconds, and unleashing a beetle on the trapped enemy from below, in… |
+| Venomancer | ? | [Venocannon](https://db.exil.es/spell/804967) | 1 min | — | Instant | Burst out of your burrow, rooting yourself in place for 0.001 sec. While active, all spells have 15 yd of additional range, and the cast tim… |
+| Primalist | ? | [Swoop](https://db.exil.es/spell/806546) | 30s | — | Channel 3s | Swoop an enemy, flying to their position and knocking them down. Rooting the target for 3 sec, disabling movement abilities. |
+| Runemaster | all | [Cryobrand](https://db.exil.es/spell/807822) | none | 4% mana | Instant | Blast an enemy with frost magic, freezing them in place for 40 sec (8 sec vs players). Can only affect 1 enemy at a time. Does not break ste… |
+| Runemaster | all | [Hoarfrost](https://db.exil.es/spell/801104) | none | 10% mana | Instant | Slash in a frozen fury in front of you, dealing 7 + 33% AP Frost Damage to up to 3 enemies within 8 yds, repeating every 3 sec for 21 second… |
+| Runemaster | glyphic,engravement,riftblade | [Glacial Rune](https://db.exil.es/spell/805730) | 20s | 9% mana | Instant | Place a rune at the target location that explodes after 1 sec with frigid magic, dealing 362.824 Frost Damage to enemies inside and freezing… |
+| Runemaster | glyphic,engravement,riftblade | [Permafrost Rune](https://db.exil.es/spell/804060) | 1 min | 39% mana | 1s | Requires Frozen Target Inscribe a rune of permafrost and unleash it on an enemy, incapacitating them for 40 seconds (8 sec vs players). Dama… |
+
+**18 across 12 classes.**
+None found for: Barbarian, Bloodmage, Cultist, Felsworn, Reaper, Starcaller, Sun Cleric, Templar, Witch Hunter.
+
+## 5. Battle Rezzes
 
 `effect_id 18` (RESURRECT) or `113` (RESURRECT_NEW). **Both are in use** -- Bloodmage **Vampyr Bite** is 18, Pyromancer **Phoenix Rebirth** is 113. Matching only 18 finds 2 spells and misses almost everything.
 
@@ -100,7 +165,7 @@ None found for: Barbarian, Bloodmage, Chronomancer, Felsworn, Guardian, Knight o
 **18 across 12 classes.**
 None found for: Barbarian, Felsworn, Guardian, Knight of Xoroth, Ranger, Reaper, Runemaster, Stormbringer, Witch Hunter.
 
-## 3. Purges
+## 6. Purges
 
 `effect_id 38` (DISPEL) where the tooltip names a *beneficial* effect on an *enemy*. Target flags alone are unreliable -- **Show of Force** is `target_a 6` and reads "on a friendly target".
 
@@ -118,7 +183,7 @@ None found for: Barbarian, Felsworn, Guardian, Knight of Xoroth, Ranger, Reaper,
 **8 across 7 classes.**
 None found for: Barbarian, Bloodmage, Felsworn, Guardian, Knight of Xoroth, Necromancer, Pyromancer, Ranger, Starcaller, Stormbringer, Tinker, Venomancer, Witch Doctor, Witch Hunter.
 
-## 4. Spellsteals
+## 7. Spellsteals
 
 `effect_id 126` -- STEAL_BENEFICIAL_BUFF.
 
@@ -132,7 +197,7 @@ None found for: Barbarian, Bloodmage, Felsworn, Guardian, Knight of Xoroth, Necr
 **4 across 3 classes.**
 None found for: Barbarian, Chronomancer, Cultist, Guardian, Knight of Xoroth, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Starcaller, Stormbringer, Sun Cleric, Templar, Tinker, Venomancer, Witch Doctor, Witch Hunter.
 
-## 5. Tranq Shots / Soothes (remove enrage)
+## 8. Tranq Shots / Soothes (remove enrage)
 
 `effect_id 38` with `misc_value 9` -- dispel type Enrage.
 
@@ -146,6 +211,42 @@ None found for: Barbarian, Chronomancer, Cultist, Guardian, Knight of Xoroth, Ne
 **4 across 3 classes.**
 None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian, Knight of Xoroth, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Sun Cleric, Templar, Tinker, Witch Doctor.
 
+## 9. Raid damage reduction — active
+
+`aura_id 87` (MOD_DAMAGE_PERCENT_TAKEN) or `229` (AoE damage taken), where the tooltip names the party, raid or allies AND the ability has a cooldown or a cost -- i.e. something you press.
+
+| Class | Spec | Ability | CD | Materials Required | Cast Time | Description |
+|---|---|---|---|---|---|---|
+| Felsworn | ? | [Infernal Whipcrack](https://db.exil.es/spell/805243) | 1.5 min | — | Instant | Enrage up to 8 allies within 20 yds, reducing their damage taken by -15% and increasing their haste by 10% for 10 seconds. |
+| Guardian | ? | [Bastion](https://db.exil.es/spell/802283) | 5 min | 40 energy | Instant | Raise your shield and lead your allies within 12 yds, reducing their damage taken by -40% for 10 seconds. |
+| Templar | ? | [Grace of Aman'Thul](https://db.exil.es/spell/801477) | 20s | 20 energy | Instant | Unleash a defensive Oath Breaker, causing damage taken from melee attacks to heal yourself and allies within 10 yds for 136. Lasts 0 or unti… |
+| Chronomancer | artificer | [Decelerate](https://db.exil.es/spell/572632) | none | 32% mana | Instant | Decelerates magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. Lasts 10… |
+| Cultist | ? | [Whispers of Yogg-Saron](https://db.exil.es/spell/572637) | none | 27% mana | Instant | Destabilizes magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. |
+| Sun Cleric | ? | [Scroll of Hope](https://db.exil.es/spell/680646) | 5 min | 40% mana | Instant | Read from a scroll of hope, reducing Magic Damage taken by party and raid members within 15 yds by -30% for 10 seconds. If any ally falls be… |
+| Tinker | ? | [Arcane Bionics](https://db.exil.es/spell/541493) | none | 8% mana | Instant | Augment a party member with the essence of arcane, decreasing damage taken from spells by up to 3% and healing spells by up to 3%. Lasts 5 m… |
+| Primalist | ? | [Essence of Dispersion](https://db.exil.es/spell/572818) | none | 20% mana | Instant | Disperses magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. |
+
+**8 across 8 classes.**
+None found for: Barbarian, Bloodmage, Knight of Xoroth, Necromancer, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Stormbringer, Venomancer, Witch Doctor, Witch Hunter.
+
+## 9b. Raid damage reduction — passive auras
+
+Same auras, group-scoped, but **no cooldown and no cost**: talents and stances that shape the raid's damage intake without being pressed. Separated because a raid cooldown plan cares about the first list; roster composition cares about this one.
+
+| Class | Spec | Ability | CD | Materials Required | Cast Time | Description |
+|---|---|---|---|---|---|---|
+| Stormbringer | ? | [Cyclonean Protection](https://db.exil.es/spell/804067) | none | — | Instant | Reduces the damage taken from area of effect attacks of party members within 20 yds by 15%. |
+| Templar | ? | [Tithe of Alacrity](https://db.exil.es/spell/804818) | none | — | 3s | Emanate an aura for 1 hour, empowering party and raid members with 15% reduced damage taken from area of effect attacks. |
+| Cultist | ? | [Protection From Light](https://db.exil.es/spell/704434) | none | — | Instant | Reduces all damage taken by party and raid members by -3%. In addition, your Holy Damage taken is reduced by -10%. |
+| Cultist | ? | [Voidwarding](https://db.exil.es/spell/560002) | none | — | Instant | Reduces damage taken by party and raid members by -3%. Does not stack with similar effects. In addition, increases all of your resistances b… |
+| Starcaller | ? | [Shrouded Stars](https://db.exil.es/spell/704785) | none | — | Instant | Reduces damage taken by all party and raid members by -3%. Does not stack with similar effects. |
+| Venomancer | ? | [Charmed Plating](https://db.exil.es/spell/300974) | none | — | Instant | Reduces damage taken by all party and raid members by 3%. Does not stack with similar effects. In addition, reduces your chance to be hit by… |
+| Reaper | ? | [Ethereal Guard](https://db.exil.es/spell/300969) | none | — | Instant | Reduces the damage taken by party and raid members by -3%. Does not stack with similar effects. In addition, increases your melee haste by 1… |
+| Primalist | ? | [Ring of Life](https://db.exil.es/spell/804705) | none | — | Instant | Allies within 40 yds receive 6% increased healing. Does not stack with similar effects. In addition, your Magic Damage taken is reduced by -… |
+
+**8 across 7 classes.**
+None found for: Barbarian, Bloodmage, Chronomancer, Felsworn, Guardian, Knight of Xoroth, Necromancer, Pyromancer, Ranger, Runemaster, Sun Cleric, Tinker, Witch Doctor, Witch Hunter.
+
 ---
 
 ## How these were classified
@@ -158,10 +259,10 @@ this file.
 Chronomancer's `Fray Magic` at all, so every candidate list derived from its
 descriptions silently omits a real 30 sec interrupt.
 
-*Effect ids alone under-report too.* Table 1b is the proof: seven abilities
-interrupt non-player casting through a stun or silence and carry no `effect_id
-68`. Classifying purely on 68 reports **Templar and Witch Doctor as having no
-interrupt**, which is wrong in every practical raid sense.
+*Effect ids alone under-report too.* Several abilities interrupt non-player
+casting through a stun or a silence and carry no `effect_id 68`. Classifying
+purely on 68 reports Templar and Witch Doctor as having no cast-stopping tool
+at all.
 
 *And the ROSTER has two halves.* The class digest lists "Trainable / class
 spells" and, separately, the Mind-of-Ascension trees. Reading only the first
@@ -184,6 +285,29 @@ Two traps found while doing it:
 * **Target flags do not decide friendly vs enemy.** `Show of Force` carries
   `target_a 6` and its tooltip reads "on a friendly target", so purges are
   identified from effect + tooltip together, never from the target flag alone.
+
+## A stun is not an interrupt
+
+The single most important thing on this page. **Most raid bosses are
+stun-immune.** An ability that says it "interrupts non-player spellcasting"
+does so only if its stun lands, so on a boss that clause is usually worth
+nothing. Those abilities are marked **(int)** in the Stuns table and they are
+NOT counted as interrupts anywhere.
+
+A silence is different: it stops the next cast and locks casting for a
+duration, which does not depend on a stun landing. Whether a given boss resists
+silence is an in-game question this database cannot answer -- but a silence at
+least fails for a reason you can see, where a stun on a stun-immune target
+fails silently.
+
+Ranked by what actually stops a boss cast:
+
+1. **Interrupts** (table 1) -- the real thing, `mechanic 26` / `effect 68`
+2. **Silences** (table 2), especially those marked **(int)**
+3. **Stuns** (table 3) -- assume these do nothing on a boss until proven
+
+Roots (table 4) are separate again and stop movement, not casting. Snares and
+slows (`mechanic 11`) are excluded entirely: a slow is not a root.
 
 ## What this file does NOT know
 
