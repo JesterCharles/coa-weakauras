@@ -125,9 +125,10 @@ condition, the width lock to the main row — is shared.
 
 **3. `prominence` — how loud it is**
 
-Not every resource a class tracks is equally worth glancing at. Pyromancer
-spends ember and mana together on the same abilities, while heat is background
-state.
+Not every resource a class tracks is equally worth glancing at. Keep `minor`
+for a resource that is genuinely background AND independent; if it is
+background because it FEEDS another resource, see `fused` below — that was
+Pyromancer's heat, and fusing beat demoting it.
 
 | Value | Renders as |
 |---|---|
@@ -146,16 +147,69 @@ the main row from drifting apart.
   heat   [======          ]                10px  bar/power             MINOR
 ```
 
+**4. `fused` — a feeder resource drawn INSIDE the one it feeds**
+
+Superseding the three-band Pyromancer stack above. Heat is not an independent
+resource: it is the thing that FILLS an Ember. 100 Heat converts to one Ember
+and empties. Drawing it as its own band states a relationship the player then
+has to reconstruct by looking at two places.
+
+So heat renders as the **number inside the next Ember cell** — the cell it is
+currently filling — and the third band disappears:
+
+```
+  MAIN   [ 44 ][ 44 ][ 44 ][ 44 ][ 44 ]
+
+  ember  [##][##][ 62 ][  ][  ]            16px  segments/aura_stacks  primary
+  mana   [============ 74% ===]            20px  bar/power             primary
+```
+
+Three things this buys, in order of how much they matter:
+
+**Overcap becomes visible, and it is the only real mistake this class's
+resource can make.** At 5 Embers, Heat keeps climbing and the Ember it
+eventually mints is *lost*. A separate heat bar cannot say that — it looks
+identical whether the next Ember will land or evaporate. The fused cell can,
+because it knows both numbers. So cell 5 glows **yellow from 50 Heat** and
+**orange from 80**, i.e. the window in which you should spend before the waste
+lands. Nothing else in the pack warns about a resource you are about to throw
+away.
+
+**One less band.** The stack is the only variable-height section above the
+cooldowns, so removing 10px shortens every anchor below it on every Pyromancer
+spec.
+
+**The number is where you are already looking.** Heat only matters as "how
+close is the next Ember", which is the cell it is filling.
+
+Buildable on what exists: `stack_bar` already emits texture cells, and
+`notes/weakauras-data-model.md` §8A records `subtext` and `subglow` as
+supported on `texture` regions (both list it in `supports(regionType)`). The
+Heat number is `%N.s` — the STACK COUNT of a second, Heat aura trigger — which
+is the same per-trigger text form `cd_icon` uses for its proc stacks.
+
+⚠️ **UNCONFIRMED: which id carries the Ember COUNT.** Heat is settled — it is a
+stacking aura, `807389`, because `Blessing of the Firelands` reads "Each stack
+of Heat now increases the damage dealt by Dragon Leap by 3%". The Ember counter
+is one of `572806` / `807534` / `807536` and the scrape cannot tell them apart;
+two of the three share a tooltip verbatim. Build `diag-7-pyro-resource` and
+read it in game before wiring this — guessing here yields a bar that looks
+like it works while counting the wrong thing, which is the exact failure the
+diag ladder exists to prevent.
+
 ### Rules for the stack
 
 - **Every band spans the main row's width**, derived from its icon count. All
   resources line up with each other and with the main row. `minor` included.
 - **Order is by prominence, most-glanced nearest the main row.** This is the
   existing "vertical order encodes urgency" rule, not a new one. Pyromancer is
-  ember, mana, heat.
+  ember (with heat fused into it), then mana.
 - **Never render a resource the class does not spend.** A vestigial bar costs
-  prime screen space next to the main row. Tracking three is fine when all three
-  are real, as on Pyromancer.
+  prime screen space next to the main row.
+- **A resource that only feeds another one is not a band.** Ask what the number
+  is FOR. Heat's only meaning is "how close is the next Ember", so it belongs
+  in the Ember cell it is filling, not under it — see `fused`. A band earns its
+  10px by being something you act on directly.
 - **`segments` needs an always-true trigger** for the dim cells — the CoA spec
   aura is a database entry, not a buff the player carries, and gating on it
   makes the empty cells never draw. `load.use_spellknown` already restricts the

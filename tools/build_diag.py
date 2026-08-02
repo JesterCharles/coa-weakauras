@@ -242,3 +242,68 @@ for i, (label, trig, load_gated) in enumerate(PROBES6):
     kids.append(c)
 
 emit("6-spellknown", B.group("DIAG6", None, [k["id"] for k in kids]), kids)
+
+
+# 7. Which aura carries Pyromancer's Ember COUNT, and does Heat stack 0-100?
+#
+# The scrape says Heat is a stacking aura -- "Each stack of Heat now increases
+# the damage dealt by Dragon Leap by 3%" (Blessing of the Firelands, 504397) --
+# and that at 100 Heat you gain an Ember and the bar empties. What it does NOT
+# say is which id holds the EMBER count, and four ids are plausible:
+#
+#     807389  Heat            "Heating up! At 100 Heat you will generate..."
+#     572806  Ember           rank "Generate Ember" -- may be the event, not
+#                             the counter
+#     807534  Ember Trigger   "Allows you to cast powerful abilities"
+#     807536  Ember Consume   same tooltip, so one of the two is the state
+#     805860  Fully Heated    no tooltip at all -- possibly the at-cap flag
+#
+# Guessing costs an import cycle and, worse, a resource bar that reads as
+# working while showing the wrong number. So: one cell per candidate, each
+# showing its own stack count, always visible.
+#
+# HOW TO READ IT. Import, then play a Pyromancer for ~30 seconds.
+#   * the cell whose number climbs 1..5 and drops when you spend is the EMBER
+#     counter -> that id goes in stack_bar()
+#   * the cell that climbs toward 100 and resets is HEAT -> that id drives the
+#     number-in-the-slot and the overcap glow thresholds
+#   * a cell stuck at 0 with a lit border is an aura you HAVE with no stacks
+#   * a DARK border means the aura is not on you at all
+#
+# `own_only=False` deliberately: a server-applied resource aura is not always
+# flagged as cast by the player, and filtering it out here would look exactly
+# like "this id is wrong".
+PYRO_RES = [(807389, "Heat 807389"), (572806, "Ember 572806"),
+            (807534, "EmberTrig 807534"), (807536, "EmberCons 807536"),
+            (805860, "FullyHeated 805860")]
+kids = []
+for i, (aid, label) in enumerate(PYRO_RES):
+    did = f"DIAG7 {aid}"
+    kids.append(B.icon(
+        did, "DIAG7",
+        [B.health_trigger(), B.aura_trigger([str(aid)], own_only=False)],
+        ICON, x=(i - 2) * 90, y=-140, size=44,
+        subregions=[
+            B.sub_background(),
+            # %2.s is the STACK COUNT of trigger 2, the aura. Trigger 1's own
+            # %s would be charges on the control spell, which is not the
+            # question -- the same per-trigger form cd_icon uses for its
+            # stack text.
+            B.sub_text("%2.s", size=18, anchor="INNER_BOTTOM"),
+            B.sub_text(label, size=9, anchor="OUTER_BOTTOM", y=-2),
+            B.sub_border(color=(0.10, 0.10, 0.12, 1), size=2, offset=1,
+                         edge="Square Full White"),
+        ],
+        conditions=[B.cond(
+            B.T({"trigger": 2, "variable": "show", "value": 1}),
+            [B.change("sub.4.border_color", B.rgba(0.35, 0.95, 0.45, 1))])]))
+    # Unit Health as the always-on control, NOT a spell cooldown. diag-6 used
+    # a known spell for that job, and every one of those is class-specific --
+    # Ripple is Chronomancer's, so a Pyromancer importing this would see five
+    # empty cells and read it as "none of these ids exist".
+    kids[-1]["triggers"] = B._trigger_wrap(
+        [B.health_trigger(), B.aura_trigger([str(aid)], own_only=False)],
+        -10, "any")
+    kids[-1][f"text_text_format_2.s_format"] = "none"
+
+emit("7-pyro-resource", B.group("DIAG7", None, [k["id"] for k in kids]), kids)
