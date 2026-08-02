@@ -227,58 +227,36 @@ None found for: Barbarian, Bloodmage, Cultist, Felsworn, Reaper, Starcaller, Sun
 
 ## 5. Battle Rezzes
 
-`effect_id 18` (RESURRECT) or `113` (RESURRECT_NEW). **Both are in use** -- Bloodmage **Vampyr Bite** is 18, Pyromancer **Phoenix Rebirth** is 113. Matching only 18 finds 2 spells and misses almost everything.
+`effect_id 18` (RESURRECT) or `113` (RESURRECT_NEW), **usable in combat, on a player**. Both effect ids are in use -- matching only 18 finds 2 spells and misses almost everything.
 
-| Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
+Out-of-combat resurrects are NOT here: a res you cannot cast mid-pull is not a raid cooldown. That excludes eleven, including Chronomancer's `Resynchronize` (30 min, whole party, but "cannot be used in combat") and every 8-10 sec cast. Necromancer's `Reanimate` is excluded too -- it raises a CORPSE as a temporary pet, not a player.
+
+The column is **Reagent Required**, not Usable on Boss: a battle rez targets an ally, so boss immunity is meaningless, while the reagent is the thing that stops you casting it.
+
+| Class | Spec | Ability | Reagent Required | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Witch Doctor | all | [Reclaim Soul](https://db.exil.es/spell/801796) |  | none | 30% mana | 8s | Brings a dead ally back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 | Templar | all | [Spiritual Ascension](https://db.exil.es/spell/500688) |  | 5 min | — | 2s | Call an ally's spirit back to their body, bringing them back to life. Usable while in combat. |
-| Bloodmage | all | [Vampyr Bite](https://db.exil.es/spell/801563) |  | none | — | 8s | Brings a dead player back to life with 70% health and mana. For the next 20 sec, the target takes 50% increased healing, but being damaged e… |
-| Chronomancer | all | [Do Over](https://db.exil.es/spell/800669) |  | none | 36% mana | 8s | Restores a dead ally to life with 70 health and 135 mana. Cannot be cast when in combat. |
-| Chronomancer | time | [Resynchronize](https://db.exil.es/spell/804495) |  | 30 min | — | Instant | Switch to the timeline where your party didn't die, returning all party members to life with 583 health and 833 mana. Can be cast while dead… |
 | Necromancer | all | [Call of The Scourge](https://db.exil.es/spell/801792) |  | 10 min | 68% mana | 2s | Bring a dead ally back to life with 70 health and 135 mana. Can be used in combat. |
-| Necromancer | all | [Reanimate](https://db.exil.es/spell/804172) |  | 3 min | 250 runic power | Instant | Revives the corpse of a non-elite Undead or Humanoid, binding it to your control for up to 10 sec. While controlled, the target will decay o… |
-| Pyromancer | flameweaving | [Phoenix Rebirth](https://db.exil.es/spell/706867) |  | none | 60% mana | 10s | Brings a dead ally back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 | Pyromancer | flameweaving | [Reborn from Ash](https://db.exil.es/spell/804231) |  | 10 min | — | 2s | Returns a dead ally to life with 400 health and 635 mana, can also be used on self while dead. Can be used in combat. |
-| Cultist | all | [Ritual of Awakening](https://db.exil.es/spell/801791) |  | none | 60% mana | 8s | Brings a dead player back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 | Starcaller | all | [Tidal Rebirth](https://db.exil.es/spell/801793) |  | 10 min | 75% mana | 2s | Instantly brings a dead ally back to life with 400 health and 635 mana. This spell is usable in combat. |
-| Starcaller | all | [Celestial Awakening](https://db.exil.es/spell/801795) |  | none | 60% mana | 8s | Brings a dead ally back to life with 70 Health and 135 Mana. The target gains 200% increased Mana regeneration for 10 sec. Cannot be cast wh… |
-| Sun Cleric | all | [Revivify](https://db.exil.es/spell/801790) |  | none | 60% mana | 8s | Brings a dead ally back to life with 70 health and 135 mana. Not usable in combat. |
-| Sun Cleric | all | [Val'kyr Ressurrection](https://db.exil.es/spell/804608) |  | none | — | 5s | Brings a dead player back to life with 2000 health and 833 mana. Cannot be cast when in combat. |
-| Tinker | all | [Defibrillate](https://db.exil.es/spell/802175) |  | none | 20% mana | 10s | Brings up to 5 dead allies within 15 yds back to life with 70 health and 135 mana. Cannot be cast when in combat. |
-| Venomancer | all | [Prayer Beads](https://db.exil.es/spell/520681) |  | none | 60% mana | 8s | Pray to Shadra and honor the venomcult, allowing you to bring a dead ally back to life with 70 health and 135 mana. Cannot be cast when in c… |
 | Venomancer | all | [Spawn](https://db.exil.es/spell/805568) |  | 10 min | 20% mana | 2s | Bring a dead ally back to life with 400 health and 635 mana. Can be used in combat. Not usable in arena. |
-| Primalist | all | [Return to Life](https://db.exil.es/spell/801794) |  | none | 60% mana | 10s | Brings a dead ally back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 
 <details><summary>Copy this table as markdown</summary>
 
 ```markdown
-| Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
+| Class | Spec | Ability | Reagent Required | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Witch Doctor | all | [Reclaim Soul](https://db.exil.es/spell/801796) |  | none | 30% mana | 8s | Brings a dead ally back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 | Templar | all | [Spiritual Ascension](https://db.exil.es/spell/500688) |  | 5 min | — | 2s | Call an ally's spirit back to their body, bringing them back to life. Usable while in combat. |
-| Bloodmage | all | [Vampyr Bite](https://db.exil.es/spell/801563) |  | none | — | 8s | Brings a dead player back to life with 70% health and mana. For the next 20 sec, the target takes 50% increased healing, but being damaged e… |
-| Chronomancer | all | [Do Over](https://db.exil.es/spell/800669) |  | none | 36% mana | 8s | Restores a dead ally to life with 70 health and 135 mana. Cannot be cast when in combat. |
-| Chronomancer | time | [Resynchronize](https://db.exil.es/spell/804495) |  | 30 min | — | Instant | Switch to the timeline where your party didn't die, returning all party members to life with 583 health and 833 mana. Can be cast while dead… |
 | Necromancer | all | [Call of The Scourge](https://db.exil.es/spell/801792) |  | 10 min | 68% mana | 2s | Bring a dead ally back to life with 70 health and 135 mana. Can be used in combat. |
-| Necromancer | all | [Reanimate](https://db.exil.es/spell/804172) |  | 3 min | 250 runic power | Instant | Revives the corpse of a non-elite Undead or Humanoid, binding it to your control for up to 10 sec. While controlled, the target will decay o… |
-| Pyromancer | flameweaving | [Phoenix Rebirth](https://db.exil.es/spell/706867) |  | none | 60% mana | 10s | Brings a dead ally back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 | Pyromancer | flameweaving | [Reborn from Ash](https://db.exil.es/spell/804231) |  | 10 min | — | 2s | Returns a dead ally to life with 400 health and 635 mana, can also be used on self while dead. Can be used in combat. |
-| Cultist | all | [Ritual of Awakening](https://db.exil.es/spell/801791) |  | none | 60% mana | 8s | Brings a dead player back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 | Starcaller | all | [Tidal Rebirth](https://db.exil.es/spell/801793) |  | 10 min | 75% mana | 2s | Instantly brings a dead ally back to life with 400 health and 635 mana. This spell is usable in combat. |
-| Starcaller | all | [Celestial Awakening](https://db.exil.es/spell/801795) |  | none | 60% mana | 8s | Brings a dead ally back to life with 70 Health and 135 Mana. The target gains 200% increased Mana regeneration for 10 sec. Cannot be cast wh… |
-| Sun Cleric | all | [Revivify](https://db.exil.es/spell/801790) |  | none | 60% mana | 8s | Brings a dead ally back to life with 70 health and 135 mana. Not usable in combat. |
-| Sun Cleric | all | [Val'kyr Ressurrection](https://db.exil.es/spell/804608) |  | none | — | 5s | Brings a dead player back to life with 2000 health and 833 mana. Cannot be cast when in combat. |
-| Tinker | all | [Defibrillate](https://db.exil.es/spell/802175) |  | none | 20% mana | 10s | Brings up to 5 dead allies within 15 yds back to life with 70 health and 135 mana. Cannot be cast when in combat. |
-| Venomancer | all | [Prayer Beads](https://db.exil.es/spell/520681) |  | none | 60% mana | 8s | Pray to Shadra and honor the venomcult, allowing you to bring a dead ally back to life with 70 health and 135 mana. Cannot be cast when in c… |
 | Venomancer | all | [Spawn](https://db.exil.es/spell/805568) |  | 10 min | 20% mana | 2s | Bring a dead ally back to life with 400 health and 635 mana. Can be used in combat. Not usable in arena. |
-| Primalist | all | [Return to Life](https://db.exil.es/spell/801794) |  | none | 60% mana | 10s | Brings a dead ally back to life with 70 health and 135 mana. Cannot be cast when in combat. |
 ```
 
 </details>
 
-**18 across 12 classes.**
-None found for: Barbarian, Felsworn, Guardian, Knight of Xoroth, Ranger, Reaper, Runemaster, Stormbringer, Witch Hunter.
+**5 across 5 classes.**
+None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian, Knight of Xoroth, Primalist, Ranger, Reaper, Runemaster, Stormbringer, Sun Cleric, Tinker, Witch Doctor, Witch Hunter.
 
 ## 6. Purges
 
@@ -576,19 +554,27 @@ real CoA ability and is not on its own evidence of anything: `Cindergrip`,
 `Decelerate` and `Cryobrand` all look like that and all appear in a reviewed
 inventory as real.
 
-## The "Usable on Boss" column
+## The hand-observed columns
 
-**Blank means untested, not "no".** Nothing in db.exil.es records immunity, so
-this column cannot be derived and is never guessed -- a raid plans around it,
-and a guess there is worse than a gap.
+Two columns hold facts **no database carries**: db.exil.es records neither
+immunity nor reagents. Both are therefore hand-filled, and **blank means
+untested, never "no"** -- a raid plans around these, and a guess is worse than
+a gap.
 
-Fill it in `resources/boss-usable.json`, NOT in this file:
+| Table | Column | Question |
+|---|---|---|
+| Battle Rezzes | **Reagent Required** | what item it consumes |
+| everything else | **Usable on Boss** | does it land on a raid boss |
+
+Fill them in `resources/spell-observed.json`, NOT in this file:
 
 ```json
 "spells": {
   "800995": {"boss": "yes",     "note": "Ley Lock -- lands on every ZG boss"},
   "991349": {"boss": "no",      "note": "Monolith Smash -- stun immune"},
-  "806599": {"boss": "partial", "note": "Stormhammer -- lands on Jin'do, not Hakkar"}
+  "806599": {"boss": "partial", "note": "Stormhammer -- Jin'do yes, Hakkar no"},
+  "801792": {"reagent": "Corpse Dust", "note": "Call of The Scourge"},
+  "500688": {"reagent": "none", "note": "Spiritual Ascension -- confirmed free"}
 }
 ```
 
@@ -598,7 +584,8 @@ the JSON survives. That is the whole reason it is a separate file: this page is
 regenerated wholesale, and hand-tested knowledge is the one thing here that
 cannot be regenerated.
 
-`yes` / `no` / `partial`; omit the id entirely while it is untested.
+`boss`: `yes` / `no` / `partial`. `reagent`: the item, or `none` once
+confirmed to need nothing. Omit a field entirely while it is untested.
 
 ## A stun is not an interrupt
 

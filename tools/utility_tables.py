@@ -63,6 +63,8 @@ NPC_INTERRUPT = re.compile(r"interrupt\w*\s+non-?player", re.I)
 # (804065), a 30s -40% Holy/Fire cooldown on a single ally, from the ACTIVE
 # raid-DR table -- its tooltip says "an ally", never "allies".
 GROUP = re.compile(r"\b(party|raid|all(y|ies)|group|friendly target)\b", re.I)
+OUT_OF_COMBAT = re.compile(r"(cannot|can not|not) (be (cast|used)|usable)"
+                           r"[^.]{0,20}in combat", re.I)
 
 ORDER = ["interrupt", "silence", "stun", "root", "rez", "purge", "spellsteal",
          "tranq", "raid_dr", "raid_dr_passive"]
@@ -81,10 +83,18 @@ TITLES = {
 EFFNOTE = {
     "interrupt": "`effect_id 68` -- INTERRUPT_CAST. Verified against Pyromancer "
                  "**Spellburn** and Runemaster **Ley Lock**.",
-    "rez": "`effect_id 18` (RESURRECT) or `113` (RESURRECT_NEW). **Both are in "
-           "use** -- Bloodmage **Vampyr Bite** is 18, Pyromancer **Phoenix "
-           "Rebirth** is 113. Matching only 18 finds 2 spells and misses "
-           "almost everything.",
+    "rez": "`effect_id 18` (RESURRECT) or `113` (RESURRECT_NEW), **usable in "
+           "combat, on a player**. Both effect ids are in use -- matching only "
+           "18 finds 2 spells and misses almost everything.\n\n"
+           "Out-of-combat resurrects are NOT here: a res you cannot cast mid-"
+           "pull is not a raid cooldown. That excludes eleven, including "
+           "Chronomancer's `Resynchronize` (30 min, whole party, but "
+           "\"cannot be used in combat\") and every 8-10 sec cast. Necromancer's "
+           "`Reanimate` is excluded too -- it raises a CORPSE as a temporary "
+           "pet, not a player.\n\n"
+           "The column is **Reagent Required**, not Usable on Boss: a battle "
+           "rez targets an ally, so boss immunity is meaningless, while the "
+           "reagent is the thing that stops you casting it.",
     "purge": "`effect_id 38` (DISPEL) where the tooltip names a *beneficial* "
              "effect on an *enemy*. Target flags alone are unreliable -- "
              "**Show of Force** is `target_a 6` and reads \"on a friendly "
@@ -276,19 +286,27 @@ real CoA ability and is not on its own evidence of anything: `Cindergrip`,
 `Decelerate` and `Cryobrand` all look like that and all appear in a reviewed
 inventory as real.
 
-## The "Usable on Boss" column
+## The hand-observed columns
 
-**Blank means untested, not "no".** Nothing in db.exil.es records immunity, so
-this column cannot be derived and is never guessed -- a raid plans around it,
-and a guess there is worse than a gap.
+Two columns hold facts **no database carries**: db.exil.es records neither
+immunity nor reagents. Both are therefore hand-filled, and **blank means
+untested, never "no"** -- a raid plans around these, and a guess is worse than
+a gap.
 
-Fill it in `resources/boss-usable.json`, NOT in this file:
+| Table | Column | Question |
+|---|---|---|
+| Battle Rezzes | **Reagent Required** | what item it consumes |
+| everything else | **Usable on Boss** | does it land on a raid boss |
+
+Fill them in `resources/spell-observed.json`, NOT in this file:
 
 ```json
 "spells": {
   "800995": {"boss": "yes",     "note": "Ley Lock -- lands on every ZG boss"},
   "991349": {"boss": "no",      "note": "Monolith Smash -- stun immune"},
-  "806599": {"boss": "partial", "note": "Stormhammer -- lands on Jin'do, not Hakkar"}
+  "806599": {"boss": "partial", "note": "Stormhammer -- Jin'do yes, Hakkar no"},
+  "801792": {"reagent": "Corpse Dust", "note": "Call of The Scourge"},
+  "500688": {"reagent": "none", "note": "Spiritual Ascension -- confirmed free"}
 }
 ```
 
@@ -298,7 +316,8 @@ the JSON survives. That is the whole reason it is a separate file: this page is
 regenerated wholesale, and hand-tested knowledge is the one thing here that
 cannot be regenerated.
 
-`yes` / `no` / `partial`; omit the id entirely while it is untested.
+`boss`: `yes` / `no` / `partial`. `reagent`: the item, or `none` once
+confirmed to need nothing. Omit a field entirely while it is untested.
 
 ## A stun is not an interrupt
 
@@ -366,8 +385,8 @@ never any of those things.
 """
 
 
-def boss_usable():
-    """spell id -> "yes" / "no" / "partial", from resources/boss-usable.json.
+def observed():
+    """spell id -> "yes" / "no" / "partial", from resources/spell-observed.json.
 
     HAND-TESTED, and deliberately the only source. db.exil.es carries no
     immunity data at all, so whether a stun lands on a boss cannot be derived
@@ -379,11 +398,12 @@ def boss_usable():
     the next run, which is exactly the trap the "do not hand-edit" banner
     warns about.
     """
-    p = data("boss-usable.json")
+    p = data("spell-observed.json")
     if not os.path.exists(p):
         return {}
     raw = json.load(open(p, encoding="utf-8")).get("spells") or {}
-    return {str(k): (v.get("boss") or "").strip() for k, v in raw.items()}
+    return ({str(k): (v.get("boss") or "").strip() for k, v in raw.items()},
+            {str(k): (v.get("reagent") or "").strip() for k, v in raw.items()})
 
 
 def no_icon():
@@ -581,6 +601,17 @@ def classify(d):
     if has(126) and re.search(r"steal", t, re.I):
         return "spellsteal"
     if (has(18) or has(113)) and re.search(r"\blife\b|resurrect|revive|rebirth", t, re.I):
+        # BATTLE rezzes only: usable in combat, on a PLAYER.
+        #
+        # Order the checks negative-first. "Not usable in combat" contains the
+        # substring "usable in combat", so a positive-first test reads Sun
+        # Cleric's `Revivify` as a battle rez -- it is the opposite.
+        if OUT_OF_COMBAT.search(t):
+            return None
+        # Necromancer's `Reanimate` raises a CORPSE as a temporary pet. It
+        # matches the resurrect effect and is not a rez in any raid sense.
+        if not re.search(r"\b(ally|allies|player|party|raid member)\b", t, re.I):
+            return None
         return "rez"
     if any(e["effect_id"] == 38 and e.get("misc_value") == 9 for e in _eff(d)):
         return "tranq"
@@ -619,7 +650,8 @@ def classify(d):
 
 
 def main(argv):
-    own, inv, cache, boss = owners(), inventory(), spells(), boss_usable()
+    own, inv, cache = owners(), inventory(), spells()
+    boss, reagent = observed()
     noart, gone = no_icon()
     comps = _components(cache, own)
     buckets = collections.defaultdict(list)
@@ -704,7 +736,7 @@ def main(argv):
                     spec = f"{spec}<br>{rc}"
                 rows.append((c.id, cname, spec,
                              f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
-                             boss.get(sid, ""),
+                             (reagent if cat == "rez" else boss).get(sid, ""),
                              fmt_cd(d.get("cooldown_ms")), fmt_cost(d),
                              fmt_cast(d), desc(d), d["name"], sid))
         seen, out = set(), []
@@ -724,7 +756,11 @@ def main(argv):
         if not out:
             print("_None found._\n")
             continue
-        head = ("| Class | Spec | Ability | Usable on Boss | CD | "
+        # The rez table asks a different question: a battle rez is on a
+        # player, so boss immunity is meaningless, while the reagent is the
+        # thing that stops you casting it.
+        col = "Reagent Required" if cat == "rez" else "Usable on Boss"
+        head = (f"| Class | Spec | Ability | {col} | CD | "
                 "Materials Required | Cast Time | Description |")
         rule = "|---|---|---|---|---|---|---|---|"
         body = [f"| {cn} | {sp} | {nm} | {bo} | {cd} | {co} | {ca} | {ds} |"
