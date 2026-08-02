@@ -516,7 +516,10 @@ def fmt_cast(d):
     ct = d.get("cast_time_ms") or 0
     if ct < 0:
         # Negative is a ranged-weapon marker on this server, not a cast time.
-        return "Instant\\*"
+        # Plain asterisk: the MARKDOWN writer escapes it, because escaping here
+        # leaked a literal backslash into the HTML page, which renders the
+        # site's cast column as `Instant\*`.
+        return "Instant*"
     return "Instant" if ct == 0 else f"{ct/1000:g}s"
 
 
@@ -746,6 +749,11 @@ def _md_spec(spec, rc):
     return f"{spec}<br>{rc}" if rc else spec
 
 
+def _md_cell(t):
+    """Escape markdown-significant characters for a table cell."""
+    return t.replace("*", "\\*")
+
+
 def _md_name(name, url, marks):
     s = f"[{name}]({url})"
     if "int" in marks:
@@ -772,7 +780,7 @@ def main(argv):
                 "Materials Required | Cast Time | Description |")
         rule = "|---|---|---|---|---|---|---|---|"
         body = [f"| {cn} | {_md_spec(sp, rc)} | {_md_name(nm, url, mk)} | "
-                f"{ob} | {cd} | {co} | {ca} | {ds} |"
+                f"{ob} | {cd} | {co} | {_md_cell(ca)} | {ds} |"
                 for _i, cn, sp, rc, nm, url, mk, ob, cd, co, ca, ds, _sid in rows]
         print(head)
         print(rule)
