@@ -375,6 +375,16 @@ def gateable(sid):
     return is_castable(SPELL_META.get(str(sid)))
 
 
+# Notes prefixes that mean "no human has confirmed this row's Role".
+#   seed:   mkabilities.py's blanket guess, no evidence
+#   prop:   proposed by an automated pass, with its reasoning in the cell
+#   prop?:  same, and the pass itself was unsure -- triage these first
+# `prop:` blocks the build exactly as hard as `seed:` on purpose. It is a
+# better guess, not a review, and a machine grading its own homework is the
+# failure this gate exists to prevent. Shared with tools/mkabilities.py.
+UNREVIEWED = ("seed: ", "prop: ", "prop?: ")
+
+
 def _abilities():
     """name -> {"id":, "ids": {spec: id}, "specs": set|None,
     "roles": {spec: role}, "default":}"""
@@ -410,20 +420,29 @@ def _abilities():
                 x.strip() for x in specs.split(",") if x.strip()),
             "default": default,
             "roles": roles,
-            "seeded": c[5].startswith("seed: "),
+            "seeded": c[5].startswith(UNREVIEWED),
         }
 
-    # A row mkabilities.py wrote and nobody has read is not a decision, and
-    # both ways of treating it as one are wrong: build it and the seeder's
-    # `utility` guess floods the utility band with talents and passives; skip
-    # it and we are back to abilities silently absent from the pack, which is
-    # the bug the reseed exists to kill. So: refuse, and say which rows.
+    # A row nobody has read is not a decision, and both ways of treating it as
+    # one are wrong: build it and the guess floods the utility band with
+    # talents and passives; skip it and we are back to abilities silently
+    # absent from the pack, which is the bug the reseed exists to kill. So:
+    # refuse, and say which rows.
+    #
+    # `prop:` counts too. It is a role PROPOSED by an automated pass with its
+    # evidence in Notes -- better than `seed:`'s blanket `utility`, and still
+    # not a human having read it. A machine that grades its own homework is
+    # the one failure mode this gate exists to prevent, so the marker blocks
+    # exactly as hard and gets cleared exactly the same way.
     seeded = sorted(n for n, a in out.items() if a["seeded"])
     if seeded:
         raise SystemExit(
             f"{len(seeded)} abilities in resources/abilities-{CLS.slug}.md "
-            f"still carry the `seed:` marker and have no reviewed role.\n"
-            f"  Assign a Role and delete the `seed:` prefix from Notes.\n"
+            f"still carry a {' / '.join(m.strip() for m in UNREVIEWED)} "
+            f"marker and have no "
+            f"reviewed role.\n"
+            f"  Confirm the Role and delete the prefix from Notes. `prop?:` "
+            f"marks the ones to look at first.\n"
             f"  First few: {', '.join(seeded[:8])}\n"
             f"  Progress:  python3 tools/mkabilities.py {CLS.slug} --check")
     return out

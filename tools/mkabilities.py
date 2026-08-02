@@ -107,6 +107,12 @@ HEADER = ("| Ability | ID | Specs | Role | Rank | Notes |\n"
 # Marks a Notes cell the seeder wrote and nobody has looked at. Delete it (or
 # replace the note) to mark the row reviewed.
 SEED = "seed: "
+# Every prefix that means "unconfirmed", including a role PROPOSED by an
+# automated pass (`prop:`, or `prop?:` where the pass was unsure). A proposal
+# carries its evidence and is a better starting point than SEED's blanket
+# guess, but it is still not a human having read the row -- so it blocks the
+# build just as hard. Kept in step with wapack.UNREVIEWED.
+UNREVIEWED = (SEED, "prop: ", "prop?: ")
 
 # A skills-page `meta` reads like "Ability Lvl 10 · max L58" or "Talent
 # Passive". Only the two leading words carry a decision: is it a Talent or a
@@ -423,7 +429,9 @@ def main(argv):
                 if m.get(k))
             text += f"- `{sid}` **{name}** — {desc or 'no metadata'}\n"
 
-    unreviewed = [r for r in rows if r[5].startswith(SEED)]
+    unreviewed = [r for r in rows if r[5].startswith(UNREVIEWED)]
+    proposed = [r for r in rows if r[5].startswith(("prop: ", "prop?: "))]
+    unsure = [r for r in rows if r[5].startswith("prop?: ")]
     ranked = [r for r in rows if r[4].startswith("Rank ")]
     # The ID cell may carry per-spec overrides -- "520188; time:801280" for an
     # ability that is genuinely two spells. The row is built iff its DEFAULT id
@@ -442,8 +450,12 @@ def main(argv):
         print(f"     {r[0][:34]:34} {r[1]:>8} {r[3]:<9} {r[5][:44]}")
     if len(added) > 40:
         print(f"     ... and {len(added) - 40} more")
-    print(f"  {len(unreviewed)} still carry the `{SEED.strip()}` marker and "
-          f"need a decision")
+    print(f"  {len(unreviewed)} still unconfirmed and need a decision")
+    if proposed:
+        print(f"     of those, {len(proposed)} carry a PROPOSED role with its "
+              f"reasoning in Notes —\n     confirm and delete the prefix, or "
+              f"correct the Role. {len(unsure)} are marked `prop?:`\n"
+              f"     (the pass was unsure): start there.")
     print(f"  {len(ranked)} are RANKED -- these cannot be gated or matched "
           f"on an exact id")
     if no_id:
