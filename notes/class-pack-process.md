@@ -93,17 +93,27 @@ treat "this ability has no cooldown row" as a smell that the id is wrong.
 
 ## 3. Categorise abilities
 
-Fill four lists in the builder — everything else is derived:
+Roles live in `resources/abilities-<slug>.md`, one reviewed row per ability —
+NOT in curated lists in the builder. `tools/mkabilities.py <slug>` seeds the
+table from the scrapes and marks every unreviewed row `seed:`; the build
+**refuses to run** while any `seed:` marker survives, because a row nobody has
+read is not a decision. Roles are `main`, `resource`, `longterm`, `buff`,
+`target`, `offensive`, `defensive`, `utility`, `ignore`, with `spec:role` for a
+per-spec override. Anything not categorised falls into Utility, so nothing
+silently disappears.
 
-- `ELSEWHERE` — shown in another band; never repeat in a cooldown row
-- `OFFENSIVE` + `OFFENSIVE_TAIL` — damage cooldowns; interrupt/mobility pinned last
-- `DEFENSIVE` — defensives
+What still lives in the builder, because it has no table:
+
 - `PROC_GLOW` — proc → the ability it tells you to press
+- `PROC_STACKS` — of those, the ones whose proc also stacks
 - `CHARGES` — abilities with charges
 - `SPEC_KNOWN` — one spell unique to each spec, for `load.use_spellknown`
+- `NO_BUFF` — offense names that apply no buff, so they earn no buff-row icon
+- `OVERRIDE` / `FALLBACK` — art, only where a human has stated intent
 
-Anything with a cooldown that is not categorised falls into Utility
-automatically, so nothing silently disappears.
+Runemaster predates the table and still hand-curates `OFFENSIVE` /
+`OFFENSIVE_TAIL` / `DEFENSIVE` behind `roles_from_inventory=False`. Do not copy
+that shape into a new class.
 
 ## 4. Build, then check the generated guide BEFORE importing
 
@@ -195,13 +205,10 @@ What is shared and already stable (do not re-derive per class):
 | `notes/layout-standard.md` | the band layout all classes follow |
 | `resources/in-game-verified.json` | tooltip ground truth, keyed by spell name |
 
-What is genuinely per-class: the category lists in `build_<class>.py`
-(`ELSEWHERE`, `OFFENSIVE`, `DEFENSIVE`, `PROC_GLOW`, `CHARGES`, `SPEC_KNOWN`)
-and any bespoke display for a mechanic with no analogue.
+What is genuinely per-class: `tools/wapack.py` holds everything else.
 
-**Open question to settle during Chronomancer:** whether `build_<class>.py`
-should stay a copied-and-edited script or become a thin driver over a per-class
-config file. Copying is fine for two classes and a liability by twenty.
+**Settled after Chronomancer:** `build_<class>.py` is class CONTENT over a
+shared engine. See "The engine" below.
 
 **Known gap:** the layout standard has never been exercised against a **healing**
 spec. Chronomancer's Time spec is the first. Group-frame health, multi-target
@@ -218,22 +225,50 @@ and record the decision before building the other healer classes.
 - Resource bar width is derived from the main row's icon count.
 - Change one mechanism at a time so a failure is unambiguous.
 
-## Forking the builder
+## The engine
 
-`notes/universal-vs-class.md` measures `build_runemaster.py` line by line:
-**~56% is machinery that transfers unchanged**, 107 lines are data tables to
-replace wholesale, and 408 lines are assembly to rewrite for the class's actual
-shape. Read it before copying anything — the point is to copy the 661 lines
-deliberately and rewrite the rest, not to fork 1495 lines hopefully and prune.
+`tools/wapack.py` is the class-agnostic half. **Do not fork a builder.** An AST
+comparison of the two standalone builders found 16 top-level functions
+byte-identical once comments were stripped, three more above 90%, and the
+remaining nine differing by exactly three things: the id prefix, the class
+content inside `longterm_band`, and four places where Chronomancer had been
+improved and Runemaster never caught up. That third category is the cost of
+copying — the anchored ladder is the worked example, fixed in Chronomancer from
+the day its bands were written and ported to Runemaster two releases late.
 
-Do **not** extract `wapack.py` yet. `pipeline-plan.md` sequences that after
-Chronomancer on purpose: an engine drawn from one example is a guess about what
-is class-agnostic. Re-measure the 56% once a second class is built; if it holds,
-the extraction is mechanical.
+A new builder is content over the engine:
 
-First thing to check in any fork, before anything else: the `data()` resolver.
-`audit_cds.py` sat broken for weeks because it still resolved against `tools/`
-after the data moved to `resources/`, and nothing failed loudly.
+```python
+import wapack as W
+VERSION = "1.0"
+OVERRIDE = {...}; FALLBACK = {...}; CROSSCHECK = {...}
+CLS = W.init("<slug>", version=VERSION, prefix="XX", cd_per_row=<n>,
+             override=OVERRIDE, fallback=FALLBACK, crosscheck=CROSSCHECK)
+from wapack import *          # after init() — it is what gives these values
+...                           # CHARGES / PROC_GLOW / SPEC_KNOWN, then bands
+W.configure(charges=CHARGES, proc_glow=PROC_GLOW, ...)
+```
+
+`build_chronomancer.py` is the reference. It passes **no** convergence flags,
+which is what a new class should look like. `build_runemaster.py` passes five
+(`roles_from_inventory`, `trust_spell_meta`, `override_first`, `balanced_rows`,
+`icons`); those are a TODO list holding it on pre-convergence behaviour, one
+release each. Never add a sixth for a new class — fix the new class instead.
+
+`CD_PER_ROW` is per-class and must be recomputed, never copied: it comes from
+the NARROWEST main row in the pack, since every resource bar is width-locked to
+its own spec's row. `28w - 2 <= 1.2 * narrowest`, confirmed by
+`tools/rowwidths.py` against the built packs.
+
+The gate for any engine change is `tests/run.py` check 1 — every class rebuilds
+to its frozen fixture. The extraction itself landed with all 8 packs
+**byte**-identical, not merely structurally equal.
+
+First thing to check in any new class, before anything else: the `data()` /
+`dest()` split. `data()` falls back to `tools/` when a file is missing from
+`resources/`, which is exactly the case for a class being scraped for the first
+time — always WRITE through `dest()`. `audit_cds.py` sat broken for weeks on
+that shape of bug and nothing failed loudly.
 
 ## Carry-forward checklist — every class inherits these
 
