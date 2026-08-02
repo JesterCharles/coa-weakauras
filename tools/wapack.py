@@ -1013,9 +1013,9 @@ def _feeder_cell(prefix, parent, i, cells, x, y, w, h, aura, feeder):
     Embers, Heat keeps climbing and the Ember it eventually mints is LOST. That
     is the only real mistake this resource can make and a separate bar cannot
     show it -- it looks identical whether the next Ember lands or evaporates.
-    So the last cell also renders while the bar is FULL, and glows: warn colour
-    from `warn_at`, danger from `danger_at`. Those are the window in which to
-    spend before the waste lands.
+    So the last cell also renders while the bar is FULL, and the NUMBER turns
+    warn-colour from `warn_at` and danger-colour from `danger_at`. Those are
+    the window in which to spend before the waste lands.
     """
     fid, warn_at, danger_at = feeder
     last = i == cells - 1
@@ -1033,25 +1033,36 @@ def _feeder_cell(prefix, parent, i, cells, x, y, w, h, aura, feeder):
     subs = [_num]
     conds = None
     if last:
-        # Base colour IS the warn colour, so the warn tier only has to switch
-        # the glow ON -- one property, not two. Danger then recolours it.
+        # THE NUMBER ITSELF CHANGES COLOUR. It was a glow first, and recolouring
+        # the text is better on two counts.
+        #
+        # It is more precise: at the cap the heat number IS the waste, so
+        # colouring that number says so directly, where a glow around the cell
+        # only says "something about this cell".
+        #
+        # And it removes a dependency. notes/weakauras-data-model.md lists both
+        # `subtext` and `subglow` as supported on a `texture` region, but that
+        # is read off the source, not seen on screen -- and this pack needs the
+        # subtext regardless, to draw the number at all. Dropping the subglow
+        # means the cue rides on the one thing that has to work anyway instead
+        # of on two independent unverified assumptions.
+        #
         # Danger is LAST because conditions apply in order and the later change
         # wins, the same ordering the urgency tiers rely on.
-        subs.append(B.sub_glow(False, "buttonOverlay", (1.0, 0.85, 0.30, 1.0)))
-        gi = len(subs)
+        ti = 1                       # the number is subRegions[1]
         full = B.T({"trigger": 1, "variable": "stacks", "op": ">=",
                     "value": str(cells)})
         conds = [
             B.cond(B.check_and(full,
                                B.T({"trigger": 2, "variable": "stacks",
                                     "op": ">=", "value": str(warn_at)})),
-                   [B.change(f"sub.{gi}.glow", True)]),
+                   [B.change(f"sub.{ti}.text_color",
+                             B.rgba(1.0, 0.85, 0.30, 1.0))]),
             B.cond(B.check_and(full,
                                B.T({"trigger": 2, "variable": "stacks",
                                     "op": ">=", "value": str(danger_at)})),
-                   [B.change(f"sub.{gi}.glow", True),
-                    B.change(f"sub.{gi}.glowColor",
-                             B.rgba(1.0, 0.45, 0.10, 1.0))]),
+                   [B.change(f"sub.{ti}.text_color",
+                             B.rgba(1.0, 0.25, 0.20, 1.0))]),
         ]
     d = B.texture(
         f"{prefix} Feed {i + 1}", parent,
