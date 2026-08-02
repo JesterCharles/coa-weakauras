@@ -31,7 +31,6 @@ note in `tools/sources.py`).
 
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Barbarian | all | [Wrist Snap](https://db.exil.es/spell/800383) ❌ |  | 15s | 10 energy | Instant | Snap an enemy's wrist with a powerful throwing axe, interrupting them and preventing any spell from that school from being cast for 4 sec. |
 | Barbarian | all (tree) | [Jawbreaker](https://db.exil.es/spell/802792) |  | 14s | 30 energy | Instant | Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast for 4 seconds. |
 | Felsworn | Infernal | [Felbreak](https://db.exil.es/spell/800203) |  | 18s | 10 energy | 0.5s | Interrupt a spell from being cast, preventing the target from casting spells of that school for 3 seconds and draining mana from the target … |
 | Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
@@ -61,7 +60,6 @@ note in `tools/sources.py`).
 ```markdown
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Barbarian | all | [Wrist Snap](https://db.exil.es/spell/800383) ❌ |  | 15s | 10 energy | Instant | Snap an enemy's wrist with a powerful throwing axe, interrupting them and preventing any spell from that school from being cast for 4 sec. |
 | Barbarian | all (tree) | [Jawbreaker](https://db.exil.es/spell/802792) |  | 14s | 30 energy | Instant | Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast for 4 seconds. |
 | Felsworn | Infernal | [Felbreak](https://db.exil.es/spell/800203) |  | 18s | 10 energy | 0.5s | Interrupt a spell from being cast, preventing the target from casting spells of that school for 3 seconds and draining mana from the target … |
 | Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
@@ -89,7 +87,7 @@ note in `tools/sources.py`).
 
 </details>
 
-**24 across 19 classes.**
+**23 across 19 classes.**
 None found for: Templar, Witch Doctor.
 
 ## 2. Silences
@@ -512,10 +510,17 @@ spec names is wrong on at least three classes, so the parser reads the label.
 
 ## ❌ and ⚠ -- is it actually in the game?
 
-**❌ = checked in game, NOT there.** One so far: Barbarian's `Wrist Snap`.
-
 **⚠ = no icon on db.ascension.gg, unverified.** A CoA ability with no art may
 be unimplemented, cut, or a leftover row.
+
+**Confirmed absent = removed from the tables entirely.** One so far: Barbarian's
+`Wrist Snap`, checked in game 2026-08-02. It is not annotated, it is gone -- a
+struck-through row still reads as an option at a glance, and the point of
+checking was to stop planning around it. `resources/icon-missing.json` keeps
+the record under `confirmed_absent` so nobody re-adds it.
+
+Barbarian still has `Jawbreaker` (14s), so removing `Wrist Snap` costs the
+class nothing -- it had two listed and one was never real.
 
 **How much is ⚠ worth? Less than it first looked.** Six interrupts carried it
 and five were checked in game: `Hellgaze`, `Throatpunch`, `Halt`, `Solar Burn`

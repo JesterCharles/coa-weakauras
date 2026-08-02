@@ -210,10 +210,17 @@ spec names is wrong on at least three classes, so the parser reads the label.
 
 ## ❌ and ⚠ -- is it actually in the game?
 
-**❌ = checked in game, NOT there.** One so far: Barbarian's `Wrist Snap`.
-
 **⚠ = no icon on db.ascension.gg, unverified.** A CoA ability with no art may
 be unimplemented, cut, or a leftover row.
+
+**Confirmed absent = removed from the tables entirely.** One so far: Barbarian's
+`Wrist Snap`, checked in game 2026-08-02. It is not annotated, it is gone -- a
+struck-through row still reads as an option at a glance, and the point of
+checking was to stop planning around it. `resources/icon-missing.json` keeps
+the record under `confirmed_absent` so nobody re-adds it.
+
+Barbarian still has `Jawbreaker` (14s), so removing `Wrist Snap` costs the
+class nothing -- it had two listed and one was never real.
 
 **How much is ⚠ worth? Less than it first looked.** Six interrupts carried it
 and five were checked in game: `Hellgaze`, `Throatpunch`, `Halt`, `Solar Burn`
@@ -638,7 +645,12 @@ def main(argv):
                 if len(cells) >= 6:
                     inv_names[c.slug].add(cells[0])
     for sid, d in cache.items():
-        if sid not in own or sid in comps:
+        # Confirmed-absent ids are EXCLUDED, not annotated. An ability somebody
+        # logged in and could not find is not part of the raid picture, and a
+        # struck-through row still reads as an option at a glance. What was
+        # checked and found missing is recorded in resources/icon-missing.json
+        # under `confirmed_absent` so the result is not re-litigated.
+        if sid not in own or sid in comps or sid in gone:
             continue
         cat = classify(d)
         if not cat:
@@ -667,9 +679,7 @@ def main(argv):
             for cname, _a, tree_spec in own[sid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
                 mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
-                if sid in gone:
-                    mark += " ❌"
-                elif sid in noart:
+                if sid in noart:
                     mark += " ⚠"
                 # Reviewed inventory wins; the tree label is the fallback and
                 # covers the 18 classes that have no inventory. `all` means the
