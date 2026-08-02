@@ -1,5 +1,19 @@
 {
  "_comment": "Built pack versions confirmed working IN GAME, per spec. Written by tools/verified.py; read by mksite.py before it publishes. This is NOT in-game-verified.json, which holds tooltip ground truth keyed by spell name and says nothing about a built pack.",
+ "chronomancer": {
+  "1.2": {
+   "specs": [
+    "artificer",
+    "infinite",
+    "time"
+   ],
+   "verified_at": "2026-08-02",
+   "verified_by": "jestercharles",
+   "notes": [
+    "Per-spec long-term band confirmed in game: each spec's long-term row sits under its own cooldown stack and follows it when a row renders short. All three specs checked."
+   ]
+  }
+ },
  "runemaster": {
   "1.0": {
    "specs": [
