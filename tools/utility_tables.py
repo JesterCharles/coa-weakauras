@@ -193,8 +193,12 @@ The spell page states one of three things, and they are NOT the same:
 | Page says | Column | Means |
 |---|---|---|
 | `Runemaster` | `all` | Baseline. Every spec has it, no talent point. |
-| `Barbarian · Barbarian (row 1, col 5)` | `all (tree)` | A talent in the **class** tree. Any spec can take it, but it **costs a point**. |
-| `Stormbringer · Stormbringer — Maelstrom (row 5, col 8)` | `Maelstrom` | A talent in that **spec's** tree. |
+| `Barbarian · Barbarian (row 1, col 5)` | `all (tree)`<br>`r1 c5` | A talent in the **class** tree. Any spec can take it, but it **costs a point**. |
+| `Stormbringer · Stormbringer — Maelstrom (row 5, col 8)` | `Maelstrom`<br>`r5 c8` | A talent in that **spec's** tree. |
+
+**A `rN cN` under the spec means you must spec into it**, and says where the
+node sits so you can find it in the tree. No position means the ability is
+baseline -- it is in no tree, so there is nothing to spend a point on.
 
 So `all` and `all (tree)` differ in whether the raid can assume it is present:
 baseline is always there, a class-tree talent is a build choice.
@@ -425,7 +429,7 @@ def owners():
                   file=sys.stderr)
             continue
         for name, (sid, _r) in spells.items():
-            out[str(sid)].append((c.name, name, None))
+            out[str(sid)].append((c.name, name, None, None))
         for _slug, t in trees.items():
             for _r, _col, name, sid in t["rows"]:
                 # THREE distinct states, and the spell page spells them out:
@@ -437,7 +441,10 @@ def owners():
                 # wrong on three classes. A root-tree talent is available to
                 # every spec but still COSTS A POINT, so it is not the same as
                 # baseline and must not render as plain `all`.
-                out[str(sid)].append((c.name, name, t["spec"] or "all (tree)"))
+                # row/col so a reader can find the node in the tree. Only a
+                # TALENT has one -- a baseline ability is in no tree at all.
+                out[str(sid)].append((c.name, name, t["spec"] or "all (tree)",
+                                      f"r{_r} c{_col}"))
     return out
 
 
@@ -542,7 +549,7 @@ def _components(cache, own):
         t = " ".join((d.get("description") or "").split())[:120]
         if not t:
             continue
-        for cname, _n, _sp in own[sid]:
+        for cname, _n, _sp, _rc in own[sid]:
             by[(cname, t)].append((sid, d))
     out = set()
     for rows in by.values():
@@ -656,7 +663,7 @@ def main(argv):
         if not cat:
             continue
         drop = False
-        for cname, _n, _sp in own[sid]:
+        for cname, _n, _sp, _rc in own[sid]:
             c = next(x for x in CLASSES.values() if x.name == cname)
             if (c.slug in reviewed and (c.slug, int(sid)) not in inv
                     and d["name"] not in inv_names.get(c.slug, ())):
@@ -676,7 +683,7 @@ def main(argv):
         print(f"\n## {TITLES[cat]}\n\n{EFFNOTE[cat]}\n")
         rows = []
         for sid, d in buckets.get(cat, []):
-            for cname, _a, tree_spec in own[sid]:
+            for cname, _a, tree_spec, rc in own[sid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
                 mark = " **(int)**" if NPC_INTERRUPT.search(d.get("description") or "") else ""
                 if sid in noart:
@@ -690,6 +697,11 @@ def main(argv):
                 # fallback is `all`, not `?`. `?` now only survives if a class
                 # has no digest at all.
                 spec = inv.get((c.slug, int(sid))) or tree_spec or "all"
+                # The tree position goes UNDER the spec, so a talent row says
+                # where to spend the point. `<br>` because a markdown cell has
+                # no other line break, and it survives the copy block.
+                if rc:
+                    spec = f"{spec}<br>{rc}"
                 rows.append((c.id, cname, spec,
                              f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
                              boss.get(sid, ""),
@@ -703,7 +715,7 @@ def main(argv):
         # Cultist has `Protection From Light` twice, 704434 as a passive raid
         # aura and 804065 as a 30s active cooldown, and only one survived.
         # `all (tree)` is INFORMATIVE, so it outranks a bare roster listing.
-        _generic = lambda sp: sp in ("all", "?")            # noqa: E731
+        _generic = lambda sp: sp.split("<br>")[0] in ("all", "?")   # noqa: E731
         for r in sorted(rows, key=lambda x: (x[0], x[1], x[10], _generic(x[2]))):
             if (r[1], r[10]) in seen:
                 continue
