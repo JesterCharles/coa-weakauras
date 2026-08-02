@@ -35,6 +35,11 @@ import hud  # noqa: E402
 import rankings  # noqa: E402
 import verified  # noqa: E402
 
+# Cosmetic construction gate on the pack pages. NOT SECURITY -- the repo is
+# public and every pack is directly fetchable; see docs/assets/gate.js. Set to
+# None to remove the gate entirely.
+WA_GATE_CODE = "emberfall"
+
 SITE_TITLE = "Conquest of Azeroth WeakAuras"
 TAGLINE = ("WeakAura packs for all 21 Ascension Conquest of Azeroth custom "
            "classes. One layout, every class, gated so unused packs cost "
@@ -103,7 +108,7 @@ def pack_stats(path):
 
 # ----------------------------------------------------------------- templates
 
-def page(title, body, depth=0, accent=None, desc=TAGLINE):
+def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False):
     """Wrap a body in the site chrome.
 
     `body` is everything between the header and the footer, including its own
@@ -120,6 +125,11 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
     tint = ""
     if accent:
         tint = f' style="--c:{accent[0]};--cd:{accent[1]}"'
+    # Cosmetic gate, pack pages only. The attribute is what gate.js reads; the
+    # content still ships in the HTML, which is exactly why this is a speed
+    # bump and not security. See docs/assets/gate.js.
+    if gate and WA_GATE_CODE:
+        tint += f' data-gate="{html.escape(WA_GATE_CODE)}"'
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -151,6 +161,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE):
      Not affiliated with Blizzard Entertainment.
      <a href="{REPO}/blob/main/NOTICE">Data sources</a>.</p>
 </footer>
+<script src="{up}assets/gate.js"></script>
 <script src="{up}assets/copy.js"></script>
 <script src="{up}assets/search.js"></script>
 <script src="{up}assets/hud.js"></script>
@@ -859,12 +870,16 @@ def build(allow_unverified=False):
 </main>
 """
         out = os.path.join(DOCS, c["slug"], "index.html")
+        # gate=True on the PACK pages only. The index and the raid-utility page
+        # stay open: the gate exists so nobody imports a half-rebuilt pack by
+        # accident, and neither of those hands out a pack.
         open(out, "w").write(page(
             f"{c['name']} — {SITE_TITLE}", body, depth=1,
             accent=(colors[c["slug"]]["accent"], colors[c["slug"]]["deep"]),
             desc=f"{c['name']} WeakAura pack for Ascension Conquest of Azeroth "
                  f"— {head['displays']} displays across "
-                 f"{len(c['specs'])} specs ({spec_line})."))
+                 f"{len(c['specs'])} specs ({spec_line}).",
+            gate=True))
         print(f"  wrote {c['slug']}/index.html ({len(all_stats)} packs)")
 
     # ------------------------------------------------------------- index page

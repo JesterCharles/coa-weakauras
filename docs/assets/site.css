@@ -436,3 +436,28 @@ td.obs{white-space:nowrap;font-size:.78rem;color:var(--ink2)}
   border:1px solid rgba(120,190,255,.3)}
 .tag.warn{background:rgba(240,198,116,.14);color:#f0c674;
   border:1px solid rgba(240,198,116,.34)}
+
+/* construction gate -------------------------------------------------------
+   Cosmetic only -- see docs/assets/gate.js. The page still ships its content;
+   this just covers it, which is precisely why it is not security. */
+body.gated{overflow:hidden}
+body.gated > header.site,
+body.gated > main,
+body.gated > .classhead,
+body.gated > footer{filter:blur(7px);pointer-events:none;user-select:none}
+.gate{position:fixed;inset:0;z-index:50;display:grid;place-items:center;
+  padding:24px;background:rgba(10,9,8,.86)}
+.gatebox{max-width:430px;background:var(--panel);border:1px solid var(--edge);
+  border-radius:12px;padding:26px 26px 20px;text-align:center}
+.gatebox h1{margin:0 0 10px;font-size:1.2rem}
+.gatebox p{color:var(--ink2);font-size:.86rem;line-height:1.55;margin:0 0 16px}
+.gatebox form{display:flex;gap:8px;margin:0 0 14px}
+.gatebox input{flex:1;background:var(--bg);border:1px solid var(--edge);
+  border-radius:7px;padding:9px 12px;color:var(--ink);font:inherit;
+  font-size:.9rem}
+.gatebox input:focus{outline:none;border-color:var(--c)}
+.gatebox button{background:var(--c);color:#17130d;border:0;border-radius:7px;
+  padding:9px 18px;font:inherit;font-weight:600;cursor:pointer}
+.gatebox.bad input{border-color:#e06c6c}
+.gatenote{font-size:.72rem !important;color:var(--dim) !important;
+  margin:0 0 6px !important}
