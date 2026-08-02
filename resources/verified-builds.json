@@ -12,6 +12,18 @@
    "notes": [
     "release 1.0 (was final17), verified in game -- per commit c5c4b83"
    ]
+  },
+  "1.2": {
+   "specs": [
+    "engravement",
+    "glyphic",
+    "riftblade"
+   ],
+   "verified_at": "2026-08-02",
+   "verified_by": "jestercharles",
+   "notes": [
+    "Anchored ladder (SELECTFRAME) confirmed in game: the two bottom cooldown sets follow the offense row up when it renders short. All three specs checked."
+   ]
   }
  }
 }
