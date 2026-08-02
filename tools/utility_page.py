@@ -288,7 +288,12 @@ def render():
     A = out.append
 
     # ------------------------------------------------------- 1. .utilhead
-    A('<main class="util">')
+    # `wrap` is the site's own container -- max-width 1240px, auto margins,
+    # responsive gutter. Every other page uses it; this one did not, so the
+    # content sat flush at x=0 and stretched the grid across the whole
+    # viewport. That is where "a TON of empty space" came from: not the
+    # design, a missing class from the port.
+    A('<main class="util wrap">')
     A('<div class="utilhead"><h1>Raid utility</h1>')
     A('<p class="lede">Every interrupt, battle rez, purge, spellsteal, enrage '
       'removal and raid damage reduction across all 21 Conquest of Azeroth '
