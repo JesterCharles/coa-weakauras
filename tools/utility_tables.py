@@ -59,7 +59,10 @@ JUNK = re.compile(r"deprecated|unused|placeholder|test|delayer|trigger|"
 # the blind spot of classifying purely by effect id, exactly mirroring the
 # blind spot of classifying purely by text.
 NPC_INTERRUPT = re.compile(r"interrupt\w*\s+non-?player", re.I)
-GROUP = re.compile(r"\b(party|raid|allies|group)\b", re.I)
+# `ally` as well as `allies`. Missing it hid Cultist's `Protection From Light`
+# (804065), a 30s -40% Holy/Fire cooldown on a single ally, from the ACTIVE
+# raid-DR table -- its tooltip says "an ally", never "allies".
+GROUP = re.compile(r"\b(party|raid|all(y|ies)|group|friendly target)\b", re.I)
 
 ORDER = ["interrupt", "silence", "stun", "root", "rez", "purge", "spellsteal",
          "tranq", "raid_dr", "raid_dr_passive"]
@@ -222,6 +225,45 @@ reason to disbelieve the row. The earlier revision of this section called it
 Both lists live in `resources/icon-missing.json`. Confirm one in game, move its
 id to `confirmed_present` or `confirmed_absent`, and regenerate. 20 remain
 unverified.
+
+## Buttons only, not the effects they apply
+
+Every row should be **the ability the class presses**, never the debuff or aura
+it puts on the target. Three filters enforce that, and each was added because
+something got through:
+
+* **Same class, same tooltip, one has a cooldown.** The one without is the
+  component. db.exil.es copies a parent's tooltip verbatim onto its child and
+  carries the parent's mana cost across, so `Frayed` (510237) looked castable
+  on every field -- it is the silence `Fray Magic` (510236) applies. Past-
+  participle names are the human tell: `Burned`, `Frozen`, `Shattered`,
+  `Dazzled`.
+* **A reviewed inventory wins.** Where `resources/abilities-<slug>.md` was read
+  row by row, an ability missing from it was excluded on purpose. That is how
+  Runemaster's `Fragmented` (a Fire Sigil-granted steal) and `Matter Swap` (a
+  familiar swap that happens to stun) leave the tables while `Leyfeed`, which
+  the inventory annotates "a spellsteal", stays.
+* **The tooltip must agree with the mechanic.** See below.
+
+Two limits on that middle filter, both learned the hard way:
+
+  It applies to **Runemaster and Chronomancer only**. Pyromancer's inventory
+  was machine-proposed and bulk-cleared, so absence from it means "the pass did
+  not place it", not "a person decided against it" -- treating it as
+  authoritative dropped `Lucifron's Lagniappe`, a real 30s raid-DR cooldown
+  still sitting in that class's candidate list.
+
+  It matches on **name as well as id**. The inventory carries hand-corrected
+  ids and therefore disagrees with the digest on exactly the abilities that
+  matter most: `Fray Magic` is 800053 there and 510236 in the digest, and an
+  id-only check deleted Chronomancer's only interrupt.
+
+Audited all 114 rows for component signatures -- APPLY_AURA-only effects, no
+cooldown, a near-name or adjacent-id sibling that has one. Everything still
+listed is a button. Note that "no cooldown and applies an aura" is NORMAL for a
+real CoA ability and is not on its own evidence of anything: `Cindergrip`,
+`Decelerate` and `Cryobrand` all look like that and all appear in a reviewed
+inventory as real.
 
 ## The "Usable on Boss" column
 
@@ -567,12 +609,49 @@ def main(argv):
     noart, gone = no_icon()
     comps = _components(cache, own)
     buckets = collections.defaultdict(list)
+    # Where a class has a REVIEWED inventory, that review is authoritative and
+    # an id missing from it was excluded by a human on purpose. Runemaster's
+    # `Fragmented` (712338) is the case: a Fire Sigil-granted steal effect that
+    # carries effect 126 and looks like a spellsteal here, while the inventory
+    # lists only `Leyfeed` and annotates it "a spellsteal". Trusting the effect
+    # id over the review would re-add every component a person already threw
+    # out. Classes with no inventory are unaffected.
+    # ONLY the two inventories a human actually read row by row. Pyromancer's
+    # was machine-proposed and bulk-cleared (see the provenance note in
+    # notes/class-pack-process.md), so absence from it means "the pass did not
+    # place it", not "a person decided against it" -- and treating it as
+    # authoritative silently dropped `Lucifron's Lagniappe`, a real 30s raid-DR
+    # cooldown sitting unpromoted in that class's candidate list.
+    reviewed = {"runemaster", "chronomancer"}
+    # Match on NAME as well as id. The inventory carries hand-CORRECTED ids, so
+    # it disagrees with the digest on exactly the abilities most likely to
+    # matter: Chronomancer's `Fray Magic` is 800053 in the inventory and 510236
+    # in the digest, and an id-only check dropped the class's only interrupt.
+    inv_names = collections.defaultdict(set)
+    for c in CLASSES.values():
+        p_ = data(f"abilities-{c.slug}.md")
+        if not os.path.exists(p_):
+            continue
+        for line in open(p_, encoding="utf-8"):
+            if line.startswith("| ") and not line.startswith("| Ability"):
+                cells = [x.strip() for x in line.strip().strip("|").split("|")]
+                if len(cells) >= 6:
+                    inv_names[c.slug].add(cells[0])
     for sid, d in cache.items():
         if sid not in own or sid in comps:
             continue
         cat = classify(d)
-        if cat:
-            buckets[cat].append((sid, d))
+        if not cat:
+            continue
+        drop = False
+        for cname, _n, _sp in own[sid]:
+            c = next(x for x in CLASSES.values() if x.name == cname)
+            if (c.slug in reviewed and (c.slug, int(sid)) not in inv
+                    and d["name"] not in inv_names.get(c.slug, ())):
+                drop = True
+        if drop:
+            continue
+        buckets[cat].append((sid, d))
 
     if "--check" in argv:
         print(f"{len(cache)} spells in the mirror, {len(own)} owned by a class")
@@ -605,16 +684,20 @@ def main(argv):
                              f"[{d['name']}](https://db.exil.es/spell/{sid}){mark}",
                              boss.get(sid, ""),
                              fmt_cd(d.get("cooldown_ms")), fmt_cost(d),
-                             fmt_cast(d), desc(d), d["name"]))
+                             fmt_cast(d), desc(d), d["name"], sid))
         seen, out = set(), []
-        # A spell listed BOTH as a trainable class spell and as a talent in a
-        # spec tree yields two rows; keep the one naming a real spec.
+        # Dedupe on the SPELL ID, not the name. A spell listed both as a
+        # trainable class spell and as a spec-tree talent yields two rows for
+        # ONE id -- that is what needs collapsing. Keying on the name instead
+        # silently dropped one of two DIFFERENT abilities that share a name:
+        # Cultist has `Protection From Light` twice, 704434 as a passive raid
+        # aura and 804065 as a 30s active cooldown, and only one survived.
         # `all (tree)` is INFORMATIVE, so it outranks a bare roster listing.
         _generic = lambda sp: sp in ("all", "?")            # noqa: E731
-        for r in sorted(rows, key=lambda x: (x[0], x[1], x[9], _generic(x[2]))):
-            if (r[1], r[9]) in seen:
+        for r in sorted(rows, key=lambda x: (x[0], x[1], x[10], _generic(x[2]))):
+            if (r[1], r[10]) in seen:
                 continue
-            seen.add((r[1], r[9]))
+            seen.add((r[1], r[10]))
             out.append(r)
         if not out:
             print("_None found._\n")
@@ -623,7 +706,7 @@ def main(argv):
                 "Materials Required | Cast Time | Description |")
         rule = "|---|---|---|---|---|---|---|---|"
         body = [f"| {cn} | {sp} | {nm} | {bo} | {cd} | {co} | {ca} | {ds} |"
-                for _i, cn, sp, nm, bo, cd, co, ca, ds, _raw in out]
+                for _i, cn, sp, nm, bo, cd, co, ca, ds, _raw, _sid in out]
         print(head)
         print(rule)
         for line in body:
