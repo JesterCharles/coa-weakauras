@@ -66,7 +66,7 @@ CLS = _get_class("chronomancer")
 # Moment's Reprieve, Rehatch (time) -- plus Shifting Sands, an 8s attack-power
 # debuff on the Infinite target band, found by a rotation citation naming an
 # ability no inventory row had. NOT YET VERIFIED IN GAME.
-VERSION = "1.1"
+VERSION = "1.2"
 
 # WA_SPEC=artificer|infinite|time emits a single-spec pack: Core plus that one
 # spec, for players who only ever play the one.
@@ -590,25 +590,13 @@ def _bottom_rows(spec_key):
     return offense, utility
 
 
-# How deep the cooldown stack goes on the spec that stacks deepest.
-#
-# Offense and Utility are per-spec bands now, so each spec's ladder closes up
-# behind its own rows. Long-term is NOT -- it lives in Core and has one
-# yOffset for the whole pack -- so it has to clear the worst case.
-#
-# Take the max of each spec's OWN (offense + utility) total, not the sum of the
-# per-band maxima. Those differ: Artificer wraps 3+2 and Time 2+3, so the
-# per-band maxima sum to 6 rows while no spec ever uses more than 5. Summing
-# the maxima put Long-term a dead row lower than anything could reach.
-# In a per-spec build only ONE spec is in the pack, so Long-term can sit right
-# under that spec's own stack. The all-specs pack still has to clear the
-# deepest, because Long-term is a Core band with a single yOffset -- that is
-# the one gap the un-merge could not remove.
-_DEEPEST = max(
-    sum(max(1, -(-len(_bottom_rows(_s)[_i]) // CD_PER_ROW)) for _i in (0, 1))
-    for _s in ([SPEC_ONLY] if SPEC_ONLY else SPECS))
-
-Y_LONG = Y_CDS - _DEEPEST * CD_ROW_STEP - LONG_GAP
+# No worst-case depth constant lives here any more. There used to be a
+# `_DEEPEST` computing the deepest spec's (offense + utility) row total and a
+# `Y_LONG` hanging Long-term below it, because Long-term was a Core band with
+# one yOffset for the whole pack. Every band below Offense now anchors to the
+# band above it (see anchor_below), so the depth is measured at runtime from
+# what actually renders and no build-time worst case is needed -- or wanted:
+# a constant like that is right only for the spec it was computed from.
 
 # Abilities that do NOT trigger the global cooldown.
 #
@@ -1054,7 +1042,12 @@ CORE = []
 # react to. Runemaster filled this with runic tattoos and weapon engravings;
 # Chronomancer has no imbue kit at all, so it carries the class Intellect buff
 # and -- on Time -- which AEON is currently up.
-LONGTERM = []
+#
+# DATA, not displays. The band is emitted once per spec by longterm_band()
+# below, anchored under that spec's own utility row. It used to be a single
+# band in CM Core at a fixed Y_LONG clearing the DEEPEST spec, which cost
+# Artificer and Time a dead row each -- the one gap the un-merge could not
+# remove, and the last thing Runemaster had that Chronomancer did not.
 
 # The 30-minute self-buff family. This is Chronomancer's equivalent of
 # Runemaster's tattoos and weapon engravings: things you set once at the start
@@ -1082,15 +1075,6 @@ TEMPORALS = [
     ("Temporal Resilience", 680389, (0.80, 0.70, 0.50)),    # armor + slows attackers
     ("Temporal Swiftness", 680390, (0.60, 0.85, 1.00)),     # spell haste from Spirit
 ]
-for _name, _aura, _col in WISDOMS + TEMPORALS:
-    LONGTERM.append(add(B.icon(
-        f"CM Longterm {_name}", "CM Longterm",
-        [B.aura_trigger([str(_aura), _name], own_only=False)],
-        ic(_name), size=SZ_SMALL,
-        subregions=[B.sub_text("%p", size=9, anchor="INNER_BOTTOM",
-                               color=_col + (1.0,)),
-                    thin()])))
-
 # The four Aeons. Infinite-duration mutually-exclusive self-buffs that reshape
 # BOTH Epoch and Ripple, so which one is up is persistent state rather than a
 # proc -- long-term is exactly the band for it.
@@ -1115,18 +1099,52 @@ AEONS = [
     ("Protection", 806292, (0.55, 0.75, 1.00)),
     ("Oblivion",   806293, (0.90, 0.35, 0.35)),
 ]
-for _label, _aura, _col in AEONS:
-    LONGTERM.append(add(B.icon(
-        f"CM Longterm Aeon of {_label}", "CM Longterm",
-        [B.aura_trigger([str(_aura)], exact_id=True)],
-        ic(f"Aeon of {_label}"), size=SZ_SMALL,
-        subregions=[B.sub_text(_label[:3].upper(), size=9,
-                               anchor="INNER_BOTTOM", color=_col + (1.0,)),
-                    thin()])))
 
-add(B.dynamicgroup("CM Longterm", "CM Core", LONGTERM, x=0, y=Y_LONG,
-                   grow="HORIZONTAL", space=GAP))
-CORE.append("CM Longterm")
+def longterm_band(spec_name, bands, y):
+    """The long-term row -- Wisdoms, Temporals, Aeons -- ONE PER SPEC,
+    anchored under that spec's own cooldown stack.
+
+    Runemaster made this move first and the reasoning carries over exactly. A
+    Core band has ONE yOffset for the whole pack, so it had to clear the spec
+    that stacks deepest: Artificer and Time each wrap 5 rows where Infinite
+    takes 5 too, but the fixed anchor is computed from `_DEEPEST` and holds
+    that depth on every spec whatever it renders. The gap is invisible in the
+    in-play view because these displays are active-only, which is why it went
+    unnoticed for so long -- it only appears once a long-term buff is up.
+
+    Per-spec costs one copy of each icon per spec, and the gate comes free:
+    the merge tags any leaf whose parent chain reaches `CM <Spec>` with that
+    spec, and apply_leaf_gates then puts the spec's signature spell on it.
+
+    The tradeoff, taken knowingly and the same one Runemaster took: a
+    Chronomancer below level 10 has no signature spell yet (Maw of Chaos L10,
+    Shatter Echo and Ripple L11) and so will not see this band. The Aeons are
+    far later content and the Wisdoms are self-buffs rather than reminders, so
+    nothing that character needs to react to is hidden. If a levelling report
+    says otherwise, the fix is to leave the Wisdoms in Core and move only the
+    Aeons, not to go back to one shared band.
+    """
+    band = f"CM {spec_name} Longterm"
+    out = []
+    for name, aura, col in WISDOMS + TEMPORALS:
+        out.append(add(B.icon(
+            f"CM {spec_name} Longterm {name}", band,
+            [B.aura_trigger([str(aura), name], own_only=False)],
+            ic(name), size=SZ_SMALL,
+            subregions=[B.sub_text("%p", size=9, anchor="INNER_BOTTOM",
+                                   color=col + (1.0,)),
+                        thin()])))
+    for label, aura, col in AEONS:
+        out.append(add(B.icon(
+            f"CM {spec_name} Longterm Aeon of {label}", band,
+            [B.aura_trigger([str(aura)], exact_id=True)],
+            ic(f"Aeon of {label}"), size=SZ_SMALL,
+            subregions=[B.sub_text(label[:3].upper(), size=9,
+                                   anchor="INNER_BOTTOM", color=col + (1.0,)),
+                        thin()])))
+    add(B.dynamicgroup(band, f"CM {spec_name}", out, x=0, y=y - LONG_GAP,
+                       grow="HORIZONTAL", space=GAP))
+    bands.append(band)
 
 # Class-wide short buffs, merged per spec into that spec's "what is up right
 # now" row. Data here rather than displays, same as Runemaster.
@@ -1283,6 +1301,7 @@ _y_A = emit_bottom_block("Artificer", "artificer", A,
                           ("Aether Compression", (0.7, 0.8, 1.0)),
                           ("Paradox Cannon", (1.0, 0.7, 0.4))],
                          SHORT_ENTRIES)
+longterm_band("Artificer", A, _y_A)
 add(spec_group("CM Artificer", A))
 
 # =============================================================== 3. INFINITE
@@ -1316,6 +1335,7 @@ _y_I = emit_bottom_block("Infinite", "infinite", I,
                           ("Chaos Fusion", (1.0, 0.5, 0.3)),
                           ("Chaotic Time", (0.8, 0.4, 0.9))],
                          SHORT_ENTRIES)
+longterm_band("Infinite", I, _y_I)
 add(spec_group("CM Infinite", I))
 
 # =================================================================== 4. TIME
@@ -1489,6 +1509,7 @@ _y_T = emit_bottom_block("Time", "time", T,
                           ("Shield of the Ages", (0.6, 0.85, 1.0)),
                           ("Fabric of Time", (0.9, 0.75, 1.0))],
                          SHORT_ENTRIES)
+longterm_band("Time", T, _y_T)
 add(spec_group("CM Time", T))
 
 
@@ -2109,17 +2130,19 @@ def by_id_all():
 # Chain the cooldown ladder. Offense keeps its fixed anchor -- it is the one
 # band whose position is genuinely a constant, sitting under the resource
 # envelope -- and everything below hangs off the band above it.
+# Long-term chains in the ALL-SPECS pack too, now that it is one band per spec.
+# The old restriction was real but was a symptom: a single Core band cannot
+# anchor to three different Utility bands with two of them unloaded, so it was
+# left on a fixed worst-case offset. Giving each spec its own band removes the
+# choice -- every long-term row has exactly one utility row to follow.
 for _sp in ([SPEC_TITLE] if SPEC_ONLY else SPEC_NAMES):
-    _off, _util = f"CM {_sp} Offense", f"CM {_sp} Utility"
     _ids = by_id_all()
-    if _off in _ids and _util in _ids:
-        anchor_below(_util, _off, gap=CD_ROW_STEP - SZ_CD)
-        # Long-term chains too, but ONLY in a per-spec pack. In the all-specs
-        # pack it is one Core band and cannot anchor to three different Utility
-        # bands, two of which are unloaded at any moment -- anchoring to an
-        # absent region just postpones and falls back to the parent.
-        if SPEC_ONLY and "CM Longterm" in _ids:
-            anchor_below("CM Longterm", _util, gap=LONG_GAP)
+    _prev = f"CM {_sp} Offense"
+    for _band, _gap in ((f"CM {_sp} Utility", CD_ROW_STEP - SZ_CD),
+                        (f"CM {_sp} Longterm", LONG_GAP)):
+        if _band in _ids and _prev in _ids:
+            anchor_below(_band, _prev, gap=_gap)
+            _prev = _band
 
 # iconSource: 0 makes OUR displayIcon authoritative, -1 defers to the trigger's
 # own state.icon (RegionTypes/Icon.lua UpdateIcon).

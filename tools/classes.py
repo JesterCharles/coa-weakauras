@@ -176,7 +176,11 @@ CORE_LEAVES = {
     # spec, so its 15 icons stopped being class-wide leaves. Core now holds
     # the two reminder alerts and the engraving/etching trackers only.
     "runemaster": 15,
-    "chronomancer": 23,
+    # 23 -> 12 for the same reason Runemaster went 30 -> 15: the long-term band
+    # moved out of Core into one band per spec, so its 11 icons stopped being
+    # class-wide leaves. Core now holds the two reminder alerts and the
+    # class-wide trackers only.
+    "chronomancer": 12,
 }
 
 

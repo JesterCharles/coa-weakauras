@@ -890,11 +890,17 @@ for cls in UNDER_TEST:
         if len(levels) < 2:
             continue
         gap = levels[1] - levels[0]
-        # 33px when the ladder closes on this spec's own rows; 63px -- a whole
+        # 43px when the ladder closes on this spec's own rows; 73px -- a whole
         # extra CD_ROW_STEP -- when depth is reserved for a spec that is not in
         # the file. Measured both ways before the threshold was chosen.
+        #
+        # Was 33/63 against a 45px threshold. Anchoring the ladder moved the
+        # bottom band down 10px, because LONG_GAP says 16 and the arithmetic it
+        # replaced was delivering 6 -- so the passing value drifted to within
+        # 2px of the threshold while nothing was wrong. Re-centred on the real
+        # numbers rather than left to fail on the next honest change.
         check(f"{cls.slug}/{spec}: bottom band closes up ({gap:.0f}px)",
-              gap <= 45,
+              gap <= 55,
               f"{gap:.0f}px above the bottom band -- roughly one unused row, "
               f"reserved for a spec this pack does not contain")
 
@@ -997,14 +1003,26 @@ for cls in UNDER_TEST:
             if pair is None:
                 continue
             off, util = pair
-            band = by_id[util]
-            check(f"{name}/{cls.spec_label(spec)}: utility hangs off its own "
-                  f"offense row",
-                  band.get("anchorFrameType") == "SELECTFRAME"
-                  and band.get("anchorFrameFrame") == f"WeakAuras:{off}",
-                  f"anchorFrameType={band.get('anchorFrameType')!r} "
-                  f"frame={band.get('anchorFrameFrame')!r} -- a fixed offset "
-                  f"reserves the planned depth whether the icons appear or not")
+            # The whole ladder, link by link. Long-term is included because a
+            # SHARED long-term band cannot anchor -- it has three utility rows
+            # to choose from and two are unloaded -- so this check also fails
+            # on the old one-band-in-Core shape, which is the shape it is here
+            # to keep out.
+            lt = util[:-len("Utility")] + "Longterm"
+            for lower, upper in ((util, off), (lt, util)):
+                if lower not in by_id:
+                    check(f"{name}/{cls.spec_label(spec)}: has its own "
+                          f"{lower.split()[-1].lower()} band", False,
+                          "a shared band cannot anchor per spec")
+                    continue
+                band = by_id[lower]
+                check(f"{name}: {lower} hangs off {upper}",
+                      band.get("anchorFrameType") == "SELECTFRAME"
+                      and band.get("anchorFrameFrame") == f"WeakAuras:{upper}",
+                      f"anchorFrameType={band.get('anchorFrameType')!r} "
+                      f"frame={band.get('anchorFrameFrame')!r} -- a fixed "
+                      f"offset reserves the planned depth whether the icons "
+                      f"appear or not")
 
 
 def _one_row(d, band_id):
