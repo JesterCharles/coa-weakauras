@@ -33,10 +33,13 @@ note in `tools/sources.py`).
 | Witch Hunter | ? | [Guard Strike](https://db.exil.es/spell/804432) | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Witch Hunter | ? | [Subjugate](https://db.exil.es/spell/500089) | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Stormbringer | ? | [Gust of Wind](https://db.exil.es/spell/500932) | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
+| Stormbringer | ? | [Mystic Thunder](https://db.exil.es/spell/504846) | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
 | Knight of Xoroth | ? | [Hellgaze](https://db.exil.es/spell/560471) | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
 | Guardian | ? | [Shield of Denial](https://db.exil.es/spell/704159) | 30s | 15 energy | Instant | Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing 155 Physical damage and interrupting their spellcast, preventing any … |
+| Bloodmage | ? | [Aneurysm](https://db.exil.es/spell/806099) | 24s | 10% health | Instant | Counter the enemy's spellcast, preventing any spell from that school of magic from being cast for 4 seconds. Successfully interrupting an en… |
 | Ranger | ? | [Throatpunch](https://db.exil.es/spell/500617) | 12s | 25 focus | Instant\* | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
 | Chronomancer | ? | [Fray Magic](https://db.exil.es/spell/510236) | 30s | 27% mana | Instant | Stop your enemies' timeline, interrupting their spell cast for 4 sec. Successfully interrupting an enemy will additionally silence them for … |
+| Necromancer | ? | [Heartchill](https://db.exil.es/spell/801739) | 30s | 19% mana | Instant | Chill an enemy's heart, interrupting their current spell cast. Successfully interrupting a spell also reduces their movement speed and haste… |
 | Pyromancer | incineration | [Spellburn](https://db.exil.es/spell/800808) | 25s | 9% mana | Instant | Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for 5 sec. |
 | Cultist | ? | [Crushing Dissonance](https://db.exil.es/spell/804056) | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
 | Starcaller | ? | [Halt](https://db.exil.es/spell/805432) | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
@@ -49,8 +52,25 @@ note in `tools/sources.py`).
 | Primalist | ? | [Cave In](https://db.exil.es/spell/500615) | 24s | 18% mana | Instant | Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds. Successfully interrupt… |
 | Runemaster | glyphic,engravement,riftblade | [Ley Lock](https://db.exil.es/spell/800995) | 6s | 16% mana | 0.5s | Interrupt your target's spellcasting, preventing any spell in that school from being cast for 2.5 sec. |
 
-**21 across 17 classes.**
-None found for: Bloodmage, Necromancer, Templar, Witch Doctor.
+**24 across 19 classes.**
+None found for: Templar, Witch Doctor.
+
+## 1b. Stuns / silences that interrupt NPCs
+
+NOT `effect_id 68`. These are stuns or silences whose tooltip says they interrupt **non-player** spellcasting -- which in a raid is an interrupt, since the target is always an NPC. Listed separately because the mechanic is different: they will not stop a player cast, and several have no cooldown of their own because a talent grants them. Effect-id classification alone reports Templar and Witch Doctor as having no interrupt; that is wrong in every practical raid sense.
+
+| Class | Spec | Ability | CD | Materials Required | Cast Time | Description |
+|---|---|---|---|---|---|---|
+| Witch Doctor | ? | [Spirit Shock](https://db.exil.es/spell/807743) | 28s | 25% mana | Instant | Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds. |
+| Stormbringer | ? | [Stormhammer](https://db.exil.es/spell/806599) | none | 6% mana | Instant | Stuns the target for 2 sec and interrupts non-player spellcasting for 3 sec. |
+| Templar | ? | [Aggramar's Will](https://db.exil.es/spell/572573) | none | 3% mana | Instant | Stuns the target for 3 sec and interrupts non-player spellcasting for 3 sec. This spell cannot miss. |
+| Templar | ? | [Divine Force](https://db.exil.es/spell/806153) | none | 15 energy | Instant | Leap at an enemy with divine force, stunning them for 6 seconds, dealing 25 + 100% SP + 55% AP Holy Damage, and interrupting non-player spel… |
+| Cultist | ? | [Mass Nightmare](https://db.exil.es/spell/805114) | 3 min | 21% mana | Instant | Spread nightmares of the black empire to up to 5 nearby enemies, horrifying them for 5 seconds and interrupting non-player spellcasting for … |
+| Tinker | ? | [Focused Impact](https://db.exil.es/spell/706688) | none | — | Instant | Stuns the target for 3 sec and interrupts non-player spellcasting for 3 sec. This spell cannot miss. |
+| Primalist | ? | [Monolith Smash](https://db.exil.es/spell/991349) | none | 3% mana | 5s | Stuns an enemy for 3 sec and Interrupts non-player spellcasting for 3 sec. |
+
+**7 across 6 classes.**
+None found for: Barbarian, Bloodmage, Chronomancer, Felsworn, Guardian, Knight of Xoroth, Necromancer, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Sun Cleric, Venomancer, Witch Hunter.
 
 ## 2. Battle Rezzes
 
@@ -130,11 +150,24 @@ None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian,
 
 ## How these were classified
 
-**By SPELL EFFECT ID, not by tooltip text.** Ascension Sidekick's kit data does
-not contain Chronomancer's `Fray Magic` at all, so every text-derived candidate
-list built from it silently omits a real 30 sec interrupt. Two separate
-attempts made exactly that mistake before the method changed. Effect ids come
-off `Spell.dbc` and cannot be phrased around.
+**Primarily by SPELL EFFECT ID, with the tooltip as a second pass.** Neither
+source is sufficient alone, and both failure modes were hit while building
+this file.
+
+*Text alone under-reports.* Ascension Sidekick's kit data does not contain
+Chronomancer's `Fray Magic` at all, so every candidate list derived from its
+descriptions silently omits a real 30 sec interrupt.
+
+*Effect ids alone under-report too.* Table 1b is the proof: seven abilities
+interrupt non-player casting through a stun or silence and carry no `effect_id
+68`. Classifying purely on 68 reports **Templar and Witch Doctor as having no
+interrupt**, which is wrong in every practical raid sense.
+
+*And the ROSTER has two halves.* The class digest lists "Trainable / class
+spells" and, separately, the Mind-of-Ascension trees. Reading only the first
+dropped Necromancer's `Heartchill`, Bloodmage's `Aneurysm` and Stormbringer's
+`Mystic Thunder` -- three real interrupts -- and reported two of those classes
+as having none. `owners()` unions both.
 
 | Table | Signal | Verified against |
 |---|---|---|

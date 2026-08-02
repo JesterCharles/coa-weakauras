@@ -46,12 +46,23 @@ from classes import CLASSES, data  # noqa: E402
 from exiles import digest, parse  # noqa: E402
 
 CACHE = os.path.join(SP, "spellchk")
-POWER = {0: "mana", 1: "rage", 2: "focus", 3: "energy", 6: "runic power"}
+# -2 is POWER_HEALTH: Bloodmage pays life for several abilities. An
+# unmapped id prints as `power-2`, which is how this was caught.
+POWER = {-2: "health", 0: "mana", 1: "rage", 2: "focus", 3: "energy",
+         6: "runic power"}
 # Rows that are components, stubs or scaffolding rather than player buttons.
 JUNK = re.compile(r"deprecated|unused|placeholder|test|delayer|trigger|"
                   r"dispel effect$|generic effe", re.I)
 
-TITLES = {"interrupt": "1. Interrupts", "rez": "2. Battle Rezzes",
+# A stun or silence whose tooltip ALSO interrupts non-player casting. In PvE
+# that is functionally an interrupt, and effect 68 does not mark it -- which is
+# the blind spot of classifying purely by effect id, exactly mirroring the
+# blind spot of classifying purely by text.
+NPC_INTERRUPT = re.compile(r"interrupt\w*\s+non-?player", re.I)
+
+TITLES = {"interrupt": "1. Interrupts",
+          "interrupt_npc": "1b. Stuns / silences that interrupt NPCs",
+          "rez": "2. Battle Rezzes",
           "purge": "3. Purges", "spellsteal": "4. Spellsteals",
           "tranq": "5. Tranq Shots / Soothes (remove enrage)"}
 EFFNOTE = {
@@ -65,6 +76,15 @@ EFFNOTE = {
              "effect on an *enemy*. Target flags alone are unreliable -- "
              "**Show of Force** is `target_a 6` and reads \"on a friendly "
              "target\".",
+    "interrupt_npc": "NOT `effect_id 68`. These are stuns or silences whose "
+                     "tooltip says they interrupt **non-player** spellcasting -- "
+                     "which in a raid is an interrupt, since the target is "
+                     "always an NPC. Listed separately because the mechanic is "
+                     "different: they will not stop a player cast, and several "
+                     "have no cooldown of their own because a talent grants "
+                     "them. Effect-id classification alone reports Templar and "
+                     "Witch Doctor as having no interrupt; that is wrong in "
+                     "every practical raid sense.",
     "spellsteal": "`effect_id 126` -- STEAL_BENEFICIAL_BUFF.",
     "tranq": "`effect_id 38` with `misc_value 9` -- dispel type Enrage.",
 }
@@ -98,11 +118,24 @@ TAIL = """
 
 ## How these were classified
 
-**By SPELL EFFECT ID, not by tooltip text.** Ascension Sidekick's kit data does
-not contain Chronomancer's `Fray Magic` at all, so every text-derived candidate
-list built from it silently omits a real 30 sec interrupt. Two separate
-attempts made exactly that mistake before the method changed. Effect ids come
-off `Spell.dbc` and cannot be phrased around.
+**Primarily by SPELL EFFECT ID, with the tooltip as a second pass.** Neither
+source is sufficient alone, and both failure modes were hit while building
+this file.
+
+*Text alone under-reports.* Ascension Sidekick's kit data does not contain
+Chronomancer's `Fray Magic` at all, so every candidate list derived from its
+descriptions silently omits a real 30 sec interrupt.
+
+*Effect ids alone under-report too.* Table 1b is the proof: seven abilities
+interrupt non-player casting through a stun or silence and carry no `effect_id
+68`. Classifying purely on 68 reports **Templar and Witch Doctor as having no
+interrupt**, which is wrong in every practical raid sense.
+
+*And the ROSTER has two halves.* The class digest lists "Trainable / class
+spells" and, separately, the Mind-of-Ascension trees. Reading only the first
+dropped Necromancer's `Heartchill`, Bloodmage's `Aneurysm` and Stormbringer's
+`Mystic Thunder` -- three real interrupts -- and reported two of those classes
+as having none. `owners()` unions both.
 
 | Table | Signal | Verified against |
 |---|---|---|
@@ -149,17 +182,33 @@ Two traps found while doing it:
 
 
 def owners():
-    """spell id -> [(class name, ability name)], from the cached class digests."""
+    """spell id -> [(class name, ability name)], from the cached class digests.
+
+    BOTH halves of the digest, and the second one is not optional. The
+    "Trainable / class spells" list ALONE misses abilities that exist only as
+    Mind-of-Ascension talents -- it dropped Necromancer's `Heartchill`,
+    Bloodmage's `Aneurysm` and Stormbringer's `Mystic Thunder`, all three real
+    interrupts, and reported those classes as having none. That is the same
+    shape of bug as trusting Sidekick: an incomplete membership source reads as
+    a confident empty answer.
+
+    Tree membership is used for CLASS attribution only. The tree SLUG is not a
+    spec name and is never read as one -- see inventory().
+    """
     out = collections.defaultdict(list)
     for c in sorted(CLASSES.values(), key=lambda x: x.id):
         try:
-            spells, _trees = parse(digest(c.slug))
+            spells, trees = parse(digest(c.slug))
         except SystemExit:
             print(f"  no digest for {c.slug} -- run tools/exiles.py {c.slug}",
                   file=sys.stderr)
             continue
         for name, (sid, _r) in spells.items():
             out[str(sid)].append((c.name, name))
+        for _slug, rows in trees.items():
+            for _r, _col, name, sid in rows:
+                if (c.name, name) not in out[str(sid)]:
+                    out[str(sid)].append((c.name, name))
     return out
 
 
@@ -251,6 +300,8 @@ def classify(d):
     has = lambda i: any(e["effect_id"] == i for e in _eff(d))  # noqa: E731
     if has(68) and re.search(r"interrupt|silenc|counter", t, re.I):
         return "interrupt"
+    if NPC_INTERRUPT.search(t):
+        return "interrupt_npc"
     if has(126) and re.search(r"steal", t, re.I):
         return "spellsteal"
     if (has(18) or has(113)) and re.search(r"\blife\b|resurrect|revive|rebirth", t, re.I):
@@ -279,7 +330,7 @@ def main(argv):
         return 0
 
     print(FRONT)
-    for cat in ("interrupt", "rez", "purge", "spellsteal", "tranq"):
+    for cat in ("interrupt", "interrupt_npc", "rez", "purge", "spellsteal", "tranq"):
         print(f"\n## {TITLES[cat]}\n\n{EFFNOTE[cat]}\n")
         rows = []
         for sid, d in buckets.get(cat, []):
