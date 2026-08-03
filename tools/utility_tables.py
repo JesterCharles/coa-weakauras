@@ -210,7 +210,20 @@ EFFNOTE = {
              "effect on an *enemy*. Target flags alone are unreliable -- "
              "**Show of Force** is `target_a 6` and reads \"on a friendly "
              "target\".",
-    "silence": "`mechanic 9` (SILENCE). A silence stops the NEXT cast and "
+    "silence": "`mechanic 9` (SILENCE), or `aura_id 27` (MOD_SILENCE) on a "
+               "spell whose tooltip never claims to interrupt. Two rows are "
+               "here for that second reason -- Reaper's `Ghastly Screech` and "
+               "Witch Hunter's `Subjugate` both carry `effect_id 68` and were "
+               "filed as interrupts on that alone, while their text describes "
+               "a silence and nothing else. They keep the effect and are "
+               "marked **(interrupts too)**; neither class loses its "
+               "interrupt, since Reaper has `Siphon Essence` and Witch Hunter "
+               "has `Guard Strike`.\n\n"
+               "The WORD is not enough on its own, which is why the aura is "
+               "required: `Fray Magic`, `Mystic Thunder` and `Distracto Shot` "
+               "all mention silencing and all three interrupt FIRST, silencing "
+               "as a rider. They stay under Interrupts.\n\n"
+               "A silence stops the NEXT cast and "
                "locks casting for a duration. Several also state that they "
                "interrupt non-player spellcasting, which makes "
                "them the best interrupt substitute available -- those are "
@@ -1008,6 +1021,28 @@ def classify(d):
     # mechanic rides on plenty of abilities whose POINT is something else --
     # Necromancer's `Reanimate` raises a corpse and carries mechanic 12 on the
     # mind-control, and a mechanic-first order files a resurrect under Stuns.
+    # A REAL SILENCE AURA OUTRANKS THE INTERRUPT EFFECT.
+    #
+    # `aura_id 27` is MOD_SILENCE, and carrying it with `mechanic 9` is the
+    # server saying "this applies a silence" rather than "this stops the cast
+    # in progress". Two spells carry BOTH that and effect 68 while their
+    # tooltips never use the word interrupt: Reaper's `Ghastly Screech`
+    # ("silencing all enemies within 8 yds for 4 seconds") and Witch Hunter's
+    # `Subjugate` ("Silences an enemy and reduces their movement speed"). Both
+    # sat in the interrupt table on effect 68 alone, which is the one-signal
+    # mistake this file exists to avoid -- the tooltip has to agree, and here
+    # it disagrees.
+    #
+    # The word alone is NOT enough, which is why the aura is required.
+    # Chronomancer's `Fray Magic`, Stormbringer's `Mystic Thunder` and Tinker's
+    # `Distracto Shot` all say "silence" too, and all three interrupt FIRST and
+    # silence as a rider -- none carries aura 27. They stay interrupts.
+    #
+    # Neither class loses cover: Reaper keeps `Siphon Essence` and Witch Hunter
+    # keeps `Guard Strike`.
+    if has(68) and not re.search(r"interrupt", t, re.I) and any(
+            e.get("aura_id") == 27 and e.get("mechanic") == 9 for e in _eff(d)):
+        return "silence"
     if has(68) and re.search(r"interrupt|silenc|counter", t, re.I):
         return "interrupt"
     if has(126) and re.search(r"steal", t, re.I):
@@ -1219,6 +1254,13 @@ def tables():
                 marks = []
                 if NPC_INTERRUPT.search(d.get("description") or ""):
                     marks.append("int")
+                # Moved here off the interrupt table, and it kept its
+                # INTERRUPT_CAST effect on the way. That is a stronger claim
+                # than the `(int)` mark -- which is only a tooltip saying it
+                # interrupts NPC casting -- so it gets its own.
+                if cat == "silence" and any(e.get("effect_id") == 68
+                                            for e in _eff(d)):
+                    marks.append("int68")
                 if sid in noart:
                     marks.append("noicon")
                 # Both signals. A spell with no ART is a maybe; a spell no
@@ -1256,6 +1298,8 @@ def _md_cell(t):
 
 def _md_name(name, url, marks):
     s = f"[{name}]({url})"
+    if "int68" in marks:
+        s += " **(interrupts too)**"
     if "int" in marks:
         s += " **(int)**"
     if "noicon" in marks:

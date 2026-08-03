@@ -333,6 +333,14 @@ def chips(r, cat):
     if r[3]:
         out.append(f'<span class="chip tal" title="costs a talent point">'
                    f'{esc(r[3])}</span>')
+    # Two different claims, and the first is much stronger. int68 means the
+    # spell carries a real INTERRUPT_CAST effect; `int` only means its tooltip
+    # says it interrupts non-player casting, which on a boss is usually worth
+    # nothing.
+    if "int68" in r[6]:
+        out.append('<span class="chip int68" title="carries a real '
+                   'INTERRUPT_CAST effect as well as the silence">'
+                   'interrupts too</span>')
     if "int" in r[6]:
         out.append('<span class="chip int" title="tooltip also claims it '
                    'interrupts non-player spellcasting">int</span>')

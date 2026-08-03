@@ -1075,3 +1075,9 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
    The second is the stronger doubt and still not proof -- three spells in that
    state have been confirmed in game by hand. */
 .chip.unv2{color:#e0a24a;box-shadow:inset 0 0 0 1px rgba(224,162,74,.45)}
+
+/* A silence carrying a real INTERRUPT_CAST effect. Louder than `.int`, which
+   is only a tooltip claiming it interrupts NPC casting -- that clause is worth
+   whatever the stun landing is worth, which on a boss is usually nothing. */
+.chip.int68{color:#e8c039;box-shadow:inset 0 0 0 1px rgba(232,192,57,.5);
+  font-weight:600}

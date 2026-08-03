@@ -33,7 +33,6 @@ note in `tools/sources.py`).
 |---|---|---|---|---|---|---|---|
 | Barbarian | all (tree)<br>r0 c4 | [Jawbreaker](https://db.exil.es/spell/802792) |  | 14s | 30 energy | Instant | Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast for 4 seconds. |
 | Felsworn | Infernal<br>r5 c1 | [Felbreak](https://db.exil.es/spell/800203) |  | 18s | 10 energy | 0.5s | Interrupt a spell from being cast, preventing the target from casting spells of that school for 3 seconds and draining mana from the target … |
-| Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Witch Hunter | Black Knight<br>r5 c2 | [Guard Strike](https://db.exil.es/spell/804432) |  | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Stormbringer | all | [Gust of Wind](https://db.exil.es/spell/500932) |  | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
 | Stormbringer | Maelstrom<br>r4 c7 | [Mystic Thunder](https://db.exil.es/spell/504846) |  | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
@@ -51,7 +50,6 @@ note in `tools/sources.py`).
 | Tinker | all | [Meltdown](https://db.exil.es/spell/581313) |  | 30s | — | Instant | Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F… |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | Harvest<br>r6 c6 | [Siphon Essence](https://db.exil.es/spell/806125) |  | 20s | — | Instant | Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from bein… |
-| Reaper | all (tree)<br>r5 c1 | [Ghastly Screech](https://db.exil.es/spell/806146) |  | 1.5 min | 200 runic power | Instant | Screech with ghastly intent, silencing all enemies within 8 yds for 4 seconds, and dealing 90 + 25% AP Shadowfrost Damage at the end of the … |
 | Primalist | Geomancy<br>r7 c4 | [Cave In](https://db.exil.es/spell/500615) |  | 24s | 18% mana | Instant | Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds. Successfully interrupt… |
 | Runemaster | all | [Ley Lock](https://db.exil.es/spell/800995) |  | 6s | 16% mana | 0.5s | Interrupt your target's spellcasting, preventing any spell in that school from being cast for 2.5 sec. |
 
@@ -62,7 +60,6 @@ note in `tools/sources.py`).
 |---|---|---|---|---|---|---|---|
 | Barbarian | all (tree)<br>r0 c4 | [Jawbreaker](https://db.exil.es/spell/802792) |  | 14s | 30 energy | Instant | Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast for 4 seconds. |
 | Felsworn | Infernal<br>r5 c1 | [Felbreak](https://db.exil.es/spell/800203) |  | 18s | 10 energy | 0.5s | Interrupt a spell from being cast, preventing the target from casting spells of that school for 3 seconds and draining mana from the target … |
-| Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Witch Hunter | Black Knight<br>r5 c2 | [Guard Strike](https://db.exil.es/spell/804432) |  | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Stormbringer | all | [Gust of Wind](https://db.exil.es/spell/500932) |  | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
 | Stormbringer | Maelstrom<br>r4 c7 | [Mystic Thunder](https://db.exil.es/spell/504846) |  | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
@@ -80,29 +77,34 @@ note in `tools/sources.py`).
 | Tinker | all | [Meltdown](https://db.exil.es/spell/581313) |  | 30s | — | Instant | Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F… |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | Harvest<br>r6 c6 | [Siphon Essence](https://db.exil.es/spell/806125) |  | 20s | — | Instant | Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from bein… |
-| Reaper | all (tree)<br>r5 c1 | [Ghastly Screech](https://db.exil.es/spell/806146) |  | 1.5 min | 200 runic power | Instant | Screech with ghastly intent, silencing all enemies within 8 yds for 4 seconds, and dealing 90 + 25% AP Shadowfrost Damage at the end of the … |
 | Primalist | Geomancy<br>r7 c4 | [Cave In](https://db.exil.es/spell/500615) |  | 24s | 18% mana | Instant | Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds. Successfully interrupt… |
 | Runemaster | all | [Ley Lock](https://db.exil.es/spell/800995) |  | 6s | 16% mana | 0.5s | Interrupt your target's spellcasting, preventing any spell in that school from being cast for 2.5 sec. |
 ```
 
 </details>
 
-**23 across 19 classes.**
+**21 across 19 classes.**
 None found for: Templar, Witch Doctor.
 
 ## 2. Silences
 
-`mechanic 9` (SILENCE). A silence stops the NEXT cast and locks casting for a duration. Several also state that they interrupt non-player spellcasting, which makes them the best interrupt substitute available -- those are marked **(int)**. Only rows with a cost or a cooldown are listed; a silence with neither is a component or a talent.
+`mechanic 9` (SILENCE), or `aura_id 27` (MOD_SILENCE) on a spell whose tooltip never claims to interrupt. Two rows are here for that second reason -- Reaper's `Ghastly Screech` and Witch Hunter's `Subjugate` both carry `effect_id 68` and were filed as interrupts on that alone, while their text describes a silence and nothing else. They keep the effect and are marked **(interrupts too)**; neither class loses its interrupt, since Reaper has `Siphon Essence` and Witch Hunter has `Guard Strike`.
+
+The WORD is not enough on its own, which is why the aura is required: `Fray Magic`, `Mystic Thunder` and `Distracto Shot` all mention silencing and all three interrupt FIRST, silencing as a rider. They stay under Interrupts.
+
+A silence stops the NEXT cast and locks casting for a duration. Several also state that they interrupt non-player spellcasting, which makes them the best interrupt substitute available -- those are marked **(int)**. Only rows with a cost or a cooldown are listed; a silence with neither is a component or a talent.
 
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Witch Doctor | Shadowhunting<br>r6 c7 | [Spirit Shock](https://db.exil.es/spell/807743) **(int)** |  | 28s | 25% mana | Instant | Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds. |
+| Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) **(interrupts too)** |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Knight of Xoroth | all (tree)<br>r0 c2 | [Chainwhip](https://db.exil.es/spell/800081) |  | 20s | 100 rage | Instant | Swing a chain at an enemy dealing 12 + 35% AP Physical Damage and silencing them for 2 seconds, generating a large amount of threat. If you … |
 | Guardian | Vanguard<br>r5 c6 | [Hammer of the Law](https://db.exil.es/spell/704418) |  | 40s | 40 energy | Instant | Smash an enemy and enemies behind them in a line, dealing 95 + 100% AP High Threat Physical Damage and silencing them for 3.5 seconds. |
 | Templar | all (tree)<br>r4 c8 | [Interdict](https://db.exil.es/spell/560116) |  | 2 min | — | Instant | Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration. |
 | Templar | all | [Atone for your Sins!](https://db.exil.es/spell/561309) ⚠ |  | 2 min | 10 energy | Instant | Forbid an enemy from sinning, silencing them for 6 sec. If they are an Undead or Demon they are unable to be healed. |
 | Bloodmage | Fleshweaver<br>r5 c8 | [Arterial Bind](https://db.exil.es/spell/681077) |  | 1.5 min | 15% health | Instant | Place a pool of blood on the ground beneath enemies and allies, healing allies for 203 + 33% healing every 1 sec and silencing all enemies f… |
 | Tinker | all | [Anti-Magic Grenades](https://db.exil.es/spell/804861) |  | 2 min | 10% mana | Instant | Toss grenades that dispel up to 3 benefical magic effects and silences all enemies within 12 yds for 4 sec. |
+| Reaper | all (tree)<br>r5 c1 | [Ghastly Screech](https://db.exil.es/spell/806146) **(interrupts too)** |  | 1.5 min | 200 runic power | Instant | Screech with ghastly intent, silencing all enemies within 8 yds for 4 seconds, and dealing 90 + 25% AP Shadowfrost Damage at the end of the … |
 
 <details><summary>Copy this table as markdown</summary>
 
@@ -110,18 +112,20 @@ None found for: Templar, Witch Doctor.
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Witch Doctor | Shadowhunting<br>r6 c7 | [Spirit Shock](https://db.exil.es/spell/807743) **(int)** |  | 28s | 25% mana | Instant | Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds. |
+| Witch Hunter | all | [Subjugate](https://db.exil.es/spell/500089) **(interrupts too)** |  | 1.5 min | 8% mana | Instant | Silences an enemy and reduces their movement speed by 50% for 4 sec. |
 | Knight of Xoroth | all (tree)<br>r0 c2 | [Chainwhip](https://db.exil.es/spell/800081) |  | 20s | 100 rage | Instant | Swing a chain at an enemy dealing 12 + 35% AP Physical Damage and silencing them for 2 seconds, generating a large amount of threat. If you … |
 | Guardian | Vanguard<br>r5 c6 | [Hammer of the Law](https://db.exil.es/spell/704418) |  | 40s | 40 energy | Instant | Smash an enemy and enemies behind them in a line, dealing 95 + 100% AP High Threat Physical Damage and silencing them for 3.5 seconds. |
 | Templar | all (tree)<br>r4 c8 | [Interdict](https://db.exil.es/spell/560116) |  | 2 min | — | Instant | Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration. |
 | Templar | all | [Atone for your Sins!](https://db.exil.es/spell/561309) ⚠ |  | 2 min | 10 energy | Instant | Forbid an enemy from sinning, silencing them for 6 sec. If they are an Undead or Demon they are unable to be healed. |
 | Bloodmage | Fleshweaver<br>r5 c8 | [Arterial Bind](https://db.exil.es/spell/681077) |  | 1.5 min | 15% health | Instant | Place a pool of blood on the ground beneath enemies and allies, healing allies for 203 + 33% healing every 1 sec and silencing all enemies f… |
 | Tinker | all | [Anti-Magic Grenades](https://db.exil.es/spell/804861) |  | 2 min | 10% mana | Instant | Toss grenades that dispel up to 3 benefical magic effects and silences all enemies within 12 yds for 4 sec. |
+| Reaper | all (tree)<br>r5 c1 | [Ghastly Screech](https://db.exil.es/spell/806146) **(interrupts too)** |  | 1.5 min | 200 runic power | Instant | Screech with ghastly intent, silencing all enemies within 8 yds for 4 seconds, and dealing 90 + 25% AP Shadowfrost Damage at the end of the … |
 ```
 
 </details>
 
-**7 across 6 classes.**
-None found for: Barbarian, Chronomancer, Cultist, Felsworn, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Stormbringer, Sun Cleric, Venomancer, Witch Hunter.
+**9 across 8 classes.**
+None found for: Barbarian, Chronomancer, Cultist, Felsworn, Necromancer, Primalist, Pyromancer, Ranger, Runemaster, Starcaller, Stormbringer, Sun Cleric, Venomancer.
 
 ## 3. Stuns
 
