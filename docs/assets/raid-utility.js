@@ -1206,8 +1206,36 @@
     });
     el.addEventListener("mousemove", place);
     el.addEventListener("mouseleave", function () { card.hidden = true; });
+    /* A TAP IS A POINTERUP THAT DID NOT TRAVEL. Opening on pointerdown fires
+     * the instant a finger lands, so beginning a scroll anywhere over a chip
+     * or an ability row threw the sheet up and stopped the page moving -- the
+     * whole list became difficult to scroll past. The finger has to be allowed
+     * to say what it meant first.
+     *
+     * Decided on pointerup, against a movement budget: under ~10px in either
+     * axis and under 600ms is a tap, anything else was a drag. pointercancel
+     * is the browser announcing it has taken the gesture over for scrolling,
+     * which is the most reliable abort signal there is. And preventDefault
+     * moves off pointerdown -- calling it there is what suppresses the scroll
+     * the reader was starting. */
+    var tap = null;
     el.addEventListener("pointerdown", function (ev) {
-      if (ev.pointerType === "mouse") return;    // desktop keeps the card
+      tap = ev.pointerType === "mouse"
+        ? null
+        : { x: ev.clientX, y: ev.clientY, t: Date.now(), id: ev.pointerId };
+    });
+    el.addEventListener("pointercancel", function () { tap = null; });
+    el.addEventListener("pointermove", function (ev) {
+      if (!tap || ev.pointerId !== tap.id) return;
+      if (Math.abs(ev.clientX - tap.x) > 10 || Math.abs(ev.clientY - tap.y) > 10) {
+        tap = null;
+      }
+    });
+    el.addEventListener("pointerup", function (ev) {
+      var t = tap; tap = null;
+      if (!t || ev.pointerId !== t.id) return;
+      if (Math.abs(ev.clientX - t.x) > 10 || Math.abs(ev.clientY - t.y) > 10) return;
+      if (Date.now() - t.t > 600) return;
       var list = ids.filter(function (i) { return DATA[i]; });
       if (!list.length) return;
       ev.preventDefault();

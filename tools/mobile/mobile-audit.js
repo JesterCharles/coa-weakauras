@@ -320,7 +320,41 @@ function assess(c, p, sticky) {
         });
       }
 
-      results.push({ name, mode, touch, probe: p, asserts: assess(c, p, sticky) });
+      // A24 -- A SCROLL IS NOT A TAP. The detail sheet opened on pointerdown,
+      // so starting a scroll anywhere over a chip threw it up and stopped the
+      // page moving. Asserted as a real gesture: a drag must leave the sheet
+      // shut, and a stationary tap must still open it. A probe cannot see this.
+      let tapDrag = null;
+      if (touch) {
+        tapDrag = await page.evaluate(() => {
+          const t = document.querySelector('tr.mxr td.mxv[data-ids]');
+          const sheet = document.querySelector('.absheet');
+          if (!t || !sheet) return null;
+          t.scrollIntoView({ block: 'center' });
+          const b = t.getBoundingClientRect();
+          const x = b.x + b.width / 2, y = b.y + b.height / 2;
+          const fire = (el, type, cy, id) => el.dispatchEvent(new PointerEvent(type,
+            { pointerId: id, pointerType: 'touch', clientX: x, clientY: cy,
+              bubbles: true, cancelable: true }));
+          const el = document.elementFromPoint(x, y) || t;
+          fire(el, 'pointerdown', y, 1); fire(el, 'pointermove', y - 60, 1);
+          fire(el, 'pointerup', y - 60, 1);
+          const afterDrag = !sheet.hidden;
+          fire(el, 'pointerdown', y, 2); fire(el, 'pointerup', y, 2);
+          const afterTap = !sheet.hidden;
+          sheet.hidden = true;
+          return { afterDrag, afterTap };
+        });
+      }
+
+      const A = assess(c, p, sticky);
+      if (tapDrag) {
+        A.push({ id: 'A24 drag is not a tap', ok: tapDrag.afterDrag === false,
+                 detail: `sheet after drag=${tapDrag.afterDrag}` });
+        A.push({ id: 'A24b tap still opens', ok: tapDrag.afterTap === true,
+                 detail: `sheet after tap=${tapDrag.afterTap}` });
+      }
+      results.push({ name, mode, touch, probe: p, asserts: A });
       if (/GUARD/.test(name)) {
         // A18 compares GEOMETRY only. tabindex/role are a11y attributes that
         // this work deliberately adds (B2); they belong in the assertion set,

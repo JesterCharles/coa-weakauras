@@ -537,7 +537,7 @@ def render():
     # side of the page and back. No Load or Cancel buttons either: Enter
     # submits, and the × inside the field is the way out.
     A('<div class="rhslot">'
-      '<button class="rhopen" type="button">Load tonight’s raid</button>'
+      '<button class="rhopen" type="button">Load Raid-Helper</button>'
       '<form class="rhform" hidden>'
       '<label class="editbox rhbox">'
       '<input id="rhid" type="text" placeholder="paste the event link or id" '

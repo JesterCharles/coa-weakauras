@@ -1382,6 +1382,9 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
     background:var(--void);box-shadow:0 1px 0 var(--edge)}
   .rhslot{flex:1 1 auto;min-width:0}
   .rhpill{max-width:100%}
+  /* the raid-id form takes the row when it is open */
+  .rhform:not([hidden]){flex:1 1 auto;min-width:0}
+  .rhform .editbox{flex:1 1 auto;min-width:0}
   /* The filter is genuinely useful on a phone and it is not what you land
      for, so it costs an icon until it is asked for. Expanded it takes the
      whole row and the tab strip sits under it. */
@@ -1390,8 +1393,13 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
     background:none;border:0;box-shadow:inset 0 0 0 1px var(--edge);
     color:var(--ink2);cursor:pointer}
   .qtoggle:hover{color:var(--bone);box-shadow:inset 0 0 0 1px var(--bone)}
-  .ovtop .editbox{display:none}
-  body.qopen .ovtop .editbox{display:flex;flex:1 1 100%;min-width:0;order:9}
+  /* #fbox, NOT ".ovtop .editbox". There are two .editbox elements in this row
+     and the other one is the raid-id field inside .rhform -- hiding it made
+     "Load tonight's raid" open onto an empty strip with nothing to type into.
+     Second time this exact pair has been confused; the filter has an id for a
+     reason. */
+  #fbox{display:none}
+  body.qopen #fbox{display:flex;flex:1 1 100%;min-width:0;order:9}
   body.qopen .qtoggle{color:var(--bone);box-shadow:inset 0 0 0 1px var(--bone)}
 
   /* The roster is context, not the answer, and it was costing 387px at 390
