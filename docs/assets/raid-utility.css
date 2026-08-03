@@ -1286,7 +1286,10 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
    * already litigated. A wrapped grid hides nothing. Eleven tools cost four
    * rows instead of six, and every one is on screen and tappable.
    */
-  .cov{display:flex;flex-wrap:wrap;gap:3px;margin:0 0 12px;padding:0}
+  /* .cov[hidden] -- 0,2,0 -- outranks the global [hidden]{display:none}
+     at 0,1,0. The attribute is what keeps a stale stylesheet from
+     dumping this block onto the desktop page; see utility_page.py. */
+  .cov,.cov[hidden]{display:flex;flex-wrap:wrap;gap:3px;margin:0 0 12px;padding:0}
   /* Fixed basis, not a percentage: at 30% it is always three across, which
      wastes an 844px landscape phone (three 253px cells) and crushes a 320px
      one. A basis in px lets the row pack six across when there is width and

@@ -637,7 +637,16 @@ def render():
     # it is the same `cover` object that writes the tab badges, so the two
     # cannot disagree. Hidden above the layout-mode threshold: this is chrome,
     # not the grid, and desktop does not get it.
-    A('<ul class="cov" aria-label="Tool coverage">')
+    # `hidden`, not just a CSS class. assets/raid-utility.css is served with
+    # cache-control:max-age=600 and no cache-busting on the href, so for up to
+    # ten minutes after a deploy a returning reader gets THIS markup with the
+    # PREVIOUS stylesheet -- which has no .cov rules at all, and rendered the
+    # whole block as a raw bulleted list across the top of the desktop page.
+    # The attribute makes the failure mode "invisible" instead of "broken":
+    # any stylesheet that does not know about .cov hides it for free, and the
+    # mobile block below re-shows it with .cov[hidden], which outranks the
+    # global [hidden] rule on specificity.
+    A('<ul class="cov" aria-label="Tool coverage" hidden>')
     for cat in sorted(CATS, key=lambda c: (BAND_OF[c] == "trash",
                                            counts.get(c, 0), LONG[c])):
         n = counts.get(cat, 0)
