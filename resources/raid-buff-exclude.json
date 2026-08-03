@@ -1,0 +1,29 @@
+{
+  "_note": [
+    "Spell ids the raid-damage TEXT arm matches and should not.",
+    "",
+    "The raid-damage columns are the one place in this pipeline where a text",
+    "rule carries real weight rather than only confirming an effect id. It has",
+    "to: Guardian's `Banner of Conquest` and `Banner of Swiftness` grant +5%",
+    "crit and +5% haste to the raid and carry NOT ONE offensive aura, because",
+    "the buff lives in a triggered child spell. 135 owned spells are in that",
+    "state. Restricting to the aura arm would cost 19 active rows and 35",
+    "passive ones, including both banners -- which is the exact thing the",
+    "column was asked for.",
+    "",
+    "The price is a measured ~6% false-positive rate on that arm (3 of 54).",
+    "Those three are listed here rather than chased with more regex, because",
+    "each fails for its own unrelated reason and a rule broad enough to catch",
+    "all three would start eating real rows.",
+    "",
+    "Same shape as resources/spell-observed.json: hand-maintained, small, and",
+    "the reason is written down next to the id. Add an id here only after",
+    "reading its tooltip and being sure."
+  ],
+  "ids": {
+    "926597": "Lesser Primal Wave (Primalist) — a cone heal granting magic resistance. Matches on a magnitude-plus-damage phrase that belongs to its healing clause.",
+    "653213": "Weapon Engraving: Water (Runemaster) — a 1-hour SELF weapon rune. The group word sits in a trailing clause about who may receive the enchant.",
+    "520314": "Heartbreak (Bloodmage) — a nuke that also heals 12 allies. Matches on '% ... Shadow Damage' happening to sit next to 'allies'.",
+    "523752": "Icecrown (Necromancer) — the applied effect of 531135, same name and a different tooltip, so _components() cannot pair them. A duplicate row, not a second ability."
+  }
+}

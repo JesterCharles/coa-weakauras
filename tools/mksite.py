@@ -45,10 +45,18 @@ NOSCRIPT_UTIL = """<noscript><style>
      offered. EVERYTHING else on this page is server-rendered and works --
      the scarcity counts, the whole coverage grid, and all ten ability lists.
      Nothing here is JS-only that is not also printed statically. */
-  .utiltools,.tabs,.roster-band{display:none}
+  #fbox,#qcount,.tabs,.rhbar{display:none}
   .mxr .open::after,.mxr .pick{display:none}
   /* every panel open, i.e. the long-scroll page it used to be */
   .panel[hidden]{display:block !important}
+  /* The one-screen layout is a JS-era shape: it locks `main` to the viewport
+     and lets only the grid scroll, which is right when tabs can swap what is
+     in that box and wrong when all eleven panels are stacked open. Hand the
+     page back its own scrollbar. */
+  .util.uwide{height:auto;overflow:visible;max-width:1760px;margin:0 auto;
+    padding-bottom:80px}
+  .mxwrap{overflow-x:auto;overflow-y:visible;flex:none}
+  .ovbody,.panel.on{display:block}
 </style></noscript>"""
 
 SITE_TITLE = "Conquest of Azeroth WeakAuras"
@@ -120,13 +128,19 @@ def pack_stats(path):
 # ----------------------------------------------------------------- templates
 
 def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
-         extra_css=(), extra_js=(), head_extra=""):
+         extra_css=(), extra_js=(), head_extra="", header_title=""):
     """Wrap a body in the site chrome.
 
     `body` is everything between the header and the footer, including its own
     <main> if it wants one. It is NOT wrapped here, because the class page
     opens with a full-bleed colour masthead that has to escape the centred
     content column.
+
+    `header_title` puts the page's own name in the CENTRE of the site header.
+    Only the raid-utility page uses it: that page is one screen with no room
+    for a masthead, and its <h1> was sitting in the same row as eleven tabs, a
+    filter and the raid control, taking ~130px the tabs needed. Pages that pass
+    nothing render the header exactly as before.
 
     `accent` is a (hex, deep-hex) pair written onto <body> as --c/--cd. Every
     accent-coloured rule in site.css reads it, so a class page is tinted
@@ -158,11 +172,12 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
 {head_extra}
 </head>
 <body{tint}>
-<header class="site">
+<header class="site{" haspt" if header_title else ""}">
   <a class="brand" href="{up}index.html">
     <span class="mark">CoA</span>
     <span>WeakAuras</span>
   </a>
+  {f'<span class="ptitle">{html.escape(header_title)}</span>' if header_title else ''}
   <nav>
     <a href="{up}index.html">Classes</a>
     <a href="{up}raid-utility.html">Raid utility</a>
@@ -709,6 +724,7 @@ def build_utility_only():
         desc="Interrupts, battle rezzes, purges, spellsteals and enrage "
              "removals across all 21 CoA classes.",
         extra_css=("raid-utility.css",), extra_js=("raid-utility.js",),
+        header_title="Raid utility",
         head_extra=NOSCRIPT_UTIL))
     print(f"  wrote {out}")
     return 0
@@ -755,6 +771,7 @@ def build(allow_unverified=False):
         desc="Interrupts, battle rezzes, purges, spellsteals and enrage "
              "removals across all 21 CoA classes.",
         extra_css=("raid-utility.css",), extra_js=("raid-utility.js",),
+        header_title="Raid utility",
         head_extra=NOSCRIPT_UTIL))
         print("  wrote raid-utility.html")
 

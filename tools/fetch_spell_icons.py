@@ -26,6 +26,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 
 from classes import data, dest, get, SP
@@ -38,6 +39,14 @@ G_SPELLS = re.compile(r'_\[(\d+)\]=\{"icon":"([^"]+)","name_enus":"((?:[^"\\]|\\
 QM = "inv_misc_questionmark"
 
 
+# Seconds between page fetches that actually hit the network. A cache hit
+# costs nothing and is not throttled. db.ascension.gg has no published rate
+# limit and answered ~2,000 sequential requests without a single 429, but a
+# refresh here can be 150+ pages and hammering somebody's community database
+# for icon names is not a good trade for two minutes.
+THROTTLE = 0.6
+
+
 def page(sid):
     """Raw HTML for one spell page, cached on disk."""
     p = os.path.join(CACHE, f"asc-{sid}.html")
@@ -45,6 +54,7 @@ def page(sid):
         subprocess.run(
             ["curl", "-s", "-m", "25", f"https://db.ascension.gg/?spell={sid}",
              "-o", p], check=False, timeout=40)
+        time.sleep(THROTTLE)
     try:
         return open(p, encoding="utf-8", errors="replace").read()
     except OSError:

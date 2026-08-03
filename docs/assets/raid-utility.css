@@ -42,22 +42,131 @@
  * gutter with a hard rule in front of it.
  */
 
-/* ------------------------------------------------------------- masthead */
-.util h1{margin:0 0 8px;font-size:clamp(1.7rem,4vw,2.4rem)}
-.lede{color:var(--ink2);max-width:62ch;margin:0 0 16px;line-height:1.5;
-  font-size:.98rem}
-.utiltools{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap;
-  margin:0 0 22px}
-.utiltools .editbox{max-width:320px}
-.utiltools #uq{flex:1;min-width:0;font:inherit;font-size:.88rem;
-  color:var(--ink);background:none;border:0;outline:none;padding:10px}
-.utiltools #uq::placeholder{color:var(--dim)}
-.utiltools #uq::-webkit-search-cancel-button{-webkit-appearance:none;
+/* ============================================ ONE SCREEN, TABLE SCROLLS
+ *
+ * The page does not scroll. `main` IS the viewport: a flex column whose first
+ * child is the one row of chrome and whose second is the grid, and the grid
+ * scrolls inside its own box under a stuck header. Scrolling a 21-row table
+ * used to mean scrolling the document, which took the column headers with it.
+ *
+ * What was removed to get here, all of it on request: the lede, the "who
+ * brings what" heading and its instruction paragraph, the left roster rail and
+ * the right scarcity rail. Every one was prose or furniture stacked on top of
+ * the only object anyone opens this page for. The rails in particular were the
+ * previous round's idea and they were wrong -- they cost the table ~350px of
+ * width to display things a raid lead reads once.
+ *
+ * That width is what pays for naming the spec inside a cell instead of
+ * encoding it as a lit fraction of a tile. See .spn.
+ */
+/* `height:100dvh` on main is WRONG here and was the first thing tried: main
+   starts below header.site, so a full-viewport main ends one header past the
+   bottom of the screen and the document scrolls anyway. The page has to own
+   the height and hand main what is left, which is what :has() is for -- it
+   scopes a body rule to this one page without touching site.css. Where :has()
+   is unsupported the whole block is skipped and the page simply scrolls, which
+   is the old behaviour rather than a broken one. */
+body:has(main.util.uwide){height:100dvh;overflow:hidden;
+  display:flex;flex-direction:column}
+body:has(main.util.uwide)>header.site{flex:none}
+.util.uwide{max-width:none;width:100%;flex:1;min-height:0;
+  padding:clamp(14px,2vw,22px) clamp(12px,2vw,26px) 0;
+  display:flex;flex-direction:column;gap:10px;overflow:hidden}
+/* The visible page name is in the site header; this stays for the document
+   outline. Not display:none -- that would take it out of the a11y tree too. */
+.util h1.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;
+  overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;
+  border:0}
+
+/* the single row of chrome: title, tabs, filter, result count */
+.ovtop{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;flex:none}
+.ovtop .tabs{flex:1 1 auto;min-width:0;margin:0}
+/* The raid pill and the filter are ONE flex item, so they cannot be split
+   across lines by a wide tab bar. Inside it the pill sits left of the box. */
+.ovtools{display:flex;align-items:center;gap:10px;flex:0 1 auto;
+  margin-left:auto;min-width:0}
+.ovtop .editbox{flex:0 1 300px;min-width:150px}
+#uq{flex:1;min-width:0;font:inherit;font-size:.85rem;
+  color:var(--ink);background:none;border:0;outline:none;padding:9px 8px}
+#uq::placeholder{color:var(--dim)}
+#uq::-webkit-search-cancel-button{-webkit-appearance:none;
   appearance:none;display:none}
-.utiltools #uclear{display:none;font:inherit;font-size:1.1rem;line-height:1;
-  cursor:pointer;background:none;border:0;color:var(--dim);padding:0 11px}
-.utiltools .editbox.has #uclear{display:block}
-/* .rosterbtn is gone -- the roster's clear button now lives in .rbhead. */
+#uclear{display:none;font:inherit;font-size:1.1rem;line-height:1;
+  cursor:pointer;background:none;border:0;color:var(--dim);padding:0 10px}
+.editbox.has #uclear{display:block}
+.qcount{flex:none;font-size:.78rem;color:var(--ink2);
+  font-variant-numeric:tabular-nums}
+.qcount.none{color:#e0525f}
+
+/* the body: whatever panel is open fills the rest of the screen */
+/* .util is overflow:hidden and the page does not scroll, so EVERY panel needs
+   its own scroller. Overview is the exception: its .mxwrap already is one, and
+   two nested scrollers would fight. */
+.ovbody{flex:1;min-height:0;display:flex;flex-direction:column}
+/* `:not([hidden])`, NOT `.on`. The tab script toggles `.on` on the TABS and
+   only `hidden` on the panels, so a `.panel.on` rule matched the overview
+   panel alone -- every category tab rendered at its full 2000px inside an
+   overflow:hidden page and simply could not be scrolled. */
+.panel:not([hidden]){flex:1;min-height:0;display:flex;flex-direction:column;
+  overflow-y:auto;overscroll-behavior:contain;padding-bottom:40px}
+#panel-overview:not([hidden]){overflow:hidden;padding-bottom:0}
+
+/* ---- the raid, pulled from Raid-Helper -------------------------------
+ * Replaces the 21-icon roster and its per-class spec chips. Picking the comp
+ * by hand was the complaint and it was also the least reliable way to get one:
+ * the guild already declares the raid in Discord, with specs, and a second
+ * hand-kept copy on a web page is a copy that is wrong.
+ *
+ * Collapsed to one word until used, because on most visits nobody wants it.
+ */
+.rhbar{display:flex;align-items:center;gap:10px;flex:none;flex-wrap:wrap;
+  font-size:.8rem;min-height:26px}
+.rhopen,.rhclear{font:inherit;font-size:.76rem;cursor:pointer;
+  background:transparent;border:0;box-shadow:inset 0 0 0 1px var(--edge);
+  color:var(--ink2);padding:5px 12px;transition:color .12s,box-shadow .12s}
+.rhopen:hover,.rhclear:hover{color:var(--bone);
+  box-shadow:inset 0 0 0 1px var(--bone)}
+/* the × lives INSIDE the field, so it carries no border of its own */
+.rhcancel{font:inherit;font-size:1.05rem;line-height:1;cursor:pointer;
+  background:none;border:0;box-shadow:none;color:var(--dim);padding:0 9px}
+.rhcancel:hover{color:#e0525f;box-shadow:none}
+/* The form REPLACES the button in place -- same slot, same line -- rather
+   than opening a second control cluster in the bar below. Enter submits; the ×
+   inside the field is the only other exit, so there is no Load/Cancel pair to
+   read. */
+.rhform{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 auto}
+/* SHRINK, do not shove. A fixed 330px field is ~170px wider than the button it
+   replaces, which pushed the whole tools group onto the next line -- the exact
+   jump this change was supposed to remove, in a new costume. Flexing means the
+   field takes whatever the row has spare and the row never reflows. */
+.rhslot .rhbox{flex:0 1 340px;min-width:0;display:flex;align-items:center}
+/* The filter NARROWS while an event link is being pasted; it does not vanish.
+   Hiding it outright freed enough width that the whole tools group stopped
+   wrapping at 1440 and jumped up a line -- trading the jump this change
+   removed for a different one. Narrowing keeps every element in the flow, so
+   the row cannot reflow. */
+body.rhediting #fbox{flex:0 1 120px}
+body.rhediting #qcount{display:none}
+/* display:flex beats the UA sheet's [hidden]{display:none}, so the form
+   and the state line stayed on screen after a ?event= load put them away. */
+.rhbar [hidden],.rhform[hidden],.rhstate[hidden]{display:none}
+
+.rhbox input{flex:1;min-width:0;font:inherit;font-size:.8rem;color:var(--ink);
+  background:none;border:0;outline:none;padding:7px 4px 7px 10px}
+.rhbox input::placeholder{color:var(--dim)}
+.rhstate{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  color:var(--ink2)}
+.rhstate b{color:var(--ink);font-weight:600}
+.rhstate .err{color:#e0525f}
+.rhstate .warn{color:#f0c674}
+/* Every signup whose spec did not resolve is NAMED here rather than dropped.
+   A roster that silently loses two players answers the wrong question, and the
+   string it could not place is the exact thing needed to fix the alias file. */
+.rhstate .unmatched{color:#f0c674;font-size:.74rem}
+.rhwho{display:flex;gap:3px;flex-wrap:wrap;align-items:center}
+.rhwho i{font-style:normal;font-size:.7rem;color:var(--ink2);
+  box-shadow:inset 0 0 0 1px var(--edge);padding:2px 6px}
+.rhwho i.q{color:#f0c674;box-shadow:inset 0 0 0 1px rgba(240,198,116,.4)}
 
 /* site.css styles <section> for the class page (padding + a top rule between
  * siblings). This page's sections are laid out by their own .lbl headers, so
@@ -108,6 +217,8 @@ details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
 .scarcity{list-style:none;margin:0 0 40px;padding:1px;display:grid;gap:1px;
   grid-template-columns:repeat(10,1fr);
   background:var(--edge);box-shadow:0 0 0 1px var(--edge)}
+/* The rail form of this strip lives in the RAILS block at the foot of the
+   file, with every other rule that only applies in three-column mode. */
 .sc{--c:var(--bone);--band:var(--edge2)}
 /* The band is now a hairline on top of the tile, not the tile's whole colour:
  * this strip answers "what is scarce", so scarcity gets the ink. */
@@ -155,22 +266,43 @@ details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
  * plan" too. On a phone it scrolls sideways -- but the class column is
  * sticky, so unlike the old 940px table you never lose the row you are on.
  */
-.mxwrap{overflow-x:auto;box-shadow:0 0 0 1px var(--edge);background:#080b0f;
-  margin:0 0 14px}
+/* THE ONLY SCROLLING BOX ON THE PAGE. Both axes, and it takes whatever height
+   the flex column has left, so the table ends at the bottom of the screen
+   rather than running the document past it. */
+.mxwrap{overflow:auto;box-shadow:0 0 0 1px var(--edge);background:#080b0f;
+  margin:0;flex:1;min-height:0;overscroll-behavior:contain}
 table.mx{border-collapse:separate;border-spacing:0;width:100%;
-  table-layout:fixed;min-width:940px;font-size:1rem}
+  table-layout:fixed;min-width:1040px;font-size:1rem}
+/* The header stays put now that the box scrolls instead of the page. z-index
+   over the sticky class column, which is z-index 2/3. */
+.mx thead th,.mx thead td{position:sticky;z-index:4}
+.mx thead .mxbands td{top:0}
+.mx thead .mxhead th{top:var(--bandh,29px)}
+.mx thead th.mxc{z-index:6}
 .mx th,.mx td{padding:0}
-.mx .mxc{width:17.6%}
-.mx .mxh{width:8.24%}
+/* ELEVEN tool columns now (raid damage — active joined the tools band), so
+   the shares are re-cut and the scroll floor moves with them. The class column
+   gives up 2.6% because it holds a name and an icon, where a tool cell holds a
+   cooldown AND a spec label. */
+.mx .mxc{width:15%}
+.mx .mxh{width:7.727%}
 
 /* the band strip: the wall between "stops a cast" and "stun" */
 .mxbands td{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
   font-weight:700;text-align:center;padding:6px 4px;background:#090d11}
 .mxbands td span{display:block;overflow:hidden;text-overflow:ellipsis;
   white-space:nowrap}
-.mxbands .b-stop{color:#e8c039;background:rgba(232,192,57,.10)}
-.mxbands .b-tools{color:#7fd6ef;background:rgba(72,194,227,.09)}
-.mxbands .b-trash{color:var(--ink2);background:rgba(0,0,0,.5)}
+/* The band tints have to be layered OVER an opaque base, not used as the
+   background. They are translucent, and once the header became sticky the
+   table scrolled visibly underneath it -- spec names from row 14 showing
+   through the word RAID TOOLS. A gradient stacked on #090d11 keeps the exact
+   same colour and stops being see-through. */
+.mxbands .b-stop{color:#e8c039;
+  background:linear-gradient(rgba(232,192,57,.10),rgba(232,192,57,.10)),#090d11}
+.mxbands .b-tools{color:#7fd6ef;
+  background:linear-gradient(rgba(72,194,227,.09),rgba(72,194,227,.09)),#090d11}
+.mxbands .b-trash{color:var(--ink2);
+  background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),#090d11}
 
 /* Column heads are WORDS. Sentence case, no tracking, two lines where the
  * name has two parts -- tracked uppercase at 12px is what made `DR·P` feel
@@ -234,28 +366,75 @@ tbody .mxr>.mxc{background:#0b0f14;position:sticky;left:0;z-index:2;
  * ink and the reader had to read all 210 cells to find the 84 that mattered.
  * Now a class that brings a tool paints its cell, in its band's colour, and
  * the coverage pattern is legible before you read a single number. */
+td.mxv{position:relative}
 td.mxv .cd{color:var(--ink);font-size:1.06rem;font-weight:600;
   font-variant-numeric:tabular-nums}
-td.mxv.b-stop{background:rgba(232,192,57,.13);
-  box-shadow:inset 0 0 0 1px rgba(232,192,57,.16)}
-td.mxv.b-tools{background:rgba(72,194,227,.12);
-  box-shadow:inset 0 0 0 1px rgba(72,194,227,.15)}
+/* One tint per band, named once, so the whole tile and a single spec slice of
+ * it are painted from the same value.
+ *
+ * --lit runs only a LITTLE hotter than --tile. It has to run hotter at all
+ * because a 24px slice against a ghost fill needs the extra separation to read
+ * as deliberate rather than as a rendering artefact -- but the first pass set
+ * it at .22 against a .13 tile and that inverted the whole signal: Ranger's
+ * spec-locked 12s interrupt glowed brighter than Barbarian's 14s that every
+ * spec can press, so the grid shouted loudest about the tool you are least
+ * likely to have. A restriction must never read as an endorsement. */
+td.mxv.b-stop{--tile:rgba(232,192,57,.13);--lit:rgba(232,192,57,.17);
+  --edge:rgba(232,192,57,.16)}
+td.mxv.b-tools{--tile:rgba(72,194,227,.12);--lit:rgba(72,194,227,.16);
+  --edge:rgba(72,194,227,.15)}
+td.mxv.b-stop,td.mxv.b-tools{background:var(--tile);
+  box-shadow:inset 0 0 0 1px var(--edge)}
 td.mxv i{font-style:normal;font-size:.72rem;color:var(--ink2);margin-left:2px;
-  vertical-align:super;font-weight:600}
+  vertical-align:super;font-weight:600;position:relative;z-index:1}
 td.mxv i.t{color:var(--bone)}
 td.mxv.unv .cd{color:#f0c674}
-td.mxv.unv::after{content:"?";font-size:.72rem;color:#f0c674;
-  vertical-align:super;margin-left:1px}
+/* the ? rides the cooldown, not the cell: as a cell-level ::after it fell
+   below .spn onto a line of its own once spec names arrived */
+td.mxv i.q{color:#f0c674}
 /* Trash-band values stay recessive by rule -- but --dim on this background is
  * 2.8:1, which reads as broken rather than as secondary. --ink2 at 6.7:1 on a
  * sunken, untinted cell is still unmistakably the quiet band without being
  * unreadable, and it is the ONLY band whose filled cells get no colour, which
  * is the strongest available statement that it is not a cast-stop. */
-td.mxv.b-trash{background:rgba(255,255,255,.028);
-  box-shadow:inset 0 0 0 1px rgba(198,174,132,.09)}
+td.mxv.b-trash{--tile:rgba(255,255,255,.028);--lit:rgba(255,255,255,.06);
+  --edge:rgba(198,174,132,.09);
+  background:var(--tile);box-shadow:inset 0 0 0 1px var(--edge)}
 td.mxv.b-trash .cd{color:var(--ink2);font-weight:500;font-size:.95rem}
 td.mxv.b-trash i{color:var(--dim)}
 .mx tbody tr.mxr:hover>td.mxv{filter:brightness(1.45)}
+
+/* SPEC-LOCKED CELLS NAME THE SPEC.
+ *
+ * 33 of the 103 abilities here sit in ONE spec tree, and a cell that paints
+ * solid for a tool only one of four specs can press is the biggest way this
+ * page can mislead: seven of the nineteen classes with an interrupt are in
+ * that state. Bloodmage's `Aneurysm` is Sanguine only, so an Accursed
+ * Bloodmage brings no interrupt at all.
+ *
+ * The previous attempt carved the tile into one slice per spec and lit the
+ * ones that qualify. It did not read, and the reason is that a lit fraction
+ * answers "how many specs" when the question is "WHICH". Killing the two rails
+ * took cells from 82px to ~140px, and a word fits in 140px. So the cell just
+ * says `Sanguine`.
+ *
+ * Deliberately quiet -- .68rem on --bone. The cooldown is still the number you
+ * scan the column for; the spec is the caveat you read once you have stopped
+ * on one. */
+.spn{display:block;font-size:.68rem;font-weight:600;line-height:1.15;
+  color:var(--bone);letter-spacing:.01em;margin-top:2px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+td.mxv.b-trash .spn{color:var(--dim)}
+.mxlegend .spn{margin:0;font-size:.66rem}
+
+/* The specs you rostered cannot press this one. Not dimmed -- struck. A gap
+ * you did not know you had is the answer this page exists to give. */
+td.mxv.nospec{background:rgba(255,255,255,.014);
+  box-shadow:inset 0 0 0 1px rgba(198,174,132,.07)}
+td.mxv.nospec .sl i.y{background:rgba(255,255,255,.045)}
+td.mxv.nospec .cd{color:var(--dim);font-weight:500;text-decoration:line-through;
+  text-decoration-color:rgba(226,110,110,.85);text-decoration-thickness:2px}
+td.mxv.nospec i{opacity:.3}
 
 /* my roster ------------------------------------------------------------ */
 .mxr.mine .open{color:var(--c)}
@@ -275,6 +454,7 @@ body.mypick .mxr:not(.mine):hover{opacity:.6}
 .mxlegend i.t{color:var(--bone)}
 .mxlegend i.unv{color:#f0c674}
 .mxlegend i.x{background:none;box-shadow:inset 0 0 0 1px rgba(198,174,132,.12)}
+/* the carved-tile swatch, painted from the same values as a real cell */
 
 /* ------------------------------------------------------------------ kit
  * The expanded class row -- the class-first view. "If I bring a Necromancer
@@ -324,10 +504,24 @@ body.mypick .mxr:not(.mine):hover{opacity:.6}
  */
 .ablist{list-style:none;margin:0;padding:1px;display:grid;gap:1px;
   background:var(--edge);box-shadow:0 0 0 1px var(--edge)}
+/* FIVE COLUMNS: class, spec, ability, who-brings-it, numbers.
+ *
+ * Spec came out of the chip strip and into a column of its own. As a chip it
+ * was one of five that all looked alike, and it answers a different question
+ * from the rest of them -- not "what is true about this ability" but "can the
+ * person I actually have press it".
+ *
+ * The `who` column exists only while a raid is loaded, which is why the
+ * template is swapped rather than the cell hidden: an empty 200px gutter on
+ * every row of a 79-row list is worse than no column at all. */
 .ab{background:var(--panel);padding:12px 15px 13px 14px;position:relative;
   display:grid;align-items:baseline;column-gap:16px;row-gap:6px;
-  grid-template-columns:minmax(140px,178px) minmax(0,1fr) auto;
-  grid-template-areas:"cls name nums" "cls desc desc"}
+  grid-template-columns:minmax(130px,168px) minmax(74px,104px) minmax(0,1fr) auto;
+  grid-template-areas:"cls spec name nums" "cls spec desc desc"}
+body.mypick .ablist:not(.tight) .ab{
+  grid-template-columns:minmax(130px,168px) minmax(74px,104px) minmax(0,1fr)
+                        minmax(0,auto) auto;
+  grid-template-areas:"cls spec name who nums" "cls spec desc desc desc"}
 /* the .readout accent stripe, per class */
 .ab::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;
   background:var(--c);opacity:.75}
@@ -548,30 +742,36 @@ body.mypick .mxr:not(.mine):hover{opacity:.6}
    actually have. Previously the top band was a "filter" (opacity .18) and the
    grid icon was a "roster" (opacity .26) -- two mechanisms that looked almost
    identical, did almost the same thing, and never referred to each other. */
-.roster-band{margin:0 0 4px}
-.rbhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 9px}
-.cfl{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--bone);font-weight:700}
-.rbhint{font-size:.84rem;color:var(--ink2)}
-.cfrow{display:flex;flex-wrap:wrap;gap:4px}
-.cf{position:relative;background:transparent;border:1px solid transparent;
-  padding:2px;cursor:pointer;line-height:0;opacity:.5;
-  transition:opacity .12s,border-color .12s}
-.cf img{display:block}
-.cf span{position:absolute;left:50%;top:calc(100% + 6px);transform:translateX(-50%);
-  background:var(--panel);box-shadow:0 0 0 1px var(--edge2);
-  padding:3px 7px;font-size:.72rem;color:var(--ink);white-space:nowrap;
-  opacity:0;pointer-events:none;transition:opacity .1s;z-index:6;line-height:1.2}
-.cf:hover{opacity:.9}
-.cf:hover span{opacity:1}
-.cf.on{opacity:1;border-color:var(--c);
-  box-shadow:0 0 12px -4px var(--c)}
-.cfclear{margin-left:auto;font:inherit;font-size:.76rem;background:transparent;
-  box-shadow:inset 0 0 0 1px var(--edge);border:0;padding:5px 13px;
-  color:var(--ink2);cursor:pointer}
-.cfclear:hover{color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
+/* The rail form of the roster is in the RAILS block at the foot of the file. */
 .mxr.dimmed{opacity:.18}
 .utilsec.empty{display:none}
+
+/* An ability your rostered specs cannot press. Struck, not hidden: the row is
+   still the record of what the class has, and "you would have to respec for
+   this" is a real answer to "who brings an interrupt". */
+li.ab.nospec{opacity:.5}
+li.ab.nospec .abname a{text-decoration:line-through;
+  text-decoration-color:rgba(226,110,110,.8)}
+li.ab.nospec .chip.spec{color:#e26e6e;box-shadow:inset 0 0 0 1px rgba(226,110,110,.4)}
+
+/* the spec strip ----------------------------------------------------------
+   Appears only once there is a roster, because "which specs" is a question
+   nobody arrives with -- they arrive with "who brings an interrupt", and the
+   class answer is right two-thirds of the time. Every spec starts lit, so the
+   strip costs nothing to ignore and the page behaves exactly as it did for a
+   lead who does not care.
+
+   The `?` on a spec name is load-bearing. Only Runemaster, Chronomancer and
+   Pyromancer have spec names anybody has confirmed in game; the other 18 carry
+   db.exil.es tree labels, and those are wrong on at least one class -- the
+   tree slugged `chronomancer-time` is LABELLED `Artificer` while the specs in
+   game are artificer/infinite/time. The partition is real, so the counting
+   holds; the word might not be, so the word says so. */
+/* wrap, or a four-spec class runs 456px wide and pushes the whole document
+   into a horizontal scroll at 390 -- the row is the one part of this page
+   whose width is set by data rather than by layout */
+/* a class you rostered and then switched every spec off is a contradiction,
+   so it reads as one rather than silently counting as nothing */
 
 /* ability icons ----------------------------------------------------------- */
 .aicon{border-radius:4px;vertical-align:-4px;margin-right:8px;flex:none}
@@ -615,3 +815,245 @@ body.mypick .mxr:not(.mine):hover{opacity:.6}
 .acdesc{margin:0;font-size:.78rem;line-height:1.55;color:var(--ink2)}
 /* Touch has no hover; the card would never dismiss. */
 @media (hover:none){.abcard{display:none !important}}
+
+
+
+/* a tool the loaded raid has nobody for */
+.tab.nocover{color:#e0525f;border-color:rgba(224,82,95,.45)}
+.tab.nocover i{color:#e0525f}
+.tab.nohit{opacity:.4}
+.rhstate .gapline{color:#e0525f;font-weight:600}
+.rhstate .okline{color:#7fd6ef}
+
+/* who in tonight's raid can press this one ------------------------------
+   Sits at the foot of the hover card, right-aligned, one tag per player: the
+   guild's own Discord spec emoji, the character name, the spec. It answers the
+   question a struck cooldown raises -- "so who DOES have it" -- at the moment
+   the eye is already on that ability, instead of sending the reader back to
+   the roster line to cross-reference by class. */
+.acwho{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;
+  margin:9px 0 0;padding-top:8px;border-top:1px solid var(--edge)}
+.acwho .w{display:inline-flex;align-items:center;gap:5px;font-size:.72rem;
+  color:var(--ink);background:rgba(255,255,255,.04);
+  box-shadow:inset 0 0 0 1px var(--edge);padding:2px 7px 2px 4px}
+.acwho .w img{border-radius:3px;flex:none}
+.acwho .w em{font-style:normal;color:var(--ink2);font-size:.92em}
+/* spec never resolved -- the player is in the raid, which spec is a guess */
+.acwho .w.q{color:#f0c674;box-shadow:inset 0 0 0 1px rgba(240,198,116,.4)}
+/* the class is in the raid but on a spec that cannot press this */
+.acwho.miss{justify-content:flex-start;color:var(--ink2)}
+.acwho.miss .no{font-size:.72rem;color:#e0525f;margin-right:2px}
+.acwho.miss .w{color:var(--ink2);background:none}
+
+/* ===================== THE GAP IS THE ANSWER ==========================
+ * Once a raid is loaded, a tool nobody can press is the single most useful
+ * thing on the page -- and in a grid that paints presence it is invisible,
+ * because it renders as an empty column. So the empty column is the one thing
+ * that gets painted: red header, red wash top to bottom.
+ *
+ * This is per COLUMN, deliberately. The classes you did not bring stay dimmed
+ * rather than highlighted: they are not a gap, they are reference, and there
+ * are twelve of them against your nine. Making absent CLASSES loud would bury
+ * the raid you actually have; making absent TOOLS loud is the question asked.
+ */
+.mx thead th.mxh.gapcol{color:#e0525f;
+  background:linear-gradient(rgba(224,82,95,.16),rgba(224,82,95,.16)),#0b0f14}
+.mx thead th.mxh.gapcol a{color:inherit}
+.mx thead th.mxh.gapcol::after{content:"nobody";display:block;font-size:.58rem;
+  letter-spacing:.1em;text-transform:uppercase;color:#e0525f;
+  font-weight:700;margin-top:2px}
+.mx tbody td.gapcol{background:rgba(224,82,95,.05)}
+.mx tbody td.mxv.gapcol{background:rgba(224,82,95,.09);
+  box-shadow:inset 0 0 0 1px rgba(224,82,95,.18)}
+
+/* who's here: drop a no-show, add a walk-in ---------------------------- */
+.rhedit-panel{flex-basis:100%;margin:2px 0 0;padding:9px 0 0;
+  border-top:1px solid var(--edge2);display:flex;flex-direction:column;gap:8px}
+.plrow{display:flex;flex-wrap:wrap;gap:4px}
+.plrow .none{color:var(--dim);font-size:.78rem}
+.pl{display:inline-flex;align-items:center;gap:5px;font-size:.74rem;
+  background:rgba(255,255,255,.03);box-shadow:inset 0 0 0 1px var(--edge);
+  padding:2px 2px 2px 6px}
+.pl img{border-radius:3px;flex:none}
+.pl b{color:var(--ink);font-weight:600}
+.pl em{font-style:normal;color:var(--ink2);font-size:.92em}
+/* a walk-in you typed in, so it reads as yours rather than as a signup */
+.pl.man{box-shadow:inset 0 0 0 1px rgba(126,214,239,.35)}
+.pl.man b{color:#7fd6ef}
+.pdrop{font:inherit;font-size:.95rem;line-height:1;cursor:pointer;
+  background:none;border:0;color:var(--dim);padding:1px 5px}
+.pdrop:hover{color:#e0525f}
+.paddrow{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.pbox{flex:0 1 290px}
+.pbox.pname{flex:0 1 170px}
+.pbox input{flex:1;min-width:0;font:inherit;font-size:.78rem;color:var(--ink);
+  background:none;border:0;outline:none;padding:6px 9px}
+.pbox input::placeholder{color:var(--dim)}
+.pbox input[aria-invalid]{color:#e0525f}
+.padd,.pundo,.rhedit{font:inherit;font-size:.74rem;cursor:pointer;
+  background:transparent;border:0;box-shadow:inset 0 0 0 1px var(--edge);
+  color:var(--ink2);padding:5px 12px}
+.padd:hover,.pundo:hover,.rhedit:hover{color:var(--bone);
+  box-shadow:inset 0 0 0 1px var(--bone)}
+
+/* the raid control, top row, left of the filter ------------------------
+   It belongs up here because it changes what every other number on the page
+   means. Loaded state is a pill naming the event, so "is tonight's raid
+   actually in?" is answered by looking rather than by remembering. */
+.rhslot{flex:0 1 auto;min-width:0;display:flex;align-items:center;order:0}
+/* [hidden] MUST WIN. `display:inline-flex` outranks the UA sheet's
+   `[hidden]{display:none}`, so this rendered as an empty purple stub on first
+   view and again the moment you cleared a raid -- the same collision that hit
+   .rhform, now fixed at the source for every control in this row. */
+.rhslot [hidden],.rhpill[hidden]{display:none !important}
+.rhpill{display:inline-flex;align-items:center;gap:7px;font-size:.78rem;
+  color:var(--ink);background:rgba(88,101,242,.12);
+  box-shadow:inset 0 0 0 1px rgba(88,101,242,.5);padding:4px 4px 4px 9px;
+  max-width:340px}
+.rhpill .dmark{color:#8b95f2;flex:none}
+/* Ellipsising to "ZG …" tells the reader nothing about which raid is loaded,
+   which is the pill's whole job. A floor of 92px keeps enough of the title to
+   recognise it; the row wraps before the name disappears. */
+.rhpill b{font-weight:600;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap;min-width:92px}
+.rhpill em{font-style:normal;color:var(--ink2);font-size:.9em;flex:none}
+.rhpill .rhclear{font:inherit;font-size:1rem;line-height:1;cursor:pointer;
+  background:none;border:0;box-shadow:none;color:var(--ink2);padding:0 5px}
+.rhpill .rhclear:hover{color:#e0525f;box-shadow:none}
+.rhopen{white-space:nowrap}
+
+/* Load tonight's raid: the primary action on this page ------------------
+   Everything else here reads a static table. This is the one control that
+   changes what the numbers mean, and as a hairline ghost button it looked
+   like the tertiary thing on the row. Filled, in the site's bone accent. */
+.rhopen{background:var(--bone);color:#0b0f14;font-weight:700;font-size:.78rem;
+  letter-spacing:.01em;padding:7px 15px;box-shadow:none;
+  transition:filter .12s,transform .06s}
+.rhopen:hover{filter:brightness(1.12);color:#0b0f14;box-shadow:none}
+.rhopen:active{transform:translateY(1px)}
+
+/* the "i" -- deliberately quiet next to it */
+.rhhelp{flex:none;width:22px;height:22px;padding:0;margin-left:7px;
+  font:inherit;font-size:.76rem;font-weight:700;font-style:italic;
+  line-height:1;cursor:pointer;background:none;border:0;border-radius:50%;
+  box-shadow:inset 0 0 0 1px var(--edge);color:var(--ink2)}
+.rhhelp:hover{color:var(--bone);box-shadow:inset 0 0 0 1px var(--bone)}
+
+/* how-to modal ---------------------------------------------------------- */
+body.rhlock{overflow:hidden}
+.rhmodal{position:fixed;inset:0;z-index:80;background:rgba(4,6,9,.78);
+  display:flex;align-items:flex-start;justify-content:center;
+  padding:clamp(14px,4vh,48px) 16px;overflow-y:auto}
+.rhmodal[hidden]{display:none}
+.rhsheet{position:relative;background:#0b0f14;max-width:760px;width:100%;
+  box-shadow:0 0 0 1px var(--edge),0 30px 80px -20px #000;
+  padding:26px clamp(18px,3vw,32px) 28px}
+.rhx{position:absolute;top:10px;right:12px;font:inherit;font-size:1.5rem;
+  line-height:1;cursor:pointer;background:none;border:0;color:var(--ink2);
+  padding:4px 9px}
+.rhx:hover{color:var(--ink)}
+.rhsheet h2{margin:0 0 6px;font-size:1.25rem}
+.rhlede{margin:0 0 20px;color:var(--ink2);font-size:.92rem;line-height:1.5}
+.rhsteps{list-style:none;margin:0;padding:0;display:flex;
+  flex-direction:column;gap:22px;counter-reset:s}
+.rhsteps li{display:flex;gap:14px;align-items:flex-start}
+.rhsteps li>b{flex:none;width:24px;height:24px;border-radius:50%;
+  background:var(--bone);color:#0b0f14;font-size:.8rem;font-weight:700;
+  display:flex;align-items:center;justify-content:center;margin-top:2px}
+.rhsteps li>div{min-width:0;flex:1}
+.rhsteps p{margin:0 0 9px;font-size:.9rem;line-height:1.5;color:var(--ink)}
+.rhsteps p b{color:var(--bone);font-weight:600}
+.rhsteps p i{font-style:normal;color:var(--ink2)}
+/* The screenshots carry their own highlight boxes, so they need to be big
+   enough to read the highlighted control and no bigger. */
+.rhsteps img{display:block;max-width:100%;height:auto;
+  box-shadow:0 0 0 1px var(--edge)}
+.rhsteps li:first-child img{max-width:330px}
+/* Sized by how much detail each shot actually has to carry: the Discord post
+   only needs its Web View link readable, the interstitial is two buttons, and
+   the address bar is the one that genuinely wants width. */
+.rhsteps li:nth-child(2) img{max-width:470px}
+.rhfoot{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--edge);
+  color:var(--ink2);font-size:.84rem;line-height:1.6}
+.rhfoot code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
+  padding:1px 6px;font-size:.92em;color:var(--ink)}
+@media (max-width:640px){
+  .rhsteps li{flex-direction:column;gap:8px}
+  .rhsteps li:first-child img,.rhsteps li:nth-child(2) img{max-width:100%}
+}
+
+/* poll state on the pill --------------------------------------------------
+   A page that refetches on its own owes the reader a way to tell fresh from
+   stale, otherwise a comp from an hour ago looks exactly like a live one. */
+.rhage{color:var(--dim);font-size:.82em;flex:none}
+.rhrefresh{font:inherit;font-size:.9rem;line-height:1;cursor:pointer;
+  background:none;border:0;box-shadow:none;color:var(--ink2);padding:0 4px}
+.rhrefresh:hover{color:var(--bone);box-shadow:none}
+.rhpill.busy .rhrefresh{opacity:.45;animation:rhspin 1s linear infinite}
+@keyframes rhspin{to{transform:rotate(360deg)}}
+/* a background poll that failed: the roster on screen is the last GOOD one,
+   which is right, but it must not pass itself off as current */
+.rhpill.stale{box-shadow:inset 0 0 0 1px rgba(240,198,116,.6);
+  background:rgba(240,198,116,.1)}
+.rhpill.stale .rhage{color:#f0c674}
+.rhpill.stale .rhage::after{content:" — refresh failed"}
+@media (prefers-reduced-motion:reduce){
+  .rhpill.busy .rhrefresh{animation:none}
+}
+
+/* Not in tonight's raid ---------------------------------------------------
+   Ranked DOWN, not hidden. `order` works on grid items, so the list needs no
+   re-sorting in JS: yours stay at the top in their existing cooldown order and
+   everyone else's fall below in theirs. A raid lead asking "who could we swap
+   in for a soothe" is asking about exactly these rows, so hiding them answered
+   the wrong question. */
+li.ab{order:1}
+li.ab.notmine{order:2;opacity:.42}
+li.ab.notmine:hover{opacity:.85}
+/* one rule so the eye knows where the raid stops and the rest of the game
+   starts, without a heading that would need its own DOM node */
+body.mypick li.ab.notmine:first-of-type{box-shadow:inset 0 2px 0 var(--edge2)}
+
+/* the spec column ------------------------------------------------------- */
+.abspec{grid-area:spec;font-size:.78rem;color:var(--bone);font-weight:600;
+  line-height:1.25;overflow-wrap:anywhere}
+/* `every spec` is the common case -- 70 of the 103 rows -- so it recedes and
+   the column is scanned for the exceptions, which is the whole point of it */
+.abspec.gen{color:var(--dim);font-weight:400}
+.abhead .abspec{color:var(--bone);font-weight:700}
+
+/* who in tonight's raid brings it -------------------------------------- */
+.abwho{grid-area:who;display:none;flex-wrap:wrap;gap:3px;align-items:center;
+  justify-content:flex-end;max-width:280px}
+body.mypick .ablist:not(.tight) .abwho{display:flex}
+.abwho i{font-style:normal;font-size:.7rem;color:var(--ink);
+  background:rgba(255,255,255,.04);box-shadow:inset 0 0 0 1px var(--edge);
+  padding:2px 6px 2px 4px;display:inline-flex;align-items:center;gap:4px;
+  white-space:nowrap}
+.abwho i img{border-radius:3px;flex:none}
+/* spec never resolved: in the raid, but which spec is a guess */
+.abwho i.q{color:#f0c674;box-shadow:inset 0 0 0 1px rgba(240,198,116,.4)}
+.abhead .abwho{font-size:.72rem;color:var(--bone);font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;justify-content:flex-end}
+
+@media (max-width:1080px){
+  /* the who column is the first thing to go: it is an enrichment, and the
+     class / spec / ability triple is the row's actual content */
+  body.mypick .ablist:not(.tight) .ab{
+    grid-template-columns:minmax(130px,168px) minmax(74px,104px) minmax(0,1fr) auto;
+    grid-template-areas:"cls spec name nums" "cls spec who who" "cls spec desc desc"}
+  .abwho{justify-content:flex-start;max-width:none}
+}
+@media (max-width:900px){
+  .ab{grid-template-columns:minmax(0,1fr);
+      grid-template-areas:"cls" "spec" "name" "who" "nums" "desc"}
+  body.mypick .ablist:not(.tight) .ab{grid-template-columns:minmax(0,1fr);
+      grid-template-areas:"cls" "spec" "name" "who" "nums" "desc"}
+  .abwho{justify-content:flex-start;max-width:none}
+}
+
+/* "unverified" now has two strengths, because they are not the same claim:
+   no ART on the spell database, versus no RECORD of the spell there at all.
+   The second is the stronger doubt and still not proof -- three spells in that
+   state have been confirmed in game by hand. */
+.chip.unv2{color:#e0a24a;box-shadow:inset 0 0 0 1px rgba(224,162,74,.45)}

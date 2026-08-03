@@ -1,0 +1,59 @@
+{
+ "_note": [
+  "Spell NAMES where db.exil.es and db.ascension.gg disagree, after stripping",
+  "aowow's leading quality byte (^[@0-9]) from the Ascension name.",
+  "",
+  "4 of 3,038 shared ids -- 0.13%. NONE of them appears in the raid-utility",
+  "tables, so nothing on that page is affected today and nothing has been",
+  "changed. This file exists so the disagreements are not lost: they touch the",
+  "class packs, and one of them touches a classifier.",
+  "",
+  "THE MERGE RULE IS UNCHANGED: db.exil.es wins on names. The two databases",
+  "are different snapshots of the same TrinityCore tables and where they",
+  "disagree there is no way to tell which is newer from outside. Resolving one",
+  "means logging in and looking at it.",
+  "",
+  "Resolve an entry by deleting it and recording the answer wherever the name",
+  "actually lives -- resources/abilities-<class>.md for a reviewed class."
+ ],
+ "_checked": "2026-08-03",
+ "_affects_raid_utility": false,
+ "spells": {
+  "560546": {
+   "exiles": "Demon King",
+   "ascension": "Imp Aura",
+   "verdict": "keep-exiles",
+   "why": "Tooltips are substantively identical (Hellfire Imp, 1% magic damage taken). 'Imp Aura' has the shape of an internal aura-spell label for a passive rather than a talent name.",
+   "in_raid_utility": false,
+   "cooldown_ms_exiles": 0,
+   "cooldown_ms_ascension": null
+  },
+  "560977": {
+   "exiles": "Twilight Horror",
+   "ascension": "Dark Whispers",
+   "verdict": "unresolved",
+   "why": "Main sentence is byte-identical. Ascension's extra text is only the inlined `Inspired Malice` buff tooltip -- a rendering difference, not evidence of a newer build.",
+   "in_raid_utility": false,
+   "cooldown_ms_exiles": 0,
+   "cooldown_ms_ascension": null
+  },
+  "804630": {
+   "exiles": "Herald of Dawn",
+   "ascension": "Adjudication",
+   "verdict": "lean-ascension",
+   "why": "Ascension's MAIN sentence carries extra effect content ('and launch a Solar Flare at the target', plus a Solar Flare block) that db.exil.es lacks. A content difference, not a rendering one -- so Ascension may be the newer snapshot.",
+   "in_raid_utility": false,
+   "cooldown_ms_exiles": 0,
+   "cooldown_ms_ascension": null
+  },
+  "804811": {
+   "exiles": "Monstrous Howl",
+   "ascension": "Monstrous Hunger",
+   "verdict": "unresolved-priority",
+   "why": "The ONLY id disagreeing on both name and cooldown (40s vs 45s), and the only one Ascension resolves as mechanic:Enraged / dispel:Enrage. That bears on the tranq classifier, which keys off `effect_id 38` with `misc_value 9`. Check this one first.",
+   "in_raid_utility": false,
+   "cooldown_ms_exiles": 40000,
+   "cooldown_ms_ascension": 45000
+  }
+ }
+}

@@ -1,8 +1,8 @@
 {
- "_comment": "Spell ids with NO icon on db.ascension.gg. A CoA ability with no art is very likely not actually in the game -- unimplemented, cut, or a leftover database row. Treat every id here as suspect until someone logs in and looks.",
+ "_comment": "Spell ids with NO icon on db.ascension.gg. A CoA ability with no art MAY be unimplemented, cut, or a leftover database row -- but the sample says treat that as a reason to check, never as a verdict: of six flagged interrupts that were checked in game, five were real.",
  "_method": "tools/fetch_spell_icons.py harvests the `g_spells` map from each db.ascension.gg spell page; that map carries art for every spell a page references, so an id still unresolved after its own page was fetched has none. Checked only the abilities that appear in notes/raid-utility.md.",
  "_refresh": "Re-run the check in tools/utility_tables.py --icons, then re-run the generator. Confirmed-in-game ids should be DELETED from `ids` with a note in `confirmed_present`.",
- "_checked": "2026-08-02",
+ "_checked": "2026-08-02; cross-checked against db.ascension.gg 2026-08-03",
  "_scope": "126 raid-utility abilities checked, 26 without art",
  "confirmed_present": {
   "560471": "Hellgaze, Knight of Xoroth -- has no icon on db.ascension.gg but IS in the game",
@@ -36,5 +36,23 @@
  "_confirmed_note": "Checked in game 2026-08-02. Of the six interrupts flagged for having no icon, five ARE present and only Wrist Snap is not -- so a missing icon is a HINT, roughly 1-in-6 here, not a verdict.",
  "confirmed_absent": {
   "800383": "Wrist Snap, Barbarian -- confirmed NOT in the game 2026-08-02"
+ },
+ "_two_signals": "There are now TWO independent signals and they are not the same thing. `ids` below means NO ART on db.ascension.gg. `absent_from_ascension` means that database has no record of the spell AT ALL -- the 43-byte `registerSpell(id, 0, {})` response -- which is the stronger of the two. A spell can have a record and no art (12 of these do), which is much weaker evidence than having no record. Note that HTTP 404 on a spell page is NOT absence: 23 ids 404 and 11 of them return complete data from the tooltip endpoint.",
+ "_absence_is_not_proof": "Three ids are absent from db.ascension.gg entirely AND confirmed in game by a person on 2026-08-02: 500148 Solar Burn, 560470 Distracto Shot, 560471 Hellgaze. So even the stronger signal is a hint. Nothing here justifies removing a row; only `confirmed_absent` does, and that requires somebody logging in.",
+ "absent_from_ascension": {
+  "500148": "Solar Burn, Sun Cleric -- ALSO absent here, and still confirmed in game. Proof that absence is a hint.",
+  "520232": "Venomancer - Poison Eruption (stun) -- and no record here either (both signals)",
+  "560470": "Distracto Shot, Tinker -- ALSO absent here, and still confirmed in game. Proof that absence is a hint.",
+  "560471": "Hellgaze, Knight of Xoroth -- ALSO absent here, and still confirmed in game. Proof that absence is a hint.",
+  "572307": "Primalist - Neutralizing Touch (purge) -- and no record here either (both signals)",
+  "572308": "Templar - Righteous Reprimand (purge) -- and no record here either (both signals)",
+  "680571": "NOT previously flagged -- no record on db.ascension.gg, worth an in-game look",
+  "800383": "confirmed absent in game; this database agrees",
+  "800582": "Tinker - Hydraulic Charge (root) -- and no record here either (both signals)",
+  "801846": "Stormbringer - Exhale (root) -- and no record here either (both signals)",
+  "802869": "Bloodmage - Pursuit (stun) -- and no record here either (both signals)",
+  "803327": "Bloodmage - Siphon (spellsteal) -- and no record here either (both signals)",
+  "805497": "NOT previously flagged -- no record on db.ascension.gg, worth an in-game look",
+  "806342": "Ranger - Whipvine Arrow (root) -- and no record here either (both signals)"
  }
 }

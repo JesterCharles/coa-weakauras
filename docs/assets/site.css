@@ -434,3 +434,18 @@ body.gated > footer{filter:blur(7px);pointer-events:none;user-select:none}
 .gatebox.bad input{border-color:#e06c6c}
 .gatenote{font-size:.72rem !important;color:var(--dim) !important;
   margin:0 0 6px !important}
+
+/* Page name, centred in the header ---------------------------------------
+   Only the raid-utility page asks for this (mksite `header_title`). That page
+   is locked to one screen and its <h1> was sharing a row with eleven tabs, a
+   filter and the raid control; the header had dead space in the middle and the
+   row did not. Absolutely positioned so it centres on the HEADER rather than
+   on whatever is left between the brand and the nav, and pointer-events:none
+   so it can never sit on top of a link. */
+header.site.haspt{position:relative}
+header.site .ptitle{position:absolute;left:50%;top:50%;
+  transform:translate(-50%,-50%);font-weight:600;font-size:1rem;
+  color:var(--ink);white-space:nowrap;pointer-events:none;letter-spacing:.01em}
+/* Below this the brand and the nav need the whole bar, and a centred title
+   would land on top of one of them. */
+@media (max-width:720px){header.site .ptitle{display:none}}
