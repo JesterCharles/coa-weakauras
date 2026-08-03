@@ -197,32 +197,34 @@
     return out;
   }
 
-  /* Below 700px of viewport height the covered tools fold away and only the
-   * gaps stay -- see the CSS. The control is built here rather than emitted by
-   * the generator because it does nothing without JS, and a dead disclosure
-   * that will not open is worse than no disclosure at all. */
-  var covToggle = null;
-  if (covSum && covSum.parentNode) {
-    covToggle = document.createElement("button");
-    covToggle.className = "covtoggle";
-    covToggle.type = "button";
-    covToggle.setAttribute("aria-expanded", "false");
-    covToggle.addEventListener("click", function () {
-      var open = covSum.parentNode.classList.toggle("covopen");
-      covToggle.setAttribute("aria-expanded", open ? "true" : "false");
-      drawCovToggle();
+  /* The filter collapses to an icon on a phone: useful, but not what anyone
+   * opens this page for, and the row it sits in is the one piece of chrome
+   * that stays on screen. Built here rather than emitted by the generator
+   * because the filter itself does nothing without JS -- the noscript block
+   * already hides #fbox -- and a control that cannot open is worse than none.
+   */
+  (function () {
+    // #fbox, NOT ".ovtop .editbox" -- there are two .editbox elements in this
+    // row and the first one is the raid-id field inside .rhform. Matching that
+    // one made insertBefore throw against a node that is not .ovtools' child,
+    // which killed the whole script: no raid loading, no coverage, no clear
+    // button. One wrong selector, silently, for everything below it.
+    var box = document.getElementById("fbox");
+    var tools = document.querySelector(".ovtools");
+    if (!box || !tools) return;
+    var t = document.createElement("button");
+    t.className = "qtoggle";
+    t.type = "button";
+    t.setAttribute("aria-label", "Search abilities");
+    t.setAttribute("aria-expanded", "false");
+    t.textContent = "\u2315";
+    t.addEventListener("click", function () {
+      var open = document.body.classList.toggle("qopen");
+      t.setAttribute("aria-expanded", open ? "true" : "false");
+      if (open) { var f = document.getElementById("uq"); if (f) f.focus(); }
     });
-    covSum.parentNode.appendChild(covToggle);
-  }
-  function drawCovToggle() {
-    if (!covToggle) return;
-    var open = covSum.parentNode.classList.contains("covopen");
-    var n = covRows.filter(function (r) {
-      return !r.classList.contains("gap");
-    }).length;
-    covToggle.textContent = open ? "hide the tool list"
-      : "all " + covRows.length + " tools";
-  }
+    tools.insertBefore(t, box);
+  }());
 
   function drawCov() {
     if (!covRows.length) return;
@@ -257,7 +259,6 @@
         who.appendChild(more);
       }
     });
-    drawCovToggle();
     if (!covSum) return;
     var txt = $(".covsumtxt", covSum);
     covSum.classList.toggle("ok", !!cover && !open);

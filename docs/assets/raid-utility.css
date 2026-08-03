@@ -1345,7 +1345,25 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
      reads t.firstChild.textContent, and apply() writes the badges. It also
      takes the orphaned role="tablist" out of the accessibility tree, so there
      is no tablist left telling a screen reader a lie about what it is. */
-  .tabs{display:none}
+  /* ONE ROW, SIDE-SCROLLING. Fourteen tabs wrap to six rows and 215px at
+     390px wide, which is a quarter of the screen spent on navigation before
+     the reader sees anything. A scroller costs 48. It does hide ~10 of 14
+     behind a swipe -- acceptable for navigation, which this now is, and NOT
+     acceptable back when this strip was also the only place a coverage gap
+     was reported. The gap report moved to .cov above; this moved back to
+     being tabs.
+     scroll-snap so a flick lands on a tab rather than between two, and a mask
+     fade on the right edge so the overflow is VISIBLE instead of implied --
+     an affordance the page never offered is how six columns went missing from
+     the matrix, and it is not a mistake worth making twice. */
+  .tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    gap:6px;margin:0 0 8px;padding:0 0 6px;
+    scroll-snap-type:x proximity;overscroll-behavior-x:contain;
+    scrollbar-width:none;
+    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);
+    mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex:none;scroll-snap-align:start;min-height:44px}
 
   /* The pill and the filter are the status line, and it is the one thing that
      sticks. Not the site header (it is position:relative on this page and
@@ -1355,9 +1373,19 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
      of scrolling -- silently. */
   .ovtop{display:contents}
   .ovtools{position:sticky;top:0;z-index:50;display:flex;align-items:center;
-    gap:8px;margin:0 0 8px;padding:6px 0;min-height:44px;
+    flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:6px 0;min-height:44px;
     background:var(--void);box-shadow:0 1px 0 var(--edge)}
-  .ovtop .editbox{flex:1 1 auto;min-width:0}
+  /* The filter is genuinely useful on a phone and it is not what you land
+     for, so it costs an icon until it is asked for. Expanded it takes the
+     whole row and the tab strip sits under it. */
+  .qtoggle{display:inline-flex;align-items:center;justify-content:center;
+    flex:none;width:44px;height:44px;padding:0;font:inherit;font-size:1rem;
+    background:none;border:0;box-shadow:inset 0 0 0 1px var(--edge);
+    color:var(--ink2);cursor:pointer}
+  .qtoggle:hover{color:var(--bone);box-shadow:inset 0 0 0 1px var(--bone)}
+  .ovtop .editbox{display:none}
+  body.qopen .ovtop .editbox{display:flex;flex:1 1 100%;min-width:0;order:9}
+  body.qopen .qtoggle{color:var(--bone);box-shadow:inset 0 0 0 1px var(--bone)}
 
   /* The roster is context, not the answer, and it was costing 387px at 390
      wide and 441px at 320 -- 46 and 78 per cent of the viewport -- to list
@@ -1381,32 +1409,23 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
 }
 
 
-/* SHORT VIEWPORTS: the tool index folds, the answer does not.
+/* .cov IS THE GAP REPORT, NOT A TOOL INDEX.
  *
- * On a 568px SE or a phone held sideways, the eleven-cell index costs 322px --
- * 57 per cent of the screen -- to list tools you are not missing, and it pushes
- * the grid past the fold. So below 700px of height the covered tools fold into
- * the summary line and the gaps stay exactly where they are.
+ * It briefly carried all eleven tools as the mobile navigation, folded behind
+ * an "all 11 tools" disclosure. Two things were wrong with that. The label did
+ * not say what it held -- those eleven ARE the tabs, and calling them
+ * something else made the reader learn a second name for one thing. And it
+ * spent the top of the screen on tools the raid is NOT missing.
  *
- * This is not the scroller the tab strip was rejected for. That hid ten of
- * fourteen behind an affordance the page never offered, WHILE being the only
- * surface carrying the coverage answer. Here the answer is the gap rows above,
- * which never fold; what folds is navigation, behind one labelled control that
- * says how many it is holding. Hiding navigation is fine. Hiding the answer is
- * not, and this does not.
+ * So navigation went back to the tab strip, where it was always legible, and
+ * this block kept the one job the strip cannot do: the strip's badges are
+ * multiplexed by apply() -- an active filter replaces coverage with hit counts
+ * and suppresses every .nocover flag -- so a gap shown there has a state where
+ * it lies. Here it does not.
  */
 @media (max-width:720px),(max-height:759px){
-  .cov:not(.covopen) .covrow:not(.gap){display:none}
-  .covtoggle{flex:1 1 100%;order:3;min-height:44px;display:flex;
-    align-items:center;gap:6px;padding:0 2px;background:none;border:0;
-    font:inherit;font-size:.75rem;color:var(--ink2);cursor:pointer;
-    text-align:left}
-  .covtoggle:hover{color:var(--bone)}
-  .covtoggle::after{content:"▾";font-size:.8em}
-  .cov.covopen .covtoggle::after{content:"▴"}
+  .covrow:not(.gap){display:none}
 }
-.covtoggle{display:none}
-@media (max-width:720px),(max-height:759px){ .cov .covtoggle{display:flex} }
 
 
 /* THE TOUCH SHEET ---------------------------------------------------------
@@ -1460,6 +1479,18 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
     justify-content:center}
   .pdrop{min-width:44px;min-height:44px;padding:0;display:inline-flex;
     align-items:center;justify-content:center}
+  /* THE FLOOR HAS TO GROW WITH THE BUTTONS.
+     .rhpill has min-width:118px and overflow:hidden, and that floor was sized
+     for a 16px clear and a 16px refresh. Making them 44px each pushed both
+     past the pill's own right edge, where overflow:hidden clipped them and
+     .rhhelp sat on top and swallowed the press -- the identical failure the
+     "children must shrink, not escape" comment above documents, re-created
+     from the other end. A control that is 44px and unclickable is worse than
+     one that is 16px and works, so the floor moves with them.
+     Measured at 320px: mark 14 + title + clear 44 + refresh 44 + three 7px
+     gaps + 13px padding. .ovtools wraps so the pill can take its own line
+     rather than squeezing the filter off the row. */
+  .rhpill{min-width:198px}
   .rhcancel,.rhclear,.rhrefresh,.rhhelp,.rhx,#uclear,.padd,.pundo,.rhedit{
     min-width:44px;min-height:44px;display:inline-flex;align-items:center;
     justify-content:center;padding-left:8px;padding-right:8px}

@@ -181,7 +181,11 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
   </a>
   {f'<span class="ptitle">{html.escape(header_title)}</span>' if header_title else ''}
   <nav>
-    <a href="{up}index.html">Classes</a>
+    <!-- Classes is OFF THE NAV on purpose: the WeakAuras packs page is not
+         ready to be shown yet. This hides the signpost, it does not gate the
+         page -- index.html still builds, still deploys, and .brand above still
+         links to it. If it must be genuinely unreachable it needs the gate,
+         not a missing nav item. -->
     <a href="{up}raid-utility.html">Raid utility</a>
     <a href="{REPO}">GitHub</a>
   </nav>

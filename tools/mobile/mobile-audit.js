@@ -97,8 +97,20 @@ const probe = () => {
     return b.bottom + window.scrollY > document.documentElement.scrollHeight + 1;
   }).length;
 
-  // A2 — anything poking past the right edge
-  const overRight = $$('*').filter(e => R(e).right > vw + 1).length;
+  // A2 — anything poking past the right edge OF THE PAGE.
+  // Content parked off-screen inside a deliberate horizontal scroller is not
+  // that: the tab strip is a side-scroller by design and ~10 of its 14 tabs
+  // are meant to be out of view until you swipe. Flagging them would make the
+  // assertion fire on its own feature. Document-level horizontal overflow is
+  // still caught, by A1.
+  const inXScroller = e => {
+    for (let n = e.parentElement; n; n = n.parentElement) {
+      const o = cs(n).overflowX;
+      if (o === 'auto' || o === 'scroll') return true;
+    }
+    return false;
+  };
+  const overRight = $$('*').filter(e => R(e).right > vw + 1 && !inXScroller(e)).length;
 
   // A20 — replacement chars anywhere in rendered text
   const uFFFD = (() => {
@@ -159,6 +171,19 @@ const probe = () => {
       const b = R(e); return b.height >= 44 && b.width >= 44; }).length, 0),
     tapTotalUnder44: under44('button,a,input,summary,[role=button]'),
 
+    // A23 -- HIT-TEST, DO NOT LOOK. Every control in the raid pill row must be
+    // the thing the finger actually lands on. These have escaped the pill and
+    // been swallowed by whatever painted over them TWICE now: once when a
+    // fixed title floor stopped the contents shrinking, and again when 44px
+    // tap targets outgrew the floor that fix installed. Both times they were
+    // on screen, correctly sized, and completely dead. Geometry cannot see it.
+    pillRowBlocked: ['.rhclear', '.rhrefresh', '.rhhelp'].filter(sel => {
+      const e = $(sel); if (!e) return false;
+      const b = R(e); if (b.width === 0 || b.height === 0) return false;
+      const at = document.elementFromPoint(b.x + b.width / 2, b.y + b.height / 2);
+      return !(at === e || e.contains(at));
+    }),
+
     abcardDisplay: $('.abcard') ? cs($('.abcard')).display : 'absent',
     sheetPresent: !!$('.absheet'),
     hoverNone: matchMedia('(hover:none)').matches,
@@ -187,6 +212,8 @@ function assess(c, p, sticky) {
   add('A12 scrollers focusable', p.unfocusableScrollers.length === 0, p.unfocusableScrollers.join(',') || 'ok');
   add('A22 #matrix anchor',      p.matrixAnchor, p.matrixAnchor ? 'ok' : 'missing');
   add('A20 no U+FFFD',           p.uFFFD === 0, `${p.uFFFD} nodes`);
+  add('A23 pill row clickable',  p.pillRowBlocked.length === 0,
+      p.pillRowBlocked.length ? `blocked: ${p.pillRowBlocked.join(',')}` : 'ok');
 
   if (mode === 'scroll') {
     add('A3  document scrolls',  p.bodyOverflow !== 'hidden' && p.docScrollH > p.vh + 40,

@@ -662,7 +662,7 @@ def render():
         pend = ' data-allunv="1"' if n and not conf.get(cat, 0) else ""
         A(f'<li class="covrow b-{BAND_OF[cat]}" data-cat="{cat}"'
           f' data-classes="{n}"{pend}>'
-          f'<a class="covlink" href="#panel-{cat}" data-panel="{cat}">'
+          f'<a class="covlink" href="#{cat}" data-panel="{cat}">'
           f'<span class="covname">{esc(LONG[cat])}</span>'
           f'<span class="covnum">{n}</span>'
           f'<span class="covwho">{n} of {N} classes</span></a></li>')

@@ -40,7 +40,11 @@
   </a>
   <span class="ptitle">Raid utility</span>
   <nav>
-    <a href="index.html">Classes</a>
+    <!-- Classes is OFF THE NAV on purpose: the WeakAuras packs page is not
+         ready to be shown yet. This hides the signpost, it does not gate the
+         page -- index.html still builds, still deploys, and .brand above still
+         links to it. If it must be genuinely unreachable it needs the gate,
+         not a missing nav item. -->
     <a href="raid-utility.html">Raid utility</a>
     <a href="https://github.com/JesterCharles/coa-weakauras">GitHub</a>
   </nav>
@@ -88,17 +92,17 @@
 <div class="ovbody">
 <section class="panel on" id="panel-overview">
 <ul class="cov" aria-label="Tool coverage" hidden>
-<li class="covrow b-tools" data-cat="tranq" data-classes="3"><a class="covlink" href="#panel-tranq" data-panel="tranq"><span class="covname">Soothe</span><span class="covnum">3</span><span class="covwho">3 of 21 classes</span></a></li>
-<li class="covrow b-tools" data-cat="spellsteal" data-classes="3"><a class="covlink" href="#panel-spellsteal" data-panel="spellsteal"><span class="covname">Spellsteal</span><span class="covnum">3</span><span class="covwho">3 of 21 classes</span></a></li>
-<li class="covrow b-tools" data-cat="rez" data-classes="5"><a class="covlink" href="#panel-rez" data-panel="rez"><span class="covname">Battle rez</span><span class="covnum">5</span><span class="covwho">5 of 21 classes</span></a></li>
-<li class="covrow b-tools" data-cat="purge" data-classes="7"><a class="covlink" href="#panel-purge" data-panel="purge"><span class="covname">Purge</span><span class="covnum">7</span><span class="covwho">7 of 21 classes</span></a></li>
-<li class="covrow b-tools" data-cat="raid_dr_passive" data-classes="8"><a class="covlink" href="#panel-raid_dr_passive" data-panel="raid_dr_passive"><span class="covname">Raid DR (passive)</span><span class="covnum">8</span><span class="covwho">8 of 21 classes</span></a></li>
-<li class="covrow b-stop" data-cat="silence" data-classes="8"><a class="covlink" href="#panel-silence" data-panel="silence"><span class="covname">Silence</span><span class="covnum">8</span><span class="covwho">8 of 21 classes</span></a></li>
-<li class="covrow b-tools" data-cat="raid_dr" data-classes="13"><a class="covlink" href="#panel-raid_dr" data-panel="raid_dr"><span class="covname">Raid DR (active)</span><span class="covnum">13</span><span class="covwho">13 of 21 classes</span></a></li>
-<li class="covrow b-stop" data-cat="interrupt" data-classes="16"><a class="covlink" href="#panel-interrupt" data-panel="interrupt"><span class="covname">Interrupt</span><span class="covnum">16</span><span class="covwho">16 of 21 classes</span></a></li>
-<li class="covrow b-tools" data-cat="raid_dmg" data-classes="16"><a class="covlink" href="#panel-raid_dmg" data-panel="raid_dmg"><span class="covname">Raid damage (active)</span><span class="covnum">16</span><span class="covwho">16 of 21 classes</span></a></li>
-<li class="covrow b-trash" data-cat="root" data-classes="12"><a class="covlink" href="#panel-root" data-panel="root"><span class="covname">Root</span><span class="covnum">12</span><span class="covwho">12 of 21 classes</span></a></li>
-<li class="covrow b-trash" data-cat="stun" data-classes="12"><a class="covlink" href="#panel-stun" data-panel="stun"><span class="covname">Stun</span><span class="covnum">12</span><span class="covwho">12 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="tranq" data-classes="3"><a class="covlink" href="#tranq" data-panel="tranq"><span class="covname">Soothe</span><span class="covnum">3</span><span class="covwho">3 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="spellsteal" data-classes="3"><a class="covlink" href="#spellsteal" data-panel="spellsteal"><span class="covname">Spellsteal</span><span class="covnum">3</span><span class="covwho">3 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="rez" data-classes="5"><a class="covlink" href="#rez" data-panel="rez"><span class="covname">Battle rez</span><span class="covnum">5</span><span class="covwho">5 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="purge" data-classes="7"><a class="covlink" href="#purge" data-panel="purge"><span class="covname">Purge</span><span class="covnum">7</span><span class="covwho">7 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="raid_dr_passive" data-classes="8"><a class="covlink" href="#raid_dr_passive" data-panel="raid_dr_passive"><span class="covname">Raid DR (passive)</span><span class="covnum">8</span><span class="covwho">8 of 21 classes</span></a></li>
+<li class="covrow b-stop" data-cat="silence" data-classes="8"><a class="covlink" href="#silence" data-panel="silence"><span class="covname">Silence</span><span class="covnum">8</span><span class="covwho">8 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="raid_dr" data-classes="13"><a class="covlink" href="#raid_dr" data-panel="raid_dr"><span class="covname">Raid DR (active)</span><span class="covnum">13</span><span class="covwho">13 of 21 classes</span></a></li>
+<li class="covrow b-stop" data-cat="interrupt" data-classes="16"><a class="covlink" href="#interrupt" data-panel="interrupt"><span class="covname">Interrupt</span><span class="covnum">16</span><span class="covwho">16 of 21 classes</span></a></li>
+<li class="covrow b-tools" data-cat="raid_dmg" data-classes="16"><a class="covlink" href="#raid_dmg" data-panel="raid_dmg"><span class="covname">Raid damage (active)</span><span class="covnum">16</span><span class="covwho">16 of 21 classes</span></a></li>
+<li class="covrow b-trash" data-cat="root" data-classes="12"><a class="covlink" href="#root" data-panel="root"><span class="covname">Root</span><span class="covnum">12</span><span class="covwho">12 of 21 classes</span></a></li>
+<li class="covrow b-trash" data-cat="stun" data-classes="12"><a class="covlink" href="#stun" data-panel="stun"><span class="covname">Stun</span><span class="covnum">12</span><span class="covwho">12 of 21 classes</span></a></li>
 <li class="covsum" data-tools="11"><span class="covsumtxt">11 tools &middot; load tonight&rsquo;s raid to see what it is missing</span></li>
 </ul>
 <p class="mxlegend"><span><i class="k v">14s</i>shortest cooldown</span><span><i class="k v">&mdash;</i>no cooldown</span><span><i class="k v"><b class="spn">Sanguine</b></i>only that spec has it</span><span><i class="k t">t</i>costs a talent point</span><span><i class="k p">+1</i>brings another</span><span><i class="k unv">14s?</i>unverified in game</span><span><i class="k pend">14s!</i>in-game verification in process</span><span><i class="k petk">14s<b>p</b></i>a pet does it, not the class</span><span><i class="k x">&nbsp;</i>blank = does not bring it</span></p>
