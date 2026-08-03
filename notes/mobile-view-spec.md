@@ -543,6 +543,74 @@ Each step ends green before the next starts.
 
 ---
 
+## 8a. As built — where the implementation departed from this spec
+
+Five changes, all forced by measurement rather than preference. Each was verified
+before and after.
+
+1. **The tool index folds by default, not only on short viewports.** The spec had
+   `.cov` showing all 11 tools as the navigation. Measured, that block costs 275-322px
+   on a phone, which pushed the class cards past the fold and cost the first screen two
+   of its three cards. It now renders gap rows (never folded) plus a 44px
+   `all 11 tools` disclosure, and opens on tap. This is not the scroller the tab strip
+   was rejected for: that hid ten of fourteen *while being the only surface carrying the
+   coverage answer*. Here the answer is the gap rows, which never fold; what folds is
+   navigation, behind one labelled control that says how many it holds.
+
+2. **`.cov` is written by `recount()`, not `apply()`.** The spec said "apply() writes
+   the ledger in the same loop". Writing it from `recount()` is strictly better: the
+   filter calls `apply()` and never `recount()`, so the search-over-coverage
+   multiplexing cannot reach the answer block **by construction** rather than by
+   discipline. Risk 2 is closed structurally.
+
+3. **A5 is tiered.** The flat "first card fully visible AND ≥3 card tops" is not
+   achievable on every viewport, and pretending otherwise would have meant relaxing it
+   quietly. The hard bar — first class card fully visible at scrollY 0 — is asserted
+   wherever the viewport is ≥600px tall. "Three card tops" became **A5r**, asserted at
+   the default text size on viewports ≥760px tall, which covers both devices the owner
+   named. Below 600px tall (landscape phone, short splits) the contract is A3 + A6:
+   the page scrolls and the cards are reachable. A 390px-tall viewport spends 54px on
+   the site header and 44 on the status line before the answer block, and the answer
+   block is the thing worth having there.
+
+4. **Grid chips are 44px and the index folds to pay for it.** These trade against each
+   other directly: 44px chips add ~28px per class card. Folding the index gives back
+   ~145px, the cards take ~28, and the first screen still shows three. Measured, not
+   assumed.
+
+5. **The card-mode container is `#panel-overview`, not `.mxwrap`.** An element cannot
+   query its own container, and `.mxwrap` needs styling inside the query. Same inline
+   size — the panel has no horizontal padding. `.abcard` is appended to `document.body`,
+   so the containment does not capture it.
+
+### Measured outcome
+
+| | before | after |
+|---|---|---|
+| iPhone 13 portrait, grid height | **0px** | **3930px** |
+| iPhone 13 portrait, chrome | 738px | **186px** |
+| iPhone 13 at 162% text, chrome | 1103px | **187px** |
+| iPhone 13 **landscape**, form | matrix, 0px, 1040px sideways scroll | **cards, 2634px** |
+| iPhone SE 320x568, controls unreachable | ~220px amputated | **0** |
+| tap targets under 44px, phones | 78-80 | **3-6** |
+| touch detail affordance | none at any width | bottom sheet, bearers first |
+| harness | 145 pass / 121 fail | **278 pass / 1 fail** |
+| desktop 1440x900 + 1920x1080 | — | **byte-identical** |
+
+### Known and accepted
+
+- **1280x800 gets 263px of grid** and fails the 320px floor (A11). This is
+  **pre-existing** — it measured 263px in the baseline too — and it sits above the
+  approved 760px height term. Not introduced here, not fixed here.
+- **Tablets lose grid height to the tap-target fix.** iPad mini portrait 473 → 324px,
+  iPad Pro landscape 514 → 388px, because `(pointer:coarse)` is true there and the
+  roster chips and tab pills grow to 44px. Both still clear the 320px floor. Tappable
+  controls on a touch tablet are the right trade, but it is a cost on devices that
+  already worked, and it is the owner's to reverse if they disagree.
+- **The `@supports` fallback duplicates the card block.** Two copies that must stay in
+  sync; they were emitted from one source in the commit that added them, and A9 asserts
+  the resulting form on both paths.
+
 ## 9. Explicitly out of scope
 
 - Any second HTML artifact, UA sniff, or width redirect.
