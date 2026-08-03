@@ -852,6 +852,14 @@ body.mypick .ablist:not(.tight) .ab{
    source order is what decides, and .tabs{display:flex} is defined below. */
 .cov{display:none}
 .covrow,.covsum{list-style:none}
+/* THE MOBILE-ONLY CONTROLS NEED A BASE STATE, not just a rule inside the
+   mobile query. .qtoggle had all three of its rules in there and none out
+   here, so on desktop it fell back to a button's default display and parked
+   itself on top of the raid-helper "i" -- visible, 24px wide, and swallowing
+   every press meant for the help button. Third time in one day a new element
+   has shown up somewhere it was never designed for because "hidden" was
+   assumed rather than declared. Declare it. */
+.qtoggle{display:none}
 /* Chrome, not grid form: these follow the viewport, not the grid's own box. */
 @media (max-width:720px){
   .scarcity{grid-template-columns:repeat(2,1fr);margin-bottom:30px}
@@ -1065,6 +1073,15 @@ li.ab.nospec .chip.spec{color:#e26e6e;box-shadow:inset 0 0 0 1px rgba(226,110,11
    means. Loaded state is a pill naming the event, so "is tonight's raid
    actually in?" is answered by looking rather than by remembering. */
 .rhslot{flex:0 1 auto;min-width:0;display:flex;align-items:center;order:0}
+/* COLD STATE: nothing in here can give up width, so the slot must not be
+   allowed to shrink below it. With no raid loaded the slot holds "Load
+   Raid-Helper" (white-space:nowrap) and the 22px "i" -- neither shrinks, so
+   min-width:0 let the slot narrow anyway and the "i" slid out under the filter
+   input, which swallowed every press. The help button was dead on desktop
+   before a raid was loaded, which is exactly when someone needs it.
+   Scoped with :has() to the cold state alone: once the pill is showing it CAN
+   shrink (its title ellipses), and the loaded row keeps the geometry it had. */
+.rhslot:has(.rhpill[hidden]){flex:0 0 auto;min-width:max-content}
 /* [hidden] MUST WIN. `display:inline-flex` outranks the UA sheet's
    `[hidden]{display:none}`, so this rendered as an empty purple stub on first
    view and again the moment you cleared a raid -- the same collision that hit

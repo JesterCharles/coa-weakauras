@@ -42,6 +42,14 @@ const CASES = [
   ['18 laptop GUARD',         1440,  900, false, null, 'one'],
   ['19 desktop GUARD',        1920, 1080, false, null, 'one'],
   ['21 RTL smoke',             390,  844, true,  null, 'scroll', 'rtl'],
+  // COLD STATE. Every case above loads a raid, so the page as a first-time
+  // reader meets it -- "Load Raid-Helper" showing, no pill, no coverage -- was
+  // never once exercised. That is the state the search icon was covering the
+  // help button in, and A23 hit-tests that button on every case and still
+  // missed it. A harness that only ever tests the loaded page is testing half
+  // a page.
+  ['22 cold, no raid',         390,  844, true,  null, 'scroll', null, true],
+  ['23 cold desktop GUARD',   1440,  900, false, null, 'one',    null, true],
 ];
 
 // ---------------------------------------------------------------- in-page probe
@@ -184,6 +192,16 @@ const probe = () => {
       return !(at === e || e.contains(at));
     }),
 
+    // A25 -- mobile-only furniture must be INVISIBLE on a one-screen desktop.
+    // Three separate elements have now shipped visible on desktop because
+    // "hidden" was only ever written inside a mobile media query and never
+    // declared as the base state: .cov dumped a raw bulleted list across the
+    // grid, and .qtoggle parked itself on the raid-helper "i" and swallowed
+    // every press meant for it. Cheap to assert, and it catches the whole
+    // family rather than the instance.
+    mobileOnlyVisible: ['.cov', '.qtoggle', '.covtoggle']
+      .filter(sel => { const e = $(sel); return e && cs(e).display !== 'none'; }),
+
     abcardDisplay: $('.abcard') ? cs($('.abcard')).display : 'absent',
     sheetPresent: !!$('.absheet'),
     hoverNone: matchMedia('(hover:none)').matches,
@@ -200,7 +218,7 @@ const probe = () => {
 // ---------------------------------------------------------------- assertions
 
 function assess(c, p, sticky) {
-  const [name, w, h, touch, root, mode] = c;
+  const [name, w, h, touch, root, mode, rtl, cold] = c;
   const A = [];
   const add = (id, ok, detail) => A.push({ id, ok: ok === true, na: ok === null, detail });
 
@@ -215,6 +233,17 @@ function assess(c, p, sticky) {
   add('A23 pill row clickable',  p.pillRowBlocked.length === 0,
       p.pillRowBlocked.length ? `blocked: ${p.pillRowBlocked.join(',')}` : 'ok');
 
+  if (cold) {
+    // Cold: assert the controls, not the coverage. There is no raid, so there
+    // are no gaps, no .mine rows and no pill. And a cold ONE-SCREEN case must
+    // not scroll -- that is the whole model -- so A3 only applies to the
+    // scroll-mode cold case.
+    if (mode === 'scroll') {
+      add('A3  document scrolls', p.bodyOverflow !== 'hidden' &&
+          p.docScrollH > p.vh + 40, `scrollH ${p.docScrollH} vs ${p.vh}`);
+    }
+    return A;
+  }
   if (mode === 'scroll') {
     add('A3  document scrolls',  p.bodyOverflow !== 'hidden' && p.docScrollH > p.vh + 40,
         `overflow ${p.bodyOverflow}, scrollH ${p.docScrollH} vs ${p.vh}`);
@@ -261,6 +290,8 @@ function assess(c, p, sticky) {
         `${p.lastRowBottom} vs ${p.docScrollH - 24}`);
     if (sticky) add('A19 sticky sticks', sticky.ok, sticky.detail);
   } else {
+    add('A25 no mobile chrome',  p.mobileOnlyVisible.length === 0,
+        p.mobileOnlyVisible.join(',') || 'ok');
     add('A11 one-screen pays',   p.mxwrap ? p.mxwrap.h >= 320 : null,
         p.mxwrap ? `${p.mxwrap.h}px of grid` : 'n/a');
     add('A6b inner scroll',      p.mxwrap ? p.mxwrap.sh > p.mxwrap.h : null,
@@ -284,7 +315,7 @@ function assess(c, p, sticky) {
   const geom = {};
 
   for (const c of CASES) {
-    const [name, w, h, touch, root, mode, rtl] = c;
+    const [name, w, h, touch, root, mode, rtl, cold] = c;
     const ctx = await browser.newContext({
       viewport: { width: w, height: h },
       hasTouch: touch, isMobile: touch,
@@ -299,7 +330,7 @@ function assess(c, p, sticky) {
     await page.route(/raid-helper\.dev\/api/, r =>
       r.fulfill({ status: 200, contentType: 'application/json', body: ROSTER }));
     try {
-      await page.goto(FILE + EVENT, { waitUntil: 'load' });
+      await page.goto(FILE + (cold ? '' : EVENT), { waitUntil: 'load' });
       if (root) await page.addStyleTag({ content: `html{font-size:${root}px}` });
       if (rtl) await page.evaluate(() => document.documentElement.setAttribute('dir', 'rtl'));
       await page.waitForTimeout(2500);            // roster fetch
@@ -355,7 +386,7 @@ function assess(c, p, sticky) {
                  detail: `sheet after tap=${tapDrag.afterTap}` });
       }
       results.push({ name, mode, touch, probe: p, asserts: A });
-      if (/GUARD/.test(name)) {
+      if (/GUARD/.test(name) && !cold) {
         // A18 compares GEOMETRY only. tabindex/role are a11y attributes that
         // this work deliberately adds (B2); they belong in the assertion set,
         // not in the zero-pixel guard, or the guard cries wolf on its own fix.
