@@ -1,0 +1,259 @@
+{
+ "_comment": "Raid-utility abilities with no icon art anywhere we can reach. NOT a bug and NOT evidence the ability is missing from the game -- see resources/icon-missing.json, where five of six flagged interrupts turned out to be real.",
+ "_source_status": "db.exil.es has no icon field at all. db.ascension.gg renders inv_misc_questionmark, has no record, or 404s and still answers questionmark from the tooltip endpoint.",
+ "_how_to_fill": "put <texture>.jpg in docs/assets/spell-icons/, add \"<id>\": \"<texture>\" to resources/utility-icons.json, then python3 tools/mksite.py --utility-only",
+ "_refresh": "rewritten by python3 tools/utility_icons.py",
+ "count": 50,
+ "ids": {
+  "500148": {
+   "class": "Sun Cleric",
+   "ability": "Solar Burn",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "500617": {
+   "class": "Ranger",
+   "ability": "Throatpunch",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "500995": {
+   "class": "Barbarian",
+   "ability": "War Cry",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "504222": {
+   "class": "Primalist",
+   "ability": "Ancient of War",
+   "why": "no record on db.ascension.gg"
+  },
+  "520232": {
+   "class": "Venomancer",
+   "ability": "Poison Eruption",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "520269": {
+   "class": "Runemaster",
+   "ability": "Leyfeed",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "557333": {
+   "class": "Ranger",
+   "ability": "Bushwhack",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "560470": {
+   "class": "Tinker",
+   "ability": "Distracto Shot",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "560471": {
+   "class": "Knight of Xoroth",
+   "ability": "Hellgaze",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "560567": {
+   "class": "Stormbringer",
+   "ability": "Tempest's Call",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "561309": {
+   "class": "Templar",
+   "ability": "Atone for your Sins!",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "572307": {
+   "class": "Primalist",
+   "ability": "Neutralizing Touch",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "572308": {
+   "class": "Templar",
+   "ability": "Righteous Reprimand",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "572384": {
+   "class": "Sun Cleric",
+   "ability": "Devotion of Dawn",
+   "why": "no record on db.ascension.gg"
+  },
+  "572390": {
+   "class": "Sun Cleric",
+   "ability": "Greater Devotion of Dawn",
+   "why": "no record on db.ascension.gg"
+  },
+  "572406": {
+   "class": "Witch Hunter",
+   "ability": "Sedative Shot",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "572637": {
+   "class": "Cultist",
+   "ability": "Whispers of Yogg-Saron",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "572787": {
+   "class": "Necromancer",
+   "ability": "Grim Mandate",
+   "why": "no record on db.ascension.gg"
+  },
+  "572818": {
+   "class": "Primalist",
+   "ability": "Essence of Dispersion",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "575040": {
+   "class": "Sun Cleric",
+   "ability": "Devotion of Radiance",
+   "why": "no record on db.ascension.gg"
+  },
+  "575045": {
+   "class": "Sun Cleric",
+   "ability": "Greater Devotion of Radiance",
+   "why": "no record on db.ascension.gg"
+  },
+  "653213": {
+   "class": "Runemaster",
+   "ability": "Weapon Engraving: Water",
+   "why": "no record on db.ascension.gg"
+  },
+  "680310": {
+   "class": "Primalist",
+   "ability": "Greater Primal Instinct",
+   "why": "no record on db.ascension.gg"
+  },
+  "680315": {
+   "class": "Tinker",
+   "ability": "Greater Power Module",
+   "why": "no record on db.ascension.gg"
+  },
+  "680571": {
+   "class": "Cultist",
+   "ability": "Nether Shield",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "681442": {
+   "class": "Witch Hunter",
+   "ability": "Greater Witching Edict",
+   "why": "no record on db.ascension.gg"
+  },
+  "684331": {
+   "class": "Bloodmage",
+   "ability": "Blood-Cursed Weapons",
+   "why": "no record on db.ascension.gg"
+  },
+  "707684": {
+   "class": "Witch Hunter",
+   "ability": "Witching Edict",
+   "why": "no record on db.ascension.gg"
+  },
+  "707693": {
+   "class": "Knight of Xoroth",
+   "ability": "Mark of Blaumeux",
+   "why": "no record on db.ascension.gg"
+  },
+  "712367": {
+   "class": "Guardian",
+   "ability": "Overwhelming Presence",
+   "why": "no record on db.ascension.gg"
+  },
+  "712458": {
+   "class": "Witch Doctor",
+   "ability": "Greater Power Wuju",
+   "why": "no record on db.ascension.gg"
+  },
+  "712460": {
+   "class": "Knight of Xoroth",
+   "ability": "Greater Mark of Blaumeux",
+   "why": "no record on db.ascension.gg"
+  },
+  "800383": {
+   "class": "Barbarian",
+   "ability": "Wrist Snap",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "800582": {
+   "class": "Tinker",
+   "ability": "Hydraulic Charge",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "800887": {
+   "class": "Venomancer",
+   "ability": "Spindlebind",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "801271": {
+   "class": "Chronomancer",
+   "ability": "Continuum Restoration",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "801304": {
+   "class": "Chronomancer",
+   "ability": "Hasten",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "801846": {
+   "class": "Stormbringer",
+   "ability": "Exhale",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "802138": {
+   "class": "Witch Hunter",
+   "ability": "Gaze of the Black Knight",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "802869": {
+   "class": "Bloodmage",
+   "ability": "Pursuit",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "803327": {
+   "class": "Bloodmage",
+   "ability": "Siphon",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "803706": {
+   "class": "Chronomancer",
+   "ability": "Hasty Strike",
+   "why": "no record on db.ascension.gg"
+  },
+  "804067": {
+   "class": "Stormbringer",
+   "ability": "Cyclonean Protection",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "805432": {
+   "class": "Starcaller",
+   "ability": "Halt",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "805497": {
+   "class": "Pyromancer",
+   "ability": "Lucifron's Lagniappe",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "805730": {
+   "class": "Runemaster",
+   "ability": "Glacial Rune",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "805847": {
+   "class": "Chronomancer",
+   "ability": "Clasp of Infinity",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "806342": {
+   "class": "Ranger",
+   "ability": "Whipvine Arrow",
+   "why": "db.ascension.gg record carries no icon field"
+  },
+  "806360": {
+   "class": "Ranger",
+   "ability": "Horn of Alacrity",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  },
+  "807822": {
+   "class": "Runemaster",
+   "ability": "Cryobrand",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
+  }
+ }
+}
