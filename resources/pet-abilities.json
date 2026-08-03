@@ -1,0 +1,74 @@
+{
+ "_comment": "Rows on the raid utility page that are cast by a PET or a BUILD, not by the player. db.exil.es files these under the owning class's spell list, so they arrived on the page looking like class buttons -- Tinker showed a 25 second interrupt on every spec, and the 25 seconds belongs to a gameobject nobody can command. Each entry names the button the player actually presses; the page renders that button and keeps the pet ability as a chip.",
+ "_the_tell": "gcd_ms 0 alone is NOT the signal -- pet abilities inside a kit vary (Rusthound's Rustbite is gcd 1500, its Meltdown is gcd 0). What identifies one is `skill_line` naming a pet or a build rather than a spec tree, cross-checked against a `Build:` / `Summon:` / `Call` button in the same class's list. Both halves are needed: Stormbringer's `Electrifying Aura` has skill_line `Lightning`, and Lightning is a real Stormbringer SPEC.",
+ "_control": {
+  "none": "No action bar exists. A summoned GAMEOBJECT firing on a timer. The player controls placement and nothing else.",
+  "pet-bar": "A pet with a multi-ability kit, so a pet action bar exists. Whether THIS ability is manually castable or autocast-only is NOT in either database -- that flag lives in pet spell data, not spell_template. Needs an in-game look.",
+  "passive": "An aura the pet carries. Nothing to press; the requirement is that the pet is out."
+ },
+ "_cd_from": "Which cooldown gates the row. `button` when the summon is TEMPORARY -- the Noise Box exists for 15 seconds out of every 90, so 90 is the number a raid plans around. `ability` when the pet is permanent, where the button costs nothing to keep up and the pet ability's own cooldown is the gate.",
+ "_checked": "2026-08-03, from spell effects and skill lines on db.exil.es. No in-game verification yet -- see `control: pet-bar`.",
+ "spells": {
+  "560470": {
+   "ability": "Distracto Shot",
+   "class": "Tinker",
+   "button": 807723,
+   "button_name": "Build: Noise Box",
+   "cd_from": "button",
+   "control": "none",
+   "how": "Build: Noise Box (807723) is effect 28 with misc_value 52036 -- it summons a GAMEOBJECT, not a pet, so no action bar for it exists. Noise Box Aura (807742) is aura 23 PERIODIC_TRIGGER_SPELL, amplitude 3000ms, radius 8 yd, duration 15s: five ticks three seconds apart at whatever enemy is near the box. The player picks where and when, and nothing after that.",
+   "raid_note": "GONE. It was never targeted interrupt coverage and now it is not coverage at all: the box that cast it is not in the game. Tinker's interrupt column is Meltdown alone.",
+   "confirmed_absent": "Build: Noise Box was checked in game 2026-08-03 and is NOT there, so this row no longer renders -- resources/icon-missing.json confirmed_absent carries the record. Kept here because the mapping is still true and re-deriving it cost a day: db.exil.es files Distracto Shot under Tinker's own spell list, so without this entry it comes back as a 25 second class interrupt on every spec."
+  },
+  "581313": {
+   "ability": "Meltdown",
+   "class": "Tinker",
+   "button": 803437,
+   "button_name": "Build: Rusthound",
+   "cd_from": "ability",
+   "control": "pet-bar",
+   "how": "The Rusthound is permanent (Build: Rusthound has no cooldown, 'until dismissed') and carries a four-ability kit -- Rustbite 2s, Manabite 8s, Seek 30s, Meltdown 30s -- so it has a pet action bar.",
+   "raid_note": "The only Tinker interrupt that could be fired on command, and it is 5 YARD range: the hound must already be in melee of the target. Manual-cast vs autocast-only is unverified."
+  },
+  "806173": {
+   "ability": "Drill Smash",
+   "class": "Tinker",
+   "button": 500242,
+   "button_name": "Build: Scrapmaw",
+   "cd_from": "ability",
+   "control": "pet-bar",
+   "how": "skill_line `Scrapmaw`, which is Build: Scrapmaw (500242) -- a permanent build with a two-ability kit (Drill Smash 30s, Missile Swarm 20s).",
+   "raid_note": "5 yard range, and a stun, so trash only either way."
+  },
+  "800013": {
+   "ability": "Facehug",
+   "class": "Cultist",
+   "button": 803062,
+   "button_name": "Summon: Mindbender",
+   "cd_from": "ability",
+   "control": "pet-bar",
+   "how": "skill_line `Pet - Mindbender`. Summon: Mindbender (803062) is a permanent minion, 40% mana, no cooldown. The tooltip narrates the pet doing it: 'The Mindbender teleports to an enemy and channels on them'.",
+   "raid_note": "30 yd, but a 3 second channel by the pet, and a stun."
+  },
+  "801599": {
+   "ability": "Rallying Roar",
+   "class": "Witch Doctor",
+   "button": 801585,
+   "button_name": "Call Avatar: Devilsaur",
+   "cd_from": "ability",
+   "control": "pet-bar",
+   "how": "skill_line `Pet - Dinomancy Devilsaur`. Call Avatar: Devilsaur (801585) summons it, and the class can only have one Avatar at a time.",
+   "raid_note": "A raid haste buff that depends on which Avatar the Witch Doctor is running."
+  },
+  "804067": {
+   "ability": "Cyclonean Protection",
+   "class": "Stormbringer",
+   "button": 804019,
+   "button_name": "Summon: Air Elemental",
+   "cd_from": "ability",
+   "control": "passive",
+   "how": "skill_line `Pet - Wind Servant`. An aura the Air Elemental carries: 15% less AoE damage taken by party members within 20 yds. No cooldown, nothing to press.",
+   "raid_note": "Real, but it is 20 yds around the ELEMENTAL and requires the Stormbringer to be running that summon (75% mana)."
+  }
+ }
+}

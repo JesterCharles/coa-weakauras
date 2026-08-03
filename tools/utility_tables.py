@@ -419,30 +419,96 @@ is the Maelstrom tree, `felsworn-felblood` is Infernal, and
 `pyromancer-destruction` is FLAMEWEAVING -- the healing spec. Reading slugs as
 spec names is wrong on at least three classes, so the parser reads the label.
 
-## ❌ and ⚠ -- is it actually in the game?
+## ! and ⚠ -- is it actually in the game?
 
-**⚠ = no icon on db.ascension.gg, unverified.** A CoA ability with no art may
-be unimplemented, cut, or a leftover row.
+**! = in-game verification in process.** db.exil.es has the spell and
+db.ascension.gg has no record of it at all -- the ability is on ONE of the two
+databases, which is the shape a cut, renamed or never-implemented row takes.
 
-**Confirmed absent = removed from the tables entirely.** One so far: Barbarian's
-`Wrist Snap`, checked in game 2026-08-02. It is not annotated, it is gone -- a
-struck-through row still reads as an option at a glance, and the point of
+**⚠ = no icon art anywhere reachable.** db.ascension.gg is the only art source
+this project has -- db.exil.es returns 22 keys per spell and not one of them is
+an icon -- so a row with no texture there has none. 43 of the 260 rows are in
+that state and every one of them is marked, because the hand-picked subset that
+used to be marked was not a judgement about which rows deserved doubt, it was
+whichever ids somebody had happened to look at.
+
+**Every row on this page has now been asked of both databases** -- 259 spell
+ids, `tools/crosscheck.py`, recorded in `resources/cross-source.json`. 246 are
+the same id with the same name on both. One more is on both under two
+different ids: Tinker's `Distracto Shot` is 560470 here and 561269 there, same
+4% mana, same interrupt tooltip. THE ID IS NOT THE JOIN KEY, and an id-only
+check would have called that one missing.
+
+The remaining twelve are db.exil.es only. Five of the twelve have a namesake
+on db.ascension.gg and three of those namesakes are a different ability
+wearing the same word -- Bloodmage's `Siphon` steals two buffs here and
+summons three skeletons there. Tooltips were read side by side; the verdicts
+are in `cross-source.json`.
+
+**Confirmed absent = removed from the tables entirely.** Two so far, both
+checked in game and both with no art: Barbarian's `Wrist Snap` (2026-08-02) and
+Tinker's `Build: Noise Box` (2026-08-03). Neither is annotated, both are gone --
+a struck-through row still reads as an option at a glance, and the point of
 checking was to stop planning around it. `resources/icon-missing.json` keeps
-the record under `confirmed_absent` so nobody re-adds it.
+the record under `confirmed_absent` so nobody re-adds them.
 
-Barbarian still has `Jawbreaker` (14s), so removing `Wrist Snap` costs the
-class nothing -- it had two listed and one was never real.
+Removing `Wrist Snap` cost Barbarian nothing; it had two interrupts listed and
+one was never real. Removing `Build: Noise Box` costs Tinker more than it
+looks, because the row it takes with it is `Distracto Shot` -- the box was the
+only thing that cast it. **Tinker's whole interrupt column is now one pet
+ability**, `Meltdown`, at 5 yards off the Rusthound's bar.
 
-**How much is ⚠ worth? Less than it first looked.** Six interrupts carried it
-and five were checked in game: `Hellgaze`, `Throatpunch`, `Halt`, `Solar Burn`
-and `Distracto Shot` are all REAL. Only `Wrist Snap` was not. So a missing icon
-ran about 1-in-6 on the sample that has been tested -- a reason to check, not a
-reason to disbelieve the row. The earlier revision of this section called it
-"very likely not in the game", and the testing says otherwise.
+**WHICH MARK IS WORTH MORE, and it is the reverse of what this section used to
+say.** Seven no-art abilities have been checked in game and two were absent --
+`Wrist Snap` and `Build: Noise Box` -- against five real ones (`Hellgaze`,
+`Throatpunch`, `Halt`, `Solar Burn`, `Distracto Shot`). Roughly 2-in-7.
 
-Both lists live in `resources/icon-missing.json`. Confirm one in game, move its
-id to `confirmed_present` or `confirmed_absent`, and regenerate. 20 remain
-unverified.
+The cross-source check has done worse on the same sample. `Hellgaze` and
+`Solar Burn` have no db.ascension.gg record at all and are both in the game;
+`Build: Noise Box` has a complete record there and is not. So:
+
+* **No art is the wider net and the only one that has caught an absence.**
+  Every id in the cross-source `no-record` set also has no art, so ⚠ is a
+  superset of `!` on the current rows -- ten rows carry both.
+* **A record on the second database is not evidence of presence.** That is the
+  Noise Box lesson and it cost a Tinker interrupt to learn.
+
+Neither mark is a verdict and a row only leaves this page on an in-game check.
+Confirm one, move its id to `confirmed_present` or `confirmed_absent` in
+`resources/icon-missing.json`, and regenerate -- a confirmed id drops both
+marks, and a confirmed-absent SUMMON takes its pet's ability with it.
+
+## Pets and builds -- can the player aim it?
+
+Six rows are cast by something the class summons, not by the class. The page
+prints the button and marks how much control comes with it, because those are
+three different answers:
+
+| Mark | Means |
+|---|---|
+| **(pet — no control)** | A summoned OBJECT firing on a timer. No action bar exists. You choose where and when to drop it and nothing after that. |
+| **(pet — pet bar)** | A pet with a multi-ability kit, so a pet action bar exists. Whether THIS ability is manually castable or autocast-only is not in either spell database -- it needs an in-game look. |
+| **(pet — passive)** | An aura the pet carries. Nothing to press; the requirement is that the pet is out. |
+
+**Tinker has no player-pressed interrupt.** Both rows in that column are
+summons. `Build: Noise Box` (Invention, 90s, 30% mana) drops a *gameobject* --
+`effect 28`, misc_value 52036 -- whose aura `807742` is `aura 23`
+PERIODIC_TRIGGER_SPELL at **amplitude 3000ms, radius 8 yd, duration 15s**: five
+ticks, three seconds apart, at whatever enemy is near the box. `Build:
+Rusthound` (Mechanics) gives a permanent pet whose `Meltdown` is a **5 yard**,
+30s bite off the pet bar -- the only one of the two that could be fired on
+command, and only with the hound already in melee of the target.
+
+For raid planning that is not interrupt cover. It is the difference between
+"we have an interrupt on that cast" and "we have a box that might".
+
+**`gcd_ms 0` is not the tell** -- pet kits mix it, Rusthound's `Rustbite` is
+1500 and its `Meltdown` is 0. What identifies one is `skill_line` naming a pet
+or a build, cross-checked against a summon button in the same class's list.
+Both halves are needed: Stormbringer's `Electrifying Aura` has `skill_line
+Lightning`, and Lightning is a real Stormbringer SPEC.
+
+The six, and the evidence for each, are in `resources/pet-abilities.json`.
 
 ## Buttons only, not the effects they apply
 
@@ -462,6 +528,11 @@ something got through:
   familiar swap that happens to stun) leave the tables while `Leyfeed`, which
   the inventory annotates "a spellsteal", stays.
 * **The tooltip must agree with the mechanic.** See below.
+* **A pet is not the class.** Six rows are cast by a pet or by a summoned
+  object, and db.exil.es files them under the owning class's spell list, so
+  they arrived looking like class buttons. The row is rewritten to the
+  `Build:` / `Summon:` / `Call` button the player actually presses, and the pet
+  ability is named in the description and on a chip. See below.
 
 Two limits on that middle filter, both learned the hard way:
 
@@ -611,28 +682,67 @@ def observed():
 
 
 def no_icon():
-    """(suspected, confirmed_absent) spell ids.
+    """(no art, confirmed absent, on ONE database only) spell ids.
 
-    A CoA ability with no icon is very likely unimplemented, cut, or a
-    leftover database row. That is a judgement the user raised about `Wrist
-    Snap` and it generalises: 26 of the 126 abilities in these tables have no
-    art at all.
+    Three states, two sources, and they answer different questions. No art
+    means db.ascension.gg has the spell and no picture for it. On one database
+    only means it has never heard of the spell -- the stronger doubt, and the
+    one the page prints as `!`. Confirmed absent means a person logged in and
+    could not find it, which is the only one that removes a row.
 
-    Tracked in resources/icon-missing.json rather than recomputed here, so the
-    page regenerates without a scrape and a confirmed-in-game id can be removed
-    by hand and stay removed.
+    Tracked in files rather than recomputed here, so the page regenerates
+    without a scrape and a confirmed-in-game id can be removed by hand and stay
+    removed.
     """
     p = data("icon-missing.json")
     if not os.path.exists(p):
         return set(), set(), set()
     raw = json.load(open(p, encoding="utf-8"))
-    return (set(raw.get("ids") or {}),           # no icon, unverified
+    done = set(raw.get("confirmed_present") or {})
+    # STRONGER SIGNAL, and a COMPLETE one: resources/cross-source.json asks
+    # every row on the page, not just the ids already flagged for something
+    # else. `absent_from_ascension` in icon-missing.json was that older
+    # spot-check and is NOT read as a fallback -- it disagreed with the full
+    # sweep on `Distracto Shot`, and two lists answering one question is how
+    # this repo has been bitten before.
+    #
+    # `other-id` is a PASS and deliberately not in this set: both databases
+    # have the ability and disagree only about its spell id.
+    #
+    # Still not proof -- two of these ids are confirmed in game by a person --
+    # which is why the page reads it as verification PENDING rather than as a
+    # verdict, and why anything in `confirmed_present` drops out: that check
+    # already happened and came back yes.
+    cs = data("cross-source.json")
+    norec = set()
+    if os.path.exists(cs):
+        norec = {sid for sid, v in
+                 (json.load(open(cs, encoding="utf-8")).get("spells") or {}).items()
+                 if v.get("ascension") == "no-record"}
+    # NO ART, and now the COMPLETE set rather than the hand-picked one. This
+    # was the other way round for a day, on the reasoning that marking 43 rows
+    # with a weak signal would be the page's loudest claim and its least
+    # reliable. Two things changed it:
+    #
+    #   * `Build: Noise Box` was checked in game and is NOT there. That is the
+    #     second no-art absence out of seven checked, and the first one that
+    #     db.ascension.gg carried a full record for -- so no art caught what
+    #     the cross-source check missed.
+    #   * The hand list was never a judgement about which rows deserved doubt.
+    #     It was whichever ids somebody had happened to look at, and it is a
+    #     subset of the generated one with nothing distinguishing it.
+    #
+    # resources/icon-wanted.json is written by tools/utility_icons.py from the
+    # rows that actually render, so it cannot drift out of step with them. The
+    # hand list stays as the fallback for a checkout where the icon pass has
+    # never run.
+    iw = data("icon-wanted.json")
+    noart = set(raw.get("ids") or {})
+    if os.path.exists(iw):
+        noart = set(json.load(open(iw, encoding="utf-8")).get("ids") or {})
+    return (noart - done,                        # no art, and worth a look
             set(raw.get("confirmed_absent") or {}),   # checked, not in the game
-            # STRONGER SIGNAL: a second database has no record of the spell at
-            # all, not merely no art for it. Weaker than an in-game check and
-            # demonstrably not proof -- three ids in this set are confirmed in
-            # game by a person -- but a real step up from "no icon".
-            set(raw.get("absent_from_ascension") or {}))
+            norec - done)
 
 
 def spec_roles():
@@ -943,8 +1053,50 @@ def desc(d, n=140):
     return (t[:n] + "…") if len(t) > n else t
 
 
+def _pet_desc(button, ability, pet):
+    """Description for a re-attributed pet row: the button, then what it does.
+
+    BOTH sentences are needed and neither is enough. `Build: Rusthound` reads
+    "Construct a Rusthound to accompany the Tinker until dismissed" and never
+    mentions interrupting, so the button alone strips the row of the reason it
+    is in this table. The pet ability alone is what put a 25 second interrupt
+    on every Tinker spec in the first place.
+    """
+    if not pet:
+        return desc(ability)
+    # 260, not the usual 140. Two tooltips share this cell and the second one
+    # is the one the table is about -- at 200 the Noise Box row cut off at
+    # "— Distracto…" and lost the name of the thing that does the interrupting.
+    return desc({"description": f'{button.get("description") or ""} '
+                                f'— {ability["name"]}: '
+                                f'{ability.get("description") or ""}'}, 260)
+
+
 def _eff(d):
     return [e for e in d.get("effects") or [] if e.get("effect_id")]
+
+
+def pet_abilities():
+    """pet/build-cast spell id -> the button the player actually presses.
+
+    Six rows on this page are cast by a pet or a summoned object, not by the
+    class. db.exil.es files them under the owning class's spell list, which is
+    how Tinker came to show a 25 second interrupt on every spec when the 25
+    seconds belongs to a gameobject nobody can command.
+
+    The entry redirects the ROW, not the classification: which table a spell
+    lands in is still decided by that spell's own effects, because `Build:
+    Rusthound` carries no INTERRUPT_CAST and would fall out of the interrupt
+    table entirely if the swap happened first. Only the presentation moves --
+    name, spec, cooldown, cost and link become the button's.
+
+    See resources/pet-abilities.json for the per-entry evidence, and for why
+    `gcd_ms 0` on its own is not the tell.
+    """
+    p = data("pet-abilities.json")
+    if not os.path.exists(p):
+        return {}
+    return json.load(open(p, encoding="utf-8")).get("spells") or {}
 
 
 def buff_excluded():
@@ -1172,6 +1324,7 @@ def tables():
     noart, gone, norec = no_icon()
     comps = _components(cache, own)
     noBuff = buff_excluded()
+    PETS = pet_abilities()
     buckets = collections.defaultdict(list)
     # Where a class has a REVIEWED inventory, that review is authoritative and
     # an id missing from it was excluded by a human on purpose. Runemaster's
@@ -1207,7 +1360,15 @@ def tables():
         # struck-through row still reads as an option at a glance. What was
         # checked and found missing is recorded in resources/icon-missing.json
         # under `confirmed_absent` so the result is not re-litigated.
-        if sid not in own or sid in comps or sid in gone:
+        # THE BUTTON'S ABSENCE REMOVES THE ROW. A pet row is only on the page
+        # because the class can summon the thing that casts it, so confirming
+        # the summon missing from the game takes the ability with it -- the
+        # `Build: Noise Box` check is the case: the box is not in the game, so
+        # `Distracto Shot` is not something a Tinker brings, whatever the two
+        # databases still hold about the spell itself.
+        pet_ = PETS.get(sid)
+        bsid = str(pet_["button"]) if pet_ else ""
+        if sid not in own or sid in comps or sid in gone or bsid in gone:
             continue
         if sid in noBuff and classify(d) in ("raid_dmg", "raid_dmg_passive"):
             continue
@@ -1229,7 +1390,27 @@ def tables():
         col = "Reagent Required" if cat == "rez" else "Usable on Boss"
         rows = []
         for sid, d in buckets.get(cat, []):
-            for cname, _a, tree_spec, rc in own[sid]:
+            # THE ROW IS THE BUTTON, NOT THE EFFECT -- the same rule that keeps
+            # `Frayed` off the page, applied one level further out. Six of these
+            # rows are cast by a pet or a summoned object; the class presses a
+            # `Build:` / `Summon:` / `Call` button and the pet does the rest.
+            #
+            # The swap happens HERE and not in the classification pass above,
+            # because `Build: Rusthound` carries no INTERRUPT_CAST effect of its
+            # own -- classify it and Tinker loses the row entirely. The pet
+            # ability decides WHICH TABLE; the button decides what the row says.
+            #
+            # `own[bsid]` rather than `own[sid]` is the point of the exercise:
+            # spec, talent node and dedupe all come out of the normal machinery,
+            # so `Build: Noise Box` is Invention r6 c5 the same way any other
+            # tree talent is, instead of the "every spec" the pet ability
+            # inherited.
+            pet = PETS.get(sid)
+            osid, src = sid, d
+            if pet and str(pet.get("button")) in cache:
+                osid = str(pet["button"])
+                src = cache[osid]
+            for cname, _a, tree_spec, rc in own[osid]:
                 c = next(x for x in CLASSES.values() if x.name == cname)
                 # TRAINABLE MEANS BASELINE. Tree membership is the ONLY
                 # evidence that an ability is spec-locked; a trainable spell is
@@ -1261,19 +1442,33 @@ def tables():
                 if cat == "silence" and any(e.get("effect_id") == 68
                                             for e in _eff(d)):
                     marks.append("int68")
-                if sid in noart:
+                # Keyed on the row's OWN id, which for a pet row is the summon
+                # button. Asking whether the pet's ability has art says nothing
+                # about the button the page is actually printing.
+                if osid in noart:
                     marks.append("noicon")
                 # Both signals. A spell with no ART is a maybe; a spell no
                 # second database has ever HEARD of is a stronger maybe. The
                 # page says which, because they are not the same claim.
-                if sid in norec:
+                if osid in norec:
                     marks.append("norecord")
-                rows.append((c.id, cname, spec, rc or "", d["name"],
-                             f"https://db.exil.es/spell/{sid}", marks,
-                             (reagent if cat == "rez" else boss).get(sid, ""),
-                             fmt_cd(d.get("cooldown_ms"), d.get("_cd_floor")),
-                             fmt_cost(d),
-                             fmt_cast(d), desc(d), sid))
+                cd_src = d
+                if pet:
+                    # WHICH COOLDOWN GATES IT. A temporary build is gated by
+                    # the build: the Noise Box exists for 15 seconds out of
+                    # every 90, and 90 is the number a raid plans around. A
+                    # permanent pet costs nothing to keep up, so its own
+                    # ability cooldown is the gate and the summon's is noise.
+                    cd_src = src if pet.get("cd_from") == "button" else d
+                    ctrl = (pet.get("control") or "unknown").removeprefix("pet-")
+                    marks.append("pet-" + ctrl)
+                rows.append((c.id, cname, spec, rc or "", src["name"],
+                             f"https://db.exil.es/spell/{osid}", marks,
+                             (reagent if cat == "rez" else boss).get(osid, ""),
+                             fmt_cd(cd_src.get("cooldown_ms"),
+                                    cd_src.get("_cd_floor")),
+                             fmt_cost(src),
+                             fmt_cast(src), _pet_desc(src, d, pet), osid))
         seen, keep = set(), []
         _generic = lambda sp: sp in ("all", "?")            # noqa: E731
         for r in sorted(rows, key=lambda x: (x[0], x[1], x[12], _generic(x[2]))):
@@ -1296,13 +1491,28 @@ def _md_cell(t):
     return t.replace("*", "\\*")
 
 
+PET_MD = {
+    "pet-none": "**(pet — no control)**",
+    "pet-bar": "**(pet — pet bar)**",
+    "pet-passive": "**(pet — passive)**",
+}
+
+
 def _md_name(name, url, marks):
     s = f"[{name}]({url})"
+    for m in marks:
+        if m in PET_MD:
+            s += " " + PET_MD[m]
     if "int68" in marks:
         s += " **(interrupts too)**"
     if "int" in marks:
         s += " **(int)**"
-    if "noicon" in marks:
+    # "!" outranks the no-art warning and replaces it. Only one of the two can
+    # be the reason to look at a row, and "the second database has no record of
+    # this spell" is the stronger of them.
+    if "norecord" in marks:
+        s += " **!**"
+    elif "noicon" in marks:
         s += " \u26a0"
     return s
 

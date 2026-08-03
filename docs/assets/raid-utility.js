@@ -105,7 +105,15 @@
     var on = list.length > 0;
     document.body.classList.toggle("mypick", on);
     rows.forEach(function (r) {
-      r.classList.toggle("mine", !!mine[r.dataset.class]);
+      var isMine = !!mine[r.dataset.class];
+      r.classList.toggle("mine", isMine);
+      // The kit row is a SIBLING of its class row, not a child, so card-mode
+      // ordering has to move both or the pair comes apart -- a class card
+      // sorted to the top with its expanded kit left behind in the middle of
+      // the list. Equal `order` values keep source order, so tagging both is
+      // all it takes to keep them glued.
+      var k = kits[r.dataset.class];
+      if (k) k.classList.toggle("mine", isMine);
     });
     $$("td.mxv").forEach(function (td) {
       var c = td.parentNode.dataset.class;
@@ -147,8 +155,124 @@
       });
     });
 
+    drawCov();
     apply();
     return cover;
+  }
+
+  /* THE ANSWER BLOCK, and it is written HERE rather than in apply() on
+   * purpose.
+   *
+   * apply() multiplexes its badges: an active search wins over raid coverage,
+   * and .nocover is only applied while mode === "raid". If .cov inherited that
+   * precedence, typing one character into the filter would silently turn the
+   * phone's home screen from a coverage report into a count of search hits --
+   * with every red gap flag removed and nothing saying so. Writing it from
+   * recount(), off the same `cover` object that feeds the tab badges, means
+   * the filter cannot reach it by construction rather than by discipline.
+   * apply() may write .covhits, and nothing else in here.
+   */
+  var covRows = $$(".covrow"), covSum = $(".covsum");
+  var catCol = {};
+  Object.keys(cols).forEach(function (i) { catCol[cols[i]] = i; });
+
+  // Up to two names, then "+N". No .slice() ANYWHERE on a character name:
+  // tonight's roster has a mathematical-bold-script name that is 10 glyphs and
+  // String.length 20, and cutting it mid-surrogate-pair prints U+FFFD. The
+  // clamp is CSS, which is grapheme-safe.
+  function covBearers(cat) {
+    if (!ROSTER) return [];
+    var i = catCol[cat], seen = {}, out = [];
+    (colCells[i] || []).forEach(function (x) {
+      if (!mine[x.c] || !reach(x.c, x.td.dataset.specs)) return;
+      var slot = ROSTER[x.c];
+      if (!slot) return;
+      Object.keys(slot).forEach(function (k) {
+        (slot[k] || []).forEach(function (p) {
+          var n = p.n || p.s;
+          if (n && !seen[n]) { seen[n] = 1; out.push(n); }
+        });
+      });
+    });
+    return out;
+  }
+
+  /* Below 700px of viewport height the covered tools fold away and only the
+   * gaps stay -- see the CSS. The control is built here rather than emitted by
+   * the generator because it does nothing without JS, and a dead disclosure
+   * that will not open is worse than no disclosure at all. */
+  var covToggle = null;
+  if (covSum && covSum.parentNode) {
+    covToggle = document.createElement("button");
+    covToggle.className = "covtoggle";
+    covToggle.type = "button";
+    covToggle.setAttribute("aria-expanded", "false");
+    covToggle.addEventListener("click", function () {
+      var open = covSum.parentNode.classList.toggle("covopen");
+      covToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      drawCovToggle();
+    });
+    covSum.parentNode.appendChild(covToggle);
+  }
+  function drawCovToggle() {
+    if (!covToggle) return;
+    var open = covSum.parentNode.classList.contains("covopen");
+    var n = covRows.filter(function (r) {
+      return !r.classList.contains("gap");
+    }).length;
+    covToggle.textContent = open ? "hide the tool list"
+      : "all " + covRows.length + " tools";
+  }
+
+  function drawCov() {
+    if (!covRows.length) return;
+    var open = 0, covered = 0;
+    covRows.forEach(function (li) {
+      var cat = li.dataset.cat;
+      var num = $(".covnum", li), who = $(".covwho", li);
+      var trash = li.classList.contains("b-trash");
+      if (!cover) {
+        li.classList.remove("gap");
+        num.textContent = li.dataset.classes;
+        who.textContent = li.dataset.classes + " of " + rows.length + " classes";
+        return;
+      }
+      var n = cover[cat] || 0;
+      var bad = n === 0 && !trash;
+      li.classList.toggle("gap", bad);
+      num.textContent = bad ? "NOBODY" : n;
+      if (!trash) { open += bad ? 1 : 0; covered += bad ? 0 : 1; }
+      if (bad) { who.textContent = "nobody in this raid can press one"; return; }
+      var names = covBearers(cat);
+      who.textContent = "";
+      names.slice(0, 2).forEach(function (nm, k) {
+        var s = document.createElement("span");
+        s.textContent = (k ? " · " : "") + nm;
+        who.appendChild(s);
+      });
+      if (names.length > 2) {
+        var more = document.createElement("span");
+        more.className = "more";
+        more.textContent = " +" + (names.length - 2);
+        who.appendChild(more);
+      }
+    });
+    drawCovToggle();
+    if (!covSum) return;
+    var txt = $(".covsumtxt", covSum);
+    covSum.classList.toggle("ok", !!cover && !open);
+    covSum.classList.toggle("bad", !!cover && open > 0);
+    if (!txt) return;
+    if (!cover) {
+      txt.textContent = covSum.dataset.tools +
+        " tools · load tonight’s raid to see what it is missing";
+    } else if (open) {
+      txt.textContent = open + (open === 1 ? " tool" : " tools") +
+        " nobody can press · " + covered + " covered";
+    } else {
+      txt.textContent = "every tool covered · " + covered + " of " +
+        covSum.dataset.tools;
+    }
   }
 
   /* The tools this raid has NOBODY for. The single most useful sentence on the
@@ -857,8 +981,16 @@
   var modal = $(".rhmodal");
   if (modal) {
     var lastFocus = null;
+    // The lock is position:fixed, not overflow:hidden -- overflow does not
+    // hold on iOS Safari, and the page used to be unscrollable anyway so the
+    // old rule never had to work. Fixing the body collapses the scroll
+    // position, so it is saved here and restored on close; without that,
+    // shutting the modal drops you at the top of the page.
+    var lockY = 0;
     var openModal = function () {
       lastFocus = document.activeElement;
+      lockY = window.scrollY || window.pageYOffset || 0;
+      document.documentElement.style.setProperty("--rhlocky", lockY + "px");
       modal.hidden = false;
       document.body.classList.add("rhlock");
       var x = $(".rhx", modal);
@@ -867,6 +999,7 @@
     var closeModal = function () {
       modal.hidden = true;
       document.body.classList.remove("rhlock");
+      window.scrollTo(0, lockY);
       if (lastFocus && lastFocus.focus) lastFocus.focus();
     };
     document.addEventListener("click", function (ev) {
@@ -937,7 +1070,13 @@
     }).join("") + "</p>";
   }
 
-  function one(a) {
+  /* `sheet` reorders and changes NOTHING else. On a 70dvh sheet at 390px the
+   * description pushes bearers() below the fold, and bearers() is the half of
+   * the answer that has no mobile equivalent today -- "so who DOES have it",
+   * including the "not on your Felsworn: both are Tyrant" case. Falsy `sheet`
+   * produces the desktop string byte for byte, and bind()'s mouseenter path
+   * calls this with one argument. */
+  function one(a, sheet) {
     var ico = a.i
       ? '<img src="assets/spell-icons/' + esc(a.i) + '.jpg" width="34" height="34" alt="">'
       : '<span class="ph"></span>';
@@ -950,6 +1089,18 @@
       chips.push('<i class="c pend">! in-game verification in process</i>');
     else if (a.m && a.m.indexOf("noicon") >= 0)
       chips.push('<i class="c warn">unverified in game</i>');
+    // Who casts it. The row is the summon button, so the card has to say that
+    // a pet does the thing the table is about, and whether it can be aimed.
+    var PET = {
+      "pet-none": "pet — no control",
+      "pet-bar": "pet — pet bar",
+      "pet-passive": "pet — passive"
+    };
+    if (a.m) {
+      a.m.forEach(function (m) {
+        if (PET[m]) chips.push('<i class="c pet">' + PET[m] + "</i>");
+      });
+    }
     if (a.obs) chips.push('<i class="c ok">' + esc(a.obs) + "</i>");
     var spec = esc(a.spec) + (a.rc ? ' <em>' + esc(a.rc) + "</em>" : "");
     return (
@@ -962,8 +1113,10 @@
       "<dt>Cost</dt><dd>" + esc(a.cost) + "</dd>" +
       "<dt>Cast</dt><dd>" + esc(a.cast) + "</dd>" +
       "</dl>" +
+      (sheet ? bearers(a) : "") +
       (chips.length ? '<p class="acchips">' + chips.join("") + "</p>" : "") +
-      '<p class="acdesc">' + esc(a.d) + "</p>" + bearers(a) + "</div>"
+      '<p class="acdesc">' + esc(a.d) + "</p>" +
+      (sheet ? "" : bearers(a)) + "</div>"
     );
   }
   function place(ev) {
@@ -974,6 +1127,67 @@
     card.style.left = x + "px";
     card.style.top = y + "px";
   }
+  /* THE TOUCH SHEET.
+   *
+   * @media (hover:none){.abcard{display:none !important}} deletes the hover
+   * card on every touch device at every width, so the richest thing on the
+   * page -- the cooldown/cost/cast detail AND bearers()'s "who in tonight's
+   * raid can press this" -- is unreachable by finger, including on a 1133px
+   * iPad that renders the full desktop matrix. (hover:none) was standing in
+   * for "small" and it is not the same question.
+   *
+   * WHICH AFFORDANCE FIRES IS DECIDED PER EVENT, not by a media query, and
+   * that is the part both obvious designs get wrong. On a touchscreen LAPTOP
+   * (hover:none) is false, so the mouse listeners stay bound -- and a finger
+   * fires mouseenter with no mouseleave to follow it, so the card opens and
+   * never closes. pointerType answers the actual question at the actual
+   * moment, which no media query can. The mouse path below is untouched, so
+   * desktop is byte-identical.
+   */
+  var sheet = document.createElement("div");
+  sheet.className = "absheet";
+  sheet.hidden = true;
+  sheet.setAttribute("role", "dialog");
+  sheet.setAttribute("aria-modal", "true");
+  var sheetBack = document.createElement("div");
+  sheetBack.className = "absheetback";
+  sheetBack.hidden = true;
+  document.body.appendChild(sheetBack);
+  document.body.appendChild(sheet);
+  var sheetLast = null;
+
+  function closeSheet() {
+    if (sheet.hidden) return;
+    sheet.hidden = true;
+    sheetBack.hidden = true;
+    document.body.classList.remove("rhlock");
+    window.scrollTo(0, sheetY);
+    if (sheetLast && sheetLast.focus) sheetLast.focus();
+  }
+  var sheetY = 0;
+  function openSheet(list) {
+    if (!list.length) return;
+    card.hidden = true;                   // the two must never both be open
+    sheetLast = document.activeElement;
+    sheetY = window.scrollY || window.pageYOffset || 0;
+    document.documentElement.style.setProperty("--rhlocky", sheetY + "px");
+    sheet.innerHTML =
+      '<button class="absheetx" type="button" aria-label="Close">&times;</button>' +
+      list.map(function (i) { return one(DATA[i], true); }).join("");
+    sheet.hidden = false;
+    sheetBack.hidden = false;
+    document.body.classList.add("rhlock");
+    var x = $(".absheetx", sheet);
+    if (x) x.focus();
+  }
+  sheetBack.addEventListener("click", closeSheet);
+  sheet.addEventListener("click", function (ev) {
+    if (ev.target.closest(".absheetx")) closeSheet();
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape" || ev.key === "Esc") closeSheet();
+  });
+
   function bind(el, ids) {
     // THE NATIVE TOOLTIP HAS TO GO, and it cannot be suppressed -- the browser
     // renders title= on its own schedule, wherever it likes, and it was
@@ -991,6 +1205,13 @@
     });
     el.addEventListener("mousemove", place);
     el.addEventListener("mouseleave", function () { card.hidden = true; });
+    el.addEventListener("pointerdown", function (ev) {
+      if (ev.pointerType === "mouse") return;    // desktop keeps the card
+      var list = ids.filter(function (i) { return DATA[i]; });
+      if (!list.length) return;
+      ev.preventDefault();
+      openSheet(list);
+    });
   }
   $$("td.mxv[data-ids]").forEach(function (td) {
     bind(td, (td.dataset.ids || "").split(",").filter(Boolean));

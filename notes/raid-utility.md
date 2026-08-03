@@ -46,8 +46,7 @@ note in `tools/sources.py`).
 | Cultist | Dreadnought<br>r5 c7 | [Crushing Dissonance](https://db.exil.es/spell/804056) |  | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
 | Starcaller | all | [Halt](https://db.exil.es/spell/805432) |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
 | Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
-| Tinker | all | [Distracto Shot](https://db.exil.es/spell/560470) |  | 25s | 4% mana | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. Also silences for 3 sec. |
-| Tinker | all | [Meltdown](https://db.exil.es/spell/581313) |  | 30s | — | Instant | Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F… |
+| Tinker | all | [Build: Rusthound](https://db.exil.es/spell/803437) **(pet — pet bar)** |  | 30s | 10% mana | 6s | Construct a Rusthound to accompany the Tinker until dismissed. — Meltdown: Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their Fire Resistance and healing received by 20%. |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | Harvest<br>r6 c6 | [Siphon Essence](https://db.exil.es/spell/806125) |  | 20s | — | Instant | Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from bein… |
 | Primalist | Geomancy<br>r7 c4 | [Cave In](https://db.exil.es/spell/500615) |  | 24s | 18% mana | Instant | Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds. Successfully interrupt… |
@@ -73,8 +72,7 @@ note in `tools/sources.py`).
 | Cultist | Dreadnought<br>r5 c7 | [Crushing Dissonance](https://db.exil.es/spell/804056) |  | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
 | Starcaller | all | [Halt](https://db.exil.es/spell/805432) |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
 | Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
-| Tinker | all | [Distracto Shot](https://db.exil.es/spell/560470) |  | 25s | 4% mana | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. Also silences for 3 sec. |
-| Tinker | all | [Meltdown](https://db.exil.es/spell/581313) |  | 30s | — | Instant | Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their F… |
+| Tinker | all | [Build: Rusthound](https://db.exil.es/spell/803437) **(pet — pet bar)** |  | 30s | 10% mana | 6s | Construct a Rusthound to accompany the Tinker until dismissed. — Meltdown: Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their Fire Resistance and healing received by 20%. |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | Harvest<br>r6 c6 | [Siphon Essence](https://db.exil.es/spell/806125) |  | 20s | — | Instant | Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from bein… |
 | Primalist | Geomancy<br>r7 c4 | [Cave In](https://db.exil.es/spell/500615) |  | 24s | 18% mana | Instant | Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds. Successfully interrupt… |
@@ -83,7 +81,7 @@ note in `tools/sources.py`).
 
 </details>
 
-**21 across 19 classes.**
+**20 across 19 classes.**
 None found for: Templar, Witch Doctor.
 
 ## 2. Silences
@@ -138,14 +136,14 @@ None found for: Barbarian, Chronomancer, Cultist, Felsworn, Necromancer, Primali
 | Knight of Xoroth | all (tree)<br>r0 c6 | [Chains of Malice](https://db.exil.es/spell/803185) |  | 1.5 min | — | Instant | Lock an enemy down with magical chains, stunning them and dragging them with you for 5 seconds. Every 1 sec, the enemy will suffer 48 Physic… |
 | Guardian | all | [Battle Rush](https://db.exil.es/spell/802197) |  | 30s | — | Instant | Charge an enemy, dealing 21.714 Physical damage and stunning them for 1 sec. |
 | Bloodmage | all | [Shadow Missile](https://db.exil.es/spell/536273) |  | 24s | — | Instant | Sends a shadowy bolt at the enemy, causing 65 to 66 Shadow damage and stunning them for 3 sec. |
-| Bloodmage | all | [Pursuit](https://db.exil.es/spell/802869) ⚠ |  | 1.5 min | — | Instant | Requires Cursed Form Appear behind an enemy, dealing 411 Physical Damage, stunning the target for 4 sec, and reducing all damage taken by 20… |
+| Bloodmage | all | [Pursuit](https://db.exil.es/spell/802869) **!** |  | 1.5 min | — | Instant | Requires Cursed Form Appear behind an enemy, dealing 411 Physical Damage, stunning the target for 4 sec, and reducing all damage taken by 20… |
 | Ranger | all | [Eternal Knockdown](https://db.exil.es/spell/520758) |  | 25s | — | Instant | Knock an enemy down, dealing 48 Physical Damage and stunning them for 168 hour. For the duration, enemies take 0% increased damage from Assa… |
 | Ranger | all | [Bushwhack](https://db.exil.es/spell/557333) ⚠ |  | none | 60 focus | Instant | Appear behind your target from the shadows, stunning them for 4 sec. |
-| Cultist | all | [Facehug](https://db.exil.es/spell/800013) |  | 1.5 min | — | Channel 3s | The Mindbender teleports to an enemy and channels on them for up to 3 sec, Stunning the target for the duration. |
+| Cultist | all | [Summon: Mindbender](https://db.exil.es/spell/803062) **(pet — pet bar)** |  | 1.5 min | 40% mana | 1.5s | Summons a Mindbender to aid you in battle until dismissed. This minion excels at supporting allies and can periodically heal allies within 40 yds. — Facehug: The Mindbender teleports to an enemy and channels on them for up to 3 sec, Stunning the target for the… |
 | Sun Cleric | all (tree)<br>r5 c2 | [Glare](https://db.exil.es/spell/805583) |  | 2 min | 20% mana | 1.5s | Flash powerful light that deals 168 + 27.41% SP Holy Damage and stuns enemies within 8 yds for 5 seconds. |
+| Tinker | Mechanics<br>r4 c7 | [Build: Scrapmaw](https://db.exil.es/spell/500242) **(pet — pet bar)** ⚠ |  | 30s | 15% mana | 6s | Build a Scrapmaw to accompany the Tinker until dismissed. — Drill Smash: Repeatedly drill into an enemy, dealing 125 Physical Damage, repeating every 1 sec and stunning them for 4 sec. |
 | Tinker | all | [Vanguard X-173: Onslaught](https://db.exil.es/spell/801828) |  | 20s | 30 energy | Instant | Causes 216 to 219 Physical Damage to enemies in a 15yd frontal cone and stunning enemies hit for 3 sec. |
-| Tinker | all | [Drill Smash](https://db.exil.es/spell/806173) |  | 30s | — | Instant | Repeatedly drill into an enemy, dealing 125 Physical Damage, repeating every 1 sec and stunning them for 4 sec. |
-| Venomancer | all | [Poison Eruption](https://db.exil.es/spell/520232) ⚠ |  | 2 min | 8% mana | Instant | Requires Scorpid Form Erupt in a poisonous frenzy, leeching 185 health and stunning enemies within 8 yds for 5 sec. |
+| Venomancer | all | [Poison Eruption](https://db.exil.es/spell/520232) **!** |  | 2 min | 8% mana | Instant | Requires Scorpid Form Erupt in a poisonous frenzy, leeching 185 health and stunning enemies within 8 yds for 5 sec. |
 | Primalist | Mountain King<br>r3 c4 | [Mountain Hammer](https://db.exil.es/spell/681130) |  | ≥1 min | 200 rage | Instant | Throw a hammer at an enemy dealing 67 + 35.5% nature SP + 15.5% AP Physical Damage and stunning them for 5 seconds. |
 | Primalist | all | [Monolith Smash](https://db.exil.es/spell/991349) **(int)** |  | 30s | 3% mana | 5s | Stuns an enemy for 3 sec and Interrupts non-player spellcasting for 3 sec. |
 | Runemaster | all (tree)<br>r0 c4 | [Ice Rune](https://db.exil.es/spell/524930) |  | 1 min | 12% mana | Instant | Requires Frozen Target Unleash a frost rune at an enemy, stunning them for 4 sec. Affected enemies are considered Frozen. |
@@ -161,14 +159,14 @@ None found for: Barbarian, Chronomancer, Cultist, Felsworn, Necromancer, Primali
 | Knight of Xoroth | all (tree)<br>r0 c6 | [Chains of Malice](https://db.exil.es/spell/803185) |  | 1.5 min | — | Instant | Lock an enemy down with magical chains, stunning them and dragging them with you for 5 seconds. Every 1 sec, the enemy will suffer 48 Physic… |
 | Guardian | all | [Battle Rush](https://db.exil.es/spell/802197) |  | 30s | — | Instant | Charge an enemy, dealing 21.714 Physical damage and stunning them for 1 sec. |
 | Bloodmage | all | [Shadow Missile](https://db.exil.es/spell/536273) |  | 24s | — | Instant | Sends a shadowy bolt at the enemy, causing 65 to 66 Shadow damage and stunning them for 3 sec. |
-| Bloodmage | all | [Pursuit](https://db.exil.es/spell/802869) ⚠ |  | 1.5 min | — | Instant | Requires Cursed Form Appear behind an enemy, dealing 411 Physical Damage, stunning the target for 4 sec, and reducing all damage taken by 20… |
+| Bloodmage | all | [Pursuit](https://db.exil.es/spell/802869) **!** |  | 1.5 min | — | Instant | Requires Cursed Form Appear behind an enemy, dealing 411 Physical Damage, stunning the target for 4 sec, and reducing all damage taken by 20… |
 | Ranger | all | [Eternal Knockdown](https://db.exil.es/spell/520758) |  | 25s | — | Instant | Knock an enemy down, dealing 48 Physical Damage and stunning them for 168 hour. For the duration, enemies take 0% increased damage from Assa… |
 | Ranger | all | [Bushwhack](https://db.exil.es/spell/557333) ⚠ |  | none | 60 focus | Instant | Appear behind your target from the shadows, stunning them for 4 sec. |
-| Cultist | all | [Facehug](https://db.exil.es/spell/800013) |  | 1.5 min | — | Channel 3s | The Mindbender teleports to an enemy and channels on them for up to 3 sec, Stunning the target for the duration. |
+| Cultist | all | [Summon: Mindbender](https://db.exil.es/spell/803062) **(pet — pet bar)** |  | 1.5 min | 40% mana | 1.5s | Summons a Mindbender to aid you in battle until dismissed. This minion excels at supporting allies and can periodically heal allies within 40 yds. — Facehug: The Mindbender teleports to an enemy and channels on them for up to 3 sec, Stunning the target for the… |
 | Sun Cleric | all (tree)<br>r5 c2 | [Glare](https://db.exil.es/spell/805583) |  | 2 min | 20% mana | 1.5s | Flash powerful light that deals 168 + 27.41% SP Holy Damage and stuns enemies within 8 yds for 5 seconds. |
+| Tinker | Mechanics<br>r4 c7 | [Build: Scrapmaw](https://db.exil.es/spell/500242) **(pet — pet bar)** ⚠ |  | 30s | 15% mana | 6s | Build a Scrapmaw to accompany the Tinker until dismissed. — Drill Smash: Repeatedly drill into an enemy, dealing 125 Physical Damage, repeating every 1 sec and stunning them for 4 sec. |
 | Tinker | all | [Vanguard X-173: Onslaught](https://db.exil.es/spell/801828) |  | 20s | 30 energy | Instant | Causes 216 to 219 Physical Damage to enemies in a 15yd frontal cone and stunning enemies hit for 3 sec. |
-| Tinker | all | [Drill Smash](https://db.exil.es/spell/806173) |  | 30s | — | Instant | Repeatedly drill into an enemy, dealing 125 Physical Damage, repeating every 1 sec and stunning them for 4 sec. |
-| Venomancer | all | [Poison Eruption](https://db.exil.es/spell/520232) ⚠ |  | 2 min | 8% mana | Instant | Requires Scorpid Form Erupt in a poisonous frenzy, leeching 185 health and stunning enemies within 8 yds for 5 sec. |
+| Venomancer | all | [Poison Eruption](https://db.exil.es/spell/520232) **!** |  | 2 min | 8% mana | Instant | Requires Scorpid Form Erupt in a poisonous frenzy, leeching 185 health and stunning enemies within 8 yds for 5 sec. |
 | Primalist | Mountain King<br>r3 c4 | [Mountain Hammer](https://db.exil.es/spell/681130) |  | ≥1 min | 200 rage | Instant | Throw a hammer at an enemy dealing 67 + 35.5% nature SP + 15.5% AP Physical Damage and stunning them for 5 seconds. |
 | Primalist | all | [Monolith Smash](https://db.exil.es/spell/991349) **(int)** |  | 30s | 3% mana | 5s | Stuns an enemy for 3 sec and Interrupts non-player spellcasting for 3 sec. |
 | Runemaster | all (tree)<br>r0 c4 | [Ice Rune](https://db.exil.es/spell/524930) |  | 1 min | 12% mana | Instant | Requires Frozen Target Unleash a frost rune at an enemy, stunning them for 4 sec. Affected enemies are considered Frozen. |
@@ -187,15 +185,15 @@ None found for: Chronomancer, Felsworn, Necromancer, Pyromancer, Reaper, Starcal
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Witch Doctor | all | [Bwonsamdi's Judgement](https://db.exil.es/spell/525386) |  | none | 10% mana | Instant | Deals 85 Shadow Damage to an enemy and roots them for 2 sec. |
-| Stormbringer | all | [Exhale](https://db.exil.es/spell/801846) ⚠ |  | 40s | 11% mana | Instant | Exhale a gust of wind in a 15 yd cone in front of you, dealing 109.2 Nature Damage and rooting up to 0 enemies in place for 8 sec. Damage ca… |
+| Stormbringer | all | [Exhale](https://db.exil.es/spell/801846) **!** |  | 40s | 11% mana | Instant | Exhale a gust of wind in a 15 yd cone in front of you, dealing 109.2 Nature Damage and rooting up to 0 enemies in place for 8 sec. Damage ca… |
 | Knight of Xoroth | all | [Hellhaul](https://db.exil.es/spell/503142) |  | 3 min | — | Instant | You bind an enemy target with magical Hellfire Chains, rooting them and dragging them with you for 5 sec. Every 0.25 sec for the duration th… |
 | Guardian | all (tree)<br>r0 c1 | [Net Throw](https://db.exil.es/spell/802304) |  | 15s | 15 energy | Instant | Toss a weighted net at an enemy that roots them for 4 seconds. While active, the target cannot dodge attacks. |
-| Ranger | Farstrider<br>r8 c6 | [Whipvine Arrow](https://db.exil.es/spell/806342) ⚠ |  | 1 min | 25 focus | 1.7s | Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (… |
+| Ranger | Farstrider<br>r8 c6 | [Whipvine Arrow](https://db.exil.es/spell/806342) **!** |  | 1 min | 25 focus | 1.7s | Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (… |
 | Chronomancer | all (tree)<br>r0 c4 | [Clasp of Infinity](https://db.exil.es/spell/805847) ⚠ |  | 20s | 23% mana | Instant | Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for 4 seconds. |
 | Necromancer | all | [Cryo Freeze](https://db.exil.es/spell/680363) |  | 20s | 7% mana | Instant | Unleashes a frost explosion at teleportaion location and freezes all enemies nearby. |
 | Necromancer | all | [Black Ice](https://db.exil.es/spell/801746) |  | 30s | 10% mana | Instant | A ring of ice erupts from the target, rooting enemies around them in ice for 8 sec, and applying Deathchill. Damage caused may interrupt the… |
 | Pyromancer | all | [Cindergrip](https://db.exil.es/spell/805476) |  | none | 19% mana | 1.5s | Raise a lava crag from beneath an enemy, rooting them in place, dealing 28 Fire damage every 3 sec for 12 sec (8 sec vs players). Damage cau… |
-| Tinker | all | [Hydraulic Charge](https://db.exil.es/spell/800582) ⚠ |  | 15s | 6% mana | Instant | Charge an enemy with your Clockwork Assistant and strike as one, each dealing 362 Physical Damage and rooting enemies in place for 2 sec. |
+| Tinker | all | [Hydraulic Charge](https://db.exil.es/spell/800582) **!** |  | 15s | 6% mana | Instant | Charge an enemy with your Clockwork Assistant and strike as one, each dealing 362 Physical Damage and rooting enemies in place for 2 sec. |
 | Venomancer | all (tree)<br>r3 c4 | [Spindlebind](https://db.exil.es/spell/800887) ⚠ |  | 16s | 30 energy | Instant | Emit webs at all enemies in a 10 yd cone behind you, rooting them for 4 seconds, and unleashing a beetle on the trapped enemy from below, in… |
 | Venomancer | all | [Venocannon](https://db.exil.es/spell/804967) |  | 1 min | — | Instant | Burst out of your burrow, rooting yourself in place for 0.001 sec. While active, all spells have 15 yd of additional range, and the cast tim… |
 | Primalist | all | [Swoop](https://db.exil.es/spell/806546) |  | 30s | — | Channel 3s | Swoop an enemy, flying to their position and knocking them down. Rooting the target for 3 sec, disabling movement abilities. |
@@ -208,15 +206,15 @@ None found for: Chronomancer, Felsworn, Necromancer, Pyromancer, Reaper, Starcal
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Witch Doctor | all | [Bwonsamdi's Judgement](https://db.exil.es/spell/525386) |  | none | 10% mana | Instant | Deals 85 Shadow Damage to an enemy and roots them for 2 sec. |
-| Stormbringer | all | [Exhale](https://db.exil.es/spell/801846) ⚠ |  | 40s | 11% mana | Instant | Exhale a gust of wind in a 15 yd cone in front of you, dealing 109.2 Nature Damage and rooting up to 0 enemies in place for 8 sec. Damage ca… |
+| Stormbringer | all | [Exhale](https://db.exil.es/spell/801846) **!** |  | 40s | 11% mana | Instant | Exhale a gust of wind in a 15 yd cone in front of you, dealing 109.2 Nature Damage and rooting up to 0 enemies in place for 8 sec. Damage ca… |
 | Knight of Xoroth | all | [Hellhaul](https://db.exil.es/spell/503142) |  | 3 min | — | Instant | You bind an enemy target with magical Hellfire Chains, rooting them and dragging them with you for 5 sec. Every 0.25 sec for the duration th… |
 | Guardian | all (tree)<br>r0 c1 | [Net Throw](https://db.exil.es/spell/802304) |  | 15s | 15 energy | Instant | Toss a weighted net at an enemy that roots them for 4 seconds. While active, the target cannot dodge attacks. |
-| Ranger | Farstrider<br>r8 c6 | [Whipvine Arrow](https://db.exil.es/spell/806342) ⚠ |  | 1 min | 25 focus | 1.7s | Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (… |
+| Ranger | Farstrider<br>r8 c6 | [Whipvine Arrow](https://db.exil.es/spell/806342) **!** |  | 1 min | 25 focus | 1.7s | Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (… |
 | Chronomancer | all (tree)<br>r0 c4 | [Clasp of Infinity](https://db.exil.es/spell/805847) ⚠ |  | 20s | 23% mana | Instant | Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for 4 seconds. |
 | Necromancer | all | [Cryo Freeze](https://db.exil.es/spell/680363) |  | 20s | 7% mana | Instant | Unleashes a frost explosion at teleportaion location and freezes all enemies nearby. |
 | Necromancer | all | [Black Ice](https://db.exil.es/spell/801746) |  | 30s | 10% mana | Instant | A ring of ice erupts from the target, rooting enemies around them in ice for 8 sec, and applying Deathchill. Damage caused may interrupt the… |
 | Pyromancer | all | [Cindergrip](https://db.exil.es/spell/805476) |  | none | 19% mana | 1.5s | Raise a lava crag from beneath an enemy, rooting them in place, dealing 28 Fire damage every 3 sec for 12 sec (8 sec vs players). Damage cau… |
-| Tinker | all | [Hydraulic Charge](https://db.exil.es/spell/800582) ⚠ |  | 15s | 6% mana | Instant | Charge an enemy with your Clockwork Assistant and strike as one, each dealing 362 Physical Damage and rooting enemies in place for 2 sec. |
+| Tinker | all | [Hydraulic Charge](https://db.exil.es/spell/800582) **!** |  | 15s | 6% mana | Instant | Charge an enemy with your Clockwork Assistant and strike as one, each dealing 362 Physical Damage and rooting enemies in place for 2 sec. |
 | Venomancer | all (tree)<br>r3 c4 | [Spindlebind](https://db.exil.es/spell/800887) ⚠ |  | 16s | 30 energy | Instant | Emit webs at all enemies in a 10 yd cone behind you, rooting them for 4 seconds, and unleashing a beetle on the trapped enemy from below, in… |
 | Venomancer | all | [Venocannon](https://db.exil.es/spell/804967) |  | 1 min | — | Instant | Burst out of your burrow, rooting yourself in place for 0.001 sec. While active, all spells have 15 yd of additional range, and the cast tim… |
 | Primalist | all | [Swoop](https://db.exil.es/spell/806546) |  | 30s | — | Channel 3s | Swoop an enemy, flying to their position and knocking them down. Rooting the target for 3 sec, disabling movement abilities. |
@@ -268,13 +266,13 @@ None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian,
 
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Templar | all | [Righteous Reprimand](https://db.exil.es/spell/572308) ⚠ |  | 10s | 6% mana | Instant | Removes 1 beneficial magic effect from an enemy. |
+| Templar | all | [Righteous Reprimand](https://db.exil.es/spell/572308) **!** |  | 10s | 6% mana | Instant | Removes 1 beneficial magic effect from an enemy. |
 | Chronomancer | Time<br>r6 c4 | [Continuum Restoration](https://db.exil.es/spell/801271) ⚠ |  | 1.5 min | 60% mana | 1.5s | Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and ha… |
 | Cultist | Godblade<br>r3 c4 | [Netherstrike](https://db.exil.es/spell/806222) |  | 6s | 10% mana | Instant | Generates 10 Insanity Strike an enemy quickly for 125% Weapon Damage plus 40 Shadow Damage, purging 1 beneficial magic effect from them. Onl… |
 | Sun Cleric | all | [Gavel of Wrath](https://db.exil.es/spell/800617) |  | 5s | 10% mana | Instant | Smash an enemy for 100% Weapon Damage plus 45 and dispel 1 beneficial magic effect from them. Shares a cooldown with other Gavels. |
 | Reaper | all | [Soul Shear](https://db.exil.es/spell/520862) |  | 16s | — | Instant | Purge an enemy's soul, removing 2 beneficial magic effects from them. |
 | Reaper | all | [Reap Magic](https://db.exil.es/spell/704258) |  | none | — | Instant | Steals 1 beneficial Magic Effect from an enemy. If you successfuly steal an effect, you also siphon 160 Health from the target as Shadow Dam… |
-| Primalist | all | [Neutralizing Touch](https://db.exil.es/spell/572307) ⚠ |  | 10s | — | Instant | Removes 1 beneficial magic effect from an enemy. |
+| Primalist | all | [Neutralizing Touch](https://db.exil.es/spell/572307) **!** |  | 10s | — | Instant | Removes 1 beneficial magic effect from an enemy. |
 | Runemaster | all | [Resonance Rune](https://db.exil.es/spell/803679) |  | 1 min | 30% mana | 1.5s | Place an arcane rune on the ground that dispels 3 harmful magic effects from allies in the radius, and purges 3 beneficial magic effects fro… |
 
 <details><summary>Copy this table as markdown</summary>
@@ -282,13 +280,13 @@ None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian,
 ```markdown
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Templar | all | [Righteous Reprimand](https://db.exil.es/spell/572308) ⚠ |  | 10s | 6% mana | Instant | Removes 1 beneficial magic effect from an enemy. |
+| Templar | all | [Righteous Reprimand](https://db.exil.es/spell/572308) **!** |  | 10s | 6% mana | Instant | Removes 1 beneficial magic effect from an enemy. |
 | Chronomancer | Time<br>r6 c4 | [Continuum Restoration](https://db.exil.es/spell/801271) ⚠ |  | 1.5 min | 60% mana | 1.5s | Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and ha… |
 | Cultist | Godblade<br>r3 c4 | [Netherstrike](https://db.exil.es/spell/806222) |  | 6s | 10% mana | Instant | Generates 10 Insanity Strike an enemy quickly for 125% Weapon Damage plus 40 Shadow Damage, purging 1 beneficial magic effect from them. Onl… |
 | Sun Cleric | all | [Gavel of Wrath](https://db.exil.es/spell/800617) |  | 5s | 10% mana | Instant | Smash an enemy for 100% Weapon Damage plus 45 and dispel 1 beneficial magic effect from them. Shares a cooldown with other Gavels. |
 | Reaper | all | [Soul Shear](https://db.exil.es/spell/520862) |  | 16s | — | Instant | Purge an enemy's soul, removing 2 beneficial magic effects from them. |
 | Reaper | all | [Reap Magic](https://db.exil.es/spell/704258) |  | none | — | Instant | Steals 1 beneficial Magic Effect from an enemy. If you successfuly steal an effect, you also siphon 160 Health from the target as Shadow Dam… |
-| Primalist | all | [Neutralizing Touch](https://db.exil.es/spell/572307) ⚠ |  | 10s | — | Instant | Removes 1 beneficial magic effect from an enemy. |
+| Primalist | all | [Neutralizing Touch](https://db.exil.es/spell/572307) **!** |  | 10s | — | Instant | Removes 1 beneficial magic effect from an enemy. |
 | Runemaster | all | [Resonance Rune](https://db.exil.es/spell/803679) |  | 1 min | 30% mana | 1.5s | Place an arcane rune on the ground that dispels 3 harmful magic effects from allies in the radius, and purges 3 beneficial magic effects fro… |
 ```
 
@@ -304,7 +302,7 @@ None found for: Barbarian, Bloodmage, Felsworn, Guardian, Knight of Xoroth, Necr
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Felsworn | all | [Consume Magic](https://db.exil.es/spell/800353) |  | none | 30 energy | Instant | Steal 1 beneficial magic effects from an enemy. If you successfully steal an effect, you deal 8 Shadow Damage to the enemy. |
-| Bloodmage | all | [Siphon](https://db.exil.es/spell/803327) ⚠ |  | 6s | — | Instant | Steal 2 beneficial magic effects from an enemy. |
+| Bloodmage | all | [Siphon](https://db.exil.es/spell/803327) **!** |  | 6s | — | Instant | Steal 2 beneficial magic effects from an enemy. |
 | Runemaster | all | [Leyfeed](https://db.exil.es/spell/520269) ⚠ |  | none | 20% mana | 1s | Feed off the latent magic of an enemy, stealing 2 beneficial magic effects from them. Usable while moving. |
 
 <details><summary>Copy this table as markdown</summary>
@@ -313,7 +311,7 @@ None found for: Barbarian, Bloodmage, Felsworn, Guardian, Knight of Xoroth, Necr
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Felsworn | all | [Consume Magic](https://db.exil.es/spell/800353) |  | none | 30 energy | Instant | Steal 1 beneficial magic effects from an enemy. If you successfully steal an effect, you deal 8 Shadow Damage to the enemy. |
-| Bloodmage | all | [Siphon](https://db.exil.es/spell/803327) ⚠ |  | 6s | — | Instant | Steal 2 beneficial magic effects from an enemy. |
+| Bloodmage | all | [Siphon](https://db.exil.es/spell/803327) **!** |  | 6s | — | Instant | Steal 2 beneficial magic effects from an enemy. |
 | Runemaster | all | [Leyfeed](https://db.exil.es/spell/520269) ⚠ |  | none | 20% mana | 1s | Feed off the latent magic of an enemy, stealing 2 beneficial magic effects from them. Usable while moving. |
 ```
 
@@ -367,16 +365,16 @@ Still missed on purpose: roughly fourteen abilities deliver mitigation through a
 |---|---|---|---|---|---|---|---|
 | Barbarian | Ancestry<br>r4 c6 | [Cheers!](https://db.exil.es/spell/805810) |  | 3s | 20 energy | Instant | Designate an ally as your drinking partner for 30 minutes, reducing all damage they take by -5%, and causing 10% of all damage they take to … |
 | Felsworn | Tyrant<br>r8 c6 | [Infernal Whipcrack](https://db.exil.es/spell/805243) |  | 1.5 min | — | Instant | Enrage up to 8 allies within 20 yds, reducing their damage taken by -15% and increasing their haste by 10% for 10 seconds. |
-| Witch Hunter | Black Knight<br>r9 c4 | [Gaze of the Black Knight](https://db.exil.es/spell/802138) |  | 3 min | 27% mana | Instant | Apply a dark shield to yourself, absorbing 2255 + 30% Stamina + 11% AP damage and then gaze upon your party members, causing 25% of the dama… |
+| Witch Hunter | Black Knight<br>r9 c4 | [Gaze of the Black Knight](https://db.exil.es/spell/802138) ⚠ |  | 3 min | 27% mana | Instant | Apply a dark shield to yourself, absorbing 2255 + 30% Stamina + 11% AP damage and then gaze upon your party members, causing 25% of the dama… |
 | Guardian | Vanguard<br>r9 c4 | [Bastion](https://db.exil.es/spell/802283) |  | 5 min | 40 energy | Instant | Raise your shield and lead your allies within 12 yds, reducing their damage taken by -40% for 10 seconds. |
 | Guardian | all | [Emperor's Decree](https://db.exil.es/spell/806139) |  | 30s | 25 energy | Instant | Empowers an ally for 15 sec, reducing all damage they take by 35% and increasing all healing they take by 30%. Grants Motivation to all near… |
 | Templar | all | [Grace of Aman'Thul](https://db.exil.es/spell/801477) |  | 20s | 20 energy | Instant | Unleash a defensive Oath Breaker, causing damage taken from melee attacks to heal yourself and allies within 10 yds for 136. Lasts 0 or unti… |
 | Chronomancer | all | [Decelerate](https://db.exil.es/spell/572632) |  | none | 32% mana | Instant | Decelerates magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. Lasts 10… |
 | Chronomancer | Time<br>r9 c4 | [The Vast Infinite](https://db.exil.es/spell/706083) |  | 5 min | 30% mana | Instant | All party and raid members become one, equally sharing 25% of all damage dealt to them for 10 seconds, up to a maximum of 100% of their tota… |
-| Pyromancer | all | [Lucifron's Lagniappe](https://db.exil.es/spell/805497) |  | 30s | 10% mana | Instant | Enhance an ally for 30 sec, increasing their spell haste by 10% and reducing all damage taken by 10%. Can only target 1 ally at a time. |
+| Pyromancer | all | [Lucifron's Lagniappe](https://db.exil.es/spell/805497) **!** |  | 30s | 10% mana | Instant | Enhance an ally for 30 sec, increasing their spell haste by 10% and reducing all damage taken by 10%. Can only target 1 ally at a time. |
 | Cultist | Heretic<br>r2 c4 | [Abyssal Covenant](https://db.exil.es/spell/500751) |  | 5s | 14% mana | Instant | Link yourself to an ally for 30 minutes, transfering 10% of all damage taken by them to you and causing 20% of all damage you deal to be con… |
 | Cultist | all | [Whispers of Yogg-Saron](https://db.exil.es/spell/572637) ⚠ |  | none | 27% mana | Instant | Destabilizes magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. |
-| Cultist | all | [Nether Shield](https://db.exil.es/spell/680571) |  | 1.5 min | 12% mana | Instant | Envelop a 10 yd area in nether energy, reducing all Magic Damage taken by 40% for 10 sec while inside. |
+| Cultist | all | [Nether Shield](https://db.exil.es/spell/680571) **!** |  | 1.5 min | 12% mana | Instant | Envelop a 10 yd area in nether energy, reducing all Magic Damage taken by 40% for 10 sec while inside. |
 | Cultist | Heretic<br>r8 c4 | [Hand of Yogg-Saron](https://db.exil.es/spell/704476) |  | 2 min | 18% mana | Instant | Tether yourself to an ally for 15 seconds, increasing all damage they deal and reducing all damage they take by 15%. |
 | Cultist | all | [Protection From Light](https://db.exil.es/spell/804065) |  | 30s | 3% mana | Instant | Reduces all Holy Damage and Fire Damage taken by an ally by 40% for 10 sec. While active, the ally is Healed for 24 to 25 every 2 sec. |
 | Sun Cleric | Seraphim<br>r9 c4 | [Scroll of Hope](https://db.exil.es/spell/680646) |  | 5 min | 40% mana | Instant | Read from a scroll of hope, reducing Magic Damage taken by party and raid members within 15 yds by -30% for 10 seconds. If any ally falls be… |
@@ -395,16 +393,16 @@ Still missed on purpose: roughly fourteen abilities deliver mitigation through a
 |---|---|---|---|---|---|---|---|
 | Barbarian | Ancestry<br>r4 c6 | [Cheers!](https://db.exil.es/spell/805810) |  | 3s | 20 energy | Instant | Designate an ally as your drinking partner for 30 minutes, reducing all damage they take by -5%, and causing 10% of all damage they take to … |
 | Felsworn | Tyrant<br>r8 c6 | [Infernal Whipcrack](https://db.exil.es/spell/805243) |  | 1.5 min | — | Instant | Enrage up to 8 allies within 20 yds, reducing their damage taken by -15% and increasing their haste by 10% for 10 seconds. |
-| Witch Hunter | Black Knight<br>r9 c4 | [Gaze of the Black Knight](https://db.exil.es/spell/802138) |  | 3 min | 27% mana | Instant | Apply a dark shield to yourself, absorbing 2255 + 30% Stamina + 11% AP damage and then gaze upon your party members, causing 25% of the dama… |
+| Witch Hunter | Black Knight<br>r9 c4 | [Gaze of the Black Knight](https://db.exil.es/spell/802138) ⚠ |  | 3 min | 27% mana | Instant | Apply a dark shield to yourself, absorbing 2255 + 30% Stamina + 11% AP damage and then gaze upon your party members, causing 25% of the dama… |
 | Guardian | Vanguard<br>r9 c4 | [Bastion](https://db.exil.es/spell/802283) |  | 5 min | 40 energy | Instant | Raise your shield and lead your allies within 12 yds, reducing their damage taken by -40% for 10 seconds. |
 | Guardian | all | [Emperor's Decree](https://db.exil.es/spell/806139) |  | 30s | 25 energy | Instant | Empowers an ally for 15 sec, reducing all damage they take by 35% and increasing all healing they take by 30%. Grants Motivation to all near… |
 | Templar | all | [Grace of Aman'Thul](https://db.exil.es/spell/801477) |  | 20s | 20 energy | Instant | Unleash a defensive Oath Breaker, causing damage taken from melee attacks to heal yourself and allies within 10 yds for 136. Lasts 0 or unti… |
 | Chronomancer | all | [Decelerate](https://db.exil.es/spell/572632) |  | none | 32% mana | Instant | Decelerates magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. Lasts 10… |
 | Chronomancer | Time<br>r9 c4 | [The Vast Infinite](https://db.exil.es/spell/706083) |  | 5 min | 30% mana | Instant | All party and raid members become one, equally sharing 25% of all damage dealt to them for 10 seconds, up to a maximum of 100% of their tota… |
-| Pyromancer | all | [Lucifron's Lagniappe](https://db.exil.es/spell/805497) |  | 30s | 10% mana | Instant | Enhance an ally for 30 sec, increasing their spell haste by 10% and reducing all damage taken by 10%. Can only target 1 ally at a time. |
+| Pyromancer | all | [Lucifron's Lagniappe](https://db.exil.es/spell/805497) **!** |  | 30s | 10% mana | Instant | Enhance an ally for 30 sec, increasing their spell haste by 10% and reducing all damage taken by 10%. Can only target 1 ally at a time. |
 | Cultist | Heretic<br>r2 c4 | [Abyssal Covenant](https://db.exil.es/spell/500751) |  | 5s | 14% mana | Instant | Link yourself to an ally for 30 minutes, transfering 10% of all damage taken by them to you and causing 20% of all damage you deal to be con… |
 | Cultist | all | [Whispers of Yogg-Saron](https://db.exil.es/spell/572637) ⚠ |  | none | 27% mana | Instant | Destabilizes magic used against the targeted party member. Reduces all spell damage taken by 5% and reduces all healing taken by 5%. |
-| Cultist | all | [Nether Shield](https://db.exil.es/spell/680571) |  | 1.5 min | 12% mana | Instant | Envelop a 10 yd area in nether energy, reducing all Magic Damage taken by 40% for 10 sec while inside. |
+| Cultist | all | [Nether Shield](https://db.exil.es/spell/680571) **!** |  | 1.5 min | 12% mana | Instant | Envelop a 10 yd area in nether energy, reducing all Magic Damage taken by 40% for 10 sec while inside. |
 | Cultist | Heretic<br>r8 c4 | [Hand of Yogg-Saron](https://db.exil.es/spell/704476) |  | 2 min | 18% mana | Instant | Tether yourself to an ally for 15 seconds, increasing all damage they deal and reducing all damage they take by 15%. |
 | Cultist | all | [Protection From Light](https://db.exil.es/spell/804065) |  | 30s | 3% mana | Instant | Reduces all Holy Damage and Fire Damage taken by an ally by 40% for 10 sec. While active, the ally is Healed for 24 to 25 every 2 sec. |
 | Sun Cleric | Seraphim<br>r9 c4 | [Scroll of Hope](https://db.exil.es/spell/680646) |  | 5 min | 40% mana | Instant | Read from a scroll of hope, reducing Magic Damage taken by party and raid members within 15 yds by -30% for 10 seconds. If any ally falls be… |
@@ -428,7 +426,7 @@ Same auras, group-scoped, but **no cooldown and no cost**: talents and stances t
 
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Stormbringer | all | [Cyclonean Protection](https://db.exil.es/spell/804067) ⚠ |  | none | — | Instant | Reduces the damage taken from area of effect attacks of party members within 20 yds by 15%. |
+| Stormbringer | all | [Summon: Air Elemental](https://db.exil.es/spell/804019) **(pet — passive)** ⚠ |  | none | 75% mana | 5s | Call an Air Elemental to aid you in combat that gains a stack of Invigoration whenever it deals damage. — Cyclonean Protection: Reduces the damage taken from area of effect attacks of party members within 20 yds by 15%. |
 | Guardian | Vanguard<br>r6 c6 | [Unscuffable](https://db.exil.es/spell/503837) |  | none | — | Instant | Allies within 30 yds now take -10% less Magic Damage from area of effect attacks. |
 | Templar | all | [Tithe of Alacrity](https://db.exil.es/spell/804818) |  | none | — | 3s | Emanate an aura for 1 hour, empowering party and raid members with 15% reduced damage taken from area of effect attacks. |
 | Cultist | Dreadnought<br>r6 c4 | [Voidwarding](https://db.exil.es/spell/560002) |  | none | — | Instant | Reduces damage taken by party and raid members by -3%. Does not stack with similar effects. In addition, increases all of your resistances b… |
@@ -445,7 +443,7 @@ Same auras, group-scoped, but **no cooldown and no cost**: talents and stances t
 ```markdown
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Stormbringer | all | [Cyclonean Protection](https://db.exil.es/spell/804067) ⚠ |  | none | — | Instant | Reduces the damage taken from area of effect attacks of party members within 20 yds by 15%. |
+| Stormbringer | all | [Summon: Air Elemental](https://db.exil.es/spell/804019) **(pet — passive)** ⚠ |  | none | 75% mana | 5s | Call an Air Elemental to aid you in combat that gains a stack of Invigoration whenever it deals damage. — Cyclonean Protection: Reduces the damage taken from area of effect attacks of party members within 20 yds by 15%. |
 | Guardian | Vanguard<br>r6 c6 | [Unscuffable](https://db.exil.es/spell/503837) |  | none | — | Instant | Allies within 30 yds now take -10% less Magic Damage from area of effect attacks. |
 | Templar | all | [Tithe of Alacrity](https://db.exil.es/spell/804818) |  | none | — | 3s | Emanate an aura for 1 hour, empowering party and raid members with 15% reduced damage taken from area of effect attacks. |
 | Cultist | Dreadnought<br>r6 c4 | [Voidwarding](https://db.exil.es/spell/560002) |  | none | — | Instant | Reduces damage taken by party and raid members by -3%. Does not stack with similar effects. In addition, increases all of your resistances b… |
@@ -475,15 +473,15 @@ Three abilities do both jobs -- `Lucifron's Lagniappe`, `Hand of Yogg-Saron`, `I
 
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Barbarian | Ancestry<br>r8 c7 | [War Cry](https://db.exil.es/spell/500995) |  | 3 min | — | Instant | Unleash a blood curdling war cry, increasing melee and ranged attack speed by 20%, and attack power by 150 of allies within 25 yds for 20 se… |
+| Barbarian | Ancestry<br>r8 c7 | [War Cry](https://db.exil.es/spell/500995) ⚠ |  | 3 min | — | Instant | Unleash a blood curdling war cry, increasing melee and ranged attack speed by 20%, and attack power by 150 of allies within 25 yds for 20 se… |
 | Barbarian | Ancestry<br>r6 c10 | [Splash Zone](https://db.exil.es/spell/705156) |  | 30s | 25 energy | Instant | Share a drink from your Tankard with all party and raid members, granting 95 increased attack or spell power for 15 seconds. Does not stack … |
 | Barbarian | Ancestry<br>r8 c10 | [Tavern Brawl!](https://db.exil.es/spell/804456) |  | 5 min | 25 energy | Instant | Enrage all nearby allies, increasing their haste by 30% for 20 seconds. After being affected by this spell, allies cannot benefit from simil… |
 | Barbarian | Ancestry<br>r8 c10 | [Clanlord's Totem](https://db.exil.es/spell/804737) |  | 1 min | 20 energy | Instant | Drop the Clanlord's Totem at the target location where it will remain for 15 seconds. The totem emanates an aura for 15 seconds, causing all… |
-| Witch Doctor | all | [Rallying Roar](https://db.exil.es/spell/801599) |  | 30s | — | Instant | Emanate an aura for 6 sec, increasing the attack speed and spell haste of all allies within 40 yd by 10%. |
+| Witch Doctor | all | [Call Avatar: Devilsaur](https://db.exil.es/spell/801585) **(pet — pet bar)** |  | 30s | 14% mana | 3s | You call forth a Devilsaur as your Avatar Dinosaur. Devilsaurs are massive and terrifying creatures capable of destroying groups of foes, and bolstering allies with powerful roars. You can only use 1 Avatar Dinosaur at a time. — Rallying Roar: Emanate an aura … |
 | Witch Doctor | Brewing<br>r6 c5 | [Arcane Brew](https://db.exil.es/spell/801689) |  | 2 min | 8% mana | Instant | Throw your Arcane Brew at an ally, increasing their spell power and Spirit by 74 for 10 seconds. Spell power scales with caster level. |
 | Witch Hunter | all | [Set Bounty](https://db.exil.es/spell/805760) |  | 45s | — | Instant | Set a bounty on the target enemy's head, increasing allies' critical strike chance against them by 3%, and increasing all Physical damage th… |
 | Stormbringer | Wind<br>r8 c10 | [Surge of Might](https://db.exil.es/spell/520083) |  | 1 min | 15% mana | Instant | Emanate an aura around you for 15 seconds, causing allied players within 100 yds to deal 70% nature SP additional damage as Nature Damage wh… |
-| Stormbringer | Wind<br>r8 c10 | [Tempest's Call](https://db.exil.es/spell/560567) |  | 5 min | 26% mana | Instant | Bring the power of wind and storm to all nearby allies, increasing haste by 30% for 20 seconds. After being affected by this spell, allies c… |
+| Stormbringer | Wind<br>r8 c10 | [Tempest's Call](https://db.exil.es/spell/560567) ⚠ |  | 5 min | 26% mana | Instant | Bring the power of wind and storm to all nearby allies, increasing haste by 30% for 20 seconds. After being affected by this spell, allies c… |
 | Stormbringer | all | [Blessing of Air](https://db.exil.es/spell/804022) |  | 10s | 27% mana | Instant | Emanate an aura to all party and raid members within 100 yds increasing their spell haste by 3%. Does not stack with similar effects. |
 | Stormbringer | Wind<br>r4 c10 | [Tailwind](https://db.exil.es/spell/804035) |  | none | Depletes 20 | Instant | Depletes 20 Static Tap into the swift winds, increasing your damage by 10% and granting all allied players 5% increased haste for 15 seconds… |
 | Stormbringer | Wind<br>r6 c10 | [Aerodynamics](https://db.exil.es/spell/806124) |  | none | Depletes 40 | Instant | Depletes 40 Static Envelop party and raid members within 40 yds in magical mist, increasing their attack or spell power by 95 for 15 seconds… |
@@ -503,8 +501,8 @@ Three abilities do both jobs -- `Lucifron's Lagniappe`, `Hand of Yogg-Saron`, `I
 | Ranger | Farstrider<br>r8 c10 | [Command Aura](https://db.exil.es/spell/524600) |  | 1 min | — | Instant | Emanate an aura for 15 seconds, causing allied players to deal 35% ranged AP additional damage as Stormstrike Damage when they deal direct d… |
 | Ranger | Farstrider<br>r4 c10 | [Battle Screech](https://db.exil.es/spell/705070) |  | none | 40 focus | Instant | Empower party and raid members within 40 yds, increasing their attack or spell power by 15 for 15 seconds. Does not stack with similar effec… |
 | Ranger | Farstrider<br>r2 c10 | [Horn of War](https://db.exil.es/spell/800086) |  | 1 min | — | Instant | Generates 1 Advantage Emanate an aura for 30 seconds that grants 5% increased critical strike chance to party and raid members. Does not sta… |
-| Ranger | Farstrider<br>r6 c10 | [Horn of Alacrity](https://db.exil.es/spell/806360) |  | 1 min | — | Instant | Generates 1 Advantage Emanate an aura for 30 seconds that grants 5% increased haste to party and raid members. Does not stack with similar e… |
-| Chronomancer | all | [Hasten](https://db.exil.es/spell/801304) |  | 1.5 min | 17% mana | Instant | Hasten time for an ally, increasing movement speed and haste by 20% and granting them a 0% chance when they deal damage to strike the target… |
+| Ranger | Farstrider<br>r6 c10 | [Horn of Alacrity](https://db.exil.es/spell/806360) ⚠ |  | 1 min | — | Instant | Generates 1 Advantage Emanate an aura for 30 seconds that grants 5% increased haste to party and raid members. Does not stack with similar e… |
+| Chronomancer | all | [Hasten](https://db.exil.es/spell/801304) ⚠ |  | 1.5 min | 17% mana | Instant | Hasten time for an ally, increasing movement speed and haste by 20% and granting them a 0% chance when they deal damage to strike the target… |
 | Chronomancer | all | [Maw of Chaos](https://db.exil.es/spell/806316) |  | 24s | 10% mana | Instant | Instantly Heals an ally for 244 to 248, increasing their Spell Haste by 15% for 6 sec. Grants 1 Chromatic. |
 | Pyromancer | all | [Firepower](https://db.exil.es/spell/805487) |  | 30s | 15% mana | Instant | Empower party and raid members within 30 yds that are currently in a Path of Flames for 10 sec. While active, affected allies gain 20% incre… |
 | Cultist | all | [Summon: Faceless Servant](https://db.exil.es/spell/500709) |  | none | 40% mana | 3s | Summons a Faceless Servant to aid you in battle until dismissed. While active, this minion provides 2% increased critical strike chance to a… |
@@ -513,7 +511,7 @@ Three abilities do both jobs -- `Lucifron's Lagniappe`, `Hand of Yogg-Saron`, `I
 | Starcaller | all | [Stellar Alignment](https://db.exil.es/spell/807564) |  | 5 min | 15% mana | Instant | Enrage all nearby allies, increasing their haste by 30% for 20 sec. After being affected by this spell, allies cannot benefit from similar e… |
 | Sun Cleric | Blessings<br>r9 c4 | [Blessing of Triumph](https://db.exil.es/spell/804250) |  | 3 min | 13% mana | Instant | Redeem a Blessed ally for 20 seconds, granting 25% increased haste and 10% increased damage. If the ally falls below 35% maximum health they… |
 | Tinker | Invention<br>r9 c4 | [Combat Symbiosis](https://db.exil.es/spell/805305) |  | 1.5 min | 24% mana | Instant | Electrify an allies' body, increasing their haste by 20% and causing damage dealt by them to heal nearby allies for 15% of the value. Lasts … |
-| Primalist | Grovekeeper<br>r9 c2 | [Ancient of War](https://db.exil.es/spell/504222) |  | 2.5 min | — | Instant | Funnel nature's fury into yourself, transforming into an Ancient of War for 20 seconds. While active, your Hammer of Life effectiveness is i… |
+| Primalist | Grovekeeper<br>r9 c2 | [Ancient of War](https://db.exil.es/spell/504222) ⚠ |  | 2.5 min | — | Instant | Funnel nature's fury into yourself, transforming into an Ancient of War for 20 seconds. While active, your Hammer of Life effectiveness is i… |
 | Primalist | all | [Boon of the Elements](https://db.exil.es/spell/680428) |  | none | 300 rage | Instant | Increase an ally's critical strike chance by 5% and reduces the resource costs of their abilities by 10% for 20 sec. While active, the targe… |
 | Primalist | Grovekeeper<br>r6 c10 | [Flourishing Growth](https://db.exil.es/spell/805442) |  | 10s | 20% mana | Instant | Empower party and raid members within 40 yds with verdant strength, increasing their attack or spell power by 95 for 20 seconds. Does not st… |
 | Primalist | Grovekeeper<br>r8 c10 | [Neptulon's Wrath](https://db.exil.es/spell/807467) |  | 1 min | 19% mana | Instant | Emanate an aura for 15 seconds, causing allied players to deal 35% AP additional damage as Froststorm Damage when they deal direct damage. A… |
@@ -525,15 +523,15 @@ Three abilities do both jobs -- `Lucifron's Lagniappe`, `Hand of Yogg-Saron`, `I
 ```markdown
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
-| Barbarian | Ancestry<br>r8 c7 | [War Cry](https://db.exil.es/spell/500995) |  | 3 min | — | Instant | Unleash a blood curdling war cry, increasing melee and ranged attack speed by 20%, and attack power by 150 of allies within 25 yds for 20 se… |
+| Barbarian | Ancestry<br>r8 c7 | [War Cry](https://db.exil.es/spell/500995) ⚠ |  | 3 min | — | Instant | Unleash a blood curdling war cry, increasing melee and ranged attack speed by 20%, and attack power by 150 of allies within 25 yds for 20 se… |
 | Barbarian | Ancestry<br>r6 c10 | [Splash Zone](https://db.exil.es/spell/705156) |  | 30s | 25 energy | Instant | Share a drink from your Tankard with all party and raid members, granting 95 increased attack or spell power for 15 seconds. Does not stack … |
 | Barbarian | Ancestry<br>r8 c10 | [Tavern Brawl!](https://db.exil.es/spell/804456) |  | 5 min | 25 energy | Instant | Enrage all nearby allies, increasing their haste by 30% for 20 seconds. After being affected by this spell, allies cannot benefit from simil… |
 | Barbarian | Ancestry<br>r8 c10 | [Clanlord's Totem](https://db.exil.es/spell/804737) |  | 1 min | 20 energy | Instant | Drop the Clanlord's Totem at the target location where it will remain for 15 seconds. The totem emanates an aura for 15 seconds, causing all… |
-| Witch Doctor | all | [Rallying Roar](https://db.exil.es/spell/801599) |  | 30s | — | Instant | Emanate an aura for 6 sec, increasing the attack speed and spell haste of all allies within 40 yd by 10%. |
+| Witch Doctor | all | [Call Avatar: Devilsaur](https://db.exil.es/spell/801585) **(pet — pet bar)** |  | 30s | 14% mana | 3s | You call forth a Devilsaur as your Avatar Dinosaur. Devilsaurs are massive and terrifying creatures capable of destroying groups of foes, and bolstering allies with powerful roars. You can only use 1 Avatar Dinosaur at a time. — Rallying Roar: Emanate an aura … |
 | Witch Doctor | Brewing<br>r6 c5 | [Arcane Brew](https://db.exil.es/spell/801689) |  | 2 min | 8% mana | Instant | Throw your Arcane Brew at an ally, increasing their spell power and Spirit by 74 for 10 seconds. Spell power scales with caster level. |
 | Witch Hunter | all | [Set Bounty](https://db.exil.es/spell/805760) |  | 45s | — | Instant | Set a bounty on the target enemy's head, increasing allies' critical strike chance against them by 3%, and increasing all Physical damage th… |
 | Stormbringer | Wind<br>r8 c10 | [Surge of Might](https://db.exil.es/spell/520083) |  | 1 min | 15% mana | Instant | Emanate an aura around you for 15 seconds, causing allied players within 100 yds to deal 70% nature SP additional damage as Nature Damage wh… |
-| Stormbringer | Wind<br>r8 c10 | [Tempest's Call](https://db.exil.es/spell/560567) |  | 5 min | 26% mana | Instant | Bring the power of wind and storm to all nearby allies, increasing haste by 30% for 20 seconds. After being affected by this spell, allies c… |
+| Stormbringer | Wind<br>r8 c10 | [Tempest's Call](https://db.exil.es/spell/560567) ⚠ |  | 5 min | 26% mana | Instant | Bring the power of wind and storm to all nearby allies, increasing haste by 30% for 20 seconds. After being affected by this spell, allies c… |
 | Stormbringer | all | [Blessing of Air](https://db.exil.es/spell/804022) |  | 10s | 27% mana | Instant | Emanate an aura to all party and raid members within 100 yds increasing their spell haste by 3%. Does not stack with similar effects. |
 | Stormbringer | Wind<br>r4 c10 | [Tailwind](https://db.exil.es/spell/804035) |  | none | Depletes 20 | Instant | Depletes 20 Static Tap into the swift winds, increasing your damage by 10% and granting all allied players 5% increased haste for 15 seconds… |
 | Stormbringer | Wind<br>r6 c10 | [Aerodynamics](https://db.exil.es/spell/806124) |  | none | Depletes 40 | Instant | Depletes 40 Static Envelop party and raid members within 40 yds in magical mist, increasing their attack or spell power by 95 for 15 seconds… |
@@ -553,8 +551,8 @@ Three abilities do both jobs -- `Lucifron's Lagniappe`, `Hand of Yogg-Saron`, `I
 | Ranger | Farstrider<br>r8 c10 | [Command Aura](https://db.exil.es/spell/524600) |  | 1 min | — | Instant | Emanate an aura for 15 seconds, causing allied players to deal 35% ranged AP additional damage as Stormstrike Damage when they deal direct d… |
 | Ranger | Farstrider<br>r4 c10 | [Battle Screech](https://db.exil.es/spell/705070) |  | none | 40 focus | Instant | Empower party and raid members within 40 yds, increasing their attack or spell power by 15 for 15 seconds. Does not stack with similar effec… |
 | Ranger | Farstrider<br>r2 c10 | [Horn of War](https://db.exil.es/spell/800086) |  | 1 min | — | Instant | Generates 1 Advantage Emanate an aura for 30 seconds that grants 5% increased critical strike chance to party and raid members. Does not sta… |
-| Ranger | Farstrider<br>r6 c10 | [Horn of Alacrity](https://db.exil.es/spell/806360) |  | 1 min | — | Instant | Generates 1 Advantage Emanate an aura for 30 seconds that grants 5% increased haste to party and raid members. Does not stack with similar e… |
-| Chronomancer | all | [Hasten](https://db.exil.es/spell/801304) |  | 1.5 min | 17% mana | Instant | Hasten time for an ally, increasing movement speed and haste by 20% and granting them a 0% chance when they deal damage to strike the target… |
+| Ranger | Farstrider<br>r6 c10 | [Horn of Alacrity](https://db.exil.es/spell/806360) ⚠ |  | 1 min | — | Instant | Generates 1 Advantage Emanate an aura for 30 seconds that grants 5% increased haste to party and raid members. Does not stack with similar e… |
+| Chronomancer | all | [Hasten](https://db.exil.es/spell/801304) ⚠ |  | 1.5 min | 17% mana | Instant | Hasten time for an ally, increasing movement speed and haste by 20% and granting them a 0% chance when they deal damage to strike the target… |
 | Chronomancer | all | [Maw of Chaos](https://db.exil.es/spell/806316) |  | 24s | 10% mana | Instant | Instantly Heals an ally for 244 to 248, increasing their Spell Haste by 15% for 6 sec. Grants 1 Chromatic. |
 | Pyromancer | all | [Firepower](https://db.exil.es/spell/805487) |  | 30s | 15% mana | Instant | Empower party and raid members within 30 yds that are currently in a Path of Flames for 10 sec. While active, affected allies gain 20% incre… |
 | Cultist | all | [Summon: Faceless Servant](https://db.exil.es/spell/500709) |  | none | 40% mana | 3s | Summons a Faceless Servant to aid you in battle until dismissed. While active, this minion provides 2% increased critical strike chance to a… |
@@ -563,7 +561,7 @@ Three abilities do both jobs -- `Lucifron's Lagniappe`, `Hand of Yogg-Saron`, `I
 | Starcaller | all | [Stellar Alignment](https://db.exil.es/spell/807564) |  | 5 min | 15% mana | Instant | Enrage all nearby allies, increasing their haste by 30% for 20 sec. After being affected by this spell, allies cannot benefit from similar e… |
 | Sun Cleric | Blessings<br>r9 c4 | [Blessing of Triumph](https://db.exil.es/spell/804250) |  | 3 min | 13% mana | Instant | Redeem a Blessed ally for 20 seconds, granting 25% increased haste and 10% increased damage. If the ally falls below 35% maximum health they… |
 | Tinker | Invention<br>r9 c4 | [Combat Symbiosis](https://db.exil.es/spell/805305) |  | 1.5 min | 24% mana | Instant | Electrify an allies' body, increasing their haste by 20% and causing damage dealt by them to heal nearby allies for 15% of the value. Lasts … |
-| Primalist | Grovekeeper<br>r9 c2 | [Ancient of War](https://db.exil.es/spell/504222) |  | 2.5 min | — | Instant | Funnel nature's fury into yourself, transforming into an Ancient of War for 20 seconds. While active, your Hammer of Life effectiveness is i… |
+| Primalist | Grovekeeper<br>r9 c2 | [Ancient of War](https://db.exil.es/spell/504222) ⚠ |  | 2.5 min | — | Instant | Funnel nature's fury into yourself, transforming into an Ancient of War for 20 seconds. While active, your Hammer of Life effectiveness is i… |
 | Primalist | all | [Boon of the Elements](https://db.exil.es/spell/680428) |  | none | 300 rage | Instant | Increase an ally's critical strike chance by 5% and reduces the resource costs of their abilities by 10% for 20 sec. While active, the targe… |
 | Primalist | Grovekeeper<br>r6 c10 | [Flourishing Growth](https://db.exil.es/spell/805442) |  | 10s | 20% mana | Instant | Empower party and raid members within 40 yds with verdant strength, increasing their attack or spell power by 95 for 20 seconds. Does not st… |
 | Primalist | Grovekeeper<br>r8 c10 | [Neptulon's Wrath](https://db.exil.es/spell/807467) |  | 1 min | 19% mana | Instant | Emanate an aura for 15 seconds, causing allied players to deal 35% AP additional damage as Froststorm Damage when they deal direct damage. A… |
@@ -614,7 +612,7 @@ This one is deliberately NOT a column in the coverage grid. All 21 classes have 
 | Knight of Xoroth | Hellfire<br>r6 c6 | [Hellbringer](https://db.exil.es/spell/300963) |  | none | — | Instant | Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects. |
 | Knight of Xoroth | War<br>r6 c4 | [Conqueror's Will](https://db.exil.es/spell/520372) |  | none | — | Instant | Increases the critical strike chance of all party and raid members by 3%. Does not stack with similar effects. In addition, increases your d… |
 | Knight of Xoroth | Hellfire<br>r6 c6 | [Xorothian Empowerment](https://db.exil.es/spell/704994) |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. |
-| Guardian | Gladiator<br>r6 c4 | [Overwhelming Presence](https://db.exil.es/spell/712367) |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. In addition, increases your Agility by 10%… |
+| Guardian | Gladiator<br>r6 c4 | [Overwhelming Presence](https://db.exil.es/spell/712367) ⚠ |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. In addition, increases your Agility by 10%… |
 | Templar | Crusader<br>r7 c5 | [Serendipity](https://db.exil.es/spell/300929) |  | none | — | Instant | Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects. In addition, increases your Holy Damage… |
 | Templar | Zealot<br>r7 c6 | [Devotion of Khaz'goroth](https://db.exil.es/spell/560096) |  | none | — | Instant | Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects. Damage dealt with auto attacks red… |
 | Templar | Oathkeeper<br>r5 c3 | [Call of the Monastery](https://db.exil.es/spell/560550) |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. In addition, increases your attack power b… |
@@ -622,7 +620,7 @@ This one is deliberately NOT a column in the coverage grid. All 21 classes have 
 | Bloodmage | Eternal<br>r7 c3 | [Eternal Presence](https://db.exil.es/spell/560001) |  | none | — | Instant | Increases the attack power of party and raid members by 5%. Does not stack with similar effects. In addition, increases your attack power by… |
 | Bloodmage | Accursed<br>r5 c4 | [Dark Sigil](https://db.exil.es/spell/560535) |  | none | — | Instant | Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects. In addition, you now heal for 15%… |
 | Bloodmage | Fleshweaver<br>r2 c10 | [Fleshbending](https://db.exil.es/spell/680684) |  | none | — | Instant | Your critical strikes now increase the critical strike chance of all party and raid members by 5% for 10 seconds. Does not stack with simila… |
-| Bloodmage | Fleshweaver<br>r4 c10 | [Blood-Cursed Weapons](https://db.exil.es/spell/684331) |  | none | — | Instant | Casting Crimson Tide now additionally increases the haste of all party and raid members by 5% for 15 seconds. Does not stack with similar ef… |
+| Bloodmage | Fleshweaver<br>r4 c10 | [Blood-Cursed Weapons](https://db.exil.es/spell/684331) ⚠ |  | none | — | Instant | Casting Crimson Tide now additionally increases the haste of all party and raid members by 5% for 15 seconds. Does not stack with similar ef… |
 | Bloodmage | Accursed<br>r6 c6 | [Dark Frenzy](https://db.exil.es/spell/704644) |  | none | — | Instant | Increases spell haste of all party and raid members by 3%. Does not stack with similar effects. In addition, while a Cursed Form is active, … |
 | Ranger | Brigand<br>r7 c7 | [Guile of the Cutthroat](https://db.exil.es/spell/560531) |  | none | — | Instant | Increases party and raid member's melee and ranged attack power by 5%. Does not stack with similar effects. In addition, increases your dama… |
 | Ranger | all (tree)<br>r7 c2 | [Double The Pace](https://db.exil.es/spell/705031) |  | none | — | Instant | Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects. In addition, increases your critic… |
@@ -699,7 +697,7 @@ This one is deliberately NOT a column in the coverage grid. All 21 classes have 
 | Knight of Xoroth | Hellfire<br>r6 c6 | [Hellbringer](https://db.exil.es/spell/300963) |  | none | — | Instant | Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects. |
 | Knight of Xoroth | War<br>r6 c4 | [Conqueror's Will](https://db.exil.es/spell/520372) |  | none | — | Instant | Increases the critical strike chance of all party and raid members by 3%. Does not stack with similar effects. In addition, increases your d… |
 | Knight of Xoroth | Hellfire<br>r6 c6 | [Xorothian Empowerment](https://db.exil.es/spell/704994) |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. |
-| Guardian | Gladiator<br>r6 c4 | [Overwhelming Presence](https://db.exil.es/spell/712367) |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. In addition, increases your Agility by 10%… |
+| Guardian | Gladiator<br>r6 c4 | [Overwhelming Presence](https://db.exil.es/spell/712367) ⚠ |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. In addition, increases your Agility by 10%… |
 | Templar | Crusader<br>r7 c5 | [Serendipity](https://db.exil.es/spell/300929) |  | none | — | Instant | Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects. In addition, increases your Holy Damage… |
 | Templar | Zealot<br>r7 c6 | [Devotion of Khaz'goroth](https://db.exil.es/spell/560096) |  | none | — | Instant | Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects. Damage dealt with auto attacks red… |
 | Templar | Oathkeeper<br>r5 c3 | [Call of the Monastery](https://db.exil.es/spell/560550) |  | none | — | Instant | Increases the attack power of all party and raid members 5%. Does not stack with similar effects. In addition, increases your attack power b… |
@@ -707,7 +705,7 @@ This one is deliberately NOT a column in the coverage grid. All 21 classes have 
 | Bloodmage | Eternal<br>r7 c3 | [Eternal Presence](https://db.exil.es/spell/560001) |  | none | — | Instant | Increases the attack power of party and raid members by 5%. Does not stack with similar effects. In addition, increases your attack power by… |
 | Bloodmage | Accursed<br>r5 c4 | [Dark Sigil](https://db.exil.es/spell/560535) |  | none | — | Instant | Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects. In addition, you now heal for 15%… |
 | Bloodmage | Fleshweaver<br>r2 c10 | [Fleshbending](https://db.exil.es/spell/680684) |  | none | — | Instant | Your critical strikes now increase the critical strike chance of all party and raid members by 5% for 10 seconds. Does not stack with simila… |
-| Bloodmage | Fleshweaver<br>r4 c10 | [Blood-Cursed Weapons](https://db.exil.es/spell/684331) |  | none | — | Instant | Casting Crimson Tide now additionally increases the haste of all party and raid members by 5% for 15 seconds. Does not stack with similar ef… |
+| Bloodmage | Fleshweaver<br>r4 c10 | [Blood-Cursed Weapons](https://db.exil.es/spell/684331) ⚠ |  | none | — | Instant | Casting Crimson Tide now additionally increases the haste of all party and raid members by 5% for 15 seconds. Does not stack with similar ef… |
 | Bloodmage | Accursed<br>r6 c6 | [Dark Frenzy](https://db.exil.es/spell/704644) |  | none | — | Instant | Increases spell haste of all party and raid members by 3%. Does not stack with similar effects. In addition, while a Cursed Form is active, … |
 | Ranger | Brigand<br>r7 c7 | [Guile of the Cutthroat](https://db.exil.es/spell/560531) |  | none | — | Instant | Increases party and raid member's melee and ranged attack power by 5%. Does not stack with similar effects. In addition, increases your dama… |
 | Ranger | all (tree)<br>r7 c2 | [Double The Pace](https://db.exil.es/spell/705031) |  | none | — | Instant | Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects. In addition, increases your critic… |
@@ -764,27 +762,27 @@ Sorted on the DURATION field rather than the text: ten of these carry `duration_
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Witch Doctor | all | [Power Wuju](https://db.exil.es/spell/707671) |  | none | 8% mana | Instant | Give an ally some wuju mon, increasing their melee and ranged attack power by 30. Lasts 30 min. Can only have 1 Wuju active on a target at a… |
-| Witch Doctor | all | [Greater Power Wuju](https://db.exil.es/spell/712458) |  | none | 16% mana | Instant | Give all party and raid members some wuju mon, increasing their melee and ranged attack power by 232. Lasts 30 min. Can only have 1 Wuju act… |
-| Witch Hunter | all | [Greater Witching Edict](https://db.exil.es/spell/681442) |  | none | 20% mana | Instant | Declare a witching edict to all party and raid members, increasing their spell power by 62. |
-| Witch Hunter | all | [Witching Edict](https://db.exil.es/spell/707684) |  | none | 10% mana | Instant | Create a magic edict with an ally, increasing their spell power by 25. |
-| Knight of Xoroth | all | [Mark of Blaumeux](https://db.exil.es/spell/707693) |  | none | — | Instant | Mark an ally with the power of Blaumeux, increasing their spell power by 25 and Shadow Resist by 15 for 30 min. |
-| Knight of Xoroth | all | [Greater Mark of Blaumeux](https://db.exil.es/spell/712460) |  | none | — | Instant | Mark nearby party and raid members with the power of Blaumeux, increasing their spell power by 62. |
+| Witch Doctor | all | [Greater Power Wuju](https://db.exil.es/spell/712458) ⚠ |  | none | 16% mana | Instant | Give all party and raid members some wuju mon, increasing their melee and ranged attack power by 232. Lasts 30 min. Can only have 1 Wuju act… |
+| Witch Hunter | all | [Greater Witching Edict](https://db.exil.es/spell/681442) ⚠ |  | none | 20% mana | Instant | Declare a witching edict to all party and raid members, increasing their spell power by 62. |
+| Witch Hunter | all | [Witching Edict](https://db.exil.es/spell/707684) ⚠ |  | none | 10% mana | Instant | Create a magic edict with an ally, increasing their spell power by 25. |
+| Knight of Xoroth | all | [Mark of Blaumeux](https://db.exil.es/spell/707693) ⚠ |  | none | — | Instant | Mark an ally with the power of Blaumeux, increasing their spell power by 25 and Shadow Resist by 15 for 30 min. |
+| Knight of Xoroth | all | [Greater Mark of Blaumeux](https://db.exil.es/spell/712460) ⚠ |  | none | — | Instant | Mark nearby party and raid members with the power of Blaumeux, increasing their spell power by 62. |
 | Templar | all | [Tithe of Might](https://db.exil.es/spell/804784) |  | none | — | 3s | Emanate an aura for 1 hour, empowering party and raid members with 3% increased critical strike chance. |
 | Ranger | all | [Greater Woodsman's Adaptation](https://db.exil.es/spell/680294) |  | none | 50 focus | Instant | Enhance your party and raid members focus, increasing their melee and ranged attack power by 232. Lasts 30 min |
 | Ranger | all | [Woodsman's Adaptation](https://db.exil.es/spell/800266) |  | none | 20 focus | Instant | Enhance an ally's focus, increasing their melee and ranged attack power by 30. Lasts 30 min |
-| Necromancer | all | [Grim Mandate](https://db.exil.es/spell/572787) |  | none | 90 mana | Instant | Places a Mandate on the friendly target, increasing spell power by 37 for 30 min. |
+| Necromancer | all | [Grim Mandate](https://db.exil.es/spell/572787) ⚠ |  | none | 90 mana | Instant | Places a Mandate on the friendly target, increasing spell power by 37 for 30 min. |
 | Necromancer | all | [Greater Grim Mandate](https://db.exil.es/spell/572790) |  | none | 90 mana | Instant | Empowers raid and party members with a dark Mandate, increasing spell power by 62 for 30 min. |
 | Cultist | all | [Whispers of C'thun](https://db.exil.es/spell/572791) |  | none | 5% mana | Instant | Gift an ally with the madness of C'thun, increasing spell power by 37 for 30 min. |
 | Cultist | all | [Greater Whispers of C'thun](https://db.exil.es/spell/573067) |  | none | 10% mana | Instant | Gift nearby allies with the madness of C'thun, increasing spell power by 62 for 30 min. |
-| Sun Cleric | all | [Devotion of Dawn](https://db.exil.es/spell/572384) |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing attack power by 35 for 30 min. Players may only have one Devotion on them per Sun Cleri… |
-| Sun Cleric | all | [Greater Devotion of Dawn](https://db.exil.es/spell/572390) |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing attack power by 232 for 30 min. Players may only have one Devotion on them per S… |
-| Sun Cleric | all | [Devotion of Radiance](https://db.exil.es/spell/575040) |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing spell power by 28 for 30 min. Players may only have one Devotion on them per Sun Cleric… |
-| Sun Cleric | all | [Greater Devotion of Radiance](https://db.exil.es/spell/575045) |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing spell power by 62 for 30 min. Players may only have one Devotion on them per Sun… |
-| Tinker | all | [Greater Power Module](https://db.exil.es/spell/680315) |  | none | 9% mana | Instant | Activates power module on raid and party members, increasing attack power by 232 for 30 min. Only one Module per Tinker can be active. |
+| Sun Cleric | all | [Devotion of Dawn](https://db.exil.es/spell/572384) ⚠ |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing attack power by 35 for 30 min. Players may only have one Devotion on them per Sun Cleri… |
+| Sun Cleric | all | [Greater Devotion of Dawn](https://db.exil.es/spell/572390) ⚠ |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing attack power by 232 for 30 min. Players may only have one Devotion on them per S… |
+| Sun Cleric | all | [Devotion of Radiance](https://db.exil.es/spell/575040) ⚠ |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing spell power by 28 for 30 min. Players may only have one Devotion on them per Sun Cleric… |
+| Sun Cleric | all | [Greater Devotion of Radiance](https://db.exil.es/spell/575045) ⚠ |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing spell power by 62 for 30 min. Players may only have one Devotion on them per Sun… |
+| Tinker | all | [Greater Power Module](https://db.exil.es/spell/680315) ⚠ |  | none | 9% mana | Instant | Activates power module on raid and party members, increasing attack power by 232 for 30 min. Only one Module per Tinker can be active. |
 | Tinker | all | [Power Module](https://db.exil.es/spell/706742) |  | none | 9% mana | Instant | Activates power module on an allied player, increasing attack power by 19 for 30 min. Only one Module per Tinker can be active. |
 | Venomancer | all | [Toxic Pheromones](https://db.exil.es/spell/707689) |  | none | 12% mana | Instant | Create a magic edict with an ally, increasing their spell power by 28. |
 | Venomancer | all | [Greater Toxic Pheromones](https://db.exil.es/spell/712459) |  | none | 12% mana | Instant | Create a magic edict with an ally, increasing their spell power by 62. |
-| Primalist | all | [Greater Primal Instinct](https://db.exil.es/spell/680310) |  | none | 10% mana | Instant | Invokes an Instinct in all raid and party members, increasing attack power by 232 for 30 min. |
+| Primalist | all | [Greater Primal Instinct](https://db.exil.es/spell/680310) ⚠ |  | none | 10% mana | Instant | Invokes an Instinct in all raid and party members, increasing attack power by 232 for 30 min. |
 | Primalist | all | [Primal Instinct](https://db.exil.es/spell/800197) |  | none | 5% mana | Instant | Invokes a savage instinct on a friendly target, increasing attack power by 30 for 30 min. Players may only have one Instinct on them per Pri… |
 
 <details><summary>Copy this table as markdown</summary>
@@ -793,27 +791,27 @@ Sorted on the DURATION field rather than the text: ten of these carry `duration_
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Witch Doctor | all | [Power Wuju](https://db.exil.es/spell/707671) |  | none | 8% mana | Instant | Give an ally some wuju mon, increasing their melee and ranged attack power by 30. Lasts 30 min. Can only have 1 Wuju active on a target at a… |
-| Witch Doctor | all | [Greater Power Wuju](https://db.exil.es/spell/712458) |  | none | 16% mana | Instant | Give all party and raid members some wuju mon, increasing their melee and ranged attack power by 232. Lasts 30 min. Can only have 1 Wuju act… |
-| Witch Hunter | all | [Greater Witching Edict](https://db.exil.es/spell/681442) |  | none | 20% mana | Instant | Declare a witching edict to all party and raid members, increasing their spell power by 62. |
-| Witch Hunter | all | [Witching Edict](https://db.exil.es/spell/707684) |  | none | 10% mana | Instant | Create a magic edict with an ally, increasing their spell power by 25. |
-| Knight of Xoroth | all | [Mark of Blaumeux](https://db.exil.es/spell/707693) |  | none | — | Instant | Mark an ally with the power of Blaumeux, increasing their spell power by 25 and Shadow Resist by 15 for 30 min. |
-| Knight of Xoroth | all | [Greater Mark of Blaumeux](https://db.exil.es/spell/712460) |  | none | — | Instant | Mark nearby party and raid members with the power of Blaumeux, increasing their spell power by 62. |
+| Witch Doctor | all | [Greater Power Wuju](https://db.exil.es/spell/712458) ⚠ |  | none | 16% mana | Instant | Give all party and raid members some wuju mon, increasing their melee and ranged attack power by 232. Lasts 30 min. Can only have 1 Wuju act… |
+| Witch Hunter | all | [Greater Witching Edict](https://db.exil.es/spell/681442) ⚠ |  | none | 20% mana | Instant | Declare a witching edict to all party and raid members, increasing their spell power by 62. |
+| Witch Hunter | all | [Witching Edict](https://db.exil.es/spell/707684) ⚠ |  | none | 10% mana | Instant | Create a magic edict with an ally, increasing their spell power by 25. |
+| Knight of Xoroth | all | [Mark of Blaumeux](https://db.exil.es/spell/707693) ⚠ |  | none | — | Instant | Mark an ally with the power of Blaumeux, increasing their spell power by 25 and Shadow Resist by 15 for 30 min. |
+| Knight of Xoroth | all | [Greater Mark of Blaumeux](https://db.exil.es/spell/712460) ⚠ |  | none | — | Instant | Mark nearby party and raid members with the power of Blaumeux, increasing their spell power by 62. |
 | Templar | all | [Tithe of Might](https://db.exil.es/spell/804784) |  | none | — | 3s | Emanate an aura for 1 hour, empowering party and raid members with 3% increased critical strike chance. |
 | Ranger | all | [Greater Woodsman's Adaptation](https://db.exil.es/spell/680294) |  | none | 50 focus | Instant | Enhance your party and raid members focus, increasing their melee and ranged attack power by 232. Lasts 30 min |
 | Ranger | all | [Woodsman's Adaptation](https://db.exil.es/spell/800266) |  | none | 20 focus | Instant | Enhance an ally's focus, increasing their melee and ranged attack power by 30. Lasts 30 min |
-| Necromancer | all | [Grim Mandate](https://db.exil.es/spell/572787) |  | none | 90 mana | Instant | Places a Mandate on the friendly target, increasing spell power by 37 for 30 min. |
+| Necromancer | all | [Grim Mandate](https://db.exil.es/spell/572787) ⚠ |  | none | 90 mana | Instant | Places a Mandate on the friendly target, increasing spell power by 37 for 30 min. |
 | Necromancer | all | [Greater Grim Mandate](https://db.exil.es/spell/572790) |  | none | 90 mana | Instant | Empowers raid and party members with a dark Mandate, increasing spell power by 62 for 30 min. |
 | Cultist | all | [Whispers of C'thun](https://db.exil.es/spell/572791) |  | none | 5% mana | Instant | Gift an ally with the madness of C'thun, increasing spell power by 37 for 30 min. |
 | Cultist | all | [Greater Whispers of C'thun](https://db.exil.es/spell/573067) |  | none | 10% mana | Instant | Gift nearby allies with the madness of C'thun, increasing spell power by 62 for 30 min. |
-| Sun Cleric | all | [Devotion of Dawn](https://db.exil.es/spell/572384) |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing attack power by 35 for 30 min. Players may only have one Devotion on them per Sun Cleri… |
-| Sun Cleric | all | [Greater Devotion of Dawn](https://db.exil.es/spell/572390) |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing attack power by 232 for 30 min. Players may only have one Devotion on them per S… |
-| Sun Cleric | all | [Devotion of Radiance](https://db.exil.es/spell/575040) |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing spell power by 28 for 30 min. Players may only have one Devotion on them per Sun Cleric… |
-| Sun Cleric | all | [Greater Devotion of Radiance](https://db.exil.es/spell/575045) |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing spell power by 62 for 30 min. Players may only have one Devotion on them per Sun… |
-| Tinker | all | [Greater Power Module](https://db.exil.es/spell/680315) |  | none | 9% mana | Instant | Activates power module on raid and party members, increasing attack power by 232 for 30 min. Only one Module per Tinker can be active. |
+| Sun Cleric | all | [Devotion of Dawn](https://db.exil.es/spell/572384) ⚠ |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing attack power by 35 for 30 min. Players may only have one Devotion on them per Sun Cleri… |
+| Sun Cleric | all | [Greater Devotion of Dawn](https://db.exil.es/spell/572390) ⚠ |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing attack power by 232 for 30 min. Players may only have one Devotion on them per S… |
+| Sun Cleric | all | [Devotion of Radiance](https://db.exil.es/spell/575040) ⚠ |  | none | 5% mana | Instant | Places a Devotion on the friendly target, increasing spell power by 28 for 30 min. Players may only have one Devotion on them per Sun Cleric… |
+| Sun Cleric | all | [Greater Devotion of Radiance](https://db.exil.es/spell/575045) ⚠ |  | none | 15% mana | Instant | Places a Devotion on all raid and party members, increasing spell power by 62 for 30 min. Players may only have one Devotion on them per Sun… |
+| Tinker | all | [Greater Power Module](https://db.exil.es/spell/680315) ⚠ |  | none | 9% mana | Instant | Activates power module on raid and party members, increasing attack power by 232 for 30 min. Only one Module per Tinker can be active. |
 | Tinker | all | [Power Module](https://db.exil.es/spell/706742) |  | none | 9% mana | Instant | Activates power module on an allied player, increasing attack power by 19 for 30 min. Only one Module per Tinker can be active. |
 | Venomancer | all | [Toxic Pheromones](https://db.exil.es/spell/707689) |  | none | 12% mana | Instant | Create a magic edict with an ally, increasing their spell power by 28. |
 | Venomancer | all | [Greater Toxic Pheromones](https://db.exil.es/spell/712459) |  | none | 12% mana | Instant | Create a magic edict with an ally, increasing their spell power by 62. |
-| Primalist | all | [Greater Primal Instinct](https://db.exil.es/spell/680310) |  | none | 10% mana | Instant | Invokes an Instinct in all raid and party members, increasing attack power by 232 for 30 min. |
+| Primalist | all | [Greater Primal Instinct](https://db.exil.es/spell/680310) ⚠ |  | none | 10% mana | Instant | Invokes an Instinct in all raid and party members, increasing attack power by 232 for 30 min. |
 | Primalist | all | [Primal Instinct](https://db.exil.es/spell/800197) |  | none | 5% mana | Instant | Invokes a savage instinct on a friendly target, increasing attack power by 30 for 30 min. Players may only have one Instinct on them per Pri… |
 ```
 
@@ -887,30 +885,96 @@ is the Maelstrom tree, `felsworn-felblood` is Infernal, and
 `pyromancer-destruction` is FLAMEWEAVING -- the healing spec. Reading slugs as
 spec names is wrong on at least three classes, so the parser reads the label.
 
-## ❌ and ⚠ -- is it actually in the game?
+## ! and ⚠ -- is it actually in the game?
 
-**⚠ = no icon on db.ascension.gg, unverified.** A CoA ability with no art may
-be unimplemented, cut, or a leftover row.
+**! = in-game verification in process.** db.exil.es has the spell and
+db.ascension.gg has no record of it at all -- the ability is on ONE of the two
+databases, which is the shape a cut, renamed or never-implemented row takes.
 
-**Confirmed absent = removed from the tables entirely.** One so far: Barbarian's
-`Wrist Snap`, checked in game 2026-08-02. It is not annotated, it is gone -- a
-struck-through row still reads as an option at a glance, and the point of
+**⚠ = no icon art anywhere reachable.** db.ascension.gg is the only art source
+this project has -- db.exil.es returns 22 keys per spell and not one of them is
+an icon -- so a row with no texture there has none. 43 of the 260 rows are in
+that state and every one of them is marked, because the hand-picked subset that
+used to be marked was not a judgement about which rows deserved doubt, it was
+whichever ids somebody had happened to look at.
+
+**Every row on this page has now been asked of both databases** -- 259 spell
+ids, `tools/crosscheck.py`, recorded in `resources/cross-source.json`. 246 are
+the same id with the same name on both. One more is on both under two
+different ids: Tinker's `Distracto Shot` is 560470 here and 561269 there, same
+4% mana, same interrupt tooltip. THE ID IS NOT THE JOIN KEY, and an id-only
+check would have called that one missing.
+
+The remaining twelve are db.exil.es only. Five of the twelve have a namesake
+on db.ascension.gg and three of those namesakes are a different ability
+wearing the same word -- Bloodmage's `Siphon` steals two buffs here and
+summons three skeletons there. Tooltips were read side by side; the verdicts
+are in `cross-source.json`.
+
+**Confirmed absent = removed from the tables entirely.** Two so far, both
+checked in game and both with no art: Barbarian's `Wrist Snap` (2026-08-02) and
+Tinker's `Build: Noise Box` (2026-08-03). Neither is annotated, both are gone --
+a struck-through row still reads as an option at a glance, and the point of
 checking was to stop planning around it. `resources/icon-missing.json` keeps
-the record under `confirmed_absent` so nobody re-adds it.
+the record under `confirmed_absent` so nobody re-adds them.
 
-Barbarian still has `Jawbreaker` (14s), so removing `Wrist Snap` costs the
-class nothing -- it had two listed and one was never real.
+Removing `Wrist Snap` cost Barbarian nothing; it had two interrupts listed and
+one was never real. Removing `Build: Noise Box` costs Tinker more than it
+looks, because the row it takes with it is `Distracto Shot` -- the box was the
+only thing that cast it. **Tinker's whole interrupt column is now one pet
+ability**, `Meltdown`, at 5 yards off the Rusthound's bar.
 
-**How much is ⚠ worth? Less than it first looked.** Six interrupts carried it
-and five were checked in game: `Hellgaze`, `Throatpunch`, `Halt`, `Solar Burn`
-and `Distracto Shot` are all REAL. Only `Wrist Snap` was not. So a missing icon
-ran about 1-in-6 on the sample that has been tested -- a reason to check, not a
-reason to disbelieve the row. The earlier revision of this section called it
-"very likely not in the game", and the testing says otherwise.
+**WHICH MARK IS WORTH MORE, and it is the reverse of what this section used to
+say.** Seven no-art abilities have been checked in game and two were absent --
+`Wrist Snap` and `Build: Noise Box` -- against five real ones (`Hellgaze`,
+`Throatpunch`, `Halt`, `Solar Burn`, `Distracto Shot`). Roughly 2-in-7.
 
-Both lists live in `resources/icon-missing.json`. Confirm one in game, move its
-id to `confirmed_present` or `confirmed_absent`, and regenerate. 20 remain
-unverified.
+The cross-source check has done worse on the same sample. `Hellgaze` and
+`Solar Burn` have no db.ascension.gg record at all and are both in the game;
+`Build: Noise Box` has a complete record there and is not. So:
+
+* **No art is the wider net and the only one that has caught an absence.**
+  Every id in the cross-source `no-record` set also has no art, so ⚠ is a
+  superset of `!` on the current rows -- ten rows carry both.
+* **A record on the second database is not evidence of presence.** That is the
+  Noise Box lesson and it cost a Tinker interrupt to learn.
+
+Neither mark is a verdict and a row only leaves this page on an in-game check.
+Confirm one, move its id to `confirmed_present` or `confirmed_absent` in
+`resources/icon-missing.json`, and regenerate -- a confirmed id drops both
+marks, and a confirmed-absent SUMMON takes its pet's ability with it.
+
+## Pets and builds -- can the player aim it?
+
+Six rows are cast by something the class summons, not by the class. The page
+prints the button and marks how much control comes with it, because those are
+three different answers:
+
+| Mark | Means |
+|---|---|
+| **(pet — no control)** | A summoned OBJECT firing on a timer. No action bar exists. You choose where and when to drop it and nothing after that. |
+| **(pet — pet bar)** | A pet with a multi-ability kit, so a pet action bar exists. Whether THIS ability is manually castable or autocast-only is not in either spell database -- it needs an in-game look. |
+| **(pet — passive)** | An aura the pet carries. Nothing to press; the requirement is that the pet is out. |
+
+**Tinker has no player-pressed interrupt.** Both rows in that column are
+summons. `Build: Noise Box` (Invention, 90s, 30% mana) drops a *gameobject* --
+`effect 28`, misc_value 52036 -- whose aura `807742` is `aura 23`
+PERIODIC_TRIGGER_SPELL at **amplitude 3000ms, radius 8 yd, duration 15s**: five
+ticks, three seconds apart, at whatever enemy is near the box. `Build:
+Rusthound` (Mechanics) gives a permanent pet whose `Meltdown` is a **5 yard**,
+30s bite off the pet bar -- the only one of the two that could be fired on
+command, and only with the hound already in melee of the target.
+
+For raid planning that is not interrupt cover. It is the difference between
+"we have an interrupt on that cast" and "we have a box that might".
+
+**`gcd_ms 0` is not the tell** -- pet kits mix it, Rusthound's `Rustbite` is
+1500 and its `Meltdown` is 0. What identifies one is `skill_line` naming a pet
+or a build, cross-checked against a summon button in the same class's list.
+Both halves are needed: Stormbringer's `Electrifying Aura` has `skill_line
+Lightning`, and Lightning is a real Stormbringer SPEC.
+
+The six, and the evidence for each, are in `resources/pet-abilities.json`.
 
 ## Buttons only, not the effects they apply
 
@@ -930,6 +994,11 @@ something got through:
   familiar swap that happens to stun) leave the tables while `Leyfeed`, which
   the inventory annotates "a spellsteal", stays.
 * **The tooltip must agree with the mechanic.** See below.
+* **A pet is not the class.** Six rows are cast by a pet or by a summoned
+  object, and db.exil.es files them under the owning class's spell list, so
+  they arrived looking like class buttons. The row is rewritten to the
+  `Build:` / `Summon:` / `Call` button the player actually presses, and the pet
+  ability is named in the description and on a chip. See below.
 
 Two limits on that middle filter, both learned the hard way:
 

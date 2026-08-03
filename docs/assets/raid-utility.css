@@ -59,6 +59,36 @@
  * That width is what pays for naming the spec inside a cell instead of
  * encoding it as a lit fraction of a tile. See .spn.
  */
+/* ...BUT ONLY WHERE THE SCREEN CAN PAY FOR IT.
+ *
+ * The block below used to carry no media query at all, which is the whole of
+ * the mobile bug. It is a viewport-locking layout and it was shipped
+ * unconditionally: on a phone the chrome above the grid measures 738px of an
+ * 844px screen, `flex:1` on .mxwrap resolves to zero, `min-height:0` dutifully
+ * permits it, and the one object the page exists for renders at 0px. The
+ * contract was never violated -- it was honoured into a blank screen.
+ *
+ * BOTH TERMS ARE REQUIRED, because a phone fails a different one in each
+ * orientation. Portrait is tall and narrow (390x844: fails width). Landscape
+ * is wide and short (844x390: passes width, fails height) -- and landscape was
+ * the worse bug, because 844 clears the old 720px breakpoint and so it was
+ * being served the full 1040px matrix into a 792px box at zero height.
+ * A width-only rule misses landscape; a height-only rule misses portrait.
+ *
+ * 721 is a floor rather than a threshold -- the grid's FORM is chosen
+ * independently by a container query, so nothing here has to guard against the
+ * table being locked into a box narrower than it fits. 760 is measured chrome
+ * at >=721px wide (327-400px) plus a 360px floor for the grid itself, and it
+ * is provisional: it was derived with a 12-signup raid loaded, and a 40-signup
+ * raid is taller. Re-derive it, do not inherit it.
+ *
+ * Known limit of the approximation: a 1280x800 window passes both terms and
+ * yields 295px of grid, and a synthetic 768x800 yields 243px. The real
+ * invariant is "the model engages only where it pays >=320px", which the
+ * harness asserts directly (A11). If a real device turns up in that band, the
+ * height term rises. That is a number change, not a design change.
+ */
+@media (min-width:721px) and (min-height:760px){
 /* `height:100dvh` on main is WRONG here and was the first thing tried: main
    starts below header.site, so a full-viewport main ends one header past the
    bottom of the screen and the document scrolls anyway. The page has to own
@@ -66,12 +96,32 @@
    scopes a body rule to this one page without touching site.css. Where :has()
    is unsupported the whole block is skipped and the page simply scrolls, which
    is the old behaviour rather than a broken one. */
-body:has(main.util.uwide){height:100dvh;overflow:hidden;
-  display:flex;flex-direction:column}
-body:has(main.util.uwide)>header.site{flex:none}
-.util.uwide{max-width:none;width:100%;flex:1;min-height:0;
+  body:has(main.util.uwide){height:100dvh;overflow:hidden;
+    display:flex;flex-direction:column}
+  body:has(main.util.uwide)>header.site{flex:none}
+  .util.uwide{flex:1;min-height:0;overflow:hidden}
+}
+.util.uwide{max-width:none;width:100%;
   padding:clamp(14px,2vw,22px) clamp(12px,2vw,26px) 0;
-  display:flex;flex-direction:column;gap:10px;overflow:hidden}
+  display:flex;flex-direction:column;gap:10px}
+/* --stickyh: how much is stuck to the top of the viewport right now, and so
+   how far an anchored jump has to hold back to clear it. Three rules used to
+   hardcode 74px for this, compensating for a sticky site header that is not
+   sticky on this page at all -- header.site.haspt{position:relative} in
+   site.css lands after the sticky rule and wins, and this page carries .haspt.
+   So the 74px was a dead gap under a header that scrolls away. In one-screen
+   mode nothing sticks and nothing scrolls, so it is 0. Scroll mode sets it to
+   the real bar height, in one place. */
+:root{--stickyh:0px}
+/* SCROLL MODE, i.e. everything else, i.e. every phone.
+ * overflow must be `visible` and not merely unset: a sticky child does not
+ * stick if ANY ancestor has overflow other than visible on the same axis, and
+ * both .util.uwide and .panel are scroll containers in the locked model. Leave
+ * either one and the sticky bar scrolls away with no error and no cause you
+ * can see in devtools. */
+@media (max-width:720px),(max-height:759px){
+  .util.uwide{overflow:visible;padding-bottom:0}
+}
 /* The visible page name is in the site header; this stays for the document
    outline. Not display:none -- that would take it out of the a11y tree too. */
 .util h1.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;
@@ -102,14 +152,24 @@ body:has(main.util.uwide)>header.site{flex:none}
 /* .util is overflow:hidden and the page does not scroll, so EVERY panel needs
    its own scroller. Overview is the exception: its .mxwrap already is one, and
    two nested scrollers would fight. */
-.ovbody{flex:1;min-height:0;display:flex;flex-direction:column}
+.ovbody{display:flex;flex-direction:column}
+@media (min-width:721px) and (min-height:760px){
+  .ovbody{flex:1;min-height:0}
+}
 /* `:not([hidden])`, NOT `.on`. The tab script toggles `.on` on the TABS and
    only `hidden` on the panels, so a `.panel.on` rule matched the overview
    panel alone -- every category tab rendered at its full 2000px inside an
    overflow:hidden page and simply could not be scrolled. */
-.panel:not([hidden]){flex:1;min-height:0;display:flex;flex-direction:column;
-  overflow-y:auto;overscroll-behavior:contain;padding-bottom:40px}
-#panel-overview:not([hidden]){overflow:hidden;padding-bottom:0}
+.panel:not([hidden]){display:flex;flex-direction:column;padding-bottom:40px}
+@media (min-width:721px) and (min-height:760px){
+  .panel:not([hidden]){flex:1;min-height:0;
+    overflow-y:auto;overscroll-behavior:contain}
+  #panel-overview:not([hidden]){overflow:hidden;padding-bottom:0}
+}
+/* padding-bottom stays 40px in scroll mode. It was 0 because the box was
+   clipped and the grid ended at the bottom of the screen by construction;
+   once the document scrolls, 0 lands the last class card flush against the
+   viewport edge, and on a notched phone under the home indicator. */
 
 /* ---- the raid, pulled from Raid-Helper -------------------------------
  * Replaces the 21-icon roster and its per-class spec chips. Picking the comp
@@ -179,7 +239,7 @@ body.rhediting #qcount{display:none}
  * which is an INSTRUCTION -- the reader has to parse it to use the grid --
  * and it was set two steps quieter than the label announcing it.
  */
-.lbl{margin:0 0 8px;scroll-margin-top:74px;font-size:.72rem}
+.lbl{margin:0 0 8px;scroll-margin-top:var(--stickyh,0px);font-size:.72rem}
 .lbl.bigrule{margin-top:56px;font-size:.72rem;color:var(--ink)}
 .lbl.bigrule::after{background:linear-gradient(90deg,var(--edge2),transparent)}
 .lblnum{margin-left:auto;color:var(--ink2);font-weight:600;letter-spacing:.1em;
@@ -269,8 +329,11 @@ details.why code{background:#080b0e;box-shadow:inset 0 0 0 1px var(--edge);
 /* THE ONLY SCROLLING BOX ON THE PAGE. Both axes, and it takes whatever height
    the flex column has left, so the table ends at the bottom of the screen
    rather than running the document past it. */
-.mxwrap{overflow:auto;box-shadow:0 0 0 1px var(--edge);background:#080b0f;
-  margin:0;flex:1;min-height:0;overscroll-behavior:contain}
+.mxwrap{overflow-x:auto;overflow-y:visible;box-shadow:0 0 0 1px var(--edge);
+  background:#080b0f;margin:0;flex:none}
+@media (min-width:721px) and (min-height:760px){
+  .mxwrap{overflow:auto;flex:1;min-height:0;overscroll-behavior:contain}
+}
 table.mx{border-collapse:separate;border-spacing:0;width:100%;
   table-layout:fixed;min-width:1040px;font-size:1rem}
 /* The header stays put now that the box scrolls instead of the page. z-index
@@ -400,6 +463,17 @@ td.mxv.unv .cd{color:#f0c674}
 /* the ? rides the cooldown, not the cell: as a cell-level ::after it fell
    below .spn onto a line of its own once spec names arrived */
 td.mxv i.q{color:#f0c674}
+/* "!" is the stronger doubt -- the second database has no record of the spell,
+   not merely no art for it -- so it is warmer than the "?" and heavier. It
+   never appears alongside one; the cell prints whichever applies. */
+td.mxv i.q.pend{color:#e0a24a;font-size:.8rem}
+td.mxv.pend .cd{color:#e0a24a}
+/* A pet or a summoned object does it, not the class. Deliberately quieter than
+   the doubt marks -- it is a fact about the row, not a warning about it -- but
+   the cooldown loses its full weight, because "Tinker brings a 30s interrupt"
+   was the sentence this cell was wrongly saying. */
+td.mxv i.pet{color:#8fb3c7}
+td.mxv.pet .cd{font-weight:500;color:var(--ink2)}
 /* Trash-band values stay recessive by rule -- but --dim on this background is
  * 2.8:1, which reads as broken rather than as secondary. --ink2 at 6.7:1 on a
  * sunken, untinted cell is still unmistakably the quiet band without being
@@ -461,6 +535,8 @@ body.mypick .mxr:not(.mine):hover{opacity:.6}
   min-width:30px;text-align:center;font-weight:600;font-size:.86rem}
 .mxlegend i.t{color:var(--bone)}
 .mxlegend i.unv{color:#f0c674}
+.mxlegend i.pend{color:#e0a24a}
+.mxlegend i.petk b{color:#8fb3c7;font-weight:600;font-size:.8em;vertical-align:super}
 .mxlegend i.x{background:none;box-shadow:inset 0 0 0 1px rgba(198,174,132,.12)}
 /* the carved-tile swatch, painted from the same values as a real cell */
 
@@ -609,9 +685,9 @@ body.mypick .ablist:not(.tight) .ab{
  * questions a raid lead asks. They stay on the page, and stay in the grid,
  * but they do not get a third of the scroll length.
  */
-.utilsec{margin:0 0 42px;scroll-margin-top:74px}
+.utilsec{margin:0 0 42px;scroll-margin-top:var(--stickyh,0px)}
 .lowsec{margin-top:56px;box-shadow:inset 0 0 0 1px var(--edge);
-  background:var(--deep);scroll-margin-top:74px}
+  background:var(--deep);scroll-margin-top:var(--stickyh,0px)}
 .lowsec>summary{cursor:pointer;padding:17px 19px;list-style:none;
   display:grid;gap:6px}
 .lowsec>summary::-webkit-details-marker{display:none}
@@ -658,23 +734,37 @@ body.mypick .ablist:not(.tight) .ab{
  *
  * A 21x10 matrix at 390px was a 482px sideways scroll with 11.2px numbers and
  * an 8.6px header, and six of the ten columns lived off-screen behind an
- * affordance the page never offered. Worse, at 40% fill the matrix spends most
- * of its width printing absence -- which is exactly the wrong trade when width
- * is the scarce resource.
+ * affordance the page never offered. Worse, at 40 percent fill the matrix
+ * spends most of its width printing absence -- exactly the wrong trade when
+ * width is the scarce resource.
  *
- * So below 720px the grid stops being a matrix and becomes what a matrix is
- * for on a phone: one block per class listing only the tools it HAS, each
- * labelled with its own column name. No sideways scroll, no 8px type, no empty
- * cells, and the band colours still separate cast control from trash. */
-@media (max-width:720px){
-  .scarcity{grid-template-columns:repeat(2,1fr);margin-bottom:30px}
-  .scnum,.sc.t-rare .scnum{font-size:1.5rem}
-  .scname{min-height:0}
-
+ * So where the grid will not fit, it stops being a matrix and becomes what a
+ * matrix is for on a phone: one block per class listing only the tools it HAS,
+ * each labelled with its own column name. No sideways scroll, no 8px type, no
+ * empty cells, and the band colours still separate cast control from trash.
+ *
+ * THE THRESHOLD IS THE TABLE'S OWN MINIMUM, NOT A DEVICE NAME. This used to
+ * switch at 720px, which is not where the matrix stops fitting: table.mx
+ * declares min-width:1040px, so from ~721 to ~1092 the page shipped the exact
+ * sideways scroll the paragraph above says it fixed. Asking the CONTAINER how
+ * much room it actually has, at the width the table itself declares, closes
+ * that band -- and it makes rotation form-invariant, which is the property
+ * that matters most here. A phone's grid box is ~792-810px in BOTH
+ * orientations, so it is cards either way and turning the phone no longer
+ * changes the rendering model.
+ *
+ * The container is #panel-overview rather than .mxwrap because an element
+ * cannot query its own container and .mxwrap needs styling here too. Same
+ * inline size: the panel has no horizontal padding.
+ */
+#panel-overview{container-type:inline-size;container-name:grid}
+@container grid (max-width:1040px){
   .mxwrap{overflow-x:visible;background:transparent;box-shadow:none}
   table.mx{min-width:0;display:block;font-size:1rem}
   .mx thead{display:none}
-  .mx tbody{display:block}
+  /* display:flex, not block: `order` needs flex items, and roster-first card
+     ordering is what puts tonight's raid at the top of a phone screen. */
+  .mx tbody{display:flex;flex-direction:column}
   .mx tr.mxr:not([hidden]){display:flex;flex-wrap:wrap;align-items:center;gap:4px;
     padding:5px 9px 8px;background:#0b0f14;
     box-shadow:0 0 0 1px var(--edge);margin:0 0 5px}
@@ -697,7 +787,76 @@ body.mypick .ablist:not(.tight) .ab{
     display:block;width:100%}
   .kitrow>td{box-shadow:inset 3px 0 0 var(--c)}
   .kit{padding:14px}
-
+  /* ROSTER FIRST. On a phone the sort order IS the information architecture:
+     the reader wants the nine classes they actually brought, not the twelve
+     they did not. .ab lists already do this with li.ab.notmine{order:2}; this
+     is the same move on the grid, and it costs nothing because recount()
+     already tags the rows.
+     KNOWN AND ACCEPTED: `order` changes visual order, not DOM order, so tab
+     and screen-reader order stay as authored (WCAG 2.4.3). That is the same
+     trade the ability lists already make on this page -- named here rather
+     than inherited silently. */
+  body.mypick .mx tbody tr.mxr:not(.mine),
+  body.mypick .mx tbody tr.kitrow:not(.mine){order:2}
+}
+/* Fallback where container queries are unsupported: the old 720px breakpoint,
+   which is today's behaviour rather than a broken one -- the same posture the
+   one-screen block takes for :has(). Landscape phone then gets a matrix it has
+   to scroll sideways, but it is no longer 0px tall, because the height fix is
+   a media query and does not depend on this. KEEP THESE TWO BLOCKS IDENTICAL. */
+@supports not (container-type: inline-size){
+  @media (max-width:720px){
+    .mxwrap{overflow-x:visible;background:transparent;box-shadow:none}
+    table.mx{min-width:0;display:block;font-size:1rem}
+    .mx thead{display:none}
+    /* display:flex, not block: `order` needs flex items, and roster-first card
+       ordering is what puts tonight's raid at the top of a phone screen. */
+    .mx tbody{display:flex;flex-direction:column}
+    .mx tr.mxr:not([hidden]){display:flex;flex-wrap:wrap;align-items:center;gap:4px;
+      padding:5px 9px 8px;background:#0b0f14;
+      box-shadow:0 0 0 1px var(--edge);margin:0 0 5px}
+    .mx tbody tr.mxr>.mxc{display:block;flex:1 0 100%;position:static;
+      background:none;border:0;padding:0;box-shadow:none}
+    .mxcin{gap:9px}
+    .mxr .open{font-size:1rem;padding:6px 0}
+    .mxr .pick{padding:4px 0}
+    /* absence costs zero width */
+    .mx tbody td.mxx{display:none}
+    .mx tbody td.mxv{display:inline-flex;align-items:baseline;gap:6px;
+      width:auto;padding:3px 8px 4px;border-bottom:0;font-size:.9rem}
+    .mx tbody td.mxv::before{content:attr(data-l);font-size:.72rem;
+      color:var(--ink2);font-weight:500}
+    td.mxv .cd{font-size:.95rem}
+    td.mxv.b-trash::before{color:var(--dim)}
+    .mx .b-trash.bstart{box-shadow:inset 0 0 0 1px rgba(198,174,132,.12)}
+    .mx tbody tr.mxr:hover>td.mxv{filter:none}
+    .mx tr.kitrow:not([hidden]),.mx tr.kitrow:not([hidden])>td{
+      display:block;width:100%}
+    .kitrow>td{box-shadow:inset 3px 0 0 var(--c)}
+    .kit{padding:14px}
+  /* ROSTER FIRST. On a phone the sort order IS the information architecture:
+     the reader wants the nine classes they actually brought, not the twelve
+     they did not. .ab lists already do this with li.ab.notmine{order:2}; this
+     is the same move on the grid, and it costs nothing because recount()
+     already tags the rows.
+     KNOWN AND ACCEPTED: `order` changes visual order, not DOM order, so tab
+     and screen-reader order stay as authored (WCAG 2.4.3). That is the same
+     trade the ability lists already make on this page -- named here rather
+     than inherited silently. */
+  body.mypick .mx tbody tr.mxr:not(.mine),
+  body.mypick .mx tbody tr.kitrow:not(.mine){order:2}
+  }
+}
+/* .cov -- the mobile answer block. Rules live at the END of this file, after
+   the tab and roster components they have to override: same specificity, so
+   source order is what decides, and .tabs{display:flex} is defined below. */
+.cov{display:none}
+.covrow,.covsum{list-style:none}
+/* Chrome, not grid form: these follow the viewport, not the grid's own box. */
+@media (max-width:720px){
+  .scarcity{grid-template-columns:repeat(2,1fr);margin-bottom:30px}
+  .scnum,.sc.t-rare .scnum{font-size:1.5rem}
+  .scname{min-height:0}
   .mxlegend{font-size:.76rem;gap:5px 14px}
   .lowsec>.utilsec{padding:0 13px}
   .lbl.bigrule{margin-top:40px}
@@ -963,7 +1122,15 @@ li.ab.nospec .chip.spec{color:#e26e6e;box-shadow:inset 0 0 0 1px rgba(226,110,11
 .rhhelp:hover{color:var(--bone);box-shadow:inset 0 0 0 1px var(--bone)}
 
 /* how-to modal ---------------------------------------------------------- */
-body.rhlock{overflow:hidden}
+/* SCROLL LOCK. `overflow:hidden` on body does not stop iOS Safari scrolling,
+   and it was inert here anyway -- body was already overflow:hidden in the only
+   mode that existed. The moment the document scrolls this becomes load-bearing
+   and the page behind the modal rubber-bands under your finger, so it ships in
+   the same change as the scrolling, not after it. position:fixed is what
+   actually holds on iOS; the scroll offset is saved to --rhlocky and restored
+   on close, or the page jumps to the top when the modal shuts. */
+body.rhlock{overflow:hidden;position:fixed;width:100%;
+  top:calc(var(--rhlocky,0px) * -1)}
 .rhmodal{position:fixed;inset:0;z-index:80;background:rgba(4,6,9,.78);
   display:flex;align-items:flex-start;justify-content:center;
   padding:clamp(14px,4dvh,48px) 16px;overflow-y:auto}
@@ -1080,9 +1247,229 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
    The second is the stronger doubt and still not proof -- three spells in that
    state have been confirmed in game by hand. */
 .chip.unv2{color:#e0a24a;box-shadow:inset 0 0 0 1px rgba(224,162,74,.45)}
+/* The "!" is the whole chip's signal and has to survive being skimmed at the
+   end of a 44-row list, so it is heavier than the words it introduces. */
+.chip.unv2 b{font-weight:800;margin-right:4px;font-size:1.05em}
+.acchips .c.pend{color:#e0a24a;border-color:rgba(224,162,74,.45);
+  font-weight:600}
+/* who casts it. `none` is the loud one: it is the only state where the player
+   cannot aim the thing at all. */
+.chip.pet{color:#8fb3c7;box-shadow:inset 0 0 0 1px rgba(143,179,199,.34)}
+.chip.pet.none{color:#e0a24a;box-shadow:inset 0 0 0 1px rgba(224,162,74,.4)}
+.acchips .c.pet{color:#8fb3c7;border-color:rgba(143,179,199,.34)}
 
 /* A silence carrying a real INTERRUPT_CAST effect. Louder than `.int`, which
    is only a tooltip claiming it interrupts NPC casting -- that clause is worth
    whatever the stun landing is worth, which on a boss is usually nothing. */
 .chip.int68{color:#e8c039;box-shadow:inset 0 0 0 1px rgba(232,192,57,.5);
   font-weight:600}
+
+
+/* ================================================== .cov, THE ANSWER BLOCK
+ * Mobile-only. Hidden wherever the one-screen model runs, because desktop
+ * already answers this with a grid it has room to draw.
+ */
+.cov{display:none}
+.covrow,.covsum{list-style:none}
+
+@media (max-width:720px),(max-height:759px){
+  /* ---- the answer block ------------------------------------------------
+   * TWO SHAPES IN ONE LIST, and the split is the whole idea.
+   *
+   * A gap gets a full-width row that says NOBODY in red at the top of the
+   * screen. Everything else collapses into a compact three-across grid that
+   * is ALSO the navigation, because the tab strip is hidden here.
+   *
+   * Not a horizontal scroller: 14 tabs is ~1190px against 366px of usable
+   * width, so a scroller shows 4.3 of 14 and hides the rest behind an
+   * affordance the page never offers -- the same defect the matrix comment
+   * already litigated. A wrapped grid hides nothing. Eleven tools cost four
+   * rows instead of six, and every one is on screen and tappable.
+   */
+  .cov{display:flex;flex-wrap:wrap;gap:3px;margin:0 0 12px;padding:0}
+  /* Fixed basis, not a percentage: at 30% it is always three across, which
+     wastes an 844px landscape phone (three 253px cells) and crushes a 320px
+     one. A basis in px lets the row pack six across when there is width and
+     two when there is not -- the same eleven tools, no scroller either way. */
+  .covrow{flex:1 1 118px;min-width:0;list-style:none}
+  .covlink{display:flex;align-items:center;gap:6px;min-height:44px;
+    height:100%;padding:6px 9px;text-decoration:none;background:#0b0f14;
+    box-shadow:0 0 0 1px var(--edge);color:var(--ink)}
+  .covname{flex:1 1 auto;min-width:0;font-size:.74rem;font-weight:600;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .covnum{flex:none;font-size:.92rem;font-weight:700;
+    font-variant-numeric:tabular-nums;color:var(--bone)}
+  /* the who-line is a gap-row and full-row affordance only: at 30% width
+     there is no room for a name, and a truncated name is worse than none */
+  .covwho{display:none}
+  .covrow.b-trash{order:1}
+  .covrow.b-trash .covname{color:var(--ink2);font-weight:500}
+  .covrow[data-allunv="1"] .covnum::after{content:"?";color:#e0a24a;
+    margin-left:1px;font-size:.8em;vertical-align:super}
+
+  /* A GAP TAKES THE WHOLE WIDTH AND GOES FIRST. order:-1 floats it past every
+     covered tool; ties break on source order, so the bands stay grouped. */
+  .covrow.gap{flex:1 1 100%;order:-1}
+  .covrow.gap .covlink{min-height:56px;padding:8px 12px;
+    background:linear-gradient(rgba(224,82,95,.13),rgba(224,82,95,.13)),#0b0f14;
+    box-shadow:0 0 0 1px rgba(224,82,95,.45)}
+  .covrow.gap .covname{font-size:.9rem}
+  .covrow.gap .covnum{color:#ff8b95;font-size:.78rem;letter-spacing:.09em;
+    text-transform:uppercase}
+  /* ONE LINE, ELLIPSED, NEVER SLICED IN JS. Tonight's roster carries a
+     mathematical-bold-script name that is 10 glyphs and String.length 20 --
+     astral-plane surrogate pairs, and .slice(0,n) splits one and prints
+     U+FFFD. CSS ellipsis is grapheme-safe, and .more is flex:none so the
+     counter is never what gets ellipsed away. */
+  .covrow.gap .covwho{display:block;flex:1 1 auto;min-width:0;
+    font-size:.74rem;color:#e0949b;white-space:nowrap;overflow:hidden;
+    text-overflow:ellipsis;text-align:right}
+  .covrow.gap .covwho .more{flex:none}
+
+  .covsum{order:2;flex:1 1 100%;list-style:none;padding:9px 2px 0;
+    font-size:.75rem;color:var(--ink2)}
+  .covsum.ok{color:#7fd6ef}
+  .covsum.bad{color:#ff8b95}
+
+  /* ---- the chrome, cut from 738px to about 200 -------------------------- */
+  /* THE TOOLS ARE THE CONTENT, NOT THE NAVIGATION. 14 tabs is ~1190px of
+     strip against 366px of usable width: 4.3 of 14 visible. A one-row
+     scroller costs 48px instead of 215 but hides ten of the fourteen behind
+     an affordance the page does not offer -- which is the exact failure the
+     matrix comment above already litigated and won. .cov rows are the
+     navigation now; each one links to its panel.
+     display:none, NEVER removed from the DOM: gaps() iterates $$(".tab") and
+     reads t.firstChild.textContent, and apply() writes the badges. It also
+     takes the orphaned role="tablist" out of the accessibility tree, so there
+     is no tablist left telling a screen reader a lie about what it is. */
+  .tabs{display:none}
+
+  /* The pill and the filter are the status line, and it is the one thing that
+     sticks. Not the site header (it is position:relative on this page and
+     scrolls away, which is correct) and not the table header (card mode
+     hides it). display:contents on .ovtop so the sticky element's containing
+     block is the document rather than a 96px parent it would leave after 48px
+     of scrolling -- silently. */
+  .ovtop{display:contents}
+  .ovtools{position:sticky;top:0;z-index:50;display:flex;align-items:center;
+    gap:8px;margin:0 0 8px;padding:6px 0;min-height:44px;
+    background:var(--void);box-shadow:0 1px 0 var(--edge)}
+  .ovtop .editbox{flex:1 1 auto;min-width:0}
+
+  /* The roster is context, not the answer, and it was costing 387px at 390
+     wide and 441px at 320 -- 46 and 78 per cent of the viewport -- to list
+     who signed up when the pill above it already names the raid. Collapsed to
+     the pill; the editor is a task and tasks live behind a tap. */
+  .rhbar{gap:6px}
+  .rhedit-panel{display:none}
+  body.rhopen .rhedit-panel{display:block}
+  /* .rhstate is hidden EXCEPT when it is carrying an error. An unmatched
+     signup is a data-integrity problem and errors do not hide. */
+  .rhstate{display:none}
+  .rhstate:has(.err),.rhstate:has(.unmatched){display:block;font-size:.78rem}
+
+  /* A key to a grid, above the grid, on the screen with the least room. Card
+     mode prints every cell's own label from data-l, so four of the seven
+     entries explain marks that are no longer on screen. Moved below the
+     cards -- .panel is a flex column, so order does it with no DOM change. */
+  .mxlegend{order:3;margin:16px 0 0;font-size:.72rem}
+  #panel-overview>.cov{order:0}
+  #panel-overview>.mxwrap{order:2}
+}
+
+
+/* SHORT VIEWPORTS: the tool index folds, the answer does not.
+ *
+ * On a 568px SE or a phone held sideways, the eleven-cell index costs 322px --
+ * 57 per cent of the screen -- to list tools you are not missing, and it pushes
+ * the grid past the fold. So below 700px of height the covered tools fold into
+ * the summary line and the gaps stay exactly where they are.
+ *
+ * This is not the scroller the tab strip was rejected for. That hid ten of
+ * fourteen behind an affordance the page never offered, WHILE being the only
+ * surface carrying the coverage answer. Here the answer is the gap rows above,
+ * which never fold; what folds is navigation, behind one labelled control that
+ * says how many it is holding. Hiding navigation is fine. Hiding the answer is
+ * not, and this does not.
+ */
+@media (max-width:720px),(max-height:759px){
+  .cov:not(.covopen) .covrow:not(.gap){display:none}
+  .covtoggle{flex:1 1 100%;order:3;min-height:44px;display:flex;
+    align-items:center;gap:6px;padding:0 2px;background:none;border:0;
+    font:inherit;font-size:.75rem;color:var(--ink2);cursor:pointer;
+    text-align:left}
+  .covtoggle:hover{color:var(--bone)}
+  .covtoggle::after{content:"▾";font-size:.8em}
+  .cov.covopen .covtoggle::after{content:"▴"}
+}
+.covtoggle{display:none}
+@media (max-width:720px),(max-height:759px){ .cov .covtoggle{display:flex} }
+
+
+/* THE TOUCH SHEET ---------------------------------------------------------
+ * Same content as the hover card, different position and a different dismiss.
+ * The card is pointer-events:none and closes when the cursor leaves; neither
+ * of those works for a finger, so the sheet is explicit open, explicit close,
+ * and its text is selectable and its links tappable.
+ *
+ * Shipped wherever ANY attached input can touch, not only where hover is
+ * absent -- a Surface or an iPad on a trackpad reports hover:hover and would
+ * otherwise get no tap affordance on its own touchscreen. Whether it actually
+ * OPENS is decided per event on pointerType, so shipping it costs a mouse-only
+ * desktop nothing.
+ */
+.absheet,.absheetback{display:none}
+@media (any-pointer:coarse){
+  .absheetback{display:block;position:fixed;inset:0;z-index:79;
+    background:rgba(4,6,9,.6)}
+  .absheetback[hidden]{display:none}
+  .absheet{display:block;position:fixed;left:0;right:0;bottom:0;z-index:80;
+    max-height:70dvh;overflow-y:auto;overscroll-behavior:contain;
+    background:#0b0f14;box-shadow:0 -1px 0 var(--edge),0 -30px 60px -20px #000;
+    padding:8px 14px calc(18px + env(safe-area-inset-bottom,0px));
+    /* pointer-events is reverted from the card: the description has to be
+       selectable and the ability link has to be tappable. */
+    pointer-events:auto}
+  .absheet[hidden]{display:none}
+  .absheetx{position:sticky;top:0;margin-left:auto;display:block;
+    width:44px;height:44px;font-size:1.5rem;line-height:1;background:none;
+    border:0;color:var(--ink2);cursor:pointer}
+  .absheetx:hover{color:var(--bone)}
+  .absheet .ac{padding:0 0 14px}
+  .absheet .ac+.ac{border-top:1px solid var(--edge);padding-top:14px}
+}
+
+
+/* TAP TARGETS -------------------------------------------------------------
+ * 44px, BY NAME. Not a blanket sweep: a sweep would inflate .chip, .pl,
+ * .abwho i, .mxlegend i and .rhwho i, which are LABELS, not controls. That
+ * eats the screen and, worse, promises an interaction that does not exist --
+ * a 44px non-target is a worse defect than a 20px label. The harness asserts
+ * the exempt list STAYED small, so a future sweep fails the test.
+ *
+ * Sized on (pointer:coarse), i.e. the PRIMARY input, which is correctly false
+ * on a touchscreen laptop driven by a mouse -- that machine gets compact
+ * targets and still gets the tap sheet, because which affordance fires is a
+ * per-event question and this is not.
+ */
+@media (pointer:coarse){
+  .pick{min-width:44px;min-height:44px;display:flex;align-items:center;
+    justify-content:center}
+  .pdrop{min-width:44px;min-height:44px;padding:0;display:inline-flex;
+    align-items:center;justify-content:center}
+  .rhcancel,.rhclear,.rhrefresh,.rhhelp,.rhx,#uclear,.padd,.pundo,.rhedit{
+    min-width:44px;min-height:44px;display:inline-flex;align-items:center;
+    justify-content:center;padding-left:8px;padding-right:8px}
+  .mxr .open{min-height:48px;display:flex;align-items:center}
+  .lowsec>summary,details.why>summary{min-height:44px;display:flex;
+    align-items:center}
+  .abname>a{display:inline-flex;align-items:center;min-height:44px}
+  /* The grid chip is both the datum and the sheet trigger, so it gets the
+     full 44. That costs ~28px per class card, which is what the folded tool
+     index above pays for: the answer block gives back ~145px and the cards
+     take ~28, so the first screen still shows three of them. Measured, not
+     assumed -- see A5r and A14 in the harness. */
+  .mx tbody td.mxv{min-height:44px;min-width:44px;
+    padding-top:7px;padding-bottom:7px}
+  .covlink{min-height:44px}
+}

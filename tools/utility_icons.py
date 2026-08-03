@@ -15,17 +15,30 @@ signal turned out to be (5 of 6 flagged interrupts were real).
 """
 import json
 import os
+import re
 import sys
 
 SP = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SP)
 from classes import dest  # noqa: E402
-from fetch_spell_icons import page, harvest  # noqa: E402
+from fetch_spell_icons import page, harvest, QM  # noqa: E402
 from fetch_hud_icons import fetch, OUT  # noqa: E402
 import utility_tables as U  # noqa: E402
 import ascension  # noqa: E402
 
 ASC = ascension._load()
+
+
+def tooltip_icon(sid):
+    """Texture from `?spell=<id>&power`, or "" -- the second endpoint.
+
+    Shares tools/crosscheck.py's cache so a full sweep and an icon refresh do
+    not each fetch the same 259 responses.
+    """
+    from crosscheck import power  # noqa: PLC0415 -- avoids an import cycle
+    m = re.search(r'"icon":\s*"([^"]*)"', power(sid))
+    tex = m.group(1) if m else ""
+    return "" if tex == QM else tex
 
 
 def _why_no_art(sid):
@@ -42,7 +55,12 @@ def _why_no_art(sid):
 
 def main():
     own, cache = U.owners(), U.spells()
-    want = {sid for sid, d in cache.items() if sid in own and U.classify(d)}
+    # THE ROWS, not everything that classifies. Those were the same set until
+    # six rows were re-attributed to the summon button that grants them: a
+    # `Build:` spell carries no INTERRUPT_CAST of its own, so `classify` says
+    # nothing about it and all six went iconless while art was fetched for the
+    # pet abilities that no longer appear anywhere on the page.
+    want = {str(r[12]) for _c, _t, _n, _col, rows, _m in U.tables() for r in rows}
     print(f"{len(want)} abilities on the page")
 
     names = {}
@@ -50,6 +68,13 @@ def main():
         got = harvest(page(sid))
         if sid in got:
             names[sid] = got[sid]
+            continue
+        # The page 404s for some ids and the tooltip endpoint still answers --
+        # 23 ids in that state, 11 of them with complete data. Asking the
+        # second endpoint is the difference between "no art" and "did not ask".
+        tex = tooltip_icon(sid)
+        if tex:
+            names[sid] = tex
     print(f"  {len(names)} have a texture name; {len(want) - len(names)} have none")
 
     have = {os.path.splitext(f)[0] for f in os.listdir(OUT)}

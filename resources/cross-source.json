@@ -1,0 +1,3769 @@
+{
+ "_comment": "Does db.ascension.gg have a record of each spell on the raid utility page? Every row here is already a db.exil.es record, so `no-record` means the ability is on ONE of the two databases.",
+ "_method": "tools/crosscheck.py -- `?spell=<id>&power`, which answers even for ids whose HTML page 404s. A 43-byte `registerSpell(id, 0, {})` is the absence. Every absence is then re-asked BY NAME, because the two databases do not agree on spell ids.",
+ "_states": {
+  "record": "same spell id on both databases, same name",
+  "other-id": "both have the ability, under different ids -- a pass, confirmed by reading both tooltips",
+  "no-record": "db.exil.es only. A name search either found nothing or found a different ability wearing the same name; see `verdict`",
+  "unreachable": "the request failed. Not a finding"
+ },
+ "_absence_is_not_proof": "Two no-record ids (500148 Solar Burn, 560471 Hellgaze) were confirmed in game by hand on 2026-08-02. The page marks these rows 'in-game verification in process' and keeps them; only an in-game check can remove one.",
+ "_scope": "260 rows, 258 unique spell ids",
+ "counts": {
+  "record": 246,
+  "no-record": 12
+ },
+ "spells": {
+  "300476": {
+   "ascension": "record",
+   "asc_name": "Betrayer",
+   "asc_icon": "nhi_unholy_smile_border",
+   "exiles": true,
+   "name": "Betrayer",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Tyrant",
+     "cat": "raid_dmg_passive",
+     "node": "r5 c6"
+    }
+   ]
+  },
+  "300565": {
+   "ascension": "record",
+   "asc_name": "Soulsight",
+   "asc_icon": "custom_eyes_02_border",
+   "exiles": true,
+   "name": "Soulsight",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "Domination",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c5"
+    }
+   ]
+  },
+  "300869": {
+   "ascension": "record",
+   "asc_name": "Marksmanship",
+   "asc_icon": "_smallgun_red",
+   "exiles": true,
+   "name": "Marksmanship",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "300871": {
+   "ascension": "record",
+   "asc_name": "Strength of Da Loa",
+   "asc_icon": "ability_racial_embraceoftheloa_bwonsomdi",
+   "exiles": true,
+   "name": "Strength of Da Loa",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "Shadowhunting",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "300872": {
+   "ascension": "record",
+   "asc_name": "Monster Hunting",
+   "asc_icon": "novart_physical_ability_%2844%29_border",
+   "exiles": true,
+   "name": "Monster Hunting",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "Inquisition",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c7"
+    }
+   ]
+  },
+  "300873": {
+   "ascension": "record",
+   "asc_name": "Infinity Stone",
+   "asc_icon": "inv_ascend_gems_64",
+   "exiles": true,
+   "name": "Infinity Stone",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "Artificer",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c3"
+    }
+   ]
+  },
+  "300874": {
+   "ascension": "record",
+   "asc_name": "Rune of Haste",
+   "asc_icon": "novart_spheres_%281%29_border",
+   "exiles": true,
+   "name": "Rune of Haste",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "300876": {
+   "ascension": "record",
+   "asc_name": "Elune's Blessing",
+   "asc_icon": "artifactability_balancedruid_fullmoon",
+   "exiles": true,
+   "name": "Elune's Blessing",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "Sentinel",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c4"
+    }
+   ]
+  },
+  "300877": {
+   "ascension": "record",
+   "asc_name": "Fine Tuning",
+   "asc_icon": "uico_mecha_spell_09_border",
+   "exiles": true,
+   "name": "Fine Tuning",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "Invention",
+     "cat": "raid_dmg_passive",
+     "node": "r5 c4"
+    }
+   ]
+  },
+  "300879": {
+   "ascension": "record",
+   "asc_name": "Manhunter",
+   "asc_icon": "spell_warrior_gladiatorstance",
+   "exiles": true,
+   "name": "Manhunter",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Headhunting",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c6"
+    }
+   ]
+  },
+  "300888": {
+   "ascension": "record",
+   "asc_name": "N'zoth's Cunning",
+   "asc_icon": "inv_babytentacleface_dark",
+   "exiles": true,
+   "name": "N'zoth's Cunning",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "300889": {
+   "ascension": "record",
+   "asc_name": "Blood Harvester",
+   "asc_icon": "ability_ironmaidens_whirlofblood",
+   "exiles": true,
+   "name": "Blood Harvester",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "Harvest",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "300929": {
+   "ascension": "record",
+   "asc_name": "Serendipity",
+   "asc_icon": "custom_t_nhance_rpg_icons_holypeak_border",
+   "exiles": true,
+   "name": "Serendipity",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "Crusader",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c5"
+    }
+   ]
+  },
+  "300944": {
+   "ascension": "record",
+   "asc_name": "Runic Power",
+   "asc_icon": "nhi_arcane_scroll_border",
+   "exiles": true,
+   "name": "Runic Power",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "Riftblade",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c3"
+    }
+   ]
+  },
+  "300957": {
+   "ascension": "record",
+   "asc_name": "Dark Presence",
+   "asc_icon": "sha_ability_rogue_envelopingshadows_nightmare",
+   "exiles": true,
+   "name": "Dark Presence",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Sanguine",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c3"
+    }
+   ]
+  },
+  "300958": {
+   "ascension": "record",
+   "asc_name": "Chilling Presence",
+   "asc_icon": "spell_deathknight_iceboundfortitude",
+   "exiles": true,
+   "name": "Chilling Presence",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "Rime",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "300959": {
+   "ascension": "record",
+   "asc_name": "Fungal Link",
+   "asc_icon": "inv_ascend_mushrooms_18",
+   "exiles": true,
+   "name": "Fungal Link",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "Rot",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "300961": {
+   "ascension": "record",
+   "asc_name": "Conductor In Charge",
+   "asc_icon": "ability_thunderking_balllightning",
+   "exiles": true,
+   "name": "Conductor In Charge",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Maelstrom",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c5"
+    }
+   ]
+  },
+  "300962": {
+   "ascension": "record",
+   "asc_name": "Fel Empowerment",
+   "asc_icon": "inv_ember_fel",
+   "exiles": true,
+   "name": "Fel Empowerment",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "300963": {
+   "ascension": "record",
+   "asc_name": "Hellbringer",
+   "asc_icon": "inv_felbatmountdh",
+   "exiles": true,
+   "name": "Hellbringer",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "Hellfire",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "300964": {
+   "ascension": "record",
+   "asc_name": "Seraphim's Guidance",
+   "asc_icon": "ability_priest_angelicbulwark",
+   "exiles": true,
+   "name": "Seraphim's Guidance",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "300967": {
+   "ascension": "record",
+   "asc_name": "Barbaric Rage",
+   "asc_icon": "ability_warrior_intensifyrage",
+   "exiles": true,
+   "name": "Barbaric Rage",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "300968": {
+   "ascension": "record",
+   "asc_name": "Slayer",
+   "asc_icon": "ability_hunter_assassinate",
+   "exiles": true,
+   "name": "Slayer",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "Boltslinger",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c5"
+    }
+   ]
+  },
+  "300969": {
+   "ascension": "record",
+   "asc_name": "Ethereal Guard",
+   "asc_icon": "ability_racial_etherealconnection",
+   "exiles": true,
+   "name": "Ethereal Guard",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "Domination",
+     "cat": "raid_dr_passive",
+     "node": "r5 c3"
+    }
+   ]
+  },
+  "300974": {
+   "ascension": "record",
+   "asc_name": "Charmed Plating",
+   "asc_icon": "inv_misc_monsterscales_01",
+   "exiles": true,
+   "name": "Charmed Plating",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "Fortitude",
+     "cat": "raid_dr_passive",
+     "node": "r5 c3"
+    }
+   ]
+  },
+  "301974": {
+   "ascension": "record",
+   "asc_name": "Inner Flame",
+   "asc_icon": "nhi_fireborn_border",
+   "exiles": true,
+   "name": "Inner Flame",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "Draconic",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c8"
+    }
+   ]
+  },
+  "500089": {
+   "ascension": "record",
+   "asc_name": "Subjugate",
+   "asc_icon": "nhi_shadowraise_border",
+   "exiles": true,
+   "name": "Subjugate",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "silence"
+    }
+   ]
+  },
+  "500148": {
+   "ascension": "no-record",
+   "verdict": "different ability: ascension's 274532/978623 Solar Burn is a Spellstorm damage-over-time; the mirror's is a 25s interrupt (and a person has confirmed the interrupt in game, so this is the database being incomplete)",
+   "exiles": true,
+   "name": "Solar Burn",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "500242": {
+   "ascension": "record",
+   "asc_name": "Build: Scrapmaw",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Build: Scrapmaw",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "Mechanics",
+     "cat": "stun",
+     "node": "r4 c7"
+    }
+   ]
+  },
+  "500259": {
+   "ascension": "record",
+   "asc_name": "Banner of Swiftness",
+   "asc_icon": "inv_banner_03",
+   "exiles": true,
+   "name": "Banner of Swiftness",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r4 c10"
+    }
+   ]
+  },
+  "500261": {
+   "ascension": "record",
+   "asc_name": "Banner of Conquest",
+   "asc_icon": "demoralizing_banner",
+   "exiles": true,
+   "name": "Banner of Conquest",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r2 c10"
+    }
+   ]
+  },
+  "500296": {
+   "ascension": "record",
+   "asc_name": "Power Engraving",
+   "asc_icon": "ability_deathknight_hungeringruneblade",
+   "exiles": true,
+   "name": "Power Engraving",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all (tree)",
+     "cat": "raid_dmg",
+     "node": "r9 c2"
+    }
+   ]
+  },
+  "500464": {
+   "ascension": "record",
+   "asc_name": "Guarding Rune",
+   "asc_icon": "ever_probe_sprite_296_border",
+   "exiles": true,
+   "name": "Guarding Rune",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "Engravement",
+     "cat": "raid_dr",
+     "node": "r5 c4"
+    }
+   ]
+  },
+  "500615": {
+   "ascension": "record",
+   "asc_name": "Cave In",
+   "asc_icon": "ability_deepwinddunk_dunk",
+   "exiles": true,
+   "name": "Cave In",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Geomancy",
+     "cat": "interrupt",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "500617": {
+   "ascension": "record",
+   "asc_name": "Throatpunch",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Throatpunch",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Brigand",
+     "cat": "interrupt",
+     "node": "r5 c1"
+    }
+   ]
+  },
+  "500688": {
+   "ascension": "record",
+   "asc_name": "Spiritual Ascension",
+   "asc_icon": "ability_paladin_selflesshealer",
+   "exiles": true,
+   "name": "Spiritual Ascension",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all",
+     "cat": "rez"
+    }
+   ]
+  },
+  "500709": {
+   "ascension": "record",
+   "asc_name": "Summon: Faceless Servant",
+   "asc_icon": "achievement_boss_heraldvolazj",
+   "exiles": true,
+   "name": "Summon: Faceless Servant",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "500718": {
+   "ascension": "record",
+   "asc_name": "Instill Despair",
+   "asc_icon": "ability_rogue_nightblade",
+   "exiles": true,
+   "name": "Instill Despair",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "500751": {
+   "ascension": "record",
+   "asc_name": "Abyssal Covenant",
+   "asc_icon": "inv_helm_cloth_eyeballhat_b_01",
+   "exiles": true,
+   "name": "Abyssal Covenant",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Heretic",
+     "cat": "raid_dr",
+     "node": "r2 c4"
+    }
+   ]
+  },
+  "500932": {
+   "ascension": "record",
+   "asc_name": "Gust of Wind",
+   "asc_icon": "ability_skyreach_wind",
+   "exiles": true,
+   "name": "Gust of Wind",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "500995": {
+   "ascension": "record",
+   "asc_name": "War Cry",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "War Cry",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg",
+     "node": "r8 c7"
+    }
+   ]
+  },
+  "503142": {
+   "ascension": "record",
+   "asc_name": "Hellhaul",
+   "asc_icon": "ability_deathknight_deathchain",
+   "exiles": true,
+   "name": "Hellhaul",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "503707": {
+   "ascension": "record",
+   "asc_name": "Darkspear Traditionalist",
+   "asc_icon": "ability_demonhunter_empowerwards",
+   "exiles": true,
+   "name": "Darkspear Traditionalist",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "Shadowhunting",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c2"
+    }
+   ]
+  },
+  "503738": {
+   "ascension": "record",
+   "asc_name": "Corpse Wagon",
+   "asc_icon": "spell_shadow_corpseexplode",
+   "exiles": true,
+   "name": "Corpse Wagon",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "Animation",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "503837": {
+   "ascension": "record",
+   "asc_name": "Unscuffable",
+   "asc_icon": "creatureportrait_blackrockv2_shieldgong",
+   "exiles": true,
+   "name": "Unscuffable",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Vanguard",
+     "cat": "raid_dr_passive",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "504214": {
+   "ascension": "record",
+   "asc_name": "Vitality Surge",
+   "asc_icon": "nhi_chaoshealing_border",
+   "exiles": true,
+   "name": "Vitality Surge",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Grovekeeper",
+     "cat": "raid_dmg_passive",
+     "node": "r2 c10"
+    }
+   ]
+  },
+  "504222": {
+   "ascension": "record",
+   "asc_name": "Ancient of War",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Ancient of War",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Grovekeeper",
+     "cat": "raid_dmg",
+     "node": "r9 c2"
+    }
+   ]
+  },
+  "504352": {
+   "ascension": "record",
+   "asc_name": "Shadra's Aid",
+   "asc_icon": "nhi_natureempower_border",
+   "exiles": true,
+   "name": "Shadra's Aid",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "Vizier",
+     "cat": "raid_dr",
+     "node": "r8 c2"
+    }
+   ]
+  },
+  "504846": {
+   "ascension": "record",
+   "asc_name": "Mystic Thunder",
+   "asc_icon": "nhi_manaentagle_border",
+   "exiles": true,
+   "name": "Mystic Thunder",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Maelstrom",
+     "cat": "interrupt",
+     "node": "r4 c7"
+    }
+   ]
+  },
+  "510236": {
+   "ascension": "record",
+   "asc_name": "Fray Magic",
+   "asc_icon": "ability_mage_incantersabsorbtion",
+   "exiles": true,
+   "name": "Fray Magic",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "520083": {
+   "ascension": "record",
+   "asc_name": "Surge of Might",
+   "asc_icon": "nhi_lightning_shock_border",
+   "exiles": true,
+   "name": "Surge of Might",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Wind",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "520232": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Poison Eruption",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "520269": {
+   "ascension": "record",
+   "asc_name": "Leyfeed",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Leyfeed",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all",
+     "cat": "spellsteal"
+    }
+   ]
+  },
+  "520371": {
+   "ascension": "record",
+   "asc_name": "Death's Presence",
+   "asc_icon": "nhi_spiritamulet_border",
+   "exiles": true,
+   "name": "Death's Presence",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "Soul",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "520372": {
+   "ascension": "record",
+   "asc_name": "Conqueror's Will",
+   "asc_icon": "nhi_fireghost_border",
+   "exiles": true,
+   "name": "Conqueror's Will",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "War",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "520492": {
+   "ascension": "record",
+   "asc_name": "Frenzy",
+   "asc_icon": "ability_druid_treeoflife_red",
+   "exiles": true,
+   "name": "Frenzy",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Farstrider",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "520493": {
+   "ascension": "record",
+   "asc_name": "Red Thirst",
+   "asc_icon": "ability_revendreth_priest",
+   "exiles": true,
+   "name": "Red Thirst",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Fleshweaver",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "520523": {
+   "ascension": "record",
+   "asc_name": "Headbutt",
+   "asc_icon": "inv_misc_head_vrykul",
+   "exiles": true,
+   "name": "Headbutt",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "520758": {
+   "ascension": "record",
+   "asc_name": "Eternal Knockdown",
+   "asc_icon": "_diablo3_thunderclap_hunter",
+   "exiles": true,
+   "name": "Eternal Knockdown",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "520835": {
+   "ascension": "record",
+   "asc_name": "Champion's Presence",
+   "asc_icon": "spell_paladin_clarityofpurpose",
+   "exiles": true,
+   "name": "Champion's Presence",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "520862": {
+   "ascension": "record",
+   "asc_name": "Soul Shear",
+   "asc_icon": "ability_argus_soulbombdebuffsmall",
+   "exiles": true,
+   "name": "Soul Shear",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "all",
+     "cat": "purge"
+    }
+   ]
+  },
+  "524600": {
+   "ascension": "record",
+   "asc_name": "Command Aura",
+   "asc_icon": "ability_trueshot",
+   "exiles": true,
+   "name": "Command Aura",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Farstrider",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "524750": {
+   "ascension": "record",
+   "asc_name": "Lesser Boon of the Turtle",
+   "asc_icon": "inv_babyturtle2_green",
+   "exiles": true,
+   "name": "Lesser Boon of the Turtle",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_dr_passive"
+    }
+   ]
+  },
+  "524854": {
+   "ascension": "record",
+   "asc_name": "Veiled in Darkness",
+   "asc_icon": "ability_priest_surgeofdarkness",
+   "exiles": true,
+   "name": "Veiled in Darkness",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "Houndmaster",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "524930": {
+   "ascension": "record",
+   "asc_name": "Ice Rune",
+   "asc_icon": "nhi_iceprison_border",
+   "exiles": true,
+   "name": "Ice Rune",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all (tree)",
+     "cat": "stun",
+     "node": "r0 c4"
+    }
+   ]
+  },
+  "525386": {
+   "ascension": "record",
+   "asc_name": "Bwonsamdi's Judgement",
+   "asc_icon": "spell_necro_bwonsamdisboon",
+   "exiles": true,
+   "name": "Bwonsamdi's Judgement",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "531135": {
+   "ascension": "record",
+   "asc_name": "Icecrown",
+   "asc_icon": "inv_helm_eternalwinter_d_01",
+   "exiles": true,
+   "name": "Icecrown",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "Rime",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c8"
+    }
+   ]
+  },
+  "536273": {
+   "ascension": "record",
+   "asc_name": "Shadow Missile",
+   "asc_icon": "spell_shadow_shadowbolt",
+   "exiles": true,
+   "name": "Shadow Missile",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "541493": {
+   "ascension": "record",
+   "asc_name": "Arcane Bionics",
+   "asc_icon": "5_engineerskill29_border",
+   "exiles": true,
+   "name": "Arcane Bionics",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "557333": {
+   "ascension": "record",
+   "asc_name": "Bushwhack",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Bushwhack",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "560001": {
+   "ascension": "record",
+   "asc_name": "Eternal Presence",
+   "asc_icon": "inv_misc_trinket6oih_wolf1",
+   "exiles": true,
+   "name": "Eternal Presence",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    },
+    {
+     "class": "Bloodmage",
+     "spec": "Eternal",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c3"
+    }
+   ]
+  },
+  "560002": {
+   "ascension": "record",
+   "asc_name": "Voidwarding",
+   "asc_icon": "inv_glyph_primewarlock",
+   "exiles": true,
+   "name": "Voidwarding",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Dreadnought",
+     "cat": "raid_dr_passive",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "560096": {
+   "ascension": "record",
+   "asc_name": "Devotion of Khaz'goroth",
+   "asc_icon": "achievement_dungeon_ulduarraid_ironsentinel_01",
+   "exiles": true,
+   "name": "Devotion of Khaz'goroth",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "Zealot",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c6"
+    }
+   ]
+  },
+  "560116": {
+   "ascension": "record",
+   "asc_name": "Interdict",
+   "asc_icon": "spell_priest_vowofunity",
+   "exiles": true,
+   "name": "Interdict",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all (tree)",
+     "cat": "silence",
+     "node": "r4 c8"
+    }
+   ]
+  },
+  "560471": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Hellgaze",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "560525": {
+   "ascension": "record",
+   "asc_name": "Fiery Passion",
+   "asc_icon": "ability_monk_breathoffire",
+   "exiles": true,
+   "name": "Fiery Passion",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "Incineration",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c7"
+    }
+   ]
+  },
+  "560526": {
+   "ascension": "record",
+   "asc_name": "Visions",
+   "asc_icon": "nhi_void_whirl_border",
+   "exiles": true,
+   "name": "Visions",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Corruption",
+     "cat": "raid_dmg_passive",
+     "node": "r5 c4"
+    }
+   ]
+  },
+  "560527": {
+   "ascension": "record",
+   "asc_name": "Runes of Quickness",
+   "asc_icon": "nhi_unholyrune_border",
+   "exiles": true,
+   "name": "Runes of Quickness",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "Glyphic",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "560528": {
+   "ascension": "record",
+   "asc_name": "Infinite Horizon",
+   "asc_icon": "achievement_boss_triumvirate_shadowguardetherealmelee",
+   "exiles": true,
+   "name": "Infinite Horizon",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "Infinite",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c5"
+    }
+   ]
+  },
+  "560531": {
+   "ascension": "record",
+   "asc_name": "Guile of the Cutthroat",
+   "asc_icon": "inv_shoulder_mail_raidhunter_l_01",
+   "exiles": true,
+   "name": "Guile of the Cutthroat",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Brigand",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c7"
+    }
+   ]
+  },
+  "560533": {
+   "ascension": "record",
+   "asc_name": "Fel Infusion",
+   "asc_icon": "_auracloak_felfire",
+   "exiles": true,
+   "name": "Fel Infusion",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Infernal",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c5"
+    }
+   ]
+  },
+  "560534": {
+   "ascension": "record",
+   "asc_name": "March of the Valkyr",
+   "asc_icon": "spell_holy_crusade",
+   "exiles": true,
+   "name": "March of the Valkyr",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "Valkyrie",
+     "cat": "raid_dmg_passive",
+     "node": "r5 c5"
+    }
+   ]
+  },
+  "560535": {
+   "ascension": "record",
+   "asc_name": "Dark Sigil",
+   "asc_icon": "_hearthstonedark_deathknight",
+   "exiles": true,
+   "name": "Dark Sigil",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Accursed",
+     "cat": "raid_dmg_passive",
+     "node": "r5 c4"
+    }
+   ]
+  },
+  "560537": {
+   "ascension": "record",
+   "asc_name": "Apothecary's Cauldron",
+   "asc_icon": "spell_nature_nullifydisease",
+   "exiles": true,
+   "name": "Apothecary's Cauldron",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "Death",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c3"
+    }
+   ]
+  },
+  "560539": {
+   "ascension": "record",
+   "asc_name": "Flow of Waters",
+   "asc_icon": "inv_elemental_mote_water01",
+   "exiles": true,
+   "name": "Flow of Waters",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "Moon Priest",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c5"
+    }
+   ]
+  },
+  "560540": {
+   "ascension": "record",
+   "asc_name": "Leyline Disturbance",
+   "asc_icon": "nhi_arcaneshuriken_border",
+   "exiles": true,
+   "name": "Leyline Disturbance",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    },
+    {
+     "class": "Runemaster",
+     "spec": "Engravement",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c3"
+    }
+   ]
+  },
+  "560541": {
+   "ascension": "record",
+   "asc_name": "Wonders of Time",
+   "asc_icon": "ability_hunter_readiness",
+   "exiles": true,
+   "name": "Wonders of Time",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "Time",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c3"
+    }
+   ]
+  },
+  "560542": {
+   "ascension": "record",
+   "asc_name": "Felguard",
+   "asc_icon": "spell_shadow_felarmour",
+   "exiles": true,
+   "name": "Felguard",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Slayer",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c6"
+    }
+   ]
+  },
+  "560545": {
+   "ascension": "record",
+   "asc_name": "Dark Loa's Blessing",
+   "asc_icon": "ability_racial_wardoftheloashadow",
+   "exiles": true,
+   "name": "Dark Loa's Blessing",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "Voodoo",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c7"
+    }
+   ]
+  },
+  "560549": {
+   "ascension": "record",
+   "asc_name": "Eye of the Tyrant",
+   "asc_icon": "inv_misc_fel_tainted_cache",
+   "exiles": true,
+   "name": "Eye of the Tyrant",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Tyrant",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c7"
+    }
+   ]
+  },
+  "560550": {
+   "ascension": "record",
+   "asc_name": "Call of the Monastery",
+   "asc_icon": "ability_paladin_veneration",
+   "exiles": true,
+   "name": "Call of the Monastery",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "Oathkeeper",
+     "cat": "raid_dmg_passive",
+     "node": "r5 c3"
+    }
+   ]
+  },
+  "560567": {
+   "ascension": "record",
+   "asc_name": "Tempest's Call",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Tempest's Call",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Wind",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "560568": {
+   "ascension": "record",
+   "asc_name": "Electrifying Aura",
+   "asc_icon": "ability_thunderking_rockfalllow",
+   "exiles": true,
+   "name": "Electrifying Aura",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Lightning",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c5"
+    }
+   ]
+  },
+  "560593": {
+   "ascension": "record",
+   "asc_name": "The BIG Guns!",
+   "asc_icon": "ability_vehicle_siegeenginecannon",
+   "exiles": true,
+   "name": "The BIG Guns!",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "Demolition",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c5"
+    }
+   ]
+  },
+  "561309": {
+   "ascension": "record",
+   "asc_name": "Atone for your Sins!",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Atone for your Sins!",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all",
+     "cat": "silence"
+    }
+   ]
+  },
+  "570150": {
+   "ascension": "record",
+   "asc_name": "Lesser Med Pack",
+   "asc_icon": "medpack_green",
+   "exiles": true,
+   "name": "Lesser Med Pack",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "570158": {
+   "ascension": "record",
+   "asc_name": "Scars of Suffering",
+   "asc_icon": "inv_sword_1h_artifactfelomelorn_d_03",
+   "exiles": true,
+   "name": "Scars of Suffering",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Slayer",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c3"
+    }
+   ]
+  },
+  "572303": {
+   "ascension": "record",
+   "asc_name": "Calm the Storm",
+   "asc_icon": "inv_wand_08",
+   "exiles": true,
+   "name": "Calm the Storm",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "all",
+     "cat": "tranq"
+    }
+   ]
+  },
+  "572304": {
+   "ascension": "record",
+   "asc_name": "Myotoxin",
+   "asc_icon": "uico_venom_spell_04_border",
+   "exiles": true,
+   "name": "Myotoxin",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "tranq"
+    }
+   ]
+  },
+  "572306": {
+   "ascension": "record",
+   "asc_name": "Purge Evil",
+   "asc_icon": "ability_paladin_longarmofthelaw",
+   "exiles": true,
+   "name": "Purge Evil",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "tranq"
+    }
+   ]
+  },
+  "572307": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Neutralizing Touch",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "purge"
+    }
+   ]
+  },
+  "572308": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Righteous Reprimand",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all",
+     "cat": "purge"
+    }
+   ]
+  },
+  "572384": {
+   "ascension": "record",
+   "asc_name": "Devotion of Dawn",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Devotion of Dawn",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "572390": {
+   "ascension": "record",
+   "asc_name": "Greater Devotion of Dawn",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Devotion of Dawn",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "572406": {
+   "ascension": "record",
+   "asc_name": "Sedative Shot",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Sedative Shot",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "tranq"
+    }
+   ]
+  },
+  "572632": {
+   "ascension": "record",
+   "asc_name": "Decelerate",
+   "asc_icon": "spell_mage_altertime_active",
+   "exiles": true,
+   "name": "Decelerate",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "572637": {
+   "ascension": "record",
+   "asc_name": "Whispers of Yogg-Saron",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Whispers of Yogg-Saron",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "572787": {
+   "ascension": "record",
+   "asc_name": "Grim Mandate",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Grim Mandate",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "572790": {
+   "ascension": "record",
+   "asc_name": "Greater Grim Mandate",
+   "asc_icon": "spell_shadow_deathsembrace",
+   "exiles": true,
+   "name": "Greater Grim Mandate",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "572791": {
+   "ascension": "record",
+   "asc_name": "Whispers of C'thun",
+   "asc_icon": "inv_knife_1h_artifactcthun_d_06",
+   "exiles": true,
+   "name": "Whispers of C'thun",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "572818": {
+   "ascension": "record",
+   "asc_name": "Essence of Dispersion",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Essence of Dispersion",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "573067": {
+   "ascension": "record",
+   "asc_name": "Greater Whispers of C'thun",
+   "asc_icon": "inv_offhand_1h_artifactcthun_d_06",
+   "exiles": true,
+   "name": "Greater Whispers of C'thun",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "573256": {
+   "ascension": "record",
+   "asc_name": "Frozen Blades",
+   "asc_icon": "inv_weapon_shortblade_48",
+   "exiles": true,
+   "name": "Frozen Blades",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg_passive",
+     "node": "r2 c10"
+    }
+   ]
+  },
+  "575040": {
+   "ascension": "record",
+   "asc_name": "Devotion of Radiance",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Devotion of Radiance",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "575045": {
+   "ascension": "record",
+   "asc_name": "Greater Devotion of Radiance",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Devotion of Radiance",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "680294": {
+   "ascension": "record",
+   "asc_name": "Greater Woodsman's Adaptation",
+   "asc_icon": "misc_legionfall_demonhunter",
+   "exiles": true,
+   "name": "Greater Woodsman's Adaptation",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "680310": {
+   "ascension": "record",
+   "asc_name": "Greater Primal Instinct",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Primal Instinct",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "680315": {
+   "ascension": "record",
+   "asc_name": "Greater Power Module",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Power Module",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "680363": {
+   "ascension": "record",
+   "asc_name": "Cryo Freeze",
+   "asc_icon": "spell_frost_frostnova",
+   "exiles": true,
+   "name": "Cryo Freeze",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "680428": {
+   "ascension": "record",
+   "asc_name": "Boon of the Elements",
+   "asc_icon": "spell_nature_elementalabsorption",
+   "exiles": true,
+   "name": "Boon of the Elements",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "680476": {
+   "ascension": "record",
+   "asc_name": "Molten Fervor",
+   "asc_icon": "inv_elemental_crystal_fire",
+   "exiles": true,
+   "name": "Molten Fervor",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Geomancy",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "680571": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Nether Shield",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "680646": {
+   "ascension": "record",
+   "asc_name": "Scroll of Hope",
+   "asc_icon": "custom_t_nhance_rpg_icons_holyscroll_border",
+   "exiles": true,
+   "name": "Scroll of Hope",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "Seraphim",
+     "cat": "raid_dr",
+     "node": "r9 c4"
+    }
+   ]
+  },
+  "680679": {
+   "ascension": "record",
+   "asc_name": "Purify Blood",
+   "asc_icon": "spell_animarevendreth_nova",
+   "exiles": true,
+   "name": "Purify Blood",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Fleshweaver",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "680684": {
+   "ascension": "record",
+   "asc_name": "Fleshbending",
+   "asc_icon": "custom_t_nhance_rpg_icons_rottenflesh_border",
+   "exiles": true,
+   "name": "Fleshbending",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Fleshweaver",
+     "cat": "raid_dmg_passive",
+     "node": "r2 c10"
+    }
+   ]
+  },
+  "680709": {
+   "ascension": "record",
+   "asc_name": "Vigil of the Watchers",
+   "asc_icon": "inv_tabard_a_86warden",
+   "exiles": true,
+   "name": "Vigil of the Watchers",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "Warden",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c1"
+    }
+   ]
+  },
+  "681077": {
+   "ascension": "record",
+   "asc_name": "Arterial Bind",
+   "asc_icon": "_enslavespell_blood",
+   "exiles": true,
+   "name": "Arterial Bind",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Fleshweaver",
+     "cat": "silence",
+     "node": "r5 c8"
+    }
+   ]
+  },
+  "681130": {
+   "ascension": "record",
+   "asc_name": "Mountain Hammer",
+   "asc_icon": "custom_t_hammerthrow_border",
+   "exiles": true,
+   "name": "Mountain Hammer",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Mountain King",
+     "cat": "stun",
+     "node": "r3 c4"
+    }
+   ]
+  },
+  "681442": {
+   "ascension": "record",
+   "asc_name": "Greater Witching Edict",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Witching Edict",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "684331": {
+   "ascension": "record",
+   "asc_name": "Blood-Cursed Weapons",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Blood-Cursed Weapons",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Fleshweaver",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c10"
+    }
+   ]
+  },
+  "685321": {
+   "ascension": "record",
+   "asc_name": "Doomscarring",
+   "asc_icon": "inv_shield_mogu_c_01",
+   "exiles": true,
+   "name": "Doomscarring",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Tyrant",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c1"
+    }
+   ]
+  },
+  "704159": {
+   "ascension": "record",
+   "asc_name": "Shield of Denial",
+   "asc_icon": "inv_shield_64",
+   "exiles": true,
+   "name": "Shield of Denial",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "704204": {
+   "ascension": "record",
+   "asc_name": "Updraft: Haste",
+   "asc_icon": "_spellcasting_blue",
+   "exiles": true,
+   "name": "Updraft: Haste",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "704258": {
+   "ascension": "record",
+   "asc_name": "Reap Magic",
+   "asc_icon": "_demonhand_priest",
+   "exiles": true,
+   "name": "Reap Magic",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "all",
+     "cat": "purge"
+    }
+   ]
+  },
+  "704418": {
+   "ascension": "record",
+   "asc_name": "Hammer of the Law",
+   "asc_icon": "inv_mace_1h_draenorguard_b_02_a",
+   "exiles": true,
+   "name": "Hammer of the Law",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Vanguard",
+     "cat": "silence",
+     "node": "r5 c6"
+    }
+   ]
+  },
+  "704434": {
+   "ascension": "record",
+   "asc_name": "Protection From Light",
+   "asc_icon": "spell_fire_twilightimmolation",
+   "exiles": true,
+   "name": "Protection From Light",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Heretic",
+     "cat": "raid_dr_passive",
+     "node": "r5 c0"
+    }
+   ]
+  },
+  "704473": {
+   "ascension": "record",
+   "asc_name": "Horrific Revelation",
+   "asc_icon": "achievement_boss_triumvirate_darknaaru",
+   "exiles": true,
+   "name": "Horrific Revelation",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "704476": {
+   "ascension": "record",
+   "asc_name": "Hand of Yogg-Saron",
+   "asc_icon": "spell_shadow_shadowfiend",
+   "exiles": true,
+   "name": "Hand of Yogg-Saron",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Heretic",
+     "cat": "raid_dr",
+     "node": "r8 c4"
+    }
+   ]
+  },
+  "704540": {
+   "ascension": "record",
+   "asc_name": "Song of Steel",
+   "asc_icon": "skill_icon_skill29_border",
+   "exiles": true,
+   "name": "Song of Steel",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r6 c10"
+    }
+   ]
+  },
+  "704644": {
+   "ascension": "record",
+   "asc_name": "Dark Frenzy",
+   "asc_icon": "_warlock_plaiefuneste1",
+   "exiles": true,
+   "name": "Dark Frenzy",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Accursed",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "704671": {
+   "ascension": "record",
+   "asc_name": "Improved Razorice",
+   "asc_icon": "inv_misc_herb_frostweed",
+   "exiles": true,
+   "name": "Improved Razorice",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "704785": {
+   "ascension": "record",
+   "asc_name": "Shrouded Stars",
+   "asc_icon": "spell_holy_elunesgrace",
+   "exiles": true,
+   "name": "Shrouded Stars",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "Moon Guard",
+     "cat": "raid_dr_passive",
+     "node": "r5 c4"
+    }
+   ]
+  },
+  "704994": {
+   "ascension": "record",
+   "asc_name": "Xorothian Empowerment",
+   "asc_icon": "achievement_firelands_raid_ragnaros",
+   "exiles": true,
+   "name": "Xorothian Empowerment",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "Hellfire",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "705031": {
+   "ascension": "record",
+   "asc_name": "Double The Pace",
+   "asc_icon": "_diablo3_arrowrain_hunter",
+   "exiles": true,
+   "name": "Double The Pace",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all (tree)",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c2"
+    }
+   ]
+  },
+  "705070": {
+   "ascension": "record",
+   "asc_name": "Battle Screech",
+   "asc_icon": "inv_druidflightzandalaritroll",
+   "exiles": true,
+   "name": "Battle Screech",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Farstrider",
+     "cat": "raid_dmg",
+     "node": "r4 c10"
+    }
+   ]
+  },
+  "705088": {
+   "ascension": "record",
+   "asc_name": "Rally The Archers",
+   "asc_icon": "custom_archerskill_49_border",
+   "exiles": true,
+   "name": "Rally The Archers",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "705156": {
+   "ascension": "record",
+   "asc_name": "Splash Zone",
+   "asc_icon": "inv_holiday_beerfest_darkiron",
+   "exiles": true,
+   "name": "Splash Zone",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg",
+     "node": "r6 c10"
+    }
+   ]
+  },
+  "705162": {
+   "ascension": "record",
+   "asc_name": "Uniting Voice",
+   "asc_icon": "inv_helm_mail_vrykuldragonrider_b_01",
+   "exiles": true,
+   "name": "Uniting Voice",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg_passive",
+     "node": "r4 c10"
+    }
+   ]
+  },
+  "705352": {
+   "ascension": "record",
+   "asc_name": "Inspiring Presence",
+   "asc_icon": "_human_07",
+   "exiles": true,
+   "name": "Inspiring Presence",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "706083": {
+   "ascension": "record",
+   "asc_name": "The Vast Infinite",
+   "asc_icon": "ability_racial_chillofnight",
+   "exiles": true,
+   "name": "The Vast Infinite",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "Time",
+     "cat": "raid_dr",
+     "node": "r9 c4"
+    }
+   ]
+  },
+  "706154": {
+   "ascension": "record",
+   "asc_name": "Primal Hunger",
+   "asc_icon": "novart_magicspell_%2827%29_border",
+   "exiles": true,
+   "name": "Primal Hunger",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "706629": {
+   "ascension": "record",
+   "asc_name": "Focal Point",
+   "asc_icon": "nhi_magicstorm_border",
+   "exiles": true,
+   "name": "Focal Point",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Wind",
+     "cat": "raid_dmg_passive",
+     "node": "r2 c10"
+    }
+   ]
+  },
+  "706632": {
+   "ascension": "record",
+   "asc_name": "Mechanical Enhancements",
+   "asc_icon": "inv_shield_1h_mechagnome_c_01",
+   "exiles": true,
+   "name": "Mechanical Enhancements",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "Mechanics",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "706633": {
+   "ascension": "record",
+   "asc_name": "Killer's Path",
+   "asc_icon": "novart_magicspell_%2827%29_border",
+   "exiles": true,
+   "name": "Killer's Path",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Wildwalker",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c2"
+    }
+   ]
+  },
+  "706732": {
+   "ascension": "record",
+   "asc_name": "Icecrown",
+   "asc_icon": "inv_helm_eternalwinter_d_01",
+   "exiles": true,
+   "name": "Icecrown",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "706742": {
+   "ascension": "record",
+   "asc_name": "Power Module",
+   "asc_icon": "inv_gizmo_khoriumpowercore",
+   "exiles": true,
+   "name": "Power Module",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "707671": {
+   "ascension": "record",
+   "asc_name": "Power Wuju",
+   "asc_icon": "shaman_pvp_skyfurytotem",
+   "exiles": true,
+   "name": "Power Wuju",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "707684": {
+   "ascension": "record",
+   "asc_name": "Witching Edict",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Witching Edict",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "707689": {
+   "ascension": "record",
+   "asc_name": "Toxic Pheromones",
+   "asc_icon": "epic_rpg_icon_pack_poison_icon_0003s_0000_cloud_border",
+   "exiles": true,
+   "name": "Toxic Pheromones",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "707693": {
+   "ascension": "record",
+   "asc_name": "Mark of Blaumeux",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Mark of Blaumeux",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "712367": {
+   "ascension": "record",
+   "asc_name": "Overwhelming Presence",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Overwhelming Presence",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Gladiator",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "712458": {
+   "ascension": "record",
+   "asc_name": "Greater Power Wuju",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Power Wuju",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "712459": {
+   "ascension": "record",
+   "asc_name": "Greater Toxic Pheromones",
+   "asc_icon": "epic_rpg_icon_pack_poison_icon_0005s_0000_fire_border",
+   "exiles": true,
+   "name": "Greater Toxic Pheromones",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "712460": {
+   "ascension": "record",
+   "asc_name": "Greater Mark of Blaumeux",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Greater Mark of Blaumeux",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "800031": {
+   "ascension": "record",
+   "asc_name": "Demonfire Pact",
+   "asc_icon": "ability_demonhunter_sigilyellow",
+   "exiles": true,
+   "name": "Demonfire Pact",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "800081": {
+   "ascension": "record",
+   "asc_name": "Chainwhip",
+   "asc_icon": "_enslavespell_fire",
+   "exiles": true,
+   "name": "Chainwhip",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "all (tree)",
+     "cat": "silence",
+     "node": "r0 c2"
+    }
+   ]
+  },
+  "800086": {
+   "ascension": "record",
+   "asc_name": "Horn of War",
+   "asc_icon": "inv_misc_horn_03",
+   "exiles": true,
+   "name": "Horn of War",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Farstrider",
+     "cat": "raid_dmg",
+     "node": "r2 c10"
+    }
+   ]
+  },
+  "800197": {
+   "ascension": "record",
+   "asc_name": "Primal Instinct",
+   "asc_icon": "ability_druid_predatoryinstincts",
+   "exiles": true,
+   "name": "Primal Instinct",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "800203": {
+   "ascension": "record",
+   "asc_name": "Felbreak",
+   "asc_icon": "ability_deathknight_deathsiphon",
+   "exiles": true,
+   "name": "Felbreak",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Infernal",
+     "cat": "interrupt",
+     "node": "r5 c1"
+    }
+   ]
+  },
+  "800266": {
+   "ascension": "record",
+   "asc_name": "Woodsman's Adaptation",
+   "asc_icon": "misc_legionfall_hunter",
+   "exiles": true,
+   "name": "Woodsman's Adaptation",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "800353": {
+   "ascension": "record",
+   "asc_name": "Consume Magic",
+   "asc_icon": "ability_demonhunter_feldevastation",
+   "exiles": true,
+   "name": "Consume Magic",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "all",
+     "cat": "spellsteal"
+    }
+   ]
+  },
+  "800582": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Hydraulic Charge",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "800617": {
+   "ascension": "record",
+   "asc_name": "Gavel of Wrath",
+   "asc_icon": "ability_paladin_enlightenedjudgements",
+   "exiles": true,
+   "name": "Gavel of Wrath",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all",
+     "cat": "purge"
+    }
+   ]
+  },
+  "800808": {
+   "ascension": "record",
+   "asc_name": "Spellburn",
+   "asc_icon": "ability_mage_burnout",
+   "exiles": true,
+   "name": "Spellburn",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "800887": {
+   "ascension": "record",
+   "asc_name": "Spindlebind",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Spindlebind",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all (tree)",
+     "cat": "root",
+     "node": "r3 c4"
+    }
+   ]
+  },
+  "800995": {
+   "ascension": "record",
+   "asc_name": "Ley Lock",
+   "asc_icon": "nhi_magicblock_border",
+   "exiles": true,
+   "name": "Ley Lock",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "801090": {
+   "ascension": "record",
+   "asc_name": "Everfrost Scroll",
+   "asc_icon": "trade_engineering",
+   "exiles": true,
+   "name": "Everfrost Scroll",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "801271": {
+   "ascension": "record",
+   "asc_name": "Continuum Restoration",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Continuum Restoration",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "Time",
+     "cat": "purge",
+     "node": "r6 c4"
+    }
+   ]
+  },
+  "801304": {
+   "ascension": "record",
+   "asc_name": "Hasten",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Hasten",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "801477": {
+   "ascension": "record",
+   "asc_name": "Grace of Aman'Thul",
+   "asc_icon": "_d3waveoflight",
+   "exiles": true,
+   "name": "Grace of Aman'Thul",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "801585": {
+   "ascension": "record",
+   "asc_name": "Call Avatar: Devilsaur",
+   "asc_icon": "ability_hunter_pet_devilsaur",
+   "exiles": true,
+   "name": "Call Avatar: Devilsaur",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "801689": {
+   "ascension": "record",
+   "asc_name": "Arcane Brew",
+   "asc_icon": "inv_ascend_potion_12",
+   "exiles": true,
+   "name": "Arcane Brew",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "Brewing",
+     "cat": "raid_dmg",
+     "node": "r6 c5"
+    }
+   ]
+  },
+  "801739": {
+   "ascension": "record",
+   "asc_name": "Heartchill",
+   "asc_icon": "ability_deathknight_heartstopaura",
+   "exiles": true,
+   "name": "Heartchill",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "Rime",
+     "cat": "interrupt",
+     "node": "r4 c0"
+    }
+   ]
+  },
+  "801746": {
+   "ascension": "record",
+   "asc_name": "Black Ice",
+   "asc_icon": "spell_hunter_blackicetrap",
+   "exiles": true,
+   "name": "Black Ice",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "801774": {
+   "ascension": "record",
+   "asc_name": "Hero's March",
+   "asc_icon": "inv_misc_drum_03",
+   "exiles": true,
+   "name": "Hero's March",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r4 c4"
+    }
+   ]
+  },
+  "801792": {
+   "ascension": "record",
+   "asc_name": "Call of The Scourge",
+   "asc_icon": "achievement_zone_icecrown_01",
+   "exiles": true,
+   "name": "Call of The Scourge",
+   "rows": [
+    {
+     "class": "Necromancer",
+     "spec": "all",
+     "cat": "rez"
+    }
+   ]
+  },
+  "801793": {
+   "ascension": "record",
+   "asc_name": "Tidal Rebirth",
+   "asc_icon": "inv_enchanting_crystal",
+   "exiles": true,
+   "name": "Tidal Rebirth",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "all",
+     "cat": "rez"
+    }
+   ]
+  },
+  "801828": {
+   "ascension": "record",
+   "asc_name": "Vanguard X-173: Onslaught",
+   "asc_icon": "ability_siege_engineer_overload",
+   "exiles": true,
+   "name": "Vanguard X-173: Onslaught",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "801846": {
+   "ascension": "no-record",
+   "verdict": "different ability: ascension's 705672 Exhale is a 1 min, 20 Static slow-dispel; the mirror's is a 40s cone root",
+   "exiles": true,
+   "name": "Exhale",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "802138": {
+   "ascension": "record",
+   "asc_name": "Gaze of the Black Knight",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Gaze of the Black Knight",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "Black Knight",
+     "cat": "raid_dr",
+     "node": "r9 c4"
+    }
+   ]
+  },
+  "802139": {
+   "ascension": "record",
+   "asc_name": "Darkslayer's Lantern",
+   "asc_icon": "inv_misc_trinket6oih_lanternb1",
+   "exiles": true,
+   "name": "Darkslayer's Lantern",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "Inquisition",
+     "cat": "stun",
+     "node": "r4 c6"
+    }
+   ]
+  },
+  "802197": {
+   "ascension": "record",
+   "asc_name": "Battle Rush",
+   "asc_icon": "warrior_talent_icon_skirmisher",
+   "exiles": true,
+   "name": "Battle Rush",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "802283": {
+   "ascension": "record",
+   "asc_name": "Bastion",
+   "asc_icon": "shield_draenorcrafted_d_02_a_alliance",
+   "exiles": true,
+   "name": "Bastion",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Vanguard",
+     "cat": "raid_dr",
+     "node": "r9 c4"
+    }
+   ]
+  },
+  "802304": {
+   "ascension": "record",
+   "asc_name": "Net Throw",
+   "asc_icon": "ability_ensnare",
+   "exiles": true,
+   "name": "Net Throw",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "all (tree)",
+     "cat": "root",
+     "node": "r0 c1"
+    }
+   ]
+  },
+  "802792": {
+   "ascension": "record",
+   "asc_name": "Jawbreaker",
+   "asc_icon": "achievement_dungeon_bastion_of_twilight_halfus_wyrmbreaker",
+   "exiles": true,
+   "name": "Jawbreaker",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "all (tree)",
+     "cat": "interrupt",
+     "node": "r0 c4"
+    }
+   ]
+  },
+  "802869": {
+   "ascension": "no-record",
+   "name_hits": [
+    803303,
+    803304,
+    803305,
+    803424
+   ],
+   "verdict": "SAME ability, DIFFERENT tooltip: ascension's 803424 Pursuit is the -20% damage-taken gap-closer with no stun clause at all, and the stun is why this row is on the page. The row's CLAIM is what is unconfirmed",
+   "exiles": true,
+   "name": "Pursuit",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "803062": {
+   "ascension": "record",
+   "asc_name": "Summon: Mindbender",
+   "asc_icon": "inv_hivemind",
+   "exiles": true,
+   "name": "Summon: Mindbender",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  },
+  "803185": {
+   "ascension": "record",
+   "asc_name": "Chains of Malice",
+   "asc_icon": "nhi_nightmarechain_border",
+   "exiles": true,
+   "name": "Chains of Malice",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "all (tree)",
+     "cat": "stun",
+     "node": "r0 c6"
+    }
+   ]
+  },
+  "803327": {
+   "ascension": "no-record",
+   "name_hits": [
+    804074
+   ],
+   "verdict": "different ability: ascension's 804074 Siphon summons three Brittle Skeletons; the mirror's steals two beneficial magic effects",
+   "exiles": true,
+   "name": "Siphon",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "all",
+     "cat": "spellsteal"
+    }
+   ]
+  },
+  "803437": {
+   "ascension": "record",
+   "asc_name": "Build: Rusthound",
+   "asc_icon": "inv_misc_trinket6oih_wolf1",
+   "exiles": true,
+   "name": "Build: Rusthound",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "803510": {
+   "ascension": "record",
+   "asc_name": "Emerald Dreamer Front",
+   "asc_icon": "ability_druid_treeoflife_red",
+   "exiles": true,
+   "name": "Emerald Dreamer Front",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "803679": {
+   "ascension": "record",
+   "asc_name": "Resonance Rune",
+   "asc_icon": "spell_arcane_blast_nightborne",
+   "exiles": true,
+   "name": "Resonance Rune",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all",
+     "cat": "purge"
+    }
+   ]
+  },
+  "803683": {
+   "ascension": "record",
+   "asc_name": "Battle Drums",
+   "asc_icon": "inv_archaeology_70_tauren_drum",
+   "exiles": true,
+   "name": "Battle Drums",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "Inspiration",
+     "cat": "raid_dmg",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "803964": {
+   "ascension": "record",
+   "asc_name": "Hero's Decree",
+   "asc_icon": "inv_misc_scrollunrolled02b",
+   "exiles": true,
+   "name": "Hero's Decree",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "804001": {
+   "ascension": "record",
+   "asc_name": "Reaper's Pact",
+   "asc_icon": "_warlock_agonie1",
+   "exiles": true,
+   "name": "Reaper's Pact",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "all",
+     "cat": "raid_dr_passive"
+    }
+   ]
+  },
+  "804019": {
+   "ascension": "record",
+   "asc_name": "Summon: Air Elemental",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Summon: Air Elemental",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "all",
+     "cat": "raid_dr_passive"
+    }
+   ]
+  },
+  "804022": {
+   "ascension": "record",
+   "asc_name": "Blessing of Air",
+   "asc_icon": "inv_elemental_crystal_air",
+   "exiles": true,
+   "name": "Blessing of Air",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "804035": {
+   "ascension": "record",
+   "asc_name": "Tailwind",
+   "asc_icon": "nhi_frozenarm_border",
+   "exiles": true,
+   "name": "Tailwind",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Wind",
+     "cat": "raid_dmg",
+     "node": "r4 c10"
+    }
+   ]
+  },
+  "804056": {
+   "ascension": "record",
+   "asc_name": "Crushing Dissonance",
+   "asc_icon": "ability_kaztik_dominatemind",
+   "exiles": true,
+   "name": "Crushing Dissonance",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Dreadnought",
+     "cat": "interrupt",
+     "node": "r5 c7"
+    }
+   ]
+  },
+  "804065": {
+   "ascension": "record",
+   "asc_name": "Protection From Light",
+   "asc_icon": "spell_fire_twilightimmolation",
+   "exiles": true,
+   "name": "Protection From Light",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "804231": {
+   "ascension": "record",
+   "asc_name": "Reborn from Ash",
+   "asc_icon": "ability_mount_pandarenphoenix",
+   "exiles": true,
+   "name": "Reborn from Ash",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "all",
+     "cat": "rez"
+    }
+   ]
+  },
+  "804250": {
+   "ascension": "record",
+   "asc_name": "Blessing of Triumph",
+   "asc_icon": "ability_paladin_holyavenger",
+   "exiles": true,
+   "name": "Blessing of Triumph",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "Blessings",
+     "cat": "raid_dmg",
+     "node": "r9 c4"
+    }
+   ]
+  },
+  "804257": {
+   "ascension": "record",
+   "asc_name": "Glaring Rays",
+   "asc_icon": "spell_holy_power",
+   "exiles": true,
+   "name": "Glaring Rays",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "Blessings",
+     "cat": "raid_dmg_passive",
+     "node": "r6 c8"
+    }
+   ]
+  },
+  "804432": {
+   "ascension": "record",
+   "asc_name": "Guard Strike",
+   "asc_icon": "inv_qiraj_hiltornate",
+   "exiles": true,
+   "name": "Guard Strike",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "Black Knight",
+     "cat": "interrupt",
+     "node": "r5 c2"
+    }
+   ]
+  },
+  "804456": {
+   "ascension": "record",
+   "asc_name": "Tavern Brawl!",
+   "asc_icon": "novart_passivemastery_%2834%29_border",
+   "exiles": true,
+   "name": "Tavern Brawl!",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "804664": {
+   "ascension": "record",
+   "asc_name": "Fae Dust",
+   "asc_icon": "inv_enchanting_wod_dust4",
+   "exiles": true,
+   "name": "Fae Dust",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "804705": {
+   "ascension": "record",
+   "asc_name": "Ring of Life",
+   "asc_icon": "nhi_naturestone_border",
+   "exiles": true,
+   "name": "Ring of Life",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Grovekeeper",
+     "cat": "raid_dr_passive",
+     "node": "r5 c2"
+    }
+   ]
+  },
+  "804730": {
+   "ascension": "record",
+   "asc_name": "Symbol of the Warspear",
+   "asc_icon": "inv_banner_warspear",
+   "exiles": true,
+   "name": "Symbol of the Warspear",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Brutality",
+     "cat": "raid_dmg_passive",
+     "node": "r7 c4"
+    }
+   ]
+  },
+  "804731": {
+   "ascension": "record",
+   "asc_name": "Ancestral Fury",
+   "asc_icon": "achievement_boss_argus_aggramar",
+   "exiles": true,
+   "name": "Ancestral Fury",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg_passive",
+     "node": "r3 c2"
+    }
+   ]
+  },
+  "804737": {
+   "ascension": "record",
+   "asc_name": "Clanlord's Totem",
+   "asc_icon": "inv_belt_armor_orcclan_d_01",
+   "exiles": true,
+   "name": "Clanlord's Totem",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "804784": {
+   "ascension": "record",
+   "asc_name": "Tithe of Might",
+   "asc_icon": "icon_upgradestone_beast_legendary",
+   "exiles": true,
+   "name": "Tithe of Might",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all",
+     "cat": "raid_buff_longterm"
+    }
+   ]
+  },
+  "804818": {
+   "ascension": "record",
+   "asc_name": "Tithe of Alacrity",
+   "asc_icon": "icon_upgradestone_critter_legendary",
+   "exiles": true,
+   "name": "Tithe of Alacrity",
+   "rows": [
+    {
+     "class": "Templar",
+     "spec": "all",
+     "cat": "raid_dr_passive"
+    }
+   ]
+  },
+  "804861": {
+   "ascension": "record",
+   "asc_name": "Anti-Magic Grenades",
+   "asc_icon": "spell_argus_shockgrenade",
+   "exiles": true,
+   "name": "Anti-Magic Grenades",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all",
+     "cat": "silence"
+    }
+   ]
+  },
+  "804879": {
+   "ascension": "record",
+   "asc_name": "Legion's Presence",
+   "asc_icon": "achievement_dungeon_blackrockcaverns",
+   "exiles": true,
+   "name": "Legion's Presence",
+   "rows": [
+    {
+     "class": "Knight of Xoroth",
+     "spec": "Defiance",
+     "cat": "raid_dmg",
+     "node": "r9 c6"
+    }
+   ]
+  },
+  "804967": {
+   "ascension": "record",
+   "asc_name": "Venocannon",
+   "asc_icon": "inv_misc_herb_marrowroot",
+   "exiles": true,
+   "name": "Venocannon",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "805096": {
+   "ascension": "record",
+   "asc_name": "Nullifying Toxin",
+   "asc_icon": "ability_rogue_deviouspoisons",
+   "exiles": true,
+   "name": "Nullifying Toxin",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "805243": {
+   "ascension": "record",
+   "asc_name": "Infernal Whipcrack",
+   "asc_icon": "ability_warlock_whiplash",
+   "exiles": true,
+   "name": "Infernal Whipcrack",
+   "rows": [
+    {
+     "class": "Felsworn",
+     "spec": "Tyrant",
+     "cat": "raid_dr",
+     "node": "r8 c6"
+    }
+   ]
+  },
+  "805305": {
+   "ascension": "record",
+   "asc_name": "Combat Symbiosis",
+   "asc_icon": "nhi_lightning_soul_border",
+   "exiles": true,
+   "name": "Combat Symbiosis",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "Invention",
+     "cat": "raid_dmg",
+     "node": "r9 c4"
+    }
+   ]
+  },
+  "805432": {
+   "ascension": "record",
+   "asc_name": "Halt",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Halt",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "all",
+     "cat": "interrupt"
+    }
+   ]
+  },
+  "805442": {
+   "ascension": "record",
+   "asc_name": "Flourishing Growth",
+   "asc_icon": "spell_druid_germination",
+   "exiles": true,
+   "name": "Flourishing Growth",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Grovekeeper",
+     "cat": "raid_dmg",
+     "node": "r6 c10"
+    }
+   ]
+  },
+  "805476": {
+   "ascension": "record",
+   "asc_name": "Cindergrip",
+   "asc_icon": "ability_rhyolith_lavapool",
+   "exiles": true,
+   "name": "Cindergrip",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "805487": {
+   "ascension": "record",
+   "asc_name": "Firepower",
+   "asc_icon": "item_sparkofragnoros",
+   "exiles": true,
+   "name": "Firepower",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "805497": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Lucifron's Lagniappe",
+   "rows": [
+    {
+     "class": "Pyromancer",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "805568": {
+   "ascension": "record",
+   "asc_name": "Spawn",
+   "asc_icon": "achievement_halloween_rottenegg_01",
+   "exiles": true,
+   "name": "Spawn",
+   "rows": [
+    {
+     "class": "Venomancer",
+     "spec": "all",
+     "cat": "rez"
+    }
+   ]
+  },
+  "805583": {
+   "ascension": "record",
+   "asc_name": "Glare",
+   "asc_icon": "ability_priest_halo",
+   "exiles": true,
+   "name": "Glare",
+   "rows": [
+    {
+     "class": "Sun Cleric",
+     "spec": "all (tree)",
+     "cat": "stun",
+     "node": "r5 c2"
+    }
+   ]
+  },
+  "805730": {
+   "ascension": "record",
+   "asc_name": "Glacial Rune",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Glacial Rune",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "805760": {
+   "ascension": "record",
+   "asc_name": "Set Bounty",
+   "asc_icon": "achievement_general_150kdailyquests",
+   "exiles": true,
+   "name": "Set Bounty",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "805810": {
+   "ascension": "record",
+   "asc_name": "Cheers!",
+   "asc_icon": "archaeology_5_0_twinsteinsetofbrewfatherquantoukuo",
+   "exiles": true,
+   "name": "Cheers!",
+   "rows": [
+    {
+     "class": "Barbarian",
+     "spec": "Ancestry",
+     "cat": "raid_dr",
+     "node": "r4 c6"
+    }
+   ]
+  },
+  "805847": {
+   "ascension": "record",
+   "asc_name": "Clasp of Infinity",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Clasp of Infinity",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "all (tree)",
+     "cat": "root",
+     "node": "r0 c4"
+    }
+   ]
+  },
+  "806099": {
+   "ascension": "record",
+   "asc_name": "Aneurysm",
+   "asc_icon": "spell_argus_psychic_scarring",
+   "exiles": true,
+   "name": "Aneurysm",
+   "rows": [
+    {
+     "class": "Bloodmage",
+     "spec": "Sanguine",
+     "cat": "interrupt",
+     "node": "r3 c3"
+    }
+   ]
+  },
+  "806124": {
+   "ascension": "record",
+   "asc_name": "Aerodynamics",
+   "asc_icon": "_monkability_renewingmists_xuenwhite",
+   "exiles": true,
+   "name": "Aerodynamics",
+   "rows": [
+    {
+     "class": "Stormbringer",
+     "spec": "Wind",
+     "cat": "raid_dmg",
+     "node": "r6 c10"
+    }
+   ]
+  },
+  "806125": {
+   "ascension": "record",
+   "asc_name": "Siphon Essence",
+   "asc_icon": "_virus_red",
+   "exiles": true,
+   "name": "Siphon Essence",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "Harvest",
+     "cat": "interrupt",
+     "node": "r6 c6"
+    }
+   ]
+  },
+  "806138": {
+   "ascension": "record",
+   "asc_name": "Spellcaster's Decree",
+   "asc_icon": "inv_misc_scrollunrolled02d",
+   "exiles": true,
+   "name": "Spellcaster's Decree",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "806139": {
+   "ascension": "record",
+   "asc_name": "Emperor's Decree",
+   "asc_icon": "inv_misc_scrollunrolled04c",
+   "exiles": true,
+   "name": "Emperor's Decree",
+   "rows": [
+    {
+     "class": "Guardian",
+     "spec": "all",
+     "cat": "raid_dr"
+    }
+   ]
+  },
+  "806146": {
+   "ascension": "record",
+   "asc_name": "Ghastly Screech",
+   "asc_icon": "_d3horrify",
+   "exiles": true,
+   "name": "Ghastly Screech",
+   "rows": [
+    {
+     "class": "Reaper",
+     "spec": "all (tree)",
+     "cat": "silence",
+     "node": "r5 c1"
+    }
+   ]
+  },
+  "806196": {
+   "ascension": "record",
+   "asc_name": "Solar Avenger",
+   "asc_icon": "spell_paladin_lightshammer",
+   "exiles": true,
+   "name": "Solar Avenger",
+   "rows": [
+    {
+     "class": "Witch Hunter",
+     "spec": "all",
+     "cat": "raid_dmg_passive"
+    }
+   ]
+  },
+  "806222": {
+   "ascension": "record",
+   "asc_name": "Netherstrike",
+   "asc_icon": "nhi_arcanearrow_border",
+   "exiles": true,
+   "name": "Netherstrike",
+   "rows": [
+    {
+     "class": "Cultist",
+     "spec": "Godblade",
+     "cat": "purge",
+     "node": "r3 c4"
+    }
+   ]
+  },
+  "806224": {
+   "ascension": "record",
+   "asc_name": "Kinetic Shield",
+   "asc_icon": "garrison_bluearmorupgrade",
+   "exiles": true,
+   "name": "Kinetic Shield",
+   "rows": [
+    {
+     "class": "Tinker",
+     "spec": "all (tree)",
+     "cat": "raid_dr",
+     "node": "r5 c4"
+    }
+   ]
+  },
+  "806316": {
+   "ascension": "record",
+   "asc_name": "Maw of Chaos",
+   "asc_icon": "inv_voiddragonmount",
+   "exiles": true,
+   "name": "Maw of Chaos",
+   "rows": [
+    {
+     "class": "Chronomancer",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "806342": {
+   "ascension": "no-record",
+   "exiles": true,
+   "name": "Whipvine Arrow",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Farstrider",
+     "cat": "root",
+     "node": "r8 c6"
+    }
+   ]
+  },
+  "806360": {
+   "ascension": "record",
+   "asc_name": "Horn of Alacrity",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Horn of Alacrity",
+   "rows": [
+    {
+     "class": "Ranger",
+     "spec": "Farstrider",
+     "cat": "raid_dmg",
+     "node": "r6 c10"
+    }
+   ]
+  },
+  "806546": {
+   "ascension": "record",
+   "asc_name": "Swoop",
+   "asc_icon": "artifactability_survivalhunter_eaglesbite",
+   "exiles": true,
+   "name": "Swoop",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "807467": {
+   "ascension": "record",
+   "asc_name": "Neptulon's Wrath",
+   "asc_icon": "_liquidstone_water",
+   "exiles": true,
+   "name": "Neptulon's Wrath",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Grovekeeper",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "807560": {
+   "ascension": "record",
+   "asc_name": "Primal Awakening",
+   "asc_icon": "ability_shaman_astralshift",
+   "exiles": true,
+   "name": "Primal Awakening",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "Grovekeeper",
+     "cat": "raid_dmg",
+     "node": "r8 c10"
+    }
+   ]
+  },
+  "807564": {
+   "ascension": "record",
+   "asc_name": "Stellar Alignment",
+   "asc_icon": "spell_arcane_arcane01",
+   "exiles": true,
+   "name": "Stellar Alignment",
+   "rows": [
+    {
+     "class": "Starcaller",
+     "spec": "all",
+     "cat": "raid_dmg"
+    }
+   ]
+  },
+  "807743": {
+   "ascension": "record",
+   "asc_name": "Spirit Shock",
+   "asc_icon": "inv_helm_mail_raidshaman_m_01",
+   "exiles": true,
+   "name": "Spirit Shock",
+   "rows": [
+    {
+     "class": "Witch Doctor",
+     "spec": "Shadowhunting",
+     "cat": "silence",
+     "node": "r6 c7"
+    }
+   ]
+  },
+  "807822": {
+   "ascension": "record",
+   "asc_name": "Cryobrand",
+   "asc_icon": "inv_misc_questionmark",
+   "exiles": true,
+   "name": "Cryobrand",
+   "rows": [
+    {
+     "class": "Runemaster",
+     "spec": "all",
+     "cat": "root"
+    }
+   ]
+  },
+  "991349": {
+   "ascension": "record",
+   "asc_name": "Monolith Smash",
+   "asc_icon": "ability_deepwinddunk_dunk",
+   "exiles": true,
+   "name": "Monolith Smash",
+   "rows": [
+    {
+     "class": "Primalist",
+     "spec": "all",
+     "cat": "stun"
+    }
+   ]
+  }
+ }
+}

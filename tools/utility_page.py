@@ -296,6 +296,11 @@ def cell_data(rows, specs):
         # interrupt. Only when every ability behind the cell is waiting on an
         # in-game check does the cell itself carry the doubt.
         "pending": all("norecord" in r[6] for r in rows),
+        # ALL again, same reason: a class whose only tool in this column is a
+        # pet's is not bringing what the column claims. Tinker's interrupt cell
+        # is the case the mark exists for -- both rows behind it are a pet and
+        # a gameobject, and the cell used to print a flat "25s".
+        "pet": all(any(m.startswith("pet-") for m in r[6]) for r in rows),
         "names": ", ".join(r[4] for r in rows),
         # every spell id behind this cell, so the hover card can show the
         # whole stack rather than just the shortest cooldown the cell prints
@@ -320,6 +325,22 @@ def icon(cn, px=22):
     s = SLUG[cn]
     return (f'<img src="assets/class-icons/{s}/_class-{s}.png" alt="" '
             f'width="{px}" height="{px}" loading="lazy">')
+
+
+# (mark, css class, label, tooltip) for the six rows a pet or a build casts.
+# Ordered strongest doubt first; only one ever matches a row.
+PET_CHIPS = (
+    ("pet-none", "pet none", "pet &mdash; no control",
+     "a summoned OBJECT fires this on a timer, not a pet with an action bar. "
+     "You choose where and when to drop it and nothing after that."),
+    ("pet-bar", "pet bar", "pet &mdash; pet bar",
+     "a pet casts this, and the pet has an action bar. Whether this particular "
+     "ability is manually castable or autocast-only is not in either spell "
+     "database &mdash; it needs an in-game look."),
+    ("pet-passive", "pet pas", "pet &mdash; passive",
+     "an aura the pet carries. Nothing to press; the requirement is that the "
+     "pet is out."),
+)
 
 
 def chips(r, cat):
@@ -349,6 +370,15 @@ def chips(r, cat):
     if "int" in r[6]:
         out.append('<span class="chip int" title="tooltip also claims it '
                    'interrupts non-player spellcasting">int</span>')
+    # THE CLASS IS NOT THE CASTER. This row is a summon button and a pet does
+    # the thing the table is about, so the chip has to answer the only question
+    # that follows: can the player aim it. Those are three different answers and
+    # collapsing them to "pet" would hide the one that matters -- the Noise Box
+    # cannot be aimed at all, which is not the same as a pet-bar ability nobody
+    # has checked yet.
+    for mark, cls_, label, tip in PET_CHIPS:
+        if mark in r[6]:
+            out.append(f'<span class="chip {cls_}" title="{tip}">{label}</span>')
     # ONE DATABASE, NOT TWO. db.exil.es has this spell and db.ascension.gg has
     # no record of it at all -- not merely no art for it, which is the weaker
     # chip below. Absence from one snapshot is not proof of absence from the
@@ -358,8 +388,9 @@ def chips(r, cat):
     if "norecord" in r[6]:
         out.append('<span class="chip unv2" title="on db.exil.es only '
                    '&mdash; db.ascension.gg has no record of this spell. '
-                   'Not proof it is missing: five spells in this state have '
-                   'been confirmed in game by hand.">'
+                   'Not proof it is missing: two spells in this state have '
+                   'been confirmed in game by hand and are still missing '
+                   'from that database.">'
                    '<b>!</b> in-game verification in process</span>')
     elif "noicon" in r[6]:
         out.append('<span class="chip unv" title="no icon on the spell db '
@@ -583,6 +614,50 @@ def render():
 
     # --------------------------------------------------------- 3. .matrix
     A('<section class="panel on" id="panel-overview">')
+
+    # ------------------------------------------------- 3a. .cov, the answer
+    #
+    # THE PHONE'S FIRST SCREEN. A raid lead opening this on a phone an hour
+    # before invites is asking one question -- "is tonight's raid missing
+    # anything, and who can I ask" -- and that answer was already computed in
+    # JS and then rendered only as decoration ON TOP of an object the phone
+    # could not see: a red wash on a grid column, a clause in a wrapping
+    # sentence, a red pill in a six-row tab strip.
+    #
+    # A ledger has no absence problem, and the matrix does. The comment on
+    # .gapcol says it outright: in a grid that paints presence, a tool nobody
+    # can press renders as an EMPTY COLUMN, which is why .gapcol had to be
+    # invented to wash it red. Here a gap is a row that says NOBODY, in red, at
+    # the top of the screen. The grid needs a patch to show absence; this IS
+    # the absence report.
+    #
+    # Server-rendered from `counts`, which is already computed above and was
+    # previously used only to sort the tabs -- no new data, no second pass, and
+    # the noscript contract holds. JS overwrites the numbers when a raid loads;
+    # it is the same `cover` object that writes the tab badges, so the two
+    # cannot disagree. Hidden above the layout-mode threshold: this is chrome,
+    # not the grid, and desktop does not get it.
+    A('<ul class="cov" aria-label="Tool coverage">')
+    for cat in sorted(CATS, key=lambda c: (BAND_OF[c] == "trash",
+                                           counts.get(c, 0), LONG[c])):
+        n = counts.get(cat, 0)
+        # `conf` was computed here and never read by anything. It earns its
+        # keep in exactly one case: every class that brings this tool brings it
+        # via an ability the spell db has no record of, i.e. "you may have this
+        # or you may have nothing". That is gap-adjacent and worth a mark.
+        # Every other verified/unverified split is a caveat and already lives
+        # on the ability rows as .chip.unv.
+        pend = ' data-allunv="1"' if n and not conf.get(cat, 0) else ""
+        A(f'<li class="covrow b-{BAND_OF[cat]}" data-cat="{cat}"'
+          f' data-classes="{n}"{pend}>'
+          f'<a class="covlink" href="#panel-{cat}" data-panel="{cat}">'
+          f'<span class="covname">{esc(LONG[cat])}</span>'
+          f'<span class="covnum">{n}</span>'
+          f'<span class="covwho">{n} of {N} classes</span></a></li>')
+    A(f'<li class="covsum" data-tools="{len(CATS)}">'
+      f'<span class="covsumtxt">{len(CATS)} tools &middot; '
+      f'load tonight&rsquo;s raid to see what it is missing</span></li>')
+    A('</ul>')
     # The key belongs ABOVE the thing it explains. It used to sit under a
     # 1200px table in 11px grey, i.e. after the reader had already guessed.
     A('<p class="mxlegend">'
@@ -593,6 +668,8 @@ def render():
       '<span><i class="k t">t</i>costs a talent point</span>'
       '<span><i class="k p">+1</i>brings another</span>'
       '<span><i class="k unv">14s?</i>unverified in game</span>'
+      '<span><i class="k pend">14s!</i>in-game verification in process</span>'
+      '<span><i class="k petk">14s<b>p</b></i>a pet does it, not the class</span>'
       '<span><i class="k x">&nbsp;</i>blank = does not bring it</span></p>')
 
     # id="matrix": ten href="#matrix" links have shipped against no target.
@@ -651,6 +728,10 @@ def render():
                 # "!" outranks "?" and replaces it: the second database having
                 # no RECORD of the ability is the stronger doubt, and printing
                 # both marks on one cell says two things where there is one.
+                if d["pet"]:
+                    mk += ('<i class="pet" title="a pet or a summoned object '
+                           'does this, not the class — the button is the '
+                           'summon">p</i>')
                 if d["pending"]:
                     mk += ('<i class="q pend" title="on db.exil.es only — '
                            'db.ascension.gg has no record of it. In-game '

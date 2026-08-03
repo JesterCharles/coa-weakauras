@@ -56,6 +56,7 @@ python3 tools/mksite.py                              # regenerate docs/
 | `audit_cds.py` | find every ability with a cooldown |
 | `fetch_icons.py` | resolve real name + icon per spell id |
 | `dbsearch.py` | batch search db.ascension.gg |
+| `crosscheck.py` | ask both spell databases about every raid-utility row |
 | `build_dump.py` | in-game diagnostic aura (`/rmdump`) |
 
 ### Data
@@ -68,6 +69,7 @@ python3 tools/mksite.py                              # regenerate docs/
 | `resources/exiles-id-meta.json` | real name + icon per spell id |
 | `resources/cooldown-abilities.json` | every ability with a cooldown, per spec |
 | `resources/ascension-coa-class-ids.md` | class ids 12–32 and scraping notes |
+| `resources/cross-source.json` | which raid-utility spells both databases have |
 | `resources/import-strings/` | decoded community packs — the reference |
 
 Source precedence: **in-game tooltip → db.exil.es → db.ascension.gg →

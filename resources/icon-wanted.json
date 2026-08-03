@@ -3,12 +3,17 @@
  "_source_status": "db.exil.es has no icon field at all. db.ascension.gg renders inv_misc_questionmark, has no record, or 404s and still answers questionmark from the tooltip endpoint.",
  "_how_to_fill": "put <texture>.jpg in docs/assets/spell-icons/, add \"<id>\": \"<texture>\" to resources/utility-icons.json, then python3 tools/mksite.py --utility-only",
  "_refresh": "rewritten by python3 tools/utility_icons.py",
- "count": 50,
+ "count": 47,
  "ids": {
   "500148": {
    "class": "Sun Cleric",
    "ability": "Solar Burn",
    "why": "db.ascension.gg record carries no icon field"
+  },
+  "500242": {
+   "class": "Tinker",
+   "ability": "Build: Scrapmaw",
+   "why": "db.ascension.gg renders inv_misc_questionmark"
   },
   "500617": {
    "class": "Ranger",
@@ -39,11 +44,6 @@
    "class": "Ranger",
    "ability": "Bushwhack",
    "why": "db.ascension.gg renders inv_misc_questionmark"
-  },
-  "560470": {
-   "class": "Tinker",
-   "ability": "Distracto Shot",
-   "why": "db.ascension.gg record carries no icon field"
   },
   "560471": {
    "class": "Knight of Xoroth",
@@ -110,11 +110,6 @@
    "ability": "Greater Devotion of Radiance",
    "why": "no record on db.ascension.gg"
   },
-  "653213": {
-   "class": "Runemaster",
-   "ability": "Weapon Engraving: Water",
-   "why": "no record on db.ascension.gg"
-  },
   "680310": {
    "class": "Primalist",
    "ability": "Greater Primal Instinct",
@@ -165,11 +160,6 @@
    "ability": "Greater Mark of Blaumeux",
    "why": "no record on db.ascension.gg"
   },
-  "800383": {
-   "class": "Barbarian",
-   "ability": "Wrist Snap",
-   "why": "db.ascension.gg record carries no icon field"
-  },
   "800582": {
    "class": "Tinker",
    "ability": "Hydraulic Charge",
@@ -210,14 +200,9 @@
    "ability": "Siphon",
    "why": "db.ascension.gg record carries no icon field"
   },
-  "803706": {
-   "class": "Chronomancer",
-   "ability": "Hasty Strike",
-   "why": "no record on db.ascension.gg"
-  },
-  "804067": {
+  "804019": {
    "class": "Stormbringer",
-   "ability": "Cyclonean Protection",
+   "ability": "Summon: Air Elemental",
    "why": "db.ascension.gg renders inv_misc_questionmark"
   },
   "805432": {
