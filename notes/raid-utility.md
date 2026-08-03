@@ -261,7 +261,7 @@ None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian,
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Templar | all | [Righteous Reprimand](https://db.exil.es/spell/572308) **!** |  | 10s | 6% mana | Instant | Removes 1 beneficial magic effect from an enemy. |
-| Chronomancer | Time<br>r6 c4 | [Continuum Restoration](https://db.exil.es/spell/801271) ⚠ |  | 1.5 min | 60% mana | 1.5s | Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and ha… |
+| Chronomancer | Time<br>r6 c4 | [Continuum Restoration](https://db.exil.es/spell/801271) |  | 1.5 min | 60% mana | 1.5s | Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and ha… |
 | Cultist | Godblade<br>r3 c4 | [Netherstrike](https://db.exil.es/spell/806222) |  | 6s | 10% mana | Instant | Generates 10 Insanity Strike an enemy quickly for 125% Weapon Damage plus 40 Shadow Damage, purging 1 beneficial magic effect from them. Onl… |
 | Sun Cleric | all | [Gavel of Wrath](https://db.exil.es/spell/800617) |  | 5s | 10% mana | Instant | Smash an enemy for 100% Weapon Damage plus 45 and dispel 1 beneficial magic effect from them. Shares a cooldown with other Gavels. |
 | Reaper | all | [Soul Shear](https://db.exil.es/spell/520862) |  | 16s | — | Instant | Purge an enemy's soul, removing 2 beneficial magic effects from them. |
@@ -275,7 +275,7 @@ None found for: Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian,
 | Class | Spec | Ability | Usable on Boss | CD | Materials Required | Cast Time | Description |
 |---|---|---|---|---|---|---|---|
 | Templar | all | [Righteous Reprimand](https://db.exil.es/spell/572308) **!** |  | 10s | 6% mana | Instant | Removes 1 beneficial magic effect from an enemy. |
-| Chronomancer | Time<br>r6 c4 | [Continuum Restoration](https://db.exil.es/spell/801271) ⚠ |  | 1.5 min | 60% mana | 1.5s | Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and ha… |
+| Chronomancer | Time<br>r6 c4 | [Continuum Restoration](https://db.exil.es/spell/801271) |  | 1.5 min | 60% mana | 1.5s | Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and ha… |
 | Cultist | Godblade<br>r3 c4 | [Netherstrike](https://db.exil.es/spell/806222) |  | 6s | 10% mana | Instant | Generates 10 Insanity Strike an enemy quickly for 125% Weapon Damage plus 40 Shadow Damage, purging 1 beneficial magic effect from them. Onl… |
 | Sun Cleric | all | [Gavel of Wrath](https://db.exil.es/spell/800617) |  | 5s | 10% mana | Instant | Smash an enemy for 100% Weapon Damage plus 45 and dispel 1 beneficial magic effect from them. Shares a cooldown with other Gavels. |
 | Reaper | all | [Soul Shear](https://db.exil.es/spell/520862) |  | 16s | — | Instant | Purge an enemy's soul, removing 2 beneficial magic effects from them. |
@@ -297,7 +297,7 @@ None found for: Barbarian, Bloodmage, Felsworn, Guardian, Knight of Xoroth, Necr
 |---|---|---|---|---|---|---|---|
 | Felsworn | all | [Consume Magic](https://db.exil.es/spell/800353) |  | none | 30 energy | Instant | Steal 1 beneficial magic effects from an enemy. If you successfully steal an effect, you deal 8 Shadow Damage to the enemy. |
 | Bloodmage | all | [Siphon](https://db.exil.es/spell/803327) **!** |  | 6s | — | Instant | Steal 2 beneficial magic effects from an enemy. |
-| Runemaster | all | [Leyfeed](https://db.exil.es/spell/520269) ⚠ |  | none | 20% mana | 1s | Feed off the latent magic of an enemy, stealing 2 beneficial magic effects from them. Usable while moving. |
+| Runemaster | all | [Leyfeed](https://db.exil.es/spell/520269) |  | none | 20% mana | 1s | Feed off the latent magic of an enemy, stealing 2 beneficial magic effects from them. Usable while moving. |
 
 <details><summary>Copy this table as markdown</summary>
 
@@ -306,7 +306,7 @@ None found for: Barbarian, Bloodmage, Felsworn, Guardian, Knight of Xoroth, Necr
 |---|---|---|---|---|---|---|---|
 | Felsworn | all | [Consume Magic](https://db.exil.es/spell/800353) |  | none | 30 energy | Instant | Steal 1 beneficial magic effects from an enemy. If you successfully steal an effect, you deal 8 Shadow Damage to the enemy. |
 | Bloodmage | all | [Siphon](https://db.exil.es/spell/803327) **!** |  | 6s | — | Instant | Steal 2 beneficial magic effects from an enemy. |
-| Runemaster | all | [Leyfeed](https://db.exil.es/spell/520269) ⚠ |  | none | 20% mana | 1s | Feed off the latent magic of an enemy, stealing 2 beneficial magic effects from them. Usable while moving. |
+| Runemaster | all | [Leyfeed](https://db.exil.es/spell/520269) |  | none | 20% mana | 1s | Feed off the latent magic of an enemy, stealing 2 beneficial magic effects from them. Usable while moving. |
 ```
 
 </details>
