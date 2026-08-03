@@ -36,7 +36,6 @@ note in `tools/sources.py`).
 | Witch Hunter | Black Knight<br>r5 c2 | [Guard Strike](https://db.exil.es/spell/804432) |  | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Stormbringer | all | [Gust of Wind](https://db.exil.es/spell/500932) |  | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
 | Stormbringer | Maelstrom<br>r4 c7 | [Mystic Thunder](https://db.exil.es/spell/504846) |  | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
-| Knight of Xoroth | all | [Hellgaze](https://db.exil.es/spell/560471) |  | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
 | Guardian | all | [Shield of Denial](https://db.exil.es/spell/704159) |  | 30s | 15 energy | Instant | Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing 155 Physical damage and interrupting their spellcast, preventing any … |
 | Bloodmage | Sanguine<br>r3 c3 | [Aneurysm](https://db.exil.es/spell/806099) |  | 24s | 10% health | Instant | Counter the enemy's spellcast, preventing any spell from that school of magic from being cast for 4 seconds. Successfully interrupting an en… |
 | Ranger | Brigand<br>r5 c1 | [Throatpunch](https://db.exil.es/spell/500617) |  | 12s | 25 focus | Instant | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
@@ -60,7 +59,6 @@ note in `tools/sources.py`).
 | Witch Hunter | Black Knight<br>r5 c2 | [Guard Strike](https://db.exil.es/spell/804432) |  | 18s | 100 rage | Instant | Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds. |
 | Stormbringer | all | [Gust of Wind](https://db.exil.es/spell/500932) |  | 35s | 37% mana | Instant | Send forth a gust of wind in a frontal cone, knocking enemies back and interrupting all enemies current spell cast, preventing any spell fro… |
 | Stormbringer | Maelstrom<br>r4 c7 | [Mystic Thunder](https://db.exil.es/spell/504846) |  | 30s | 15% mana | Instant | Interrupt the target's current spell cast and then mark them for 5 seconds. If they cast again while marked they are silenced for 3 seconds. |
-| Knight of Xoroth | all | [Hellgaze](https://db.exil.es/spell/560471) |  | 15s | — | Instant | Interrupts spellcasting and prevents any spell from that school from being cast for 4 sec. |
 | Guardian | all | [Shield of Denial](https://db.exil.es/spell/704159) |  | 30s | 15 energy | Instant | Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing 155 Physical damage and interrupting their spellcast, preventing any … |
 | Bloodmage | Sanguine<br>r3 c3 | [Aneurysm](https://db.exil.es/spell/806099) |  | 24s | 10% health | Instant | Counter the enemy's spellcast, preventing any spell from that school of magic from being cast for 4 seconds. Successfully interrupting an en… |
 | Ranger | Brigand<br>r5 c1 | [Throatpunch](https://db.exil.es/spell/500617) |  | 12s | 25 focus | Instant | Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 secon… |
@@ -77,8 +75,8 @@ note in `tools/sources.py`).
 
 </details>
 
-**18 across 17 classes.**
-None found for: Starcaller, Sun Cleric, Templar, Witch Doctor.
+**17 across 16 classes.**
+None found for: Knight of Xoroth, Starcaller, Sun Cleric, Templar, Witch Doctor.
 
 ## 2. Silences
 
