@@ -44,8 +44,6 @@ note in `tools/sources.py`).
 | Necromancer | Rime<br>r4 c0 | [Heartchill](https://db.exil.es/spell/801739) |  | 30s | 19% mana | Instant | Chill an enemy's heart, interrupting their current spell cast. Successfully interrupting a spell also reduces their movement speed and haste… |
 | Pyromancer | all | [Spellburn](https://db.exil.es/spell/800808) |  | 25s | 9% mana | Instant | Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for 5 sec. |
 | Cultist | Dreadnought<br>r5 c7 | [Crushing Dissonance](https://db.exil.es/spell/804056) |  | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
-| Starcaller | all | [Halt](https://db.exil.es/spell/805432) |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
-| Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
 | Tinker | all | [Build: Rusthound](https://db.exil.es/spell/803437) **(pet — pet bar)** |  | 30s | 10% mana | 6s | Construct a Rusthound to accompany the Tinker until dismissed. — Meltdown: Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their Fire Resistance and healing received by 20%. |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | Harvest<br>r6 c6 | [Siphon Essence](https://db.exil.es/spell/806125) |  | 20s | — | Instant | Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from bein… |
@@ -70,8 +68,6 @@ note in `tools/sources.py`).
 | Necromancer | Rime<br>r4 c0 | [Heartchill](https://db.exil.es/spell/801739) |  | 30s | 19% mana | Instant | Chill an enemy's heart, interrupting their current spell cast. Successfully interrupting a spell also reduces their movement speed and haste… |
 | Pyromancer | all | [Spellburn](https://db.exil.es/spell/800808) |  | 25s | 9% mana | Instant | Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for 5 sec. |
 | Cultist | Dreadnought<br>r5 c7 | [Crushing Dissonance](https://db.exil.es/spell/804056) |  | 30s | 18% mana | Instant | Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school… |
-| Starcaller | all | [Halt](https://db.exil.es/spell/805432) |  | 15s | 11% mana | Instant | Interrupt an enemy's current spellcast and prevents any spell in that school from being cast for 3 sec. |
-| Sun Cleric | all | [Solar Burn](https://db.exil.es/spell/500148) |  | 25s | 5% mana | Instant | Blasts an enemy with sun rays, interrupting spellcasting and preventing spells of that school from being cast for 4 sec. |
 | Tinker | all | [Build: Rusthound](https://db.exil.es/spell/803437) **(pet — pet bar)** |  | 30s | 10% mana | 6s | Construct a Rusthound to accompany the Tinker until dismissed. — Meltdown: Bite an enemy, interrupting their current spellcast and preventing any spells from being cast from that school for 5 sec and reduces their Fire Resistance and healing received by 20%. |
 | Venomancer | all | [Nullifying Toxin](https://db.exil.es/spell/805096) |  | 16s | 9% mana | Instant | Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast for 3 sec. |
 | Reaper | Harvest<br>r6 c6 | [Siphon Essence](https://db.exil.es/spell/806125) |  | 20s | — | Instant | Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from bein… |
@@ -81,8 +77,8 @@ note in `tools/sources.py`).
 
 </details>
 
-**20 across 19 classes.**
-None found for: Templar, Witch Doctor.
+**18 across 17 classes.**
+None found for: Starcaller, Sun Cleric, Templar, Witch Doctor.
 
 ## 2. Silences
 

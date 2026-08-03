@@ -31,9 +31,11 @@ def _spell_icons():
     """spell id -> icon texture, from resources/utility-icons.json.
 
     Absent id means db.ascension.gg has no art for it, which the page shows as
-    a neutral placeholder rather than a broken image -- 27 of 107 abilities are
-    in that state and it is NOT strong evidence they are missing from the game
-    (5 of 6 flagged interrupts turned out to be real).
+    a neutral placeholder rather than a broken image. It is NOT proof they are
+    missing from the game, but it is no longer the weak signal it looked like:
+    of six flagged interrupts checked in game, three were real and three were
+    not (Starcaller's Halt and Sun Cleric's Solar Burn were re-checked on
+    2026-08-03 and reversed).
     """
     p = _data("utility-icons.json")
     if not os.path.exists(p):
@@ -394,8 +396,9 @@ def chips(r, cat):
                    '<b>!</b> in-game verification in process</span>')
     elif "noicon" in r[6]:
         out.append('<span class="chip unv" title="no icon on the spell db '
-                   '&mdash; a reason to check, not a verdict: five of six '
-                   'flagged interrupts turned out to be real">unverified</span>')
+                   '&mdash; a reason to check, not a verdict: of six '
+                   'flagged interrupts checked in game, three were real'
+                   '">unverified</span>')
     if r[7]:
         out.append('<span class="chip obs">'
                    f'{"reagent" if cat == "rez" else "boss"}: {esc(r[7])}'

@@ -1,5 +1,5 @@
 {
- "_comment": "Raid-utility abilities with no icon art anywhere we can reach. NOT a bug and NOT evidence the ability is missing from the game -- see resources/icon-missing.json, where five of six flagged interrupts turned out to be real.",
+ "_comment": "Raid-utility abilities with no icon art anywhere we can reach. NOT a bug and NOT proof the ability is missing from the game -- see resources/icon-missing.json, where three of six flagged interrupts turned out to be real and three did not.",
  "_source_status": "db.exil.es has no icon field at all. db.ascension.gg renders inv_misc_questionmark, has no record, or 404s and still answers questionmark from the tooltip endpoint.",
  "_how_to_fill": "put <texture>.jpg in docs/assets/spell-icons/, add \"<id>\": \"<texture>\" to resources/utility-icons.json, then python3 tools/mksite.py --utility-only",
  "_refresh": "rewritten by python3 tools/utility_icons.py",

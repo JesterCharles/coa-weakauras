@@ -2,13 +2,11 @@
  "_comment": "Spell ids with NO icon on db.ascension.gg. A CoA ability with no art MAY be unimplemented, cut, or a leftover database row -- but the sample says treat that as a reason to check, never as a verdict: of six flagged interrupts that were checked in game, five were real.",
  "_method": "tools/fetch_spell_icons.py harvests the `g_spells` map from each db.ascension.gg spell page; that map carries art for every spell a page references, so an id still unresolved after its own page was fetched has none. Checked only the abilities that appear in notes/raid-utility.md.",
  "_refresh": "Re-run the check in tools/utility_tables.py --icons, then re-run the generator. Confirmed-in-game ids should be DELETED from `ids` with a note in `confirmed_present`.",
- "_checked": "2026-08-02; cross-checked against db.ascension.gg 2026-08-03",
+ "_checked": "2026-08-03 -- Starcaller and Sun Cleric interrupts re-checked in game",
  "_scope": "raid-utility abilities checked by hand. NOT the complete no-art set -- resources/icon-wanted.json is, and it is generated from the rows that actually render. This list is the subset somebody judged worth doubting, which is why the page marks 20 rows and not 44.",
  "confirmed_present": {
   "560471": "Hellgaze, Knight of Xoroth -- has no icon on db.ascension.gg but IS in the game",
   "500617": "Throatpunch, Ranger -- has no icon on db.ascension.gg but IS in the game",
-  "805432": "Halt, Starcaller -- has no icon on db.ascension.gg but IS in the game",
-  "500148": "Solar Burn, Sun Cleric -- has no icon on db.ascension.gg but IS in the game",
   "560470": "Distracto Shot, Tinker -- has no icon on db.ascension.gg but IS in the game"
  },
  "ids": {
@@ -37,7 +35,9 @@
  "_confirmed_note": "Seven no-art abilities have now been checked in game and two were absent: Wrist Snap and Build: Noise Box. Five were real (Hellgaze, Throatpunch, Halt, Solar Burn, Distracto Shot). So no art runs about 2-in-7 absent on the tested sample -- a real reason to check, still not a verdict.",
  "confirmed_absent": {
   "800383": "Wrist Snap, Barbarian -- confirmed NOT in the game 2026-08-02",
-  "807723": "Build: Noise Box, Tinker -- confirmed NOT in the game 2026-08-03. It had no art, and db.ascension.gg DOES carry a record for it, so the no-art signal was the one that was right here and the cross-source one was not."
+  "807723": "Build: Noise Box, Tinker -- confirmed NOT in the game 2026-08-03. It had no art, and db.ascension.gg DOES carry a record for it, so the no-art signal was the one that was right here and the cross-source one was not.",
+  "805432": "Halt, Starcaller -- confirmed NOT in the game 2026-08-03. REVERSES an earlier hand-check that recorded it as present; the later look is the one that counts, and the no-art signal was right about this one.",
+  "500148": "Solar Burn, Sun Cleric -- confirmed NOT in the game 2026-08-03. Same reversal as Halt: previously recorded under confirmed_present."
  },
  "_two_signals": "There are TWO independent signals and they are not the same thing. `ids` means NO ART on db.ascension.gg. The stronger one -- that database has no RECORD of the spell at all, the 43-byte `registerSpell(id, 0, {})` response -- now lives in resources/cross-source.json, which asks it of EVERY row on the page rather than only of ids already flagged here. Note that HTTP 404 on a spell page is NOT absence: 23 ids 404 and 11 of them return complete data from the tooltip endpoint.",
  "_absence_is_not_proof": "Two ids that db.ascension.gg has no record of -- 500148 Solar Burn and 560471 Hellgaze -- were confirmed in game by a person on 2026-08-02. So even the stronger signal is a hint. Nothing there justifies removing a row; only `confirmed_absent` does, and that requires somebody logging in.",

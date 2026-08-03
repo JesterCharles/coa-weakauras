@@ -10,8 +10,10 @@ icons are: Pages serves docs/ and a page that hotlinks someone else's CDN
 breaks when they move it.
 
 An id with no entry has no art anywhere, which is the same signal
-resources/icon-missing.json records -- see the note there about how weak that
-signal turned out to be (5 of 6 flagged interrupts were real).
+resources/icon-missing.json records -- see the note there. That signal used to
+look very weak (5 of 6 flagged interrupts were real); two of those five were
+re-checked on 2026-08-03 and are NOT in the game, so it is now 3 of 6. Still a
+reason to check rather than a verdict, but no longer close to harmless.
 """
 import json
 import os
@@ -109,9 +111,10 @@ def main():
     left = sorted(want_names - set(names), key=int)
     gap = {
         "_comment": "Raid-utility abilities with no icon art anywhere we can "
-                    "reach. NOT a bug and NOT evidence the ability is missing "
+                    "reach. NOT a bug and NOT proof the ability is missing "
                     "from the game -- see resources/icon-missing.json, where "
-                    "five of six flagged interrupts turned out to be real.",
+                    "three of six flagged interrupts turned out to be real "
+                    "and three did not.",
         "_source_status": "db.exil.es has no icon field at all. "
                           "db.ascension.gg renders inv_misc_questionmark, has "
                           "no record, or 404s and still answers questionmark "
