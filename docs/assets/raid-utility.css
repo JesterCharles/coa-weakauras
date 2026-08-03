@@ -1372,9 +1372,16 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
      block is the document rather than a 96px parent it would leave after 48px
      of scrolling -- silently. */
   .ovtop{display:contents}
+  /* nowrap, deliberately. flex-wrap makes the browser WRAP before it shrinks,
+     so the search icon jumped to its own line while the pill sat at its
+     content width. Every child here has a floor that adds up to 254px, which
+     fits the 296px this row gets at 320 wide, so shrinking is safe and
+     wrapping is the thing that costs a phone screen. */
   .ovtools{position:sticky;top:0;z-index:50;display:flex;align-items:center;
-    flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:6px 0;min-height:44px;
+    flex-wrap:nowrap;gap:8px;margin:0 0 8px;padding:6px 0;min-height:44px;
     background:var(--void);box-shadow:0 1px 0 var(--edge)}
+  .rhslot{flex:1 1 auto;min-width:0}
+  .rhpill{max-width:100%}
   /* The filter is genuinely useful on a phone and it is not what you land
      for, so it costs an icon until it is asked for. Expanded it takes the
      whole row and the tab strip sits under it. */
@@ -1490,7 +1497,13 @@ body.mypick .ablist:not(.tight) .abwho{display:flex}
      Measured at 320px: mark 14 + title + clear 44 + refresh 44 + three 7px
      gaps + 13px padding. .ovtools wraps so the pill can take its own line
      rather than squeezing the filter off the row. */
-  .rhpill{min-width:198px}
+  /* Floor = what the BUTTONS need, not what a readable title needs. mark 14 +
+     clear 44 + refresh 44 + three 7px gaps + 13px padding = 136. The title is
+     the one thing in here allowed to give up width (it ellipses), so pinning
+     the floor at 198 to keep it legible pushed the search icon onto a second
+     row -- 64px of chrome on the viewport with the least of it, to protect a
+     raid name you can already read in the tab you came from. */
+  .rhpill{min-width:150px}
   .rhcancel,.rhclear,.rhrefresh,.rhhelp,.rhx,#uclear,.padd,.pundo,.rhedit{
     min-width:44px;min-height:44px;display:inline-flex;align-items:center;
     justify-content:center;padding-left:8px;padding-right:8px}
