@@ -906,16 +906,34 @@ li.ab.nospec .chip.spec{color:#e26e6e;box-shadow:inset 0 0 0 1px rgba(226,110,11
    view and again the moment you cleared a raid -- the same collision that hit
    .rhform, now fixed at the source for every control in this row. */
 .rhslot [hidden],.rhpill[hidden]{display:none !important}
+/* THE CHILDREN MUST SHRINK, NOT ESCAPE.
+ *
+ * The tools row squeezes this pill to whatever is left, and a fixed floor on
+ * the title meant the contents could not narrow with it -- so the refresh and
+ * the clear button overflowed past the pill's own right edge and landed on top
+ * of the help button and the filter field. They were unclickable: whatever sat
+ * above them in paint order swallowed the press.
+ *
+ * min-width:0 on the flex items is what actually allows shrinking (flex items
+ * default to min-width:auto, which refuses to go below content). The pill then
+ * gets a floor of its own big enough for the mark and both buttons, so the
+ * title is the only thing that ever gives up space. */
 .rhpill{display:inline-flex;align-items:center;gap:7px;font-size:.78rem;
   color:var(--ink);background:rgba(88,101,242,.12);
   box-shadow:inset 0 0 0 1px rgba(88,101,242,.5);padding:4px 4px 4px 9px;
-  max-width:340px}
+  max-width:340px;min-width:118px;overflow:hidden}
+.rhpill>*{flex:none}
 .rhpill .dmark{color:#8b95f2;flex:none}
 /* Ellipsising to "ZG …" tells the reader nothing about which raid is loaded,
    which is the pill's whole job. A floor of 92px keeps enough of the title to
    recognise it; the row wraps before the name disappears. */
+/* the only element allowed to give up width */
 .rhpill b{font-weight:600;overflow:hidden;text-overflow:ellipsis;
-  white-space:nowrap;min-width:92px}
+  white-space:nowrap;flex:1 1 auto;min-width:0}
+/* the date is the least load-bearing thing here, so it goes before the title
+   is squeezed to nothing */
+.rhpill em:not(.rhage){flex:0 1 auto;min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
 .rhpill em{font-style:normal;color:var(--ink2);font-size:.9em;flex:none}
 .rhpill .rhclear{font:inherit;font-size:1rem;line-height:1;cursor:pointer;
   background:none;border:0;box-shadow:none;color:var(--ink2);padding:0 5px}
