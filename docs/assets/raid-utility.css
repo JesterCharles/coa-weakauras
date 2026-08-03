@@ -277,6 +277,14 @@ table.mx{border-collapse:separate;border-spacing:0;width:100%;
    over the sticky class column, which is z-index 2/3. */
 .mx thead th,.mx thead td{position:sticky;z-index:4}
 .mx thead .mxbands td{top:0}
+/* --bandh is written from the band row's MEASURED height by raid-utility.js.
+   It was read here from the day the second header row became sticky and never
+   written anywhere, so the 29px fallback was doing all the work -- and the row
+   is 31px, so the column heads have always overlapped the band strip by 2px,
+   and by 9px at an Android "Largest" / Dynamic Type XXL text size. It cannot
+   be a static number: the padding is px and the text is rem, so the two scale
+   differently. With JS off the fallback still applies, which is today's
+   behaviour rather than a broken one. */
 .mx thead .mxhead th{top:var(--bandh,29px)}
 .mx thead th.mxc{z-index:6}
 .mx th,.mx td{padding:0}
@@ -693,9 +701,6 @@ body.mypick .ablist:not(.tight) .ab{
   .mxlegend{font-size:.76rem;gap:5px 14px}
   .lowsec>.utilsec{padding:0 13px}
   .lbl.bigrule{margin-top:40px}
-  .rbhead{gap:6px}
-  .cfrow{gap:3px}
-  .cf img{width:32px;height:32px}
 }
 
 
@@ -961,7 +966,7 @@ li.ab.nospec .chip.spec{color:#e26e6e;box-shadow:inset 0 0 0 1px rgba(226,110,11
 body.rhlock{overflow:hidden}
 .rhmodal{position:fixed;inset:0;z-index:80;background:rgba(4,6,9,.78);
   display:flex;align-items:flex-start;justify-content:center;
-  padding:clamp(14px,4vh,48px) 16px;overflow-y:auto}
+  padding:clamp(14px,4dvh,48px) 16px;overflow-y:auto}
 .rhmodal[hidden]{display:none}
 .rhsheet{position:relative;background:#0b0f14;max-width:760px;width:100%;
   box-shadow:0 0 0 1px var(--edge),0 30px 80px -20px #000;

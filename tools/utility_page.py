@@ -291,6 +291,11 @@ def cell_data(rows, specs):
         "extra": len(rows) - 1,
         "talent": all(r[3] for r in rows),
         "unverified": all("noicon" in r[6] for r in rows),
+        # ALL, not any: a cell is the class's whole answer for that column, and
+        # a class whose second interrupt is confirmed still brings an
+        # interrupt. Only when every ability behind the cell is waiting on an
+        # in-game check does the cell itself carry the doubt.
+        "pending": all("norecord" in r[6] for r in rows),
         "names": ", ".join(r[4] for r in rows),
         # every spell id behind this cell, so the hover card can show the
         # whole stack rather than just the shortest cooldown the cell prints
@@ -344,11 +349,18 @@ def chips(r, cat):
     if "int" in r[6]:
         out.append('<span class="chip int" title="tooltip also claims it '
                    'interrupts non-player spellcasting">int</span>')
+    # ONE DATABASE, NOT TWO. db.exil.es has this spell and db.ascension.gg has
+    # no record of it at all -- not merely no art for it, which is the weaker
+    # chip below. Absence from one snapshot is not proof of absence from the
+    # game (five ids in this state have been found in game by hand), so the
+    # chip states what is HAPPENING rather than passing a verdict: somebody is
+    # checking. A row only ever leaves this page on an in-game check.
     if "norecord" in r[6]:
-        out.append('<span class="chip unv2" title="no art on db.ascension.gg '
-                   'AND no record of it there at all &mdash; the stronger of '
-                   'the two doubts, though three spells in this state have '
-                   'been confirmed in game by hand">unverified &times;2</span>')
+        out.append('<span class="chip unv2" title="on db.exil.es only '
+                   '&mdash; db.ascension.gg has no record of this spell. '
+                   'Not proof it is missing: five spells in this state have '
+                   'been confirmed in game by hand.">'
+                   '<b>!</b> in-game verification in process</span>')
     elif "noicon" in r[6]:
         out.append('<span class="chip unv" title="no icon on the spell db '
                    '&mdash; a reason to check, not a verdict: five of six '
@@ -583,7 +595,12 @@ def render():
       '<span><i class="k unv">14s?</i>unverified in game</span>'
       '<span><i class="k x">&nbsp;</i>blank = does not bring it</span></p>')
 
-    A('<div class="mxwrap"><table class="mx">')
+    # id="matrix": ten href="#matrix" links have shipped against no target.
+    # tabindex="0": this is the only scrolling box on the page in one-screen
+    # mode, and Safari does not make overflow containers focusable on its own,
+    # so a keyboard user could not scroll it.
+    A('<div class="mxwrap" id="matrix" tabindex="0" '
+      'role="region" aria-label="Coverage grid"><table class="mx">')
     A('<thead><tr class="mxbands"><td class="mxc"></td>')
     for band, label, cs in BANDS:
         A(f'<td class="bl b-{band}" colspan="{len(cs)}"><span>{esc(label)}'
@@ -630,7 +647,15 @@ def render():
                 # The unverified "?" rides the cooldown rather than the cell.
                 # As a cell-level ::after it dropped below the spec name onto a
                 # line of its own the moment cells grew a second row of text.
-                if d["unverified"]:
+                #
+                # "!" outranks "?" and replaces it: the second database having
+                # no RECORD of the ability is the stronger doubt, and printing
+                # both marks on one cell says two things where there is one.
+                if d["pending"]:
+                    mk += ('<i class="q pend" title="on db.exil.es only — '
+                           'db.ascension.gg has no record of it. In-game '
+                           'verification in process.">!</i>')
+                elif d["unverified"]:
                     mk += ('<i class="q" title="no icon on the spell db '
                            '— may not exist in game">?</i>')
                 mask = d["mask"]
@@ -660,7 +685,8 @@ def render():
                 # data-l is the column name printed inside the cell on a
                 # phone, where the header row is off to the side of a scroll.
                 A(f'<td class="mxv b-{band}{bs}'
-                  f'{" unv" if d["unverified"] else ""}'
+                  f'{" unv" if d["unverified"] or d["pending"] else ""}'
+                  f'{" pend" if d["pending"] else ""}'
                   f'{" part" if not all(mask) else ""}" '
                   f'title="{esc(tip)}" data-l="{esc(short)}" '
                   f'data-ids="{",".join(d["ids"])}" '

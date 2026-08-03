@@ -943,7 +943,13 @@
       : '<span class="ph"></span>';
     var chips = [];
     if (a.m && a.m.indexOf("int") >= 0) chips.push('<i class="c int">interrupts NPC casts</i>');
-    if (a.m && a.m.indexOf("noicon") >= 0) chips.push('<i class="c warn">unverified in game</i>');
+    // Two strengths of doubt, and the hover card shows only the stronger one
+    // when both apply -- "no record on the second database" already implies
+    // "no art on the second database", and stacking them reads as two findings.
+    if (a.m && a.m.indexOf("norecord") >= 0)
+      chips.push('<i class="c pend">! in-game verification in process</i>');
+    else if (a.m && a.m.indexOf("noicon") >= 0)
+      chips.push('<i class="c warn">unverified in game</i>');
     if (a.obs) chips.push('<i class="c ok">' + esc(a.obs) + "</i>");
     var spec = esc(a.spec) + (a.rc ? ' <em>' + esc(a.rc) + "</em>" : "");
     return (
@@ -990,4 +996,25 @@
     bind(td, (td.dataset.ids || "").split(",").filter(Boolean));
   });
   $$(".ab[data-sid]").forEach(function (li) { bind(li, [li.dataset.sid]); });
+}());
+
+/* --bandh -----------------------------------------------------------------
+ * The second sticky header row parks itself at var(--bandh) so it lands
+ * directly under the band strip. Nothing has ever written that variable, so
+ * the 29px fallback in the CSS has been doing the work and the row is 31px --
+ * a 2px overlap that becomes 9px once the reader turns text size up, because
+ * the band cell's padding is px and its text is rem. Measure it instead of
+ * guessing, and re-measure when the text size or the width changes.
+ */
+(function () {
+  var band = document.querySelector(".mx thead .mxbands");
+  if (!band) return;
+  var host = document.querySelector("table.mx");
+  function set() {
+    var h = Math.round(band.getBoundingClientRect().height);
+    if (h) host.style.setProperty("--bandh", h + "px");
+  }
+  set();
+  if (window.ResizeObserver) new ResizeObserver(set).observe(band);
+  else window.addEventListener("resize", set);
 }());

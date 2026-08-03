@@ -43,8 +43,10 @@ WA_GATE_CODE = "emberfall"
 NOSCRIPT_UTIL = """<noscript><style>
   /* No JS: the filter box and the roster picker do nothing, so they are not
      offered. EVERYTHING else on this page is server-rendered and works --
-     the scarcity counts, the whole coverage grid, and all ten ability lists.
-     Nothing here is JS-only that is not also printed statically. */
+     the coverage block, the whole coverage grid, and every ability list.
+     Nothing here is JS-only that is not also printed statically.
+     (It used to say "the scarcity counts". Those were deleted; the coverage
+     block is what replaced them, and it is server-rendered too.) */
   #fbox,#qcount,.tabs,.rhbar{display:none}
   .mxr .open::after,.mxr .pick{display:none}
   /* every panel open, i.e. the long-scroll page it used to be */
