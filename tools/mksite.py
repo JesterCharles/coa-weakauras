@@ -40,6 +40,17 @@ import verified  # noqa: E402
 # None to remove the gate entirely.
 WA_GATE_CODE = "emberfall"
 
+# Where the site's own name in the header points, and it is NOT index.html
+# while the packs page is being kept out of sight. Removing "Classes" from the
+# nav hid the signpost and left the brand as a second door straight to it --
+# every page carried one, including the raid utility, which is the page being
+# shared. Set this back to "index.html" when the packs page is ready and both
+# routes come back together.
+#
+# Still not a gate: index.html builds, deploys and is reachable by anyone who
+# types it or follows an old link. This is about not pointing at it.
+HOME = "raid-utility.html"
+
 NOSCRIPT_UTIL = """<noscript><style>
   /* No JS: the filter box and the roster picker do nothing, so they are not
      offered. EVERYTHING else on this page is server-rendered and works --
@@ -175,7 +186,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
 </head>
 <body{tint}>
 <header class="site{" haspt" if header_title else ""}">
-  <a class="brand" href="{up}index.html">
+  <a class="brand" href="{up}{HOME}">
     <span class="mark">CoA</span>
     <span>WeakAuras</span>
   </a>
