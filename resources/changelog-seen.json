@@ -20,6 +20,11 @@
    "date": "2026/07/31",
    "text": "Cycling Aeons replaced with Rapid Acceleration and now reads: \u201cYour Accelerated Recovery now heals 15% of its total periodic amount instantly and increases the healing power contribution to Accelerated Recovery by 15%.\u201d"
   },
+  "279e1a7fecf44fa6": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Born in Blood now grants 10% movement speed per stack, up from 5%, but the max stack count has been decreased to 10, down from 20. Armor Penetration values per stack remain the same."
+  },
   "2a994acb6a1f15f0": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -35,6 +40,11 @@
    "date": "2026/07/31",
    "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
   },
+  "2cbbae5863808e89": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Born in Blood base duration increased to 4 seconds, up from 3."
+  },
   "2d5598fab552f80e": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -44,6 +54,11 @@
    "class": "chronomancer",
    "date": "2026/08/03",
    "text": "Fortify Timeline can now extend Accelerated Recovery by a maximum of 15 seconds baseline."
+  },
+  "2e60af0fd0679353": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Incredibly Strong no longer reduces the maximum range of Maiming Spear, instead increases its duration. Deadzone removal remains untouched."
   },
   "3150a9fbfa7834ec": {
    "class": "felsworn",
@@ -94,6 +109,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Felbane can no longer target bosses."
+  },
+  "3ff37841d77b3648": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Hail of Hammers now additionally increases the critical damage of Crush by the same amount."
   },
   "423a7a271ccdab26": {
    "class": "pyromancer",
@@ -255,6 +275,16 @@
    "date": "2026/07/31",
    "text": "Nether Strength cooldown reduction reduced from 1 sec to 0.5 sec."
   },
+  "9ad29804e8ce667c": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Whirling Assault\u2019s damage increase against enemies above 80% HP increased from 300% to 500%."
+  },
+  "9fa9fcdf48a07d97": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Crusher added as a switch node with Hail of Hammers, completely removing the cast time of Crush but reducing its damage by 25% and removing its stun."
+  },
   "a2dfed3a4d3d157f": {
    "class": "chronomancer",
    "date": "2026/07/31",
@@ -310,6 +340,11 @@
    "date": "2026/08/03",
    "text": "Swapped Mind Over Matter in the Class Tree with Battle Engravings in the Talent Tree, meaning all Runemasters can now take Battle Engravings."
   },
+  "bd0845db863e69a9": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Crush now pauses your swing timer when cast instead of restarting it."
+  },
   "bdcad2c829c37f2a": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -345,6 +380,16 @@
    "date": "2026/07/31",
    "text": "Chaotic now gives 2 energy per melee ability critical strike, down from 3."
   },
+  "c70a293d7e94d9fc": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Ramhorn Rage now doubles your passive health regeneration."
+  },
+  "c8c3f6773f57d418": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Drunken Brawler stacks now last 5 seconds, up from 3, and grant 2% dodge chance per stack, up from 1%."
+  },
   "caf251a979b6bbdf": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -360,6 +405,11 @@
    "date": "2026/07/31",
    "text": "The damage absorb provided from Hateforged Barrier is reduced by 30%."
   },
+  "e05aab1a13b49177": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Thick Skull can now break Horrify effects as well as Stuns."
+  },
   "e4141aacc61390a8": {
    "class": "runemaster",
    "date": "2026/07/31",
@@ -369,6 +419,21 @@
    "class": "runemaster",
    "date": "2026/08/03",
    "text": "Mind Wrath - has been buffed as a switch node with Battle Engravings. It now affects 2 targets up from 1."
+  },
+  "f43d13cdbe8ddfdb": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Giant Tosser now additionally increases the damage of Headhunter\u2019s Spears from further than 20 yards by 100%, but the additional energy is reduced from 50% down to 15%."
+  },
+  "fc49a94f6daf0004": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Axe Twirling is now toggleable, and has no cooldown and no fixed duration, but it reduces your damage dealt by 15%. Talents affecting Axe Twirling have been adjusted with this new duration and no cooldown in mind."
+  },
+  "fd8100e8f739762f": {
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "text": "Iron Gut now gives you a 30% reduction to the duration of poison effects, down from 40%, but it now additionally gives a 30% chance to resist the application of poisons entirely."
   },
   "ff6a22175c176e3d": {
    "class": "chronomancer",

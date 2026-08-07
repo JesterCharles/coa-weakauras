@@ -1,0 +1,12 @@
+{
+ "Glacial Echoes": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Named only in the Sidekick blob's generated rotation blurbs ('Keep Glacial Echoes applied'), zero rows in the class skillbook, the db.exil.es class digest or db.ascension.gg by name -- the shape of a Mind-of-Ascension essence rather than a Barbarian ability. No id in any source: unbuildable, recorded so the name does not return as a fresh mystery on the next import."
+ },
+ "Deathless Resolve": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Referenced by Undying's talent text ('reduces the cooldown of Deathless Resolve by 30 sec') but carries no id in the class digest and no skillbook row -- an out-of-class (essence) cooldown a Barbarian build can take, not a class spell. No usable id: unbuildable."
+ }
+}

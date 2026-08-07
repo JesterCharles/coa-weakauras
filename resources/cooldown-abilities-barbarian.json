@@ -1,0 +1,364 @@
+{
+ "Ancestral Combat": {
+  "id": 801782,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Ancestral Keg": {
+  "id": 804748,
+  "cd": "1 min cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Ancestral Roar": {
+  "id": 500918,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Ancestral Whirl": {
+  "id": 804756,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Barbaric Strike": {
+  "id": 801787,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Barbed Spear": {
+  "id": 560881,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "headhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Battle Vigor": {
+  "id": 801768,
+  "cd": "3 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Berserker Rush": {
+  "id": 560518,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Crush": {
+  "id": 500915,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Deathmatch": {
+  "id": 800950,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "headhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Defiance": {
+  "id": 806228,
+  "cd": "3 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Frozen Tankard": {
+  "id": 805815,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Grisly Meal": {
+  "id": 804765,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "headhunting"
+  ],
+  "gcd": false
+ },
+ "Headbutt": {
+  "id": 520523,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "brutality",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Headhunter's Spear": {
+  "id": 804137,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hodir's Wrath": {
+  "id": 800152,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Impaling Rush": {
+  "id": 500009,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "headhunting"
+  ],
+  "gcd": false
+ },
+ "Impaling Spear": {
+  "id": 500984,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Impaling Spears": {
+  "id": 501052,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Jawbreaker": {
+  "id": 802792,
+  "cd": "14 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Keg Smash": {
+  "id": 805808,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Maiming Spear": {
+  "id": 804139,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mak'gora": {
+  "id": 801753,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Maximum Carnage": {
+  "id": 560933,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": false
+ },
+ "Mock": {
+  "id": 806221,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Onslaught": {
+  "id": 801758,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Outrage": {
+  "id": 801759,
+  "cd": "3 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Raging": {
+  "id": 707895,
+  "cd": "0.05 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting"
+  ],
+  "gcd": false
+ },
+ "Ramhorn Rage": {
+  "id": 805804,
+  "cd": "2 min cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Savage Revelry": {
+  "id": 805833,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "headhunting"
+  ],
+  "gcd": false
+ },
+ "Skull Smash": {
+  "id": 560532,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Smash": {
+  "id": 801755,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Splash Zone": {
+  "id": 705156,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Storm of Steel": {
+  "id": 355562,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Tavern Brawl!": {
+  "id": 804456,
+  "cd": "5 min cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Thick Skull": {
+  "id": 801549,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Unbridled Intelligence": {
+  "id": 804713,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": false
+ },
+ "Unbridled Rage": {
+  "id": 801761,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Val'kyr Resurrection": {
+  "id": 801784,
+  "cd": "30 min cooldown",
+  "specs": [
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Warband": {
+  "id": 560883,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "brutality",
+   "headhunting",
+   "ancestry"
+  ],
+  "gcd": false
+ },
+ "Wrist Snap": {
+  "id": 800383,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "brutality"
+  ],
+  "gcd": false
+ }
+}

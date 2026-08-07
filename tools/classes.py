@@ -214,6 +214,12 @@ CORE_LEAVES = {
     # that hold the class gate alone: buff icons are self-gating and a buff id
     # is not something IsSpellKnown recognises.
     "felsworn": 6,
+    # No class-wide reminder kit (no imbues/engravings), so Core itself is
+    # empty; the class-wide leaves are the merged buff-row entries present on
+    # every spec (Born in Blood, the three enrages, the defensives), which
+    # take the class gate alone because an active-only aura display is
+    # self-gating and a buff id is not something IsSpellKnown recognises.
+    "barbarian": 8,
 }
 
 

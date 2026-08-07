@@ -1,0 +1,2720 @@
+{
+ "A Grizzly Meal": {
+  "ids": [
+   804754
+  ],
+  "icon": null
+ },
+ "Add Carnage": {
+  "ids": [
+   500917
+  ],
+  "icon": null
+ },
+ "Add Carnage - (x2)": {
+  "ids": [
+   681020
+  ],
+  "icon": null
+ },
+ "Ale For Everybody!": {
+  "ids": [
+   681303
+  ],
+  "icon": null
+ },
+ "Ale of The God-King": {
+  "ids": [
+   805780
+  ],
+  "icon": null
+ },
+ "Ale of the God-King Cost": {
+  "ids": [
+   705220
+  ],
+  "icon": null
+ },
+ "Ancestor's Call": {
+  "ids": [
+   804729
+  ],
+  "icon": null
+ },
+ "Ancestor's Fury": {
+  "ids": [
+   705168
+  ],
+  "icon": null
+ },
+ "Ancestor's Might": {
+  "ids": [
+   560458
+  ],
+  "icon": null
+ },
+ "Ancestor's Recall": {
+  "ids": [
+   807115
+  ],
+  "icon": null
+ },
+ "Ancestor's Wrath": {
+  "ids": [
+   801765
+  ],
+  "icon": null
+ },
+ "Ancestral Combat": {
+  "ids": [
+   801782
+  ],
+  "icon": null
+ },
+ "Ancestral Fury": {
+  "ids": [
+   804731
+  ],
+  "icon": null
+ },
+ "Ancestral Keg": {
+  "ids": [
+   804748
+  ],
+  "icon": null
+ },
+ "Ancestral Might": {
+  "ids": [
+   704590
+  ],
+  "icon": null
+ },
+ "Ancestral Roar": {
+  "ids": [
+   500918
+  ],
+  "icon": null
+ },
+ "Ancestral Spirit": {
+  "ids": [
+   705153
+  ],
+  "icon": null
+ },
+ "Ancestral Strike": {
+  "ids": [
+   801576
+  ],
+  "icon": null
+ },
+ "Ancestral Trauma": {
+  "ids": [
+   560446
+  ],
+  "icon": null
+ },
+ "Ancestral Whirl": {
+  "ids": [
+   804756
+  ],
+  "icon": null
+ },
+ "Ancestral Wisdom": {
+  "ids": [
+   803511
+  ],
+  "icon": null
+ },
+ "Anger Issues": {
+  "ids": [
+   560450
+  ],
+  "icon": null
+ },
+ "Anger Management": {
+  "ids": [
+   705195
+  ],
+  "icon": null
+ },
+ "Athleticism": {
+  "ids": [
+   560456
+  ],
+  "icon": null
+ },
+ "Auto Shot": {
+  "ids": [
+   578268
+  ],
+  "icon": null
+ },
+ "Axe Collector": {
+  "ids": [
+   560566
+  ],
+  "icon": null
+ },
+ "Axe Dance": {
+  "ids": [
+   705224
+  ],
+  "icon": null
+ },
+ "Axe Mastery": {
+  "ids": [
+   706814
+  ],
+  "icon": null
+ },
+ "Axe Play": {
+  "ids": [
+   706828
+  ],
+  "icon": null
+ },
+ "Axe Throw CD Fixer": {
+  "ids": [
+   561174
+  ],
+  "icon": null
+ },
+ "Axe Throw Passive (Headhunting Spec)": {
+  "ids": [
+   560353
+  ],
+  "icon": null
+ },
+ "Axe Throwing": {
+  "ids": [
+   560560
+  ],
+  "icon": null
+ },
+ "Axe Twirling": {
+  "ids": [
+   800401
+  ],
+  "icon": null
+ },
+ "Axe Volley": {
+  "ids": [
+   560873
+  ],
+  "icon": null
+ },
+ "Axes, Axes Everywhere!": {
+  "ids": [
+   705190
+  ],
+  "icon": null
+ },
+ "BRAWL!": {
+  "ids": [
+   804458
+  ],
+  "icon": null
+ },
+ "Barbarian Carnage Proc_Trigger3 DEPRECATED": {
+  "ids": [
+   750687
+  ],
+  "icon": null
+ },
+ "Barbarian Carnage Proc_Trigger4 DEPRECATED": {
+  "ids": [
+   706436
+  ],
+  "icon": null
+ },
+ "Barbarian Energy Increase": {
+  "ids": [
+   804635
+  ],
+  "icon": null
+ },
+ "Barbarian Instant Pet Scaling / Heal Aura Applier": {
+  "ids": [
+   524772
+  ],
+  "icon": null
+ },
+ "Barbarian Pet Periodic Scaling Trigger": {
+  "ids": [
+   524774
+  ],
+  "icon": null
+ },
+ "Barbarian Pet Scaling Aura": {
+  "ids": [
+   524773
+  ],
+  "icon": null
+ },
+ "Barbarian Pet Scaling Aura 1": {
+  "ids": [
+   524076
+  ],
+  "icon": null
+ },
+ "Barbarian Pet Scaling Aura 2": {
+  "ids": [
+   524077
+  ],
+  "icon": null
+ },
+ "Barbarian Pet Scaling Aura 3": {
+  "ids": [
+   524078
+  ],
+  "icon": null
+ },
+ "Barbarian Pet Scaling Aura 4": {
+  "ids": [
+   524079
+  ],
+  "icon": null
+ },
+ "Barbaric Rage": {
+  "ids": [
+   300967
+  ],
+  "icon": null
+ },
+ "Barbaric Strike": {
+  "ids": [
+   801787
+  ],
+  "icon": null
+ },
+ "Barbaric Tendencies": {
+  "ids": [
+   300498
+  ],
+  "icon": null
+ },
+ "Barbaric Vigor": {
+  "ids": [
+   805922
+  ],
+  "icon": null
+ },
+ "Barbaric Whirl": {
+  "ids": [
+   500002
+  ],
+  "icon": null
+ },
+ "Barbed Spear": {
+  "ids": [
+   560881
+  ],
+  "icon": null
+ },
+ "Battering Ram": {
+  "ids": [
+   561326
+  ],
+  "icon": null
+ },
+ "Battle Hardened": {
+  "ids": [
+   560453
+  ],
+  "icon": null
+ },
+ "Battle Vigor": {
+  "ids": [
+   801768
+  ],
+  "icon": null
+ },
+ "Beheader": {
+  "ids": [
+   705222
+  ],
+  "icon": null
+ },
+ "Berserk": {
+  "ids": [
+   800426
+  ],
+  "icon": null
+ },
+ "Berserker": {
+  "ids": [
+   561397
+  ],
+  "icon": null
+ },
+ "Berserker Aura": {
+  "ids": [
+   560543
+  ],
+  "icon": null
+ },
+ "Berserker Axe": {
+  "ids": [
+   804138
+  ],
+  "icon": null
+ },
+ "Berserker Rush": {
+  "ids": [
+   560518
+  ],
+  "icon": null
+ },
+ "Berserker Throw": {
+  "ids": [
+   520518
+  ],
+  "icon": null
+ },
+ "Berserking": {
+  "ids": [
+   804144
+  ],
+  "icon": null
+ },
+ "Blackhand's Might": {
+  "ids": [
+   705203
+  ],
+  "icon": null
+ },
+ "Bleeding Out": {
+  "ids": [
+   783055
+  ],
+  "icon": null
+ },
+ "Blind Stupor": {
+  "ids": [
+   583020
+  ],
+  "icon": null
+ },
+ "Blood Brothers": {
+  "ids": [
+   704592
+  ],
+  "icon": null
+ },
+ "Blood Loss": {
+  "ids": [
+   560552
+  ],
+  "icon": null
+ },
+ "Blood Pact": {
+  "ids": [
+   560522
+  ],
+  "icon": null
+ },
+ "Bloodcrazed": {
+  "ids": [
+   705231
+  ],
+  "icon": null
+ },
+ "Bloodthirst": {
+  "ids": [
+   804145
+  ],
+  "icon": null
+ },
+ "Bloodthirsty": {
+  "ids": [
+   300497
+  ],
+  "icon": null
+ },
+ "Bloodthirsty Assault": {
+  "ids": [
+   801572
+  ],
+  "icon": null
+ },
+ "Bloodthirsty Rage": {
+  "ids": [
+   680851
+  ],
+  "icon": null
+ },
+ "Bloody Fighter": {
+  "ids": [
+   705167
+  ],
+  "icon": null
+ },
+ "Bludgeoner": {
+  "ids": [
+   705187
+  ],
+  "icon": null
+ },
+ "Body Builder": {
+  "ids": [
+   706481
+  ],
+  "icon": null
+ },
+ "Bond Breaker": {
+  "ids": [
+   705194
+  ],
+  "icon": null
+ },
+ "Bonzo Axe": {
+  "ids": [
+   572114
+  ],
+  "icon": null
+ },
+ "Born in Blood": {
+  "ids": [
+   560521
+  ],
+  "icon": null
+ },
+ "Bottomless Tankard": {
+  "ids": [
+   705160
+  ],
+  "icon": null
+ },
+ "Boulderfist": {
+  "ids": [
+   705184
+  ],
+  "icon": null
+ },
+ "Break": {
+  "ids": [
+   560934
+  ],
+  "icon": null
+ },
+ "Breaking Morale": {
+  "ids": [
+   681473
+  ],
+  "icon": null
+ },
+ "Breath of The North": {
+  "ids": [
+   800838
+  ],
+  "icon": null
+ },
+ "Bring Down The Hammer!": {
+  "ids": [
+   681503
+  ],
+  "icon": null
+ },
+ "Bring In The RIPPER!": {
+  "ids": [
+   560913
+  ],
+  "icon": null
+ },
+ "Broken Barrel": {
+  "ids": [
+   350392
+  ],
+  "icon": null
+ },
+ "Broken Bones": {
+  "ids": [
+   705189
+  ],
+  "icon": null
+ },
+ "Brutal Carnage": {
+  "ids": [
+   300494
+  ],
+  "icon": null
+ },
+ "Brutal Form": {
+  "ids": [
+   572104
+  ],
+  "icon": null
+ },
+ "Brutal Shot": {
+  "ids": [
+   255887
+  ],
+  "icon": null
+ },
+ "Brutal Shout": {
+  "ids": [
+   300857
+  ],
+  "icon": null
+ },
+ "Brutal Spirit": {
+  "ids": [
+   706653
+  ],
+  "icon": null
+ },
+ "Brutal Strikes": {
+  "ids": [
+   705233
+  ],
+  "icon": null
+ },
+ "Brutal Swing": {
+  "ids": [
+   500913
+  ],
+  "icon": null
+ },
+ "Brutal Swing Carnage Stack Increaser": {
+  "ids": [
+   750688
+  ],
+  "icon": null
+ },
+ "Brutal Swing Carnage Stack Increaser Delayer": {
+  "ids": [
+   750689
+  ],
+  "icon": null
+ },
+ "Brutal Swing Carnage Stack Increaser Proc": {
+  "ids": [
+   750690
+  ],
+  "icon": null
+ },
+ "Brutality - Level 15 Passive": {
+  "ids": [
+   570237
+  ],
+  "icon": null
+ },
+ "Brutality - Level 20 Passive": {
+  "ids": [
+   560463
+  ],
+  "icon": null
+ },
+ "Brutality Blade": {
+  "ids": [
+   300493
+  ],
+  "icon": null
+ },
+ "Brute Strength": {
+  "ids": [
+   560461
+  ],
+  "icon": null
+ },
+ "Carnage": {
+  "ids": [
+   802864
+  ],
+  "icon": null
+ },
+ "Carnage Gutspiller": {
+  "ids": [
+   520576
+  ],
+  "icon": null
+ },
+ "Carnage Gutspiller Duration Extender": {
+  "ids": [
+   500411
+  ],
+  "icon": null
+ },
+ "Carnage Mod Aura": {
+  "ids": [
+   504367
+  ],
+  "icon": null
+ },
+ "Carnage Ripper": {
+  "ids": [
+   561272
+  ],
+  "icon": null
+ },
+ "Carnage SLS2": {
+  "ids": [
+   681021
+  ],
+  "icon": null
+ },
+ "Cascading Flames": {
+  "ids": [
+   520697
+  ],
+  "icon": null
+ },
+ "Catch A Drop": {
+  "ids": [
+   805911
+  ],
+  "icon": null
+ },
+ "Cheers!": {
+  "ids": [
+   801652
+  ],
+  "icon": null
+ },
+ "Clanlord's Totem": {
+  "ids": [
+   560529
+  ],
+  "icon": null
+ },
+ "Cleaving Through": {
+  "ids": [
+   500449
+  ],
+  "icon": null
+ },
+ "CoA Aura - Barbarian - Ancestry": {
+  "ids": [
+   887023
+  ],
+  "icon": null
+ },
+ "CoA Aura - Barbarian - Brutality": {
+  "ids": [
+   887021
+  ],
+  "icon": null
+ },
+ "CoA Aura - Barbarian - Headhunting": {
+  "ids": [
+   887022
+  ],
+  "icon": null
+ },
+ "CoA Aura - Barbarian Class": {
+  "ids": [
+   887000
+  ],
+  "icon": null
+ },
+ "CoA Placeholder - Dooby": {
+  "ids": [
+   807496
+  ],
+  "icon": null
+ },
+ "CoA Placeholder- Arkantos": {
+  "ids": [
+   807514
+  ],
+  "icon": null
+ },
+ "Cold Brew": {
+  "ids": [
+   705211
+  ],
+  "icon": null
+ },
+ "Collecting Heads": {
+  "ids": [
+   705197
+  ],
+  "icon": null
+ },
+ "Combat Crafter": {
+  "ids": [
+   807499
+  ],
+  "icon": null
+ },
+ "Conqueror": {
+  "ids": [
+   705193
+  ],
+  "icon": null
+ },
+ "Crippling Shout": {
+  "ids": [
+   560911
+  ],
+  "icon": null
+ },
+ "Cruel Fighter": {
+  "ids": [
+   707576
+  ],
+  "icon": null
+ },
+ "Crush": {
+  "ids": [
+   500915
+  ],
+  "icon": null
+ },
+ "Crusher": {
+  "ids": [
+   803817
+  ],
+  "icon": null
+ },
+ "Crushing Wrecker": {
+  "ids": [
+   800952
+  ],
+  "icon": null
+ },
+ "Crystal Enhancements": {
+  "ids": [
+   707541
+  ],
+  "icon": null
+ },
+ "Deadly Duo": {
+  "ids": [
+   804780
+  ],
+  "icon": null
+ },
+ "Deathmatch": {
+  "ids": [
+   800950
+  ],
+  "icon": null
+ },
+ "Decapitate": {
+  "ids": [
+   804414
+  ],
+  "icon": null
+ },
+ "Decapitate Execute": {
+  "ids": [
+   302889
+  ],
+  "icon": null
+ },
+ "Decapitate Execute Passive": {
+  "ids": [
+   301210
+  ],
+  "icon": null
+ },
+ "Decapitate Killing Blow Energize": {
+  "ids": [
+   801186
+  ],
+  "icon": null
+ },
+ "Decrement Surging Fury (if not enraged)": {
+  "ids": [
+   706799
+  ],
+  "icon": null
+ },
+ "Deep Cuts": {
+  "ids": [
+   560400
+  ],
+  "icon": null
+ },
+ "Deep Fury": {
+  "ids": [
+   705240
+  ],
+  "icon": null
+ },
+ "Defiance": {
+  "ids": [
+   806228
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   503871
+  ],
+  "icon": null
+ },
+ "Devastating Blow": {
+  "ids": [
+   803086
+  ],
+  "icon": null
+ },
+ "Devastating Blows": {
+  "ids": [
+   560363
+  ],
+  "icon": null
+ },
+ "Disembowel": {
+  "ids": [
+   520610
+  ],
+  "icon": null
+ },
+ "Double Barrel": {
+  "ids": [
+   801756
+  ],
+  "icon": null
+ },
+ "Drinking Frenzy": {
+  "ids": [
+   706821
+  ],
+  "icon": null
+ },
+ "Drop Flags": {
+  "ids": [
+   804298
+  ],
+  "icon": null
+ },
+ "Drunken Brawler": {
+  "ids": [
+   560364
+  ],
+  "icon": null
+ },
+ "Drunken Dive": {
+  "ids": [
+   801641
+  ],
+  "icon": null
+ },
+ "Drunken Frenzy": {
+  "ids": [
+   572799
+  ],
+  "icon": null
+ },
+ "Duration Set - Disembowel": {
+  "ids": [
+   520611
+  ],
+  "icon": null
+ },
+ "Efficient Killer": {
+  "ids": [
+   803085
+  ],
+  "icon": null
+ },
+ "Empty Kegs": {
+  "ids": [
+   706346
+  ],
+  "icon": null
+ },
+ "Empty Tankard": {
+  "ids": [
+   806055
+  ],
+  "icon": null
+ },
+ "Endless Brutality": {
+  "ids": [
+   705200
+  ],
+  "icon": null
+ },
+ "Endless Fury": {
+  "ids": [
+   500921
+  ],
+  "icon": null
+ },
+ "Endless Rage": {
+  "ids": [
+   680335
+  ],
+  "icon": null
+ },
+ "Enduring Shout": {
+  "ids": [
+   680302
+  ],
+  "icon": null
+ },
+ "Energize +10 Energy": {
+  "ids": [
+   524682
+  ],
+  "icon": null
+ },
+ "Engravement Placeholder": {
+  "ids": [
+   807508
+  ],
+  "icon": null
+ },
+ "Enraged": {
+  "ids": [
+   804343
+  ],
+  "icon": null
+ },
+ "Enraged Momentum": {
+  "ids": [
+   807943
+  ],
+  "icon": null
+ },
+ "Excessive Power": {
+  "ids": [
+   92081
+  ],
+  "icon": null
+ },
+ "Exhaustion": {
+  "ids": [
+   572126
+  ],
+  "icon": null
+ },
+ "Expedited Carnage": {
+  "ids": [
+   560882
+  ],
+  "icon": null
+ },
+ "Fast and Furious": {
+  "ids": [
+   705228
+  ],
+  "icon": null
+ },
+ "Fatigue": {
+  "ids": [
+   801779
+  ],
+  "icon": null
+ },
+ "Fel Doom Pet Heal": {
+  "ids": [
+   520776
+  ],
+  "icon": null
+ },
+ "Fel Doom Pet Heal Trigger": {
+  "ids": [
+   520920
+  ],
+  "icon": null
+ },
+ "Fervor": {
+  "ids": [
+   560935
+  ],
+  "icon": null
+ },
+ "Fill Level": {
+  "ids": [
+   92083
+  ],
+  "icon": null
+ },
+ "Flurry": {
+  "ids": [
+   807464
+  ],
+  "icon": null
+ },
+ "Foebreaker": {
+  "ids": [
+   704254
+  ],
+  "icon": null
+ },
+ "Frost Giant's Fury": {
+  "ids": [
+   570106
+  ],
+  "icon": null
+ },
+ "Frost Lord": {
+  "ids": [
+   560937
+  ],
+  "icon": null
+ },
+ "Frostbite": {
+  "ids": [
+   300870
+  ],
+  "icon": null
+ },
+ "Frothing": {
+  "ids": [
+   706326
+  ],
+  "icon": null
+ },
+ "Frothing Savage": {
+  "ids": [
+   705234
+  ],
+  "icon": null
+ },
+ "Frozen Blades": {
+  "ids": [
+   560821
+  ],
+  "icon": null
+ },
+ "Frozen Tankard": {
+  "ids": [
+   805815
+  ],
+  "icon": null
+ },
+ "Frozen Warlord": {
+  "ids": [
+   560939
+  ],
+  "icon": null
+ },
+ "Fueled by Rage": {
+  "ids": [
+   582934
+  ],
+  "icon": null
+ },
+ "Full Tankard": {
+  "ids": [
+   805814
+  ],
+  "icon": null
+ },
+ "Furious Berserker": {
+  "ids": [
+   707389
+  ],
+  "icon": null
+ },
+ "Fury Wrecker": {
+  "ids": [
+   800948
+  ],
+  "icon": null
+ },
+ "Fury of the North": {
+  "ids": [
+   560938
+  ],
+  "icon": null
+ },
+ "Giant Tosser": {
+  "ids": [
+   807863
+  ],
+  "icon": null
+ },
+ "God-King's Might": {
+  "ids": [
+   573065
+  ],
+  "icon": null
+ },
+ "Grab": {
+  "ids": [
+   800477
+  ],
+  "icon": null
+ },
+ "Grisly Meal": {
+  "ids": [
+   804765
+  ],
+  "icon": null
+ },
+ "Grit": {
+  "ids": [
+   572026
+  ],
+  "icon": null
+ },
+ "Gronnfury Duration Modifier": {
+  "ids": [
+   704239
+  ],
+  "icon": null
+ },
+ "Gruesome": {
+  "ids": [
+   705227
+  ],
+  "icon": null
+ },
+ "Gurubashi Technique": {
+  "ids": [
+   705198
+  ],
+  "icon": null
+ },
+ "Guts Spilled": {
+  "ids": [
+   520577
+  ],
+  "icon": null
+ },
+ "Guts Splatter": {
+  "ids": [
+   560586
+  ],
+  "icon": null
+ },
+ "Gutspiller": {
+  "ids": [
+   805832
+  ],
+  "icon": null
+ },
+ "Hail of Blades": {
+  "ids": [
+   680852
+  ],
+  "icon": null
+ },
+ "Hail of Hammers": {
+  "ids": [
+   681250
+  ],
+  "icon": null
+ },
+ "Hardy Constitution": {
+  "ids": [
+   520583
+  ],
+  "icon": null
+ },
+ "Hate": {
+  "ids": [
+   680914
+  ],
+  "icon": null
+ },
+ "Hate Hidden Charge Refresh": {
+  "ids": [
+   707123
+  ],
+  "icon": null
+ },
+ "Headbutt": {
+  "ids": [
+   520523
+  ],
+  "icon": null
+ },
+ "Headhunter": {
+  "ids": [
+   92082
+  ],
+  "icon": null
+ },
+ "Headhunter's Spear": {
+  "ids": [
+   804137
+  ],
+  "icon": null
+ },
+ "Headhunter's Spear Hidden Passive": {
+  "ids": [
+   706817
+  ],
+  "icon": null
+ },
+ "Headhunter's Spear Reset": {
+  "ids": [
+   503587
+  ],
+  "icon": null
+ },
+ "Headhunter's Spear regen proc": {
+  "ids": [
+   560579
+  ],
+  "icon": null
+ },
+ "Headhunter's Thirst": {
+  "ids": [
+   800327
+  ],
+  "icon": null
+ },
+ "Headhunting": {
+  "ids": [
+   500060
+  ],
+  "icon": null
+ },
+ "Headhunting - Level 15 Passive": {
+  "ids": [
+   570234
+  ],
+  "icon": null
+ },
+ "Headhunting - Level 30 Passive": {
+  "ids": [
+   574322
+  ],
+  "icon": null
+ },
+ "Headlopped": {
+  "ids": [
+   783054
+  ],
+  "icon": null
+ },
+ "Headlopper": {
+  "ids": [
+   300499
+  ],
+  "icon": null
+ },
+ "Herald of Galakrond": {
+  "ids": [
+   705157
+  ],
+  "icon": null
+ },
+ "Hit'em Up": {
+  "ids": [
+   578324
+  ],
+  "icon": null
+ },
+ "Hodir's Revenge": {
+  "ids": [
+   560125
+  ],
+  "icon": null
+ },
+ "Hodir's Wrath": {
+  "ids": [
+   800152
+  ],
+  "icon": null
+ },
+ "Honor the Ancestors": {
+  "ids": [
+   500534
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Draenei)": {
+  "ids": [
+   706293
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Dwarf)": {
+  "ids": [
+   706294
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Night Elf)": {
+  "ids": [
+   707655
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Orc)": {
+  "ids": [
+   706291
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Tauren)": {
+  "ids": [
+   706290
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Troll)": {
+  "ids": [
+   706292
+  ],
+  "icon": null
+ },
+ "Honored Ancestor Visual (Undead)": {
+  "ids": [
+   707912
+  ],
+  "icon": null
+ },
+ "Horde Breaker": {
+  "ids": [
+   804745
+  ],
+  "icon": null
+ },
+ "Hullbreaker": {
+  "ids": [
+   804415
+  ],
+  "icon": null
+ },
+ "Hunting Buddies": {
+  "ids": [
+   712430
+  ],
+  "icon": null
+ },
+ "Hunting for Sport": {
+  "ids": [
+   706558
+  ],
+  "icon": null
+ },
+ "I'd Love To!": {
+  "ids": [
+   560887
+  ],
+  "icon": null
+ },
+ "Ice Cold Bubbles": {
+  "ids": [
+   705161
+  ],
+  "icon": null
+ },
+ "Icebound Ancestry": {
+  "ids": [
+   289275
+  ],
+  "icon": null
+ },
+ "Icy Wind": {
+  "ids": [
+   705539
+  ],
+  "icon": null
+ },
+ "Impaled": {
+  "ids": [
+   500006
+  ],
+  "icon": null
+ },
+ "Impaled!": {
+  "ids": [
+   560562
+  ],
+  "icon": null
+ },
+ "Impaling Rush": {
+  "ids": [
+   500009
+  ],
+  "icon": null
+ },
+ "Impaling Spear": {
+  "ids": [
+   500984
+  ],
+  "icon": null
+ },
+ "Impaling Spears": {
+  "ids": [
+   501052
+  ],
+  "icon": null
+ },
+ "Improved Ancestral Combat": {
+  "ids": [
+   705209
+  ],
+  "icon": null
+ },
+ "Improved Berserker": {
+  "ids": [
+   705247
+  ],
+  "icon": null
+ },
+ "Improved Breath of The North": {
+  "ids": [
+   705163
+  ],
+  "icon": null
+ },
+ "Improved Headhunter's Spear": {
+  "ids": [
+   705246
+  ],
+  "icon": null
+ },
+ "Improved Reckless Manuever": {
+  "ids": [
+   300500
+  ],
+  "icon": null
+ },
+ "Improved Surge of Vigor": {
+  "ids": [
+   705237
+  ],
+  "icon": null
+ },
+ "Improved Thunderous Leap": {
+  "ids": [
+   705215
+  ],
+  "icon": null
+ },
+ "Improvised Weaponry": {
+  "ids": [
+   802762
+  ],
+  "icon": null
+ },
+ "Incredibly Strong": {
+  "ids": [
+   804749
+  ],
+  "icon": null
+ },
+ "Incursion": {
+  "ids": [
+   704593
+  ],
+  "icon": null
+ },
+ "Intensity": {
+  "ids": [
+   705226
+  ],
+  "icon": null
+ },
+ "Javelin Toss": {
+  "ids": [
+   504217
+  ],
+  "icon": null
+ },
+ "Jawbreaker": {
+  "ids": [
+   802792
+  ],
+  "icon": null
+ },
+ "Juggernaut": {
+  "ids": [
+   704591
+  ],
+  "icon": null
+ },
+ "Kargath's Cruelty": {
+  "ids": [
+   705205
+  ],
+  "icon": null
+ },
+ "Keep Savagery Active": {
+  "ids": [
+   806376
+  ],
+  "icon": null
+ },
+ "Keg Smash": {
+  "ids": [
+   805808
+  ],
+  "icon": null
+ },
+ "Killing Blow Check": {
+  "ids": [
+   561324
+  ],
+  "icon": null
+ },
+ "Killing Spree": {
+  "ids": [
+   850021
+  ],
+  "icon": null
+ },
+ "Legacy of the Wildhammer": {
+  "ids": [
+   560569
+  ],
+  "icon": null
+ },
+ "Leroy's Legacy": {
+  "ids": [
+   706350
+  ],
+  "icon": null
+ },
+ "Let The Killing Begin": {
+  "ids": [
+   705177
+  ],
+  "icon": null
+ },
+ "Light Axes": {
+  "ids": [
+   560878
+  ],
+  "icon": null
+ },
+ "Liquid Courage": {
+  "ids": [
+   681060
+  ],
+  "icon": null
+ },
+ "Lodged Spear": {
+  "ids": [
+   802591
+  ],
+  "icon": null
+ },
+ "Lost Momentum": {
+  "ids": [
+   805127
+  ],
+  "icon": null
+ },
+ "Maimed": {
+  "ids": [
+   560565
+  ],
+  "icon": null
+ },
+ "Maiming Spear": {
+  "ids": [
+   804139
+  ],
+  "icon": null
+ },
+ "Mak'Gora": {
+  "ids": [
+   561360
+  ],
+  "icon": null
+ },
+ "Mak'gora": {
+  "ids": [
+   801753
+  ],
+  "icon": null
+ },
+ "Malice": {
+  "ids": [
+   520538
+  ],
+  "icon": null
+ },
+ "Manhunter": {
+  "ids": [
+   300879
+  ],
+  "icon": null
+ },
+ "Manic": {
+  "ids": [
+   503629
+  ],
+  "icon": null
+ },
+ "Massacre": {
+  "ids": [
+   560936
+  ],
+  "icon": null
+ },
+ "Maximum Carnage": {
+  "ids": [
+   560933
+  ],
+  "icon": null
+ },
+ "Mechanics - level 20 passive CDR": {
+  "ids": [
+   807530
+  ],
+  "icon": null
+ },
+ "Mechanics - level 20 passive Forcecast": {
+  "ids": [
+   807747
+  ],
+  "icon": null
+ },
+ "Might of Utgarde": {
+  "ids": [
+   804768
+  ],
+  "icon": null
+ },
+ "Mighty Demeanor": {
+  "ids": [
+   560905
+  ],
+  "icon": null
+ },
+ "Mock": {
+  "ids": [
+   806221
+  ],
+  "icon": null
+ },
+ "Mock DEPRECATED": {
+  "ids": [
+   560466
+  ],
+  "icon": null
+ },
+ "Mortal Throw": {
+  "ids": [
+   560877
+  ],
+  "icon": null
+ },
+ "Mounting Fury": {
+  "ids": [
+   805927
+  ],
+  "icon": null
+ },
+ "Night Stalker": {
+  "ids": [
+   807774
+  ],
+  "icon": null
+ },
+ "No Regrets": {
+  "ids": [
+   556232
+  ],
+  "icon": null
+ },
+ "No Survivors": {
+  "ids": [
+   805864
+  ],
+  "icon": null
+ },
+ "Northern Champion": {
+  "ids": [
+   705165
+  ],
+  "icon": null
+ },
+ "Northman": {
+  "ids": [
+   705219
+  ],
+  "icon": null
+ },
+ "Ogre's Might": {
+  "ids": [
+   302528
+  ],
+  "icon": null
+ },
+ "Ogre's Strength": {
+  "ids": [
+   561160
+  ],
+  "icon": null
+ },
+ "One With The Ancestors": {
+  "ids": [
+   560452
+  ],
+  "icon": null
+ },
+ "Onslaught": {
+  "ids": [
+   801758
+  ],
+  "icon": null
+ },
+ "Outrage": {
+  "ids": [
+   801759
+  ],
+  "icon": null
+ },
+ "Outrage - Increase Duration": {
+  "ids": [
+   560016
+  ],
+  "icon": null
+ },
+ "Overkill": {
+  "ids": [
+   560444
+  ],
+  "icon": null
+ },
+ "Painbringer": {
+  "ids": [
+   706286
+  ],
+  "icon": null
+ },
+ "Payback": {
+  "ids": [
+   520516
+  ],
+  "icon": null
+ },
+ "Perfect Aim": {
+  "ids": [
+   705236
+  ],
+  "icon": null
+ },
+ "Pet Heal on Scaling Apply": {
+  "ids": [
+   520506
+  ],
+  "icon": null
+ },
+ "Pinned Down!": {
+  "ids": [
+   560874
+  ],
+  "icon": null
+ },
+ "Poisons Skill": {
+  "ids": [
+   500000
+  ],
+  "icon": null
+ },
+ "Power Swings": {
+  "ids": [
+   707762
+  ],
+  "icon": null
+ },
+ "Power Tosser": {
+  "ids": [
+   570242
+  ],
+  "icon": null
+ },
+ "Power of the Ancestors": {
+  "ids": [
+   705248
+  ],
+  "icon": null
+ },
+ "Powerful Grip": {
+  "ids": [
+   804728
+  ],
+  "icon": null
+ },
+ "Puncture Wound": {
+  "ids": [
+   804143
+  ],
+  "icon": null
+ },
+ "Puncture Wounds": {
+  "ids": [
+   805997
+  ],
+  "icon": null
+ },
+ "Punisher": {
+  "ids": [
+   705172
+  ],
+  "icon": null
+ },
+ "Pure Carnage": {
+  "ids": [
+   520136
+  ],
+  "icon": null
+ },
+ "Pure Power": {
+  "ids": [
+   705173
+  ],
+  "icon": null
+ },
+ "Rage Inducing": {
+  "ids": [
+   560902
+  ],
+  "icon": null
+ },
+ "Rage of the North": {
+  "ids": [
+   705221
+  ],
+  "icon": null
+ },
+ "Raging": {
+  "ids": [
+   707895
+  ],
+  "icon": null
+ },
+ "Raging Advance": {
+  "ids": [
+   504804
+  ],
+  "icon": null
+ },
+ "Raging Migraine": {
+  "ids": [
+   805123
+  ],
+  "icon": null
+ },
+ "Raging Spirit": {
+  "ids": [
+   707410
+  ],
+  "icon": null
+ },
+ "Raised Mug": {
+  "ids": [
+   802589
+  ],
+  "icon": null
+ },
+ "Rally Behind Me!": {
+  "ids": [
+   712429
+  ],
+  "icon": null
+ },
+ "Ramhorn Rage": {
+  "ids": [
+   805804
+  ],
+  "icon": null
+ },
+ "Rampage": {
+  "ids": [
+   801786
+  ],
+  "icon": null
+ },
+ "Rampage!": {
+  "ids": [
+   300496
+  ],
+  "icon": null
+ },
+ "Rancor": {
+  "ids": [
+   801752
+  ],
+  "icon": null
+ },
+ "Rapid Throw": {
+  "ids": [
+   807236
+  ],
+  "icon": null
+ },
+ "Ready to Kill": {
+  "ids": [
+   850025
+  ],
+  "icon": null
+ },
+ "Reaving Wrecker": {
+  "ids": [
+   800953
+  ],
+  "icon": null
+ },
+ "Reckful": {
+  "ids": [
+   681063
+  ],
+  "icon": null
+ },
+ "Reckless Abandon": {
+  "ids": [
+   803788
+  ],
+  "icon": null
+ },
+ "Reckless Movements": {
+  "ids": [
+   705204
+  ],
+  "icon": null
+ },
+ "Regeneration Enhancement": {
+  "ids": [
+   807635
+  ],
+  "icon": null
+ },
+ "Relentless": {
+  "ids": [
+   300505
+  ],
+  "icon": null
+ },
+ "Relentless Barbarian": {
+  "ids": [
+   300506
+  ],
+  "icon": null
+ },
+ "Remove Carnage (Personal)": {
+  "ids": [
+   800191
+  ],
+  "icon": null
+ },
+ "Remove Wrecker Effects": {
+  "ids": [
+   803078
+  ],
+  "icon": null
+ },
+ "Rend and Tear": {
+  "ids": [
+   680198
+  ],
+  "icon": null
+ },
+ "Rending Axe": {
+  "ids": [
+   503415
+  ],
+  "icon": null
+ },
+ "Reset Ripper": {
+  "ids": [
+   800916
+  ],
+  "icon": null
+ },
+ "Reset Serpent Ward": {
+  "ids": [
+   704123
+  ],
+  "icon": null
+ },
+ "Ripper": {
+  "ids": [
+   704131
+  ],
+  "icon": null
+ },
+ "Ripper Destacker": {
+  "ids": [
+   560904
+  ],
+  "icon": null
+ },
+ "Ripping Frenzy": {
+  "ids": [
+   560931
+  ],
+  "icon": null
+ },
+ "SHIELD SLAM VISUAL": {
+  "ids": [
+   512012
+  ],
+  "icon": null
+ },
+ "Savage": {
+  "ids": [
+   560441
+  ],
+  "icon": null
+ },
+ "Savage Blood": {
+  "ids": [
+   705245
+  ],
+  "icon": null
+ },
+ "Savage Finesse": {
+  "ids": [
+   560523
+  ],
+  "icon": null
+ },
+ "Savage Massacre": {
+  "ids": [
+   520718
+  ],
+  "icon": null
+ },
+ "Savage Rage": {
+  "ids": [
+   800954
+  ],
+  "icon": null
+ },
+ "Savage Revelry": {
+  "ids": [
+   805833
+  ],
+  "icon": null
+ },
+ "Savage Strength": {
+  "ids": [
+   560886
+  ],
+  "icon": null
+ },
+ "Savage Strike": {
+  "ids": [
+   514050
+  ],
+  "icon": null
+ },
+ "Savage Wrecker": {
+  "ids": [
+   800949
+  ],
+  "icon": null
+ },
+ "Savageness": {
+  "ids": [
+   705223
+  ],
+  "icon": null
+ },
+ "Savagery Check": {
+  "ids": [
+   806377
+  ],
+  "icon": null
+ },
+ "Savagery Hidden 1": {
+  "ids": [
+   805825
+  ],
+  "icon": null
+ },
+ "Savagery Hidden 2": {
+  "ids": [
+   805826
+  ],
+  "icon": null
+ },
+ "Savagery Hidden 3": {
+  "ids": [
+   680481
+  ],
+  "icon": null
+ },
+ "Seeing Red": {
+  "ids": [
+   560872
+  ],
+  "icon": null
+ },
+ "Sen'jin's Guidance": {
+  "ids": [
+   707661
+  ],
+  "icon": null
+ },
+ "Shattered Ego": {
+  "ids": [
+   560912
+  ],
+  "icon": null
+ },
+ "Shattered Spear": {
+  "ids": [
+   255846
+  ],
+  "icon": null
+ },
+ "Skull Smash": {
+  "ids": [
+   560532
+  ],
+  "icon": null
+ },
+ "Skull Smasher": {
+  "ids": [
+   500455
+  ],
+  "icon": null
+ },
+ "Skullseeker": {
+  "ids": [
+   560517
+  ],
+  "icon": null
+ },
+ "Smash": {
+  "ids": [
+   801755
+  ],
+  "icon": null
+ },
+ "Smash Em Up!": {
+  "ids": [
+   560447
+  ],
+  "icon": null
+ },
+ "Smash Lock": {
+  "ids": [
+   570122
+  ],
+  "icon": null
+ },
+ "Smashed": {
+  "ids": [
+   706645
+  ],
+  "icon": null
+ },
+ "Spear Shards": {
+  "ids": [
+   782801
+  ],
+  "icon": null
+ },
+ "Spear Thrower": {
+  "ids": [
+   574321
+  ],
+  "icon": null
+ },
+ "Spear Throwing": {
+  "ids": [
+   560203
+  ],
+  "icon": null
+ },
+ "Spear of Sen'jin Carnage": {
+  "ids": [
+   504213
+  ],
+  "icon": null
+ },
+ "Spiked Chains": {
+  "ids": [
+   807138
+  ],
+  "icon": null
+ },
+ "Spiked Weapons": {
+  "ids": [
+   570076
+  ],
+  "icon": null
+ },
+ "Spirit of Bloodshed": {
+  "ids": [
+   712468
+  ],
+  "icon": null
+ },
+ "Spirit of Conflict": {
+  "ids": [
+   707764
+  ],
+  "icon": null
+ },
+ "Spirit of Savagery": {
+  "ids": [
+   705387
+  ],
+  "icon": null
+ },
+ "Spirit of War": {
+  "ids": [
+   712467
+  ],
+  "icon": null
+ },
+ "Spirit of the Hunt": {
+  "ids": [
+   707763
+  ],
+  "icon": null
+ },
+ "Spite": {
+  "ids": [
+   520541
+  ],
+  "icon": null
+ },
+ "Splash Zone": {
+  "ids": [
+   705156
+  ],
+  "icon": null
+ },
+ "Sprocket Beam CDR": {
+  "ids": [
+   807501
+  ],
+  "icon": null
+ },
+ "Sprocket Loaded": {
+  "ids": [
+   807500
+  ],
+  "icon": null
+ },
+ "Steel Fury": {
+  "ids": [
+   704240
+  ],
+  "icon": null
+ },
+ "Steelslinger": {
+  "ids": [
+   804750
+  ],
+  "icon": null
+ },
+ "Stomp Visual": {
+  "ids": [
+   802307
+  ],
+  "icon": null
+ },
+ "Storm of Steel": {
+  "ids": [
+   355562
+  ],
+  "icon": null
+ },
+ "Stormshock": {
+  "ids": [
+   806069
+  ],
+  "icon": null
+ },
+ "Strength of Goria": {
+  "ids": [
+   705201
+  ],
+  "icon": null
+ },
+ "Striker": {
+  "ids": [
+   706495
+  ],
+  "icon": null
+ },
+ "Strong Arm": {
+  "ids": [
+   705176
+  ],
+  "icon": null
+ },
+ "Surging Fury Destacker": {
+  "ids": [
+   704122
+  ],
+  "icon": null
+ },
+ "Sustaining Swings": {
+  "ids": [
+   520539
+  ],
+  "icon": null
+ },
+ "Symbol of the Warspear": {
+  "ids": [
+   804730
+  ],
+  "icon": null
+ },
+ "Tavern Brawl!": {
+  "ids": [
+   804456
+  ],
+  "icon": null
+ },
+ "Test": {
+  "ids": [
+   301051
+  ],
+  "icon": null
+ },
+ "Thane's Grip": {
+  "ids": [
+   803798
+  ],
+  "icon": null
+ },
+ "Thane's Guard": {
+  "ids": [
+   800132
+  ],
+  "icon": null
+ },
+ "The Finest Ale": {
+  "ids": [
+   705218
+  ],
+  "icon": null
+ },
+ "The Spins": {
+  "ids": [
+   705208
+  ],
+  "icon": null
+ },
+ "Thick Skull": {
+  "ids": [
+   801549
+  ],
+  "icon": null
+ },
+ "Thirst for Battle": {
+  "ids": [
+   570236
+  ],
+  "icon": null
+ },
+ "Throw Weapon": {
+  "ids": [
+   804136
+  ],
+  "icon": null
+ },
+ "Time To Kill!": {
+  "ids": [
+   926591
+  ],
+  "icon": null
+ },
+ "Time to Kill!": {
+  "ids": [
+   926593
+  ],
+  "icon": null
+ },
+ "To The Bone": {
+  "ids": [
+   560880
+  ],
+  "icon": null
+ },
+ "To The End": {
+  "ids": [
+   706367
+  ],
+  "icon": null
+ },
+ "To The End Tick": {
+  "ids": [
+   801769
+  ],
+  "icon": null
+ },
+ "Torpedo": {
+  "ids": [
+   560460
+  ],
+  "icon": null
+ },
+ "Torture": {
+  "ids": [
+   705241
+  ],
+  "icon": null
+ },
+ "Trail of Sorrow": {
+  "ids": [
+   707169
+  ],
+  "icon": null
+ },
+ "Trip to the Alehouse": {
+  "ids": [
+   705152
+  ],
+  "icon": null
+ },
+ "True Guidance": {
+  "ids": [
+   705175
+  ],
+  "icon": null
+ },
+ "Twirly Boy": {
+  "ids": [
+   520031
+  ],
+  "icon": null
+ },
+ "Unbridled Intelligence": {
+  "ids": [
+   804713
+  ],
+  "icon": null
+ },
+ "Unbridled Rage": {
+  "ids": [
+   801761
+  ],
+  "icon": null
+ },
+ "Uncanny Speed": {
+  "ids": [
+   807491
+  ],
+  "icon": null
+ },
+ "Undying": {
+  "ids": [
+   705174
+  ],
+  "icon": null
+ },
+ "Unhinged": {
+  "ids": [
+   706797
+  ],
+  "icon": null
+ },
+ "Unified Rage": {
+  "ids": [
+   705212
+  ],
+  "icon": null
+ },
+ "Uniting Voice": {
+  "ids": [
+   560946
+  ],
+  "icon": null
+ },
+ "Unrelenting": {
+  "ids": [
+   705169
+  ],
+  "icon": null
+ },
+ "Unrestrained Javelin": {
+  "ids": [
+   804888
+  ],
+  "icon": null
+ },
+ "Unstoppable": {
+  "ids": [
+   804732
+  ],
+  "icon": null
+ },
+ "Unstoppable Rage": {
+  "ids": [
+   706353
+  ],
+  "icon": null
+ },
+ "Utter Devastation": {
+  "ids": [
+   560909
+  ],
+  "icon": null
+ },
+ "Val'kyr Resurrection": {
+  "ids": [
+   801784
+  ],
+  "icon": null
+ },
+ "Vengeance For Zul'jin": {
+  "ids": [
+   560205
+  ],
+  "icon": null
+ },
+ "Veno Form Shared Aura Delayer": {
+  "ids": [
+   706802
+  ],
+  "icon": null
+ },
+ "Victorious!": {
+  "ids": [
+   804459
+  ],
+  "icon": null
+ },
+ "Visceral Impact": {
+  "ids": [
+   706486
+  ],
+  "icon": null
+ },
+ "Visual Level Up Group": {
+  "ids": [
+   802806
+  ],
+  "icon": null
+ },
+ "Visual: Glaive": {
+  "ids": [
+   256324
+  ],
+  "icon": null
+ },
+ "Visual: Spear": {
+  "ids": [
+   255845
+  ],
+  "icon": null
+ },
+ "Vital Spirit": {
+  "ids": [
+   805835
+  ],
+  "icon": null
+ },
+ "Voodoo Fury": {
+  "ids": [
+   705243
+  ],
+  "icon": null
+ },
+ "War Cry": {
+  "ids": [
+   500674
+  ],
+  "icon": null
+ },
+ "War Tales": {
+  "ids": [
+   706352
+  ],
+  "icon": null
+ },
+ "Warband": {
+  "ids": [
+   560883
+  ],
+  "icon": null
+ },
+ "Warlord": {
+  "ids": [
+   807046
+  ],
+  "icon": null
+ },
+ "Warlord's Charm Reset": {
+  "ids": [
+   524704
+  ],
+  "icon": null
+ },
+ "Warstriker": {
+  "ids": [
+   805887
+  ],
+  "icon": null
+ },
+ "Watch Me Kill": {
+  "ids": [
+   705192
+  ],
+  "icon": null
+ },
+ "Whirling Advance": {
+  "ids": [
+   500919
+  ],
+  "icon": null
+ },
+ "Whirling Assault": {
+  "ids": [
+   560563
+  ],
+  "icon": null
+ },
+ "Whirling Death": {
+  "ids": [
+   560580
+  ],
+  "icon": null
+ },
+ "Who Be My Next Victim?": {
+  "ids": [
+   705180
+  ],
+  "icon": null
+ },
+ "Wildling": {
+  "ids": [
+   560457
+  ],
+  "icon": null
+ },
+ "Withered": {
+  "ids": [
+   520418
+  ],
+  "icon": null
+ },
+ "Wormskin": {
+  "ids": [
+   802998
+  ],
+  "icon": null
+ },
+ "Worn Out": {
+  "ids": [
+   804457
+  ],
+  "icon": null
+ },
+ "Wrecking Crew": {
+  "ids": [
+   705182
+  ],
+  "icon": null
+ },
+ "Wrist Snap": {
+  "ids": [
+   800383
+  ],
+  "icon": null
+ },
+ "You Want Axe?": {
+  "ids": [
+   560564
+  ],
+  "icon": null
+ },
+ "Zul'jin's Axe": {
+  "ids": [
+   805262
+  ],
+  "icon": null
+ },
+ "Zul'jin's Legacy": {
+  "ids": [
+   560875
+  ],
+  "icon": null
+ }
+}
