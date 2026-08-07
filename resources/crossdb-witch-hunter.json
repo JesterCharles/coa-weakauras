@@ -1,0 +1,1002 @@
+{
+ "_class": "witch-hunter",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Agile Steps": {
+   "id": 705521,
+   "state": "record"
+  },
+  "Alchemical Research": {
+   "id": 705498,
+   "state": "record"
+  },
+  "Alertness": {
+   "id": 681152,
+   "state": "record"
+  },
+  "Anguishing Flock": {
+   "id": 705462,
+   "state": "record"
+  },
+  "Arbalest Mastery": {
+   "id": 706240,
+   "state": "record"
+  },
+  "Arbalist": {
+   "id": 520851,
+   "state": "record"
+  },
+  "At The Stake": {
+   "id": 300574,
+   "state": "record"
+  },
+  "Bane of Witches": {
+   "id": 500055,
+   "state": "record"
+  },
+  "Black Knight - Level 20 Passive": {
+   "id": 680488,
+   "state": "record"
+  },
+  "Blade Stance": {
+   "id": 802002,
+   "state": "record"
+  },
+  "Blasting Powder": {
+   "id": 529023,
+   "state": "record"
+  },
+  "Bola Throw": {
+   "id": 500093,
+   "state": "record"
+  },
+  "Bolt and Dash": {
+   "id": 520670,
+   "state": "record"
+  },
+  "Boltslinger": {
+   "id": 92091,
+   "state": "record"
+  },
+  "Bounty Hunter": {
+   "id": 805763,
+   "state": "record"
+  },
+  "Brand of the Condemned": {
+   "id": 562573,
+   "state": "record"
+  },
+  "Brand of the Damned": {
+   "id": 807682,
+   "state": "record"
+  },
+  "Brand of the Profane": {
+   "id": 562390,
+   "state": "record"
+  },
+  "Brand of the Unworthy": {
+   "id": 501380,
+   "state": "record"
+  },
+  "Brimming Hatred": {
+   "id": 504690,
+   "state": "record"
+  },
+  "Bringer of Darkness": {
+   "id": 500101,
+   "state": "record"
+  },
+  "Bringing the Law": {
+   "id": 681148,
+   "state": "record"
+  },
+  "Brooding Hatred": {
+   "id": 301251,
+   "state": "record"
+  },
+  "Burned Alive": {
+   "id": 705478,
+   "state": "record"
+  },
+  "Burrow Bolt": {
+   "id": 802269,
+   "state": "record"
+  },
+  "By Royal Order": {
+   "id": 705508,
+   "state": "record"
+  },
+  "Call From The Shadows": {
+   "id": 578118,
+   "state": "record"
+  },
+  "Calm Under Pressure": {
+   "id": 705519,
+   "state": "record"
+  },
+  "Caltrops": {
+   "id": 503679,
+   "state": "record"
+  },
+  "Chains of Darkness": {
+   "id": 680521,
+   "state": "record"
+  },
+  "Charged Bolts": {
+   "id": 705518,
+   "state": "record"
+  },
+  "Charming Conversation": {
+   "id": 804667,
+   "state": "record"
+  },
+  "Cinder and Ashes": {
+   "id": 707317,
+   "state": "record"
+  },
+  "Clinch Fighting": {
+   "id": 572182,
+   "state": "record"
+  },
+  "Coiling Shot": {
+   "id": 500082,
+   "state": "record"
+  },
+  "Collect Bounty": {
+   "id": 504478,
+   "state": "record"
+  },
+  "Collection": {
+   "id": 805762,
+   "state": "record"
+  },
+  "Combat Training": {
+   "id": 680529,
+   "state": "record"
+  },
+  "Contract Killing": {
+   "id": 705506,
+   "state": "record"
+  },
+  "Conviction": {
+   "id": 802141,
+   "state": "record"
+  },
+  "Coordinated Killing": {
+   "id": 705463,
+   "state": "record"
+  },
+  "Create Distance": {
+   "id": 500901,
+   "state": "record"
+  },
+  "Crippling Bolt": {
+   "id": 500162,
+   "state": "record"
+  },
+  "Crossbow Frenzy": {
+   "id": 705499,
+   "state": "record"
+  },
+  "Crossbow Stance": {
+   "id": 800665,
+   "state": "record"
+  },
+  "Cycle of Despair": {
+   "id": 503664,
+   "state": "record"
+  },
+  "Damnation": {
+   "id": 520062,
+   "state": "record"
+  },
+  "Daredevil": {
+   "id": 681171,
+   "state": "record"
+  },
+  "Daring Escape": {
+   "id": 500086,
+   "state": "record"
+  },
+  "Dark Aura": {
+   "id": 680535,
+   "state": "record"
+  },
+  "Dark Barrier": {
+   "id": 705520,
+   "state": "record"
+  },
+  "Dark Intuition": {
+   "id": 806195,
+   "state": "record"
+  },
+  "Dark Mind": {
+   "id": 574148,
+   "state": "record"
+  },
+  "Dark Penance": {
+   "id": 805533,
+   "state": "record"
+  },
+  "Dark Power": {
+   "id": 681340,
+   "state": "record"
+  },
+  "Dark Ranger": {
+   "id": 705465,
+   "state": "record"
+  },
+  "Dark Regeneration": {
+   "id": 500094,
+   "state": "record"
+  },
+  "Dark Souls": {
+   "id": 802011,
+   "state": "record"
+  },
+  "Dark Tonic": {
+   "id": 680491,
+   "state": "record"
+  },
+  "Darkfeast": {
+   "id": 500092,
+   "state": "record"
+  },
+  "Darkflock": {
+   "id": 520270,
+   "state": "record"
+  },
+  "Darkhide": {
+   "id": 705468,
+   "state": "record"
+  },
+  "Darkness - Level 15 Passive": {
+   "id": 582365,
+   "state": "record"
+  },
+  "Darkness - Level 50 Passive": {
+   "id": 705457,
+   "state": "record"
+  },
+  "Darkrider": {
+   "id": 705453,
+   "state": "record"
+  },
+  "Darkslayer": {
+   "id": 804179,
+   "state": "record"
+  },
+  "Darkslayer's Lantern": {
+   "id": 802139,
+   "state": "record"
+  },
+  "Darkslayer's Regalia": {
+   "id": 705530,
+   "state": "record"
+  },
+  "Darkstalker": {
+   "id": 500091,
+   "state": "record"
+  },
+  "Dawn": {
+   "id": 503658,
+   "state": "record"
+  },
+  "Dawn Blade": {
+   "id": 802024,
+   "state": "record"
+  },
+  "Dawn Knight": {
+   "id": 680497,
+   "state": "record"
+  },
+  "Dead and Gone": {
+   "id": 524809,
+   "state": "record"
+  },
+  "Death Mark": {
+   "id": 705536,
+   "state": "record"
+  },
+  "Death Trap": {
+   "id": 681450,
+   "state": "record"
+  },
+  "Decimate": {
+   "id": 804194,
+   "state": "record"
+  },
+  "Defender of Darkshire": {
+   "id": 504473,
+   "state": "record"
+  },
+  "Desecrate": {
+   "id": 680518,
+   "state": "record"
+  },
+  "Disappear": {
+   "id": 805772,
+   "state": "no-record"
+  },
+  "Dismiss Hound": {
+   "id": 680263,
+   "state": "record"
+  },
+  "Dusk": {
+   "id": 300571,
+   "state": "record"
+  },
+  "Dusk After Dawn": {
+   "id": 705479,
+   "state": "record"
+  },
+  "Dusk Blade": {
+   "id": 802020,
+   "state": "record"
+  },
+  "Dusk Knight": {
+   "id": 301243,
+   "state": "record"
+  },
+  "Dusk and Dawn": {
+   "id": 503661,
+   "state": "record"
+  },
+  "Enchanted Armor": {
+   "id": 705487,
+   "state": "record"
+  },
+  "Engraved Armor": {
+   "id": 705489,
+   "state": "record"
+  },
+  "Enhanced Bolts": {
+   "id": 504484,
+   "state": "record"
+  },
+  "Escape Artist": {
+   "id": 500160,
+   "state": "record"
+  },
+  "Evasive": {
+   "id": 805766,
+   "state": "record"
+  },
+  "Evil Doers, Beware!": {
+   "id": 681328,
+   "state": "record"
+  },
+  "Evil Never Sleeps": {
+   "id": 561210,
+   "state": "record"
+  },
+  "Expert Shot": {
+   "id": 705467,
+   "state": "record"
+  },
+  "Expulsion of Evil": {
+   "id": 139778,
+   "state": "record"
+  },
+  "Feast of Talons": {
+   "id": 500056,
+   "state": "record"
+  },
+  "Fiery Judgement": {
+   "id": 802140,
+   "state": "record"
+  },
+  "Flames of Sin": {
+   "id": 92094,
+   "state": "record"
+  },
+  "Flourish": {
+   "id": 805365,
+   "state": "record"
+  },
+  "Follow The Edict": {
+   "id": 503698,
+   "state": "record"
+  },
+  "Gaze of the Black Knight": {
+   "id": 802138,
+   "state": "record"
+  },
+  "Giantslayer": {
+   "id": 704522,
+   "state": "record"
+  },
+  "Grasp of the Undying": {
+   "id": 680483,
+   "state": "record"
+  },
+  "Greater Inquisitor's Edict": {
+   "id": 680303,
+   "state": "record"
+  },
+  "Greater Knight's Edict": {
+   "id": 523510,
+   "state": "record"
+  },
+  "Greater Tonics": {
+   "id": 705482,
+   "state": "record"
+  },
+  "Greater Witching Edict": {
+   "id": 681442,
+   "state": "record"
+  },
+  "Grimshade Arbalest": {
+   "id": 500900,
+   "state": "record"
+  },
+  "Guard Strike": {
+   "id": 804432,
+   "state": "record"
+  },
+  "Hail of Gunfire": {
+   "id": 680243,
+   "state": "record"
+  },
+  "Hatred & Vitriol": {
+   "id": 504468,
+   "state": "record"
+  },
+  "Headshots": {
+   "id": 705466,
+   "state": "record"
+  },
+  "Heartseeking Bolt": {
+   "id": 805754,
+   "state": "record"
+  },
+  "Heartstop Bolt": {
+   "id": 800163,
+   "state": "record"
+  },
+  "Heartstopper": {
+   "id": 680540,
+   "state": "record"
+  },
+  "Holy Water Tonic": {
+   "id": 802826,
+   "state": "record"
+  },
+  "Houndfeeder": {
+   "id": 705477,
+   "state": "record"
+  },
+  "Houndmaster": {
+   "id": 92093,
+   "state": "record"
+  },
+  "Houndmaster's Call": {
+   "id": 802273,
+   "state": "record"
+  },
+  "Houndmaster's Whistle": {
+   "id": 801343,
+   "state": "record"
+  },
+  "Hunt": {
+   "id": 802006,
+   "state": "record"
+  },
+  "Hunter in the Night": {
+   "id": 705493,
+   "state": "record"
+  },
+  "Ignite Blade": {
+   "id": 802143,
+   "state": "record"
+  },
+  "Infiltrate": {
+   "id": 802281,
+   "state": "record"
+  },
+  "Inquisitor's Edict": {
+   "id": 706741,
+   "state": "record"
+  },
+  "Inquisitor's Trap": {
+   "id": 681445,
+   "state": "record"
+  },
+  "Interrogator": {
+   "id": 806188,
+   "state": "record"
+  },
+  "Just A Sip": {
+   "id": 705533,
+   "state": "record"
+  },
+  "Kennel Master": {
+   "id": 706365,
+   "state": "record"
+  },
+  "Kingdom Hearts": {
+   "id": 582310,
+   "state": "record"
+  },
+  "Knight's Edict": {
+   "id": 523485,
+   "state": "record"
+  },
+  "Knight's Seal": {
+   "id": 680498,
+   "state": "record"
+  },
+  "Last Hope": {
+   "id": 300573,
+   "state": "record"
+  },
+  "Long Rifle": {
+   "id": 705452,
+   "state": "record"
+  },
+  "Lord of Torture": {
+   "id": 500099,
+   "state": "record"
+  },
+  "Magical Blasting Powder": {
+   "id": 680249,
+   "state": "record"
+  },
+  "Malice": {
+   "id": 707535,
+   "state": "record"
+  },
+  "March of the Black King": {
+   "id": 681095,
+   "state": "record"
+  },
+  "Mechanized Crossbows": {
+   "id": 705514,
+   "state": "record"
+  },
+  "Misbegotten's Lantern": {
+   "id": 680541,
+   "state": "record"
+  },
+  "Monster Hunting": {
+   "id": 300872,
+   "state": "record"
+  },
+  "Musket Stance": {
+   "id": 800529,
+   "state": "record"
+  },
+  "Nefarious Accuracy": {
+   "id": 705454,
+   "state": "record"
+  },
+  "Night Hunter": {
+   "id": 562225,
+   "state": "record"
+  },
+  "Night Stalker": {
+   "id": 300792,
+   "state": "record"
+  },
+  "Night Walker": {
+   "id": 503653,
+   "state": "record"
+  },
+  "Night's Watch": {
+   "id": 807733,
+   "state": "record"
+  },
+  "Noctis Blade": {
+   "id": 802280,
+   "state": "record"
+  },
+  "Pavise": {
+   "id": 504854,
+   "state": "record"
+  },
+  "Plagueland Survivalist": {
+   "id": 681169,
+   "state": "record"
+  },
+  "Pommel Smash": {
+   "id": 680515,
+   "state": "record"
+  },
+  "Potion Belt": {
+   "id": 705475,
+   "state": "record"
+  },
+  "Proclamation": {
+   "id": 802135,
+   "state": "record"
+  },
+  "Protector of Darkshire": {
+   "id": 300575,
+   "state": "record"
+  },
+  "Punishing Bolt": {
+   "id": 500083,
+   "state": "record"
+  },
+  "Pure Agony": {
+   "id": 300789,
+   "state": "record"
+  },
+  "Pure Blade": {
+   "id": 705527,
+   "state": "record"
+  },
+  "Purge Evil": {
+   "id": 572306,
+   "state": "record"
+  },
+  "Purified Bola": {
+   "id": 707230,
+   "state": "record"
+  },
+  "Purified Bola Throw": {
+   "id": 803333,
+   "state": "record"
+  },
+  "Purifier's Edge": {
+   "id": 802019,
+   "state": "record"
+  },
+  "Purity": {
+   "id": 681413,
+   "state": "record"
+  },
+  "Purity & Wickedness": {
+   "id": 680544,
+   "state": "record"
+  },
+  "Pursuer of Evil": {
+   "id": 706242,
+   "state": "record"
+  },
+  "Pyro Tonic": {
+   "id": 802277,
+   "state": "record"
+  },
+  "Quickdraw": {
+   "id": 804193,
+   "state": "record"
+  },
+  "Rapid Reload": {
+   "id": 705512,
+   "state": "record"
+  },
+  "Rearmament": {
+   "id": 805738,
+   "state": "record"
+  },
+  "Regenerative Elixirs": {
+   "id": 705528,
+   "state": "record"
+  },
+  "Reload": {
+   "id": 804190,
+   "state": "record"
+  },
+  "Renegade": {
+   "id": 524812,
+   "state": "record"
+  },
+  "Repeat Offender": {
+   "id": 504481,
+   "state": "record"
+  },
+  "Repulse": {
+   "id": 680236,
+   "state": "record"
+  },
+  "Resilient to Darkness": {
+   "id": 681092,
+   "state": "record"
+  },
+  "Roll The Heads": {
+   "id": 802142,
+   "state": "record"
+  },
+  "Runed Bullets": {
+   "id": 705472,
+   "state": "record"
+  },
+  "Scent of Magic": {
+   "id": 706260,
+   "state": "record"
+  },
+  "Scourge Trap": {
+   "id": 681455,
+   "state": "record"
+  },
+  "Searing Hilt": {
+   "id": 705480,
+   "state": "record"
+  },
+  "Set Bounty": {
+   "id": 805760,
+   "state": "record"
+  },
+  "Shadewalker": {
+   "id": 705532,
+   "state": "record"
+  },
+  "Shadow Bond": {
+   "id": 705471,
+   "state": "record"
+  },
+  "Shadow Brand": {
+   "id": 680516,
+   "state": "record"
+  },
+  "Shadow Rage": {
+   "id": 567570,
+   "state": "record"
+  },
+  "Shadow Shot": {
+   "id": 560048,
+   "state": "record"
+  },
+  "Shadow Trap": {
+   "id": 680238,
+   "state": "record"
+  },
+  "Shadowblast": {
+   "id": 804191,
+   "state": "record"
+  },
+  "Shadowstorm": {
+   "id": 520277,
+   "state": "record"
+  },
+  "Shadowy Tendrils": {
+   "id": 707407,
+   "state": "record"
+  },
+  "Sharpened Claws": {
+   "id": 705470,
+   "state": "record"
+  },
+  "Silver Bolts": {
+   "id": 804026,
+   "state": "record"
+  },
+  "Silver Bullets": {
+   "id": 574149,
+   "state": "record"
+  },
+  "Sixfold Shot": {
+   "id": 500567,
+   "state": "record"
+  },
+  "Slayer": {
+   "id": 300968,
+   "state": "record"
+  },
+  "Slayer of Darkness": {
+   "id": 804024,
+   "state": "record"
+  },
+  "Slayer's Mark": {
+   "id": 804068,
+   "state": "record"
+  },
+  "Slinging Bolts": {
+   "id": 500161,
+   "state": "record"
+  },
+  "Smite Evil": {
+   "id": 802004,
+   "state": "record"
+  },
+  "Smoke Grenade": {
+   "id": 805756,
+   "state": "record"
+  },
+  "Stake": {
+   "id": 680537,
+   "state": "record"
+  },
+  "Stoicism": {
+   "id": 804802,
+   "state": "record"
+  },
+  "Strafing Shot": {
+   "id": 705515,
+   "state": "record"
+  },
+  "Strategist": {
+   "id": 681156,
+   "state": "record"
+  },
+  "Subjugate": {
+   "id": 500089,
+   "state": "record"
+  },
+  "Surging Blade": {
+   "id": 681499,
+   "state": "record"
+  },
+  "Surging Tonic": {
+   "id": 802279,
+   "state": "record"
+  },
+  "The Bane of Witches": {
+   "id": 520130,
+   "state": "record"
+  },
+  "The Duskwood Menace": {
+   "id": 504479,
+   "state": "record"
+  },
+  "The Right Price": {
+   "id": 705503,
+   "state": "record"
+  },
+  "Three Sevens": {
+   "id": 300572,
+   "state": "record"
+  },
+  "Tonic Supply": {
+   "id": 504483,
+   "state": "record"
+  },
+  "Torch the Wicked!": {
+   "id": 560226,
+   "state": "record"
+  },
+  "Torchlight": {
+   "id": 503662,
+   "state": "record"
+  },
+  "Tormenting the Tormented": {
+   "id": 805758,
+   "state": "record"
+  },
+  "Tormentor": {
+   "id": 800162,
+   "state": "record"
+  },
+  "Trap Card": {
+   "id": 680253,
+   "state": "record"
+  },
+  "Trap Launcher": {
+   "id": 802272,
+   "state": "record"
+  },
+  "Trapper": {
+   "id": 681180,
+   "state": "record"
+  },
+  "Trickster": {
+   "id": 705526,
+   "state": "record"
+  },
+  "Twilight Frenzy": {
+   "id": 805751,
+   "state": "record"
+  },
+  "Undertaker": {
+   "id": 802022,
+   "state": "record"
+  },
+  "Undying": {
+   "id": 680495,
+   "state": "record"
+  },
+  "Unholstered": {
+   "id": 500097,
+   "state": "record"
+  },
+  "Unleash The Hounds": {
+   "id": 800768,
+   "state": "record"
+  },
+  "Unleash the Hounds": {
+   "id": 807918,
+   "state": "record"
+  },
+  "Vampire Hunt": {
+   "id": 804799,
+   "state": "record"
+  },
+  "Vampire Hunter": {
+   "id": 704570,
+   "state": "record"
+  },
+  "Vampiric Tonic": {
+   "id": 802271,
+   "state": "record"
+  },
+  "Vault": {
+   "id": 500085,
+   "state": "record"
+  },
+  "Veiled in Darkness": {
+   "id": 524854,
+   "state": "record"
+  },
+  "Vengeful Intent": {
+   "id": 520265,
+   "state": "record"
+  },
+  "Vicious Mockery": {
+   "id": 802013,
+   "state": "record"
+  },
+  "Vishas' Memoir": {
+   "id": 300795,
+   "state": "record"
+  },
+  "Warrior of the Night": {
+   "id": 802137,
+   "state": "record"
+  },
+  "Weapon Swapping": {
+   "id": 802001,
+   "state": "record"
+  },
+  "Weaver of Sorrow": {
+   "id": 572314,
+   "state": "record"
+  },
+  "Wickedness": {
+   "id": 681523,
+   "state": "record"
+  },
+  "Witch Hunt": {
+   "id": 520551,
+   "state": "record"
+  },
+  "Witch Hunter": {
+   "id": 284975,
+   "state": "record"
+  },
+  "Witch Knight": {
+   "id": 805346,
+   "state": "record"
+  },
+  "Witchbane": {
+   "id": 800165,
+   "state": "record"
+  },
+  "Witchblaster": {
+   "id": 804184,
+   "state": "record"
+  },
+  "Witchblight": {
+   "id": 680494,
+   "state": "record"
+  },
+  "Witchblood Fever": {
+   "id": 504472,
+   "state": "record"
+  },
+  "Witchblood Tonic": {
+   "id": 802278,
+   "state": "record"
+  },
+  "Witching": {
+   "id": 561235,
+   "state": "record"
+  },
+  "Witching Edict": {
+   "id": 707684,
+   "state": "record"
+  },
+  "Witching Idol": {
+   "id": 804051,
+   "state": "record"
+  },
+  "Witching Shroud": {
+   "id": 501485,
+   "state": "record"
+  },
+  "Witchmail": {
+   "id": 804797,
+   "state": "record"
+  }
+ }
+}

@@ -220,6 +220,13 @@ CORE_LEAVES = {
     # take the class gate alone because an active-only aura display is
     # self-gating and a buff id is not something IsSpellKnown recognises.
     "barbarian": 8,
+    # First pin (0.1). WH Core is empty on purpose -- the one reminder in the
+    # pack (NO HOUND) is spec-shaped. The 5 are the empty Core skeleton group
+    # plus four merged Buffs leaves for all-spec auras (Dark Intuition and the
+    # three class tonic windows: Witchblood, Vampiric, Surging) that hold the
+    # class gate alone, for the standing reason: buff icons are self-gating
+    # and a buff id is not something IsSpellKnown recognises.
+    "witch-hunter": 5,
 }
 
 

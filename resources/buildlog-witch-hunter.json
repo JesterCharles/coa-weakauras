@@ -1,0 +1,108 @@
+{
+ "class": "witch-hunter",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 14,
+   "citations": 4,
+   "crossdb_checked": 249,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 257,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 249,
+   "mechanics_sources": 4,
+   "open_unknowns": 3,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 14,
+   "citations": 4,
+   "crossdb_checked": 249,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 257,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 249,
+   "mechanics_sources": 4,
+   "open_unknowns": 3,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 14,
+   "citations": 4,
+   "crossdb_checked": 249,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 257,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 249,
+   "mechanics_sources": 4,
+   "open_unknowns": 3,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "\u00a75: NO HOUND is the pack's one missing-buff alert (per-spec, gated). No Edict alert (persist through death + build-dependent choice) and no stance alert (stance-as-aura unverified, req 6.2) - both deliberate"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "29 entries 2026/07/31..08/01 triaged in requirements \u00a7-1: Guard Strike now class-wide L18 trainer (utility all specs), Deadeye rename of Houndmaster L10 passive, Whistle free at tree top, Decimate now also buffs caster, Rearmament reworked (traps no CD 8s, Sidekick STALE), Trap Launcher new L40, Edicts persist through death, rest numbers-only"
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "4 Sidekick citations imported from the 2026-08-02 blob (postdates newest changelog 2026-08-01, so not stale), 14 claims, validated. One cited name (Searing Blade, inq maintain) resolves to no castable in either DB -- aliased to null in aliases-witch-hunter.json with the Blade-Stance sub-kit reasoning (req 6.2). Single source: corroboration not yet measurable, Refine caveat carried on every record"
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 249,
+   "note": "crossdb_sweep over all 249 id-bearing rows: 248 record / 1 no-record. The no-record (Disappear 805772) was re-asked BY NAME: db.ascension.gg has only an empty legacy stub (37872), db.exil.es carries the full CoA tooltip and Sidekick cites it -- kept with justification in the row's Notes and req 6.12. Earlier id traps resolved during the pass: Unleash the Hounds 807918 (800768 rank UNUSED), Houndmaster's Call 802273 (706332 rank Damage; official tree), Pavise 504854 Visual Dummy (name-match only), Vampiric Tonic 802271-vs-802276 (req 6.7)"
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified per the known workaround: tools/rowwidths.py green (widest always-visible row 1.00x vs the 228px bar, utility wraps at 3 rows on 19-24 icons) + structural read via tools/hud.py on all four spec packs -- band ladder -18/-51/-84/-132/[-164,-180 dual power envelope]/-215/-245/-275/(-305)/-348 matches the shipped chronomancer/stormbringer geometry, bar x-convention quirk (0..228 vs icon -92..136) confirmed identical on shipped packs"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "256 rows: 109 curated from the cited rotations/talent texts + 136 heuristic (rank/meta evidence) + 11 added by hand (aura-only names the pack tracks, Trap Launcher, Disappear); every row carries one line of reasoning in Notes. prop: markers BULK-CLEARED per production-run.md draft mode -- provenance is this automated pass, not a per-row human read. Formerly-hedged rows (prop?): Agile, Brand of the Condemned/Damned/Profane, Caltrops, Charming Conversation, Cursewarding, Hired Crossbow, Magical Blasting Powder, Purified Bola Throw, Silver Bullets, Vampire Hunt, Student of Darkness, The Duskwood Menace -- carried to requirements \u00a76.10"
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "all four main rows ordered from the cited Sidekick rotation text (citations sidekick-witch-hunter-*-2026-08-02 + scraped pages 2026-08-07): bolts Darkslayer/Witchbane/Tormentor/Heartseeking Bolt/Damnation; hound Shadowblast/Quickdraw/Houndmaster's Call/Darkflock/Unleash the Hounds; bk Noctis Blade/Pommel Smash/Desecrate/Dawn Blade/March of the Black King; inq Dawn Blade/Purifier's Edge/Dusk Blade/Torchlight/Stake. 5 icons every spec, cd_per_row=9 from 28w-2<=1.2*228"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "all four spec pages scraped via Firecrawl 2026-08-07 to resources/sidekick-witch-hunter-{boltslinger,houndmaster,black-knight,inquisition}.md (hyphenated slug verified against live site); sidekick-data.js blob snapshot 2026-08-02 postdates newest changelog entry 2026-08-01, but Rearmament talent text is provably stale vs changelog -- treated as reference"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "\u00a73 answered: houndmaster permanent Shadowhound -> NO HOUND alert (aura-on-pet showOnMissing + Spell Known 801343 gate, NEEDS_ALL; mechanism unverified on fork, req 6.1), Shadow Rage tracked unit=pet in on-me row, Houndmaster's Call/Unleash the Hounds/Decimate/Call From The Shadows/Shadow Bond as real rows; other three specs explicitly none"
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "\u00a71 must-press procs wired: PROC_GLOW on Heartseeking Bolt (Bounty Hunter stacks drawn via PROC_STACKS + Bolt and Dash), Damnation (Slinging Bolts), Stake (Heartstopper), Dawn Blade (Dawn Knight); execute/crit/avoid gates carried by spellUsable desaturate"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-witch-hunter.md: all sections answered. Spec roles filled into spec-roles.md from citable Sidekick statements (black-knight TANK: 'Solid main-tank for raid bosses'; other three damage), provenance block added pending in-game read. Pet section is REAL for houndmaster (permanent Shadowhound); dual rage+mana envelope on all four specs; 12 open questions in \u00a76, each deferred deliberately"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "req \u00a72: proc talents wired as PROC_GLOW (Slinging Bolts->Damnation, Heartstopper->Stake, Dawn Knight->Dawn Blade, Bounty Hunter+Bolt and Dash->Heartseeking Bolt); Hunt CHARGES=2; Sixfold Shot spell_swap NOT wired (transformed id unresolved, req 6.4 - base Quickdraw stays correct); Purified Bola charge text left off base Bola Throw (req 6.6); pack reads correctly untalented on every row - proc displays are active-only"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all 22 checks passed (0 FAIL) after freezing the 5 fixtures; CORE_LEAVES pinned at 5 (empty WH Core skeleton + 4 all-spec Buffs leaves on the class gate alone: Dark Intuition, Witchblood/Vampiric/Surging Tonic - verified by decoding the pack)"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "req \u00a76: 12 open questions, every one deferred deliberately to the post-ship verified phase (pet-inverse mechanism, stance auras, Houndmaster's Call/Sixfold/Pavise/Vampiric Tonic ids, Deadeye rename id, bk rage read, hedged inventory rows, Damnation-vs-TF preference, Disappear liveness). None blocks the draft bar: uncited claims zero, single-DB abilities zero-or-justified, unreviewed markers zero"
+  }
+ }
+}

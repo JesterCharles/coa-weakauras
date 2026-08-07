@@ -1,0 +1,7 @@
+{
+ "Searing Blade": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited by the Sidekick rotation blob (2026-08-02) in Inquisition's maintain bucket. No plain 'Searing Blade' castable exists in either database -- db.exil.es carries only the stance-variant rows 'Searing Blade (Purity)' 806193 and 'Searing Blade (Wickedness)' 802846, which belong to the Blade Stance sub-kit the skillbook does not list and no cited rotation reaches (requirements 6.2). Unbuildable until the stance question settles; the DoT it leaves is invisible to the pack rather than mistracked."
+ }
+}
