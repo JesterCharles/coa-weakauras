@@ -191,12 +191,23 @@ CORE_LEAVES = {
     # 30 -> 15 when the long-term band moved out of Core into one band per
     # spec, so its 15 icons stopped being class-wide leaves. Core now holds
     # the two reminder alerts and the engraving/etching trackers only.
-    "runemaster": 15,
+    # 15 -> 16 when Primordial Blast's merged main-row leaf gave up its
+    # `spellknown = 800732` gate. The Elemental Mastery transform can replace
+    # the spell, which would make IsSpellKnown false and unload the display at
+    # the exact moment it procs -- see build_runemaster.py.
+    "runemaster": 16,
     # 23 -> 12 for the same reason Runemaster went 30 -> 15: the long-term band
     # moved out of Core into one band per spec, so its 11 icons stopped being
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # Four all-spec buff-row leaves that take the class gate alone (Charge,
+    # Storm Ascendance, Predictable Weather, Storm Chaser in the merged Buffs
+    # band) plus the empty SB Core skeleton group, which the counter sees as a
+    # leaf because an empty controlledChildren is falsy. Core is empty on
+    # purpose: every Stormbringer reminder is spec-shaped (per-spec Aegis
+    # alerts, Wind's pet alert), so nothing class-wide lives there.
+    "stormbringer": 5,
 }
 
 

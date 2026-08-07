@@ -1,0 +1,171 @@
+{
+ "sidekick-page-stormbringer-lightning-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Open at range with Volt... Weave Forked Lightning whenever charges are up... Spend banked Static into Call Lightning... Lean on Electrocute to close a target out... Save the full Static-dump Arm of Thorim'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-stormbringer-lightning.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Storm Ascendance",
+    "Lightning Cage",
+    "Conjure Storm"
+   ],
+   "maintain": [
+    "Volt"
+   ],
+   "priority": [
+    "Volt",
+    "Forked Lightning",
+    "Call Lightning",
+    "Electrocute",
+    "Arm of Thorim"
+   ]
+  },
+  "class": "stormbringer",
+  "content_sha256": "6ece1d4dddc21abf",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/stormbringer/lightning",
+  "spec": "lightning",
+  "transcribed_by": "stormbringer draft pass"
+ },
+ "sidekick-page-stormbringer-maelstrom-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Open with Brine spam... Once Conductive is capped, spend it through Torrential Wrath... Weave in the Stormflow channel... Use Drown on tougher single mobs... Against packs, swap to Deluge'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-stormbringer-maelstrom.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Stormfury",
+    "Thunder Ward",
+    "Storm Ascendance"
+   ],
+   "maintain": [
+    "Drown",
+    "Stormcloud"
+   ],
+   "priority": [
+    "Brine",
+    "Torrential Wrath",
+    "Stormflow",
+    "Drown",
+    "Deluge"
+   ]
+  },
+  "class": "stormbringer",
+  "content_sha256": "ba10d937d6a650e4",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/stormbringer/maelstrom",
+  "spec": "maelstrom",
+  "transcribed_by": "stormbringer draft pass"
+ },
+ "sidekick-page-stormbringer-wind-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Use Gale on cooldown (3 charges)... dump Static into Aeroblast... drop Updraft under the group... Command your elemental with Flurry or Skyfall... Kiss of the Clouds right before the pull'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-stormbringer-wind.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Unshackle",
+    "Skyfall",
+    "Tempest's Call",
+    "Surge of Might"
+   ],
+   "maintain": [
+    "Tailwind",
+    "Aerodynamics",
+    "Clear Skies"
+   ],
+   "priority": [
+    "Gale",
+    "Aeroblast",
+    "Updraft",
+    "Flurry",
+    "Kiss of the Clouds"
+   ]
+  },
+  "class": "stormbringer",
+  "content_sha256": "b7b3f455bf0255f7",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/stormbringer/wind",
+  "spec": "wind",
+  "transcribed_by": "stormbringer draft pass"
+ },
+ "sidekick-stormbringer-lightning-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Lord of Lightning",
+    "Thorim's Fury"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Electrocutioner"
+   ]
+  },
+  "class": "stormbringer",
+  "content_sha256": "629a0a06d2371e79",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/stormbringer/lightning",
+  "spec": "lightning"
+ },
+ "sidekick-stormbringer-maelstrom-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Electrify",
+    "Thunder Ward"
+   ],
+   "maintain": [
+    "Drown"
+   ],
+   "priority": []
+  },
+  "class": "stormbringer",
+  "content_sha256": "e92b259886a5daee",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/stormbringer/maelstrom",
+  "spec": "maelstrom"
+ },
+ "sidekick-stormbringer-wind-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Fog",
+    "Invigorating Winds",
+    "Lexicon of Servitude"
+   ],
+   "maintain": [],
+   "priority": []
+  },
+  "class": "stormbringer",
+  "content_sha256": "43cd66ee2bd6dfdd",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/stormbringer/wind",
+  "spec": "wind"
+ }
+}

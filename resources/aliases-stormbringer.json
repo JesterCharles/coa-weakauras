@@ -1,0 +1,12 @@
+{
+ "Thorim's Fury": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited by the Sidekick rotation blob (2026-08-02) as a Lightning burst cooldown. The only db.exil.es row of this name is 802702, rank 'Duration +' -- a component with no cooldown, cost or GCD. No CoA castable exists in either database and the three CoA spec pages never mention it; reads as pre-CoA hero-class leftovers in the blob."
+ },
+ "Electrify": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited by the Sidekick rotation blob as a Maelstrom burst cooldown. No record under this name in db.exil.es or db.ascension.gg; the Maelstrom spec page never mentions it. Stale blob entry."
+ }
+}

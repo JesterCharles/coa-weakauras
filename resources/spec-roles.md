@@ -57,6 +57,18 @@ missing without any error.
 | 24 | Pyromancer | incineration | damage |
 | 24 | Pyromancer | flameweaving | healing |
 | 24 | Pyromancer | draconic | damage |
+| 16 | Stormbringer | lightning | damage |
+| 16 | Stormbringer | wind | damage |
+| 16 | Stormbringer | maelstrom | damage |
+
+**Stormbringer provenance (16):** not yet observed in game — filled from
+citable Sidekick kit statements, one per spec: lightning "There is no self-heal
+anywhere in the kit", wind "no ally HP heal at all … not a group's healer"
+(a buffer/support that is still `damage` in this three-role vocabulary),
+maelstrom "no healer-grade throughput and no ally heal underneath"
+(`resources/sidekick-stormbringer-*.md`, scraped 2026-08-07). No tank kit
+appears in any of the three pages. Replace with an in-game read when one
+exists.
 | 32 | Runemaster | glyphic | damage |
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |

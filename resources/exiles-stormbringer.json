@@ -1,0 +1,2954 @@
+{
+ "Absolute Control": {
+  "ids": [
+   300613
+  ],
+  "icon": null
+ },
+ "Activate Supercharged - Remove Static": {
+  "ids": [
+   560019
+  ],
+  "icon": null
+ },
+ "Active Thunder Orb": {
+  "ids": [
+   706659
+  ],
+  "icon": null
+ },
+ "Add 10 Static": {
+  "ids": [
+   804084
+  ],
+  "icon": null
+ },
+ "Add 10 Static (Crackling Surge)": {
+  "ids": [
+   804648
+  ],
+  "icon": null
+ },
+ "Add 10 Static Base (Crackling Surge)": {
+  "ids": [
+   804596
+  ],
+  "icon": null
+ },
+ "Add 2 Flux": {
+  "ids": [
+   704224
+  ],
+  "icon": null
+ },
+ "Add 2 Static (MASTER ONLY)": {
+  "ids": [
+   807463
+  ],
+  "icon": null
+ },
+ "Add 5 Static": {
+  "ids": [
+   573216
+  ],
+  "icon": null
+ },
+ "Add Stormborn": {
+  "ids": [
+   800055
+  ],
+  "icon": null
+ },
+ "Aeroblast": {
+  "ids": [
+   801839
+  ],
+  "icon": null
+ },
+ "Aerodynamics": {
+  "ids": [
+   806124
+  ],
+  "icon": null
+ },
+ "Aerodynamics UNUSED": {
+  "ids": [
+   572716
+  ],
+  "icon": null
+ },
+ "Aerology": {
+  "ids": [
+   806480
+  ],
+  "icon": null
+ },
+ "Aeromancy": {
+  "ids": [
+   705708
+  ],
+  "icon": null
+ },
+ "Aether Current": {
+  "ids": [
+   531512
+  ],
+  "icon": null
+ },
+ "Aether Focus": {
+  "ids": [
+   705713
+  ],
+  "icon": null
+ },
+ "Aether Mastery": {
+  "ids": [
+   807462
+  ],
+  "icon": null
+ },
+ "Aether Power": {
+  "ids": [
+   705718
+  ],
+  "icon": null
+ },
+ "Aethermancy": {
+  "ids": [
+   705690
+  ],
+  "icon": null
+ },
+ "Aftershock": {
+  "ids": [
+   705665
+  ],
+  "icon": null
+ },
+ "Air Elemental": {
+  "ids": [
+   92097
+  ],
+  "icon": null
+ },
+ "Air Elemental Passive": {
+  "ids": [
+   806010
+  ],
+  "icon": null
+ },
+ "Air Elemental's Intervention": {
+  "ids": [
+   537152
+  ],
+  "icon": null
+ },
+ "Air Flow": {
+  "ids": [
+   707548
+  ],
+  "icon": null
+ },
+ "Airbending": {
+  "ids": [
+   705710
+  ],
+  "icon": null
+ },
+ "Airing Out": {
+  "ids": [
+   705675
+  ],
+  "icon": null
+ },
+ "Altered Course": {
+  "ids": [
+   707053
+  ],
+  "icon": null
+ },
+ "Amped Flow": {
+  "ids": [
+   567556
+  ],
+  "icon": null
+ },
+ "Amping Up": {
+  "ids": [
+   707056
+  ],
+  "icon": null
+ },
+ "Arc Lightning": {
+  "ids": [
+   300594
+  ],
+  "icon": null
+ },
+ "Arcane Lightning": {
+  "ids": [
+   300618
+  ],
+  "icon": null
+ },
+ "Arm of Thorim": {
+  "ids": [
+   801847
+  ],
+  "icon": null
+ },
+ "Arm of Thorim Hidden Passive": {
+  "ids": [
+   704221
+  ],
+  "icon": null
+ },
+ "Ascension": {
+  "ids": [
+   301260
+  ],
+  "icon": null
+ },
+ "At Least 10 Static": {
+  "ids": [
+   680869
+  ],
+  "icon": null
+ },
+ "At Least 20 Static": {
+  "ids": [
+   681016
+  ],
+  "icon": null
+ },
+ "At Least 25 Static": {
+  "ids": [
+   681126
+  ],
+  "icon": null
+ },
+ "At Least 30 Static": {
+  "ids": [
+   707156
+  ],
+  "icon": null
+ },
+ "At Least 40 Static": {
+  "ids": [
+   573249
+  ],
+  "icon": null
+ },
+ "At Least 50 Static": {
+  "ids": [
+   707050
+  ],
+  "icon": null
+ },
+ "Atmospheric Pressure": {
+  "ids": [
+   803565
+  ],
+  "icon": null
+ },
+ "Aurat Scripts": {
+  "ids": [
+   712431
+  ],
+  "icon": null
+ },
+ "Avatar of Lei Shen": {
+  "ids": [
+   570085
+  ],
+  "icon": null
+ },
+ "Aviana's Blessing": {
+  "ids": [
+   705720
+  ],
+  "icon": null
+ },
+ "Avoidance": {
+  "ids": [
+   573358
+  ],
+  "icon": null
+ },
+ "Backtrack Delayer": {
+  "ids": [
+   706976
+  ],
+  "icon": null
+ },
+ "Backtrack Rift Delayer": {
+  "ids": [
+   706977
+  ],
+  "icon": null
+ },
+ "Barometric Pressure": {
+  "ids": [
+   803563
+  ],
+  "icon": null
+ },
+ "Battering Winds": {
+  "ids": [
+   704213
+  ],
+  "icon": null
+ },
+ "Binder of Storms": {
+  "ids": [
+   705726
+  ],
+  "icon": null
+ },
+ "Binding Shock": {
+  "ids": [
+   804597
+  ],
+  "icon": null
+ },
+ "Blessing of Air": {
+  "ids": [
+   804022
+  ],
+  "icon": null
+ },
+ "Blessing of Lei Shen": {
+  "ids": [
+   561228
+  ],
+  "icon": null
+ },
+ "Body of Lightning": {
+  "ids": [
+   500041
+  ],
+  "icon": null
+ },
+ "Breath of Air": {
+  "ids": [
+   300836
+  ],
+  "icon": null
+ },
+ "Breath of Air Knockback": {
+  "ids": [
+   300838
+  ],
+  "icon": null
+ },
+ "Breezeway": {
+  "ids": [
+   705701
+  ],
+  "icon": null
+ },
+ "Brine": {
+  "ids": [
+   807105
+  ],
+  "icon": null
+ },
+ "Bursting": {
+  "ids": [
+   806397
+  ],
+  "icon": null
+ },
+ "COSMETIC LIGHTNING": {
+  "ids": [
+   500048
+  ],
+  "icon": null
+ },
+ "Call Lightning": {
+  "ids": [
+   500040
+  ],
+  "icon": null
+ },
+ "Call of the Lightning": {
+  "ids": [
+   575843
+  ],
+  "icon": null
+ },
+ "Call of the Maelstrom": {
+  "ids": [
+   654545
+  ],
+  "icon": null
+ },
+ "Call of the Storm": {
+  "ids": [
+   578311
+  ],
+  "icon": null
+ },
+ "Call of the Wind": {
+  "ids": [
+   804018
+  ],
+  "icon": null
+ },
+ "Call of the Wind (Pet Heal)": {
+  "ids": [
+   520088
+  ],
+  "icon": null
+ },
+ "Calm the Storm": {
+  "ids": [
+   572303
+  ],
+  "icon": null
+ },
+ "Charge": {
+  "ids": [
+   804826
+  ],
+  "icon": null
+ },
+ "Charged Conduit": {
+  "ids": [
+   803790
+  ],
+  "icon": null
+ },
+ "Child of the Storm": {
+  "ids": [
+   801500
+  ],
+  "icon": null
+ },
+ "Clear Skies": {
+  "ids": [
+   500069
+  ],
+  "icon": null
+ },
+ "Clearsky Pendant": {
+  "ids": [
+   705709
+  ],
+  "icon": null
+ },
+ "Cloak of Clouds": {
+  "ids": [
+   355337
+  ],
+  "icon": null
+ },
+ "Cloud Ride Hidden Hover": {
+  "ids": [
+   500944
+  ],
+  "icon": null
+ },
+ "Cloud Watcher": {
+  "ids": [
+   562227
+  ],
+  "icon": null
+ },
+ "Cloudburst": {
+  "ids": [
+   801838
+  ],
+  "icon": null
+ },
+ "Cloudsurfer": {
+  "ids": [
+   560024
+  ],
+  "icon": null
+ },
+ "CoA Aura - Stormbringer - Lightning": {
+  "ids": [
+   887034
+  ],
+  "icon": null
+ },
+ "CoA Aura - Stormbringer - Maelstrom": {
+  "ids": [
+   887036
+  ],
+  "icon": null
+ },
+ "CoA Aura - Stormbringer - Wind": {
+  "ids": [
+   887035
+  ],
+  "icon": null
+ },
+ "CoA Aura - Stormbringer Class": {
+  "ids": [
+   887004
+  ],
+  "icon": null
+ },
+ "Comforting Winds": {
+  "ids": [
+   584238
+  ],
+  "icon": null
+ },
+ "Concentrated Static": {
+  "ids": [
+   570722
+  ],
+  "icon": null
+ },
+ "Conduction": {
+  "ids": [
+   567560
+  ],
+  "icon": null
+ },
+ "Conductive": {
+  "ids": [
+   92098
+  ],
+  "icon": null
+ },
+ "Conductive Add": {
+  "ids": [
+   567571
+  ],
+  "icon": null
+ },
+ "Conductive Guard": {
+  "ids": [
+   567528
+  ],
+  "icon": null
+ },
+ "Conductive Hidden 5 Stack Check": {
+  "ids": [
+   430871
+  ],
+  "icon": null
+ },
+ "Conductivity": {
+  "ids": [
+   705647
+  ],
+  "icon": null
+ },
+ "Conductor In Charge": {
+  "ids": [
+   300961
+  ],
+  "icon": null
+ },
+ "Conduit": {
+  "ids": [
+   704200
+  ],
+  "icon": null
+ },
+ "Conjuration Mastery": {
+  "ids": [
+   300595
+  ],
+  "icon": null
+ },
+ "Conjure Rainstorm": {
+  "ids": [
+   300627
+  ],
+  "icon": null
+ },
+ "Conjure Storm": {
+  "ids": [
+   800227
+  ],
+  "icon": null
+ },
+ "Conjure Thunder Ale": {
+  "ids": [
+   804763
+  ],
+  "icon": null
+ },
+ "Conjure Thunderale": {
+  "ids": [
+   807850
+  ],
+  "icon": null
+ },
+ "Conjure Thunderkeg": {
+  "ids": [
+   807849
+  ],
+  "icon": null
+ },
+ "Crackle": {
+  "ids": [
+   500922
+  ],
+  "icon": null
+ },
+ "Crackling Burst": {
+  "ids": [
+   503597
+  ],
+  "icon": null
+ },
+ "Crackling Devastation": {
+  "ids": [
+   570720
+  ],
+  "icon": null
+ },
+ "Critical Circuit": {
+  "ids": [
+   807314
+  ],
+  "icon": null
+ },
+ "Crushing Pressure": {
+  "ids": [
+   803564
+  ],
+  "icon": null
+ },
+ "Current Conversion": {
+  "ids": [
+   705670
+  ],
+  "icon": null
+ },
+ "Cuts to the Bone": {
+  "ids": [
+   705680
+  ],
+  "icon": null
+ },
+ "Cycle of Life": {
+  "ids": [
+   807479
+  ],
+  "icon": null
+ },
+ "Cyclone's Embrace": {
+  "ids": [
+   301318
+  ],
+  "icon": null
+ },
+ "Cyclone's Recharge": {
+  "ids": [
+   300827
+  ],
+  "icon": null
+ },
+ "Cyclonean Protection": {
+  "ids": [
+   804067
+  ],
+  "icon": null
+ },
+ "Dark Skies": {
+  "ids": [
+   300593
+  ],
+  "icon": null
+ },
+ "Death Runes": {
+  "ids": [
+   707609
+  ],
+  "icon": null
+ },
+ "Debilitation": {
+  "ids": [
+   567566
+  ],
+  "icon": null
+ },
+ "Deluge": {
+  "ids": [
+   806400
+  ],
+  "icon": null
+ },
+ "Discharge": {
+  "ids": [
+   805288
+  ],
+  "icon": null
+ },
+ "Discharge Hidden (Weather Warning)": {
+  "ids": [
+   805661
+  ],
+  "icon": null
+ },
+ "Disciple of Thorim": {
+  "ids": [
+   705727
+  ],
+  "icon": null
+ },
+ "Dismiss Elemental": {
+  "ids": [
+   583022
+  ],
+  "icon": null
+ },
+ "Douse": {
+  "ids": [
+   807559
+  ],
+  "icon": null
+ },
+ "Drop Typhoon Stacks": {
+  "ids": [
+   706626
+  ],
+  "icon": null
+ },
+ "Drown": {
+  "ids": [
+   806407
+  ],
+  "icon": null
+ },
+ "Drown Cast Blocker": {
+  "ids": [
+   806450
+  ],
+  "icon": null
+ },
+ "Drown Stack Adder Passive": {
+  "ids": [
+   823692
+  ],
+  "icon": null
+ },
+ "Drowning": {
+  "ids": [
+   806406
+  ],
+  "icon": null
+ },
+ "Echo Rift": {
+  "ids": [
+   803023
+  ],
+  "icon": null
+ },
+ "Eclipse": {
+  "ids": [
+   536253
+  ],
+  "icon": null
+ },
+ "Electric Energy": {
+  "ids": [
+   804278
+  ],
+  "icon": null
+ },
+ "Electric Field": {
+  "ids": [
+   300599
+  ],
+  "icon": null
+ },
+ "Electric Ingenuity": {
+  "ids": [
+   632621
+  ],
+  "icon": null
+ },
+ "Electrical Charge": {
+  "ids": [
+   704149
+  ],
+  "icon": null
+ },
+ "Electrified": {
+  "ids": [
+   573440
+  ],
+  "icon": null
+ },
+ "Electrified Water Elemental": {
+  "ids": [
+   573441
+  ],
+  "icon": null
+ },
+ "Electrified Waters": {
+  "ids": [
+   573436
+  ],
+  "icon": null
+ },
+ "Electrified Waters DEPRECATED": {
+  "ids": [
+   573439
+  ],
+  "icon": null
+ },
+ "Electrifying Aura": {
+  "ids": [
+   560568
+  ],
+  "icon": null
+ },
+ "Electrocute": {
+  "ids": [
+   801844
+  ],
+  "icon": null
+ },
+ "Electrocutioner": {
+  "ids": [
+   92096
+  ],
+  "icon": null
+ },
+ "Energizing Magic": {
+  "ids": [
+   806234
+  ],
+  "icon": null
+ },
+ "Enveloping Winds": {
+  "ids": [
+   707546
+  ],
+  "icon": null
+ },
+ "Evergale": {
+  "ids": [
+   705717
+  ],
+  "icon": null
+ },
+ "Everlasting Invigoration": {
+  "ids": [
+   706628
+  ],
+  "icon": null
+ },
+ "Exhale": {
+  "ids": [
+   801846
+  ],
+  "icon": null
+ },
+ "Exhaustion": {
+  "ids": [
+   573255
+  ],
+  "icon": null
+ },
+ "Eye of the Storm": {
+  "ids": [
+   806307
+  ],
+  "icon": null
+ },
+ "Eye of the Tornado": {
+  "ids": [
+   706297
+  ],
+  "icon": null
+ },
+ "Fast as Lightning": {
+  "ids": [
+   570057
+  ],
+  "icon": null
+ },
+ "Fist of Lei Shen": {
+  "ids": [
+   806309
+  ],
+  "icon": null
+ },
+ "Flow": {
+  "ids": [
+   570128
+  ],
+  "icon": null
+ },
+ "Flow of Wrath": {
+  "ids": [
+   572124
+  ],
+  "icon": null
+ },
+ "Flurry": {
+  "ids": [
+   707543
+  ],
+  "icon": null
+ },
+ "Flurry Pet Trigger": {
+  "ids": [
+   807465
+  ],
+  "icon": null
+ },
+ "Flurry Pet Trigger2": {
+  "ids": [
+   807556
+  ],
+  "icon": null
+ },
+ "Flux": {
+  "ids": [
+   804840
+  ],
+  "icon": null
+ },
+ "Flux Arc": {
+  "ids": [
+   705643
+  ],
+  "icon": null
+ },
+ "Flux Arc Precursor": {
+  "ids": [
+   707049
+  ],
+  "icon": null
+ },
+ "Flux Arc Trigger": {
+  "ids": [
+   707041
+  ],
+  "icon": null
+ },
+ "Flux Arc Trigger 2": {
+  "ids": [
+   707048
+  ],
+  "icon": null
+ },
+ "Flux Damage Blocker": {
+  "ids": [
+   707036
+  ],
+  "icon": null
+ },
+ "Fluxblast": {
+  "ids": [
+   804841
+  ],
+  "icon": null
+ },
+ "Fluxcasting": {
+  "ids": [
+   804842
+  ],
+  "icon": null
+ },
+ "Fluxocute": {
+  "ids": [
+   707039
+  ],
+  "icon": null
+ },
+ "Focal Point": {
+  "ids": [
+   680876
+  ],
+  "icon": null
+ },
+ "Fog": {
+  "ids": [
+   806100
+  ],
+  "icon": null
+ },
+ "Force Wave": {
+  "ids": [
+   806394
+  ],
+  "icon": null
+ },
+ "Forked Lightning": {
+  "ids": [
+   801851
+  ],
+  "icon": null
+ },
+ "Forked Lightning Hidden Passive": {
+  "ids": [
+   704220
+  ],
+  "icon": null
+ },
+ "Fractured Clone Delayer": {
+  "ids": [
+   704219
+  ],
+  "icon": null
+ },
+ "Freewind": {
+  "ids": [
+   548621
+  ],
+  "icon": null
+ },
+ "Frost Runes": {
+  "ids": [
+   705751
+  ],
+  "icon": null
+ },
+ "Frozen Clock": {
+  "ids": [
+   505166
+  ],
+  "icon": null
+ },
+ "Fulmination": {
+  "ids": [
+   707055
+  ],
+  "icon": null
+ },
+ "Fusion": {
+  "ids": [
+   707046
+  ],
+  "icon": null
+ },
+ "Gale": {
+  "ids": [
+   804036
+  ],
+  "icon": null
+ },
+ "Gale Breath Stun": {
+  "ids": [
+   300840
+  ],
+  "icon": null
+ },
+ "Gale Disturbance": {
+  "ids": [
+   300831
+  ],
+  "icon": null
+ },
+ "Gale Guard": {
+  "ids": [
+   500923
+  ],
+  "icon": null
+ },
+ "Gathered Energy": {
+  "ids": [
+   705679
+  ],
+  "icon": null
+ },
+ "Generate Typhoon Pet": {
+  "ids": [
+   705699
+  ],
+  "icon": null
+ },
+ "Generate Typhoon Self": {
+  "ids": [
+   500348
+  ],
+  "icon": null
+ },
+ "Gift of Air": {
+  "ids": [
+   583254
+  ],
+  "icon": null
+ },
+ "Gilded Greatsword": {
+  "ids": [
+   505163
+  ],
+  "icon": null
+ },
+ "Glyph of Change": {
+  "ids": [
+   705712
+  ],
+  "icon": null
+ },
+ "Greater Call of the Lightning": {
+  "ids": [
+   575846
+  ],
+  "icon": null
+ },
+ "Greater Call of the Storm": {
+  "ids": [
+   578316
+  ],
+  "icon": null
+ },
+ "Greater Call of the Wind": {
+  "ids": [
+   680291
+  ],
+  "icon": null
+ },
+ "Guiding Winds": {
+  "ids": [
+   802330
+  ],
+  "icon": null
+ },
+ "Guiding Winds DEPPRECATED": {
+  "ids": [
+   804037
+  ],
+  "icon": null
+ },
+ "Gust of Wind": {
+  "ids": [
+   500932
+  ],
+  "icon": null
+ },
+ "Haven": {
+  "ids": [
+   705707
+  ],
+  "icon": null
+ },
+ "Haze": {
+  "ids": [
+   503846
+  ],
+  "icon": null
+ },
+ "Heavy Winds": {
+  "ids": [
+   567542
+  ],
+  "icon": null
+ },
+ "High Static Screen": {
+  "ids": [
+   800325
+  ],
+  "icon": null
+ },
+ "High Voltage": {
+  "ids": [
+   500936
+  ],
+  "icon": null
+ },
+ "Homebound Runestone": {
+  "ids": [
+   803022
+  ],
+  "icon": null
+ },
+ "Hurricanes": {
+  "ids": [
+   300839
+  ],
+  "icon": null
+ },
+ "Hurricanes Unshackle Trigger": {
+  "ids": [
+   523522
+  ],
+  "icon": null
+ },
+ "Hydraxxian Apprentice": {
+  "ids": [
+   801862
+  ],
+  "icon": null
+ },
+ "Hydro Powered": {
+  "ids": [
+   300616
+  ],
+  "icon": null
+ },
+ "Hydromatic": {
+  "ids": [
+   300619
+  ],
+  "icon": null
+ },
+ "Improved Body of Lightning": {
+  "ids": [
+   705693
+  ],
+  "icon": null
+ },
+ "Improved Flux": {
+  "ids": [
+   705641
+  ],
+  "icon": null
+ },
+ "Improved Forked Lightning": {
+  "ids": [
+   300597
+  ],
+  "icon": null
+ },
+ "Improved Lightning Rod": {
+  "ids": [
+   705656
+  ],
+  "icon": null
+ },
+ "Improved Voltaic Burst": {
+  "ids": [
+   300608
+  ],
+  "icon": null
+ },
+ "Improved Vortex": {
+  "ids": [
+   705648
+  ],
+  "icon": null
+ },
+ "Insulate": {
+  "ids": [
+   806242
+  ],
+  "icon": null
+ },
+ "Insulate (Damage Reduction)": {
+  "ids": [
+   680925
+  ],
+  "icon": null
+ },
+ "Invigorate Elemental": {
+  "ids": [
+   520085
+  ],
+  "icon": null
+ },
+ "Invigorating Surge": {
+  "ids": [
+   500038
+  ],
+  "icon": null
+ },
+ "Invigorating Winds": {
+  "ids": [
+   572032
+  ],
+  "icon": null
+ },
+ "Invigoration": {
+  "ids": [
+   680918
+  ],
+  "icon": null
+ },
+ "Invigoration (Proc)": {
+  "ids": [
+   806020
+  ],
+  "icon": null
+ },
+ "Invoking Storms": {
+  "ids": [
+   705667
+  ],
+  "icon": null
+ },
+ "Ionic Aura": {
+  "ids": [
+   707652
+  ],
+  "icon": null
+ },
+ "Jolt": {
+  "ids": [
+   707054
+  ],
+  "icon": null
+ },
+ "Kinetic Energy": {
+  "ids": [
+   806409
+  ],
+  "icon": null
+ },
+ "Kiss of the Clouds": {
+  "ids": [
+   500039
+  ],
+  "icon": null
+ },
+ "Lasting Gust": {
+  "ids": [
+   300784
+  ],
+  "icon": null
+ },
+ "Lasting Storm": {
+  "ids": [
+   680856
+  ],
+  "icon": null
+ },
+ "Launch Orbs": {
+  "ids": [
+   801800
+  ],
+  "icon": null
+ },
+ "Lesser Conjure Storm": {
+  "ids": [
+   802701
+  ],
+  "icon": null
+ },
+ "Lesser Orb Shock": {
+  "ids": [
+   801934
+  ],
+  "icon": null
+ },
+ "Lethal Current": {
+  "ids": [
+   705663
+  ],
+  "icon": null
+ },
+ "Leviathan Egg": {
+  "ids": [
+   808649
+  ],
+  "icon": null
+ },
+ "Lexicon of Servitude": {
+  "ids": [
+   520087
+  ],
+  "icon": null
+ },
+ "Leyline Rider Trigger": {
+  "ids": [
+   805618
+  ],
+  "icon": null
+ },
+ "Lightning - Level 15 Passive": {
+  "ids": [
+   578301
+  ],
+  "icon": null
+ },
+ "Lightning Cage": {
+  "ids": [
+   560030
+  ],
+  "icon": null
+ },
+ "Lightning Cage Levitate": {
+  "ids": [
+   520678
+  ],
+  "icon": null
+ },
+ "Lightning Core": {
+  "ids": [
+   806398
+  ],
+  "icon": null
+ },
+ "Lightning Orb Trigger": {
+  "ids": [
+   803003
+  ],
+  "icon": null
+ },
+ "Lightning Rod": {
+  "ids": [
+   300609
+  ],
+  "icon": null
+ },
+ "Lightning Rod Decrementer": {
+  "ids": [
+   800689
+  ],
+  "icon": null
+ },
+ "Lightning Rod Trigger": {
+  "ids": [
+   804598
+  ],
+  "icon": null
+ },
+ "Lightning Tendrils": {
+  "ids": [
+   800100
+  ],
+  "icon": null
+ },
+ "Lightning Whip": {
+  "ids": [
+   806504
+  ],
+  "icon": null
+ },
+ "Lingering Lightning": {
+  "ids": [
+   705651
+  ],
+  "icon": null
+ },
+ "Lingering Storm": {
+  "ids": [
+   705652
+  ],
+  "icon": null
+ },
+ "Living Coil": {
+  "ids": [
+   301170
+  ],
+  "icon": null
+ },
+ "Lord of Lightning": {
+  "ids": [
+   707618
+  ],
+  "icon": null
+ },
+ "Lord of Lightning Hidden Passive": {
+  "ids": [
+   800300
+  ],
+  "icon": null
+ },
+ "Maelstrom - Level 15 Passive": {
+  "ids": [
+   578298
+  ],
+  "icon": null
+ },
+ "Magic Elimination": {
+  "ids": [
+   705668
+  ],
+  "icon": null
+ },
+ "Magic Zap": {
+  "ids": [
+   806098
+  ],
+  "icon": null
+ },
+ "Mana Channeling": {
+  "ids": [
+   804578
+  ],
+  "icon": null
+ },
+ "Managate Trigger": {
+  "ids": [
+   803024
+  ],
+  "icon": null
+ },
+ "Master Airbender": {
+  "ids": [
+   705719
+  ],
+  "icon": null
+ },
+ "Master Airbender (CD Reduction)1": {
+  "ids": [
+   680878
+  ],
+  "icon": null
+ },
+ "Master Airbender (CD Reduction)3": {
+  "ids": [
+   681010
+  ],
+  "icon": null
+ },
+ "Master Airbender (CD Reduction)4": {
+  "ids": [
+   681257
+  ],
+  "icon": null
+ },
+ "Master Elementalist": {
+  "ids": [
+   705662
+  ],
+  "icon": null
+ },
+ "Master of Lightning": {
+  "ids": [
+   705688
+  ],
+  "icon": null
+ },
+ "Megawatt Missile": {
+  "ids": [
+   500045
+  ],
+  "icon": null
+ },
+ "Minor Updraft": {
+  "ids": [
+   681011
+  ],
+  "icon": null
+ },
+ "Minor Updraft Trigger": {
+  "ids": [
+   524701
+  ],
+  "icon": null
+ },
+ "Monsoon": {
+  "ids": [
+   526363
+  ],
+  "icon": null
+ },
+ "Mystic Thunder": {
+  "ids": [
+   501412
+  ],
+  "icon": null
+ },
+ "NEEDS REDONE": {
+  "ids": [
+   806405
+  ],
+  "icon": null
+ },
+ "Nature's Conduit": {
+  "ids": [
+   705685
+  ],
+  "icon": null
+ },
+ "Never Strikes Twice": {
+  "ids": [
+   803555
+  ],
+  "icon": null
+ },
+ "Never Strikes Twice?": {
+  "ids": [
+   804828
+  ],
+  "icon": null
+ },
+ "Nimbus": {
+  "ids": [
+   704212
+  ],
+  "icon": null
+ },
+ "Orb Master": {
+  "ids": [
+   300614
+  ],
+  "icon": null
+ },
+ "Orb Shock": {
+  "ids": [
+   801863
+  ],
+  "icon": null
+ },
+ "Orb Siphon": {
+  "ids": [
+   801872
+  ],
+  "icon": null
+ },
+ "Orbforce": {
+  "ids": [
+   806403
+  ],
+  "icon": null
+ },
+ "Orbforce Push": {
+  "ids": [
+   806404
+  ],
+  "icon": null
+ },
+ "Orbified": {
+  "ids": [
+   806462
+  ],
+  "icon": null
+ },
+ "Orbit": {
+  "ids": [
+   706642
+  ],
+  "icon": null
+ },
+ "Orbit Launch": {
+  "ids": [
+   524943
+  ],
+  "icon": null
+ },
+ "Overload Mechanical": {
+  "ids": [
+   707365
+  ],
+  "icon": null
+ },
+ "Passing Wind": {
+  "ids": [
+   707667
+  ],
+  "icon": null
+ },
+ "Perpetual Shock": {
+  "ids": [
+   300625
+  ],
+  "icon": null
+ },
+ "Perpetual Shock Periodic Passive": {
+  "ids": [
+   570055
+  ],
+  "icon": null
+ },
+ "Perpetual Storm": {
+  "ids": [
+   801864
+  ],
+  "icon": null
+ },
+ "Piercing Lightning": {
+  "ids": [
+   578302
+  ],
+  "icon": null
+ },
+ "Ponder The Storms": {
+  "ids": [
+   503842
+  ],
+  "icon": null
+ },
+ "Power Sphere": {
+  "ids": [
+   706433
+  ],
+  "icon": null
+ },
+ "Power Surge": {
+  "ids": [
+   500926
+  ],
+  "icon": null
+ },
+ "Power Surge Supercharged Delayer": {
+  "ids": [
+   523360
+  ],
+  "icon": null
+ },
+ "Power the Elements": {
+  "ids": [
+   705721
+  ],
+  "icon": null
+ },
+ "Predictable Weather": {
+  "ids": [
+   807233
+  ],
+  "icon": null
+ },
+ "Pressure Release (Energize)": {
+  "ids": [
+   681132
+  ],
+  "icon": null
+ },
+ "Pressuring Storms": {
+  "ids": [
+   6801859
+  ],
+  "icon": null
+ },
+ "Prodigy of Lei Shen": {
+  "ids": [
+   560023
+  ],
+  "icon": null
+ },
+ "Pulse Conversion": {
+  "ids": [
+   707619
+  ],
+  "icon": null
+ },
+ "Quick Conduction": {
+  "ids": [
+   806413
+  ],
+  "icon": null
+ },
+ "Quickdraft": {
+  "ids": [
+   705704
+  ],
+  "icon": null
+ },
+ "Quicken Servant": {
+  "ids": [
+   806018
+  ],
+  "icon": null
+ },
+ "Raging Storm": {
+  "ids": [
+   800014
+  ],
+  "icon": null
+ },
+ "Raging Typhoon": {
+  "ids": [
+   500290
+  ],
+  "icon": null
+ },
+ "Raging Zephyr": {
+  "ids": [
+   704201
+  ],
+  "icon": null
+ },
+ "Raining and Pouring": {
+  "ids": [
+   706660
+  ],
+  "icon": null
+ },
+ "Razorwind": {
+  "ids": [
+   806223
+  ],
+  "icon": null
+ },
+ "Reached 100 Static": {
+  "ids": [
+   803124
+  ],
+  "icon": null
+ },
+ "Reduce 1 Static (Passive Drain)": {
+  "ids": [
+   804274
+  ],
+  "icon": null
+ },
+ "Reduce 15 Static (Supercharge)": {
+  "ids": [
+   805067
+  ],
+  "icon": null
+ },
+ "Reduce 20 Static": {
+  "ids": [
+   804839
+  ],
+  "icon": null
+ },
+ "Reduce 50 Static": {
+  "ids": [
+   704223
+  ],
+  "icon": null
+ },
+ "Reduce Supercharge Cooldown": {
+  "ids": [
+   800761
+  ],
+  "icon": null
+ },
+ "Reduce Thunderbolt CD": {
+  "ids": [
+   801876
+  ],
+  "icon": null
+ },
+ "Refresh Static": {
+  "ids": [
+   803101
+  ],
+  "icon": null
+ },
+ "Remove Aether Boon": {
+  "ids": [
+   705714
+  ],
+  "icon": null
+ },
+ "Remove At Least 20 Static": {
+  "ids": [
+   680926
+  ],
+  "icon": null
+ },
+ "Remove At Least 25 Static": {
+  "ids": [
+   681144
+  ],
+  "icon": null
+ },
+ "Remove At Least 40 Static": {
+  "ids": [
+   707101
+  ],
+  "icon": null
+ },
+ "Remove At Least 50 Static": {
+  "ids": [
+   707052
+  ],
+  "icon": null
+ },
+ "Remove At Leat 10 Static": {
+  "ids": [
+   706669
+  ],
+  "icon": null
+ },
+ "Remove Charged Effects": {
+  "ids": [
+   805068
+  ],
+  "icon": null
+ },
+ "Residual Flux": {
+  "ids": [
+   503843
+  ],
+  "icon": null
+ },
+ "Residual Power": {
+  "ids": [
+   804605
+  ],
+  "icon": null
+ },
+ "Resurgence": {
+  "ids": [
+   300623
+  ],
+  "icon": null
+ },
+ "Return Wind Spirit": {
+  "ids": [
+   527021
+  ],
+  "icon": null
+ },
+ "Ride The Storm": {
+  "ids": [
+   806370
+  ],
+  "icon": null
+ },
+ "Ride the Lightning": {
+  "ids": [
+   800099
+  ],
+  "icon": null
+ },
+ "Second Wind": {
+  "ids": [
+   807223
+  ],
+  "icon": null
+ },
+ "Self Conduit": {
+  "ids": [
+   567564
+  ],
+  "icon": null
+ },
+ "Servant Tap (25%)": {
+  "ids": [
+   801880
+  ],
+  "icon": null
+ },
+ "Shock": {
+  "ids": [
+   804020
+  ],
+  "icon": null
+ },
+ "Shock Hidden Passive": {
+  "ids": [
+   707058
+  ],
+  "icon": null
+ },
+ "Shocked to Life": {
+  "ids": [
+   504597
+  ],
+  "icon": null
+ },
+ "Shocking": {
+  "ids": [
+   705683
+  ],
+  "icon": null
+ },
+ "Shocking Aegis": {
+  "ids": [
+   680316
+  ],
+  "icon": null
+ },
+ "Shockingly Powerful": {
+  "ids": [
+   572310
+  ],
+  "icon": null
+ },
+ "Skyfall": {
+  "ids": [
+   804830
+  ],
+  "icon": null
+ },
+ "Slipstream Pull Trigger": {
+  "ids": [
+   725392
+  ],
+  "icon": null
+ },
+ "Slipstream Puller": {
+  "ids": [
+   712436
+  ],
+  "icon": null
+ },
+ "Slipstream Puller Solo Trigger": {
+  "ids": [
+   707568
+  ],
+  "icon": null
+ },
+ "Spark": {
+  "ids": [
+   301261
+  ],
+  "icon": null
+ },
+ "Sparks": {
+  "ids": [
+   301298
+  ],
+  "icon": null
+ },
+ "Spellcharge": {
+  "ids": [
+   803957
+  ],
+  "icon": null
+ },
+ "Spellstorm Mastery": {
+  "ids": [
+   705659
+  ],
+  "icon": null
+ },
+ "Sphere of Power": {
+  "ids": [
+   706437
+  ],
+  "icon": null
+ },
+ "Spheres of Power": {
+  "ids": [
+   706434
+  ],
+  "icon": null
+ },
+ "Spider Bomb": {
+  "ids": [
+   802495
+  ],
+  "icon": null
+ },
+ "Spirit Winds": {
+  "ids": [
+   705681
+  ],
+  "icon": null
+ },
+ "Spread Flux": {
+  "ids": [
+   707040
+  ],
+  "icon": null
+ },
+ "Stabilizing Pressure": {
+  "ids": [
+   572399
+  ],
+  "icon": null
+ },
+ "Stasis": {
+  "ids": [
+   804419
+  ],
+  "icon": null
+ },
+ "Static": {
+  "ids": [
+   803102
+  ],
+  "icon": null
+ },
+ "Static Decay": {
+  "ids": [
+   560027
+  ],
+  "icon": null
+ },
+ "Static Decay Timer": {
+  "ids": [
+   560025
+  ],
+  "icon": null
+ },
+ "Static Decay Trigger": {
+  "ids": [
+   560026
+  ],
+  "icon": null
+ },
+ "Static Electricity": {
+  "ids": [
+   300628
+  ],
+  "icon": null
+ },
+ "Static Field": {
+  "ids": [
+   801867
+  ],
+  "icon": null
+ },
+ "Static Lock": {
+  "ids": [
+   800692
+  ],
+  "icon": null
+ },
+ "Stolen Composite Bow": {
+  "ids": [
+   504598
+  ],
+  "icon": null
+ },
+ "Storm Alert": {
+  "ids": [
+   707044
+  ],
+  "icon": null
+ },
+ "Storm Ascendance": {
+  "ids": [
+   681110
+  ],
+  "icon": null
+ },
+ "Storm Barrier": {
+  "ids": [
+   707204
+  ],
+  "icon": null
+ },
+ "Storm Bond": {
+  "ids": [
+   500580
+  ],
+  "icon": null
+ },
+ "Storm Channeling": {
+  "ids": [
+   804040
+  ],
+  "icon": null
+ },
+ "Storm Chaser": {
+  "ids": [
+   300612
+  ],
+  "icon": null
+ },
+ "Storm Clouds": {
+  "ids": [
+   705686
+  ],
+  "icon": null
+ },
+ "Storm Rage": {
+  "ids": [
+   804015
+  ],
+  "icon": null
+ },
+ "Storm Rider": {
+  "ids": [
+   705677
+  ],
+  "icon": null
+ },
+ "Storm Sorcery": {
+  "ids": [
+   705689
+  ],
+  "icon": null
+ },
+ "Storm Soul": {
+  "ids": [
+   300591
+  ],
+  "icon": null
+ },
+ "Storm Steward": {
+  "ids": [
+   806019
+  ],
+  "icon": null
+ },
+ "Storm Synergy": {
+  "ids": [
+   578300
+  ],
+  "icon": null
+ },
+ "Storm Tether": {
+  "ids": [
+   567558
+  ],
+  "icon": null
+ },
+ "Storm Warning": {
+  "ids": [
+   567533
+  ],
+  "icon": null
+ },
+ "Storm's Fury": {
+  "ids": [
+   806482
+  ],
+  "icon": null
+ },
+ "Stormbreaker": {
+  "ids": [
+   705669
+  ],
+  "icon": null
+ },
+ "Stormbringer Instant Pet Scaling / Heal Aura Applier": {
+  "ids": [
+   524783
+  ],
+  "icon": null
+ },
+ "Stormbringer Pet Periodic Scaling Trigger": {
+  "ids": [
+   524785
+  ],
+  "icon": null
+ },
+ "Stormbringer Pet Scaling Aura": {
+  "ids": [
+   524784
+  ],
+  "icon": null
+ },
+ "Stormbringer Pet Scaling Aura 1": {
+  "ids": [
+   524080
+  ],
+  "icon": null
+ },
+ "Stormbringer Pet Scaling Aura 2": {
+  "ids": [
+   524081
+  ],
+  "icon": null
+ },
+ "Stormbringer Pet Scaling Aura 3": {
+  "ids": [
+   524082
+  ],
+  "icon": null
+ },
+ "Stormbringer Pet Scaling Aura 4": {
+  "ids": [
+   524083
+  ],
+  "icon": null
+ },
+ "Stormcaller": {
+  "ids": [
+   300611
+  ],
+  "icon": null
+ },
+ "Stormcharge": {
+  "ids": [
+   804837
+  ],
+  "icon": null
+ },
+ "Stormcloak": {
+  "ids": [
+   804833
+  ],
+  "icon": null
+ },
+ "Stormcloud": {
+  "ids": [
+   572128
+  ],
+  "icon": null
+ },
+ "Stormflow": {
+  "ids": [
+   567555
+  ],
+  "icon": null
+ },
+ "Stormflow (Electrocute)": {
+  "ids": [
+   567563
+  ],
+  "icon": null
+ },
+ "Stormflow Slow Passive": {
+  "ids": [
+   706681
+  ],
+  "icon": null
+ },
+ "Stormforged Strike": {
+  "ids": [
+   500193
+  ],
+  "icon": null
+ },
+ "Stormfury": {
+  "ids": [
+   532751
+  ],
+  "icon": null
+ },
+ "Stormfury Hidden Visual": {
+  "ids": [
+   301171
+  ],
+  "icon": null
+ },
+ "Stormhammer": {
+  "ids": [
+   806599
+  ],
+  "icon": null
+ },
+ "Storming": {
+  "ids": [
+   806401
+  ],
+  "icon": null
+ },
+ "Stormshield": {
+  "ids": [
+   800107
+  ],
+  "icon": null
+ },
+ "Stormsurge": {
+  "ids": [
+   705673
+  ],
+  "icon": null
+ },
+ "Stormy Days": {
+  "ids": [
+   680857
+  ],
+  "icon": null
+ },
+ "Studious": {
+  "ids": [
+   705657
+  ],
+  "icon": null
+ },
+ "Sturdy As The Storm": {
+  "ids": [
+   804831
+  ],
+  "icon": null
+ },
+ "Summon Backtrack Clone": {
+  "ids": [
+   706974
+  ],
+  "icon": null
+ },
+ "Summon Fractured Clone": {
+  "ids": [
+   801307
+  ],
+  "icon": null
+ },
+ "Summon Lightning Orb": {
+  "ids": [
+   805283
+  ],
+  "icon": null
+ },
+ "Summon: Air Elemental": {
+  "ids": [
+   804019
+  ],
+  "icon": null
+ },
+ "Summon: Lesser Thunder Orb": {
+  "ids": [
+   801640
+  ],
+  "icon": null
+ },
+ "Summon: Thunder Orb": {
+  "ids": [
+   801802
+  ],
+  "icon": null
+ },
+ "Supercharge": {
+  "ids": [
+   806496
+  ],
+  "icon": null
+ },
+ "Supercharged": {
+  "ids": [
+   806495
+  ],
+  "icon": null
+ },
+ "Supercharged Power Surge": {
+  "ids": [
+   520233
+  ],
+  "icon": null
+ },
+ "Superconductor": {
+  "ids": [
+   705646
+  ],
+  "icon": null
+ },
+ "Surge Overload": {
+  "ids": [
+   300596
+  ],
+  "icon": null
+ },
+ "Surge of Might": {
+  "ids": [
+   520083
+  ],
+  "icon": null
+ },
+ "Sweeping Winds": {
+  "ids": [
+   705706
+  ],
+  "icon": null
+ },
+ "Tailwind": {
+  "ids": [
+   804035
+  ],
+  "icon": null
+ },
+ "Tears of Lordaeron": {
+  "ids": [
+   705753
+  ],
+  "icon": null
+ },
+ "Tempest": {
+  "ids": [
+   803002
+  ],
+  "icon": null
+ },
+ "Tempest Aegis": {
+  "ids": [
+   680334
+  ],
+  "icon": null
+ },
+ "Tempest Calling": {
+  "ids": [
+   707615
+  ],
+  "icon": null
+ },
+ "Tempest Sovereign": {
+  "ids": [
+   560020
+  ],
+  "icon": null
+ },
+ "Tempest's Call": {
+  "ids": [
+   560567
+  ],
+  "icon": null
+ },
+ "The Forecast Is In!": {
+  "ids": [
+   681022
+  ],
+  "icon": null
+ },
+ "Thorim's Favor": {
+  "ids": [
+   805065
+  ],
+  "icon": null
+ },
+ "Thorim's Fury": {
+  "ids": [
+   802702
+  ],
+  "icon": null
+ },
+ "Thorim's Gift": {
+  "ids": [
+   570173
+  ],
+  "icon": null
+ },
+ "Thorim's Rage": {
+  "ids": [
+   804048
+  ],
+  "icon": null
+ },
+ "Thorims Favor Orb Shock,Supercharge CD": {
+  "ids": [
+   806497
+  ],
+  "icon": null
+ },
+ "Thunder": {
+  "ids": [
+   800925
+  ],
+  "icon": null
+ },
+ "Thunder Fist": {
+  "ids": [
+   800020
+  ],
+  "icon": null
+ },
+ "Thunder Grip": {
+  "ids": [
+   301219
+  ],
+  "icon": null
+ },
+ "Thunder Infusion": {
+  "ids": [
+   503841
+  ],
+  "icon": null
+ },
+ "Thunder King": {
+  "ids": [
+   800030
+  ],
+  "icon": null
+ },
+ "Thunder Magus": {
+  "ids": [
+   705687
+  ],
+  "icon": null
+ },
+ "Thunder Orb": {
+  "ids": [
+   803005
+  ],
+  "icon": null
+ },
+ "Thunder Prison Unused": {
+  "ids": [
+   801871
+  ],
+  "icon": null
+ },
+ "Thunder Step": {
+  "ids": [
+   806464
+  ],
+  "icon": null
+ },
+ "Thunder Surge": {
+  "ids": [
+   806371
+  ],
+  "icon": null
+ },
+ "Thunder Ward": {
+  "ids": [
+   800098
+  ],
+  "icon": null
+ },
+ "Thunder Wave": {
+  "ids": [
+   705692
+  ],
+  "icon": null
+ },
+ "Thunder and Lightning": {
+  "ids": [
+   705654
+  ],
+  "icon": null
+ },
+ "Thunderbolt Dead Visual Forcer": {
+  "ids": [
+   804588
+  ],
+  "icon": null
+ },
+ "Thunderbringer": {
+  "ids": [
+   803008
+  ],
+  "icon": null
+ },
+ "Thunderflow": {
+  "ids": [
+   803007
+  ],
+  "icon": null
+ },
+ "Thundering four pct mod": {
+  "ids": [
+   560022
+  ],
+  "icon": null
+ },
+ "Thundering two pct mod": {
+  "ids": [
+   560021
+  ],
+  "icon": null
+ },
+ "Thunderous": {
+  "ids": [
+   804827
+  ],
+  "icon": null
+ },
+ "Thunderous Blast": {
+  "ids": [
+   300823
+  ],
+  "icon": null
+ },
+ "Thunderous Momentum": {
+  "ids": [
+   300622
+  ],
+  "icon": null
+ },
+ "Thundershocker": {
+  "ids": [
+   300610
+  ],
+  "icon": null
+ },
+ "Tidal Guard DEPRECATED": {
+  "ids": [
+   567527
+  ],
+  "icon": null
+ },
+ "Timmy's Lost Train": {
+  "ids": [
+   505165
+  ],
+  "icon": null
+ },
+ "Titanic Speed": {
+  "ids": [
+   503844
+  ],
+  "icon": null
+ },
+ "Titanic Thunderbolt": {
+  "ids": [
+   705653
+  ],
+  "icon": null
+ },
+ "Titanstorm": {
+  "ids": [
+   801854
+  ],
+  "icon": null
+ },
+ "Tome of Lightning": {
+  "ids": [
+   300606
+  ],
+  "icon": null
+ },
+ "Torrential Bubble": {
+  "ids": [
+   802033
+  ],
+  "icon": null
+ },
+ "Torrential Rage": {
+  "ids": [
+   807196
+  ],
+  "icon": null
+ },
+ "Torrential Wrath": {
+  "ids": [
+   804017
+  ],
+  "icon": null
+ },
+ "Tsunami Hidden Visual": {
+  "ids": [
+   529289
+  ],
+  "icon": null
+ },
+ "Unbound": {
+  "ids": [
+   806017
+  ],
+  "icon": null
+ },
+ "Unbound Elementalist": {
+  "ids": [
+   705702
+  ],
+  "icon": null
+ },
+ "Unbound Helper": {
+  "ids": [
+   801158
+  ],
+  "icon": null
+ },
+ "Unbound Lightning": {
+  "ids": [
+   804042
+  ],
+  "icon": null
+ },
+ "Unbridled Flow": {
+  "ids": [
+   578299
+  ],
+  "icon": null
+ },
+ "Undertow": {
+  "ids": [
+   705666
+  ],
+  "icon": null
+ },
+ "Unrelenting Gale": {
+  "ids": [
+   705716
+  ],
+  "icon": null
+ },
+ "Unrelenting Winds": {
+  "ids": [
+   704211
+  ],
+  "icon": null
+ },
+ "Unshackle": {
+  "ids": [
+   706625
+  ],
+  "icon": null
+ },
+ "Unshackle On Spawn Remover (Yeah)": {
+  "ids": [
+   807321
+  ],
+  "icon": null
+ },
+ "Unstable": {
+  "ids": [
+   705723
+  ],
+  "icon": null
+ },
+ "Unstable Orb": {
+  "ids": [
+   705724
+  ],
+  "icon": null
+ },
+ "Unstable Vortex": {
+  "ids": [
+   300824
+  ],
+  "icon": null
+ },
+ "Unstable Vortex (Proc)": {
+  "ids": [
+   300825
+  ],
+  "icon": null
+ },
+ "Updraft": {
+  "ids": [
+   355240
+  ],
+  "icon": null
+ },
+ "Updraft: Haste": {
+  "ids": [
+   704204
+  ],
+  "icon": null
+ },
+ "Updraft: Precision": {
+  "ids": [
+   704207
+  ],
+  "icon": null
+ },
+ "Updraft: Restoration": {
+  "ids": [
+   704206
+  ],
+  "icon": null
+ },
+ "Updraft: Swiftness": {
+  "ids": [
+   704205
+  ],
+  "icon": null
+ },
+ "Veering Winds": {
+  "ids": [
+   574356
+  ],
+  "icon": null
+ },
+ "Violent Monsoon": {
+  "ids": [
+   704225
+  ],
+  "icon": null
+ },
+ "Volatile": {
+  "ids": [
+   570058
+  ],
+  "icon": null
+ },
+ "Volt": {
+  "ids": [
+   500928
+  ],
+  "icon": null
+ },
+ "Volt Static Gain": {
+  "ids": [
+   850001
+  ],
+  "icon": null
+ },
+ "Voltaic Bursts": {
+  "ids": [
+   705639
+  ],
+  "icon": null
+ },
+ "Voltaic Mastery": {
+  "ids": [
+   567561
+  ],
+  "icon": null
+ },
+ "Vortex": {
+  "ids": [
+   801845
+  ],
+  "icon": null
+ },
+ "Washed Away": {
+  "ids": [
+   807657
+  ],
+  "icon": null
+ },
+ "Waterfall": {
+  "ids": [
+   806412
+  ],
+  "icon": null
+ },
+ "Whirling Maelstrom": {
+  "ids": [
+   705725
+  ],
+  "icon": null
+ },
+ "Whirlpool": {
+  "ids": [
+   526362
+  ],
+  "icon": null
+ },
+ "Whirlwind Aegis": {
+  "ids": [
+   680282
+  ],
+  "icon": null
+ },
+ "Wicked Storms": {
+  "ids": [
+   705650
+  ],
+  "icon": null
+ },
+ "Wind Blast": {
+  "ids": [
+   300798
+  ],
+  "icon": null
+ },
+ "Wind Gate": {
+  "ids": [
+   504401
+  ],
+  "icon": null
+ },
+ "Wind Gate: Evacuate": {
+  "ids": [
+   504643
+  ],
+  "icon": null
+ },
+ "Wind Servant Unbound Descaler": {
+  "ids": [
+   800750
+  ],
+  "icon": null
+ },
+ "Wind Shift": {
+  "ids": [
+   503596
+  ],
+  "icon": null
+ },
+ "Wind Tunnel": {
+  "ids": [
+   804050
+  ],
+  "icon": null
+ },
+ "Wind's Grace": {
+  "ids": [
+   680861
+  ],
+  "icon": null
+ },
+ "Windburst": {
+  "ids": [
+   806451
+  ],
+  "icon": null
+ },
+ "Windlord (8 Typhoon)": {
+  "ids": [
+   706627
+  ],
+  "icon": null
+ },
+ "Windpelt": {
+  "ids": [
+   806016
+  ],
+  "icon": null
+ },
+ "Windride": {
+  "ids": [
+   804724
+  ],
+  "icon": null
+ },
+ "Windrunner": {
+  "ids": [
+   707719
+  ],
+  "icon": null
+ },
+ "Windsurf": {
+  "ids": [
+   500042
+  ],
+  "icon": null
+ },
+ "Wrath of Al'Akir": {
+  "ids": [
+   300834
+  ],
+  "icon": null
+ }
+}
