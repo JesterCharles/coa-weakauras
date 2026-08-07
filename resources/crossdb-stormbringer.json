@@ -1,0 +1,982 @@
+{
+ "_class": "stormbringer",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Absolute Control": {
+   "id": 300613,
+   "state": "record"
+  },
+  "Aeroblast": {
+   "id": 801839,
+   "state": "record"
+  },
+  "Aerodynamics": {
+   "id": 806124,
+   "state": "record"
+  },
+  "Aeromancy": {
+   "id": 705708,
+   "state": "record"
+  },
+  "Aether Current": {
+   "id": 531512,
+   "state": "record"
+  },
+  "Aether Focus": {
+   "id": 705713,
+   "state": "record"
+  },
+  "Aether Mastery": {
+   "id": 807462,
+   "state": "record"
+  },
+  "Aether Power": {
+   "id": 705718,
+   "state": "record"
+  },
+  "Aethermancy": {
+   "id": 705690,
+   "state": "record"
+  },
+  "Air Elemental": {
+   "id": 92097,
+   "state": "record"
+  },
+  "Airing Out": {
+   "id": 705675,
+   "state": "record"
+  },
+  "Altered Course": {
+   "id": 707053,
+   "state": "record"
+  },
+  "Amped Flow": {
+   "id": 567556,
+   "state": "record"
+  },
+  "Arc Lightning": {
+   "id": 300594,
+   "state": "record"
+  },
+  "Arcane Lightning": {
+   "id": 300618,
+   "state": "record"
+  },
+  "Arm of Thorim": {
+   "id": 801847,
+   "state": "record"
+  },
+  "Ascension": {
+   "id": 301260,
+   "state": "record"
+  },
+  "Atmospheric Pressure": {
+   "id": 803565,
+   "state": "record"
+  },
+  "Aviana's Blessing": {
+   "id": 705720,
+   "state": "record"
+  },
+  "Barometric Pressure": {
+   "id": 803563,
+   "state": "record"
+  },
+  "Battering Winds": {
+   "id": 704213,
+   "state": "record"
+  },
+  "Binding Shock": {
+   "id": 804597,
+   "state": "record"
+  },
+  "Body of Lightning": {
+   "id": 500041,
+   "state": "record"
+  },
+  "Breezeway": {
+   "id": 705701,
+   "state": "record"
+  },
+  "Brine": {
+   "id": 807105,
+   "state": "record"
+  },
+  "Bursting": {
+   "id": 806397,
+   "state": "record"
+  },
+  "Call Lightning": {
+   "id": 500040,
+   "state": "record"
+  },
+  "Call of the Maelstrom": {
+   "id": 654545,
+   "state": "record"
+  },
+  "Call of the Storm": {
+   "id": 578311,
+   "state": "record"
+  },
+  "Call of the Wind": {
+   "id": 804018,
+   "state": "record"
+  },
+  "Calm the Storm": {
+   "id": 572303,
+   "state": "record"
+  },
+  "Charge": {
+   "id": 804826,
+   "state": "record"
+  },
+  "Child of the Storm": {
+   "id": 801500,
+   "state": "record"
+  },
+  "Clear Skies": {
+   "id": 500069,
+   "state": "record"
+  },
+  "Clearsky Pendant": {
+   "id": 705709,
+   "state": "record"
+  },
+  "Cloud Watcher": {
+   "id": 562227,
+   "state": "record"
+  },
+  "Cloudburst": {
+   "id": 801838,
+   "state": "record"
+  },
+  "Cloudsurfer": {
+   "id": 560024,
+   "state": "record"
+  },
+  "Comforting Winds": {
+   "id": 584238,
+   "state": "record"
+  },
+  "Concentrated Static": {
+   "id": 570722,
+   "state": "record"
+  },
+  "Conductive": {
+   "id": 92098,
+   "state": "record"
+  },
+  "Conductivity": {
+   "id": 705647,
+   "state": "record"
+  },
+  "Conductor In Charge": {
+   "id": 300961,
+   "state": "record"
+  },
+  "Conduit": {
+   "id": 704200,
+   "state": "record"
+  },
+  "Conjuration Mastery": {
+   "id": 300595,
+   "state": "record"
+  },
+  "Conjure Rainstorm": {
+   "id": 300627,
+   "state": "record"
+  },
+  "Conjure Storm": {
+   "id": 800227,
+   "state": "record"
+  },
+  "Conjure Thunder Ale": {
+   "id": 804763,
+   "state": "record"
+  },
+  "Conjure Thunderkeg": {
+   "id": 807849,
+   "state": "record"
+  },
+  "Crackling Devastation": {
+   "id": 570720,
+   "state": "record"
+  },
+  "Crushing Pressure": {
+   "id": 803564,
+   "state": "record"
+  },
+  "Current Conversion": {
+   "id": 705670,
+   "state": "record"
+  },
+  "Cuts to the Bone": {
+   "id": 705680,
+   "state": "record"
+  },
+  "Cyclone's Recharge": {
+   "id": 300827,
+   "state": "record"
+  },
+  "Dark Skies": {
+   "id": 300593,
+   "state": "record"
+  },
+  "Deluge": {
+   "id": 806400,
+   "state": "record"
+  },
+  "Discharge": {
+   "id": 805288,
+   "state": "record"
+  },
+  "Disciple of Thorim": {
+   "id": 705727,
+   "state": "record"
+  },
+  "Dismiss Elemental": {
+   "id": 583022,
+   "state": "record"
+  },
+  "Drown": {
+   "id": 806407,
+   "state": "record"
+  },
+  "Electric Field": {
+   "id": 300599,
+   "state": "record"
+  },
+  "Electric Ingenuity": {
+   "id": 632621,
+   "state": "record"
+  },
+  "Electrical Charge": {
+   "id": 704149,
+   "state": "record"
+  },
+  "Electrifying Aura": {
+   "id": 560568,
+   "state": "record"
+  },
+  "Electrocute": {
+   "id": 801844,
+   "state": "record"
+  },
+  "Electrocutioner": {
+   "id": 92096,
+   "state": "record"
+  },
+  "Enveloping Winds": {
+   "id": 707546,
+   "state": "record"
+  },
+  "Evergale": {
+   "id": 705717,
+   "state": "record"
+  },
+  "Exhale": {
+   "id": 801846,
+   "note": "name re-ask: ascension 705672 carries the SAME tooltip verbatim (20 Static dispel pulse) -- same ability, different row. Trigger name-matches (ranked), so both rows serve.",
+   "state": "other-id"
+  },
+  "Eye of the Storm": {
+   "id": 806307,
+   "note": "&power probe returned nothing (transient), but the ascension search listview lists 806307 itself at L10 school Nature -- record exists.",
+   "state": "record"
+  },
+  "Eye of the Tornado": {
+   "id": 706297,
+   "state": "record"
+  },
+  "Fast as Lightning": {
+   "id": 570057,
+   "state": "record"
+  },
+  "Flow of Wrath": {
+   "id": 572124,
+   "state": "record"
+  },
+  "Flurry": {
+   "id": 707543,
+   "state": "record"
+  },
+  "Flux Arc": {
+   "id": 705643,
+   "state": "record"
+  },
+  "Fluxblast": {
+   "id": 804841,
+   "state": "record"
+  },
+  "Fluxcasting": {
+   "id": 804842,
+   "state": "record"
+  },
+  "Focal Point": {
+   "id": 680876,
+   "state": "record"
+  },
+  "Fog": {
+   "id": 806100,
+   "state": "record"
+  },
+  "Force Wave": {
+   "id": 806394,
+   "state": "record"
+  },
+  "Forked Lightning": {
+   "id": 801851,
+   "state": "record"
+  },
+  "Freewind": {
+   "id": 548621,
+   "state": "record"
+  },
+  "Fusion": {
+   "id": 707046,
+   "state": "record"
+  },
+  "Gale": {
+   "id": 804036,
+   "state": "record"
+  },
+  "Gale Guard": {
+   "id": 500923,
+   "state": "record"
+  },
+  "Gathered Energy": {
+   "id": 705679,
+   "state": "record"
+  },
+  "Gift of Air": {
+   "id": 583254,
+   "state": "record"
+  },
+  "Glyph of Change": {
+   "id": 705712,
+   "state": "record"
+  },
+  "Greater Call of the Lightning": {
+   "id": 575846,
+   "state": "record"
+  },
+  "Greater Call of the Storm": {
+   "id": 578316,
+   "state": "record"
+  },
+  "Greater Call of the Wind": {
+   "id": 680291,
+   "state": "record"
+  },
+  "Guiding Winds DEPPRECATED": {
+   "id": 804037,
+   "state": "record"
+  },
+  "Gust of Wind": {
+   "id": 500932,
+   "state": "record"
+  },
+  "Haven": {
+   "id": 705707,
+   "state": "record"
+  },
+  "Heavy Winds": {
+   "id": 567542,
+   "state": "record"
+  },
+  "High Voltage": {
+   "id": 500936,
+   "state": "record"
+  },
+  "Hurricanes": {
+   "id": 300839,
+   "state": "record"
+  },
+  "Hydraxxian Apprentice": {
+   "id": 801862,
+   "state": "record"
+  },
+  "Hydro Powered": {
+   "id": 300616,
+   "state": "record"
+  },
+  "Hydromatic": {
+   "id": 300619,
+   "state": "record"
+  },
+  "Improved Body of Lightning": {
+   "id": 705693,
+   "state": "record"
+  },
+  "Improved Flux": {
+   "id": 705641,
+   "state": "record"
+  },
+  "Improved Forked Lightning": {
+   "id": 300597,
+   "state": "record"
+  },
+  "Improved Lightning Rod": {
+   "id": 705656,
+   "state": "record"
+  },
+  "Improved Voltaic Burst": {
+   "id": 300608,
+   "state": "record"
+  },
+  "Improved Vortex": {
+   "id": 705648,
+   "state": "record"
+  },
+  "Insulate": {
+   "id": 806242,
+   "state": "record"
+  },
+  "Invigorate Elemental": {
+   "id": 520085,
+   "state": "record"
+  },
+  "Invigorating Surge": {
+   "id": 500038,
+   "state": "record"
+  },
+  "Invigorating Winds": {
+   "id": 572032,
+   "state": "record"
+  },
+  "Invigoration": {
+   "id": 680918,
+   "state": "record"
+  },
+  "Invoking Storms": {
+   "id": 705667,
+   "state": "record"
+  },
+  "Ionic Aura": {
+   "id": 707652,
+   "state": "record"
+  },
+  "Kinetic Energy": {
+   "id": 806409,
+   "state": "record"
+  },
+  "Kiss of the Clouds": {
+   "id": 500039,
+   "state": "record"
+  },
+  "Lasting Gust": {
+   "id": 300784,
+   "state": "record"
+  },
+  "Launch Orbs": {
+   "id": 801800,
+   "state": "record"
+  },
+  "Lethal Current": {
+   "id": 705663,
+   "state": "record"
+  },
+  "Lexicon of Servitude": {
+   "id": 520087,
+   "state": "record"
+  },
+  "Lightning - Level 15 Passive": {
+   "id": 578301,
+   "state": "record"
+  },
+  "Lightning Cage": {
+   "id": 560030,
+   "state": "record"
+  },
+  "Lightning Rod": {
+   "id": 300609,
+   "state": "record"
+  },
+  "Lingering Lightning": {
+   "id": 705651,
+   "state": "record"
+  },
+  "Lingering Storm": {
+   "id": 705652,
+   "state": "record"
+  },
+  "Lord of Lightning": {
+   "id": 707618,
+   "state": "record"
+  },
+  "Maelstrom - Level 15 Passive": {
+   "id": 578298,
+   "state": "record"
+  },
+  "Magic Elimination": {
+   "id": 705668,
+   "state": "record"
+  },
+  "Master Airbender": {
+   "id": 705719,
+   "state": "record"
+  },
+  "Master Elementalist": {
+   "id": 705662,
+   "state": "record"
+  },
+  "Master of Lightning": {
+   "id": 705688,
+   "state": "record"
+  },
+  "Megawatt Missile": {
+   "id": 500045,
+   "state": "record"
+  },
+  "Mystic Thunder": {
+   "id": 501412,
+   "note": "name re-ask: ascension has L14 nature ranks 504846/505214/505347 + 804273 under the same name; exil.es 501412 is 'Rank 2'. Same ability, ranked -- trigger name-matches.",
+   "state": "other-id"
+  },
+  "NEEDS REDONE": {
+   "id": 806405,
+   "state": "record"
+  },
+  "Nature's Conduit": {
+   "id": 705685,
+   "state": "record"
+  },
+  "Never Strikes Twice?": {
+   "id": 804828,
+   "state": "record"
+  },
+  "Nimbus": {
+   "id": 704212,
+   "state": "record"
+  },
+  "Orb Siphon": {
+   "id": 801872,
+   "state": "record"
+  },
+  "Overload Mechanical": {
+   "id": 707365,
+   "state": "record"
+  },
+  "Passing Wind": {
+   "id": 707667,
+   "state": "record"
+  },
+  "Perpetual Shock": {
+   "id": 300625,
+   "state": "record"
+  },
+  "Piercing Lightning": {
+   "id": 578302,
+   "state": "record"
+  },
+  "Power Surge": {
+   "id": 500926,
+   "state": "record"
+  },
+  "Power the Elements": {
+   "id": 705721,
+   "state": "record"
+  },
+  "Predictable Weather": {
+   "id": 807233,
+   "state": "record"
+  },
+  "Prodigy of Lei Shen": {
+   "id": 560023,
+   "state": "record"
+  },
+  "Pulse Conversion": {
+   "id": 707619,
+   "state": "record"
+  },
+  "Quickdraft": {
+   "id": 705704,
+   "state": "record"
+  },
+  "Raging Zephyr": {
+   "id": 704201,
+   "state": "record"
+  },
+  "Razorwind": {
+   "id": 806223,
+   "state": "record"
+  },
+  "Residual Power": {
+   "id": 804605,
+   "state": "record"
+  },
+  "Resurgence": {
+   "id": 300623,
+   "state": "record"
+  },
+  "Return Wind Spirit": {
+   "id": 527021,
+   "state": "record"
+  },
+  "Ride the Lightning": {
+   "id": 800099,
+   "state": "record"
+  },
+  "Shock": {
+   "id": 804020,
+   "state": "record"
+  },
+  "Shocking": {
+   "id": 705683,
+   "state": "record"
+  },
+  "Shocking Aegis": {
+   "id": 680316,
+   "state": "record"
+  },
+  "Skyfall": {
+   "id": 804830,
+   "state": "record"
+  },
+  "Spellstorm Mastery": {
+   "id": 705659,
+   "state": "record"
+  },
+  "Spheres of Power": {
+   "id": 706434,
+   "state": "record"
+  },
+  "Spirit Winds": {
+   "id": 705681,
+   "state": "record"
+  },
+  "Stabilizing Pressure": {
+   "id": 572399,
+   "state": "record"
+  },
+  "Static": {
+   "id": 803102,
+   "state": "record"
+  },
+  "Static Electricity": {
+   "id": 300628,
+   "state": "record"
+  },
+  "Static Lock": {
+   "id": 800692,
+   "state": "record"
+  },
+  "Storm Alert": {
+   "id": 707044,
+   "state": "record"
+  },
+  "Storm Ascendance": {
+   "id": 681110,
+   "state": "record"
+  },
+  "Storm Channeling": {
+   "id": 804040,
+   "state": "record"
+  },
+  "Storm Chaser": {
+   "id": 300612,
+   "state": "record"
+  },
+  "Storm Clouds": {
+   "id": 705686,
+   "state": "record"
+  },
+  "Storm Rage": {
+   "id": 804015,
+   "state": "record"
+  },
+  "Storm Rider": {
+   "id": 705677,
+   "state": "record"
+  },
+  "Storm Sorcery": {
+   "id": 705689,
+   "state": "record"
+  },
+  "Storm Soul": {
+   "id": 300591,
+   "state": "record"
+  },
+  "Storm Synergy": {
+   "id": 578300,
+   "state": "record"
+  },
+  "Storm Warning": {
+   "id": 567533,
+   "state": "record"
+  },
+  "Stormbreaker": {
+   "id": 705669,
+   "state": "record"
+  },
+  "Stormcaller": {
+   "id": 300611,
+   "state": "record"
+  },
+  "Stormcloak": {
+   "id": 804833,
+   "state": "record"
+  },
+  "Stormcloud": {
+   "id": 572128,
+   "state": "record"
+  },
+  "Stormflow": {
+   "id": 567555,
+   "state": "record"
+  },
+  "Stormforged Strike": {
+   "id": 500193,
+   "state": "record"
+  },
+  "Stormfury": {
+   "id": 532751,
+   "state": "record"
+  },
+  "Storming": {
+   "id": 806401,
+   "state": "record"
+  },
+  "Stormsurge": {
+   "id": 705673,
+   "state": "record"
+  },
+  "Stormy Days": {
+   "id": 680857,
+   "state": "record"
+  },
+  "Studious": {
+   "id": 705657,
+   "state": "record"
+  },
+  "Sturdy As The Storm": {
+   "id": 804831,
+   "state": "record"
+  },
+  "Summon: Air Elemental": {
+   "id": 804019,
+   "state": "record"
+  },
+  "Summon: Thunder Orb": {
+   "id": 801802,
+   "state": "record"
+  },
+  "Supercharge": {
+   "id": 806496,
+   "state": "record"
+  },
+  "Superconductor": {
+   "id": 705646,
+   "state": "record"
+  },
+  "Surge Overload": {
+   "id": 300596,
+   "state": "record"
+  },
+  "Surge of Might": {
+   "id": 520083,
+   "state": "record"
+  },
+  "Sweeping Winds": {
+   "id": 705706,
+   "state": "record"
+  },
+  "Tailwind": {
+   "id": 804035,
+   "state": "record"
+  },
+  "Tempest Aegis": {
+   "id": 680334,
+   "state": "record"
+  },
+  "Tempest Sovereign": {
+   "id": 560020,
+   "state": "record"
+  },
+  "Tempest's Call": {
+   "id": 560567,
+   "state": "record"
+  },
+  "Thorim's Rage": {
+   "id": 804048,
+   "state": "record"
+  },
+  "Thunder Grip": {
+   "id": 301219,
+   "state": "record"
+  },
+  "Thunder King": {
+   "id": 800030,
+   "state": "record"
+  },
+  "Thunder Magus": {
+   "id": 705687,
+   "state": "record"
+  },
+  "Thunder Prison Unused": {
+   "id": 801871,
+   "state": "record"
+  },
+  "Thunder Step": {
+   "id": 806464,
+   "state": "record"
+  },
+  "Thunder Surge": {
+   "id": 806371,
+   "state": "record"
+  },
+  "Thunder Ward": {
+   "id": 800098,
+   "state": "record"
+  },
+  "Thunder Wave": {
+   "id": 705692,
+   "state": "record"
+  },
+  "Thunder and Lightning": {
+   "id": 705654,
+   "state": "record"
+  },
+  "Thunderbringer": {
+   "id": 803008,
+   "state": "record"
+  },
+  "Thunderflow": {
+   "id": 803007,
+   "state": "record"
+  },
+  "Thunderous": {
+   "id": 804827,
+   "state": "record"
+  },
+  "Thundershocker": {
+   "id": 300610,
+   "state": "record"
+  },
+  "Titanic Thunderbolt": {
+   "id": 705653,
+   "state": "record"
+  },
+  "Titanstorm": {
+   "id": 801854,
+   "state": "record"
+  },
+  "Tome of Lightning": {
+   "id": 300606,
+   "state": "record"
+  },
+  "Torrential Wrath": {
+   "id": 804017,
+   "state": "record"
+  },
+  "Unbound Elementalist": {
+   "id": 705702,
+   "state": "record"
+  },
+  "Unbound Lightning": {
+   "id": 804042,
+   "state": "record"
+  },
+  "Unbridled Flow": {
+   "id": 578299,
+   "state": "record"
+  },
+  "Undertow": {
+   "id": 705666,
+   "state": "record"
+  },
+  "Unrelenting Gale": {
+   "id": 705716,
+   "state": "record"
+  },
+  "Unrelenting Winds": {
+   "id": 704211,
+   "state": "record"
+  },
+  "Unshackle": {
+   "id": 706625,
+   "state": "record"
+  },
+  "Unstable": {
+   "id": 705723,
+   "state": "record"
+  },
+  "Unstable Vortex": {
+   "id": 300824,
+   "state": "record"
+  },
+  "Updraft": {
+   "id": 355240,
+   "state": "record"
+  },
+  "Veering Winds": {
+   "id": 574356,
+   "state": "record"
+  },
+  "Violent Monsoon": {
+   "id": 704225,
+   "state": "record"
+  },
+  "Volt": {
+   "id": 500928,
+   "state": "record"
+  },
+  "Voltaic Bursts": {
+   "id": 705639,
+   "state": "record"
+  },
+  "Vortex": {
+   "id": 801845,
+   "note": "name re-ask: every ascension 'Vortex' hit is a generic/NPC spell; no CoA castable. Corroborates exclusion -- role ignore, legacy layer (requirements \u00a76.7).",
+   "state": "no-record"
+  },
+  "Waterfall": {
+   "id": 806412,
+   "state": "record"
+  },
+  "Whirling Maelstrom": {
+   "id": 705725,
+   "state": "record"
+  },
+  "Whirlpool": {
+   "id": 526362,
+   "state": "record"
+  },
+  "Whirlwind Aegis": {
+   "id": 680282,
+   "state": "record"
+  },
+  "Wicked Storms": {
+   "id": 705650,
+   "state": "record"
+  },
+  "Wind Gate": {
+   "id": 504401,
+   "state": "record"
+  },
+  "Wind Gate: Evacuate": {
+   "id": 504643,
+   "state": "record"
+  },
+  "Wind Shift": {
+   "id": 503596,
+   "state": "record"
+  },
+  "Wind's Grace": {
+   "id": 680861,
+   "state": "record"
+  },
+  "Windride": {
+   "id": 804724,
+   "state": "record"
+  },
+  "Windsurf": {
+   "id": 500042,
+   "state": "record"
+  },
+  "Wrath of Al'Akir": {
+   "id": 300834,
+   "state": "record"
+  }
+ }
+}

@@ -1009,7 +1009,7 @@ def seg_bar(prefix, parent, entries, y, always_trigger, total_w, out,
 
 
 def stack_bar(prefix, parent, aura, cells, col, y, always_trigger, total_w, out,
-              h=SEG_H, gap=GLYPH_GAP, feeder=None):
+              h=SEG_H, gap=GLYPH_GAP, feeder=None, step=1):
     """Segmented bar driven by the STACK COUNT of a single aura.
 
     `seg_bar` above reads N different auras and lights cell i when aura i is
@@ -1036,10 +1036,15 @@ def stack_bar(prefix, parent, aura, cells, col, y, always_trigger, total_w, out,
             f"{prefix} Empty {i + 1}", parent, [always_trigger],
             tex=SOLID, x=x, y=y, w=w, h=h, color=col + (0.38,),
             blend="BLEND")))
-        # stacks >= i+1: cell 1 lights at one stack, cell 5 only at five.
+        # stacks >= (i+1)*step: with step=1 (the default) cell 1 lights at one
+        # stack and cell 5 only at five. `step` exists for meters whose stack
+        # count outruns any sane cell count -- Stormbringer's Static is ONE
+        # aura stacking 0-100, so ten cells at step=10 read as tens, the same
+        # single-aura `useStacks` mechanism at a coarser scale.
         out.append(add(B.texture(
             f"{prefix} Fill {i + 1}", parent,
-            [B.aura_trigger([str(aura)], stacks=i + 1, stacks_op=">=")],
+            [B.aura_trigger([str(aura)], stacks=(i + 1) * step,
+                            stacks_op=">=")],
             tex=SOLID, x=x, y=y, w=w, h=h, color=col + (1.0,),
             blend="BLEND")))
         if feeder:

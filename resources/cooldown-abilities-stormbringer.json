@@ -1,0 +1,391 @@
+{
+ "Arm of Thorim": {
+  "id": 801847,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "lightning",
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Body of Lightning": {
+  "id": 500041,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Charge": {
+  "id": 804826,
+  "cd": "1 min cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Child of the Storm": {
+  "id": 801500,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Cloudburst": {
+  "id": 801838,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Conduit": {
+  "id": 704200,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Conjure Thunderkeg": {
+  "id": 807849,
+  "cd": "5 min cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Exhale": {
+  "id": 801846,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Flurry": {
+  "id": 707543,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fluxblast": {
+  "id": 804841,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "lightning"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Force Wave": {
+  "id": 806394,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Gale Guard": {
+  "id": 500923,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Guiding Winds DEPPRECATED": {
+  "id": 804037,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Gust of Wind": {
+  "id": 500932,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "High Voltage": {
+  "id": 500936,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "lightning"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hydraxxian Apprentice": {
+  "id": 801862,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Insulate": {
+  "id": 806242,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": false
+ },
+ "Launch Orbs": {
+  "id": 801800,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Lexicon of Servitude": {
+  "id": 520087,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": false
+ },
+ "Lightning Cage": {
+  "id": 560030,
+  "cd": "3 min cooldown",
+  "specs": [
+   "lightning"
+  ],
+  "gcd": false
+ },
+ "Maelstrom - Level 15 Passive": {
+  "id": 578298,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Megawatt Missile": {
+  "id": 500045,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mystic Thunder": {
+  "id": 501412,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Nimbus": {
+  "id": 704212,
+  "cd": "5 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": false
+ },
+ "Orb Siphon": {
+  "id": 801872,
+  "cd": "1 min cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Overload Mechanical": {
+  "id": 707365,
+  "cd": "1 min cooldown",
+  "specs": [
+   "lightning"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Razorwind": {
+  "id": 806223,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Skyfall": {
+  "id": 804830,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Static Lock": {
+  "id": 800692,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": false
+ },
+ "Storm Ascendance": {
+  "id": 681110,
+  "cd": "2 min cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Stormcloak": {
+  "id": 804833,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "lightning",
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Stormforged Strike": {
+  "id": 500193,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Stormfury": {
+  "id": 532751,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Summon: Thunder Orb": {
+  "id": 801802,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Surge of Might": {
+  "id": 520083,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Tempest's Call": {
+  "id": 560567,
+  "cd": "5 min cooldown",
+  "specs": [
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Thunder Step": {
+  "id": 806464,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Thunder Ward": {
+  "id": 800098,
+  "cd": "5 min cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Thunderflow": {
+  "id": 803007,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Unshackle": {
+  "id": 706625,
+  "cd": "2 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": false
+ },
+ "Veering Winds": {
+  "id": 574356,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Vortex": {
+  "id": 801845,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Whirlpool": {
+  "id": 526362,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "wind",
+   "maelstrom"
+  ],
+  "gcd": false
+ },
+ "Wind Gate": {
+  "id": 504401,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Wind Gate: Evacuate": {
+  "id": 504643,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Windsurf": {
+  "id": 500042,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "wind"
+  ],
+  "gcd": false
+ }
+}

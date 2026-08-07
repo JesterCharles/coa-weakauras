@@ -1,0 +1,108 @@
+{
+ "class": "stormbringer",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 40,
+   "citations": 6,
+   "crossdb_checked": 243,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 250,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 243,
+   "mechanics_sources": 3,
+   "open_unknowns": 1,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 40,
+   "citations": 6,
+   "crossdb_checked": 243,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 250,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 243,
+   "mechanics_sources": 3,
+   "open_unknowns": 1,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 40,
+   "citations": 6,
+   "crossdb_checked": 243,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 250,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 243,
+   "mechanics_sources": 3,
+   "open_unknowns": 1,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "NO AEGIS per spec (missing-aura AND spell-known, NEEDS_ALL) + NO PET on Wind. No class-wide Core alert: every reminder is spec-shaped, Core is an empty skeleton (see classes.CORE_LEAVES note)"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "13 entries (2026/07/31..08/06) triaged into requirements \u00a7-1: RtL separate-GCD deferred (\u00a76.2), Air Elemental pet spells -> \u00a73, Conductive rework -> \u00a71/\u00a74/\u00a76.4, Drown 8 stacks confirmed in db, Unshackle/Windsurf off-GCD confirmed in db. NOT accepted yet."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 citations: 3 blob imports (--import-sidekick, snapshot 2026-08-02) + 3 manual transcriptions of the spec pages' rotation paragraphs (scraped 2026-08-07, per-spec press order in claims.priority). Validator clean; Thorim's Fury / Electrify aliased to null in aliases-stormbringer.json with reasoning."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 243,
+   "note": "crossdb_sweep.py over all 243 rows with an id: 239 record, 3 no-record + 1 no-response ALL resolved by name re-ask with tooltip reads -- Exhale/Mystic Thunder other-id (same ability, different row), Eye of the Storm record via search listview, Vortex no CoA record corroborating its exclusion. Verdicts in crossdb-stormbringer.json + inventory Notes."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide.py is Runemaster-hardcoded, so the guide read was a structural dump of the built pack (band ladder, anchors, contents, per-spec). The read CAUGHT A BUG: the Static Count display was a \u00a71.4 orphan (in the payload, not in controlledChildren) -- fixed, rebuilt, orphan scan now clean, dup ids/uids none, anchored ladder verified (Utility/Longterm chained via SELECTFRAME)"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "AUTOMATED ROLE PASS, BULK-CLEARED (production-run.md precedent): 250 rows decided by rolepass script, one line of reasoning per row citing SK page/db tooltip/changelog; no human read them one at a time. Hedged rows carried to requirements \u00a76: Thunder Wave (proc aura id), Hurricanes (self-aura id), Conductive (stack cap post-rework), Stormcloud (only id is rank Proc, name-matched), Vortex/legacy Thunder-Orb layer excluded (\u00a76.7), NO PET mechanism (\u00a76.6). Name collisions recorded on Conduit, Child of the Storm, High Voltage."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "5-icon main rows per spec ordered from the transcribed rotation citations (sidekick-page-stormbringer-*-2026-08-07): lightning Volt/FL/CL/Electrocute/AoT, wind Gale/Aeroblast/Updraft/Flurry/Kiss, maelstrom Brine/TW/Stormflow/Drown/Deluge. CD_PER_ROW=9 from narrowest row 228px, rowwidths.py all rows <=1.10x"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "sidekick-stormbringer-{lightning,wind,maelstrom}.md scraped 2026-08-07 via Firecrawl; rotation blob snapshot 2026-08-02; maelstrom talent texts predate the 07/31 Conductive rework (recorded stale in requirements)"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "Wind = permanent Air Elemental: NO PET alert (aura 806010 unit=pet showOnMissing ANDed with Spell Known 804019; mechanism flagged \u00a76.6), pet state in on-me row with unit=pet (Invigoration stacks, Unshackle, Gift of Air), pet commands as real cooldown rows (Flurry main, Skyfall/Unshackle offense, Windsurf defense, Invigorate/Return/Lexicon utility). Maelstrom water elemental = 20s summon, deliberately untracked. Lightning none."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW: Electrocutioner->Electrocute (execute unlock), Thunder Wave->Forked Lightning (name-matched, \u00a76.5), Predictable Weather->Torrential Wrath, Lexicon of Servitude->Summon: Air Elemental. Stacking states (Dark Skies, Electrical Charge, Kinetic Energy, Invigoration, Storm Chaser) show stacks in the on-me row"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-stormbringer.md written, all sections; spec roles damage/damage/damage from citable Sidekick kit statements (no-heal lines quoted); Static=aura 803102 stacks 0-100 cited; 9 open UNKNOWNs in \u00a76"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "Tempest Sovereign transform: maelstrom rows track replacement ids Brine 807105 / Torrential Wrath 804017 directly (no swap needed, base spells never drawn on the spec); Raging Zephyr tracked by own id 704201; SPEC_KNOWN = the numeric L10 spec passives 92096/92097/92098; per-spec Aegis alerts pair missing-aura with Spell Known(exact=False) so ranked Aegis ids span ranks; proc talents are active-only displays, correct with and without"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed (fixtures frozen for all 4 stormbringer packs; CORE_LEAVES=5 recorded in classes.py; rowwidths all rows <=1.10x)"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "requirements \u00a76: 9 items, all DEFERRED ON PURPOSE to the post-ship in-game sweep / feedback -- Static-100 penalty (6.1), RtL separate GCD (6.2), blob staleness (6.3), Conductive cap (6.4), Thunder Wave proc aura (6.5), pet-presence trigger (6.6), legacy-layer liveness (6.7), Hurricanes aura id (6.8), hedged role rows (6.9). Nothing blocks the draft bar; none is an uncited rotation claim"
+  }
+ }
+}
