@@ -325,7 +325,11 @@ def main(argv):
     # MEMBERSHIP: the skillbook, plus the names only the cooldown audit knows
     # (14 for Chronomancer -- Wand of Time, Timeguard, Chronobeam and friends),
     # plus anything already reviewed. The audit no longer decides on its own.
-    book = {s["name"]: s for s in skills}
+    # Names are stripped at ingestion: the Sidekick bundle carries at least
+    # one duplicate that differs only by a trailing space ("Sharpshooter ",
+    # witch-hunter), and the table parser strips cells -- so an unstripped
+    # key here re-seeds a phantom row forever.
+    book = {s["name"].strip(): s for s in skills if s.get("name", "").strip()}
     # Third source: whatever the built pack points at. See pack_names().
     drawn = pack_names(cls, exiles, meta)
     names = set(book) | set(cds) | set(existing) | set(drawn)

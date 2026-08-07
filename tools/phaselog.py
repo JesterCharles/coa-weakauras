@@ -113,7 +113,7 @@ def _rows(slug):
     """
     p = data(f"abilities-{slug}.md")
     if not os.path.exists(p):
-        return 0, 0
+        return 0, 0, 0
     total = unrev = with_id = 0
     for line in open(p, encoding="utf-8"):
         if not line.startswith("| ") or line.count("|") < 6:
