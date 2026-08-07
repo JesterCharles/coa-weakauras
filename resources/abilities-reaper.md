@@ -173,6 +173,9 @@ spells — the specs that have no override use the default.
 | Shudder Scythe | 801321 | harvest | offensive | Rank 1 | pressed 10s 5-strike fragment generator; no-record on 801321 at db.ascension JUSTIFIED: the ability exists there as components (801322 'Damage') and talent 805708, and 801321 is the only castable-shaped id anywhere — §6 |
 | Sinister Litany | 805185 | all | offensive |  | pressed instant +3 Reaped Souls — resource burst (AE talent) |
 | Slaughter | 500373 | harvest | main | Rank 1 | cited harvest execute: sub-35% only, refunds a Reaped Soul |
+| Reaped Soul | 500363 | domination,harvest,soul | resource |  | the cascade's middle aura ('At 3 stacks you are granted Soul Infusion') — read by the Souls fill/feed cells, not a button; a row so the drawn state has an inventory record |
+| Soul Fragment | 805077 | domination,harvest,soul | resource |  | the cascade's base aura ('At 5 stacks, generate a Reaped Soul') — fused into the filling Souls cell |
+| Soul Infusion | 803031 | domination,harvest,soul | buff |  | the cascade's payoff aura; keys every PROC_GLOW spender and the Buffs entry |
 | Soul Bane | 705392 | soul | ignore | Passive | passive Reliquary cd cut |
 | Soul Capture | 561289 | domination | utility |  | pressed corpse-soul pickup: +1 Reaped Soul + heal |
 | Soul Catcher | 560277 | soul | ignore | Passive | passive Intellect scaling |
@@ -183,6 +186,7 @@ spells — the specs that have no override use the default.
 | Soul Harvester | 804311 | all | ignore | Passive | passive kill-streak RP buff |
 | Soul Inferno | 705394 | soul | ignore |  | passive Purgatory rider |
 | Soul Protector | 300553 | all | ignore | Passive | passive armor/resist stat |
+| Soul Knight | 560487 | domination | buff | Proc | TE-tree parry proc aura drawn in the domination buff row — matches by name, never shows untalented; a row so the drawn state has an inventory record |
 | Soul Shear | 520862 | domination,harvest,soul | utility |  | pressed 16s offensive purge (off-GCD) |
 | Soul Shock | 803989 | soul | utility |  | pressed sap (humanoid/undead/beast/dragonkin) |
 | Soul Slip | 500286 | domination | ignore | Specialization | level-30 passive avoidance→fragments |
@@ -236,6 +240,7 @@ spells — the specs that have no override use the default.
 | Wailing Soul | 804676 | soul | utility | Summon | pressed controllable scout/possess soul — no pet bar warranted (see requirements §3) |
 | Wake Up, It's Dread Time | 705429 | domination | ignore | Passive | passive crit→RP proc ('Dread Time') — minor, not surfaced |
 | Warden of the Lost | 707116 | domination | ignore | Passive | passive Spectral Warden cd rider |
+| Weakened Soul | 803433 | soul | target |  | the enemy debuff the Weakened Souls passive applies via Soulrend — drawn in the soul target band (by name); distinct row from the passive that teaches it |
 | Weakened Souls | 92146 | soul | ignore | Specialization | level-10 passive Soulrend debuff rider — the debuff rides the Soulrend target bar |
 | Whisper of the Lost | 520047 | soul | utility |  | pressed 8s distract (off-GCD, stealth tool) |
 | Wicked Shadows | 705390 | soul | ignore | Rank 1 | passive Soul Harvest damage talent |
