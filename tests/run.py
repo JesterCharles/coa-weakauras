@@ -805,7 +805,10 @@ for cls in UNDER_TEST:
     # supports: unverified means the badge is present, verified means it is not.
     page = os.path.join(ROOT, "docs", cls.slug, "index.html")
     if os.path.exists(page):
-        badged = "not verified in game" in open(page, encoding="utf-8").read()
+        # The badge is the `unver` span mksite emits; matched on the class
+        # attribute rather than the copy so the wording can change (it now
+        # reads "draft" per notes/production-run.md) without a false fail.
+        badged = 'class="packver unver"' in open(page, encoding="utf-8").read()
         check(f"{cls.slug}: page badge matches the record "
               f"(v{ver} {'verified' if ok else 'unverified'})",
               badged != ok)

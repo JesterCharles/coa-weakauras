@@ -71,6 +71,7 @@ spells — the specs that have no override use the default.
 | Dark Lord | 300470 | slayer | ignore | Passive | passive: DR + damage above 75% health |
 | Dark Teachings |  | all | ignore |  | passive: +20% Intuition effectiveness; no id |
 | Demon Skin | 570169 | tyrant | ignore | Passive | passive |
+| Demon Form | 804221 | slayer,infernal,tyrant | buff |  | the metamorphosis-window aura name the client may use for Inner Demon's active state (candidate pair with 804216) — drawn as an active-only Buffs entry so the window reads under either id |
 | Demonborn | 705102 | all | ignore | Rank 1 | passive: Energy regeneration |
 | Demonfire Pact | 800031 | slayer | longterm |  | toggle party crit aura, duration -1, 'Only 1 Pact can be active per player' |
 | Demonic Attunement | 804615 | infernal | ignore | Passive | passive: increases Ragefire damage |
@@ -92,6 +93,7 @@ spells — the specs that have no override use the default.
 | Expose | 300474 | slayer | ignore | Passive | passive |
 | Eye of Archimonde | 804052 | tyrant | utility |  | stealth/invisibility reveal in a radius; tank pull tool |
 | Eye of the Tyrant | 560549 | tyrant | utility | Passive | cited tyrant raid CD: party haste + own attack power. CAUTION: exiles rank says Passive while the tooltip reads castable - §6 |
+| Felfury | 800058 | slayer,infernal,tyrant | resource |  | the class economy itself: 6-stack aura read by the Felfury fill bar; not a button — a row so the drawn state has an inventory record |
 | Fel Addict | 300487 | infernal | ignore | Passive | passive: raises max Felfury stacks (cap question lives in requirements §6) |
 | Fel Apprentice | 92088 | infernal | ignore | Specialization | spec passive (L10): Inner Demon makes Fel Fireball Felstrike |
 | Fel Bargain | 807942 | tyrant | defensive |  | cited tyrant: 'trades banked Energy into health in a pinch', 3 min |
