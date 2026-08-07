@@ -1,0 +1,850 @@
+{
+ "_class": "reaper",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Absolute Destruction": {
+   "id": 705415,
+   "state": "record"
+  },
+  "Anguish": {
+   "id": 705430,
+   "state": "record"
+  },
+  "Anima Ambusher": {
+   "id": 705424,
+   "state": "record"
+  },
+  "Annihilation": {
+   "id": 705421,
+   "state": "record"
+  },
+  "Apparition": {
+   "id": 705389,
+   "state": "record"
+  },
+  "Backswing": {
+   "id": 504059,
+   "state": "record"
+  },
+  "Bane": {
+   "id": 503295,
+   "state": "record"
+  },
+  "Behemoth": {
+   "id": 573041,
+   "state": "record"
+  },
+  "Between Shadows": {
+   "id": 560412,
+   "state": "record"
+  },
+  "Beyond the Veil": {
+   "id": 560362,
+   "state": "record"
+  },
+  "Blood Binding": {
+   "id": 573032,
+   "state": "record"
+  },
+  "Blood Frenzy": {
+   "id": 707899,
+   "state": "record"
+  },
+  "Blood Fueled": {
+   "id": 705416,
+   "state": "record"
+  },
+  "Blood Harvester": {
+   "id": 300889,
+   "state": "record"
+  },
+  "Blood Siphon": {
+   "id": 805340,
+   "state": "record"
+  },
+  "Bolstered Form": {
+   "id": 680337,
+   "state": "record"
+  },
+  "Bountiful Harvest": {
+   "id": 706576,
+   "state": "record"
+  },
+  "Burial Rites": {
+   "id": 560422,
+   "state": "record"
+  },
+  "Callous Soul": {
+   "id": 705418,
+   "state": "record"
+  },
+  "Chancing Death": {
+   "id": 300550,
+   "state": "record"
+  },
+  "Corporeal Flay": {
+   "id": 800938,
+   "state": "record"
+  },
+  "Counterscythe": {
+   "id": 706986,
+   "state": "record"
+  },
+  "Crimson Death": {
+   "id": 705414,
+   "state": "record"
+  },
+  "Crimson Harvest": {
+   "id": 500358,
+   "state": "record"
+  },
+  "Crimson Power": {
+   "id": 504013,
+   "state": "record"
+  },
+  "Crimson Quickness": {
+   "id": 705411,
+   "state": "record"
+  },
+  "Crimson Thirst": {
+   "id": 807415,
+   "state": "record"
+  },
+  "Crow's Harvest": {
+   "id": 504011,
+   "state": "record"
+  },
+  "Cull": {
+   "id": 800930,
+   "state": "record"
+  },
+  "Cursed Rosary": {
+   "id": 300551,
+   "state": "record"
+  },
+  "Damned": {
+   "id": 560420,
+   "state": "record"
+  },
+  "Dark Conquest": {
+   "id": 801568,
+   "state": "record"
+  },
+  "Dark Deal": {
+   "id": 680919,
+   "state": "record"
+  },
+  "Dark Fate": {
+   "id": 504037,
+   "state": "record"
+  },
+  "Dark Pact": {
+   "id": 800338,
+   "state": "record"
+  },
+  "Dark Passage": {
+   "id": 504035,
+   "state": "record"
+  },
+  "Dark Soul": {
+   "id": 706784,
+   "state": "record"
+  },
+  "Darkrend Scythe": {
+   "id": 704256,
+   "state": "record"
+  },
+  "Death Dealer": {
+   "id": 524770,
+   "state": "record"
+  },
+  "Death's Presence": {
+   "id": 520371,
+   "state": "record"
+  },
+  "Deathchaser": {
+   "id": 805190,
+   "state": "record"
+  },
+  "Deathstalker": {
+   "id": 804054,
+   "state": "record"
+  },
+  "Deathwail": {
+   "id": 300791,
+   "state": "record"
+  },
+  "Deathwind": {
+   "id": 800174,
+   "state": "record"
+  },
+  "Decimate": {
+   "id": 500523,
+   "state": "record"
+  },
+  "Dirge": {
+   "id": 801328,
+   "state": "record"
+  },
+  "Dominion": {
+   "id": 803999,
+   "state": "record"
+  },
+  "Doomrend": {
+   "id": 800172,
+   "state": "record"
+  },
+  "Dread": {
+   "id": 300557,
+   "state": "record"
+  },
+  "Dreadknight": {
+   "id": 300560,
+   "state": "record"
+  },
+  "Dreadwake": {
+   "id": 803992,
+   "state": "record"
+  },
+  "Dreadwarden": {
+   "id": 300559,
+   "state": "record"
+  },
+  "Eater of Souls": {
+   "id": 805181,
+   "state": "record"
+  },
+  "Edgewalker": {
+   "id": 805193,
+   "state": "record"
+  },
+  "Embrace of Death": {
+   "id": 805202,
+   "state": "record"
+  },
+  "Endbringer": {
+   "id": 800922,
+   "state": "record"
+  },
+  "Essence Invigoration": {
+   "id": 805186,
+   "state": "record"
+  },
+  "Ethereal Guard": {
+   "id": 300969,
+   "state": "record"
+  },
+  "Executioner": {
+   "id": 500542,
+   "state": "record"
+  },
+  "Extinction": {
+   "id": 520501,
+   "state": "record"
+  },
+  "Fatesealer": {
+   "id": 705442,
+   "state": "record"
+  },
+  "Final Destination": {
+   "id": 504167,
+   "state": "record"
+  },
+  "From the Shadows": {
+   "id": 561099,
+   "state": "record"
+  },
+  "Ghastly Advance": {
+   "id": 805192,
+   "state": "record"
+  },
+  "Ghastly Form": {
+   "id": 704357,
+   "state": "record"
+  },
+  "Ghastly Nature": {
+   "id": 705440,
+   "state": "record"
+  },
+  "Ghastly Power": {
+   "id": 705438,
+   "state": "record"
+  },
+  "Ghastly Screech": {
+   "id": 806146,
+   "state": "record"
+  },
+  "Ghost": {
+   "id": 705426,
+   "state": "record"
+  },
+  "Ghost Buster": {
+   "id": 705417,
+   "state": "record"
+  },
+  "Ghost Claw": {
+   "id": 803985,
+   "state": "record"
+  },
+  "Ghost Form": {
+   "id": 561083,
+   "state": "record"
+  },
+  "Ghostly Fortitude": {
+   "id": 705446,
+   "state": "record"
+  },
+  "Ghostly Magic": {
+   "id": 803998,
+   "state": "record"
+  },
+  "Ghostly Weapon": {
+   "id": 520325,
+   "state": "record"
+  },
+  "Gravesite": {
+   "id": 804722,
+   "state": "record"
+  },
+  "Greater Rite of Perseverance": {
+   "id": 575842,
+   "state": "record"
+  },
+  "Greater Rite of Power": {
+   "id": 578130,
+   "state": "record"
+  },
+  "Greater Rite of Resolve": {
+   "id": 680298,
+   "state": "record"
+  },
+  "Grim Skin": {
+   "id": 300552,
+   "state": "record"
+  },
+  "Hard Bargain": {
+   "id": 300569,
+   "state": "record"
+  },
+  "Harnessed Life": {
+   "id": 572293,
+   "state": "record"
+  },
+  "Harvest - Level 30 Passive": {
+   "id": 705419,
+   "state": "record"
+  },
+  "Harvest Time": {
+   "id": 704188,
+   "state": "record"
+  },
+  "Harvester": {
+   "id": 92145,
+   "state": "record"
+  },
+  "Harvester's Scythe": {
+   "id": 805188,
+   "state": "record"
+  },
+  "Harvesting Grounds": {
+   "id": 705413,
+   "state": "record"
+  },
+  "Haunt": {
+   "id": 573425,
+   "state": "record"
+  },
+  "Haunter": {
+   "id": 570095,
+   "state": "record"
+  },
+  "Hemorrhage": {
+   "id": 705432,
+   "state": "record"
+  },
+  "Hungering Scythe": {
+   "id": 502708,
+   "state": "record"
+  },
+  "Improved Blood Siphon": {
+   "id": 705407,
+   "state": "record"
+  },
+  "Improved Dark Deal": {
+   "id": 300556,
+   "state": "record"
+  },
+  "Improved Ghost Form": {
+   "id": 807084,
+   "state": "record"
+  },
+  "Improved Soulshroud": {
+   "id": 300568,
+   "state": "record"
+  },
+  "Into The Shadow Realm": {
+   "id": 561342,
+   "state": "record"
+  },
+  "Jailer's Bargain": {
+   "id": 805718,
+   "state": "record"
+  },
+  "Lamenting": {
+   "id": 705397,
+   "state": "record"
+  },
+  "Limbo": {
+   "id": 800845,
+   "state": "record"
+  },
+  "Lord of Death": {
+   "id": 805194,
+   "state": "record"
+  },
+  "Lost Embrace": {
+   "id": 705402,
+   "state": "record"
+  },
+  "Mark of Terror": {
+   "id": 500355,
+   "state": "record"
+  },
+  "Masochistic Rage": {
+   "id": 803030,
+   "state": "record"
+  },
+  "Maw Knight": {
+   "id": 805204,
+   "state": "record"
+  },
+  "Mawborn": {
+   "id": 805203,
+   "state": "record"
+  },
+  "Mawdrinker": {
+   "id": 300561,
+   "state": "record"
+  },
+  "Mind Screech": {
+   "id": 705448,
+   "state": "record"
+  },
+  "Murder": {
+   "id": 500376,
+   "state": "record"
+  },
+  "Murderous Thirst": {
+   "id": 300547,
+   "state": "record"
+  },
+  "Mysterious Omen": {
+   "id": 561108,
+   "state": "record"
+  },
+  "Painbringer": {
+   "id": 520533,
+   "state": "record"
+  },
+  "Painmail": {
+   "id": 800171,
+   "state": "record"
+  },
+  "Planeshifter": {
+   "id": 705400,
+   "state": "record"
+  },
+  "Possess": {
+   "id": 806600,
+   "state": "record"
+  },
+  "Purgatory": {
+   "id": 504046,
+   "state": "record"
+  },
+  "Ravenous Thirst": {
+   "id": 504031,
+   "state": "record"
+  },
+  "Realm of Darkness": {
+   "id": 705398,
+   "state": "record"
+  },
+  "Reap": {
+   "id": 354319,
+   "state": "record"
+  },
+  "Reaper's Pact": {
+   "id": 804001,
+   "state": "record"
+  },
+  "Red Wake": {
+   "id": 801041,
+   "state": "record"
+  },
+  "Reliquary of the Lost": {
+   "id": 500629,
+   "state": "record"
+  },
+  "Requiem": {
+   "id": 805717,
+   "state": "record"
+  },
+  "Rite of Perseverance": {
+   "id": 575839,
+   "state": "record"
+  },
+  "Rite of Power": {
+   "id": 578126,
+   "state": "record"
+  },
+  "Rite of Resolve": {
+   "id": 800198,
+   "state": "record"
+  },
+  "Ruin": {
+   "id": 805198,
+   "state": "record"
+  },
+  "Sadism": {
+   "id": 705447,
+   "state": "record"
+  },
+  "Sanguine Orb": {
+   "id": 500361,
+   "state": "record"
+  },
+  "Sanguine Soldier": {
+   "id": 704555,
+   "state": "record"
+  },
+  "Scythe Rush": {
+   "id": 500359,
+   "state": "record"
+  },
+  "Sepulchral Renewal": {
+   "id": 561102,
+   "state": "record"
+  },
+  "Shade": {
+   "id": 573038,
+   "state": "record"
+  },
+  "Shadow Wraith": {
+   "id": 805721,
+   "state": "record"
+  },
+  "Shadow's Embrace": {
+   "id": 524709,
+   "state": "record"
+  },
+  "Shadowlands Sulker": {
+   "id": 560894,
+   "state": "record"
+  },
+  "Shattered Souls": {
+   "id": 705441,
+   "state": "record"
+  },
+  "Shrieker": {
+   "id": 801332,
+   "state": "record"
+  },
+  "Shrieking Scythe": {
+   "id": 502700,
+   "state": "no-record"
+  },
+  "Shudder Scythe": {
+   "id": 801321,
+   "state": "no-record"
+  },
+  "Sinister Litany": {
+   "id": 805185,
+   "state": "record"
+  },
+  "Slaughter": {
+   "id": 500373,
+   "state": "record"
+  },
+  "Soul Bane": {
+   "id": 705392,
+   "state": "record"
+  },
+  "Soul Capture": {
+   "id": 561289,
+   "state": "record"
+  },
+  "Soul Catcher": {
+   "id": 560277,
+   "state": "record"
+  },
+  "Soul Collector": {
+   "id": 706731,
+   "state": "record"
+  },
+  "Soul Eater": {
+   "id": 705393,
+   "state": "record"
+  },
+  "Soul Furnace": {
+   "id": 805184,
+   "state": "record"
+  },
+  "Soul Harvest": {
+   "id": 504012,
+   "state": "record"
+  },
+  "Soul Harvester": {
+   "id": 804311,
+   "state": "record"
+  },
+  "Soul Inferno": {
+   "id": 705394,
+   "state": "record"
+  },
+  "Soul Protector": {
+   "id": 300553,
+   "state": "record"
+  },
+  "Soul Shear": {
+   "id": 520862,
+   "state": "record"
+  },
+  "Soul Shock": {
+   "id": 803989,
+   "state": "record"
+  },
+  "Soul Slip": {
+   "id": 500286,
+   "state": "record"
+  },
+  "Soul Splinters": {
+   "id": 805719,
+   "state": "record"
+  },
+  "Soul Strike": {
+   "id": 500517,
+   "state": "record"
+  },
+  "Soul Tap": {
+   "id": 807397,
+   "state": "record"
+  },
+  "Soul Warden": {
+   "id": 560419,
+   "state": "record"
+  },
+  "Soulbender": {
+   "id": 804004,
+   "state": "record"
+  },
+  "Soulfused Constitution": {
+   "id": 561100,
+   "state": "record"
+  },
+  "Soulless": {
+   "id": 504039,
+   "state": "record"
+  },
+  "Soulrend": {
+   "id": 573316,
+   "state": "record"
+  },
+  "Soulrot": {
+   "id": 804660,
+   "state": "record"
+  },
+  "Soulrunner": {
+   "id": 704547,
+   "state": "record"
+  },
+  "Souls for the Slaughter": {
+   "id": 504304,
+   "state": "record"
+  },
+  "Soulshroud": {
+   "id": 805711,
+   "state": "record"
+  },
+  "Soulsight": {
+   "id": 300565,
+   "state": "record"
+  },
+  "Soulslam": {
+   "id": 504014,
+   "state": "record"
+  },
+  "Soulspear": {
+   "id": 803984,
+   "state": "record"
+  },
+  "Soulstone Lure": {
+   "id": 561376,
+   "state": "record"
+  },
+  "Soulstorm": {
+   "id": 578257,
+   "state": "record"
+  },
+  "Soulstrider": {
+   "id": 572340,
+   "state": "record"
+  },
+  "Soultwister": {
+   "id": 705405,
+   "state": "record"
+  },
+  "Spectral Hand": {
+   "id": 520046,
+   "state": "record"
+  },
+  "Spectral Scythe": {
+   "id": 500484,
+   "state": "record"
+  },
+  "Spectral Waltz": {
+   "id": 803988,
+   "state": "record"
+  },
+  "Spectral Warden": {
+   "id": 805716,
+   "state": "record"
+  },
+  "Spectre Strength": {
+   "id": 804671,
+   "state": "record"
+  },
+  "Spectre Stride": {
+   "id": 801624,
+   "state": "record"
+  },
+  "Spectre's Call": {
+   "id": 705386,
+   "state": "record"
+  },
+  "Spirit Realm": {
+   "id": 582526,
+   "state": "record"
+  },
+  "Spirit Render": {
+   "id": 570338,
+   "state": "record"
+  },
+  "Spirit Scythes": {
+   "id": 300548,
+   "state": "record"
+  },
+  "Spirit Walker": {
+   "id": 561082,
+   "state": "record"
+  },
+  "Spiritual Pressure": {
+   "id": 300566,
+   "state": "record"
+  },
+  "Spiritual Reflexes": {
+   "id": 705436,
+   "state": "record"
+  },
+  "Stoke the Souls": {
+   "id": 705433,
+   "state": "record"
+  },
+  "The Jailer's Call": {
+   "id": 704299,
+   "state": "record"
+  },
+  "Thirsting Scythe": {
+   "id": 504029,
+   "state": "record"
+  },
+  "This Is My Domain": {
+   "id": 500584,
+   "state": "record"
+  },
+  "Thresh": {
+   "id": 505170,
+   "state": "record"
+  },
+  "Tormented Souls": {
+   "id": 500481,
+   "state": "record"
+  },
+  "Tormentor": {
+   "id": 92147,
+   "state": "record"
+  },
+  "Torturing Scythe": {
+   "id": 705449,
+   "state": "record"
+  },
+  "Umbral Wanderer": {
+   "id": 705431,
+   "state": "record"
+  },
+  "Underwalk": {
+   "id": 800797,
+   "state": "record"
+  },
+  "Vampiric Mist": {
+   "id": 705435,
+   "state": "record"
+  },
+  "Veilwalk": {
+   "id": 803990,
+   "state": "record"
+  },
+  "Vicious Murder": {
+   "id": 300546,
+   "state": "record"
+  },
+  "Vile Blade": {
+   "id": 680923,
+   "state": "record"
+  },
+  "Wailing Soul": {
+   "id": 804676,
+   "state": "record"
+  },
+  "Wake Up, It's Dread Time": {
+   "id": 705429,
+   "state": "record"
+  },
+  "Warden of the Lost": {
+   "id": 707116,
+   "state": "record"
+  },
+  "Weakened Souls": {
+   "id": 92146,
+   "state": "record"
+  },
+  "Whisper of the Lost": {
+   "id": 520047,
+   "state": "record"
+  },
+  "Wicked Shadows": {
+   "id": 705390,
+   "state": "record"
+  },
+  "Withering Touch": {
+   "id": 573071,
+   "state": "record"
+  },
+  "Wraith Claw": {
+   "id": 807234,
+   "state": "record"
+  },
+  "Wraith King's Hunger": {
+   "id": 300563,
+   "state": "record"
+  },
+  "Wraithblade": {
+   "id": 805258,
+   "state": "record"
+  },
+  "Writhe": {
+   "id": 801337,
+   "state": "record"
+  }
+ }
+}

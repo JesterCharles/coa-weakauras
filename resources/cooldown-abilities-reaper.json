@@ -1,0 +1,305 @@
+{
+ "Bane": {
+  "id": 503295,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Bolstered Form": {
+  "id": 680337,
+  "cd": "1 min cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": false
+ },
+ "Corporeal Flay": {
+  "id": 800938,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Dark Fate": {
+  "id": 504037,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "harvest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Deathstalker": {
+  "id": 804054,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Decimate": {
+  "id": 500523,
+  "cd": "1 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Endbringer": {
+  "id": 800922,
+  "cd": "3 min cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Ghastly Screech": {
+  "id": 806146,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Ghost Claw": {
+  "id": 803985,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Ghost Form": {
+  "id": 561083,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Harvesting Grounds": {
+  "id": 705413,
+  "cd": "2 min cooldown",
+  "specs": [
+   "harvest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Hungering Scythe": {
+  "id": 502708,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "domination",
+   "harvest"
+  ],
+  "gcd": false
+ },
+ "Jailer's Bargain": {
+  "id": 805718,
+  "cd": "2 min cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Limbo": {
+  "id": 800845,
+  "cd": "3 min cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Mark of Terror": {
+  "id": 500355,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": false
+ },
+ "Sanguine Orb": {
+  "id": 500361,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "harvest"
+  ],
+  "gcd": false
+ },
+ "Sepulchral Renewal": {
+  "id": 561102,
+  "cd": "8 min cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Shade": {
+  "id": 573038,
+  "cd": "3 min cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Shadow's Embrace": {
+  "id": 524709,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Shrieking Scythe": {
+  "id": 502700,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Shudder Scythe": {
+  "id": 801321,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "harvest"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Soul Capture": {
+  "id": 561289,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Soul Shear": {
+  "id": 520862,
+  "cd": "16 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Soul Tap": {
+  "id": 807397,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Soulshroud": {
+  "id": 805711,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": false
+ },
+ "Soulslam": {
+  "id": 504014,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Soulspear": {
+  "id": 803984,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Soulstone Lure": {
+  "id": 561376,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Spectral Scythe": {
+  "id": 500484,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": false
+ },
+ "Spectral Waltz": {
+  "id": 803988,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Spectral Warden": {
+  "id": 805716,
+  "cd": "3 min cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": false
+ },
+ "Underwalk": {
+  "id": 800797,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Whisper of the Lost": {
+  "id": 520047,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "soul"
+  ],
+  "gcd": false
+ },
+ "Withering Touch": {
+  "id": 573071,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "domination",
+   "harvest",
+   "soul"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Writhe": {
+  "id": 801337,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "domination"
+  ],
+  "gcd": false
+ }
+}

@@ -1,0 +1,545 @@
+{
+ "entries": {
+  "03764121514692c7": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Harvester’s Scythe increased to 20% from 15%"
+  },
+  "06bedb6a738c0c98": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Infinite Shield range increased to 40 yds."
+  },
+  "0a69b870056a3480": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Empyrean Fortitude now generates 5 RP, up from 2."
+  },
+  "0ddba1d563c5bb49": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
+  },
+  "13f376006eaa0437": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 4 increased base damage from 17 to 21 and 80% weapon damage to 90% weapon damage."
+  },
+  "18ad6e46fe94e936": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug where Inferno was not contributing to the Pyromancer in the combat log. (This spell was doing more than you thought because it contributed to other people’s healing and not your own)."
+  },
+  "1d97730554f507da": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Cycling Aeons replaced with Rapid Acceleration and now reads: “Your Accelerated Recovery now heals 15% of its total periodic amount instantly and increases the healing power contribution to Accelerated Recovery by 15%.”"
+  },
+  "2060a18cc2a3f4e2": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 1 increased weapon damage from 65% to 75% and normalized damage from 6 to 8."
+  },
+  "247029e9a44ef873": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 7 increased base damage from 202 to 242 and weapon damage from 130% to 150%."
+  },
+  "2a994acb6a1f15f0": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 2's damage has been increased from 12 to 42."
+  },
+  "2ab6af1530436620": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Pyroclasm damage now obeys PVP mods properly."
+  },
+  "2ad76cbf5fc08010": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
+  },
+  "2d5598fab552f80e": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Bulwark of Azzinoth damage reduction value reduced from 10% to 5%."
+  },
+  "2df1c90ce628784f": {
+   "class": "chronomancer",
+   "date": "2026/08/03",
+   "text": "Fortify Timeline can now extend Accelerated Recovery by a maximum of 15 seconds baseline."
+  },
+  "3150a9fbfa7834ec": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Legionfall now additionally causes your next Annihilan Strike to cost 50% less energy."
+  },
+  "31a15f126000c9f8": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 1 increased base damage from 14 to 17 and weapon damage from 130% to 150%."
+  },
+  "33d3326f3dc49d1b": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 4's damage has been increased from 30 to 97."
+  },
+  "351d50ee3009702d": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 1's damage has been increased from 7 to 25."
+  },
+  "358a52cbd9d233d6": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Ride the Lightning now has a 30 yd range instead of 40 yds. 40 yds often left you teleporting into walls."
+  },
+  "3593781f6086dfc5": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Spectre Stride now roots the target for 2 sec."
+  },
+  "37903d0e830d73f8": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Scaling of Pure Hatred reduced from 30% Maximum Health scaling to 15% Maximum Health scaling."
+  },
+  "3a8fa93d53dfa288": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Felcaked Blades agility scaling increased from 20% to 25%."
+  },
+  "3abf5595455bec90": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the duration of Harvesting Grounds to 15 sec from 10 sec"
+  },
+  "3b001e7b33004a29": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Phoenix Egg is now permanent, up from 1 minute, but has a cast time to resummon."
+  },
+  "3ca9a800b49bb59e": {
+   "class": "stormbringer",
+   "date": "2026/08/06",
+   "text": "An issue has been fixed that caused Drown to pull targets in AoE that it should not have. This has been fixed live."
+  },
+  "3edd9d84e4c75825": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 2's absorb has been increased from 675 to 1055."
+  },
+  "3f05700a923eec47": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Felbane can no longer target bosses."
+  },
+  "404469b4f8af905f": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Scythe Rush now roots the enemy in place for 1 sec."
+  },
+  "423a7a271ccdab26": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
+  },
+  "474d568768b496fa": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 5 increased base damage from 119 to 143 and weapon damage from 130% to 150%."
+  },
+  "4c8bc1a59f35d881": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 7 increased base damage from 80 to 106 and 80% weapon damage to 90% weapon damage."
+  },
+  "4f0d1f1544de28f4": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Cripple now reduces the target’s moving and casting speed by 40% down from 50%. It now ticks down 8% from 10% per stack. Duration remains unchanged."
+  },
+  "504893d62c5ac78f": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Temporal Anomaly can now be released early (cancelable before expiration), healing you for currently stored value."
+  },
+  "50aeaa540a3e04a8": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 2 increased base damage from 80% to 90% and normalized damage from 5 to 6."
+  },
+  "539f94947816dc76": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "There is work being done to improve the Weapon Enhancements."
+  },
+  "5557ae11e330d0b0": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Hoarfrost AoE Range increased from 5 yds to 8 yds."
+  },
+  "5c7a82e9f1092eda": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Runic Explosion base damage has been increased by approximately 25%."
+  },
+  "5e2a6c1f90bc0c29": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 5 increased base damage from 30 to 38 and 80% weapon damage to 90% weapon damage."
+  },
+  "5e9b9e8693daef06": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Inferno has been reworked and now reads: You have a 50% chance with direct healing critical spells to apply an inferno on an ally. Inferno heals 3 nearby allies every second for 5 seconds and at the end of its duration nearby party and raid members are healed. This effect can only trigger once every 5 seconds."
+  },
+  "600b06654ae5facb": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "A new spell Fray Magic (interrupt) is now available from the class trainer at level 26."
+  },
+  "61741d7592fd1365": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Cycling Aeons is now baseline to the aeons, all cooldowns of aeons reduced by 50%."
+  },
+  "6272672dbb3ea770": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Fixed an issue which caused Moment’s Reprieve to have no cooldown and mana cost."
+  },
+  "62b8f2b9c4f9dce0": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Tempo now additionally increases the damage of Runic Brand."
+  },
+  "631855a45ccecebf": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Resilience reworked: Reduces cast time of Epoch by 25% and increases mana cost by 25% and Epoch causes your Accelerated Recovery to bounce to another target."
+  },
+  "6353feff0f4b200f": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 7 increased weapon damage from 65% to 75% and normalized damage from 99 to 124."
+  },
+  "64d1fc58558be207": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Shockingly Powerful now causes critical strikes with Torrential Wrath to trigger Conductive directly."
+  },
+  "677a9d58590d27d4": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Unshackle and Windsurf are no longer on the GCD."
+  },
+  "6788ce9c73a54e63": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Thorim's Gift now inherits 15% of the damage dealt from Arm of Thorim, up from 10%."
+  },
+  "69010fb6b8c1d5e8": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Spectre Strength now also increases your Armor penetration by 5/10%."
+  },
+  "69c3600e13dffb64": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Protection reworked: Increases cast time of Epoch by 25% and increases the healing done by 25% and Epoch now shields the target for 50% of the amount healed."
+  },
+  "6d16e679d8177004": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 4 increased weapon damage from 65% to 75% and normalized damage from 37 to 46."
+  },
+  "6eb8fbdbc0870ddf": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 3 increased base damage from 10 to 12 and 80% weapon damage to 90% weapon damage."
+  },
+  "6f1df589aead82d4": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the duration of Limbo to 6 sec from 5 sec"
+  },
+  "70b5f4eb4af3a76c": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 6 increased base damage from 167 to 200 and weapon damage from 130% to 150%."
+  },
+  "71d5ea77037024aa": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Runic Brand Attack Power scaling has been reduced from 30% -> 28%, but now has an additional 15% Spell Power scaling.(This spell had zero spell power scaling before)"
+  },
+  "7277460169ee5774": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Flux Arc duration increased from 8 sec to 10 sec."
+  },
+  "73795e505999eac1": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Fixed an issue where damage from Stormcloud could not critically hit."
+  },
+  "747841d1c05246a3": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 5's absorb has been increased from 1961 to 3064."
+  },
+  "7583523c9ec35db4": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Fist of the Ancients Attack Power scaling has been reduced from 65% -> 58%, but now has an additional 20% Spell Power Scaling (This spell had zero spell power scaling before)"
+  },
+  "7d1478f0f23159f4": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Keep Accelerating (talent) will now prioritize applying Accelerated Recovery to targets not yet affected by Accelerated Recovery."
+  },
+  "80c8ed486b043d12": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 1's absorb has been increased from 400 to 625."
+  },
+  "82948592ff96baf5": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 4 increased base damage from 79 to 95 and weapon damage from 130% to 150%."
+  },
+  "8309c4df61f3dabc": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Ride the Lightning is now on a separate GCD from the main GCD so that it cannot be accidentally double-tapped."
+  },
+  "83ecc8f5da13f664": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 1 increased base damage from 80% to 90% and normalized damage from 2 to 3."
+  },
+  "86051766dd18425e": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 4's absorb has been increased from 1461 to 2283."
+  },
+  "86212338e8241fd3": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Conductive no longer consumes, now has lower value per stack and stacks higher. This is a shocking change. This change will be monitored closely over the next few days."
+  },
+  "864e4d9f49f04699": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Rewind now increases your movement speed and reduces the movement speed of enemies around you"
+  },
+  "86a1ad82a447f188": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Rewind is now usable while crowd-controlled"
+  },
+  "86fcde3a88810310": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 3 increased weapon damage from 65% to 75% and normalized damage from 26 to 33."
+  },
+  "8b5bd4d45ae3dacd": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 3's absorb has been increased from 958 to 1496."
+  },
+  "8c76da09a90379fc": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Added 2 new abilities to the Air Elemental - Cyclonean Protection and Wind Tunnel."
+  },
+  "8e11419ee8890a09": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug causing Phoenix Dive to apply its coefficient twice to the absorb value and Phoenix Dive now hits up to 10 targets."
+  },
+  "93e5c29521b2f40d": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Soul Infusion Spells will refund their Soul Infusion Cost whenever the spell gets dodged, parried or misses. Requiem will only refund if ALL targets are missed."
+  },
+  "95dfc8b80cbd3a46": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Nether Strength cooldown reduction reduced from 1 sec to 0.5 sec."
+  },
+  "a2dfed3a4d3d157f": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Timeguard damage reduction increased from 40% to 50%."
+  },
+  "a779fdbb98208cb5": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Unleashed Flame Glyph duration has increased from 6 seconds to 10 seconds (2 extra ticks)."
+  },
+  "aa02746360947acd": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Drown maximum stack count has been raised to 8, up from 6."
+  },
+  "aaebb055d90030b7": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Overloaded Flame Glyph duration has increased from 5 seconds to 12 seconds, but the tick rate has been reduced from 1 second to 1.5 seconds (3 extra ticks)."
+  },
+  "b3fd2c98818684b8": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Volt no longer scales with haste."
+  },
+  "b463329fdd4fc248": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 5's damage has been increased from 45 to 129."
+  },
+  "b6e2d4304e8672b0": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 2 increased base damage from 29 to 35 and weapon damage from 130% to 150%."
+  },
+  "b7a5fdda7a076fe3": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Nether Disciple no longer provides dodge chance."
+  },
+  "b9e02c96e60953ea": {
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "text": "Kinetic Energy duration increased from 8 sec to 10 sec."
+  },
+  "bb0cf575ae8d9bcd": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Outland Slaver damage increase lowered by 5/10%."
+  },
+  "bc11a36c44f5d5a1": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Renewal reworked: Decreases the amount healed by Epoch by 25% and increases its critical strike chance by 25% and Epoch now heals for 75% of the amount healed over 6 seconds. Additionally, this healing will accumulate, similar to Ignite."
+  },
+  "bc4f5eea3504866c": {
+   "class": "runemaster",
+   "date": "2026/08/03",
+   "text": "Swapped Mind Over Matter in the Class Tree with Battle Engravings in the Talent Tree, meaning all Runemasters can now take Battle Engravings."
+  },
+  "bdcad2c829c37f2a": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 3's damage has been increased from 21 to 69."
+  },
+  "bee30471fe10b97a": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 8 increased base damage from 123 to 166 and 80% weapon damage to 90% weapon damage."
+  },
+  "c0ea4d2a41607106": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 6's damage has been increased from 67 to 145"
+  },
+  "c11a43f49cb009e7": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 6 increased base damage from 48 to 62 and 80% weapon damage to 90% weapon damage."
+  },
+  "c4d299cec6a4f172": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Oblivion reworked:Decreases the critical strike chance of Epoch by 25% and reduces the Mana Cost of Epoch by 25% and Epoch now deals 100% of its healing done as damage to a nearby enemy."
+  },
+  "c4e6d8d11a8fc750": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Timeguard has an additional mechanic added: Attacks that deal more than 20% of your health are reduced by 50%. This will consume a charge of Timeguard."
+  },
+  "c4fee8f23b3cc9bb": {
+   "class": "chronomancer",
+   "date": "2026/08/03",
+   "text": "Chronicler reimplemented. It now reads: \"Each cast of Fortify Timeline will now extend Accelerated Recovery by an additional 5 seconds, and the maximum length that Fortify Timeline can extend Accelerated Recovery by is increased by 15 seconds.\""
+  },
+  "c53452715b70310b": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Reduced scaling of Correct the Mistake by 20%."
+  },
+  "c58522dd5944f0b0": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Chaotic now gives 2 energy per melee ability critical strike, down from 3."
+  },
+  "c641cde34449a373": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 3 increased base damage from 46 to 55 and weapon damage from 130% to 150%."
+  },
+  "caf251a979b6bbdf": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Azzinoth’s Assault base damage increased by 20%."
+  },
+  "caf9039f80c25b07": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Adjusted the positioning of Timeline Tether and Rapid Acceleration"
+  },
+  "cff3c2058733d763": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "The damage absorb provided from Hateforged Barrier is reduced by 30%."
+  },
+  "d260ef0edbcd7849": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 5 increased weapon damage from 65% to 75% and normalized damage from 53 to 66."
+  },
+  "e4141aacc61390a8": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Primordial Strength Attack Power to Spell Power scaling conversion increased from 25% -> 30%"
+  },
+  "e44a730060bccbcb": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the damage of each strike of Shudder Scythe from 30% to 40%."
+  },
+  "e818b4830279b596": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 6 increased weapon damage from 65% to 75% and normalized damage from 80 to 100."
+  },
+  "e8826bc7eb852547": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Soulstrider increased to 25% from 20%"
+  },
+  "eaf4c42dd8c2e98c": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 2 increased weapon damage from 65% to 75% and normalized damage from 11 to 14."
+  },
+  "f2dbb02c1cb7de1d": {
+   "class": "runemaster",
+   "date": "2026/08/03",
+   "text": "Mind Wrath - has been buffed as a switch node with Battle Engravings. It now affects 2 targets up from 1."
+  },
+  "f87ac03261ee339b": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the value of Hemorrhage from 10% to 20%"
+  },
+  "ff6a22175c176e3d": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Constant Recovery now also reduces the threat of your holy school spells by 20%."
+  }
+ },
+ "section": 4
+}

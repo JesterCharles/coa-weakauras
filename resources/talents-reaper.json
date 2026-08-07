@@ -1,0 +1,2340 @@
+{
+ "class": "reaper",
+ "class_id": 30,
+ "source": "ascension.gg",
+ "source_url": "https://ascension.gg/en/v2/coa-builder/voljin",
+ "realm": "api/v3 builder CoA parser",
+ "class_tab": [
+  {
+   "id": 5464,
+   "name": "Sinister Litany",
+   "spell_ids": [
+    805185
+   ],
+   "x": 2,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 5495,
+   "name": "Soulstrider",
+   "spell_ids": [
+    572340
+   ],
+   "x": 0,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 5600,
+   "name": "Limbo",
+   "spell_ids": [
+    800845
+   ],
+   "x": 7,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6708,
+   "name": "Backswing",
+   "spell_ids": [
+    706790
+   ],
+   "x": 3,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6719,
+   "name": "Veilwalk",
+   "spell_ids": [
+    803990
+   ],
+   "x": 1,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6722,
+   "name": "Soul Harvester",
+   "spell_ids": [
+    804311
+   ],
+   "x": 5,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6726,
+   "name": "Dark Passage",
+   "spell_ids": [
+    704558
+   ],
+   "x": 8,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6778,
+   "name": "Ghastly Form",
+   "spell_ids": [
+    704357
+   ],
+   "x": 1,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6780,
+   "name": "Burial Rites",
+   "spell_ids": [
+    560422
+   ],
+   "x": 8,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7271,
+   "name": "Dominion",
+   "spell_ids": [
+    803999
+   ],
+   "x": 6,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7272,
+   "name": "Damned",
+   "spell_ids": [
+    706786
+   ],
+   "x": 2,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 30107,
+   "name": "Wraithblade",
+   "spell_ids": [
+    805258
+   ],
+   "x": 2,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30109,
+   "name": "Mysterious Omen",
+   "spell_ids": [
+    561108
+   ],
+   "x": 0,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30113,
+   "name": "Tormented Souls",
+   "spell_ids": [
+    500483
+   ],
+   "x": 6,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30324,
+   "name": "Essence Invigoration",
+   "spell_ids": [
+    805186
+   ],
+   "x": 6,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29564,
+   "name": "Soul Tap",
+   "spell_ids": [
+    807397
+   ],
+   "x": 4,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 31125,
+   "name": "Mawborn",
+   "spell_ids": [
+    805203
+   ],
+   "x": 4,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30534,
+   "name": "Painbringer",
+   "spell_ids": [
+    680995
+   ],
+   "x": 4,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30535,
+   "name": "Masochistic Rage",
+   "spell_ids": [
+    803030
+   ],
+   "x": 4,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34489,
+   "name": "Spectre Strength",
+   "spell_ids": [
+    804671,
+    807886
+   ],
+   "x": 4,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 34492,
+   "name": "Ghastly Advance",
+   "spell_ids": [
+    805192,
+    807885
+   ],
+   "x": 0,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34495,
+   "name": "Withering Touch",
+   "spell_ids": [
+    573071
+   ],
+   "x": 4,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34497,
+   "name": "Soul Protector",
+   "spell_ids": [
+    300553
+   ],
+   "x": 6,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34499,
+   "name": "Soul Furnace",
+   "spell_ids": [
+    805184
+   ],
+   "x": 6,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34500,
+   "name": "Between Shadows",
+   "spell_ids": [
+    560412
+   ],
+   "x": 2,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34502,
+   "name": "Soul Harvest",
+   "spell_ids": [
+    504012
+   ],
+   "x": 6,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34505,
+   "name": "Harvester's Scythe",
+   "spell_ids": [
+    805188
+   ],
+   "x": 7,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34510,
+   "name": "Soul Warden",
+   "spell_ids": [
+    560419,
+    561337
+   ],
+   "x": 4,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34461,
+   "name": "Soulfused Constitution",
+   "spell_ids": [
+    561100
+   ],
+   "x": 8,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7783,
+   "name": "Ghost",
+   "spell_ids": [
+    705426
+   ],
+   "x": 2,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 29248,
+   "name": "Scythe Rush",
+   "spell_ids": [
+    500359
+   ],
+   "x": 4,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7945,
+   "name": "From the Shadows",
+   "spell_ids": [
+    561099
+   ],
+   "x": 2,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 9321,
+   "name": "Ghastly Screech",
+   "spell_ids": [
+    806146
+   ],
+   "x": 1,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 9322,
+   "name": "Jailer's Bargain",
+   "spell_ids": [
+    805718
+   ],
+   "x": 7,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 13500,
+   "name": "Into The Shadow Realm",
+   "spell_ids": [
+    561342
+   ],
+   "x": 2,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  }
+ ],
+ "specs": {
+  "domination": [
+   {
+    "id": 34472,
+    "name": "Fatesealer",
+    "spell_ids": [
+     705442
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34473,
+    "name": "Essence Binder",
+    "spell_ids": [
+     560919
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34474,
+    "name": "Harnessed Life",
+    "spell_ids": [
+     705406
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34515,
+    "name": "Empyrean Fortitude",
+    "spell_ids": [
+     706795
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34516,
+    "name": "Spirit Realm",
+    "spell_ids": [
+     705404
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34520,
+    "name": "Intimidating Presence",
+    "spell_ids": [
+     560478
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34521,
+    "name": "Soulsight",
+    "spell_ids": [
+     300565
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29693,
+    "name": "Painmail",
+    "spell_ids": [
+     801325
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30720,
+    "name": "Dreadwake",
+    "spell_ids": [
+     803992
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30722,
+    "name": "Dominator",
+    "spell_ids": [
+     301213
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30533,
+    "name": "Eater of Souls",
+    "spell_ids": [
+     805181
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30550,
+    "name": "Spectral Warden",
+    "spell_ids": [
+     805716
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31262,
+    "name": "Spirit Culling",
+    "spell_ids": [
+     301986
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31289,
+    "name": "Bolstered Form",
+    "spell_ids": [
+     680337
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 30116,
+    "name": "Soulstorm",
+    "spell_ids": [
+     705403
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30119,
+    "name": "Soul Splinters",
+    "spell_ids": [
+     805719
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7946,
+    "name": "Dreadknight",
+    "spell_ids": [
+     300560,
+     301352
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 8293,
+    "name": "Requiem",
+    "spell_ids": [
+     805717
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9271,
+    "name": "Behemoth",
+    "spell_ids": [
+     573041
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9272,
+    "name": "Dark Soul",
+    "spell_ids": [
+     706784
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9672,
+    "name": "Decimation",
+    "spell_ids": [
+     704193
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29249,
+    "name": "Spectral Scythe",
+    "spell_ids": [
+     500484
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29379,
+    "name": "Soul Knight",
+    "spell_ids": [
+     560487
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12330,
+    "name": "Well of Eternity",
+    "spell_ids": [
+     706793
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13784,
+    "name": "Spirit Army",
+    "spell_ids": [
+     707634
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7784,
+    "name": "Life Tap",
+    "spell_ids": [
+     706788
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7876,
+    "name": "Ethereal Guard",
+    "spell_ids": [
+     300969
+    ],
+    "x": 3,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4272,
+    "name": "Soul Slip",
+    "spell_ids": [
+     500286
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6703,
+    "name": "Jailer's Will",
+    "spell_ids": [
+     524939
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6710,
+    "name": "Dark Soldier",
+    "spell_ids": [
+     560490,
+     561338
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6730,
+    "name": "Well of Souls",
+    "spell_ids": [
+     706792
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6768,
+    "name": "Soultaker",
+    "spell_ids": [
+     704356
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6777,
+    "name": "Siphon Anima",
+    "spell_ids": [
+     504309
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6779,
+    "name": "Hard Bargain",
+    "spell_ids": [
+     300569
+    ],
+    "x": 0,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6839,
+    "name": "Final Requiem",
+    "spell_ids": [
+     560486,
+     561358
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4057,
+    "name": "Tormentor",
+    "spell_ids": [
+     92147
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4111,
+    "name": "To The Shadowlands",
+    "spell_ids": [
+     707909
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4223,
+    "name": "Warden of the Lost",
+    "spell_ids": [
+     707116
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5722,
+    "name": "Lifestealer",
+    "spell_ids": [
+     301366
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "harvest": [
+   {
+    "id": 5562,
+    "name": "Shudder Scythe",
+    "spell_ids": [
+     805708
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5762,
+    "name": "Red Wake",
+    "spell_ids": [
+     707707
+    ],
+    "x": 2,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5767,
+    "name": "Haunter",
+    "spell_ids": [
+     705410
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6762,
+    "name": "Blood Knight",
+    "spell_ids": [
+     704552
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6765,
+    "name": "Deathbringer",
+    "spell_ids": [
+     573040
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6766,
+    "name": "Hungering Scythe",
+    "spell_ids": [
+     801335
+    ],
+    "x": 1,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6838,
+    "name": "Hemorrhage",
+    "spell_ids": [
+     705432
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7259,
+    "name": "Callous Soul",
+    "spell_ids": [
+     705418
+    ],
+    "x": 8,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7266,
+    "name": "Unbound",
+    "spell_ids": [
+     706785
+    ],
+    "x": 5,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7267,
+    "name": "The Grim Reaper",
+    "spell_ids": [
+     504269
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4055,
+    "name": "Harvester",
+    "spell_ids": [
+     92145
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6684,
+    "name": "Siphon Essence",
+    "spell_ids": [
+     806125
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30715,
+    "name": "Genocide",
+    "spell_ids": [
+     560924
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31368,
+    "name": "Ruin",
+    "spell_ids": [
+     805198
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31369,
+    "name": "Harvesting Grounds",
+    "spell_ids": [
+     705413
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31370,
+    "name": "Crimson Wraith",
+    "spell_ids": [
+     504560,
+     504880
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31371,
+    "name": "Slaughter",
+    "spell_ids": [
+     500373
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31373,
+    "name": "Harvest Time",
+    "spell_ids": [
+     803995
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29604,
+    "name": "Ravenous Thirst",
+    "spell_ids": [
+     705409
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29617,
+    "name": "Blood Harvester",
+    "spell_ids": [
+     300889
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29688,
+    "name": "Blood Frenzy",
+    "spell_ids": [
+     707899
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30517,
+    "name": "Sanguine Harvester",
+    "spell_ids": [
+     560892,
+     561339
+    ],
+    "x": 7,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30545,
+    "name": "Doomer",
+    "spell_ids": [
+     704556
+    ],
+    "x": 3,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30546,
+    "name": "Redshade",
+    "spell_ids": [
+     524735
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30551,
+    "name": "Crimson Death",
+    "spell_ids": [
+     705414
+    ],
+    "x": 6,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30038,
+    "name": "Darkrend Scythe",
+    "spell_ids": [
+     805205
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34476,
+    "name": "Blood Fueled",
+    "spell_ids": [
+     705416
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34477,
+    "name": "The Time Has Come",
+    "spell_ids": [
+     572879
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34480,
+    "name": "Crow's Harvest",
+    "spell_ids": [
+     504011
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34481,
+    "name": "Dark Fate",
+    "spell_ids": [
+     504037
+    ],
+    "x": 0,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12269,
+    "name": "Mortal's End",
+    "spell_ids": [
+     705437
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9268,
+    "name": "Executioner",
+    "spell_ids": [
+     500542
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9269,
+    "name": "Extinction",
+    "spell_ids": [
+     573039
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9270,
+    "name": "Bountiful Harvest",
+    "spell_ids": [
+     706576
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11262,
+    "name": "Crimson Thirst",
+    "spell_ids": [
+     807415
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11268,
+    "name": "This Is My Domain",
+    "spell_ids": [
+     500584
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29246,
+    "name": "Maw Knight",
+    "spell_ids": [
+     805204,
+     807888
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29247,
+    "name": "Blood Wraith",
+    "spell_ids": [
+     707305
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29250,
+    "name": "Souls for the Slaughter",
+    "spell_ids": [
+     705428
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29378,
+    "name": "Doomrend",
+    "spell_ids": [
+     800172
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "soul": [
+   {
+    "id": 12843,
+    "name": "Shade",
+    "spell_ids": [
+     573038
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7315,
+    "name": "Apparition",
+    "spell_ids": [
+     705389
+    ],
+    "x": 1,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7782,
+    "name": "Soulrot",
+    "spell_ids": [
+     805196
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 10543,
+    "name": "Fleeting Soul",
+    "spell_ids": [
+     712683
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 8292,
+    "name": "Spiritual Reflexes",
+    "spell_ids": [
+     705436
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9267,
+    "name": "Spectre",
+    "spell_ids": [
+     561170
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9430,
+    "name": "Spirit Render",
+    "spell_ids": [
+     570338
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9831,
+    "name": "Dirge",
+    "spell_ids": [
+     801328
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31366,
+    "name": "The End Is Near",
+    "spell_ids": [
+     680996
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30111,
+    "name": "Deathwail",
+    "spell_ids": [
+     300791
+    ],
+    "x": 6,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30112,
+    "name": "Anima Ambusher",
+    "spell_ids": [
+     705424
+    ],
+    "x": 0,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30118,
+    "name": "Ghostly Magic",
+    "spell_ids": [
+     803998,
+     807889
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30315,
+    "name": "Soul Generator",
+    "spell_ids": [
+     520056
+    ],
+    "x": 2,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30536,
+    "name": "The Jailer's Call",
+    "spell_ids": [
+     805195
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30543,
+    "name": "Soul Piercer",
+    "spell_ids": [
+     712484
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30548,
+    "name": "Lord of Death",
+    "spell_ids": [
+     805194
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30549,
+    "name": "Death's Presence",
+    "spell_ids": [
+     520371
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29601,
+    "name": "Endbringer",
+    "spell_ids": [
+     800922
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29689,
+    "name": "Deathchaser",
+    "spell_ids": [
+     805190
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6521,
+    "name": "Purgatory",
+    "spell_ids": [
+     504046
+    ],
+    "x": 5,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6643,
+    "name": "Ghostly Weapon",
+    "spell_ids": [
+     803997
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6709,
+    "name": "Chasing Death",
+    "spell_ids": [
+     707455
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6716,
+    "name": "Soulforged Weaponry",
+    "spell_ids": [
+     561127,
+     561340
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6723,
+    "name": "Shattered Souls",
+    "spell_ids": [
+     705441
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6724,
+    "name": "Spectre's Call",
+    "spell_ids": [
+     705386,
+     707802
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6755,
+    "name": "Soulbender",
+    "spell_ids": [
+     804004
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6390,
+    "name": "Essence Harvest",
+    "spell_ids": [
+     707908
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5470,
+    "name": "Spirit Chaser",
+    "spell_ids": [
+     560434
+    ],
+    "x": 8,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4056,
+    "name": "Weakened Souls",
+    "spell_ids": [
+     92146
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4266,
+    "name": "Sepulchral Renewal",
+    "spell_ids": [
+     561102
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4267,
+    "name": "Beyond the Veil",
+    "spell_ids": [
+     804053
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5182,
+    "name": "Gravesite",
+    "spell_ids": [
+     572213
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34465,
+    "name": "Death Dealer",
+    "spell_ids": [
+     705401
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34466,
+    "name": "Mark of Death",
+    "spell_ids": [
+     560917
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34469,
+    "name": "Reaver",
+    "spell_ids": [
+     807419
+    ],
+    "x": 3,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34470,
+    "name": "Soul Bane",
+    "spell_ids": [
+     705392
+    ],
+    "x": 7,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34507,
+    "name": "Ghastly Hilt",
+    "spell_ids": [
+     560927
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34460,
+    "name": "Beyond Death",
+    "spell_ids": [
+     301193
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34464,
+    "name": "Lamenting",
+    "spell_ids": [
+     705397
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ]
+ },
+ "tab_map": {
+  "domination": {
+   "tab_id": 81,
+   "tab_name": "Domination"
+  },
+  "harvest": {
+   "tab_id": 79,
+   "tab_name": "Harvest"
+  },
+  "soul": {
+   "tab_id": 80,
+   "tab_name": "Soul"
+  }
+ },
+ "unmapped_tabs": [],
+ "missing_specs": []
+}
