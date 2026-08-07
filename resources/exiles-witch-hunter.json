@@ -1,0 +1,3500 @@
+{
+ "'Tis But A Flesh Wound": {
+  "ids": [
+   681096
+  ],
+  "icon": null
+ },
+ "Abrasive": {
+  "ids": [
+   681174
+  ],
+  "icon": null
+ },
+ "Add 1 Insanity": {
+  "ids": [
+   805660
+  ],
+  "icon": null
+ },
+ "Add 1 Static": {
+  "ids": [
+   807945
+  ],
+  "icon": null
+ },
+ "Add 10 Insanity": {
+  "ids": [
+   804210
+  ],
+  "icon": null
+ },
+ "Add 10 Static": {
+  "ids": [
+   806486
+  ],
+  "icon": null
+ },
+ "Add 100 Insanity": {
+  "ids": [
+   804212
+  ],
+  "icon": null
+ },
+ "Add 15 Insanity": {
+  "ids": [
+   804213
+  ],
+  "icon": null
+ },
+ "Add 15 Insanity (Tentacle of Y'shaarj)": {
+  "ids": [
+   706265
+  ],
+  "icon": null
+ },
+ "Add 2 Insanity": {
+  "ids": [
+   807278
+  ],
+  "icon": null
+ },
+ "Add 2 Static": {
+  "ids": [
+   807650
+  ],
+  "icon": null
+ },
+ "Add 20 Static": {
+  "ids": [
+   804086
+  ],
+  "icon": null
+ },
+ "Add 20 Static (If not Favor)": {
+  "ids": [
+   800986
+  ],
+  "icon": null
+ },
+ "Add 3 Insanity": {
+  "ids": [
+   520773
+  ],
+  "icon": null
+ },
+ "Add 3 Static": {
+  "ids": [
+   806488
+  ],
+  "icon": null
+ },
+ "Add 5 Blasting Powder": {
+  "ids": [
+   807365
+  ],
+  "icon": null
+ },
+ "Add 50 Static": {
+  "ids": [
+   520721
+  ],
+  "icon": null
+ },
+ "Add Blasting Powder": {
+  "ids": [
+   804186
+  ],
+  "icon": null
+ },
+ "Add Sensed Evil": {
+  "ids": [
+   802849
+  ],
+  "icon": null
+ },
+ "Adjudication": {
+  "ids": [
+   805536
+  ],
+  "icon": null
+ },
+ "Agile Steps": {
+  "ids": [
+   705521
+  ],
+  "icon": null
+ },
+ "Alchemical Research": {
+  "ids": [
+   705498
+  ],
+  "icon": null
+ },
+ "Alertness": {
+  "ids": [
+   681152
+  ],
+  "icon": null
+ },
+ "Anguish": {
+  "ids": [
+   500084
+  ],
+  "icon": null
+ },
+ "Anguish Extender": {
+  "ids": [
+   582525
+  ],
+  "icon": null
+ },
+ "Anguish Extender SLS2": {
+  "ids": [
+   582528
+  ],
+  "icon": null
+ },
+ "Anguish Extender2": {
+  "ids": [
+   582529
+  ],
+  "icon": null
+ },
+ "Anguishing Flock": {
+  "ids": [
+   705462
+  ],
+  "icon": null
+ },
+ "Arbalest Mastery": {
+  "ids": [
+   706240
+  ],
+  "icon": null
+ },
+ "Arbalist": {
+  "ids": [
+   520851
+  ],
+  "icon": null
+ },
+ "Assassin of Darkshire": {
+  "ids": [
+   503668
+  ],
+  "icon": null
+ },
+ "At The Stake": {
+  "ids": [
+   300574
+  ],
+  "icon": null
+ },
+ "Auto Shot DEPRECATED": {
+  "ids": [
+   520187
+  ],
+  "icon": null
+ },
+ "Bane of Darkness": {
+  "ids": [
+   503656
+  ],
+  "icon": null
+ },
+ "Bane of Evil": {
+  "ids": [
+   504834
+  ],
+  "icon": null
+ },
+ "Bane of Witches": {
+  "ids": [
+   500055
+  ],
+  "icon": null
+ },
+ "Being Hunted": {
+  "ids": [
+   802111
+  ],
+  "icon": null
+ },
+ "Black Guard": {
+  "ids": [
+   680523
+  ],
+  "icon": null
+ },
+ "Black Knight - Level 15 Passive": {
+  "ids": [
+   570751
+  ],
+  "icon": null
+ },
+ "Black Knight - Level 20 Passive": {
+  "ids": [
+   680488
+  ],
+  "icon": null
+ },
+ "Blade Stance": {
+  "ids": [
+   802002
+  ],
+  "icon": null
+ },
+ "Blade of the Misbegotten": {
+  "ids": [
+   524669
+  ],
+  "icon": null
+ },
+ "Blasting Powder": {
+  "ids": [
+   529023
+  ],
+  "icon": null
+ },
+ "Blazing Blade": {
+  "ids": [
+   802003
+  ],
+  "icon": null
+ },
+ "Blood Moon": {
+  "ids": [
+   804200
+  ],
+  "icon": null
+ },
+ "Bloody Trophy": {
+  "ids": [
+   805759
+  ],
+  "icon": null
+ },
+ "Bola Throw": {
+  "ids": [
+   500093
+  ],
+  "icon": null
+ },
+ "Bola, Bola": {
+  "ids": [
+   560212
+  ],
+  "icon": null
+ },
+ "Bolt and Dash": {
+  "ids": [
+   520670
+  ],
+  "icon": null
+ },
+ "Boltslinger": {
+  "ids": [
+   92091
+  ],
+  "icon": null
+ },
+ "Bonefreeze": {
+  "ids": [
+   504845
+  ],
+  "icon": null
+ },
+ "Bounty Hunter": {
+  "ids": [
+   805763
+  ],
+  "icon": null
+ },
+ "Brand of the Condemned": {
+  "ids": [
+   562573
+  ],
+  "icon": null
+ },
+ "Brand of the Damned": {
+  "ids": [
+   807682
+  ],
+  "icon": null
+ },
+ "Brand of the Profane": {
+  "ids": [
+   562390
+  ],
+  "icon": null
+ },
+ "Brand of the Unworthy": {
+  "ids": [
+   501380
+  ],
+  "icon": null
+ },
+ "Brimming Hatred": {
+  "ids": [
+   504690
+  ],
+  "icon": null
+ },
+ "Bringer of Darkness": {
+  "ids": [
+   500101
+  ],
+  "icon": null
+ },
+ "Bringing the Law": {
+  "ids": [
+   681148
+  ],
+  "icon": null
+ },
+ "Brooding Hatred": {
+  "ids": [
+   301251
+  ],
+  "icon": null
+ },
+ "Bruiser Bot Applier": {
+  "ids": [
+   805295
+  ],
+  "icon": null
+ },
+ "Brushin' Off The Dusk": {
+  "ids": [
+   681329
+  ],
+  "icon": null
+ },
+ "Brutal Swipe": {
+  "ids": [
+   802318
+  ],
+  "icon": null
+ },
+ "Bulwark of Darkness": {
+  "ids": [
+   680496
+  ],
+  "icon": null
+ },
+ "Buried and Forgotten": {
+  "ids": [
+   680545
+  ],
+  "icon": null
+ },
+ "Burned Alive": {
+  "ids": [
+   705478
+  ],
+  "icon": null
+ },
+ "Burning Judgement": {
+  "ids": [
+   802843
+  ],
+  "icon": null
+ },
+ "Burning Light": {
+  "ids": [
+   681090
+  ],
+  "icon": null
+ },
+ "Burrow Bolt": {
+  "ids": [
+   802269
+  ],
+  "icon": null
+ },
+ "By Royal Order": {
+  "ids": [
+   705508
+  ],
+  "icon": null
+ },
+ "Call From The Shadows": {
+  "ids": [
+   578118
+  ],
+  "icon": null
+ },
+ "Calm Under Pressure": {
+  "ids": [
+   705519
+  ],
+  "icon": null
+ },
+ "Caltrop Periodic": {
+  "ids": [
+   504448
+  ],
+  "icon": null
+ },
+ "Caltrops": {
+  "ids": [
+   503679
+  ],
+  "icon": null
+ },
+ "Chains of Darkness": {
+  "ids": [
+   680521
+  ],
+  "icon": null
+ },
+ "Chains of Darkness (Grip)": {
+  "ids": [
+   680522
+  ],
+  "icon": null
+ },
+ "Charged Bolts": {
+  "ids": [
+   705518
+  ],
+  "icon": null
+ },
+ "Charming Conversation": {
+  "ids": [
+   804667
+  ],
+  "icon": null
+ },
+ "Chronoglass": {
+  "ids": [
+   503869
+  ],
+  "icon": null
+ },
+ "Cinder and Ashes": {
+  "ids": [
+   707317
+  ],
+  "icon": null
+ },
+ "Circle of Fire": {
+  "ids": [
+   680383
+  ],
+  "icon": null
+ },
+ "Cleansing Aura": {
+  "ids": [
+   806459
+  ],
+  "icon": null
+ },
+ "Clinch Fighting": {
+  "ids": [
+   572182
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Hunter - Black Knight": {
+  "ids": [
+   887032
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Hunter - Boltslinger": {
+  "ids": [
+   887030
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Hunter - Houndmaster": {
+  "ids": [
+   887031
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Hunter - Inquisition": {
+  "ids": [
+   887033
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Hunter Class": {
+  "ids": [
+   887003
+  ],
+  "icon": null
+ },
+ "Coiling Shot": {
+  "ids": [
+   500082
+  ],
+  "icon": null
+ },
+ "Collect Bounty": {
+  "ids": [
+   504478
+  ],
+  "icon": null
+ },
+ "Collection": {
+  "ids": [
+   805762
+  ],
+  "icon": null
+ },
+ "Combat Training": {
+  "ids": [
+   680529
+  ],
+  "icon": null
+ },
+ "Conquest of Azeroth Specialization - Witch Hunter (Inquisition)": {
+  "ids": [
+   707063
+  ],
+  "icon": null
+ },
+ "Contract Killing": {
+  "ids": [
+   705506
+  ],
+  "icon": null
+ },
+ "Conviction": {
+  "ids": [
+   802141
+  ],
+  "icon": null
+ },
+ "Coordinated Killing": {
+  "ids": [
+   705463
+  ],
+  "icon": null
+ },
+ "Corpse Wagon Trigger": {
+  "ids": [
+   505320
+  ],
+  "icon": null
+ },
+ "Create Distance": {
+  "ids": [
+   500901
+  ],
+  "icon": null
+ },
+ "Crippling Bolt": {
+  "ids": [
+   500162
+  ],
+  "icon": null
+ },
+ "Crossbow Expert": {
+  "ids": [
+   680384
+  ],
+  "icon": null
+ },
+ "Crossbow Frenzy": {
+  "ids": [
+   705499
+  ],
+  "icon": null
+ },
+ "Crossbow Stance": {
+  "ids": [
+   800665
+  ],
+  "icon": null
+ },
+ "Cycle of Despair": {
+  "ids": [
+   503664
+  ],
+  "icon": null
+ },
+ "Damnation": {
+  "ids": [
+   520062
+  ],
+  "icon": null
+ },
+ "Damnation Hidden Passive": {
+  "ids": [
+   574347
+  ],
+  "icon": null
+ },
+ "Damnation(Energize)": {
+  "ids": [
+   520182
+  ],
+  "icon": null
+ },
+ "Daredevil": {
+  "ids": [
+   681171
+  ],
+  "icon": null
+ },
+ "Daring Escape": {
+  "ids": [
+   500086
+  ],
+  "icon": null
+ },
+ "Dark Aura": {
+  "ids": [
+   680535
+  ],
+  "icon": null
+ },
+ "Dark Barrier": {
+  "ids": [
+   705520
+  ],
+  "icon": null
+ },
+ "Dark Chivalry": {
+  "ids": [
+   680525
+  ],
+  "icon": null
+ },
+ "Dark Embrace": {
+  "ids": [
+   805921
+  ],
+  "icon": null
+ },
+ "Dark Frenzy": {
+  "ids": [
+   805752
+  ],
+  "icon": null
+ },
+ "Dark Hunter": {
+  "ids": [
+   503670
+  ],
+  "icon": null
+ },
+ "Dark Intent": {
+  "ids": [
+   680507
+  ],
+  "icon": null
+ },
+ "Dark Intuition": {
+  "ids": [
+   806194
+  ],
+  "icon": null
+ },
+ "Dark Juggernaut": {
+  "ids": [
+   560208
+  ],
+  "icon": null
+ },
+ "Dark Mind": {
+  "ids": [
+   574148
+  ],
+  "icon": null
+ },
+ "Dark Oath": {
+  "ids": [
+   680505
+  ],
+  "icon": null
+ },
+ "Dark Penance": {
+  "ids": [
+   805533
+  ],
+  "icon": null
+ },
+ "Dark Peril": {
+  "ids": [
+   681795
+  ],
+  "icon": null
+ },
+ "Dark Power": {
+  "ids": [
+   681340
+  ],
+  "icon": null
+ },
+ "Dark Ranger": {
+  "ids": [
+   705465
+  ],
+  "icon": null
+ },
+ "Dark Regeneration": {
+  "ids": [
+   500094
+  ],
+  "icon": null
+ },
+ "Dark Riposte": {
+  "ids": [
+   503659
+  ],
+  "icon": null
+ },
+ "Dark Secret": {
+  "ids": [
+   680534
+  ],
+  "icon": null
+ },
+ "Dark Souls": {
+  "ids": [
+   802011
+  ],
+  "icon": null
+ },
+ "Dark Tonic": {
+  "ids": [
+   680491
+  ],
+  "icon": null
+ },
+ "Dark Triad": {
+  "ids": [
+   680527
+  ],
+  "icon": null
+ },
+ "Darkbane": {
+  "ids": [
+   520932
+  ],
+  "icon": null
+ },
+ "Darkfeast": {
+  "ids": [
+   500092
+  ],
+  "icon": null
+ },
+ "Darkflock": {
+  "ids": [
+   520270
+  ],
+  "icon": null
+ },
+ "Darkhide": {
+  "ids": [
+   705468
+  ],
+  "icon": null
+ },
+ "Darkhunter": {
+  "ids": [
+   503669
+  ],
+  "icon": null
+ },
+ "Darkness - Level 15 Passive": {
+  "ids": [
+   582365
+  ],
+  "icon": null
+ },
+ "Darkness - Level 50 Passive": {
+  "ids": [
+   705457
+  ],
+  "icon": null
+ },
+ "Darkrider": {
+  "ids": [
+   705453
+  ],
+  "icon": null
+ },
+ "Darkslayer": {
+  "ids": [
+   804179
+  ],
+  "icon": null
+ },
+ "Darkslayer (Energize)": {
+  "ids": [
+   680235
+  ],
+  "icon": null
+ },
+ "Darkslayer Bolt": {
+  "ids": [
+   500158
+  ],
+  "icon": null
+ },
+ "Darkslayer Bolt Hidden Missile Visual": {
+  "ids": [
+   802755
+  ],
+  "icon": null
+ },
+ "Darkslayer's Lantern": {
+  "ids": [
+   802139
+  ],
+  "icon": null
+ },
+ "Darkslayer's Regalia": {
+  "ids": [
+   705530
+  ],
+  "icon": null
+ },
+ "Darksmiter": {
+  "ids": [
+   706906
+  ],
+  "icon": null
+ },
+ "Darkstalker": {
+  "ids": [
+   500091
+  ],
+  "icon": null
+ },
+ "Darkthrash": {
+  "ids": [
+   500351
+  ],
+  "icon": null
+ },
+ "Dash": {
+  "ids": [
+   520671
+  ],
+  "icon": null
+ },
+ "Dawn": {
+  "ids": [
+   503658
+  ],
+  "icon": null
+ },
+ "Dawn Blade": {
+  "ids": [
+   802024
+  ],
+  "icon": null
+ },
+ "Dawn Knight": {
+  "ids": [
+   680497
+  ],
+  "icon": null
+ },
+ "Day Hunter": {
+  "ids": [
+   807231
+  ],
+  "icon": null
+ },
+ "Dead and Gone": {
+  "ids": [
+   524809
+  ],
+  "icon": null
+ },
+ "Deadly Flourish": {
+  "ids": [
+   805366
+  ],
+  "icon": null
+ },
+ "Deal With The Devil": {
+  "ids": [
+   520272
+  ],
+  "icon": null
+ },
+ "Deal with the Devil": {
+  "ids": [
+   520273
+  ],
+  "icon": null
+ },
+ "Death Mark": {
+  "ids": [
+   705536
+  ],
+  "icon": null
+ },
+ "Death Trap": {
+  "ids": [
+   681450
+  ],
+  "icon": null
+ },
+ "Death Trap (Launcher)": {
+  "ids": [
+   681563
+  ],
+  "icon": null
+ },
+ "Death Trapped Periodic": {
+  "ids": [
+   681451
+  ],
+  "icon": null
+ },
+ "Decimate": {
+  "ids": [
+   804194
+  ],
+  "icon": null
+ },
+ "Decimate The Wicked": {
+  "ids": [
+   705459
+  ],
+  "icon": null
+ },
+ "Defender of Darkshire": {
+  "ids": [
+   504473
+  ],
+  "icon": null
+ },
+ "Defiance": {
+  "ids": [
+   804297
+  ],
+  "icon": null
+ },
+ "Desecrate": {
+  "ids": [
+   680518
+  ],
+  "icon": null
+ },
+ "Desecrator": {
+  "ids": [
+   505321
+  ],
+  "icon": null
+ },
+ "Destroyer of Evil": {
+  "ids": [
+   680528
+  ],
+  "icon": null
+ },
+ "Devourer": {
+  "ids": [
+   524666
+  ],
+  "icon": null
+ },
+ "Disappear": {
+  "ids": [
+   805772
+  ],
+  "icon": null
+ },
+ "Dismiss Ancestor": {
+  "ids": [
+   583025
+  ],
+  "icon": null
+ },
+ "Dismiss Assistant": {
+  "ids": [
+   583021
+  ],
+  "icon": null
+ },
+ "Dismiss Avatar": {
+  "ids": [
+   583026
+  ],
+  "icon": null
+ },
+ "Dismiss Companion": {
+  "ids": [
+   583023
+  ],
+  "icon": null
+ },
+ "Dismiss Hound": {
+  "ids": [
+   680263
+  ],
+  "icon": null
+ },
+ "Dismiss Protector": {
+  "ids": [
+   583024
+  ],
+  "icon": null
+ },
+ "Drain 15 Insanity": {
+  "ids": [
+   570112
+  ],
+  "icon": null
+ },
+ "Dual Crossbows Melee Disabled": {
+  "ids": [
+   804587
+  ],
+  "icon": null
+ },
+ "Dusk": {
+  "ids": [
+   300571
+  ],
+  "icon": null
+ },
+ "Dusk After Dawn": {
+  "ids": [
+   705479
+  ],
+  "icon": null
+ },
+ "Dusk Blade": {
+  "ids": [
+   802020
+  ],
+  "icon": null
+ },
+ "Dusk Blade Heal Passive": {
+  "ids": [
+   574334
+  ],
+  "icon": null
+ },
+ "Dusk Knight": {
+  "ids": [
+   301243
+  ],
+  "icon": null
+ },
+ "Dusk and Dawn": {
+  "ids": [
+   503661
+  ],
+  "icon": null
+ },
+ "Duskwood Renegade": {
+  "ids": [
+   504677
+  ],
+  "icon": null
+ },
+ "Empowered Damnation": {
+  "ids": [
+   524716
+  ],
+  "icon": null
+ },
+ "Empowered Heartseeking Bolt": {
+  "ids": [
+   524798
+  ],
+  "icon": null
+ },
+ "Empowered Heartstop Bolt": {
+  "ids": [
+   524800
+  ],
+  "icon": null
+ },
+ "Empowered Ricocheting Bolt": {
+  "ids": [
+   524799
+  ],
+  "icon": null
+ },
+ "Empowered Tormentor Bolt": {
+  "ids": [
+   524802
+  ],
+  "icon": null
+ },
+ "Enacting the Preparations": {
+  "ids": [
+   680524
+  ],
+  "icon": null
+ },
+ "Enchanted Armor": {
+  "ids": [
+   705487
+  ],
+  "icon": null
+ },
+ "Enchanted Bolts": {
+  "ids": [
+   520548
+  ],
+  "icon": null
+ },
+ "Endless Torment": {
+  "ids": [
+   680328
+  ],
+  "icon": null
+ },
+ "Engraved Armor": {
+  "ids": [
+   705489
+  ],
+  "icon": null
+ },
+ "Enhanced Bolts": {
+  "ids": [
+   504484
+  ],
+  "icon": null
+ },
+ "Escape Artist": {
+  "ids": [
+   500160
+  ],
+  "icon": null
+ },
+ "Eternal Presence": {
+  "ids": [
+   560001
+  ],
+  "icon": null
+ },
+ "Evasive": {
+  "ids": [
+   805766
+  ],
+  "icon": null
+ },
+ "Everlasting Flame": {
+  "ids": [
+   503660
+  ],
+  "icon": null
+ },
+ "Everlasting Gaze": {
+  "ids": [
+   560235
+  ],
+  "icon": null
+ },
+ "Everything You Have": {
+  "ids": [
+   503680
+  ],
+  "icon": null
+ },
+ "Evil Doers, Beware!": {
+  "ids": [
+   681328
+  ],
+  "icon": null
+ },
+ "Evil Never Sleeps": {
+  "ids": [
+   561210
+  ],
+  "icon": null
+ },
+ "Expect The Unexpected": {
+  "ids": [
+   520594
+  ],
+  "icon": null
+ },
+ "Expert Shot": {
+  "ids": [
+   705467
+  ],
+  "icon": null
+ },
+ "Exposed Evil": {
+  "ids": [
+   806187
+  ],
+  "icon": null
+ },
+ "Expulsion of Evil": {
+  "ids": [
+   139778
+  ],
+  "icon": null
+ },
+ "Extend Blasting Powder": {
+  "ids": [
+   804188
+  ],
+  "icon": null
+ },
+ "Extend Demon Form": {
+  "ids": [
+   804222
+  ],
+  "icon": null
+ },
+ "FalconFlyAway": {
+  "ids": [
+   803337
+  ],
+  "icon": null
+ },
+ "FalconFlyBack": {
+  "ids": [
+   803338
+  ],
+  "icon": null
+ },
+ "FalconStand": {
+  "ids": [
+   803336
+  ],
+  "icon": null
+ },
+ "Feast of Talons": {
+  "ids": [
+   500056
+  ],
+  "icon": null
+ },
+ "Fiery Blade": {
+  "ids": [
+   504476
+  ],
+  "icon": null
+ },
+ "Fiery Judgement": {
+  "ids": [
+   802140
+  ],
+  "icon": null
+ },
+ "Fiery Judgement Flames of Sin Trigger": {
+  "ids": [
+   803503
+  ],
+  "icon": null
+ },
+ "Flames of Sin": {
+  "ids": [
+   92094
+  ],
+  "icon": null
+ },
+ "Flames of the Sinned": {
+  "ids": [
+   560207
+  ],
+  "icon": null
+ },
+ "Flexible Fighter": {
+  "ids": [
+   681341
+  ],
+  "icon": null
+ },
+ "Flight Fatigue": {
+  "ids": [
+   804256
+  ],
+  "icon": null
+ },
+ "Flourish": {
+  "ids": [
+   805365
+  ],
+  "icon": null
+ },
+ "Flourish Sensed Evil Gen": {
+  "ids": [
+   807174
+  ],
+  "icon": null
+ },
+ "Flourishing": {
+  "ids": [
+   803356
+  ],
+  "icon": null
+ },
+ "Flux Shell": {
+  "ids": [
+   804838
+  ],
+  "icon": null
+ },
+ "Flux Shell Proc": {
+  "ids": [
+   806356
+  ],
+  "icon": null
+ },
+ "Follow The Edict": {
+  "ids": [
+   503698
+  ],
+  "icon": null
+ },
+ "Foresight": {
+  "ids": [
+   680599
+  ],
+  "icon": null
+ },
+ "Gaze of the Black Knight": {
+  "ids": [
+   802138
+  ],
+  "icon": null
+ },
+ "Giantslayer": {
+  "ids": [
+   704522
+  ],
+  "icon": null
+ },
+ "Grasp of the Undying": {
+  "ids": [
+   680483
+  ],
+  "icon": null
+ },
+ "Greater Inquisitor's Edict": {
+  "ids": [
+   680303
+  ],
+  "icon": null
+ },
+ "Greater Knight's Edict": {
+  "ids": [
+   523510
+  ],
+  "icon": null
+ },
+ "Greater Tonics": {
+  "ids": [
+   705482
+  ],
+  "icon": null
+ },
+ "Greater Witching Edict": {
+  "ids": [
+   681442
+  ],
+  "icon": null
+ },
+ "Grimshade Arbalest": {
+  "ids": [
+   500900
+  ],
+  "icon": null
+ },
+ "Guard Strike": {
+  "ids": [
+   804432
+  ],
+  "icon": null
+ },
+ "Guardbreaker": {
+  "ids": [
+   681097
+  ],
+  "icon": null
+ },
+ "Hail of Gunfire": {
+  "ids": [
+   680243
+  ],
+  "icon": null
+ },
+ "Harass": {
+  "ids": [
+   802261
+  ],
+  "icon": null
+ },
+ "Harrowing Cleave": {
+  "ids": [
+   707069
+  ],
+  "icon": null
+ },
+ "Hatred": {
+  "ids": [
+   801358
+  ],
+  "icon": null
+ },
+ "Hatred & Vitriol": {
+  "ids": [
+   504468
+  ],
+  "icon": null
+ },
+ "Hatred Removal": {
+  "ids": [
+   503673
+  ],
+  "icon": null
+ },
+ "Headshots": {
+  "ids": [
+   705466
+  ],
+  "icon": null
+ },
+ "Heartless": {
+  "ids": [
+   680326
+  ],
+  "icon": null
+ },
+ "Heartseeking": {
+  "ids": [
+   807316
+  ],
+  "icon": null
+ },
+ "Heartseeking Bolt": {
+  "ids": [
+   805754
+  ],
+  "icon": null
+ },
+ "Heartseeking Bolt (Energize)": {
+  "ids": [
+   805755
+  ],
+  "icon": null
+ },
+ "Heartstop Bolt": {
+  "ids": [
+   800163
+  ],
+  "icon": null
+ },
+ "Heartstop Bolt Hidden Missile Visual": {
+  "ids": [
+   802754
+  ],
+  "icon": null
+ },
+ "Heartstop Duration +": {
+  "ids": [
+   567523
+  ],
+  "icon": null
+ },
+ "Heartstop Torment Extender": {
+  "ids": [
+   567534
+  ],
+  "icon": null
+ },
+ "Heartstopper": {
+  "ids": [
+   680540
+  ],
+  "icon": null
+ },
+ "Heavy Crossbows": {
+  "ids": [
+   503681
+  ],
+  "icon": null
+ },
+ "Hellbreaker": {
+  "ids": [
+   680216
+  ],
+  "icon": null
+ },
+ "Holstered": {
+  "ids": [
+   500098
+  ],
+  "icon": null
+ },
+ "Holy Frenzy": {
+  "ids": [
+   681327
+  ],
+  "icon": null
+ },
+ "Holy Water Tonic": {
+  "ids": [
+   802826
+  ],
+  "icon": null
+ },
+ "Hound's Hunger": {
+  "ids": [
+   705461
+  ],
+  "icon": null
+ },
+ "Houndfeeder": {
+  "ids": [
+   705477
+  ],
+  "icon": null
+ },
+ "Houndmaster": {
+  "ids": [
+   92093
+  ],
+  "icon": null
+ },
+ "Houndmaster's Call": {
+  "ids": [
+   706332
+  ],
+  "icon": null
+ },
+ "Houndmaster's Call (Energize)": {
+  "ids": [
+   680240
+  ],
+  "icon": null
+ },
+ "Houndmaster's Whistle": {
+  "ids": [
+   801343
+  ],
+  "icon": null
+ },
+ "Hunt": {
+  "ids": [
+   802006
+  ],
+  "icon": null
+ },
+ "Hunter in the Night": {
+  "ids": [
+   705493
+  ],
+  "icon": null
+ },
+ "Ignite Blade": {
+  "ids": [
+   802143
+  ],
+  "icon": null
+ },
+ "Impale": {
+  "ids": [
+   802009
+  ],
+  "icon": null
+ },
+ "Infiltrate": {
+  "ids": [
+   802281
+  ],
+  "icon": null
+ },
+ "Inquisitor's Edict": {
+  "ids": [
+   706741
+  ],
+  "icon": null
+ },
+ "Inquisitor's Trap": {
+  "ids": [
+   681445
+  ],
+  "icon": null
+ },
+ "Inquisitor's Trap (Launcher)": {
+  "ids": [
+   681562
+  ],
+  "icon": null
+ },
+ "Inquisitor's Trapped Periodic": {
+  "ids": [
+   681446
+  ],
+  "icon": null
+ },
+ "Interrogate DEPRECATED": {
+  "ids": [
+   802012
+  ],
+  "icon": null
+ },
+ "Interrogator": {
+  "ids": [
+   806188
+  ],
+  "icon": null
+ },
+ "Just A Sip": {
+  "ids": [
+   705533
+  ],
+  "icon": null
+ },
+ "Kennel Master": {
+  "ids": [
+   706365
+  ],
+  "icon": null
+ },
+ "Kill It With Fire": {
+  "ids": [
+   560228
+  ],
+  "icon": null
+ },
+ "Kingdom Hearts": {
+  "ids": [
+   582310
+  ],
+  "icon": null
+ },
+ "Knight of the Flame": {
+  "ids": [
+   680227
+  ],
+  "icon": null
+ },
+ "Knight of the Flame (Regen)": {
+  "ids": [
+   680229
+  ],
+  "icon": null
+ },
+ "Knight's Edict": {
+  "ids": [
+   523485
+  ],
+  "icon": null
+ },
+ "Knight's Seal": {
+  "ids": [
+   680498
+  ],
+  "icon": null
+ },
+ "Knight's Seal (Heal)": {
+  "ids": [
+   680511
+  ],
+  "icon": null
+ },
+ "Knights Seal (Dummy Aura)": {
+  "ids": [
+   680506
+  ],
+  "icon": null
+ },
+ "Lantern Misbegotten Passive": {
+  "ids": [
+   681316
+  ],
+  "icon": null
+ },
+ "Last Hope": {
+  "ids": [
+   300573
+  ],
+  "icon": null
+ },
+ "Lethal Pursuit": {
+  "ids": [
+   572530
+  ],
+  "icon": null
+ },
+ "Leyline Disturbance": {
+  "ids": [
+   560540
+  ],
+  "icon": null
+ },
+ "Lie In Wait": {
+  "ids": [
+   804709
+  ],
+  "icon": null
+ },
+ "Lifestealer": {
+  "ids": [
+   504828
+  ],
+  "icon": null
+ },
+ "Lightbringer": {
+  "ids": [
+   680538
+  ],
+  "icon": null
+ },
+ "Loksey's Journal": {
+  "ids": [
+   504903
+  ],
+  "icon": null
+ },
+ "Long Rifle": {
+  "ids": [
+   705452
+  ],
+  "icon": null
+ },
+ "Lord of Torture": {
+  "ids": [
+   500099
+  ],
+  "icon": null
+ },
+ "Low Dawn": {
+  "ids": [
+   680247
+  ],
+  "icon": null
+ },
+ "Magical Blasting Powder": {
+  "ids": [
+   680249
+  ],
+  "icon": null
+ },
+ "Malevolent Empowerment": {
+  "ids": [
+   560211
+  ],
+  "icon": null
+ },
+ "Malice": {
+  "ids": [
+   707535
+  ],
+  "icon": null
+ },
+ "Malygos' Revenge": {
+  "ids": [
+   807151
+  ],
+  "icon": null
+ },
+ "Mana Restore 10% Base": {
+  "ids": [
+   575838
+  ],
+  "icon": null
+ },
+ "March of the Black King": {
+  "ids": [
+   681095
+  ],
+  "icon": null
+ },
+ "Mechanized Crossbows": {
+  "ids": [
+   705514
+  ],
+  "icon": null
+ },
+ "Midnight": {
+  "ids": [
+   500088
+  ],
+  "icon": null
+ },
+ "Mind Guard": {
+  "ids": [
+   804281
+  ],
+  "icon": null
+ },
+ "Misbegotten's Lantern": {
+  "ids": [
+   680541
+  ],
+  "icon": null
+ },
+ "Mod 10 Static": {
+  "ids": [
+   806489
+  ],
+  "icon": null
+ },
+ "Mod 3 Static": {
+  "ids": [
+   806490
+  ],
+  "icon": null
+ },
+ "Momentum": {
+  "ids": [
+   800235
+  ],
+  "icon": null
+ },
+ "Monk Check Weapons": {
+  "ids": [
+   804307
+  ],
+  "icon": null
+ },
+ "Monk Weapon Check": {
+  "ids": [
+   804844
+  ],
+  "icon": null
+ },
+ "Monster Hunting": {
+  "ids": [
+   300872
+  ],
+  "icon": null
+ },
+ "Musket Stance": {
+  "ids": [
+   800529
+  ],
+  "icon": null
+ },
+ "My Trusty Arbalest": {
+  "ids": [
+   503682
+  ],
+  "icon": null
+ },
+ "Nefarious Accuracy": {
+  "ids": [
+   705454
+  ],
+  "icon": null
+ },
+ "Neptulon's Grace": {
+  "ids": [
+   520513
+  ],
+  "icon": null
+ },
+ "Neverending Pursuit": {
+  "ids": [
+   524815
+  ],
+  "icon": null
+ },
+ "Night Hunter": {
+  "ids": [
+   562225
+  ],
+  "icon": null
+ },
+ "Night King": {
+  "ids": [
+   707067
+  ],
+  "icon": null
+ },
+ "Night Stalker": {
+  "ids": [
+   300792
+  ],
+  "icon": null
+ },
+ "Night Walker": {
+  "ids": [
+   503653
+  ],
+  "icon": null
+ },
+ "Night's Watch": {
+  "ids": [
+   807733
+  ],
+  "icon": null
+ },
+ "No Regrets": {
+  "ids": [
+   681093
+  ],
+  "icon": null
+ },
+ "Noctis Blade": {
+  "ids": [
+   802280
+  ],
+  "icon": null
+ },
+ "Noctis Blade Heal Passive": {
+  "ids": [
+   574336
+  ],
+  "icon": null
+ },
+ "Noctis Protection": {
+  "ids": [
+   681099
+  ],
+  "icon": null
+ },
+ "Oath Fulfilled": {
+  "ids": [
+   680617
+  ],
+  "icon": null
+ },
+ "Omen of Torment": {
+  "ids": [
+   560210
+  ],
+  "icon": null
+ },
+ "On The Hunt": {
+  "ids": [
+   804708
+  ],
+  "icon": null
+ },
+ "One Shot": {
+  "ids": [
+   573337
+  ],
+  "icon": null
+ },
+ "Opportunist": {
+  "ids": [
+   804710
+  ],
+  "icon": null
+ },
+ "PUNISHING BOLT PASSIVE": {
+  "ids": [
+   800803
+  ],
+  "icon": null
+ },
+ "Pavise": {
+  "ids": [
+   504854
+  ],
+  "icon": null
+ },
+ "Pavise Crossbowman": {
+  "ids": [
+   681453
+  ],
+  "icon": null
+ },
+ "Pavise Effect": {
+  "ids": [
+   1108180
+  ],
+  "icon": null
+ },
+ "Personification of Evil": {
+  "ids": [
+   503663
+  ],
+  "icon": null
+ },
+ "Pet Resil Con Applier": {
+  "ids": [
+   806050
+  ],
+  "icon": null
+ },
+ "Phase Timing": {
+  "ids": [
+   680356
+  ],
+  "icon": null
+ },
+ "Piercing Bolts": {
+  "ids": [
+   804163
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   712354
+  ],
+  "icon": null
+ },
+ "Plagueland Survivalist": {
+  "ids": [
+   681169
+  ],
+  "icon": null
+ },
+ "Pommel Smash": {
+  "ids": [
+   680515
+  ],
+  "icon": null
+ },
+ "Potion Belt": {
+  "ids": [
+   705475
+  ],
+  "icon": null
+ },
+ "Predator": {
+  "ids": [
+   704523
+  ],
+  "icon": null
+ },
+ "Proclamation": {
+  "ids": [
+   802135
+  ],
+  "icon": null
+ },
+ "Protector of Darkshire": {
+  "ids": [
+   300575
+  ],
+  "icon": null
+ },
+ "Punished": {
+  "ids": [
+   681154
+  ],
+  "icon": null
+ },
+ "Punished (Test)": {
+  "ids": [
+   680321
+  ],
+  "icon": null
+ },
+ "Punishing Bolt": {
+  "ids": [
+   500083
+  ],
+  "icon": null
+ },
+ "Punishing Bolt Stack Remover": {
+  "ids": [
+   504480
+  ],
+  "icon": null
+ },
+ "Punishment": {
+  "ids": [
+   707071
+  ],
+  "icon": null
+ },
+ "Pure Agony": {
+  "ids": [
+   300789
+  ],
+  "icon": null
+ },
+ "Pure Blade": {
+  "ids": [
+   705527
+  ],
+  "icon": null
+ },
+ "Purge Evil": {
+  "ids": [
+   572306
+  ],
+  "icon": null
+ },
+ "Purified Bola": {
+  "ids": [
+   707230
+  ],
+  "icon": null
+ },
+ "Purified Bola Throw": {
+  "ids": [
+   803333
+  ],
+  "icon": null
+ },
+ "Purifier's Edge": {
+  "ids": [
+   802019
+  ],
+  "icon": null
+ },
+ "Purity": {
+  "ids": [
+   681413
+  ],
+  "icon": null
+ },
+ "Purity & Wickedness": {
+  "ids": [
+   680544
+  ],
+  "icon": null
+ },
+ "Purity Flame": {
+  "ids": [
+   681415
+  ],
+  "icon": null
+ },
+ "Pursuer of Evil": {
+  "ids": [
+   706242
+  ],
+  "icon": null
+ },
+ "Pyro Tonic": {
+  "ids": [
+   802277
+  ],
+  "icon": null
+ },
+ "Quickblast": {
+  "ids": [
+   800636
+  ],
+  "icon": null
+ },
+ "Quickblast Range Scaler": {
+  "ids": [
+   800638
+  ],
+  "icon": null
+ },
+ "Quickdraw": {
+  "ids": [
+   804193
+  ],
+  "icon": null
+ },
+ "Rampaging": {
+  "ids": [
+   504569
+  ],
+  "icon": null
+ },
+ "Rampaging Frenzy": {
+  "ids": [
+   562027
+  ],
+  "icon": null
+ },
+ "Rampaging Hounds": {
+  "ids": [
+   562026
+  ],
+  "icon": null
+ },
+ "Rapid": {
+  "ids": [
+   680323
+  ],
+  "icon": null
+ },
+ "Rapid Reload": {
+  "ids": [
+   705512
+  ],
+  "icon": null
+ },
+ "Rearmament": {
+  "ids": [
+   805738
+  ],
+  "icon": null
+ },
+ "Reduce 10 Static": {
+  "ids": [
+   524925
+  ],
+  "icon": null
+ },
+ "Reduce 15 Static": {
+  "ids": [
+   806467
+  ],
+  "icon": null
+ },
+ "Reduce 15 Static (Supercharge)": {
+  "ids": [
+   805072
+  ],
+  "icon": null
+ },
+ "Reduce 25 Static": {
+  "ids": [
+   804142
+  ],
+  "icon": null
+ },
+ "Reduce 3 Insanity": {
+  "ids": [
+   520476
+  ],
+  "icon": null
+ },
+ "Reduce 3 Static": {
+  "ids": [
+   806487
+  ],
+  "icon": null
+ },
+ "Reduce 40 Static": {
+  "ids": [
+   680875
+  ],
+  "icon": null
+ },
+ "Reduce 5 Static": {
+  "ids": [
+   804692
+  ],
+  "icon": null
+ },
+ "Reduce 5 Static (Passive Drain)": {
+  "ids": [
+   805364
+  ],
+  "icon": null
+ },
+ "Reduce All Static": {
+  "ids": [
+   680865
+  ],
+  "icon": null
+ },
+ "Reduce Vault CD 1 Sec": {
+  "ids": [
+   800663
+  ],
+  "icon": null
+ },
+ "Refined Combatant": {
+  "ids": [
+   572770
+  ],
+  "icon": null
+ },
+ "Regenerative Elixirs": {
+  "ids": [
+   705528
+  ],
+  "icon": null
+ },
+ "Relentless": {
+  "ids": [
+   520593
+  ],
+  "icon": null
+ },
+ "Reload": {
+  "ids": [
+   804190
+  ],
+  "icon": null
+ },
+ "Remove 50 Insanity": {
+  "ids": [
+   520720
+  ],
+  "icon": null
+ },
+ "Remove Flux Shell": {
+  "ids": [
+   806355
+  ],
+  "icon": null
+ },
+ "Renegade": {
+  "ids": [
+   524812
+  ],
+  "icon": null
+ },
+ "Repeat Offender": {
+  "ids": [
+   504481
+  ],
+  "icon": null
+ },
+ "Repeater Bolt": {
+  "ids": [
+   801986
+  ],
+  "icon": null
+ },
+ "Repeater Bolts": {
+  "ids": [
+   804658
+  ],
+  "icon": null
+ },
+ "Repeater Passive DEPREACATED": {
+  "ids": [
+   804657
+  ],
+  "icon": null
+ },
+ "Repulse": {
+  "ids": [
+   680236
+  ],
+  "icon": null
+ },
+ "Resilient to Darkness": {
+  "ids": [
+   681092
+  ],
+  "icon": null
+ },
+ "Resourceful Pursuit": {
+  "ids": [
+   707648
+  ],
+  "icon": null
+ },
+ "Ricochet": {
+  "ids": [
+   704520
+  ],
+  "icon": null
+ },
+ "Ricocheting Bolt": {
+  "ids": [
+   807360
+  ],
+  "icon": null
+ },
+ "Ritual Cleansing": {
+  "ids": [
+   520515
+  ],
+  "icon": null
+ },
+ "Roll The Heads": {
+  "ids": [
+   802142
+  ],
+  "icon": null
+ },
+ "Rooted": {
+  "ids": [
+   802274
+  ],
+  "icon": null
+ },
+ "Runed Bullets": {
+  "ids": [
+   705472
+  ],
+  "icon": null
+ },
+ "SABER SLASH PASSIVE": {
+  "ids": [
+   800976
+  ],
+  "icon": null
+ },
+ "SWOOP": {
+  "ids": [
+   806041
+  ],
+  "icon": null
+ },
+ "Saber Slash (Fire)": {
+  "ids": [
+   680230
+  ],
+  "icon": null
+ },
+ "Scarlet Inquisitor": {
+  "ids": [
+   301338
+  ],
+  "icon": null
+ },
+ "Scent of Magic": {
+  "ids": [
+   706260
+  ],
+  "icon": null
+ },
+ "Scourge Trap": {
+  "ids": [
+   681455
+  ],
+  "icon": null
+ },
+ "Scourge Trap (Launcher)": {
+  "ids": [
+   681564
+  ],
+  "icon": null
+ },
+ "Scourge Trapped Periodic": {
+  "ids": [
+   681456
+  ],
+  "icon": null
+ },
+ "Searing Blade (Purity)": {
+  "ids": [
+   806193
+  ],
+  "icon": null
+ },
+ "Searing Blade (Wickedness)": {
+  "ids": [
+   802846
+  ],
+  "icon": null
+ },
+ "Searing Blade Flames of Sin Trigger": {
+  "ids": [
+   802845
+  ],
+  "icon": null
+ },
+ "Searing Hilt": {
+  "ids": [
+   705480
+  ],
+  "icon": null
+ },
+ "Searing Hope": {
+  "ids": [
+   504699
+  ],
+  "icon": null
+ },
+ "Secret Revealed": {
+  "ids": [
+   681508
+  ],
+  "icon": null
+ },
+ "Secret Society": {
+  "ids": [
+   680611
+  ],
+  "icon": null
+ },
+ "Secret of Raven Hill": {
+  "ids": [
+   680513
+  ],
+  "icon": null
+ },
+ "Sedative Shot": {
+  "ids": [
+   572406
+  ],
+  "icon": null
+ },
+ "Sensed Evil": {
+  "ids": [
+   802014
+  ],
+  "icon": null
+ },
+ "Sermon of Flame": {
+  "ids": [
+   503655
+  ],
+  "icon": null
+ },
+ "Sermon of Hope": {
+  "ids": [
+   504791
+  ],
+  "icon": null
+ },
+ "Set Bounty": {
+  "ids": [
+   805760
+  ],
+  "icon": null
+ },
+ "Shadeslipper": {
+  "ids": [
+   800062
+  ],
+  "icon": null
+ },
+ "Shadewalker": {
+  "ids": [
+   705532
+  ],
+  "icon": null
+ },
+ "Shadow Barrage(Test)": {
+  "ids": [
+   680242
+  ],
+  "icon": null
+ },
+ "Shadow Bond": {
+  "ids": [
+   705471
+  ],
+  "icon": null
+ },
+ "Shadow Brand": {
+  "ids": [
+   680516
+  ],
+  "icon": null
+ },
+ "Shadow Claw": {
+  "ids": [
+   800679
+  ],
+  "icon": null
+ },
+ "Shadow Mend": {
+  "ids": [
+   818067
+  ],
+  "icon": null
+ },
+ "Shadow Order": {
+  "ids": [
+   680503
+  ],
+  "icon": null
+ },
+ "Shadow Rage": {
+  "ids": [
+   567570
+  ],
+  "icon": null
+ },
+ "Shadow Shot": {
+  "ids": [
+   560048
+  ],
+  "icon": null
+ },
+ "Shadow Trap": {
+  "ids": [
+   680238
+  ],
+  "icon": null
+ },
+ "Shadow Trap (Launcher)": {
+  "ids": [
+   680376
+  ],
+  "icon": null
+ },
+ "Shadow Trap Insta Kill": {
+  "ids": [
+   681176
+  ],
+  "icon": null
+ },
+ "Shadow Trapped": {
+  "ids": [
+   681177
+  ],
+  "icon": null
+ },
+ "Shadow Trapped Periodic": {
+  "ids": [
+   681178
+  ],
+  "icon": null
+ },
+ "Shadow's Embrace": {
+  "ids": [
+   524699
+  ],
+  "icon": null
+ },
+ "Shadowblast": {
+  "ids": [
+   804191
+  ],
+  "icon": null
+ },
+ "Shadowhound Applier": {
+  "ids": [
+   805293
+  ],
+  "icon": null
+ },
+ "Shadowhound Heal Aura": {
+  "ids": [
+   578333
+  ],
+  "icon": null
+ },
+ "Shadowhound Visual": {
+  "ids": [
+   500036
+  ],
+  "icon": null
+ },
+ "Shadowstorm": {
+  "ids": [
+   520277
+  ],
+  "icon": null
+ },
+ "Shadowy Tendrils": {
+  "ids": [
+   707407
+  ],
+  "icon": null
+ },
+ "Shame": {
+  "ids": [
+   805535
+  ],
+  "icon": null
+ },
+ "Sharpened Claws": {
+  "ids": [
+   705470
+  ],
+  "icon": null
+ },
+ "Sharpshooter": {
+  "ids": [
+   705456
+  ],
+  "icon": null
+ },
+ "Shining Light": {
+  "ids": [
+   681091
+  ],
+  "icon": null
+ },
+ "Silent Killer": {
+  "ids": [
+   560236
+  ],
+  "icon": null
+ },
+ "Silver Bolts": {
+  "ids": [
+   804026
+  ],
+  "icon": null
+ },
+ "Silver Bullets": {
+  "ids": [
+   574149
+  ],
+  "icon": null
+ },
+ "Sin Eater": {
+  "ids": [
+   680542
+  ],
+  "icon": null
+ },
+ "Sin Spreader": {
+  "ids": [
+   561154
+  ],
+  "icon": null
+ },
+ "Singed Evil Purity DEPRECTED": {
+  "ids": [
+   802847
+  ],
+  "icon": null
+ },
+ "Sinner": {
+  "ids": [
+   681411
+  ],
+  "icon": null
+ },
+ "Sixfold Shot": {
+  "ids": [
+   500567
+  ],
+  "icon": null
+ },
+ "Slash": {
+  "ids": [
+   802010
+  ],
+  "icon": null
+ },
+ "Slayer": {
+  "ids": [
+   300968
+  ],
+  "icon": null
+ },
+ "Slayer of Darkness": {
+  "ids": [
+   804024
+  ],
+  "icon": null
+ },
+ "Slayer's Mark": {
+  "ids": [
+   804068
+  ],
+  "icon": null
+ },
+ "Slayer's Mark AoE Forcer": {
+  "ids": [
+   804029
+  ],
+  "icon": null
+ },
+ "Slayer's Mark Periodic": {
+  "ids": [
+   804073
+  ],
+  "icon": null
+ },
+ "Slayer's Mark Stack Adder": {
+  "ids": [
+   804069
+  ],
+  "icon": null
+ },
+ "Slick": {
+  "ids": [
+   503699
+  ],
+  "icon": null
+ },
+ "Slinging Bolts": {
+  "ids": [
+   500161
+  ],
+  "icon": null
+ },
+ "Slow Immunity": {
+  "ids": [
+   503685
+  ],
+  "icon": null
+ },
+ "Smite Evil": {
+  "ids": [
+   802004
+  ],
+  "icon": null
+ },
+ "Smite Evil (Wickedness)": {
+  "ids": [
+   802844
+  ],
+  "icon": null
+ },
+ "Smoke": {
+  "ids": [
+   805757
+  ],
+  "icon": null
+ },
+ "Smoke Grenade": {
+  "ids": [
+   805756
+  ],
+  "icon": null
+ },
+ "Solar Avenger": {
+  "ids": [
+   806196
+  ],
+  "icon": null
+ },
+ "Soothing Aura": {
+  "ids": [
+   520511
+  ],
+  "icon": null
+ },
+ "Stake": {
+  "ids": [
+   680537
+  ],
+  "icon": null
+ },
+ "Stoicism": {
+  "ids": [
+   804802
+  ],
+  "icon": null
+ },
+ "Strafing Shot": {
+  "ids": [
+   705515
+  ],
+  "icon": null
+ },
+ "Strategist": {
+  "ids": [
+   681156
+  ],
+  "icon": null
+ },
+ "Strategist (Energize)": {
+  "ids": [
+   681155
+  ],
+  "icon": null
+ },
+ "Subdued": {
+  "ids": [
+   803173
+  ],
+  "icon": null
+ },
+ "Subjugate": {
+  "ids": [
+   500089
+  ],
+  "icon": null
+ },
+ "Subjugated": {
+  "ids": [
+   500417
+  ],
+  "icon": null
+ },
+ "Surging Blade": {
+  "ids": [
+   681499
+  ],
+  "icon": null
+ },
+ "Surging Tonic": {
+  "ids": [
+   802279
+  ],
+  "icon": null
+ },
+ "Swap Weapon Stance": {
+  "ids": [
+   804808
+  ],
+  "icon": null
+ },
+ "Swiftness": {
+  "ids": [
+   504456
+  ],
+  "icon": null
+ },
+ "Swoop": {
+  "ids": [
+   560330
+  ],
+  "icon": null
+ },
+ "Swoop Root/Slow Removal": {
+  "ids": [
+   810454
+  ],
+  "icon": null
+ },
+ "The Bane of Witches": {
+  "ids": [
+   520130
+  ],
+  "icon": null
+ },
+ "The Black Knight": {
+  "ids": [
+   524665
+  ],
+  "icon": null
+ },
+ "The Duskwood Menace": {
+  "ids": [
+   504479
+  ],
+  "icon": null
+ },
+ "The Hunt Continues": {
+  "ids": [
+   560218
+  ],
+  "icon": null
+ },
+ "The Right Price": {
+  "ids": [
+   705503
+  ],
+  "icon": null
+ },
+ "The Unexpected": {
+  "ids": [
+   520595
+  ],
+  "icon": null
+ },
+ "Three Sevens": {
+  "ids": [
+   300572
+  ],
+  "icon": null
+ },
+ "To Hell With You": {
+  "ids": [
+   680550
+  ],
+  "icon": null
+ },
+ "Tonic Supply": {
+  "ids": [
+   504483
+  ],
+  "icon": null
+ },
+ "Torch the Wicked!": {
+  "ids": [
+   560226
+  ],
+  "icon": null
+ },
+ "Torchlight": {
+  "ids": [
+   503662
+  ],
+  "icon": null
+ },
+ "Tormenting the Tormented": {
+  "ids": [
+   805758
+  ],
+  "icon": null
+ },
+ "Tormentor": {
+  "ids": [
+   800162
+  ],
+  "icon": null
+ },
+ "Track": {
+  "ids": [
+   500181
+  ],
+  "icon": null
+ },
+ "Tracked": {
+  "ids": [
+   500418
+  ],
+  "icon": null
+ },
+ "Trap Card": {
+  "ids": [
+   680253
+  ],
+  "icon": null
+ },
+ "Trap Launcher": {
+  "ids": [
+   802272
+  ],
+  "icon": null
+ },
+ "Trapper": {
+  "ids": [
+   681180
+  ],
+  "icon": null
+ },
+ "Trickster": {
+  "ids": [
+   705526
+  ],
+  "icon": null
+ },
+ "Twilight Frenzy": {
+  "ids": [
+   805751
+  ],
+  "icon": null
+ },
+ "Unbreakable": {
+  "ids": [
+   804202
+  ],
+  "icon": null
+ },
+ "Uncanny Reflexes": {
+  "ids": [
+   680248
+  ],
+  "icon": null
+ },
+ "Undertaker": {
+  "ids": [
+   802022
+  ],
+  "icon": null
+ },
+ "Undying": {
+  "ids": [
+   680495
+  ],
+  "icon": null
+ },
+ "Unending Advance": {
+  "ids": [
+   707065
+  ],
+  "icon": null
+ },
+ "Unholstered": {
+  "ids": [
+   500097
+  ],
+  "icon": null
+ },
+ "Unleash The Hounds": {
+  "ids": [
+   800768
+  ],
+  "icon": null
+ },
+ "Unleash the Hounds": {
+  "ids": [
+   807918
+  ],
+  "icon": null
+ },
+ "Vampire Hunt": {
+  "ids": [
+   804799
+  ],
+  "icon": null
+ },
+ "Vampire Hunter": {
+  "ids": [
+   704570
+  ],
+  "icon": null
+ },
+ "Vampiric Rage": {
+  "ids": [
+   684333
+  ],
+  "icon": null
+ },
+ "Vampiric Tonic": {
+  "ids": [
+   802271
+  ],
+  "icon": null
+ },
+ "Vault": {
+  "ids": [
+   500085
+  ],
+  "icon": null
+ },
+ "Vault (Back Left)": {
+  "ids": [
+   802227
+  ],
+  "icon": null
+ },
+ "Vault (Back Right)": {
+  "ids": [
+   802226
+  ],
+  "icon": null
+ },
+ "Vault (Back)": {
+  "ids": [
+   802222
+  ],
+  "icon": null
+ },
+ "Vault (Forward)": {
+  "ids": [
+   802223
+  ],
+  "icon": null
+ },
+ "Vault (Front Left)": {
+  "ids": [
+   802225
+  ],
+  "icon": null
+ },
+ "Vault (Front Right)": {
+  "ids": [
+   802224
+  ],
+  "icon": null
+ },
+ "Vault (Left)": {
+  "ids": [
+   802220
+  ],
+  "icon": null
+ },
+ "Vault (Right)": {
+  "ids": [
+   802221
+  ],
+  "icon": null
+ },
+ "Veiled in Darkness": {
+  "ids": [
+   524854
+  ],
+  "icon": null
+ },
+ "Vengeful Intent": {
+  "ids": [
+   520265
+  ],
+  "icon": null
+ },
+ "Vicious Mockery": {
+  "ids": [
+   802013
+  ],
+  "icon": null
+ },
+ "Vigilante of Darkshire": {
+  "ids": [
+   503667
+  ],
+  "icon": null
+ },
+ "Vishas' Memoir": {
+  "ids": [
+   300795
+  ],
+  "icon": null
+ },
+ "Vitriol": {
+  "ids": [
+   801357
+  ],
+  "icon": null
+ },
+ "Vitriol Removal": {
+  "ids": [
+   503675
+  ],
+  "icon": null
+ },
+ "Voodoo Arrow": {
+  "ids": [
+   503715
+  ],
+  "icon": null
+ },
+ "WH Coiling Window Extender Passive": {
+  "ids": [
+   704383
+  ],
+  "icon": null
+ },
+ "Wanted: Dead": {
+  "ids": [
+   582354
+  ],
+  "icon": null
+ },
+ "Warpath": {
+  "ids": [
+   805793
+  ],
+  "icon": null
+ },
+ "Warrior of the Night": {
+  "ids": [
+   802137
+  ],
+  "icon": null
+ },
+ "Warspear Ranger's Horn": {
+  "ids": [
+   806369
+  ],
+  "icon": null
+ },
+ "Weapon Swapping": {
+  "ids": [
+   802001
+  ],
+  "icon": null
+ },
+ "Weaver of Sorrow": {
+  "ids": [
+   572314
+  ],
+  "icon": null
+ },
+ "Wicked Flame": {
+  "ids": [
+   681524
+  ],
+  "icon": null
+ },
+ "Wicked Intent": {
+  "ids": [
+   504645
+  ],
+  "icon": null
+ },
+ "Wickedness": {
+  "ids": [
+   681523
+  ],
+  "icon": null
+ },
+ "Wide Swings": {
+  "ids": [
+   681098
+  ],
+  "icon": null
+ },
+ "Witch Hunt": {
+  "ids": [
+   520551
+  ],
+  "icon": null
+ },
+ "Witch Hunt Checker": {
+  "ids": [
+   805906
+  ],
+  "icon": null
+ },
+ "Witch Hunter": {
+  "ids": [
+   284975
+  ],
+  "icon": null
+ },
+ "Witch Hunter Dodge Proc Source": {
+  "ids": [
+   707200
+  ],
+  "icon": null
+ },
+ "Witch Hunter Instant Pet Scaling / Heal Aura Applier": {
+  "ids": [
+   524757
+  ],
+  "icon": null
+ },
+ "Witch Hunter Passive": {
+  "ids": [
+   570757
+  ],
+  "icon": null
+ },
+ "Witch Hunter Pet Periodic Scaling Trigger": {
+  "ids": [
+   524759
+  ],
+  "icon": null
+ },
+ "Witch Hunter Pet Scaling Aura": {
+  "ids": [
+   524758
+  ],
+  "icon": null
+ },
+ "Witch Hunter Pet Scaling Aura 1": {
+  "ids": [
+   524072
+  ],
+  "icon": null
+ },
+ "Witch Hunter Pet Scaling Aura 2": {
+  "ids": [
+   524073
+  ],
+  "icon": null
+ },
+ "Witch Hunter Pet Scaling Aura 3": {
+  "ids": [
+   524074
+  ],
+  "icon": null
+ },
+ "Witch Hunter Pet Scaling Aura 4": {
+  "ids": [
+   524075
+  ],
+  "icon": null
+ },
+ "Witch Hunting": {
+  "ids": [
+   284984
+  ],
+  "icon": null
+ },
+ "Witch Knight": {
+  "ids": [
+   805346
+  ],
+  "icon": null
+ },
+ "Witchbane": {
+  "ids": [
+   800165
+  ],
+  "icon": null
+ },
+ "Witchbane (Energize)": {
+  "ids": [
+   804304
+  ],
+  "icon": null
+ },
+ "Witchbane Hidden Missile Visual": {
+  "ids": [
+   802753
+  ],
+  "icon": null
+ },
+ "Witchblaster": {
+  "ids": [
+   804184
+  ],
+  "icon": null
+ },
+ "Witchblight": {
+  "ids": [
+   680494
+  ],
+  "icon": null
+ },
+ "Witchblood Fever": {
+  "ids": [
+   504472
+  ],
+  "icon": null
+ },
+ "Witchblood Tonic": {
+  "ids": [
+   802278
+  ],
+  "icon": null
+ },
+ "Witcher Hidden Passive": {
+  "ids": [
+   704333
+  ],
+  "icon": null
+ },
+ "Witchfury": {
+  "ids": [
+   805907
+  ],
+  "icon": null
+ },
+ "Witching": {
+  "ids": [
+   561235
+  ],
+  "icon": null
+ },
+ "Witching Blast": {
+  "ids": [
+   520161
+  ],
+  "icon": null
+ },
+ "Witching Bolt": {
+  "ids": [
+   680322
+  ],
+  "icon": null
+ },
+ "Witching Claw": {
+  "ids": [
+   802260
+  ],
+  "icon": null
+ },
+ "Witching Edict": {
+  "ids": [
+   707684
+  ],
+  "icon": null
+ },
+ "Witching Hour": {
+  "ids": [
+   524811
+  ],
+  "icon": null
+ },
+ "Witching Idol": {
+  "ids": [
+   804051
+  ],
+  "icon": null
+ },
+ "Witching Shroud": {
+  "ids": [
+   501485
+  ],
+  "icon": null
+ },
+ "Witching Slash": {
+  "ids": [
+   520184
+  ],
+  "icon": null
+ },
+ "Witchmail": {
+  "ids": [
+   804797
+  ],
+  "icon": null
+ },
+ "Witchseeker Bolt": {
+  "ids": [
+   500177
+  ],
+  "icon": null
+ },
+ "With Style": {
+  "ids": [
+   520163
+  ],
+  "icon": null
+ },
+ "Wrangler's Net": {
+  "ids": [
+   802007
+  ],
+  "icon": null
+ },
+ "You Can Run": {
+  "ids": [
+   177892
+  ],
+  "icon": null
+ }
+}

@@ -60,6 +60,20 @@ missing without any error.
 | 32 | Runemaster | glyphic | damage |
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
+| 15 | Witch Hunter | boltslinger | damage |
+| 15 | Witch Hunter | houndmaster | damage |
+| 15 | Witch Hunter | black-knight | tank |
+| 15 | Witch Hunter | inquisition | damage |
+
+**Witch Hunter provenance (15):** not yet observed in game — filled from
+citable Sidekick statements, one per spec: black-knight "Solid main-tank for
+raid bosses … Strong dungeon tank — AoE pulls and threat" (plus taunts,
+Night's Watch threat toggle, High Threat abilities); boltslinger and
+houndmaster "Middling in arena as a damage dealer" with no ally heal or tank
+kit anywhere; inquisition "Top-tier sustained single-target DPS … Solid in
+arena as a damage dealer" (`resources/sidekick-witch-hunter-*.md`, scraped
+2026-08-07). No spec heals, so no healing target band can go missing. Confirm
+in game with the first witch-hunter `verified` pass.
 
 ## Corroboration
 

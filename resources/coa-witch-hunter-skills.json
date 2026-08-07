@@ -1,0 +1,2199 @@
+[
+ {
+  "name": "Agile",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Empower your allies with incredible finesse, increasing their Agility by %."
+ },
+ {
+  "name": "Agile Steps",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Reduces the cooldown of Vault by sec."
+ },
+ {
+  "name": "Alchemical Research",
+  "icon": "inv_enchant_alchemistcauldron",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Tonics by %."
+ },
+ {
+  "name": "Alertness",
+  "icon": "spell_nature_mentalquickness",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of any stun or snare effects used on you by % and increases your dodge chance by %."
+ },
+ {
+  "name": "Anguishing Flock",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Your damage dealt by Anguish and Feast of Talons can now critically strike. In addition, the damage of Witchblaster and Darkflock is increased by %."
+ },
+ {
+  "name": "Arbalest Mastery",
+  "icon": "artifactability_marksmanhunter_legacyofthewindrunners",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Each subsequent shot of a Witchbane cast deals % more damage, up to a maximum of its value%."
+ },
+ {
+  "name": "Arbalist",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Level 30 Passive Dealing damage with Shadowblast or Witchbane now reduces enemies' armor by %, stacking times."
+ },
+ {
+  "name": "At The Stake",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "PLACEHOLDER"
+ },
+ {
+  "name": "Bane of Witches",
+  "icon": "achievement_halloween_witch_01",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger",
+   "houndmaster"
+  ],
+  "desc": "Casting Heartseeking Bolt now increases your Physical damage dealt by %."
+ },
+ {
+  "name": "Black Knight - Level 20 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Level 20 Passive Increases Armor contribution from cloth, leather and mail items by %. In addition, your chance to hit is increased by %."
+ },
+ {
+  "name": "Blade Stance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases your parry chance by % and Fire damage dealt by % and allows the use of Blade Stance abilities. Switching stances causes you to lose a portion of your Rage."
+ },
+ {
+  "name": "Blasting Powder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Your Shadowblast and Shadow Shot generate stacks of Blasting Powder, which stacks times and lasts. Witchblaster and Darkflock consume the stacks to deal increased damage. Additional applications do not refresh duration."
+ },
+ {
+  "name": "Bola Throw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Throw a bola at an enemy, dealing its value Physical damage and slowing their movement speed by %."
+ },
+ {
+  "name": "Bolt and Dash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Your next Heartseeking Bolt within deals % more damage and incurs no cooldown. When this buff is consumed you gain % increased movement speed."
+ },
+ {
+  "name": "Boltslinger",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Level 10 Passive You may now cast Darkslayer while moving. Ranged attacks and abilities now have a % chance to shoot an additional shot, dealing its value Physical damage and generating Rage."
+ },
+ {
+  "name": "Bounty Hunter",
+  "icon": "inv_misc_scrollrolled04c",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Repeater enables the use of Collect Bounty regardless of the target's health."
+ },
+ {
+  "name": "Brand of the Condemned",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Brand an enemy, cursing them and reducing their casting speed by %. Can only affect 1 target at a time. You can only have 1 |CffffffffBrand on an enemy at a time."
+ },
+ {
+  "name": "Brand of the Damned",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Brand an enemy. their health falls below 10% while branded, they are instantly dealt its value Twilight Damage and are cursed, increasing your Magical critical strike chance against them by %. Deals % increased damage to Undead and Demons. You can only have 1 |CffffffffBr"
+ },
+ {
+  "name": "Brand of the Profane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Brand an enemy increasing their chance to be hit by melee and ranged attacks by %. You can see marked targets on the mini-map and through stealth or invisibility. You can only have 1 |CffffffffBrand on an enemy at a time"
+ },
+ {
+  "name": "Brand of the Unworthy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Expose an enemy's darkest faults, disorienting them for (8 sec vs players). Damage caused will end this effect. Only usable on Humanoids, Demons, and Undead. You can only have 1 |CffffffffBrand on an enemy at a time."
+ },
+ {
+  "name": "Brimming Hatred",
+  "icon": "_d3mantraofretribution",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your critical strikes now generate Rage. Can only occur every 3 sec."
+ },
+ {
+  "name": "Bringer of Darkness",
+  "icon": "uico_shadow_spell_04_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Your Repulse now resets the cooldown of Vault and makes your next Vault within free of cost."
+ },
+ {
+  "name": "Bringing the Law",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases the critical strike chance of Shadowblast by %."
+ },
+ {
+  "name": "Brooding Hatred",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases your off-hand Weapon Damage by % and increases your chance to hit by %."
+ },
+ {
+  "name": "Burned Alive",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases your critical strike chance by % on enemies below 20% health."
+ },
+ {
+  "name": "Burrow Bolt",
+  "icon": "inv_polearm_2h_kultirasharpoon_a_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Shoot a bolt with a rope attached to it at an enemy dealing its value Physical damage and pulling them to you."
+ },
+ {
+  "name": "By Royal Order",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases the effectiveness of Set Bounty by %."
+ },
+ {
+  "name": "Call From The Shadows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Coalesces the shadows, bringing back your Shadow Hound from the dead."
+ },
+ {
+  "name": "Calm Under Pressure",
+  "icon": "warrior_talent_icon_deadlycalm",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Reduces the cooldown of Stoicism by sec and Burrow Bolt by sec."
+ },
+ {
+  "name": "Caltrops",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Throw caltrops over a yd area, lasting. Enemies that walk over the caltrops suffer its value Physical Damage and % slowed movement speed."
+ },
+ {
+  "name": "Chains of Darkness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Pull all nearby enemies to you, dealing its value Shadow damage and taunting them."
+ },
+ {
+  "name": "Charged Bolts",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Charming Conversation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increase reputation gains of your party by %."
+ },
+ {
+  "name": "Cinder and Ashes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the spell power scaling of Purifier's Edge|R and Fiery Judgement by %."
+ },
+ {
+  "name": "Coiling Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Shoot a coiling shot dealing % Ranged Weapon Damage plus its value. Generates Rage. Usable while moving."
+ },
+ {
+  "name": "Collect Bounty",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Deals % Weapon Damage plus its value to an enemy. Only usable on enemies below 20% health and when used it enables abilities that requires Coiling Shot."
+ },
+ {
+  "name": "Collection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Dealing damage with Heartseeking Bolt and Ricocheting Bolt now has a % chance to allow the use of Collect Bounty regardless of the target's health."
+ },
+ {
+  "name": "Combat Training",
+  "icon": "ability_monk_quipunch",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of Oaths by %."
+ },
+ {
+  "name": "Contract Killing",
+  "icon": "inv_garrison_blueprints2",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases damage dealt against enemies above 75% health and below 35% health by %."
+ },
+ {
+  "name": "Conviction",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Gives all Magic damage taken a % chance to reduce all periodic Magic damage taken by %."
+ },
+ {
+  "name": "Coordinated Killing",
+  "icon": "ability_revendreth_demonhunter",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Casting Unleash the Hounds now casts Shadow Rage on you."
+ },
+ {
+  "name": "Create Distance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Casting Daring Escape now makes the next ability used within knock your target back."
+ },
+ {
+  "name": "Crippling Bolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Requires Crossbow Stance Fires a crossbow bolt at an enemy target, dealing Off-hand Damage plus its value as Physical Damage. Reduces the targets melee and ranged attack speed by %, and extends the duration of Bola Throw by sec. Generates"
+ },
+ {
+  "name": "Crossbow Frenzy",
+  "icon": "_d3strafe",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "While Twilight Frenzy is active, your movement speed is now increased by %."
+ },
+ {
+  "name": "Crossbow Stance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Disables your auto attacks, allows you to use Crossbow Stance abilities, and causes you to shoot with dual crossbows. Damage scales with your equpped melee weapons. Switching stances causes you to lose a portion of your Rage."
+ },
+ {
+  "name": "Cursewarding",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Reduces the duration of all Curse effects used on you by %. Dealing or taking Shadow Damage has a 10% chance to grant you Dark Embrace."
+ },
+ {
+  "name": "Damnation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Deplete your rage to shoot a powerful bolt dealing % Weapon Damage plus its value Twilight Damage and converting each point of Rage into additional damage. Only usable on enemies below 35% health."
+ },
+ {
+  "name": "Daredevil",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 40 Passive When you take damage that would reduce your health to 35% or less, you summon 3 lesser Shadow Hounds and reset the cooldown of Vault. Can only occur once every 2."
+ },
+ {
+  "name": "Daring Escape",
+  "icon": "_d3vault",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Jump backwards, causing all ranged attacks to miss you. Your next Bolt within will knock your enemy back. Resets the cooldown of Vault and generates Rage."
+ },
+ {
+  "name": "Dark Aura",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Activate a dark aura, increasing your Stamina by % and increasing the Shadow Resistance of all party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Dark Barrier",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the duration of Stoicism by sec."
+ },
+ {
+  "name": "Dark Intuition",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Whenever you parry or dodge an attack, your attack speed is increased by %, and your parry chance by %, stacking times."
+ },
+ {
+  "name": "Dark Mind",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 30 Passive Increases your critical strike rating by % of your Intellect."
+ },
+ {
+  "name": "Dark Penance",
+  "icon": "inv_helm_cloth_raidpriest_r_01_gold",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases your Agility and your chance to parry and dodge by %."
+ },
+ {
+  "name": "Dark Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Level 30 Passive You now gain 1 Stamina for every 2 Agility."
+ },
+ {
+  "name": "Dark Ranger",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the Shadow damage dealt by your Shadow Hounds by %."
+ },
+ {
+  "name": "Dark Regeneration",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Embrace the darkness inside you, instantly generating % maximum mana and % maximum Rage."
+ },
+ {
+  "name": "Dark Souls",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Tonics by sec."
+ },
+ {
+  "name": "Dark Tonic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Drink a dark tonic, healing you for its value, scaling with your Stamina, increasing your dodge chance by %, and increasing your maximum health by %. Only 1 Tonic can be active at a time."
+ },
+ {
+  "name": "Darkfeast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Feast on the darkness that surrounds you, healing yourself for its value."
+ },
+ {
+  "name": "Darkflock",
+  "icon": "custom_13_summon_raven_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Channel, commanding a flock of crows to deal its value Shadow damage to enemies in a wide cone every sec. Can channel while moving."
+ },
+ {
+  "name": "Darkhide",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Reduces Shadow damage you take by %, and all damage your Shadow Hound takes from area of effect attacks by %."
+ },
+ {
+  "name": "Darkness - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 15 Passive Increases the range of your ranged weapons and abilities."
+ },
+ {
+  "name": "Darkness - Level 50 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 50 Passive Increases the critical strike chance of Witchblaster and Darkflock by % for each Blasting Powder stack."
+ },
+ {
+  "name": "Darkrider",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Reduces the Rage cost of Shadowblast, Vault, and Unleash the Hounds."
+ },
+ {
+  "name": "Darkslayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Fire a dark shot at an enemy, dealing % Ranged Weapon Damage plus its value and generating Rage. Usable while moving."
+ },
+ {
+  "name": "Darkslayer's Lantern",
+  "icon": "inv_misc_trinket6oih_lanternb1",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Empower a lantern with your Flames of Sin and let it shine, dealing its value Fire damage and stunning all enemies within yds."
+ },
+ {
+  "name": "Darkslayer's Regalia",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases Armor contribution from items by %."
+ },
+ {
+  "name": "Darkstalker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases the cooldown of Vault by sec, but removes its cost and causes your auto attacks to reduce its remaining cooldown by sec."
+ },
+ {
+  "name": "Dawn",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Dealing Fire damage now increases the damage dealt by Torchlight and Dusk Blade by %, stacking times."
+ },
+ {
+  "name": "Dawn Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Slash an enemy, dealing Weapon Damage plus its value as Holyfire Damage.?s92094 Grants Flames of Sin and increases the duration by sec, causing your auto attacks to deal additional Fire damage."
+ },
+ {
+  "name": "Dawn Knight",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Level 50 Passive Avoiding damage or dealing damage with auto attacks now has a % chance to grant you Dawn Knight."
+ },
+ {
+  "name": "Dead and Gone",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Your Bolt and Dash now affects an additional use of a Heartseeking Bolt. Your Pavise now lasts additional sec and has a sec reduced cooldown."
+ },
+ {
+  "name": "Death Mark",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the duration of Slayer's Mark by sec and reduces the cooldown by sec."
+ },
+ {
+  "name": "Death Trap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Place a death trap on the ground lasting that will curse the first enemy to approach it, marking them for death, causing them to take its value Shadow damage after."
+ },
+ {
+  "name": "Decimate",
+  "icon": "nhi_foreshadowing_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Empowers your Shadow Hounds, granting them % increased damage and haste and allowing them to ignore Armor."
+ },
+ {
+  "name": "Defender of Darkshire",
+  "icon": "5_shieldnobg_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Critical strikes with ranged auto attacks now increase the melee haste of your Shadow Hounds by %."
+ },
+ {
+  "name": "Deploy Ballista",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Create a Ballista that lasts. Allies can enter the Ballista, allowing them to fire massive javelins at enemies from a great distance."
+ },
+ {
+  "name": "Desecrate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Desecrate up to enemies in front of you, dealing Weapon Damage plus its value as Shadow damage, piercing resistances. Only usable after avoiding an attack."
+ },
+ {
+  "name": "Dismiss Hound",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Dismiss your Shadow Hound."
+ },
+ {
+  "name": "Dusk",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Dealing Physical damage now increases the damage dealt by Stake and Dawn Blade by %, stacking times."
+ },
+ {
+  "name": "Dusk After Dawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "For every sec that Flames of Sin is active, your next Dusk Blade has a % increased chance to critically strike."
+ },
+ {
+  "name": "Dusk Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Strike an enemy with both weapons, dealing Weapon Damage plus its value Shadow damage, piercing resistances. Heals for % of damage dealt."
+ },
+ {
+  "name": "Dusk Knight",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Level 20 Passive Increases your parry rating by % of your Agility and your dodge rating by % of your Intellect."
+ },
+ {
+  "name": "Dusk and Dawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Damage dealt by Dawn Blade and Dusk Blade reduces the cooldown of Darkslayer's Lantern by sec."
+ },
+ {
+  "name": "Enchanted Armor",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Witchmail increases Armor contribution from items by %."
+ },
+ {
+  "name": "Engraved Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the chance that Witchmail leeches health from attackers by %."
+ },
+ {
+  "name": "Enhanced Bolts",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Using Bolts increases the effectiveness of subsequent Bolts by %. Stacks times."
+ },
+ {
+  "name": "Escape Artist",
+  "icon": "ability_rogue_quickrecovery",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Your Daring Escape now resets the cooldown of Vault and generates Rage."
+ },
+ {
+  "name": "Evasive",
+  "icon": "spell_shadow_charm",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Twilight Frenzy now grants you % reduced damage taken while active."
+ },
+ {
+  "name": "Evil Doers, Beware!",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Level 50 Passive Stake is now guaranteed to critically strike enemies above 75% health."
+ },
+ {
+  "name": "Evil Never Sleeps",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "In the night time, your Agility is increased by %. In the day time, your haste is increased by %."
+ },
+ {
+  "name": "Expert Shot",
+  "icon": "ability_hisek_aim",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the damage of Shadowblast by % and your hit chance by %."
+ },
+ {
+  "name": "Expulsion of Evil",
+  "icon": "_darkhand_sha",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Direct ranged attacks and abilities now have a % chance to reset the cooldown of Houndmaster's Call."
+ },
+ {
+  "name": "Feast of Talons",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Striking at least 5 enemies with Darkflock now causes you to unleash a flock of crows around each enemy struck, dealing its value Twilight Damage over."
+ },
+ {
+  "name": "Fiery Judgement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Judge an enemy, dealing its value Fire damage to them and nearby enemies. Grants Flames of Sin or increases the duration by sec."
+ },
+ {
+  "name": "Flames of Sin",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Level 10 Passive Using Dawn Blade now grants you Flames of Sin for sec, causing your auto attacks to deal an additional % of the damage dealt as Fire damage. Granting yourself Flames of Sin in this way while it's already active will increase the current duration"
+ },
+ {
+  "name": "Flourish",
+  "icon": "ability_rogue_unfairadvantage",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Perform an advanced flourish, dealing its value Fire damage to nearby enemies, repeating every sec, and causing your Flames of Sin to cleave up to additional enemies. Grants you Flames of Sin and increases the duration by sec."
+ },
+ {
+  "name": "Follow The Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Edicts by 20%."
+ },
+ {
+  "name": "Gaze of the Black Knight",
+  "icon": "custom_20_shadowknight_border",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Apply a dark shield to yourself, absorbing its value damage and then gaze upon your party members, causing % of the damage they take to be transferred to you. Damage which reduces your health below % will break the effect. Usable while stunned."
+ },
+ {
+  "name": "Giantslayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases the critical strike chance of your Heartseeking Bolt and Ricocheting Bolt by %."
+ },
+ {
+  "name": "Grasp of the Undying",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Auto attacks while wielding a two-handed weapon now have a % chance to unleash Grasp of the Undying, leeching its value health from the target."
+ },
+ {
+  "name": "Greater Inquisitor's Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Declare a knight's edict to all party and raid members, increasing Agility."
+ },
+ {
+  "name": "Greater Knight's Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Declare a knight's edict to all party and raid members, increasing their armor by its value and all primary attributes by."
+ },
+ {
+  "name": "Greater Tonics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the effectiveness of Tonics by %."
+ },
+ {
+  "name": "Greater Witching Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Declare a witching edict to all party and raid members, increasing their spell power."
+ },
+ {
+  "name": "Grimshade Arbalest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Fire a mighty crossbow bolt at an enemy that knocks them back and removes absorption and invulnerability effects. For the next, the target is unable to benefit from such effects."
+ },
+ {
+  "name": "Guard Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast."
+ },
+ {
+  "name": "Hail of Gunfire",
+  "icon": "_smallgun_orange",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases your ranged haste by %."
+ },
+ {
+  "name": "Hatred & Vitriol",
+  "icon": "spell_shadow_curseoftounges",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Dealing or taking damage in Purity or Wickedness now boosts the damage of the next attack that switches you to the other by %, stacking times."
+ },
+ {
+  "name": "Headshots",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases critical strike damage by %."
+ },
+ {
+  "name": "Heartseeking Bolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Charge up a powerful bolt that deals % Ranged Weapon Damage plus its value to an enemy and reduces their healing received by %. Generates Rage based on the damage dealt."
+ },
+ {
+  "name": "Heartstop Bolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Shoot a vicious bolt dealing its value Physical damage, and reducing healing received on the target by %. Generates Rage. Refreshes the duration of Tormentor Bolt. Can only be used directly after Coiling Shot."
+ },
+ {
+  "name": "Heartstopper",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Level 40 Passive Casting Purifier's Edge or Fiery Judgement now has a % chance to allow the use of Stake within regardless of the target's health percentage."
+ },
+ {
+  "name": "Hired Crossbow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Critical strikes to reduce the remaining cooldown of Set Bounty by sec."
+ },
+ {
+  "name": "Holy Water Tonic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Smash a holy water tonic beneath you, banishing all Undead and Demon enemies within yds for and increasing your damage dealt against Undead and Demons by %. Only 1 Tonic can be active at a time."
+ },
+ {
+  "name": "Houndfeeder",
+  "icon": "5_sumshadowwolf_border",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the critical strike chance of you and your Shadow Hound by %."
+ },
+ {
+  "name": "Houndmaster",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 10 Passive Your ranged auto attacks now generate Rage. In addition, teaches you Houndmaster's Whistle."
+ },
+ {
+  "name": "Houndmaster's Call",
+  "icon": "nhi_shadowroar_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Command your Shadow Hounds to leap upon an enemy target, dealing two strikes for its value Shadow damage."
+ },
+ {
+  "name": "Houndmaster's Whistle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Summons a permanent Shadowhound companion to aid you in combat. Your Shadowhound receives % of healing done to you."
+ },
+ {
+  "name": "Hunt",
+  "icon": "_d3leapattack",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "2 Charges, 25 sec recharge Charge an enemy, slowing their movement speed by % for and generating Rage."
+ },
+ {
+  "name": "Hunter in the Night",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Reduces the cost of Slash by %, and Flintlock Shot by %."
+ },
+ {
+  "name": "Ignite Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "You ignite your blade with cleansing fire, causing auto attacks to consume 10 Rage to deal its value additional Fire Damage."
+ },
+ {
+  "name": "Infiltrate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Take on the form of the target enemy Undead or Demon. Lasts, or until you mount up or deal or receive damage. While active you will appear as neutral to all aggressive creatures. Can only be used in the open world."
+ },
+ {
+  "name": "Inquisitor's Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Convince your ally to make a deal with darkness, increasing Agility."
+ },
+ {
+  "name": "Inquisitor's Trap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Place a cruel trap on the ground lasting that will curse the first enemy to approach it silencing them and all enemies in a yd radius."
+ },
+ {
+  "name": "Interrogator",
+  "icon": "spell_holy_retributionaura",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Level 20 Passive Damage dealt by Dawn Blade now deals an additional 100% of the damage dealt over as Fire damage."
+ },
+ {
+  "name": "Just A Sip",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drinking Tonics now also restores % of your maximum health and mana."
+ },
+ {
+  "name": "Kennel Master",
+  "icon": "inv_box_petcarrier_01",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Casting Unleash The Hounds now has a % chance to summon an additional Lesser Shadow Hound|R."
+ },
+ {
+  "name": "Kingdom Hearts",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Level 20 Passive Your Heartseeking Bolt is now guaranteed to critically strike on enemies below 20% health and it now restores % of your maximum mana."
+ },
+ {
+  "name": "Knight's Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Increase the friendly target's armor by its value and all primary attributes by. Does not stack with other similar effects."
+ },
+ {
+  "name": "Knight's Seal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Curse an enemy, dealing its value Shadow damage every sec and applying Dark Oath to you, reducing all damage taken by %. Your next Desecrate within now restores % of your maximum health and mana."
+ },
+ {
+  "name": "Last Hope",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Gaze of the Black Knight reduces damage taken by an additional %."
+ },
+ {
+  "name": "Long Rifle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the range of Quickdraw by yd."
+ },
+ {
+  "name": "Lord of Torture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to increase your Shadow damage dealt against the target by %."
+ },
+ {
+  "name": "Magical Blasting Powder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "deprecaetd"
+ },
+ {
+  "name": "Malice",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Level 30 Passive Increases your Fire spell damage by % of your Agility and your attack power by % of your Intellect."
+ },
+ {
+  "name": "March of the Black King",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Expel darkness from within you, dealing Shadow damage to nearby enemies over. Generates Rage every sec."
+ },
+ {
+  "name": "Mechanized Crossbows",
+  "icon": "ability_hunter_blindingshot",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases your ranged attack power by % and the range of your ranged abilities by yds."
+ },
+ {
+  "name": "Misbegotten's Lantern",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Deals its value Holyflame Damage to up to enemies within yds. Always critically strikes against Undead or Demons."
+ },
+ {
+  "name": "Monster Hunting",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases melee and ranged haste of party and raid members within yds by %. Does not stack with similar effects. In addition, increases your damage dealt against Undead and Demons by %."
+ },
+ {
+  "name": "Musket Stance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases Shadow Damage dealt by %, allows the use of Musket Stance abilities, and enables Auto Shot|R. Switching stances causes you to lose a portion of your Rage."
+ },
+ {
+  "name": "Nefarious Accuracy",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases critical strike chance by % and boosts the effect of Blasting Powder by %"
+ },
+ {
+  "name": "Night Hunter",
+  "icon": "_auracloak_shadow",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Shows the location of all nearby Humanoids, Demons, and Undead on the minimap and increases your stealth detection significantly. Only works at night."
+ },
+ {
+  "name": "Night Stalker",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your critical strike chance by %."
+ },
+ {
+  "name": "Night Walker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the base range of Vault by 3 yds."
+ },
+ {
+  "name": "Night's Watch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "You put yourself on guard against evil, increasing your threat generated by %."
+ },
+ {
+  "name": "Noctis Blade",
+  "icon": "nhi_brokensword_border",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Strike an enemy, dealing % Weapon Damage plus its value, scaling with your parry rating, and healing you for its value% of the damage dealt. Healing done scales with level."
+ },
+ {
+  "name": "Pavise",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Slam your shield into the ground, forming a pavise for 10 sec. While you remain near it, hostile spells targeting you are deflected."
+ },
+ {
+  "name": "Plagueland Survivalist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of disease effects on you by -30%."
+ },
+ {
+  "name": "Pommel Smash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Smash an enemy with your pommel, dealing High Threat Weapon Damage, and increasing their Magic damage taken by %, stacking times."
+ },
+ {
+  "name": "Potion Belt",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Reduces the cooldown of Tonics by sec."
+ },
+ {
+  "name": "Proclamation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Taunts enemies within yds to attack you and reduces their attack power based on level."
+ },
+ {
+  "name": "Protector of Darkshire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the damage of Dawn Blade and Dusk Blade by %."
+ },
+ {
+  "name": "Punishing Bolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Deals Off-hand Damage plus its value, generates Rage, and your next Bolt used within deals additional damage. Can only be used directly after Coiling Shot."
+ },
+ {
+  "name": "Pure Agony",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases the critical damage of Quickdraw by %."
+ },
+ {
+  "name": "Pure Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the critical strike damage of Dawn Blade and Dusk Blade by %."
+ },
+ {
+  "name": "Purge Evil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Purge the evil from an enemy, removing all enrage effects from them."
+ },
+ {
+  "name": "Purified Bola",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Bola Throw now has 2 charges, deals additional damage, and lasts 2 additional sec, but now costs 10 Rage instead of mana.Purified Bola Throw2 Charges, 15 sec rechargeThrow a bola at an enemy, dealing AP Holy damage and slowing movement speed by 60% for 8 seconds."
+ },
+ {
+  "name": "Purified Bola Throw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "2 Charges, 15 sec recharge Throw a bola at an enemy, dealing its value Holy damage and slowing movement speed by %."
+ },
+ {
+  "name": "Purifier's Edge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Strike an enemy with searing blades, dealing Weapon Damage plus its value with both weapons as Fire damage. Grants Flames of Sin or increases the duration by sec."
+ },
+ {
+  "name": "Purity & Wickedness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Main-hand auto attacks now apply a stack of Purity to the target, increasing the Fire and Holy damage you deal to them by % per stack, stacking 6 times. Off-hand auto attacks now apply a stack of Wickedness to the target, increasing the Shadow and Physical damage you deal to them by % per stack"
+ },
+ {
+  "name": "Pursuer of Evil",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases melee and ranged haste by %."
+ },
+ {
+  "name": "Pyro Tonic",
+  "icon": "trade_alchemy_potione6",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Drink a fiery tonic, increasing your Fire damage dealt by % and your critical damage by %. Only 1 Tonic can be active at a time."
+ },
+ {
+  "name": "Quickdraw",
+  "icon": "custom_gun_b_05_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Unleash a quick shot, dealing % Ranged Weapon Damage plus its value Physical damage and generates Rage. Only usable after critically striking with an ability."
+ },
+ {
+  "name": "Rapid Reload",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases your ranged haste by %."
+ },
+ {
+  "name": "Rearmament",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Arm yourself against evil, resetting the cooldown of all Traps and Decimate."
+ },
+ {
+  "name": "Regenerative Elixirs",
+  "icon": "inv_potion_55",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drinking Tonics now also restores Rage."
+ },
+ {
+  "name": "Reload",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Reduces the cooldown of Quickdraw by sec."
+ },
+ {
+  "name": "Renegade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You now drop caltrops below you each time you use Vault that last 6 seconds."
+ },
+ {
+  "name": "Repeat Offender",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Direct damage dealt by Bolts increases the tick rate and reduces the duration of your next Repeater by %, stacking times,."
+ },
+ {
+  "name": "Repulse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Emit a burst of shadow from your musket that strikes enemies in front of you, dealing its value Shadow damage and knocking all affected targets back."
+ },
+ {
+  "name": "Resilient to Darkness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Direct Magic damage taken now heals you and restores mana to you equal to 3% of the damage done."
+ },
+ {
+  "name": "Roll The Heads",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Reduces the cooldown of Purifier's Edge|R by sec."
+ },
+ {
+  "name": "Runed Bullets",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the damage of Shadowblast by %."
+ },
+ {
+  "name": "Scent of Magic",
+  "icon": "artifactability_vengeancedemonhunter_painbringer",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Critical strikes now apply Scent of Magic, causing your Shadow Hound's next Shadow Leap to incur a sec reduced cooldown."
+ },
+ {
+  "name": "Scourge Trap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Place a scourge trap on the ground lasting that will explode on the first Undead or Demon enemy to approach it, instantly dealing its value Holy damage to enemies within yds."
+ },
+ {
+  "name": "Searing Hilt",
+  "icon": "inv_sword_1h_pvppandarias1_c_02",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Purifier's Edge now grants you Searing Hilt."
+ },
+ {
+  "name": "Set Bounty",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Set a bounty on the target enemy's head, increasing allies' critical strike chance against them by %, and increasing all Physical damage they take by %. Lasts."
+ },
+ {
+  "name": "Shadewalker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases spell damage by % of attack power and attack power by % of Intellect."
+ },
+ {
+  "name": "Shadow Bond",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "While active, % of all damage taken willl be shared with your Shadow Hound. Lasts."
+ },
+ {
+  "name": "Shadow Rage",
+  "icon": "custom_t_curseofshadow_border",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Casting Shadowblast now grants Shadow Rage to your Shadow Hound."
+ },
+ {
+  "name": "Shadow Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Fire several bullets, striking up to enemies for % Weapon Damage plus its value as Shadow Damage. Grants Blasting Powder."
+ },
+ {
+  "name": "Shadow Trap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Place a dark trap on the ground lasting that will curse the first enemy to approach it and up to enemies within yds, stunning them for and dealing its value Shadow damage over."
+ },
+ {
+  "name": "Shadowblast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Fire a shadowy shot at an enemy, dealing % Ranged Weapon Damage plus its value as Shadow damage and regenerates % maximum mana. Enrages your Shadow Hound with Shadow Rage, stacking times.?s500056[ Grants Blasting Powder."
+ },
+ {
+  "name": "Shadowstorm",
+  "icon": "nhi_shadowstab_border",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Damage dealt by |CffffffffPommel Smash now has a % chance to trigger a Shadowstorm."
+ },
+ {
+  "name": "Shadowy Tendrils",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Your Grasp of the Undying now strikes 2 additional nearby enemies."
+ },
+ {
+  "name": "Sharpened Claws",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases your Shadow Hound's critical strike chance by %."
+ },
+ {
+  "name": "Sharpshooter ",
+  "icon": "custom_gun_b_04_border",
+  "meta": "Talent Passive Lvl 20",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 20 Passive Casting Shadowblast now regenerates % of your maximum mana."
+ },
+ {
+  "name": "Silver Bolts",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Damage dealt by Heartseeking Bolt and Damnation is increased by %, doubled against Undead or Demons or enemies affected by Shadow Trap."
+ },
+ {
+  "name": "Silver Bullets",
+  "icon": "inv_misc_ammo_bullet_05",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the damage of Darkslayer by %, increased by an additional % against Undead."
+ },
+ {
+  "name": "Sixfold Shot",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Level 50 Passive Every 5th Darkslayer within now transforms your Quickdraw into Sixfold Shot."
+ },
+ {
+  "name": "Slayer",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, increases your critical strike chance by %."
+ },
+ {
+  "name": "Slayer of Darkness",
+  "icon": "spell_holy_retribution",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases damage dealt by % when fighting Demons or Undead. Additionally, direct damage dealt with spells or abilities now has a % chance to deal its value Holy damage."
+ },
+ {
+  "name": "Slayer's Mark",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Mark an enemy, increasing the attack power of all attackers against that target by 150 and your critical strike chance against them by %, increasing by % every sec. For the duration, the enemy is unable to stealth."
+ },
+ {
+  "name": "Slinging Bolts",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Level 40 Passive Direct ranged damage dealt now has an % chance to grant you Slinging Bolts. Can only occur once every 5 sec."
+ },
+ {
+  "name": "Smite Evil",
+  "icon": "spell_holy_blessedresillience",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Strike an enemy with your blade, dealing Weapon Damage plus its value as Holy damage to them and its value nearby enemies."
+ },
+ {
+  "name": "Smoke Grenade",
+  "icon": "inv_misc_pyriumgrenade",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Throw down a smoke grenade, enemies are unable to target into or out of the Smoke. Any damage caused will remove the effect. All allies in the Smoke area gain % increased movement speed and all enemies have their movement speed slowed by %."
+ },
+ {
+  "name": "Stake",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Drive your concealed stake into the chest of an injured enemy, dealing its value Physical damage. Grants Flames of Sin and increases the duration by sec. Only usable on enemies at or below 35% health."
+ },
+ {
+  "name": "Stoicism",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Strengthen your mental resolve and enhance your reflexes, increasing your chance to parry and dodge attacks by %."
+ },
+ {
+  "name": "Strafing Shot",
+  "icon": "_d3evasivefire",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Critical strikes with ranged abilities now spread Tormentor to a nearby enemy."
+ },
+ {
+  "name": "Strategist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Vault now regenerates 5% maximum mana."
+ },
+ {
+  "name": "Student of Darkness",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases Physical and Shadow damage dealt by %."
+ },
+ {
+  "name": "Subjugate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Silences an enemy and reduces their movement speed by %."
+ },
+ {
+  "name": "Surging Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Slash an enemy for % Weapon Damage and increase your haste by %."
+ },
+ {
+  "name": "Surging Tonic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Drink a bitter tonic, reducing the cost of all abilities by %. Only 1 Tonic can be active at a time."
+ },
+ {
+  "name": "The Duskwood Menace",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increase the durations of Muzzle and Daring Escape by sec."
+ },
+ {
+  "name": "The Right Price",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Collect Bounty deals % increased damage against enemies affected by Set Bounty, and consumes the effect to refund sec of Set Bounty's cooldown."
+ },
+ {
+  "name": "Three Sevens",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration that Traps last on the ground by sec, reduces the cooldown of Burrow Bolt by sec, and reduces the cost of Dawn Blade."
+ },
+ {
+  "name": "Tonic Supply",
+  "icon": "inv_misc_5potionbag_special",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Using a Tonic now reduces the cooldown of all other Tonics by sec."
+ },
+ {
+  "name": "Torchlight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Throw a torch at an enemy, dealing its value Fire damage, and causing up to of the next attacks you make against them to grant you Flames of Sin and increasing the duration by sec."
+ },
+ {
+  "name": "Tormenting the Tormented",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Level 50 Passive Your Tormentor|R can now critically strike."
+ },
+ {
+  "name": "Tormentor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Fire a deadly bolt dealing its value Twilight Damage plus its value over."
+ },
+ {
+  "name": "Trap Card",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of your Traps by 50%."
+ },
+ {
+  "name": "Trapper",
+  "icon": "inv_fishing_netlinen02",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Reduces the cooldown of Bola Throw by sec and causes enemies slowed by Bola Throw to take % increased damage from Saber Slash and Searing Blade and Houndmaster's Call."
+ },
+ {
+  "name": "Trickster",
+  "icon": "ability_rogue_smoke",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Smoke Grenade by sec and increases its duration by sec."
+ },
+ {
+  "name": "Trophy Hunter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Increases the drop rate of Rare items by % for you and all party or raid members nearby."
+ },
+ {
+  "name": "Twilight Frenzy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Spin around, unable to stop moving, firing shots at nearby enemies for % Ranged Weapon Damage plus its value as Twilight Damage. Can dodge and parry while active."
+ },
+ {
+  "name": "Undertaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases your Stamina by %."
+ },
+ {
+  "name": "Unholstered",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Increases the damage of Darkslayer by % and reduces its cost by %."
+ },
+ {
+  "name": "Unleash The Hounds",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Summons temporary Shadow Hounds to aid you in combat."
+ },
+ {
+  "name": "Vampire Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Curse an enemy, reducing all healing they take by %, and causing them to suffer Shadow damage whenever they are healed, scaling with their own spell power."
+ },
+ {
+  "name": "Vampire Hunter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "When an enemy applies a curse to you, your Magic damage taken is reduced by -10% for 8 seconds.The damage reduction is increased by 5% and duration is increased by 2 seconds for every curse active."
+ },
+ {
+  "name": "Vampiric Tonic",
+  "icon": "trade_alchemy_potione5",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drink a vampiric tonic, allowing Physical damage dealt to heal you equal to % of the damage dealt and increases your dodge chance by %. Only 1 Tonic can be active at a time."
+ },
+ {
+  "name": "Vault",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Dash in the direction you are moving, regenerating % maximum mana. Distance scales with movement speed. Not usable while rooted."
+ },
+ {
+  "name": "Veiled in Darkness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "A veil of dark magic encircles you at all times, granting % increased Attack Power to party and raid members within yds. Does not stack with similar effects."
+ },
+ {
+  "name": "Vengeful Intent",
+  "icon": "_diablo3_cleave_deathknight",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Whenever you take direct damage you have a % chance to strike back for % Weapon Damage."
+ },
+ {
+  "name": "Vicious Mockery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Taunt an enemy to attack you. the target is a Demon or Undead, they take its value additional Shadow damage."
+ },
+ {
+  "name": "Vishas' Memoir",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Brand spells by -25%."
+ },
+ {
+  "name": "Warrior of the Night",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Increases the damage dealt by |CffffffffPurifier's Edge and Smite Evil by %."
+ },
+ {
+  "name": "Weapon Swapping",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Allows you to switch between 3 different weapon types that support each individual Witch Hunter spec."
+ },
+ {
+  "name": "Weaver of Sorrow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Damage dealt by Flintlock Shot spreads Anguish to its value nearby enemies and reduces the cooldown of Shadow Shot by sec."
+ },
+ {
+  "name": "Witch Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Start a Witch Hunt, removing current Momentum stacks. Allows Momentum to stack additional times, and generates a stack of Momentum every sec. While active, critical strike damage is increased by %, critical strike chance is increased by %, and you can now see through s"
+ },
+ {
+  "name": "Witch Hunter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "You hunt the evils of Azeroth and wear their remains like trophies. This skill tracks how many Reapers, Necromancers, Bloodmages, or Witch Doctors you've slain. It will reset to 0 on death."
+ },
+ {
+  "name": "Witch Knight",
+  "icon": "inv_sword_161",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Direct ability damage with a two-handed weapon now reduces the remaining cooldown of your Tonics by sec and grants Witching."
+ },
+ {
+  "name": "Witchbane",
+  "icon": "inv_weapon_crossbow_22",
+  "meta": "Ability",
+  "specs": [
+   "boltslinger"
+  ],
+  "desc": "Unleash a series of devastating shots dealing its value Physical damage over."
+ },
+ {
+  "name": "Witchblaster",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "houndmaster"
+  ],
+  "desc": "Blast an enemy for % Ranged Weapon Damage plus its value as Shadow damage, ignoring absorption effects and resistances."
+ },
+ {
+  "name": "Witchblight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Explode with dark energy, dealing its value Shadow damage to up to to enemies within yds, applying Shadow Brand, and healing you for % of your maximum health. Each target struck is guaranteed to miss their next instance of damage within."
+ },
+ {
+  "name": "Witchblood Fever",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Curse all nearby enemies, dealing its value Shadow damage every sec for and increasing their Magic damage taken from you by %. Enemies affected by Witchblood Fever can be seen while stealthed."
+ },
+ {
+  "name": "Witchblood Tonic",
+  "icon": "trade_alchemy_potione2",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drink a shadowy tonic, removing all curse effects from you and reducing all Magic damage taken by %. Only 1 Tonic can be active at a time."
+ },
+ {
+  "name": "Witching Edict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Create a magic edict with an ally, increasing their spell power."
+ },
+ {
+  "name": "Witching Idol",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inquisition"
+  ],
+  "desc": "Drop a Witching Idol that periodically dispels fear, sleep, and charm effects every sec from party members within yds."
+ },
+ {
+  "name": "Witching Shroud",
+  "icon": "_sylvanas_warlock",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Enter a powerful stealth mode, granting immunity to all harmful magic effects. Only usable for after being hit by a magical critical strike. Usable while stunned or feared."
+ },
+ {
+  "name": "Witchmail",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "black-knight"
+  ],
+  "desc": "Increases your Armor contribution from items by %, but reduces damage dealt by %."
+ }
+]

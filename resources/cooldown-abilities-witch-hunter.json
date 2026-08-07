@@ -1,0 +1,429 @@
+{
+ "Bolt and Dash": {
+  "id": 520670,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "boltslinger"
+  ],
+  "gcd": false
+ },
+ "Brand of the Condemned": {
+  "id": 562573,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "0.5 sec"
+ },
+ "Brand of the Damned": {
+  "id": 807682,
+  "cd": "1 min cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Brand of the Profane": {
+  "id": 562390,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "0.5 sec"
+ },
+ "Brand of the Unworthy": {
+  "id": 501380,
+  "cd": "1 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Burrow Bolt": {
+  "id": 802269,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Caltrops": {
+  "id": 503679,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "boltslinger"
+  ],
+  "gcd": false
+ },
+ "Chains of Darkness": {
+  "id": 680521,
+  "cd": "3 min cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": false
+ },
+ "Charming Conversation": {
+  "id": 804667,
+  "cd": "45 min cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Daring Escape": {
+  "id": 500086,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "boltslinger"
+  ],
+  "gcd": false
+ },
+ "Dark Regeneration": {
+  "id": 500094,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": false
+ },
+ "Darkfeast": {
+  "id": 500092,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Darkslayer's Lantern": {
+  "id": 802139,
+  "cd": "2 min cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Death Trap": {
+  "id": 681450,
+  "cd": "1 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Decimate": {
+  "id": 804194,
+  "cd": "2 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster"
+  ],
+  "gcd": false
+ },
+ "Fiery Judgement": {
+  "id": 802140,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Flourish": {
+  "id": 805365,
+  "cd": "1 min cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Gaze of the Black Knight": {
+  "id": 802138,
+  "cd": "3 min cooldown",
+  "specs": [
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Grimshade Arbalest": {
+  "id": 500900,
+  "cd": "2 min cooldown",
+  "specs": [
+   "boltslinger"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Guard Strike": {
+  "id": 804432,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": false
+ },
+ "Holy Water Tonic": {
+  "id": 802826,
+  "cd": "2 min cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": "3.0 sec"
+ },
+ "Houndmaster's Whistle": {
+  "id": 801343,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": false
+ },
+ "Infiltrate": {
+  "id": 802281,
+  "cd": "1 min cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": false
+ },
+ "Inquisitor's Trap": {
+  "id": 681445,
+  "cd": "1 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Knight's Seal": {
+  "id": 680498,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "March of the Black King": {
+  "id": 681095,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Noctis Blade": {
+  "id": 802280,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Proclamation": {
+  "id": 802135,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Punishing Bolt": {
+  "id": 500083,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "boltslinger"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Purge Evil": {
+  "id": 572306,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Purifier's Edge": {
+  "id": 802019,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Pyro Tonic": {
+  "id": 802277,
+  "cd": "2 min cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "3.0 sec"
+ },
+ "Quickdraw": {
+  "id": 804193,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Rearmament": {
+  "id": 805738,
+  "cd": "5 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster"
+  ],
+  "gcd": false
+ },
+ "Scourge Trap": {
+  "id": 681455,
+  "cd": "1 min cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Set Bounty": {
+  "id": 805760,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "boltslinger"
+  ],
+  "gcd": false
+ },
+ "Shadow Trap": {
+  "id": 680238,
+  "cd": "1 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Slayer's Mark": {
+  "id": 804068,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Smoke Grenade": {
+  "id": 805756,
+  "cd": "2 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Stoicism": {
+  "id": 804802,
+  "cd": "3 min cooldown",
+  "specs": [
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Subjugate": {
+  "id": 500089,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": false
+ },
+ "Undertaker": {
+  "id": 802022,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Unleash the Hounds": {
+  "id": 807918,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Vampire Hunt": {
+  "id": 804799,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": false
+ },
+ "Vault": {
+  "id": 500085,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Vicious Mockery": {
+  "id": 802013,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": false
+ },
+ "Weapon Swapping": {
+  "id": 802001,
+  "cd": "1 sec cooldown",
+  "specs": [
+   "houndmaster"
+  ],
+  "gcd": false
+ },
+ "Witchblight": {
+  "id": 680494,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "black-knight"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Witchblood Tonic": {
+  "id": 802278,
+  "cd": "2 min cooldown",
+  "specs": [
+   "boltslinger",
+   "houndmaster",
+   "black-knight",
+   "inquisition"
+  ],
+  "gcd": "3.0 sec"
+ }
+}

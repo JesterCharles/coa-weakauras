@@ -1,0 +1,101 @@
+{
+ "sidekick-witch-hunter-black-knight-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Gaze of the Black Knight"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Grasp of the Undying"
+   ]
+  },
+  "class": "witch-hunter",
+  "content_sha256": "29702bf379210783",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-hunter/black-knight",
+  "spec": "black-knight"
+ },
+ "sidekick-witch-hunter-boltslinger-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Disappear",
+    "Grimshade Arbalest",
+    "Smoke Grenade"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Boltslinger"
+   ]
+  },
+  "class": "witch-hunter",
+  "content_sha256": "6c412cb22b26f539",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-hunter/boltslinger",
+  "spec": "boltslinger"
+ },
+ "sidekick-witch-hunter-houndmaster-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Vampiric Tonic"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Houndmaster"
+   ]
+  },
+  "class": "witch-hunter",
+  "content_sha256": "b6070f41838b1e1c",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-hunter/houndmaster",
+  "spec": "houndmaster"
+ },
+ "sidekick-witch-hunter-inquisition-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Pyro Tonic",
+    "Stoicism",
+    "Surging Tonic"
+   ],
+   "maintain": [
+    "Flourish",
+    "Searing Blade"
+   ],
+   "priority": [],
+   "signature": [
+    "Flames of Sin"
+   ]
+  },
+  "class": "witch-hunter",
+  "content_sha256": "58a9c45b4d9979b7",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-hunter/inquisition",
+  "spec": "inquisition"
+ }
+}
