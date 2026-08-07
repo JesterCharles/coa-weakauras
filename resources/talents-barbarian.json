@@ -1,0 +1,2479 @@
+{
+ "class": "barbarian",
+ "class_id": 12,
+ "source": "ascension.gg",
+ "source_url": "https://ascension.gg/en/v2/coa-builder/voljin",
+ "realm": "api/v3 builder CoA parser",
+ "class_tab": [
+  {
+   "id": 34276,
+   "name": "Bellowing Voice",
+   "spell_ids": [
+    561322
+   ],
+   "x": 8,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34277,
+   "name": "Savage Strength",
+   "spell_ids": [
+    560886,
+    561323
+   ],
+   "x": 4,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 34279,
+   "name": "Athleticism",
+   "spell_ids": [
+    560456
+   ],
+   "x": 0,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34291,
+   "name": "Unrelenting",
+   "spell_ids": [
+    705169
+   ],
+   "x": 1,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34295,
+   "name": "Iron Gut",
+   "spell_ids": [
+    707721
+   ],
+   "x": 7,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34299,
+   "name": "Dauntless",
+   "spell_ids": [
+    804746
+   ],
+   "x": 0,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34302,
+   "name": "Rapid Recovery",
+   "spell_ids": [
+    705171
+   ],
+   "x": 4,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34303,
+   "name": "Blood and Glory",
+   "spell_ids": [
+    805821
+   ],
+   "x": 1,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34320,
+   "name": "Ogre's Endurance",
+   "spell_ids": [
+    705206
+   ],
+   "x": 4,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30162,
+   "name": "Maiming Spear",
+   "spell_ids": [
+    804139
+   ],
+   "x": 1,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29608,
+   "name": "Face Smasher",
+   "spell_ids": [
+    706354
+   ],
+   "x": 6,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30762,
+   "name": "Ancestral Roar",
+   "spell_ids": [
+    500918
+   ],
+   "x": 7,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30767,
+   "name": "Hodir's Wrath",
+   "spell_ids": [
+    800152
+   ],
+   "x": 6,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30770,
+   "name": "Forward Advance",
+   "spell_ids": [
+    707207
+   ],
+   "x": 0,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30870,
+   "name": "Defiance",
+   "spell_ids": [
+    806228
+   ],
+   "x": 4,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29783,
+   "name": "Jawbreaker",
+   "spell_ids": [
+    802792
+   ],
+   "x": 4,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29793,
+   "name": "Headhunter's Spear",
+   "spell_ids": [
+    804137
+   ],
+   "x": 1,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29803,
+   "name": "First Blood",
+   "spell_ids": [
+    560906
+   ],
+   "x": 4,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6462,
+   "name": "Unstoppable Rage",
+   "spell_ids": [
+    706353
+   ],
+   "x": 6,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6374,
+   "name": "Thick Skull",
+   "spell_ids": [
+    801549
+   ],
+   "x": 6,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 4297,
+   "name": "Bloodbound",
+   "spell_ids": [
+    801767
+   ],
+   "x": 8,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 5373,
+   "name": "Born Killer",
+   "spell_ids": [
+    800131
+   ],
+   "x": 1,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6753,
+   "name": "Drunken Brawler",
+   "spell_ids": [
+    560364
+   ],
+   "x": 7,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6790,
+   "name": "War Tales",
+   "spell_ids": [
+    706352
+   ],
+   "x": 8,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6802,
+   "name": "Strength of Goria",
+   "spell_ids": [
+    705202
+   ],
+   "x": 2,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6844,
+   "name": "Savagery",
+   "spell_ids": [
+    800943
+   ],
+   "x": 2,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6871,
+   "name": "Knockout Artist",
+   "spell_ids": [
+    705196
+   ],
+   "x": 6,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7764,
+   "name": "Bloodthirsty",
+   "spell_ids": [
+    300497
+   ],
+   "x": 2,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7847,
+   "name": "Frozen Warlord",
+   "spell_ids": [
+    560939
+   ],
+   "x": 6,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7848,
+   "name": "Mak'Gora",
+   "spell_ids": [
+    561360
+   ],
+   "x": 4,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7720,
+   "name": "Warband",
+   "spell_ids": [
+    560883
+   ],
+   "x": 7,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 14277,
+   "name": "One With The Ancestors",
+   "spell_ids": [
+    560452,
+    560889
+   ],
+   "x": 7,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 14303,
+   "name": "Battle Rhythm",
+   "spell_ids": [
+    800193
+   ],
+   "x": 4,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 14304,
+   "name": "Savage Cadence",
+   "spell_ids": [
+    807861
+   ],
+   "x": 4,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29322,
+   "name": "Outrage",
+   "spell_ids": [
+    801759
+   ],
+   "x": 2,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 12463,
+   "name": "Powerful Grip",
+   "spell_ids": [
+    804728
+   ],
+   "x": 7,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 12563,
+   "name": "Skull Smash",
+   "spell_ids": [
+    560532
+   ],
+   "x": 2,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 12770,
+   "name": "Rage Whirling",
+   "spell_ids": [
+    561321
+   ],
+   "x": 0,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 13168,
+   "name": "Plugging the Hole",
+   "spell_ids": [
+    561314
+   ],
+   "x": 2,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 11168,
+   "name": "Smasher",
+   "spell_ids": [
+    561394
+   ],
+   "x": 2,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 11302,
+   "name": "Bloody Onslaught",
+   "spell_ids": [
+    707583
+   ],
+   "x": 4,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  }
+ ],
+ "specs": {
+  "brutality": [
+   {
+    "id": 34265,
+    "name": "Hail of Hammers",
+    "spell_ids": [
+     807047
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34266,
+    "name": "Efficient Killer",
+    "spell_ids": [
+     803085
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34268,
+    "name": "Brutal Swing",
+    "spell_ids": [
+     500913
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34271,
+    "name": "Battering Ram",
+    "spell_ids": [
+     561326,
+     561331
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34274,
+    "name": "Brutal Spirit",
+    "spell_ids": [
+     706653
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34313,
+    "name": "Reckful",
+    "spell_ids": [
+     681063,
+     681466
+    ],
+    "x": 0,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34314,
+    "name": "Steel Fury",
+    "spell_ids": [
+     704240
+    ],
+    "x": 5,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 33958,
+    "name": "Ancestral Trauma",
+    "spell_ids": [
+     560446
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31151,
+    "name": "Crush",
+    "spell_ids": [
+     500915
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30374,
+    "name": "Symbol of the Warspear",
+    "spell_ids": [
+     804730
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30377,
+    "name": "Whirling Assault",
+    "spell_ids": [
+     560563
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30378,
+    "name": "Steelslinger",
+    "spell_ids": [
+     804750
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29514,
+    "name": "Storm of Steel",
+    "spell_ids": [
+     800637
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30760,
+    "name": "Rancor",
+    "spell_ids": [
+     704876
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30792,
+    "name": "Reckless Movements",
+    "spell_ids": [
+     705204
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29791,
+    "name": "Overkill",
+    "spell_ids": [
+     560444
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30042,
+    "name": "Spiked Weapons",
+    "spell_ids": [
+     705186
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6739,
+    "name": "Horde Breaker",
+    "spell_ids": [
+     804745
+    ],
+    "x": 7,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6740,
+    "name": "Utter Devastation",
+    "spell_ids": [
+     560910
+    ],
+    "x": 3,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6741,
+    "name": "Sustaining Swings",
+    "spell_ids": [
+     520539
+    ],
+    "x": 7,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6742,
+    "name": "Pure Power",
+    "spell_ids": [
+     705173,
+     707761
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6744,
+    "name": "Beheader",
+    "spell_ids": [
+     705222
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6750,
+    "name": "Bloody Fighter",
+    "spell_ids": [
+     705167,
+     707760
+    ],
+    "x": 1,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6834,
+    "name": "Anger Issues",
+    "spell_ids": [
+     560450
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6350,
+    "name": "Headlopper",
+    "spell_ids": [
+     300499
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 2277,
+    "name": "Incredibly Strong",
+    "spell_ids": [
+     804749
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4001,
+    "name": "Excessive Power",
+    "spell_ids": [
+     92081
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 5744,
+    "name": "Decapitate",
+    "spell_ids": [
+     804414
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6706,
+    "name": "Maximum Carnage",
+    "spell_ids": [
+     561359
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6737,
+    "name": "Mounting Fury",
+    "spell_ids": [
+     805927
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4720,
+    "name": "Thirst for Battle",
+    "spell_ids": [
+     570236
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 14265,
+    "name": "Crusher",
+    "spell_ids": [
+     807183
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29281,
+    "name": "Killing Spree",
+    "spell_ids": [
+     850021
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12277,
+    "name": "Giant Tosser",
+    "spell_ids": [
+     807863
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12737,
+    "name": "Savage",
+    "spell_ids": [
+     560441
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12739,
+    "name": "Power Swings",
+    "spell_ids": [
+     707762
+    ],
+    "x": 7,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13958,
+    "name": "Crusher",
+    "spell_ids": [
+     803817,
+     807875
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 14171,
+    "name": "Ogre's Strength",
+    "spell_ids": [
+     561160
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9170,
+    "name": "Relentless",
+    "spell_ids": [
+     300505
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9171,
+    "name": "Body Builder",
+    "spell_ids": [
+     706481
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "headhunting": [
+   {
+    "id": 9192,
+    "name": "Savage",
+    "spell_ids": [
+     705242
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7337,
+    "name": "Spite",
+    "spell_ids": [
+     707584
+    ],
+    "x": 7,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7338,
+    "name": "Brutal Form",
+    "spell_ids": [
+     705235
+    ],
+    "x": 3,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13576,
+    "name": "Axe Twirling",
+    "spell_ids": [
+     800401
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 14237,
+    "name": "Power Tosser",
+    "spell_ids": [
+     570242
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 19192,
+    "name": "Spear Thrower",
+    "spell_ids": [
+     574321
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30163,
+    "name": "Berserker Axe",
+    "spell_ids": [
+     804138
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 30166,
+    "name": "Legacy of the Amani",
+    "spell_ids": [
+     706804
+    ],
+    "x": 0,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 30167,
+    "name": "Berserker",
+    "spell_ids": [
+     561397
+    ],
+    "x": 5,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31152,
+    "name": "Gutspiller",
+    "spell_ids": [
+     805832
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30771,
+    "name": "Guts Splatter",
+    "spell_ids": [
+     560586,
+     561332
+    ],
+    "x": 6,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30773,
+    "name": "Time To Kill!",
+    "spell_ids": [
+     926591
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29468,
+    "name": "No Survivors",
+    "spell_ids": [
+     805864
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34275,
+    "name": "Raging Spirit",
+    "spell_ids": [
+     707410
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34293,
+    "name": "Vengeance For Zul'jin",
+    "spell_ids": [
+     560205
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34319,
+    "name": "Barbed Spear",
+    "spell_ids": [
+     560881
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34321,
+    "name": "Payback",
+    "spell_ids": [
+     705232
+    ],
+    "x": 7,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34325,
+    "name": "Headhunting",
+    "spell_ids": [
+     500060
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34326,
+    "name": "Manhunter",
+    "spell_ids": [
+     300879
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34329,
+    "name": "Skullseeker",
+    "spell_ids": [
+     560517
+    ],
+    "x": 1,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5124,
+    "name": "Furious Berserker",
+    "spell_ids": [
+     707389
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5192,
+    "name": "Bloody Fighter",
+    "spell_ids": [
+     570235
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5318,
+    "name": "Strong Arm",
+    "spell_ids": [
+     705176
+    ],
+    "x": 2,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5327,
+    "name": "Vital Spirit",
+    "spell_ids": [
+     805835,
+     807864
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5329,
+    "name": "Berserker Rush",
+    "spell_ids": [
+     560518
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4002,
+    "name": "Headhunter",
+    "spell_ids": [
+     92082
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6785,
+    "name": "Puncture Wounds",
+    "spell_ids": [
+     805997
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6794,
+    "name": "Hunting for Sport",
+    "spell_ids": [
+     706558
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6796,
+    "name": "You Want Axe?",
+    "spell_ids": [
+     560564
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6797,
+    "name": "Spear Shards",
+    "spell_ids": [
+     805893
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6798,
+    "name": "Gurubashi Technique",
+    "spell_ids": [
+     705198
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6799,
+    "name": "Gruesome",
+    "spell_ids": [
+     705227,
+     707765
+    ],
+    "x": 8,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6801,
+    "name": "Sen'jin's Guidance",
+    "spell_ids": [
+     707661
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6803,
+    "name": "Entrails",
+    "spell_ids": [
+     705238
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6511,
+    "name": "Frothing Savage",
+    "spell_ids": [
+     705234,
+     707779
+    ],
+    "x": 0,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6608,
+    "name": "Deep Fury",
+    "spell_ids": [
+     705240
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5608,
+    "name": "To The Bone",
+    "spell_ids": [
+     560880
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5794,
+    "name": "Impaling Spear",
+    "spell_ids": [
+     500984
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "ancestry": [
+   {
+    "id": 4003,
+    "name": "Fill Level",
+    "spell_ids": [
+     92083
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4354,
+    "name": "Frost Giant's Fury",
+    "spell_ids": [
+     805812
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6713,
+    "name": "Fury of the North",
+    "spell_ids": [
+     560938
+    ],
+    "x": 5,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30386,
+    "name": "Ice Cold Bubbles",
+    "spell_ids": [
+     705161,
+     707778
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30387,
+    "name": "Unified Rage",
+    "spell_ids": [
+     705212
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29782,
+    "name": "War Cry",
+    "spell_ids": [
+     500995
+    ],
+    "x": 7,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29799,
+    "name": "Ancestral Combat",
+    "spell_ids": [
+     801782
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29800,
+    "name": "Improved Ancestral Combat",
+    "spell_ids": [
+     705209,
+     705210,
+     707777
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 3,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30754,
+    "name": "Cold Brew",
+    "spell_ids": [
+     705211
+    ],
+    "x": 5,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30763,
+    "name": "Cheers!",
+    "spell_ids": [
+     805810
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30764,
+    "name": "Splash Zone",
+    "spell_ids": [
+     705156
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31153,
+    "name": "Ancestor's Call",
+    "spell_ids": [
+     804729
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31219,
+    "name": "Thane's Guard",
+    "spell_ids": [
+     800132
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31220,
+    "name": "Ancestral Fury",
+    "spell_ids": [
+     804731
+    ],
+    "x": 2,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29284,
+    "name": "Ale of The God-King",
+    "spell_ids": [
+     805780
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29348,
+    "name": "Blind Stupor",
+    "spell_ids": [
+     805811
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29366,
+    "name": "Ramhorn Rage",
+    "spell_ids": [
+     805804
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9172,
+    "name": "Frozen Blades",
+    "spell_ids": [
+     573256
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9861,
+    "name": "To The Bone",
+    "spell_ids": [
+     712673
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11172,
+    "name": "Ancestral Wisdom",
+    "spell_ids": [
+     803511
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11219,
+    "name": "Thane's Grip",
+    "spell_ids": [
+     803798
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11257,
+    "name": "Crystal Enhancements",
+    "spell_ids": [
+     707541
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12112,
+    "name": "Clanlord's Totem",
+    "spell_ids": [
+     804737
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12153,
+    "name": "Frozen Tankard",
+    "spell_ids": [
+     805815
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12261,
+    "name": "Breaking Morale",
+    "spell_ids": [
+     681473
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13111,
+    "name": "Tavern Brawl!",
+    "spell_ids": [
+     804456
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13572,
+    "name": "Keg Smash",
+    "spell_ids": [
+     805808
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7846,
+    "name": "Rally Behind Me!",
+    "spell_ids": [
+     712429
+    ],
+    "x": 7,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34257,
+    "name": "Uniting Voice",
+    "spell_ids": [
+     705162
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34258,
+    "name": "Frostbite",
+    "spell_ids": [
+     705158
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34259,
+    "name": "Trip to the Alehouse",
+    "spell_ids": [
+     705152,
+     707766
+    ],
+    "x": 6,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34260,
+    "name": "Drinking Frenzy",
+    "spell_ids": [
+     706821
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34261,
+    "name": "Ancestor's Fury",
+    "spell_ids": [
+     705168
+    ],
+    "x": 3,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34262,
+    "name": "Icebound Ancestry",
+    "spell_ids": [
+     705216
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34263,
+    "name": "The Finest Ale",
+    "spell_ids": [
+     705218
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34264,
+    "name": "Hodir's Revenge",
+    "spell_ids": [
+     705214
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34304,
+    "name": "Liquid Courage",
+    "spell_ids": [
+     681060
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34305,
+    "name": "Drunken Frenzy",
+    "spell_ids": [
+     572799
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34306,
+    "name": "Breath of The North",
+    "spell_ids": [
+     800838
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34307,
+    "name": "Rage of the North",
+    "spell_ids": [
+     705221
+    ],
+    "x": 3,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34309,
+    "name": "Ancestral Spirit",
+    "spell_ids": [
+     705153,
+     705154
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34311,
+    "name": "The Spins",
+    "spell_ids": [
+     705208
+    ],
+    "x": 1,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34312,
+    "name": "Might of Utgarde",
+    "spell_ids": [
+     804768
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ]
+ },
+ "tab_map": {
+  "brutality": {
+   "tab_id": 31,
+   "tab_name": "Brutality"
+  },
+  "headhunting": {
+   "tab_id": 32,
+   "tab_name": "Headhunting"
+  },
+  "ancestry": {
+   "tab_id": 33,
+   "tab_name": "Ancestry"
+  }
+ },
+ "unmapped_tabs": [],
+ "missing_specs": []
+}

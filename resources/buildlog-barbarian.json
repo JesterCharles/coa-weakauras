@@ -1,0 +1,108 @@
+{
+ "class": "barbarian",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 42,
+   "citations": 6,
+   "crossdb_checked": 209,
+   "crossdb_pct": 97.2,
+   "inventory_rows": 241,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 215,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 42,
+   "citations": 6,
+   "crossdb_checked": 209,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 235,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 209,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 42,
+   "citations": 6,
+   "crossdb_checked": 209,
+   "crossdb_pct": 97.2,
+   "inventory_rows": 241,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 215,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "\u00a75: NO missing-buff alert shipped, deliberately \u2014 barbarian has no imbue/engraving-style kit, a NO-ENRAGE alert would be permanently on out of combat, and the missing-pet alert is deferred (no verified presence surface, see pets step). Miss-handling instead rides desaturate (check 9), cd escalation ANDed with onCooldown (check 9), target-band refresh glows, and the Tankard glows. Core reminder band is empty and core_leaves=8 pins the shape"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: 13 barbarian entries, all 2026/07/31 (Crush swing timer, Crusher switch node, Hail of Hammers crit dmg, Born in Blood 10%/10 stacks + 4s base, Whirling Assault 500% >80% HP, Giant Tosser spear range dmg, Incredibly Strong duration, Drunken Brawler 5s/2%, Iron Gut 30%, Ramhorn Rage regen, Thick Skull horrify, Axe Twirling now a TOGGLE no cd/duration). Triaged into requirements-barbarian.md; --accept deferred until acted on"
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 citations, 42 claims: 3 auto-imported from sidekick-data.js (blob 2026-08-02) + 3 manual records transcribing the spec-page rotation priorities (scraped 2026-08-07). Validated clean; Glacial Echoes + Deathless Resolve resolved to null canonicals in aliases-barbarian.json (essence names, no id in any source). ONE source only \u2014 corroboration unmeasurable, which the draft bar tolerates and \u00a76 records"
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 215,
+   "note": "re-swept after 6 rows were added post-seal (You Want Axe?, Legacy of the Amani, Puncture Wound, Guts Spilled, Full Tankard, Empty Tankard): 215/215, 210 record. Same 5 no-record as the sealed sweep, all resolved by name in their Notes cells (Barbed Spear other-id 560976; Headhunter's Spear components indexed; Maiming Spear + both spears carried by the official talent tree; Axe Volley via the L15 transform passive; Wrist Snap via the Broken Bones rider). Nothing deleted"
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "no class-agnostic mkguide exists (mkguide.py/mkpreview.py are Runemaster-hardcoded) \u2014 layout read via tools/hud.py geometry resolution on all four packs + tools/rowwidths.py + a band-ladder dump: energy bars width-locked to each spec's main row (274/228/182px), ladder Target -51 / Buffs -84 / Main -132 / Energy -170 / Offense -202 with chained Utility/Longterm, all always-visible rows <=1.07x the resource bar, no stacked bands. Widest active-only row (ancestry Buffs) exceeds the bar only in preview because active-only rows pack to what is live"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "BULK PASS + BULK CLEAR (Pyromancer precedent, production-run.md default): automated role pass proposed all 235 rows with one line of reasoning per Notes cell (rolepass.py decisions from tooltips/spell-meta/cited rotations), then prop: markers cleared in bulk \u2014 NOT a row-by-row human read; provenance recorded here. Hedged rows copied to requirements \u00a76. Cooldown/GCD audit: 256 checked, 41 cooldowns, 21 off-GCD, 0 unresolved. Id corrections: Maximum Carnage 560932->560933 (component->castable, verified both DBs), Berserker 561397->804141 (passive->castable candidate, hedged). Born in Blood hand-added from exiles (not a skillbook entry)."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "main rows from cited rotation text (citations sidekick-page-*-2026-08-07): brutality Smash/Ancestral Strike/Brutal Swing/Barbaric Whirl/Crush/Decapitate (6); headhunting Barbed Spear/Throw Weapon/Berserker Axe/Gutspiller/Impaling Spear (5); ancestry Ancestral Combat/Keg Smash/Ale of The God-King/Breath of The North (4). CD_PER_ROW=7 from narrowest row (ancestry 182px); rowwidths.py: all always-visible rows <=1.07x, green"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Firecrawl scrape of ascensionsidekick.com/barbarian/{brutality,headhunting,ancestry} -> resources/sidekick-barbarian-<spec>.md (35-41KB each). sidekick-data.js snapshot 2026-08-02 postdates newest barbarian changelog entry 2026-07-31, so blob counts as current for this class"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "\u00a73: Ancestry's permanent Honored Ancestor (Ancestor's Call 804729, 'until dismissed'). Player presses nothing on the pet -> no pet ability rows; Ale of The God-King (the pet empower) is a main-row button with Full-Tankard glow. Missing-pet alert DEFERRED to \u00a76: no verified trigger surface reports pet presence on this fork, and an unverified alert either never fires (silent) or is permanently on screen (the Runemaster reminder failure). Brutality/headhunting: no pets"
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "\u00a71 must-press cues wired to PROC_GLOW: Ale of The God-King glows on Full Tankard (805814), Breath of The North glows on Empty Tankard (806055) \u2014 the two Tankard-state presses in the cited ancestry rotation. Both aura ids resolve on both DBs, unverified as player auras in game (\u00a76). Enrage economy carried by spellUsable-desaturate on Smash + the three enrage auras with timers in the buff row"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-barbarian.md: all sections answered. Changelog triaged (13 entries; Axe Twirling toggle + Crusher switch node are the two with WA impact, both handled). Spec roles: all three damage per Sidekick's explicit statements \u2014 spec-roles.md left untouched (its contract is observed-in-game). Pets: Ancestry has the permanent Honored Ancestor (Ancestor's Call 804729 'until dismissed') -> NO ANCESTOR alert. 8 open UNKNOWNs in \u00a76 incl. Fill Level max stacks (no fixed-cell gauge shipped) and Full/Empty Tankard aura verification"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "\u00a72: no talent replaces an ability with a different id (no variants registry needed). Axe Twirling toggle rework -> tracked as active aura, not cooldown. Barbaric Whirl->Axe Volley L15 transform: both leaves gate on their own spell id so each build shows only what it knows. Crusher switch node: same Crush id, cd icon reads correctly with and without. Charges: Berserker Axe 3, Axe Volley 3 (You Want Axe? refunds show live)"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py ALL CHECKS PASSED (fixtures frozen via tests/freeze.py barbarian; core_leaves=8 pinned in classes.CORE_LEAVES; rankings-barbarian.json empty-valid record created; You Want Axe?/Legacy of the Amani tree grants given inventory rows; Puncture Wound/Guts Spilled/Full+Empty Tankard aura surfaces given rows). Note: check 13 reads docs/packs/<slug>/<slug>-coa.txt, so the built all-specs pack was copied there UNPUBLISHED (no mksite, no site pages) purely so the check measures this build"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "\u00a76 all items EXPLICITLY DEFERRED to the post-ship in-game pass (draft bar): Fill Level max stacks (no fixed-cell gauge shipped), Full/Empty Tankard as player auras, Honored Ancestor presence surface, War Cry/Cheers!/Clanlord's Totem unbuildable ids, Berserker castable id 804141, Axe Volley + Wrist Snap single-DB, energy power_type=3, headhunting gate Deathmatch level, energy-overcap cue, hedged bulk-pass rows. Nothing closed silently"
+  }
+ }
+}

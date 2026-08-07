@@ -1,0 +1,2084 @@
+[
+ {
+  "name": "Ale of The God-King",
+  "icon": "_d3hammeroftheancients",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Empower your Honored Ancestor's melee attacks to deal additional Frost damage scaling with your attack power. Lasts. This ability consumes Fill Level stacks and triggers a reduced cooldown based on stacks consumed."
+ },
+ {
+  "name": "Amphibimorph",
+  "icon": "nhi_hypnotoad_border",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Transform an enemy into a snake, banishing them into the realm of the Loa. For the duration, they are immune to damage, but cannot attack or cast spells, and their movement speed is reduced by %. Only works on Humanoids."
+ },
+ {
+  "name": "Ancestor's Call",
+  "icon": "inv_helmet_158",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Teaches you Ancestor's Call."
+ },
+ {
+  "name": "Ancestor's Fury",
+  "icon": "achievement_boss_generalbjarngrim",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Unbridled Rage now also increases your Frost damage by %."
+ },
+ {
+  "name": "Ancestor's Recall",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Recollects the spirit of your ancestor, bringing back from the dead."
+ },
+ {
+  "name": "Ancestor's Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Dealing damage with Ancestral Strike and Brutal Swing now reduces an enemy's Armor by %, stacking times."
+ },
+ {
+  "name": "Ancestral Combat",
+  "icon": "_d3calloftheancients",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Empower yourself, granting your Physical damage dealt a % chance to trigger an additional main hand attack as Frost damage on your target and grant a stack of Fill Level. Lasts until triggered times."
+ },
+ {
+  "name": "Ancestral Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Emanate a powerful aura, granting % increased melee and ranged haste to party and raid members within yds. Does not stack with similar effects."
+ },
+ {
+  "name": "Ancestral Keg",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Place a keg on the ground for that allies can use to restore their health and mana. Entering combat or moving while drinking from the keg will end the effect."
+ },
+ {
+  "name": "Ancestral Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases your melee and ranged attack power by % of Agility."
+ },
+ {
+  "name": "Ancestral Roar",
+  "icon": "_d3threateningshout",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Requires Enraged Roar with ancestral fervor, healing you for its value and 1 Fill Level stack."
+ },
+ {
+  "name": "Ancestral Spirit",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the Energy cost of your Spirit spells and increases the duration of your Shouts by %."
+ },
+ {
+  "name": "Ancestral Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Strike an enemy with the might of your ancestors, dealing its value damage."
+ },
+ {
+  "name": "Anger Management",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Casting Barbaric Rage now also removes and makes you immune to fear and horrify effects."
+ },
+ {
+  "name": "Ascetic Abdication",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Ascetic Abdication for, restoring % maximum health and Energy every sec and reducing damage taken by %."
+ },
+ {
+  "name": "Athleticism",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Energy regeneration by 25%."
+ },
+ {
+  "name": "Axe Dance",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Ancestral Strike now costs less Energy and knocks the target and you away from each other, but now has a sec cooldown."
+ },
+ {
+  "name": "Axe Twirling",
+  "icon": "inv_axe_104",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Display mastery over throwing weapons, causing Throw Weapon, Gutspiller, and Berserker Axe to strike additional nearby enemies."
+ },
+ {
+  "name": "Axe Volley",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Requires Enraged 3 Charges, 8 sec recharge Throw axes at up to enemies, dealing its value Physical Damage. Shares a cooldown with Berserker Axe."
+ },
+ {
+  "name": "Axes, Axes Everywhere!",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Barbaric Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "While enraged, the global cooldown of Barbarian abilities is reduced by 30%."
+ },
+ {
+  "name": "Barbaric Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Strikes an enemy for Weapon Damage plus and applies 2 stacks of Carnage."
+ },
+ {
+  "name": "Barbaric Tendencies",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Smash by % and Barbaric Whirl by %."
+ },
+ {
+  "name": "Barbaric Whirl",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Whirl in a barbaric fury, striking up to nearby enemies with both weapons, dealing % Weapon Damage."
+ },
+ {
+  "name": "Barbed Spear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Throw a heavy spear with precision at an enemy, dealing % Ranged Weapon Damage plus its value, and reducing their healing received by %. Shares a cooldown with other Spears."
+ },
+ {
+  "name": "Battle Rhythm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes with abilities now generate Energy."
+ },
+ {
+  "name": "Battle Vigor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Enrage Effect Enrage, gaining % increased maximum health. After the effect expires, the health is lost."
+ },
+ {
+  "name": "Beheader",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Scoring a kill blow with Decapitate now refunds 100% of your maximum Energy."
+ },
+ {
+  "name": "Bellowing Voice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Shouts by 20%."
+ },
+ {
+  "name": "Berserker",
+  "icon": "_troll_03",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Requires Enraged Enrage Effect Enrage and rapidly throw axes at an enemy, dealing % Ranged Weapon Damage plus every sec, and grants Born in Blood every sec. Scales with haste and modifiers to Berserker Axe. Usable while moving."
+ },
+ {
+  "name": "Berserker Aura",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Go berserk, increasing your attack power by % and increasing the Frost Resistance of all party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Berserker Axe",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Requires Enraged 3 Charges, 8 sec recharge Hurl two axes at an enemy, each dealing its value Physical damage and reducing enemy armor by its value."
+ },
+ {
+  "name": "Berserker Rush",
+  "icon": "ability_hanzandfranz_chestbump",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Charge an enemy dealing its value Physical damage and rooting them, then leap backwards."
+ },
+ {
+  "name": "Blind Stupor",
+  "icon": "ability_monk_drunkenhaze",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Damage dealt by Keg Smash now reduces enemies' casting speed by %."
+ },
+ {
+  "name": "Blood Brothers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the duration of your War Cry by sec, its effectiveness by %, and it now grants affected allies Energy every sec."
+ },
+ {
+  "name": "Blood Pact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Direct critical strikes apply Blood Pact."
+ },
+ {
+  "name": "Blood and Glory",
+  "icon": "achievement_boss_operator_thogar",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While at or below 35% maximum health, you now gain % increased healing received and take % reduced damage."
+ },
+ {
+  "name": "Bloodbound",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Warband by sec and Ancestral Roar by sec."
+ },
+ {
+  "name": "Bloodthirsty",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Outrage by %."
+ },
+ {
+  "name": "Bloodthirsty Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Enrage Effect Your melee auto attacks now have a % chance to enrage you, increasing your Physical Damage dealt by %."
+ },
+ {
+  "name": "Bloody Fighter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality",
+   "headhunting"
+  ],
+  "desc": "Increases the critical strike chance of Brutal Swing and Smash by %."
+ },
+ {
+  "name": "Bloody Onslaught",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Onslaught by 6 sec."
+ },
+ {
+  "name": "Body Builder",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Level 50 Passive You now gain 1 Strength for every 3 Agility and your size is increased by %."
+ },
+ {
+  "name": "Bond Breaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the duration of any movement speed reduction effects used against you by %."
+ },
+ {
+  "name": "Born Killer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Killing an enemy that yields experience or honor now grants you % increased armor penetration and movement speed, stacking times."
+ },
+ {
+  "name": "Bottomless Tankard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the cooldown of Tankard Toss by sec."
+ },
+ {
+  "name": "Boulderfist",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces the Energy cost of Wrecker."
+ },
+ {
+  "name": "Break",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Break an enemy's defenses, reducing their armor by %, stacking times."
+ },
+ {
+  "name": "Breath of The North",
+  "icon": "spell_fire_blueflamebreath",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Unleashes a frost breath, dealing its value Frost damage to enemies in a yd cone and slowing them by %. Can only be used after emptying your Tankard."
+ },
+ {
+  "name": "Broken Bones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Causes Wrist Snap to also reduce the target's haste by %, and removes its Energy cost."
+ },
+ {
+  "name": "Brutal Carnage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Brutal Swing's cost is reduced by and it applies additional stacks of Carnage."
+ },
+ {
+  "name": "Brutal Form",
+  "icon": "inv_axe_1h_pvpdraenors2_d_01",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the tick rate of Born in Blood by %, allows its healing to scale with your Agility, and it can now critically heal you."
+ },
+ {
+  "name": "Brutal Shout",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Roar with barbaric fury, increasing the Agilty of nearby party and raid members by."
+ },
+ {
+  "name": "Brutal Strikes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases Physical critical damage by %."
+ },
+ {
+  "name": "Brutal Swing",
+  "icon": "5_axe_border",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Your next attack causes you to swing violently at an enemy and up to 2 nearby enemies, dealing % Weapon Damage plus its value."
+ },
+ {
+  "name": "Brutality - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Level 15 Passive Decapitate now deals additional damage for each point of Energy spent above 100."
+ },
+ {
+  "name": "Brutality Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Dealing damage with Ancestral Strike or Brutal Swing now increases the damage the target takes from your Disembowel by %."
+ },
+ {
+  "name": "Carnage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry",
+   "brutality"
+  ],
+  "desc": "Some abilities apply Carnage to the enemy. Carnage stacks are consumed by specific abilities for additional effectiveness."
+ },
+ {
+  "name": "Cheers!",
+  "icon": "archaeology_5_0_twinsteinsetofbrewfatherquantoukuo",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Designate an ally as your drinking partner, reducing all damage they take by %, and causing % of all damage they take to be redirected to you. You can only have 1 ally designated at a time."
+ },
+ {
+  "name": "Clanlord's Totem",
+  "icon": "inv_belt_armor_orcclan_d_01",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Drop the Clanlord's Totem at the target location where it will remain. The totem emanates an aura, causing allied players within yds to deal its value additional damage as Frost damage when they deal direct damage and gain % increased honor. Applies Exhaustion, preventing you from"
+ },
+ {
+  "name": "Cold Brew",
+  "icon": "spell_monk_nimblebrew",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Critical strikes with Frost damage now generate a stack of Fill Level. Can only occur once per sec."
+ },
+ {
+  "name": "Collecting Heads",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Javelin Toss regenerates % maximum Energy. Removes the cooldown from Axe Throw."
+ },
+ {
+  "name": "Conqueror",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases attack power by %."
+ },
+ {
+  "name": "Crush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Crush enemies in a frontal cone, dealing % Weapon Damage plus its value, knocking them down briefly and stunning them."
+ },
+ {
+  "name": "Crypt Swarm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Transforms Flesh to Worms into Crypt Swarm."
+ },
+ {
+  "name": "Crystal Enhancements",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "You now emanate an aura around you, increasing the Armor of party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Dauntless",
+  "icon": "sha_ability_rogue_sturdyrecuperate_nightmare",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Dealing damage with Whirling Advance now dispels 1 movement slowing effect from you and refunds Energy."
+ },
+ {
+  "name": "Deadly Duo",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Your Barbaric Whirl ability now causes your Honored Ancestor minion to perform a similar whirlwind attack, dealing Physical damage to enemies around it based on your Agility, and your Spirit. In addition, using Whirling Advance will cause your Honored Ancestor to perform the same action."
+ },
+ {
+  "name": "Deathmatch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "You select a target enemy for a Deathmatch, banishing both you and the enemy so that you can only see each other and causing each of you to have an effective Armor value of 0 and the enemy will take % increased Physical Damage for the next."
+ },
+ {
+  "name": "Decapitate",
+  "icon": "novart_physical_ability_(47)_border",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Attempt to decapitate an injured enemy, dealing % Weapon Damage plus its value, and converting each extra point of Energy to deal additional damage (up to a maximum cost of 100 Energy). Only usable on enemies below 35% health."
+ },
+ {
+  "name": "Deep Fury",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Direct Physical damage dealt now reduces the cooldown of Unbridled Rage by sec."
+ },
+ {
+  "name": "Defiance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Attempt to defy death, reducing all damage taken by 30% to 80% based on your current missing health."
+ },
+ {
+  "name": "Disembowel",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Disembowel an enemy, inflicting its value Physical damage over. Periodic damage dealt by this benefits from your haste and can critically strike"
+ },
+ {
+  "name": "Dismiss Ancestor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Dismiss your Honored Ancestor."
+ },
+ {
+  "name": "Double Barrel",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the Frost damage dealt by Keg Smash by %."
+ },
+ {
+  "name": "Drunken Brawler",
+  "icon": "inv_holiday_beerfest_highmountain",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Drunken Frenzy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "You and your Honored Ancestor gain % increased Physical Damage. Requires an Honored Ancestor to use."
+ },
+ {
+  "name": "Efficient Killer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces the Energy cost of your spells and abilities by %."
+ },
+ {
+  "name": "Empty Kegs",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the Energy cost of Keg Smash by and increases its range by a few yards."
+ },
+ {
+  "name": "Endless Brutality",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the duration of Unbridled Rage by sec."
+ },
+ {
+  "name": "Enduring Shout",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Roar with enduring fury, increasing the Stamina of nearby allies by."
+ },
+ {
+  "name": "Entrails",
+  "icon": "nhi_blood_explosion_border",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Damage dealt by bleed effects now increases your Agility by %, stacking times."
+ },
+ {
+  "name": "Excessive Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Level 10 Passive Increases your maximum Energy by %."
+ },
+ {
+  "name": "Face Smasher",
+  "icon": "warrior_talent_icon_innerrage",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your ability critical strikes now reduce the cooldown of your Battle Vigor and Thick Skull by sec."
+ },
+ {
+  "name": "Fast and Furious",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Fervor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Physical damage dealt increases your attack power by %, stacks up to times,."
+ },
+ {
+  "name": "Fill Level",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Level 10 Passive Grants you Fill Level and the ability to manipulate a Tankard."
+ },
+ {
+  "name": "First Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases all damage dealt to enemies above 80% health by 20%."
+ },
+ {
+  "name": "Forward Advance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the range of your Whirling Advance by 3 yds."
+ },
+ {
+  "name": "Frost Giant's Fury",
+  "icon": "spell_deathknight_icetouch",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Casting Breath of the North now grants you % melee attack speed, plus an additional % when using a two-handed weapon,."
+ },
+ {
+  "name": "Frothing",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the critical strike chance of Savage Strike by % and causes it to strike 1 additional nearby enemy."
+ },
+ {
+  "name": "Frothing Savage",
+  "icon": "inv_bloodtrollfemalehead",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Berserker Axe by %, stacking times."
+ },
+ {
+  "name": "Frozen Blades",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Critical strikes now grant party and raid members % critical strike chance. Does not stack with similar effects."
+ },
+ {
+  "name": "Frozen Tankard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Throw one of your extra tankards at an enemy, dealing its value Frost damage and stunning them. Stunned enemies are considered Frozen."
+ },
+ {
+  "name": "Frozen Warlord",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage dealt by Hodir's Wrath now freezes enemies in place for 0 seconds."
+ },
+ {
+  "name": "Fueled by Rage",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Whenever you gain Unbridled Rage, reduce the cooldown of your Ancestral Roar by sec."
+ },
+ {
+  "name": "Grisly Meal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "After you kill an enemy that yields experience or honor, you can use this ability to consume its meat, regaining % of your health over. Not usable in combat."
+ },
+ {
+  "name": "Grit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Gruesome",
+  "icon": "ability_skeer_bloodletting",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Throw Weapon, Gutspiller, and Guts Spilled by %."
+ },
+ {
+  "name": "Gurubashi Technique",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Casting Throw Weapon now has a % chance to transform your next cast of it within into Rapid Throw."
+ },
+ {
+  "name": "Gutspiller",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Launch a heavy axe at an enemy, causing them to bleed for damage over. Every sec the target has their Guts Spilled, causing them to bleed out for an additional its value damage."
+ },
+ {
+  "name": "Hardy Constitution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces the duration of poison effects by %."
+ },
+ {
+  "name": "Hate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Enrage, rapidly draining Energy over, removing the cost of Berserker Axe and guaranteeing it to critically strike. While active, critical strikes reduce the cooldown of Berserker by sec. Using this ability transforms it into Spite."
+ },
+ {
+  "name": "Headbutt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Savagely headbutt an enemy, dealing its value Physical damage, knocking them down briefly and stunning them."
+ },
+ {
+  "name": "Headhunter",
+  "icon": "inv_misc_head_tuskarr",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Level 10 Passive Reduces the Energy cost of Throw Weapon, Maiming Spear, and Whirling Advance."
+ },
+ {
+  "name": "Headhunter's Spear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Hurl a light spear at an enemy dealing % Ranged Weapon Damage plus its value and restores % of your maximum Energy. Shares a cooldown with other Spears."
+ },
+ {
+  "name": "Headhunter's Thirst",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Headhunting",
+  "icon": "novart_physical_ability_(59)_border",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Reduces the cast time of Throw Weapon by % and removes your spell pushback suffered from taking damage."
+ },
+ {
+  "name": "Headhunting - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Level 15 Passive Transforms Barbaric Whirl into Axe Volley."
+ },
+ {
+  "name": "Headlopper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Your critical strikes with Decapitate now cause the enemy to bleed, dealing an additional 30% of the damage dealt over."
+ },
+ {
+  "name": "Herald of Galakrond",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Teaches you Galakrond's Fury and Galakrond's Might."
+ },
+ {
+  "name": "Hodir's Revenge",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Enemies damaged by your Frozen Tankard now take % increased damage from you."
+ },
+ {
+  "name": "Hodir's Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Deals its value Frost damage to enemies within yds and restores % of your maximum Energy."
+ },
+ {
+  "name": "Horde Breaker",
+  "icon": "warrior_skullbanner",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Your Crush is now guaranteed to critically strike enemies affected by Headbutt and it now applies Wounded to enemies."
+ },
+ {
+  "name": "Hullbreaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Smash an enemy target for its value Physical Damage and increase Physical Damage they take from you by %."
+ },
+ {
+  "name": "Ice Cold Bubbles",
+  "icon": "nhi_iceswirl_border",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Each Fill Level stack now also increases Frost damage dealt by %."
+ },
+ {
+  "name": "Icebound Ancestry",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the critical strike chance of Breath of the North by %. In addition, your attacks now ignore Armor against Frozen targets."
+ },
+ {
+  "name": "Impaling Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Increases your movement speed by %. Your next attack within the duration will consume the effect to impale your target, causing them to Bleed for Physical damage every sec."
+ },
+ {
+  "name": "Impaling Spear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Hurl a spear in a yd frontal line, dealing % Ranged Weapon Damage, dealing less damage with each enemy struck. At the spear's impact location the spear shatters, dealing its value Physical damage to nearby enemies. Shares a cooldown with other Spears."
+ },
+ {
+  "name": "Impaling Spears",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Consumes Carnage Throw spears at up to enemies in a yd frontal line, dealing its value Physical Damage, increased by % for each stack of Carnage consumed."
+ },
+ {
+  "name": "Improved Ancestral Combat",
+  "icon": "inv_axe_82",
+  "meta": "Talent",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the Energy cost of your Ancestral Combat by and allows it to trigger additional times."
+ },
+ {
+  "name": "Improved Berserker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Doubles the critical strike chance and damage taken provided by Berserker."
+ },
+ {
+  "name": "Improved Headhunter's Spear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Headhunter's Spear and Spear of Sen'jin by %."
+ },
+ {
+  "name": "Improved Reckless Manuever",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces the cooldown of Reckless Manuever by sec, and increases its duration by sec."
+ },
+ {
+  "name": "Improved Surge of Vigor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the amount of maximum health restored by Surge of Vigor by %."
+ },
+ {
+  "name": "Improved Thunderous Leap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the Energy cost of Thunderous Leap by and its cooldown by sec."
+ },
+ {
+  "name": "Incredibly Strong",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Removes the minimum range from Maiming Spear, but reduces its maximum range by yds."
+ },
+ {
+  "name": "Intensity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Dealing damage with Berserker Axe now reduces the target's Armor by its value."
+ },
+ {
+  "name": "Iron Gut",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of poison effects on you by %."
+ },
+ {
+  "name": "Javelin Toss",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Take aim and hurl a javelin at an enemy dealing % Ranged Weapon Damage plus its value. Scales with damage modifiers to Throw Weapon and Spears. Usable while moving."
+ },
+ {
+  "name": "Jawbreaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Attempt to break an enemy's jaw, interrupting them and preventing any spell from that school from being cast. Successfully interrupting a target increases your haste by % for and refunds half the cost of this ability."
+ },
+ {
+  "name": "Juggernaut",
+  "icon": "epic_rpg_icon_pack_fire_0004s_0000_armor_border",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Whirling Advance now stuns affected enemies. Can only occur once every."
+ },
+ {
+  "name": "Kargath's Cruelty",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases critical strike chance by %."
+ },
+ {
+  "name": "Keg Smash",
+  "icon": "ability_monk_elusiveale",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Smash an enemy for its value Physical damage, plus an additional its value Frost damage to up to nearby enemies. This ability empties your Tankard, consuming Fill Level stacks and triggering a reduced cooldown based on stacks consumed."
+ },
+ {
+  "name": "Killing Spree",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Charge at an enemy, dealing its value Physical damage. Can only be used within of scoring a killing blow or applying Born in Blood."
+ },
+ {
+  "name": "Knockout Artist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Successfully interrupting a target with Jawbreaker now increases your haste by % for and refunds half its Energy cost."
+ },
+ {
+  "name": "Legacy of the Amani SLS",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Piercing Throw now strikes an additional time for 50% of the damage dealt and the cooldown of Headhunter's Spear is reduced by sec."
+ },
+ {
+  "name": "Leroy's Legacy",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Reduces the Energy cost of Whirling Advance by % and increases its distance by a few yards."
+ },
+ {
+  "name": "Maiming Spear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Throw your ranged weapon at your enemy's legs, dealing % Ranged Weapon Damage plus its value and slowing their movement speed by %. Shares a cooldown with other Spears|R."
+ },
+ {
+  "name": "Mak'Gora",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes on enemies above 80% or below 20% health now challenges them to a Mak'Gora. Only 1 enemy can be challenged at a time.Mak'gora (20%)Challenge an enemy to a duel to the death for 10 seconds, reducing their healing received by 20% and absorbing the next AP healing done to them."
+ },
+ {
+  "name": "Mak'gora",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Challenge an enemy to a duel to the death, reducing their healing received by % and absorbing the next its value healing done to them."
+ },
+ {
+  "name": "Manhunter",
+  "icon": "inv_misc_bone_humanskull_02",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, increases your damage dealt by % against Humanoids."
+ },
+ {
+  "name": "Maximum Carnage",
+  "icon": "spell_warrior_paintrain",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Begin swinging your weapon around you dealing its value Physical Damage to up to nearby enemies."
+ },
+ {
+  "name": "Might of Utgarde",
+  "icon": "achievement_dungeon_utgardepinnacle_25man",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Attacks from your Ancestral Combat now heal your Honored Ancestor for % maximum health and cause it to perform an Ancestral Whirl attack."
+ },
+ {
+  "name": "Mock",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Mock all enemies in a yd radius, reducing their attack power by for and applying Shattered Ego."
+ },
+ {
+  "name": "Mounting Fury",
+  "icon": "warrior_talent_icon_furyintheblood",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the duration of Born in Blood by sec."
+ },
+ {
+  "name": "Northman",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the damage of Ancestral Strike and Smash by %."
+ },
+ {
+  "name": "Ogre's Endurance",
+  "icon": "achievement_boss_highmaul_king",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your healing received by %."
+ },
+ {
+  "name": "Ogre's Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Brutal Swing and Savage Smash increase the damage of your next Wrecker by %."
+ },
+ {
+  "name": "Ogre's Strength",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Level 40 Passive Increases your attack power by % of your Strength."
+ },
+ {
+  "name": "One With The Ancestors",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your critical strike chance by 2%. (up to 2 ranks)"
+ },
+ {
+  "name": "Onslaught",
+  "icon": "ability_rogue_improvedrecuperate",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Enrage Effect Become enraged, instantly generating Energy plus an additional Energy every sec."
+ },
+ {
+  "name": "Outrage",
+  "icon": "_d3frenzy",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Requires Enraged Increases your haste and critical strike chance by %, but increases your damage taken by %. Physical critical strikes extend this effect by sec."
+ },
+ {
+  "name": "Painbringer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Dealing damage with Smash now increases the damage of your next Brutal Swing within by %."
+ },
+ {
+  "name": "Payback",
+  "icon": "inv_axe_11",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage dealt by your Guts Spilled by %."
+ },
+ {
+  "name": "Perfect Aim",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of your Spears by %."
+ },
+ {
+  "name": "Plugging the Hole",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Skull Smash now removes all bleed effects on the enemy."
+ },
+ {
+  "name": "Poisons Skill",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "You remember how to craft poisons, but lack the ability.  "
+ },
+ {
+  "name": "Power Tosser",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Level 50 Passive Damage dealt by Throw Weapon|R now scales with your Agility."
+ },
+ {
+  "name": "Power of the Ancestors",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the chance to trigger Ancestral Combat by %."
+ },
+ {
+  "name": "Powerful Grip",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of disarm effects by %."
+ },
+ {
+  "name": "Puncture Wounds",
+  "icon": "inv_misc_boilingblood",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Critical strikes with Spears now causes enemies to bleed for its value over."
+ },
+ {
+  "name": "Punisher",
+  "icon": "novart_magicspell_(36)_border",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Javelin Toss, Decapitate, and Crush by %."
+ },
+ {
+  "name": "Pure Power",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Smash by % and your expertise."
+ },
+ {
+  "name": "Rage Whirling",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the critical strike chance of Whirling Advance by 50%."
+ },
+ {
+  "name": "Rage of the North",
+  "icon": "inv_banner_tolbarad_alliance",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the amount of attacks that can trigger your Ale of The God-King."
+ },
+ {
+  "name": "Ramhorn Rage",
+  "icon": "inv_holiday_beerfest_maghar",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Enrage Effect Enrage allies within yds, regenerating % of their maximum health every sec. Melee auto attacks extend the duration of this effect by sec, up to a maximum of. This ability empties your Tankard, consuming Fill Level stacks and triggeri"
+ },
+ {
+  "name": "Rampage!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces the cooldown of OutRage by sec."
+ },
+ {
+  "name": "Rancor",
+  "icon": "inv_axe_1h_artifactmagnar_d_03",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Deals % Weapon Damage plus Pysical Damage. Cannot be blocked, dodged, or parried, but is only usable while below 20% health unless Savage Rage is active."
+ },
+ {
+  "name": "Rapid Recovery",
+  "icon": "custom_warriorskill_11_border",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Onslaught's effect now occurs % faster."
+ },
+ {
+  "name": "Reckful",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Your Smash now has a 30% chance to not trigger a cooldown. (up to 2 ranks)"
+ },
+ {
+  "name": "Reckless Movements",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Ancestral Strike and Barbaric Whirl by %."
+ },
+ {
+  "name": "Relentless",
+  "icon": "garrison_building_salvageyard",
+  "meta": "Talent Passive Lvl 20",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Level 20 Passive Critical strikes with Ancestral Strike and Brutal Swing now refund 10 Energy."
+ },
+ {
+  "name": "Savage",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Level 20 Passive Born in Blood now also increases your damage dealt by % and its duration is increased by sec."
+ },
+ {
+  "name": "Savage Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Berserker Rush now grants Bloodfury."
+ },
+ {
+  "name": "Savage Cadence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Killing blows extend the duration of Unbridled Rage by sec."
+ },
+ {
+  "name": "Savage Revelry",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Instantly restores % maximum health and regenerates % missing Energy."
+ },
+ {
+  "name": "Savage Strength",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Agility by 5%. (up to 2 ranks)"
+ },
+ {
+  "name": "Savage Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Smash an enemy with both weapons for % Weapon Damage plus its value."
+ },
+ {
+  "name": "Savageness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Damage dealt by Savage Strike removes 2 stacks of Ripping Frenzy."
+ },
+ {
+  "name": "Savagery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While below 35% health, your auto attacks, Ancestral Strike, and Throw Weapon now grant Born in Blood. Can only occur once every 2 sec."
+ },
+ {
+  "name": "Skull Smash",
+  "icon": "_evilskull_red",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Pick up a rock and hurl it at an enemy's skull, disorienting them for (8 sec vs players). Damage taken will end this effect. Removes all bleed effects on the target."
+ },
+ {
+  "name": "Smash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Requires Enraged Smash an enemy with both weapons for % Weapon Damage, plus its value with your main-hand."
+ },
+ {
+  "name": "Smash Lock",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Target a locked chest or item to smash them open!"
+ },
+ {
+  "name": "Smasher",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the Energy cost from Skull Smash."
+ },
+ {
+  "name": "Spear Thrower",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Level 30 Passive Casting Throw Weapon now has a % chance to reset the cooldown of your Spears."
+ },
+ {
+  "name": "Spiked Weapons",
+  "icon": "inv_mace_1h_draenorhonors2_c_01",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the critical damage of Crush, Brutal Swing, and Decapitate by %."
+ },
+ {
+  "name": "Spirit of Bloodshed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "The scent of blood fills nearby enemies with dread, increasing their Physical damage taken while below 35% health by % and causes your killing blows to grant you Born in Blood. You may only have 1 Spirit spell active at a time."
+ },
+ {
+  "name": "Spirit of Conflict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Your spirit feeds on the clash of combat, increasing the resource costs of nearby enemies by % and giving direct damage taken a chance to restore 10 Energy. You may only have 1 Spirit spell active at a time."
+ },
+ {
+  "name": "Spirit of Savagery",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Your brutal fighting spirit weakens nearby enemies, reducing their attack power by its value. You may only have 1 Spirit spell active at a time."
+ },
+ {
+  "name": "Spirit of War",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Your battle presence shakes the resolve of nearby enemies, reducing their spell critical strike chance by % and increasing their spell pushback from casting by %. You may only have 1 Spirit spell active at a time."
+ },
+ {
+  "name": "Spirit of the Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Your hunting instincts unsettle nearby enemies, reducing their movement speed by % and allowing them to be seen even when stealthed or invisible. You may only have 1 Spirit spell active at a time."
+ },
+ {
+  "name": "Splash Zone",
+  "icon": "ability_racial_brushitoff",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Whenever you empty your Tankard, empower party members within yds, increasing their attack power or spell power, scaling with Spirit,."
+ },
+ {
+  "name": "Steel Fury",
+  "icon": "ability_warrior_warbringer",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Dealing damage with Storm of Steel increases the damage of its subsequent strikes by %, stacking times. In addition, the duration of Storm of Steel is increased by sec."
+ },
+ {
+  "name": "Steelslinger",
+  "icon": "ability_warrior_bladestorm",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces the cooldown of Barbaric Whirl by sec and increases its damage dealt by % on enemies below 35% health."
+ },
+ {
+  "name": "Storm of Steel",
+  "icon": "custom_warriorskill_21_border",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Begin striking your target every sec for % Weapon Damage."
+ },
+ {
+  "name": "Strength of Goria",
+  "icon": "achievement_boss_highmaul_butcher",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Unbridled Rage now grants you Born in Blood."
+ },
+ {
+  "name": "Strong Arm",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Spears by % and your hit chance by %."
+ },
+ {
+  "name": "Symbol of the Warspear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "You are marked by the Warspear symbol, granting % increased attack power to party and raid members. Does not stack with similar effects. In addition, reduces the cooldown of Spears by sec."
+ },
+ {
+  "name": "Tavern Brawl!",
+  "icon": "novart_passivemastery_(34)_border",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Enrage all nearby allies, increasing their haste by %. After being affected by this spell, allies cannot benefit from similar effects."
+ },
+ {
+  "name": "Thane's Guard",
+  "icon": "achievements_zone_stormheim",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Gain the Shield proficiency and while wearing a shield you gain % increased attack speed and % increased Armor contribution from your shield."
+ },
+ {
+  "name": "The Finest Ale",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Your Ale of The God-King no longer empties your Tankard."
+ },
+ {
+  "name": "The Spins",
+  "icon": "achievement_boss_bronjahm",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Casting Keg Smash now causes your Honored Ancestor to perform an Ancestral Whirl attack upon nearby enemies."
+ },
+ {
+  "name": "Thick Skull",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your thick skull makes you immune to all stun effects for and while active taking direct damage grants you Born in Blood. Usable while stunned."
+ },
+ {
+  "name": "Thirst for Battle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Your Smash now regenerate % of your maximum Energy."
+ },
+ {
+  "name": "Throw Weapon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Throw your ranged weapon at an enemy dealing % Ranged Weapon Damage plus its value Physical damage. Usable while moving."
+ },
+ {
+  "name": "To The End",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Taking damage while at or below 35% of your maximum health now regenerates % of your maximum health, repeating every sec, reduces your Energy costs by %, and increases your damage dealt by. Can only occur once every 2."
+ },
+ {
+  "name": "Torture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Piercing Throw, Axe Volley, and Berserker Axe by % against Bleeding enemies."
+ },
+ {
+  "name": "Totemic Smash",
+  "icon": "ability_smash",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Trip to the Alehouse",
+  "icon": "achievement_guildperk_bartering",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Increases the damage of Keg Smash by % and its range by yds."
+ },
+ {
+  "name": "True Guidance",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces damage taken by % at all times and the cooldown of Ancestral Might by sec."
+ },
+ {
+  "name": "Twirly Boy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Critical strikes deal bonus damage and extend the duration of Axe Twirling by sec while it is active."
+ },
+ {
+  "name": "Unbridled Intelligence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases your Intellect by 1. When this ends, you get a Raging Migraine."
+ },
+ {
+  "name": "Unbridled Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality",
+   "headhunting"
+  ],
+  "desc": "Enrage Effect Become enraged, increasing your Physical damage by %."
+ },
+ {
+  "name": "Undying",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Reduces damage taken by % at all times and the cooldown of Deathless Resolve by sec."
+ },
+ {
+  "name": "Unified Rage",
+  "icon": "novart_magicspell_(76)_border",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Your Unbridled Rage now increases your chance to trigger Ancestral Combat by %."
+ },
+ {
+  "name": "Uniting Voice",
+  "icon": "inv_helm_mail_vrykuldragonrider_b_01",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Casting Ancestral Roar now increases haste of party and raid members by %. Does not stack with similar effects. Critical strikes extend the duration of the buff by sec."
+ },
+ {
+  "name": "Unrelenting",
+  "icon": "spell_deathknight_runetap",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Physical damage dealt and taken by %."
+ },
+ {
+  "name": "Unstoppable",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Reduces the duration of Stun, Root and movement speed reduction effects used against you by %."
+ },
+ {
+  "name": "Unstoppable Rage",
+  "icon": "ability_warrior_innerrage",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Unbridled Rage by sec."
+ },
+ {
+  "name": "Val'kyr Resurrection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Call upon your ancestors to send a Val'kyr Battlemaiden to you, resurrecting all nearby players within a yds radius after a short delay. Can be cast while dead, but cannot be used in combat or in battlegrounds and arenas."
+ },
+ {
+  "name": "Vital Spirit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Increases the range of your Spirit spells by yds."
+ },
+ {
+  "name": "Voodoo Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the damage of Throw Weapon by % for whenever you gain Unbridled Rage."
+ },
+ {
+  "name": "War Cry",
+  "icon": "_d3wrathoftheberserker",
+  "meta": "Ability",
+  "specs": [
+   "ancestry"
+  ],
+  "desc": "Unleash a blood curdling war cry, increasing melee and ranged attack speed by %, and attack power by its value of allies within yds. Allies cannot benefit from this spell again."
+ },
+ {
+  "name": "War Tales",
+  "icon": "inv_misc_head_dwarf_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your chance to resist fear and horrify effects by %."
+ },
+ {
+  "name": "Warband",
+  "icon": "ability_warrior_bloodsurge",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Bring all nearby allies into the warband, granting them Born in Blood, repeating every sec."
+ },
+ {
+  "name": "Warstriker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the critical strike chance of Barbaric Strike by %."
+ },
+ {
+  "name": "Watch Me Kill",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Berserker Axe and Axe Throw reduce the cooldown of Headhunter's Spear by sec."
+ },
+ {
+  "name": "Whirling Advance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Whirl forward, dealing its value Physical damage to enemies in your way. Not usable while rooted."
+ },
+ {
+  "name": "Whirling Death",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "headhunting"
+  ],
+  "desc": "Whirling Advance now triggers with no cooldown. Can only occur once every 30 sec."
+ },
+ {
+  "name": "Wrecking Crew",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brutality"
+  ],
+  "desc": "Increases the chance to trigger Wrecker by %."
+ }
+]

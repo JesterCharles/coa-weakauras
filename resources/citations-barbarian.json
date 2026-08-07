@@ -1,0 +1,176 @@
+{
+ "sidekick-barbarian-ancestry-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Ramhorn Rage",
+    "Tavern Brawl!",
+    "Val'kyr Resurrection"
+   ],
+   "maintain": [
+    "Glacial Echoes"
+   ],
+   "priority": [],
+   "signature": [
+    "Fill Level"
+   ]
+  },
+  "class": "barbarian",
+  "content_sha256": "2b27c08b74348c20",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/barbarian/ancestry",
+  "spec": "ancestry"
+ },
+ "sidekick-barbarian-brutality-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Barbaric Rage"
+   ],
+   "maintain": [
+    "Brutal Swing"
+   ],
+   "priority": []
+  },
+  "class": "barbarian",
+  "content_sha256": "be58ff144ba33a38",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/barbarian/brutality",
+  "spec": "brutality"
+ },
+ "sidekick-barbarian-headhunting-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Deathless Resolve"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Headhunter"
+   ]
+  },
+  "class": "barbarian",
+  "content_sha256": "5efbccbc6c0a3581",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/barbarian/headhunting",
+  "spec": "headhunting"
+ },
+ "sidekick-page-barbarian-ancestry-2026-08-07": {
+  "caveats": [
+   "Sidekick's own caveat: point allocation & optimal order aren't settled yet",
+   "Axe Twirling text on the page predates the 2026-07-31 toggle rework; the changelog outranks it"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Ramhorn Rage",
+    "Tavern Brawl!",
+    "Frozen Tankard"
+   ],
+   "maintain": [
+    "Ancestral Combat",
+    "Fill Level"
+   ],
+   "priority": [
+    "Ancestral Combat",
+    "Keg Smash",
+    "Ale of The God-King",
+    "Breath of The North"
+   ]
+  },
+  "class": "barbarian",
+  "content_sha256": "ed4b1a6ec7069810d668bf2068403aa1596fc7717b642f26a330efd2979993fc",
+  "origin": "manual",
+  "policy": "reference",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/barbarian/ancestry",
+  "spec": "ancestry",
+  "transcribed_by": "claude (barbarian pack agent)"
+ },
+ "sidekick-page-barbarian-brutality-2026-08-07": {
+  "caveats": [
+   "Sidekick's own caveat: point allocation & optimal order aren't settled yet",
+   "Axe Twirling text on the page predates the 2026-07-31 toggle rework; the changelog outranks it"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Unbridled Rage",
+    "Onslaught",
+    "Storm of Steel",
+    "Maximum Carnage",
+    "Defiance"
+   ],
+   "maintain": [
+    "Unbridled Rage",
+    "Onslaught",
+    "Battle Vigor",
+    "Born in Blood"
+   ],
+   "priority": [
+    "Smash",
+    "Ancestral Strike",
+    "Brutal Swing",
+    "Barbaric Whirl",
+    "Crush",
+    "Decapitate"
+   ]
+  },
+  "class": "barbarian",
+  "content_sha256": "e1b084d817fb7a62b4cf82da7d41c09963e1d80c03c79b381550153d4790c6b6",
+  "origin": "manual",
+  "policy": "reference",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/barbarian/brutality",
+  "spec": "brutality",
+  "transcribed_by": "claude (barbarian pack agent)"
+ },
+ "sidekick-page-barbarian-headhunting-2026-08-07": {
+  "caveats": [
+   "Sidekick's own caveat: point allocation & optimal order aren't settled yet",
+   "Axe Twirling text on the page predates the 2026-07-31 toggle rework; the changelog outranks it"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Berserker Rush",
+    "Berserker",
+    "Unbridled Rage"
+   ],
+   "maintain": [
+    "Puncture Wounds",
+    "Born in Blood",
+    "Axe Twirling"
+   ],
+   "priority": [
+    "Barbed Spear",
+    "Throw Weapon",
+    "Berserker Axe"
+   ]
+  },
+  "class": "barbarian",
+  "content_sha256": "b15af4351e54915730f86ab3095682fab95b8d847c92bf4f943400750babb603",
+  "origin": "manual",
+  "policy": "reference",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/barbarian/headhunting",
+  "spec": "headhunting",
+  "transcribed_by": "claude (barbarian pack agent)"
+ }
+}

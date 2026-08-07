@@ -1,0 +1,866 @@
+{
+ "_class": "barbarian",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Ale of The God-King": {
+   "id": 805780,
+   "state": "record"
+  },
+  "Ancestor's Call": {
+   "id": 804729,
+   "state": "record"
+  },
+  "Ancestor's Fury": {
+   "id": 705168,
+   "state": "record"
+  },
+  "Ancestor's Recall": {
+   "id": 807115,
+   "state": "record"
+  },
+  "Ancestor's Wrath": {
+   "id": 801765,
+   "state": "record"
+  },
+  "Ancestral Combat": {
+   "id": 801782,
+   "state": "record"
+  },
+  "Ancestral Fury": {
+   "id": 804731,
+   "state": "record"
+  },
+  "Ancestral Keg": {
+   "id": 804748,
+   "state": "record"
+  },
+  "Ancestral Might": {
+   "id": 704590,
+   "state": "record"
+  },
+  "Ancestral Roar": {
+   "id": 500918,
+   "state": "record"
+  },
+  "Ancestral Spirit": {
+   "id": 705153,
+   "state": "record"
+  },
+  "Ancestral Strike": {
+   "id": 801576,
+   "state": "record"
+  },
+  "Ancestral Whirl": {
+   "id": 804756,
+   "state": "record"
+  },
+  "Anger Management": {
+   "id": 705195,
+   "state": "record"
+  },
+  "Athleticism": {
+   "id": 560456,
+   "state": "record"
+  },
+  "Axe Dance": {
+   "id": 705224,
+   "state": "record"
+  },
+  "Axe Twirling": {
+   "id": 800401,
+   "state": "record"
+  },
+  "Axe Volley": {
+   "id": 560873,
+   "state": "no-record"
+  },
+  "Axes, Axes Everywhere!": {
+   "id": 705190,
+   "state": "record"
+  },
+  "Barbaric Rage": {
+   "id": 300967,
+   "state": "record"
+  },
+  "Barbaric Strike": {
+   "id": 801787,
+   "state": "record"
+  },
+  "Barbaric Tendencies": {
+   "id": 300498,
+   "state": "record"
+  },
+  "Barbaric Whirl": {
+   "id": 500002,
+   "state": "record"
+  },
+  "Barbed Spear": {
+   "id": 560881,
+   "state": "no-record"
+  },
+  "Battle Vigor": {
+   "id": 801768,
+   "state": "record"
+  },
+  "Beheader": {
+   "id": 705222,
+   "state": "record"
+  },
+  "Berserker": {
+   "id": 804141,
+   "state": "record"
+  },
+  "Berserker Aura": {
+   "id": 560543,
+   "state": "record"
+  },
+  "Berserker Axe": {
+   "id": 804138,
+   "state": "record"
+  },
+  "Berserker Rush": {
+   "id": 560518,
+   "state": "record"
+  },
+  "Blind Stupor": {
+   "id": 583020,
+   "state": "record"
+  },
+  "Blood Brothers": {
+   "id": 704592,
+   "state": "record"
+  },
+  "Blood Pact": {
+   "id": 560522,
+   "state": "record"
+  },
+  "Bloodthirsty": {
+   "id": 300497,
+   "state": "record"
+  },
+  "Bloodthirsty Rage": {
+   "id": 680851,
+   "state": "record"
+  },
+  "Bloody Fighter": {
+   "id": 705167,
+   "state": "record"
+  },
+  "Body Builder": {
+   "id": 706481,
+   "state": "record"
+  },
+  "Bond Breaker": {
+   "id": 705194,
+   "state": "record"
+  },
+  "Born in Blood": {
+   "id": 560521,
+   "state": "record"
+  },
+  "Bottomless Tankard": {
+   "id": 705160,
+   "state": "record"
+  },
+  "Boulderfist": {
+   "id": 705184,
+   "state": "record"
+  },
+  "Break": {
+   "id": 560934,
+   "state": "record"
+  },
+  "Breath of The North": {
+   "id": 800838,
+   "state": "record"
+  },
+  "Broken Bones": {
+   "id": 705189,
+   "state": "record"
+  },
+  "Brutal Carnage": {
+   "id": 300494,
+   "state": "record"
+  },
+  "Brutal Form": {
+   "id": 572104,
+   "state": "record"
+  },
+  "Brutal Shout": {
+   "id": 300857,
+   "state": "record"
+  },
+  "Brutal Strikes": {
+   "id": 705233,
+   "state": "record"
+  },
+  "Brutal Swing": {
+   "id": 500913,
+   "state": "record"
+  },
+  "Brutality - Level 15 Passive": {
+   "id": 570237,
+   "state": "record"
+  },
+  "Brutality Blade": {
+   "id": 300493,
+   "state": "record"
+  },
+  "Carnage": {
+   "id": 802864,
+   "state": "record"
+  },
+  "Cheers!": {
+   "id": 801652,
+   "state": "record"
+  },
+  "Clanlord's Totem": {
+   "id": 560529,
+   "state": "record"
+  },
+  "Cold Brew": {
+   "id": 705211,
+   "state": "record"
+  },
+  "Collecting Heads": {
+   "id": 705197,
+   "state": "record"
+  },
+  "Conqueror": {
+   "id": 705193,
+   "state": "record"
+  },
+  "Crush": {
+   "id": 500915,
+   "state": "record"
+  },
+  "Crystal Enhancements": {
+   "id": 707541,
+   "state": "record"
+  },
+  "Deadly Duo": {
+   "id": 804780,
+   "state": "record"
+  },
+  "Deathmatch": {
+   "id": 800950,
+   "state": "record"
+  },
+  "Decapitate": {
+   "id": 804414,
+   "state": "record"
+  },
+  "Deep Fury": {
+   "id": 705240,
+   "state": "record"
+  },
+  "Defiance": {
+   "id": 806228,
+   "state": "record"
+  },
+  "Disembowel": {
+   "id": 520610,
+   "state": "record"
+  },
+  "Double Barrel": {
+   "id": 801756,
+   "state": "record"
+  },
+  "Drunken Brawler": {
+   "id": 560364,
+   "state": "record"
+  },
+  "Drunken Frenzy": {
+   "id": 572799,
+   "state": "record"
+  },
+  "Efficient Killer": {
+   "id": 803085,
+   "state": "record"
+  },
+  "Empty Kegs": {
+   "id": 706346,
+   "state": "record"
+  },
+  "Empty Tankard": {
+   "id": 806055,
+   "state": "record"
+  },
+  "Endless Brutality": {
+   "id": 705200,
+   "state": "record"
+  },
+  "Enduring Shout": {
+   "id": 680302,
+   "state": "record"
+  },
+  "Excessive Power": {
+   "id": 92081,
+   "state": "record"
+  },
+  "Fast and Furious": {
+   "id": 705228,
+   "state": "record"
+  },
+  "Fervor": {
+   "id": 560935,
+   "state": "record"
+  },
+  "Fill Level": {
+   "id": 92083,
+   "state": "record"
+  },
+  "Frost Giant's Fury": {
+   "id": 570106,
+   "state": "record"
+  },
+  "Frothing": {
+   "id": 706326,
+   "state": "record"
+  },
+  "Frothing Savage": {
+   "id": 705234,
+   "state": "record"
+  },
+  "Frozen Blades": {
+   "id": 560821,
+   "state": "record"
+  },
+  "Frozen Tankard": {
+   "id": 805815,
+   "state": "record"
+  },
+  "Frozen Warlord": {
+   "id": 560939,
+   "state": "record"
+  },
+  "Fueled by Rage": {
+   "id": 582934,
+   "state": "record"
+  },
+  "Full Tankard": {
+   "id": 805814,
+   "state": "record"
+  },
+  "Grisly Meal": {
+   "id": 804765,
+   "state": "record"
+  },
+  "Grit": {
+   "id": 572026,
+   "state": "record"
+  },
+  "Gruesome": {
+   "id": 705227,
+   "state": "record"
+  },
+  "Gurubashi Technique": {
+   "id": 705198,
+   "state": "record"
+  },
+  "Guts Spilled": {
+   "id": 520577,
+   "state": "record"
+  },
+  "Gutspiller": {
+   "id": 805832,
+   "state": "record"
+  },
+  "Hardy Constitution": {
+   "id": 520583,
+   "state": "record"
+  },
+  "Hate": {
+   "id": 680914,
+   "state": "record"
+  },
+  "Headbutt": {
+   "id": 520523,
+   "state": "record"
+  },
+  "Headhunter": {
+   "id": 92082,
+   "state": "record"
+  },
+  "Headhunter's Spear": {
+   "id": 804137,
+   "state": "no-record"
+  },
+  "Headhunter's Thirst": {
+   "id": 800327,
+   "state": "record"
+  },
+  "Headhunting": {
+   "id": 500060,
+   "state": "record"
+  },
+  "Headhunting - Level 15 Passive": {
+   "id": 570234,
+   "state": "record"
+  },
+  "Headlopper": {
+   "id": 300499,
+   "state": "record"
+  },
+  "Herald of Galakrond": {
+   "id": 705157,
+   "state": "record"
+  },
+  "Hodir's Revenge": {
+   "id": 560125,
+   "state": "record"
+  },
+  "Hodir's Wrath": {
+   "id": 800152,
+   "state": "record"
+  },
+  "Horde Breaker": {
+   "id": 804745,
+   "state": "record"
+  },
+  "Hullbreaker": {
+   "id": 804415,
+   "state": "record"
+  },
+  "Ice Cold Bubbles": {
+   "id": 705161,
+   "state": "record"
+  },
+  "Icebound Ancestry": {
+   "id": 289275,
+   "state": "record"
+  },
+  "Impaling Rush": {
+   "id": 500009,
+   "state": "record"
+  },
+  "Impaling Spear": {
+   "id": 500984,
+   "state": "record"
+  },
+  "Impaling Spears": {
+   "id": 501052,
+   "state": "record"
+  },
+  "Improved Ancestral Combat": {
+   "id": 705209,
+   "state": "record"
+  },
+  "Improved Berserker": {
+   "id": 705247,
+   "state": "record"
+  },
+  "Improved Headhunter's Spear": {
+   "id": 705246,
+   "state": "record"
+  },
+  "Improved Reckless Manuever": {
+   "id": 300500,
+   "state": "record"
+  },
+  "Improved Surge of Vigor": {
+   "id": 705237,
+   "state": "record"
+  },
+  "Improved Thunderous Leap": {
+   "id": 705215,
+   "state": "record"
+  },
+  "Incredibly Strong": {
+   "id": 804749,
+   "state": "record"
+  },
+  "Intensity": {
+   "id": 705226,
+   "state": "record"
+  },
+  "Javelin Toss": {
+   "id": 504217,
+   "state": "record"
+  },
+  "Jawbreaker": {
+   "id": 802792,
+   "state": "record"
+  },
+  "Juggernaut": {
+   "id": 704591,
+   "state": "record"
+  },
+  "Kargath's Cruelty": {
+   "id": 705205,
+   "state": "record"
+  },
+  "Keg Smash": {
+   "id": 805808,
+   "state": "record"
+  },
+  "Killing Spree": {
+   "id": 850021,
+   "state": "record"
+  },
+  "Legacy of the Amani": {
+   "id": 706804,
+   "state": "record"
+  },
+  "Leroy's Legacy": {
+   "id": 706350,
+   "state": "record"
+  },
+  "Maiming Spear": {
+   "id": 804139,
+   "state": "no-record"
+  },
+  "Mak'Gora": {
+   "id": 561360,
+   "state": "record"
+  },
+  "Mak'gora": {
+   "id": 801753,
+   "state": "record"
+  },
+  "Manhunter": {
+   "id": 300879,
+   "state": "record"
+  },
+  "Maximum Carnage": {
+   "id": 560933,
+   "state": "record"
+  },
+  "Might of Utgarde": {
+   "id": 804768,
+   "state": "record"
+  },
+  "Mock": {
+   "id": 806221,
+   "state": "record"
+  },
+  "Mounting Fury": {
+   "id": 805927,
+   "state": "record"
+  },
+  "Northman": {
+   "id": 705219,
+   "state": "record"
+  },
+  "Ogre's Might": {
+   "id": 302528,
+   "state": "record"
+  },
+  "Ogre's Strength": {
+   "id": 561160,
+   "state": "record"
+  },
+  "One With The Ancestors": {
+   "id": 560452,
+   "state": "record"
+  },
+  "Onslaught": {
+   "id": 801758,
+   "state": "record"
+  },
+  "Outrage": {
+   "id": 801759,
+   "state": "record"
+  },
+  "Painbringer": {
+   "id": 706286,
+   "state": "record"
+  },
+  "Payback": {
+   "id": 520516,
+   "state": "record"
+  },
+  "Perfect Aim": {
+   "id": 705236,
+   "state": "record"
+  },
+  "Poisons Skill": {
+   "id": 500000,
+   "state": "record"
+  },
+  "Power Tosser": {
+   "id": 570242,
+   "state": "record"
+  },
+  "Power of the Ancestors": {
+   "id": 705248,
+   "state": "record"
+  },
+  "Powerful Grip": {
+   "id": 804728,
+   "state": "record"
+  },
+  "Puncture Wound": {
+   "id": 804143,
+   "state": "record"
+  },
+  "Puncture Wounds": {
+   "id": 805997,
+   "state": "record"
+  },
+  "Punisher": {
+   "id": 705172,
+   "state": "record"
+  },
+  "Pure Power": {
+   "id": 705173,
+   "state": "record"
+  },
+  "Rage of the North": {
+   "id": 705221,
+   "state": "record"
+  },
+  "Raging": {
+   "id": 707895,
+   "state": "record"
+  },
+  "Ramhorn Rage": {
+   "id": 805804,
+   "state": "record"
+  },
+  "Rampage!": {
+   "id": 300496,
+   "state": "record"
+  },
+  "Rancor": {
+   "id": 801752,
+   "state": "record"
+  },
+  "Reckful": {
+   "id": 681063,
+   "state": "record"
+  },
+  "Reckless Movements": {
+   "id": 705204,
+   "state": "record"
+  },
+  "Relentless": {
+   "id": 300505,
+   "state": "record"
+  },
+  "Savage": {
+   "id": 560441,
+   "state": "record"
+  },
+  "Savage Blood": {
+   "id": 705245,
+   "state": "record"
+  },
+  "Savage Revelry": {
+   "id": 805833,
+   "state": "record"
+  },
+  "Savage Strength": {
+   "id": 560886,
+   "state": "record"
+  },
+  "Savage Strike": {
+   "id": 514050,
+   "state": "record"
+  },
+  "Savageness": {
+   "id": 705223,
+   "state": "record"
+  },
+  "Skull Smash": {
+   "id": 560532,
+   "state": "record"
+  },
+  "Smash": {
+   "id": 801755,
+   "state": "record"
+  },
+  "Smash Lock": {
+   "id": 570122,
+   "state": "record"
+  },
+  "Spear Thrower": {
+   "id": 574321,
+   "state": "record"
+  },
+  "Spiked Weapons": {
+   "id": 570076,
+   "state": "record"
+  },
+  "Spirit of Bloodshed": {
+   "id": 712468,
+   "state": "record"
+  },
+  "Spirit of Conflict": {
+   "id": 707764,
+   "state": "record"
+  },
+  "Spirit of Savagery": {
+   "id": 705387,
+   "state": "record"
+  },
+  "Spirit of War": {
+   "id": 712467,
+   "state": "record"
+  },
+  "Spirit of the Hunt": {
+   "id": 707763,
+   "state": "record"
+  },
+  "Splash Zone": {
+   "id": 705156,
+   "state": "record"
+  },
+  "Steel Fury": {
+   "id": 704240,
+   "state": "record"
+  },
+  "Steelslinger": {
+   "id": 804750,
+   "state": "record"
+  },
+  "Storm of Steel": {
+   "id": 355562,
+   "state": "record"
+  },
+  "Strength of Goria": {
+   "id": 705201,
+   "state": "record"
+  },
+  "Strong Arm": {
+   "id": 705176,
+   "state": "record"
+  },
+  "Symbol of the Warspear": {
+   "id": 804730,
+   "state": "record"
+  },
+  "Tavern Brawl!": {
+   "id": 804456,
+   "state": "record"
+  },
+  "Thane's Guard": {
+   "id": 800132,
+   "state": "record"
+  },
+  "The Finest Ale": {
+   "id": 705218,
+   "state": "record"
+  },
+  "The Spins": {
+   "id": 705208,
+   "state": "record"
+  },
+  "Thick Skull": {
+   "id": 801549,
+   "state": "record"
+  },
+  "Thirst for Battle": {
+   "id": 570236,
+   "state": "record"
+  },
+  "Throw Weapon": {
+   "id": 804136,
+   "state": "record"
+  },
+  "To The End": {
+   "id": 706367,
+   "state": "record"
+  },
+  "Torture": {
+   "id": 705241,
+   "state": "record"
+  },
+  "Trip to the Alehouse": {
+   "id": 705152,
+   "state": "record"
+  },
+  "True Guidance": {
+   "id": 705175,
+   "state": "record"
+  },
+  "Twirly Boy": {
+   "id": 520031,
+   "state": "record"
+  },
+  "Unbridled Intelligence": {
+   "id": 804713,
+   "state": "record"
+  },
+  "Unbridled Rage": {
+   "id": 801761,
+   "state": "record"
+  },
+  "Undying": {
+   "id": 705174,
+   "state": "record"
+  },
+  "Unified Rage": {
+   "id": 705212,
+   "state": "record"
+  },
+  "Uniting Voice": {
+   "id": 560946,
+   "state": "record"
+  },
+  "Unrelenting": {
+   "id": 705169,
+   "state": "record"
+  },
+  "Unstoppable": {
+   "id": 804732,
+   "state": "record"
+  },
+  "Unstoppable Rage": {
+   "id": 706353,
+   "state": "record"
+  },
+  "Val'kyr Resurrection": {
+   "id": 801784,
+   "state": "record"
+  },
+  "Vital Spirit": {
+   "id": 805835,
+   "state": "record"
+  },
+  "Voodoo Fury": {
+   "id": 705243,
+   "state": "record"
+  },
+  "War Cry": {
+   "id": 500674,
+   "state": "record"
+  },
+  "War Tales": {
+   "id": 706352,
+   "state": "record"
+  },
+  "Warband": {
+   "id": 560883,
+   "state": "record"
+  },
+  "Warstriker": {
+   "id": 805887,
+   "state": "record"
+  },
+  "Watch Me Kill": {
+   "id": 705192,
+   "state": "record"
+  },
+  "Whirling Advance": {
+   "id": 500919,
+   "state": "record"
+  },
+  "Whirling Death": {
+   "id": 560580,
+   "state": "record"
+  },
+  "Wrecking Crew": {
+   "id": 705182,
+   "state": "record"
+  },
+  "Wrist Snap": {
+   "id": 800383,
+   "state": "no-record"
+  },
+  "You Want Axe?": {
+   "id": 560564,
+   "state": "record"
+  }
+ }
+}
