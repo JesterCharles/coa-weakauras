@@ -1,0 +1,12 @@
+{
+ "Venom Injection": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited by the Sidekick rotation blob (2026-08-02) in the ARCHERY maintain bucket. The only row either DB carries is 705027, rank 'Proc' -- a stacking Nature DoT proc scaling with MELEE attack power, no cost, no cooldown, no GCD: a component, and a melee one on a ranged spec's list besides. Not a pressable maintain; no castable of this name exists."
+ },
+ "Greenwood Cloak": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited by the Sidekick rotation blob in the Farstrider cooldowns line. 524648 is rank 'Movement Speed' with an empty description on db.exil.es and a bare name on db.ascension.gg -- the speed component of something, not a button. No castable of this name exists in either DB or the official talent builder."
+ }
+}

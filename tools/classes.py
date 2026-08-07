@@ -197,6 +197,12 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # First pin (0.1). RG Core is an empty skeleton (the one reminder, NO
+    # QUIVER, is archery-shaped and lives in that spec's alert band) -- the 4
+    # are the Core group plus three merged all-spec Buffs leaves (Guise,
+    # Instinct, Elusive Character) that hold the class gate alone: buff icons
+    # are self-gating and a buff id is not something IsSpellKnown recognises.
+    "ranger": 4,
 }
 
 

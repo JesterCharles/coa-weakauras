@@ -1,0 +1,3915 @@
+{
+ "_comment": "Parsed changelog entries per class. Written by changelog_watch.py --snapshot, independent of --accept, so docs/ can show OUTSTANDING changes.",
+ "dates": {
+  "newest": "2026/08/07",
+  "oldest": "2026/07/31"
+ },
+ "entries": [
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/08/07",
+   "hash": "20ec6fd83f5b6bc2",
+   "spec": null,
+   "text": "Note: Previous update of Corpse Explosion spell incorrectly noted an increase to its cooldown from 10 seconds to 30 seconds, The actual intended and applied value is 60 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "7e5276f0a2228fca",
+   "spec": null,
+   "text": "Increased the per stack increase from Zealotry to Upheaval to 10% from 5%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "a3ddf6f9c5731d30",
+   "spec": null,
+   "text": "One Punch Man talent now also increases the damage of Condemn"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "32aef114cc22d6d1",
+   "spec": null,
+   "text": "Condemnation now allows Condemn to critically strike"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "4c6f92ddc5ce32b2",
+   "spec": null,
+   "text": "Might of Aggramar now also works with Condemn"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "5e683711d9a67dd9",
+   "spec": null,
+   "text": "One With The Light now also works with Divine Force"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "9d379c7d44a71944",
+   "spec": null,
+   "text": "Fixed a bug where Martial Training was not mentioning that it increased the Weapon Damage of Scarlet Hammer by 100%."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "faf8a4234f8e50f7",
+   "spec": null,
+   "text": "Blessing of Aggramar has been reworked to now refresh the duration of an active Blade of Faith on all nearby enemies when you use an Oath Breaker with at least 10 stacks of Oath Chain"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "ebefaf628f60b815",
+   "spec": null,
+   "text": "Divine Fury now transforms Vindication instead of Titanstrike"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "b93867b030f2a65d",
+   "spec": null,
+   "text": "Fury of Aggramar now also reduces the cooldown of your Librams"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "668f0e6814896bba",
+   "spec": null,
+   "text": "Divine Fury now strikes all enemies around you instead of only up to 5 enemies in a chain."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "7e4d94ecc13d9f78",
+   "spec": null,
+   "text": "Increased the SP scaling of Divine Fury to 85% from 45%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "5220d43933922094",
+   "spec": null,
+   "text": "Increased the base damage of Divine Fury by 275 and it now strikes all enemies around you"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "c02a10c581d234d6",
+   "spec": null,
+   "text": "Oath Chain now increases the duration of your Oath Chain by 20% instead of a flat 5 sec."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "f494036d7641eb9f",
+   "spec": null,
+   "text": "- Righteous Upheaval attack power scaling increased from 34.375% to 36.8125%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "d9c7f45ceb18a750",
+   "spec": null,
+   "text": "- Righteous Upheaval spell power scaling increased from 28.125% to 52%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "9bf1cec392e90b99",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 7 flat damage increased from 488-653 to 659-882"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "d1ad7bed09663f26",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 6 flat damage increased from 378-520 to 510-702"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "5a728d72cd5ee149",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 5 flat damage increased from 279-396 to 377-535"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "a57b116a19ce967f",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 4 flat damage increased from 221-311 to 298-420"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "dcf7cfc34a29c839",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 3 flat damage increased from 141-209 to 190-282"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "dc172a7ebb0a8d94",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 2 flat damage increased from 103-151 to 139-204"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "c7ff8d939e6561ee",
+   "spec": null,
+   "text": "- Righteous Upheaval Rank 1 flat damage increased from 53-76 to 72-103"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "d7b956e281b9ce86",
+   "spec": null,
+   "text": "Blade Sermon now also gives a 10/20% chance for Zealotry to trigger twice."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "0c3be178d9d6b9f8",
+   "spec": null,
+   "text": "Swapped Templar's Might talent with the Holy Tempest/Whirling Tempest switch node"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "c1f03f9aa939a701",
+   "spec": null,
+   "text": "Legacy of the Silverhand now increases Scourgebane critical strike damage by 25% (was 15%)."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "c54dab6fe0d05f0d",
+   "spec": null,
+   "text": "- Blade of Faith attack power scaling increased from 10% to 15%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "cd383548b04ded6a",
+   "spec": null,
+   "text": "- Blade of Faith spell power scaling increased from 20% to 30%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "caae6fc1cea84369",
+   "spec": null,
+   "text": "Calm Combatant increased to 50% of your attack power up from 30% and now also increases your Armor penetration by 50% of your Intellect"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "e1999549c018ab7f",
+   "spec": null,
+   "text": "Divine Stand base threat gained increased to 150% from 110%."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "cb2f47f574e3aac6",
+   "spec": null,
+   "text": "Greater Crusader's Oath is now renamed to Greater Gift of Fervor"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "adbfa3cb927e76d8",
+   "spec": null,
+   "text": "- Sacred Swing Rank 6 weapon damage increased from 150% to 180%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "1e0d28a20d15cf5f",
+   "spec": null,
+   "text": "- Sacred Swing Rank 5 weapon damage increased from 145% to 172%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "4e3e48b8475302f8",
+   "spec": null,
+   "text": "- Sacred Swing Rank 4 weapon damage increased from 140% to 164%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "a07d2acda5ec662a",
+   "spec": null,
+   "text": "- Sacred Swing Rank 3 weapon damage increased from 135% to 156%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "63b22dad817c14c7",
+   "spec": null,
+   "text": "- Sacred Swing Rank 2 weapon damage increased from 130% to 148%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "26042f91d9ec208b",
+   "spec": null,
+   "text": "- Sacred Swing Rank 1 weapon damage increased from 125% to 140%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "e9dd74c569a836b4",
+   "spec": null,
+   "text": "- Sacred Swing Rank 6 flat damage increased from 192 to 278"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "41b796e456ee7aa9",
+   "spec": null,
+   "text": "- Sacred Swing Rank 5 flat damage increased from 139 to 202"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "e8b021c5e9ce4db8",
+   "spec": null,
+   "text": "- Sacred Swing Rank 4 flat damage increased from 96 to 139"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "79b47dd8f6e93762",
+   "spec": null,
+   "text": "- Sacred Swing Rank 3 flat damage increased from 61 to 88"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "ef1d5b4900209cf8",
+   "spec": null,
+   "text": "- Sacred Swing Rank 2 flat damage increased from 33 to 48"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "33c4bd39fc5cea77",
+   "spec": null,
+   "text": "- Sacred Swing Rank 1 flat damage increased from 9 to 13"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "ac361270bfa83733",
+   "spec": null,
+   "text": "- Reckoning attack power scaling increased from 17.5% to 23.45%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "a175baf23066a857",
+   "spec": null,
+   "text": "- Reckoning Rank 7 flat damage increased from 124-160 to 166-214"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "fa5127a515d95cc3",
+   "spec": null,
+   "text": "- Reckoning Rank 6 flat damage increased from 96-119 to 129-159"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "433a71727d008aea",
+   "spec": null,
+   "text": "- Reckoning Rank 5 flat damage increased from 79-97 to 106-130"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "198bdf17e1079e19",
+   "spec": null,
+   "text": "- Reckoning Rank 4 flat damage increased from 67-80 to 90-107"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "c97ba2beb2210511",
+   "spec": null,
+   "text": "- Reckoning Rank 3 flat damage increased from 56-66 to 75-88"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "e22ab0570ea9a1e7",
+   "spec": null,
+   "text": "- Reckoning Rank 2 flat damage increased from 39-47 to 52-63"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "927458616c7a520c",
+   "spec": null,
+   "text": "- Reckoning Rank 1 flat damage increased from 27-32 to 36-43"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "0fb01f0e13dc7a54",
+   "spec": null,
+   "text": "- Blade of Faith Rank 9 flat damage increased from 137 to 206"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "91d8719230ff1c50",
+   "spec": null,
+   "text": "- Blade of Faith Rank 8 flat damage increased from 112 to 168"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "faf6078945ed9c14",
+   "spec": null,
+   "text": "- Blade of Faith Rank 7 flat damage increased from 100 to 150"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "f4ee9ab725c6a5a0",
+   "spec": null,
+   "text": "- Blade of Faith Rank 6 flat damage increased from 84 to 126"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "50154f4cc93e9652",
+   "spec": null,
+   "text": "- Blade of Faith Rank 5 flat damage increased from 70 to 105"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "b8072532ef3f718f",
+   "spec": null,
+   "text": "- Blade of Faith Rank 4 flat damage increased from 55 to 83"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "99d8be63c3ad1534",
+   "spec": null,
+   "text": "- Blade of Faith Rank 3 flat damage increased from 40 to 60"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "662488c4d193942c",
+   "spec": null,
+   "text": "- Blade of Faith Rank 2 flat damage increased from 26 to 39"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "97382df07f01bbc9",
+   "spec": null,
+   "text": "- Blade of Faith Rank 1 flat damage increased from 17 to 26"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "a52c1002ff2f15fd",
+   "spec": null,
+   "text": "Scourgebane now deals an additional 50% Weapon Damage"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "4a8685b18bfb4907",
+   "spec": null,
+   "text": "Warrior of Tyr now generates 10 Energy up from 5"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "6373ca668715c61a",
+   "spec": null,
+   "text": "Base duration of Oath Chain increased to 15 sec from 10 sec"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "b4308c736bdcb52c",
+   "spec": null,
+   "text": "Warrior of Tyr now has a 100% chance to proc up from 20%"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "7e8366c9bdfdd657",
+   "spec": null,
+   "text": "Increased the duration of Blade of Faith to 30 sec from 21"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "1089a3ad197c3e41",
+   "spec": null,
+   "text": "Increased the duration of Condemn to 21 sec from 15"
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "a910314641db34d0",
+   "spec": null,
+   "text": "Increased Scourgebane's base damage by 100%."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "2a8569ab83f5b457",
+   "spec": null,
+   "text": "Scourgebane now always critically strikes Undead enemies."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "16cfc823c3322773",
+   "spec": null,
+   "text": "Argent Blade no longer extends the duration of your Oath Chain, and now instead triggers Scourgebane."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/08/06",
+   "hash": "3067019ff69b3daf",
+   "spec": null,
+   "text": "Reduced the maximum stacks of Oath buffs to 10 (was 20). Once you reach 10 you can no longer stack Oaths."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/08/06",
+   "hash": "3ca9a800b49bb59e",
+   "spec": null,
+   "text": "An issue has been fixed that caused Drown to pull targets in AoE that it should not have. This has been fixed live."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/08/03",
+   "hash": "f2dbb02c1cb7de1d",
+   "spec": null,
+   "text": "Mind Wrath - has been buffed as a switch node with Battle Engravings. It now affects 2 targets up from 1."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/08/03",
+   "hash": "bc4f5eea3504866c",
+   "spec": null,
+   "text": "Swapped Mind Over Matter in the Class Tree with Battle Engravings in the Talent Tree, meaning all Runemasters can now take Battle Engravings."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/08/03",
+   "hash": "c4fee8f23b3cc9bb",
+   "spec": null,
+   "text": "Chronicler reimplemented. It now reads: \"Each cast of Fortify Timeline will now extend Accelerated Recovery by an additional 5 seconds, and the maximum length that Fortify Timeline can extend Accelerated Recovery by is increased by 15 seconds.\""
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/08/03",
+   "hash": "2df1c90ce628784f",
+   "spec": null,
+   "text": "Fortify Timeline can now extend Accelerated Recovery by a maximum of 15 seconds baseline."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/08/01",
+   "hash": "c8b1b0af80089410",
+   "spec": null,
+   "text": "Houndmaster level 10 passive has been renamed to Deadeye and now also increases the critical strike chance of Shadowblast by 20%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/08/01",
+   "hash": "74f722ae6dbad7c3",
+   "spec": null,
+   "text": "You now start with Houndmaster’s Whistle at the top of your tree in the Houndmaster spec. It will not cost a talent point to learn and is completely free just as it was before."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "3e87574f49e56bac",
+   "spec": null,
+   "text": "Decimate now grants 20% increased damage to your Shadow Hound down from 30% but now also works on the caster increasing their damage done by 20%, haste by 30% and allowing their attacks to ignore armor."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "c185418a1d49b4a6",
+   "spec": null,
+   "text": "Rearmament now causes your Traps to incur no cooldown for 8 sec."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "d1a65bdd7d44740b",
+   "spec": null,
+   "text": "Deal with the Devil now only increases the cost of your abilities by 10% down from 25%"
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "3bbb35869f00d610",
+   "spec": null,
+   "text": "Mechanical Enhancements now reduces damage taken from bleeds by 20%, up from 10%."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "543d4ba67cafec31",
+   "spec": null,
+   "text": "The Mechano-Bear now generates increased threat with Mechano-Growl"
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "03fd5a1c6e830976",
+   "spec": null,
+   "text": "Macro Designer now increases the duration of Beacons by an additional second, from plus 5 sec to plus 6 sec. (This allows an additional full tick to occur)"
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "dc0419b4bd1e8d66",
+   "spec": null,
+   "text": "Goblin Depravity now creates a Crash Site instead of Tear Gas, now deals Fire Damage instead of Nature Damage."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "175ef65812060aef",
+   "spec": null,
+   "text": "Build: Restorative Beacon base value doubled, scaling increased by 6%."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "1e4b7d7bc3b1a11e",
+   "spec": null,
+   "text": "Range of Med Pack increased from 10 yds to 30 yds."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "472d08cd82f0c40e",
+   "spec": null,
+   "text": "Emergency Heal base value increased by 30%, cast time reduced from 1.8 sec to 1.5 sec."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "48ab5edb7de0f776",
+   "spec": null,
+   "text": "Night Elf can now be Witch Hunter."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "ed3146be90e88494",
+   "spec": null,
+   "text": "At level 40, you can now learn Trap Launcher, allowing you to launch your traps up to 30yds away."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "14eb2f1dda49fb89",
+   "spec": null,
+   "text": "Darkslayer’s Lantern will now interrupt non-player spellcasting for 3 seconds against enemies that are stun immune."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "9183adc4aa4058d7",
+   "spec": "inquisition",
+   "text": "Stake Rank 7's damage has been increased from 486 to 675."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "86707f1aab3b930d",
+   "spec": "inquisition",
+   "text": "Stake Rank 6's damage has been increased from 442 to 614."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "9e16bd9982ff844b",
+   "spec": "inquisition",
+   "text": "Stake Rank 5's damage has been increased from 401 to 557."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "2400163f57bb5194",
+   "spec": "inquisition",
+   "text": "Stake Rank 4's damage has been increased from 366 to 509."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "8ac6e425f05e3cd5",
+   "spec": "inquisition",
+   "text": "Stake Rank 3's damage has been increased from 314 to 437."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "551f2ef223dfbfa7",
+   "spec": "inquisition",
+   "text": "Stake Rank 2's damage has been increased from 256 to 356."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "567f1ddef4040863",
+   "spec": "inquisition",
+   "text": "Stake Rank 1's damage has been increased from 201 to 279."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "84f80f882692a97d",
+   "spec": null,
+   "text": "Brimming Hatred now also regenerates 5% maximum mana upon critically striking, occurring once per 3 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "75f853524d26855a",
+   "spec": null,
+   "text": "Tonic effectiveness has been increased across the board by 50%-100%, but the durations have been reduced to 10 seconds from 15 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "5f6df4bf54440df4",
+   "spec": null,
+   "text": "Vengeful Intent can now also trigger from avoided damage (dodge, parry, etc)"
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "bc59938b789ca386",
+   "spec": null,
+   "text": "A new passive talent has been added in place of Guard Strike: Black Guard."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "c82ece85bcde5909",
+   "spec": null,
+   "text": "A new spell Guard Strike (interrupt) is now available from the class trainer at level 18. Moved from Black Knights talent tree."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "a035abe1f94039f3",
+   "spec": null,
+   "text": "Heartless value increased by 10/20% (to 25/50%)."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "a8d7a9c6ef0f6320",
+   "spec": null,
+   "text": "Heartseeking Bolt cooldown reduced to 10 seconds from 15 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "a94833db3ed1a066",
+   "spec": null,
+   "text": "Stake now ignores enemy armor, allowing it to deal more damage than Dawn Blade whilst your enemy is within execute health range as intended."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "3f05700a923eec47",
+   "spec": null,
+   "text": "Felbane can no longer target bosses."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "3150a9fbfa7834ec",
+   "spec": null,
+   "text": "Legionfall now additionally causes your next Annihilan Strike to cost 50% less energy."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "c58522dd5944f0b0",
+   "spec": null,
+   "text": "Chaotic now gives 2 energy per melee ability critical strike, down from 3."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "0ddba1d563c5bb49",
+   "spec": null,
+   "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "c0ea4d2a41607106",
+   "spec": null,
+   "text": "Immolation Aura Rank 6's damage has been increased from 67 to 145"
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "b463329fdd4fc248",
+   "spec": null,
+   "text": "Immolation Aura Rank 5's damage has been increased from 45 to 129."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "33d3326f3dc49d1b",
+   "spec": null,
+   "text": "Immolation Aura Rank 4's damage has been increased from 30 to 97."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "cff3c2058733d763",
+   "spec": null,
+   "text": "The damage absorb provided from Hateforged Barrier is reduced by 30%."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "bdcad2c829c37f2a",
+   "spec": null,
+   "text": "Immolation Aura Rank 3's damage has been increased from 21 to 69."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "2a994acb6a1f15f0",
+   "spec": null,
+   "text": "Immolation Aura Rank 2's damage has been increased from 12 to 42."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "351d50ee3009702d",
+   "spec": null,
+   "text": "Immolation Aura Rank 1's damage has been increased from 7 to 25."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "4f0d1f1544de28f4",
+   "spec": null,
+   "text": "Cripple now reduces the target’s moving and casting speed by 40% down from 50%. It now ticks down 8% from 10% per stack. Duration remains unchanged."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "95dfc8b80cbd3a46",
+   "spec": null,
+   "text": "Nether Strength cooldown reduction reduced from 1 sec to 0.5 sec."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "2d5598fab552f80e",
+   "spec": null,
+   "text": "Bulwark of Azzinoth damage reduction value reduced from 10% to 5%."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "37903d0e830d73f8",
+   "spec": null,
+   "text": "Scaling of Pure Hatred reduced from 30% Maximum Health scaling to 15% Maximum Health scaling."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "bb0cf575ae8d9bcd",
+   "spec": null,
+   "text": "Outland Slaver damage increase lowered by 5/10%."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "b7a5fdda7a076fe3",
+   "spec": null,
+   "text": "Nether Disciple no longer provides dodge chance."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "3a8fa93d53dfa288",
+   "spec": null,
+   "text": "Felcaked Blades agility scaling increased from 20% to 25%."
+  },
+  {
+   "accepted": false,
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "hash": "caf251a979b6bbdf",
+   "spec": null,
+   "text": "Azzinoth’s Assault base damage increased by 20%."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "51091ad290ef8d0b",
+   "spec": null,
+   "text": "Scarlet Training now transforms your Argent Blade into Scarlet Hammer, instead of Chastise."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "539f94947816dc76",
+   "spec": null,
+   "text": "There is work being done to improve the Weapon Enhancements."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "aaebb055d90030b7",
+   "spec": null,
+   "text": "Overloaded Flame Glyph duration has increased from 5 seconds to 12 seconds, but the tick rate has been reduced from 1 second to 1.5 seconds (3 extra ticks)."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "a779fdbb98208cb5",
+   "spec": null,
+   "text": "Unleashed Flame Glyph duration has increased from 6 seconds to 10 seconds (2 extra ticks)."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "62b8f2b9c4f9dce0",
+   "spec": null,
+   "text": "Tempo now additionally increases the damage of Runic Brand."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "5557ae11e330d0b0",
+   "spec": null,
+   "text": "Hoarfrost AoE Range increased from 5 yds to 8 yds."
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "71d5ea77037024aa",
+   "spec": null,
+   "text": "Runic Brand Attack Power scaling has been reduced from 30% -> 28%, but now has an additional 15% Spell Power scaling.(This spell had zero spell power scaling before)"
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "7583523c9ec35db4",
+   "spec": null,
+   "text": "Fist of the Ancients Attack Power scaling has been reduced from 65% -> 58%, but now has an additional 20% Spell Power Scaling (This spell had zero spell power scaling before)"
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "e4141aacc61390a8",
+   "spec": null,
+   "text": "Primordial Strength Attack Power to Spell Power scaling conversion increased from 25% -> 30%"
+  },
+  {
+   "accepted": false,
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "hash": "5c7a82e9f1092eda",
+   "spec": null,
+   "text": "Runic Explosion base damage has been increased by approximately 25%."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "494043e0f276062b",
+   "spec": null,
+   "text": "All Gavel Spells now deal 100% weapon damage up from 80%."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "c903149a6b38fde8",
+   "spec": null,
+   "text": "Ancient Rites now grants you 150/300/450% of your intellect as mana, in addition to its previous effects."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "9f86e318e79fc2c8",
+   "spec": null,
+   "text": "Luminary Mendicant now additionally causes your Horusath Blast to silence the target."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "eca8d4ee61bce0db",
+   "spec": null,
+   "text": "Adjudicator now additionally causes your Justicar’s Wrath to deal 50% more damage if it strikes only a single target."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "301ea2617c23ce4a",
+   "spec": null,
+   "text": "A new capstone has been added to Valkyrie: Sunstorm."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "c2ef7c714ef42dd7",
+   "spec": null,
+   "text": "Justice now deals 50% Weapon Damage up from 40%."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "9fe398231951b8e5",
+   "spec": null,
+   "text": "Radiant Halberds effect has been merged with Champion’s Arrival"
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "bcf90347780315db",
+   "spec": null,
+   "text": "Sun Stride description now reflects its effect more accurately. Sun Stride now also frees you from slows and roots."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "03e09be80680e9b3",
+   "spec": null,
+   "text": "Adjudication was also renamed to Herald of Dawn to not be confused with the Adjudicator talent in Seraphim."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "10058da0eee9e490",
+   "spec": null,
+   "text": "Fixed an issue where Adjudication would trigger a Rank 1 Dawnsear instead of the highest known rank."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "99be7e4c5cf64cd3",
+   "spec": null,
+   "text": "Vows now have a reduced global cooldown."
+  },
+  {
+   "accepted": false,
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "hash": "127ca2df56661e83",
+   "spec": null,
+   "text": "Vows are now on the stance bar."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "358a52cbd9d233d6",
+   "spec": null,
+   "text": "Ride the Lightning now has a 30 yd range instead of 40 yds. 40 yds often left you teleporting into walls."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "b3fd2c98818684b8",
+   "spec": null,
+   "text": "Volt no longer scales with haste."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "8309c4df61f3dabc",
+   "spec": null,
+   "text": "Ride the Lightning is now on a separate GCD from the main GCD so that it cannot be accidentally double-tapped."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "8c76da09a90379fc",
+   "spec": null,
+   "text": "Added 2 new abilities to the Air Elemental - Cyclonean Protection and Wind Tunnel."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "aa02746360947acd",
+   "spec": null,
+   "text": "Drown maximum stack count has been raised to 8, up from 6."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "677a9d58590d27d4",
+   "spec": null,
+   "text": "Unshackle and Windsurf are no longer on the GCD."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "64d1fc58558be207",
+   "spec": null,
+   "text": "Shockingly Powerful now causes critical strikes with Torrential Wrath to trigger Conductive directly."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "86212338e8241fd3",
+   "spec": null,
+   "text": "Conductive no longer consumes, now has lower value per stack and stacks higher. This is a shocking change. This change will be monitored closely over the next few days."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "73795e505999eac1",
+   "spec": null,
+   "text": "Fixed an issue where damage from Stormcloud could not critically hit."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "b9e02c96e60953ea",
+   "spec": null,
+   "text": "Kinetic Energy duration increased from 8 sec to 10 sec."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "6788ce9c73a54e63",
+   "spec": null,
+   "text": "Thorim's Gift now inherits 15% of the damage dealt from Arm of Thorim, up from 10%."
+  },
+  {
+   "accepted": false,
+   "class": "stormbringer",
+   "date": "2026/07/31",
+   "hash": "7277460169ee5774",
+   "spec": null,
+   "text": "Flux Arc duration increased from 8 sec to 10 sec."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "c08e5bd28279ffe8",
+   "spec": null,
+   "text": "Mojo:Jungle Thistle no longer provides a threat reduction to targets hit, secondary effect value increased by 10%. (This effect had potential to hit the tanks through AOE application, making them lose threat)"
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "74a0dbe675bcb3d0",
+   "spec": null,
+   "text": "Triggered damage from Puppeteer’s Threads can no longer be reflected."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "f98b18622152fe18",
+   "spec": null,
+   "text": "Fixed rank value progression of Spirit in a Bottle not consistently granting gains on rank gain."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "da7c5135ea21adc0",
+   "spec": null,
+   "text": "Fixed an issue where the Healing Ward radius would be inconsistent."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "c985aeb466bd060c",
+   "spec": null,
+   "text": "Fixed an issue where Spirit Link Idol would not grant its effect for full duration and was not affected by Hastened."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "e430bc826c9d6c05",
+   "spec": null,
+   "text": "Damage of Godslayer now more evenly split between base and scaling."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "f94d20439867666e",
+   "spec": null,
+   "text": "Spirit Volley now uses ranged critical strike chance."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "cfd4a043cada2e13",
+   "spec": null,
+   "text": "Loa Spirits chance to allow Reclamation to cast an additional time has been reduced by 1%, meaning at max Spirits, the chance to cast an additional time is 20%, down from 25%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "46613deb97912961",
+   "spec": null,
+   "text": "Increased Spirit Glaive’s base damage and scaling by 69%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "001ff147bb7fd1c8",
+   "spec": null,
+   "text": "Increased Veil of Darkness’s base damage and scaling by 22%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "2af2364372ede79f",
+   "spec": null,
+   "text": "Increased Hex of Malice’s base damage and scaling by 18%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "fdfb0ccea2c2736c",
+   "spec": null,
+   "text": "Increased Auto Shot’s damage by 19%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "0d9c3a83a05cba23",
+   "spec": null,
+   "text": "Increased Voodoo Fire’s base damage and scaling by 20%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "4796e4c4f9883d62",
+   "spec": null,
+   "text": "Increased Reclamation’s base damage and scaling by 21%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "0594519dc3cbab83",
+   "spec": null,
+   "text": "Base damage of Spirit Volley has been reduced by approximately 34%. This AoE spell was the best to use in all scenarios, even single target. Many other spells scaling and damage has been increased for Shadow Hunting so that this spell still remains strong but doesn’t all"
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "9d15949854ad0b27",
+   "spec": null,
+   "text": "Fixed an issue which caused Spirit Volley cast time to benefit from haste separately on top of ranged weapon haste."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "533818e140a892e4",
+   "spec": null,
+   "text": "Fixed an issue where Loa Spirits could trigger from replicated instances of spells from Mimic Ward."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "f78f6fa638401b0e",
+   "spec": null,
+   "text": "Bwonsamdi’s Gift damage increase to Spirit Volley reduced from 3% per Spirit to 2%."
+  },
+  {
+   "accepted": false,
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "hash": "abb7df1e7f95d091",
+   "spec": null,
+   "text": "Bwonsamdi’s Gift no longer provides a cooldown reduction to Mimic Ward."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "558c2a561ffceddf",
+   "spec": null,
+   "text": "Mycelial Ring additionally increases the damage of all Mushrooms you trigger by 50% when you have it learned."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "b48dfd3dd165f46f",
+   "spec": null,
+   "text": "Cycle of Decay now allows Spore and Wilt to critically strike."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "1263d55cef58adc2",
+   "spec": null,
+   "text": "From Life Comes Death is now a passive instead of a cooldown. The effect remains the same, spawning Mushrooms on kill."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "6cc0c3793ed5de1e",
+   "spec": null,
+   "text": "Serpent's Fang Rank 8's damage has been increased from 596 to 775, and healing from 245 to 343."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "126dc6665b4825d6",
+   "spec": null,
+   "text": "Serpent's Fang Rank 7's damage has been increased from 510 to 663, and healing from 272 to 381."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "5a5ee8421524e535",
+   "spec": null,
+   "text": "Serpent's Fang Rank 6's damage has been increased from 431 to 560, and healing from 143 to 200."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "1eae5f7d498211ce",
+   "spec": null,
+   "text": "Serpent's Fang Rank 5's damage has been increased from 245 to 319, and healing from 114 to 160."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "45144762f145f3ff",
+   "spec": null,
+   "text": "Serpent's Fang Rank 4's damage has been increased from 180 to 234, and healing from 89 to 125."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "4172494e3fdbf4e6",
+   "spec": null,
+   "text": "Serpent's Fang Rank 3's damage has been increased from 111 to 144, and healing from 55 to 77."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "7ee023e44c6e69d1",
+   "spec": null,
+   "text": "Serpent's Fang Rank 2's damage has been increased from 64 to 83, and healing from 43 to 60."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "8e59cc7bfb14495c",
+   "spec": null,
+   "text": "Serpent's Fang Rank 1's damage has been increased from 27 to 35, and healing from 32 to 45."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "ee4c4d2846219a5c",
+   "spec": null,
+   "text": "Suffocating Coils proc chance increased from 5% to 8%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "9e76a619a6324d44",
+   "spec": null,
+   "text": "Prophetic Speaker now also increases the maximum targets struck by Decay by 5"
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "9cc69bb12eca9247",
+   "spec": null,
+   "text": "You can now shapeshift while silenced"
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "362dd1fac804bd3d",
+   "spec": null,
+   "text": "Spore’s Spell Power coefficient has been increased to 24% from 18%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "44249258cf4dbe7d",
+   "spec": null,
+   "text": "Wilt’s Spell Power coefficient has been increased to 20% per tick from 18%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "548612985807a997",
+   "spec": null,
+   "text": "Brood Marks no longer have a duration."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "dd010ef52067e15b",
+   "spec": null,
+   "text": "Withering Venom now generates 1 Brood Mark."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "72949a12a7364f83",
+   "spec": null,
+   "text": "Spider Lord’s chance on auto attack to summon a Scarab increased from 5% to 15%. Additionally, it can now trigger from both Carapace Crash and Hivebreak at the same 40% chance, from just Hivebreak."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "4d4ea8c93e832474",
+   "spec": "rot",
+   "text": "Mycosis base mana cost reduced from 16% to 14%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "18d99b679d451933",
+   "spec": "rot",
+   "text": "Fungal Assailant base mana cost reduced from 20% to 15%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "79c6503ba00b0a8b",
+   "spec": "rot",
+   "text": "Wilt base mana cost reduced from 10% to 9%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "4190f10ba248a6c0",
+   "spec": "rot",
+   "text": "Spore base mana cost reduced from 15% to 13%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "a73f5fbbaed5bf6a",
+   "spec": null,
+   "text": "Venom Bolt base mana cost reduced from 15% to 13%."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "3e581af89c519810",
+   "spec": null,
+   "text": "Weaver Form’s ICD on its mana regeneration removed."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "5c9c757bf6565b98",
+   "spec": null,
+   "text": "Weaver Form now generates 5% base mana instead of 5% missing mana. This will make the mana regeneration feel more consistent, rather than only being regenerative when you are low on mana and do nothing when you are higher on mana."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "f0f53bf07bac447e",
+   "spec": null,
+   "text": "Undead can now be Venomancers."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "1ba286705c69336c",
+   "spec": null,
+   "text": "All Shapeshift forms will now make you immune to polymorphs while active."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "b207d584aef947c4",
+   "spec": null,
+   "text": "- The level 50 passive for Moon Guard has been merged into the level 30 passive. The new level 50 passive reads: “You are protected by the Light of Elune, you absorb 10% of damage you take into mana from attacks that deal more than 20% of your maximum health.”"
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "d97f0cc4d88f2afd",
+   "spec": null,
+   "text": "Celestial Cleave can now be cast without a target, has 1 yd increased range and a wider cone of hit. Additionally, fixed issues with its targeting cone so that it could now correctly hit."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "f417bc8c1244c07b",
+   "spec": null,
+   "text": "The level 30/40/50 Warden vertical line talents have been shifted in position."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "346f4a414ecee2b2",
+   "spec": null,
+   "text": "Lunar Combatant now gives you increased intellect based on your strength and increased weapon damage based on your spell power"
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "245fa10a48bafd1c",
+   "spec": null,
+   "text": "Celestial Glaives and Lunar Combatants effects have been combined into the Celestial Glaives node and Lunar Combatant has been reworked"
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "23e517884f985bd6",
+   "spec": null,
+   "text": "Mana scaling of Starfire Shot reduced slightly."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "cc634bab7843c240",
+   "spec": null,
+   "text": "Sentinel level 20 passive now gives 10% INT -> Ranged Crit Rating conversion."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "b6f62000a7282409",
+   "spec": null,
+   "text": "New talent in the old place of Tyrande’s Training, gives your Starfire Shot a Lunar Eclipse effect, giving it a damage over time Burn effect that also causes the target to be unable to stealth or invis."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "08af4b6161c5ac80",
+   "spec": null,
+   "text": "Tyrande’s Training moved to level 50 spec passive. Tyrande’s Training also affects Trueshot, and it now provides 25% crit chance and crit damage against burning targets, up from 10%."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "cd4d2a3aec7121dc",
+   "spec": null,
+   "text": "Warden’s Blade now has a new effect for Aspect of the Goddess, Elune’s Cradle, which spawns a small radius healing over time circle around the target of the Blade, healing up to 8 allies within every 3 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "7f1845dc045fba08",
+   "spec": null,
+   "text": "Lunar Lance (and its accompanying DoT if you take the Moonlit Lancer talent), are now Spellfire damage instead of Arcane. This allows the DoT to trigger Tyrande’s Training. It also means that this DoT deals more damage to both Arcane Vulnerable OR Fire Vulnerable targets."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "a9c41b0aecfc995e",
+   "spec": null,
+   "text": "Can now wear daggers."
+  },
+  {
+   "accepted": false,
+   "class": "starcaller",
+   "date": "2026/07/31",
+   "hash": "7d3eca926c1e1105",
+   "spec": null,
+   "text": "Touch of Moonlight now properly scales with healing power."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "6353feff0f4b200f",
+   "spec": null,
+   "text": "Crow's Harvest Rank 7 increased weapon damage from 65% to 75% and normalized damage from 99 to 124."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "e818b4830279b596",
+   "spec": null,
+   "text": "Crow's Harvest Rank 6 increased weapon damage from 65% to 75% and normalized damage from 80 to 100."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "d260ef0edbcd7849",
+   "spec": null,
+   "text": "Crow's Harvest Rank 5 increased weapon damage from 65% to 75% and normalized damage from 53 to 66."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "6d16e679d8177004",
+   "spec": null,
+   "text": "Crow's Harvest Rank 4 increased weapon damage from 65% to 75% and normalized damage from 37 to 46."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "86fcde3a88810310",
+   "spec": null,
+   "text": "Crow's Harvest Rank 3 increased weapon damage from 65% to 75% and normalized damage from 26 to 33."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "eaf4c42dd8c2e98c",
+   "spec": null,
+   "text": "Crow's Harvest Rank 2 increased weapon damage from 65% to 75% and normalized damage from 11 to 14."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "2060a18cc2a3f4e2",
+   "spec": null,
+   "text": "Crow's Harvest Rank 1 increased weapon damage from 65% to 75% and normalized damage from 6 to 8."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "bee30471fe10b97a",
+   "spec": null,
+   "text": "Reap Rank 8 increased base damage from 123 to 166 and 80% weapon damage to 90% weapon damage."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "4c8bc1a59f35d881",
+   "spec": null,
+   "text": "Reap Rank 7 increased base damage from 80 to 106 and 80% weapon damage to 90% weapon damage."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "c11a43f49cb009e7",
+   "spec": null,
+   "text": "Reap Rank 6 increased base damage from 48 to 62 and 80% weapon damage to 90% weapon damage."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "5e2a6c1f90bc0c29",
+   "spec": null,
+   "text": "Reap Rank 5 increased base damage from 30 to 38 and 80% weapon damage to 90% weapon damage."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "13f376006eaa0437",
+   "spec": null,
+   "text": "Reap Rank 4 increased base damage from 17 to 21 and 80% weapon damage to 90% weapon damage."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "6eb8fbdbc0870ddf",
+   "spec": null,
+   "text": "Reap Rank 3 increased base damage from 10 to 12 and 80% weapon damage to 90% weapon damage."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "50aeaa540a3e04a8",
+   "spec": null,
+   "text": "Reap Rank 2 increased base damage from 80% to 90% and normalized damage from 5 to 6."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "83ecc8f5da13f664",
+   "spec": null,
+   "text": "Reap Rank 1 increased base damage from 80% to 90% and normalized damage from 2 to 3."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "247029e9a44ef873",
+   "spec": null,
+   "text": "Slaughter Rank 7 increased base damage from 202 to 242 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "70b5f4eb4af3a76c",
+   "spec": null,
+   "text": "Slaughter Rank 6 increased base damage from 167 to 200 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "474d568768b496fa",
+   "spec": null,
+   "text": "Slaughter Rank 5 increased base damage from 119 to 143 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "82948592ff96baf5",
+   "spec": null,
+   "text": "Slaughter Rank 4 increased base damage from 79 to 95 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "c641cde34449a373",
+   "spec": null,
+   "text": "Slaughter Rank 3 increased base damage from 46 to 55 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "b6e2d4304e8672b0",
+   "spec": null,
+   "text": "Slaughter Rank 2 increased base damage from 29 to 35 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "31a15f126000c9f8",
+   "spec": null,
+   "text": "Slaughter Rank 1 increased base damage from 14 to 17 and weapon damage from 130% to 150%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "e8826bc7eb852547",
+   "spec": null,
+   "text": "Soulstrider increased to 25% from 20%"
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "03764121514692c7",
+   "spec": null,
+   "text": "Harvester’s Scythe increased to 20% from 15%"
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "69010fb6b8c1d5e8",
+   "spec": null,
+   "text": "Spectre Strength now also increases your Armor penetration by 5/10%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "6f1df589aead82d4",
+   "spec": null,
+   "text": "Increased the duration of Limbo to 6 sec from 5 sec"
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "f87ac03261ee339b",
+   "spec": null,
+   "text": "Increased the value of Hemorrhage from 10% to 20%"
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "3abf5595455bec90",
+   "spec": null,
+   "text": "Increased the duration of Harvesting Grounds to 15 sec from 10 sec"
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "e44a730060bccbcb",
+   "spec": null,
+   "text": "Increased the damage of each strike of Shudder Scythe from 30% to 40%."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "404469b4f8af905f",
+   "spec": null,
+   "text": "Scythe Rush now roots the enemy in place for 1 sec."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "3593781f6086dfc5",
+   "spec": null,
+   "text": "Spectre Stride now roots the target for 2 sec."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "0a69b870056a3480",
+   "spec": null,
+   "text": "Empyrean Fortitude now generates 5 RP, up from 2."
+  },
+  {
+   "accepted": false,
+   "class": "reaper",
+   "date": "2026/07/31",
+   "hash": "93e5c29521b2f40d",
+   "spec": null,
+   "text": "Soul Infusion Spells will refund their Soul Infusion Cost whenever the spell gets dodged, parried or misses. Requiem will only refund if ALL targets are missed."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "6519bd8c18d11100",
+   "spec": null,
+   "text": "The goal of moving the talents in Archery Ranger is to better pace the talents that feel more impactful and meaningful while leveling and move some of the more effects that are better with higher uptime down the tree as fight length expands. Most notably, Rangers were falling behind the curve at low levels, but when given access to their second tier of talents, they drastically increased in power. This will smooth that out leaving strong options in tier 1 and tier 2 of their talent trees."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "1e1ac9be6502e528",
+   "spec": null,
+   "text": "Skirmish and Swiftshot have swapped positions"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "c0a487c360ebc78e",
+   "spec": null,
+   "text": "Deadeye and Studded Arrows have swapped positions"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "a0ccd6ec7e3c7303",
+   "spec": null,
+   "text": "Opportunist has been moved into Tier 1, swapping with Superb Shot"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "1d4993ff994c82ca",
+   "spec": null,
+   "text": "Corrosive Poison has been merged into the level 10 spec passive. The level 10 spec passive now reads: \"Your Toxic Dart deals 30% more damage and ticks 30% faster. Your abilities ignore 25% of target's armor against poisoned targets”."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "eb03af731bfed409",
+   "spec": null,
+   "text": "Ravage's attack power scaling has been increased from 6% to 8%."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "c9bd9af9a92a4e3d",
+   "spec": null,
+   "text": "Ravage Rank 7's damage has been increased from 176 to 220."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "b2e810949514db51",
+   "spec": null,
+   "text": "Ravage Rank 6's damage has been increased from 142 to 178."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "897ffc6fcb75891e",
+   "spec": null,
+   "text": "Ravage Rank 5's damage has been increased from 119 to 149."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "9a07467e6e5f42ff",
+   "spec": null,
+   "text": "Ravage Rank 4's damage has been increased from 101 to 126."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "ec3c39db3fa19b57",
+   "spec": null,
+   "text": "Ravage Rank 3's damage has been increased from 85 to 106."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "04a2da22f8bc15e1",
+   "spec": null,
+   "text": "Ravage Rank 2's damage has been increased from 56 to 70."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "4d4ab0d1cc523bd6",
+   "spec": null,
+   "text": "Ravage Rank 1's damage has been increased from 28 to 35."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "1a77024b1460de7c",
+   "spec": null,
+   "text": "Hookshot Rank 6's damage has been increased from 378 to 567."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "21e20fb48befd110",
+   "spec": null,
+   "text": "Hookshot Rank 5's damage has been increased from 300 to 450."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "9e77554370131106",
+   "spec": null,
+   "text": "Hookshot Rank 4's damage has been increased from 203 to 305."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "c076d15184b196f7",
+   "spec": null,
+   "text": "Hookshot Rank 3's damage has been increased from 146 to 219."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "f19a6aefba5efad7",
+   "spec": null,
+   "text": "Hookshot Rank 2's damage has been increased from 101 to 152."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "a6e44c62c0a2fa0c",
+   "spec": null,
+   "text": "Hookshot Rank 1's damage has been increased from 66 to 99."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "807b89d51bf66b1c",
+   "spec": null,
+   "text": "The Skewer/Viper’s Bite and Barbed Quills capstones have gained a new connection"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "1882a0db18537d2b",
+   "spec": null,
+   "text": "Skewer added to the Brigand capstones as a switch node with Viper’s Bite."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "037fb95ddfa81f22",
+   "spec": null,
+   "text": "Skirmisher now also increases the damage of Toxic Dart by 30%."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "53acaa3a0f938885",
+   "spec": null,
+   "text": "Skirmisher talent no longer reduces the duration of Toxic Dart."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "18f27d7d3c4eb8c4",
+   "spec": null,
+   "text": "Onslaught now has a 2min cd down from 3min"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "d506d5a78fb2f656",
+   "spec": null,
+   "text": "Knuckleduster now increases the range of Bushwhack"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "fe4e19bf17115bbc",
+   "spec": null,
+   "text": "Increased the slow of Freezing Toxin to 30% from 20%"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "3addea5dbbfe4dd4",
+   "spec": null,
+   "text": "Cutthroat cooldown reduced to 45 sec from 1min"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "e7e271a627e76dc1",
+   "spec": null,
+   "text": "Blur talent now additionally reduces a chance for enemies to detect you while stealthed."
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "00d072505ef1e0d7",
+   "spec": null,
+   "text": "Fixed an issue where Woodland Stalker would be active all the time except for when in Eluder (opposite effect than intended)"
+  },
+  {
+   "accepted": false,
+   "class": "ranger",
+   "date": "2026/07/31",
+   "hash": "d82c8e274e64e497",
+   "spec": null,
+   "text": "Healing done by Waterskins increased by 30%."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "4b15b5c41d753787",
+   "spec": null,
+   "text": "Seismic Tremor Rank 5 increased periodic damage from 196 to 265."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "b55c4cfa9b7988e6",
+   "spec": null,
+   "text": "Seismic Tremor Rank 4 increased periodic damage from 146 to 197."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "acdc3e88277435be",
+   "spec": null,
+   "text": "Seismic Tremor Rank 3 increased periodic damage from 106 to 143."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "e65140b2e13ed585",
+   "spec": null,
+   "text": "Seismic Tremor Rank 2 increased periodic damage from 77 to 104."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "4234cc3f223cd9ba",
+   "spec": null,
+   "text": "Seismic Tremor Rank 1 increased periodic damage from 41 to 55."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "6f3afd844365cdf8",
+   "spec": null,
+   "text": "Stoneshard Rank 9 increased damage from 802 to 882."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "848c40d70c1ef14e",
+   "spec": null,
+   "text": "Stoneshard Rank 8 increased damage from 634 to 697."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "03b0cb1496ab141d",
+   "spec": null,
+   "text": "Stoneshard Rank 7 increased damage from 566 to 623."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "7df905d596b9468b",
+   "spec": null,
+   "text": "Stoneshard Rank 6 increased damage from 478 to 526."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "ea48175ed70f9991",
+   "spec": null,
+   "text": "Stoneshard Rank 5 increased damage from 366 to 403."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "e39b233ce265d314",
+   "spec": null,
+   "text": "Stoneshard Rank 4 increased damage from 283 to 311."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "fb1914cf32654cba",
+   "spec": null,
+   "text": "Stoneshard Rank 3 increased damage from 176 to 194."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "8357840753451da2",
+   "spec": null,
+   "text": "Stoneshard Rank 2 increased damage from 86 to 95."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "fa136feb0b29aba0",
+   "spec": null,
+   "text": "Stoneshard Rank 1 increased damage from 40 to 44."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "c97fadb6c24a404e",
+   "spec": null,
+   "text": "Terrasurge Rank 9 increased damage from 2182 to 2400."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "d1125b9c2f131c64",
+   "spec": null,
+   "text": "Terrasurge Rank 8 increased damage from 1978 to 2176."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "15ac30a49fa432fc",
+   "spec": null,
+   "text": "Terrasurge Rank 7 increased damage from 947 to 1042."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "3d79c787cba5ed5a",
+   "spec": null,
+   "text": "Terrasurge Rank 6 increased damage from 760 to 836."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "80671625ceb08fef",
+   "spec": null,
+   "text": "Terrasurge Rank 5 increased damage from 610 to 671."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "1621a79a451167b4",
+   "spec": null,
+   "text": "Terrasurge Rank 4 increased damage from 480 to 528."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "818bb3f1f044ba32",
+   "spec": null,
+   "text": "Terrasurge Rank 3 increased damage from 359 to 395."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "6dd87f0b8f3389be",
+   "spec": null,
+   "text": "Terrasurge Rank 2 increased damage from 246 to 271."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "84f00189f78a0717",
+   "spec": null,
+   "text": "Terrasurge Rank 1 increased damage from 140 to 154."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "5badf4966e8c79d1",
+   "spec": null,
+   "text": "Thane’s Guidance now also works with Primal Rush"
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "b52cbeef6ecf13d5",
+   "spec": null,
+   "text": "Golem Form is no longer dispellable"
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "d448bf8f0a41ed02",
+   "spec": null,
+   "text": "Dreamway spells now spawn a portal usable by allies."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "0888d2469f3912c4",
+   "spec": null,
+   "text": "Earthbreaker now also increases the threat generated by Geode Barrage"
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "82c509122006f812",
+   "spec": null,
+   "text": "Spirit Stable is now given through Spirit Beast Communion vertical talent, newly alongside Beastmaster’s Recall, a spell that causes your next Recall Animal Spirit to be instant cast and cost less mana."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "f14d4bf30492e40f",
+   "spec": null,
+   "text": "Updated the tooltip of Heavy Earth to reflect its stacking mechanic properly."
+  },
+  {
+   "accepted": false,
+   "class": "primalist",
+   "date": "2026/07/31",
+   "hash": "f3aa09fd9239cebd",
+   "spec": null,
+   "text": "Earth Pummeling now also grants 3% crit."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "747841d1c05246a3",
+   "spec": null,
+   "text": "Volcanic Shell Rank 5's absorb has been increased from 1961 to 3064."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "86051766dd18425e",
+   "spec": null,
+   "text": "Volcanic Shell Rank 4's absorb has been increased from 1461 to 2283."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "8b5bd4d45ae3dacd",
+   "spec": null,
+   "text": "Volcanic Shell Rank 3's absorb has been increased from 958 to 1496."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "3edd9d84e4c75825",
+   "spec": null,
+   "text": "Volcanic Shell Rank 2's absorb has been increased from 675 to 1055."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "80c8ed486b043d12",
+   "spec": null,
+   "text": "Volcanic Shell Rank 1's absorb has been increased from 400 to 625."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "423a7a271ccdab26",
+   "spec": null,
+   "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "3b001e7b33004a29",
+   "spec": null,
+   "text": "Phoenix Egg is now permanent, up from 1 minute, but has a cast time to resummon."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "18ad6e46fe94e936",
+   "spec": null,
+   "text": "Fixed a bug where Inferno was not contributing to the Pyromancer in the combat log. (This spell was doing more than you thought because it contributed to other people’s healing and not your own)."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "5e9b9e8693daef06",
+   "spec": null,
+   "text": "Inferno has been reworked and now reads: You have a 50% chance with direct healing critical spells to apply an inferno on an ally. Inferno heals 3 nearby allies every second for 5 seconds and at the end of its duration nearby party and raid members are healed. This effect can only trigger once every 5 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "2ab6af1530436620",
+   "spec": null,
+   "text": "Pyroclasm damage now obeys PVP mods properly."
+  },
+  {
+   "accepted": false,
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "hash": "8e11419ee8890a09",
+   "spec": null,
+   "text": "Fixed a bug causing Phoenix Dive to apply its coefficient twice to the absorb value and Phoenix Dive now hits up to 10 targets."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "048df6b2d79955e6",
+   "spec": null,
+   "text": "Graveyard is a brand new spell taught to Necromancers at level 60. You mark a graveyard, and you begin turning corpses below your feet, resurfacing them. Nearby enemies suffer plague damage when a resurfaced corpse is brought back from its grave."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "5343cf2927151d4b",
+   "spec": null,
+   "text": "Improved the Necromancer AI, making them less likely to attack targets that are of no-danger to you or nearby party members."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "e63ab8f312ee4755",
+   "spec": null,
+   "text": "Your Summoned Minions will now be instantly summoned when you are resurrected inside a battleground."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "50c001316e556d55",
+   "spec": null,
+   "text": "Fixed a bug where Unholy Runes was not increasing the damage of Crypt Swarm. Additionally, it now increases the damage of Blight and Blight has a 5% chance when it deals damage to reset the cooldown of Corpse Explosion."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "5556bd15d42b5119",
+   "spec": null,
+   "text": "Foul Invocation now additionally causes you, and your minions to emit a Disease Cloud dealing area of effect damage while active. This disease cloud is affected by modifiers that affect diseases, such as plague scientist, which increases all disease damage dealt by 100% for targets under 20% health."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "dc25cf2bb14cfca5",
+   "spec": null,
+   "text": "Scourge Disciple has been fixed, your Skeletal Archers now properly provide you haste while active."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "7326224ccefb47bb",
+   "spec": null,
+   "text": "Fixed a bug where Anti-Magic Shell was applying to the Necromancer and not the minions that were summoned."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "66976dc5d6fd9972",
+   "spec": null,
+   "text": "Fixed a bug where Frozen Barbs from Crypt Fiend couldn’t miss."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "8a47e4b19792898c",
+   "spec": null,
+   "text": "Study of Death now summons 5 total Zombies, up from 3."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "b5c7c212db85579c",
+   "spec": null,
+   "text": "Entomb now only makes the target immune to Physical damage instead of all damage."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "a33e6534508db95e",
+   "spec": null,
+   "text": "Corpse Explosion now explodes ALL corpses near the target corpse, causing each explosion to deal its own damage, but the cooldown has increased to 30 seconds from 10 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "4c6c6d37afd1385d",
+   "spec": null,
+   "text": "Fiend talent value increased to 30% from 20%"
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "2c78ad70687e8b44",
+   "spec": null,
+   "text": "Fixed a bug where Sepulchral Might was not increasing your minion’s damage from the spell power gained."
+  },
+  {
+   "accepted": false,
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "hash": "6137bbc10ae3a163",
+   "spec": null,
+   "text": "Fetid Ward, Glacial Ward, and Bone Ward now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "f800a2f847ec79d8",
+   "spec": null,
+   "text": "Lesser Pestilence of Apocalypse now grants your Imp additional mana every 5 sec while active instead of increasing its mana regeneration in combat."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "d8944b700498ffe7",
+   "spec": null,
+   "text": "Fixed a bug where Greater Imp abilities were not costing mana."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "da7d2671eda556c7",
+   "spec": null,
+   "text": "Greater Imp’s attack power scaling has been increased by 31% and its spell power scaling has been increased by 36%."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "87ea91c5b3c528e3",
+   "spec": null,
+   "text": "Increased the base damage of Burst by 35%"
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "38bf364107a323f5",
+   "spec": null,
+   "text": "Increased the base damage of Burning Slap by 22%"
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "813a93379cbf95a9",
+   "spec": null,
+   "text": "Doom now has a 1 min cd up from 30 sec, but now increases the damage of your Imp by 50% up from 20% and lasts 20 sec up from 12 sec."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "0a64cb09ad432466",
+   "spec": null,
+   "text": "Burning Slap now extends the duration of Burning Mischief by 2 sec"
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "700155aa39f11da1",
+   "spec": null,
+   "text": "Burning Mischief now has a 30 sec cd, but allows your Imp to heal and restore mana for 100% of all damage dealt up from 20% and increases its Fire Damage dealt by 15% for the duration."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "214de5b9aafd70df",
+   "spec": null,
+   "text": "Hellstorm direct damage base increased by 40%, scaling reduced by 10%. Damage over time doubled in scaling and base value."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "fcf21aabbfce2a25",
+   "spec": null,
+   "text": "Hellfire Forgemaster value increased by 10%."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "e0b40f2d08f51e75",
+   "spec": null,
+   "text": "Infernal Bulwark now increases your armor contribution by 10% and causes blocked attacks to deal 15% reduced damage to you."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "7fbac2a10567f438",
+   "spec": null,
+   "text": "Hellsmelted Armor now additionally grants 5/10% block chance at all times in addition to its current effect of 1/2% per imp."
+  },
+  {
+   "accepted": false,
+   "class": "knight-of-xoroth",
+   "date": "2026/07/31",
+   "hash": "8823d6a04b214e96",
+   "spec": null,
+   "text": "Seeking Flame now generates 2 Deathfire, up from one."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "7753987ef7336ce2",
+   "spec": null,
+   "text": "Spear Throw's attack power scaling has been increased from 35% to 66.5%."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "c147cbc1a8a6d4b2",
+   "spec": null,
+   "text": "Spear Throw Rank 7's damage has been increased from 499 to 948."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "b69489145fd5660e",
+   "spec": null,
+   "text": "Spear Throw Rank 6's damage has been increased from 333 to 633."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "a2a389269da31b4a",
+   "spec": null,
+   "text": "Spear Throw Rank 5's damage has been increased from 222 to 422."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "4549c8968a0f450c",
+   "spec": null,
+   "text": "Spear Throw Rank 4's damage has been increased from 148 to 281."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "702c9f919d3d0b3e",
+   "spec": null,
+   "text": "Spear Throw Rank 3's damage has been increased from 99 to 188."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "c3062d1078281a8f",
+   "spec": null,
+   "text": "Spear Throw Rank 2's damage has been increased from 66 to 125."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "32701670232e5c20",
+   "spec": null,
+   "text": "Spear Throw Rank 1's damage has been increased from 45 to 86."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "30f4ae79af3a1be1",
+   "spec": null,
+   "text": "Pulverize Rank 8’s damage has been increased from 320 to 380"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "1e331a8009a1880b",
+   "spec": null,
+   "text": "Pulverize’s Attack Power scaling has increased from 35% to 40%"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "4bce4a332d7c31e2",
+   "spec": null,
+   "text": "Ram’s Attack Power scaling has increased from 37% to 42%"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "a5dd3558800231b7",
+   "spec": null,
+   "text": "Broad Sweep target cap has been increased to 8 targets from 4"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "b1bd0e53a5e59e06",
+   "spec": null,
+   "text": "Broad Sweep additional physical damage has been doubled across all ranks"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "43e82b6f19cdefea",
+   "spec": null,
+   "text": "Broad Sweep across all ranks now deals 90% Weapon Damage (ranks were previously dealing 70% to 85% weapon damage)"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "0346cdcb1768ab38",
+   "spec": null,
+   "text": "Final Verdict can now be used on enemies within the 35% health execute range, up from the 20% health execute range."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "f031e5ee9766746d",
+   "spec": null,
+   "text": "Legionnaire now increases the critical damage of Reprisal by 15/30%, up from 10/20%."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "43df57537a84866f",
+   "spec": null,
+   "text": "Crashing Force now increases the damage of Reprisal by 20/40%, up from 15/30%."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "fab31c1dac0421d8",
+   "spec": null,
+   "text": "Supremacy Talent now allows the use of Reprisal as well as refreshing a charge."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "d199ea383b53ff03",
+   "spec": null,
+   "text": "Reprisal Rank 7's damage has been increased from 105% Weapon Damage plus 151 to 135% Weapon Damage plus 196."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "bed018f85b6a4ed4",
+   "spec": null,
+   "text": "Reprisal Rank 6's damage has been increased from 105% Weapon Damage plus 117 to 135% Weapon Damage plus 152."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "066dfb87cf20b9b9",
+   "spec": null,
+   "text": "Reprisal Rank 5's damage has been increased from 105% Weapon Damage plus 89 to 135% Weapon Damage plus 116."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "76a0165105c7db7b",
+   "spec": null,
+   "text": "Reprisal Rank 4's damage has been increased from 105% Weapon Damage plus 65 to 135% Weapon Damage plus 85."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "53035473d331c03a",
+   "spec": null,
+   "text": "Reprisal Rank 3's damage has been increased from 105% Weapon Damage plus 44 to 135% Weapon Damage plus 57."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "7c89b153b23524eb",
+   "spec": null,
+   "text": "Reprisal Rank 2's damage has been increased from 105% Weapon Damage plus 27 to 135% Weapon Damage plus 35."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "fc9324b9bcb5a712",
+   "spec": null,
+   "text": "Reprisal Rank 1's damage has been increased from 105% Weapon Damage plus 12 to 135% Weapon Damage plus 16."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "4d8ca441f411066b",
+   "spec": null,
+   "text": "Reprisal's global cooldown has been reduced from 1.5 seconds to 1 second."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "60477f6eba1e74aa",
+   "spec": null,
+   "text": "Crashing Force increased to 20%/40% at ranks 1 and 2 up from 15%/30%"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "c1d417b5022c2738",
+   "spec": null,
+   "text": "Increased the proc chance of Valiant Effort to 25% from 15%"
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "d5c7b86e8a0f75f2",
+   "spec": null,
+   "text": "Field Commander has gained two new effects for Standards of Valiance and Supremacy."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "2f92368c93499fe6",
+   "spec": null,
+   "text": "Field Commander effects have had their range reduced from 100 yds, to 40 yds, but their target cap raised from 5 to uncapped."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "2d62178671556757",
+   "spec": null,
+   "text": "Field Commander no longer requires you to cast Song of Steel to trigger it, it will now trigger off casting the Standard."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "f9e3b7dc216b2501",
+   "spec": null,
+   "text": "Standard of Recovery now has a small amount of base healing. It was previously only healing for 25% of strength with no base value."
+  },
+  {
+   "accepted": false,
+   "class": "guardian",
+   "date": "2026/07/31",
+   "hash": "36e4c7d9fd674c40",
+   "spec": null,
+   "text": "Drums of Battle no longer require players to click the drums. They will now apply to allies that get within 12 yards of the Drums."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "17acda8f3b22de36",
+   "spec": null,
+   "text": "Fixed a bug where Cultist’s Black Blood was not scaling with spell power correctly and was not benefitting from healing taken increases."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "0fac72dfbff34c76",
+   "spec": null,
+   "text": "Dark Infusion moved to the class tree."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "51cd55857e180d2c",
+   "spec": null,
+   "text": "Black Blood will now prioritize targeting the ally affected by your Abyssal Covenant if possible. Then allies who aren’t affected by Black Blood, then prioritizing the lowest health players for stacking it up if you have the talent to make it stack twice."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "e1e42ecd0da8dad1",
+   "spec": null,
+   "text": "Black Blood will no longer tick immediately upon application, but its duration can now be refreshed with repeat applications, and refreshing its duration will no longer reset its tick timer."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "f077c7a253162203",
+   "spec": null,
+   "text": "Horrorbolt Volley is now a pre-capstone, taking the original position of Dark Whispers."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "cb214ad4b6dc4d93",
+   "spec": null,
+   "text": "Dark Whispers (now Twilight Horror) and Abyssal Destruction have had their places swapped in the talent tree."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "ae37c805636d4720",
+   "spec": null,
+   "text": "Dark Whispers reworked to Twilight Horror, an Eldritch Shock synergy capstone."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "a039252123625d88",
+   "spec": null,
+   "text": "Void Reaver now additionally removes the mana cost of your next Blade of the Empire."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "99702eb908b00dc4",
+   "spec": null,
+   "text": "Horrorbolt Volley base cast time reduced from 3.5 seconds to 2.5 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "0d8df8b832c68782",
+   "spec": null,
+   "text": "Void Augmentation now affects Eldritch Shock"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "98034515df9f8600",
+   "spec": null,
+   "text": "Dread and Terror talents both now affect Eldritch Shock"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "cbb4b1056d73818f",
+   "spec": null,
+   "text": "Instilling Fear now also works with Eldritch Shock"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "60153cfd3cd02749",
+   "spec": null,
+   "text": "Dark Reservoir now also works with Eldritch Shock"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "5509e1f6ad1d8675",
+   "spec": null,
+   "text": "Oblivion’s Embrace now also works with Eldritch Shock"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "c7ba8bc5ad29ba9d",
+   "spec": null,
+   "text": "Dark Prophet now heals 2 of the lowest health nearby allies down from 5"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "77b1d81d807cea85",
+   "spec": null,
+   "text": "Added a new Insanity spender ability: Eldritch Shock, which can be used to both damage an enemy or heal an ally."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "f3c0677785b31462",
+   "spec": null,
+   "text": "Abyssal Destruction now causes periodic and channeled damage to generate 2 Insanity"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "fed8960323424a2f",
+   "spec": null,
+   "text": "Doomsayer has swapped places with Devourer in the class tree"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "f03826b0b12cc6e3",
+   "spec": null,
+   "text": "Doomsayer and Embodied Presences have been combined"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "626e8aa171faec66",
+   "spec": null,
+   "text": "Duration of Eldritch Devastation reduced to 4 sec from 6 sec, but it now ticks significantly faster."
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "94c797075646dcb2",
+   "spec": null,
+   "text": "Dark Channeler added as a switch node with Misery. Misery now reduces the cooldown of Psychic Suppression by 4 sec up from 1 sec when you cast Gaze of C’Thun"
+  },
+  {
+   "accepted": false,
+   "class": "cultist",
+   "date": "2026/07/31",
+   "hash": "a3d4314bca083127",
+   "spec": null,
+   "text": "Madness debuff duration increased to 20 seconds up from 10 seconds, as the cooldown of Obliteration Beam would not allow you to stack this."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "2ad76cbf5fc08010",
+   "spec": null,
+   "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "caf9039f80c25b07",
+   "spec": null,
+   "text": "Adjusted the positioning of Timeline Tether and Rapid Acceleration"
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "864e4d9f49f04699",
+   "spec": null,
+   "text": "Rewind now increases your movement speed and reduces the movement speed of enemies around you"
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "86a1ad82a447f188",
+   "spec": null,
+   "text": "Rewind is now usable while crowd-controlled"
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "c4d299cec6a4f172",
+   "spec": null,
+   "text": "Aeon of Oblivion reworked:Decreases the critical strike chance of Epoch by 25% and reduces the Mana Cost of Epoch by 25% and Epoch now deals 100% of its healing done as damage to a nearby enemy."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "bc11a36c44f5d5a1",
+   "spec": null,
+   "text": "Aeon of Renewal reworked: Decreases the amount healed by Epoch by 25% and increases its critical strike chance by 25% and Epoch now heals for 75% of the amount healed over 6 seconds. Additionally, this healing will accumulate, similar to Ignite."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "69c3600e13dffb64",
+   "spec": null,
+   "text": "Aeon of Protection reworked: Increases cast time of Epoch by 25% and increases the healing done by 25% and Epoch now shields the target for 50% of the amount healed."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "631855a45ccecebf",
+   "spec": null,
+   "text": "Aeon of Resilience reworked: Reduces cast time of Epoch by 25% and increases mana cost by 25% and Epoch causes your Accelerated Recovery to bounce to another target."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "1d97730554f507da",
+   "spec": null,
+   "text": "Cycling Aeons replaced with Rapid Acceleration and now reads: “Your Accelerated Recovery now heals 15% of its total periodic amount instantly and increases the healing power contribution to Accelerated Recovery by 15%.”"
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "61741d7592fd1365",
+   "spec": null,
+   "text": "Cycling Aeons is now baseline to the aeons, all cooldowns of aeons reduced by 50%."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "c4e6d8d11a8fc750",
+   "spec": null,
+   "text": "Timeguard has an additional mechanic added: Attacks that deal more than 20% of your health are reduced by 50%. This will consume a charge of Timeguard."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "a2dfed3a4d3d157f",
+   "spec": null,
+   "text": "Timeguard damage reduction increased from 40% to 50%."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "504893d62c5ac78f",
+   "spec": null,
+   "text": "Temporal Anomaly can now be released early (cancelable before expiration), healing you for currently stored value."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "7d1478f0f23159f4",
+   "spec": null,
+   "text": "Keep Accelerating (talent) will now prioritize applying Accelerated Recovery to targets not yet affected by Accelerated Recovery."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "600b06654ae5facb",
+   "spec": null,
+   "text": "A new spell Fray Magic (interrupt) is now available from the class trainer at level 26."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "c53452715b70310b",
+   "spec": null,
+   "text": "Reduced scaling of Correct the Mistake by 20%."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "06bedb6a738c0c98",
+   "spec": null,
+   "text": "Infinite Shield range increased to 40 yds."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "ff6a22175c176e3d",
+   "spec": null,
+   "text": "Constant Recovery now also reduces the threat of your holy school spells by 20%."
+  },
+  {
+   "accepted": true,
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "hash": "6272672dbb3ea770",
+   "spec": null,
+   "text": "Fixed an issue which caused Moment’s Reprieve to have no cooldown and mana cost."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "07a09998100223b6",
+   "spec": null,
+   "text": "- Hemal Excision curses now last for a maximum of 30 seconds."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "98fd03ba784f3267",
+   "spec": null,
+   "text": "- Hemal Excision can no longer be cast on pets, guardians and non player targets to remove their curses."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "875c69eb3e11040f",
+   "spec": null,
+   "text": "- Hemal Excision can no longer be preserved through map changes."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "fa8f0792c6fa79f7",
+   "spec": null,
+   "text": "Bloodbolt rage cost has been reduced from 40 to 30."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "038d769f2466fc3f",
+   "spec": null,
+   "text": "Wicked Howl now has a 2 minute cooldown down from 3 minutes."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "1389382a77a48708",
+   "spec": null,
+   "text": "Transgression no longer requires Insatiable, but its duration has been reduced from 30s to 15s, and it no longer casts a free Vampiric Fang."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "452062c514f09b50",
+   "spec": null,
+   "text": "Class tree connections have been repathed, creating more build diversity in the first tier of the talent tree. Alacrity can now connect to Dark Curse and Bloody Sacrifice."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "695ed627ada36595",
+   "spec": null,
+   "text": "Eternal Curse is now instant cast."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "bd589178c747af23",
+   "spec": null,
+   "text": "Forbidden Power now increases your spell penetration by an amount equal to 100% of your armor penetration."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "ee7e0b64c528bf7c",
+   "spec": null,
+   "text": "Rage (talent) now provides 10% more Spell power from AP."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "37392256cb026b2c",
+   "spec": null,
+   "text": "Blood Hunt also provides 10 Expertise in addition to its previous effects."
+  },
+  {
+   "accepted": false,
+   "class": "bloodmage",
+   "date": "2026/07/31",
+   "hash": "f2d152c8febf0394",
+   "spec": null,
+   "text": "Blood Shards now deal Spellshadow (Shadow+Arcane) and now correctly benefits from Dark Hunt. This change will also make it deal more damage to those who are shadow or arcane vulnerable."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "bd0845db863e69a9",
+   "spec": null,
+   "text": "Crush now pauses your swing timer when cast instead of restarting it."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "9fa9fcdf48a07d97",
+   "spec": null,
+   "text": "Crusher added as a switch node with Hail of Hammers, completely removing the cast time of Crush but reducing its damage by 25% and removing its stun."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "3ff37841d77b3648",
+   "spec": null,
+   "text": "Hail of Hammers now additionally increases the critical damage of Crush by the same amount."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "279e1a7fecf44fa6",
+   "spec": null,
+   "text": "Born in Blood now grants 10% movement speed per stack, up from 5%, but the max stack count has been decreased to 10, down from 20. Armor Penetration values per stack remain the same."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "9ad29804e8ce667c",
+   "spec": null,
+   "text": "Whirling Assault’s damage increase against enemies above 80% HP increased from 300% to 500%."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "f43d13cdbe8ddfdb",
+   "spec": null,
+   "text": "Giant Tosser now additionally increases the damage of Headhunter’s Spears from further than 20 yards by 100%, but the additional energy is reduced from 50% down to 15%."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "2e60af0fd0679353",
+   "spec": null,
+   "text": "Incredibly Strong no longer reduces the maximum range of Maiming Spear, instead increases its duration. Deadzone removal remains untouched."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "2cbbae5863808e89",
+   "spec": null,
+   "text": "Born in Blood base duration increased to 4 seconds, up from 3."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "c8c3f6773f57d418",
+   "spec": null,
+   "text": "Drunken Brawler stacks now last 5 seconds, up from 3, and grant 2% dodge chance per stack, up from 1%."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "fd8100e8f739762f",
+   "spec": null,
+   "text": "Iron Gut now gives you a 30% reduction to the duration of poison effects, down from 40%, but it now additionally gives a 30% chance to resist the application of poisons entirely."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "c70a293d7e94d9fc",
+   "spec": null,
+   "text": "Ramhorn Rage now doubles your passive health regeneration."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "e05aab1a13b49177",
+   "spec": null,
+   "text": "Thick Skull can now break Horrify effects as well as Stuns."
+  },
+  {
+   "accepted": false,
+   "class": "barbarian",
+   "date": "2026/07/31",
+   "hash": "fc49a94f6daf0004",
+   "spec": null,
+   "text": "Axe Twirling is now toggleable, and has no cooldown and no fixed duration, but it reduces your damage dealt by 15%. Talents affecting Axe Twirling have been adjusted with this new duration and no cooldown in mind."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "9546c2802f865bd0",
+   "spec": null,
+   "text": "Greater Witching Edict now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "5d734f9347f9f8b9",
+   "spec": null,
+   "text": "Witching Edict Ranks 1-4 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "ab15c20c2282473c",
+   "spec": null,
+   "text": "Greater Knight's Edict now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "d4853cf3c0a22807",
+   "spec": null,
+   "text": "Knight's Edict Ranks 1-4 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "963234da12bc2780",
+   "spec": null,
+   "text": "Greater Inquisitor's Edict now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "witch-hunter",
+   "date": "2026/07/31",
+   "hash": "9ed00d09521d2b10",
+   "spec": null,
+   "text": "Inquisitor's Edict Ranks 1-11 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "69acc54969c36134",
+   "spec": null,
+   "text": "Venom Shield now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "349561fec9d4407e",
+   "spec": null,
+   "text": "Fang Venom: Toxic Rejuvenation now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "1e10c3315b4690c6",
+   "spec": null,
+   "text": "Rejuvenating Venom now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "f62574f009742251",
+   "spec": null,
+   "text": "Nullifying Venom now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "57487042de4a3e99",
+   "spec": null,
+   "text": "Debilitating Venom now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "eed7f932ec71ce62",
+   "spec": null,
+   "text": "Blight Venom now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "6e0b14efcab0816d",
+   "spec": null,
+   "text": "Adrenal Venom now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "a9350053359d727e",
+   "spec": null,
+   "text": "Greater Toxic Pheromones now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "6ffbb4bfeece8cf1",
+   "spec": null,
+   "text": "Toxic Pheromones Ranks 1-4 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "eefd5fd1f2c87584",
+   "spec": null,
+   "text": "Greater Spider Pheromones now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "9df9a8c8a617112b",
+   "spec": null,
+   "text": "Spider Pheromones Ranks 1-6 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "b55a74b8f789ae30",
+   "spec": null,
+   "text": "Greater Beetle Pheromones now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "4c9e638077196733",
+   "spec": null,
+   "text": "Beetle Pheromones Ranks 1-6 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "hash": "9662de27df3abfce",
+   "spec": null,
+   "text": "Envenomed Weapons now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "12cc5ff1edb1cc3a",
+   "spec": null,
+   "text": "Tithe of Order now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "078da6de94c068ef",
+   "spec": null,
+   "text": "Tithe of Mysticism now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "5e337f724613a958",
+   "spec": null,
+   "text": "Tithe of Might now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "3ad9bfbefc724bde",
+   "spec": null,
+   "text": "Tithe of Liberty now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "da9751a962857fab",
+   "spec": null,
+   "text": "Tithe of Ingenuity now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "85bc7e9f25fff7bc",
+   "spec": null,
+   "text": "Tithe of Heroism now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "de9f56a14dbdf979",
+   "spec": null,
+   "text": "Tithe of Elements now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "8a15cf3e5bb87ce4",
+   "spec": null,
+   "text": "Tithe of Crusading now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "be341d4f31216b82",
+   "spec": null,
+   "text": "Tithe of Courage now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "c62f3be7dcda3048",
+   "spec": null,
+   "text": "Tithe of Alacrity now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "e6abf7fdb76605d3",
+   "spec": null,
+   "text": "Righteous Custodian now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "d9184f7f9caddec3",
+   "spec": null,
+   "text": "Harmonic Disposition now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "1eea706352f71331",
+   "spec": null,
+   "text": "Greater Crusader's Oath now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "e1074bb75c900ae2",
+   "spec": null,
+   "text": "Gift of Fervor now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "19a63a10c4ebd025",
+   "spec": null,
+   "text": "Greater Gift of Zeal now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "templar",
+   "date": "2026/07/31",
+   "hash": "4886877a8acdac37",
+   "spec": null,
+   "text": "Gift of Zeal Ranks 1-7 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "901169be08bd99a6",
+   "spec": null,
+   "text": "Greater Power Module now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "96b8bf89a2811c72",
+   "spec": null,
+   "text": "Power Module Ranks 1-7 now persist through death."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "f671ea2f09699f4f",
+   "spec": null,
+   "text": "Greater Mana Module now persists through death."
+  },
+  {
+   "accepted": false,
+   "class": "tinker",
+   "date": "2026/07/31",
+   "hash": "25242a9ae68bca13",
+   "spec": null,
+   "text": "Mana Module Ranks 1-7 now persist through death."
+  }
+ ],
+ "scanned_at": "2026-08-07",
+ "section": 4
+}

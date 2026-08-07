@@ -60,6 +60,20 @@ missing without any error.
 | 32 | Runemaster | glyphic | damage |
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
+| 21 | Ranger | archery | damage |
+| 21 | Ranger | brigand | damage |
+| 21 | Ranger | farstrider | damage |
+
+**Ranger provenance (21):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: archery "No heal anywhere in the spec:
+no shield, no HoT, no proc-heal … judge it as a pure MM-Hunter DPS spec";
+brigand "a dagger-wielding melee assassin, not a healer despite the archetype
+tag … There is no direct heal spell anywhere in this spec"; farstrider "only
+minor incidental healing rather than a real HPS rotation … not anything
+resembling a Discipline/Holy/Resto kit" (an Augmentation-style buffer, still
+`damage` in this three-role vocabulary)
+(`resources/sidekick-ranger-*.md`, scraped 2026-08-07). No tank kit appears
+in any of the three pages. Replace with an in-game read when one exists.
 
 ## Corroboration
 

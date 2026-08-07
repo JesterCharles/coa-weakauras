@@ -1,0 +1,2520 @@
+{
+ "class": "ranger",
+ "class_id": 21,
+ "source": "ascension.gg",
+ "source_url": "https://ascension.gg/en/v2/coa-builder/voljin",
+ "realm": "api/v3 builder CoA parser",
+ "class_tab": [
+  {
+   "id": 30050,
+   "name": "Woodland Stalker",
+   "spell_ids": [
+    705034
+   ],
+   "x": 6,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 30051,
+   "name": "Dirty Fighter",
+   "spell_ids": [
+    705044
+   ],
+   "x": 6,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30053,
+   "name": "Woodland Adept",
+   "spell_ids": [
+    570015
+   ],
+   "x": 1,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 30351,
+   "name": "Improved Waterskins",
+   "spell_ids": [
+    573057
+   ],
+   "x": 2,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30352,
+   "name": "Survival Potion",
+   "spell_ids": [
+    802839
+   ],
+   "x": 4,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7258,
+   "name": "Survival Kit",
+   "spell_ids": [
+    504329
+   ],
+   "x": 4,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 4936,
+   "name": "Lethal Cunning",
+   "spell_ids": [
+    704320
+   ],
+   "x": 6,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 5311,
+   "name": "Endurance Training",
+   "spell_ids": [
+    705039
+   ],
+   "x": 2,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6347,
+   "name": "Sly",
+   "spell_ids": [
+    560339
+   ],
+   "x": 0,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 5908,
+   "name": "Bloody Focus",
+   "spell_ids": [
+    520804
+   ],
+   "x": 3,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 1906,
+   "name": "Guise",
+   "spell_ids": [
+    520753
+   ],
+   "x": 6,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 4156,
+   "name": "Elven Tactics",
+   "spell_ids": [
+    560701
+   ],
+   "x": 2,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 4186,
+   "name": "Double The Pace",
+   "spell_ids": [
+    705031
+   ],
+   "x": 2,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6670,
+   "name": "Elusive Character",
+   "spell_ids": [
+    560340
+   ],
+   "x": 6,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6682,
+   "name": "Outlaw",
+   "spell_ids": [
+    706277
+   ],
+   "x": 8,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6782,
+   "name": "Whats Yours Is Mine",
+   "spell_ids": [
+    560495
+   ],
+   "x": 8,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6938,
+   "name": "Surefooted",
+   "spell_ids": [
+    560814
+   ],
+   "x": 4,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6945,
+   "name": "Natural Disguise",
+   "spell_ids": [
+    520585
+   ],
+   "x": 1,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6946,
+   "name": "Adrenaline Rush",
+   "spell_ids": [
+    520578
+   ],
+   "x": 4,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6947,
+   "name": "Forest Dweller",
+   "spell_ids": [
+    524864
+   ],
+   "x": 7,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6952,
+   "name": "Onslaught",
+   "spell_ids": [
+    801951
+   ],
+   "x": 6,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 34156,
+   "name": "Rapid Strikes",
+   "spell_ids": [
+    560341
+   ],
+   "x": 4,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34157,
+   "name": "Pinpoint Accuracy",
+   "spell_ids": [
+    801468
+   ],
+   "x": 2,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34159,
+   "name": "Deft Hands",
+   "spell_ids": [
+    707417
+   ],
+   "x": 7,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 34168,
+   "name": "Camper",
+   "spell_ids": [
+    705026
+   ],
+   "x": 0,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34169,
+   "name": "Snapseed",
+   "spell_ids": [
+    804027
+   ],
+   "x": 2,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34171,
+   "name": "Resourceful",
+   "spell_ids": [
+    504008
+   ],
+   "x": 1,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34172,
+   "name": "Cutthroat",
+   "spell_ids": [
+    800359
+   ],
+   "x": 6,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 34188,
+   "name": "Snatch",
+   "spell_ids": [
+    803115
+   ],
+   "x": 7,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29144,
+   "name": "Crippling Shot",
+   "spell_ids": [
+    804725
+   ],
+   "x": 2,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29331,
+   "name": "Briar Veil",
+   "spell_ids": [
+    800084
+   ],
+   "x": 4,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29337,
+   "name": "Knockout",
+   "spell_ids": [
+    801435
+   ],
+   "x": 6,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29416,
+   "name": "Grace",
+   "spell_ids": [
+    705092,
+    707848,
+    712477
+   ],
+   "x": 4,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 3,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 9782,
+   "name": "Grappling Arrows",
+   "spell_ids": [
+    561106
+   ],
+   "x": 8,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 12938,
+   "name": "Heightened Senses",
+   "spell_ids": [
+    561320
+   ],
+   "x": 4,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7790,
+   "name": "Blur",
+   "spell_ids": [
+    520369
+   ],
+   "x": 5,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7791,
+   "name": "Survival Expert",
+   "spell_ids": [
+    560959
+   ],
+   "x": 4,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7906,
+   "name": "Guile of the Ranger",
+   "spell_ids": [
+    520353
+   ],
+   "x": 4,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7908,
+   "name": "No Mercy",
+   "spell_ids": [
+    520581
+   ],
+   "x": 3,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  }
+ ],
+ "specs": {
+  "archery": [
+   {
+    "id": 12551,
+    "name": "One Shot, One Kill",
+    "spell_ids": [
+     525048
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7952,
+    "name": "Sharpshooter",
+    "spell_ids": [
+     582855
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 8009,
+    "name": "A Quick Demise",
+    "spell_ids": [
+     560810
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7551,
+    "name": "Silent, But Deadly",
+    "spell_ids": [
+     524873
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7787,
+    "name": "Skirmish",
+    "spell_ids": [
+     802039
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7788,
+    "name": "Boots of Elvenkind",
+    "spell_ids": [
+     704317
+    ],
+    "x": 3,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7789,
+    "name": "Swiftshot",
+    "spell_ids": [
+     705028
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7792,
+    "name": "Brutal Shot",
+    "spell_ids": [
+     570014
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7793,
+    "name": "Headshots Only",
+    "spell_ids": [
+     680931
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7794,
+    "name": "Masterful Archery",
+    "spell_ids": [
+     680469
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7904,
+    "name": "Incendiary Shot",
+    "spell_ids": [
+     524870
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7905,
+    "name": "Mortal Shots",
+    "spell_ids": [
+     707380
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29148,
+    "name": "Hunting with Precision",
+    "spell_ids": [
+     524867
+    ],
+    "x": 0,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6348,
+    "name": "Archery Master",
+    "spell_ids": [
+     706281
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6941,
+    "name": "Pierced",
+    "spell_ids": [
+     705033
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6944,
+    "name": "An Arrow for Everything",
+    "spell_ids": [
+     560812
+    ],
+    "x": 5,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4028,
+    "name": "Skirmisher",
+    "spell_ids": [
+     92115
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4429,
+    "name": "Sniper's Focus",
+    "spell_ids": [
+     680470
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4430,
+    "name": "Nimble",
+    "spell_ids": [
+     301066
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4431,
+    "name": "Bleeding Edge",
+    "spell_ids": [
+     300460
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4794,
+    "name": "Light Arrows",
+    "spell_ids": [
+     681292
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29447,
+    "name": "Deadeye",
+    "spell_ids": [
+     300700
+    ],
+    "x": 5,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29660,
+    "name": "Hunting Shot",
+    "spell_ids": [
+     801191
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30180,
+    "name": "Lethal Wounds",
+    "spell_ids": [
+     705055
+    ],
+    "x": 1,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30350,
+    "name": "Serrations",
+    "spell_ids": [
+     705050,
+     707850
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31178,
+    "name": "Precision Shot",
+    "spell_ids": [
+     500075
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31280,
+    "name": "Elven Enchantments",
+    "spell_ids": [
+     705054
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31281,
+    "name": "Pathfinder",
+    "spell_ids": [
+     706284
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31283,
+    "name": "Studded Arrows",
+    "spell_ids": [
+     300706,
+     301359
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31284,
+    "name": "Opportunist",
+    "spell_ids": [
+     807493
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29914,
+    "name": "Maximum Power",
+    "spell_ids": [
+     560688
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30046,
+    "name": "Corrosive Shot",
+    "spell_ids": [
+     572372
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34133,
+    "name": "Strike Where It Hurts",
+    "spell_ids": [
+     804178
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34136,
+    "name": "Deadshot",
+    "spell_ids": [
+     520227
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34137,
+    "name": "Hawkeye",
+    "spell_ids": [
+     800358
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34148,
+    "name": "Neurotoxin Arrow",
+    "spell_ids": [
+     500071
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34151,
+    "name": "Devastating Shots",
+    "spell_ids": [
+     705032,
+     707849
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34152,
+    "name": "New-Age Archery",
+    "spell_ids": [
+     704312
+    ],
+    "x": 7,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34153,
+    "name": "Improved Serrated Shot",
+    "spell_ids": [
+     707888
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34155,
+    "name": "Superb Shot",
+    "spell_ids": [
+     301249
+    ],
+    "x": 8,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "brigand": [
+   {
+    "id": 34139,
+    "name": "Dice Games",
+    "spell_ids": [
+     801438
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34140,
+    "name": "Underhanded",
+    "spell_ids": [
+     705061,
+     707884
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34141,
+    "name": "Stalker",
+    "spell_ids": [
+     561110
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34164,
+    "name": "Pilfering",
+    "spell_ids": [
+     705087
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34166,
+    "name": "Jagged Cuts",
+    "spell_ids": [
+     807668
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34167,
+    "name": "Marked for Death",
+    "spell_ids": [
+     806973
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34175,
+    "name": "Wild Man",
+    "spell_ids": [
+     560344
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34176,
+    "name": "Stonemason's Secret",
+    "spell_ids": [
+     524654
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5045,
+    "name": "Outmaneuver",
+    "spell_ids": [
+     557325
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5430,
+    "name": "Assault",
+    "spell_ids": [
+     803108
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6671,
+    "name": "Highwayman",
+    "spell_ids": [
+     707744
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6672,
+    "name": "Close Quarters",
+    "spell_ids": [
+     301146,
+     301248
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6673,
+    "name": "Bounty Hunter",
+    "spell_ids": [
+     803114
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6675,
+    "name": "'Tactical' Advantage",
+    "spell_ids": [
+     706748
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6676,
+    "name": "Focused Fighter",
+    "spell_ids": [
+     807206
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 1387,
+    "name": "Guile of the Cutthroat",
+    "spell_ids": [
+     560531
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 1388,
+    "name": "Dirty Fighter",
+    "spell_ids": [
+     806978
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 1389,
+    "name": "Banditry",
+    "spell_ids": [
+     520574,
+     520879
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 3871,
+    "name": "Rub It In",
+    "spell_ids": [
+     705085
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4029,
+    "name": "Ravager",
+    "spell_ids": [
+     92116
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 7048,
+    "name": "Assassin",
+    "spell_ids": [
+     803871
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 17429,
+    "name": "Skewer",
+    "spell_ids": [
+     800093
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29328,
+    "name": "Knuckleduster",
+    "spell_ids": [
+     806957
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 8010,
+    "name": "Trueshot Lodge Training",
+    "spell_ids": [
+     803113,
+     803855
+    ],
+    "x": 3,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9275,
+    "name": "Lacerations",
+    "spell_ids": [
+     573044
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9277,
+    "name": "Dastardly",
+    "spell_ids": [
+     706483
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7428,
+    "name": "Throatpunch",
+    "spell_ids": [
+     500617
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7429,
+    "name": "Viper's Bite",
+    "spell_ids": [
+     803104
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12449,
+    "name": "Assassin",
+    "spell_ids": [
+     807626
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13164,
+    "name": "Polearm Craft",
+    "spell_ids": [
+     707885
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11167,
+    "name": "Tip of the Spear",
+    "spell_ids": [
+     807023
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11349,
+    "name": "Quick-Witted",
+    "spell_ids": [
+     704311
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30045,
+    "name": "Instinctual Combatant",
+    "spell_ids": [
+     707319
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30049,
+    "name": "Dirty Blades",
+    "spell_ids": [
+     680276
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29449,
+    "name": "Excessive But Necessary",
+    "spell_ids": [
+     804939
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29701,
+    "name": "Quills",
+    "spell_ids": [
+     560966
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31357,
+    "name": "Beatdown",
+    "spell_ids": [
+     705047
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31179,
+    "name": "Ravage",
+    "spell_ids": [
+     803851
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30459,
+    "name": "Ambuscade",
+    "spell_ids": [
+     705053
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30461,
+    "name": "Hookshot",
+    "spell_ids": [
+     800360
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30462,
+    "name": "Barbed Quills",
+    "spell_ids": [
+     800077
+    ],
+    "x": 7,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "farstrider": [
+   {
+    "id": 29631,
+    "name": "Falcon Diving",
+    "spell_ids": [
+     520783
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30054,
+    "name": "Command Aura",
+    "spell_ids": [
+     524600
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31133,
+    "name": "Falconstrike",
+    "spell_ids": [
+     573060
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30924,
+    "name": "Highlander",
+    "spell_ids": [
+     707534
+    ],
+    "x": 7,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30925,
+    "name": "Plumes of War",
+    "spell_ids": [
+     705071
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30926,
+    "name": "Cunning",
+    "spell_ids": [
+     520615,
+     520878
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30929,
+    "name": "Whipvine Arrow",
+    "spell_ids": [
+     806342
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30930,
+    "name": "Horn of Alacrity",
+    "spell_ids": [
+     806360
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30931,
+    "name": "Pecking",
+    "spell_ids": [
+     570737
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30932,
+    "name": "Woodland Arrow",
+    "spell_ids": [
+     806368
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6955,
+    "name": "Horn of War",
+    "spell_ids": [
+     800086
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7050,
+    "name": "Blow the Horns!",
+    "spell_ids": [
+     573042,
+     573074
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4554,
+    "name": "Freedom",
+    "spell_ids": [
+     520628
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4631,
+    "name": "Survivalist",
+    "spell_ids": [
+     707418
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5054,
+    "name": "Venom-Coated Seeds",
+    "spell_ids": [
+     807459
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5431,
+    "name": "Wingman",
+    "spell_ids": [
+     705098
+    ],
+    "x": 1,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 3924,
+    "name": "To The Skies!",
+    "spell_ids": [
+     301365
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4030,
+    "name": "Dream Flowers",
+    "spell_ids": [
+     92117
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6346,
+    "name": "Hunting Tactics",
+    "spell_ids": [
+     300897
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6436,
+    "name": "War Falconer",
+    "spell_ids": [
+     705067
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6437,
+    "name": "Falcon Guide",
+    "spell_ids": [
+     520586
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34199,
+    "name": "Dragonhawk Tamer",
+    "spell_ids": [
+     573056
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34201,
+    "name": "Forest Fighter",
+    "spell_ids": [
+     706282
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34147,
+    "name": "Quel'dorei Poison",
+    "spell_ids": [
+     560802
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34179,
+    "name": "Phoenix Plumes",
+    "spell_ids": [
+     705074
+    ],
+    "x": 0,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34180,
+    "name": "Thalassian Brand",
+    "spell_ids": [
+     560805
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34181,
+    "name": "Falcon's Call",
+    "spell_ids": [
+     804715
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34182,
+    "name": "Coordination",
+    "spell_ids": [
+     520621
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34184,
+    "name": "Backstep",
+    "spell_ids": [
+     800685
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34185,
+    "name": "Forest Herald",
+    "spell_ids": [
+     800150
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34192,
+    "name": "Windrunner's Reach",
+    "spell_ids": [
+     573043,
+     573069
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34195,
+    "name": "Falcon's Aid",
+    "spell_ids": [
+     705075
+    ],
+    "x": 5,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34196,
+    "name": "Razorquills",
+    "spell_ids": [
+     705072
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 8358,
+    "name": "Falcon Charmer",
+    "spell_ids": [
+     705076
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9274,
+    "name": "Thread The Needle",
+    "spell_ids": [
+     524831
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9454,
+    "name": "Petalkeeper",
+    "spell_ids": [
+     520925
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 19631,
+    "name": "Emerald Arrow",
+    "spell_ids": [
+     804712
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 10054,
+    "name": "Frenzy",
+    "spell_ids": [
+     520492
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11255,
+    "name": "Battle Prowess",
+    "spell_ids": [
+     805888
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11336,
+    "name": "Aerial Assault",
+    "spell_ids": [
+     705068
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11431,
+    "name": "Guidance",
+    "spell_ids": [
+     532261
+    ],
+    "x": 1,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11437,
+    "name": "Scavenger",
+    "spell_ids": [
+     520834
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11930,
+    "name": "Defense of the Ancients",
+    "spell_ids": [
+     705094
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11955,
+    "name": "Gutpiercer",
+    "spell_ids": [
+     573059
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11956,
+    "name": "Battle Screech",
+    "spell_ids": [
+     705070
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ]
+ },
+ "tab_map": {
+  "archery": {
+   "tab_id": 54,
+   "tab_name": "Archery"
+  },
+  "brigand": {
+   "tab_id": 55,
+   "tab_name": "Brigand"
+  },
+  "farstrider": {
+   "tab_id": 2,
+   "tab_name": "Farstrider"
+  }
+ },
+ "unmapped_tabs": [],
+ "missing_specs": []
+}

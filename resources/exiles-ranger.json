@@ -1,0 +1,3464 @@
+{
+ "'Tactical' Advantage": {
+  "ids": [
+   706748
+  ],
+  "icon": null
+ },
+ "2 Bushcraft Gliders": {
+  "ids": [
+   803673
+  ],
+  "icon": null
+ },
+ "3 Bushcraft Gliders": {
+  "ids": [
+   803674
+  ],
+  "icon": null
+ },
+ "4 Bushcraft Gliders": {
+  "ids": [
+   803675
+  ],
+  "icon": null
+ },
+ "A Quick Demise": {
+  "ids": [
+   560810
+  ],
+  "icon": null
+ },
+ "A True Hunter": {
+  "ids": [
+   560813
+  ],
+  "icon": null
+ },
+ "A True Scoundrel": {
+  "ids": [
+   570019
+  ],
+  "icon": null
+ },
+ "Accelerated Toxins": {
+  "ids": [
+   707700
+  ],
+  "icon": null
+ },
+ "Adaptation: Bandit RAP reduction": {
+  "ids": [
+   560337
+  ],
+  "icon": null
+ },
+ "Adaptation: Bowman": {
+  "ids": [
+   805972
+  ],
+  "icon": null
+ },
+ "Adaptation: Brigand": {
+  "ids": [
+   800089
+  ],
+  "icon": null
+ },
+ "Adaptation: Farstrider": {
+  "ids": [
+   805736
+  ],
+  "icon": null
+ },
+ "Adaptation: Swashbuckler": {
+  "ids": [
+   804937
+  ],
+  "icon": null
+ },
+ "Adrenaline": {
+  "ids": [
+   704335
+  ],
+  "icon": null
+ },
+ "Adrenaline Applier": {
+  "ids": [
+   704334
+  ],
+  "icon": null
+ },
+ "Adrenaline Rush": {
+  "ids": [
+   520578
+  ],
+  "icon": null
+ },
+ "Advantage": {
+  "ids": [
+   503830
+  ],
+  "icon": null
+ },
+ "Advantage Decrement": {
+  "ids": [
+   520618
+  ],
+  "icon": null
+ },
+ "Advantage Decrement Delayer": {
+  "ids": [
+   520617
+  ],
+  "icon": null
+ },
+ "Advantage Decrement passive": {
+  "ids": [
+   582753
+  ],
+  "icon": null
+ },
+ "Advantage Decrement passive 2": {
+  "ids": [
+   582770
+  ],
+  "icon": null
+ },
+ "Advantage Hidden (Sniper's Focus)": {
+  "ids": [
+   803401
+  ],
+  "icon": null
+ },
+ "Advantage Hidden (Warmaster)": {
+  "ids": [
+   704337
+  ],
+  "icon": null
+ },
+ "Advantage Hidden BASE": {
+  "ids": [
+   801429
+  ],
+  "icon": null
+ },
+ "Advantage Hidden Remover 2": {
+  "ids": [
+   560708
+  ],
+  "icon": null
+ },
+ "Advantage buffer": {
+  "ids": [
+   524860
+  ],
+  "icon": null
+ },
+ "Adventurer": {
+  "ids": [
+   804331
+  ],
+  "icon": null
+ },
+ "Aerial Assault": {
+  "ids": [
+   705068
+  ],
+  "icon": null
+ },
+ "Affinity": {
+  "ids": [
+   705099
+  ],
+  "icon": null
+ },
+ "After Finisher": {
+  "ids": [
+   803122
+  ],
+  "icon": null
+ },
+ "Agile": {
+  "ids": [
+   705081
+  ],
+  "icon": null
+ },
+ "Ambuscade": {
+  "ids": [
+   705053
+  ],
+  "icon": null
+ },
+ "Ambush": {
+  "ids": [
+   300850
+  ],
+  "icon": null
+ },
+ "An Arrow for Everything": {
+  "ids": [
+   560811
+  ],
+  "icon": null
+ },
+ "Archery Adept": {
+  "ids": [
+   560801
+  ],
+  "icon": null
+ },
+ "Archery Master": {
+  "ids": [
+   706281
+  ],
+  "icon": null
+ },
+ "Archery Training": {
+  "ids": [
+   705036
+  ],
+  "icon": null
+ },
+ "Arrow Scavenging": {
+  "ids": [
+   524650
+  ],
+  "icon": null
+ },
+ "Arrow Storm": {
+  "ids": [
+   705038
+  ],
+  "icon": null
+ },
+ "Arrow To The Knee": {
+  "ids": [
+   560705
+  ],
+  "icon": null
+ },
+ "Artificer's Wand": {
+  "ids": [
+   804478
+  ],
+  "icon": null
+ },
+ "Assassin": {
+  "ids": [
+   803871
+  ],
+  "icon": null
+ },
+ "Assault": {
+  "ids": [
+   803108
+  ],
+  "icon": null
+ },
+ "Assaulted": {
+  "ids": [
+   803109
+  ],
+  "icon": null
+ },
+ "Backstep": {
+  "ids": [
+   800684
+  ],
+  "icon": null
+ },
+ "Backstep Reset": {
+  "ids": [
+   524649
+  ],
+  "icon": null
+ },
+ "Backstreet Justice": {
+  "ids": [
+   560733
+  ],
+  "icon": null
+ },
+ "Ballista Bolts": {
+  "ids": [
+   804176
+  ],
+  "icon": null
+ },
+ "Banditry": {
+  "ids": [
+   520574
+  ],
+  "icon": null
+ },
+ "Barbed Quills": {
+  "ids": [
+   560965
+  ],
+  "icon": null
+ },
+ "Barbed Toxin": {
+  "ids": [
+   807821
+  ],
+  "icon": null
+ },
+ "Battle Prowess": {
+  "ids": [
+   805888
+  ],
+  "icon": null
+ },
+ "Battle Screech": {
+  "ids": [
+   705070
+  ],
+  "icon": null
+ },
+ "Battleweaver Hidden Passive": {
+  "ids": [
+   805892
+  ],
+  "icon": null
+ },
+ "Beastslayer": {
+  "ids": [
+   802055
+  ],
+  "icon": null
+ },
+ "Beatdown": {
+  "ids": [
+   705047
+  ],
+  "icon": null
+ },
+ "Befriend Beast": {
+  "ids": [
+   562301
+  ],
+  "icon": null
+ },
+ "Betrayer": {
+  "ids": [
+   804335
+  ],
+  "icon": null
+ },
+ "Birds of a Feather": {
+  "ids": [
+   520598
+  ],
+  "icon": null
+ },
+ "Blackjack": {
+  "ids": [
+   520568
+  ],
+  "icon": null
+ },
+ "Blackjack Depravity Deepwood Poison Trigger": {
+  "ids": [
+   524629
+  ],
+  "icon": null
+ },
+ "Blackjacked": {
+  "ids": [
+   524627
+  ],
+  "icon": null
+ },
+ "Blackout": {
+  "ids": [
+   524655
+  ],
+  "icon": null
+ },
+ "Blade Twisting": {
+  "ids": [
+   803112
+  ],
+  "icon": null
+ },
+ "Bleeding Edge": {
+  "ids": [
+   300460
+  ],
+  "icon": null
+ },
+ "Blood-Cursed Armor": {
+  "ids": [
+   707550
+  ],
+  "icon": null
+ },
+ "Bloody Focus": {
+  "ids": [
+   520804
+  ],
+  "icon": null
+ },
+ "Blow The Horns!": {
+  "ids": [
+   300464
+  ],
+  "icon": null
+ },
+ "Blow the Horns!": {
+  "ids": [
+   573042
+  ],
+  "icon": null
+ },
+ "Bludgeoned": {
+  "ids": [
+   524652
+  ],
+  "icon": null
+ },
+ "Blur": {
+  "ids": [
+   520369
+  ],
+  "icon": null
+ },
+ "Boch Ranged Visual Cast Kit Template Spell": {
+  "ids": [
+   803458
+  ],
+  "icon": null
+ },
+ "Bomb Specialist": {
+  "ids": [
+   804350
+  ],
+  "icon": null
+ },
+ "Bone Reliquary": {
+  "ids": [
+   803767
+  ],
+  "icon": null
+ },
+ "Boots of Elvenkind": {
+  "ids": [
+   704317
+  ],
+  "icon": null
+ },
+ "Boots of Speed": {
+  "ids": [
+   800284
+  ],
+  "icon": null
+ },
+ "Bounty": {
+  "ids": [
+   560722
+  ],
+  "icon": null
+ },
+ "Bounty Hunter": {
+  "ids": [
+   803114
+  ],
+  "icon": null
+ },
+ "Bow Mastery": {
+  "ids": [
+   500346
+  ],
+  "icon": null
+ },
+ "Branded": {
+  "ids": [
+   570167
+  ],
+  "icon": null
+ },
+ "Brandished Blades": {
+  "ids": [
+   806972
+  ],
+  "icon": null
+ },
+ "Briar Veil": {
+  "ids": [
+   800084
+  ],
+  "icon": null
+ },
+ "Brigand - Level 20 Passive": {
+  "ids": [
+   573045
+  ],
+  "icon": null
+ },
+ "Brigand - Level 30 Passive": {
+  "ids": [
+   561188
+  ],
+  "icon": null
+ },
+ "Brigand Strike": {
+  "ids": [
+   802562
+  ],
+  "icon": null
+ },
+ "Brutal Shot": {
+  "ids": [
+   570014
+  ],
+  "icon": null
+ },
+ "Bully": {
+  "ids": [
+   705060
+  ],
+  "icon": null
+ },
+ "Burning Toxin": {
+  "ids": [
+   570245
+  ],
+  "icon": null
+ },
+ "Bushcraft": {
+  "ids": [
+   800267
+  ],
+  "icon": null
+ },
+ "Bushcraft - Skinning Speed": {
+  "ids": [
+   800248
+  ],
+  "icon": null
+ },
+ "Bushcraft Glider": {
+  "ids": [
+   802811
+  ],
+  "icon": null
+ },
+ "Bushcrafting": {
+  "ids": [
+   803402
+  ],
+  "icon": null
+ },
+ "Bushwhack": {
+  "ids": [
+   557333
+  ],
+  "icon": null
+ },
+ "Camper": {
+  "ids": [
+   705026
+  ],
+  "icon": null
+ },
+ "Campsite": {
+  "ids": [
+   804682
+  ],
+  "icon": null
+ },
+ "Cannon Blast": {
+  "ids": [
+   804938
+  ],
+  "icon": null
+ },
+ "Circle of Elements": {
+  "ids": [
+   804344
+  ],
+  "icon": null
+ },
+ "Close Quarters": {
+  "ids": [
+   301146
+  ],
+  "icon": null
+ },
+ "CoA Aura - Ranger - Archery": {
+  "ids": [
+   887050
+  ],
+  "icon": null
+ },
+ "CoA Aura - Ranger - Brigand": {
+  "ids": [
+   887051
+  ],
+  "icon": null
+ },
+ "CoA Aura - Ranger - Farstrider": {
+  "ids": [
+   887052
+  ],
+  "icon": null
+ },
+ "CoA Aura - Ranger Class": {
+  "ids": [
+   887009
+  ],
+  "icon": null
+ },
+ "Command Aura": {
+  "ids": [
+   524600
+  ],
+  "icon": null
+ },
+ "Commander": {
+  "ids": [
+   705077
+  ],
+  "icon": null
+ },
+ "Compound Bow": {
+  "ids": [
+   705057
+  ],
+  "icon": null
+ },
+ "Consume Advantage": {
+  "ids": [
+   704173
+  ],
+  "icon": null
+ },
+ "Coordinated Attack": {
+  "ids": [
+   806364
+  ],
+  "icon": null
+ },
+ "Coordination": {
+  "ids": [
+   520621
+  ],
+  "icon": null
+ },
+ "Corrosive Poison": {
+  "ids": [
+   300703
+  ],
+  "icon": null
+ },
+ "Corrosive Shot": {
+  "ids": [
+   572372
+  ],
+  "icon": null
+ },
+ "Counter Striker": {
+  "ids": [
+   705042
+  ],
+  "icon": null
+ },
+ "Craft: Quilted Padding": {
+  "ids": [
+   800268
+  ],
+  "icon": null
+ },
+ "Craft: Tassel Guard": {
+  "ids": [
+   800271
+  ],
+  "icon": null
+ },
+ "Crippling Shot": {
+  "ids": [
+   804725
+  ],
+  "icon": null
+ },
+ "Crude Waterskin": {
+  "ids": [
+   802808
+  ],
+  "icon": null
+ },
+ "Crystal Enhancements": {
+  "ids": [
+   707540
+  ],
+  "icon": null
+ },
+ "Cunning": {
+  "ids": [
+   520615
+  ],
+  "icon": null
+ },
+ "Cure Borean Leather": {
+  "ids": [
+   804796
+  ],
+  "icon": null
+ },
+ "Cure Heavy Leather": {
+  "ids": [
+   804792
+  ],
+  "icon": null
+ },
+ "Cure Knothide Leather": {
+  "ids": [
+   804795
+  ],
+  "icon": null
+ },
+ "Cure Light Leather": {
+  "ids": [
+   804790
+  ],
+  "icon": null
+ },
+ "Cure Medium Leather": {
+  "ids": [
+   804791
+  ],
+  "icon": null
+ },
+ "Cure Rugged Leather": {
+  "ids": [
+   804794
+  ],
+  "icon": null
+ },
+ "Cure Thick Leather": {
+  "ids": [
+   804793
+  ],
+  "icon": null
+ },
+ "Cutthroat": {
+  "ids": [
+   573280
+  ],
+  "icon": null
+ },
+ "Cyborg Connections": {
+  "ids": [
+   560297
+  ],
+  "icon": null
+ },
+ "Daring Escape Visual": {
+  "ids": [
+   704332
+  ],
+  "icon": null
+ },
+ "Dastardly": {
+  "ids": [
+   706483
+  ],
+  "icon": null
+ },
+ "Deadeye": {
+  "ids": [
+   300700
+  ],
+  "icon": null
+ },
+ "Deadly Accuracy": {
+  "ids": [
+   704319
+  ],
+  "icon": null
+ },
+ "Deadly Accurate": {
+  "ids": [
+   560345
+  ],
+  "icon": null
+ },
+ "Deadly Toxins": {
+  "ids": [
+   802621
+  ],
+  "icon": null
+ },
+ "Deadshot": {
+  "ids": [
+   520227
+  ],
+  "icon": null
+ },
+ "Decoy Strike!": {
+  "ids": [
+   557328
+  ],
+  "icon": null
+ },
+ "Deepwood Poison": {
+  "ids": [
+   500420
+  ],
+  "icon": null
+ },
+ "Defense of the Ancients": {
+  "ids": [
+   705094
+  ],
+  "icon": null
+ },
+ "Deft Hands": {
+  "ids": [
+   707417
+  ],
+  "icon": null
+ },
+ "Depravity": {
+  "ids": [
+   524630
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   806362
+  ],
+  "icon": null
+ },
+ "Devastating Shots": {
+  "ids": [
+   705032
+  ],
+  "icon": null
+ },
+ "Dice Games": {
+  "ids": [
+   705048
+  ],
+  "icon": null
+ },
+ "Dirty Blades": {
+  "ids": [
+   520571
+  ],
+  "icon": null
+ },
+ "Dirty Fighter": {
+  "ids": [
+   681498
+  ],
+  "icon": null
+ },
+ "Displacement": {
+  "ids": [
+   704309
+  ],
+  "icon": null
+ },
+ "Double The Pace": {
+  "ids": [
+   705031
+  ],
+  "icon": null
+ },
+ "Double Up": {
+  "ids": [
+   520787
+  ],
+  "icon": null
+ },
+ "Doublestitched Waterskin": {
+  "ids": [
+   802812
+  ],
+  "icon": null
+ },
+ "Dragonhawk": {
+  "ids": [
+   681393
+  ],
+  "icon": null
+ },
+ "Dragonhawk Strike Applier": {
+  "ids": [
+   803504
+  ],
+  "icon": null
+ },
+ "Dragonhawk Tamer": {
+  "ids": [
+   573056
+  ],
+  "icon": null
+ },
+ "Dream Flower": {
+  "ids": [
+   561005
+  ],
+  "icon": null
+ },
+ "Dream Flowers": {
+  "ids": [
+   92117
+  ],
+  "icon": null
+ },
+ "Dueling": {
+  "ids": [
+   803110
+  ],
+  "icon": null
+ },
+ "Durable Quivers": {
+  "ids": [
+   706279
+  ],
+  "icon": null
+ },
+ "Dust Toss": {
+  "ids": [
+   807820
+  ],
+  "icon": null
+ },
+ "Echoes of War": {
+  "ids": [
+   300851
+  ],
+  "icon": null
+ },
+ "Effortless": {
+  "ids": [
+   705025
+  ],
+  "icon": null
+ },
+ "Eldritch Bargain": {
+  "ids": [
+   804332
+  ],
+  "icon": null
+ },
+ "Elemental Fletcher": {
+  "ids": [
+   705058
+  ],
+  "icon": null
+ },
+ "Elemental Fletcher Reset": {
+  "ids": [
+   704329
+  ],
+  "icon": null
+ },
+ "Elemental Secrets": {
+  "ids": [
+   707094
+  ],
+  "icon": null
+ },
+ "Elemental Shot": {
+  "ids": [
+   704315
+  ],
+  "icon": null
+ },
+ "Elude": {
+  "ids": [
+   800701
+  ],
+  "icon": null
+ },
+ "Elude SLS2": {
+  "ids": [
+   524886
+  ],
+  "icon": null
+ },
+ "Elude SLS3": {
+  "ids": [
+   524969
+  ],
+  "icon": null
+ },
+ "Elusive Blades": {
+  "ids": [
+   560335
+  ],
+  "icon": null
+ },
+ "Elusive Character": {
+  "ids": [
+   560340
+  ],
+  "icon": null
+ },
+ "Elven Enchantments": {
+  "ids": [
+   560698
+  ],
+  "icon": null
+ },
+ "Elven Quivers": {
+  "ids": [
+   706278
+  ],
+  "icon": null
+ },
+ "Elven Tactics": {
+  "ids": [
+   560701
+  ],
+  "icon": null
+ },
+ "Emerald Arrow": {
+  "ids": [
+   804712
+  ],
+  "icon": null
+ },
+ "Emerald Dreamer": {
+  "ids": [
+   803344
+  ],
+  "icon": null
+ },
+ "Emerald Dreamer Front": {
+  "ids": [
+   803510
+  ],
+  "icon": null
+ },
+ "Empowered": {
+  "ids": [
+   801579
+  ],
+  "icon": null
+ },
+ "Enchanted Flare": {
+  "ids": [
+   801935
+  ],
+  "icon": null
+ },
+ "Endurance Training": {
+  "ids": [
+   705039
+  ],
+  "icon": null
+ },
+ "Endurance of the Ranger": {
+  "ids": [
+   560808
+  ],
+  "icon": null
+ },
+ "Energize + 3 Focus": {
+  "ids": [
+   561183
+  ],
+  "icon": null
+ },
+ "Envenomed Check": {
+  "ids": [
+   500106
+  ],
+  "icon": null
+ },
+ "Envenomed Focus Drain": {
+  "ids": [
+   500105
+  ],
+  "icon": null
+ },
+ "Eternal Balance": {
+  "ids": [
+   804357
+  ],
+  "icon": null
+ },
+ "Eternal Knockdown": {
+  "ids": [
+   520758
+  ],
+  "icon": null
+ },
+ "Even Quicker Shots": {
+  "ids": [
+   705030
+  ],
+  "icon": null
+ },
+ "Excessive But Necessary": {
+  "ids": [
+   804939
+  ],
+  "icon": null
+ },
+ "Excruciating Poison": {
+  "ids": [
+   704544
+  ],
+  "icon": null
+ },
+ "Expert Navigation": {
+  "ids": [
+   803119
+  ],
+  "icon": null
+ },
+ "Expert Waterskin": {
+  "ids": [
+   802815
+  ],
+  "icon": null
+ },
+ "Exploit": {
+  "ids": [
+   520570
+  ],
+  "icon": null
+ },
+ "Falcon Caller": {
+  "ids": [
+   300893
+  ],
+  "icon": null
+ },
+ "Falcon Charmer": {
+  "ids": [
+   705076
+  ],
+  "icon": null
+ },
+ "Falcon Dive": {
+  "ids": [
+   806341
+  ],
+  "icon": null
+ },
+ "Falcon Diving": {
+  "ids": [
+   520783
+  ],
+  "icon": null
+ },
+ "Falcon Guide": {
+  "ids": [
+   520586
+  ],
+  "icon": null
+ },
+ "Falcon Rush": {
+  "ids": [
+   800295
+  ],
+  "icon": null
+ },
+ "Falcon Scaling": {
+  "ids": [
+   800249
+  ],
+  "icon": null
+ },
+ "Falcon Scout": {
+  "ids": [
+   561395
+  ],
+  "icon": null
+ },
+ "Falcon's Aid": {
+  "ids": [
+   705075
+  ],
+  "icon": null
+ },
+ "Falcon's Call": {
+  "ids": [
+   800251
+  ],
+  "icon": null
+ },
+ "Falconmark": {
+  "ids": [
+   802040
+  ],
+  "icon": null
+ },
+ "Falconstrike": {
+  "ids": [
+   573060
+  ],
+  "icon": null
+ },
+ "Falconstrike Summon": {
+  "ids": [
+   520588
+  ],
+  "icon": null
+ },
+ "Falconstrike Summon Trigger": {
+  "ids": [
+   520587
+  ],
+  "icon": null
+ },
+ "Farstrider - Level 50 Passive": {
+  "ids": [
+   807298
+  ],
+  "icon": null
+ },
+ "Farstrider A ICD": {
+  "ids": [
+   520606
+  ],
+  "icon": null
+ },
+ "Farstrider B ICD": {
+  "ids": [
+   520607
+  ],
+  "icon": null
+ },
+ "Farstrider Passive (A)": {
+  "ids": [
+   520602
+  ],
+  "icon": null
+ },
+ "Farstrider Passive (B)": {
+  "ids": [
+   520603
+  ],
+  "icon": null
+ },
+ "Farstrider Proc A": {
+  "ids": [
+   520604
+  ],
+  "icon": null
+ },
+ "Farstrider Proc B": {
+  "ids": [
+   520605
+  ],
+  "icon": null
+ },
+ "Farstrider Ranger": {
+  "ids": [
+   520616
+  ],
+  "icon": null
+ },
+ "Farstrider's Command": {
+  "ids": [
+   704172
+  ],
+  "icon": null
+ },
+ "Farstrider's Focus": {
+  "ids": [
+   503628
+  ],
+  "icon": null
+ },
+ "Farstrider's Leap": {
+  "ids": [
+   300463
+  ],
+  "icon": null
+ },
+ "Farstrider's Opportunity": {
+  "ids": [
+   300462
+  ],
+  "icon": null
+ },
+ "Fencing": {
+  "ids": [
+   300705
+  ],
+  "icon": null
+ },
+ "Feral Pressure": {
+  "ids": [
+   534605
+  ],
+  "icon": null
+ },
+ "Fighting Dirty": {
+  "ids": [
+   684329
+  ],
+  "icon": null
+ },
+ "Fire Arrows": {
+  "ids": [
+   681109
+  ],
+  "icon": null
+ },
+ "Flaming Arrow": {
+  "ids": [
+   500081
+  ],
+  "icon": null
+ },
+ "Flank": {
+  "ids": [
+   804940
+  ],
+  "icon": null
+ },
+ "Flank (Archery Visual)": {
+  "ids": [
+   520352
+  ],
+  "icon": null
+ },
+ "Flank (Farstrider Visual)": {
+  "ids": [
+   524614
+  ],
+  "icon": null
+ },
+ "Flank Dagger Damage Setter": {
+  "ids": [
+   582754
+  ],
+  "icon": null
+ },
+ "Flower Fantasy": {
+  "ids": [
+   561007
+  ],
+  "icon": null
+ },
+ "Flower Fantasy Trigger": {
+  "ids": [
+   561008
+  ],
+  "icon": null
+ },
+ "Flower Fantasy Visual / Periodic Proc": {
+  "ids": [
+   561006
+  ],
+  "icon": null
+ },
+ "Focused Fighter": {
+  "ids": [
+   807206
+  ],
+  "icon": null
+ },
+ "Follow Up trigger": {
+  "ids": [
+   560350
+  ],
+  "icon": null
+ },
+ "Footpad's Adaptation": {
+  "ids": [
+   523489
+  ],
+  "icon": null
+ },
+ "Forest Dweller": {
+  "ids": [
+   524863
+  ],
+  "icon": null
+ },
+ "Forest Fighter": {
+  "ids": [
+   560806
+  ],
+  "icon": null
+ },
+ "Forest Fighter Skullpiercer": {
+  "ids": [
+   706315
+  ],
+  "icon": null
+ },
+ "Forest Fighter Trigger": {
+  "ids": [
+   524622
+  ],
+  "icon": null
+ },
+ "Forest Herald": {
+  "ids": [
+   800150
+  ],
+  "icon": null
+ },
+ "Forest Navigator": {
+  "ids": [
+   300711
+  ],
+  "icon": null
+ },
+ "Forestfall": {
+  "ids": [
+   557330
+  ],
+  "icon": null
+ },
+ "Forestwood Key": {
+  "ids": [
+   804759
+  ],
+  "icon": null
+ },
+ "Forward March Visual": {
+  "ids": [
+   520620
+  ],
+  "icon": null
+ },
+ "Freedom": {
+  "ids": [
+   520628
+  ],
+  "icon": null
+ },
+ "Freezing Toxin": {
+  "ids": [
+   570227
+  ],
+  "icon": null
+ },
+ "Frenzy": {
+  "ids": [
+   520492
+  ],
+  "icon": null
+ },
+ "Frozen!": {
+  "ids": [
+   805970
+  ],
+  "icon": null
+ },
+ "Fungal Growth": {
+  "ids": [
+   806000
+  ],
+  "icon": null
+ },
+ "Generate 1 Advantage": {
+  "ids": [
+   805974
+  ],
+  "icon": null
+ },
+ "Generate 2 Advantage": {
+  "ids": [
+   801699
+  ],
+  "icon": null
+ },
+ "Generate 3 Advantage": {
+  "ids": [
+   560964
+  ],
+  "icon": null
+ },
+ "Generate 3 Farstrider's Arrows": {
+  "ids": [
+   801082
+  ],
+  "icon": null
+ },
+ "Gladiator Check": {
+  "ids": [
+   704328
+  ],
+  "icon": null
+ },
+ "Gloomstalker": {
+  "ids": [
+   805737
+  ],
+  "icon": null
+ },
+ "Grace": {
+  "ids": [
+   705092
+  ],
+  "icon": null
+ },
+ "Grappling Arrows": {
+  "ids": [
+   561106
+  ],
+  "icon": null
+ },
+ "Greater Footpad's Adaptation": {
+  "ids": [
+   523513
+  ],
+  "icon": null
+ },
+ "Greater Precision": {
+  "ids": [
+   705024
+  ],
+  "icon": null
+ },
+ "Greater Woodsman's Adaptation": {
+  "ids": [
+   680294
+  ],
+  "icon": null
+ },
+ "Greenwood Cloak": {
+  "ids": [
+   524648
+  ],
+  "icon": null
+ },
+ "Grovewood Key": {
+  "ids": [
+   807959
+  ],
+  "icon": null
+ },
+ "Guidance": {
+  "ids": [
+   532261
+  ],
+  "icon": null
+ },
+ "Guile of the Cutthroat": {
+  "ids": [
+   560531
+  ],
+  "icon": null
+ },
+ "Guile of the Ranger": {
+  "ids": [
+   520353
+  ],
+  "icon": null
+ },
+ "Guise": {
+  "ids": [
+   520753
+  ],
+  "icon": null
+ },
+ "Gutpiercer": {
+  "ids": [
+   573059
+  ],
+  "icon": null
+ },
+ "Hack": {
+  "ids": [
+   800264
+  ],
+  "icon": null
+ },
+ "Hailfire": {
+  "ids": [
+   706283
+  ],
+  "icon": null
+ },
+ "Hardened Waterskin": {
+  "ids": [
+   802813
+  ],
+  "icon": null
+ },
+ "Harvest Charge": {
+  "ids": [
+   6191
+  ],
+  "icon": null
+ },
+ "Hawkeye": {
+  "ids": [
+   800358
+  ],
+  "icon": null
+ },
+ "Headshots Only": {
+  "ids": [
+   572106
+  ],
+  "icon": null
+ },
+ "Heartwood Key": {
+  "ids": [
+   808074
+  ],
+  "icon": null
+ },
+ "Heavy Bolt": {
+  "ids": [
+   804714
+  ],
+  "icon": null
+ },
+ "Heightened Senses": {
+  "ids": [
+   561320
+  ],
+  "icon": null
+ },
+ "Hidden": {
+  "ids": [
+   706443
+  ],
+  "icon": null
+ },
+ "Hide": {
+  "ids": [
+   800273
+  ],
+  "icon": null
+ },
+ "Highlander": {
+  "ids": [
+   707534
+  ],
+  "icon": null
+ },
+ "Highwayman": {
+  "ids": [
+   705062
+  ],
+  "icon": null
+ },
+ "Hooked": {
+  "ids": [
+   803852
+  ],
+  "icon": null
+ },
+ "Hookshot": {
+  "ids": [
+   800360
+  ],
+  "icon": null
+ },
+ "Horn Extension 2": {
+  "ids": [
+   300880
+  ],
+  "icon": null
+ },
+ "Horn of Alacrity": {
+  "ids": [
+   806360
+  ],
+  "icon": null
+ },
+ "Horn of Endurance": {
+  "ids": [
+   806359
+  ],
+  "icon": null
+ },
+ "Horn of Perseverance": {
+  "ids": [
+   800088
+  ],
+  "icon": null
+ },
+ "Horn of War": {
+  "ids": [
+   800086
+  ],
+  "icon": null
+ },
+ "Hunting Quiver": {
+  "ids": [
+   800262
+  ],
+  "icon": null
+ },
+ "Hunting Season": {
+  "ids": [
+   560693
+  ],
+  "icon": null
+ },
+ "Hunting Shot": {
+  "ids": [
+   801191
+  ],
+  "icon": null
+ },
+ "Hunting Tactics": {
+  "ids": [
+   300897
+  ],
+  "icon": null
+ },
+ "Hunting with Precision": {
+  "ids": [
+   524867
+  ],
+  "icon": null
+ },
+ "Hydra's Bite": {
+  "ids": [
+   503106
+  ],
+  "icon": null
+ },
+ "Improved Falconmark": {
+  "ids": [
+   802041
+  ],
+  "icon": null
+ },
+ "Improved Grapplebomb": {
+  "ids": [
+   705090
+  ],
+  "icon": null
+ },
+ "Improved Serrated Shot": {
+  "ids": [
+   707888
+  ],
+  "icon": null
+ },
+ "Improved Waterskins": {
+  "ids": [
+   573057
+  ],
+  "icon": null
+ },
+ "Incendiary Arrows": {
+  "ids": [
+   524869
+  ],
+  "icon": null
+ },
+ "Incendiary Explosion": {
+  "ids": [
+   570182
+  ],
+  "icon": null
+ },
+ "Incendiary Shot": {
+  "ids": [
+   524868
+  ],
+  "icon": null
+ },
+ "Infected Blood": {
+  "ids": [
+   805035
+  ],
+  "icon": null
+ },
+ "Infected Claws": {
+  "ids": [
+   805008
+  ],
+  "icon": null
+ },
+ "Instinct": {
+  "ids": [
+   801434
+  ],
+  "icon": null
+ },
+ "Instinctual Combatant": {
+  "ids": [
+   520572
+  ],
+  "icon": null
+ },
+ "Ironstrike": {
+  "ids": [
+   801188
+  ],
+  "icon": null
+ },
+ "Is A Ranger Horn": {
+  "ids": [
+   806959
+  ],
+  "icon": null
+ },
+ "Jack Of All Trades": {
+  "ids": [
+   524628
+  ],
+  "icon": null
+ },
+ "Jacked": {
+  "ids": [
+   524626
+  ],
+  "icon": null
+ },
+ "Jagged Cuts": {
+  "ids": [
+   807668
+  ],
+  "icon": null
+ },
+ "Jagged Edge": {
+  "ids": [
+   567592
+  ],
+  "icon": null
+ },
+ "Javelin Toss": {
+  "ids": [
+   801081
+  ],
+  "icon": null
+ },
+ "Journeyman Navigation": {
+  "ids": [
+   803107
+  ],
+  "icon": null
+ },
+ "Keen Eye": {
+  "ids": [
+   560699
+  ],
+  "icon": null
+ },
+ "Killing Precision": {
+  "ids": [
+   705035
+  ],
+  "icon": null
+ },
+ "Knockdown": {
+  "ids": [
+   520871
+  ],
+  "icon": null
+ },
+ "Knockout": {
+  "ids": [
+   560425
+  ],
+  "icon": null
+ },
+ "Knuckleduster": {
+  "ids": [
+   706497
+  ],
+  "icon": null
+ },
+ "Kobe Invisibility": {
+  "ids": [
+   801980
+  ],
+  "icon": null
+ },
+ "Lacerations": {
+  "ids": [
+   573044
+  ],
+  "icon": null
+ },
+ "Lethal Cunning": {
+  "ids": [
+   704320
+  ],
+  "icon": null
+ },
+ "Lethal Wounds": {
+  "ids": [
+   705055
+  ],
+  "icon": null
+ },
+ "Lie In Wait": {
+  "ids": [
+   806349
+  ],
+  "icon": null
+ },
+ "Light Arrows": {
+  "ids": [
+   681292
+  ],
+  "icon": null
+ },
+ "Light Quiver": {
+  "ids": [
+   800261
+  ],
+  "icon": null
+ },
+ "Limb Hacker": {
+  "ids": [
+   560338
+  ],
+  "icon": null
+ },
+ "Lunar Zenith": {
+  "ids": [
+   712432
+  ],
+  "icon": null
+ },
+ "Mana Sphere": {
+  "ids": [
+   561218
+  ],
+  "icon": null
+ },
+ "Mana Sphere Trigger": {
+  "ids": [
+   561219
+  ],
+  "icon": null
+ },
+ "Mark of the Beast": {
+  "ids": [
+   803332
+  ],
+  "icon": null
+ },
+ "Marked for Death": {
+  "ids": [
+   806973
+  ],
+  "icon": null
+ },
+ "Master Marksman": {
+  "ids": [
+   504015
+  ],
+  "icon": null
+ },
+ "Master Mind": {
+  "ids": [
+   706746
+  ],
+  "icon": null
+ },
+ "Master of Knives": {
+  "ids": [
+   301240
+  ],
+  "icon": null
+ },
+ "Masterful Archery": {
+  "ids": [
+   573450
+  ],
+  "icon": null
+ },
+ "Masterwork Waterskin": {
+  "ids": [
+   802817
+  ],
+  "icon": null
+ },
+ "Maximum Power": {
+  "ids": [
+   560688
+  ],
+  "icon": null
+ },
+ "Melee Affinity": {
+  "ids": [
+   805890
+  ],
+  "icon": null
+ },
+ "Mighty Arbalest": {
+  "ids": [
+   804182
+  ],
+  "icon": null
+ },
+ "Mistvale Bone Club": {
+  "ids": [
+   807521
+  ],
+  "icon": null
+ },
+ "Mistvale Tendon Longbow": {
+  "ids": [
+   807315
+  ],
+  "icon": null
+ },
+ "Mortal Shots": {
+  "ids": [
+   707380
+  ],
+  "icon": null
+ },
+ "Mysterious Mushrooms": {
+  "ids": [
+   560725
+  ],
+  "icon": null
+ },
+ "Natural Disguise": {
+  "ids": [
+   520585
+  ],
+  "icon": null
+ },
+ "Neptulon's Wrath": {
+  "ids": [
+   537252
+  ],
+  "icon": null
+ },
+ "Nerve Venom": {
+  "ids": [
+   570244
+  ],
+  "icon": null
+ },
+ "Neurotoxin Arrow": {
+  "ids": [
+   500071
+  ],
+  "icon": null
+ },
+ "New-Age Archery": {
+  "ids": [
+   574137
+  ],
+  "icon": null
+ },
+ "Nightblade": {
+  "ids": [
+   705049
+  ],
+  "icon": null
+ },
+ "Nightshade Venom": {
+  "ids": [
+   301168
+  ],
+  "icon": null
+ },
+ "Nimble": {
+  "ids": [
+   301066
+  ],
+  "icon": null
+ },
+ "No Mercy": {
+  "ids": [
+   520581
+  ],
+  "icon": null
+ },
+ "Offhand": {
+  "ids": [
+   801569
+  ],
+  "icon": null
+ },
+ "Offhand Gunshot Visual Cannon Blast": {
+  "ids": [
+   800599
+  ],
+  "icon": null
+ },
+ "Oil Dip": {
+  "ids": [
+   807954
+  ],
+  "icon": null
+ },
+ "On The Hunt": {
+  "ids": [
+   302050
+  ],
+  "icon": null
+ },
+ "On The Hunt (Bow)": {
+  "ids": [
+   802154
+  ],
+  "icon": null
+ },
+ "One Shot, One Kill": {
+  "ids": [
+   525048
+  ],
+  "icon": null
+ },
+ "One With The Forest": {
+  "ids": [
+   300707
+  ],
+  "icon": null
+ },
+ "Onslaught": {
+  "ids": [
+   800361
+  ],
+  "icon": null
+ },
+ "Onslaught Visual": {
+  "ids": [
+   520600
+  ],
+  "icon": null
+ },
+ "Opportunist": {
+  "ids": [
+   524660
+  ],
+  "icon": null
+ },
+ "Order and Chaos": {
+  "ids": [
+   804513
+  ],
+  "icon": null
+ },
+ "Outlaw": {
+  "ids": [
+   706276
+  ],
+  "icon": null
+ },
+ "Outmaneuver": {
+  "ids": [
+   557325
+  ],
+  "icon": null
+ },
+ "Outplayed": {
+  "ids": [
+   524657
+  ],
+  "icon": null
+ },
+ "Outplayed Trigger": {
+  "ids": [
+   524656
+  ],
+  "icon": null
+ },
+ "PLACEHOLDER": {
+  "ids": [
+   520701
+  ],
+  "icon": null
+ },
+ "Path of the Wild Hidden Pasive": {
+  "ids": [
+   704316
+  ],
+  "icon": null
+ },
+ "Pathfinder": {
+  "ids": [
+   500336
+  ],
+  "icon": null
+ },
+ "Pecking": {
+  "ids": [
+   570737
+  ],
+  "icon": null
+ },
+ "Petalkeeper": {
+  "ids": [
+   520925
+  ],
+  "icon": null
+ },
+ "Petals": {
+  "ids": [
+   521220
+  ],
+  "icon": null
+ },
+ "Phoenix Plumes": {
+  "ids": [
+   520558
+  ],
+  "icon": null
+ },
+ "Pierced": {
+  "ids": [
+   705033
+  ],
+  "icon": null
+ },
+ "Piercing Play": {
+  "ids": [
+   680478
+  ],
+  "icon": null
+ },
+ "Piercing Shot": {
+  "ids": [
+   300881
+  ],
+  "icon": null
+ },
+ "Pilfering": {
+  "ids": [
+   705087
+  ],
+  "icon": null
+ },
+ "Pillager": {
+  "ids": [
+   300702
+  ],
+  "icon": null
+ },
+ "Pillaging": {
+  "ids": [
+   520573
+  ],
+  "icon": null
+ },
+ "Pinpoint Accuracy": {
+  "ids": [
+   801468
+  ],
+  "icon": null
+ },
+ "Playing Dirty!": {
+  "ids": [
+   681787
+  ],
+  "icon": null
+ },
+ "Plumes of War": {
+  "ids": [
+   705071
+  ],
+  "icon": null
+ },
+ "Plumes of War Horn Extension": {
+  "ids": [
+   520642
+  ],
+  "icon": null
+ },
+ "Plumes of War Horn Extension 2": {
+  "ids": [
+   520643
+  ],
+  "icon": null
+ },
+ "Poison Quills": {
+  "ids": [
+   561300
+  ],
+  "icon": null
+ },
+ "Poison Quiver": {
+  "ids": [
+   500104
+  ],
+  "icon": null
+ },
+ "Poison Savant": {
+  "ids": [
+   802622
+  ],
+  "icon": null
+ },
+ "Poison Seeds": {
+  "ids": [
+   707318
+  ],
+  "icon": null
+ },
+ "Poison Seeds Deepwood Poison Trigger": {
+  "ids": [
+   525023
+  ],
+  "icon": null
+ },
+ "Polearm Craft": {
+  "ids": [
+   707885
+  ],
+  "icon": null
+ },
+ "Power Shot": {
+  "ids": [
+   500070
+  ],
+  "icon": null
+ },
+ "Power Shots": {
+  "ids": [
+   804110
+  ],
+  "icon": null
+ },
+ "Precise": {
+  "ids": [
+   578332
+  ],
+  "icon": null
+ },
+ "Precision": {
+  "ids": [
+   805648
+  ],
+  "icon": null
+ },
+ "Precision Shot": {
+  "ids": [
+   500075
+  ],
+  "icon": null
+ },
+ "Preloaded": {
+  "ids": [
+   300709
+  ],
+  "icon": null
+ },
+ "Quel'dorei Poison": {
+  "ids": [
+   560802
+  ],
+  "icon": null
+ },
+ "Quick Footed": {
+  "ids": [
+   705066
+  ],
+  "icon": null
+ },
+ "Quick Shot": {
+  "ids": [
+   500074
+  ],
+  "icon": null
+ },
+ "Quick-Witted": {
+  "ids": [
+   704311
+  ],
+  "icon": null
+ },
+ "Quills": {
+  "ids": [
+   560966
+  ],
+  "icon": null
+ },
+ "Rain of Arrows": {
+  "ids": [
+   704095
+  ],
+  "icon": null
+ },
+ "Rally The Archers": {
+  "ids": [
+   705088
+  ],
+  "icon": null
+ },
+ "Ranged Affinity": {
+  "ids": [
+   805889
+  ],
+  "icon": null
+ },
+ "Ranger - Crippling Arrows Debuff": {
+  "ids": [
+   800015
+  ],
+  "icon": null
+ },
+ "Ranger - Removed Ammo Costs": {
+  "ids": [
+   704387
+  ],
+  "icon": null
+ },
+ "Ranger - Spread Arrows Debuff": {
+  "ids": [
+   800042
+  ],
+  "icon": null
+ },
+ "Ranger - Weapon Buff Applier": {
+  "ids": [
+   804356
+  ],
+  "icon": null
+ },
+ "Ranger General's Command": {
+  "ids": [
+   520619
+  ],
+  "icon": null
+ },
+ "Ranger Horn CD Reduction": {
+  "ids": [
+   807001
+  ],
+  "icon": null
+ },
+ "Ranger Horn CD Reduction 2": {
+  "ids": [
+   520640
+  ],
+  "icon": null
+ },
+ "Ranger's Calling": {
+  "ids": [
+   560803
+  ],
+  "icon": null
+ },
+ "Ranger's Gambit": {
+  "ids": [
+   803103
+  ],
+  "icon": null
+ },
+ "Ranger's Guile": {
+  "ids": [
+   705086
+  ],
+  "icon": null
+ },
+ "Ranger's Horn After Casting Script Trigger": {
+  "ids": [
+   801538
+  ],
+  "icon": null
+ },
+ "Ranger's Horn of - unused": {
+  "ids": [
+   501769
+  ],
+  "icon": null
+ },
+ "Ranger's Horn of -unused": {
+  "ids": [
+   501764
+  ],
+  "icon": null
+ },
+ "Ranger's Horn of Coordination": {
+  "ids": [
+   800087
+  ],
+  "icon": null
+ },
+ "Ranger's Horn of Endurance Personal Cadence Proc": {
+  "ids": [
+   520630
+  ],
+  "icon": null
+ },
+ "Ranger's Horn-unused": {
+  "ids": [
+   800278
+  ],
+  "icon": null
+ },
+ "Ranger's Map": {
+  "ids": [
+   803868
+  ],
+  "icon": null
+ },
+ "Rapid Ballista": {
+  "ids": [
+   504009
+  ],
+  "icon": null
+ },
+ "Rapid Strike": {
+  "ids": [
+   560342
+  ],
+  "icon": null
+ },
+ "Rapid Strikes": {
+  "ids": [
+   560341
+  ],
+  "icon": null
+ },
+ "Ravage": {
+  "ids": [
+   803851
+  ],
+  "icon": null
+ },
+ "Ravage (UNUSED)": {
+  "ids": [
+   560101
+  ],
+  "icon": null
+ },
+ "Ravager": {
+  "ids": [
+   92116
+  ],
+  "icon": null
+ },
+ "Ravaging Venom": {
+  "ids": [
+   560346
+  ],
+  "icon": null
+ },
+ "Razorquills": {
+  "ids": [
+   705072
+  ],
+  "icon": null
+ },
+ "Read Map": {
+  "ids": [
+   800272
+  ],
+  "icon": null
+ },
+ "Readiness": {
+  "ids": [
+   705041
+  ],
+  "icon": null
+ },
+ "Recently Left Elude": {
+  "ids": [
+   560960
+  ],
+  "icon": null
+ },
+ "Red Dream": {
+  "ids": [
+   521451
+  ],
+  "icon": null
+ },
+ "Refined Waterskin": {
+  "ids": [
+   802814
+  ],
+  "icon": null
+ },
+ "Remove 4 Advantage": {
+  "ids": [
+   704338
+  ],
+  "icon": null
+ },
+ "Remove Can Use Flank": {
+  "ids": [
+   524927
+  ],
+  "icon": null
+ },
+ "Remove Can Use Flank Trigger": {
+  "ids": [
+   524928
+  ],
+  "icon": null
+ },
+ "Reposition": {
+  "ids": [
+   800085
+  ],
+  "icon": null
+ },
+ "Resourceful": {
+  "ids": [
+   504008
+  ],
+  "icon": null
+ },
+ "Rhythm of Alacrity": {
+  "ids": [
+   300898
+  ],
+  "icon": null
+ },
+ "Rhythm of Endurance": {
+  "ids": [
+   300895
+  ],
+  "icon": null
+ },
+ "Rhythm of Perserverance": {
+  "ids": [
+   300896
+  ],
+  "icon": null
+ },
+ "Rhythm of War": {
+  "ids": [
+   300894
+  ],
+  "icon": null
+ },
+ "Rider's Harness": {
+  "ids": [
+   800270
+  ],
+  "icon": null
+ },
+ "Ripped": {
+  "ids": [
+   513298
+  ],
+  "icon": null
+ },
+ "Ripper Saw": {
+  "ids": [
+   513125
+  ],
+  "icon": null
+ },
+ "Ripper Saw Spawner": {
+  "ids": [
+   513122
+  ],
+  "icon": null
+ },
+ "Ripyank": {
+  "ids": [
+   806343
+  ],
+  "icon": null
+ },
+ "Rough Waterskin": {
+  "ids": [
+   802810
+  ],
+  "icon": null
+ },
+ "Roughed Up": {
+  "ids": [
+   800082
+  ],
+  "icon": null
+ },
+ "Rub It In": {
+  "ids": [
+   705085
+  ],
+  "icon": null
+ },
+ "Runemaster Apply Weapon Buffs": {
+  "ids": [
+   800958
+  ],
+  "icon": null
+ },
+ "Runic Tattoos: Frost": {
+  "ids": [
+   707731
+  ],
+  "icon": null
+ },
+ "Rusty Shiv": {
+  "ids": [
+   561315
+  ],
+  "icon": null
+ },
+ "Sapsting": {
+  "ids": [
+   560018
+  ],
+  "icon": null
+ },
+ "Saw Claw": {
+  "ids": [
+   570020
+  ],
+  "icon": null
+ },
+ "Scavenger": {
+  "ids": [
+   520834
+  ],
+  "icon": null
+ },
+ "Searing Quills": {
+  "ids": [
+   561145
+  ],
+  "icon": null
+ },
+ "Searing Quiver": {
+  "ids": [
+   500103
+  ],
+  "icon": null
+ },
+ "Serrated Shot": {
+  "ids": [
+   500073
+  ],
+  "icon": null
+ },
+ "Serrated Shot Visual": {
+  "ids": [
+   524871
+  ],
+  "icon": null
+ },
+ "Serrations": {
+  "ids": [
+   705050
+  ],
+  "icon": null
+ },
+ "Set Up": {
+  "ids": [
+   300708
+  ],
+  "icon": null
+ },
+ "Shadow Spirit": {
+  "ids": [
+   561070
+  ],
+  "icon": null
+ },
+ "Shadowhunter's Spirit Fantasy": {
+  "ids": [
+   561285
+  ],
+  "icon": null
+ },
+ "Shaky Morals": {
+  "ids": [
+   705045
+  ],
+  "icon": null
+ },
+ "Sharpshooter": {
+  "ids": [
+   582855
+  ],
+  "icon": null
+ },
+ "Silent, But Deadly": {
+  "ids": [
+   524872
+  ],
+  "icon": null
+ },
+ "Skewer": {
+  "ids": [
+   800093
+  ],
+  "icon": null
+ },
+ "Skewer (Pull)": {
+  "ids": [
+   800153
+  ],
+  "icon": null
+ },
+ "Skinner's Grip": {
+  "ids": [
+   802809
+  ],
+  "icon": null
+ },
+ "Skirmish": {
+  "ids": [
+   802039
+  ],
+  "icon": null
+ },
+ "Skirmisher": {
+  "ids": [
+   92115
+  ],
+  "icon": null
+ },
+ "Skirmisher's Quiver": {
+  "ids": [
+   801069
+  ],
+  "icon": null
+ },
+ "Skullpiercer": {
+  "ids": [
+   802036
+  ],
+  "icon": null
+ },
+ "Skullpiercer Focus": {
+  "ids": [
+   802311
+  ],
+  "icon": null
+ },
+ "Slick": {
+  "ids": [
+   560945
+  ],
+  "icon": null
+ },
+ "Slinging Bolts": {
+  "ids": [
+   804404
+  ],
+  "icon": null
+ },
+ "Sly": {
+  "ids": [
+   560339
+  ],
+  "icon": null
+ },
+ "Smash": {
+  "ids": [
+   706747
+  ],
+  "icon": null
+ },
+ "Snapseed": {
+  "ids": [
+   804027
+  ],
+  "icon": null
+ },
+ "Snatch": {
+  "ids": [
+   560496
+  ],
+  "icon": null
+ },
+ "Snatched Weapon": {
+  "ids": [
+   803739
+  ],
+  "icon": null
+ },
+ "Sniper's Focus": {
+  "ids": [
+   680470
+  ],
+  "icon": null
+ },
+ "Sound the Horns": {
+  "ids": [
+   573271
+  ],
+  "icon": null
+ },
+ "Spawn Red Dreamflower": {
+  "ids": [
+   521222
+  ],
+  "icon": null
+ },
+ "Splintered Arrows": {
+  "ids": [
+   504442
+  ],
+  "icon": null
+ },
+ "Spread Arrows": {
+  "ids": [
+   804400
+  ],
+  "icon": null
+ },
+ "Spread Shot": {
+  "ids": [
+   501708
+  ],
+  "icon": null
+ },
+ "Stalker": {
+  "ids": [
+   561110
+  ],
+  "icon": null
+ },
+ "Stalker Delayed Remover": {
+  "ids": [
+   806979
+  ],
+  "icon": null
+ },
+ "Stalker Remover": {
+  "ids": [
+   807008
+  ],
+  "icon": null
+ },
+ "Stays In Moonbrook": {
+  "ids": [
+   300701
+  ],
+  "icon": null
+ },
+ "Steer Boat": {
+  "ids": [
+   800305
+  ],
+  "icon": null
+ },
+ "Sticky Fingers": {
+  "ids": [
+   804669
+  ],
+  "icon": null
+ },
+ "Stonemason's Secret": {
+  "ids": [
+   524653
+  ],
+  "icon": null
+ },
+ "Strider Strike Check": {
+  "ids": [
+   800076
+  ],
+  "icon": null
+ },
+ "Strider Strike Reset": {
+  "ids": [
+   800075
+  ],
+  "icon": null
+ },
+ "Strider's Blade": {
+  "ids": [
+   800244
+  ],
+  "icon": null
+ },
+ "Strider's Blade Consume": {
+  "ids": [
+   805891
+  ],
+  "icon": null
+ },
+ "Strike Where It Hurts": {
+  "ids": [
+   567588
+  ],
+  "icon": null
+ },
+ "Studded Arrows": {
+  "ids": [
+   300706
+  ],
+  "icon": null
+ },
+ "Sucker Punch": {
+  "ids": [
+   681235
+  ],
+  "icon": null
+ },
+ "Superb Shot": {
+  "ids": [
+   301249
+  ],
+  "icon": null
+ },
+ "Superior Waterskin": {
+  "ids": [
+   802816
+  ],
+  "icon": null
+ },
+ "Surefooted": {
+  "ids": [
+   560814
+  ],
+  "icon": null
+ },
+ "Survival Expert": {
+  "ids": [
+   560959
+  ],
+  "icon": null
+ },
+ "Survival Kit": {
+  "ids": [
+   504327
+  ],
+  "icon": null
+ },
+ "Survival Potion": {
+  "ids": [
+   704341
+  ],
+  "icon": null
+ },
+ "Survivalist": {
+  "ids": [
+   707418
+  ],
+  "icon": null
+ },
+ "Swashbuckler": {
+  "ids": [
+   800989
+  ],
+  "icon": null
+ },
+ "Swashbuckler Check": {
+  "ids": [
+   801011
+  ],
+  "icon": null
+ },
+ "Swift Arrows": {
+  "ids": [
+   560702
+  ],
+  "icon": null
+ },
+ "Swiftshot": {
+  "ids": [
+   705028
+  ],
+  "icon": null
+ },
+ "Tactician": {
+  "ids": [
+   800245
+  ],
+  "icon": null
+ },
+ "Test Shot": {
+  "ids": [
+   520355
+  ],
+  "icon": null
+ },
+ "Thalassian Brand": {
+  "ids": [
+   560805
+  ],
+  "icon": null
+ },
+ "The Deadeye": {
+  "ids": [
+   865315
+  ],
+  "icon": null
+ },
+ "Thread The Needle": {
+  "ids": [
+   503647
+  ],
+  "icon": null
+ },
+ "Threaded": {
+  "ids": [
+   524830
+  ],
+  "icon": null
+ },
+ "Throatpunch": {
+  "ids": [
+   500617
+  ],
+  "icon": null
+ },
+ "Thuggery": {
+  "ids": [
+   560343
+  ],
+  "icon": null
+ },
+ "Tip of the Spear": {
+  "ids": [
+   807023
+  ],
+  "icon": null
+ },
+ "To The Skies!": {
+  "ids": [
+   301365
+  ],
+  "icon": null
+ },
+ "Toxic Dart": {
+  "ids": [
+   807237
+  ],
+  "icon": null
+ },
+ "Toxicant": {
+  "ids": [
+   561045
+  ],
+  "icon": null
+ },
+ "Toxishot": {
+  "ids": [
+   681293
+  ],
+  "icon": null
+ },
+ "Track Beasts": {
+  "ids": [
+   770000
+  ],
+  "icon": null
+ },
+ "Treasure Hunter": {
+  "ids": [
+   300459
+  ],
+  "icon": null
+ },
+ "Trigger Tactician": {
+  "ids": [
+   801224
+  ],
+  "icon": null
+ },
+ "Trophy Hunter": {
+  "ids": [
+   560058
+  ],
+  "icon": null
+ },
+ "Trueshot Lodge Training": {
+  "ids": [
+   803113
+  ],
+  "icon": null
+ },
+ "Twineweave Line": {
+  "ids": [
+   802601
+  ],
+  "icon": null
+ },
+ "Uncover Weakness": {
+  "ids": [
+   572178
+  ],
+  "icon": null
+ },
+ "Underhanded": {
+  "ids": [
+   705061
+  ],
+  "icon": null
+ },
+ "Underhanded Throw": {
+  "ids": [
+   573274
+  ],
+  "icon": null
+ },
+ "Underhanded Throws": {
+  "ids": [
+   804942
+  ],
+  "icon": null
+ },
+ "Venom Blade": {
+  "ids": [
+   803116
+  ],
+  "icon": null
+ },
+ "Venom Injection": {
+  "ids": [
+   705027
+  ],
+  "icon": null
+ },
+ "Venom-Coated Seed": {
+  "ids": [
+   807553
+  ],
+  "icon": null
+ },
+ "Venom-Coated Seeds": {
+  "ids": [
+   807459
+  ],
+  "icon": null
+ },
+ "Venom-Dipped Blade": {
+  "ids": [
+   706745
+  ],
+  "icon": null
+ },
+ "Venom-Dipped Blades": {
+  "ids": [
+   706744
+  ],
+  "icon": null
+ },
+ "Venom-Soaked Daggers": {
+  "ids": [
+   561111
+  ],
+  "icon": null
+ },
+ "Venomous Arrow": {
+  "ids": [
+   570089
+  ],
+  "icon": null
+ },
+ "Venomous Demeanor": {
+  "ids": [
+   524658
+  ],
+  "icon": null
+ },
+ "Venomstrike": {
+  "ids": [
+   570078
+  ],
+  "icon": null
+ },
+ "Verdant Quiver": {
+  "ids": [
+   803747
+  ],
+  "icon": null
+ },
+ "Vile": {
+  "ids": [
+   705083
+  ],
+  "icon": null
+ },
+ "Viper's Bite": {
+  "ids": [
+   520580
+  ],
+  "icon": null
+ },
+ "War Falcon": {
+  "ids": [
+   680278
+  ],
+  "icon": null
+ },
+ "War Falconer": {
+  "ids": [
+   705067
+  ],
+  "icon": null
+ },
+ "Warband": {
+  "ids": [
+   547572
+  ],
+  "icon": null
+ },
+ "Warbeast": {
+  "ids": [
+   783056
+  ],
+  "icon": null
+ },
+ "Wardancer": {
+  "ids": [
+   300854
+  ],
+  "icon": null
+ },
+ "Wargstride": {
+  "ids": [
+   704313
+  ],
+  "icon": null
+ },
+ "Waterskin": {
+  "ids": [
+   800269
+  ],
+  "icon": null
+ },
+ "Wayfinder": {
+  "ids": [
+   806366
+  ],
+  "icon": null
+ },
+ "Weapon Craft: Burning Toxin": {
+  "ids": [
+   808027
+  ],
+  "icon": null
+ },
+ "Weapon Craft: Freezing Toxin": {
+  "ids": [
+   808652
+  ],
+  "icon": null
+ },
+ "Weapon Craft: Jagged Edge": {
+  "ids": [
+   808878
+  ],
+  "icon": null
+ },
+ "Weapon Craft: Nerve Venom": {
+  "ids": [
+   808063
+  ],
+  "icon": null
+ },
+ "Weapon Craft: Oil Dip": {
+  "ids": [
+   807926
+  ],
+  "icon": null
+ },
+ "Weapon Oil": {
+  "ids": [
+   567737
+  ],
+  "icon": null
+ },
+ "Whats Yours Is Mine": {
+  "ids": [
+   560495
+  ],
+  "icon": null
+ },
+ "Whipping Pressure": {
+  "ids": [
+   520625
+  ],
+  "icon": null
+ },
+ "Whipthorns": {
+  "ids": [
+   560816
+  ],
+  "icon": null
+ },
+ "Whipvine Arrow": {
+  "ids": [
+   806342
+  ],
+  "icon": null
+ },
+ "Wild Blessing": {
+  "ids": [
+   681527
+  ],
+  "icon": null
+ },
+ "Wild Man": {
+  "ids": [
+   560344
+  ],
+  "icon": null
+ },
+ "Wild Speed": {
+  "ids": [
+   300461
+  ],
+  "icon": null
+ },
+ "Wild Strike": {
+  "ids": [
+   800083
+  ],
+  "icon": null
+ },
+ "Wild Strike (Off Hand)": {
+  "ids": [
+   560962
+  ],
+  "icon": null
+ },
+ "Wild Strike Advantage": {
+  "ids": [
+   524659
+  ],
+  "icon": null
+ },
+ "Wild Surge": {
+  "ids": [
+   805642
+  ],
+  "icon": null
+ },
+ "Wildwood Key": {
+  "ids": [
+   807957
+  ],
+  "icon": null
+ },
+ "Windrunner's Reach": {
+  "ids": [
+   573043
+  ],
+  "icon": null
+ },
+ "Wingman": {
+  "ids": [
+   705098
+  ],
+  "icon": null
+ },
+ "Woodland Adept": {
+  "ids": [
+   555728
+  ],
+  "icon": null
+ },
+ "Woodland Arrow": {
+  "ids": [
+   806368
+  ],
+  "icon": null
+ },
+ "Woodland Embrace": {
+  "ids": [
+   560691
+  ],
+  "icon": null
+ },
+ "Woodland Stalker": {
+  "ids": [
+   705034
+  ],
+  "icon": null
+ },
+ "Woodsman's Adaptation": {
+  "ids": [
+   800266
+  ],
+  "icon": null
+ }
+}

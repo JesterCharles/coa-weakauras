@@ -1,0 +1,374 @@
+{
+ "Adrenaline Rush": {
+  "id": 520578,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Briar Veil": {
+  "id": 800084,
+  "cd": "2 min cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Brigand Strike": {
+  "id": 802562,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Brutal Shot": {
+  "id": 570014,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Cannon Blast": {
+  "id": 804938,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Command Aura": {
+  "id": 524600,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Crippling Shot": {
+  "id": 804725,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Dust Toss": {
+  "id": 807820,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Falcon Dive": {
+  "id": 806341,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Falconmark": {
+  "id": 802040,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "0.8 sec"
+ },
+ "Feral Pressure": {
+  "id": 534605,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Freedom": {
+  "id": 520628,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Frenzy": {
+  "id": 520492,
+  "cd": "5 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Guise": {
+  "id": 520753,
+  "cd": "3 min cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Hookshot": {
+  "id": 800360,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": false
+ },
+ "Horn of Alacrity": {
+  "id": 806360,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Horn of Endurance": {
+  "id": 806359,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Horn of Perseverance": {
+  "id": 800088,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Horn of War": {
+  "id": 800086,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Hunting Quiver": {
+  "id": 800262,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Hydra's Bite": {
+  "id": 503106,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Instinct": {
+  "id": 801434,
+  "cd": "1 min cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Instinctual Combatant": {
+  "id": 520572,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": false
+ },
+ "Javelin Toss": {
+  "id": 801081,
+  "cd": "4 sec cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Journeyman Navigation": {
+  "id": 803107,
+  "cd": "1 min cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Light Quiver": {
+  "id": 800261,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Master Marksman": {
+  "id": 504015,
+  "cd": "1 min cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": false
+ },
+ "Natural Disguise": {
+  "id": 520585,
+  "cd": "2 min cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Neurotoxin Arrow": {
+  "id": 500071,
+  "cd": "2 min cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Outmaneuver": {
+  "id": 557325,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": false
+ },
+ "Pathfinder": {
+  "id": 500336,
+  "cd": "2 min cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Power Shot": {
+  "id": 500070,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Ranger's Horn of Coordination": {
+  "id": 800087,
+  "cd": "1 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Reposition": {
+  "id": 800085,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "archery",
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Searing Quiver": {
+  "id": 500103,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Skirmisher's Quiver": {
+  "id": 801069,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Snapseed": {
+  "id": 804027,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Thalassian Brand": {
+  "id": 560805,
+  "cd": "2 min cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": false
+ },
+ "Throatpunch": {
+  "id": 500617,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": false
+ },
+ "Toxic Dart": {
+  "id": 807237,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "archery",
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Toxicant": {
+  "id": 561045,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "brigand"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Wargstride": {
+  "id": 704313,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "archery"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Whipvine Arrow": {
+  "id": 806342,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brigand",
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Woodland Arrow": {
+  "id": 806368,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "farstrider"
+  ],
+  "gcd": "1.0 sec"
+ }
+}

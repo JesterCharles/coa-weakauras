@@ -1,0 +1,2019 @@
+[
+ {
+  "name": "Adaptation: Brigand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Physical and Nature damage increased by %, ranged attack power reduced by %. Critical strikes with Wild Strike and Flank have a % chance to apply Roughed Up, reducing Armor, and Counterstruck, reducing attack power."
+ },
+ {
+  "name": "Adaptation: Farstrider",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases critical strike chance by %, and increases maximum Focus by %. In addition, causes melee critical strikes with abilities to generate Focus."
+ },
+ {
+  "name": "Adaptation: Swashbuckler",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases Attack Power by %, Parry Chance by % and reduces Ranged Attack Power by %. Successful parries have a chance to apply Counterstruck. Using Ravage allows you to use abilities that require you to parry. Can only be used with a one-handed melee weapon, and no off-hand. Only 1 Ad"
+ },
+ {
+  "name": "Adrenaline Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Surge with vitality, dispeling all harmful effects from yourself and increasing your movement speed by %. Usable while stealthed."
+ },
+ {
+  "name": "Adventurer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Allows you to fall an additional 15 yds without taking damage."
+ },
+ {
+  "name": "Aerial Assault",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Removes the Focus cost of Falcon's Call, allows it to strike additional targets, and increases its range by yds."
+ },
+ {
+  "name": "Affinity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases ranged attack power by % of Agility, and melee critical strike rating by % of Agility."
+ },
+ {
+  "name": "Agile",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the damage of Wild Strike, Whipvine Arrow, Assault, and Ravage by %."
+ },
+ {
+  "name": "Ambuscade",
+  "icon": "novart_physical_ability_(11)_border",
+  "meta": "Talent",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the damage of Skullpiercer and Flank by %, plus an additional % you have a polearm equipped."
+ },
+ {
+  "name": "Archery Master",
+  "icon": "artifactability_marksmanhunter_legacyofthewindrunners",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Critical strikes with Quick Shot now generate an additional stack of Advantage."
+ },
+ {
+  "name": "Archery Training",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the damage of Skullpiercer by % and your critical strike chance by %."
+ },
+ {
+  "name": "Arrow Storm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Rapid Barrage fires % more shots."
+ },
+ {
+  "name": "Assault",
+  "icon": "ability_rogue_cuttothechase",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Assault a low health enemy, dealing % Weapon Damage (its value% with a dagger equipped) plus an additional its value Physical damage. the target is bleeding, this deals % increased damage. Damage increased by % for each stack of Advantage. Only usable on enemies below 20% health."
+ },
+ {
+  "name": "Backstep",
+  "icon": "ability_karoz_leap",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Leap backwards up to yds.?s705034[ Your next Skullpiercer used before you hit the ground is instant and deals % increased damage for every second you were in the air, stacking times. Skullpiercers used with 5 stacks of Advantage with 10 stacks of Skydive"
+ },
+ {
+  "name": "Backstreet Justice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the damage of your next Flank by % and allows it to hit additional targets, stacks up to times."
+ },
+ {
+  "name": "Ballista Bolts",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Dealing Physical Damage has a chance to reduce the cast time of your next Ballista Shot by %, stacks up to 5 times. Also increases the Critical Strike Damage Bonus of Ballista Shot by %."
+ },
+ {
+  "name": "Banditry",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases your critical strike chance by % and Focus regeneration by %."
+ },
+ {
+  "name": "Battle Prowess",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases chance to hit with all spells and attacks by % for you and party and raid members. Does not stack with similar effects."
+ },
+ {
+  "name": "Battle Screech",
+  "icon": "inv_druidflightzandalaritroll",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Empower party and raid members within yds, increasing their attack or spell power by. Does not stack with similar effects."
+ },
+ {
+  "name": "Beastslayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Deals Weapon Damage plus to an enemy target, increasing based on how full your Focus bar is. After using this ability, your melee attack power is increased by %, and the cost of this ability is reduced by %, stacks up to 3 times."
+ },
+ {
+  "name": "Beatdown",
+  "icon": "ability_rogue_kidneyshot",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 20 Passive Auto attacks now have a % chance to reveal a fault in the enemy's defenses, causing your next instance of Physical ability damage to ignore Armor. Chance increased by 15% while wielding a polearm."
+ },
+ {
+  "name": "Befriend Beast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Befriend a beast, taking control of it for (8 sec vs players). Only one beast can be befriended at a time."
+ },
+ {
+  "name": "Blackjack",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Knock an enemy over the head, sapping them for (8 sec vs players). Can only affect 1 target at a time. Damage dealt will interrupt this effect. Can only be used on Humanoids and Beasts and cannot be used in combat."
+ },
+ {
+  "name": "Blade Twisting",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Gives damage dealt an % chance to apply Counterstruck."
+ },
+ {
+  "name": "Bleeding Edge",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 40 Passive Allows the periodic damage dealt by Serrated Shot to critically strike."
+ },
+ {
+  "name": "Bloody Focus",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the Focus cost of Toxic Dart by -15."
+ },
+ {
+  "name": "Blow The Horns!",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Ranger's Horns increase the effectiveness of subsequent Ranger's Horns by %. Stacks times."
+ },
+ {
+  "name": "Blur",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Fel energies blur your outline, temporarily reducing all your threat and reducing your damage taken from area of effect spells by %."
+ },
+ {
+  "name": "Bounty Hunter",
+  "icon": "inv_misc_scrollrolled04c",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Damage dealt by Flank and Rusty Shiv now increases the target's damage taken from your Advantage spenders by %."
+ },
+ {
+  "name": "Briar Veil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Thorns and leaves swirl around you, masking your movements, increasing your dodge chance by % and causing dodging attacks to restore % maximum health and Focus."
+ },
+ {
+  "name": "Brigand - Level 20 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 20 Passive Increases damage of Flank and Ambush by %."
+ },
+ {
+  "name": "Broken Ranks",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Cannot benefit from Shield Formation."
+ },
+ {
+  "name": "Brutal Shot",
+  "icon": "5_archerskill31_border",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Fire a volley of powerful shots that pierce through Armor, dealing % Ranged Weapon Damage plus its value to all targets in a yd line. While Skirmish is active this ability is guaranteed to critically strike."
+ },
+ {
+  "name": "Bully",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Knockout and Bludgeon now last additional sec, but their cooldowns are increased by sec. In addition, your Brigand poison effects now deal % increased damage to enemies affected by Bludgeon. Your Brigand poison effects are Deepwood Poison, Ravaging"
+ },
+ {
+  "name": "Bushwhack",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Appear behind your target from the shadows, stunning them."
+ },
+ {
+  "name": "Camper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of your Bushcraft abilities by %."
+ },
+ {
+  "name": "Cannon Blast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Fires a cannonball at an enemy, dealing Physical damage, and then an additional Fire damage over, knocking them back a short distance."
+ },
+ {
+  "name": "Command Aura",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Emanate an aura, causing allied players to deal its value additional damage as Stormstrike Damage when they deal direct damage. Applies Exhaustion, preventing you from benefiting from similar effects."
+ },
+ {
+  "name": "Commander",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Skullpiercer now increases the effectiveness of your next Ranger Horn spell by %. Lasts."
+ },
+ {
+  "name": "Compound Bow",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases ranged attack power by %."
+ },
+ {
+  "name": "Coordination",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Your War Falcons and Dragonhawks now grant you a stack of Coordination when they deal damage."
+ },
+ {
+  "name": "Corrosive Poison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Assault and Wild Strike now reduce the enemy's Armor by %, stacking up to times."
+ },
+ {
+  "name": "Counter Striker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "The first Wild Strike while Counterblades is active stuns the target."
+ },
+ {
+  "name": "Crippling Shot",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Fire a crippling shot at an enemy slowing movement speed by % and knocking them off their mounts, making them unable to mount again."
+ },
+ {
+  "name": "Cutthroat",
+  "icon": "ability_rogue_rupture",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Shoot a powerful arrow that deals Weapon Damage plus its value and stuns the target. Duration increased by sec per stack of Advantage."
+ },
+ {
+  "name": "Dastardly",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 50 Passive Increases your critical damage dealt by % on enemies above 80% health or below 20% health."
+ },
+ {
+  "name": "Deadshot",
+  "icon": "nhi_bloodarrow_border",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Generates 2 Advantage Shoot a powerful arrow at the target dealing % Ranged Weapon Damage. Only usable on enemies below 20% health."
+ },
+ {
+  "name": "Deepwood Poison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Flank and Exploit apply Deepwood Poison."
+ },
+ {
+  "name": "Defense of the Ancients",
+  "icon": "skill_icon_skill118_border",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "You now emanate an aura around you, increasing the Armor of party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Deft Hands",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Using Reload or swapping Rounds now increases haste by %."
+ },
+ {
+  "name": "Devastating Shots",
+  "icon": "inv_trickshot",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases your critical strike chance by % and your hit chance by %."
+ },
+ {
+  "name": "Dice Games",
+  "icon": "ability_rogue_rollthebones",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the critical strike chance of Wild Strike and Assault by %."
+ },
+ {
+  "name": "Dirty Blades",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "For, your melee auto attacks deal an additional % (doubled with a dagger equipped) of the damage dealt as Nature damage and reduces your target's healing received by %, stacking times. Duration increased by sec for each stack of Advantage. Usable while in Elu"
+ },
+ {
+  "name": "Dirty Fighter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the chance for Flank to critically strike by % and increases your chance to resist root effects by %."
+ },
+ {
+  "name": "Double The Pace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases all party and raid member's melee and ranged haste by %. Does not stack with similar effects. In addition, increases your critical strike chance by %."
+ },
+ {
+  "name": "Dragonhawk Tamer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Using a Horn now summons a Dragonhawk to assist you in combat."
+ },
+ {
+  "name": "Dream Flowers",
+  "icon": "inv_legion_faction_dreamweavers",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Level 10 Passive Your damaging critical strikes now spawn a green Dream Flower at a random location within 15 yds of you. Can only occur once per sec."
+ },
+ {
+  "name": "Dueling",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases parry chance by %. Grants dodges, parries and melee damage dealt a chance to apply Counterstruck."
+ },
+ {
+  "name": "Durable Quivers",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the duration of Quivers by sec."
+ },
+ {
+  "name": "Dust Toss",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Generates 1 Advantage Throw dust in an enemy's eyes, reducing their chance to hit by % and dazing them. While in combat, you remain stealthed for 2 sec after using Dust Toss."
+ },
+ {
+  "name": "Effortless",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Reduces the Focus cost of Precision Shot by and its cooldown by sec."
+ },
+ {
+  "name": "Elemental Fletcher",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Elven Enchantments now stacks additional times."
+ },
+ {
+  "name": "Elude",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Allows you to sneak around in stealth. Reducing your movement speed by % while stealthed. Lasts. Cannot be used while in combat."
+ },
+ {
+  "name": "Elusive Character",
+  "icon": "custom_16_shadow_swords_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your damage dealt by 10% for 12 seconds after leaving Elude."
+ },
+ {
+  "name": "Elven Enchantments",
+  "icon": "achievement_character_nightelf_female",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the damage dealt by your Searing and Poison Quivers by %. In addition, dealing damage with Searing or Poison Quiver now grants a stack of Elven Enchantments."
+ },
+ {
+  "name": "Elven Quivers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the effectiveness of Quivers by % and increases the amount of enemies hit with Spray Quiver."
+ },
+ {
+  "name": "Elven Tactics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You now have a -20% chance to not consume Advantage on cast."
+ },
+ {
+  "name": "Emerald Arrow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Set up a powerful magical arrow and then shoot it, dealing its value Nature damage to the target, increased by % for each stack of Advantage. Creates an enchanted flare on the ground, causing nearby enemies to take its value Nature damage every sec, lasting s"
+ },
+ {
+  "name": "Endurance Training",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum Focus."
+ },
+ {
+  "name": "Even Quicker Shots",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Reduces the cast time of Quick Shot by %."
+ },
+ {
+  "name": "Excessive But Necessary",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Reduces the cooldown of Elude and Knockout by sec."
+ },
+ {
+  "name": "Excruciating Poison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Assault now reduces healing done to the target by %, stacking times."
+ },
+ {
+  "name": "Falcon Caller",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Direct damage dealt by Quick Shot, Whipvine Arrow, and Skullpiercer reduce the cooldown of Falcon's Call by sec."
+ },
+ {
+  "name": "Falcon Charmer",
+  "icon": "trade_archaeology_carved_wildhammer_gryphon_figurine",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases the duration of War Falcons by sec."
+ },
+ {
+  "name": "Falcon Dive",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Call 2 War Falcons to dive forward from your position, dealing Physical Damage to up to enemies struck. The War Falcons then remain to aid you in combat."
+ },
+ {
+  "name": "Falcon Scout",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Summon a falcon and see through its eyes, allowing you to see stealthed and invisible enemies and to track humanoids for the duration. Usable while in Elude."
+ },
+ {
+  "name": "Falcon's Aid",
+  "icon": "ability_hunter_aspectoftheironhawk",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to summon a War Falcon to aid you in battle."
+ },
+ {
+  "name": "Falcon's Call",
+  "icon": "ability_skyreach_castdown",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Call down war falcons upon a targeted area, slowing up to 10 enemies within the area by %. A Falcon is summoned for each enemy affected."
+ },
+ {
+  "name": "Falconstrike",
+  "icon": "ability_felarakkoa_focusedblast",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Generates 2 Advantage Call a cast of falcons to strike an enemy, dealing % Ranged Weapon Damage plus its value Nature damage and calling 1 War Falcon to your aid. Redirects all active summons to attack your target."
+ },
+ {
+  "name": "Farstrider Ranger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Teaches Whiplash, and spending 5 stacks of Advantage at once or using a Ranger Horn now grants a stack of Tactician,."
+ },
+ {
+  "name": "Farstrider's Command",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Falcon's Dive, Falconstrike, and Falcon's Call make your next Ranger's Horn trigger no cooldown."
+ },
+ {
+  "name": "Farstrider's Leap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases the range of Reposition by yds."
+ },
+ {
+  "name": "Farstrider's Opportunity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Reduces the cooldown of Flank by sec and increases its damage by %."
+ },
+ {
+  "name": "Fencing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases parry chance by %."
+ },
+ {
+  "name": "Feral Pressure",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "The current party or raid member targeted will receive the threat caused by your next damaging attack and all actions taken for afterwards."
+ },
+ {
+  "name": "Flank",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Generates 2 Advantage Flank an enemy from behind, taking them by surprise and dealing % Weapon Damage (its value% a dagger is equipped) plus its value Physical damage."
+ },
+ {
+  "name": "Footpad's Adaptation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increase the friendly target's armor by its value and all primary attributes by. Does not stack with other similar effects."
+ },
+ {
+  "name": "Forest Dweller",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While in Elude, gain 20% increased movement speed and regenerate 3% maximum health every 3 sec."
+ },
+ {
+  "name": "Forest Fighter",
+  "icon": "custom_accurate_bow_b_border",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Your Skullpiercers or Emerald Arrows used with 5 stacks of Advantage now reduce the cooldown of Woodland Arrow by sec."
+ },
+ {
+  "name": "Forest Fighter Skullpiercer",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Forest Herald",
+  "icon": "ability_druid_treeoflife_red",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Casting Toxic Dart and abilities that spend stacks of Advantage now have a % chance to spawn a green Dreamflower at a random location nearby within 15 yds of you. You can only spawn Dreamflowers while in combat."
+ },
+ {
+  "name": "Freedom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Free up to nearby allies within yds of you, causing them to become immune to roots and snares, and allowing their critical strikes to increase their movement speed by %."
+ },
+ {
+  "name": "Frenzy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Enrage all nearby allies, increasing their haste by %. After being affected by this spell, allies cannot benefit from similar effects."
+ },
+ {
+  "name": "Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Agility and movement speed by %."
+ },
+ {
+  "name": "Grappling Arrows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the range of Snatch by 15 yds."
+ },
+ {
+  "name": "Greater Footpad's Adaptation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases nearby party and raid member's armor by its value and all primary attributes by."
+ },
+ {
+  "name": "Greater Precision",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the damage of Precision Shot by %."
+ },
+ {
+  "name": "Greater Woodsman's Adaptation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Enhance your party and raid members focus, increasing their melee and ranged attack power. Lasts"
+ },
+ {
+  "name": "Guile of the Cutthroat",
+  "icon": "inv_shoulder_mail_raidhunter_l_01",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases party and raid member's melee and ranged attack power by %. Does not stack with similar effects. In addition, increases your damage dealt by %."
+ },
+ {
+  "name": "Guile of the Ranger",
+  "icon": "5_archerskill27_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Instinct now additionally increases your critical strike rating by % of your Agility."
+ },
+ {
+  "name": "Guise",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Instantly generates 5 stacks of Advantage and allows you see nearby stealthed enemies. Usable while stealthed."
+ },
+ {
+  "name": "Hailfire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Gives Rapid Barrage hits a 15% chance to generate an stack of Advantage."
+ },
+ {
+  "name": "Hawkeye",
+  "icon": "ability_hunter_silenthunter",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "You now fire an arrow every sec at enemies within yds affected by your Hunting Shot, dealing its value% Ranged Weapon Damage. Scales with Hunting Shot modifiers."
+ },
+ {
+  "name": "Heightened Senses",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the Focus cost Adrenaline Rush by -50% and increases the movement speed granted by 20%."
+ },
+ {
+  "name": "Highwayman",
+  "icon": "ability_rogue_slicedice",
+  "meta": "Talent",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases Focus regeneration by % and increases maximum Focus."
+ },
+ {
+  "name": "Hookshot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Launch a hook at a target attempting to lodge it into an open wound, dealing its value Physical damage. the target is bleeding, you can reactivate this to pull yourself to them, dealing % Weapon Damage and generating 2 Advantage"
+ },
+ {
+  "name": "Horn of Alacrity",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Generates 1 Advantage Emanate an aura for that grants % increased haste to party and raid members. Does not stack with similar effects. While active, you generate Focus every sec. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Horn of Endurance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Generates 1 Advantage Emanate an aura for that grants allies a % chance when they cast a spell or ability to heal themselves for its value. While active, you generate 3 Focus every sec. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Horn of Perseverance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Generates 1 Advantage Emanate an aura for that reduces the resource costs of spells by % for allies within yds. While active, you generate 3 Focus every sec. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Horn of War",
+  "icon": "inv_misc_horn_03",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Generates 1 Advantage Emanate an aura for that grants % increased critical strike chance to party and raid members. Does not stack with similar effects. While active, you generate 3 Focus every sec. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Hunting Quiver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases your damage against Beasts and Dragonkin by % and your critical strike chance against them by %. Only 1 Quiver may be active at a time. Shares a cooldown with other Quivers."
+ },
+ {
+  "name": "Hunting Shot",
+  "icon": "uico_arrow_spell_01_border",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Fire a shot that ricochets between enemies, dealing Ranged Weapon Damage plus to each enemy. Generates 1 stack of Advantage for each enemy hit."
+ },
+ {
+  "name": "Hunting Tactics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Damage dealt by Skullpiercer is increased by 30% against Poisoned targets."
+ },
+ {
+  "name": "Hydra's Bite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Delivers 4 quick weapon attacks over to an enemy target, each dealing Physical Damage. Each strike will consume 1 stack of Deepwood Poison from the target to deal an additional Nature Damage."
+ },
+ {
+  "name": "Improved Falconmark",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "When you use Falcon Mark, you store 2 additional Combo Points."
+ },
+ {
+  "name": "Improved Grapplebomb",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Reduces the cooldown of Grapplebomb by sec and increases its damage by %."
+ },
+ {
+  "name": "Improved Waterskins",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Waterskins by 25%."
+ },
+ {
+  "name": "Incendiary Shot",
+  "icon": "nhi_fire_shot_border",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Shoot a burning arrow dealing its value Fire damage to an enemy and up to enemies within yds, and causing your next 3 direct damage Advantage spenders to deal % of their damage to nearby enemies. Direct damage increased by % for each stack of Advantage."
+ },
+ {
+  "name": "Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Your instinct kicks in, instantly restoring Focus and increasing your attack power by % of your Agility. Usable while stealthed."
+ },
+ {
+  "name": "Instinctual Combatant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Instantly restores Focus and causes your next Assault to be guaranteed to critically strike. Lasts. After using Assault, all Nature Damage is increased by %."
+ },
+ {
+  "name": "Javelin Toss",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Toss a javelin, dealing Physical damage to an enemy and causes them to bleed for an additional damage every sec. Stacks 3 times. Direct damage increased by % for each stack of Advantage."
+ },
+ {
+  "name": "Journeyman Navigation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Use your navigational skills to Focus in on your surroundings. Instantly refills your Focus and generates 3 stacks of Advantage."
+ },
+ {
+  "name": "Keen Eye",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Shot abilities now have a % chance to increase the range of Shots by yds and all damage dealt by %."
+ },
+ {
+  "name": "Killing Precision",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Knockout",
+  "icon": "ability_monk_blackoutkick",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Knock an enemy out, incapacitating them for and removing bleed and poison effects from them. Damage caused will interrupt this effect. For the duration, enemies take % increased damage from Assault. Usable while in Elude."
+ },
+ {
+  "name": "Lacerations",
+  "icon": "custom_warriorskill_28_border",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 40 Passive Allows the periodic damage dealt by Ravage to critically strike."
+ },
+ {
+  "name": "Lethal Cunning",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Entering Elude generates 1 stack of Advantage and 10 Focus every 5 sec for 30 seconds."
+ },
+ {
+  "name": "Lethal Wounds",
+  "icon": "uico_blood_spell_02_border",
+  "meta": "Talent",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the tick rate of your periodic damage effects by %."
+ },
+ {
+  "name": "Lie In Wait",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "While in Elude, you generate an Archery Point every sec."
+ },
+ {
+  "name": "Light Quiver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases melee and ranged haste by % and reduces the Focus costs of abilities by %. Only 1 Quiver may be active at a time. Shares a cooldown with other Quivers."
+ },
+ {
+  "name": "Master Marksman",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the bonuses provided by your stacks of Advantage by %."
+ },
+ {
+  "name": "Natural Disguise",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Instantly dispels all movement slowing effects from allies within yds and transforms them into a bush, stealthing them."
+ },
+ {
+  "name": "Neurotoxin Arrow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Shoot at an enemy's throat with a toxin-laced arrow, dealing its value Nature damage and silencing them. Duration increased by sec per stack of Advantage."
+ },
+ {
+  "name": "Nightblade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the damage of Assault by %."
+ },
+ {
+  "name": "Nimble",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Level 30 Passive Increases your ranged haste by % of your Agility."
+ },
+ {
+  "name": "No Mercy",
+  "icon": "inv_ascend_hunting_90",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Allows your Thick Pelt to affect an additional hit."
+ },
+ {
+  "name": "Offhand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases your off-hand damage by %."
+ },
+ {
+  "name": "On The Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Your critical strikes with ranged abilities have a bonus effect depending on your Ranged Weapon. With a Bow, ranged critical attacks generate an additional Archery Point. With a Crossbow, they deal an additional damage and regenerate % of your maximum Focus."
+ },
+ {
+  "name": "One With The Forest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases ranged haste by %, and movement speed by %."
+ },
+ {
+  "name": "Onslaught",
+  "icon": "ability_rogue_improvedrecuperate",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your senses heighten, causing you to instantly generate 5 Advantage and allowing the use of abilities that require Elude."
+ },
+ {
+  "name": "Opportunist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "While in Elude, the cooldown of Woodland Adept and Backstep is reduced by sec every sec."
+ },
+ {
+  "name": "Outlaw",
+  "icon": "_human_04",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases critical strike chance by % and reduces the Focus cost of all spells and abilities by %."
+ },
+ {
+  "name": "Outmaneuver",
+  "icon": "_execution_green",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Teleport to an enemy, summon a decoy beneath them, and mark them. Dealing melee damage to them adds a stack to this effect, up to stacks. Reactivating this ability within deals its value Physical damage to your target, increased by % for each stack on the target, and then teleports you back to your deco"
+ },
+ {
+  "name": "Pathfinder",
+  "icon": "ability_hunter_pathfinding2",
+  "meta": "Ability",
+  "specs": [
+   "brigand",
+   "farstrider"
+  ],
+  "desc": "Your Adrenaline Rush now incurs a % reduced cooldown when used while Elude is active."
+ },
+ {
+  "name": "Phoenix Plumes",
+  "icon": "inv_icon_feather06a",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Your Skullpiercers and Woodland Arrows used with 5 stacks of Advantage now restore % Focus and summon a War Falcon."
+ },
+ {
+  "name": "Pierced",
+  "icon": "nhi_blood_shot_border",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Critical strikes with Skullpiercer and Precision Shot cause the enemy to bleed for an additional 50% damage of the damage dealt over."
+ },
+ {
+  "name": "Piercing Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the damage you deal with ranged weapons by %."
+ },
+ {
+  "name": "Pilfering",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Adds % to the damage dealt by Dirty Blades and causes its damage dealt to heal you equal to % of the value."
+ },
+ {
+  "name": "Pillager",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Ravage now increases movement speed by % for and grants Pillaging."
+ },
+ {
+  "name": "Pinpoint Accuracy",
+  "icon": "inv_weapon_bow_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes with direct damaging abilities now generate Focus."
+ },
+ {
+  "name": "Plumes of War",
+  "icon": "ability_hunter_animalhandler",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases the critical strike chance of Falconstrike and Emerald Arrow by %. In addition, critical strikes with Falconstrike now increase the damage of subsequent Falconstrikes by %, stacking times."
+ },
+ {
+  "name": "Poison Quiver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Ranged abilities fire a poisoned arrow, dealing Nature damage over, stacks times. Only 1 Quiver may be active at a time. Shares a cooldown with other Quivers."
+ },
+ {
+  "name": "Power Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Fire at an enemy, inflicting Physical damage and empowering your next 3 Quick Shots to deal % increased Damage and generate a bonus stack of Advantage."
+ },
+ {
+  "name": "Precision Shot",
+  "icon": "5_archerskill07_border",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Precisely shoot an enemy from a great distance, inflicting its value Physical damage. Damage increased by % for each stack of Advantage. Usable while in Elude."
+ },
+ {
+  "name": "Preloaded",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Direct Physical damage dealt now has a % chance to refresh a Spread Shot charge."
+ },
+ {
+  "name": "Quick Footed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases movement speed by % and reduces the cooldown of Counterblades by sec."
+ },
+ {
+  "name": "Quick Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Generates 1 Advantage Shoot an enemy, dealing % Ranged Weapon Damage plus its value."
+ },
+ {
+  "name": "Quick-Witted",
+  "icon": "inv_misc_quiver_05",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Avoiding an attack now causes you to quickly stab an enemy with one of the arrows from your quiver, dealing its value Physical damage and reducing their attack speed by %."
+ },
+ {
+  "name": "Quills",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Launch darts at up to nearby enemies, dealing its value Ranged Physical damage. Deals % additional damage and strikes additional target for each stack of Advantage."
+ },
+ {
+  "name": "Rally The Archers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Woodland Arrow now grants party members within yds of you its value% increased ranged attack power, scaling with Agility."
+ },
+ {
+  "name": "Ranger General's Command",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases the damage of your War Falcons and Dragonhawks by %."
+ },
+ {
+  "name": "Ranger's Gambit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "While in Elude, gain % increased movement speed and enable the use of abilities as you had recently parried an attack."
+ },
+ {
+  "name": "Ranger's Guile",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the damage and critical damage of Wild Strike by %."
+ },
+ {
+  "name": "Ranger's Horn of -unused",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Emanate an aura for that grants allies within a few yards % increased maximum health and heals them for every sec. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Ranger's Horn of Coordination",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Emanate an aura for that increases movement speed by % for party members within yds. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Ranger's Horn-unused",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Emanate an aura for that grants allies within a few yards % increased maximum health and heals them for every sec. All Ranger's Horn spells share a cooldown."
+ },
+ {
+  "name": "Rapid Strikes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Melee and ranged auto attacks now have a 25% chance to strike an additional time for 50% of the damage dealt.Can only occur once per sec."
+ },
+ {
+  "name": "Ravage",
+  "icon": "novart_weapon_(45)_border",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Generates 1 Advantage Ravage an enemy, causing them to bleed out dealing its value Physical damage over."
+ },
+ {
+  "name": "Ravager",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 10 Passive Your Wild Strike now generates 1 additional Advantage. Removes the minimum range of your ranged abilities."
+ },
+ {
+  "name": "Razorquills",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases the tick rate of Toxic Dart and Emerald Arrows by %."
+ },
+ {
+  "name": "Readiness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Generates Focus every sec."
+ },
+ {
+  "name": "Reposition",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Resourceful",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Crippling Shot and Snapseed by -20%."
+ },
+ {
+  "name": "Rub It In",
+  "icon": "custom_warriorskill_02_border",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Level 30 Passive Each stack of Advantage spent now gives you a 20% chance to refund 1 stack of Advantage."
+ },
+ {
+  "name": "Rusty Shiv",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Stab an enemy with a rusty shiv, accumulating 10% of all damage you deal to them over the next and dealing damage at the end of the duration for the total amount."
+ },
+ {
+  "name": "Searing Quiver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Ranged abilities deal % additional direct Fire damage to your target and up to nearby enemies. This damage can benefit from your Burning Toxin and other effects that increase Fire damage and is able to critically strike. Only 1 Quiver may be active at a time. Shares a cooldown with other |cff"
+ },
+ {
+  "name": "Serrated Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Fire a serrated arrow at an enemy, causing them to bleed for its value Physical damage, repeating every sec. Duration increased by sec per stack of Advantage."
+ },
+ {
+  "name": "Serrations",
+  "icon": "inv_knife_1h_thunderisleraid_d_02",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases your damage against bleeding or Poisoned targets by %."
+ },
+ {
+  "name": "Set Up",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the critical damage of Flank by % and its critical strike chance by %."
+ },
+ {
+  "name": "Shaky Morals",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increase the damage dealt by poison effects and Toxicant by %."
+ },
+ {
+  "name": "Sharpshooter",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Level 50 Passive Adds % to the bonuses that your stacks of Advantage provide."
+ },
+ {
+  "name": "Skirmish",
+  "icon": "ability_hunter_runningshot",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases your critical strike chance by % and reduces your Focus costs by %. Lasts sec for each stack of Advantage."
+ },
+ {
+  "name": "Skirmisher",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Level 10 Passive Increases the damage and tick rate of Toxic Dart by %, but reduces the duration of its damaging effect by %."
+ },
+ {
+  "name": "Skirmisher's Quiver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases your Physical damage and your critical damage by %. Only 1 Quiver may be active at a time. Shares a cooldown with other Quivers."
+ },
+ {
+  "name": "Skullpiercer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Aim for the skull, dealing its value Physical damage. Damage increased by % for each stack of Advantage."
+ },
+ {
+  "name": "Sly",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Woodland Adept now triggers a -10% reduced cooldown for each stack of Advantage active when cast."
+ },
+ {
+  "name": "Snapseed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Toss a snapseed at an enemy, dealing its value Physical damage and knocking them back."
+ },
+ {
+  "name": "Snatch",
+  "icon": "rogue_subterfuge",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Snatch an enemy's melee weapons, disarming them. you are disarmed, you also return your weapon to yourself."
+ },
+ {
+  "name": "Stalker",
+  "icon": "_diablo3_execute_hunter",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Reduces the cooldown of Warmaster Shot by sec and removes its cast time."
+ },
+ {
+  "name": "Stays In Moonbrook",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Using Brigand Strike while affected by Backstreet Justice causes it to incur a sec reduced cooldown."
+ },
+ {
+  "name": "Sticky Fingers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Pick an enemy target's pocket."
+ },
+ {
+  "name": "Strike Where It Hurts",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Your ability critical strikes now increase the damage the target takes from bleeds by %."
+ },
+ {
+  "name": "Studded Arrows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the ranged weapon damage dealt by Quick Shot by %."
+ },
+ {
+  "name": "Superb Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Damage dealt by Auto Shot now restores Focus."
+ },
+ {
+  "name": "Surefooted",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Adrenaline Rush by -30 sec."
+ },
+ {
+  "name": "Survival Expert",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the dodge chance provided by Briar Veil by 25%."
+ },
+ {
+  "name": "Survival Kit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Survival Potion now also heals you for 10% of your maximum health with each tick."
+ },
+ {
+  "name": "Survival Potion",
+  "icon": "nhi_naturecocktail_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drink a survival potion, dispelling all poison and disease effects and removing poison and disease effect every sec. In addition, restore % of your maximum health with each tick."
+ },
+ {
+  "name": "Swarmer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the Runic Power generated by Crypt Swarm by per tick."
+ },
+ {
+  "name": "Swiftshot",
+  "icon": "ability_rogue_combatexpertise",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Damage dealt by Precision Shot now increases enemy Physical damage taken by %."
+ },
+ {
+  "name": "Thalassian Brand",
+  "icon": "5_devilmark_border",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Mark an enemy for total destruction, increasing your allies ranged attack power against the target by its value and dealing Nature damage every sec. The marked target can always be seen by the Ranger whether it stealths or turns invisible A Branded target cannot be affected by Thalassian"
+ },
+ {
+  "name": "Throatpunch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast."
+ },
+ {
+  "name": "Toxic Dart",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Generates 1 Advantage Toss a poison-coated dart at an enemy, dealing Nature damage over, and silencing them. Periodic damage dealt by this benefits from your ranged haste"
+ },
+ {
+  "name": "Treasure Hunter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Increases the drop rate of Rare items by % for you and all party or raid members nearby."
+ },
+ {
+  "name": "Trueshot Lodge Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases your off-hand weapon damage by %. While wielding a polearm, your Physical damage dealt is increased by %."
+ },
+ {
+  "name": "Uncover Weakness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "Launch a heavy blunt arrow at an enemy that reduces their armor by %. Duration increased by sec per stack of Advantage."
+ },
+ {
+  "name": "Underhanded",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Increases the attack power scaling of Skullpiercer by %."
+ },
+ {
+  "name": "Underhanded Throws",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Casting Quills now reduces the cost of subsequent Quills by %, stacking times. At stacks all stacks are instantly consumed to reset the cooldown of Ravage and make your next Ravage within free of cost and generate Focus."
+ },
+ {
+  "name": "Venom Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Stab an enemy with a venom-dipped blade, dealing its value Nature Damage over. Duration increased by sec for each stack of Advantage."
+ },
+ {
+  "name": "Vile",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Removes the Focus cost of Sapsting and causes it to increase the duration of Deepwood Poison on the enemy by sec."
+ },
+ {
+  "name": "Viper's Bite",
+  "icon": "ability_rogue_poisonedknife",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Generates 2 Advantage Unleash 4 quick strikes over to an enemy, each dealing % Weapon Damage. the target is bleeding, each strike deals an additional its value Physical damage. the target is poisoned, each strike deals Nature damage instead of Physical damage."
+ },
+ {
+  "name": "War Falconer",
+  "icon": "ability_hunter_eagleeye",
+  "meta": "Talent",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Reduces the cooldowns of Falcon's Call by sec."
+ },
+ {
+  "name": "Wardancer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Backstep increases the effectiveness of your next Horn ability by %, scaling with Agility."
+ },
+ {
+  "name": "Wargstride",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "archery"
+  ],
+  "desc": "You transform into a wolf, increasing your movement speed by %. Lasts. Using any ranged attack will end this effect."
+ },
+ {
+  "name": "Whats Yours Is Mine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the Focus cost of Snatch."
+ },
+ {
+  "name": "Whipping Pressure",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Whipvine Arrow used with 5 stacks of Advantage now increases the spell and ranged haste of party members within yds by its value%. Scales with your Agility."
+ },
+ {
+  "name": "Whipvine Arrow",
+  "icon": "inv_misc_herb_nightmarevine_stem",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Launch an arrow with magical vines attached to it at your target, dealing its value Nature damage and rooting them for (8 sec vs players). Damage caused may interrupt the effect. Hits additional nearby target per stack of Advantage."
+ },
+ {
+  "name": "Wild Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Increases the Nature Resistance of all party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Wild Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "brigand"
+  ],
+  "desc": "Generates 2 Advantage Strike an enemy wildly for % Weapon Damage plus its value. dual wielding, deals additional Weapon Damage with your off-hand weapon."
+ },
+ {
+  "name": "Wingman",
+  "icon": "inv_icon_wing04d",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Reduces all damage taken by % for each War Falcon or Dragonhawk|R you have active."
+ },
+ {
+  "name": "Woodland Adept",
+  "icon": "nhi_naturepoisonedstep_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Slip into the shadows, entering an improved stealth mode, increases your movement speed by %, and applies Elude."
+ },
+ {
+  "name": "Woodland Arrow",
+  "icon": "nhi_naturegoldenarrow_border",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Shoot a magical arrow, dealing its value Physical damage and reducing the cooldown of active Horn spells by sec. Damage increased by % for each stack of Advantage."
+ },
+ {
+  "name": "Woodland Stalker",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "While in Elude, your critical strike chance is now increased by %."
+ },
+ {
+  "name": "Woodsman's Adaptation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "farstrider"
+  ],
+  "desc": "Enhance an ally's focus, increasing their melee and ranged attack power. Lasts"
+ }
+]
