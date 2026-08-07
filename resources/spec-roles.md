@@ -51,6 +51,9 @@ missing without any error.
 
 | ID | Class | Spec | Role |
 |---|---|---|---|
+| 14 | Felsworn | slayer | damage |
+| 14 | Felsworn | infernal | damage |
+| 14 | Felsworn | tyrant | tank |
 | 22 | Chronomancer | artificer | damage |
 | 22 | Chronomancer | infinite | damage |
 | 22 | Chronomancer | time | healing |
@@ -60,6 +63,14 @@ missing without any error.
 | 32 | Runemaster | glyphic | damage |
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
+
+**Felsworn provenance differs from the rest of this table:** the three rows
+were filled 2026-08-07 from Sidekick's explicit statements (tyrant: "Top-tier
+main-tank for raid bosses … as a tank"; slayer: "damage dealer … you cannot
+heal or dispel anyone"; infernal: "damage dealer … No ally-targeted healing
+here, and no self-heal either"), not from in-game observation. No spec heals,
+so the roles cannot hide a missing healer target band — the failure this file
+guards against. Confirm in game with the first felsworn `verified` pass.
 
 ## Corroboration
 

@@ -1,0 +1,108 @@
+{
+ "class": "felsworn",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 49,
+   "citations": 6,
+   "crossdb_checked": 169,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 191,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 169,
+   "mechanics_sources": 3,
+   "open_unknowns": 11,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 49,
+   "citations": 6,
+   "crossdb_checked": 169,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 191,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 169,
+   "mechanics_sources": 3,
+   "open_unknowns": 11,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 49,
+   "citations": 6,
+   "crossdb_checked": 169,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 191,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 169,
+   "mechanics_sources": 3,
+   "open_unknowns": 11,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "\u00a75 alerts built per spec (no class-wide family exists): slayer NO PACT (Demonfire/Slayer's), tyrant NO PACT (Dreadlord's/Legionfel) - Pacts are self-emanating and one-per-player, so none-of-set is the safe trigger. NO INTUITION alert deliberately NOT built: base Intuitions are ally-targeted and self-castability is unconfirmed - an alert that can nag a solo player forever is the Runemaster reminder failure; deferred to \u00a76."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "19 entries 2026/07/31 scanned via --pages 6: Immolation Aura rank buffs x7, Cripple rework (40% slow, -8%/stack tick-down), Legionfall (next Annihilan Strike -50% energy), Chaotic (2 energy per melee crit, down from 3), Hateforged Barrier absorb -30%, Nether Strength CDR 1s->0.5s, talent number tweaks (Bulwark of Azzinoth, Pure Hatred, Outland Slaver, Nether Disciple, Felcaked Blades, Azzinoth's Assault, Felbane no boss target). Triaged into requirements -1 table; --accept deferred until triage lands."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 records in citations-felsworn.json: 3 auto-imported (sidekick-data.js snapshot 2026-08-02) + 3 MANUAL rotation transcriptions from the fresh 2026-08-07 spec-page scrapes (origin=manual, first-class per citations.py). Validation clean after aliases-felsworn.json recorded Glaiving/Demonsoul/Tyrant's Presence as null (no castable id in any source). Single source (Sidekick) - corroboration unmeasurable, caveat recorded; draft bar accepts one cited author, never zero."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 169,
+   "note": "crossdb_sweep.py felsworn: all 169 id-bearing inventory rows return 'record' on db.ascension.gg (and every row exists on db.exil.es by construction). Zero no-record rows - no name re-asks needed. 22 rows with no id are unbuildable passives, noted per-row."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "Generated and READ the full per-spec geometry via hud.displays() for all three packs (mkguide.py is Runemaster-hardcoded; hud.py is the class-agnostic renderer). Ladder verified: alerts -18 / target -51 / buffs -84 / main -132 / felfury 6-cell -164 / energy -180 / offense -215 / utility 2 rows / longterm below, all bands centred, every always-visible row <= 228px (=1.0x bar, rowwidths max). Tyrant has no target band and infernal no alert - both by design. Buff rows are active-only so their stored widths (340px slayer) never render in full."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "AUTOMATED role pass, cleared in BULK per production-run.md draft mode (2026-08-07) - provenance not disguised as a human read. Every row carries one line of tooltip-based reasoning in Notes. 14 main / 15 offensive / 7 defensive / 16 utility / 12 longterm / 1 buff / 126 ignore. Hedged rows copied to requirements \u00a76: Crashing Shadows, Demonic Will (500497 rank Heal), Eye of the Tyrant, Fel Blades, Fel Empowerment, Felguard (no id), Grommash's Folly, Legionfall, Sunder (rank DoT Persistent), Vengeance Is Mine, Wrath of Tichondrius (no tooltip). Breath of Mannoroth ignored: exil.es tooltip reads 'THIS NO LONGER EXISTS!'. Glaiving NOT promoted: 560578 is a Fury Unleashed passive, rotation prose only."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "All three main rows ordered from the cited rotation transcriptions (citations-felsworn.json manual records, 2026-08-07): slayer Azzinoth's Assault/Annihilan Strike/Twin Slice/Immolation Aura/Bane of Frailty; infernal Fel Fireball/Sargeron Smite/Ruin/Felwrath/Bane of Chaos; tyrant Felrend/Carve/Demonic Will/Twin Slice/Burning Hatred. 'Glaiving' excluded - aliased null (560578 is a passive). CD_PER_ROW=7 from narrowest main row row_w(5)=228px; rowwidths.py: all always-visible rows <= 1.0x, none past 1.2x."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Scraped ascensionsidekick.com/felsworn/{slayer,infernal,tyrant} via Firecrawl 2026-08-07 (slug verified: /felsworn serves real content, classicon_demonhunter). Roles per Sidekick: slayer melee DPS (Agility), infernal ranged caster DPS (Spirit), tyrant main-tank (Agility). All three: Energy + Felfury builder-spender ('Demonic Rage' in page header, 'Felfury' in every tooltip). Snapshot POST-dates newest changelog entry (2026/07/31): Cripple text already shows reworked 40% slow."
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "\u00a73 answered: NO pet section. Infernal (560284, 45s) is a temporary summon shipped as an offensive CD icon; Twisted Sight is a scouting eye (utility); no pet spellbook exists in coaKits (petLines empty), no pet resource, nothing keys off pet presence - Infernal Summoner keys off the COOLDOWN which the icon already re-reads."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW: Fel Fireball glows under Reckoning (pressed empower window with a resolvable aura id). Legionfall and Vengeance Is Mine windows are real must-press cues whose proc AURA ids exist in no source - glows deferred to \u00a76 rather than wired to ids that never fire. Sculptor of Doom tracked in the infernal buff row; Inner Demon window tracked as BOTH 804216 and Demon Form 804221 (any-of via two active-only buff entries)."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-felsworn.md: all sections answered. Changelog table (19 entries triaged, 2 land in the pack), spec roles slayer=damage infernal=damage tyrant=tank (Sidekick-cited, pending in-game), Felfury=aura 800058 6-cell stack_bar + Energy bar on all specs, Inner Demon window = the class transform (no spell replacement -> no Spell Known variants needed), pets: none (Infernal is a CD icon), 8 open UNKNOWNs in \u00a76."
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "talents.py felsworn: 35/35 talent-granted abilities have inventory rows, no holes. No spell REPLACEMENT exists in the kit (Inner Demon riders modify abilities in place), so no spell_swap/Spell Known variant needed - \u00a72 verdict. The Demon Within (auto Demon Form at 6 Felfury) needs no display change; Fel Addict cap change fails safe on the 6-cell bar; talent-granted buttons (Chaos Storm etc.) gate on their own ids via inventory roles."
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py fully green including felsworn: 4 packs match frozen fixtures, 151 class-gated leaves, Core 6 (pinned in classes.CORE_LEAVES with reasoning), 77 desaturating CD icons, off-GCD both directions clean (12 off-GCD from the audit), merge lossless per spec (60/50/53), target rows all render, citations valid, talents 35/35, rowwidths max 1.00x."
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "\u00a76: 9 open items, ALL explicitly deferred with what settles each - Felfury aura id + talented cap, Inner Demon window aura id (both candidates tracked any-of, renders right either way), Legionfall + Vengeance Is Mine proc aura ids (glows deferred, not mis-wired), Fel Empowerment castable, toggle-family exclusivity (alert fires on none-of-set, correct under both readings), Sunder castable id (707508 Placer shipped, flagged), Intuition self-castability (alert deferred), Fel Blades/Scars debuffs (feedback), single-source rotations (draft bar accepts one cited author). None blocks the draft bar per production-run.md."
+  }
+ }
+}

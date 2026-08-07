@@ -1,0 +1,2342 @@
+{
+ "A Thousand Cuts": {
+  "ids": [
+   704610
+  ],
+  "icon": null
+ },
+ "Abyssal Conditioning": {
+  "ids": [
+   521234
+  ],
+  "icon": null
+ },
+ "Abyssal Destruction": {
+  "ids": [
+   705134
+  ],
+  "icon": null
+ },
+ "Activate Demon Form, Passively": {
+  "ids": [
+   706263
+  ],
+  "icon": null
+ },
+ "Add 2 Felfury": {
+  "ids": [
+   801024
+  ],
+  "icon": null
+ },
+ "Add 6 Felfury": {
+  "ids": [
+   801043
+  ],
+  "icon": null
+ },
+ "Add Felfury Charge": {
+  "ids": [
+   800060
+  ],
+  "icon": null
+ },
+ "Agile Strikes": {
+  "ids": [
+   804105
+  ],
+  "icon": null
+ },
+ "Agonizing Presence": {
+  "ids": [
+   807727
+  ],
+  "icon": null
+ },
+ "Ahead of the Game": {
+  "ids": [
+   592009
+  ],
+  "icon": null
+ },
+ "Ancient Agreements": {
+  "ids": [
+   704364
+  ],
+  "icon": null
+ },
+ "Annihilan Rituals": {
+  "ids": [
+   520831
+  ],
+  "icon": null
+ },
+ "Annihilan Strike": {
+  "ids": [
+   801903
+  ],
+  "icon": null
+ },
+ "Annihilan Strike (Offhand)": {
+  "ids": [
+   801914
+  ],
+  "icon": null
+ },
+ "Annihilation": {
+  "ids": [
+   802059
+  ],
+  "icon": null
+ },
+ "Archimonde's Fury": {
+  "ids": [
+   706269
+  ],
+  "icon": null
+ },
+ "Archimonde's Wrath": {
+  "ids": [
+   300489
+  ],
+  "icon": null
+ },
+ "Archimonde's Wrath DEPRECATED": {
+  "ids": [
+   560697
+  ],
+  "icon": null
+ },
+ "At Least 2 Felfury": {
+  "ids": [
+   803468
+  ],
+  "icon": null
+ },
+ "Azzinoth's Apprentice": {
+  "ids": [
+   574141
+  ],
+  "icon": null
+ },
+ "Azzinoth's Assault": {
+  "ids": [
+   801904
+  ],
+  "icon": null
+ },
+ "Azzinoth's Battery": {
+  "ids": [
+   705137
+  ],
+  "icon": null
+ },
+ "Azzinoth's Rage": {
+  "ids": [
+   804611
+  ],
+  "icon": null
+ },
+ "Azzinoth's Rage Proc": {
+  "ids": [
+   804612
+  ],
+  "icon": null
+ },
+ "Bane of Betrayal": {
+  "ids": [
+   712483
+  ],
+  "icon": null
+ },
+ "Bane of Chaos": {
+  "ids": [
+   704368
+  ],
+  "icon": null
+ },
+ "Bane of Chaos Missile Visual": {
+  "ids": [
+   520519
+  ],
+  "icon": null
+ },
+ "Bane of Chaos Missile Visual2": {
+  "ids": [
+   520543
+  ],
+  "icon": null
+ },
+ "Bane of Fire": {
+  "ids": [
+   707901
+  ],
+  "icon": null
+ },
+ "Bane of Frailty": {
+  "ids": [
+   707903
+  ],
+  "icon": null
+ },
+ "Bane of Power": {
+  "ids": [
+   707902
+  ],
+  "icon": null
+ },
+ "Battle Finesse": {
+  "ids": [
+   704611
+  ],
+  "icon": null
+ },
+ "Betray": {
+  "ids": [
+   804220
+  ],
+  "icon": null
+ },
+ "Betrayer": {
+  "ids": [
+   300476
+  ],
+  "icon": null
+ },
+ "Betrayer's Blow": {
+  "ids": [
+   804766
+  ],
+  "icon": null
+ },
+ "Betrayer's Inclinations": {
+  "ids": [
+   804758
+  ],
+  "icon": null
+ },
+ "Black Magic": {
+  "ids": [
+   524950
+  ],
+  "icon": null
+ },
+ "Black Temple Warden": {
+  "ids": [
+   560237
+  ],
+  "icon": null
+ },
+ "Bladerunner": {
+  "ids": [
+   560644
+  ],
+  "icon": null
+ },
+ "Blessing of Sargeras": {
+  "ids": [
+   561162
+  ],
+  "icon": null
+ },
+ "Blighted Strike": {
+  "ids": [
+   567578
+  ],
+  "icon": null
+ },
+ "Blighted Strikes": {
+  "ids": [
+   570077
+  ],
+  "icon": null
+ },
+ "Blood of Azzinoth": {
+  "ids": [
+   500421
+  ],
+  "icon": null
+ },
+ "Blood of Mannoroth": {
+  "ids": [
+   802075
+  ],
+  "icon": null
+ },
+ "Bloodsense": {
+  "ids": [
+   705136
+  ],
+  "icon": null
+ },
+ "Blur": {
+  "ids": [
+   578345
+  ],
+  "icon": null
+ },
+ "Breath of Mannoroth": {
+  "ids": [
+   800205
+  ],
+  "icon": null
+ },
+ "Breath of Tichondrius DEPRECATED": {
+  "ids": [
+   501309
+  ],
+  "icon": null
+ },
+ "Bulkwark of Azzinoth": {
+  "ids": [
+   500031
+  ],
+  "icon": null
+ },
+ "Bulwark of Azzinoth": {
+  "ids": [
+   705122
+  ],
+  "icon": null
+ },
+ "Burning Commander": {
+  "ids": [
+   92089
+  ],
+  "icon": null
+ },
+ "Burning Hatred": {
+  "ids": [
+   520259
+  ],
+  "icon": null
+ },
+ "Burning In Fel": {
+  "ids": [
+   560824
+  ],
+  "icon": null
+ },
+ "Burning Legionnaire": {
+  "ids": [
+   520885
+  ],
+  "icon": null
+ },
+ "Burning Rage": {
+  "ids": [
+   707907
+  ],
+  "icon": null
+ },
+ "Burning Vengeance": {
+  "ids": [
+   804291
+  ],
+  "icon": null
+ },
+ "Burning Vengeance Hidden Rage Stuff": {
+  "ids": [
+   300760
+  ],
+  "icon": null
+ },
+ "Burning Wrath": {
+  "ids": [
+   704599
+  ],
+  "icon": null
+ },
+ "Carve": {
+  "ids": [
+   800206
+  ],
+  "icon": null
+ },
+ "Chaos": {
+  "ids": [
+   802676
+  ],
+  "icon": null
+ },
+ "Chaos Blades": {
+  "ids": [
+   560056
+  ],
+  "icon": null
+ },
+ "Chaos Nova": {
+  "ids": [
+   802025
+  ],
+  "icon": null
+ },
+ "Chaos Orb": {
+  "ids": [
+   807022
+  ],
+  "icon": null
+ },
+ "Chaos Rush": {
+  "ids": [
+   500028
+  ],
+  "icon": null
+ },
+ "Chaos Rush Jump": {
+  "ids": [
+   802028
+  ],
+  "icon": null
+ },
+ "Chaos Soldier": {
+  "ids": [
+   560057
+  ],
+  "icon": null
+ },
+ "Chaos Storm": {
+  "ids": [
+   520241
+  ],
+  "icon": null
+ },
+ "Chaotic Intuition": {
+  "ids": [
+   300481
+  ],
+  "icon": null
+ },
+ "Chaotic Magic": {
+  "ids": [
+   574139
+  ],
+  "icon": null
+ },
+ "Chaotic Smiter": {
+  "ids": [
+   560089
+  ],
+  "icon": null
+ },
+ "CoA Aura - Felsworn - Infernal": {
+  "ids": [
+   887028
+  ],
+  "icon": null
+ },
+ "CoA Aura - Felsworn - Slayer": {
+  "ids": [
+   887027
+  ],
+  "icon": null
+ },
+ "CoA Aura - Felsworn - Tyrant": {
+  "ids": [
+   887029
+  ],
+  "icon": null
+ },
+ "CoA Aura - Felsworn Class": {
+  "ids": [
+   887002
+  ],
+  "icon": null
+ },
+ "Complete Combo": {
+  "ids": [
+   567565
+  ],
+  "icon": null
+ },
+ "Consume Magic": {
+  "ids": [
+   800353
+  ],
+  "icon": null
+ },
+ "Consumed By Fel": {
+  "ids": [
+   300485
+  ],
+  "icon": null
+ },
+ "Corruption": {
+  "ids": [
+   705110
+  ],
+  "icon": null
+ },
+ "Cripple": {
+  "ids": [
+   704371
+  ],
+  "icon": null
+ },
+ "Crippling Pain": {
+  "ids": [
+   704397
+  ],
+  "icon": null
+ },
+ "Cruelty": {
+  "ids": [
+   705109
+  ],
+  "icon": null
+ },
+ "Curse of Argus": {
+  "ids": [
+   704370
+  ],
+  "icon": null
+ },
+ "Cursed": {
+  "ids": [
+   301290
+  ],
+  "icon": null
+ },
+ "Cursed Flames": {
+  "ids": [
+   300478
+  ],
+  "icon": null
+ },
+ "DH Reach 100 Rage": {
+  "ids": [
+   801207
+  ],
+  "icon": null
+ },
+ "Dancing Blades": {
+  "ids": [
+   92087
+  ],
+  "icon": null
+ },
+ "Dark Bargain": {
+  "ids": [
+   804233
+  ],
+  "icon": null
+ },
+ "Dark Lord": {
+  "ids": [
+   300470
+  ],
+  "icon": null
+ },
+ "Dark Magician": {
+  "ids": [
+   560637
+  ],
+  "icon": null
+ },
+ "Deadly Magic": {
+  "ids": [
+   560640
+  ],
+  "icon": null
+ },
+ "Demon Form": {
+  "ids": [
+   804221
+  ],
+  "icon": null
+ },
+ "Demon Form (Felblood)": {
+  "ids": [
+   801208
+  ],
+  "icon": null
+ },
+ "Demon Form (Slaying)": {
+  "ids": [
+   800707
+  ],
+  "icon": null
+ },
+ "Demon Hide": {
+  "ids": [
+   520252
+  ],
+  "icon": null
+ },
+ "Demon Skin": {
+  "ids": [
+   570169
+  ],
+  "icon": null
+ },
+ "Demon Soul": {
+  "ids": [
+   802085
+  ],
+  "icon": null
+ },
+ "Demonborn": {
+  "ids": [
+   705102
+  ],
+  "icon": null
+ },
+ "Demonfire Pact": {
+  "ids": [
+   800031
+  ],
+  "icon": null
+ },
+ "Demonic": {
+  "ids": [
+   524949
+  ],
+  "icon": null
+ },
+ "Demonic Attunement": {
+  "ids": [
+   804615
+  ],
+  "icon": null
+ },
+ "Demonic Blood": {
+  "ids": [
+   807438
+  ],
+  "icon": null
+ },
+ "Demonic Crusade": {
+  "ids": [
+   570175
+  ],
+  "icon": null
+ },
+ "Demonic Evasion": {
+  "ids": [
+   705108
+  ],
+  "icon": null
+ },
+ "Demonic Fortitude": {
+  "ids": [
+   524634
+  ],
+  "icon": null
+ },
+ "Demonic Machinations": {
+  "ids": [
+   806111
+  ],
+  "icon": null
+ },
+ "Demonic Will": {
+  "ids": [
+   500497
+  ],
+  "icon": null
+ },
+ "Demonscale": {
+  "ids": [
+   804218
+  ],
+  "icon": null
+ },
+ "Demonscale (Tyranny)": {
+  "ids": [
+   801574
+  ],
+  "icon": null
+ },
+ "Demonscale (Tyranny, Proc)": {
+  "ids": [
+   801575
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   500030
+  ],
+  "icon": null
+ },
+ "Doomglaive Fel-wrought Wound": {
+  "ids": [
+   555725
+  ],
+  "icon": null
+ },
+ "Doomglaive Warlock's Bane Crit": {
+  "ids": [
+   523509
+  ],
+  "icon": null
+ },
+ "Doomguard": {
+  "ids": [
+   520248
+  ],
+  "icon": null
+ },
+ "Doomsayer": {
+  "ids": [
+   520833
+  ],
+  "icon": null
+ },
+ "Doomscar": {
+  "ids": [
+   520239
+  ],
+  "icon": null
+ },
+ "Doomscarring": {
+  "ids": [
+   685321
+  ],
+  "icon": null
+ },
+ "Dreadlord's Pact": {
+  "ids": [
+   803488
+  ],
+  "icon": null
+ },
+ "Drink Essence": {
+  "ids": [
+   800221
+  ],
+  "icon": null
+ },
+ "Eliminate Advantage": {
+  "ids": [
+   300471
+  ],
+  "icon": null
+ },
+ "Embraced": {
+  "ids": [
+   800833
+  ],
+  "icon": null
+ },
+ "Embracing Evil": {
+  "ids": [
+   712425
+  ],
+  "icon": null
+ },
+ "Empowered Felstrikes": {
+  "ids": [
+   705120
+  ],
+  "icon": null
+ },
+ "Energize": {
+  "ids": [
+   592521
+  ],
+  "icon": null
+ },
+ "Energize +10 Energy": {
+  "ids": [
+   525010
+  ],
+  "icon": null
+ },
+ "Energize +10 Rage": {
+  "ids": [
+   521644
+  ],
+  "icon": null
+ },
+ "Energize +15 Rage": {
+  "ids": [
+   521218
+  ],
+  "icon": null
+ },
+ "Energize +15 energy": {
+  "ids": [
+   521241
+  ],
+  "icon": null
+ },
+ "Energize +20 energy": {
+  "ids": [
+   521213
+  ],
+  "icon": null
+ },
+ "Energize +30 Rage": {
+  "ids": [
+   521232
+  ],
+  "icon": null
+ },
+ "Energize +30 energy": {
+  "ids": [
+   521235
+  ],
+  "icon": null
+ },
+ "Energize +5 Rage": {
+  "ids": [
+   521452
+  ],
+  "icon": null
+ },
+ "Energize +50 Rage": {
+  "ids": [
+   521230
+  ],
+  "icon": null
+ },
+ "Energize +7-15 Rage": {
+  "ids": [
+   522124
+  ],
+  "icon": null
+ },
+ "Energize Rage": {
+  "ids": [
+   521239
+  ],
+  "icon": null
+ },
+ "Engulfed In Fel": {
+  "ids": [
+   560279
+  ],
+  "icon": null
+ },
+ "Enslave Elemental": {
+  "ids": [
+   954534
+  ],
+  "icon": null
+ },
+ "Erodus's Wrath": {
+  "ids": [
+   555740
+  ],
+  "icon": null
+ },
+ "Eternal Cries": {
+  "ids": [
+   704608
+  ],
+  "icon": null
+ },
+ "Evil Eye": {
+  "ids": [
+   704375
+  ],
+  "icon": null
+ },
+ "Expose": {
+  "ids": [
+   300474
+  ],
+  "icon": null
+ },
+ "Extend Coiling Window": {
+  "ids": [
+   704384
+  ],
+  "icon": null
+ },
+ "Eye of Archimonde": {
+  "ids": [
+   804052
+  ],
+  "icon": null
+ },
+ "Eye of the Legion": {
+  "ids": [
+   572100
+  ],
+  "icon": null
+ },
+ "Eye of the Tyrant": {
+  "ids": [
+   560549
+  ],
+  "icon": null
+ },
+ "Fel Addict": {
+  "ids": [
+   300487
+  ],
+  "icon": null
+ },
+ "Fel Apprentice": {
+  "ids": [
+   92088
+  ],
+  "icon": null
+ },
+ "Fel Bargain": {
+  "ids": [
+   807942
+  ],
+  "icon": null
+ },
+ "Fel Blades": {
+  "ids": [
+   300482
+  ],
+  "icon": null
+ },
+ "Fel Cannon": {
+  "ids": [
+   802180
+  ],
+  "icon": null
+ },
+ "Fel Curse": {
+  "ids": [
+   680319
+  ],
+  "icon": null
+ },
+ "Fel Cursed": {
+  "ids": [
+   680320
+  ],
+  "icon": null
+ },
+ "Fel Daze": {
+  "ids": [
+   705131
+  ],
+  "icon": null
+ },
+ "Fel Doom": {
+  "ids": [
+   572148
+  ],
+  "icon": null
+ },
+ "Fel Doom Scaling": {
+  "ids": [
+   802730
+  ],
+  "icon": null
+ },
+ "Fel Doom Summon": {
+  "ids": [
+   807207
+  ],
+  "icon": null
+ },
+ "Fel Empowerment": {
+  "ids": [
+   300962
+  ],
+  "icon": null
+ },
+ "Fel Energy": {
+  "ids": [
+   555276
+  ],
+  "icon": null
+ },
+ "Fel Erosion": {
+  "ids": [
+   705117
+  ],
+  "icon": null
+ },
+ "Fel Eruption": {
+  "ids": [
+   706534
+  ],
+  "icon": null
+ },
+ "Fel Finesse": {
+  "ids": [
+   520591
+  ],
+  "icon": null
+ },
+ "Fel Fireball": {
+  "ids": [
+   801312
+  ],
+  "icon": null
+ },
+ "Fel Flamecasting": {
+  "ids": [
+   300491
+  ],
+  "icon": null
+ },
+ "Fel Haze": {
+  "ids": [
+   803903
+  ],
+  "icon": null
+ },
+ "Fel Infernal Scaling": {
+  "ids": [
+   807471
+  ],
+  "icon": null
+ },
+ "Fel Infusion": {
+  "ids": [
+   560533
+  ],
+  "icon": null
+ },
+ "Fel Instincts": {
+  "ids": [
+   560645
+  ],
+  "icon": null
+ },
+ "Fel Madness": {
+  "ids": [
+   704363
+  ],
+  "icon": null
+ },
+ "Fel Magician": {
+  "ids": [
+   560638
+  ],
+  "icon": null
+ },
+ "Fel Momentum": {
+  "ids": [
+   807485
+  ],
+  "icon": null
+ },
+ "Fel Monstrosity": {
+  "ids": [
+   500067
+  ],
+  "icon": null
+ },
+ "Fel Napalm": {
+  "ids": [
+   705147
+  ],
+  "icon": null
+ },
+ "Fel Quickness": {
+  "ids": [
+   805247
+  ],
+  "icon": null
+ },
+ "Fel Resistance": {
+  "ids": [
+   803496
+  ],
+  "icon": null
+ },
+ "Fel Rift: Darnassus": {
+  "ids": [
+   535597
+  ],
+  "icon": null
+ },
+ "Fel Rift: Ironforge": {
+  "ids": [
+   535596
+  ],
+  "icon": null
+ },
+ "Fel Rift: Orgrimmar": {
+  "ids": [
+   535598
+  ],
+  "icon": null
+ },
+ "Fel Rift: Stormwind": {
+  "ids": [
+   535595
+  ],
+  "icon": null
+ },
+ "Fel Rift: Thunder Bluff": {
+  "ids": [
+   535599
+  ],
+  "icon": null
+ },
+ "Fel Rift: Undercity": {
+  "ids": [
+   535600
+  ],
+  "icon": null
+ },
+ "Fel Scales (Tyrant)": {
+  "ids": [
+   500531
+  ],
+  "icon": null
+ },
+ "Fel Sensitivity": {
+  "ids": [
+   524953
+  ],
+  "icon": null
+ },
+ "Fel Shield": {
+  "ids": [
+   555278
+  ],
+  "icon": null
+ },
+ "Fel Smite": {
+  "ids": [
+   802692
+  ],
+  "icon": null
+ },
+ "Fel Torpedo": {
+  "ids": [
+   500610
+  ],
+  "icon": null
+ },
+ "Fel-Wrought Wound": {
+  "ids": [
+   574142
+  ],
+  "icon": null
+ },
+ "Felbane": {
+  "ids": [
+   525001
+  ],
+  "icon": null
+ },
+ "Felblade": {
+  "ids": [
+   574146
+  ],
+  "icon": null
+ },
+ "Felblood Combo Spec Passive Two": {
+  "ids": [
+   560105
+  ],
+  "icon": null
+ },
+ "Felbreak": {
+  "ids": [
+   800203
+  ],
+  "icon": null
+ },
+ "Felcaked Blades": {
+  "ids": [
+   574145
+  ],
+  "icon": null
+ },
+ "Felcaked Glaives": {
+  "ids": [
+   705138
+  ],
+  "icon": null
+ },
+ "Felcaked Weapons": {
+  "ids": [
+   705139
+  ],
+  "icon": null
+ },
+ "Felcannon": {
+  "ids": [
+   806065
+  ],
+  "icon": null
+ },
+ "Felfire Adept": {
+  "ids": [
+   560836
+  ],
+  "icon": null
+ },
+ "Felfire Blast": {
+  "ids": [
+   804825
+  ],
+  "icon": null
+ },
+ "Felfire Cascade": {
+  "ids": [
+   300492
+  ],
+  "icon": null
+ },
+ "Felfire Jet": {
+  "ids": [
+   805984
+  ],
+  "icon": null
+ },
+ "Felforged": {
+  "ids": [
+   300490
+  ],
+  "icon": null
+ },
+ "Felfury": {
+  "ids": [
+   800058
+  ],
+  "icon": null
+ },
+ "Felfury Charge Setter Aura": {
+  "ids": [
+   800068
+  ],
+  "icon": null
+ },
+ "Felfury Recharge": {
+  "ids": [
+   570114
+  ],
+  "icon": null
+ },
+ "Felfury Set Full Charges + 1": {
+  "ids": [
+   706306
+  ],
+  "icon": null
+ },
+ "Felfury Set Full Charges + 2": {
+  "ids": [
+   706307
+  ],
+  "icon": null
+ },
+ "Felfury Set Full Charges2": {
+  "ids": [
+   560797
+  ],
+  "icon": null
+ },
+ "Felglare Bane of Chaos Felglare Proc": {
+  "ids": [
+   560106
+  ],
+  "icon": null
+ },
+ "Felgorged": {
+  "ids": [
+   520250
+  ],
+  "icon": null
+ },
+ "Felhoof Charge": {
+  "ids": [
+   800204
+  ],
+  "icon": null
+ },
+ "Felreaver's Fury": {
+  "ids": [
+   805250
+  ],
+  "icon": null
+ },
+ "Felrend": {
+  "ids": [
+   800210
+  ],
+  "icon": null
+ },
+ "Felrend Energy Generator DEPRECATED": {
+  "ids": [
+   573260
+  ],
+  "icon": null
+ },
+ "Felshock": {
+  "ids": [
+   572792
+  ],
+  "icon": null
+ },
+ "Felspears": {
+  "ids": [
+   706532
+  ],
+  "icon": null
+ },
+ "Felspill": {
+  "ids": [
+   555742
+  ],
+  "icon": null
+ },
+ "Felstrike": {
+  "ids": [
+   802678
+  ],
+  "icon": null
+ },
+ "Felstrike Effect": {
+  "ids": [
+   804225
+  ],
+  "icon": null
+ },
+ "Felstrikes": {
+  "ids": [
+   801890
+  ],
+  "icon": null
+ },
+ "Felwracked": {
+  "ids": [
+   704374
+  ],
+  "icon": null
+ },
+ "Felwrath": {
+  "ids": [
+   520236
+  ],
+  "icon": null
+ },
+ "Fiery Void": {
+  "ids": [
+   553264
+  ],
+  "icon": null
+ },
+ "Fissure": {
+  "ids": [
+   575329
+  ],
+  "icon": null
+ },
+ "Flames of Azzinoth": {
+  "ids": [
+   705144
+  ],
+  "icon": null
+ },
+ "Flurry of Blades": {
+  "ids": [
+   572313
+  ],
+  "icon": null
+ },
+ "Force Refresh Felfury Charges": {
+  "ids": [
+   800063
+  ],
+  "icon": null
+ },
+ "Fragment of Malice": {
+  "ids": [
+   800239
+  ],
+  "icon": null
+ },
+ "Fury Unleashed": {
+  "ids": [
+   555738
+  ],
+  "icon": null
+ },
+ "Fury of Archimonde": {
+  "ids": [
+   706268
+  ],
+  "icon": null
+ },
+ "Fury of the Illidari": {
+  "ids": [
+   561216
+  ],
+  "icon": null
+ },
+ "Glaive Orbit Visual": {
+  "ids": [
+   801169
+  ],
+  "icon": null
+ },
+ "Glaive Rush copy": {
+  "ids": [
+   900028
+  ],
+  "icon": null
+ },
+ "Glaive Throw": {
+  "ids": [
+   500368
+  ],
+  "icon": null
+ },
+ "Glaiving": {
+  "ids": [
+   560578
+  ],
+  "icon": null
+ },
+ "Greater Illidari Intuition": {
+  "ids": [
+   680308
+  ],
+  "icon": null
+ },
+ "Greater Man'ari Intuition": {
+  "ids": [
+   523495
+  ],
+  "icon": null
+ },
+ "Grommash's Folly": {
+  "ids": [
+   560839
+  ],
+  "icon": null
+ },
+ "Gul'dan's Prodigy": {
+  "ids": [
+   704378
+  ],
+  "icon": null
+ },
+ "Gust": {
+  "ids": [
+   801239
+  ],
+  "icon": null
+ },
+ "Gust (Knockback)": {
+  "ids": [
+   520267
+  ],
+  "icon": null
+ },
+ "Harnessed Energy": {
+  "ids": [
+   705104
+  ],
+  "icon": null
+ },
+ "Hateforged Barrier": {
+  "ids": [
+   705129
+  ],
+  "icon": null
+ },
+ "Hellfire Carver": {
+  "ids": [
+   707444
+  ],
+  "icon": null
+ },
+ "Herald of the Legion": {
+  "ids": [
+   807461
+  ],
+  "icon": null
+ },
+ "Hidden Power": {
+  "ids": [
+   802108
+  ],
+  "icon": null
+ },
+ "Hulking Demon": {
+  "ids": [
+   805246
+  ],
+  "icon": null
+ },
+ "Illidan's Favor": {
+  "ids": [
+   520592
+  ],
+  "icon": null
+ },
+ "Illidan's Guile": {
+  "ids": [
+   806109
+  ],
+  "icon": null
+ },
+ "Illidari Alacrity": {
+  "ids": [
+   704629
+  ],
+  "icon": null
+ },
+ "Illidari Exhaustion": {
+  "ids": [
+   524635
+  ],
+  "icon": null
+ },
+ "Illidari Intuition": {
+  "ids": [
+   800212
+  ],
+  "icon": null
+ },
+ "Illidari Magi": {
+  "ids": [
+   560639
+  ],
+  "icon": null
+ },
+ "Illidari Smite": {
+  "ids": [
+   520247
+  ],
+  "icon": null
+ },
+ "Illidari Smiter": {
+  "ids": [
+   520246
+  ],
+  "icon": null
+ },
+ "Illidari Training": {
+  "ids": [
+   521210
+  ],
+  "icon": null
+ },
+ "Immolation": {
+  "ids": [
+   800208
+  ],
+  "icon": null
+ },
+ "Immolation Aura": {
+  "ids": [
+   800207
+  ],
+  "icon": null
+ },
+ "Impenetrable Wards": {
+  "ids": [
+   705128
+  ],
+  "icon": null
+ },
+ "Improved Fel Fireball": {
+  "ids": [
+   300479
+  ],
+  "icon": null
+ },
+ "Infernal": {
+  "ids": [
+   560284
+  ],
+  "icon": null
+ },
+ "Infernal - Level 10 Passive": {
+  "ids": [
+   93653
+  ],
+  "icon": null
+ },
+ "Infernal Alacrity": {
+  "ids": [
+   805257
+  ],
+  "icon": null
+ },
+ "Infernal Armor": {
+  "ids": [
+   300467
+  ],
+  "icon": null
+ },
+ "Infernal Constitution": {
+  "ids": [
+   805256
+  ],
+  "icon": null
+ },
+ "Infernal Doom": {
+  "ids": [
+   804219
+  ],
+  "icon": null
+ },
+ "Infernal Magicks": {
+  "ids": [
+   560841
+  ],
+  "icon": null
+ },
+ "Infernal Ruin": {
+  "ids": [
+   560840
+  ],
+  "icon": null
+ },
+ "Infernal Summoner": {
+  "ids": [
+   300480
+  ],
+  "icon": null
+ },
+ "Infernal Whipcrack": {
+  "ids": [
+   805243
+  ],
+  "icon": null
+ },
+ "Ingrained": {
+  "ids": [
+   301288
+  ],
+  "icon": null
+ },
+ "Inner Demon": {
+  "ids": [
+   804216
+  ],
+  "icon": null
+ },
+ "Inner Demon SLS2": {
+  "ids": [
+   806618
+  ],
+  "icon": null
+ },
+ "Inner Demon: Eredar Lord": {
+  "ids": [
+   800025
+  ],
+  "icon": null
+ },
+ "Legionfall": {
+  "ids": [
+   801899
+  ],
+  "icon": null
+ },
+ "Legionfel Pact": {
+  "ids": [
+   804764
+  ],
+  "icon": null
+ },
+ "Lesser Fel Fireball": {
+  "ids": [
+   503087
+  ],
+  "icon": null
+ },
+ "Magic Erosion": {
+  "ids": [
+   562022
+  ],
+  "icon": null
+ },
+ "Magic Guard": {
+  "ids": [
+   561226
+  ],
+  "icon": null
+ },
+ "Malice of Gul'dan": {
+  "ids": [
+   501273
+  ],
+  "icon": null
+ },
+ "Man'ari Intuition": {
+  "ids": [
+   523478
+  ],
+  "icon": null
+ },
+ "Man'ari Teachings": {
+  "ids": [
+   705150
+  ],
+  "icon": null
+ },
+ "Manaburn": {
+  "ids": [
+   805248
+  ],
+  "icon": null
+ },
+ "Manafeed": {
+  "ids": [
+   552210
+  ],
+  "icon": null
+ },
+ "Mannoroth's Rage": {
+  "ids": [
+   570736
+  ],
+  "icon": null
+ },
+ "Mark of Chaos SET Full Felfury": {
+  "ids": [
+   800052
+  ],
+  "icon": null
+ },
+ "Nether Champion": {
+  "ids": [
+   705145
+  ],
+  "icon": null
+ },
+ "Nether Disciple": {
+  "ids": [
+   560576
+  ],
+  "icon": null
+ },
+ "Nether Focus": {
+  "ids": [
+   705101
+  ],
+  "icon": null
+ },
+ "Nether Lance": {
+  "ids": [
+   704376
+  ],
+  "icon": null
+ },
+ "Nether Shift": {
+  "ids": [
+   704372
+  ],
+  "icon": null
+ },
+ "Nether Spirit": {
+  "ids": [
+   300477
+  ],
+  "icon": null
+ },
+ "Nether Strength": {
+  "ids": [
+   520240
+  ],
+  "icon": null
+ },
+ "Oblivion": {
+  "ids": [
+   800215
+  ],
+  "icon": null
+ },
+ "Oppressive Ruin": {
+  "ids": [
+   561201
+  ],
+  "icon": null
+ },
+ "Orinoa Test2": {
+  "ids": [
+   807011
+  ],
+  "icon": null
+ },
+ "Outland Slaver": {
+  "ids": [
+   705123
+  ],
+  "icon": null
+ },
+ "Pact Mastery": {
+  "ids": [
+   705119
+  ],
+  "icon": null
+ },
+ "Perpetual Fury": {
+  "ids": [
+   520244
+  ],
+  "icon": null
+ },
+ "Pit Lord's Rage": {
+  "ids": [
+   705141
+  ],
+  "icon": null
+ },
+ "Pit Lord's Strength": {
+  "ids": [
+   802076
+  ],
+  "icon": null
+ },
+ "Preparedness": {
+  "ids": [
+   704614
+  ],
+  "icon": null
+ },
+ "Pressure": {
+  "ids": [
+   573443
+  ],
+  "icon": null
+ },
+ "Prolong Demonhood": {
+  "ids": [
+   807649
+  ],
+  "icon": null
+ },
+ "Pure Hatred": {
+  "ids": [
+   801894
+  ],
+  "icon": null
+ },
+ "Quick Carving": {
+  "ids": [
+   520254
+  ],
+  "icon": null
+ },
+ "Ragefire": {
+  "ids": [
+   520763
+  ],
+  "icon": null
+ },
+ "Reachwalker": {
+  "ids": [
+   680318
+  ],
+  "icon": null
+ },
+ "Recently Dodged": {
+  "ids": [
+   520261
+  ],
+  "icon": null
+ },
+ "Reckless Assault": {
+  "ids": [
+   804610
+  ],
+  "icon": null
+ },
+ "Reckoning": {
+  "ids": [
+   524632
+  ],
+  "icon": null
+ },
+ "Remove 2 Felfury": {
+  "ids": [
+   800964
+  ],
+  "icon": null
+ },
+ "Remove At Least 2 Felfury": {
+  "ids": [
+   803466
+  ],
+  "icon": null
+ },
+ "Remove At Least 2 Felfury Delayer": {
+  "ids": [
+   803483
+  ],
+  "icon": null
+ },
+ "Remove Chaos Nova Recently Used": {
+  "ids": [
+   802030
+  ],
+  "icon": null
+ },
+ "Render": {
+  "ids": [
+   300473
+  ],
+  "icon": null
+ },
+ "Reset Fel Lightning": {
+  "ids": [
+   560842
+  ],
+  "icon": null
+ },
+ "Resolve To Offense": {
+  "ids": [
+   704609
+  ],
+  "icon": null
+ },
+ "Ruin": {
+  "ids": [
+   801895
+  ],
+  "icon": null
+ },
+ "Rushing": {
+  "ids": [
+   804266
+  ],
+  "icon": null
+ },
+ "Rushing Fury": {
+  "ids": [
+   560738
+  ],
+  "icon": null
+ },
+ "Sargeras Embrace": {
+  "ids": [
+   800355
+  ],
+  "icon": null
+ },
+ "Sargeron Smite": {
+  "ids": [
+   802060
+  ],
+  "icon": null
+ },
+ "Sargeron Smite (Inner Demon)": {
+  "ids": [
+   803467
+  ],
+  "icon": null
+ },
+ "Scars of Suffering": {
+  "ids": [
+   570158
+  ],
+  "icon": null
+ },
+ "Scars of the Past": {
+  "ids": [
+   520805
+  ],
+  "icon": null
+ },
+ "Sculptor of Doom": {
+  "ids": [
+   555277
+  ],
+  "icon": null
+ },
+ "Shadow Magi": {
+  "ids": [
+   803905
+  ],
+  "icon": null
+ },
+ "Shadowflame Resolve": {
+  "ids": [
+   800238
+  ],
+  "icon": null
+ },
+ "Shadra's Vigil Duration Setter": {
+  "ids": [
+   705115
+  ],
+  "icon": null
+ },
+ "Shattered": {
+  "ids": [
+   802243
+  ],
+  "icon": null
+ },
+ "Skull of Gul'dan": {
+  "ids": [
+   800225
+  ],
+  "icon": null
+ },
+ "Slayer - Level 50 Passive": {
+  "ids": [
+   574150
+  ],
+  "icon": null
+ },
+ "Slayer's Pact": {
+  "ids": [
+   803343
+  ],
+  "icon": null
+ },
+ "Slaying Strike": {
+  "ids": [
+   570105
+  ],
+  "icon": null
+ },
+ "Slice & Dice": {
+  "ids": [
+   704361
+  ],
+  "icon": null
+ },
+ "Soar": {
+  "ids": [
+   804522
+  ],
+  "icon": null
+ },
+ "Soul Furnace": {
+  "ids": [
+   805259
+  ],
+  "icon": null
+ },
+ "Soul Tap": {
+  "ids": [
+   524948
+  ],
+  "icon": null
+ },
+ "Spectral Glaive": {
+  "ids": [
+   801164
+  ],
+  "icon": null
+ },
+ "Spectral Glaives": {
+  "ids": [
+   706711
+  ],
+  "icon": null
+ },
+ "Spectral Might": {
+  "ids": [
+   704631
+  ],
+  "icon": null
+ },
+ "Spellbreak": {
+  "ids": [
+   804809
+  ],
+  "icon": null
+ },
+ "Spite": {
+  "ids": [
+   800188
+  ],
+  "icon": null
+ },
+ "Spite OLD": {
+  "ids": [
+   704365
+  ],
+  "icon": null
+ },
+ "Starshatter": {
+  "ids": [
+   707725
+  ],
+  "icon": null
+ },
+ "Stomp": {
+  "ids": [
+   501264
+  ],
+  "icon": null
+ },
+ "Stomped": {
+  "ids": [
+   524605
+  ],
+  "icon": null
+ },
+ "Straight to the Nether": {
+  "ids": [
+   560503
+  ],
+  "icon": null
+ },
+ "Sunder": {
+  "ids": [
+   556503
+  ],
+  "icon": null
+ },
+ "Taskmaster's Army": {
+  "ids": [
+   800220
+  ],
+  "icon": null
+ },
+ "Testing Set": {
+  "ids": [
+   572133
+  ],
+  "icon": null
+ },
+ "Testing node": {
+  "ids": [
+   600138
+  ],
+  "icon": null
+ },
+ "The Demon Within": {
+  "ids": [
+   800222
+  ],
+  "icon": null
+ },
+ "The True Blessing": {
+  "ids": [
+   560837
+  ],
+  "icon": null
+ },
+ "Trampling Hooves": {
+  "ids": [
+   805251
+  ],
+  "icon": null
+ },
+ "Trickery": {
+  "ids": [
+   705126
+  ],
+  "icon": null
+ },
+ "Trigger Felfury Recharge": {
+  "ids": [
+   570115
+  ],
+  "icon": null
+ },
+ "True Self": {
+  "ids": [
+   574140
+  ],
+  "icon": null
+ },
+ "Twin Fury": {
+  "ids": [
+   801892
+  ],
+  "icon": null
+ },
+ "Twin Slice": {
+  "ids": [
+   801901
+  ],
+  "icon": null
+ },
+ "Twin Slice Test": {
+  "ids": [
+   803714
+  ],
+  "icon": null
+ },
+ "Twin Slice UNUSED": {
+  "ids": [
+   802899
+  ],
+  "icon": null
+ },
+ "Twisted Sight": {
+  "ids": [
+   532229
+  ],
+  "icon": null
+ },
+ "Tyrannical Resolve": {
+  "ids": [
+   804823
+  ],
+  "icon": null
+ },
+ "Tyranny": {
+  "ids": [
+   800073
+  ],
+  "icon": null
+ },
+ "Tyranny DF Rage Based DR": {
+  "ids": [
+   500362
+  ],
+  "icon": null
+ },
+ "Tyrant's Command": {
+  "ids": [
+   704233
+  ],
+  "icon": null
+ },
+ "Tyrant's Gaze": {
+  "ids": [
+   805240
+  ],
+  "icon": null
+ },
+ "Tyrant's Rage": {
+  "ids": [
+   804824
+  ],
+  "icon": null
+ },
+ "Tyrant's Scales": {
+  "ids": [
+   804217
+  ],
+  "icon": null
+ },
+ "UNUSED": {
+  "ids": [
+   525009
+  ],
+  "icon": null
+ },
+ "Unbound": {
+  "ids": [
+   574153
+  ],
+  "icon": null
+ },
+ "Unholy Endurance": {
+  "ids": [
+   300466
+  ],
+  "icon": null
+ },
+ "Unphased": {
+  "ids": [
+   803645
+  ],
+  "icon": null
+ },
+ "Unstoppable Fel": {
+  "ids": [
+   301291
+  ],
+  "icon": null
+ },
+ "Untold Power": {
+  "ids": [
+   705113
+  ],
+  "icon": null
+ },
+ "Update Felfury": {
+  "ids": [
+   803469
+  ],
+  "icon": null
+ },
+ "Vengeance": {
+  "ids": [
+   801896
+  ],
+  "icon": null
+ },
+ "Vengeance Is Mine": {
+  "ids": [
+   804822
+  ],
+  "icon": null
+ },
+ "Vengeful Pact": {
+  "ids": [
+   800029
+  ],
+  "icon": null
+ },
+ "Voidblaze": {
+  "ids": [
+   501278
+  ],
+  "icon": null
+ },
+ "Warlock Training": {
+  "ids": [
+   560641
+  ],
+  "icon": null
+ },
+ "Warlock's Bane": {
+  "ids": [
+   525053
+  ],
+  "icon": null
+ },
+ "Whirling Vengeance": {
+  "ids": [
+   704602
+  ],
+  "icon": null
+ },
+ "Whispers of the Pit": {
+  "ids": [
+   805235
+  ],
+  "icon": null
+ },
+ "Wing Flap DEPRECATED": {
+  "ids": [
+   503494
+  ],
+  "icon": null
+ },
+ "Wings of Illidan": {
+  "ids": [
+   520268
+  ],
+  "icon": null
+ },
+ "Withering": {
+  "ids": [
+   707416
+  ],
+  "icon": null
+ },
+ "Wrath of Sargeras": {
+  "ids": [
+   806103
+  ],
+  "icon": null
+ },
+ "Wrath of Tichondrius": {
+  "ids": [
+   520245
+  ],
+  "icon": null
+ },
+ "Wrathbringer": {
+  "ids": [
+   705133
+  ],
+  "icon": null
+ },
+ "Wrathforged": {
+  "ids": [
+   800823
+  ],
+  "icon": null
+ },
+ "You Cheat, Gul'dan!": {
+  "ids": [
+   705127
+  ],
+  "icon": null
+ }
+}

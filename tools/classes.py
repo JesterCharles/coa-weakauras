@@ -197,6 +197,12 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # First pin (0.1). FS Core itself is empty of alerts -- the 6 are the Core
+    # group plus five merged Buffs leaves for all-spec auras (the Inner Demon /
+    # Demon Form window pair, Hateforged Barrier, Annihilation, Reckoning)
+    # that hold the class gate alone: buff icons are self-gating and a buff id
+    # is not something IsSpellKnown recognises.
+    "felsworn": 6,
 }
 
 

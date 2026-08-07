@@ -1,0 +1,196 @@
+{
+ "Annihilation": {
+  "id": 802059,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Betray": {
+  "id": 804220,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Blood of Mannoroth": {
+  "id": 802075,
+  "cd": "3 min cooldown",
+  "specs": [
+   "slayer"
+  ],
+  "gcd": false
+ },
+ "Blur": {
+  "id": 578345,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "slayer"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Breath of Mannoroth": {
+  "id": 800205,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "tyrant"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Eye of Archimonde": {
+  "id": 804052,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Fel Bargain": {
+  "id": 807942,
+  "cd": "3 min cooldown",
+  "specs": [
+   "tyrant"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Felbane": {
+  "id": 525001,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Felbreak": {
+  "id": 800203,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "slayer",
+   "infernal"
+  ],
+  "gcd": false
+ },
+ "Felspill": {
+  "id": 555742,
+  "cd": "14 sec cooldown",
+  "specs": [
+   "slayer",
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Fury Unleashed": {
+  "id": 555738,
+  "cd": "3 min cooldown",
+  "specs": [
+   "slayer"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Illidan's Guile": {
+  "id": 806109,
+  "cd": "5 min cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Infernal": {
+  "id": 560284,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Infernal Whipcrack": {
+  "id": 805243,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Malice of Gul'dan": {
+  "id": 501273,
+  "cd": "2 min cooldown",
+  "specs": [
+   "infernal"
+  ],
+  "gcd": false
+ },
+ "Manaburn": {
+  "id": 805248,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Sargeras Embrace": {
+  "id": 800355,
+  "cd": "1 min cooldown",
+  "specs": [
+   "infernal"
+  ],
+  "gcd": false
+ },
+ "Skull of Gul'dan": {
+  "id": 800225,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": false
+ },
+ "Soar": {
+  "id": 804522,
+  "cd": "2 min cooldown",
+  "specs": [
+   "infernal"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Tyrannical Resolve": {
+  "id": 804823,
+  "cd": "3 min cooldown",
+  "specs": [
+   "tyrant"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Tyrant's Gaze": {
+  "id": 805240,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "tyrant"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Whispers of the Pit": {
+  "id": 805235,
+  "cd": "1 min cooldown",
+  "specs": [
+   "slayer",
+   "infernal",
+   "tyrant"
+  ],
+  "gcd": "1.0 sec"
+ }
+}
