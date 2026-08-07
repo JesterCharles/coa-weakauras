@@ -1,0 +1,108 @@
+{
+ "class": "reaper",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 211,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 215,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 211,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 211,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 215,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 211,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 211,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 215,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 211,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "requirements section 5: EXPLICITLY NO alert band - Reaper has no pre-pull imbue/stance kit whose absence is silent throughput loss; the one candidate (Death's Presence) rides a passive whose aura visibility is unproven, and an alert on a hidden aura would be permanently on screen (the Runemaster reminder failure) - deferred to section 6 in-game"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "33 entries (all 2026/07/31) triaged into requirements-reaper.md section -1: all numeric tuning + 5 mechanics tweaks, zero replaced/reworked/new-spell; accepted after triage; Sidekick snapshot predates the batch (Limbo 5s vs 6s) - noted as staleness"
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "citations.py --import-sidekick: 3 records (one per spec) from sidekick-data.js 2026-08-02, 11 claims, validate clean after 2 alias fixes (Harvest's Embrace->Harvest Time rename, Possess row added); single source - corroboration not yet measurable, caveat recorded in each record"
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 211,
+   "note": "crossdb_sweep.py: 211/211 id rows asked of db.ascension; 2 no-record both justified (Shrieking Scythe renamed->Shrieker, role ignore; Shudder Scythe components exist). Name re-asks fixed 3 wrong ids (Cull 800930, Gravesite 804722, Masochistic Rage 803030), added 4 rows (Blood Siphon, Crimson Thirst, Purgatory, Possess); Sever unresolvable - aliased null"
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py (all rows <=1.2x, mains 1.00x after the transform-face rework kept the row 5 wide) + structural read via tools/hud.py on all three per-spec packs: target -51 / buffs -84 / main -132 / souls -164 / RP -180 / offense -215 wrapping 30px / utility below / longterm bottom, zero anchor-fallback warnings"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "BULK MODE (production-run.md default): automated pass proposed all 214 roles with one line of evidence per Notes cell (skillbook desc + spell-meta rank/cd/gcd + sidekick prose + db.ascension tooltips), cleared in bulk 2026-08-07 - no row read one at a time by a human. Hedged rows copied to requirements section 6: Shudder Scythe, Shrieker, Reliquary id, Crimson Harvest, Death's Presence, Murder-on-soul, Reap/Spectre Stride spec widening, Sever"
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "all three main rows quoted from the numbered Sidekick rotation text: dom Reap>Soul Strike>Dreadwake>Requiem>Deathwind; harvest Crow's Harvest>Doomrend>Reap>Murder>Slaughter; soul Deathchaser>Wraithblade>Dirge>Reap>Reliquary of the Lost. CD_PER_ROW=7 from the 5-icon narrowest main row (228px), rowwidths clean at 1.00x"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "sidekick-reaper-{domination,harvest,soul}.md scraped via Firecrawl 2026-08-07 (36-37KB each, full Rotations + Playstyle + kit sections); content predates 2026/07/31 tuning batch - structure current, numbers deferred to db tooltips"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "requirements section 3 answered: EXPLICITLY NONE. Only temporary combat summons (Spectral Scythe/Warden 20s on dom, Wailing Soul on soul) - cooldown icons in offense/defense/utility rows, Spectral Warden's group absorb in the dom buff row; no pet abilities the player presses, no pet resource, no pet section"
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW keys every Soul Infusion spender (Reliquary of the Lost, Soulslam, Spectral Scythe, Tormented Souls, Blood Siphon, Soulspear) off aura 803031 - the cascade's must-press state; Soul Infusion also rides the class-wide buff row"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-reaper.md written, all sections answered; no healer spec (cited), no pet section (cited), no alert band (no pre-pull kit; Death's Presence hidden-passive risk deferred to section 6); 16 UNKNOWNs collected as the in-game checklist"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "section-2 transforms as transform_face(): Decimation->Decimate 500523 (dom) and Redshade->Thresh 505170 (harvest) swap the Reap icon's face via native Spell Known trigger on the numeric replacement id + displayIcon condition (iconSource=0, Ripple pattern, one display so the row stays 5 wide); charges Veilwalk 2 / Ghostly Weapon 2 / Haunt 3 / Wraith Claw 2; talent-granted actives (Sinister Litany, Limbo, Jailer's Bargain, Tormented Souls, Blood Siphon) ride the inventory rows; pack reads correctly untalented (plain Reap, active-only buff entries)"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed (fixtures frozen via tests/freeze.py reaper; CORE_LEAVES reaper=6 pinned in classes.py with the leaf list in the comment)"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "requirements section 6: 16 open questions DEFERRED ON PURPOSE to the post-ship verified pass (draft bar, production-run.md) - headline items: RP power-type 6, the three cascade aura ids vs their decoys, 5-vs-3 fragment cell count, Sever's missing id, the deferred soul silence icon, Death's Presence aura visibility"
+  }
+ }
+}

@@ -111,6 +111,18 @@ resembling a Discipline/Holy/Resto kit" (an Augmentation-style buffer, still
 `damage` in this three-role vocabulary)
 (`resources/sidekick-ranger-*.md`, scraped 2026-08-07). No tank kit appears
 in any of the three pages. Replace with an in-game read when one exists.
+| 30 | Reaper | domination | tank |
+| 30 | Reaper | harvest | damage |
+| 30 | Reaper | soul | damage |
+
+**Reaper provenance (30):** not yet observed in game — filled from citable
+Sidekick statements, one per spec: domination "Solid main-tank for raid
+bosses … Strong dungeon tank"; harvest "This spec has no ally-targeted heal.
+Its role in a group is soaking and holding pressure off the healer";
+soul "This spec has no real heal-the-group kit … damage dealer"
+(`resources/sidekick-reaper-*.md`, scraped 2026-08-07). All self-sustain is
+leech, never an ally heal, so no healer target band can be hidden by these
+rows. Replace with an in-game read when one exists.
 
 ## Corroboration
 

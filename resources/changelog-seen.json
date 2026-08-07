@@ -5,6 +5,11 @@
    "date": "2026/07/31",
    "text": "Fixed an issue where Woodland Stalker would be active all the time except for when in Eluder (opposite effect than intended)"
   },
+  "03764121514692c7": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Harvester\u2019s Scythe increased to 20% from 15%"
+  },
   "037fb95ddfa81f22": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -20,10 +25,20 @@
    "date": "2026/07/31",
    "text": "Infinite Shield range increased to 40 yds."
   },
+  "0a69b870056a3480": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Empyrean Fortitude now generates 5 RP, up from 2."
+  },
   "0ddba1d563c5bb49": {
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
+  },
+  "13f376006eaa0437": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 4 increased base damage from 17 to 21 and 80% weapon damage to 90% weapon damage."
   },
   "14eb2f1dda49fb89": {
    "class": "witch-hunter",
@@ -65,6 +80,11 @@
    "date": "2026/07/31",
    "text": "Skirmish and Swiftshot have swapped positions"
   },
+  "2060a18cc2a3f4e2": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 1 increased weapon damage from 65% to 75% and normalized damage from 6 to 8."
+  },
   "21e20fb48befd110": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -74,6 +94,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Stake Rank 4's damage has been increased from 366 to 509."
+  },
+  "247029e9a44ef873": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 7 increased base damage from 202 to 242 and weapon damage from 130% to 150%."
   },
   "279e1a7fecf44fa6": {
    "class": "barbarian",
@@ -120,6 +145,11 @@
    "date": "2026/07/31",
    "text": "Legionfall now additionally causes your next Annihilan Strike to cost 50% less energy."
   },
+  "31a15f126000c9f8": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 1 increased base damage from 14 to 17 and weapon damage from 130% to 150%."
+  },
   "33d3326f3dc49d1b": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -135,6 +165,11 @@
    "date": "2026/07/31",
    "text": "Ride the Lightning now has a 30 yd range instead of 40 yds. 40 yds often left you teleporting into walls."
   },
+  "3593781f6086dfc5": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Spectre Stride now roots the target for 2 sec."
+  },
   "37903d0e830d73f8": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -144,6 +179,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Felcaked Blades agility scaling increased from 20% to 25%."
+  },
+  "3abf5595455bec90": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the duration of Harvesting Grounds to 15 sec from 10 sec"
   },
   "3addea5dbbfe4dd4": {
    "class": "ranger",
@@ -180,15 +220,30 @@
    "date": "2026/07/31",
    "text": "Hail of Hammers now additionally increases the critical damage of Crush by the same amount."
   },
+  "404469b4f8af905f": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Scythe Rush now roots the enemy in place for 1 sec."
+  },
   "423a7a271ccdab26": {
    "class": "pyromancer",
    "date": "2026/07/31",
    "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
   },
+  "474d568768b496fa": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 5 increased base damage from 119 to 143 and weapon damage from 130% to 150%."
+  },
   "48ab5edb7de0f776": {
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Night Elf can now be Witch Hunter."
+  },
+  "4c8bc1a59f35d881": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 7 increased base damage from 80 to 106 and 80% weapon damage to 90% weapon damage."
   },
   "4d4ab0d1cc523bd6": {
    "class": "ranger",
@@ -204,6 +259,11 @@
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Temporal Anomaly can now be released early (cancelable before expiration), healing you for currently stored value."
+  },
+  "50aeaa540a3e04a8": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 2 increased base damage from 80% to 90% and normalized damage from 5 to 6."
   },
   "539f94947816dc76": {
    "class": "runemaster",
@@ -240,6 +300,11 @@
    "date": "2026/07/31",
    "text": "Witching Edict Ranks 1-4 now persist through death."
   },
+  "5e2a6c1f90bc0c29": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 5 increased base damage from 30 to 38 and 80% weapon damage to 90% weapon damage."
+  },
   "5e9b9e8693daef06": {
    "class": "pyromancer",
    "date": "2026/07/31",
@@ -275,6 +340,11 @@
    "date": "2026/07/31",
    "text": "Aeon of Resilience reworked: Reduces cast time of Epoch by 25% and increases mana cost by 25% and Epoch causes your Accelerated Recovery to bounce to another target."
   },
+  "6353feff0f4b200f": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 7 increased weapon damage from 65% to 75% and normalized damage from 99 to 124."
+  },
   "64d1fc58558be207": {
    "class": "stormbringer",
    "date": "2026/07/31",
@@ -295,10 +365,35 @@
    "date": "2026/07/31",
    "text": "Thorim's Gift now inherits 15% of the damage dealt from Arm of Thorim, up from 10%."
   },
+  "69010fb6b8c1d5e8": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Spectre Strength now also increases your Armor penetration by 5/10%."
+  },
   "69c3600e13dffb64": {
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Aeon of Protection reworked: Increases cast time of Epoch by 25% and increases the healing done by 25% and Epoch now shields the target for 50% of the amount healed."
+  },
+  "6d16e679d8177004": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 4 increased weapon damage from 65% to 75% and normalized damage from 37 to 46."
+  },
+  "6eb8fbdbc0870ddf": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 3 increased base damage from 10 to 12 and 80% weapon damage to 90% weapon damage."
+  },
+  "6f1df589aead82d4": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the duration of Limbo to 6 sec from 5 sec"
+  },
+  "70b5f4eb4af3a76c": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 6 increased base damage from 167 to 200 and weapon damage from 130% to 150%."
   },
   "71d5ea77037024aa": {
    "class": "runemaster",
@@ -350,10 +445,20 @@
    "date": "2026/07/31",
    "text": "Volcanic Shell Rank 1's absorb has been increased from 400 to 625."
   },
+  "82948592ff96baf5": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 4 increased base damage from 79 to 95 and weapon damage from 130% to 150%."
+  },
   "8309c4df61f3dabc": {
    "class": "stormbringer",
    "date": "2026/07/31",
    "text": "Ride the Lightning is now on a separate GCD from the main GCD so that it cannot be accidentally double-tapped."
+  },
+  "83ecc8f5da13f664": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 1 increased base damage from 80% to 90% and normalized damage from 2 to 3."
   },
   "84f80f882692a97d": {
    "class": "witch-hunter",
@@ -385,6 +490,11 @@
    "date": "2026/07/31",
    "text": "Rewind is now usable while crowd-controlled"
   },
+  "86fcde3a88810310": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 3 increased weapon damage from 65% to 75% and normalized damage from 26 to 33."
+  },
   "897ffc6fcb75891e": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -414,6 +524,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Stake Rank 7's damage has been increased from 486 to 675."
+  },
+  "93e5c29521b2f40d": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Soul Infusion Spells will refund their Soul Infusion Cost whenever the spell gets dodged, parried or misses. Requiem will only refund if ALL targets are missed."
   },
   "9546c2802f865bd0": {
    "class": "witch-hunter",
@@ -525,6 +640,11 @@
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 5's damage has been increased from 45 to 129."
   },
+  "b6e2d4304e8672b0": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 2 increased base damage from 29 to 35 and weapon damage from 130% to 150%."
+  },
   "b7a5fdda7a076fe3": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -565,6 +685,11 @@
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 3's damage has been increased from 21 to 69."
   },
+  "bee30471fe10b97a": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 8 increased base damage from 123 to 166 and 80% weapon damage to 90% weapon damage."
+  },
   "c076d15184b196f7": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -579,6 +704,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 6's damage has been increased from 67 to 145"
+  },
+  "c11a43f49cb009e7": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Reap Rank 6 increased base damage from 48 to 62 and 80% weapon damage to 90% weapon damage."
   },
   "c185418a1d49b4a6": {
    "class": "witch-hunter",
@@ -609,6 +739,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Chaotic now gives 2 energy per melee ability critical strike, down from 3."
+  },
+  "c641cde34449a373": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Slaughter Rank 3 increased base damage from 46 to 55 and weapon damage from 130% to 150%."
   },
   "c70a293d7e94d9fc": {
    "class": "barbarian",
@@ -655,6 +790,11 @@
    "date": "2026/07/31",
    "text": "Deal with the Devil now only increases the cost of your abilities by 10% down from 25%"
   },
+  "d260ef0edbcd7849": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 5 increased weapon damage from 65% to 75% and normalized damage from 53 to 66."
+  },
   "d4853cf3c0a22807": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -680,10 +820,30 @@
    "date": "2026/07/31",
    "text": "Primordial Strength Attack Power to Spell Power scaling conversion increased from 25% -> 30%"
   },
+  "e44a730060bccbcb": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the damage of each strike of Shudder Scythe from 30% to 40%."
+  },
   "e7e271a627e76dc1": {
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Blur talent now additionally reduces a chance for enemies to detect you while stealthed."
+  },
+  "e818b4830279b596": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 6 increased weapon damage from 65% to 75% and normalized damage from 80 to 100."
+  },
+  "e8826bc7eb852547": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Soulstrider increased to 25% from 20%"
+  },
+  "eaf4c42dd8c2e98c": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Crow's Harvest Rank 2 increased weapon damage from 65% to 75% and normalized damage from 11 to 14."
   },
   "eb03af731bfed409": {
    "class": "ranger",
@@ -714,6 +874,11 @@
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Giant Tosser now additionally increases the damage of Headhunter\u2019s Spears from further than 20 yards by 100%, but the additional energy is reduced from 50% down to 15%."
+  },
+  "f87ac03261ee339b": {
+   "class": "reaper",
+   "date": "2026/07/31",
+   "text": "Increased the value of Hemorrhage from 10% to 20%"
   },
   "fc49a94f6daf0004": {
    "class": "barbarian",

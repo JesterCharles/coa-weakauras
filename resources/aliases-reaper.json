@@ -1,0 +1,26 @@
+{
+ "Shrieking Scythe": {
+  "canonical": "Shrieker",
+  "why": "Rename pair. db.exil.es carries 'Shrieking Scythe' 502700 (Rank 2, 30 sec cooldown) and db.ascension.gg has NO record of that name or id at all; the skillbook and db.ascension both carry 'Shrieker' 801332 with the same shred-and-silence tooltip. Two soul passives (Mind Screech, Torturing Scythe) still reference the old name in their text. The name that carries a usable id on the CURRENT database wins: Shrieker."
+ },
+ "Sever": {
+  "canonical": null,
+  "why": "The cited harvest interrupt ('Sever to interrupt a dangerous cast', sidekick-reaper-harvest.md) has no id in the skillbook, the db.exil.es class digest, or spell-meta, and every db.ascension name hit is a different class's Sever - 500904's tooltip generates Rage, 280230 is advClass=12. Unbuildable as cited; the harvest utility row ships without an interrupt icon until an id surfaces in game."
+ },
+ "Deathmyst": {
+  "canonical": null,
+  "why": "Named only by Vampiric Mist's tooltip ('Deathmyst now returns health...'). Zero db.ascension name hits, nothing in exiles or the skillbook. Reads like pre-rename Deathwind text (both are healing mists), but no id ties them - recorded so the name does not return as a fresh mystery."
+ },
+ "Blood Siphon": {
+  "canonical": "Blood Siphon",
+  "why": "Referenced by the harvest talent Improved Blood Siphon (705407, advClass tab 79) but absent from the skillbook because it is talent-granted. db.ascension 805340 is the castable: 'Requires Soul Infusion. Siphon blood from enemies... healing for 25% of the damage dealt.' Added to the inventory 2026-08-07."
+ },
+ "Harvest's Embrace": {
+  "canonical": "Harvest Time",
+  "why": "sidekick-data.js (2026-08-02 snapshot) says 'Line up Harvest's Embrace with your burst window'; the 2026-08-07 sidekick harvest page names the same burst button 'Harvest Time' and never mentions Harvest's Embrace. db.exil.es carries both ids (560498 empty desc, 704188 Harvest Time) but only Harvest Time appears in the skillbook. The name that carries the skillbook entry wins."
+ },
+ "Crimson Scythe": {
+  "canonical": null,
+  "why": "Named only by Crimson Quickness ('Reduces the cooldown of Crimson Scythe'). db.exil.es has 805138 'Crimson Scythe' (level 10, no cooldown row, gcd 0) and 804265 'Soul Infusion: Crimson Scythe' - component-shaped rows. No skillbook entry, no rotation citation, no castable-shaped id. Left unbuilt; if it is Crimson Harvest's rename twin the in-game pass will say so."
+ }
+}

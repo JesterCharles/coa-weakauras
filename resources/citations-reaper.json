@@ -1,0 +1,77 @@
+{
+ "sidekick-reaper-domination-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Bolstered Form",
+    "Dark Deal",
+    "Jailer's Bargain"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Tormentor"
+   ]
+  },
+  "class": "reaper",
+  "content_sha256": "f072c0d453ea485b",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/reaper/domination",
+  "spec": "domination"
+ },
+ "sidekick-reaper-harvest-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Harvest's Embrace"
+   ],
+   "maintain": [
+    "Masochistic Rage"
+   ],
+   "priority": [],
+   "signature": [
+    "Harvester"
+   ]
+  },
+  "class": "reaper",
+  "content_sha256": "cc25963159124c8e",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/reaper/harvest",
+  "spec": "harvest"
+ },
+ "sidekick-reaper-soul-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Endbringer",
+    "Limbo",
+    "Possess"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Weakened Souls"
+   ]
+  },
+  "class": "reaper",
+  "content_sha256": "65783a7ec2df67dc",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/reaper/soul",
+  "spec": "soul"
+ }
+}

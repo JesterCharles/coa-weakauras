@@ -233,6 +233,13 @@ CORE_LEAVES = {
     # Instinct, Elusive Character) that hold the class gate alone: buff icons
     # are self-gating and a buff id is not something IsSpellKnown recognises.
     "ranger": 4,
+    # First pin (0.1). RP Core itself is empty -- Reaper has no class-wide
+    # alert kit -- so the 6 are the Core group (an empty controlledChildren is
+    # falsy, so the counter sees it as a leaf) plus five merged Buffs leaves
+    # for all-spec auras (Masochistic Rage, Soul Infusion, Ghost, Tormented
+    # Souls, Jailer's Bargain) that hold the class gate alone: buff icons are
+    # self-gating and a buff id is not something IsSpellKnown recognises.
+    "reaper": 6,
 }
 
 

@@ -1,0 +1,3140 @@
+{
+ "+1 Reaped Souls": {
+  "ids": [
+   504390
+  ],
+  "icon": null
+ },
+ "+2 Reaped Souls": {
+  "ids": [
+   524732
+  ],
+  "icon": null
+ },
+ "+2 Tormented Souls": {
+  "ids": [
+   525013
+  ],
+  "icon": null
+ },
+ "3 Soul Frag Maximum Limiter": {
+  "ids": [
+   504660
+  ],
+  "icon": null
+ },
+ "A Soul Has Been Harvested": {
+  "ids": [
+   680295
+  ],
+  "icon": null
+ },
+ "Absolute Destruction": {
+  "ids": [
+   705415
+  ],
+  "icon": null
+ },
+ "Adaptation: Bowman": {
+  "ids": [
+   805971
+  ],
+  "icon": null
+ },
+ "Add Combo Point": {
+  "ids": [
+   803121
+  ],
+  "icon": null
+ },
+ "Add Soul Fragment": {
+  "ids": [
+   573051
+  ],
+  "icon": null
+ },
+ "Anguish": {
+  "ids": [
+   705430
+  ],
+  "icon": null
+ },
+ "Anguishing": {
+  "ids": [
+   504305
+  ],
+  "icon": null
+ },
+ "Anima Ambush": {
+  "ids": [
+   705425
+  ],
+  "icon": null
+ },
+ "Anima Ambusher": {
+  "ids": [
+   705424
+  ],
+  "icon": null
+ },
+ "Annihilation": {
+  "ids": [
+   705421
+  ],
+  "icon": null
+ },
+ "Anxiety": {
+  "ids": [
+   807776
+  ],
+  "icon": null
+ },
+ "Apparition": {
+  "ids": [
+   705389
+  ],
+  "icon": null
+ },
+ "Archmage": {
+  "ids": [
+   805216
+  ],
+  "icon": null
+ },
+ "Attack 1 Reaper Skull Bolt": {
+  "ids": [
+   500618
+  ],
+  "icon": null
+ },
+ "Attack 1 Reaper Skull Bolt DO NOT TOUCH": {
+  "ids": [
+   500633
+  ],
+  "icon": null
+ },
+ "Attack 2 Reaper Skull Bolt": {
+  "ids": [
+   500619
+  ],
+  "icon": null
+ },
+ "Attack 3 Reaper Skull Bolt": {
+  "ids": [
+   500620
+  ],
+  "icon": null
+ },
+ "Backswing": {
+  "ids": [
+   504059
+  ],
+  "icon": null
+ },
+ "Bane": {
+  "ids": [
+   503295
+  ],
+  "icon": null
+ },
+ "Behemoth": {
+  "ids": [
+   573041
+  ],
+  "icon": null
+ },
+ "Between Shadows": {
+  "ids": [
+   560412
+  ],
+  "icon": null
+ },
+ "Beyond Death": {
+  "ids": [
+   301193
+  ],
+  "icon": null
+ },
+ "Beyond Saving": {
+  "ids": [
+   561118
+  ],
+  "icon": null
+ },
+ "Beyond the Veil": {
+  "ids": [
+   560362
+  ],
+  "icon": null
+ },
+ "Blade of C'thun": {
+  "ids": [
+   803058
+  ],
+  "icon": null
+ },
+ "Bleeding Spirits": {
+  "ids": [
+   561189
+  ],
+  "icon": null
+ },
+ "Blessing of the Black": {
+  "ids": [
+   805214
+  ],
+  "icon": null
+ },
+ "Blessing of the Blue": {
+  "ids": [
+   805213
+  ],
+  "icon": null
+ },
+ "Blessing of the Tides": {
+  "ids": [
+   803049
+  ],
+  "icon": null
+ },
+ "Blood Binding": {
+  "ids": [
+   573032
+  ],
+  "icon": null
+ },
+ "Blood Frenzy": {
+  "ids": [
+   707899
+  ],
+  "icon": null
+ },
+ "Blood Fueled": {
+  "ids": [
+   705416
+  ],
+  "icon": null
+ },
+ "Blood Harvest": {
+  "ids": [
+   504288
+  ],
+  "icon": null
+ },
+ "Blood Harvest DEPRECATED": {
+  "ids": [
+   504030
+  ],
+  "icon": null
+ },
+ "Blood Harvest Stacked": {
+  "ids": [
+   707062
+  ],
+  "icon": null
+ },
+ "Blood Harvester": {
+  "ids": [
+   300889
+  ],
+  "icon": null
+ },
+ "Blood Knight": {
+  "ids": [
+   560431
+  ],
+  "icon": null
+ },
+ "Blood Siphon": {
+  "ids": [
+   805340
+  ],
+  "icon": null
+ },
+ "Blood Wraith": {
+  "ids": [
+   707305
+  ],
+  "icon": null
+ },
+ "Bloodshatter": {
+  "ids": [
+   505326
+  ],
+  "icon": null
+ },
+ "Bolstered Form": {
+  "ids": [
+   680337
+  ],
+  "icon": null
+ },
+ "Boots of Speed": {
+  "ids": [
+   805208
+  ],
+  "icon": null
+ },
+ "Bountiful Harvest": {
+  "ids": [
+   706576
+  ],
+  "icon": null
+ },
+ "Burial Rites": {
+  "ids": [
+   560422
+  ],
+  "icon": null
+ },
+ "Burning Rage": {
+  "ids": [
+   803065
+  ],
+  "icon": null
+ },
+ "Callous Soul": {
+  "ids": [
+   705418
+  ],
+  "icon": null
+ },
+ "Chains of the Godless": {
+  "ids": [
+   560424
+  ],
+  "icon": null
+ },
+ "Chancing Death": {
+  "ids": [
+   300550
+  ],
+  "icon": null
+ },
+ "Chasing Death": {
+  "ids": [
+   707455
+  ],
+  "icon": null
+ },
+ "CoA Aura - Reaper - Domination": {
+  "ids": [
+   887083
+  ],
+  "icon": null
+ },
+ "CoA Aura - Reaper - Harvest": {
+  "ids": [
+   887081
+  ],
+  "icon": null
+ },
+ "CoA Aura - Reaper - Soul": {
+  "ids": [
+   887082
+  ],
+  "icon": null
+ },
+ "CoA Aura - Reaper Class": {
+  "ids": [
+   887018
+  ],
+  "icon": null
+ },
+ "Corporeal Flay": {
+  "ids": [
+   800938
+  ],
+  "icon": null
+ },
+ "Corrupted Waters": {
+  "ids": [
+   505175
+  ],
+  "icon": null
+ },
+ "Counterscythe": {
+  "ids": [
+   706986
+  ],
+  "icon": null
+ },
+ "Crimson Death": {
+  "ids": [
+   705414
+  ],
+  "icon": null
+ },
+ "Crimson Harvest": {
+  "ids": [
+   500358
+  ],
+  "icon": null
+ },
+ "Crimson Harvest Murder Duration Mod": {
+  "ids": [
+   563724
+  ],
+  "icon": null
+ },
+ "Crimson Power": {
+  "ids": [
+   504013
+  ],
+  "icon": null
+ },
+ "Crimson Quickness": {
+  "ids": [
+   705411
+  ],
+  "icon": null
+ },
+ "Crimson Scythe": {
+  "ids": [
+   805138
+  ],
+  "icon": null
+ },
+ "Crimson Tendrils": {
+  "ids": [
+   704553
+  ],
+  "icon": null
+ },
+ "Crimson Thirst": {
+  "ids": [
+   805709
+  ],
+  "icon": null
+ },
+ "Crimson Wraith": {
+  "ids": [
+   504560
+  ],
+  "icon": null
+ },
+ "Crow's Harvest": {
+  "ids": [
+   504011
+  ],
+  "icon": null
+ },
+ "Crown of Rhonin": {
+  "ids": [
+   805219
+  ],
+  "icon": null
+ },
+ "Crown of Zovaal": {
+  "ids": [
+   805225
+  ],
+  "icon": null
+ },
+ "Cull": {
+  "ids": [
+   707459
+  ],
+  "icon": null
+ },
+ "Cursed Rosary": {
+  "ids": [
+   300551
+  ],
+  "icon": null
+ },
+ "DOOMED!": {
+  "ids": [
+   560432
+  ],
+  "icon": null
+ },
+ "Damned": {
+  "ids": [
+   560420
+  ],
+  "icon": null
+ },
+ "Dark Conquest": {
+  "ids": [
+   801568
+  ],
+  "icon": null
+ },
+ "Dark Deal": {
+  "ids": [
+   680919
+  ],
+  "icon": null
+ },
+ "Dark Deal (hidden 10 stack check)": {
+  "ids": [
+   680920
+  ],
+  "icon": null
+ },
+ "Dark Fate": {
+  "ids": [
+   504037
+  ],
+  "icon": null
+ },
+ "Dark Pact": {
+  "ids": [
+   800338
+  ],
+  "icon": null
+ },
+ "Dark Passage": {
+  "ids": [
+   504035
+  ],
+  "icon": null
+ },
+ "Dark Soldier": {
+  "ids": [
+   560490
+  ],
+  "icon": null
+ },
+ "Dark Soul": {
+  "ids": [
+   706784
+  ],
+  "icon": null
+ },
+ "Darkness Slip": {
+  "ids": [
+   800919
+  ],
+  "icon": null
+ },
+ "Darkrend Scythe": {
+  "ids": [
+   704256
+  ],
+  "icon": null
+ },
+ "Death Comes Once": {
+  "ids": [
+   680997
+  ],
+  "icon": null
+ },
+ "Death Dealer": {
+  "ids": [
+   524770
+  ],
+  "icon": null
+ },
+ "Death Screen Visual": {
+  "ids": [
+   804008
+  ],
+  "icon": null
+ },
+ "Death's Presence": {
+  "ids": [
+   520371
+  ],
+  "icon": null
+ },
+ "Deathbringer": {
+  "ids": [
+   573040
+  ],
+  "icon": null
+ },
+ "Deathchaser": {
+  "ids": [
+   805190
+  ],
+  "icon": null
+ },
+ "Deathchaser Reset": {
+  "ids": [
+   681033
+  ],
+  "icon": null
+ },
+ "Deathmyst Healing Reduction": {
+  "ids": [
+   706288
+  ],
+  "icon": null
+ },
+ "Deathstalker": {
+  "ids": [
+   804054
+  ],
+  "icon": null
+ },
+ "Deathwail": {
+  "ids": [
+   300791
+  ],
+  "icon": null
+ },
+ "Deathwind": {
+  "ids": [
+   800174
+  ],
+  "icon": null
+ },
+ "Decimate": {
+  "ids": [
+   500523
+  ],
+  "icon": null
+ },
+ "Decimation": {
+  "ids": [
+   573289
+  ],
+  "icon": null
+ },
+ "Decrement Soul": {
+  "ids": [
+   805179
+  ],
+  "icon": null
+ },
+ "Delayer Trigger Soul Infusion": {
+  "ids": [
+   520456
+  ],
+  "icon": null
+ },
+ "Desolate": {
+  "ids": [
+   500425
+  ],
+  "icon": null
+ },
+ "Desolation": {
+  "ids": [
+   704105
+  ],
+  "icon": null
+ },
+ "Dirge": {
+  "ids": [
+   801328
+  ],
+  "icon": null
+ },
+ "Dodge/Parry Passive": {
+  "ids": [
+   302890
+  ],
+  "icon": null
+ },
+ "Domination Reaper": {
+  "ids": [
+   504558
+  ],
+  "icon": null
+ },
+ "Domination Reaper Summon Aura Check": {
+  "ids": [
+   807090
+  ],
+  "icon": null
+ },
+ "Dominator": {
+  "ids": [
+   301213
+  ],
+  "icon": null
+ },
+ "Dominion": {
+  "ids": [
+   803999
+  ],
+  "icon": null
+ },
+ "Doomer": {
+  "ids": [
+   704556
+  ],
+  "icon": null
+ },
+ "Doomrend": {
+  "ids": [
+   800172
+  ],
+  "icon": null
+ },
+ "Doomrend Absorb": {
+  "ids": [
+   560360
+  ],
+  "icon": null
+ },
+ "Dragonguard's Helm": {
+  "ids": [
+   805222
+  ],
+  "icon": null
+ },
+ "Dread": {
+  "ids": [
+   300557
+  ],
+  "icon": null
+ },
+ "Dread Time": {
+  "ids": [
+   572180
+  ],
+  "icon": null
+ },
+ "Dreadknight": {
+  "ids": [
+   300560
+  ],
+  "icon": null
+ },
+ "Dreadraven": {
+  "ids": [
+   706982
+  ],
+  "icon": null
+ },
+ "Dreadwake": {
+  "ids": [
+   803992
+  ],
+  "icon": null
+ },
+ "Dreadwarden": {
+  "ids": [
+   300559
+  ],
+  "icon": null
+ },
+ "Eater of Souls": {
+  "ids": [
+   805181
+  ],
+  "icon": null
+ },
+ "Edgewalker": {
+  "ids": [
+   805193
+  ],
+  "icon": null
+ },
+ "Elemental Secrets": {
+  "ids": [
+   707095
+  ],
+  "icon": null
+ },
+ "Embrace of Death": {
+  "ids": [
+   805202
+  ],
+  "icon": null
+ },
+ "Empyrean Fortitude": {
+  "ids": [
+   560489
+  ],
+  "icon": null
+ },
+ "Endbringer": {
+  "ids": [
+   800922
+  ],
+  "icon": null
+ },
+ "Endbringing": {
+  "ids": [
+   520419
+  ],
+  "icon": null
+ },
+ "Energize 2 Energy": {
+  "ids": [
+   504772
+  ],
+  "icon": null
+ },
+ "Energize 3%": {
+  "ids": [
+   504331
+  ],
+  "icon": null
+ },
+ "Energize 3% Base": {
+  "ids": [
+   504878
+  ],
+  "icon": null
+ },
+ "Energize Flat Mana": {
+  "ids": [
+   504559
+  ],
+  "icon": null
+ },
+ "Energize Runic Power": {
+  "ids": [
+   355461
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +1": {
+  "ids": [
+   359020
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +10": {
+  "ids": [
+   355463
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +14-25": {
+  "ids": [
+   359009
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +2": {
+  "ids": [
+   359018
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +20": {
+  "ids": [
+   359504
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +3": {
+  "ids": [
+   359021
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +30": {
+  "ids": [
+   359505
+  ],
+  "icon": null
+ },
+ "Energize Runic Power +5": {
+  "ids": [
+   359019
+  ],
+  "icon": null
+ },
+ "Escaped Soul": {
+  "ids": [
+   520059
+  ],
+  "icon": null
+ },
+ "Essence Binder": {
+  "ids": [
+   560919
+  ],
+  "icon": null
+ },
+ "Essence Harvest": {
+  "ids": [
+   707908
+  ],
+  "icon": null
+ },
+ "Essence Invigoration": {
+  "ids": [
+   805186
+  ],
+  "icon": null
+ },
+ "Essence Tear": {
+  "ids": [
+   800439
+  ],
+  "icon": null
+ },
+ "Ethereal Guard": {
+  "ids": [
+   300969
+  ],
+  "icon": null
+ },
+ "Executioner": {
+  "ids": [
+   500542
+  ],
+  "icon": null
+ },
+ "Extinction": {
+  "ids": [
+   520501
+  ],
+  "icon": null
+ },
+ "Eye of the Beholder": {
+  "ids": [
+   6198
+  ],
+  "icon": null
+ },
+ "Fatesealer": {
+  "ids": [
+   705442
+  ],
+  "icon": null
+ },
+ "Final Destination": {
+  "ids": [
+   504167
+  ],
+  "icon": null
+ },
+ "Final Requiem": {
+  "ids": [
+   560486
+  ],
+  "icon": null
+ },
+ "Fist of the Damned": {
+  "ids": [
+   93608
+  ],
+  "icon": null
+ },
+ "Fleeting Soul": {
+  "ids": [
+   712683
+  ],
+  "icon": null
+ },
+ "Fractured Soul": {
+  "ids": [
+   805260
+  ],
+  "icon": null
+ },
+ "Frenzy": {
+  "ids": [
+   520293
+  ],
+  "icon": null
+ },
+ "From the Shadows": {
+  "ids": [
+   561099
+  ],
+  "icon": null
+ },
+ "Gain 1 Reaper Skull Bolt": {
+  "ids": [
+   500624
+  ],
+  "icon": null
+ },
+ "Gain 2 Reaper Skull Bolt": {
+  "ids": [
+   500625
+  ],
+  "icon": null
+ },
+ "Gain 3 Reaper Skull Bolt": {
+  "ids": [
+   500626
+  ],
+  "icon": null
+ },
+ "Generate a Reaped Soul": {
+  "ids": [
+   805078
+  ],
+  "icon": null
+ },
+ "Generic ICD spell - Reap": {
+  "ids": [
+   505150
+  ],
+  "icon": null
+ },
+ "Genocide": {
+  "ids": [
+   560924
+  ],
+  "icon": null
+ },
+ "Ghast": {
+  "ids": [
+   705684
+  ],
+  "icon": null
+ },
+ "Ghastly Advance": {
+  "ids": [
+   805192
+  ],
+  "icon": null
+ },
+ "Ghastly Finesse": {
+  "ids": [
+   560438
+  ],
+  "icon": null
+ },
+ "Ghastly Form": {
+  "ids": [
+   704357
+  ],
+  "icon": null
+ },
+ "Ghastly Hilt": {
+  "ids": [
+   560926
+  ],
+  "icon": null
+ },
+ "Ghastly Nature": {
+  "ids": [
+   705440
+  ],
+  "icon": null
+ },
+ "Ghastly Power": {
+  "ids": [
+   705438
+  ],
+  "icon": null
+ },
+ "Ghastly Reflexes": {
+  "ids": [
+   504243
+  ],
+  "icon": null
+ },
+ "Ghastly Screech": {
+  "ids": [
+   806146
+  ],
+  "icon": null
+ },
+ "Ghost": {
+  "ids": [
+   705426
+  ],
+  "icon": null
+ },
+ "Ghost Buster": {
+  "ids": [
+   705417
+  ],
+  "icon": null
+ },
+ "Ghost Claw": {
+  "ids": [
+   803985
+  ],
+  "icon": null
+ },
+ "Ghost Claw Reset": {
+  "ids": [
+   681139
+  ],
+  "icon": null
+ },
+ "Ghost Claw Reset proc": {
+  "ids": [
+   681138
+  ],
+  "icon": null
+ },
+ "Ghost Form": {
+  "ids": [
+   561083
+  ],
+  "icon": null
+ },
+ "Ghostly Fortitude": {
+  "ids": [
+   705446
+  ],
+  "icon": null
+ },
+ "Ghostly Magic": {
+  "ids": [
+   803998
+  ],
+  "icon": null
+ },
+ "Ghostly Retreat": {
+  "ids": [
+   806036
+  ],
+  "icon": null
+ },
+ "Ghostly Weapon": {
+  "ids": [
+   520325
+  ],
+  "icon": null
+ },
+ "Gravebound": {
+  "ids": [
+   562314
+  ],
+  "icon": null
+ },
+ "Gravesite": {
+  "ids": [
+   300979
+  ],
+  "icon": null
+ },
+ "Gravesite Hidden Visual": {
+  "ids": [
+   804850
+  ],
+  "icon": null
+ },
+ "Gravesite Hidden Visual 2": {
+  "ids": [
+   804884
+  ],
+  "icon": null
+ },
+ "Greater Mark of Rivendare": {
+  "ids": [
+   803730
+  ],
+  "icon": null
+ },
+ "Greater Rite of Perseverance": {
+  "ids": [
+   575842
+  ],
+  "icon": null
+ },
+ "Greater Rite of Power": {
+  "ids": [
+   578130
+  ],
+  "icon": null
+ },
+ "Greater Rite of Resolve": {
+  "ids": [
+   680298
+  ],
+  "icon": null
+ },
+ "Grim Skin": {
+  "ids": [
+   300552
+  ],
+  "icon": null
+ },
+ "Harbinger of Souls": {
+  "ids": [
+   560413
+  ],
+  "icon": null
+ },
+ "Hard Bargain": {
+  "ids": [
+   300569
+  ],
+  "icon": null
+ },
+ "Harnessed Life": {
+  "ids": [
+   572293
+  ],
+  "icon": null
+ },
+ "Harvest": {
+  "ids": [
+   806161
+  ],
+  "icon": null
+ },
+ "Harvest - Level 30 Passive": {
+  "ids": [
+   705419
+  ],
+  "icon": null
+ },
+ "Harvest Time": {
+  "ids": [
+   704188
+  ],
+  "icon": null
+ },
+ "Harvest's Embrace": {
+  "ids": [
+   560498
+  ],
+  "icon": null
+ },
+ "Harvester": {
+  "ids": [
+   92145
+  ],
+  "icon": null
+ },
+ "Harvester's Scythe": {
+  "ids": [
+   805188
+  ],
+  "icon": null
+ },
+ "Harvesting Grounds": {
+  "ids": [
+   705413
+  ],
+  "icon": null
+ },
+ "Haunt": {
+  "ids": [
+   573425
+  ],
+  "icon": null
+ },
+ "Haunter": {
+  "ids": [
+   570095
+  ],
+  "icon": null
+ },
+ "Hellgate (Remove Killer Aura)": {
+  "ids": [
+   704190
+  ],
+  "icon": null
+ },
+ "Hemorrhage": {
+  "ids": [
+   705432
+  ],
+  "icon": null
+ },
+ "Hex Stick": {
+  "ids": [
+   504045
+  ],
+  "icon": null
+ },
+ "Hulking Harvester": {
+  "ids": [
+   504055
+  ],
+  "icon": null
+ },
+ "Hungering Crescent": {
+  "ids": [
+   560497
+  ],
+  "icon": null
+ },
+ "Hungering Scythe": {
+  "ids": [
+   502708
+  ],
+  "icon": null
+ },
+ "Icecrown": {
+  "ids": [
+   706732
+  ],
+  "icon": null
+ },
+ "Ignite Blade Removal": {
+  "ids": [
+   803066
+  ],
+  "icon": null
+ },
+ "Improved Blood Siphon": {
+  "ids": [
+   705407
+  ],
+  "icon": null
+ },
+ "Improved Dark Deal": {
+  "ids": [
+   300556
+  ],
+  "icon": null
+ },
+ "Improved Desolate": {
+  "ids": [
+   705384
+  ],
+  "icon": null
+ },
+ "Improved Dirge": {
+  "ids": [
+   520777
+  ],
+  "icon": null
+ },
+ "Improved Ghost Form": {
+  "ids": [
+   807084
+  ],
+  "icon": null
+ },
+ "Improved Soulshroud": {
+  "ids": [
+   300568
+  ],
+  "icon": null
+ },
+ "Incorporeal": {
+  "ids": [
+   561088
+  ],
+  "icon": null
+ },
+ "Infusion Periodic": {
+  "ids": [
+   804264
+  ],
+  "icon": null
+ },
+ "Intimidated": {
+  "ids": [
+   680339
+  ],
+  "icon": null
+ },
+ "Intimidating Presence": {
+  "ids": [
+   560478
+  ],
+  "icon": null
+ },
+ "Into The Shadow Realm": {
+  "ids": [
+   561342
+  ],
+  "icon": null
+ },
+ "Jailer of Souls": {
+  "ids": [
+   804289
+  ],
+  "icon": null
+ },
+ "Jailer's Bargain": {
+  "ids": [
+   805718
+  ],
+  "icon": null
+ },
+ "Jailer's Will": {
+  "ids": [
+   524939
+  ],
+  "icon": null
+ },
+ "Khadgar's Whim": {
+  "ids": [
+   805215
+  ],
+  "icon": null
+ },
+ "Lament": {
+  "ids": [
+   706983
+  ],
+  "icon": null
+ },
+ "Lament DEPRECATED": {
+  "ids": [
+   500366
+  ],
+  "icon": null
+ },
+ "Lamenting": {
+  "ids": [
+   705397
+  ],
+  "icon": null
+ },
+ "Last Harvest": {
+  "ids": [
+   504033
+  ],
+  "icon": null
+ },
+ "Last Prayer": {
+  "ids": [
+   803572
+  ],
+  "icon": null
+ },
+ "Lesser Red Wake": {
+  "ids": [
+   524736
+  ],
+  "icon": null
+ },
+ "Lichknife": {
+  "ids": [
+   805229
+  ],
+  "icon": null
+ },
+ "Life Decay": {
+  "ids": [
+   805230
+  ],
+  "icon": null
+ },
+ "Life Tap": {
+  "ids": [
+   706788
+  ],
+  "icon": null
+ },
+ "Lifestealer": {
+  "ids": [
+   301366
+  ],
+  "icon": null
+ },
+ "Limbo": {
+  "ids": [
+   800845
+  ],
+  "icon": null
+ },
+ "Lord of Death": {
+  "ids": [
+   805194
+  ],
+  "icon": null
+ },
+ "Lost Embrace": {
+  "ids": [
+   705402
+  ],
+  "icon": null
+ },
+ "Lost Soul": {
+  "ids": [
+   504042
+  ],
+  "icon": null
+ },
+ "Mana Touch": {
+  "ids": [
+   803042
+  ],
+  "icon": null
+ },
+ "Manastrike": {
+  "ids": [
+   803040
+  ],
+  "icon": null
+ },
+ "Mark of Death": {
+  "ids": [
+   560917
+  ],
+  "icon": null
+ },
+ "Mark of Terror": {
+  "ids": [
+   500355
+  ],
+  "icon": null
+ },
+ "Masochism": {
+  "ids": [
+   504310
+  ],
+  "icon": null
+ },
+ "Masochistic Rage": {
+  "ids": [
+   570097
+  ],
+  "icon": null
+ },
+ "Massacre": {
+  "ids": [
+   805201
+  ],
+  "icon": null
+ },
+ "Maw Knight": {
+  "ids": [
+   805204
+  ],
+  "icon": null
+ },
+ "Maw-fed": {
+  "ids": [
+   805226
+  ],
+  "icon": null
+ },
+ "Mawborn": {
+  "ids": [
+   805203
+  ],
+  "icon": null
+ },
+ "Mawdrinker": {
+  "ids": [
+   300561
+  ],
+  "icon": null
+ },
+ "Mawshackle": {
+  "ids": [
+   704549
+  ],
+  "icon": null
+ },
+ "Mending Surge": {
+  "ids": [
+   803050
+  ],
+  "icon": null
+ },
+ "Migraine": {
+  "ids": [
+   560925
+  ],
+  "icon": null
+ },
+ "Mind Screech": {
+  "ids": [
+   705448
+  ],
+  "icon": null
+ },
+ "Misfortune": {
+  "ids": [
+   706791
+  ],
+  "icon": null
+ },
+ "Mortal's End": {
+  "ids": [
+   705437
+  ],
+  "icon": null
+ },
+ "Murder": {
+  "ids": [
+   500376
+  ],
+  "icon": null
+ },
+ "Murder Secondary Visual": {
+  "ids": [
+   500374
+  ],
+  "icon": null
+ },
+ "Murderous Thirst": {
+  "ids": [
+   300547
+  ],
+  "icon": null
+ },
+ "Mysterious Omen": {
+  "ids": [
+   561108
+  ],
+  "icon": null
+ },
+ "Otherworldly Ambition": {
+  "ids": [
+   560462
+  ],
+  "icon": null
+ },
+ "Painbringer": {
+  "ids": [
+   520533
+  ],
+  "icon": null
+ },
+ "Painmail": {
+  "ids": [
+   800171
+  ],
+  "icon": null
+ },
+ "Palewarden": {
+  "ids": [
+   301319
+  ],
+  "icon": null
+ },
+ "Path to Glory": {
+  "ids": [
+   704583
+  ],
+  "icon": null
+ },
+ "Perpetual Harvest": {
+  "ids": [
+   553270
+  ],
+  "icon": null
+ },
+ "Phantom Harvest": {
+  "ids": [
+   504054
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   301194
+  ],
+  "icon": null
+ },
+ "Planeshifter": {
+  "ids": [
+   705400
+  ],
+  "icon": null
+ },
+ "Possess": {
+  "ids": [
+   806600
+  ],
+  "icon": null
+ },
+ "Possess Invisibility": {
+  "ids": [
+   807087
+  ],
+  "icon": null
+ },
+ "Possessed": {
+  "ids": [
+   804697
+  ],
+  "icon": null
+ },
+ "Possession": {
+  "ids": [
+   800926
+  ],
+  "icon": null
+ },
+ "Power of the Titans": {
+  "ids": [
+   805211
+  ],
+  "icon": null
+ },
+ "Pulverizeer's Fists": {
+  "ids": [
+   805231
+  ],
+  "icon": null
+ },
+ "Purgatory": {
+  "ids": [
+   504046
+  ],
+  "icon": null
+ },
+ "Raven's Mark": {
+  "ids": [
+   805224
+  ],
+  "icon": null
+ },
+ "Ravenholdt Shroud": {
+  "ids": [
+   805223
+  ],
+  "icon": null
+ },
+ "Ravenous": {
+  "ids": [
+   704571
+  ],
+  "icon": null
+ },
+ "Ravenous Thirst": {
+  "ids": [
+   504031
+  ],
+  "icon": null
+ },
+ "Ready For The Harvest": {
+  "ids": [
+   705422
+  ],
+  "icon": null
+ },
+ "Realm of Darkness": {
+  "ids": [
+   705398
+  ],
+  "icon": null
+ },
+ "Realm of the Lost": {
+  "ids": [
+   560923
+  ],
+  "icon": null
+ },
+ "Reap": {
+  "ids": [
+   354319
+  ],
+  "icon": null
+ },
+ "Reap (Harvest Lord)": {
+  "ids": [
+   800420
+  ],
+  "icon": null
+ },
+ "Reap (Jailer of Souls)": {
+  "ids": [
+   800326
+  ],
+  "icon": null
+ },
+ "Reap (Offhand)": {
+  "ids": [
+   803001
+  ],
+  "icon": null
+ },
+ "Reap 3 Trigger": {
+  "ids": [
+   803000
+  ],
+  "icon": null
+ },
+ "Reap Crit Aura": {
+  "ids": [
+   802999
+  ],
+  "icon": null
+ },
+ "Reap Magic": {
+  "ids": [
+   704258
+  ],
+  "icon": null
+ },
+ "Reap Soul Fragment Passive": {
+  "ids": [
+   706787
+  ],
+  "icon": null
+ },
+ "Reaped Soul": {
+  "ids": [
+   500363
+  ],
+  "icon": null
+ },
+ "Reaper - Reset Cooldowns": {
+  "ids": [
+   806587
+  ],
+  "icon": null
+ },
+ "Reaper Parry Passive": {
+  "ids": [
+   537217
+  ],
+  "icon": null
+ },
+ "Reaper Passive": {
+  "ids": [
+   805684
+  ],
+  "icon": null
+ },
+ "Reaper Passive - Reap Crit Remover": {
+  "ids": [
+   802339
+  ],
+  "icon": null
+ },
+ "Reaper Ruin Proc Trigger": {
+  "ids": [
+   523116
+  ],
+  "icon": null
+ },
+ "Reaper Sweeper Cast Visual": {
+  "ids": [
+   801249
+  ],
+  "icon": null
+ },
+ "Reaper Weapon Buff Applier": {
+  "ids": [
+   800850
+  ],
+  "icon": null
+ },
+ "Reaper Wraithblade Reaped Soul Proc Passive": {
+  "ids": [
+   680958
+  ],
+  "icon": null
+ },
+ "Reaper's Pact": {
+  "ids": [
+   804001
+  ],
+  "icon": null
+ },
+ "Reaper's Pact Checker": {
+  "ids": [
+   806422
+  ],
+  "icon": null
+ },
+ "Reaping": {
+  "ids": [
+   504562
+  ],
+  "icon": null
+ },
+ "Reaping Removal": {
+  "ids": [
+   504564
+  ],
+  "icon": null
+ },
+ "Reave": {
+  "ids": [
+   801330
+  ],
+  "icon": null
+ },
+ "Reaver": {
+  "ids": [
+   807419
+  ],
+  "icon": null
+ },
+ "Reaving": {
+  "ids": [
+   801336
+  ],
+  "icon": null
+ },
+ "Recently Parried or Dodged": {
+  "ids": [
+   681170
+  ],
+  "icon": null
+ },
+ "Recuperation": {
+  "ids": [
+   803135
+  ],
+  "icon": null
+ },
+ "Red Wake": {
+  "ids": [
+   801041
+  ],
+  "icon": null
+ },
+ "Redshade": {
+  "ids": [
+   524735
+  ],
+  "icon": null
+ },
+ "Refresh Advantage": {
+  "ids": [
+   803120
+  ],
+  "icon": null
+ },
+ "Refresh Ammo": {
+  "ids": [
+   803097
+  ],
+  "icon": null
+ },
+ "Refresh Breath Charges": {
+  "ids": [
+   803096
+  ],
+  "icon": null
+ },
+ "Refresh Demonfire": {
+  "ids": [
+   803098
+  ],
+  "icon": null
+ },
+ "Refresh Insanity": {
+  "ids": [
+   803094
+  ],
+  "icon": null
+ },
+ "Refresh Reaped Soul": {
+  "ids": [
+   803099
+  ],
+  "icon": null
+ },
+ "Refresh Spirit Crystals": {
+  "ids": [
+   803100
+  ],
+  "icon": null
+ },
+ "Refresh Void Rune": {
+  "ids": [
+   803057
+  ],
+  "icon": null
+ },
+ "Release Whisper": {
+  "ids": [
+   505182
+  ],
+  "icon": null
+ },
+ "Reliquary of the Lost": {
+  "ids": [
+   500629
+  ],
+  "icon": null
+ },
+ "Remove Insane Effect": {
+  "ids": [
+   803063
+  ],
+  "icon": null
+ },
+ "Remove Void Adept": {
+  "ids": [
+   803056
+  ],
+  "icon": null
+ },
+ "Requiem": {
+  "ids": [
+   805717
+  ],
+  "icon": null
+ },
+ "Revelry": {
+  "ids": [
+   704550
+  ],
+  "icon": null
+ },
+ "Rift Clone": {
+  "ids": [
+   712390
+  ],
+  "icon": null
+ },
+ "Rite of Perseverance": {
+  "ids": [
+   575839
+  ],
+  "icon": null
+ },
+ "Rite of Power": {
+  "ids": [
+   578126
+  ],
+  "icon": null
+ },
+ "Rite of Resolve": {
+  "ids": [
+   800198
+  ],
+  "icon": null
+ },
+ "Rotting Away": {
+  "ids": [
+   561103
+  ],
+  "icon": null
+ },
+ "Ruin": {
+  "ids": [
+   805198
+  ],
+  "icon": null
+ },
+ "Ruin Remover": {
+  "ids": [
+   524691
+  ],
+  "icon": null
+ },
+ "Ruinous Frenzy": {
+  "ids": [
+   524692
+  ],
+  "icon": null
+ },
+ "SPELL THAT GENERATES REAPER SKULL BOLTS": {
+  "ids": [
+   500628
+  ],
+  "icon": null
+ },
+ "Sadism": {
+  "ids": [
+   705447
+  ],
+  "icon": null
+ },
+ "Sanguine Harvester": {
+  "ids": [
+   560892
+  ],
+  "icon": null
+ },
+ "Sanguine Orb": {
+  "ids": [
+   500361
+  ],
+  "icon": null
+ },
+ "Sanguine Soldier": {
+  "ids": [
+   704555
+  ],
+  "icon": null
+ },
+ "Satiated": {
+  "ids": [
+   805227
+  ],
+  "icon": null
+ },
+ "Scythe Rush": {
+  "ids": [
+   500359
+  ],
+  "icon": null
+ },
+ "Scythe Sweep": {
+  "ids": [
+   500489
+  ],
+  "icon": null
+ },
+ "Self Damage": {
+  "ids": [
+   300570
+  ],
+  "icon": null
+ },
+ "Self Damage (Dark Deal)": {
+  "ids": [
+   680994
+  ],
+  "icon": null
+ },
+ "Self Inflicted Damage": {
+  "ids": [
+   803029
+  ],
+  "icon": null
+ },
+ "Sepulchral Renewal": {
+  "ids": [
+   561102
+  ],
+  "icon": null
+ },
+ "Shade": {
+  "ids": [
+   573038
+  ],
+  "icon": null
+ },
+ "Shadow Wraith": {
+  "ids": [
+   805721
+  ],
+  "icon": null
+ },
+ "Shadow's Embrace": {
+  "ids": [
+   524709
+  ],
+  "icon": null
+ },
+ "Shadowlands Sulker": {
+  "ids": [
+   560894
+  ],
+  "icon": null
+ },
+ "Shattered Blood": {
+  "ids": [
+   525304
+  ],
+  "icon": null
+ },
+ "Shattered Soul": {
+  "ids": [
+   560922
+  ],
+  "icon": null
+ },
+ "Shattered Souls": {
+  "ids": [
+   705441
+  ],
+  "icon": null
+ },
+ "Shrieker": {
+  "ids": [
+   801332
+  ],
+  "icon": null
+ },
+ "Shrieking Scythe": {
+  "ids": [
+   502700
+  ],
+  "icon": null
+ },
+ "Shudder Before The Scythe": {
+  "ids": [
+   520055
+  ],
+  "icon": null
+ },
+ "Shudder Scythe": {
+  "ids": [
+   801321
+  ],
+  "icon": null
+ },
+ "Shudder Scythe Proc Trigger": {
+  "ids": [
+   520500
+  ],
+  "icon": null
+ },
+ "Sinister Litany": {
+  "ids": [
+   805185
+  ],
+  "icon": null
+ },
+ "Siphon": {
+  "ids": [
+   803993
+  ],
+  "icon": null
+ },
+ "Siphon Anima": {
+  "ids": [
+   504306
+  ],
+  "icon": null
+ },
+ "Siphon Essence": {
+  "ids": [
+   806125
+  ],
+  "icon": null
+ },
+ "Skitter": {
+  "ids": [
+   805261
+  ],
+  "icon": null
+ },
+ "Slaughter": {
+  "ids": [
+   500373
+  ],
+  "icon": null
+ },
+ "Slaughter Party": {
+  "ids": [
+   524663
+  ],
+  "icon": null
+ },
+ "Slaughter Party Remover": {
+  "ids": [
+   524662
+  ],
+  "icon": null
+ },
+ "Son of Ursoc": {
+  "ids": [
+   806048
+  ],
+  "icon": null
+ },
+ "Sorcerer's Gloves": {
+  "ids": [
+   805217
+  ],
+  "icon": null
+ },
+ "Soul - Level 10 Passive": {
+  "ids": [
+   93591
+  ],
+  "icon": null
+ },
+ "Soul Bane": {
+  "ids": [
+   705392
+  ],
+  "icon": null
+ },
+ "Soul Bolt": {
+  "ids": [
+   500627
+  ],
+  "icon": null
+ },
+ "Soul Capture": {
+  "ids": [
+   561289
+  ],
+  "icon": null
+ },
+ "Soul Captured": {
+  "ids": [
+   572887
+  ],
+  "icon": null
+ },
+ "Soul Catcher": {
+  "ids": [
+   560277
+  ],
+  "icon": null
+ },
+ "Soul Collector": {
+  "ids": [
+   706731
+  ],
+  "icon": null
+ },
+ "Soul Eater": {
+  "ids": [
+   705393
+  ],
+  "icon": null
+ },
+ "Soul Escape": {
+  "ids": [
+   504155
+  ],
+  "icon": null
+ },
+ "Soul Fragment": {
+  "ids": [
+   805077
+  ],
+  "icon": null
+ },
+ "Soul Furnace": {
+  "ids": [
+   805184
+  ],
+  "icon": null
+ },
+ "Soul Generator": {
+  "ids": [
+   520056
+  ],
+  "icon": null
+ },
+ "Soul Gorger": {
+  "ids": [
+   704259
+  ],
+  "icon": null
+ },
+ "Soul Harvest": {
+  "ids": [
+   504012
+  ],
+  "icon": null
+ },
+ "Soul Harvester": {
+  "ids": [
+   804311
+  ],
+  "icon": null
+ },
+ "Soul Inferno": {
+  "ids": [
+   705394
+  ],
+  "icon": null
+ },
+ "Soul Infusion": {
+  "ids": [
+   803031
+  ],
+  "icon": null
+ },
+ "Soul Infusion (Hidden) DEPRECATED": {
+  "ids": [
+   560062
+  ],
+  "icon": null
+ },
+ "Soul Infusion Activate": {
+  "ids": [
+   803032
+  ],
+  "icon": null
+ },
+ "Soul Infusion Activate2": {
+  "ids": [
+   504308
+  ],
+  "icon": null
+ },
+ "Soul Infusion Charge Refresher (Harvest)": {
+  "ids": [
+   520455
+  ],
+  "icon": null
+ },
+ "Soul Infusion DEPRECATED": {
+  "ids": [
+   560464
+  ],
+  "icon": null
+ },
+ "Soul Infusion Reaped Soul Remover": {
+  "ids": [
+   561290
+  ],
+  "icon": null
+ },
+ "Soul Infusion Reaped Soul Remover Delayer": {
+  "ids": [
+   561294
+  ],
+  "icon": null
+ },
+ "Soul Infusion: Crimson Scythe": {
+  "ids": [
+   804265
+  ],
+  "icon": null
+ },
+ "Soul Infusion: Shudder Scythe": {
+  "ids": [
+   803033
+  ],
+  "icon": null
+ },
+ "Soul Knight": {
+  "ids": [
+   560487
+  ],
+  "icon": null
+ },
+ "Soul Piercer": {
+  "ids": [
+   560929
+  ],
+  "icon": null
+ },
+ "Soul Protector": {
+  "ids": [
+   300553
+  ],
+  "icon": null
+ },
+ "Soul Shear": {
+  "ids": [
+   520862
+  ],
+  "icon": null
+ },
+ "Soul Shock": {
+  "ids": [
+   803989
+  ],
+  "icon": null
+ },
+ "Soul Slip": {
+  "ids": [
+   500286
+  ],
+  "icon": null
+ },
+ "Soul Splinter": {
+  "ids": [
+   805720
+  ],
+  "icon": null
+ },
+ "Soul Splinters": {
+  "ids": [
+   805719
+  ],
+  "icon": null
+ },
+ "Soul Strike": {
+  "ids": [
+   500517
+  ],
+  "icon": null
+ },
+ "Soul Strike Heal Passive": {
+  "ids": [
+   573293
+  ],
+  "icon": null
+ },
+ "Soul Survivor": {
+  "ids": [
+   807227
+  ],
+  "icon": null
+ },
+ "Soul Tap": {
+  "ids": [
+   807397
+  ],
+  "icon": null
+ },
+ "Soul Warden": {
+  "ids": [
+   560419
+  ],
+  "icon": null
+ },
+ "Soulbender": {
+  "ids": [
+   804004
+  ],
+  "icon": null
+ },
+ "Soulforged Weaponry": {
+  "ids": [
+   561127
+  ],
+  "icon": null
+ },
+ "Soulfused Constitution": {
+  "ids": [
+   561100
+  ],
+  "icon": null
+ },
+ "Soulkeeper": {
+  "ids": [
+   504246
+  ],
+  "icon": null
+ },
+ "Soulless": {
+  "ids": [
+   504039
+  ],
+  "icon": null
+ },
+ "Soulrend": {
+  "ids": [
+   573316
+  ],
+  "icon": null
+ },
+ "Soulrend UNUSED": {
+  "ids": [
+   573323
+  ],
+  "icon": null
+ },
+ "Soulrot": {
+  "ids": [
+   804660
+  ],
+  "icon": null
+ },
+ "Soulrot DEPRECATED": {
+  "ids": [
+   806836
+  ],
+  "icon": null
+ },
+ "Soulrunner": {
+  "ids": [
+   704547
+  ],
+  "icon": null
+ },
+ "Souls for the Slaughter": {
+  "ids": [
+   504304
+  ],
+  "icon": null
+ },
+ "Soulshroud": {
+  "ids": [
+   805711
+  ],
+  "icon": null
+ },
+ "Soulsight": {
+  "ids": [
+   300565
+  ],
+  "icon": null
+ },
+ "Soulslam": {
+  "ids": [
+   504014
+  ],
+  "icon": null
+ },
+ "Soulspear": {
+  "ids": [
+   803984
+  ],
+  "icon": null
+ },
+ "Soulstone Lure": {
+  "ids": [
+   561376
+  ],
+  "icon": null
+ },
+ "Soulstorm": {
+  "ids": [
+   578257
+  ],
+  "icon": null
+ },
+ "Soulstrider": {
+  "ids": [
+   572340
+  ],
+  "icon": null
+ },
+ "Soulstriker": {
+  "ids": [
+   705439
+  ],
+  "icon": null
+ },
+ "Soultaker": {
+  "ids": [
+   582751
+  ],
+  "icon": null
+ },
+ "Soultwister": {
+  "ids": [
+   705405
+  ],
+  "icon": null
+ },
+ "Soulwarden's Resolve": {
+  "ids": [
+   805713
+  ],
+  "icon": null
+ },
+ "Soulwarden's Resolve (DEPRECATED)": {
+  "ids": [
+   560418
+  ],
+  "icon": null
+ },
+ "Spectator": {
+  "ids": [
+   803351
+  ],
+  "icon": null
+ },
+ "Spectral Affinity": {
+  "ids": [
+   504034
+  ],
+  "icon": null
+ },
+ "Spectral Hand": {
+  "ids": [
+   520046
+  ],
+  "icon": null
+ },
+ "Spectral Pursuit": {
+  "ids": [
+   560415
+  ],
+  "icon": null
+ },
+ "Spectral Reaver": {
+  "ids": [
+   560439
+  ],
+  "icon": null
+ },
+ "Spectral Scythe": {
+  "ids": [
+   500484
+  ],
+  "icon": null
+ },
+ "Spectral Scythe Passive": {
+  "ids": [
+   500485
+  ],
+  "icon": null
+ },
+ "Spectral Scythe Soul Strike": {
+  "ids": [
+   561295
+  ],
+  "icon": null
+ },
+ "Spectral Scythe Threat Redirect": {
+  "ids": [
+   500609
+  ],
+  "icon": null
+ },
+ "Spectral Smash": {
+  "ids": [
+   500492
+  ],
+  "icon": null
+ },
+ "Spectral Sweep": {
+  "ids": [
+   500486
+  ],
+  "icon": null
+ },
+ "Spectral Sweep Teleport": {
+  "ids": [
+   500488
+  ],
+  "icon": null
+ },
+ "Spectral Sweep Trigger": {
+  "ids": [
+   500487
+  ],
+  "icon": null
+ },
+ "Spectral Sweep Visual": {
+  "ids": [
+   500491
+  ],
+  "icon": null
+ },
+ "Spectral Waltz": {
+  "ids": [
+   803988
+  ],
+  "icon": null
+ },
+ "Spectral Warden": {
+  "ids": [
+   805716
+  ],
+  "icon": null
+ },
+ "Spectral Warden Proc": {
+  "ids": [
+   807091
+  ],
+  "icon": null
+ },
+ "Spectral Warden Visual Aura": {
+  "ids": [
+   807088
+  ],
+  "icon": null
+ },
+ "Spectre": {
+  "ids": [
+   561170
+  ],
+  "icon": null
+ },
+ "Spectre Strength": {
+  "ids": [
+   804671
+  ],
+  "icon": null
+ },
+ "Spectre Stride": {
+  "ids": [
+   801624
+  ],
+  "icon": null
+ },
+ "Spectre's Call": {
+  "ids": [
+   705386
+  ],
+  "icon": null
+ },
+ "Spellbreaker's Warhelm": {
+  "ids": [
+   805220
+  ],
+  "icon": null
+ },
+ "Spellshield": {
+  "ids": [
+   805221
+  ],
+  "icon": null
+ },
+ "Spirit Army": {
+  "ids": [
+   707634
+  ],
+  "icon": null
+ },
+ "Spirit Chaser": {
+  "ids": [
+   560434
+  ],
+  "icon": null
+ },
+ "Spirit Culling": {
+  "ids": [
+   301986
+  ],
+  "icon": null
+ },
+ "Spirit Power": {
+  "ids": [
+   301274
+  ],
+  "icon": null
+ },
+ "Spirit Realm": {
+  "ids": [
+   582526
+  ],
+  "icon": null
+ },
+ "Spirit Render": {
+  "ids": [
+   570338
+  ],
+  "icon": null
+ },
+ "Spirit Scythes": {
+  "ids": [
+   300548
+  ],
+  "icon": null
+ },
+ "Spirit Walker": {
+  "ids": [
+   561082
+  ],
+  "icon": null
+ },
+ "Spirit's Refuge": {
+  "ids": [
+   802706
+  ],
+  "icon": null
+ },
+ "Spiritual Pressure": {
+  "ids": [
+   300566
+  ],
+  "icon": null
+ },
+ "Spiritual Reflexes": {
+  "ids": [
+   705436
+  ],
+  "icon": null
+ },
+ "Stoke the Souls": {
+  "ids": [
+   705433
+  ],
+  "icon": null
+ },
+ "Sword Specialization": {
+  "ids": [
+   807139
+  ],
+  "icon": null
+ },
+ "The Brink": {
+  "ids": [
+   704548
+  ],
+  "icon": null
+ },
+ "The End Is Near": {
+  "ids": [
+   680996
+  ],
+  "icon": null
+ },
+ "The Grim Reaper": {
+  "ids": [
+   504028
+  ],
+  "icon": null
+ },
+ "The Harvest Lord": {
+  "ids": [
+   800253
+  ],
+  "icon": null
+ },
+ "The Jailer's Call": {
+  "ids": [
+   704299
+  ],
+  "icon": null
+ },
+ "The Time Has Come": {
+  "ids": [
+   572879
+  ],
+  "icon": null
+ },
+ "The Wraith": {
+  "ids": [
+   800479
+  ],
+  "icon": null
+ },
+ "Thirsting Scythe": {
+  "ids": [
+   504029
+  ],
+  "icon": null
+ },
+ "This Is My Domain": {
+  "ids": [
+   500584
+  ],
+  "icon": null
+ },
+ "Three of Spirits": {
+  "ids": [
+   707456
+  ],
+  "icon": null
+ },
+ "Thresh": {
+  "ids": [
+   505170
+  ],
+  "icon": null
+ },
+ "Titan's Favor": {
+  "ids": [
+   805212
+  ],
+  "icon": null
+ },
+ "To The Shadowlands": {
+  "ids": [
+   707909
+  ],
+  "icon": null
+ },
+ "Torment": {
+  "ids": [
+   801649
+  ],
+  "icon": null
+ },
+ "Tormented Soul": {
+  "ids": [
+   500482
+  ],
+  "icon": null
+ },
+ "Tormented Souls": {
+  "ids": [
+   500481
+  ],
+  "icon": null
+ },
+ "Tormentor": {
+  "ids": [
+   92147
+  ],
+  "icon": null
+ },
+ "Tormentor of Souls": {
+  "ids": [
+   704300
+  ],
+  "icon": null
+ },
+ "Tortured": {
+  "ids": [
+   803034
+  ],
+  "icon": null
+ },
+ "Torturing Scythe": {
+  "ids": [
+   705449
+  ],
+  "icon": null
+ },
+ "Traversing Death": {
+  "ids": [
+   561086
+  ],
+  "icon": null
+ },
+ "Umbral Wanderer": {
+  "ids": [
+   705431
+  ],
+  "icon": null
+ },
+ "Unapologetic": {
+  "ids": [
+   804279
+  ],
+  "icon": null
+ },
+ "Unbound": {
+  "ids": [
+   500632
+  ],
+  "icon": null
+ },
+ "Underwalk": {
+  "ids": [
+   800797
+  ],
+  "icon": null
+ },
+ "Underwalk Hidden 2": {
+  "ids": [
+   800947
+  ],
+  "icon": null
+ },
+ "Underwalk Shared Aura Delayer": {
+  "ids": [
+   706801
+  ],
+  "icon": null
+ },
+ "Unseen Threat": {
+  "ids": [
+   570721
+  ],
+  "icon": null
+ },
+ "Uther's Crown": {
+  "ids": [
+   805228
+  ],
+  "icon": null
+ },
+ "Vampiric Mist": {
+  "ids": [
+   705435
+  ],
+  "icon": null
+ },
+ "Veilpiercer": {
+  "ids": [
+   500490
+  ],
+  "icon": null
+ },
+ "Veilwalk": {
+  "ids": [
+   803990
+  ],
+  "icon": null
+ },
+ "Venomancy": {
+  "ids": [
+   803181
+  ],
+  "icon": null
+ },
+ "Vicious Murder": {
+  "ids": [
+   300546
+  ],
+  "icon": null
+ },
+ "Vile Blade": {
+  "ids": [
+   680923
+  ],
+  "icon": null
+ },
+ "Visual 1 Reaper Skull Bolt": {
+  "ids": [
+   500621
+  ],
+  "icon": null
+ },
+ "Visual 1 Reaper Skull Bolt DO NOT TOUCH": {
+  "ids": [
+   500634
+  ],
+  "icon": null
+ },
+ "Visual 2 Reaper Skull Bolt": {
+  "ids": [
+   500622
+  ],
+  "icon": null
+ },
+ "Visual 3 Reaper Skull Bolt": {
+  "ids": [
+   500623
+  ],
+  "icon": null
+ },
+ "Wailing Soul": {
+  "ids": [
+   804676
+  ],
+  "icon": null
+ },
+ "Wake Up, It's Dread Time": {
+  "ids": [
+   705429
+  ],
+  "icon": null
+ },
+ "Warden of the Lost": {
+  "ids": [
+   707116
+  ],
+  "icon": null
+ },
+ "Warmonger's Gloves": {
+  "ids": [
+   805218
+  ],
+  "icon": null
+ },
+ "Wave Crash": {
+  "ids": [
+   803048
+  ],
+  "icon": null
+ },
+ "Weakened Soul": {
+  "ids": [
+   803433
+  ],
+  "icon": null
+ },
+ "Weakened Souls": {
+  "ids": [
+   92146
+  ],
+  "icon": null
+ },
+ "Well of Eternity": {
+  "ids": [
+   706793
+  ],
+  "icon": null
+ },
+ "Well of Souls": {
+  "ids": [
+   706792
+  ],
+  "icon": null
+ },
+ "Whisper of the Lost": {
+  "ids": [
+   520047
+  ],
+  "icon": null
+ },
+ "Wicked Intent": {
+  "ids": [
+   681438
+  ],
+  "icon": null
+ },
+ "Wicked Shadows": {
+  "ids": [
+   705390
+  ],
+  "icon": null
+ },
+ "Withering Touch": {
+  "ids": [
+   573071
+  ],
+  "icon": null
+ },
+ "Wraith Claw": {
+  "ids": [
+   807234
+  ],
+  "icon": null
+ },
+ "Wraith King's Hunger": {
+  "ids": [
+   300563
+  ],
+  "icon": null
+ },
+ "Wraithblade": {
+  "ids": [
+   805258
+  ],
+  "icon": null
+ },
+ "Wraithscythe": {
+  "ids": [
+   805171
+  ],
+  "icon": null
+ },
+ "Writhe": {
+  "ids": [
+   801337
+  ],
+  "icon": null
+ }
+}
