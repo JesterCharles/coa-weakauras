@@ -1,0 +1,682 @@
+{
+ "_class": "felsworn",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "A Thousand Cuts": {
+   "id": 704610,
+   "state": "record"
+  },
+  "Abyssal Destruction": {
+   "id": 705134,
+   "state": "record"
+  },
+  "Agonizing Presence": {
+   "id": 807727,
+   "state": "record"
+  },
+  "Annihilan Strike": {
+   "id": 801903,
+   "state": "record"
+  },
+  "Annihilation": {
+   "id": 802059,
+   "state": "record"
+  },
+  "Archimonde's Wrath": {
+   "id": 300489,
+   "state": "record"
+  },
+  "Azzinoth's Apprentice": {
+   "id": 574141,
+   "state": "record"
+  },
+  "Azzinoth's Assault": {
+   "id": 801904,
+   "state": "record"
+  },
+  "Azzinoth's Battery": {
+   "id": 705137,
+   "state": "record"
+  },
+  "Azzinoth's Rage": {
+   "id": 804611,
+   "state": "record"
+  },
+  "Bane of Betrayal": {
+   "id": 712483,
+   "state": "record"
+  },
+  "Bane of Chaos": {
+   "id": 704368,
+   "state": "record"
+  },
+  "Bane of Fire": {
+   "id": 707901,
+   "state": "record"
+  },
+  "Bane of Frailty": {
+   "id": 707903,
+   "state": "record"
+  },
+  "Bane of Power": {
+   "id": 707902,
+   "state": "record"
+  },
+  "Battle Finesse": {
+   "id": 704611,
+   "state": "record"
+  },
+  "Betray": {
+   "id": 804220,
+   "state": "record"
+  },
+  "Betrayer": {
+   "id": 300476,
+   "state": "record"
+  },
+  "Betrayer's Inclinations": {
+   "id": 804758,
+   "state": "record"
+  },
+  "Black Temple Warden": {
+   "id": 560237,
+   "state": "record"
+  },
+  "Blood of Mannoroth": {
+   "id": 802075,
+   "state": "record"
+  },
+  "Bloodsense": {
+   "id": 705136,
+   "state": "record"
+  },
+  "Blur": {
+   "id": 578345,
+   "state": "record"
+  },
+  "Breath of Mannoroth": {
+   "id": 800205,
+   "state": "record"
+  },
+  "Bulwark of Azzinoth": {
+   "id": 705122,
+   "state": "record"
+  },
+  "Burning Commander": {
+   "id": 92089,
+   "state": "record"
+  },
+  "Burning Hatred": {
+   "id": 520259,
+   "state": "record"
+  },
+  "Carve": {
+   "id": 800206,
+   "state": "record"
+  },
+  "Chaos Rush": {
+   "id": 500028,
+   "state": "record"
+  },
+  "Chaos Soldier": {
+   "id": 560057,
+   "state": "record"
+  },
+  "Chaos Storm": {
+   "id": 520241,
+   "state": "record"
+  },
+  "Chaotic Intuition": {
+   "id": 300481,
+   "state": "record"
+  },
+  "Chaotic Magic": {
+   "id": 574139,
+   "state": "record"
+  },
+  "Consume Magic": {
+   "id": 800353,
+   "state": "record"
+  },
+  "Consumed By Fel": {
+   "id": 300485,
+   "state": "record"
+  },
+  "Corruption": {
+   "id": 705110,
+   "state": "record"
+  },
+  "Cripple": {
+   "id": 704371,
+   "state": "record"
+  },
+  "Cruelty": {
+   "id": 705109,
+   "state": "record"
+  },
+  "Curse of Argus": {
+   "id": 704370,
+   "state": "record"
+  },
+  "Cursed Flames": {
+   "id": 300478,
+   "state": "record"
+  },
+  "Dancing Blades": {
+   "id": 92087,
+   "state": "record"
+  },
+  "Dark Lord": {
+   "id": 300470,
+   "state": "record"
+  },
+  "Demon Skin": {
+   "id": 570169,
+   "state": "record"
+  },
+  "Demonborn": {
+   "id": 705102,
+   "state": "record"
+  },
+  "Demonfire Pact": {
+   "id": 800031,
+   "state": "record"
+  },
+  "Demonic Attunement": {
+   "id": 804615,
+   "state": "record"
+  },
+  "Demonic Evasion": {
+   "id": 705108,
+   "state": "record"
+  },
+  "Demonic Fortitude": {
+   "id": 524634,
+   "state": "record"
+  },
+  "Demonic Machinations": {
+   "id": 806111,
+   "state": "record"
+  },
+  "Demonic Will": {
+   "id": 500497,
+   "state": "record"
+  },
+  "Demonscale": {
+   "id": 804218,
+   "state": "record"
+  },
+  "Dreadlord's Pact": {
+   "id": 803488,
+   "state": "record"
+  },
+  "Eliminate Advantage": {
+   "id": 300471,
+   "state": "record"
+  },
+  "Embracing Evil": {
+   "id": 712425,
+   "state": "record"
+  },
+  "Empowered Felstrikes": {
+   "id": 705120,
+   "state": "record"
+  },
+  "Enslave Elemental": {
+   "id": 954534,
+   "state": "record"
+  },
+  "Eternal Cries": {
+   "id": 704608,
+   "state": "record"
+  },
+  "Evil Eye": {
+   "id": 704375,
+   "state": "record"
+  },
+  "Expose": {
+   "id": 300474,
+   "state": "record"
+  },
+  "Eye of Archimonde": {
+   "id": 804052,
+   "state": "record"
+  },
+  "Eye of the Tyrant": {
+   "id": 560549,
+   "state": "record"
+  },
+  "Fel Addict": {
+   "id": 300487,
+   "state": "record"
+  },
+  "Fel Apprentice": {
+   "id": 92088,
+   "state": "record"
+  },
+  "Fel Bargain": {
+   "id": 807942,
+   "state": "record"
+  },
+  "Fel Blades": {
+   "id": 300482,
+   "state": "record"
+  },
+  "Fel Cannon": {
+   "id": 802180,
+   "state": "record"
+  },
+  "Fel Daze": {
+   "id": 705131,
+   "state": "record"
+  },
+  "Fel Doom": {
+   "id": 572148,
+   "state": "record"
+  },
+  "Fel Empowerment": {
+   "id": 300962,
+   "state": "record"
+  },
+  "Fel Erosion": {
+   "id": 705117,
+   "state": "record"
+  },
+  "Fel Finesse": {
+   "id": 520591,
+   "state": "record"
+  },
+  "Fel Fireball": {
+   "id": 801312,
+   "state": "record"
+  },
+  "Fel Flamecasting": {
+   "id": 300491,
+   "state": "record"
+  },
+  "Fel Infusion": {
+   "id": 560533,
+   "state": "record"
+  },
+  "Fel Monstrosity": {
+   "id": 500067,
+   "state": "record"
+  },
+  "Fel Napalm": {
+   "id": 705147,
+   "state": "record"
+  },
+  "Felbane": {
+   "id": 525001,
+   "state": "record"
+  },
+  "Felblade": {
+   "id": 574146,
+   "state": "record"
+  },
+  "Felbreak": {
+   "id": 800203,
+   "state": "record"
+  },
+  "Felcaked Blades": {
+   "id": 574145,
+   "state": "record"
+  },
+  "Felcaked Glaives": {
+   "id": 705138,
+   "state": "record"
+  },
+  "Felcaked Weapons": {
+   "id": 705139,
+   "state": "record"
+  },
+  "Felfire Cascade": {
+   "id": 300492,
+   "state": "record"
+  },
+  "Felforged": {
+   "id": 300490,
+   "state": "record"
+  },
+  "Felgorged": {
+   "id": 520250,
+   "state": "record"
+  },
+  "Felhoof Charge": {
+   "id": 800204,
+   "state": "record"
+  },
+  "Felrend": {
+   "id": 800210,
+   "state": "record"
+  },
+  "Felshock": {
+   "id": 572792,
+   "state": "record"
+  },
+  "Felspill": {
+   "id": 555742,
+   "state": "record"
+  },
+  "Felstrikes": {
+   "id": 801890,
+   "state": "record"
+  },
+  "Felwracked": {
+   "id": 704374,
+   "state": "record"
+  },
+  "Felwrath": {
+   "id": 520236,
+   "state": "record"
+  },
+  "Flames of Azzinoth": {
+   "id": 705144,
+   "state": "record"
+  },
+  "Fury Unleashed": {
+   "id": 555738,
+   "state": "record"
+  },
+  "Fury of Archimonde": {
+   "id": 706268,
+   "state": "record"
+  },
+  "Fury of the Illidari": {
+   "id": 561216,
+   "state": "record"
+  },
+  "Greater Illidari Intuition": {
+   "id": 680308,
+   "state": "record"
+  },
+  "Greater Man'ari Intuition": {
+   "id": 523495,
+   "state": "record"
+  },
+  "Grommash's Folly": {
+   "id": 560839,
+   "state": "record"
+  },
+  "Hateforged Barrier": {
+   "id": 705129,
+   "state": "record"
+  },
+  "Hidden Power": {
+   "id": 802108,
+   "state": "record"
+  },
+  "Hulking Demon": {
+   "id": 805246,
+   "state": "record"
+  },
+  "Illidan's Guile": {
+   "id": 806109,
+   "state": "record"
+  },
+  "Illidari Intuition": {
+   "id": 800212,
+   "state": "record"
+  },
+  "Illidari Smite": {
+   "id": 520247,
+   "state": "record"
+  },
+  "Illidari Training": {
+   "id": 521210,
+   "state": "record"
+  },
+  "Immolation Aura": {
+   "id": 800207,
+   "state": "record"
+  },
+  "Impenetrable Wards": {
+   "id": 705128,
+   "state": "record"
+  },
+  "Improved Fel Fireball": {
+   "id": 300479,
+   "state": "record"
+  },
+  "Infernal": {
+   "id": 560284,
+   "state": "record"
+  },
+  "Infernal Armor": {
+   "id": 300467,
+   "state": "record"
+  },
+  "Infernal Constitution": {
+   "id": 805256,
+   "state": "record"
+  },
+  "Infernal Doom": {
+   "id": 804219,
+   "state": "record"
+  },
+  "Infernal Summoner": {
+   "id": 300480,
+   "state": "record"
+  },
+  "Infernal Whipcrack": {
+   "id": 805243,
+   "state": "record"
+  },
+  "Inner Demon": {
+   "id": 804216,
+   "state": "record"
+  },
+  "Legionfall": {
+   "id": 801899,
+   "state": "record"
+  },
+  "Legionfel Pact": {
+   "id": 804764,
+   "state": "record"
+  },
+  "Lesser Fel Fireball": {
+   "id": 503087,
+   "state": "record"
+  },
+  "Malice of Gul'dan": {
+   "id": 501273,
+   "state": "record"
+  },
+  "Man'ari Intuition": {
+   "id": 523478,
+   "state": "record"
+  },
+  "Man'ari Teachings": {
+   "id": 705150,
+   "state": "record"
+  },
+  "Manaburn": {
+   "id": 805248,
+   "state": "record"
+  },
+  "Manafeed": {
+   "id": 552210,
+   "state": "record"
+  },
+  "Mannoroth's Rage": {
+   "id": 570736,
+   "state": "record"
+  },
+  "Nether Champion": {
+   "id": 705145,
+   "state": "record"
+  },
+  "Nether Focus": {
+   "id": 705101,
+   "state": "record"
+  },
+  "Nether Spirit": {
+   "id": 300477,
+   "state": "record"
+  },
+  "Oblivion": {
+   "id": 800215,
+   "state": "record"
+  },
+  "Outland Slaver": {
+   "id": 705123,
+   "state": "record"
+  },
+  "Pact Mastery": {
+   "id": 705119,
+   "state": "record"
+  },
+  "Pit Lord's Rage": {
+   "id": 705141,
+   "state": "record"
+  },
+  "Pit Lord's Strength": {
+   "id": 802076,
+   "state": "record"
+  },
+  "Pure Hatred": {
+   "id": 801894,
+   "state": "record"
+  },
+  "Reachwalker": {
+   "id": 680318,
+   "state": "record"
+  },
+  "Reckless Assault": {
+   "id": 804610,
+   "state": "record"
+  },
+  "Reckoning": {
+   "id": 524632,
+   "state": "record"
+  },
+  "Render": {
+   "id": 300473,
+   "state": "record"
+  },
+  "Resolve To Offense": {
+   "id": 704609,
+   "state": "record"
+  },
+  "Ruin": {
+   "id": 801895,
+   "state": "record"
+  },
+  "Rushing Fury": {
+   "id": 560738,
+   "state": "record"
+  },
+  "Sargeras Embrace": {
+   "id": 800355,
+   "state": "record"
+  },
+  "Sargeron Smite": {
+   "id": 802060,
+   "state": "record"
+  },
+  "Sculptor of Doom": {
+   "id": 555277,
+   "state": "record"
+  },
+  "Skull of Gul'dan": {
+   "id": 800225,
+   "state": "record"
+  },
+  "Slayer's Pact": {
+   "id": 803343,
+   "state": "record"
+  },
+  "Soar": {
+   "id": 804522,
+   "state": "record"
+  },
+  "Spectral Might": {
+   "id": 704631,
+   "state": "record"
+  },
+  "Spite": {
+   "id": 800188,
+   "state": "record"
+  },
+  "Sunder": {
+   "id": 556503,
+   "state": "record"
+  },
+  "Taskmaster's Army": {
+   "id": 800220,
+   "state": "record"
+  },
+  "The Demon Within": {
+   "id": 800222,
+   "state": "record"
+  },
+  "Trampling Hooves": {
+   "id": 805251,
+   "state": "record"
+  },
+  "True Self": {
+   "id": 574140,
+   "state": "record"
+  },
+  "Twin Fury": {
+   "id": 801892,
+   "state": "record"
+  },
+  "Twin Slice": {
+   "id": 801901,
+   "state": "record"
+  },
+  "Twisted Sight": {
+   "id": 532229,
+   "state": "record"
+  },
+  "Tyrannical Resolve": {
+   "id": 804823,
+   "state": "record"
+  },
+  "Tyrant's Gaze": {
+   "id": 805240,
+   "state": "record"
+  },
+  "Unholy Endurance": {
+   "id": 300466,
+   "state": "record"
+  },
+  "Untold Power": {
+   "id": 705113,
+   "state": "record"
+  },
+  "Vengeance Is Mine": {
+   "id": 804822,
+   "state": "record"
+  },
+  "Vengeful Pact": {
+   "id": 800029,
+   "state": "record"
+  },
+  "Warlock Training": {
+   "id": 560641,
+   "state": "record"
+  },
+  "Whispers of the Pit": {
+   "id": 805235,
+   "state": "record"
+  },
+  "Wrath of Sargeras": {
+   "id": 806103,
+   "state": "record"
+  },
+  "Wrath of Tichondrius": {
+   "id": 520245,
+   "state": "record"
+  },
+  "Wrathbringer": {
+   "id": 705133,
+   "state": "record"
+  },
+  "You Cheat, Gul'dan!": {
+   "id": 705127,
+   "state": "record"
+  }
+ }
+}

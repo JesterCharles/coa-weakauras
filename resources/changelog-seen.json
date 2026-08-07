@@ -5,6 +5,11 @@
    "date": "2026/07/31",
    "text": "Infinite Shield range increased to 40 yds."
   },
+  "0ddba1d563c5bb49": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
+  },
   "18ad6e46fe94e936": {
    "class": "pyromancer",
    "date": "2026/07/31",
@@ -14,6 +19,11 @@
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Cycling Aeons replaced with Rapid Acceleration and now reads: \u201cYour Accelerated Recovery now heals 15% of its total periodic amount instantly and increases the healing power contribution to Accelerated Recovery by 15%.\u201d"
+  },
+  "2a994acb6a1f15f0": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 2's damage has been increased from 12 to 42."
   },
   "2ab6af1530436620": {
    "class": "pyromancer",
@@ -25,15 +35,45 @@
    "date": "2026/07/31",
    "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
   },
+  "2d5598fab552f80e": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Bulwark of Azzinoth damage reduction value reduced from 10% to 5%."
+  },
   "2df1c90ce628784f": {
    "class": "chronomancer",
    "date": "2026/08/03",
    "text": "Fortify Timeline can now extend Accelerated Recovery by a maximum of 15 seconds baseline."
   },
+  "3150a9fbfa7834ec": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Legionfall now additionally causes your next Annihilan Strike to cost 50% less energy."
+  },
+  "33d3326f3dc49d1b": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 4's damage has been increased from 30 to 97."
+  },
+  "351d50ee3009702d": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 1's damage has been increased from 7 to 25."
+  },
   "358a52cbd9d233d6": {
    "class": "stormbringer",
    "date": "2026/07/31",
    "text": "Ride the Lightning now has a 30 yd range instead of 40 yds. 40 yds often left you teleporting into walls."
+  },
+  "37903d0e830d73f8": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Scaling of Pure Hatred reduced from 30% Maximum Health scaling to 15% Maximum Health scaling."
+  },
+  "3a8fa93d53dfa288": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Felcaked Blades agility scaling increased from 20% to 25%."
   },
   "3b001e7b33004a29": {
    "class": "pyromancer",
@@ -50,10 +90,20 @@
    "date": "2026/07/31",
    "text": "Volcanic Shell Rank 2's absorb has been increased from 675 to 1055."
   },
+  "3f05700a923eec47": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Felbane can no longer target bosses."
+  },
   "423a7a271ccdab26": {
    "class": "pyromancer",
    "date": "2026/07/31",
    "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
+  },
+  "4f0d1f1544de28f4": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Cripple now reduces the target\u2019s moving and casting speed by 40% down from 50%. It now ticks down 8% from 10% per stack. Duration remains unchanged."
   },
   "504893d62c5ac78f": {
    "class": "chronomancer",
@@ -200,6 +250,11 @@
    "date": "2026/07/31",
    "text": "Fixed a bug causing Phoenix Dive to apply its coefficient twice to the absorb value and Phoenix Dive now hits up to 10 targets."
   },
+  "95dfc8b80cbd3a46": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Nether Strength cooldown reduction reduced from 1 sec to 0.5 sec."
+  },
   "a2dfed3a4d3d157f": {
    "class": "chronomancer",
    "date": "2026/07/31",
@@ -225,10 +280,25 @@
    "date": "2026/07/31",
    "text": "Volt no longer scales with haste."
   },
+  "b463329fdd4fc248": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 5's damage has been increased from 45 to 129."
+  },
+  "b7a5fdda7a076fe3": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Nether Disciple no longer provides dodge chance."
+  },
   "b9e02c96e60953ea": {
    "class": "stormbringer",
    "date": "2026/07/31",
    "text": "Kinetic Energy duration increased from 8 sec to 10 sec."
+  },
+  "bb0cf575ae8d9bcd": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Outland Slaver damage increase lowered by 5/10%."
   },
   "bc11a36c44f5d5a1": {
    "class": "chronomancer",
@@ -239,6 +309,16 @@
    "class": "runemaster",
    "date": "2026/08/03",
    "text": "Swapped Mind Over Matter in the Class Tree with Battle Engravings in the Talent Tree, meaning all Runemasters can now take Battle Engravings."
+  },
+  "bdcad2c829c37f2a": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 3's damage has been increased from 21 to 69."
+  },
+  "c0ea4d2a41607106": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Immolation Aura Rank 6's damage has been increased from 67 to 145"
   },
   "c4d299cec6a4f172": {
    "class": "chronomancer",
@@ -260,10 +340,25 @@
    "date": "2026/07/31",
    "text": "Reduced scaling of Correct the Mistake by 20%."
   },
+  "c58522dd5944f0b0": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Chaotic now gives 2 energy per melee ability critical strike, down from 3."
+  },
+  "caf251a979b6bbdf": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "Azzinoth\u2019s Assault base damage increased by 20%."
+  },
   "caf9039f80c25b07": {
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Adjusted the positioning of Timeline Tether and Rapid Acceleration"
+  },
+  "cff3c2058733d763": {
+   "class": "felsworn",
+   "date": "2026/07/31",
+   "text": "The damage absorb provided from Hateforged Barrier is reduced by 30%."
   },
   "e4141aacc61390a8": {
    "class": "runemaster",

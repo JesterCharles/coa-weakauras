@@ -1,0 +1,14 @@
+{
+ "Glaiving": {
+  "canonical": null,
+  "why": "The Sidekick slayer rotation prose says 'Keep Glaiving in the rotation for off-hand damage and Felfury', which reads like a button, but no castable exists: the skillbook has no Glaiving entry and db.exil.es 560578 'Glaiving' is a passive ('Increases the damage dealt and reduces the Energy cost of Fury Unleashed by 50%'). The prose is describing the glaive/off-hand proc engine (Dancing Blades, Twin Slice), not naming a press. Unbuildable as cited; the main row carries Twin Slice as the filler instead."
+ },
+ "Demonsoul": {
+  "canonical": null,
+  "why": "Named once by the 2026-08-02 sidekick-data.js talent extraction for tyrant. No id in the skillbook, the db.exil.es class digest, or the spell-meta API - no spell of this name exists in any source for this class. Reads as a renamed or cut talent; recorded null so it stops resurfacing on re-import."
+ },
+ "Tyrant's Presence": {
+  "canonical": null,
+  "why": "Named once by the 2026-08-02 sidekick-data.js talent extraction for tyrant. No id in any source (the only Presence in the digest is Agonizing Presence 807727, a +threat toggle with a different tooltip). A name appearing once in the Sidekick blob is prose, not a claim; recorded null."
+ }
+}

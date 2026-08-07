@@ -1,0 +1,185 @@
+{
+ "sidekick-felsworn-infernal-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Mark of Chaos",
+    "Soar"
+   ],
+   "maintain": [
+    "Malice of Gul'dan"
+   ],
+   "priority": [],
+   "signature": [
+    "Fel Apprentice"
+   ]
+  },
+  "class": "felsworn",
+  "content_sha256": "37689f7017b5b4d0",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/felsworn/infernal",
+  "spec": "infernal"
+ },
+ "sidekick-felsworn-slayer-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Blood of Mannoroth",
+    "Illidan's Guile"
+   ],
+   "maintain": [
+    "Demonic Machinations"
+   ],
+   "priority": [],
+   "signature": [
+    "Dancing Blades"
+   ]
+  },
+  "class": "felsworn",
+  "content_sha256": "7c5515740e850bdb",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/felsworn/slayer",
+  "spec": "slayer"
+ },
+ "sidekick-felsworn-tyrant-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Demonsoul",
+    "Tyrant's Presence"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Burning Commander"
+   ]
+  },
+  "class": "felsworn",
+  "content_sha256": "68beb8cf16dfec46",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/felsworn/tyrant",
+  "spec": "tyrant"
+ },
+ "sidekick-rotation-felsworn-infernal-2026-08-07": {
+  "caveats": [
+   "transcribed by hand from the Rotations (solo) + Playstyle sections, scraped 2026-08-07: 'Maintain Fel Fireball as filler ... Use Sargeron Smite at 3+ Felfury when your Energy is low ... Drop Ruin as your hardest single-target nuke ... keeping a Bane of Chaos rolling (only one Bane at a time) ... bank the Inner Demon window ... Felwrath cleaves any pack'. Felbreak named a real interrupt in the dungeon text despite the skillbook filing it under slayer."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Infernal",
+    "Inner Demon",
+    "Sargeras Embrace",
+    "Cripple",
+    "Felbreak",
+    "Hateforged Barrier"
+   ],
+   "maintain": [
+    "Bane of Chaos"
+   ],
+   "priority": [
+    "Fel Fireball",
+    "Sargeron Smite",
+    "Ruin",
+    "Felwrath"
+   ],
+   "signature": [
+    "Fel Fireball"
+   ]
+  },
+  "class": "felsworn",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/felsworn/infernal",
+  "spec": "infernal",
+  "transcribed_by": "claude (felsworn class agent)"
+ },
+ "sidekick-rotation-felsworn-slayer-2026-08-07": {
+  "caveats": [
+   "transcribed by hand from the Rotations (solo) + Playstyle sections, scraped 2026-08-07 (post-dates the 2026/07/31 changelog batch): 'Azzinoth's Assault on cooldown as your armor-shred spender ... Follow with Annihilan Strike as your main hard hit ... Keep Glaiving in the rotation ... Open pulls with Immolation Aura ... Dump Fury Unleashed on 3+ mob pulls'. Playstyle adds the Bane of Frailty opener."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Fury of the Illidari",
+    "Fury Unleashed",
+    "Felhoof Charge",
+    "Reachwalker",
+    "Hateforged Barrier"
+   ],
+   "maintain": [
+    "Bane of Frailty"
+   ],
+   "priority": [
+    "Azzinoth's Assault",
+    "Annihilan Strike",
+    "Glaiving",
+    "Immolation Aura",
+    "Fury Unleashed"
+   ],
+   "signature": [
+    "Annihilan Strike"
+   ]
+  },
+  "class": "felsworn",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/felsworn/slayer",
+  "spec": "slayer",
+  "transcribed_by": "claude (felsworn class agent)"
+ },
+ "sidekick-rotation-felsworn-tyrant-2026-08-07": {
+  "caveats": [
+   "transcribed by hand from the Rotations (solo/dungeon) + Playstyle sections, scraped 2026-08-07: 'Keep AoE pressure up with Felrend ... Carve channeled when you can afford to charge it ... Demonic Will whenever HP dips / on cooldown ... Burning Hatred to enrage and dump 6 Felfury ... Hateforged Barrier when taking real damage ... Tyrant's Gaze to intimidate ... Tyrannical Resolve as your emergency button'. Tank spec: survival is the win condition."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Burning Hatred",
+    "Hateforged Barrier",
+    "Tyrant's Gaze",
+    "Tyrannical Resolve",
+    "Skull of Gul'dan",
+    "Inner Demon",
+    "Infernal Whipcrack",
+    "Eye of the Tyrant"
+   ],
+   "maintain": [
+    "Demonic Will"
+   ],
+   "priority": [
+    "Felrend",
+    "Carve",
+    "Demonic Will",
+    "Burning Hatred"
+   ],
+   "signature": [
+    "Carve"
+   ]
+  },
+  "class": "felsworn",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/felsworn/tyrant",
+  "spec": "tyrant",
+  "transcribed_by": "claude (felsworn class agent)"
+ }
+}

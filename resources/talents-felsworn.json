@@ -1,0 +1,2417 @@
+{
+ "class": "felsworn",
+ "class_id": 14,
+ "source": "ascension.gg",
+ "source_url": "https://ascension.gg/en/v2/coa-builder/voljin",
+ "realm": "api/v3 builder CoA parser",
+ "class_tab": [
+  {
+   "id": 5210,
+   "name": "Felguard",
+   "spell_ids": [
+    704360
+   ],
+   "x": 6,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6423,
+   "name": "Dark Teachings",
+   "spell_ids": [
+    520251
+   ],
+   "x": 3,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6868,
+   "name": "Whispers of the Pit",
+   "spell_ids": [
+    805235
+   ],
+   "x": 2,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6875,
+   "name": "Fel Communion",
+   "spell_ids": [
+    705105
+   ],
+   "x": 4,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 5685,
+   "name": "Chaotic",
+   "spell_ids": [
+    681376
+   ],
+   "x": 4,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7860,
+   "name": "Warlock Training",
+   "spell_ids": [
+    560641
+   ],
+   "x": 1,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7862,
+   "name": "Cruelty",
+   "spell_ids": [
+    705109,
+    520249
+   ],
+   "x": 2,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7863,
+   "name": "Infernal Armor",
+   "spell_ids": [
+    300467
+   ],
+   "x": 7,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7865,
+   "name": "Reckoning",
+   "spell_ids": [
+    802058
+   ],
+   "x": 2,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7868,
+   "name": "Mark of Chaos",
+   "spell_ids": [
+    524947
+   ],
+   "x": 4,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 11210,
+   "name": "Felstrider",
+   "spell_ids": [
+    707513
+   ],
+   "x": 6,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 11227,
+   "name": "Suffering",
+   "spell_ids": [
+    807430
+   ],
+   "x": 8,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29367,
+   "name": "Manaburn",
+   "spell_ids": [
+    805248
+   ],
+   "x": 4,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29399,
+   "name": "Legion March",
+   "spell_ids": [
+    805244
+   ],
+   "x": 5,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29400,
+   "name": "Doomstride",
+   "spell_ids": [
+    804613
+   ],
+   "x": 5,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29409,
+   "name": "Illidari Barrier",
+   "spell_ids": [
+    300468
+   ],
+   "x": 6,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34203,
+   "name": "Demonic Evasion",
+   "spell_ids": [
+    705108
+   ],
+   "x": 6,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34204,
+   "name": "Warden's End",
+   "spell_ids": [
+    705125
+   ],
+   "x": 0,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34205,
+   "name": "Felwracked",
+   "spell_ids": [
+    704374
+   ],
+   "x": 4,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34207,
+   "name": "Demonborn",
+   "spell_ids": [
+    705102,
+    707842
+   ],
+   "x": 4,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34211,
+   "name": "Focused Hatred",
+   "spell_ids": [
+    704606
+   ],
+   "x": 1,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 34212,
+   "name": "Felheart",
+   "spell_ids": [
+    301287
+   ],
+   "x": 3,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34213,
+   "name": "Demonic Embrace",
+   "spell_ids": [
+    520257
+   ],
+   "x": 7,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 34227,
+   "name": "Gul'dan's Gift",
+   "spell_ids": [
+    804609
+   ],
+   "x": 8,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 31294,
+   "name": "Cunning",
+   "spell_ids": [
+    300465
+   ],
+   "x": 2,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30552,
+   "name": "Felbane",
+   "spell_ids": [
+    525001
+   ],
+   "x": 7,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30553,
+   "name": "Magic Fiend",
+   "spell_ids": [
+    704613
+   ],
+   "x": 2,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30554,
+   "name": "Hateforged Barrier",
+   "spell_ids": [
+    705129
+   ],
+   "x": 6,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30559,
+   "name": "Skull of Gul'dan",
+   "spell_ids": [
+    800225
+   ],
+   "x": 6,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30565,
+   "name": "Pact Hunter",
+   "spell_ids": [
+    704612
+   ],
+   "x": 6,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 33668,
+   "name": "Felgorged",
+   "spell_ids": [
+    560573
+   ],
+   "x": 1,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 33670,
+   "name": "Embracing Evil",
+   "spell_ids": [
+    800352
+   ],
+   "x": 4,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 33671,
+   "name": "Armaments of the Legion",
+   "spell_ids": [
+    706266,
+    707844
+   ],
+   "x": 8,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 33674,
+   "name": "Elemental Bane",
+   "spell_ids": [
+    704607
+   ],
+   "x": 0,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30301,
+   "name": "Anti-Magic",
+   "spell_ids": [
+    560822
+   ],
+   "x": 7,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29686,
+   "name": "Annihilation",
+   "spell_ids": [
+    803904
+   ],
+   "x": 2,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29924,
+   "name": "Illidan's Guile",
+   "spell_ids": [
+    806109
+   ],
+   "x": 1,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  }
+ ],
+ "specs": {
+  "slayer": [
+   {
+    "id": 30811,
+    "name": "Pit Lord's Rage",
+    "spell_ids": [
+     705141
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30299,
+    "name": "Chaos Soldier",
+    "spell_ids": [
+     560057
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30300,
+    "name": "Azzinoth's Rage",
+    "spell_ids": [
+     804611,
+     807901,
+     807914
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 3,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31299,
+    "name": "Scars of the Past",
+    "spell_ids": [
+     520805
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31300,
+    "name": "Fel Instincts",
+    "spell_ids": [
+     560645
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31301,
+    "name": "Spite",
+    "spell_ids": [
+     800188,
+     803840
+    ],
+    "x": 0,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31308,
+    "name": "Scars of Suffering",
+    "spell_ids": [
+     570158
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29842,
+    "name": "Whirling Vengeance",
+    "spell_ids": [
+     704602
+    ],
+    "x": 7,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29852,
+    "name": "You Cheat, Gul'dan!",
+    "spell_ids": [
+     705127
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29926,
+    "name": "Fury of the Illidari",
+    "spell_ids": [
+     561216
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29927,
+    "name": "Legionfall",
+    "spell_ids": [
+     801899
+    ],
+    "x": 1,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31392,
+    "name": "Oblivion",
+    "spell_ids": [
+     572889
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29132,
+    "name": "Reckless Assault",
+    "spell_ids": [
+     804610
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29387,
+    "name": "Annihilan Strike",
+    "spell_ids": [
+     801903
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29396,
+    "name": "Felhoof Charge",
+    "spell_ids": [
+     800204
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29402,
+    "name": "Blighted Strikes",
+    "spell_ids": [
+     570077
+    ],
+    "x": 5,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29405,
+    "name": "Pit Lord's Strength",
+    "spell_ids": [
+     802076,
+     802110
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9228,
+    "name": "True Self",
+    "spell_ids": [
+     574140
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9229,
+    "name": "Chaotic",
+    "spell_ids": [
+     574143
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9230,
+    "name": "Felcaked Blades",
+    "spell_ids": [
+     574145
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7432,
+    "name": "Nether Champion",
+    "spell_ids": [
+     705145
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11814,
+    "name": "Consumed By Fel",
+    "spell_ids": [
+     300485
+    ],
+    "x": 8,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11228,
+    "name": "Unbound",
+    "spell_ids": [
+     574153
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6919,
+    "name": "A Thousand Cuts",
+    "spell_ids": [
+     704610
+    ],
+    "x": 1,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6968,
+    "name": "Azzinoth's Battery",
+    "spell_ids": [
+     705137
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6512,
+    "name": "Slice & Dice",
+    "spell_ids": [
+     704361,
+     707845
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6513,
+    "name": "Fel Haze",
+    "spell_ids": [
+     803903
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6524,
+    "name": "Perpetual Fury",
+    "spell_ids": [
+     520244
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6526,
+    "name": "Immolation Aura",
+    "spell_ids": [
+     800207
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4007,
+    "name": "Dancing Blades",
+    "spell_ids": [
+     92087
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 34209,
+    "name": "Felguard",
+    "spell_ids": [
+     560542
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34236,
+    "name": "Twin Fury",
+    "spell_ids": [
+     801892
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34238,
+    "name": "Fel Blades",
+    "spell_ids": [
+     300484
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34243,
+    "name": "Azzinoth's Assault",
+    "spell_ids": [
+     801904
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34244,
+    "name": "Fury Unleashed",
+    "spell_ids": [
+     555738
+    ],
+    "x": 7,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34245,
+    "name": "Demonic Machinations",
+    "spell_ids": [
+     806111
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34249,
+    "name": "Reachwalker",
+    "spell_ids": [
+     705135
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34251,
+    "name": "Glaiving",
+    "spell_ids": [
+     560578
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34252,
+    "name": "Burning Rage",
+    "spell_ids": [
+     707907
+    ],
+    "x": 7,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "infernal": [
+   {
+    "id": 34230,
+    "name": "Felbreak",
+    "spell_ids": [
+     800203
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34231,
+    "name": "Fel Infusion",
+    "spell_ids": [
+     560533
+    ],
+    "x": 5,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34232,
+    "name": "Malice of Gul'dan",
+    "spell_ids": [
+     800214
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34234,
+    "name": "Nether Spirit",
+    "spell_ids": [
+     300477
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34237,
+    "name": "Archimonde's Wrath",
+    "spell_ids": [
+     300489
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34256,
+    "name": "Dark Magician",
+    "spell_ids": [
+     560637
+    ],
+    "x": 2,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 10909,
+    "name": "Herald of the Legion",
+    "spell_ids": [
+     807461
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11224,
+    "name": "Hidden Power",
+    "spell_ids": [
+     802108
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11292,
+    "name": "Doomsayer",
+    "spell_ids": [
+     520833
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9225,
+    "name": "Sculptor of Doom",
+    "spell_ids": [
+     801235
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9226,
+    "name": "Unphased",
+    "spell_ids": [
+     803645
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11914,
+    "name": "Oppressive Ruin",
+    "spell_ids": [
+     561201
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7861,
+    "name": "Cursed Flames",
+    "spell_ids": [
+     300478
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30808,
+    "name": "Withering",
+    "spell_ids": [
+     707416
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30874,
+    "name": "Curse of Argus",
+    "spell_ids": [
+     704370
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29445,
+    "name": "Sargeras Embrace",
+    "spell_ids": [
+     800355
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29849,
+    "name": "Infernal Doom",
+    "spell_ids": [
+     804219
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29922,
+    "name": "Chaotic Intuition",
+    "spell_ids": [
+     300483
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29923,
+    "name": "Shadow Magi",
+    "spell_ids": [
+     803905
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29933,
+    "name": "Bane of Chaos",
+    "spell_ids": [
+     704368
+    ],
+    "x": 1,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29968,
+    "name": "Illidari Magi",
+    "spell_ids": [
+     560639
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30200,
+    "name": "Fury of Archimonde",
+    "spell_ids": [
+     706425
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30302,
+    "name": "Felforged",
+    "spell_ids": [
+     300490
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31158,
+    "name": "Ruin",
+    "spell_ids": [
+     801895
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31291,
+    "name": "Felfire Adept",
+    "spell_ids": [
+     560836,
+     561345
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31295,
+    "name": "Infernal",
+    "spell_ids": [
+     560284
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31297,
+    "name": "Wrath of Sargeras",
+    "spell_ids": [
+     806103,
+     807902
+    ],
+    "x": 6,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31298,
+    "name": "Black Magic",
+    "spell_ids": [
+     524950,
+     525079
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4008,
+    "name": "Fel Apprentice",
+    "spell_ids": [
+     92088
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4226,
+    "name": "Man'ari Teachings",
+    "spell_ids": [
+     705150
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6340,
+    "name": "Fel Cannon",
+    "spell_ids": [
+     802180
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6909,
+    "name": "Fel Flamecasting",
+    "spell_ids": [
+     805998
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6910,
+    "name": "Felshock",
+    "spell_ids": [
+     806235
+    ],
+    "x": 3,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6911,
+    "name": "Illidari Smiter",
+    "spell_ids": [
+     520246
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6912,
+    "name": "The True Blessing",
+    "spell_ids": [
+     560838
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6914,
+    "name": "Infernal Ruin",
+    "spell_ids": [
+     560840
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6915,
+    "name": "Felwrath",
+    "spell_ids": [
+     520236
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6931,
+    "name": "Gul'dan's Prodigy",
+    "spell_ids": [
+     704378
+    ],
+    "x": 7,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4292,
+    "name": "Infernal Summoner",
+    "spell_ids": [
+     300480
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "tyrant": [
+   {
+    "id": 4009,
+    "name": "Burning Commander",
+    "spell_ids": [
+     92089
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6774,
+    "name": "Outland Slaver",
+    "spell_ids": [
+     705123,
+     707846
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6815,
+    "name": "Nether Strength",
+    "spell_ids": [
+     520240
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6876,
+    "name": "Vengeance Is Mine",
+    "spell_ids": [
+     804822
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6877,
+    "name": "Expose",
+    "spell_ids": [
+     300474
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6338,
+    "name": "Nether Disciple",
+    "spell_ids": [
+     560576,
+     561343
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6339,
+    "name": "Doomscarring",
+    "spell_ids": [
+     685321
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9218,
+    "name": "Straight to the Nether",
+    "spell_ids": [
+     560503
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9231,
+    "name": "Hulking Demon",
+    "spell_ids": [
+     805246
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9233,
+    "name": "Felblade",
+    "spell_ids": [
+     574146
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9832,
+    "name": "Hellfire Carver",
+    "spell_ids": [
+     707444
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12170,
+    "name": "Fel Torpedo",
+    "spell_ids": [
+     520853
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11111,
+    "name": "Fel Daze",
+    "spell_ids": [
+     705131
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11121,
+    "name": "Annihilan Rituals",
+    "spell_ids": [
+     520831
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11213,
+    "name": "Abyssal Conditioning",
+    "spell_ids": [
+     807431
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11217,
+    "name": "Demonic Blood",
+    "spell_ids": [
+     807438
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11233,
+    "name": "Fel Monstrosity",
+    "spell_ids": [
+     500067
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7869,
+    "name": "Demon Hide",
+    "spell_ids": [
+     520252,
+     520253
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7870,
+    "name": "Illidan's Favor",
+    "spell_ids": [
+     520592
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29398,
+    "name": "Vengeance",
+    "spell_ids": [
+     520817
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29407,
+    "name": "Taskmaster's Army",
+    "spell_ids": [
+     800220
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34217,
+    "name": "Demonic Fortitude",
+    "spell_ids": [
+     805245
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34219,
+    "name": "Bulwark of Azzinoth",
+    "spell_ids": [
+     705122
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34220,
+    "name": "Infernal Constitution",
+    "spell_ids": [
+     805256
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34221,
+    "name": "Unholy Endurance",
+    "spell_ids": [
+     300466
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34222,
+    "name": "Pure Hatred",
+    "spell_ids": [
+     803478
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34224,
+    "name": "Infernal Whipcrack",
+    "spell_ids": [
+     805243
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34226,
+    "name": "Burning Legionnaire",
+    "spell_ids": [
+     520885
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34228,
+    "name": "Grommash's Folly",
+    "spell_ids": [
+     805236
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 34229,
+    "name": "Betrayer",
+    "spell_ids": [
+     300476
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30404,
+    "name": "Mannoroth's Rage",
+    "spell_ids": [
+     805255
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30405,
+    "name": "Tyrannical Resolve",
+    "spell_ids": [
+     804823
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30556,
+    "name": "Felspill",
+    "spell_ids": [
+     706267
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30557,
+    "name": "Tyrant's Gaze",
+    "spell_ids": [
+     805240
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30558,
+    "name": "Burning Hatred",
+    "spell_ids": [
+     805239
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30560,
+    "name": "Eye of the Tyrant",
+    "spell_ids": [
+     560549
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30561,
+    "name": "Dark Lord",
+    "spell_ids": [
+     300470
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30563,
+    "name": "Illidari Training",
+    "spell_ids": [
+     805249
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30566,
+    "name": "Battle Finesse",
+    "spell_ids": [
+     704611
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30567,
+    "name": "Quick Carving",
+    "spell_ids": [
+     520254
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29845,
+    "name": "Demonic Will",
+    "spell_ids": [
+     800209
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31159,
+    "name": "Carve",
+    "spell_ids": [
+     800206
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29442,
+    "name": "Felrend",
+    "spell_ids": [
+     800210
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ]
+ },
+ "tab_map": {
+  "slayer": {
+   "tab_id": 37,
+   "tab_name": "Slayer"
+  },
+  "infernal": {
+   "tab_id": 38,
+   "tab_name": "Infernal"
+  },
+  "tyrant": {
+   "tab_id": 18,
+   "tab_name": "Tyrant"
+  }
+ },
+ "unmapped_tabs": [],
+ "missing_specs": []
+}
