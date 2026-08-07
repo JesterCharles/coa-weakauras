@@ -41,7 +41,17 @@ import wapack as W
 # 0.1: first build. NOT confirmed in game, and the inventory roles behind it
 # were machine-proposed rather than read row by row -- see the provenance note
 # in notes/class-pack-process.md before trusting any band.
-VERSION = "0.1"
+#
+# 0.2: first pass through Phase 0 (notes/requirements-pyromancer.md). The class
+# had NO mechanics source until now -- the three Sidekick spec pages were
+# scraped this release and are what the main rows are rebuilt from. Also:
+# `Stoke` off the Flameweaving main row (a passive talent whose castable id has
+# no db.ascension record), Explode/Echo of Nozdormu handled as a spell swap,
+# and the must-press procs the rotation names.
+#
+# 0.3: the Inferno rework (changelog 2026/07/31) lands in the Flameweaving
+# target band.
+VERSION = "0.3"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {}
@@ -108,6 +118,17 @@ PROC_GLOW = {
     # Slag Barrage spends Flames of Focus: "Consumes Flames of Focus. Hurl
     # spheres of molten slag for each stack consumed."
     "Slag Barrage": ["Flames of Focus"],
+    # "Fired Up! turns your Ember spenders instant when it procs, so cash those
+    # windows in" -- Sidekick, Incineration. The spenders are the payoff of the
+    # whole spec, so the window is the single most actionable cue it has.
+    "Explode": ["Fired Up!"],
+    "Pillar of Flame": ["Fired Up!"],
+    # "Aspect's Blessing ... your next Echo of Nozdormu or Flames of Neltharion
+    # is guaranteed to critically strike." Both spenders, so both glow.
+    "Flames of Neltharion": ["Aspect's Blessing"],
+    # Earthwarder: "next Flare Bolt within 8 seconds is instant cast" -- the
+    # filler becomes mobile, which is the whole reason to notice it.
+    "Flare Bolt": ["Earthwarder"],
 }
 # Of those, the ones whose proc also STACKS -- drawn as a number on the icon
 # rather than as a bar of its own. Flames of Focus stacks 3 and Slag Barrage
@@ -257,9 +278,14 @@ def envelope(spec_name, bands):
 # Fire DoT spec. Ignite and Blaze are maintained, Lava Shard generates the
 # Ember, and Pyroclasm consumes the DoTs for burst.
 I = []
+# Row order is the ROTATION, from Sidekick: open Ignite/Blaze to get the DoTs
+# rolling, Flare Bolt/Lava Shard as filler while crits build Flamecasting, then
+# dump Pillar of Flame -> Explode (Explode scales with your periodic count).
+# Flare Bolt is THE main filler and was missing entirely; Wildfire and Melt are
+# named nowhere in the rotation and drop to the offense row.
 I.append(cd_group("PY Incineration Main", "PY Incineration",
-                  ["Ignite", "Blaze", "Wildfire", "Lava Shard", "Explode",
-                   "Melt"],
+                  ["Ignite", "Blaze", "Flare Bolt", "Lava Shard",
+                   "Pillar of Flame", "Explode"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14,
                   spec="incineration"))
 envelope("Incineration", I)
@@ -282,9 +308,14 @@ add(spec_group("PY Incineration", I))
 # THE HEALING SPEC. Cinderheart and Kindle are the direct heals, Ember Touch is
 # the Ember spender, and Phoenix Dive lays an absorb along the Phoenix's path.
 F = []
+# `Stoke` is GONE from this row. db.ascension.gg has no record of the castable
+# 803952, and Sidekick lists Flameweaving's Stoke as `Stoke T` -- a TALENT,
+# "critical strikes with Ignite and Infernus now extend their duration". A
+# passive is not a button. Inferno Barrier takes the slot: the rotation names
+# it as the absorb you hold for the tank's next spike.
 F.append(cd_group("PY Flameweaving Main", "PY Flameweaving",
                   ["Kindle", "Cinderheart", "Ember Touch", "Cleansing Flames",
-                   "Phoenix Dive", "Stoke"],
+                   "Inferno Barrier", "Phoenix Dive"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14,
                   spec="flameweaving"))
 envelope("Flameweaving", F)
@@ -292,9 +323,27 @@ envelope("Flameweaving", F)
 # spec's tracked output is absorbs rather than HoTs -- Pyromancer heals
 # directly -- so this band is the two shields, and it is the whole of the
 # healing surface by design. Raid-wide state belongs to VuhDo/Grid.
+# Inferno joins the two absorbs after the 2026/07/31 rework:
+#
+#   [pyromancer] Inferno has been reworked and now reads: You have a 50% chance
+#   with direct healing critical spells to apply an inferno on an ally. Inferno
+#   heals 3 nearby allies every second for 5 seconds and at the end of its
+#   duration nearby party and raid members are healed. This effect can only
+#   trigger once every 5 seconds.
+#
+# It is a PASSIVE proc, so there is nothing to press -- but what it puts on the
+# ally is a 5-second window whose EXPIRY is the payoff (the end-of-duration
+# raid heal), and `Scepter of Fire` re-triggers that explosion every 5 sec. So
+# the actionable read is "is it up, and on whom", which is the target band.
+#
+# by_name because 806736 is the PASSIVE. Every scrape resolves the name to it,
+# while the aura actually sitting on the ally is a spell nobody has captured --
+# an exact-id match would find nothing and fail silently. Matching id OR name
+# covers both. `Inferno` is in the probe's watch list to settle the real id.
 F.append(dot_bars("PY Flameweaving Target", "PY Flameweaving",
                   [("Phoenix Dive", (1.00, 0.65, 0.25), {}),
-                   ("Inferno Barrier", (0.95, 0.45, 0.20), {})],
+                   ("Inferno Barrier", (0.95, 0.45, 0.20), {}),
+                   ("Inferno", (1.00, 0.80, 0.30), {"by_name": True})],
                   y=Y_TARGET, unit="target", helpful=True, refresh_at=5))
 _y_F = emit_bottom_block("Flameweaving", "flameweaving", F,
                          [("Dormant", (0.60, 0.85, 1.00)),
@@ -309,9 +358,19 @@ add(spec_group("PY Flameweaving", F))
 # Nozdormu and Destroyer's Maw are the hits, and Legacy of Deathwing makes the
 # next Maw or Firefall free.
 D = []
+# Builder-spender, in rotation order: Flare Bolt filler (+20 Heat), Maw (+30)
+# and Firefall (+10/target) on cooldown to fish Legacy of Deathwing resets,
+# Draconic Invocation to bank 5 Embers instantly, then dump -- Echo of Nozdormu
+# single-target, Flames of Neltharion on 2+.
+#
+# The row carries EXPLODE, not Echo of Nozdormu, because Echo is a TALENT that
+# transforms Explode into itself. Hardcoding the replacement showed an ability
+# an untalented player does not have while hiding the one they do. spell_swap()
+# below makes the icon follow whichever they actually have.
 D.append(cd_group("PY Draconic Main", "PY Draconic",
-                  ["Echo of Nozdormu", "Destroyer's Maw", "Firefall",
-                   "Dragonfire", "Flames of Neltharion", "Flare Bolt"],
+                  ["Flare Bolt", "Destroyer's Maw", "Firefall",
+                   "Draconic Invocation", "Explode",
+                   "Flames of Neltharion"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14,
                   spec="draconic"))
 envelope("Draconic", D)
@@ -329,6 +388,24 @@ add(spec_group("PY Draconic", D))
 
 W.configure(merge_bands=MERGE_BANDS)
 merge_bands()
+
+
+# ------------------------------------------------ Echo of Nozdormu, on Explode
+# Draconic's `Echo of Nozdormu` talent reads, verbatim: "Transforms your Explode
+# into Echo of Nozdormu." Two different spells -- Explode 800792, Echo 802174 --
+# and the talent swaps one for the other.
+#
+# This is the Runemaster failure with the polarity flipped. Runemaster tracked
+# only the BASE and the icon vanished once the talent was taken; the first
+# Pyromancer build tracked only the REPLACEMENT, so an untalented Draconic saw
+# an ability they do not have while the Explode they DO have was nowhere. Both
+# are half-right.
+#
+# spell_swap() carries the fix that Runemaster 1.7 proved in game: a native
+# `["Spell Known"]` trigger on the replacement, which is how a 3.3.5 server's
+# grant-and-remove is actually observable -- there is no spell-override system
+# on this client to follow.
+spell_swap("Explode", [("Echo of Nozdormu", 802174, (0.70, 0.55, 1.00))])
 
 # One spell unique to each spec, for load.use_spellknown. Picked as the LOWEST
 # gateable spec-unique id -- gateable meaning spell-meta says IsSpellKnown can

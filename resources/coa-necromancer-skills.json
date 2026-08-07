@@ -1,0 +1,2201 @@
+[
+ {
+  "name": "Animate: Bone Construct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate a Bone Construct to aid you in combat. It moves at a slow speed, but upon reaching an enemy, deals its value Shadow damage, piercing all invulnerabilities, resistances, and immunities."
+ },
+ {
+  "name": "Animate: Bone Wraith",
+  "icon": "achievement_boss_lordmarrowgar",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate a Bone Wraith to aid you in combat. While active, it will periodically unleash a Bonestorm, striking up to nearby enemies for its value Physical damage every sec."
+ },
+ {
+  "name": "Animate: Crypt Fiend",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate a Crypt Fiend to aid you in combat. Command: Deals its value Shadow damage to an enemy, slowing movement speed by % and reducing their armor by %."
+ },
+ {
+  "name": "Animate: Frost Wyrm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Animate a Frost Wyrm that flies behind the Necromancer that blasts nearby enemies every 2 sec, dealing its value Frost damage."
+ },
+ {
+  "name": "Animate: Plaguefather",
+  "icon": "achievement_boss_festergutrotface",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate a Plaguefather to aid you in combat. Damage dealt by this minion will emit Zombie Plague, dealing its value Plague damage to nearby enemies, and reducing their attack power by its value."
+ },
+ {
+  "name": "Animate: Skeletal Archer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate its value Skeletal Archers to aid you in combat."
+ },
+ {
+  "name": "Animate: Skeletal Smith",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate a Skeletal Smith that can repair the equipment of allies."
+ },
+ {
+  "name": "Animate: Tomb King",
+  "icon": "kingoftombs1",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate a Tomb King to aid you in combat. While active, all of your Undead minion's attacks deal an additional % of the damage dealt as Plague damage."
+ },
+ {
+  "name": "Animate: Zombies",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Animate Zombies to aid you in combat. Every sec, Zombies emit Zombie Plague, dealing its value Plague Damage to nearby enemies."
+ },
+ {
+  "name": "Animation - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Level 15 Passive Increases your spell penetration by its value, scaling with your level."
+ },
+ {
+  "name": "Animation Spec Passive SLS",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases your maximum Life Force by and increases the casting speed of your Raise and Animate spells by %. Also gives your Undead minions a % chance to generate a Foul Remnant."
+ },
+ {
+  "name": "Apothecary's Cauldron",
+  "icon": "spell_nature_nullifydisease",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the spell haste of all party and raid members by %. Does not stack with similar effects. In addition, increases your Magic damage dealt by %."
+ },
+ {
+  "name": "Arch Lich",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Critical strikes with Frost spells now refund % of your maximum mana."
+ },
+ {
+  "name": "Army of the North",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Chant a powerful ritual that brings forth Rotting Frost Giant near you to aid you in combat for and generate Runic Power, repeating every sec. For the duration, your Undead minions are guaranteed to critically strike."
+ },
+ {
+  "name": "Befouling",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Dealing damage with Crypt Swarm now has a % chance to reduce the cost of Command: Gargoyle by %."
+ },
+ {
+  "name": "Bitter Cold",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Chill Touch now reduces the target's melee and ranged attack speed by % for sec, stacking times."
+ },
+ {
+  "name": "Black Ice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "A ring of ice erupts from the target, rooting enemies around them in ice, and applying Deathchill. Damage caused may interrupt the effect."
+ },
+ {
+  "name": "Blight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "The target becomes blighted, causing nearby enemies to suffer its value Shadow damage over. After, the blight expunges from the target dealing Nature damage."
+ },
+ {
+  "name": "Blightweaver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "When Crypt Plague expires your spell haste is increased by %."
+ },
+ {
+  "name": "Bone Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Critical damage taken now grants you Bone Armor, reducing all damage taken by %. Can only occur once every 30 sec."
+ },
+ {
+  "name": "Bone Frozen",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Bone Legion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases the damage of Lichfrost by 10% and its Runic Power generated by 25%. (up to 2 ranks)"
+ },
+ {
+  "name": "Bone Plating",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Reduces damage your Undead minions take by %."
+ },
+ {
+  "name": "Bone Tithe",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Siphon life from your undead minions, sacrificing % of their health to grant yourself an absorb shield equal to half of the health stolen. Usable while stunned."
+ },
+ {
+  "name": "Bone Ward",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Activate a Bone Ward on yourself and your Undead minions. While active, Armor is increased by % and Stamina by % and melee and ranged damage taken reduces the target's attack power by its value. Only 1 Ward can be active at a time."
+ },
+ {
+  "name": "Bonefreeze",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Chill the bones of an enemy and up to its value nearby enemies, dealing its value Shadowfrost Damage, reduced by its value% per target."
+ },
+ {
+  "name": "Burrowing Worms",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Adds 2 stacks of Crypt Plague."
+ },
+ {
+  "name": "Call of The Scourge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Bring a dead ally back to life with health and mana. Can be used in combat."
+ },
+ {
+  "name": "Call of the Grave",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Beckon the dead, removing the cost and cast time of all Raise spells and Animates."
+ },
+ {
+  "name": "Champion of Kel'thuzad",
+  "icon": "",
+  "meta": "Talent Passive Lvl 50",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Level 50 Passive While your Lich Form is active, your Champion spells will now cooldown faster."
+ },
+ {
+  "name": "Chill of the Tomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases the target's resistance to Frost spells by."
+ },
+ {
+  "name": "Chilling Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, increases the critical strike chance of Ice Barrage by % against Frozen targets."
+ },
+ {
+  "name": "Chronic Diseases",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases all diseases durations by %"
+ },
+ {
+  "name": "Cobalt-Plated Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the Armor of your Undead minions by 300, scaling with your level."
+ },
+ {
+  "name": "Coldwind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases the duration of Necrotic Chains and Ice Barrage's freeze effect by sec."
+ },
+ {
+  "name": "Command: Abomination",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Abominations to expel an empowered Zombie Plague, dealing its value Plague damage to nearby enemies, generating increased threat. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Banshee",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Command your Banshees to tear the soul of an enemy apart, draining % of the target's mana (up to a maximum of its value% of their own maximum mana) and dealing Frost Damage equal to the mana drained. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Blight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Command your Decaying Colossus to blight the ground in a yd radius beneath it, reducing healing received by % for enemies inside. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Bone Smash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Decaying Colossus to charge up a powerful attack over 3 sec that deals Weapon Damage plus its value Physical damage to all enemies in a frontal cone. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Bonefreeze",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Command your Skeletal Mages to freeze enemies at target location for (8 sec vs players). Damage taken may end the effect. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Crypt Fiend",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Crypt Fiends to shoot frost-congealed webs at your target, dealing its value Frost Damage, bouncing to a nearby enemy. Subsequent instances of this damage deal % increased damage to the target. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Gargoyle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Gargoyle to shoot necrotic bile at an enemy, dealing its value Plague damage, dealing 50% increased damage for each of your diseases on the target. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Ghouls",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Ghouls to expel plague, leeching enemies within yds for its value Plague damage, and healing you for its value for each Ghoul. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Hook",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Command your Abominations to hook an enemy to their location, slowing their movement speed to a halt. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Skeletal Archers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Skeletal Archers to shoot necrotic arrows at an enemy, each dealing Ranged Weapon Damage plus its value as Shadow Damage. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Skeletal Mage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Command your Skeletal Mages to deal its value Frost damage to enemies within yds of your target. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Skeletal Rogue",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Skeletal Rogue to leap to your target and strike it times. Always strikes 5 times on enemies below 35% maximum health. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Skeletal Warriors",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Skeletal Warriors to strike up to enemies in a frontal arc, dealing Weapon Damage plus its value Physical Damage. Not usable while in Undead: Pacify."
+ },
+ {
+  "name": "Command: Undead",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Undead minions to perform a unique attack on your target. Refer to individual Raise spells for their Command effect."
+ },
+ {
+  "name": "Corpse Commander",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the Runic Power cost of Corpse Explosion by -20."
+ },
+ {
+  "name": "Corpse Explosion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Cause a corpse to explode for its value Plague damage to all enemies within yds. Will use a nearby corpse the target is not a corpse. Does not affect mechanical or elemental corpses."
+ },
+ {
+  "name": "Corpse Handling",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Reduces the cast time of Raise and Animate spells by %."
+ },
+ {
+  "name": "Corpse Wagon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases all damage dealt by party and raid members by %. Does not stack with similar effects. In addition, increases the damage of Corpse Explosion by %."
+ },
+ {
+  "name": "Create Bone Reliquary",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Create Bone Reliquary that restores % of your missing health. Allies may only use a Bone Reliquary once per minute. Shares a cooldown with similar effects."
+ },
+ {
+  "name": "Create Frozen Reliquary",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create Frozen Reliquary that restores % of your missing mana. Allies may only use a Frozen Reliquary once per minute."
+ },
+ {
+  "name": "Creeping Crypt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the critical strike chance of Flesh to Worms by % against enemies below 35% maximum health."
+ },
+ {
+  "name": "Crown's Call",
+  "icon": "expansionicon_wrathofthelichking",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases your Intellect by % and the Frost damage dealt by your Undead minions by %."
+ },
+ {
+  "name": "Cryoshroud",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "While Lich Form is active, damage that reduces you below 35% of your maximum health now places you in an ice tomb, healing you for % of your maximum health and preventing all damage taken, but making you unable to move or cast spells or abilities. Can only occur once every 3."
+ },
+ {
+  "name": "Crypt Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Casting Crypt Swarm now increases the damage of your minions by %."
+ },
+ {
+  "name": "Crypt Keeper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your Crypt Swarm now bounces to 2 additional nearby enemies, at its value% reduced value per enemy struck."
+ },
+ {
+  "name": "Crypt Plague",
+  "icon": "_deathcoil_color_cyan",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "death"
+  ],
+  "desc": "Level 10 Passive Damage dealt by Crypt Swarm now applies 1 stack of Crypt Plague and Lichfrost applies 2 stacks."
+ },
+ {
+  "name": "Crypt Swarm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Channel a swarm of locusts on an enemy, dealing Shadow damage slowing their movement speed by %, and generating Runic Power over. Empowers nearby active Undead minions with Cryptfury."
+ },
+ {
+  "name": "Curse of the Lich",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases the range of your Rime spells by yds and increases the Frost critical strike chance of you and your summons by %."
+ },
+ {
+  "name": "Damnation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases your Shadow damage by %, doubled against enemies below 35% health."
+ },
+ {
+  "name": "Dead Man Walking",
+  "icon": "inv_plate_pvpdeathknight_g_01_boot",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of root and slow effects against you by %."
+ },
+ {
+  "name": "Deadly Bond",
+  "icon": "inv_qirajidol_death",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Level 20 Passive Casting Command spells now has a % chance to cause their next use within to be free of cost."
+ },
+ {
+  "name": "Deadly Defense",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Each of your summons now reduces your damage taken by %, up to a maximum of %."
+ },
+ {
+  "name": "Death - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases spell haste by % of your Intellect."
+ },
+ {
+  "name": "Death Commander",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "death"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to increase your and your Undead minion's haste by %."
+ },
+ {
+  "name": "Death's Due",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Force a target to accept the reality of death, removing any invulnerability or immunity effects from them and cursing them. the target's health is below 20% at the end of duration, they take its value Shadowfrost Damage."
+ },
+ {
+  "name": "Deathly Chill",
+  "icon": "nhi_frost_beam_border",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Reduces the channel and cast time of Ice Barrage by %."
+ },
+ {
+  "name": "Depravity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases the melee haste of your Undead minions by % and gives their critical melee auto attacks an % chance to trigger Bone Club, dealing % of the damage dealt as Shadow Damage."
+ },
+ {
+  "name": "Diabolical",
+  "icon": "spell_necro_inevitableend",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Level 40 Passive Casting spells now grants you 1 stack of Diabolical, stacking up to times,. Damage dealt by your Crypt Swarm will consume a stack to deal % increased damage per stack."
+ },
+ {
+  "name": "Disciple of Kel'thuzad",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your spell haste by 4%. (up to 2 ranks)"
+ },
+ {
+  "name": "Dominion of Frost",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Critical strikes dealt by your Undead minions now reduce the cooldown of Unholy Frenzy by sec."
+ },
+ {
+  "name": "Entomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Bury an enemy alive with necrotic energy, banishing them, preventing all actions and making them immune to damage."
+ },
+ {
+  "name": "Essence of the Geist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases damage dealt by Undead minions by %."
+ },
+ {
+  "name": "Expediting Death",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "death"
+  ],
+  "desc": "Each stack of Expunge now increases the target's damage taken from your Plague of Undeath by an additional %."
+ },
+ {
+  "name": "Expunge",
+  "icon": "_d3acidcloud",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the target's damage taken from your Necromancer diseases by %, stacking times."
+ },
+ {
+  "name": "Festering Decay",
+  "icon": "_deathcoilv2_cyan",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Reduces the cost of Command spells by % and causes them to increase the target's spell damage taken by %."
+ },
+ {
+  "name": "Fetid Pawns",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Rotlings now immediately charge at the target, exploding for % increased damage. Additionally Animate: Rotling is now instant."
+ },
+ {
+  "name": "Fetid Ward",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Activate a Fetid Ward on yourself and your Undead minions. While active, % of your damage dealt heals you and your minions, split evenly amongst them, and healing received is increased by %. Only 1 Ward can be active at a time."
+ },
+ {
+  "name": "Flesh Laboratory",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases maximum Cryptfury stacks."
+ },
+ {
+  "name": "Flesh To Worms RP GEN",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Damage dealt with Flesh to Worms now generates Runic Power."
+ },
+ {
+  "name": "Flesh to Worms",
+  "icon": "ability_hunter_pet_worm",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Disease an enemy, dealing its value Plague damage and generating Runic Power every sec. Periodic damage dealt by this can critically strike."
+ },
+ {
+  "name": "Fleshcrafting",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the duration Unholy Frenzy by sec and casting Command spells now reduces its cooldown by sec."
+ },
+ {
+  "name": "Flow of Frost",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "rime"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Foul Contagion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Applying Crypt Plague now extends the duration of Flesh to Worms on the target by sec."
+ },
+ {
+  "name": "Foul Expedition",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Consumes all stacks of Crypt Plague, instantly causing an explosion as it had expired naturally. Spreads Flesh to Worms, Harvest Plague, and Spectral Decay to all enemies within yds of the target."
+ },
+ {
+  "name": "Foul Invocation",
+  "icon": "ability_argus_deathfog",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Transform into an undead monstrosity, increasing your maximum health by %. While transformed you are immune to Fear, Sleep, Charm, and Disease effects."
+ },
+ {
+  "name": "Foul Mandate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Empowers an ally with a dark Mandate, increasing Stamina by."
+ },
+ {
+  "name": "Fractured Shards",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Your Icequake now deals % increased damage for each target struck by it."
+ },
+ {
+  "name": "Freeze Dry",
+  "icon": "ability_mage_coldasice",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Your Glacial Impact now generates Runic Power."
+ },
+ {
+  "name": "Frigid Tether",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Causes Icecrown to increase the critical strike chance of Frost spells against the target by %."
+ },
+ {
+  "name": "Frigid Ward",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Shield an ally with a glacial ward, absorbing its value damage for. Damage taken applies Deathchill to attackers and reduces their movement speed by %."
+ },
+ {
+  "name": "Frigidness",
+  "icon": "achievement_boss_forgemaster",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases your critical damage by % against Frozen targets."
+ },
+ {
+  "name": "Frost Ghast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases the critical strike chance of Ice Barrage by % against Frozen targets."
+ },
+ {
+  "name": "Frost Runes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Dealing Magic damage now has a % chance to increase your haste by %."
+ },
+ {
+  "name": "Frozen Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Level 30 Passive Increases your critical damage with Frost spells by %."
+ },
+ {
+  "name": "Frozen Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases Frost damage by %."
+ },
+ {
+  "name": "Game of Bones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Champion spells by -60 sec."
+ },
+ {
+  "name": "Gangrene",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Necrosis stacks now also reduce healing received by the target by %."
+ },
+ {
+  "name": "Ghoulify",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Transform an enemy into a ghoul, fearing them for (9 sec vs. players). Only usable on Humanoids. Damage caused may interrupt the effect."
+ },
+ {
+  "name": "Giant Bones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Casting Unholy Frenzy now summons a Rotting Frost Giant to aid you in combat for the duration."
+ },
+ {
+  "name": "Glacial Impact",
+  "icon": "skill_icon_skill23_border",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Requires Frozen Target Call down icy boulders onto a Frozen enemy, dealing its value Frost damage. This spell is guaranteed to critically strike. Damage scales with your critical strike rating."
+ },
+ {
+  "name": "Glacial Tap",
+  "icon": "_skullcurse2_blue",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Tap into necrotic energies, instantly regenerating Runic Power."
+ },
+ {
+  "name": "Glacial Ward",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Activate a Glacial Ward on yourself and your Undead minions. While active, maximum Runic Power and Intellect is increased by % and the duration of stun effects on you is reduced by %. Only 1 Ward can be active at a time."
+ },
+ {
+  "name": "Grave March",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command your Undead to focus their attacks on the target enemy. Usable while casting or channeling."
+ },
+ {
+  "name": "Gravebound Champion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Summon a Gravebound Champion that redirects % of all damage the caster takes to themselves. Shares a 2min cooldown with other Champion spells."
+ },
+ {
+  "name": "Gravedigger",
+  "icon": "achievement_bg_xkills_avgraveyard",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Sacrifice Undead by sec."
+ },
+ {
+  "name": "Gravekeeper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Periodic damage now has a % chance to animate a Lesser Zombie to aid you in combat. Can only occur once every 2 sec."
+ },
+ {
+  "name": "Greater Chill of the Tomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases the target's party and raid members resistance to Frost spells by."
+ },
+ {
+  "name": "Greater Foul Mandate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Empowers raid and party members with a dark Mandate, increasing Stamina by."
+ },
+ {
+  "name": "Greater Grim Mandate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Places a Mandate on the friendly target, increasing spell power by."
+ },
+ {
+  "name": "Greater Razorice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Frozen spikes erupt from the bodies of nearby allies and Raised minions, causing its value Frost damage to attackers when hit."
+ },
+ {
+  "name": "Greater Summoning",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases your maximum Life Force."
+ },
+ {
+  "name": "Grim Mandate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Places a Mandate on the friendly target, increasing spell power by."
+ },
+ {
+  "name": "Guts",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Explosion of Rotlings empowers all Undead around them for sec, increasing their damage by % and movement speed by %. Stacks times."
+ },
+ {
+  "name": "Harrowing Winds",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Damage dealt by Glacial Impact now deals an additional % of the damage dealt as Frost damage to enemies within yds of the primary target."
+ },
+ {
+  "name": "Harvest Plague",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Disease an enemy, siphoning its value health every sec, healing you for a portion of the damage dealt. The plague intensifies and siphons increased health based on how close to death your target is."
+ },
+ {
+  "name": "Heartchill",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Chill an enemy's heart, interrupting their current spell cast. Successfully interrupting a spell also reduces their movement speed and haste by %."
+ },
+ {
+  "name": "Hulking Hordes",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum health and the maximum health of your summons by %."
+ },
+ {
+  "name": "Ice Barrage",
+  "icon": "nhi_icespear_border",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Unleash a relentless volley of glacial shards, dealing its value Frost damage every sec. At the end of the duration, you entomb your target in ice, freezing them."
+ },
+ {
+  "name": "Ice Mastery",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Level 20 Passive Increases your spell power by % of your Intellect."
+ },
+ {
+  "name": "Icebound Champion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Summon an Icebound Champion that prevents you from being silenced or interrupted and reduces the pushback suffered from damaging attacks while casting by %. Shares a 2min cooldown with other Champion spells."
+ },
+ {
+  "name": "Icecrown Scriptures",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Shadow and Frost damage dealt against Humanoids and Undead by %."
+ },
+ {
+  "name": "Icequake",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Impales all enemies within a few yards affected by Deathchill for its value Frost Damage and consumes a Deathchill stack from them."
+ },
+ {
+  "name": "Icequake Trigger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "You strike all enemies within a few yards that are affected by Deathchill with an icy blast, dealing its value Frost damage to them and their nearby allies, and consuming 1 stack of Deathchill."
+ },
+ {
+  "name": "Icicle Shards",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Animate: Frost Whelp and damage dealt by your Frost Wyrm now deals its value Frost Damage every sec. Damage dealt counts as a bleed effect."
+ },
+ {
+  "name": "Improved Mandates",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Mandates by 20%."
+ },
+ {
+  "name": "Improved Plaguewither",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the damage of Plaguewither by %."
+ },
+ {
+  "name": "Improved Razorice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Razorice now grants affected allies % increased Frost damage."
+ },
+ {
+  "name": "Lich Blast",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Level 20 Passive Your Deathchill now applies a debuff to the enemy for sec, stacking times. At 10 stacks of Deathchill, the stacks are consumed, restoring its value of your mana and sending a Lich Blast to your target, dealing {+"
+ },
+ {
+  "name": "Lich Bolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Fire a Lich Bolt at an enemy, dealing its value Shadow Damage, dealing % more damage and applying Crypt Plague for each disease you have active on them."
+ },
+ {
+  "name": "Lich Commander",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cost of your Command spells by %."
+ },
+ {
+  "name": "Lich Essence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Lichfrost by % and reduces your spell pushback suffered from taking damage by %."
+ },
+ {
+  "name": "Lich Form",
+  "icon": "achievement_boss_amnennar_the_coldbringer",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Transform into a Lich, becoming Undead increasing your Frost damage dealt by %. While active you generate Runic Power every sec. While Undead, you are immune to fear, sleep, and charm effects."
+ },
+ {
+  "name": "Lichfrost",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Unleash a shard of frozen decay at an enemy, dealing its value Frost damage and slowing their movement speed by % for and generates Runic Power."
+ },
+ {
+  "name": "Lichplague",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Disease an enemy, dealing its value Plague damage every sec. Damage increased by % for each Necromancer disease on the enemy."
+ },
+ {
+  "name": "Life For Power",
+  "icon": "spell_shadow_creepingplague",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You absorb % of healing taken and gain a shield for the amount absorbed, lasting."
+ },
+ {
+  "name": "Lingering Blight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "When Blight ends, enemies within the area are rooted. Ray of Rot deals an additional % damage against targets rooted by Blight."
+ },
+ {
+  "name": "Living Dead",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the mana cost of Lichfrost and Crypt Swarm by -10%. (up to 2 ranks)"
+ },
+ {
+  "name": "Long March",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Removes the cooldown from March of the Dead, but gives it a sec cast time."
+ },
+ {
+  "name": "March of the Dead",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Beckon the restless dead to rise and march forward. When they reach an enemy they explode, dealing its value Plague damage to nearby enemies and slowing their movement speed by %."
+ },
+ {
+  "name": "Mass Grave",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Transform up to nearby enemies into a ghoul, fearing them for (9). Only affects Humanoids. While above 50 Runic Power this spell is instant cast."
+ },
+ {
+  "name": "Mass Raise",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raises all currently selected minions on your Life Force hotbar."
+ },
+ {
+  "name": "Master of Death",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Casting Command spells on an enemy now applies Crypt Plague."
+ },
+ {
+  "name": "Mindless Fury",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Casting Animate or Command spells now increases your haste by %, stacking times."
+ },
+ {
+  "name": "Mortification",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "death"
+  ],
+  "desc": "Ray of Rot now increases the damage of your diseases against the target by % while channeling."
+ },
+ {
+  "name": "Mortuary Bond",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Dominate an Undead enemy up to level its value, forcing them to do your bidding for up to (8 sec vs players). The Undead will decay over time, taking % of its maximum health as Shadow damage every sec."
+ },
+ {
+  "name": "Muck Summoner",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Periodic damage dealt now has an % chance to summon Rotlings that will run towards the enemy and explode after sec for its value Plague damage."
+ },
+ {
+  "name": "Muckblood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Command: Gargoyle now spawns a Muckworm to aid you in combat. Lasts for each disease on the target."
+ },
+ {
+  "name": "Mutation",
+  "icon": "ability_deathknight_desecratedground",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "For the next your diseases mutate causing them to act with accelerated lethality, allowing your freshly applied diseases to tick % faster."
+ },
+ {
+  "name": "NYI",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Naxxramas Prodigy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Shadow and Frost resistances by 0.5 per level."
+ },
+ {
+  "name": "Necromancy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Allows you to summon Undead minions using Life Force. Summoned minions gain Attack Power and Spell Power from your Intellect and Spell Power based on their Life Force. They also inherit a portion of your resistances, armor, hit chance, critical strike chance, haste and gain expertise from your hit chance."
+ },
+ {
+  "name": "Necrosis",
+  "icon": "artifactability_unholydeathknight_flagellation",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the duration of your diseases by %."
+ },
+ {
+  "name": "Necrotic Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Reduces your periodic damage taken by %."
+ },
+ {
+  "name": "Necrotic Chains",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Every 3rd Command spell now freezes the target in place. Damage dealt may end this effect."
+ },
+ {
+  "name": "Ner'zhul's Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum Runic Power by %."
+ },
+ {
+  "name": "Ner'zhul's Pact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases your Armor contribution from items by %."
+ },
+ {
+  "name": "Noxious Corpserot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Disease an enemy, dealing its value Plague Damage every sec. After, the target explodes, dealing its value Plague damage to all enemies within yards."
+ },
+ {
+  "name": "Overwhelming Force",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage dealt by your Undead minions now has a % chance to restore Runic Power and % of your maximum mana."
+ },
+ {
+  "name": "Overwhelming Odds",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Damage dealt by your Undead minions now has a % chance to increase their critical strike chance by %."
+ },
+ {
+  "name": "Parasitical Experiments",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Damage dealt by Ray of Rot and periodic damage has a % chance to apply Decaying Presence increasing the tick rate of your diseases by %, and applies Parasites, stacking times. Expunge consumes Parasites to deal % increased damage per s"
+ },
+ {
+  "name": "Permafrost",
+  "icon": "_manaburn_frost",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Gives your spells a % chance to grant you the Permafrost, which treats your next 2 spells cast as the target were Frozen. Lasts."
+ },
+ {
+  "name": "Pestilent Aura",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Enemies within yds of you now have their movement speed slowed by %."
+ },
+ {
+  "name": "Phylactery",
+  "icon": "inv_misc_urn_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create a Phylactery near you. Upon taking damage which would bring you below 10% health, become a Shade, protecting you from all physical attacks and spells, but during that time you cannot attack or cast spells. Reaching your Phylactery in this state revives you with % of your"
+ },
+ {
+  "name": "Plague Doctor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Periodic damage now heals you for % of the damage dealt."
+ },
+ {
+  "name": "Plague Drinker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Ray of Rot now heals you equal to the damage dealt."
+ },
+ {
+  "name": "Plague Horde",
+  "icon": "inv_belt_pvpwarlock_e_01",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Damage dealt by your Undead minions now has a % chance to cast Plague Horde on themselves for and emit Zombie Plague, dealing its value Plague damage to their target."
+ },
+ {
+  "name": "Plague Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases the effectiveness of your Wards by %."
+ },
+ {
+  "name": "Plague Revenant",
+  "icon": "inv_helm_cloth_raidwarlockmythic_s_01",
+  "meta": "Talent",
+  "specs": [
+   "death"
+  ],
+  "desc": "Critical strikes now apply a stack of Crypt Plague."
+ },
+ {
+  "name": "Plague Science",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "death"
+  ],
+  "desc": "Level 20 Passive Your diseases and Crypt Swarm now deal % increased damage to enemies below 20% health."
+ },
+ {
+  "name": "Plague of Undeath",
+  "icon": "epic_rpg_icon_pack_death_icon_0000s_0000_spirits_border",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Disease an enemy dealing its value Plague damage every sec and reduces the targets Holy healing received by %. Plague of Undeath is dispelled, the enemy takes its value Plague damage and is stunned. Periodic damage dealt by this benefits from your spell"
+ },
+ {
+  "name": "Plague's Reach",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the range of your Necromancer diseases by yd and their duration by %."
+ },
+ {
+  "name": "Plaguebomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Throw a plague bomb at the target location, dealing its value Plague Damage to up to enemies. Enemies in the area incur a stack of Crypt Plague every sec."
+ },
+ {
+  "name": "Plaguestorm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Instantly applies the Flesh to Worms, Harvest Plague, Spectral Decay and Black Death Diseases to an enemy."
+ },
+ {
+  "name": "Putricide's Formula",
+  "icon": "spell_deathknight_unholypresence",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Damage dealt by Undead minions has a % chance to blast up to nearby enemies for its value Plague damage."
+ },
+ {
+  "name": "Putrid Summoner",
+  "icon": "_d3wallofzombies",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Each Undead Stance now provides an additional bonus: Undead: Assault: Increases your critical strike chance against Humanoids by %. Undead: Protect: Reduces your threat generated by %. Undead: Pacify: Reduces your damage taken by %."
+ },
+ {
+  "name": "Raise: Abomination",
+  "icon": "ui_darkshore_warfront_horde_abomination",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Raise an Abomination to aid you in combat, occupying 3 Life Force. It is surrounded by a disease cloud, dealing its value Nature damage to enemies when they deal damage and reducing their attack speed by %. Command: Instantly unleashes an empowered dis"
+ },
+ {
+  "name": "Raise: Banshee",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Raise a Banshee to aid you in combat, occupying 2 Life Force. It will channel on your target, dealing damage and draining their mana over time. Command: Drains % of your target's mana (up to a maximum of its value% of their own maximum mana) and deals Frost damage equal to the mana d"
+ },
+ {
+  "name": "Raise: Crypt Fiend",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raise a Crypt Fiend to aid you in combat, occupying 2 Life Force. Command: Shoots barbs at your target that deal its value Frost damage and bounce to a nearby enemy."
+ },
+ {
+  "name": "Raise: Decaying Colossus",
+  "icon": "inv_plate_plate_pvpwarrior_o_01helm",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Raise a Decaying Colossus to aid you in combat, occupying 3 Life Force. While active, % of all damage taken by the caster is taken by the Decaying Colossus. Command: Unleash a powerful attack dealing Weapon Damage plus its value to all enemies in front of it."
+ },
+ {
+  "name": "Raise: Gargoyle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raise a fallen Gargoyle to aid you in combat, occupying 3 Life Force. Command: Shoots necrotic bile at an enemy, dealing its value Plague damage, dealing 50% increased damage for each of your diseases on the target."
+ },
+ {
+  "name": "Raise: Ghoul",
+  "icon": "ghoul",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raise a Ghoul to aid you in combat occupying 1 Life Force. Its auto attacks restore its value health to you. Command: Expels leeching plague that strikes up to nearby enemies, dealing its value Plague damage,"
+ },
+ {
+  "name": "Raise: Greater Skeletal Warrior",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raise a Greater Skeletal Warrior to aid you in combat, occupying 1 Life Force. Command: Strikes an enemy in front of it and deals Weapon Damage plus its value, reducing their Armor by %, stacking times."
+ },
+ {
+  "name": "Raise: Lesser Skeletal Warrior",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raise a Lesser Skeletal Warrior to aid you in combat, occupying 1 Life Force. Command: Strikes an enemy in front of it and deals Weapon Damage plus its value."
+ },
+ {
+  "name": "Raise: Skeletal Mage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Raise a Skeletal Mage to aid you in combat, occupying 1 Life Force. Command: Unleashes ice at your target and enemies within yds, dealing its value Frost damage."
+ },
+ {
+  "name": "Raise: Skeletal Rogue",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Raise a Skeletal Rogue to aid you in combat, occupying 1 Life Force. Has a chance to apply Decaying Poison on hit, reducing the target's casting speed by %, stacking times. Command: Leaps to your target and strikes it times. Always strikes 5 ti"
+ },
+ {
+  "name": "Rancid Air",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Putrefy now generates an additional Runic Power and the cast time is reduced by %."
+ },
+ {
+  "name": "Ray of Rot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Channel a putrid beam, causing its value Plague damage every sec."
+ },
+ {
+  "name": "Razorice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Frozen spikes erupt from the bodies of an ally and Raised minions, causing its value Frost damage to attackers when hit."
+ },
+ {
+  "name": "Reclaimed Life",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of your Raise spells by -15%."
+ },
+ {
+  "name": "Refreshing Chill",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Casting Command spells now has a % chance to reset the cooldown of Ice Barrage and make your cast next within free of cost."
+ },
+ {
+  "name": "Refridgerate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Removes the Runic Power cost of Snap Freeze."
+ },
+ {
+  "name": "Rime Necromancer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Frost Damage dealt has a 60% chance to apply Deathchill, dealing Frost Damage and stacking times,. At 10 stacks of Deathchill, apply Icy Tomb to the enemy."
+ },
+ {
+  "name": "Ritual Casting",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Reduces the cooldown of Scourge Summoning Ritual by sec."
+ },
+ {
+  "name": "Ritual Return",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Teleport back to the position of your Scourge Transporter and remove all movement slowing effects from you."
+ },
+ {
+  "name": "Rot Fetishist",
+  "icon": "spell_rotting_breath",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your Virulency now applies Rot Fetishist, causing you to replicate 20% of your periodic damage dealt as direct damage."
+ },
+ {
+  "name": "Rotslinger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Allows Ray of Rot to affect up to enemies."
+ },
+ {
+  "name": "Rotten",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Causes Putrefy to apply Putrid to your target."
+ },
+ {
+  "name": "Rotting Flesh",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "death"
+  ],
+  "desc": "Level 30 Passive Applying Crypt Plague to an enemy now additionally adds Rotting Flesh to your Undead minions, increasing their damage dealt by % per stack for sec."
+ },
+ {
+  "name": "Runic Reservoir",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases your Frost damage by % and your maximum Runic Power."
+ },
+ {
+  "name": "Sacrifice Undead",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation",
+   "death"
+  ],
+  "desc": "Sacrifices your Undead, returning their Life Force to you, and restoring its value health for each Undead minion destroyed."
+ },
+ {
+  "name": "Sacrificial Marking",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "The current party or raid member targeted will receive the threat caused by your next damaging attack and all actions taken for afterwards."
+ },
+ {
+  "name": "Scourge Apprentice Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your Life Force is increased by 1."
+ },
+ {
+  "name": "Scourge Expert Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your Life Force is increased by 1."
+ },
+ {
+  "name": "Sense Undead",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Shows the location of all nearby Undead on the minimap and increases damage dealt to Undead by % while active."
+ },
+ {
+  "name": "Shard of True Ice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases your damage against slowed enemies by % and increases the duration of Heartchill by sec."
+ },
+ {
+  "name": "Siphon Mana",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Drain its value mana every sec from your Raised minions within yds in exchange for Runic Power."
+ },
+ {
+  "name": "Skeletal Warrior Mastery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Command: Skeletal Warriors cooldown is reduced by sec and now applies Overwhelmed."
+ },
+ {
+  "name": "Sludge Belcher",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "death"
+  ],
+  "desc": "Reduces the cost of Command spells."
+ },
+ {
+  "name": "Soulfreeze",
+  "icon": "ability_mage_rayoffrost",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Launch a chain of frost at an enemy, dealing its value Frost Damage every sec. Each tick generates Runic Power."
+ },
+ {
+  "name": "Sower of Sickness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Increases the effectiveness of Malady spells by %."
+ },
+ {
+  "name": "Spellbound Champion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Summon a Spellbound Champion that deflects spells cast on you, redirecting them to itself. Shares a 2min cooldown with other Champion spells."
+ },
+ {
+  "name": "Study of Death",
+  "icon": "inv_misc_book_06",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "When you cast Unholy Frenzy you now summon 3 Greater Zombies to aid you in combat. Damage dealt by your Undead minions now reduces the cooldown of Unholy Frenzy by sec."
+ },
+ {
+  "name": "Summoning Adept",
+  "icon": "ability_fiegndead",
+  "meta": "Talent",
+  "specs": [
+   "animation",
+   "death"
+  ],
+  "desc": "Increases Life Force."
+ },
+ {
+  "name": "Summoning Expert",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Level 30 Passive Increases your maximum Life Force by and your Undead minion's Stamina by %."
+ },
+ {
+  "name": "Summoning Mastery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Teaches you how to raise Flesh Golems and Gurgling Horrors."
+ },
+ {
+  "name": "Summoning Prodigy",
+  "icon": "spell_shadow_requiem",
+  "meta": "Ability",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Increases the duration of Skeletal Archers by sec."
+ },
+ {
+  "name": "Summoning Ritual",
+  "icon": "nhi_deathgolem_border",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Summon a ritual circle at your location. While active, you may cast Ritual Return to return to it."
+ },
+ {
+  "name": "Summoning Stone",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Reduces the cast time of Animate and Raise spells by %."
+ },
+ {
+  "name": "Symphony of Bones",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Increases damage done by Undead Minions by %."
+ },
+ {
+  "name": "Tears of Lordaeron",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Direct critical strikes now generates Runic Power."
+ },
+ {
+  "name": "Transfer Life",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation",
+   "rime"
+  ],
+  "desc": "Channel life into your Raised minions within yds, healing them for % of their maximum health plus its value every sec."
+ },
+ {
+  "name": "Tundra Warriors",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "rime"
+  ],
+  "desc": "Level 10 Passive Casting any spell now has a % chance to grant you Tundra Warriors."
+ },
+ {
+  "name": "Undead: Assault",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your undead minions assume an aggresive behaviour, increasing movement speed by %. Your critical strike chance against Humanoids is increased by %. Only 1 Undead Stance can be active at a time."
+ },
+ {
+  "name": "Undead: Pacify",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your undead minions assume a passive behavior and will not attack enemies or cast spells. Reduces your damage taken by %. Only 1 Undead Stance can be active at a time."
+ },
+ {
+  "name": "Undead: Protect",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Your undead minions assume a defensive behavior, increasing threat and Armor. Reduces your threat generated by %. Only 1 Undead Stance can be active at a time."
+ },
+ {
+  "name": "Underking",
+  "icon": "5_sumzombie_border",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Casting Command spells now grants you a stack of Underking. At 10 stacks, the cooldown of or Animate: Plaguefather is reduced by sec at random."
+ },
+ {
+  "name": "Unholy Command: Initiate, Colossus. Grave Mage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Unholy Erosion",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "death"
+  ],
+  "desc": "Level 50 Passive Increases your spell penetration by its value, scaling with your level."
+ },
+ {
+  "name": "Unholy Frenzy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Enrage your Undead minions, increasing their haste by % and movement speed by %."
+ },
+ {
+  "name": "Unrelenting",
+  "icon": "spell_deathknight_runetap",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Reduces the channel time of your Crypt Swarm|R by %."
+ },
+ {
+  "name": "Unrelenting Army",
+  "icon": "spell_deathknight_armyofthedead",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Damage dealt by Harvest Plague now has a % chance to summon a Lesser Zombie to aid you in combat."
+ },
+ {
+  "name": "Unrelenting Swarm",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Reduces the Runic Power drained by each Crypt Scarabs tick."
+ },
+ {
+  "name": "Vampiric Aura",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While you are below 50% health, your Undead minions now heal you for % of their damage dealt."
+ },
+ {
+  "name": "Virulency",
+  "icon": "_bloodplague_shadow",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Refreshes all Necromancer diseases on the target enemy."
+ },
+ {
+  "name": "Winds of Northrend",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the amount slowed by Lichfrost by -15%."
+ },
+ {
+  "name": "Withering",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "death"
+  ],
+  "desc": "Level 40 Passive Allows Crypt Plague to stack additional times."
+ },
+ {
+  "name": "Wormfood",
+  "icon": "ability_druid_infectedwound",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "Expunge now consumes Parasite from enemies to deal % increased damage per stack and harvests a Handful of Worms."
+ },
+ {
+  "name": "Wormskin",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "animation"
+  ],
+  "desc": "Whenever you or a permanent pet you control takes non-periodic damage, you have a chance to afflict the attacker with your Flesh to Worms Disease. Only functions you know the Flesh to Worms spell."
+ },
+ {
+  "name": "Wretched Bile",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "death"
+  ],
+  "desc": "While your Fetid Shield is active, melee or ranged damage now has a % chance to afflict the attacker with Wretched Bile."
+ }
+]

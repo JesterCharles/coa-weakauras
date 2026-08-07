@@ -1,0 +1,68 @@
+{
+ "class": "runemaster",
+ "gates": {
+  "research": "2026-08-07"
+ },
+ "metrics": {
+  "research": {
+   "citation_claims": 13,
+   "citations": 3,
+   "crossdb_checked": 289,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 296,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 289,
+   "mechanics_sources": 3,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "11 entries (07/31 + 08/03) triaged and accepted. 6 are numbers (Volcanic-Shell-style scaling on Runic Brand, Fist of the Ancients, Primordial Strength, Hoarfrost range) and 3 are passives or tree filing (Tempo, Mind Wrath switch node, Mind Over Matter). The Overloaded/Unleashed Flame Glyph durations were already reconciled -- our scrape agrees. CLOSED the entry that was holding this gate: Runic Explosion +25% does NOT move Engravement press order, because 712324 is a Damage component and not a button -- a louder component means Runeblade hits harder while Marked: Runic Brand is up, which corroborates the 1.8 glow rather than asking for a change. One watch item: 'work being done to improve the Weapon Enhancements' is an announcement, and Weapon Enhancements are what the NO ENGRAVING / NO ETCHING alerts key off."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "Re-scraped Sidekick 2026-08-07 with --refresh: the bundle came back BYTE-IDENTICAL to the 08-02 copy (sha256 d785b320...), so upstream has published nothing new and the citations were re-imported at an honest retrieved_at of 2026-08-02. 3 citations, validate clean."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 289,
+   "note": "crossdb_sweep.py runemaster: 289/289 asked. 286 record, 3 no-record -- Etch + Wild Steam both 'verified in game' (client outranks the DB, keep), Manastorm already ignore/deprecated. Battle Engravings + the two Flame Glyph variants added 2026-08-07 and swept. No removals."
+  },
+  "in-game": {
+   "at": "2026-08-07",
+   "note": "v1.7 confirmed in game, all three specs"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "roles read row by row by a human (see class-pack-process provenance note)"
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "1.8: Runic Explosion removed from the Engravement main row (damage component, not a button). Runeblade glows on Marked: Runic Brand. CD_PER_ROW 9->7 rederived from the narrowest row."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "resources/sidekick-runemaster-<spec>.md, 3 specs"
+  },
+  "recorded": {
+   "at": "2026-08-07",
+   "note": "verified.py record runemaster 1.7 --spec glyphic --spec engravement --spec riftblade"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-runemaster.md written RETROACTIVELY (pack shipped at 1.7 before the template existed); carries the 11-entry changelog triage"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "Elemental Mastery + Zenith variant both closed in game at 1.7"
+  }
+ }
+}

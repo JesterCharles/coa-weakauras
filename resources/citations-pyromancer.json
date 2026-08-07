@@ -1,0 +1,78 @@
+{
+ "sidekick-pyromancer-draconic-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Draconic Assault",
+    "Firewall",
+    "Petrifying Visage"
+   ],
+   "maintain": [
+    "Burning Brand"
+   ],
+   "priority": [],
+   "signature": [
+    "Dragon's Edge"
+   ]
+  },
+  "class": "pyromancer",
+  "content_sha256": "3863cb10792c99bb",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/pyromancer/draconic",
+  "spec": "draconic"
+ },
+ "sidekick-pyromancer-flameweaving-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Burning Spheres",
+    "Melt Bindings",
+    "Reborn from Ash"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Spirit of the Phoenix"
+   ]
+  },
+  "class": "pyromancer",
+  "content_sha256": "a0bda4626e49c7af",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/pyromancer/flameweaving",
+  "spec": "flameweaving"
+ },
+ "sidekick-pyromancer-incineration-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Comet Storm",
+    "Flames of the Firelord"
+   ],
+   "maintain": [
+    "Pillar of Flame",
+    "Explode"
+   ],
+   "priority": []
+  },
+  "class": "pyromancer",
+  "content_sha256": "81a115539f3e7c4b",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/pyromancer/incineration",
+  "spec": "incineration"
+ }
+}

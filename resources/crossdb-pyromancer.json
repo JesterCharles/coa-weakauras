@@ -1,0 +1,878 @@
+{
+ "_class": "pyromancer",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Al Dente": {
+   "id": 300921,
+   "state": "record"
+  },
+  "Alexstrasza's Gift": {
+   "id": 300956,
+   "state": "record"
+  },
+  "Archon of Flame": {
+   "id": 704282,
+   "state": "record"
+  },
+  "Ascension of Executus": {
+   "id": 1119754,
+   "state": "record"
+  },
+  "Ascension of Ragnaros": {
+   "id": 1119901,
+   "state": "record"
+  },
+  "Ascension of Thaurissan": {
+   "id": 1119751,
+   "state": "record"
+  },
+  "Ashen Priest": {
+   "id": 707432,
+   "state": "record"
+  },
+  "Ashen Skin": {
+   "id": 504720,
+   "state": "record"
+  },
+  "Aspect of Time": {
+   "id": 500173,
+   "state": "record"
+  },
+  "Aspect's Blessing": {
+   "id": 802168,
+   "state": "record"
+  },
+  "Binding Flames": {
+   "id": 706764,
+   "state": "record"
+  },
+  "Blackflight Resurgence": {
+   "id": 805587,
+   "state": "record"
+  },
+  "Blaze": {
+   "id": 805500,
+   "state": "record"
+  },
+  "Blessing of the Firelands": {
+   "id": 504397,
+   "state": "record"
+  },
+  "Breath Charge": {
+   "id": 504373,
+   "state": "record"
+  },
+  "Breath of Neltharion": {
+   "id": 511109,
+   "state": "record"
+  },
+  "Bright Flames": {
+   "id": 300759,
+   "state": "record"
+  },
+  "Brood of the Earthwarder": {
+   "id": 504497,
+   "state": "record"
+  },
+  "Burn Impurities": {
+   "id": 520149,
+   "state": "record"
+  },
+  "Burned": {
+   "id": 524902,
+   "state": "record"
+  },
+  "Burning Armor": {
+   "id": 520556,
+   "state": "record"
+  },
+  "Burning Bandages": {
+   "id": 704841,
+   "state": "record"
+  },
+  "Burning Brand": {
+   "id": 800809,
+   "state": "record"
+  },
+  "Burning Crescendo": {
+   "id": 805378,
+   "state": "record"
+  },
+  "Burning Embers": {
+   "id": 805624,
+   "state": "record"
+  },
+  "Burning Spheres": {
+   "id": 801487,
+   "state": "record"
+  },
+  "Burning Spirit": {
+   "id": 704840,
+   "state": "record"
+  },
+  "Cataclysm": {
+   "id": 706887,
+   "state": "record"
+  },
+  "Cataclysmic Power": {
+   "id": 804617,
+   "state": "record"
+  },
+  "Cataclysmic Revenge": {
+   "id": 804693,
+   "state": "record"
+  },
+  "Cauterize": {
+   "id": 560749,
+   "state": "record"
+  },
+  "Cauterizing Wounds": {
+   "id": 570001,
+   "state": "record"
+  },
+  "Chains of Fire": {
+   "id": 706862,
+   "state": "record"
+  },
+  "Cinder Rush": {
+   "id": 803953,
+   "state": "record"
+  },
+  "Cindergrip": {
+   "id": 805476,
+   "state": "record"
+  },
+  "Cinderheart": {
+   "id": 800806,
+   "state": "record"
+  },
+  "Circle of Fire": {
+   "id": 504650,
+   "state": "record"
+  },
+  "Cleansing Flames": {
+   "id": 681145,
+   "state": "record"
+  },
+  "Comet Storm": {
+   "id": 524612,
+   "state": "record"
+  },
+  "Concentrated Fire": {
+   "id": 704864,
+   "state": "record"
+  },
+  "Conjure Campfire": {
+   "id": 570121,
+   "state": "record"
+  },
+  "Constant Burning": {
+   "id": 707126,
+   "state": "record"
+  },
+  "Critical Pressure": {
+   "id": 704804,
+   "state": "record"
+  },
+  "Dancing Flames": {
+   "id": 805450,
+   "state": "record"
+  },
+  "Death From Above": {
+   "id": 520385,
+   "state": "record"
+  },
+  "Deep Breaths": {
+   "id": 802166,
+   "state": "record"
+  },
+  "Demolisher": {
+   "id": 300930,
+   "state": "record"
+  },
+  "Destroyer's Legacy": {
+   "id": 704815,
+   "state": "record"
+  },
+  "Destroyer's Maw": {
+   "id": 802107,
+   "state": "record"
+  },
+  "Disaster": {
+   "id": 680464,
+   "state": "record"
+  },
+  "Dormant": {
+   "id": 800128,
+   "state": "record"
+  },
+  "Draconic - Level 30 Passive": {
+   "id": 807511,
+   "state": "record"
+  },
+  "Draconic Aspect": {
+   "id": 92128,
+   "state": "record"
+  },
+  "Draconic Assault": {
+   "id": 802116,
+   "state": "no-record"
+  },
+  "Draconic Heritage": {
+   "id": 704810,
+   "state": "record"
+  },
+  "Draconic Invocation": {
+   "id": 802119,
+   "state": "record"
+  },
+  "Draconic Rage": {
+   "id": 802164,
+   "state": "record"
+  },
+  "Draconic Tempest": {
+   "id": 301212,
+   "state": "record"
+  },
+  "Dragon Leap": {
+   "id": 806611,
+   "state": "record"
+  },
+  "Dragon Skin": {
+   "id": 681314,
+   "state": "record"
+  },
+  "Dragon's Bane": {
+   "id": 504398,
+   "state": "record"
+  },
+  "Dragon's Blood": {
+   "id": 802162,
+   "state": "record"
+  },
+  "Dragon's Edge": {
+   "id": 300755,
+   "state": "record"
+  },
+  "Dragon's Wrath": {
+   "id": 573229,
+   "state": "record"
+  },
+  "Dragonfire": {
+   "id": 500129,
+   "state": "record"
+  },
+  "Dragonscales": {
+   "id": 524818,
+   "state": "record"
+  },
+  "Earthwarder": {
+   "id": 706239,
+   "state": "record"
+  },
+  "Echo of Nozdormu": {
+   "id": 802174,
+   "state": "record"
+  },
+  "Ember Charm": {
+   "id": 704861,
+   "state": "record"
+  },
+  "Ember Skin": {
+   "id": 504396,
+   "state": "record"
+  },
+  "Ember Touch": {
+   "id": 800818,
+   "state": "record"
+  },
+  "Ember Trigger": {
+   "id": 807534,
+   "state": "record"
+  },
+  "Emberheart": {
+   "id": 680366,
+   "state": "record"
+  },
+  "Eruption": {
+   "id": 800103,
+   "state": "record"
+  },
+  "Essence of Malygos": {
+   "id": 706892,
+   "state": "record"
+  },
+  "Eternal Flame": {
+   "id": 805475,
+   "state": "record"
+  },
+  "Expediting Power": {
+   "id": 704814,
+   "state": "record"
+  },
+  "Explode": {
+   "id": 800792,
+   "state": "record"
+  },
+  "Explosive": {
+   "id": 704845,
+   "state": "record"
+  },
+  "Fiery Demeanor": {
+   "id": 525059,
+   "state": "record"
+  },
+  "Fiery Intent": {
+   "id": 525018,
+   "state": "record"
+  },
+  "Fiery Outburst": {
+   "id": 704260,
+   "state": "record"
+  },
+  "Fiery Passion": {
+   "id": 560525,
+   "state": "record"
+  },
+  "Fire Safety": {
+   "id": 300970,
+   "state": "record"
+  },
+  "Fire and Brimstone": {
+   "id": 704849,
+   "state": "record"
+  },
+  "Fired Up!": {
+   "id": 704823,
+   "state": "record"
+  },
+  "Firefall": {
+   "id": 801905,
+   "state": "record"
+  },
+  "Firepower": {
+   "id": 805487,
+   "state": "record"
+  },
+  "Firestorm": {
+   "id": 802791,
+   "state": "record"
+  },
+  "Fissure Stream": {
+   "id": 805472,
+   "state": "record"
+  },
+  "Flame Bonding": {
+   "id": 706858,
+   "state": "record"
+  },
+  "Flame Mastery": {
+   "id": 704828,
+   "state": "record"
+  },
+  "Flame Seeker": {
+   "id": 804868,
+   "state": "record"
+  },
+  "Flame Step": {
+   "id": 520634,
+   "state": "record"
+  },
+  "Flame Swell": {
+   "id": 502064,
+   "state": "record"
+  },
+  "Flamecasting": {
+   "id": 804300,
+   "state": "record"
+  },
+  "Flamer": {
+   "id": 680836,
+   "state": "record"
+  },
+  "Flames of Al'ar": {
+   "id": 500202,
+   "state": "record"
+  },
+  "Flames of Execution": {
+   "id": 706238,
+   "state": "record"
+  },
+  "Flames of Focus": {
+   "id": 500189,
+   "state": "record"
+  },
+  "Flames of Neltharion": {
+   "id": 801915,
+   "state": "record"
+  },
+  "Flames of the Firelord": {
+   "id": 538441,
+   "state": "record"
+  },
+  "Flameweaving - Level 15 Passive": {
+   "id": 707130,
+   "state": "record"
+  },
+  "Flaming Finesse": {
+   "id": 520030,
+   "state": "record"
+  },
+  "Flare Bolt": {
+   "id": 800790,
+   "state": "record"
+  },
+  "Forceblast": {
+   "id": 804870,
+   "state": "record"
+  },
+  "From The Ashes": {
+   "id": 560561,
+   "state": "record"
+  },
+  "Gaze of Ysera": {
+   "id": 503229,
+   "state": "record"
+  },
+  "Gaze of Ysera Dispel Trigger": {
+   "id": 503228,
+   "state": "record"
+  },
+  "Gaze of Ysera Trigger After Dispel": {
+   "id": 503230,
+   "state": "record"
+  },
+  "Grace of Alexstrasza": {
+   "id": 802167,
+   "state": "record"
+  },
+  "Grand Finale": {
+   "id": 300920,
+   "state": "record"
+  },
+  "Greater Seal of Al'ar": {
+   "id": 808060,
+   "state": "record"
+  },
+  "Greater Seal of Alysrazor": {
+   "id": 570170,
+   "state": "record"
+  },
+  "Grill Mark": {
+   "id": 503759,
+   "state": "record"
+  },
+  "Hasty Incantation": {
+   "id": 802169,
+   "state": "record"
+  },
+  "Heat": {
+   "id": 807389,
+   "state": "record"
+  },
+  "Heated": {
+   "id": 504754,
+   "state": "record"
+  },
+  "Hellscape": {
+   "id": 706886,
+   "state": "record"
+  },
+  "Hot Headed": {
+   "id": 503806,
+   "state": "record"
+  },
+  "Hot Trail": {
+   "id": 704825,
+   "state": "record"
+  },
+  "Hot and Dangerous": {
+   "id": 704859,
+   "state": "record"
+  },
+  "Ignis Fatalis": {
+   "id": 706893,
+   "state": "record"
+  },
+  "Ignis Ultimatus": {
+   "id": 680369,
+   "state": "record"
+  },
+  "Ignite": {
+   "id": 800791,
+   "state": "record"
+  },
+  "Improved Dragon Breaths": {
+   "id": 704811,
+   "state": "record"
+  },
+  "Improved Petrifying Visage": {
+   "id": 704808,
+   "state": "record"
+  },
+  "Incinerator": {
+   "id": 807510,
+   "state": "record"
+  },
+  "Infernity": {
+   "id": 572540,
+   "state": "record"
+  },
+  "Inferno": {
+   "id": 806736,
+   "state": "record"
+  },
+  "Inferno Barrier": {
+   "id": 504380,
+   "state": "record"
+  },
+  "Infernus": {
+   "id": 92124,
+   "state": "record"
+  },
+  "Inner Flame": {
+   "id": 301974,
+   "state": "record"
+  },
+  "Invigoration": {
+   "id": 704863,
+   "state": "record"
+  },
+  "Invocation of Flames": {
+   "id": 572381,
+   "state": "record"
+  },
+  "Kael's Command": {
+   "id": 680375,
+   "state": "record"
+  },
+  "Kindle": {
+   "id": 803819,
+   "state": "record"
+  },
+  "Kiss of Al'ar": {
+   "id": 704280,
+   "state": "record"
+  },
+  "Lava Shard": {
+   "id": 803950,
+   "state": "record"
+  },
+  "Lava-Drenched": {
+   "id": 706650,
+   "state": "record"
+  },
+  "Legacy of Deathwing": {
+   "id": 520823,
+   "state": "record"
+  },
+  "Legacy of Ragnaros": {
+   "id": 524707,
+   "state": "record"
+  },
+  "Lifebinder's Fire": {
+   "id": 680367,
+   "state": "record"
+  },
+  "Lighting the Fuse": {
+   "id": 807509,
+   "state": "record"
+  },
+  "Living Flame": {
+   "id": 704851,
+   "state": "record"
+  },
+  "Lucifron's Rage": {
+   "id": 300932,
+   "state": "record"
+  },
+  "Magma Guardian": {
+   "id": 706872,
+   "state": "record"
+  },
+  "Magma Skin": {
+   "id": 680387,
+   "state": "record"
+  },
+  "Magmatic": {
+   "id": 704807,
+   "state": "record"
+  },
+  "Melt": {
+   "id": 451267,
+   "state": "record"
+  },
+  "Melt Bindings": {
+   "id": 804727,
+   "state": "record"
+  },
+  "Melting Point": {
+   "id": 300757,
+   "state": "record"
+  },
+  "Meteor": {
+   "id": 500135,
+   "state": "record"
+  },
+  "Molten Fury": {
+   "id": 704818,
+   "state": "record"
+  },
+  "Molten Rapacity": {
+   "id": 704842,
+   "state": "record"
+  },
+  "Molten Storm": {
+   "id": 805483,
+   "state": "record"
+  },
+  "Neltharion's Resolve": {
+   "id": 520488,
+   "state": "record"
+  },
+  "Obliteration": {
+   "id": 706894,
+   "state": "record"
+  },
+  "Overheat Delayer": {
+   "id": 800408,
+   "state": "record"
+  },
+  "Overwhelming Flames": {
+   "id": 704813,
+   "state": "record"
+  },
+  "Petrifying Visage": {
+   "id": 801908,
+   "state": "record"
+  },
+  "Phoenix Dive": {
+   "id": 706854,
+   "state": "record"
+  },
+  "Phoenix Egg": {
+   "id": 707110,
+   "state": "record"
+  },
+  "Phoenix Egg DEPRECTAED": {
+   "id": 500134,
+   "state": "record"
+  },
+  "Phoenix Handler": {
+   "id": 704865,
+   "state": "record"
+  },
+  "Phoenix Rebirth": {
+   "id": 706867,
+   "state": "record"
+  },
+  "Pillar of Flame": {
+   "id": 805496,
+   "state": "record"
+  },
+  "Pulverizespout": {
+   "id": 706740,
+   "state": "record"
+  },
+  "Purifying Flames": {
+   "id": 807159,
+   "state": "record"
+  },
+  "Pyroclasm": {
+   "id": 520019,
+   "state": "record"
+  },
+  "Pyromancy": {
+   "id": 704831,
+   "state": "record"
+  },
+  "Pyromaniac": {
+   "id": 500166,
+   "state": "record"
+  },
+  "Raze": {
+   "id": 804814,
+   "state": "record"
+  },
+  "Realm of Fire": {
+   "id": 704837,
+   "state": "record"
+  },
+  "Reborn from Ash": {
+   "id": 804231,
+   "state": "record"
+  },
+  "Rekindle": {
+   "id": 803379,
+   "state": "record"
+  },
+  "Residual Power": {
+   "id": 300751,
+   "state": "record"
+  },
+  "Roaring Pyre": {
+   "id": 704278,
+   "state": "record"
+  },
+  "Sageweaving": {
+   "id": 503915,
+   "state": "record"
+  },
+  "Scalding Brand": {
+   "id": 680945,
+   "state": "record"
+  },
+  "Scorching Sermon": {
+   "id": 704858,
+   "state": "record"
+  },
+  "Scorching Spirit": {
+   "id": 805552,
+   "state": "record"
+  },
+  "Seal of Al'ar": {
+   "id": 803649,
+   "state": "record"
+  },
+  "Seal of Alysrazor": {
+   "id": 800196,
+   "state": "record"
+  },
+  "Searing Speed": {
+   "id": 503803,
+   "state": "record"
+  },
+  "Shazzrah's Boon": {
+   "id": 807126,
+   "state": "record"
+  },
+  "Shielded by Flames": {
+   "id": 704275,
+   "state": "record"
+  },
+  "Sizzle": {
+   "id": 680973,
+   "state": "record"
+  },
+  "Slag Barrage": {
+   "id": 502032,
+   "state": "record"
+  },
+  "Slag Works": {
+   "id": 300922,
+   "state": "record"
+  },
+  "Slagforged Armor": {
+   "id": 300931,
+   "state": "record"
+  },
+  "Soar": {
+   "id": 520399,
+   "state": "record"
+  },
+  "Soothing Flames": {
+   "id": 704855,
+   "state": "record"
+  },
+  "Soul of the Dragon": {
+   "id": 504498,
+   "state": "record"
+  },
+  "Spellburn": {
+   "id": 800808,
+   "state": "record"
+  },
+  "Spellguard: Firewall": {
+   "id": 944833,
+   "state": "record"
+  },
+  "Spirit of Fire": {
+   "id": 500167,
+   "state": "record"
+  },
+  "Spirit of the Phoenix": {
+   "id": 92126,
+   "state": "record"
+  },
+  "Stoke": {
+   "id": 803952,
+   "state": "no-record"
+  },
+  "Student of the Flame": {
+   "id": 300758,
+   "state": "record"
+  },
+  "Sulfuron Blast": {
+   "id": 801687,
+   "state": "record"
+  },
+  "Sunstrider Array": {
+   "id": 570003,
+   "state": "record"
+  },
+  "Superheated": {
+   "id": 681196,
+   "state": "record"
+  },
+  "Supernova": {
+   "id": 803546,
+   "state": "record"
+  },
+  "Tender Touch": {
+   "id": 704273,
+   "state": "record"
+  },
+  "Third Degree Burns": {
+   "id": 804616,
+   "state": "record"
+  },
+  "Timed Attacks": {
+   "id": 704812,
+   "state": "record"
+  },
+  "To Ashes": {
+   "id": 300975,
+   "state": "record"
+  },
+  "Touched by Fire": {
+   "id": 704848,
+   "state": "record"
+  },
+  "Unquenchable": {
+   "id": 704850,
+   "state": "record"
+  },
+  "Volcanic Flames": {
+   "id": 804607,
+   "state": "record"
+  },
+  "Volcanic Shell": {
+   "id": 805477,
+   "state": "record"
+  },
+  "Volcanocannon": {
+   "id": 806501,
+   "state": "record"
+  },
+  "Weaving Flames": {
+   "id": 707160,
+   "state": "record"
+  },
+  "White Hot": {
+   "id": 804606,
+   "state": "record"
+  },
+  "Wildfire": {
+   "id": 706888,
+   "state": "record"
+  },
+  "Wreath of Flames": {
+   "id": 802068,
+   "state": "record"
+  },
+  "Ysera's Blessing": {
+   "id": 704820,
+   "state": "record"
+  }
+ }
+}

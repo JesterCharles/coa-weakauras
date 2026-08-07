@@ -19,6 +19,18 @@ two things takes the first that applies.
 A Notes cell starting `seed:` is a row the seeder wrote and nobody has
 reviewed. Delete the prefix once you have placed the ability.
 
+`verified in game` in a Notes cell is WEAKER THAN IT READS. It is
+`backfill_roles.py` provenance and it means one thing: this ability appears in
+the shipped pack, and that pack version was confirmed in game. It is NOT a
+tooltip reading, it does NOT carry a date, and it asserts nothing about whether
+the ability still behaves the way the row describes. A display can be on screen
+and verified while the aura behind it never lands — which is exactly what a
+server rework produces, and exactly what a layout-focused verification pass
+walks straight past. Check `resources/verified-builds.json` for the version's
+`verified_at` and compare it against the changelog before leaning on the phrase.
+Per-tooltip ground truth lives in `tools/in-game-verified.json`, which is a
+different and stronger claim.
+
 Role and ID both take per-spec overrides, `<default>; <spec>:<value>`:
 `defensive; time:offensive` renders one ability in two different rows, and
 `520188; time:801280` covers the case where one NAME is two different
@@ -30,10 +42,10 @@ spells — the specs that have no override use the default.
 | Accelerate | 572633 | artificer | utility | Rank 1 | artificer, 572633, 32% mana, cast on a party member to amplify magic used against them -- a support cast |
 | Accelerated Mending | 570152 | all | ignore | Proc | db rank=Proc -- an effect of another spell, not castable |
 | Accelerated Recovery | 800857 | all | main | Rank 1 | core rotation |
-| Aeon of Oblivion | 806293 | time | longterm |  |  |
-| Aeon of Protection | 806292 | time | longterm |  |  |
-| Aeon of Renewal | 806290 | time | longterm |  |  |
-| Aeon of Resilience | 806291 | time | longterm |  |  |
+| Aeon of Oblivion | 806293 | time | longterm |  | REWORKED 2026/07/31: -25% Epoch crit chance, -25% Epoch mana, and Epoch now deals 100% of its healing done as damage to a nearby enemy. All four Aeon cooldowns were halved on 2026/07/31 when Cycling Aeons' effect went baseline; the stances are mutually exclusive and share a cooldown, and the pack reads them as stances (Ripple's icon) rather than as timers, so the halving changes nothing on screen. But see the `Oblivion` row (560376): the rework describes a SPLASH, and the pack has a per-target bar for it |
+| Aeon of Protection | 806292 | time | longterm |  | REWORKED 2026/07/31: +25% Epoch cast time, +25% healing, and Epoch now shields the target for 50% of the amount healed. Still an absorb on the target, so the `Protection` bar (560374) still has something to show. All four Aeon cooldowns were halved on 2026/07/31 when Cycling Aeons' effect went baseline; the stances are mutually exclusive and share a cooldown, and the pack reads them as stances (Ripple's icon) rather than as timers, so the halving changes nothing on screen. |
+| Aeon of Renewal | 806290 | time | longterm |  | REWORKED 2026/07/31: -25% Epoch healing, +25% crit chance, and Epoch now heals 75% of the amount over 6 seconds, ACCUMULATING like Ignite. Still a HoT on the target, so the `Renewal` bar (560355) still has something to show -- but it is 6s now, not the 3s the builder comment claims. All four Aeon cooldowns were halved on 2026/07/31 when Cycling Aeons' effect went baseline; the stances are mutually exclusive and share a cooldown, and the pack reads them as stances (Ripple's icon) rather than as timers, so the halving changes nothing on screen. |
+| Aeon of Resilience | 806291 | time | longterm |  | REWORKED 2026/07/31: -25% Epoch cast time, +25% mana, and Epoch now causes your Accelerated Recovery to BOUNCE to another target. The old damage-reduction-on-target effect is not in the new text at all. All four Aeon cooldowns were halved on 2026/07/31 when Cycling Aeons' effect went baseline; the stances are mutually exclusive and share a cooldown, and the pack reads them as stances (Ripple's icon) rather than as timers, so the halving changes nothing on screen. See the `Resilience` row (560373) -- this is the one most likely to have left a dead bar |
 | Aether Compression | 804436 | artificer | offensive | Wand Spell |  |
 | Age of Empires | 706097 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Ahead of the Game | 560948 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
@@ -66,14 +78,14 @@ spells — the specs that have no override use the default.
 | Chromatic Shard | 801292 | infinite | main | Rank 1 | core rotation |
 | Chromatic Shards | 704492 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Chromie's Wisdom | 801523 | all | longterm | Rank 1 |  |
-| Chronicler | 680391 | all | ignore |  | passive talent; modifies another ability, not a button |
+| Chronicler | 680391 | all | ignore |  | passive talent; modifies another ability, not a button. Reimplemented 2026/08/03: each cast of Fortify Timeline extends Accelerated Recovery by a further 5s and raises the extension cap by 15s. Still a passive, so no display reacts -- but it stacks on top of the Fortify Timeline change above and pushes the same OPEN question harder |
 | Chronicles of History | 801288 | time | defensive | Rank 1 |  |
 | Chrono Herald | 706103 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Chrono Mend | 578338 | all | ignore |  | no cast, no GCD, no cost -- an effect, not a button; the group-heal component of Epoch |
 | Chrono Sorcery | 706115 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
-| Chronobeam | 801267 | infinite | offensive | Rank 1 |  |
+| Chronobeam | 801267 | infinite | offensive | Rank 1 | db.ascension.gg has NO RECORD of this id -- the same documented gap as NO_UPSTREAM_ART in build_chronomancer.py, which already lists it: that database serves a questionmark on these spells' own pages, so the scrape has nothing while the client has both the spell and its art. Not a cut ability. Re-asked by name: ascension's 801305 ('1 Chromatic damage') and 804460 ('25 Chaos Damage') are stubs, while 801267 carries the real tooltip -- 30s, 1s GCD, ages the target over 2s for 241.08 Chaos every 0.5s. Ours is the castable |
 | Chronostasis | 706969 | infinite | utility |  | infinite, 706969, 10% mana, 3 charges on a 15s recharge, slows an enemy -- a charged CC |
-| Chronurgy | 806326 | infinite | offensive | Rank 1 |  |
+| Chronurgy | 806326 | infinite | offensive | Rank 1 | db.ascension.gg has NO RECORD of this id -- the same documented gap as NO_UPSTREAM_ART in build_chronomancer.py, which already lists it: that database serves a questionmark on these spells' own pages, so the scrape has nothing while the client has both the spell and its art. Not a cut ability. Re-asked by name: ascension has 572745 (marked Deprecated), 503950 ('CD refresh'), and an Order/Chaos pair 806330/806331 adjacent to our id. 806326 is the base castable and carries the full tooltip; the pair look like the school-split components |
 | Clasp of Infinity | 805847 | artificer,infinite,time | defensive |  |  |
 | Clocked In | 520168 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Collapse | 804448 | artificer | offensive |  |  |
@@ -130,13 +142,13 @@ spells — the specs that have no override use the default.
 | Fate Twister | 520040 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Flow of Infinity | 804497 | artificer | offensive |  |  |
 | Flux Emitter | 804435 | artificer | offensive | Wand Spell |  |
-| Fortify Timeline | 804491 | artificer,infinite,time | defensive; time:offensive | Rank 1 |  |
+| Fortify Timeline | 804491 | artificer,infinite,time | defensive; time:offensive | Rank 1 | 1 min, 36% base mana, instant raid heal that ALSO extends Accelerated Recovery on everyone it hits by 5s, capped at +15s. The live tooltip carries this, so the database agrees with changelog 2026/07/31. For Time that makes it a rotational extender rather than a defensive -- whether it belongs on the Time main row beside Accelerated Recovery is OPEN, and it is the one press-priority question in the 07/31 batch |
 | Fracture Timeline | 801306 | time | offensive |  |  |
-| Fray Magic | 800053 | artificer,time | defensive; time:offensive |  |  |
+| Fray Magic | 800053 | artificer,time | defensive; time:offensive |  | the interrupt added by changelog 2026/07/31, from the class trainer at level 26. Already carried by the shipped pack (build_chronomancer.py SHORT_ENTRIES), so that entry is closed. ⚠️ ID IS NOT SETTLED: ascension has no record of 800053 but DOES have 510236 'Fray Magic' -- 30s, 27% base mana, 'Stop your enemies' timeline, interrupting their spell cast for 4 sec', which is unmistakably this class's interrupt. Ours is corroborated by the cooldown audit (real 25s row, artificer+time) and by two skillbook talents that name it (Chromatic Misalignment, Disenchant Weapon), so it stays. ascension's 560825 'Fray Magic' is a HUNTER passive about Serrated Shot -- a different ability wearing the same name. UNKNOWN which of 800053/510236 the client grants; the spellbook settles it in one look |
 | Future Vision | 524967 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Gift of the Infinite Dragonflight | 706114 | all | ignore | Specialization | passive talent; modifies another ability, not a button |
 | Gift of the Timeways | 503903 | all | ignore | Proc | passive talent; modifies another ability, not a button |
-| Gravity Bomb | 501820 | artificer,infinite,time | offensive | Rank 2 |  |
+| Gravity Bomb | 501820 | artificer,infinite,time | offensive | Rank 2 | changelog 2026/07/31: it now explodes if the target dies before the timer expires. That removes a wasted cast, it does not change when you press it -- no display reacts |
 | Greater Chromie's Wisdom | 680307 | all | longterm |  |  |
 | Greater Nozdormu's Wisdom | 572396 | all | longterm |  |  |
 | Hasten | 801304 | artificer,infinite,time | utility |  |  |
@@ -165,6 +177,7 @@ spells — the specs that have no override use the default.
 | Infinity Crash | 706040 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Infinity Stone | 300873 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Instilling Balance SLS |  | all | ignore |  | an `SLS` suffix marks a stale duplicate on this fork, the same family as the dead `Aeon of Oblivion SLS`. No spell id |
+| Keep Accelerating | 520042 | time | ignore | Passive | passive talent; modifies another ability, not a button. db.ascension.gg: "Your Accelerated Recovery now also applies to a nearby target." Changelog 2026/07/31 made it prefer targets that do not already have Accelerated Recovery -- a targeting rule inside a passive, so no display reacts |
 | Keeper of Balance Trigger | 806314 | infinite | offensive |  |  |
 | Last Wish | 806207 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Life Cycles | 680808 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
@@ -184,7 +197,7 @@ spells — the specs that have no override use the default.
 | Moment's Reprieve | 572631 | time | utility |  | time, 572631, drops a party member's threat over time. NOTE: our scrape shows 0 cost and 0 cooldown, which is the exact bug the 2026-07-31 changelog says was FIXED -- the numbers here predate the patch and will change on the next scrape |
 | Not Even A Scratch | 503791 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 30" -- not a player button |
 | Nozdormu's Wisdom | 572391 | all | longterm | Rank 1 |  |
-| Oblivion | 560376 | all | target |  | shipped pack, `CM Time Target Oblivion`; verified in game |
+| Oblivion | 560376 | all | target |  | shipped pack, `CM Time Target Oblivion`; verified in game. ⚠️ 2026/07/31 REWORKED the Aeon that drives this. `verified in game` on this row means the SHIPPED PACK was verified (backfill_roles.py provenance), not that this aura was watched landing on a target -- and pack 1.2 was verified 2026-08-02, after the rework, but nobody was looking for a bar that never fills. Aeon of Oblivion now reads as damage SPLASHED onto a nearby enemy, which may put no aura on your target at all. UNKNOWN whether this bar can still fill -- settle by casting Epoch under each Aeon in game and watching the band |
 | Order and Chaos |  | all | ignore |  | describes how Order and Chaos stacks total 20 -- the Infinite resource RULE, not a button. The stacks themselves already render as the Sands cells. No spell id |
 | Orderly Protector | 704482 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Paradox Cannon | 806203 | artificer | offensive | Wand Spell |  |
@@ -194,21 +207,22 @@ spells — the specs that have no override use the default.
 | Plaguestorm |  | all | ignore |  | "deals Plague damage in a radius" -- a damage component. No spell id |
 | Plentiful Orbs | 706069 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Procrastination | 520854 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
-| Protection | 560374 | all | target |  | shipped pack, `CM Time Target Protection`; verified in game |
+| Protection | 560374 | all | target |  | shipped pack, `CM Time Target Protection`; verified in game. ⚠️ 2026/07/31 REWORKED the Aeon that drives this. `verified in game` on this row means the SHIPPED PACK was verified (backfill_roles.py provenance), not that this aura was watched landing on a target -- and pack 1.2 was verified 2026-08-02, after the rework, but nobody was looking for a bar that never fills. Lowest risk of the four: the rework still shields the target, so an absorb should still land. Confirm alongside the others |
 | Protector Training | 706073 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button (buffs the pet) |
 | Pulse Driver | 706121 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Quickcaster | 706132 | all | ignore | Rank 2 | passive talent; modifies another ability, not a button |
+| Rapid Acceleration | 570149 | time | ignore | Passive | THE SAME SPELL ID AS THE OLD `Cycling Aeons` -- 570149 was renamed in place on 2026/07/31, it is not a new spell, which is why searching the id finds the old name and searching the new name finds nothing in our exiles snapshot. db.ascension.gg now returns "Rapid Acceleration", rank Passive: +15% Accelerated Recovery bonus-healing scaling, and AR instantly heals 15% of its total periodic. A passive, so no display reacts. Cycling Aeons' own effect went baseline to the Aeons in the same entry |
 | Reconstruction | 524850 | all | ignore |  | passive talent; modifies another ability, not a button |
-| Reflection | 801296 | infinite | defensive | Rank 1 |  |
+| Reflection | 801296 | infinite | defensive | Rank 1 | db.ascension.gg has NO RECORD of this id -- the same documented gap as NO_UPSTREAM_ART in build_chronomancer.py, which already lists it: that database serves a questionmark on these spells' own pages, so the scrape has nothing while the client has both the spell and its art. Not a cut ability. Re-asked by name: ascension's 9906 'Reflection' is the vanilla 100%-spell-reflect, a DIFFERENT ability wearing the same word -- the exact trap the sweep warns about. Ours is 60s, 14% mana, a self barrier that heals 322.84 and reflects the next harmful spell within 2s |
 | Rehatch | 578265 | time | utility |  | time, 578265, 12% mana, resurrects your Bronze Protector -- pet recovery |
 | Remake | 804501 | all | ignore; infinite:main |  | 1.5s cast, 40yd, 10% mana heal, gated on Order/Balance majority -- an Infinite spender, dead weight on the other specs |
-| Renewal | 560355 | all | target |  | shipped pack, `CM Time Target Renewal`; verified in game |
-| Resilience | 560373 | all | target |  | shipped pack, `CM Time Target Resilience`; verified in game |
+| Renewal | 560355 | all | target |  | shipped pack, `CM Time Target Renewal`; verified in game. ⚠️ 2026/07/31 REWORKED the Aeon that drives this. `verified in game` on this row means the SHIPPED PACK was verified (backfill_roles.py provenance), not that this aura was watched landing on a target -- and pack 1.2 was verified 2026-08-02, after the rework, but nobody was looking for a bar that never fills. The rework keeps a HoT but moves it to 6s and makes it accumulate like Ignite. Low risk for the bar; the builder comment saying 3s is now wrong |
+| Resilience | 560373 | all | target |  | shipped pack, `CM Time Target Resilience`; verified in game. ⚠️ 2026/07/31 REWORKED the Aeon that drives this. `verified in game` on this row means the SHIPPED PACK was verified (backfill_roles.py provenance), not that this aura was watched landing on a target -- and pack 1.2 was verified 2026-08-02, after the rework, but nobody was looking for a bar that never fills. HIGHEST RISK. Aeon of Resilience was reworked from a damage reduction on the target to "Accelerated Recovery bounces to another target" -- no per-target aura in the new text. db.ascension.gg still returns the spell with "Armor and magic resistance increased", but a spell surviving in the database says nothing about whether anything still applies it. UNKNOWN -- settle in game |
 | Resonance | 706079 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Resynchronize | 804495 | time | defensive | Rank 1 |  |
 | Reverse Wound | 801303 | all | ignore; time:main | Rank 1 | 1.5s cast, 40yd, 31% mana, lvl1 direct heal; extends Accelerated Recovery by 2s. Time's rotation, not a damage spec's |
 | Revolving Sands | 500113 | all | ignore | Passive | passive talent; modifies another ability, not a button |
-| Rewind | 801294 | artificer,infinite,time | defensive |  | paired with Infinite Clone in one slot |
+| Rewind | 801294 | artificer,infinite,time | defensive |  | paired with Infinite Clone in one slot. changelog 2026/07/31 added a 50% enemy slow at the departure point, +50% own movement speed for 6s, and usable while stunned/feared/disoriented. The live tooltip carries all three, so the database agrees. Effects on an existing button -- nothing new to display |
 | Ripple | 806296 | time | main |  | core rotation |
 | Ripple in Time | 806297 | all | buff |  | shipped pack, `CM Time Buffs Ripple in Time`; verified in game |
 | Rippling Power | 806300 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
@@ -217,7 +231,7 @@ spells — the specs that have no override use the default.
 | Runed Rod | 706067 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Rust Creation | 704479 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Sand Bomb | 560354 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
-| Sandblast | 501918 | all | main | Rank 2 | 2s cast, 40yd, 5% mana, lvl7 filler; grants Sands of Time. RANKED (Rank 2) so match by NAME, never by exact id |
+| Sandblast | 501918 | all | main | Rank 2 | 2s cast, 40yd, 5% mana, lvl7 filler; grants Sands of Time. RANKED (Rank 2) so match by NAME, never by exact id -- confirmed by the 2026/08/07 sweep, which found ascension carrying Rank 5 (501921) and Rank 10 (573222) of the same ability and no record of our Rank 2. That is what a rank family looks like from one side, and it is why the name match is load-bearing rather than a nicety |
 | Sandpage | 806244 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Sands of Life | 560383 | all | ignore | Rank 1 | passive talent; modifies another ability, not a button |
 | Sands of Time | 501843 | artificer,infinite,time | resource | Rank 2 | drives the segment bar |
@@ -227,7 +241,7 @@ spells — the specs that have no override use the default.
 | Shield of The Keeper | 706124 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Shield of the Ages | 804444 | all | ignore | Passive | db says Passive -- not a button |
 | Shifting Chaos | 706059 | all | ignore | Passive | passive talent; modifies another ability, not a button |
-| Shifting Sands | 806317 | infinite | target | Rank 1 | 806317, Rank 1, 18% mana, level 13, off-GCD: blasts an enemy, cuts their attack power by 30 for 8 sec and grants Sands of Time. Tracked on the target because the useful cue is the debuff falling off, not the button -- Sidekick buckets it as `maintain` for the same reason. Found via a rotation citation naming an ability no inventory row had. |
+| Shifting Sands | 806317 | infinite | target | Rank 1 | 806317, Rank 1, 18% mana, level 13, off-GCD: blasts an enemy, cuts their attack power by 30 for 8 sec and grants Sands of Time. Tracked on the target because the useful cue is the debuff falling off, not the button -- Sidekick buckets it as `maintain` for the same reason. Found via a rotation citation naming an ability no inventory row had. ⚠️ ITS TOOLTIP DESCRIBES A TRANSFORM: 'Entering Chaos Empowerment transforms this ability into Melt Reality.' This fork resolves no spell overrides (Prototypes.lua:3806), so a transform is the server granting one spell and removing the other -- exactly the Runemaster 1.3-1.6 trap. Both names already have their own bar in the Infinite target band, so the band survives the swap either way, but nobody has watched it happen. db.ascension.gg has no record of the id and no name hit at all |
 | Shimmering Shard | 806302 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Singularity Core | 804438 | artificer | offensive |  |  |
 | Slipstream | 706056 | all | ignore | Passive | passive talent; modifies another ability, not a button |
@@ -237,7 +251,7 @@ spells — the specs that have no override use the default.
 | Stasis |  | all | ignore |  | reads like a real incapacitate, but carries no spell id in the skillbook, the cooldown audit or exiles -- most likely the debuff name of another cast. Revisit if an id appears |
 | Tamed Incantations | 706077 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Teleport: Caverns of Time | 804753 | all | ignore |  | 10s-cast travel spell -- no combat state |
-| Temporal Anomaly | 806315 | artificer,infinite,time | defensive |  |  |
+| Temporal Anomaly | 806315 | artificer,infinite,time | defensive |  | 2 min, 24% base mana, 10s: stores 50% of damage taken and converts it to healing at the END of the duration. changelog 2026/07/31 made it RELEASABLE EARLY for the value stored so far, which turns a fire-and-forget cooldown into a press-twice one. db.ascension.gg's tooltip does NOT yet mention the early release, so the database is behind the changelog here and the changelog wins. A second press needs a cue the pack does not have; OPEN |
 | Temporal Dissonance | 520922 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Temporal Focus | 806165 | artificer,infinite,time | defensive |  |  |
 | Temporal Resilience | 680389 | all | longterm | Rank 1 |  |
@@ -254,7 +268,7 @@ spells — the specs that have no override use the default.
 | Time Out! | 802229 | artificer,infinite,time | defensive; time:offensive | Rank 1 |  |
 | Time Skip | 704485 | all | ignore |  | passive talent; modifies another ability, not a button |
 | Time Stretch | 560404 | all | ignore |  | passive talent; modifies another ability, not a button |
-| Timeguard | 804441 | artificer,infinite,time | defensive; time:offensive |  |  |
+| Timeguard | 804441 | artificer,infinite,time | defensive; time:offensive |  | 2 min, 30% base mana, on an ally. CHARGES: the live tooltip reads "the next 3 instances of direct damage that deal more than 20% of their total health or reduce the target below 35%" for 50% less -- so it is a 3-application buff on the ALLY, not spell charges, and GetSpellCharges will not see it. changelog 2026/07/31 added the >20%-health clause and took the reduction 40%->50%. The pack shows the button only; whether the 3 remaining applications deserve a count on the icon corner is OPEN |
 | Timekeeper | 680845 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Timeless | 706131 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Timeline Destroyer | 805846 | all | offensive |  | instant, off GCD, 10% mana, 16s Chromatic empower +40% |
@@ -270,7 +284,7 @@ spells — the specs that have no override use the default.
 | Tome of Time | 805848 | all | ignore | Energize | db rank=Energize -- a resource tick, not a button |
 | Tripping the Rift | 520173 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Truly Infinite | 706087 | all | ignore | Passive | passive talent; modifies another ability, not a button |
-| Unearth | 503884 | artificer,infinite,time | offensive | Rank 2 |  |
+| Unearth | 503884 | artificer,infinite,time | offensive | Rank 2 | RANKED (Rank 2) so match by NAME, never by exact id -- wapack already does, and this ability is named in the comment about the batch that once shipped invisible. db.exil.es shows THIS RANK's description as 'Deprecated', which reads alarming and is not: the cooldown audit has a real 6s cooldown row for it across all three specs (a missing cooldown row is the smell for a wrong id, and this has one), and the skillbook's `Echo` talent reads 'While at 4 stacks of Discovery, casting Unearth consumes these stacks' -- a live talent does not key off a dead button. db.ascension.gg has NO RECORD of this id -- the same documented gap as NO_UPSTREAM_ART in build_chronomancer.py, which already lists it: that database serves a questionmark on these spells' own pages, so the scrape has nothing while the client has both the spell and its art. Not a cut ability. |
 | Unearthed Passage | 706112 | all | ignore | Passive | passive talent; modifies another ability, not a button |
 | Unearthed Pools | 503792 | all | ignore | Proc | db.exil.es rank=Proc -- not a castable ability |
 | Unmake | 804418 | all | main | Rank 1 | core rotation |

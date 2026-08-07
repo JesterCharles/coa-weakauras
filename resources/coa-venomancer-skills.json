@@ -1,0 +1,2361 @@
+[
+ {
+  "name": "A Pit of Snakes",
+  "icon": "inv_snake_yellowblack",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Serpent's Fang now increases the damage of subsequent Serpent's Fangs by %, stacking up to times."
+ },
+ {
+  "name": "Acceleration",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the tick rate of Wilt and Shadra's Vigil by %."
+ },
+ {
+  "name": "Acid Bolt",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the damage of Venom Bolt by % and its critical strike chance by %."
+ },
+ {
+  "name": "Acid Burns",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Scoring a Nature Critical Strike grants you a stack of Acidfang, increasing the Quickness of your next Facemelter by %."
+ },
+ {
+  "name": "Acidfang",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 30 Passive Periodic damage dealt now has a % chance, and critical strikes a % chance, to grant a stack of Acidfang."
+ },
+ {
+  "name": "Acidic",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 20 Passive Removes the cost of Facemelter."
+ },
+ {
+  "name": "Acute Senses",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Intellect and Agility by %."
+ },
+ {
+  "name": "Adrenal Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Activate Adrenal Venom, giving your casts a % chance to increase your haste by %, stacking times. You can have a maximum of 2 unique Venoms active at a time."
+ },
+ {
+  "name": "Advisor's Perfidy",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the bonus healing scaling of Serpent's Fang, Mending Mist, and Shadra's Balm by %."
+ },
+ {
+  "name": "Agitation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Dodging an attack now generates Rage."
+ },
+ {
+  "name": "Alacrity",
+  "icon": "5_run_border",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Damage dealt by Chitin Rush now increases your dodge chance by %, stacking times."
+ },
+ {
+  "name": "Alkahest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "2 Charges, 12 sec recharge Bless an ally with Shadra's grace, healing them for its value and extending the duration of Shadra's Prayer on them by sec."
+ },
+ {
+  "name": "Ambush Predator",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Burrow will now apply Tunnel Below to you. While Skulk is active every sec you reduce the cooldown of Burrow by sec."
+ },
+ {
+  "name": "Antivenom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Cure poison effect on the target, repeating every seconds."
+ },
+ {
+  "name": "Arachnified",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the damage of Fang of Shadra by %."
+ },
+ {
+  "name": "Arachnophobia",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Emerge from the shadows and horrify all nearby enemies."
+ },
+ {
+  "name": "Aspect's Pact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Gives periodic damage and healing a % chance to grant % haste."
+ },
+ {
+  "name": "Avatar of Shadra",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage and healing done now has a 10% chance to apply Curse of Shadra for 10 seconds.Dealing damage or healing with Serpent's Fang, Claw Strike, or Venom Fang on an enemy that is cursed will deal damage or heal them for an additional 25% of the value and heal you for 90."
+ },
+ {
+  "name": "Barbed Stinger",
+  "icon": "inv_knife_1h_artifactfangs_d_02",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Clears Exposed Flesh stacks and flings a Barbed Stinger into an enemy, plus an additional sec per cleared stack. Recasting this ability on the same target will rip the stinger out, pulling them to you and dealing Nature damage, scaling based on how long the stinger was left in them."
+ },
+ {
+  "name": "Beetle Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Shapeshift into Beetle Form, allowing the use of abilities that require this form and increasing your armor contribution by % and your maximum health by % of your Intellect and Agility. While active, your damage taken is reduced by % and your threat generated is increased by %, plus an ad"
+ },
+ {
+  "name": "Beetle Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increase the friendly target's armor by its value and all primary stats by. Does not stack with other similar effects."
+ },
+ {
+  "name": "Big Mushroom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "For, killing an enemy drops a Big Mushroom beneath them that will explode after dealing its value Plague Damage to up to enemies within yds, piercing resistances and absorption effects."
+ },
+ {
+  "name": "Bile Eruption",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Triggering a Venom now has a % chance to generate you 5 Energy."
+ },
+ {
+  "name": "Black Widow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Damage dealt to enemies below 35% health now reduces the cooldown of Noxious Empowerment|R by sec. In addition, your Widowmaker now deals % increased damage to enemies below 35% health."
+ },
+ {
+  "name": "Blessing of Shadra",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Movement speed increased by %, and Damage dealt increased by %."
+ },
+ {
+  "name": "Blight Antidote",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Inject an ally with a powerful magic antidote, dispelling curse effects from them."
+ },
+ {
+  "name": "Blight Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Activate Blight Venom, giving your harmful spells and abilities a % chance to poison an enemy dealing its value Shadow Damage over. You can have a maximum of 2 unique Venoms active at a time."
+ },
+ {
+  "name": "Blightcap Injestion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your chance to resist poison and disease effects by 30%."
+ },
+ {
+  "name": "Blistering Fangs",
+  "icon": "inv_misc_monsterfang_02",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Casting spells that consume Brood Marks now refunds Energy when used with at least 5 Brood Marks on your target."
+ },
+ {
+  "name": "Boding Dread",
+  "icon": "inv_tarantula2_green",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases your Shadow damage dealt and your critical strike chance with Shadow spells by %."
+ },
+ {
+  "name": "Book of Shadra",
+  "icon": "novart_books_(3)_border",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Doubles the duration, cooldown, and healing of Green Salve.In addition, it now seeks another nearby ally to heal every 6 sec, instead of at the end of the duration."
+ },
+ {
+  "name": "Bountiful Gifts",
+  "icon": "nhi_natureburn_border",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the healing of Shadra's Prayer, Green Salve, and Alkahest by %."
+ },
+ {
+  "name": "Brood Marks",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 10 Passive Your Venom Fang now applies a Brood Mark, stacking times. Some abilities will consume them for an additional effect."
+ },
+ {
+  "name": "Brood Trap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Lay a clutch of eggs in front of you, enemies who walk over the eggs take its value Nature damage and are rooted for (12 sec vs players), and then attacked by Spiderlings. Damage caused may interrupt the effect. You can have a maximum of 6 Brood Traps active at once. Usa"
+ },
+ {
+  "name": "Bugging",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Harmful spells cast out of Skulk increase the damage you deal to the enemy by %."
+ },
+ {
+  "name": "Burrow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Burrow beneath the ground, becoming immune to all physical attacks and spells, but unable to move or act for the duration. While burrowed, you can choose a new location within 30 yds to unburrow."
+ },
+ {
+  "name": "Carapace Crash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Slam your body against the ground dealing its value Nature damage to enemies within yds."
+ },
+ {
+  "name": "Carapace Regeneration",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "3 Charges, 20 sec recharge Regenerate your carapace, reducing your Physical damage taken by % and restoring % maximum health every sec, draining Rage every tick to remain active, stacking times."
+ },
+ {
+  "name": "Catalyst",
+  "icon": "ability_deathknight_deathsiphon2",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Generates Rage plus every sec and reduces the cost of all of your spells and abilities by %. Prevents out of combat Rage decay for its duration."
+ },
+ {
+  "name": "Celerity",
+  "icon": "spell_lifegivingspeed",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your movement speed by %. Leaving Spider Form will cancel this effect. Usable while Skulking."
+ },
+ {
+  "name": "Champion of the Spider",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Deprecatged"
+ },
+ {
+  "name": "Charm of Warding",
+  "icon": "inv_trinket_naxxramas01",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "When a stack of Exposed Flesh is applied you are now healed for % of your maximum health."
+ },
+ {
+  "name": "Charmed Plating",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces damage taken by all party and raid members by %. Does not stack with similar effects. In addition, reduces your chance to be hit by spells by %."
+ },
+ {
+  "name": "Chitin Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Rush forward and strike enemies in your path, dealing its value Nature damage. Damage dealt generates increased threat."
+ },
+ {
+  "name": "Chitinous Spikes",
+  "icon": "custom_t_poisonspikes_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Taking direct damage has a % chance to retaliate for % of the damage taken."
+ },
+ {
+  "name": "Chitinous Surge",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the cooldown of Chitin Rush by sec and increases its damage by %."
+ },
+ {
+  "name": "Claw Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Smash an enemy and up to enemies with your claw, dealing its value Nature damage, scaling with your Stamina. Generates Rage."
+ },
+ {
+  "name": "Contagion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "For, all periodic damage dealt now has a % chance to burst dealing its value Shadow damage to enemies within yds."
+ },
+ {
+  "name": "Corrosion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Unleash toxic corrosion, increasing the target's Nature Damage taken by %."
+ },
+ {
+  "name": "Cover",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Casting Harden now clears Exposed Flesh."
+ },
+ {
+  "name": "Cunning",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increases the critical strike chance of Chitin Rush by % and its critical damage by %."
+ },
+ {
+  "name": "Cunning of the Nerub'ar",
+  "icon": "achievement_dungeon_azjollowercity_10man",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Augments your Spider Form, increasing your damage dealt by % and causing it to allow your Nerubian Sting to stack additional time."
+ },
+ {
+  "name": "Cycle of Decay",
+  "icon": "spell_shadow_deathanddecay",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Level 50 Passive When you cast any spell you now have a % chance to gain Cycle of Decay."
+ },
+ {
+  "name": "Deadly Venom",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases your critical strike rating by % of your Intellect."
+ },
+ {
+  "name": "Death Spray",
+  "icon": "ability_creature_poison_01",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to remove the Energy cost from your next Venom Fang or Widow's Kiss within and increase its damage by %. Can occur only once every 2 sec."
+ },
+ {
+  "name": "Death's Dance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Causes Spider Form Jump to increase damage dealt by %."
+ },
+ {
+  "name": "Debilitating Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Activate Debilitating Venom, giving your casts a % chance to inject a target and enemies around them with a crippling venom that slows their movement speed by %. You can have a maximum of 2 unique Venoms active at a time."
+ },
+ {
+  "name": "Decay",
+  "icon": "nhi_natureritual_border",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Apply Wilt to up to enemies at target location and drop a Mushroom that will explode after 2 sec, dealing its value Nature damage all enemies within yds."
+ },
+ {
+  "name": "Disciple of Shadra",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Shapeshifting frees you from root and snare effects."
+ },
+ {
+  "name": "Down The Water Spout",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Shrink yourself down to an itsy bitsy spider and increase your dodge chance by %."
+ },
+ {
+  "name": "Dread Poison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Damage dealt by Nerubian Sting now reduces the target's healing received by %."
+ },
+ {
+  "name": "Drenched Fangs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Gives your Auto Attacks a chance to apply your Fang Venom effects."
+ },
+ {
+  "name": "Empowered Exoskeleton",
+  "icon": "inv_dragonflypet_green",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increases the damage reduced by Regenerative Properties by % and reduces the cooldown of Barbed Stinger by sec."
+ },
+ {
+  "name": "Empowered Sting",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the cooldown of Sting by sec and increases its critical strike chance by %."
+ },
+ {
+  "name": "Empowering Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Pheromones by % and their duration by %."
+ },
+ {
+  "name": "Enchanted Exoskeleton",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases dodge rating by % of your Intellect."
+ },
+ {
+  "name": "Enduring Exoskeleton",
+  "icon": "spell_nature_skinofearth",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases Armor contribution from items by % and grants direct damage dealt and taken a % chance to generate Rage. Can only occur once per sec."
+ },
+ {
+  "name": "Envenomed Weapons",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Envenoms the weapons of all nearby allies, giving them a % chance to launch a jet of poison at their target whenever they deal damage, dealing its value Nature damage."
+ },
+ {
+  "name": "Escalation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the damage of Wilt by % and healing of Gift of Shadra by %."
+ },
+ {
+  "name": "Evasive",
+  "icon": "spell_shadow_charm",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Reduces the cooldowns of Burrow, Tunnel Below, and Paralyze by %."
+ },
+ {
+  "name": "Exposed Flesh",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Level 10 Passive Hostile attacks against you now have a % chance to grant a stack of Exposed Flesh."
+ },
+ {
+  "name": "Expulsion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Clears Exposed Flesh stacks to poison nearby enemies, and an additional sec per cleared stack, dealing its value Nature damage every sec."
+ },
+ {
+  "name": "Extraction",
+  "icon": "nhi_nature_stab_border",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "For, your Intellect and Spirit are doubled and all critical periodic healing done by you restores % of your missing mana."
+ },
+ {
+  "name": "Facemelter",
+  "icon": "spell_deathvortex",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Requires Spider Form Consumes Brood Marks Spray poison upon an enemy and nearby enemies, dealing Nature damage over. 1 Mark: its value Nature damage. 2 Marks: its value Nature damage. 3 Marks: {("
+ },
+ {
+  "name": "Fel Cloak",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Cloak yourself in fel magic, instantly dispelling all harmful effects and making you immune to magic effects. Usable while stunned or feared."
+ },
+ {
+  "name": "Fortify Carapace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Gain an additional stack of Carapace Regeneration, up to 5."
+ },
+ {
+  "name": "Fungal Assailant",
+  "icon": "inv_fungarian_blue",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Summon a Fungarian to attack an enemy, dealing its value Nature damage, and instantly apply Debilitating Venom to your target. Lasts. Can be used in any form."
+ },
+ {
+  "name": "Fungal Growth",
+  "icon": "inv_misc_starspecklemushroom",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Shadow and Nature damage dealt now has a % chance to increase periodic damage you deal to the target by %, stacking times."
+ },
+ {
+  "name": "Fungal Link",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the spell haste of all party and raid members by %. Does not stack with similar effects. In addition, the range of your Rot spells is increased by % and the threat they generate is reduced by %."
+ },
+ {
+  "name": "Fungify",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Transform an enemy into a Fungarian, threading mycelial strands through their thoughts to seize control for (8 sec vs players). Damage caused may interrupt the effect."
+ },
+ {
+  "name": "Fury of Anub'Rekhan",
+  "icon": "achievement_boss_anubarak",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum mana, Energy, and Rage by %."
+ },
+ {
+  "name": "Fury of Shadra",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your damage and healing against targets below 35% health by 15%."
+ },
+ {
+  "name": "Genesis",
+  "icon": "uico_venom_spell_08_border",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your haste by %."
+ },
+ {
+  "name": "Glory To Shadra!",
+  "icon": "5_sumspiders_border",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the critical strike chance of Venom Fang and Nerubian Sting by %."
+ },
+ {
+  "name": "Gravesite Hidden Visual 2",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Greater Beetle Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increase all nearby party and raid member's armor by its value and all primary stats by. Does not stack with other similar effects."
+ },
+ {
+  "name": "Greater Spider Form Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Give your allies spider pheromones, increasing their Agility. Lasts. Can be used in any form."
+ },
+ {
+  "name": "Greater Toxic Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Create a magic edict with an ally, increasing their spell power."
+ },
+ {
+  "name": "Green Salve",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Rapidly heal an ally for over. After sec, this will seek another nearby ally with the lowest health and heal them for its value."
+ },
+ {
+  "name": "Hallucinogenic Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Allows 50% of your mana to regenerate while in combat."
+ },
+ {
+  "name": "Harden",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Harden your carapace, reducing damage taken by 45%, decaying quickly over and healing for % maximum health each time a stack is removed. Taking Physical Damage during this time will cause it to decay faster. Leaving Beetle Form will cancel this effect."
+ },
+ {
+  "name": "Hate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Rapidly drain Energy over, increasing the damage of Berserker Axe by % and making you immune to fear, slow, and root effects."
+ },
+ {
+  "name": "Hive Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "The swarm stirs within you, preparing you for battle, instantly generating Rage or Energy. Usable while Skulking."
+ },
+ {
+  "name": "Hivebreak",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Pierce an enemy with your front leg, dealing its value Nature damage. Consumes sec of Venomtip Poison's duration to cause Nature damage to nearby enemies."
+ },
+ {
+  "name": "Impale",
+  "icon": "impale",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Fire spikes through the floor impaling all enemies in a yd line for its value Shadow damage and stunning them."
+ },
+ {
+  "name": "Improved Facemelter",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Reduces the cooldown of Facemelter by sec."
+ },
+ {
+  "name": "Improved Harden",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the cooldown of Harden by sec."
+ },
+ {
+  "name": "Improved Miasma",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the duration of Miasma by sec and its damage by %."
+ },
+ {
+  "name": "Improved Shadra's Vigil",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the healing of Shadra's Vigil by % and its critical strike chance by %."
+ },
+ {
+  "name": "Improved Sting",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the cooldown of Sting by sec and increases its damage by %."
+ },
+ {
+  "name": "Improved Venoxis Fang",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Reduces the cast time of Venoxis Fang by 0.5 sec and its cost by %."
+ },
+ {
+  "name": "Infestation",
+  "icon": "inv_misc_herb_evergreenmoss",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to reduce the cooldown of Serpent's Fang and Fungal Assailant by 20% of the remaining cooldown."
+ },
+ {
+  "name": "Inoculation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Reduces the cast time of Mycosis by 0.75 sec and increases its damage by %."
+ },
+ {
+  "name": "Intoxicating Venoms",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Level 40 Passive Mycosis is now enhanced based on your currently active Venom. Debilitating Venom: Reduces the cast time by %. Blight Venom: Extends the duration of Spore on the target by sec. Adrenal Venom: Strikes additio"
+ },
+ {
+  "name": "Lair Guard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Spider Form Jump now generates an additional Rage and Shadra's Lair now reduces all damage taken by % and their cooldowns are reduced by sec."
+ },
+ {
+  "name": "Lethargy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Damage dealt by your Wilt now applies Lethargy to affected enemies."
+ },
+ {
+  "name": "Lifeblood",
+  "icon": "inv_misc_volatilelife_green",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Embrace Shadra's lifeblood, reducing your damage taken and pushback from casting spells by % and causing all damage taken to cast Rejuvenating Venom. Lasts."
+ },
+ {
+  "name": "Locust Swarm",
+  "icon": "_d3locustswarm",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Leeches its value health from nearby enemies every sec."
+ },
+ {
+  "name": "Lure",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Lure an enemy, attracting their attention for and forcing players to move. Does not break stealth."
+ },
+ {
+  "name": "Magic Shell",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Level 20 Passive Increases all primary attributes by % while in Beetle Form. In addition, increases your hit rating by % of all primary attributes."
+ },
+ {
+  "name": "Mamba Mentality",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes with Venom Bolt, Hivebreak, or Venom Fang now increase your movement speed by 20% for 3 seconds."
+ },
+ {
+  "name": "Mantid Descent",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Grant an ally magical wings, slows their falling speed."
+ },
+ {
+  "name": "Master of Venoms",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of your Venoms by %."
+ },
+ {
+  "name": "Mending Mist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Spread a precarious mist to up to allies within yds, healing them for its value every sec. After sec, all allies within yds are healed for an additional its value."
+ },
+ {
+  "name": "Molt",
+  "icon": "inv_skinning_80_hardenedtempesthide",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Shatters your exoskeleton, instantly applying 15 stacks of Exposed Flesh and increasing your movement speed by %."
+ },
+ {
+  "name": "Mycelial Replenishment",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases your critical strike chance and critical healing done by % for and instantly restore % of your maximum mana, but consumes all stacks of Mycelial Healing on all nearby allies. While active, all periodic critical strikes heal for an additional % of the healing done."
+ },
+ {
+  "name": "Mycelial Ring",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Create an yd ring beneath you for that deals its value Nature damage every sec to enemies inside and immediately grows 12 Mushrooms in a circle around you. At the end of the duration, up to allies inside are healed for its value. Can be used in"
+ },
+ {
+  "name": "Mycosis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Fungus grows throughout the body of an enemy, dealing its value Nature damage and applying a shield that absorbs the next its value healing done to them. Deals % increased damage for each stack of Fungal Growth on the target."
+ },
+ {
+  "name": "Myotoxin",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Inject an enemy with myotoxins, removing enrage effect, repeating every sec."
+ },
+ {
+  "name": "Nature Against Nature",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Each stack of Nerubian Sting now increases the damage dealt to the target by your Widowmaker and Venom Fang by %."
+ },
+ {
+  "name": "Nerubian Heritage",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Gift of Shadra, Blight and Wilt now tick 10% faster."
+ },
+ {
+  "name": "Nerubian Poison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Nerubian Sting now consumes Lethal Toxin to apply Nerubian Poison."
+ },
+ {
+  "name": "Nerubian Sting",
+  "icon": "inv_misc_head_nerubian_01",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Applies 1 Brood Mark Sting an enemy, dealing its value Shadow damage and an additional its value over, stacking up to times."
+ },
+ {
+  "name": "Noxious Empowerment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Enrage, increasing your chance to trigger Venoms by %, your Energy regeneration by %, and increasing your damage dealt by %."
+ },
+ {
+  "name": "Nullifying Toxin",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Inject an enemy with nullifying toxin, interrupting them and preventing any spell from that school from being cast."
+ },
+ {
+  "name": "Nullifying Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Activate Nullifying Venom, giving your casts a % chance to reduce an enemy's casting speed by %. You can have a maximum of 2 unique Venoms active at a time."
+ },
+ {
+  "name": "Occultist",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Level 40 Passive Casting Green Salve or Serpent's Fang now has a % chance to refresh a charge of Alkahest."
+ },
+ {
+  "name": "Parasite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Requires Skulk Embed yourself into an enemy or ally player, becoming immune to all damage, but unable to attack or cast spells. At the end of the duration, or upon casting Parasite: Unburrow, you reappear at their location. they are an enemy, you inflict them with Para"
+ },
+ {
+  "name": "Parasite: Unburrow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Unburrow from your target and appear near them, instantly applying Parasite Poison they are an enemy."
+ },
+ {
+  "name": "Pinch",
+  "icon": "inv_misc_monsterclaw_10",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Disarm an enemy's melee weapons with your claws for and apply Weakening Venom to them for sec."
+ },
+ {
+  "name": "Playing With Poison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Nature damage and healing done by 5%."
+ },
+ {
+  "name": "Poisonous",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Level 40 Passive Increases your spell damage by % of your attack power and allows periodic damage dealt by Expulsion to critically strike."
+ },
+ {
+  "name": "Powerful Legs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Reduces the cooldown of Spider Form Jump by sec."
+ },
+ {
+  "name": "Prayer Beads",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Pray to Shadra and honor the venomcult, allowing you to bring a dead ally back to life with health and mana. Cannot be cast when in combat."
+ },
+ {
+  "name": "Precision Bites",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases critical strike rating by % of Intellect."
+ },
+ {
+  "name": "Protogenesis",
+  "icon": "nhi_natureheal_border",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increases healing recieved by %."
+ },
+ {
+  "name": "Prowler",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of your Intellect and your hit rating by % of your Intellect."
+ },
+ {
+  "name": "Rapid Injection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Your Wicked Poison now ticks % faster."
+ },
+ {
+  "name": "Reconstructive Carapace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the amount of Rage drained by Carapace Regeneration."
+ },
+ {
+  "name": "Reduce Harden Carapace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Reformed",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Level 30 Passive Clearing Exposed Flesh stacks inside Beetle Form now restores health based on stacks cleared."
+ },
+ {
+  "name": "Regenerative Properties",
+  "icon": "inv_skinning_80_snakescales",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces all damage taken by %, but damage taken now has a % chance to shatter your exoskeleton, removing this damage reduction effect. When your exoskeleton shatters you regenerate % of your maximum health over, after this duration your exoskeleton regenerates."
+ },
+ {
+  "name": "Regenerative Strikes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Physical and Nature damage dealt now has a % chance to restore its value health."
+ },
+ {
+  "name": "Regrow Exoskeleton",
+  "icon": "inv_stave_2h_pvppandarias2_c_03green",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Clears Exposed Flesh stacks to reduce your damage taken by % for and an additional sec per stack."
+ },
+ {
+  "name": "Reinforced Exoskeleton",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increases your maximum health and your dodge chance by %."
+ },
+ {
+  "name": "Reinforced Shell",
+  "icon": "inv_misc_leather_shellfragment",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your total armor by %. In addition, while Spider or Beetle form is active your attacks are unable to be parried or dodged."
+ },
+ {
+  "name": "Rejuvenating Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Activate Rejuvenating Venom, giving your casts a % chance to heal a random ally within yds of your target for its value over. You can have a maximum of 2 unique Venoms active at a time."
+ },
+ {
+  "name": "Relentless",
+  "icon": "garrison_building_salvageyard",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "all"
+  ],
+  "desc": "Level 20 Passive Critical strikes with Ancestral Strike and Brutal Swing now refund 10 Energy."
+ },
+ {
+  "name": "Remove At Least 40 Static",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Remove Grimclaw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Remove Grimclaw Delayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Remove Venoms",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Clear your currently active Venoms. Can be used in any form."
+ },
+ {
+  "name": "Resistant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the Rage cost of Toxic Sludge by and reduces the duration of stun effects against you by %."
+ },
+ {
+  "name": "Reverse Rot",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Reduces the cooldown of Regeneration by sec."
+ },
+ {
+  "name": "Rime",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Deals Frost Damage to all nearby enemies and Slows their Movement Speed by %. Generates 1 Essence of Frost."
+ },
+ {
+  "name": "Ritual Cleansing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Emanate a cleansing aura, every sec while active, nearby allies will be cleansed of 1 disease and poison effect."
+ },
+ {
+  "name": "Ritual Healing",
+  "icon": "_manaburn_nature",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Level 50 Passive Every sec, your Shadra's Prayer will now restore % of the target's maximum mana, Energy or Focus, Rage and Runic Power."
+ },
+ {
+  "name": "Ritualistic Renewal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Your periodic healing done now increases the direct healing of your next Shadra's Prayer or Serpent's Fang by %, stacking times."
+ },
+ {
+  "name": "Rot Lich",
+  "icon": "_instableaffliction_green",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Direct damage dealt now has a % chance to reset the cooldown of Serpent's Fang and grant you Rot Lich."
+ },
+ {
+  "name": "Rotfang",
+  "icon": "inv_misc_herb_marrowroot_leaf",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Requires Spider Form Consumes Brood Marks Inject venom into an enemy that rots them from the inside out, dealing Plague damage over. 1 Mark: its value Plague damage. 2 Marks: its value Plague damage. 3 Marks: {((*"
+ },
+ {
+  "name": "Rotpriest",
+  "icon": "novart_magicspell_(89)_border",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases your spell critical damage by %."
+ },
+ {
+  "name": "Rotspreader",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Serpent's Fang and Blight consume Venoxis Fang stacks, applying a stack of Rot for each."
+ },
+ {
+  "name": "Runed Carapace",
+  "icon": "inv_shield_21",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Whenever you take Magic damage, reduce damage taken by that magic school by %. Can only occur once every 30 sec per school of magic."
+ },
+ {
+  "name": "Scarabs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Gives damage dealt a % chance to summon Scarabs. Cannot occur more than once every 4 sec."
+ },
+ {
+  "name": "Sepsis Bloom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Create pustules that swell and then burst, disorienting a target enemy. All of your Venomancer poison effects are purged from the target, dealing damage equal to their remaining duration at the end of the duration."
+ },
+ {
+  "name": "Serpent Lord",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Augments Spider Form into a Serpent Lord, giving some of your Spider Form abilities a 1 second cast time and yds of increased range. Damage is increased when attacking an enemy past yds by % and spell pushback from enemy attacks is reduced by %. Increases the damage of Withe"
+ },
+ {
+  "name": "Serpent Lord's Amulet",
+  "icon": "inv_helm_cloth_zandalardungeon_c_01",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Draw power from the Serpent Lord's Amulet, increasing your spell haste by % and reduces your mana costs by %."
+ },
+ {
+  "name": "Serpent Lord's Ring",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Draw power from the Serpent Lord's Ring instantly regenerating % of your maximum mana and causing your Mycosiss to trigger no cooldown and be free of cost."
+ },
+ {
+  "name": "Serpent Lord's Ritual",
+  "icon": "ability_monk_summonserpentstatue",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Direct healing done now has a % chance to grant you 5 sec of Serpent Lord's Amulet. Serpent Lord's Amulet is already active, triggering this will instead extend its duration by 5 seconds. This cannot extend it past its maximum duration."
+ },
+ {
+  "name": "Serpent's Cunning",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the damage and healing of Serpent's Fang by % and its critical strike chance by %."
+ },
+ {
+  "name": "Serpent's Fang",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Launch vile poison at an enemy, dealing its value Nature damage and healing up to its value allies near them for its value."
+ },
+ {
+  "name": "Serpent's Mist",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Level 20 Passive Increases the spell power scaling of the healing done by Serpent's Fang by %."
+ },
+ {
+  "name": "Shadra's Aid",
+  "icon": "nhi_natureempower_border",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Envelop an ally in Shadra's grace, reducing all damage taken by % and causing direct damage taken to restore % maximum health."
+ },
+ {
+  "name": "Shadra's Balm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Envelop an ally with a restorative balm, healing them for its value every sec."
+ },
+ {
+  "name": "Shadra's Binding",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Requires Rotweaver or Vizier Form Shoot a web at an enemy, stunning them."
+ },
+ {
+  "name": "Shadra's Boon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the Nature Resistance of all party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Shadra's Gift",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of your Intellect and your haste rating by % of your Intellect."
+ },
+ {
+  "name": "Shadra's Lair",
+  "icon": "inv_ascend_spiderweb_b_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Designate the area around you as your Lair. Enemies are unable to target into or out of the Lair and their movement speed is slowed by %."
+ },
+ {
+  "name": "Shadra's Prayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Bring the glory of Shadra to an ally, healing them for its value, plus its value every sec."
+ },
+ {
+  "name": "Shadra's Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Allies within yds receive % more healing. Does not stack with similar effects. In addition, your Antivenom now dispels additional effect."
+ },
+ {
+  "name": "Shadra's Seance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Facemelter now ticks % faster and the duration is increased by sec."
+ },
+ {
+  "name": "Shedder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Reduces the cooldowns of spells that clear your Exposed Flesh stacks to gain duration by %."
+ },
+ {
+  "name": "Skin Shedder",
+  "icon": "spell_nature_moonglow",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cost of shapeshift spells by %."
+ },
+ {
+  "name": "Skitter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Skitter forward yds. Can be used 3 times within before triggering a cooldown. Usable while Skulking."
+ },
+ {
+  "name": "Skitter Smack",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 30 Passive Dealing damage from behind your target in Spider Form grants % increased melee haste for sec, stacking times."
+ },
+ {
+  "name": "Skitterer Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "You take on the form of a Nerubian Skitterer, increasing your Movement Speed by %. Cannot be used in combat. Only useable outdoors. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
+ },
+ {
+  "name": "Skittering Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Enrages you for whenever Tunnel Below ends, increasing movement speed by % and damage dealt by % and reduces the cooldown of Spider Form Jump by %. Your next Gripping Webs consumes the effect to trigger with a % reduced cooldown."
+ },
+ {
+  "name": "Skulk",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Skulk through the shadows, entering stealth. Lasts until cancelled. While stealthed, Venom Fang or Widow's Kiss has no cost and deals its value% increased damage, scaling with your level."
+ },
+ {
+  "name": "Slimy",
+  "icon": "inv_ascend_slime_b_01",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Direct damage taken now has a % chance to create a pool of Beetle Slime under the enemy. Can only occur once every 3 sec."
+ },
+ {
+  "name": "Slimy Stingers",
+  "icon": "inv__hydrasbite",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Carapace Crash now creates a pool of Beetle Slime under each enemy struck."
+ },
+ {
+  "name": "Spawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Bring a dead ally back to life with health and mana. Can be used in combat. Not usable in arena."
+ },
+ {
+  "name": "Spellslinger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Switches your Runedaggers for two Rune Pistols, allowing you to use Mana Shot and Rift Shot."
+ },
+ {
+  "name": "Spider Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Shapeshift into Spider Form, increasing movement speed by % and allowing the use of abilities that require this form."
+ },
+ {
+  "name": "Spider Form Jump",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Leap upon an enemy, generating Rage and rooting them in place. Increases damage dealt by %."
+ },
+ {
+  "name": "Spider Lord",
+  "icon": "cryptlord",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Augments Beetle Form into a Spider Lord, reducing damage taken by %, and while |CffffffffLocust Swarm is active your summons now gain % increased haste and damage. Casting Hivebreak now has a % chance, and melee auto attacks now have a % chance, to summon 1 Scarab"
+ },
+ {
+  "name": "Spider Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Inject an ally with spider pheromones, increasing their Agility. Lasts."
+ },
+ {
+  "name": "Spider Senses",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "you see this, upate game, make bugreport it still presists."
+ },
+ {
+  "name": "Spindlebind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Emit webs at all enemies behind you, rooting them, and unleashing a beetle on the trapped enemy from below, inflicting its value Nature damage."
+ },
+ {
+  "name": "Spiritual Healing",
+  "icon": "",
+  "meta": "Talent Passive Lvl 20",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Level 20 Passive Increases your spell critical strike rating and your healing power by % of your Intellect."
+ },
+ {
+  "name": "Spore",
+  "icon": "custom_fungal",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Inject an enemy with parasitic spores, dealing its value Shadow damage, plus an additional over. After sec, drop a Mushroom below the target that explodes after 2 sec, dealing its value Nature damage to nearby enemies."
+ },
+ {
+  "name": "Sporelord",
+  "icon": "inv_ascend_mushroom_02",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Fungal Assailant now spawns 3 Mushrooms below the target."
+ },
+ {
+  "name": "Stinging Chitin",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increases the damage dealt by Carapace Crash and Hivebreak by %."
+ },
+ {
+  "name": "Sturdy Carapace",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases your Stamina by %."
+ },
+ {
+  "name": "Suffocating Coil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Launch a beam of webbing at an enemy, inflicting its value Nature damage every sec. After, Spore is active on the target, drop a Mushroom|R below them that will explode after 2 sec, dealing its value Nature damage to all enemies within yds."
+ },
+ {
+  "name": "Surprise Strategy",
+  "icon": "ability_fixated_state_green",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes now have a % chance to increase the healing of your next Shadra's Prayer by % and make it instant cast. Can only occur once per 5 sec."
+ },
+ {
+  "name": "Swift Pincers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Auto attacks now have a % chance to strike an additional time for Weapon Damage plus its value Nature damage."
+ },
+ {
+  "name": "Swiftness of the Spider Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increase your melee haste by % and the chance to trigger Swift Pincers by %, additionally allows Venom Fang to hit up to targets."
+ },
+ {
+  "name": "The End Is Near",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "The Old Kingdom",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases your movement speed by % while Tunnel Below is active."
+ },
+ {
+  "name": "Tome of Ahn'kahet",
+  "icon": "_book4_purple",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage and effective healing done now has an % chance to grant Tome of Ahn'kahet."
+ },
+ {
+  "name": "Toxflinger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Launches bolts of poison at all enemies within a few yards that are standing in the pool created by Toxic Sludge, dealing Nature Damage to affected enemies."
+ },
+ {
+  "name": "Toxic Communion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Extend the duration of Shadra's Balm and Mending Mist|R by sec on all allies within yds."
+ },
+ {
+  "name": "Toxic Expulsion",
+  "icon": "rogue_venomzest",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Hivebreak now consumes sec of Venomtip Poison's duration to gush toxic slime, dealing its value Nature damage to enemies within yds."
+ },
+ {
+  "name": "Toxic Pheromones",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Create a magic edict with an ally, increasing their spell power."
+ },
+ {
+  "name": "Toxic Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "For the next, generate an additional % of your maximum Rage on damage taken. When this effect ends, you are healed based on your Agility and Intellect."
+ },
+ {
+  "name": "Toxic Sludge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Place a toxic pool on the ground, instantly Burning enemies inside for its value Nature Damage. Enemies in the pool take its value Nature Damage every sec, and have % reduced movement speed.?s705991[ Allies in the pool are healed for every sec and take % increased healing.]"
+ },
+ {
+  "name": "Toxic Stride",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Embrace Shadra's blessing, granting you immunity to all silence and interrupt effects and allowing you to cast your spells while moving."
+ },
+ {
+  "name": "Tranquil Essence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the threat generated by your healing spells by -10% and increases your periodic healing by 5%. (up to 2 ranks)"
+ },
+ {
+  "name": "Unbreakable",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Allows Exposed Flesh to stack additional times and increase your Physical damage taken by % less."
+ },
+ {
+  "name": "Unity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Heals up to allies within yds of the targeted location for its value and applies Shadra's Vigil to them."
+ },
+ {
+  "name": "Venocannon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Burst out of your burrow, rooting yourself in place. While active, all spells have yd of additional range, and the cast times are reduced by %. Can only be used while Skulking."
+ },
+ {
+  "name": "Venom Bolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Spew poison on an enemy, dealing its value Nature damage and reducing healing received by %, stacking times."
+ },
+ {
+  "name": "Venom Cultist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases spell haste by % of Spirit."
+ },
+ {
+  "name": "Venom Fang",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Applies 1 Brood Mark Bite an enemy for its value Nature damage."
+ },
+ {
+  "name": "Venom Glands",
+  "icon": "ability_creature_poison_02",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases your healing done by % on allies below 35% health or they are Poisoned."
+ },
+ {
+  "name": "Venom Saturation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the damage of your poison effects by % against enemies above 50% health."
+ },
+ {
+  "name": "Venom Shell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Damage taken reduced by %."
+ },
+ {
+  "name": "Venom Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Reduces the duration of all poison effects used on you by %, and reduces all periodic Magic damage taken by %. Lasts."
+ },
+ {
+  "name": "Venomagus",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the damage of Blight Venom by %."
+ },
+ {
+  "name": "Venomancy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Increases the damage and healing of Serpent's Coil by %. Critical heals with Alkahest now reduce the cooldown of Serpent's Coil by sec."
+ },
+ {
+  "name": "Venomancy Expert",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cost of all spells and abilities by %."
+ },
+ {
+  "name": "Venomics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Increases the effectiveness of your Venoms by %."
+ },
+ {
+  "name": "Venomizer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the proc chance of all Venoms by 10%."
+ },
+ {
+  "name": "Venomous Approach",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Entering Spider Form reduces your threat generation by % and increases your damage by %."
+ },
+ {
+  "name": "Venomous Cascade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the radius of Facemelter by yds."
+ },
+ {
+  "name": "Venomtip Poison",
+  "icon": "5_poisonclaw_border",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Spray poison on an enemy and all enemies near them, dealing its value Nature damage and reducing their attack speed by %."
+ },
+ {
+  "name": "Venomwing Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Shapeshift into a Venom Spitter, increasing your movement speed by %, allowing you to hover, and slowing your falling speed. While falling, you can control your direction and will slowly descend downwards. Can only be used outdoors."
+ },
+ {
+  "name": "Venoxis Fang",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Blast an enemy with a jet of toxic venom, dealing its value Shadow Damage, increasing the damage the target takes from this spell by % and its mana cost by %, stacks times. your target is afflicted with Lethargy, this spell incurs no cooldown. Usable while moving. Scales with modif"
+ },
+ {
+  "name": "Versatile and Deadly",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduce all damage taken while in Beetle Form by -3% and increases your movement speed while in Spider Form by 5%. (up to 2 ranks)"
+ },
+ {
+  "name": "Vile Fangs",
+  "icon": "_soulfire_shadow",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to generate a Brood Mark."
+ },
+ {
+  "name": "Vile Fury",
+  "icon": "spell_nature_removedisease",
+  "meta": "Talent",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Vile Stinger generates Rage and the cost of Hivebreak is reduced."
+ },
+ {
+  "name": "Vile Sting",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Taunts an enemy target to attack you. the target is tauntable and not currently targeting you, you trigger your current Venoms."
+ },
+ {
+  "name": "Vileburst",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the damage of Withering Venom by % on enemies above 75% health."
+ },
+ {
+  "name": "Virulent Opening",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the periodic damage dealt by your Facemelter and Rotfang by % while above 75% health."
+ },
+ {
+  "name": "Virulent Resonance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the effectiveness of Brood Marks by % and your hit chance by %."
+ },
+ {
+  "name": "Vizier Form",
+  "icon": "achievement_boss_eldernadox",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "vizier"
+  ],
+  "desc": "Level 30 Passive Teaches you Vizier Form."
+ },
+ {
+  "name": "Vulnerability",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 40 Passive While Blight Venom is active, your auto attacks now have a % chance to apply it. In addition, your offensive critical strikes now increase the target's spell damage taken by %."
+ },
+ {
+  "name": "Wasp Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Shapeshift into Wasp Form, increasing movement speed by % and allowing you to fly. Can only shapeshift into Wasp Form in Outland or Northrend, and cannot be used in Combat."
+ },
+ {
+  "name": "Weakening Venom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Activate Weakening Venom, giving your casts a % chance to deal its value Shadow damage and reduce an enemy's attack power by its value. You can have a maximum of 2 unique Venoms active at a time."
+ },
+ {
+  "name": "Weaver Form",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Level 30 Passive Teaches you Weaver Form."
+ },
+ {
+  "name": "Web Wrap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "rot",
+   "stalking"
+  ],
+  "desc": "Wrap your target in a cocoon, stunning them."
+ },
+ {
+  "name": "Wicked Poison",
+  "icon": "ability_creature_poison_05",
+  "meta": "Ability",
+  "specs": [
+   "fortitude"
+  ],
+  "desc": "Critical strikes with Chitin Rush, Carapace Crash, and Hivebreak now apply Wicked Poison."
+ },
+ {
+  "name": "Widow's Fang",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Level 50 Passive Your Venom Fang now costs % less Energy when while Widow's Kiss is active."
+ },
+ {
+  "name": "Widow's Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Shadow damage dealt has a % chance to reduce the remaining cooldown of Widow's Kiss by sec."
+ },
+ {
+  "name": "Widow's Watch",
+  "icon": "ability_druid_manatree",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Allies affected by Shadra's Balm now have a % increased chance to resist poison and curse effects."
+ },
+ {
+  "name": "Widowing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the damage of Widow's Kiss and Widowmaker by %."
+ },
+ {
+  "name": "Widowmaker",
+  "icon": "inv_vicioushordespider",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Requires Spider Form Consumes Brood Marks Inject shadow venom into an enemy, dealing Shadow damage and reducing their healing received by 50%. 1 Mark: its value Shadow damage. 2 Marks: its value Shadow damage. 3 Marks: {(35+spell power)"
+ },
+ {
+  "name": "Wilt",
+  "icon": "custom_t_nhance_rpg_icons_naturewrath_border",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Wilt the life of an enemy with vile poison, dealing Nature damage over."
+ },
+ {
+  "name": "Wilting Away",
+  "icon": "spell_nature_naturetouchgrow",
+  "meta": "Talent",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Your Wilt now strikes an additional nearby enemy."
+ },
+ {
+  "name": "Withered",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Increases the spell power scaling of Withering Venom by %."
+ },
+ {
+  "name": "Withering Venom",
+  "icon": "ability_creature_disease_03",
+  "meta": "Ability",
+  "specs": [
+   "stalking"
+  ],
+  "desc": "Inject an enemy with a devastating venom, dealing its value Nature damage every sec. Damage is dealt slowly at first, and builds up over time."
+ },
+ {
+  "name": "Worship",
+  "icon": "spell_nature_abolishmagic",
+  "meta": "Ability",
+  "specs": [
+   "rot"
+  ],
+  "desc": "Allows all critical heals to increase periodic healing the target receives from you by %."
+ }
+]

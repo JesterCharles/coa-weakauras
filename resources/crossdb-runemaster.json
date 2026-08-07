@@ -1,0 +1,1162 @@
+{
+ "_class": "runemaster",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Air Carving": {
+   "id": 653253,
+   "state": "record"
+  },
+  "Air Engraving": {
+   "id": 653223,
+   "state": "record"
+  },
+  "Alertness": {
+   "id": 805769,
+   "state": "record"
+  },
+  "Alteration": {
+   "id": 705619,
+   "state": "record"
+  },
+  "Ancient Carvings": {
+   "id": 705616,
+   "state": "record"
+  },
+  "Ancient Teachings": {
+   "id": 705558,
+   "state": "record"
+  },
+  "Arcane Blade": {
+   "id": 706667,
+   "state": "record"
+  },
+  "Arcane Engraving": {
+   "id": 653267,
+   "state": "record"
+  },
+  "Arcane Glyph": {
+   "id": 520092,
+   "state": "record"
+  },
+  "Arcane Imprisonment": {
+   "id": 705628,
+   "state": "record"
+  },
+  "Arcane Student": {
+   "id": 300576,
+   "state": "record"
+  },
+  "Aspect of The Rune Knight": {
+   "id": 804151,
+   "state": "record"
+  },
+  "Augur's Shield": {
+   "id": 804126,
+   "state": "record"
+  },
+  "Battle Engravings": {
+   "id": 706674,
+   "state": "record"
+  },
+  "Blade Rift": {
+   "id": 520237,
+   "state": "record"
+  },
+  "Bounty Hunter": {
+   "id": 705510,
+   "state": "record"
+  },
+  "Bursting Pulses": {
+   "id": 300584,
+   "state": "record"
+  },
+  "Casting Cuffs": {
+   "id": 706363,
+   "state": "record"
+  },
+  "Chaos Engraving": {
+   "id": 800735,
+   "state": "record"
+  },
+  "Cinderwake": {
+   "id": 807828,
+   "state": "record"
+  },
+  "Collecting Fragments": {
+   "id": 705542,
+   "state": "record"
+  },
+  "Concentrated Magic": {
+   "id": 560995,
+   "state": "record"
+  },
+  "Contract Killing": {
+   "id": 705506,
+   "state": "record"
+  },
+  "Convergence": {
+   "id": 560241,
+   "state": "record"
+  },
+  "Cosmic Impact": {
+   "id": 800738,
+   "state": "record"
+  },
+  "Cryobrand": {
+   "id": 807822,
+   "state": "record"
+  },
+  "Darkflock Anguish Spreader": {
+   "id": 800749,
+   "state": "record"
+  },
+  "Decoder": {
+   "id": 706523,
+   "state": "record"
+  },
+  "Devour Mana": {
+   "id": 800104,
+   "state": "record"
+  },
+  "Displace Familiar": {
+   "id": 800741,
+   "state": "record"
+  },
+  "Earth Carving": {
+   "id": 712300,
+   "state": "record"
+  },
+  "Earth Engraving": {
+   "id": 653219,
+   "state": "record"
+  },
+  "Earthen Fists": {
+   "id": 806982,
+   "state": "record"
+  },
+  "Earthen Wind": {
+   "id": 532729,
+   "state": "record"
+  },
+  "Echo Rune": {
+   "id": 500270,
+   "state": "record"
+  },
+  "Elder Magi Rune": {
+   "id": 500253,
+   "state": "record"
+  },
+  "Elemental Assassin": {
+   "id": 705541,
+   "state": "record"
+  },
+  "Elemental Burst": {
+   "id": 802202,
+   "state": "record"
+  },
+  "Elemental Carvings": {
+   "id": 705618,
+   "state": "record"
+  },
+  "Elemental Prowess": {
+   "id": 705606,
+   "state": "record"
+  },
+  "Elemental Secrets": {
+   "id": 707149,
+   "state": "record"
+  },
+  "Elementalist": {
+   "id": 300583,
+   "state": "record"
+  },
+  "Elements of Fury": {
+   "id": 707413,
+   "state": "record"
+  },
+  "Engraved and Ready": {
+   "id": 706364,
+   "state": "record"
+  },
+  "Engravement - Level 15 Passive": {
+   "id": 807506,
+   "state": "record"
+  },
+  "Engravement - Level 40 Passive": {
+   "id": 705622,
+   "state": "record"
+  },
+  "Etch": {
+   "id": 805623,
+   "state": "no-record"
+  },
+  "Etching of the Dextrous": {
+   "id": 561237,
+   "state": "record"
+  },
+  "Etching of the Leylines": {
+   "id": 561236,
+   "state": "record"
+  },
+  "Etching of the Magi": {
+   "id": 560295,
+   "state": "record"
+  },
+  "Evasive": {
+   "id": 805767,
+   "state": "record"
+  },
+  "Everfrost Scroll": {
+   "id": 801090,
+   "state": "record"
+  },
+  "Expert Elementalist": {
+   "id": 807505,
+   "state": "record"
+  },
+  "Eye of the Beholder": {
+   "id": 500121,
+   "state": "record"
+  },
+  "Fire Blade": {
+   "id": 706665,
+   "state": "record"
+  },
+  "Fire Carving": {
+   "id": 706520,
+   "state": "record"
+  },
+  "Fire Engraving": {
+   "id": 653211,
+   "state": "record"
+  },
+  "Fist of the Ancients": {
+   "id": 712326,
+   "state": "record"
+  },
+  "Fists of Power": {
+   "id": 92153,
+   "state": "record"
+  },
+  "Flame Glyph": {
+   "id": 520091,
+   "state": "record"
+  },
+  "Focusing Crystals": {
+   "id": 705564,
+   "state": "record"
+  },
+  "For the Salvos!": {
+   "id": 705552,
+   "state": "record"
+  },
+  "Forbidden Engraving": {
+   "id": 705543,
+   "state": "record"
+  },
+  "Fracture": {
+   "id": 803018,
+   "state": "record"
+  },
+  "Freezing Codex": {
+   "id": 705577,
+   "state": "record"
+  },
+  "Frigid Blast": {
+   "id": 500118,
+   "state": "no-response"
+  },
+  "Frost Blade": {
+   "id": 706666,
+   "state": "record"
+  },
+  "Frost Glyph": {
+   "id": 92152,
+   "state": "record"
+  },
+  "Frost Prison": {
+   "id": 801105,
+   "state": "record"
+  },
+  "Frost Spectre": {
+   "id": 560039,
+   "state": "record"
+  },
+  "Frostburn": {
+   "id": 561063,
+   "state": "record"
+  },
+  "Frozen Earth": {
+   "id": 705592,
+   "state": "record"
+  },
+  "Frozen Inferno": {
+   "id": 705571,
+   "state": "record"
+  },
+  "Genesis": {
+   "id": 500501,
+   "state": "record"
+  },
+  "Glacial Rune": {
+   "id": 805730,
+   "state": "record"
+  },
+  "Glowing Glyphs": {
+   "id": 706382,
+   "state": "record"
+  },
+  "Glyph Seeker": {
+   "id": 705627,
+   "state": "record"
+  },
+  "Glyph of Disappearance": {
+   "id": 560037,
+   "state": "record"
+  },
+  "Glyphic Destruction": {
+   "id": 800758,
+   "state": "record"
+  },
+  "Glyphic Infusion": {
+   "id": 800733,
+   "state": "record"
+  },
+  "Glyphic Invocation": {
+   "id": 704141,
+   "state": "record"
+  },
+  "Glyphic Overload": {
+   "id": 520099,
+   "state": "record"
+  },
+  "Glyphic Ruin": {
+   "id": 801179,
+   "state": "record"
+  },
+  "Glyphs of Power": {
+   "id": 520145,
+   "state": "record"
+  },
+  "Granite Resolve": {
+   "id": 520229,
+   "state": "record"
+  },
+  "Greater Etching of the Dextrous": {
+   "id": 561241,
+   "state": "record"
+  },
+  "Greater Etching of the Leylines": {
+   "id": 561242,
+   "state": "record"
+  },
+  "Greater Etching of the Magi": {
+   "id": 561243,
+   "state": "record"
+  },
+  "Greater Inscription: Arcane": {
+   "id": 561255,
+   "state": "record"
+  },
+  "Greater Inscription: Fire": {
+   "id": 561251,
+   "state": "record"
+  },
+  "Greater Inscription: Frost": {
+   "id": 561247,
+   "state": "record"
+  },
+  "Greater Inscription: Leyline": {
+   "id": 561264,
+   "state": "record"
+  },
+  "Greater Inscription: Nature": {
+   "id": 561259,
+   "state": "record"
+  },
+  "Greater Runes": {
+   "id": 520124,
+   "state": "record"
+  },
+  "Guarding Rune": {
+   "id": 500464,
+   "state": "record"
+  },
+  "Hasty Imbue": {
+   "id": 705584,
+   "state": "record"
+  },
+  "Hired Crossbow": {
+   "id": 705501,
+   "state": "record"
+  },
+  "Hoarfrost": {
+   "id": 801104,
+   "state": "record"
+  },
+  "Homebound Runestone": {
+   "id": 560316,
+   "state": "record"
+  },
+  "Hurricane": {
+   "id": 645435,
+   "state": "record"
+  },
+  "Hydros": {
+   "id": 713002,
+   "state": "record"
+  },
+  "Ice Engraving": {
+   "id": 653266,
+   "state": "record"
+  },
+  "Ice Rune": {
+   "id": 524930,
+   "state": "record"
+  },
+  "Ignis": {
+   "id": 712668,
+   "state": "record"
+  },
+  "Improved Atomic Split": {
+   "id": 802035,
+   "state": "record"
+  },
+  "Improved Fastcast": {
+   "id": 705637,
+   "state": "record"
+  },
+  "Improved Primordial Blast": {
+   "id": 705607,
+   "state": "record"
+  },
+  "Inscription: Arcane": {
+   "id": 561252,
+   "state": "record"
+  },
+  "Inscription: Fire": {
+   "id": 561248,
+   "state": "record"
+  },
+  "Inscription: Frost": {
+   "id": 561244,
+   "state": "record"
+  },
+  "Inscription: Leyline": {
+   "id": 561260,
+   "state": "record"
+  },
+  "Inscription: Nature": {
+   "id": 561256,
+   "state": "record"
+  },
+  "Inscription: Permafrost": {
+   "id": 503423,
+   "state": "record"
+  },
+  "Kirin Tor Adept": {
+   "id": 705635,
+   "state": "record"
+  },
+  "Kirin Tor Agent": {
+   "id": 705634,
+   "state": "record"
+  },
+  "Ley Constitution": {
+   "id": 705562,
+   "state": "record"
+  },
+  "Ley Focus": {
+   "id": 805723,
+   "state": "record"
+  },
+  "Ley Lock": {
+   "id": 800995,
+   "state": "record"
+  },
+  "Ley Magician": {
+   "id": 804580,
+   "state": "record"
+  },
+  "Ley Power": {
+   "id": 801096,
+   "state": "record"
+  },
+  "Ley Spectre": {
+   "id": 704398,
+   "state": "record"
+  },
+  "Ley Walker": {
+   "id": 500250,
+   "state": "record"
+  },
+  "Leyborn": {
+   "id": 705609,
+   "state": "record"
+  },
+  "Leyfeed": {
+   "id": 520269,
+   "state": "record"
+  },
+  "Leyline Adjustment": {
+   "id": 561265,
+   "state": "record"
+  },
+  "Leyline Disturbance": {
+   "id": 560540,
+   "state": "record"
+  },
+  "Leyline Rider": {
+   "id": 805616,
+   "state": "record"
+  },
+  "Leystone Springs": {
+   "id": 300581,
+   "state": "record"
+  },
+  "Lithos": {
+   "id": 712858,
+   "state": "record"
+  },
+  "Magebreaker": {
+   "id": 704430,
+   "state": "record"
+  },
+  "Magic Etchings": {
+   "id": 300582,
+   "state": "record"
+  },
+  "Magic Feeder": {
+   "id": 705546,
+   "state": "record"
+  },
+  "Magnificence of Millhouse": {
+   "id": 705630,
+   "state": "record"
+  },
+  "Manastorm": {
+   "id": 502614,
+   "state": "no-record"
+  },
+  "Manuscription": {
+   "id": 524952,
+   "state": "record"
+  },
+  "Marked: Runic Brand": {
+   "id": 712323,
+   "state": "record"
+  },
+  "Master Engraver": {
+   "id": 705605,
+   "state": "record"
+  },
+  "Master of Runes": {
+   "id": 804531,
+   "state": "record"
+  },
+  "Melting Runes": {
+   "id": 803013,
+   "state": "record"
+  },
+  "Mind Over Matter": {
+   "id": 802669,
+   "state": "record"
+  },
+  "Mind Wrath": {
+   "id": 800757,
+   "state": "record"
+  },
+  "Mystical Etchings": {
+   "id": 806795,
+   "state": "record"
+  },
+  "Nomad's Scroll": {
+   "id": 707653,
+   "state": "record"
+  },
+  "Open Riftgate": {
+   "id": 500279,
+   "state": "record"
+  },
+  "Overloaded Flame Glyph": {
+   "id": 520107,
+   "state": "record"
+  },
+  "Palm Sigil: Arcane": {
+   "id": 805380,
+   "state": "record"
+  },
+  "Palm Sigil: Earth": {
+   "id": 560233,
+   "state": "record"
+  },
+  "Palm Sigil: Fire": {
+   "id": 534803,
+   "state": "record"
+  },
+  "Palm Sigil: Frost": {
+   "id": 805381,
+   "state": "record"
+  },
+  "Palm Sigil: Water": {
+   "id": 500639,
+   "state": "record"
+  },
+  "Palm Sigil: Wind": {
+   "id": 807013,
+   "state": "record"
+  },
+  "Permafrost Rune": {
+   "id": 804060,
+   "state": "record"
+  },
+  "Phase Out": {
+   "id": 500671,
+   "state": "record"
+  },
+  "Phase Rush": {
+   "id": 805724,
+   "state": "record"
+  },
+  "Pierce Resistances": {
+   "id": 704429,
+   "state": "record"
+  },
+  "Portal Hopper": {
+   "id": 705553,
+   "state": "record"
+  },
+  "Power Engraving": {
+   "id": 500296,
+   "state": "record"
+  },
+  "Power Overwhelming": {
+   "id": 560051,
+   "state": "record"
+  },
+  "Power of Air": {
+   "id": 705696,
+   "state": "record"
+  },
+  "Primal Rune": {
+   "id": 705636,
+   "state": "record"
+  },
+  "Primordial Blast": {
+   "id": 800732,
+   "state": "record"
+  },
+  "Primordial Echoes": {
+   "id": 705572,
+   "state": "record"
+  },
+  "Primordial Fury": {
+   "id": 801095,
+   "state": "record"
+  },
+  "Primordial Glyphs": {
+   "id": 705601,
+   "state": "record"
+  },
+  "Primordial Power": {
+   "id": 680466,
+   "state": "record"
+  },
+  "Primordial Pulse": {
+   "id": 300578,
+   "state": "record"
+  },
+  "Primordial Salvos": {
+   "id": 800752,
+   "state": "record"
+  },
+  "Primordial Strength": {
+   "id": 301149,
+   "state": "record"
+  },
+  "Primordial Studies": {
+   "id": 524982,
+   "state": "record"
+  },
+  "Primordialism": {
+   "id": 520054,
+   "state": "record"
+  },
+  "Prismatic Blade": {
+   "id": 804127,
+   "state": "record"
+  },
+  "Prismatic Flow": {
+   "id": 561053,
+   "state": "record"
+  },
+  "Prismatic Knight": {
+   "id": 804129,
+   "state": "record"
+  },
+  "Protective Warding": {
+   "id": 800753,
+   "state": "record"
+  },
+  "Quickslinger": {
+   "id": 705626,
+   "state": "record"
+  },
+  "Residual Power": {
+   "id": 560040,
+   "state": "record"
+  },
+  "Resonance Rune": {
+   "id": 803679,
+   "state": "record"
+  },
+  "Riftblade": {
+   "id": 92154,
+   "state": "record"
+  },
+  "Riftblade - Level 10 Passive": {
+   "id": 807518,
+   "state": "record"
+  },
+  "Rune Master": {
+   "id": 800126,
+   "state": "record"
+  },
+  "Rune of the Elder Magus": {
+   "id": 572825,
+   "state": "record"
+  },
+  "Rune of the Kirin Tor": {
+   "id": 705566,
+   "state": "record"
+  },
+  "Runeblade": {
+   "id": 707141,
+   "state": "record"
+  },
+  "Runecarve": {
+   "id": 804948,
+   "state": "record"
+  },
+  "Runed Cascade": {
+   "id": 804128,
+   "state": "record"
+  },
+  "Runefeed": {
+   "id": 804156,
+   "state": "record"
+  },
+  "Runelord": {
+   "id": 806984,
+   "state": "record"
+  },
+  "Runes of Quickness": {
+   "id": 560527,
+   "state": "record"
+  },
+  "Runeshroud": {
+   "id": 500288,
+   "state": "record"
+  },
+  "Runesleeve": {
+   "id": 706383,
+   "state": "record"
+  },
+  "Runeslinger": {
+   "id": 520760,
+   "state": "record"
+  },
+  "Runestone: Dazzling Spray": {
+   "id": 803010,
+   "state": "record"
+  },
+  "Runestone: Foretelling": {
+   "id": 803016,
+   "state": "record"
+  },
+  "Runestone: Frost Prison": {
+   "id": 803014,
+   "state": "record"
+  },
+  "Runestone: Frozen Touch": {
+   "id": 803015,
+   "state": "record"
+  },
+  "Runestone: Pyrostrike": {
+   "id": 803009,
+   "state": "record"
+  },
+  "Runestone: Spellsnap": {
+   "id": 803017,
+   "state": "record"
+  },
+  "Runestone: Torch": {
+   "id": 803011,
+   "state": "record"
+  },
+  "Runestone: Walking Flame": {
+   "id": 803012,
+   "state": "record"
+  },
+  "Runic Affinity": {
+   "id": 705621,
+   "state": "record"
+  },
+  "Runic Brand": {
+   "id": 712299,
+   "state": "record"
+  },
+  "Runic Breakout": {
+   "id": 705583,
+   "state": "record"
+  },
+  "Runic Convergence": {
+   "id": 705585,
+   "state": "record"
+  },
+  "Runic Devastation": {
+   "id": 560994,
+   "state": "record"
+  },
+  "Runic Devastation unused": {
+   "id": 705545,
+   "state": "record"
+  },
+  "Runic Explosion": {
+   "id": 712324,
+   "state": "record"
+  },
+  "Runic Knowledge": {
+   "id": 705578,
+   "state": "record"
+  },
+  "Runic Obliteration": {
+   "id": 705560,
+   "state": "record"
+  },
+  "Runic Power": {
+   "id": 300944,
+   "state": "record"
+  },
+  "Runic Quickness": {
+   "id": 805795,
+   "state": "record"
+  },
+  "Runic Tattoos": {
+   "id": 800736,
+   "state": "record"
+  },
+  "Runic Tattoos: Air": {
+   "id": 802630,
+   "state": "record"
+  },
+  "Runic Tattoos: Arcane": {
+   "id": 803748,
+   "state": "record"
+  },
+  "Runic Tattoos: Earth": {
+   "id": 801094,
+   "state": "record"
+  },
+  "Runic Tattoos: Fire": {
+   "id": 801106,
+   "state": "record"
+  },
+  "Runic Tattoos: Frost": {
+   "id": 807834,
+   "state": "record"
+  },
+  "Runic Tattoos: Water": {
+   "id": 801107,
+   "state": "record"
+  },
+  "Runic Tempest": {
+   "id": 560036,
+   "state": "record"
+  },
+  "Runic Wrath": {
+   "id": 800737,
+   "state": "record"
+  },
+  "Salvage Fragments": {
+   "id": 805797,
+   "state": "record"
+  },
+  "Scroll of Magic": {
+   "id": 520077,
+   "state": "record"
+  },
+  "Scrying Orb": {
+   "id": 804674,
+   "state": "record"
+  },
+  "Shrouded Hand": {
+   "id": 805383,
+   "state": "record"
+  },
+  "Shroudwalker": {
+   "id": 705563,
+   "state": "record"
+  },
+  "Sigilist": {
+   "id": 705586,
+   "state": "record"
+  },
+  "Silence In The Cage": {
+   "id": 524985,
+   "state": "record"
+  },
+  "Silencing Rune": {
+   "id": 802631,
+   "state": "record"
+  },
+  "Sky and Stone": {
+   "id": 560053,
+   "state": "record"
+  },
+  "Smolder": {
+   "id": 801087,
+   "state": "record"
+  },
+  "Sorcerer's Speedway": {
+   "id": 705561,
+   "state": "record"
+  },
+  "Speed Rune": {
+   "id": 572134,
+   "state": "record"
+  },
+  "Speedy Attuner": {
+   "id": 705554,
+   "state": "record"
+  },
+  "Spellblade": {
+   "id": 705540,
+   "state": "record"
+  },
+  "Spellblades": {
+   "id": 801084,
+   "state": "record"
+  },
+  "Spellbrand": {
+   "id": 560035,
+   "state": "record"
+  },
+  "Spellfire Runes": {
+   "id": 801511,
+   "state": "record"
+  },
+  "Stack The Deck": {
+   "id": 800711,
+   "state": "record"
+  },
+  "Steam Conjurer": {
+   "id": 805743,
+   "state": "record"
+  },
+  "Stone Petroglyph": {
+   "id": 707157,
+   "state": "record"
+  },
+  "Stratus": {
+   "id": 712404,
+   "state": "record"
+  },
+  "Surging Slash": {
+   "id": 572358,
+   "state": "record"
+  },
+  "Swift Etching": {
+   "id": 500506,
+   "state": "record"
+  },
+  "Symbols of Power": {
+   "id": 705613,
+   "state": "record"
+  },
+  "Tablet of Sorcery": {
+   "id": 705603,
+   "state": "record"
+  },
+  "Tempo": {
+   "id": 807172,
+   "state": "record"
+  },
+  "Terraglyphs": {
+   "id": 705551,
+   "state": "record"
+  },
+  "Thaumaturgy": {
+   "id": 804550,
+   "state": "record"
+  },
+  "Tome of Swiftness": {
+   "id": 802034,
+   "state": "record"
+  },
+  "Torch": {
+   "id": 500252,
+   "state": "record"
+  },
+  "Transcribing": {
+   "id": 525609,
+   "state": "record"
+  },
+  "Trap Runes": {
+   "id": 805619,
+   "state": "record"
+  },
+  "Traprune: Blasting Glyph": {
+   "id": 800403,
+   "state": "record"
+  },
+  "Traprune: Stunning Glyph": {
+   "id": 802231,
+   "state": "record"
+  },
+  "Traprune: Unmaking Glyph": {
+   "id": 802232,
+   "state": "record"
+  },
+  "Turbulence": {
+   "id": 705575,
+   "state": "record"
+  },
+  "Unbound": {
+   "id": 806718,
+   "state": "record"
+  },
+  "Unbound Energy": {
+   "id": 705570,
+   "state": "record"
+  },
+  "Uncovered Engravings": {
+   "id": 567233,
+   "state": "record"
+  },
+  "Unleash Essences": {
+   "id": 500251,
+   "state": "record"
+  },
+  "Unleashed Flame Glyph": {
+   "id": 520097,
+   "state": "record"
+  },
+  "Unleashed Power": {
+   "id": 807504,
+   "state": "record"
+  },
+  "Unmaker": {
+   "id": 705631,
+   "state": "record"
+  },
+  "Volcanic Etching": {
+   "id": 705615,
+   "state": "record"
+  },
+  "Warding Rune": {
+   "id": 804232,
+   "state": "record"
+  },
+  "Warp Shift": {
+   "id": 800120,
+   "state": "record"
+  },
+  "Warpdagger": {
+   "id": 500287,
+   "state": "record"
+  },
+  "Warpmaster": {
+   "id": 560992,
+   "state": "record"
+  },
+  "Water Carving": {
+   "id": 707142,
+   "state": "record"
+  },
+  "Water Engraving": {
+   "id": 653214,
+   "state": "record"
+  },
+  "Waveforged": {
+   "id": 500469,
+   "state": "record"
+  },
+  "Weapon Engraving: Air": {
+   "id": 653222,
+   "state": "record"
+  },
+  "Weapon Engraving: Arcane": {
+   "id": 653263,
+   "state": "record"
+  },
+  "Weapon Engraving: Earth": {
+   "id": 653218,
+   "state": "record"
+  },
+  "Weapon Engraving: Fire": {
+   "id": 653022,
+   "state": "record"
+  },
+  "Weapon Engraving: Ice": {
+   "id": 653217,
+   "state": "record"
+  },
+  "Weapon Engraving: Water": {
+   "id": 653213,
+   "state": "record"
+  },
+  "Well Educated": {
+   "id": 800495,
+   "state": "record"
+  },
+  "Whisperwind": {
+   "id": 807823,
+   "state": "record"
+  },
+  "Wild Magic": {
+   "id": 804103,
+   "state": "record"
+  },
+  "Wild Steam": {
+   "id": 802632,
+   "state": "no-record"
+  },
+  "Wind Surge": {
+   "id": 805750,
+   "state": "record"
+  },
+  "Wind Walker": {
+   "id": 807376,
+   "state": "record"
+  },
+  "Windsage": {
+   "id": 705568,
+   "state": "record"
+  },
+  "Wizardry": {
+   "id": 705632,
+   "state": "record"
+  },
+  "Word of Flames": {
+   "id": 800306,
+   "state": "record"
+  },
+  "Word of Oblivion": {
+   "id": 800333,
+   "state": "record"
+  },
+  "Words of Power": {
+   "id": 705611,
+   "state": "record"
+  },
+  "Words of Wrath": {
+   "id": 705617,
+   "state": "record"
+  },
+  "Zenith": {
+   "id": 712325,
+   "state": "record"
+  }
+ }
+}

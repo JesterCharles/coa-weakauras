@@ -27,7 +27,42 @@ from wacodec import LuaTable
 #
 # 1.2: the cooldown ladder anchors band-to-band instead of stepping by a
 # build-time row count, and the long-term row is one band per spec.
-VERSION = "1.2"
+#
+# 1.3: mana-driven tattoo swap prompts flanking the main row; the Elemental
+# Mastery transform shows on the Primordial Blast icon; and an ability a talent
+# REPLACES (Zenith under Echoes of Eternity / Runelord) no longer vanishes from
+# its row.
+#
+# 1.4: the Elemental Mastery cue never fired. The transformed spells turned out
+# to be Ignis / Hydros / Lithos / Stratus -- named, real, and in both scrapes
+# all along.
+#
+# 1.5: it still never fired, because 1.3 and 1.4 both GUESSED at the mechanism
+# instead of reading the trigger reference sitting in notes/. The transform is a
+# SPELL OVERRIDE, and `Cooldown Progress (Spell)` already resolves one and
+# publishes the result as `effectiveSpellId`. No auras, no spellbook scan, no
+# action-bar scan, no Lua.
+#
+# 1.6: `effectiveSpellId` alone still did nothing, and no community pack on
+# this fork uses it -- so it is documented but unwitnessed here. 1.6 keeps it
+# and adds a second path in the trigger shape the Templar pack proves works,
+# reading the action slot the way the player does. It also records why 1.4 was
+# never a fair test: its custom trigger mixed the two valid shapes and would
+# not have run at all.
+#
+# 1.7: read the FORK'S OWN SOURCE instead of the notes. `Prototypes.lua:3806`
+# is `local effectiveSpellId = spellname` -- this fork does no override
+# resolution at all, so 1.5 and 1.6 were dead on arrival. Rebuilt on
+# `["Spell Known"]` (`Prototypes.lua:8253`), a native fork prototype, because
+# with no override system a 3.3.5 server makes a button become another spell by
+# granting it and taking the base away.
+#
+# 1.8: `Runic Explosion` off the Engravement main row -- it is the damage
+# component of Runeblade spending Marked: Runic Brand, not a button, and had
+# occupied a main-row slot since 1.0. Runeblade now glows while the mark is up,
+# which is the cue that slot should always have been carrying. CD_PER_ROW 9->7
+# follows from the narrower row.
+VERSION = "1.8"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {
@@ -145,9 +180,13 @@ ICON_GAP = {
 #                         spells. The per-class scrape (skills + exiles) is the
 #                         forward path and needs icon-meta-runemaster.json.
 #
-# CD_PER_ROW: Runemaster's narrowest main row is five icons (228px), so
-# 28w - 2 <= 1.2 * 228 allows 9.
-CLS = W.init("runemaster", version=VERSION, prefix="RM", cd_per_row=9,
+# CD_PER_ROW: derived from the NARROWEST main row, because every resource bar
+# is width-locked to its own spec's row and a cooldown row that overruns it
+# looks broken on that spec. Engravement dropped to FOUR icons in 1.8 when
+# Runic Explosion came off (it is a damage component, not a button), so the
+# narrowest row is 4 -> row_w(4) = 182px, and 28w - 2 <= 1.2 * 182 allows 7.
+# It was 9 while the narrowest row was five icons.
+CLS = W.init("runemaster", version=VERSION, prefix="RM", cd_per_row=7,
              override=OVERRIDE, fallback=FALLBACK, crosscheck=CROSSCHECK,
              icon_gap=ICON_GAP, elsewhere=ELSEWHERE,
              icons="legacy", id_meta_file="exiles-id-meta.json",
@@ -218,7 +257,12 @@ def _bottom_rows(spec_key):
 # it, taken from the talent text.
 PROC_GLOW = {
     "Smolder": ["Spellfire Runes"],              # resets Smolder
-    "Runeblade": ["Windsage", "Surging Slash"],  # next Runeblade(s) empowered
+    # Windsage / Surging Slash empower the next Runeblade; `Marked: Runic Brand`
+    # is the one that makes it a PRIORITY -- your next Runeblade on that enemy
+    # detonates the mark. It lives on the TARGET, hence the dict form.
+    "Runeblade": [["Windsage", "Surging Slash"],
+                  {"names": ["Marked: Runic Brand"],
+                   "unit": "target", "helpful": False}],
     "Runic Brand": ["Power Overwhelming"],       # resets Runic Brand
     "Fist of the Ancients": ["Runic Tempest"],   # resets Fist of the Ancients
     "Glyphic Ruin": ["Glyphic Overload", "Eye of the Beholder"],
@@ -441,6 +485,87 @@ CORE.append("RM Alerts")
 add(B.group("RM Core", ROOT, CORE, x=0, y=0))
 
 
+# ------------------------------------------------- tattoo swap, driven by mana
+# Runic Tattoos: Water is the sustain attunement (274 mana / 5s, -5% spell
+# cost); Runic Tattoos: Fire is the damage one (+15% critical damage). The swap
+# is a MANA decision, and in a long fight it is the thing you forget, so the
+# pack asks for it where your eyes already are -- flanking the main damage row
+# rather than up in the Core alert band, which is for things you fix before the
+# pull.
+#
+#   mana < 15%, not on Water  ->  Water tattoo flashes LEFT of the main row
+#   mana >= 90%, not on Fire  ->  Fire tattoo appears RIGHT of it, glowing red
+#
+# Each prompt goes away the instant you swap, because the tattoo half of its
+# trigger pair is `showOnMissing` -- there is nothing to dismiss and no timer.
+#
+# The mana half is custom Lua rather than a Power trigger: WeakAuras' Power
+# prototype has no percentage threshold on this fork, and a bare Power trigger
+# plus a percent CONDITION would still leave the display showing (unstyled)
+# at every other mana level. A status trigger answers the whole question.
+MANA_PCT_LUA = """function()
+    local m, mx = UnitPower("player", 0), UnitPowerMax("player", 0)
+    return mx > 0 and (m / mx) * 100 %s %s
+end"""
+
+
+def mana_trigger(op, pct):
+    """Status trigger: true while player mana% satisfies `op pct`.
+
+    check="update" (polled) rather than event-driven, matching the engraving
+    reminder above. UNIT_MANA is not a reliable wake-up on this client for a
+    display that must also be correct the frame it loads.
+    """
+    return B.T({
+        "type": "custom", "custom_type": "status", "check": "update",
+        "custom": MANA_PCT_LUA % (op, pct),
+        "unit": "player", "debuffType": "HELPFUL",
+        "names": LuaTable(), "spellIds": LuaTable(),
+        "auranames": LuaTable(), "auraspellids": LuaTable(),
+        "subeventPrefix": "SPELL", "subeventSuffix": "_CAST_START",
+    })
+
+
+# (element, tattoo aura id, side, operator, threshold, colour, label)
+# Fire glows RED on purpose: at 90% mana you are not in trouble, you are
+# WASTING the damage attunement, and that has to read as an error rather than
+# as an ordinary proc.
+SWAP_PROMPTS = [
+    ("Water", "801107", -1, "<", "15", (0.35, 0.75, 1.00, 1.0), "LOW MANA"),
+    ("Fire", "801106", +1, ">=", "90", (1.00, 0.20, 0.20, 1.0), "BACK TO FIRE"),
+]
+# Two triggers meaning AND. apply_leaf_gates() rewrites every multi-trigger
+# display to any-of unless its id is listed here, and either half alone is true
+# for most of a fight -- as any-of these would be on permanently.
+SWAP_NEEDS_ALL = set()
+
+
+def tattoo_prompts(spec_name, out, main_row):
+    """Flank `spec_name`'s main row with the two swap prompts.
+
+    Fixed x, not a dynamic group: the point of the Fire prompt is that it is on
+    the RIGHT, and a dynamic group would centre a lone child over the rotation.
+    `main_row` is that spec's main-row icon count, which is what sets the
+    offset -- Riftblade's row is six icons wide where the others are five.
+    """
+    half = row_w(main_row) / 2 + GAP + SZ_MAIN / 2
+    for elem, aura_id, side, op, pct, col, label in SWAP_PROMPTS:
+        did = f"RM {spec_name} Swap {elem}"
+        out.append(add(B.icon(
+            did, f"RM {spec_name}",
+            [mana_trigger(op, pct),
+             B.aura_trigger([aura_id, f"Runic Tattoos: {elem}"],
+                            own_only=False, show_on="showOnMissing")],
+            ic(f"Runic Tattoos: {elem}"),
+            x=int(side * half), y=Y_MAIN, size=SZ_MAIN, cooldown=False,
+            subregions=[B.sub_background(),
+                        B.sub_text(label, size=9, anchor="INNER_BOTTOM",
+                                   color=col),
+                        B.sub_border(color=col, size=2, offset=1, edge=EDGE),
+                        B.sub_glow(True, "buttonOverlay", col)])))
+        SWAP_NEEDS_ALL.add(did)
+
+
 # =============================================================== 2. GLYPHIC
 G = []
 G.append(cd_group("RM Glyphic Main", "RM Glyphic",
@@ -476,15 +601,31 @@ SHORT_ENTRIES + [("Flame Glyph", (0.95, 0.45, 0.15), {"unit": "target", "helpful
      ("Manuscription", (0.75, 0.45, 0.95), {"unit": "target", "helpful": False}),
      ("Unleashed Power", (0.60, 0.80, 1.00), {"unit": "target", "helpful": False}),
      ("Magic Etchings", (0.80, 0.70, 0.50), {"unit": "target", "helpful": False})])
+tattoo_prompts("Glyphic", G, 5)
 longterm_band("Glyphic", G, _y_G)
 # One row: what is up on me (short buffs) and on my target (debuffs).
 add(spec_group("RM Glyphic", G, spec_gate("Glyphic")))
 
 # ============================================================ 3. ENGRAVEMENT
 E = []
+# `Runic Explosion` is NOT on this row, and never should have been. It is the
+# damage COMPONENT of Runeblade spending the mark, not a button:
+#
+#   Marked: Runic Brand -- "Your next Runeblade on the enemy causes a Runic
+#   Explosion, dealing an additional AP Spellfire Damage to nearby enemies."
+#
+# Three sources agree. db.exil.es gives it rank="Damage", cd=0 and **gcd=0** --
+# a player button has a global. The class skillbook lists Runeblade and Runic
+# Brand as `meta: "Ability"` and does not contain Runic Explosion at all. And
+# the rotation text speaks of it as something that happens ("Runic Explosion
+# into Wild Steam for AoE"), never as something you press.
+#
+# It shipped on the main row from 1.0 and survived an in-game verification --
+# because that verification confirmed the ART RESOLVED, which is a different
+# question from whether the icon means anything. The row is four buttons.
 E.append(cd_group("RM Engravement Main", "RM Engravement",
                   ["Runeblade", "Fist of the Ancients", "Runic Brand",
-                   "Primordial Blast", "Runic Explosion"],
+                   "Primordial Blast"],
                   y=Y_MAIN, size=SZ_MAIN, glow=GLOW, text_size=14))
 E.append(mana_bar("RM Engravement Mana", "RM Engravement", Y_BAR_SOLO,
                   (0.30, 0.45, 0.95, 1.0), w=row_w(5)))
@@ -503,6 +644,7 @@ _y_E = emit_bottom_block("Engravement", "engravement", E,
                      ("Convergence", (0.8, 0.7, 1.0))],
 SHORT_ENTRIES + [("Genesis", (0.80, 0.50, 1.00), {"unit": "target", "helpful": False}),
      ("Magic Etchings", (0.80, 0.70, 0.50), {"unit": "target", "helpful": False})])
+tattoo_prompts("Engravement", E, 5)
 longterm_band("Engravement", E, _y_E)
 # Palm Sigils are not Riftblade-only -- Engravement uses them too -- so they get
 # the same state band under the resource bar. Carvings are a random proc off
@@ -534,6 +676,7 @@ _y_R = emit_bottom_block("Riftblade", "riftblade", R,
 SHORT_ENTRIES + [("Smolder", (1.00, 0.50, 0.15), {"unit": "target", "helpful": False}),
      ("Hoarfrost", (0.45, 0.80, 1.00), {"unit": "target", "helpful": False}),
      ("Runestone: Torch", (1.00, 0.70, 0.30), {"unit": "target", "helpful": False})])
+tattoo_prompts("Riftblade", R, 6)
 longterm_band("Riftblade", R, _y_R)
 # One row: what is up on me (short buffs) and on my target (debuffs).
 add(spec_group("RM Riftblade", R, spec_gate("Riftblade")))
@@ -553,6 +696,195 @@ W.configure(merge_bands=MERGE_BANDS)
 
 merge_bands()
 
+
+# ------------------------------------------- Elemental Mastery, on the main row
+# Elemental Mastery (806711, Engravement): "Damage dealt by Runic Brand now has
+# a 33% chance to transform your Primordial Blast into a random unique
+# elemental version of itself."
+#
+#     Ignis    712668   fire   -- 555 Fire, +10% Brand effectiveness 6s
+#     Hydros   713002   water  -- 555 Frost, -25% root/slow duration 6s
+#     Lithos   712858   earth  -- 681 Physical, -5% damage taken 6s
+#     Stratus  712404   wind   -- 681 Physical, +5% attack speed 6s
+#
+# All four carry NO cooldown of their own where Primordial Blast has 8s. That
+# is the load-bearing fact: a free, no-cooldown nuke cannot be permanently
+# castable or you would simply spam it, so the four can only be REACHABLE while
+# the proc is armed. Whatever the server does, it does something that takes
+# them away again.
+#
+# ------------------------------------------------------------------ WHAT FAILED
+# Three cues shipped and none fired. The last two were built on
+# `effectiveSpellId`, which `notes/weakauras-data-model.md:871` lists as a
+# condition variable of `Cooldown Progress (Spell)`. Reading the FORK's own
+# source (Ascension-Addons/WeakAuras-Ascension, `Prototypes.lua:3806`) settles
+# why that could never have worked:
+#
+#     local effectiveSpellId = spellname
+#
+# On this fork `effectiveSpellId` is the id you typed, verbatim. There is no
+# override resolution anywhere in the file -- `ignoreoverride` does not appear
+# in it at all -- so the variable can never equal 712668 and the condition
+# could never fire. That entry in notes/ was transcribed from UPSTREAM
+# WeakAuras, which does resolve overrides; the fork does not. The doc has been
+# corrected.
+#
+# The retail habit of tracking a transform through the override API (Condemn
+# replacing Execute, Lava Beam replacing Chain Lightning) is therefore simply
+# unavailable here: `FindSpellOverrideByID` is Cataclysm-era and this is a
+# 3.3.5 client.
+#
+# --------------------------------------------------------------- WHAT REPLACES IT
+# With no override system, a 3.3.5 server has one ordinary way to make a button
+# become a different spell: GRANT the replacement and take the base away. That
+# is observable, and the fork has a native prototype for exactly it --
+# `["Spell Known"]` (`Prototypes.lua:8253`), which runs
+# `IsSpellKnown(spellName)` off SPELLS_CHANGED and PLAYER_TALENT_UPDATE, and
+# stores both `name` and `icon`.
+#
+# So the cue is now four Spell Known triggers, one per element. Each is native,
+# each re-evaluates on the event the server would fire, and each carries the
+# real spell's own art -- which matters because none of the four resolve to art
+# in any scrape, so `iconSource` pointed at the trigger is the only way to get
+# the right texture.
+#
+# ⚠️ `Spell Known` takes a NUMBER. `Prototypes.lua:8271` reads
+# `type(trigger.spellName) == "number" and trigger.spellName or 0`, so a string
+# id silently becomes spell 0 and the trigger never fires.
+ELEM_BLASTS = [
+    ("Ignis", 712668, (1.00, 0.45, 0.15)),      # fire
+    ("Hydros", 713002, (0.20, 0.55, 0.90)),     # water
+    ("Lithos", 712858, (0.62, 0.44, 0.20)),     # earth
+    ("Stratus", 712404, (0.70, 0.90, 0.95)),    # wind
+]
+
+# Second path, kept because it is orthogonal to the first and costs one trigger:
+# if the server swaps the ACTION BUTTON without granting the spell, Spell Known
+# stays false and this still sees it. Shape copied from the Templar pack's
+# Templar_Energy_Bar, the only witnessed custom status trigger on this client --
+# `custom_type = "status"` with `check = "update"`, and a GetTime() throttle
+# rather than per-frame work.
+ELEM_ARMED_LUA = """function()
+    local env = aura_env
+    if env.stamp and env.stamp > GetTime() - 0.2 then
+        return env.armed ~= nil
+    end
+    env.stamp = GetTime()
+    env.armed, env.icon = nil, nil
+
+    local ELEM = {%s}
+
+    local function cast(s)
+        local kind, id = GetActionInfo(s)
+        if kind == "spell" then return id end
+    end
+
+    -- the slot holding Primordial Blast, cached, re-found whenever it stops
+    -- holding either form of the spell
+    local id = env.bar and cast(env.bar)
+    if not (id == 800732 or (id and ELEM[id])) then
+        env.bar = nil
+        for s = 1, 120 do
+            if cast(s) == 800732 then
+                env.bar = s
+                break
+            end
+        end
+        id = env.bar and cast(env.bar)
+    end
+    if id and ELEM[id] then
+        env.armed = ELEM[id]
+        env.icon = GetActionTexture(env.bar)
+        return true
+    end
+
+    return false
+end""" % ", ".join('[%d] = "%s"' % (i, n.upper()) for n, i, _ in ELEM_BLASTS)
+
+
+ELEM_MASTERY_LEAVES = set()
+
+
+def elemental_mastery():
+    """Light the Primordial Blast icon for whichever elemental version is armed.
+
+    Runs AFTER merge_bands(), which is what decides whether the ability is one
+    shared `RM Main Primordial Blast` or one copy per spec.
+    """
+    hit = 0
+    for c in children:
+        if "Main" not in c["id"] or not c["id"].endswith(" Primordial Blast"):
+            continue
+        ELEM_MASTERY_LEAVES.add(c["id"])
+
+        trigs = triggers_of(c)
+        # An overridden or swapped base spell must not read as "not known" and
+        # blank the icon. This flag DOES exist on the fork
+        # (`Prototypes.lua:3986`), unlike use_ignoreoverride.
+        trigs[0]["use_ignoreSpellKnown"] = True
+
+        known = {}
+        for name, spell_id, _ in ELEM_BLASTS:
+            trigs.append(B.spell_known_trigger(spell_id))
+            known[name] = len(trigs)
+        trigs.append(B.T({
+            "type": "custom", "custom_type": "status", "check": "update",
+            "custom": ELEM_ARMED_LUA,
+            "customIcon": "function()\n    return aura_env.icon\nend",
+            "customName": "function()\n    return aura_env.armed or \"\"\nend",
+            "unit": "player", "debuffType": "HELPFUL",
+            "names": LuaTable(), "spellIds": LuaTable(),
+            "auranames": LuaTable(), "auraspellids": LuaTable(),
+            "subeventPrefix": "SPELL", "subeventSuffix": "_CAST_START",
+        }))
+        armed = len(trigs)
+        c["triggers"] = B._trigger_wrap(trigs)
+
+        subs = c["subRegions"].array_part()
+        subs.append(B.sub_glow(False, "buttonOverlay", (1.0, 0.85, 0.35, 1.0)))
+        glow = len(subs)
+        labels = {}
+        for name, _, col in ELEM_BLASTS:
+            subs.append(B.sub_text(name.upper(), size=10,
+                                   anchor="INNER_BOTTOM",
+                                   color=col + (1.0,), visible=False))
+            labels[name] = len(subs)
+        # The Lua path names the element itself, via customName. Same anchor as
+        # the four fixed labels on purpose: if both paths fire they draw the
+        # same word in the same place and read as one label.
+        lua_label = B.sub_text(f"%{armed}.n", size=10, anchor="INNER_BOTTOM",
+                               color=(1.0, 0.85, 0.35, 1.0), visible=False)
+        lua_label[f"text_text_format_{armed}.n_format"] = "none"
+        subs.append(lua_label)
+        c["subRegions"] = B.arr(subs)
+
+        conds = c["conditions"].array_part()
+        # Lua path FIRST so the element colour from the native path lands last
+        # and wins when both fire. Later changes override earlier ones.
+        conds.append(B.cond(
+            B.T({"trigger": armed, "variable": "show", "value": 1}),
+            [B.change(f"sub.{glow}.glow", True),
+             B.change(f"sub.{len(subs)}.text_visible", True),
+             B.change("iconSource", armed)]))
+        for name, _, col in ELEM_BLASTS:
+            t = known[name]
+            conds.append(B.cond(
+                B.T({"trigger": t, "variable": "show", "value": 1}),
+                [B.change(f"sub.{glow}.glow", True),
+                 B.change(f"sub.{glow}.glowColor", B.rgba(*col, 1.0)),
+                 B.change("sub.2.border_color", B.rgba(*col, 1.0)),
+                 B.change(f"sub.{labels[name]}.text_visible", True),
+                 # Spell Known stores `icon`, so this is the spell's real art.
+                 B.change("iconSource", t)]))
+        c["conditions"] = B.arr(conds)
+        hit += 1
+    if not hit:
+        raise SystemExit("elemental_mastery(): no Primordial Blast main-row "
+                         "leaf found -- the band naming changed underneath it")
+
+
+elemental_mastery()
+
 # ---------------------------------------------------------------- leaf gating
 # A plain `group`'s triggers/conditions/load are INERT: WeakAuras skips
 # load-scanning for any aura with controlledChildren, and never registers a
@@ -568,10 +900,31 @@ SPEC_KNOWN = {
     "Engravement": 712326,   # Fist of the Ancients
     "Riftblade": 801104,     # Hoarfrost
 }
-W.configure(spec_known=SPEC_KNOWN)
+W.configure(spec_known=SPEC_KNOWN, needs_all=SWAP_NEEDS_ALL)
 
 
 _GATED, _ANY, _CLASSED = apply_leaf_gates()
+
+# An ability all three specs share gets `load.spellknown = <its own id>`, which
+# is right everywhere except here. `load` is IsSpellKnown, and IsSpellKnown is
+# exact: if an override makes 800732 read as not-known, SPELLS_CHANGED triggers
+# a load rescan and the display UNLOADS -- so the icon would vanish at exactly
+# the instant Elemental Mastery is supposed to be shouting at you. The trigger
+# opts out of the same trap with `use_ignoreSpellKnown`; `load` has no such
+# switch, so the gate comes off. Class gate only.
+#
+# The cost is that a character below level 2 sees a Primordial Blast icon they
+# have not learned. That is the trade apply_leaf_gates() already documents for
+# ranked spells, and it is the cheaper side by a wide margin.
+#
+# Spec-scoped packs are untouched: there the gate is the spec's signature
+# spell, which no talent replaces.
+if not SPEC_ONLY:
+    for _leaf in (c for c in children if c["id"] in ELEM_MASTERY_LEAVES):
+        if _leaf["load"].pop("spellknown", None) is not None:
+            _leaf["load"]["use_spellknown"] = False
+            _GATED -= 1
+
 assert_gated()
 W.chain_ladder()
 if SPEC_ONLY:

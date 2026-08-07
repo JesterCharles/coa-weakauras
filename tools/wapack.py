@@ -157,6 +157,10 @@ SPEC_TEXT = {}
 IN_GAME = {}
 ID_OVERRIDE = {}
 VARIANTS = {}
+# The BASE id of every ability a talent can replace outright. Derived from
+# VARIANTS in init(); read by cd_icon (drop exact matching) and by
+# apply_leaf_gates (never gate on an id the character may not have).
+VARIANT_BASE = set()
 OFF_GCD = set()
 ELSEWHERE = set()
 UNRESOLVED = []
@@ -208,7 +212,8 @@ def init(slug, version, prefix, *, cd_per_row=None, spec_env="WA_SPEC",
     global CLS, VERSION, PFX, SPEC_ONLY, SPEC_TITLE, SPECS, SPEC_NAMES
     global CLASS_TOKEN, ROOT, TOP, root, children
     global EXILES, COOLDOWNS, SPELL_META, ICONS, ID_META, ABILITIES, SPEC_IDS
-    global SPEC_TEXT, IN_GAME, ID_OVERRIDE, VARIANTS, OFF_GCD, ELSEWHERE
+    global SPEC_TEXT, IN_GAME, ID_OVERRIDE, VARIANTS, VARIANT_BASE
+    global OFF_GCD, ELSEWHERE
     global OVERRIDE, FALLBACK, ICON_GAP, CD_PER_ROW
     global ROLES_FROM_INVENTORY, TRUST_SPELL_META, OVERRIDE_FIRST
     global BALANCED_ROWS
@@ -301,6 +306,7 @@ def init(slug, version, prefix, *, cd_per_row=None, spec_env="WA_SPEC",
     # talent. Every known id gets its own trigger, any-of.
     VARIANTS = {k: [v["id"]] + list(v.get("variants", []))
                 for k, v in _verified.items()}
+    VARIANT_BASE = {v["id"] for v in _verified.values() if v.get("variants")}
 
     # Which spec pages mention an ability. Read from resources/ and driven off
     # classes.py -- never from an out-of-repo path, or the build stops being
@@ -686,7 +692,16 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False,
     # Name matching is rank-agnostic, which is exactly what a cooldown row
     # wants: you care that Gravity Bomb is on cooldown, not which rank of it.
     _sid = sid_for(name, spec)
-    _exact = gateable(_sid)
+    # A talent can REPLACE an ability rather than modify it. Echoes of Eternity
+    # / Runelord swap Zenith 712325 for 712389 -- a different spell, not an
+    # extra charge -- and an exact-id trigger on the base then matches nothing
+    # once you take the talent. The icon does not dim, it DISAPPEARS: a dynamic
+    # group lays out only children that are showing, so the row silently closes
+    # up around the hole. Both ids carry the same NAME, so dropping exactness
+    # is what follows the swap. VARIANT_BASE comes from the `variants` key in
+    # in-game-verified.json, which is where that ground truth already lived --
+    # it was recorded and then never read.
+    _exact = gateable(_sid) and _sid not in VARIANT_BASE
     # OFF_GCD is name-keyed off the cooldown audit, which is also name-keyed, so
     # a split ability gets ONE answer for both halves. Buy Time is on the global
     # for Artificer/Infinite and off it for Time; the audit has no row for
@@ -753,14 +768,40 @@ def cd_icon(display_id, parent, name, size, charges=False, urgency=False,
 
     procs = PROC_GLOW.get(name)
     if procs:
-        triggers.append(B.aura_trigger(
-            [str(sid(pn)) for pn in procs] + procs, own_only=False))
-        proc_trigger = len(triggers)
-        conds.append(B.cond(
-            B.T({"trigger": proc_trigger, "variable": "show", "value": 1}),
-            [B.change(f"sub.{glow_index}.glow", True),
-             B.change(f"sub.{glow_index}.glowColor",
-                      B.rgba(1.0, 0.95, 0.5, 1.0))]))
+        # A proc is usually a buff on YOU, but not always. Runemaster's
+        # `Marked: Runic Brand` sits on the TARGET, and the cue it drives --
+        # "your next Runeblade spends this" -- is the most important press in
+        # the spec.
+        #
+        # They also MIX, and that is why this is a list of GROUPS rather than
+        # one trigger with a unit. Runeblade is lit by Windsage and Surging
+        # Slash (buffs on you) AND by the mark (a debuff on the target); one
+        # aura trigger can only ask about one unit, so folding them together
+        # silently breaks whichever half loses. A group is either a plain list
+        # of names (a buff on you) or a dict {names, unit, helpful}.
+        _groups = procs if isinstance(procs, list) and procs and isinstance(
+            procs[0], (list, dict)) else [procs]
+        proc_trigger = None
+        for _g in _groups:
+            _opts, _names = {}, _g
+            if isinstance(_g, dict):
+                _opts = {k: v for k, v in _g.items() if k != "names"}
+                _names = _g["names"]
+            triggers.append(B.aura_trigger(
+                [str(sid(pn)) for pn in _names] + list(_names),
+                own_only=False,
+                unit=_opts.get("unit", "player"),
+                helpful=_opts.get("helpful", True)))
+            _t = len(triggers)
+            # The FIRST group owns `proc_trigger`, which is what PROC_STACKS
+            # reads -- a stack count belongs to one aura, not to whichever
+            # group happens to be last.
+            proc_trigger = proc_trigger or _t
+            conds.append(B.cond(
+                B.T({"trigger": _t, "variable": "show", "value": 1}),
+                [B.change(f"sub.{glow_index}.glow", True),
+                 B.change(f"sub.{glow_index}.glowColor",
+                          B.rgba(1.0, 0.95, 0.5, 1.0))]))
         if name in PROC_STACKS:
             # `%s` is trigger 1's stack count, which on a spell cooldown
             # trigger means CHARGES -- Reverse Wound has none, so it would
@@ -923,9 +964,17 @@ def dot_bars(gid, parent, entries, y, x=0, unit="target", helpful=False,
         _sid = sid(name)
         _ranked = str((SPELL_META.get(str(_sid)) or {}).get("rank") or "") \
             .startswith("Rank ")
+        # `by_name` is the third case, and it is about PROVENANCE rather than
+        # ranks. A PASSIVE that applies a same-named aura -- Pyromancer's
+        # Inferno, "direct healing crits have a 50% chance to create an Inferno
+        # around the target" -- resolves to the passive's id in every scrape,
+        # while the thing actually sitting on the ally is a different spell
+        # nobody has captured. Exact-id would match nothing and fail silently.
+        # Matching id OR name covers both without guessing which is right.
+        _by_name = bool((note or {}).get("by_name"))
         _trig = (B.aura_trigger([str(_sid)], unit=unit, helpful=helpful,
                                 exact_id=True)
-                 if not _ranked else
+                 if not (_ranked or _by_name) else
                  B.aura_trigger([str(_sid), name], unit=unit, helpful=helpful))
         ids.append(add(B.icon(
             f"{gid} {name}", gid, [_trig],
@@ -1476,7 +1525,12 @@ def apply_leaf_gates():
             # class gate alone shows it on all three specs, which is right:
             # every spec HAS the ability, we just cannot express "knows any
             # rank of it" in a single spellknown id.
-            if own_id and not gateable(own_id):
+            #
+            # Neither can an ability a talent REPLACES: IsSpellKnown is exact,
+            # so gating on the base id unloads the display for exactly the
+            # players who took the talent. Same failure as the exact-id trigger
+            # in cd_icon, on the load side.
+            if own_id and (not gateable(own_id) or own_id in VARIANT_BASE):
                 own_id = None
             if own_id:
                 c["load"]["use_spellknown"] = True
@@ -1636,6 +1690,77 @@ def chain_ladder():
             if band in have and prev in have:
                 anchor_below(band, prev, gap=gap)
                 prev = band
+
+
+def spell_swap(ability, replacements, label_size=10):
+    """Make one icon follow a talent that REPLACES or TRANSFORMS its ability.
+
+    A 3.3.5 client has no spell-override system -- this fork's
+    `Cooldown Progress (Spell)` sets `effectiveSpellId = spellname` verbatim
+    (`Prototypes.lua:3806`), `use_ignoreoverride` does not exist, and
+    `FindSpellOverrideByID` is Cataclysm-era. So the retail habit of following
+    an override is unavailable, and the server's only ordinary way to change a
+    button is to GRANT the replacement and take the base away.
+
+    `["Spell Known"]` (`Prototypes.lua:8253`) reads exactly that, off
+    SPELLS_CHANGED and PLAYER_TALENT_UPDATE, and stores the spell's own `name`
+    and `icon` -- which is usually the ONLY source of art for a replacement,
+    since a talent-only spell rarely resolves in a scrape.
+
+    Proven on Runemaster 1.7 (Elemental Mastery -> Ignis / Hydros / Lithos /
+    Stratus) after three releases that guessed at auras, the spellbook and the
+    action bar instead.
+
+    `ability`   the name the leaf id ends with, e.g. "Explode"
+    `replacements`  [(name, spell_id, (r,g,b)), ...]
+
+    ⚠️ `Spell Known` takes a NUMBER. `Prototypes.lua:8271` reads
+    `type(trigger.spellName) == "number" and trigger.spellName or 0`, so a
+    string id silently becomes spell 0 and the trigger never fires.
+    """
+    hit = 0
+    for c in children:
+        if c.get("controlledChildren") or not c["id"].endswith(" " + ability):
+            continue
+        trigs = triggers_of(c)
+        # An ability the talent takes away must not read as "not known" and
+        # blank the icon. This flag DOES exist on the fork (:3986).
+        trigs[0]["use_ignoreSpellKnown"] = True
+
+        known = {}
+        for name, spell_id, _ in replacements:
+            trigs.append(B.spell_known_trigger(int(spell_id)))
+            known[name] = len(trigs)
+        c["triggers"] = B._trigger_wrap(trigs)
+
+        subs = c["subRegions"].array_part()
+        subs.append(B.sub_glow(False, "buttonOverlay", (1.0, 0.85, 0.35, 1.0)))
+        glow = len(subs)
+        labels = {}
+        for name, _, col in replacements:
+            subs.append(B.sub_text(name.split()[-1].upper(), size=label_size,
+                                   anchor="INNER_BOTTOM",
+                                   color=tuple(col) + (1.0,), visible=False))
+            labels[name] = len(subs)
+        c["subRegions"] = B.arr(subs)
+
+        conds = c["conditions"].array_part()
+        for name, _, col in replacements:
+            t = known[name]
+            conds.append(B.cond(
+                B.T({"trigger": t, "variable": "show", "value": 1}),
+                [B.change(f"sub.{glow}.glow", True),
+                 B.change(f"sub.{glow}.glowColor", B.rgba(*col, 1.0)),
+                 B.change("sub.2.border_color", B.rgba(*col, 1.0)),
+                 B.change(f"sub.{labels[name]}.text_visible", True),
+                 # Spell Known stores `icon`, so this is the real art.
+                 B.change("iconSource", t)]))
+        c["conditions"] = B.arr(conds)
+        hit += 1
+    if not hit:
+        raise SystemExit(f"spell_swap({ability!r}): no leaf found -- the band "
+                         f"naming changed underneath it")
+    return hit
 
 
 def settle_icon_source(manual=()):

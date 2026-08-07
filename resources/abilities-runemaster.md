@@ -15,6 +15,18 @@ two things takes the first that applies.
 A Notes cell starting `seed:` is a row the seeder wrote and nobody has
 reviewed. Delete the prefix once you have placed the ability.
 
+`verified in game` in a Notes cell is WEAKER THAN IT READS. It is
+`backfill_roles.py` provenance and it means one thing: this ability appears in
+the shipped pack, and that pack version was confirmed in game. It is NOT a
+tooltip reading, it does NOT carry a date, and it asserts nothing about whether
+the ability still behaves the way the row describes. A display can be on screen
+and verified while the aura behind it never lands — which is exactly what a
+server rework produces, and exactly what a layout-focused verification pass
+walks straight past. Check `resources/verified-builds.json` for the version's
+`verified_at` and compare it against the changelog before leaning on the phrase.
+Per-tooltip ground truth lives in `tools/in-game-verified.json`, which is a
+different and stronger claim.
+
 Role and ID both take per-spec overrides, `<default>; <spec>:<value>`:
 `defensive; time:offensive` renders one ability in two different rows, and
 `520188; time:801280` covers the case where one NAME is two different
@@ -36,6 +48,7 @@ spells — the specs that have no override use the default.
 | Aspect of The Rune Knight | 804151 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Augur's Shield | 804126 | riftblade | defensive | Rank 1 | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Blade Rift | 520237 | all | buff | Passive | shipped pack, band RM Buffs; verified in game |
+| Battle Engravings | 706674 | all | ignore | Passive | db.exil.es rank=Passive -- modifies Ley Lock (removes its cast time, -0.5s duration), not a button. Changelog 2026/08/03 moved it from the Class Tree to the Talent Tree, so ALL Runemasters can now take it |
 | Bounty Hunter | 705510 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Bursting Pulses | 300584 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Casting Cuffs | 706363 | engravement | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
@@ -80,7 +93,7 @@ spells — the specs that have no override use the default.
 | Fire Blade | 706665 | all | main |  | 6% mana, 1s GCD, no cooldown, generates 1 Fire Sigil -- a filler |
 | Fire Carving | 706520 | all | buff | Refresh Charge | shipped pack, `RM Engravement Buffs Fire Carving`; verified in game |
 | Fire Engraving | 653211 | all | longterm | Passive | tracked collectively by the per-element RM Engraving displays and the No Engraving alert |
-| Fist of the Ancients | 712326 | glyphic,engravement | main |  | shipped pack, band RM Main; verified in game |
+| Fist of the Ancients | 712326 | glyphic,engravement | main |  | shipped pack, band RM Main; verified in game. Changelog 2026/07/31: 65% -> 58% Attack Power scaling plus 20% Spell Power where it had none. Same stat-weight shift as Runic Brand |
 | Fists of Power | 92153 | all | offensive |  | shipped pack, band RM Offense; verified in game |
 | Flame Glyph | 520091 | all | buff |  | shipped pack, band RM Buffs; verified in game |
 | Focusing Crystals | 705564 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
@@ -121,11 +134,13 @@ spells — the specs that have no override use the default.
 | Guarding Rune | 500464 | engravement | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Hasty Imbue | 705584 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
 | Hired Crossbow | 705501 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
-| Hoarfrost | 801104 | all | main | Rank 1 | shipped pack, band RM Main; verified in game |
+| Hoarfrost | 801104 | all | main | Rank 1 | shipped pack, band RM Main; verified in game. Changelog 2026/07/31 took its AoE range from 5 to 8 yds. Numbers only |
 | Homebound Runestone | 560316 | glyphic | ignore |  | 30 min cooldown, sets your hearthstone, not usable in combat -- no rotation or CD-management value |
 | Hurricane | 645435 | engravement,riftblade | main |  | shipped pack, band RM Main; verified in game |
+| Hydros | 713002 | engravement | main |  | Elemental Mastery transforms Primordial Blast into this; drawn ON the Primordial Blast icon rather than as a row of its own |
 | Ice Engraving | 653266 | all | longterm | Passive | tracked collectively by the per-element RM Engraving displays and the No Engraving alert |
 | Ice Rune | 524930 | riftblade | utility |  | shipped pack, band RM Utility; verified in game |
+| Ignis | 712668 | engravement | main |  | Elemental Mastery transforms Primordial Blast into this; drawn ON the Primordial Blast icon rather than as a row of its own |
 | Improved Atomic Split | 802035 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Improved Fastcast | 705637 | all | ignore | Rank 2 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Improved Primordial Blast | 705607 | all | ignore | Rank 2 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
@@ -150,6 +165,7 @@ spells — the specs that have no override use the default.
 | Leyline Disturbance | 560540 | all | longterm | Passive | shipped pack, band RM Longterm; verified in game |
 | Leyline Rider | 805616 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Leystone Springs | 300581 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
+| Lithos | 712858 | engravement | main |  | Elemental Mastery transforms Primordial Blast into this; drawn ON the Primordial Blast icon rather than as a row of its own |
 | Magebreaker | 704430 | all | defensive |  | shipped pack, band RM Utility (builder DEFENSIVE list); verified in game |
 | Magic Etchings | 300582 | all | buff | Passive | shipped pack, band RM Buffs; verified in game |
 | Magic Feeder | 705546 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
@@ -161,12 +177,14 @@ spells — the specs that have no override use the default.
 | Master Engraver | 705605 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
 | Master of Runes | 804531 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
 | Melting Runes | 803013 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
-| Mind Over Matter | 802669 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
-| Mind Wrath | 800757 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
+| Mind Over Matter | 802669 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability. Changelog 2026/08/03 swapped it into the Class Tree in place of Battle Engravings. Tree filing, not a rotation change |
+| Mind Wrath | 800757 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability. Changelog 2026/08/03 buffed it to 2 targets from 1 and made it a SWITCH NODE with Battle Engravings -- you take one or the other. Both sides of the switch are passives, so neither state changes what renders |
 | Mystical Etchings | 806795 | all | ignore | Rank 1 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Nomad's Scroll | 707653 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Open Riftgate | 500279 | glyphic,engravement | utility |  | shipped pack, band RM Utility; verified in game |
+| Overloaded Flame Glyph | 520107 | glyphic | ignore |  | the empowered Flame Glyph DoT (2 extra targets, 12s). The base Flame Glyph is what the glyph bar and target band track; changelog 2026/07/31 set this duration to 12s and the scrape already agrees |
 | Palm Sigil: Arcane | 805380 | all | buff |  | shipped pack, band RM Buffs; verified in game |
+| Unleashed Flame Glyph | 520097 | glyphic | ignore |  | the other empowered Flame Glyph DoT (10s). Changelog 2026/07/31 set this duration to 10s and the scrape already agrees |
 | Palm Sigil: Earth | 560233 | all | buff |  | shipped pack, band RM Buffs; verified in game |
 | Palm Sigil: Fire | 534803 | all | buff | Rank 1 | shipped pack, band RM Buffs; verified in game |
 | Palm Sigil: Frost | 805381 | all | buff |  | shipped pack, band RM Buffs; verified in game |
@@ -188,7 +206,7 @@ spells — the specs that have no override use the default.
 | Primordial Power | 680466 | all | ignore | Rank 2 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Primordial Pulse | 300578 | all | offensive | Rank 1 | glyphic, 20% mana, ground AoE dealing Elemental Damage every sec -- an AoE damage ability |
 | Primordial Salvos | 800752 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
-| Primordial Strength | 301149 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 20" -- not a player button |
+| Primordial Strength | 301149 | all | ignore | Specialization | skillbook says "Ability Passive Lvl 20" -- not a player button. Changelog 2026/07/31 raised its Attack-Power-to-Spell-Power conversion from 25% to 30%, which is the passive behind the AP->SP shift on Runic Brand and Fist of the Ancients. Numbers, and a passive |
 | Primordial Studies | 524982 | all | ignore |  | skillbook says "Ability Passive" -- not a player button |
 | Primordialism | 520054 | all | buff | Passive | shipped pack, band RM Buffs; verified in game |
 | Prismatic Blade | 804127 | riftblade | offensive | Rank 1 | shipped pack, band RM Offense; verified in game |
@@ -223,12 +241,12 @@ spells — the specs that have no override use the default.
 | Runestone: Torch | 803011 | all | buff |  | shipped pack, band RM Buffs; verified in game |
 | Runestone: Walking Flame | 803012 | all | ignore |  | skillbook says "Ability Passive - Runestone" -- not a player button |
 | Runic Affinity | 705621 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
-| Runic Brand | 712299 | glyphic,engravement | main |  | shipped pack, band RM Main; verified in game |
+| Runic Brand | 712299 | glyphic,engravement | main |  | shipped pack, band RM Main; verified in game. Changelog 2026/07/31 moved it from 30% to 28% Attack Power scaling and gave it 15% Spell Power scaling where it had none. A stat-weight change, not a press-order one |
 | Runic Breakout | 705583 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
 | Runic Convergence | 705585 | all | ignore |  | skillbook says "Talent Passive" -- not a player button |
 | Runic Devastation | 560994 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Runic Devastation unused | 705545 | all | ignore |  | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
-| Runic Explosion | 712324 | all | main | Damage | shipped pack, `RM Engravement Main Runic Explosion`; verified in game |
+| Runic Explosion | 712324 | all | ignore | Damage | NOT A BUTTON. rank='Damage', cd=0 and gcd=0; absent from the class skillbook, which lists Runeblade and Runic Brand as Ability. `Marked: Runic Brand` reads "your next Runeblade on the enemy causes a Runic Explosion" -- this is that component. Shipped on the Engravement main row 1.0-1.7 and removed in 1.8. ⚠️ THIS CLOSES THE 07/31 QUESTION: "Runic Explosion base damage increased by ~25%" was the entry held open on whether it moves Engravement press order. It does not, because there is no button to move -- a component getting 25% louder means RUNEBLADE hits harder while the mark is up, which is exactly the cue 1.8 already built (Runeblade glows on `Marked: Runic Brand`). The entry corroborates that change rather than asking for a new one |
 | Runic Knowledge | 705578 | all | ignore |  | skillbook says "Talent Passive" -- not a player button |
 | Runic Obliteration | 705560 | all | main | Specialization | shipped pack, band RM Main; verified in game |
 | Runic Power | 300944 | all | longterm | Passive | shipped pack, band RM Longterm; verified in game |
@@ -262,11 +280,12 @@ spells — the specs that have no override use the default.
 | Stack The Deck | 800711 | glyphic | offensive |  | shipped pack, band RM Offense; verified in game |
 | Steam Conjurer | 805743 | all | ignore |  | db.exil.es rank=Passive -- not a castable ability |
 | Stone Petroglyph | 707157 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
+| Stratus | 712404 | engravement | main |  | Elemental Mastery transforms Primordial Blast into this; drawn ON the Primordial Blast icon rather than as a row of its own |
 | Surging Slash | 572358 | all | buff | Specialization | shipped pack, band RM Buffs; verified in game |
 | Swift Etching | 500506 | all | buff |  | shipped pack, band RM Buffs; verified in game |
 | Symbols of Power | 705613 | all | ignore | Rank 1 | db.exil.es: no cooldown, no GCD, no cost -- an effect, not a button |
 | Tablet of Sorcery | 705603 | all | ignore |  | skillbook says "Talent Passive" -- not a player button |
-| Tempo | 807172 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
+| Tempo | 807172 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability. Changelog 2026/07/31: it now additionally increases the damage of Runic Brand. A passive buffing an ability already on the main row -- no display reacts. Whether it should move Runic Brand's press order is a feedback question, not a defect |
 | Terraglyphs | 705551 | all | ignore | Passive | db.exil.es rank=Passive -- not a castable ability |
 | Thaumaturgy | 804550 | glyphic | main |  | shipped pack, band RM Main; verified in game |
 | Tome of Swiftness | 802034 | engravement | utility |  | shipped pack, band RM Utility; verified in game |

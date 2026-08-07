@@ -1,0 +1,220 @@
+{
+ "entries": {
+  "06bedb6a738c0c98": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Infinite Shield range increased to 40 yds."
+  },
+  "18ad6e46fe94e936": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug where Inferno was not contributing to the Pyromancer in the combat log. (This spell was doing more than you thought because it contributed to other people’s healing and not your own)."
+  },
+  "1d97730554f507da": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Cycling Aeons replaced with Rapid Acceleration and now reads: “Your Accelerated Recovery now heals 15% of its total periodic amount instantly and increases the healing power contribution to Accelerated Recovery by 15%.”"
+  },
+  "2ab6af1530436620": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Pyroclasm damage now obeys PVP mods properly."
+  },
+  "2ad76cbf5fc08010": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
+  },
+  "2df1c90ce628784f": {
+   "class": "chronomancer",
+   "date": "2026/08/03",
+   "text": "Fortify Timeline can now extend Accelerated Recovery by a maximum of 15 seconds baseline."
+  },
+  "3b001e7b33004a29": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Phoenix Egg is now permanent, up from 1 minute, but has a cast time to resummon."
+  },
+  "3edd9d84e4c75825": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 2's absorb has been increased from 675 to 1055."
+  },
+  "423a7a271ccdab26": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
+  },
+  "504893d62c5ac78f": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Temporal Anomaly can now be released early (cancelable before expiration), healing you for currently stored value."
+  },
+  "539f94947816dc76": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "There is work being done to improve the Weapon Enhancements."
+  },
+  "5557ae11e330d0b0": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Hoarfrost AoE Range increased from 5 yds to 8 yds."
+  },
+  "5c7a82e9f1092eda": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Runic Explosion base damage has been increased by approximately 25%."
+  },
+  "5e9b9e8693daef06": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Inferno has been reworked and now reads: You have a 50% chance with direct healing critical spells to apply an inferno on an ally. Inferno heals 3 nearby allies every second for 5 seconds and at the end of its duration nearby party and raid members are healed. This effect can only trigger once every 5 seconds."
+  },
+  "600b06654ae5facb": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "A new spell Fray Magic (interrupt) is now available from the class trainer at level 26."
+  },
+  "61741d7592fd1365": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Cycling Aeons is now baseline to the aeons, all cooldowns of aeons reduced by 50%."
+  },
+  "6272672dbb3ea770": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Fixed an issue which caused Moment’s Reprieve to have no cooldown and mana cost."
+  },
+  "62b8f2b9c4f9dce0": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Tempo now additionally increases the damage of Runic Brand."
+  },
+  "631855a45ccecebf": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Resilience reworked: Reduces cast time of Epoch by 25% and increases mana cost by 25% and Epoch causes your Accelerated Recovery to bounce to another target."
+  },
+  "69c3600e13dffb64": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Protection reworked: Increases cast time of Epoch by 25% and increases the healing done by 25% and Epoch now shields the target for 50% of the amount healed."
+  },
+  "71d5ea77037024aa": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Runic Brand Attack Power scaling has been reduced from 30% -> 28%, but now has an additional 15% Spell Power scaling.(This spell had zero spell power scaling before)"
+  },
+  "747841d1c05246a3": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 5's absorb has been increased from 1961 to 3064."
+  },
+  "7583523c9ec35db4": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Fist of the Ancients Attack Power scaling has been reduced from 65% -> 58%, but now has an additional 20% Spell Power Scaling (This spell had zero spell power scaling before)"
+  },
+  "7d1478f0f23159f4": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Keep Accelerating (talent) will now prioritize applying Accelerated Recovery to targets not yet affected by Accelerated Recovery."
+  },
+  "80c8ed486b043d12": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 1's absorb has been increased from 400 to 625."
+  },
+  "86051766dd18425e": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 4's absorb has been increased from 1461 to 2283."
+  },
+  "864e4d9f49f04699": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Rewind now increases your movement speed and reduces the movement speed of enemies around you"
+  },
+  "86a1ad82a447f188": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Rewind is now usable while crowd-controlled"
+  },
+  "8b5bd4d45ae3dacd": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Volcanic Shell Rank 3's absorb has been increased from 958 to 1496."
+  },
+  "8e11419ee8890a09": {
+   "class": "pyromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug causing Phoenix Dive to apply its coefficient twice to the absorb value and Phoenix Dive now hits up to 10 targets."
+  },
+  "a2dfed3a4d3d157f": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Timeguard damage reduction increased from 40% to 50%."
+  },
+  "a779fdbb98208cb5": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Unleashed Flame Glyph duration has increased from 6 seconds to 10 seconds (2 extra ticks)."
+  },
+  "aaebb055d90030b7": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Overloaded Flame Glyph duration has increased from 5 seconds to 12 seconds, but the tick rate has been reduced from 1 second to 1.5 seconds (3 extra ticks)."
+  },
+  "bc11a36c44f5d5a1": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Renewal reworked: Decreases the amount healed by Epoch by 25% and increases its critical strike chance by 25% and Epoch now heals for 75% of the amount healed over 6 seconds. Additionally, this healing will accumulate, similar to Ignite."
+  },
+  "bc4f5eea3504866c": {
+   "class": "runemaster",
+   "date": "2026/08/03",
+   "text": "Swapped Mind Over Matter in the Class Tree with Battle Engravings in the Talent Tree, meaning all Runemasters can now take Battle Engravings."
+  },
+  "c4d299cec6a4f172": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Aeon of Oblivion reworked:Decreases the critical strike chance of Epoch by 25% and reduces the Mana Cost of Epoch by 25% and Epoch now deals 100% of its healing done as damage to a nearby enemy."
+  },
+  "c4e6d8d11a8fc750": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Timeguard has an additional mechanic added: Attacks that deal more than 20% of your health are reduced by 50%. This will consume a charge of Timeguard."
+  },
+  "c4fee8f23b3cc9bb": {
+   "class": "chronomancer",
+   "date": "2026/08/03",
+   "text": "Chronicler reimplemented. It now reads: \"Each cast of Fortify Timeline will now extend Accelerated Recovery by an additional 5 seconds, and the maximum length that Fortify Timeline can extend Accelerated Recovery by is increased by 15 seconds.\""
+  },
+  "c53452715b70310b": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Reduced scaling of Correct the Mistake by 20%."
+  },
+  "caf9039f80c25b07": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Adjusted the positioning of Timeline Tether and Rapid Acceleration"
+  },
+  "e4141aacc61390a8": {
+   "class": "runemaster",
+   "date": "2026/07/31",
+   "text": "Primordial Strength Attack Power to Spell Power scaling conversion increased from 25% -> 30%"
+  },
+  "f2dbb02c1cb7de1d": {
+   "class": "runemaster",
+   "date": "2026/08/03",
+   "text": "Mind Wrath - has been buffed as a switch node with Battle Engravings. It now affects 2 targets up from 1."
+  },
+  "ff6a22175c176e3d": {
+   "class": "chronomancer",
+   "date": "2026/07/31",
+   "text": "Constant Recovery now also reduces the threat of your holy school spells by 20%."
+  }
+ },
+ "section": 4
+}

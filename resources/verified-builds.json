@@ -38,6 +38,15 @@
    "notes": [
     "Anchored ladder (SELECTFRAME) confirmed in game: the two bottom cooldown sets follow the offense row up when it renders short. All three specs checked."
    ]
+  },
+  "1.7": {
+   "specs": [
+    "engravement",
+    "glyphic",
+    "riftblade"
+   ],
+   "verified_at": "2026-08-06",
+   "verified_by": "jestercharles"
   }
  }
 }

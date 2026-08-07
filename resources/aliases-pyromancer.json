@@ -1,0 +1,7 @@
+{
+ "Firewall": {
+  "canonical": "Spellguard: Firewall",
+  "spell_id": 944833,
+  "why": "Two spells wear this name and only one is alive. 806238 'Firewall' carries the literal description 'Deprecated' on db.exil.es and returns an empty registerSpell(806238, 0, {}) on db.ascension.gg -- no record. 944833 'Spellguard: Firewall' is a record on BOTH databases with a full tooltip: 30s cooldown, 1.5s GCD, 8% base mana, 2s immunity to Interrupt usable while casting or channeling, and 40% spell haste / 30% spell damage for 12s if an enemy tries. The name that carries a usable spell id wins, so Sidekick's 'Firewall' resolves to the Spellguard one. Its inventory row is held at ignore until /pyprobe says which specs are granted it."
+ }
+}

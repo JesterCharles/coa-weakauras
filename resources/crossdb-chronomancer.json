@@ -1,0 +1,1010 @@
+{
+ "_class": "chronomancer",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "A Ripple In Time": {
+   "id": 706096,
+   "state": "record"
+  },
+  "Accelerate": {
+   "id": 572633,
+   "state": "record"
+  },
+  "Accelerated Mending": {
+   "id": 570152,
+   "state": "record"
+  },
+  "Accelerated Recovery": {
+   "id": 800857,
+   "state": "record"
+  },
+  "Aeon of Oblivion": {
+   "id": 806293,
+   "state": "record"
+  },
+  "Aeon of Protection": {
+   "id": 806292,
+   "state": "record"
+  },
+  "Aeon of Renewal": {
+   "id": 806290,
+   "state": "record"
+  },
+  "Aeon of Resilience": {
+   "id": 806291,
+   "state": "record"
+  },
+  "Aether Compression": {
+   "id": 804436,
+   "state": "record"
+  },
+  "Age of Empires": {
+   "id": 706097,
+   "state": "record"
+  },
+  "Ahead of the Game": {
+   "id": 560948,
+   "state": "record"
+  },
+  "Ancient Text": {
+   "id": 706081,
+   "state": "record"
+  },
+  "Anomaly Spikes": {
+   "id": 503825,
+   "state": "record"
+  },
+  "Arc Collision": {
+   "id": 524853,
+   "state": "record"
+  },
+  "Archaeology": {
+   "id": 560130,
+   "state": "record"
+  },
+  "Artificer's Empowerment": {
+   "id": 806167,
+   "state": "record"
+  },
+  "Artificer's Magic": {
+   "id": 804422,
+   "state": "record"
+  },
+  "Artificer's Spellplate": {
+   "id": 804431,
+   "state": "record"
+  },
+  "Artificer's Toughness": {
+   "id": 804420,
+   "state": "record"
+  },
+  "Artificer's Wand": {
+   "id": 561284,
+   "state": "record"
+  },
+  "Babify": {
+   "id": 520499,
+   "state": "record"
+  },
+  "Backtrack": {
+   "id": 706973,
+   "state": "record"
+  },
+  "Balance of Power": {
+   "id": 706108,
+   "state": "record"
+  },
+  "Beam of Time": {
+   "id": 706110,
+   "state": "record"
+  },
+  "Biting Chaos": {
+   "id": 572744,
+   "state": "record"
+  },
+  "Black Hole": {
+   "id": 706045,
+   "state": "record"
+  },
+  "Breath of Time": {
+   "id": 805162,
+   "state": "record"
+  },
+  "Buy Time": {
+   "id": 520188,
+   "state": "record"
+  },
+  "Cadence of Time": {
+   "id": 560397,
+   "state": "record"
+  },
+  "Carbon Dating": {
+   "id": 706101,
+   "state": "record"
+  },
+  "Chaos Embrace": {
+   "id": 805167,
+   "state": "record"
+  },
+  "Chaos Fusion": {
+   "id": 807578,
+   "state": "record"
+  },
+  "Chaos Omen": {
+   "id": 706063,
+   "state": "record"
+  },
+  "Chaotic Time": {
+   "id": 583245,
+   "state": "record"
+  },
+  "Charm of Power": {
+   "id": 706100,
+   "state": "record"
+  },
+  "Chromatic Misalignment": {
+   "id": 706120,
+   "state": "record"
+  },
+  "Chromatic Shard": {
+   "id": 801292,
+   "state": "record"
+  },
+  "Chromatic Shards": {
+   "id": 704492,
+   "state": "record"
+  },
+  "Chromie's Wisdom": {
+   "id": 801523,
+   "state": "record"
+  },
+  "Chronicler": {
+   "id": 680391,
+   "state": "record"
+  },
+  "Chronicles of History": {
+   "id": 801288,
+   "state": "record"
+  },
+  "Chrono Herald": {
+   "id": 706103,
+   "state": "record"
+  },
+  "Chrono Mend": {
+   "id": 578338,
+   "state": "record"
+  },
+  "Chrono Sorcery": {
+   "id": 706115,
+   "state": "record"
+  },
+  "Chronobeam": {
+   "id": 801267,
+   "state": "no-record"
+  },
+  "Chronostasis": {
+   "id": 706969,
+   "state": "record"
+  },
+  "Chronurgy": {
+   "id": 806326,
+   "state": "no-record"
+  },
+  "Clasp of Infinity": {
+   "id": 805847,
+   "state": "record"
+  },
+  "Clocked In": {
+   "id": 520168,
+   "state": "record"
+  },
+  "Collapse": {
+   "id": 804448,
+   "state": "record"
+  },
+  "Concentrated Fate": {
+   "id": 706122,
+   "state": "record"
+  },
+  "Conduction Burst": {
+   "id": 804452,
+   "state": "record"
+  },
+  "Constant Recovery": {
+   "id": 555729,
+   "state": "record"
+  },
+  "Continuum Restoration": {
+   "id": 801271,
+   "state": "record"
+  },
+  "Converge the Infinite": {
+   "id": 520045,
+   "state": "record"
+  },
+  "Correct the Mistake": {
+   "id": 572352,
+   "state": "record"
+  },
+  "Crown of Power": {
+   "id": 805854,
+   "state": "record"
+  },
+  "Crystal Cannon": {
+   "id": 560134,
+   "state": "record"
+  },
+  "Dark Star": {
+   "id": 706062,
+   "state": "record"
+  },
+  "Decelerate": {
+   "id": 572632,
+   "state": "record"
+  },
+  "Decomposition": {
+   "id": 800856,
+   "state": "record"
+  },
+  "Deconstruction": {
+   "id": 805851,
+   "state": "record"
+  },
+  "Destabilize Time": {
+   "id": 570761,
+   "state": "record"
+  },
+  "Desynchronization": {
+   "id": 561310,
+   "state": "record"
+  },
+  "Dilation": {
+   "id": 560168,
+   "state": "record"
+  },
+  "Dimensional Divergence": {
+   "id": 802790,
+   "state": "record"
+  },
+  "Dimensional Phasing": {
+   "id": 503874,
+   "state": "record"
+  },
+  "Disc of Legend": {
+   "id": 680844,
+   "state": "record"
+  },
+  "Discordance": {
+   "id": 503875,
+   "state": "record"
+  },
+  "Discordant Blast": {
+   "id": 801290,
+   "state": "record"
+  },
+  "Discovery": {
+   "id": 500116,
+   "state": "record"
+  },
+  "Discs Upon Discs": {
+   "id": 706074,
+   "state": "record"
+  },
+  "Disenchant Weapon": {
+   "id": 806208,
+   "state": "record"
+  },
+  "Displacement": {
+   "id": 806727,
+   "state": "record"
+  },
+  "Distorted Time": {
+   "id": 707553,
+   "state": "record"
+  },
+  "Do Over": {
+   "id": 800669,
+   "state": "record"
+  },
+  "Echo": {
+   "id": 804487,
+   "state": "record"
+  },
+  "Echo Fragment": {
+   "id": 804455,
+   "state": "record"
+  },
+  "Echo Fragments": {
+   "id": 92120,
+   "state": "record"
+  },
+  "Elder Tome": {
+   "id": 706044,
+   "state": "record"
+  },
+  "Empowered Restoration": {
+   "id": 706090,
+   "state": "record"
+  },
+  "Enchanted Collar": {
+   "id": 706066,
+   "state": "record"
+  },
+  "End of Time": {
+   "id": 525050,
+   "state": "record"
+  },
+  "Endless Sands": {
+   "id": 806338,
+   "state": "record"
+  },
+  "Entropy Overload": {
+   "id": 706084,
+   "state": "record"
+  },
+  "Entropy Reversal": {
+   "id": 520780,
+   "state": "record"
+  },
+  "Epic Recovery": {
+   "id": 706098,
+   "state": "record"
+  },
+  "Epoch": {
+   "id": 801270,
+   "state": "record"
+  },
+  "Erase": {
+   "id": 804450,
+   "state": "record"
+  },
+  "Erasion": {
+   "id": 704489,
+   "state": "record"
+  },
+  "Eternal": {
+   "id": 706777,
+   "state": "record"
+  },
+  "Eternity": {
+   "id": 706057,
+   "state": "record"
+  },
+  "Eternity Warper": {
+   "id": 806301,
+   "state": "record"
+  },
+  "Eternity's End": {
+   "id": 706072,
+   "state": "record"
+  },
+  "Expediting Time": {
+   "id": 706055,
+   "state": "record"
+  },
+  "Fabric of Time": {
+   "id": 806299,
+   "state": "record"
+  },
+  "Fate Twister": {
+   "id": 520040,
+   "state": "record"
+  },
+  "Flow of Infinity": {
+   "id": 804497,
+   "state": "record"
+  },
+  "Flux Emitter": {
+   "id": 804435,
+   "state": "record"
+  },
+  "Fortify Timeline": {
+   "id": 804491,
+   "state": "record"
+  },
+  "Fracture Timeline": {
+   "id": 801306,
+   "state": "record"
+  },
+  "Fray Magic": {
+   "id": 800053,
+   "state": "no-record"
+  },
+  "Future Vision": {
+   "id": 524967,
+   "state": "record"
+  },
+  "Gift of the Infinite Dragonflight": {
+   "id": 706114,
+   "state": "record"
+  },
+  "Gift of the Timeways": {
+   "id": 503903,
+   "state": "record"
+  },
+  "Gravity Bomb": {
+   "id": 501820,
+   "state": "record"
+  },
+  "Greater Chromie's Wisdom": {
+   "id": 680307,
+   "state": "record"
+  },
+  "Greater Nozdormu's Wisdom": {
+   "id": 572396,
+   "state": "record"
+  },
+  "Hasten": {
+   "id": 801304,
+   "state": "record"
+  },
+  "Hourglass of Eternity": {
+   "id": 504726,
+   "state": "record"
+  },
+  "Hyperwand": {
+   "id": 706071,
+   "state": "record"
+  },
+  "Impeccable Timing": {
+   "id": 560949,
+   "state": "record"
+  },
+  "Improved Past Self": {
+   "id": 706091,
+   "state": "record"
+  },
+  "Improved Reverse Wound": {
+   "id": 706052,
+   "state": "record"
+  },
+  "Improved Temporal Focus": {
+   "id": 706127,
+   "state": "record"
+  },
+  "Improved Time Stop": {
+   "id": 706088,
+   "state": "record"
+  },
+  "Incarnation": {
+   "id": 804493,
+   "state": "record"
+  },
+  "Incarnation of Chaos": {
+   "id": 570067,
+   "state": "record"
+  },
+  "Incarnation of Order": {
+   "id": 503883,
+   "state": "record"
+  },
+  "Infinite - Level 30 Passive": {
+   "id": 706058,
+   "state": "record"
+  },
+  "Infinite Clone": {
+   "id": 804492,
+   "state": "record"
+  },
+  "Infinite Guard": {
+   "id": 574312,
+   "state": "record"
+  },
+  "Infinite Horizon": {
+   "id": 560528,
+   "state": "record"
+  },
+  "Infinite Keeper": {
+   "id": 806312,
+   "state": "record"
+  },
+  "Infinite Power": {
+   "id": 92118,
+   "state": "record"
+  },
+  "Infinite Sands": {
+   "id": 500115,
+   "state": "record"
+  },
+  "Infinite Shield": {
+   "id": 520457,
+   "state": "record"
+  },
+  "Infinite Shroud": {
+   "id": 805168,
+   "state": "record"
+  },
+  "Infinite Tome": {
+   "id": 801293,
+   "state": "record"
+  },
+  "Infinite Wrath": {
+   "id": 804498,
+   "state": "record"
+  },
+  "Infinity": {
+   "id": 706128,
+   "state": "record"
+  },
+  "Infinity Crash": {
+   "id": 706040,
+   "state": "record"
+  },
+  "Infinity Stone": {
+   "id": 300873,
+   "state": "record"
+  },
+  "Keep Accelerating": {
+   "id": 520042,
+   "state": "record"
+  },
+  "Keeper of Balance Trigger": {
+   "id": 806314,
+   "state": "record"
+  },
+  "Last Wish": {
+   "id": 806207,
+   "state": "record"
+  },
+  "Life Cycles": {
+   "id": 680808,
+   "state": "record"
+  },
+  "Luck": {
+   "id": 706085,
+   "state": "record"
+  },
+  "Luck or Fate?": {
+   "id": 706065,
+   "state": "record"
+  },
+  "Magic Erosion": {
+   "id": 570060,
+   "state": "record"
+  },
+  "Maker of Realities": {
+   "id": 707656,
+   "state": "record"
+  },
+  "Mark of Order": {
+   "id": 704488,
+   "state": "record"
+  },
+  "Mass Babify": {
+   "id": 520181,
+   "state": "record"
+  },
+  "Mass Decomposition": {
+   "id": 801283,
+   "state": "record"
+  },
+  "Master of Chaos": {
+   "id": 706047,
+   "state": "record"
+  },
+  "Master of Duality": {
+   "id": 706049,
+   "state": "record"
+  },
+  "Master of Order": {
+   "id": 706050,
+   "state": "record"
+  },
+  "Maw of Chaos": {
+   "id": 806316,
+   "state": "record"
+  },
+  "Melt Reality": {
+   "id": 806335,
+   "state": "record"
+  },
+  "Mind Over Matter": {
+   "id": 520923,
+   "state": "record"
+  },
+  "Moment's Reprieve": {
+   "id": 572631,
+   "state": "record"
+  },
+  "Not Even A Scratch": {
+   "id": 503791,
+   "state": "record"
+  },
+  "Nozdormu's Wisdom": {
+   "id": 572391,
+   "state": "record"
+  },
+  "Oblivion": {
+   "id": 560376,
+   "state": "record"
+  },
+  "Orderly Protector": {
+   "id": 704482,
+   "state": "record"
+  },
+  "Paradox Cannon": {
+   "id": 806203,
+   "state": "record"
+  },
+  "Past Mistakes": {
+   "id": 520043,
+   "state": "record"
+  },
+  "Past Self": {
+   "id": 801278,
+   "state": "record"
+  },
+  "Perfect Timing": {
+   "id": 520164,
+   "state": "record"
+  },
+  "Plentiful Orbs": {
+   "id": 706069,
+   "state": "record"
+  },
+  "Procrastination": {
+   "id": 520854,
+   "state": "record"
+  },
+  "Protection": {
+   "id": 560374,
+   "state": "record"
+  },
+  "Protector Training": {
+   "id": 706073,
+   "state": "record"
+  },
+  "Pulse Driver": {
+   "id": 706121,
+   "state": "record"
+  },
+  "Quickcaster": {
+   "id": 706132,
+   "state": "record"
+  },
+  "Rapid Acceleration": {
+   "id": 570149,
+   "state": "record"
+  },
+  "Reconstruction": {
+   "id": 524850,
+   "state": "record"
+  },
+  "Reflection": {
+   "id": 801296,
+   "state": "no-record"
+  },
+  "Rehatch": {
+   "id": 578265,
+   "state": "record"
+  },
+  "Remake": {
+   "id": 804501,
+   "state": "record"
+  },
+  "Renewal": {
+   "id": 560355,
+   "state": "record"
+  },
+  "Resilience": {
+   "id": 560373,
+   "state": "record"
+  },
+  "Resonance": {
+   "id": 706079,
+   "state": "record"
+  },
+  "Resynchronize": {
+   "id": 804495,
+   "state": "record"
+  },
+  "Reverse Wound": {
+   "id": 801303,
+   "state": "record"
+  },
+  "Revolving Sands": {
+   "id": 500113,
+   "state": "record"
+  },
+  "Rewind": {
+   "id": 801294,
+   "state": "record"
+  },
+  "Ripple": {
+   "id": 806296,
+   "state": "record"
+  },
+  "Ripple in Time": {
+   "id": 806297,
+   "state": "record"
+  },
+  "Rippling Power": {
+   "id": 806300,
+   "state": "record"
+  },
+  "Roll Back": {
+   "id": 524966,
+   "state": "record"
+  },
+  "Rumble": {
+   "id": 805166,
+   "state": "record"
+  },
+  "Runed Rod": {
+   "id": 706067,
+   "state": "record"
+  },
+  "Rust Creation": {
+   "id": 704479,
+   "state": "record"
+  },
+  "Sand Bomb": {
+   "id": 560354,
+   "state": "record"
+  },
+  "Sandblast": {
+   "id": 501918,
+   "state": "no-record"
+  },
+  "Sandpage": {
+   "id": 806244,
+   "state": "record"
+  },
+  "Sands of Life": {
+   "id": 560383,
+   "state": "record"
+  },
+  "Sands of Time": {
+   "id": 501843,
+   "state": "record"
+  },
+  "Saviour": {
+   "id": 706109,
+   "state": "record"
+  },
+  "Shatter Echo": {
+   "id": 804503,
+   "state": "record"
+  },
+  "Shield of The Keeper": {
+   "id": 706124,
+   "state": "record"
+  },
+  "Shield of the Ages": {
+   "id": 804444,
+   "state": "record"
+  },
+  "Shifting Chaos": {
+   "id": 706059,
+   "state": "record"
+  },
+  "Shifting Sands": {
+   "id": 806317,
+   "state": "no-record"
+  },
+  "Shimmering Shard": {
+   "id": 806302,
+   "state": "record"
+  },
+  "Singularity Core": {
+   "id": 804438,
+   "state": "record"
+  },
+  "Slipstream": {
+   "id": 706056,
+   "state": "record"
+  },
+  "Slow Time": {
+   "id": 801295,
+   "state": "record"
+  },
+  "Spatial Distortion": {
+   "id": 706094,
+   "state": "record"
+  },
+  "Splitting Time": {
+   "id": 555730,
+   "state": "record"
+  },
+  "Tamed Incantations": {
+   "id": 706077,
+   "state": "record"
+  },
+  "Teleport: Caverns of Time": {
+   "id": 804753,
+   "state": "record"
+  },
+  "Temporal Anomaly": {
+   "id": 806315,
+   "state": "record"
+  },
+  "Temporal Dissonance": {
+   "id": 520922,
+   "state": "record"
+  },
+  "Temporal Focus": {
+   "id": 806165,
+   "state": "record"
+  },
+  "Temporal Resilience": {
+   "id": 680389,
+   "state": "record"
+  },
+  "Temporal Restoration": {
+   "id": 680456,
+   "state": "record"
+  },
+  "Temporal Return": {
+   "id": 583403,
+   "state": "record"
+  },
+  "Temporal Swiftness": {
+   "id": 680390,
+   "state": "record"
+  },
+  "The Bieko Effect": {
+   "id": 706099,
+   "state": "record"
+  },
+  "The Vast Infinite": {
+   "id": 542712,
+   "state": "record"
+  },
+  "Thread of Eternity": {
+   "id": 572127,
+   "state": "record"
+  },
+  "Threads of Eternity": {
+   "id": 806209,
+   "state": "record"
+  },
+  "Time Beacon": {
+   "id": 574310,
+   "state": "record"
+  },
+  "Time Is A Circle": {
+   "id": 806206,
+   "state": "record"
+  },
+  "Time Loop": {
+   "id": 801297,
+   "state": "record"
+  },
+  "Time Out!": {
+   "id": 802229,
+   "state": "record"
+  },
+  "Time Skip": {
+   "id": 704485,
+   "state": "record"
+  },
+  "Time Stretch": {
+   "id": 560404,
+   "state": "record"
+  },
+  "Timeguard": {
+   "id": 804441,
+   "state": "record"
+  },
+  "Timekeeper": {
+   "id": 680845,
+   "state": "record"
+  },
+  "Timeless": {
+   "id": 706131,
+   "state": "record"
+  },
+  "Timeline Destroyer": {
+   "id": 805846,
+   "state": "record"
+  },
+  "Timeline Guardian": {
+   "id": 805845,
+   "state": "record"
+  },
+  "Timeline Tether": {
+   "id": 804505,
+   "state": "record"
+  },
+  "Timelink": {
+   "id": 805170,
+   "state": "record"
+  },
+  "Timemancy": {
+   "id": 706118,
+   "state": "record"
+  },
+  "Timerend": {
+   "id": 801291,
+   "state": "record"
+  },
+  "Timewalking": {
+   "id": 572527,
+   "state": "record"
+  },
+  "Timewarped Shield": {
+   "id": 706125,
+   "state": "record"
+  },
+  "Titan's Gaze": {
+   "id": 704484,
+   "state": "record"
+  },
+  "Tome of Chaos": {
+   "id": 503833,
+   "state": "record"
+  },
+  "Tome of Time": {
+   "id": 805848,
+   "state": "record"
+  },
+  "Tripping the Rift": {
+   "id": 520173,
+   "state": "record"
+  },
+  "Truly Infinite": {
+   "id": 706087,
+   "state": "record"
+  },
+  "Unearth": {
+   "id": 503884,
+   "state": "no-record"
+  },
+  "Unearthed Passage": {
+   "id": 706112,
+   "state": "record"
+  },
+  "Unearthed Pools": {
+   "id": 503792,
+   "state": "record"
+  },
+  "Unmake": {
+   "id": 804418,
+   "state": "record"
+  },
+  "Unmaker of Realities": {
+   "id": 706107,
+   "state": "record"
+  },
+  "Unstable Chronoglass": {
+   "id": 503836,
+   "state": "record"
+  },
+  "Vivid Memory": {
+   "id": 706086,
+   "state": "record"
+  },
+  "Wand Expert": {
+   "id": 574308,
+   "state": "record"
+  },
+  "Wand of Entropy": {
+   "id": 706126,
+   "state": "record"
+  },
+  "Wand of Time": {
+   "id": 520175,
+   "state": "record"
+  },
+  "Warpstriker": {
+   "id": 707556,
+   "state": "record"
+  },
+  "Waves of Time": {
+   "id": 801265,
+   "state": "record"
+  },
+  "Wisdom": {
+   "id": 706105,
+   "state": "record"
+  },
+  "Wonders of Time": {
+   "id": 560541,
+   "state": "record"
+  },
+  "Wound Removal": {
+   "id": 706054,
+   "state": "record"
+  }
+ }
+}

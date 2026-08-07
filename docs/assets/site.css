@@ -402,6 +402,34 @@ footer a:hover{color:var(--c)}
 .packver{color:var(--ink)}
 .packver.unver{color:#f0c674}
 
+/* Ascension changelog panel ------------------------------------------------
+   Answers "is this pack built on current information", which a version string
+   and a verified badge both fail to answer -- either can be true of a pack
+   built the day before the devs reworked the spec.
+
+   `outstanding` is amber, not red, on purpose. Most changelog entries are
+   damage numbers no WeakAura reacts to; amber says "nobody has ruled on this
+   yet", which is the honest claim. Red would say "the pack is wrong". */
+.cl-warn{color:#f0c674}
+.cl-ok{color:#8fd18f}
+.cl-list{list-style:none;margin:14px 0 0;padding:0;
+         border-top:1px solid var(--line)}
+.cl-list li{display:grid;grid-template-columns:8.5rem 6.5rem 1fr;gap:10px;
+            align-items:baseline;padding:9px 0;
+            border-bottom:1px solid var(--line);font-size:.92rem}
+.cl-date{color:var(--ink2);font-variant-numeric:tabular-nums;
+         white-space:nowrap}
+.cl-state{font-size:.78rem;letter-spacing:.04em;text-transform:uppercase}
+.cl-out .cl-state{color:#f0c674}
+.cl-acc .cl-state{color:#8fd18f}
+.cl-text{color:var(--ink);line-height:1.45}
+/* One column on a phone: the date and state stack above the text rather than
+   squeezing it to a 12-character ribbon. */
+@media (max-width:640px){
+  .cl-list li{grid-template-columns:1fr;gap:2px;padding:11px 0}
+  .cl-state{order:-1}
+}
+
 /* raid utility page --------------------------------------------------------
    Only the bits the redesigned page still uses. The rest of this block was
    for the ten-stacked-tables version and went with it -- the page's own

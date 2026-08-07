@@ -19,6 +19,18 @@ two things takes the first that applies.
 A Notes cell starting `seed:` is a row the seeder wrote and nobody has
 reviewed. Delete the prefix once you have placed the ability.
 
+`verified in game` in a Notes cell is WEAKER THAN IT READS. It is
+`backfill_roles.py` provenance and it means one thing: this ability appears in
+the shipped pack, and that pack version was confirmed in game. It is NOT a
+tooltip reading, it does NOT carry a date, and it asserts nothing about whether
+the ability still behaves the way the row describes. A display can be on screen
+and verified while the aura behind it never lands — which is exactly what a
+server rework produces, and exactly what a layout-focused verification pass
+walks straight past. Check `resources/verified-builds.json` for the version's
+`verified_at` and compare it against the changelog before leaning on the phrase.
+Per-tooltip ground truth lives in `tools/in-game-verified.json`, which is a
+different and stronger claim.
+
 Role and ID both take per-spec overrides, `<default>; <spec>:<value>`:
 `defensive; time:offensive` renders one ability in two different rows, and
 `520188; time:801280` covers the case where one NAME is two different
@@ -40,6 +52,7 @@ spells — the specs that have no override use the default.
 | Blackflight Resurgence | 805587 | draconic | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 50' |
 | Blaze | 805500 | incineration | main | Rank 1 | Ember spender, 15s DoT plus healing reduction |
 | Blessing of the Firelands | 504397 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Breath Charge | 504373 | draconic | ignore |  | THE CLASS RESOURCE NOBODY CAN BUILD YET. Sidekick names "Mana, Breath Charges" on the class header and every spec page, and its Draconic spec text is the only thing that says what they are for: "build Breath Charges to unleash your breath weapon" -- so this is a DRACONIC mechanic, not an all-spec one, whatever the class header implies. The family is 504373 (this), `+1 Breath Charge` 504577, `Breath Charge Delayer` 520373, `Breath Charge Remover` 520374, `Breath Charge Exponentifier` 706865 / P2 706866, and `Breath Charges - Malygos/Nozdormu` 681123. ALL SEVEN are records on BOTH databases and ALL SEVEN have a bare tooltip -- no stack count, no maximum, no duration, no description. The spenders are the Breaths: Breath of Neltharion 511109, Breath of Malygos 555701, and a `Breath of Alexstrasza` that `Deep Breaths` names and that is in NEITHER database. UNKNOWN which id carries the stacks and what the maximum is -- a `stack_bar` needs both, and a guessed maximum draws a bar that is wrong at every value. Settled by: /pyprobe reading the player's auras while building charges on Draconic |
 | Breath of Neltharion | 511109 | draconic | utility |  | 1.5 min cone disarm, 6s |
 | Bright Flames | 300759 | all | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
 | Brood of the Earthwarder | 504497 | draconic | ignore |  | modifies Dragon's Fury |
@@ -63,6 +76,7 @@ spells — the specs that have no override use the default.
 | Cinderheart | 800806 | flameweaving | main | Rank 1 | L2 core direct heal |
 | Circle of Fire | 504650 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Cleansing Flames | 681145 | flameweaving | main | Rank 1 | 3s channel, heals allies and damages enemies in a cone |
+| Comet Storm | 524612 | all | ignore |  | component. Both DBs answer, both with a bare 'Instant cast' tooltip -- no rank, GCD, cost or cooldown -- and it sits beside 'Comet Storm Trigger' 524611. Sidekick's Incineration rotation blurb names it, but Sidekick's own skill data has no record of it |
 | Concentrated Fire | 704864 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
 | Conjure Campfire | 570121 | flameweaving | ignore |  | cooking campfire, non-combat -- utility if you want it visible |
 | Constant Burning | 707126 | all | ignore | Passive | rank='Passive' -- not a castable player button |
@@ -77,9 +91,10 @@ spells — the specs that have no override use the default.
 | Dormant | 800128 | flameweaving | buff |  | 10s, +150% mana regen while the Phoenix is dormant |
 | Draconic - Level 15 Passive |  | draconic | ignore |  | skillbook marks it 'Ability Passive Lvl 15' |
 | Draconic - Level 30 Passive | 807511 | draconic | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 30' |
+| Draconic Assault | 802116 | draconic | ignore |  | db.exil.es has a full tooltip (3 min, 15s dragon transform, 25% mana) but db.ascension.gg has NO RECORD, and it is absent from the skillbook and the cooldown audit. The tooltip disqualifies it as a burst cooldown anyway: 'disabling all of your abilities', 'you cannot stop moving', 'Not useable indoors'. Sidekick's blurb names it; Sidekick's skill data does not. UNKNOWN whether it is granted at all -- settle with /pyprobe |
 | Draconic Aspect | 92128 | draconic | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 30' |
 | Draconic Heritage | 704810 | draconic | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
-| Draconic Invocation | 802119 | draconic | offensive |  | 3 min, instantly generates 5 Embers |
+| Draconic Invocation | 802119 | draconic | offensive |  | 3 min, instantly generates 5 Embers. Changelog 2026/07/31 made it BASELINE from the trainer at level 24 rather than a talent. Every leaf carries a `load.spellknown` gate, so a talent becoming baseline needs no build change -- the gate simply always passes now |
 | Draconic Rage | 802164 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
 | Draconic Tempest | 301212 | draconic | ignore | Proc | rank='Proc' and a chance-to-apply tooltip -- the talent, not a buff you track |
 | Dragon Leap | 806611 | all | utility | Rank 1 | 10s leap, AoE damage on landing, no cooldown -- movement first |
@@ -93,6 +108,7 @@ spells — the specs that have no override use the default.
 | Earthwarder | 706239 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
 | Echo of Nozdormu | 802174 | draconic | main | Rank 1 | L11 core nuke, reduces all cooldowns by 5% |
 | Ember Charm | 704861 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
+| Ember Trigger | 807534 | all | resource |  | stacks == embers held (0-5); drives the PY Ember cells. Id confirmed in game 2026-08-02 (diag-7-pyro-resource) -- `Ember Trigger` and `Ember Consume` carry the same tooltip verbatim, so the scrape alone could not choose |
 | Ember Skin | 504396 | flameweaving | longterm |  | 'Can only have 1 Skin active at a time' -- the fourth Skin |
 | Ember Touch | 800818 | all | main | Rank 1 | Ember spender, heals -- the class-wide spender button |
 | Emberheart | 680366 | flameweaving | ignore |  | L58 bare damage line, cost/gcd 0, and no other tooltip names it as a button -- the difference from Melt |
@@ -121,6 +137,7 @@ spells — the specs that have no override use the default.
 | Flame Swell | 502064 | incineration | ignore | Rank 9 | rank='Rank 9' periodic effect riding Ignite, not a button and not a separately-tracked DoT. Was `target`; check 13 caught that nothing drew it, which forced the call |
 | Flamecasting | 804300 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Flamer | 680836 | all | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
+| Flames of Al'ar | 500202 | flameweaving | ignore |  | 2 min, 1.5s cast, 17% mana: "Transforms your Phoenix Hatchling **pet** into a fully empowered Phoenix", +Int-scaled melee haste and a Fire splash on its attacks for 20s. Record on BOTH databases with the same wording. A real player button that has never been in the pack -- it waits on the Phoenix section (requirements §3), because it is dead without a Phoenix. HELD AT `ignore` ON PURPOSE, which here means "real button, deliberately not placed" and not "not a button": build_pyromancer.py reads roles from this table, so an `offensive` here puts it straight onto the Flameweaving offense row -- a third Phoenix-dependent button on a pack that still cannot say whether the Phoenix is alive. Flip it when the Phoenix section lands |
 | Flames of Execution | 706238 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
 | Flames of Focus | 500189 | flameweaving | buff |  | 20s, +5% haste +3% crit, stacks 3 -- and Slag Barrage spends it |
 | Flames of Neltharion | 801915 | draconic | main | Rank 1 | L12 cleave filler |
@@ -140,6 +157,7 @@ spells — the specs that have no override use the default.
 | Grill Mark | 503759 | draconic | ignore | ICD tracker | rank='ICD tracker' -- not a castable player button |
 | Hasty Incantation | 802169 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Heated | 504754 | all | ignore | Passive | rank='Passive' -- not a castable player button |
+| Heat | 807389 | all | resource |  | stacks == current heat (0-100), converts to an Ember at 100; drives the PY Ember feed. Id confirmed in game 2026-08-02 |
 | Hellscape | 706886 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Hot Headed | 503806 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Hot Trail | 704825 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
@@ -160,6 +178,7 @@ spells — the specs that have no override use the default.
 | Invocation of Flames | 572381 | draconic | ignore | Proc | rank='Proc' -- not a castable player button |
 | Kael's Command | 680375 | flameweaving | defensive | TESTING SPELL | 45s, Phoenix goes dormant and radiates healing -- a healing CD |
 | Kindle | 803819 | flameweaving | main | Rank 1 | L14 direct heal, the bigger of the two fillers |
+| Kiss of Al'ar | 704280 | flameweaving | ignore |  | 15s, instant, 7% mana: "The Phoenix heals an ally target." Record on BOTH databases -- a real cooldown and a real cost, so a player button, not a component. Missing from the skillbook, which is why it sat in Candidates. Cheap and frequent enough to read as rotational on a healing spec, but the press order is a feedback question; it waits on the Phoenix section with Flames of Al'ar. HELD AT `ignore` for the same reason as that row |
 | Lava Shard | 803950 | incineration | main | Rank 1 | 10s, generates 1 Ember -- the Ember engine |
 | Lava-Drenched | 706650 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Legacy of Deathwing | 520823 | draconic | buff |  | 10s proc: next Destroyer's Maw or Firefall instant, free, +25% |
@@ -186,15 +205,15 @@ spells — the specs that have no override use the default.
 | Overheat Delayer | 800408 | incineration | ignore | Unusued | deprecated/placeholder text: 'Deprecated' |
 | Overwhelming Flames | 704813 | draconic | ignore | Passive | rank='Passive' -- not a castable player button |
 | Petrifying Visage | 801908 | draconic | utility | Rank 1 | 2 min, 3s horror |
-| Phoenix Dive | 706854 | flameweaving | main |  | no cooldown, shields allies along the Phoenix's path |
-| Phoenix Egg | 707110 | flameweaving | ignore | Heal | rank='Heal' -- the healing component, not the button |
+| Phoenix Dive | 706854 | flameweaving | main |  | no cooldown, 18% mana: "Command your Phoenix to swoop to the target ally and shield allies in their path", 30s absorb scaling with Spirit. Changelog 2026/07/31 fixed a double-coefficient bug on the absorb and took it to 10 targets -- numbers, nothing reacts. Dead without a Phoenix, like Kiss of Al'ar and Flames of Al'ar |
+| Phoenix Egg | 707110 | flameweaving | ignore | Heal | rank='Heal' -- the healing component, not the button. Confirmed on BOTH databases ("Heals for 85 to 98"). ⚠️ The changelog 2026/07/31 entry "Phoenix Egg is now permanent, up from 1 minute, but has a cast time to resummon" is about a CASTABLE summon, and 707110 is not it -- no cost, no cooldown, no GCD. The 60s duration the entry replaced shows up on `Phoenix` 805800 and `Phoenix abilities enabler` 681128, both still recorded at 60000ms, so our snapshot predates the patch. The castable summon has not been found in either database. UNKNOWN -- the spellbook settles it |
 | Phoenix Egg DEPRECTAED | 500134 | flameweaving | ignore |  | tooltip is literally 'DEPRECTAED' |
 | Phoenix Handler | 704865 | flameweaving | ignore | Proc | rank='Proc' -- not a castable player button |
 | Phoenix Rebirth | 706867 | flameweaving | utility | Rank 1 | out-of-combat resurrect |
 | Pillar of Flame | 805496 | incineration | offensive | Rank 1 | 20s AoE around the primary target |
 | Pulverizespout | 706740 | flameweaving | ignore | Stun | rank='Stun' -- not a castable player button |
 | Purifying Flames | 807159 | all | ignore | Passive | rank='Passive' -- not a castable player button |
-| Pyroclasm | 520019 | incineration | offensive |  | 1 min, consumes Burning effects for burst |
+| Pyroclasm | 520019 | incineration | offensive |  | 1 min, consumes Burning effects for burst. Changelog 2026/07/31: damage now obeys PVP mods properly. Numbers only |
 | Pyromancy | 704831 | all | ignore | Passive | rank='Passive' -- not a castable player button |
 | Pyromaniac | 500166 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
 | Raze | 804814 | incineration | ignore |  | modifies Lava Shard |
@@ -220,9 +239,10 @@ spells — the specs that have no override use the default.
 | Soothing Flames | 704855 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
 | Soul of the Dragon | 504498 | draconic | ignore |  | modifies Flare Bolt |
 | Spellburn | 800808 | incineration | utility |  | 25s interrupt, off the global, locks a school for 5s |
+| Spellguard: Firewall | 944833 | all | ignore |  | a REAL button and the only live 'Firewall' -- 30s, 1.5s GCD, 2s interrupt immunity usable while casting, and 40% haste / 30% spell damage for 12s if an enemy tries. Record on BOTH databases. Held at ignore only because it is absent from the skillbook, so which specs are granted it is UNKNOWN -- settle with /pyprobe, then place it. 806238 'Firewall' is the deprecated one |
 | Spirit of Fire | 500167 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
 | Spirit of the Phoenix | 92126 | flameweaving | ignore | Specialization | skillbook marks it 'Ability Passive Lvl 10' |
-| Stoke | 803952 | flameweaving | main | Rank 1 | 10s, cheap, extends Ignite and Blaze -- rotational, could read offensive |
+| Stoke | 803952 | flameweaving | ignore | Rank 1 | pulled off the Flameweaving main row. db.ascension.gg has no record of the castable 803952 and Sidekick lists it as 'Stoke T', a TALENT that extends Ignite and Infernus on crit. A passive is not a button. This row said `main` until 2026/08/07 while build_pyromancer.py had already dropped it |
 | Student of the Flame | 300758 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
 | Sulfuron Blast | 801687 | incineration | ignore |  | tooltip reads 'If you can read this, reach out to a Staff member' |
 | Sunstrider Array | 570003 | flameweaving | ignore | Heal | rank='Heal' -- the healing component, not the button |
@@ -235,7 +255,7 @@ spells — the specs that have no override use the default.
 | Touched by Fire | 704848 | flameweaving | ignore | Rank 1 | no cost, no cooldown, modifies another ability |
 | Unquenchable | 704850 | flameweaving | ignore |  | no cost, no cooldown, modifies another ability |
 | Volcanic Flames | 804607 | incineration | ignore |  | modifies Ignite/Blaze/Scalding Brand crit |
-| Volcanic Shell | 805477 | all | defensive | Rank 1 | 2 min self absorb, off the global |
+| Volcanic Shell | 805477 | all | defensive | Rank 1 | 2 min self absorb, off the global. RANKED -- changelog 2026/07/31 raised ranks 1-5 absorb by roughly 56% each. Numbers only; the display shows a cooldown, not an absorb value, so nothing reacts |
 | Volcanocannon | 806501 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
 | Weaving Flames | 707160 | flameweaving | ignore | Passive | rank='Passive' -- not a castable player button |
 | White Hot | 804606 | incineration | ignore | Passive | rank='Passive' -- not a castable player button |
@@ -254,7 +274,6 @@ next refresh. Bullets, not a table, so the builder's parser cannot read them.
 
 - `803692` **Acolyte of Wyrmrest** — level=1, cost_pct=9, rank=Incarnation
 - `524712` **Boil** — gcd_ms=1000, cost_pct=15
-- `504373` **Breath Charge** — level=1, gcd_ms=1500
 - `555701` **Breath of Malygos** — level=10, gcd_ms=1000, rank=Debuff
 - `805489` **Burning Vigil** — level=1, cost_pct=6
 - `801983` **Bwonsamdi's Edge** — level=27, gcd_ms=1500, cost_pct=21, rank=trigger2
@@ -268,7 +287,6 @@ next refresh. Bullets, not a table, so the builder's parser cannot read them.
 - `560766` **Fire Trail** — level=1, gcd_ms=1500, cost_pct=15
 - `805491` **Fire Trail DEPRECATED** — level=1, gcd_ms=1000, cost_pct=15
 - `806238` **Firewall** — cost_pct=8
-- `500202` **Flames of Al'ar** — level=1, gcd_ms=1500, cost_pct=17
 - `807202` **Flare Bolt (Cataclysmic Ray)** — gcd_ms=1500, cost_pct=7, rank=Rank 8
 - `802163` **Flight of the Dragonborn** — gcd_ms=1500, cost_pct=13
 - `803460` **Flint Blessing** — level=12, gcd_ms=1500, cost_pct=5, rank=Rank 1
@@ -279,7 +297,6 @@ next refresh. Bullets, not a table, so the builder's parser cannot read them.
 - `803455` **Ignited** — level=13, gcd_ms=1500, cost_pct=14, rank=Stun
 - `807636` **Immune Sap/Knockout/Charm** — level=11, gcd_ms=1500, cost_pct=50
 - `803725` **Immune Stun/Disorient/Polymorph** — level=11, gcd_ms=1500, cost_pct=50
-- `704280` **Kiss of Al'ar** — level=19, gcd_ms=1000, cost_pct=7
 - `503250` **Lantern Tender** — level=10, gcd_ms=1500, rank=Rank 2
 - `805497` **Lucifron's Lagniappe** — cost_pct=10
 - `504638` **Molten Blast** — level=73, cost_pct=20, rank=NPC

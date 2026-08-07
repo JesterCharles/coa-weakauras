@@ -1,0 +1,1876 @@
+[
+ {
+  "name": "A Gift from Hell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Reduces the Rage cost of Shieldgore, Meatsaw, and Melt."
+ },
+ {
+  "name": "Absolute Hatred",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Causes Fist of Xoroth to deal Physical Damage to all enemies within yds."
+ },
+ {
+  "name": "Agonizing Inspiration",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Reduces your Fire damage taken by %."
+ },
+ {
+  "name": "Apocalypse Edge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "When you strike at least enemies with Warbringer, it now causes enemies to bleed for over."
+ },
+ {
+  "name": "Black Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Consume all of your Demon's Blood stacks to create a demonic shield that absorbs its value damage, increased by % per Demon's Blood stack,."
+ },
+ {
+  "name": "Black Skull Shield",
+  "icon": "inv_shield_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Reduces the Rage cost of Shieldgore by and increases its damage by %."
+ },
+ {
+  "name": "Bloodied Blade",
+  "icon": "inv_staff_2h_artifactelune_d_05",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Melee Physical damage dealt now generates a stack of Demon's Blood."
+ },
+ {
+  "name": "Boiling Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Suffuse now increases your healing received by % for the first of it's duration."
+ },
+ {
+  "name": "Bone Collector",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Reduces the Rage cost of Skulltaker by and increases its damage by %."
+ },
+ {
+  "name": "Boundless Fury",
+  "icon": "ability_warlock_improveddemonictactics",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the effectiveness of the unleash effect from Pestilence of Death by %."
+ },
+ {
+  "name": "Brimstone Battlemaster",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Changing your active Pestilence now removes 1 curse and disease effect and reduces all damage taken by %."
+ },
+ {
+  "name": "Brimstone Bludgeon",
+  "icon": "inv_mace_1h_pvp410_c_01",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Generates 1 Demonfire Bludgeon an enemy and all nearby enemies, dealing % Weapon Damage. Unleashes your active Pestilence to trigger a powerful effect. Scales with modifiers to Sever."
+ },
+ {
+  "name": "Brimstone Buckler",
+  "icon": "inv_shield_ironhorde_d_01",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Level 10 Passive Successful blocks now have a % chance to summon 1 Hellfire Imp to aid you in battle. Can only occur once every 3 sec."
+ },
+ {
+  "name": "Brimstone Knight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases your Fire damage dealt by % and dealing Fire damage increases the enemy spell damage taken by %."
+ },
+ {
+  "name": "Brimstone Splinters",
+  "icon": "inv_flaming_splinter",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Grants Seeking Flame a % chance to generate 1 additional Demonfire when it deals damage. Chance to trigger is increased by % for each Demonfire you have active."
+ },
+ {
+  "name": "Brimstone's Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the chance of gaining a stack of Demon's Blood by %."
+ },
+ {
+  "name": "Bringer of Fire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases your maximum Demonfire stacks, and increases the bonus your Demonfire consuming abilities gain for each stack by %."
+ },
+ {
+  "name": "Broken Shackles",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Reduces the cooldown of Chainwhip by sec and Flesh Hook by sec."
+ },
+ {
+  "name": "Brute Strength",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your critical damage dealt with Physical attacks by % and increases the range of Flesh Hook, Chains of Malice, and Chainwhip by yds."
+ },
+ {
+  "name": "Bulwark of Xoroth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Damage dealt by Shieldgore will now apply Torn Flesh, causing the target to bleed for over."
+ },
+ {
+  "name": "Burning Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Ignite your weapon, causing you to send out searing fire with each melee critical strike, dealing its value Fire damage in a line and increasing your Armor penetration by % while active. Lasts for attacks. Lasts for 1 additional attack per Demonfire consumed."
+ },
+ {
+  "name": "Burning Flesh",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the damage of Seeking Flame by % and its critical strike chance by %."
+ },
+ {
+  "name": "Burning Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Level 20 Passive Increases your attack power by % of your Intellect and your spell damage by % of your Strength."
+ },
+ {
+  "name": "Burning Rage",
+  "icon": "warrior_talent_icon_angermanagement",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Enrage, generating Rage every sec and making you immune to incapacitate, banish, and polymorph effects. Usable while incapacitated, banished, or polymorphed."
+ },
+ {
+  "name": "Bursting Embers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Dealing damage to an enemy above 75% health now increases your critical strike chance by %."
+ },
+ {
+  "name": "Calamity",
+  "icon": "_d3disintegrate",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the damage of the Unleash effect of Pestilence of Apocalypse by % and its duration is increased by sec."
+ },
+ {
+  "name": "Call: Hellfire Abyssal",
+  "icon": "spell_warlock_summonabyssal",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Call down a Hellfire Abyssal from the sky to crash down upon the targeted yd area, dealing its value Fire damage. The abyssal remains to aid you in battle for and emits an aura that reduces the damage taken by party and raid members within yds by %. Costs less Rage"
+ },
+ {
+  "name": "Call: Hellfire Imp",
+  "icon": "ability_warlock_empoweredimp",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Generates 2 Demonfire Beckon Hellfire Imps to aid you in battle for and generate Rage. Threat generated by Hellfire Imps is transferred to you."
+ },
+ {
+  "name": "Carver",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "war"
+  ],
+  "desc": "Level 30 Passive Critical strikes with |CffffffffGore now generate 1 additional Demonfire."
+ },
+ {
+  "name": "Cataclysmic Power",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Your Calamity spell is now Instant."
+ },
+ {
+  "name": "Chain Grab",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Hooks the nearest Demonfire Orb, bringing it to your position."
+ },
+ {
+  "name": "Chain Warden",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Chains of Malice by -30 sec, and allows Flesh Hook and Chainwhip to strike up to 2 additional enemies near your primary target."
+ },
+ {
+  "name": "Chains of Malice",
+  "icon": "nhi_nightmarechain_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Lock an enemy down with magical chains, stunning them and dragging them with you. Every sec, the enemy will suffer its value Physical damage. Enemies that cannot be stunned or rooted cannot be dragged."
+ },
+ {
+  "name": "Chains of Xoroth",
+  "icon": "nhi_holychains_border",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Create demonic chains at target location that slow enemies inside by %. At the end of the duration, it pulls all affected enemies to it."
+ },
+ {
+  "name": "Chainwhip",
+  "icon": "_enslavespell_fire",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Swing a chain at an enemy dealing its value Physical damage and silencing them, generating a large amount of threat. you successfully interrupt an enemy, this will refund % of the cooldown."
+ },
+ {
+  "name": "Chaos Feast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases the damage of your Unleashed Pestilences by %."
+ },
+ {
+  "name": "Chop Shop",
+  "icon": "inv_weapon_shortblade_40",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Each stack of Demon's Blood now increases the critical strike chance of Brimstone Bludgeon and Meatsaw by %."
+ },
+ {
+  "name": "Cinderblade",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Level 30 Passive Increases your critical strike rating by % of your Intellect and your spell hit chance by %."
+ },
+ {
+  "name": "Claws of Hell",
+  "icon": "_deathgrip_fire",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "When you spend at least 4 Demonfire stacks you now refresh the duration of your Unleash Apocalypse on the target."
+ },
+ {
+  "name": "Combusting Blade",
+  "icon": "spell_fire_moltenblood",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases your Intellect by % and reduces the Rage cost of Infernal Strike."
+ },
+ {
+  "name": "Conqueror's Will",
+  "icon": "nhi_fireghost_border",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, Physical critical strikes now increase the target's Physical damage taken by %."
+ },
+ {
+  "name": "Create: Hellgate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Consumes 1 Demonfire You open a Hellgate for 20 seconds. While within yd of it you take % reduced damage and may generate a stack of Demonfire when you take damage. threat generated by the Hellgate is redirected to you."
+ },
+ {
+  "name": "Crusher",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "war"
+  ],
+  "desc": "Level 10 Passive Doubles the base Weapon Damage dealt by Infernal Strike and increases all critical damage dealt by %."
+ },
+ {
+  "name": "Curse of Hel'nurath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Curse an enemy, increasing Fire Damage taken and their chance to be critically struck by FIre Damage by %."
+ },
+ {
+  "name": "Curse of Xoroth",
+  "icon": "inv_shield_1h_nzothraid_d_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Curse an enemy, causing Shadow Damage every. you use Demonflare within, you curse your target with Ritual Fire. Casting Curse of Hel'nurath on a target afflicted with Ritual Fire will apply Black Shield to you."
+ },
+ {
+  "name": "Darkrider",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of your Mark spells by %."
+ },
+ {
+  "name": "Death To All",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical strike damage of Gore by %."
+ },
+ {
+  "name": "Decimation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Your next Skulltaker or Warbringer is guaranteed to critically strike for % increased damage. Lasts."
+ },
+ {
+  "name": "Defiance - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Level 15 Passive Increases your block rating by % of your Strength and increases your dodge chance by %."
+ },
+ {
+  "name": "Defiance Stats",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases block rating by % of Strength, and block value by %."
+ },
+ {
+  "name": "Demon Heart",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Embrace your inner demon, instantly generating 6 stacks of Demonfire and Rage."
+ },
+ {
+  "name": "Demon Knight's Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Reduces the cooldown of Brimstone Bludgeon by sec and increases its damage dealt by %."
+ },
+ {
+  "name": "Demon's Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Embrace your inner demon, increasing healing received by % and Armor by %, stacking up to times."
+ },
+ {
+  "name": "Demon's Breath",
+  "icon": "spell_shadow_demonicfortitude",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Critical strikes with Shieldgore now unleash an eruption of hellfire, causing its value Fire damage and generating 1 additional Demonfire."
+ },
+ {
+  "name": "Demonfeast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Demonfire Plating",
+  "icon": "spell_shadow_unholystrength",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces your damage taken by % and increases your Stamina by %."
+ },
+ {
+  "name": "Demonfire Retaliation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Grants you a % chance to generate a stack of Demonfire when attacked."
+ },
+ {
+  "name": "Demonfury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Enrage, increasing your movement speed by %, your attack power by %, and your critical strike chance by %. Lasts 3 sec, plus sec for each Demonfire consumed. While active, your movement speed cannot be reduced below %."
+ },
+ {
+  "name": "Demonic Blade",
+  "icon": "nhi_blood_blade_border",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Damaging abilities that spend Demonfire now increase the damage and cost of your next 2 Gores by %. At the end of the duration, or when all stacks are consumed, you instantly cast Meatsaw free of cost."
+ },
+ {
+  "name": "Demonic Bulwark",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Level 50 Passive Your successful blocks now have a % chance to critically block for twice the normal amount. Chance to trigger is increased by % for each Hellfire Imp you have active."
+ },
+ {
+  "name": "Demonic Frenzy",
+  "icon": "inv_knife_1h_pvppandarias1_c_01",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Casting Brimstone Bludgeon now increases your attack speed by %. Casting Gore extends the duration of this effect by sec."
+ },
+ {
+  "name": "Demonic Grit",
+  "icon": "inv_helm_cloth_raidwarlock_r_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Grant your summons demonic grit, increasing their total health by % and reducing their damage taken by by %."
+ },
+ {
+  "name": "Demonic Power",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Your inner demon radiates from within, increasing your threat generated by %."
+ },
+ {
+  "name": "Demonic Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Generating Demon's Blood stacks now generates 1 additional Rage."
+ },
+ {
+  "name": "Demonic Strength",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical strike chance of Brimstone Bludgeon by %."
+ },
+ {
+  "name": "Demonic Visage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Damage dealt by Seeking Flame now slows an enemy's movement speed by %."
+ },
+ {
+  "name": "Demonskin",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Each stack of Demon's Blood also increases your Armor by 1%."
+ },
+ {
+  "name": "Dismemberment",
+  "icon": "inv_staff_2h_artifactdeadwind_d_06",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damaging abilities that spend Demonfire now reduces the target's healing received by %."
+ },
+ {
+  "name": "Domination",
+  "icon": "inv_glaive_1h_artifactazgalor_d_03",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Melee critical strikes now reduce the cooldown of |CffffffffSearing Blade by sec."
+ },
+ {
+  "name": "Doom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Transforms your Greater Imp into a Doomguard. While transformed, your Doomguard deals % more damage, and its auto attacks ignite the target, dealing 10% of the damage dealt as Fire damage over, stacking times."
+ },
+ {
+  "name": "Drag Through Hell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Summons a friendly party or raid member to your location from anywhere in the world."
+ },
+ {
+  "name": "Dread",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Soulrend now heals you equal to % of the damage dealt."
+ },
+ {
+  "name": "Enslaver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Flesh Hook slows the movement speed of your target by %."
+ },
+ {
+  "name": "Evil Duo",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "war"
+  ],
+  "desc": "Level 50 Passive Unleashing a Pestilence now causes your Greater Imp to unleash it's Pestilence. The Imp's unleash effect is equivalent to your own unleash effect for the equivalent Pestilence."
+ },
+ {
+  "name": "Explosive Demonfire",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the effectiveness of the bonuses provided by Demonfire for Warbringer and Blade of Xorothand Brimstone Buckler by %."
+ },
+ {
+  "name": "Fiend",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Casting Brimstone Bludgeon now removes the cost of your next |CffffffffInfernal Strike."
+ },
+ {
+  "name": "Fiend of Forges",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Forgefiend's Bulwark now also increases your critical strike chance by %."
+ },
+ {
+  "name": "Fiery Retribution",
+  "icon": "inv_stave_2h_firelandsraid_d_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Each time a Hellfire Imp dies, you reduce the cooldown of Sacrificial Circle by sec and Implosion by sec."
+ },
+ {
+  "name": "Flameblade",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the damage of Infernal Strike and Warbringer by %."
+ },
+ {
+  "name": "Flameforger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases your maximum Demonfire stacks."
+ },
+ {
+  "name": "Flames of Xoroth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Burn up to enemies in front of you for its value Fire damage. Deals increased damage per Demonfire consumed. :Infernal Strike blasts nearby enemies affected by this for bonus Fire damage.:ifknown"
+ },
+ {
+  "name": "Flamewrath",
+  "icon": "spell_warlock_calldreadstalkers",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Strike an enemy for Weapon Damage plus its value as Flamestrike Damage, and apply a shield for absorbing up to its value damage."
+ },
+ {
+  "name": "Flay Corpse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Consume the target corpse, generating 20 Rage and then healing you and your summons for % maximum health every sec. Once a corpse has been flayed, it cannot be flayed again. Cannot be used in combat. Only usable on Humanoids, Beasts, or Demons."
+ },
+ {
+  "name": "Flesh Hook",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Hook an enemy, pulling them to you, dealing its value Physical damage and generating Rage."
+ },
+ {
+  "name": "Forgefiend's Bulwark",
+  "icon": "epic_rpg_icon_pack_fire_0004s_0000_armor_border",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Successful blocks, parries and dodges now have a % chance to Enrage you, increasing your damage dealt by %."
+ },
+ {
+  "name": "Furious Fighter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Your Brimstone Bludgeon now strikes 2 additional nearby enemies."
+ },
+ {
+  "name": "Furnace of Fiends",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Reduces the cooldown of Black Shield by sec."
+ },
+ {
+  "name": "Good Riddance",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Brimstone Bludgeon and Skulltaker deal % increased damage against enemies affected by Torn Flesh."
+ },
+ {
+  "name": "Gore",
+  "icon": "inv_sword_140",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "2 Charges, 8 sec recharge Generates 1 Demonfire Quickly gore an enemy, dealing % Weapon Damage plus its value."
+ },
+ {
+  "name": "Gored",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Damage dealt by Gore and Meatsaw now increases your target's damage taken from Skulltaker and Warbringer by %, stacking times."
+ },
+ {
+  "name": "Greater Imp",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Level 10 Passive Teaches you Summon: Greater Imp and increases your expertise."
+ },
+ {
+  "name": "Greater Mark of Blaumeux",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Mark an ally with the power of Blaumeux, increasing their spell power."
+ },
+ {
+  "name": "Greater Mark of Korth’azz",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Strength increased. Fire Resistance increased."
+ },
+ {
+  "name": "Greater Mark of Rivendare",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Mark nearby party and raid members with the guile of Rivendare increasing their Stamina by and Frost Resistance by."
+ },
+ {
+  "name": "Greater Mark of Zeliek",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Empowers nearby party and raid members with the mark of Zeliek, reducing their resource costs by % and increasing their Arcane Resistance. Lasts."
+ },
+ {
+  "name": "Harbinger of Pestilence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Pestilences by 50%."
+ },
+ {
+  "name": "Heart of Xoroth",
+  "icon": "ability_rogue_sanguinaryvein",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Allows Demon's Blood to stack additional times."
+ },
+ {
+  "name": "Hell Blender",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Meatsaw now has a % chance to refund Rage."
+ },
+ {
+  "name": "Hell's Forge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Create a Blacksmithing Forge and an Anvil at your location."
+ },
+ {
+  "name": "Hellbound Charge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "2 Charges, 60 sec rechargeBriefly jump atop your Xorothian Warsteed, increasing your movement speed by 70% for 3 seconds.Usable while indoors, but you cannot use your Mounted Combat abilities while riding your Warsteed in this way."
+ },
+ {
+  "name": "Hellbound Leash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Bind an enemy Demon up to level its value, forcing it to do your bidding for (8 sec vs players). While active, % of all damage it takes is redirected to you."
+ },
+ {
+  "name": "Hellbreaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Unleash Pestilence now removes all active movement impairing effects from you."
+ },
+ {
+  "name": "Hellbringer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the all damage dealt by party and raid members by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Hellcaller",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Successful blocks now have a % chance to summon 1 Hellfire Imp to aid you in battle. Can only occur once every 3 sec."
+ },
+ {
+  "name": "Hellfire Bellows",
+  "icon": "ability_racial_massproduction",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Bellow fire on all enemies in a yd cone in front of and behind you, dealing its value Fire damage and reducing the cooldown of Chains of Xoroth by sec per enemy hit. Cooldown is reduced by sec for each Demonfire consumed."
+ },
+ {
+  "name": "Hellfire Form",
+  "icon": "ability_racial_foregedinflames",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Consumes Demonfire stacks You transform into a Xorothian Demon, increasing magic damage dealt by % and causing you to emanate hellish flames every sec, dealing Fire Damage to nearby enemies. Lasts an additional sec for each Demonfire stack consumed."
+ },
+ {
+  "name": "Hellfire Reprimand",
+  "icon": "inv_plate_firelands_d_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Your Hellfire Imps now have a % chance on hit to launch a firebolt dealing its value Fire damage and reducing enemy attack power by its value."
+ },
+ {
+  "name": "Hellfire Resolve",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Level 30 Passive Increases your block rating by % of your Strength and increases your hit rating by % of your Strength."
+ },
+ {
+  "name": "Hellfire Rituals",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Critical strikes with Skulltaker now increases the haste of your Greater Imp by %."
+ },
+ {
+  "name": "Hellfire Striker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases your critical strike and hit chance by %."
+ },
+ {
+  "name": "Hellhaul",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "You bind an enemy target with magical Hellfire Chains, rooting them and dragging them with you. Every sec for the duration the target will suffer Physical Damage. Enemies that cannot be stunned or rooted cannot be dragged either."
+ },
+ {
+  "name": "Hellish Rebuke",
+  "icon": "inv_bow_1h_firelandsraid_d_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance",
+   "hellfire"
+  ],
+  "desc": "Generating a stack of Demon's Blood now has a % chance to trigger a fiery explosion on up to nearby enemies, dealing its value Fire damage."
+ },
+ {
+  "name": "Hellknight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "While above 75% health, all direct Physical damage dealt will grant a stack of Hellknight."
+ },
+ {
+  "name": "Hellmaw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Burn an enemy with a fiery strike, dealing its value Shadowflame Damage, plus an additional its value over. Deals % increased damage per Demonfire consumed."
+ },
+ {
+  "name": "Hellrider",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases your melee haste, movement speed, and mounted movement speed by %. Duration and effectiveness increased by 20% per Demonfire consumed. Usable while mounted."
+ },
+ {
+  "name": "Hellsmelted",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical strike chance and damage of Burning Blade by %."
+ },
+ {
+  "name": "Hellsmelted Armor",
+  "icon": "inv_glove_armor_orcclan_d_01",
+  "meta": "Talent",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Each Hellfire Imp active now increases your chance to block by %."
+ },
+ {
+  "name": "Hellstorm",
+  "icon": "ability_xavius_darkruination",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Create a hellstorm, dealing its value Fire damage to up to nearby enemies. Embers then flare every sec, dealing its value Fire damage. Duration is increased by % for each stack of Demonfire consumed."
+ },
+ {
+  "name": "Hellstriker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Direct critical strikes now increase the duration of Hellrider on you by sec. Duration cannot exceed maximum duration."
+ },
+ {
+  "name": "Hellwrath",
+  "icon": "inv_trinket_firelands_03",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Your Demon's Blood can now stack additional times and each stack now increases the absorption amount of Black Shield by %."
+ },
+ {
+  "name": "Imp Aura",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Level 40 Passive Each Hellfire Imp now reduces your Magic damage taken by %."
+ },
+ {
+  "name": "Imp Guards",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Level 20 Passive Each Hellfire Imp now reduces your Physical damage taken by %."
+ },
+ {
+  "name": "Impcaller",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Transforms your Call: Hellfire Imp into Impcaller."
+ },
+ {
+  "name": "Impish Pestilence",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Level 40 Passive Using a Pestilence now applies a Lesser Pestilence to your pet. You can only apply a Lesser Pestilence to your pet every 10 sec."
+ },
+ {
+  "name": "Implosion",
+  "icon": "custom_12_summon_imp_army_border",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Explode with hellish fire, dealing its value Fire damage to nearby enemies, beckoning Hellfire Imps to aid you in battle, and generating Rage. Deals increased damage and increases the amount of imps summoned by for each Demonfire consumed."
+ },
+ {
+  "name": "Imprison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Imprison a Demon for (6 sec vs players), banishing them, preventing all action, and making them invulnerable to all spells and attacks. Can only affect 1 enemy at a time."
+ },
+ {
+  "name": "Improved Gore",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the damage of Gore by %."
+ },
+ {
+  "name": "Improved Unleash Pestilence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Reduces the cooldown of Hell Scream by sec."
+ },
+ {
+  "name": "Indiscriminate",
+  "icon": "inv_glaive_1h_artifactaldrochi_d_04",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Seeking Flame now spreads Hellmaw and Melt from the target to up to enemies within yds."
+ },
+ {
+  "name": "Infernal Bulwark",
+  "icon": "inv_shield_firelandsraid_d_01",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases block value by %."
+ },
+ {
+  "name": "Infernal Pursuit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases your melee haste by % and reduces the duration of root effects against you by %."
+ },
+ {
+  "name": "Infernal Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Reduces damage taken by %. Lasts sec for each stack consumed. While the shield holds, enemies who strike you will take Fire damage, scaling with each Demonfire stack consumed."
+ },
+ {
+  "name": "Infernal Steel",
+  "icon": "inv_sword_1h_artifactfelomelorn_d_02",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Casting Skulltaker with 6 Demonfire stacks now causes your next Hellmaw within to tick % faster and cost % less Rage."
+ },
+ {
+  "name": "Infernal Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Generates 2 Demonfire Strike an enemy for % Weapon Damage plus its value as Fire damage."
+ },
+ {
+  "name": "Inferno Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the effectiveness of Firemaw by % and damage dealt by Firemaw now reduces the cooldown of Burning Scripture by sec."
+ },
+ {
+  "name": "Inferno Blast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases your critical damage against Burning targets by %."
+ },
+ {
+  "name": "Invasion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "All Fire damage dealt is increased by % to enemies above 80% health."
+ },
+ {
+  "name": "Juggernaut",
+  "icon": "epic_rpg_icon_pack_fire_0004s_0000_armor_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Consume all of your Demon's Blood to become a juggernaut, reducing all damage taken by %. For the duration, you heal every sec for its value, increased per Demon's Blood stack consumed."
+ },
+ {
+  "name": "Knight of Pestilence",
+  "icon": "spell_nature_insect_swarm2",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical damage of your Pestilences by %."
+ },
+ {
+  "name": "Knight of the Apocalypse",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "war"
+  ],
+  "desc": "Level 50 Passive Unleash Pestilence now triggers no cooldown on it's first use. Unleash Pestilence can only be reset this way once every 30 sec."
+ },
+ {
+  "name": "Legion's Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Emanate an aura to allies within yds, increasing their damage dealt by %. Fire damage dealt by Hellfire Imps is increased by % and total health increased by % while this effect is active on them."
+ },
+ {
+  "name": "Legionwake",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Allows Shieldgore to strike up to enemies."
+ },
+ {
+  "name": "Lethal Saw",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical strike chance of Meatsaw by %."
+ },
+ {
+  "name": "Mark of Blaumeux",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Mark an ally with the power of Blaumeux, increasing their spell power by and Shadow Resist by."
+ },
+ {
+  "name": "Mark of Korth’azz",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Mark an ally with the power of Korth’azz, increasing Strength by and Fire Resistance by."
+ },
+ {
+  "name": "Mark of Rivendare",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Mark an ally with the guile of Rivendare increasing their Stamina by and Frost Resistance by."
+ },
+ {
+  "name": "Mark of Zeliek",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Empower an ally with the mark of Zeliek, reducing their resource costs by % and increasing their Arcane Resistance. Lasts."
+ },
+ {
+  "name": "Meatsaw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Generates 2 Demonfire Quickly swing a massive blade at nearby enemies, dealing % Weapon Damage plus and applies Torn Flesh."
+ },
+ {
+  "name": "Melt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Incinerate an enemy with hellish flames, reducing their Armor by % per Demonfire consumed and increasing their damage taken from your Blade of Xoroth and Flames of Xoroth by %."
+ },
+ {
+  "name": "Merciless",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Grants Gore a % chance to not consume the Goredrenched effect, allowing it to be used again. Additionally Goredrenched increases the damage of Gore by %."
+ },
+ {
+  "name": "Mighty Swings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the damage dealt by Torn Flesh by %."
+ },
+ {
+  "name": "Mounted Champion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Xorothian Warsteed is now instant cast and prevents roots and slows for 2 sec when cast, but now has a 10 sec cooldown."
+ },
+ {
+  "name": "Mounted Reaver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of all Mounted Combat abilities by -20%."
+ },
+ {
+  "name": "Mutilation",
+  "icon": "ability_skeer_bloodletting",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the damage of Gore and Brimstone Bludgeon by %."
+ },
+ {
+  "name": "Oath of Defiance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases threat generated by %, causes you to generate Rage when taking damage, and your block rating is increased by % of Strength. Reduces damage dealt by %."
+ },
+ {
+  "name": "Omen of Rage",
+  "icon": "custom_06_summon_demon_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Periodic damage and healing done has a % chance to grant a stack of Demonfire."
+ },
+ {
+  "name": "Pestilence of Apocalypse",
+  "icon": "ability_foundryraid_heatregulators",
+  "meta": "Ability",
+  "specs": [
+   "hellfire",
+   "war"
+  ],
+  "desc": "Emanate the Pestilence of Apocalypse, causing targets within 8 yds to take 10% increased Fire damage from you."
+ },
+ {
+  "name": "Pestilence of Conquest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Emanate a pestilence, slowing the casting speed of all enemies within yds by %. Unleash: Interrupts all enemy casts within yds, preventing any spell from that school of magic from being cast."
+ },
+ {
+  "name": "Pestilence of Death",
+  "icon": "ability_creature_disease_03",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Emanate a pestilence, increasing your critical damage by %. Unleash: Deals its value Shadowflame Damage to enemies within yds and absorbs its value healing done to them."
+ },
+ {
+  "name": "Pestilence of Famine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Emanate a pestilence reducing the movement speed by % and attack speed of nearby enemies by %. Unleash: Reduces enemies' movement speed within yds by %."
+ },
+ {
+  "name": "Pestilence of War",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Emanate a pestilence, causing each Demonfire spent to heal for 1.5% of your maximum health. Unleash: Leeches its value health from nearby enemies and restores % of your maximum health."
+ },
+ {
+  "name": "Pestilent Retaliation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "When you block an attack you now have a % chance to unleash your active Pestilence at half of its effectiveness. Can only occur once every 5 sec."
+ },
+ {
+  "name": "Pillars of Demonfire",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Your maximum Demonfire stacks is increased."
+ },
+ {
+  "name": "Punisher",
+  "icon": "novart_magicspell_(36)_border",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the attack power and spell power scaling of Seeking Flame by %."
+ },
+ {
+  "name": "Rage Demon",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Level 30 Passive Your direct damage dealt with abilities now has a % chance to generate an additional stack of Demonfire and Demon's Blood. In addition, your spell hit rating is increased by % of your Strength."
+ },
+ {
+  "name": "Rage of Xoroth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your critical strikes now enrage you, increasing your melee attack speed by %."
+ },
+ {
+  "name": "Ragefist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum Rage by and reduces the duration of disarm effects against you by %."
+ },
+ {
+  "name": "Rain of Chaos",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Casting |CffffffffFlames of Xoroth with 6 Demonfire now calls down a Rain of Chaos."
+ },
+ {
+  "name": "Recall Imp",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Recall your Hellfire Imp from the Twisting Nether, bringing it back to life."
+ },
+ {
+  "name": "Render",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "war"
+  ],
+  "desc": "Level 40 Passive Increases your melee haste rating by % of your Strength."
+ },
+ {
+  "name": "Ripper",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "war"
+  ],
+  "desc": "Level 20 Passive Damaging abilities that spend Demonfire now refresh a charge of Gore."
+ },
+ {
+  "name": "Sacrificial Circle",
+  "icon": "nhi_firerune_(2)_border",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Sacrifice your Hellfire Imps within yds, healing you % of your maximum health, plus an additional amount equal to 25% of each of your Hellfire Imp's maximum health. Hellfire Imps sacrificed in this way leave behind corpses."
+ },
+ {
+  "name": "Screamin' Demon",
+  "icon": "ability_fomor_boss_shout",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Reduces the cooldown of Unleash Pestilence by sec."
+ },
+ {
+  "name": "Seeking Flame",
+  "icon": "_soulfire_red",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Generates 1 Demonfire Sear an enemy, dealing its value Fire damage, slowing their movement speed by %."
+ },
+ {
+  "name": "Seeking Pain",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the critical damage of Seeking Flame by %."
+ },
+ {
+  "name": "Seething Strikes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the damage of Brimstone Bludgeon by % against Burning targets and it now increases the targets chance to be critically struck by %."
+ },
+ {
+  "name": "Servitude",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases the duration of your Hellfire Imps by sec and reduces the cooldown of Call Hellfire Imp by sec."
+ },
+ {
+  "name": "Sever",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Strike an enemy with demonic might, dealing % Weapon Damage plus its value and generating Rage."
+ },
+ {
+  "name": "Shadowflame Forge",
+  "icon": "ability_racial_forgeoflight",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the duration of Hellmaw by sec."
+ },
+ {
+  "name": "Shieldgore",
+  "icon": "inv_shield_draenorraid_d_02",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Generates 2 Demonfire Gore the target with your spiked shield, causing its value High Threat Fire Damage, scaling with your block value, and applying Torn Flesh to them."
+ },
+ {
+  "name": "Skulltaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Slash an enemy viciously, dealing % Weapon Damage plus its value. Deals increased damage per Demonfire consumed."
+ },
+ {
+  "name": "Smolder",
+  "icon": "uico_fire_spell_02_border",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Dealing direct Fire Damage now ignites targets, Burning them for an additional Fire Damage over."
+ },
+ {
+  "name": "Snarl",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Taunts an enemy target to attack you."
+ },
+ {
+  "name": "Spiked Chains",
+  "icon": "creatureportrait_blackrock_chainsofwoe",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Chainwhip now deals its value additional Physical damage, increased by % on Humanoids."
+ },
+ {
+  "name": "Spite",
+  "icon": "ability_warlock_backdraftgreen",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the duration of Burning Scripture by sec."
+ },
+ {
+  "name": "Stoke the Flames",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Your Skulltaker and Melt used with 6 Demonfire now refund 2 Demonfire. Skulltaker used with 6 Demonfire now deals an additional % Fire damage."
+ },
+ {
+  "name": "Suffuse",
+  "icon": "diabloanniversary_achievement",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Embrace your mortal body, restoring its value health every sec, scaling with Stamina and defense rating. Lasts sec for each Demonfire consumed. While active, damage taken is reduced by %."
+ },
+ {
+  "name": "Suffusion of Essence",
+  "icon": "inv_trinket_firelands_03",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Suffuse by sec for each Demonfire consumed."
+ },
+ {
+  "name": "Summon: Greater Imp",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Summon a Greater Imp to aid you in combat. Greater Imp has various combat abilities that provide excellent single target damage and control."
+ },
+ {
+  "name": "Superheated Blade",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases Armor penetration rating by % of Strength and Strength by %."
+ },
+ {
+  "name": "Swift Death",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Damage dealt by Flames of Xoroth, when used with at least 3 Demonfire stacks, now purges 1 magic effect and steals 1 magic effect from enemies."
+ },
+ {
+  "name": "Taskmaster",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your critical strike chance by % plus an additional % against Demons."
+ },
+ {
+  "name": "The Butcher",
+  "icon": "artifactability_unholydeathknight_flagellation",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Damage dealt by Meatsaw now increases the damage dealt by subsequent Meatsaws by % and reduces its global cooldown by %, stacking times."
+ },
+ {
+  "name": "To Ashes",
+  "icon": "spell_fire_volcano",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the critical strike chance of abilities that spend Demonfire by %."
+ },
+ {
+  "name": "Unbound Inferno",
+  "icon": "spell_fire_flameblades",
+  "meta": "Talent",
+  "specs": [
+   "war"
+  ],
+  "desc": "Your Infernal Strikes against enemies affected by your Hellmaw or Flames of Xoroth now blasts nearby enemies for its value Fire damage."
+ },
+ {
+  "name": "Unleash Hellfire",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Unleash a blast of hellfire upon nearby enemies whenever you expend your Demonfire stacks, dealing its value Fire Damage."
+ },
+ {
+  "name": "Unleash Pestilence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Let out a terrifying howl, unleashing your and your Greater Imp's active Pestilence on nearby enemies to trigger a powerful effect."
+ },
+ {
+  "name": "Unseal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Deals Shadow Damage to an enemy and increases the initial damage they take from your next Demonflare by %."
+ },
+ {
+  "name": "War Pig",
+  "icon": "ability_deathwing_assualtaspects",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Physical damage dealt by %."
+ },
+ {
+  "name": "Warbeast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Increases the critical damage of Gore and Brimstone Bludgeon by %."
+ },
+ {
+  "name": "Warbringer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "war"
+  ],
+  "desc": "Slam the ground, dealing % Weapon Damage plus its value to nearby enemies, reducing the effectiveness of any healing by %. Deals increased damage per Demonfire consumed."
+ },
+ {
+  "name": "Warden of Hellfire",
+  "icon": "achievement_guild_forgreatjusticerank2",
+  "meta": "Ability",
+  "specs": [
+   "defiance"
+  ],
+  "desc": "Increases the damage dealt by Skulltaker and Flames of Xoroth by %."
+ },
+ {
+  "name": "Warpath",
+  "icon": "ability_warrior_intensifyrage",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While Unleash Pestilence is active it now protects your movement speed from being reduced below % of normal speed."
+ },
+ {
+  "name": "Xorothian Empowerment",
+  "icon": "achievement_firelands_raid_ragnaros",
+  "meta": "Talent",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases the attack power of all party and raid members %. Does not stack with similar effects."
+ },
+ {
+  "name": "Xorothian Finesse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your chance to parry by %."
+ },
+ {
+  "name": "Xorothian Flames",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "hellfire"
+  ],
+  "desc": "Increases your Fire Damage dealt by %."
+ },
+ {
+  "name": "Xorothian Sigil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create a demonic sigil that protects party members within yds of you, causing them to deflect the next harmful spell cast against them within."
+ },
+ {
+  "name": "Xorothian Strength",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Strength by %."
+ }
+]

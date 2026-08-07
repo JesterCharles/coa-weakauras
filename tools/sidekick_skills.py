@@ -78,10 +78,24 @@ def bundle(refresh=False):
         req = urllib.request.Request(URL, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=60) as r:
             raw = r.read().decode("utf-8", "replace")
-        with open(dest(CACHE), "w", encoding="utf-8") as f:
-            f.write(raw)
-        path = dest(CACHE)
-        print(f"  downloaded {len(raw):,} bytes -> {path}")
+        # ⚠️ AN UNCHANGED REFRESH MUST NOT TOUCH THE FILE. citations.py reads
+        # this file's MTIME as the citation `retrieved_at`, so a no-op
+        # re-download would stamp today's date onto content that has not moved
+        # and report the corpus fresher than it is -- the exact bug the mtime
+        # rule was introduced to fix, reintroduced from the other end.
+        # Verified live on 2026-08-07: a --refresh returned bytes IDENTICAL to
+        # the 08-02 copy, so mtime is only honest if it means "when this
+        # content first appeared here".
+        old = (open(path, encoding="utf-8").read()
+               if os.path.exists(path) else None)
+        if old == raw:
+            print(f"  unchanged ({len(raw):,} bytes) -- upstream has published "
+                  f"nothing new; file and its mtime left alone")
+        else:
+            with open(dest(CACHE), "w", encoding="utf-8") as f:
+                f.write(raw)
+            path = dest(CACHE)
+            print(f"  downloaded {len(raw):,} bytes -> {path}")
     raw = open(path, encoding="utf-8").read()
     return json.loads(raw[raw.index("=") + 1:].strip().rstrip(";"))
 

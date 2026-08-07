@@ -41,7 +41,7 @@
     "variants": [
       712389
     ],
-    "note": "Base 712325 (122 mana, 45s). Taking Runelord REPLACES it with 712389 (134 mana, 2 charges, 45s recharge, +1% magic damage reduction) -- a different spell id, not just an extra charge, so an exact-id trigger on the base silently stops matching once talented."
+    "note": "Base 712325 (122 mana, 45s). The 2-charge talents -- Runelord, and Echoes of Eternity (521211, 'Your Zenith now has 2 charges') -- REPLACE it with 712389 (134 mana, 2 charges, 45s recharge, +1% magic damage reduction) rather than modifying it. An exact-id trigger on the base then matches nothing, and the icon does not dim, it VANISHES from the row. Reported in game against Echoes of Eternity. `variants` is what wapack.VARIANT_BASE reads to drop exact matching and to refuse the base id as a spellknown gate."
   },
   "Fists of Power": {
     "id": 805796,

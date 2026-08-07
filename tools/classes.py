@@ -191,7 +191,11 @@ CORE_LEAVES = {
     # 30 -> 15 when the long-term band moved out of Core into one band per
     # spec, so its 15 icons stopped being class-wide leaves. Core now holds
     # the two reminder alerts and the engraving/etching trackers only.
-    "runemaster": 15,
+    # 15 -> 16 when Primordial Blast's merged main-row leaf gave up its
+    # `spellknown = 800732` gate. The Elemental Mastery transform can replace
+    # the spell, which would make IsSpellKnown false and unload the display at
+    # the exact moment it procs -- see build_runemaster.py.
+    "runemaster": 16,
     # 23 -> 12 for the same reason Runemaster went 30 -> 15: the long-term band
     # moved out of Core into one band per spec, so its 11 icons stopped being
     # class-wide leaves. Core now holds the two reminder alerts and the

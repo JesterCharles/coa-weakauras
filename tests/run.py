@@ -523,6 +523,14 @@ else:
 # entries that omitted Runeblade and Runic Explosion while rendering both, and
 # coverage measured against that inventory read 100%.
 #
+# ⚠️ HALF of that example was wrong, and the correction is the more useful
+# lesson. The skillbook was right to omit Runic Explosion: it is the damage
+# COMPONENT of Runeblade spending `Marked: Runic Brand` (rank="Damage", cd=0,
+# gcd=0), not a button. The pack drew it on the Engravement main row from 1.0
+# to 1.7 anyway. So "the pack renders it" is a floor on what needs a ROW, and
+# never evidence that something is an ABILITY -- this check answers coverage,
+# not correctness, and a wrong row passes it just as happily as a right one.
+#
 # Judged on triggers, not display ids: a resource bar has no ability behind it
 # and must not be counted, or the number never reaches zero and stops meaning
 # anything.
@@ -1063,6 +1071,63 @@ for cls in UNDER_TEST:
               abs(moved - want) < 1.5,
               f"moved {moved:.0f}px, expected {want:.0f}px -- the band below "
               f"is holding space for rows that did not render")
+
+
+
+# ------------------------------- 22. no damage COMPONENT sits in a pressable row
+#
+# `Runic Explosion` sat on Runemaster's Engravement main row from 1.0 to 1.7. It
+# is not a button: it is what Runeblade CAUSES when it spends
+# `Marked: Runic Brand`. It survived an in-game verification, because that check
+# confirmed the ART RESOLVED -- a different question from whether the icon means
+# anything -- and it was caught by a player who knew the class, not by anything
+# here.
+#
+# THE SIGNAL IS `rank`, AND ONLY `rank`. The obvious-looking test -- no GCD, and
+# absent from the class skillbook -- was tried first and is useless: it fires on
+# ~65 abilities across three classes, including Zenith, Ley Lock, Guarding Rune
+# and Phase Out. Off-GCD abilities are ordinary here; the repo's own off-GCD
+# note counts 26 of Runemaster's 59 cooldowns. A check that cries wolf 65 times
+# is a check people learn to skip.
+#
+# db.exil.es marks components with a rank that is not a rank: "Damage", "Heal",
+# "Giga Heal", "Absorb", "Energize", "ICD", "Proc". Runic Explosion is "Damage";
+# Pyromancer's Phoenix Egg heal component is "Heal" and its Inferno Explosion is
+# "Giga Heal", and both are correctly `ignore`d. Across all three shipped packs
+# this flags ZERO false positives -- so it is worth failing the build over.
+#
+# It does NOT catch every wrong row. Pyromancer's `Stoke` was a passive talent
+# carrying rank "Rank 1", and only the cross-database sweep found it. The two
+# checks are complements, not substitutes.
+print("\n22. no damage component sits in a pressable row")
+
+COMPONENT_RANKS = {"Damage", "Heal", "Giga Heal", "Absorb", "Energize",
+                   "ICD", "Proc", "proc", "Deprecated"}
+PRESSABLE = re.compile(r" (Main|Offense|Utility) ")
+
+for cls in UNDER_TEST:
+    mpath = class_data(f"spell-meta-{cls.slug}.json")
+    ppath = cls.pack_path(f"{cls.slug}-all-specs")
+    if not (os.path.exists(mpath) and os.path.exists(ppath)):
+        continue
+    meta = _json.load(open(mpath, encoding="utf-8"))
+    pack = load(ppath)
+    bad = []
+    for d in pack["c"].values():
+        i = d.get("id", "")
+        if d.get("controlledChildren") or not PRESSABLE.search(i):
+            continue
+        trs = d.get("triggers") or {}
+        t1 = (trs.get(1) or {}).get("trigger") or {}
+        if t1.get("type") != "spell":
+            continue
+        v = meta.get(str(t1.get("spellName"))) or {}
+        if v.get("rank") in COMPONENT_RANKS:
+            bad.append(f"{i} -> {t1.get('spellName')} rank={v['rank']!r}")
+    check(f"{cls.slug}: no component ranks in Main/Offense/Utility",
+          not bad,
+          "these are effects, not buttons -- set the inventory role to "
+          "`ignore` and take them off the row:\n" + "\n".join(bad[:8]))
 
 
 print()

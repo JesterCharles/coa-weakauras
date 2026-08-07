@@ -29,7 +29,7 @@ DOCS = os.path.join(ROOT, "docs")
 
 sys.path.insert(0, SP)
 from wacodec import wa_decode  # noqa: E402
-from classes import CLASSES, built as built_classes  # noqa: E402
+from classes import CLASSES, built as built_classes, data as class_data  # noqa: E402
 from iconcolor import class_icon, colors_for, read_png  # noqa: E402
 import hud  # noqa: E402
 import rankings  # noqa: E402
@@ -269,8 +269,9 @@ def pack_block(label, pack_file, stats, desc, idx, version="",
         # Said on the pack itself, not in a footnote. A player deciding whether
         # to import needs it at the point of decision.
         ver += (' &middot; <span class="packver unver" '
-                'title="Generated and validated, but nobody has loaded this '
-                'exact version in game yet">not verified in game</span>')
+                'title="Community draft: generated and validated, but nobody '
+                'has confirmed this exact version in game yet. Feedback '
+                'converges it.">draft</span>')
     return f"""<article class="pack">
   <div class="packhead">
     <h3>{html.escape(label)}</h3>
@@ -286,6 +287,84 @@ def pack_block(label, pack_file, stats, desc, idx, version="",
     <a class="dl" href="../packs/{pack_file}" download>Download .txt</a>
   </div>
 </article>"""
+
+
+
+def changelog_panel(c):
+    """Ascension's own changes for this class, and whether the pack has caught up.
+
+    THE QUESTION A PLAYER ACTUALLY HAS is not "what changed" -- it is "is what
+    I am about to import built on current information". A pack page that shows
+    a version and a verified badge answers neither, because both can be true of
+    a pack built the day before the devs reworked the spec.
+
+    So each entry is rendered with its date and one of two states:
+
+        accounted   the entry was triaged and accepted (changelog_watch
+                    --accept), i.e. somebody decided what it meant for the pack
+        outstanding parsed from the live changelog and NOT yet accepted
+
+    `outstanding` is deliberately not the same as "the pack is wrong". Most
+    changelog entries are damage numbers that no WeakAura can or should react
+    to. It means: nobody has said out loud what this one means yet.
+
+    Read from resources/changelog-entries.json, written by
+    `changelog_watch.py --snapshot`. The snapshot is independent of --accept on
+    purpose -- a renderer that could only read accepted state would show
+    exactly the entries nobody needs warning about.
+    """
+    path = class_data("changelog-entries.json")
+    if not os.path.exists(path):
+        return ""
+    snap = json.load(open(path, encoding="utf-8"))
+    mine = [e for e in snap.get("entries", []) if e.get("class") == c["slug"]]
+    if not mine:
+        return ""
+    mine.sort(key=lambda e: (e.get("date") or "", e.get("text") or ""),
+              reverse=True)
+    out = [e for e in mine if not e.get("accepted")]
+    newest = mine[0].get("date") or "?"
+    scanned = snap.get("scanned_at", "")
+
+    if out:
+        head = (f'<span class="cl-warn">{len(out)} change'
+                f'{"" if len(out) == 1 else "s"} not yet folded into a '
+                f'release</span>')
+        note = ("Most changelog entries are damage numbers that no WeakAura "
+                "reacts to. This counts the ones nobody has ruled on yet, "
+                "which is a different and more honest thing than saying the "
+                "pack is wrong.")
+    else:
+        head = '<span class="cl-ok">up to date with every published change</span>'
+        note = ("Every change Ascension has published for this class has been "
+                "read and ruled on.")
+
+    rows = []
+    for e in mine[:14]:
+        st = "acc" if e.get("accepted") else "out"
+        lbl = "accounted" if e.get("accepted") else "outstanding"
+        spec = f" &middot; {html.escape(e['spec'])}" if e.get("spec") else ""
+        rows.append(
+            f'<li class="cl-{st}"><span class="cl-date">'
+            f'{html.escape(e.get("date") or "?")}{spec}</span>'
+            f'<span class="cl-state">{lbl}</span>'
+            f'<span class="cl-text">{html.escape(e.get("text") or "")}</span>'
+            f'</li>')
+    more = (f'<p class="note">{len(mine) - 14} older entr'
+            f'{"y" if len(mine) - 14 == 1 else "ies"} not shown.</p>'
+            if len(mine) > 14 else "")
+
+    return f"""<section class="changelog">
+  <p class="lbl">Server changes</p>
+  <h2>Ascension changelog &mdash; {head}</h2>
+  <p class="desc">Newest published change for this class:
+     <strong>{html.escape(newest)}</strong>.
+     Changelog read {html.escape(scanned or "recently")}. {note}</p>
+  <ul class="cl-list">
+{chr(10).join(rows)}
+  </ul>
+  {more}
+</section>"""
 
 
 def rankings_panel(c):
@@ -845,6 +924,7 @@ def build(allow_unverified=False):
 {hud_preview(c, packs)}
 </section>
 {rankings_panel(c)}
+{changelog_panel(c)}
 <section>
   <p class="lbl">Import</p>
   <h2>Three steps</h2>

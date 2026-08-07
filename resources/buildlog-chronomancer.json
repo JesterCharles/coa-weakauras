@@ -1,0 +1,48 @@
+{
+ "class": "chronomancer",
+ "gates": {
+  "research": "2026-08-07"
+ },
+ "metrics": {
+  "research": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 251,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 261,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 251,
+   "mechanics_sources": 3,
+   "open_unknowns": 8,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "21 entries (07/31 + 08/03) triaged into the inventory and accepted. 3 need no action (Gravity Bomb death-explode, Rewind slow+speed+CC-immune, Fray Magic which the pack already carries); 5 are pure numbers; 4 are passives (Rapid Acceleration = Cycling Aeons renamed on the SAME id 570149, Keep Accelerating, Chronicler, Constant Recovery). 3 left OPEN: Fortify Timeline may belong on the Time main row now that it extends Accelerated Recovery, Temporal Anomaly's early release needs a second-press cue, Timeguard's 3 applications may want a count. The Aeon rework leaves Resilience 560373 and Oblivion 560376 possibly dead in the Time target band -- UNKNOWN until someone casts Epoch under each Aeon in game."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "3 Sidekick citations, 11 claims, validate clean. NOTE the snapshot is resources/sidekick-data.js dated 2026-08-02, which PREDATES nothing in the 07/31 batch but does predate the 08/03 entries -- re-scrape before leaning on a Chronomancer priority."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 251,
+   "note": "251/251. 7 no-record, all re-asked BY NAME and none is a cut ability: 5 (Chronobeam, Chronurgy, Fray Magic, Reflection, Unearth) are the NO_UPSTREAM_ART gap the builder already documents; Sandblast is a rank family (ascension has ranks 5 and 10, we hold rank 2, matched by name); Shifting Sands has no record and no name hit but carries a full exil.es tooltip. Two name hits were DIFFERENT abilities wearing the same word -- Reflection 9906 (vanilla spell reflect) and Fray Magic 560825 (a hunter passive). Verdicts written into the rows."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "0 seed:/prop: markers."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "resources/sidekick-chronomancer-{artificer,infinite,time}.md all present."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-chronomancer.md written RETROSPECTIVELY -- the pack shipped 1.2 before Phase 0 existed. 8 UNKNOWNs, sorted by whether they would mislead a player: 4 worth a trip (Aeon target bars possibly dead post-rework, Fray Magic id not settled, no pet section at all, Chaos Empowerment transform unwatched) and 4 feedback questions."
+  }
+ }
+}

@@ -1,0 +1,2471 @@
+[
+ {
+  "name": "'Pick Lock'",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Allows opening of locked chests and doors."
+ },
+ {
+  "name": "Aether Augmentation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Add an Aether Augmentation to your gun for 1 hour, causing an additional its value Arcane damage with each shot. Increases your damage and critical strike chance against Mechanicals by % and reduces your Magic damage taken by %."
+ },
+ {
+  "name": "Air Strike",
+  "icon": "ability_mount_gyrocoptor",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Mark the target location for an Air Strike. After, it deals its value Fire damage to up to enemies caught within the blast. This ability always critically strikes."
+ },
+ {
+  "name": "Ammo Clip",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the cooldown of Boomshot by sec."
+ },
+ {
+  "name": "Anti-Cloaking Device",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reveal all stealthed and invisible enemies within yds at target location. Lasts."
+ },
+ {
+  "name": "Anti-Magic Grenades",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Toss grenades that dispel up to 3 benefical magic effects and silences all enemies within yds."
+ },
+ {
+  "name": "Arcane Bionics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Augment a party member with the essence of arcane, decreasing damage taken from spells by up to % and healing spells by up to %. Lasts."
+ },
+ {
+  "name": "Arcanoreflector",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Encases you in a magical shield, reflecting the next spell cast on you within."
+ },
+ {
+  "name": "Arclight Adept",
+  "icon": "inv_axe_1h_mechagnome_c_01",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Increases the critical damage of your Mechsuit abilities by %."
+ },
+ {
+  "name": "Arclight Core",
+  "icon": "inv_gizmo_khoriumpowercore",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Makeshift Dynamite now marks enemies. The next damaging ability used on this target by your pet consumes the mark to deal its value Fire damage."
+ },
+ {
+  "name": "Augmentor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "While Piercing Augmentation or Aether Augmentation is active, your ranged haste is increased by %."
+ },
+ {
+  "name": "Auto Resuscitation Device",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Attach a resuscitation device to your target ally. When the target would otherwise die, they are instead healed for % of their maximum health."
+ },
+ {
+  "name": "Azerothian Sniper",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Removes the cooldown of Sniper Rifle and causes Snipe to make your next gun swap instant cast."
+ },
+ {
+  "name": "BOOM!",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage of Boomshot and Bomb Toss against enemies affected by Sticky Bomb by %."
+ },
+ {
+  "name": "Backup Fuel",
+  "icon": "achievement_battleground_templeofkotmogu_02_orange",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Falling below 35% health now refreshes all charges of Rocket Boots. Can occur only once every 3."
+ },
+ {
+  "name": "Bandage Gun",
+  "icon": "inv_engineering_pumpactionbandagegun",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Healing from Stim Augmentation now affects 2 additional allies near the primary target."
+ },
+ {
+  "name": "Barrel Choke",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Scrap Shot increases your damage done against enemies by %, stacking times. Repair Shot increases the healing of Repair Shot by %, stacking times."
+ },
+ {
+  "name": "Basic Intuition",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "For, your Build spells cost no mana, and their cast time is removed."
+ },
+ {
+  "name": "Battery Swap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Instantly regenerate % of your maximum mana and an additional % base mana every sec over sec."
+ },
+ {
+  "name": "Battle Engineer",
+  "icon": "inv_misc_enggizmos_20",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Level 30 Passive Your ranged damage dealt now has a % chance to refresh a charge of |CffffffffMakeshift Dynamite."
+ },
+ {
+  "name": "Blackpowder Swag",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reduces the cooldown of Blackpowder Barrage by sec."
+ },
+ {
+  "name": "Blasting Barrels",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases critical strike damage by % and increases damage dealt by Rounds by %."
+ },
+ {
+  "name": "Blasting Charge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Next Scrap Shot within deals % increased damage and fires % faster. Up to enemies near the target take Fire Damage."
+ },
+ {
+  "name": "Blasting Powder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage of Scrap Shot by %."
+ },
+ {
+  "name": "Blastmaster",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Damage dealt by Scrap Shot and Bomb Toss against enemies affected by Sticky Bomb unleash a Sticky Bomb Explosion. Damage dealt by Sticky Bomb is reduced by %."
+ },
+ {
+  "name": "Bomb Builder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases your and your summons Fire Damage dealt by %."
+ },
+ {
+  "name": "Bomb Specialist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases Fire spell power by % of Agility."
+ },
+ {
+  "name": "Bomb Squad",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Level 40 Passive Increases your Fire spell power by % of Agility."
+ },
+ {
+  "name": "Bomb Toss",
+  "icon": "5_bomb_border",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Lob a bomb at an enemy, dealing its value Fire damage and reducing their armor by %, stacking times."
+ },
+ {
+  "name": "Bombastic",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Level 30 Passive Casting Build: Spider Bomb now resets the cooldown of Bomb Toss and causes your next Bomb Toss within to trigger no cooldown, global cooldown, or cost."
+ },
+ {
+  "name": "Bomber Man",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Level 30 Passive While Bombastic is active, your Bomb Tosses will additionally reduce the cooldown of Sticky Bomb by sec."
+ },
+ {
+  "name": "Bombing Rocket",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Causes Bomb Launcher shots to reduce the cast time of your next Rocket Launcher by %, stacks up to 3 times."
+ },
+ {
+  "name": "Bomblord",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Makes Deploy Bomb instant and reduces the cooldown of Remote Detonation by sec."
+ },
+ {
+  "name": "Bombs? BOMBS!",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Increases the detonation speed of Sticky Bomb by sec and reduces its cooldown by sec."
+ },
+ {
+  "name": "Boomshot",
+  "icon": "_d3evasivefire",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Every 4th Scrap Shot now causes your next Scrap Shot within to deal % increased damage."
+ },
+ {
+  "name": "Bot: C.U.R.B Stomp",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Commands your Clockwork Assistant to deal Physical damage to all enemies within yds, stunning them."
+ },
+ {
+  "name": "Bot: Flamespill",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Teleports your Clockwork Assistant to the targeted position and causes it to unleash a torrent of flames upon enemies within, causing Fire Damage."
+ },
+ {
+  "name": "Bot: Hydraulic Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "You and your Clockwork Assistant deliver a devastating attack on your melee attack within to an enemy, causing its value Stormstrike Damage."
+ },
+ {
+  "name": "Build: Alarm Beacon",
+  "icon": "inv_lightforgedmechsuit",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "3 Charges, 15 sec recharge Throw down an alarm beacon, removing fear, charm and sleep effects from up to 2 allies within yds every sec. Overcharge: Dispels harmful magic and curse effect from all allies within 15 yds.?s92140["
+ },
+ {
+  "name": "Build: Battery Recharge Station",
+  "icon": "inv_engineering_815_uberspanner",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Build a Battery Recharge Station for that allies can interact with once to replenish % maximum health and mana, and % maximum Rage, Energy, Focus, and Runic Power. Applies Depleting Battery to party and raid members within yds."
+ },
+ {
+  "name": "Build: Battle Turret X-13",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Create the latest in turret technology, the Battle Turret X-13 for that emanates an aura that increases the damage of your summons by %. Allies can enter the turret giving them access to unique abilities and the turret's health pool for the duration."
+ },
+ {
+  "name": "Build: Bounce Pad!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Build a Bounce Pad on the ground for. Allies who jump on the pad will be launched forward and gain % increased movement speed."
+ },
+ {
+  "name": "Build: Clockwork Assistant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Construct a Clockwork Assistant to accompany the Tinker until dismissed."
+ },
+ {
+  "name": "Build: Destructo-Bot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Build a Destructo-Bot that you can see through and directly control. The bot is capable of exploding, dealing massive Fire damage to enemies nearby and disorienting them."
+ },
+ {
+  "name": "Build: Firepot Drone",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "3 Charges, 10 sec recharge Build a Firepot Drone that flies towards your target, dropping a bomb along its path and exploding upon landing, dealing its value Fire damage in a yd radius, leaving oil on the ground for that slows enemies within by %."
+ },
+ {
+  "name": "Build: Mechano-Bear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Construct a Mechano-Bear to accompany the Tinker until dismissed."
+ },
+ {
+  "name": "Build: Mechsuit",
+  "icon": "inv_engineering_815_uberspanner",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Level 10 Passive Teaches you Build: Mechsuit. You can now generate Scrap to build your Mechsuit and Scrap Shot and Sticky Bomb now generate Scrap."
+ },
+ {
+  "name": "Build: Noise Box",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Build a Noise Box for that periodically unleashes screeching noise on nearby enemies, interrupting spellcasts and preventing spells of that school from being cast."
+ },
+ {
+  "name": "Build: Oil-Spill Pylon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Build an Oil-Spill Pylon at target location, spilling oil in an yd radius that reduces enemies movement speed by % and increases their Fire damage taken by you by %. Sticky Bomb Explosions and Firepot Drone deal % increased damage to enemies inside."
+ },
+ {
+  "name": "Build: Power Foundry",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "You build a Power Foundry at the target location. The Power Foundry projects a small field that empowers all Sentry Turrets, and Gatling Turrets near it, increasing their damage by % and their attack rate by %."
+ },
+ {
+  "name": "Build: Replenishment Beacon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "3 Charges, 15 sec recharge Throw down a replenishment beacon for which projects a force field restoring Rage, Energy, Focus, Runic Power and % base mana every sec to allies. Overcharge: Restores % maximum mana to all allies within 15 yds. Shares"
+ },
+ {
+  "name": "Build: Repulsion Unit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Build a Repulsion Unit that periodically knocks nearby enemies back every 5 sec."
+ },
+ {
+  "name": "Build: Restorative Beacon",
+  "icon": "spell_mekkatorque_bot_greenspring",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "3 Charges, 15 sec recharge Throw down a restorative beacon for which projects a field that heals raid and party members in the area for its value every sec.?s524834[ Overcharge: Heals all allies within 15 yds for % of their maximum health plus {+healing power"
+ },
+ {
+  "name": "Build: Rusthound",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Construct a Rusthound to accompany the Tinker until dismissed."
+ },
+ {
+  "name": "Build: Scrapmaw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Build a Scrapmaw to accompany the Tinker until dismissed."
+ },
+ {
+  "name": "Build: Sentry Turret",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Build a Sentry Turret for that shoots bullets at enemies, dealing its value Physical damage. Activate again to deconstruct your Sentry Turret. Can only have 1 Sentry Turret up at a time."
+ },
+ {
+  "name": "Build: Shield Beacon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "3 Charges, 15 sec recharge Throw down a shield beacon for which projects a force field in a yd radius, increasing the Armor of nearby allies by its value.?s524834[ Overcharge: Applies a shield to allies within yds, absorbing its value damage, scaling with the"
+ },
+ {
+  "name": "Build: Spider Bomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition",
+   "mechanics"
+  ],
+  "desc": "Build a Spider Bomb that will immediately run towards your target and detonate dealing its value Fire damage in an yd radius. Using Scrap Shot will redirect the Spider Bombs to your new target."
+ },
+ {
+  "name": "Build: Spider Bomb Factory",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Build a Spider Bomb Factory in front of you. For the duration, Bomb Toss and Rocket Launcher will summon 3 Spider Bombs, that will immediately run towards your target and detonate dealing its value Fire damage. Using Scrap Shot will redirect th"
+ },
+ {
+  "name": "Build: ZIGGI-6K",
+  "icon": "inv_mechagonpet_brass",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Level 10 Passive Teaches you Build: ZIGGI-6K."
+ },
+ {
+  "name": "Bunker Operative",
+  "icon": "inv_engineering_sonicenvironmentenhancer",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Kinetic Shield, Discombobulate!, and Repulsion Unit by %."
+ },
+ {
+  "name": "Calculated Shots",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases your critical strike rating by % of your Intellect."
+ },
+ {
+  "name": "Chaos Shift",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Chassis Augment: Mithril",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Augments your Clockwork Knight's chassis, causing it to gain % increased haste, but increasing its ability cooldowns by %."
+ },
+ {
+  "name": "Chassis Augment: Titansteel",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "The bot's unique abilities can now strike an additional enemy and its ability cooldowns are reduced by %."
+ },
+ {
+  "name": "Chassis Augment: Truesilver",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "The bot's movement speed is increased by % and it gains % increased critical strike chance."
+ },
+ {
+  "name": "Clockwork Ingenuity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the maximum health of your summons by 10%."
+ },
+ {
+  "name": "Combat Augment: Flame Jets",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Gives the bot a chance to spill flames on enemies in a cone whenever it lands a critical strike, causing an additional Fire damage plus over. Scales with the Tinker's attack power and spell power."
+ },
+ {
+  "name": "Combat Augment: Hydraulic Springs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "The bot's unique abilities have % reduced cooldowns but deal % less damage."
+ },
+ {
+  "name": "Combat Augmentation Kit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Grants you 3 Combat Augments you can apply to your Clockwork Assistant. Only 1 Combat Augment can be active at a time."
+ },
+ {
+  "name": "Combat Crafter",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Level 20 Passive While in your Mechsuit, damage dealt by your summons now has a % chance to grant you Scrap and % of your maximum mana."
+ },
+ {
+  "name": "Combat Dash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "2 Charges 60 sec recharge Increases movement speed by %. Dealing any direct damage ends this effect. Stacks times."
+ },
+ {
+  "name": "Combat Symbiosis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Electrify an allies' body, increasing their haste by % and causing damage dealt by them to heal nearby allies for % of the value. Lasts, or 20 attacks."
+ },
+ {
+  "name": "Commando",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Causes Sniper Scrap Shots and Gunsling to make your next gun swap instant and not trigger their global cooldowns."
+ },
+ {
+  "name": "Concussive Spanner",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your |CffffffffSpanner Smash|R will now apply Concussion to the target."
+ },
+ {
+  "name": "Control Mechanical",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Control a Mechanical enemy up to level its value, forcing them to do your bidding for up to (8 sec vs players). The Mechanical has greatly increased melee and ranged attack speed, but will short-circuit over time, taking % of its maximum health as Nature damage every sec."
+ },
+ {
+  "name": "Core Augment: Warcore",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Reduces the cooldown of the bot's Arclight Smash by sec and boosts its maximum health by %, but reduces all magic damage it deals by %."
+ },
+ {
+  "name": "Cutting Edge Technology",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the tick rate and healing done of Nanobot Reconstruction by 20%."
+ },
+ {
+  "name": "Cybernetic Revivification",
+  "icon": "ability_racial_skeletonpinkie",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "All nearby allies receive % more healing. Does not stack with similar effects. In addition, your Alarm Beacon now dispels fear, charm, and sleep effects from additional ally."
+ },
+ {
+  "name": "Deadeye Charge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Fires a shot for Weapon Damage plus its value that ignores Armor and empowers your next Scrap Shot with a Deadeye Charge. Shares a cooldown with other Rounds."
+ },
+ {
+  "name": "Deathball",
+  "icon": "ability_garrosh_siege_engine",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Launch 3 Deathballs in a line, increasing in speed the further they travel. They explode when they come into contact with an enemy, dealing its value Fire damage to nearby enemies, increased based on distance traveled. Bot and Build abilities reduce the cooldown of this abi"
+ },
+ {
+  "name": "Deconstruct Sentry Turret",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Deconstructs your Sentry Turret!"
+ },
+ {
+  "name": "Defensive Utility",
+  "icon": "inv_plate_mechagnome_c_01shoulder",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Your Mechsuit will now increase your armor by an additional %."
+ },
+ {
+  "name": "Defibrillate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Brings up to dead allies within yds back to life with health and mana. Cannot be cast when in combat."
+ },
+ {
+  "name": "Deft Hands",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Using Reload or swapping Rounds now increases haste by %."
+ },
+ {
+  "name": "Demolition",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the damage of Bomb Launcher shots by % and the critical strike chance of Rocket Launcher by %."
+ },
+ {
+  "name": "Demolition - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Level 15 Passive Teaches you Tracer Augmentation."
+ },
+ {
+  "name": "Deploy Blast Mine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Place down a Blast Mine, lasting. When the mine is destroyed, or upon using Remote Detonation, up to targets within yds are blasted away and enemies take a minor amount of Fire damage."
+ },
+ {
+  "name": "Deploy Turret Wall",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "You construct a wall consisting of 3 Sentry Turrets in front of you that will fire bullets at enemies. Sentry Turrets cannot move."
+ },
+ {
+  "name": "Discombobulate!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Discombobulate an enemy, disorienting them. Damage dealt will end the effect."
+ },
+ {
+  "name": "Dismiss Assistant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Dismiss your current summoned bot."
+ },
+ {
+  "name": "Double Tap DEPREC",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Spanner Smash now increases the damage of your next Scrap Shot with Buckshot Rounds against the target by %."
+ },
+ {
+  "name": "Dynamite Stacks",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Causes Throw Dynamite to reduce the Fire Resistance of affected enemies based on your spell power for sec, and increases its damage by %."
+ },
+ {
+  "name": "E.M.P",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Dispels magic on a friendly target, removing harmful."
+ },
+ {
+  "name": "Efficiency",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the mana cost of all spells and abilities by %."
+ },
+ {
+  "name": "Emergency Circumvented",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the critical strike chance of Emergency Heal by % and allows the periodic healing done by Med Pack to critically strike."
+ },
+ {
+  "name": "Emergency Heal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Launch a quick healing stimshot at an ally, healing them for its value."
+ },
+ {
+  "name": "Emergency Module",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "3 Charges 20 sec recharge Augments the next Repair Shot used within, reducing its cast time by % and reducing its mana cost by %. Shares a cooldown with Modules."
+ },
+ {
+  "name": "Empty Chamber",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Causes Gunslings landed with your last Standard Ammunition to boost the damage of your next Blackpowder Shot by %."
+ },
+ {
+  "name": "Engagement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Causes Sniper Rifle Scrap Shots to make your next Gun swap instant."
+ },
+ {
+  "name": "Enhanced Procedures",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Med Pack by 100% and it's healing by 75%."
+ },
+ {
+  "name": "Enhanced Remote",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Bot: Hydraulic Strike now increases the damage and critical strike chance of pet abilities by %."
+ },
+ {
+  "name": "Expedient Package",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the cooldown of Medpack by sec and its mana cost by %."
+ },
+ {
+  "name": "Expert Mechanic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Telescopic Focusing Lens now refreshes a Sentry Turret charge."
+ },
+ {
+  "name": "Explosive Augmentation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Add an Explosive Augmentation to your gun for 1 hour, causing your ranged attacks to explode on your target dealing its value Fire damage to them and nearby enemies. Can only occur once per sec."
+ },
+ {
+  "name": "Explosive Inventor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Spider Bomb Factory now also summons a Heavy Spider Bomb. Heavy Spider Bombs move slowly, and deal its value Fire damage when they reach their target and slow their movement speed by %."
+ },
+ {
+  "name": "Explosive Personality",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your ranged attack power by % of your Intellect."
+ },
+ {
+  "name": "Explosives Expert",
+  "icon": "ability_vehicle_demolisherflamecatapult",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the critical strike chance of Throw Dynamite by % and reduces its cooldown by sec."
+ },
+ {
+  "name": "Fine Tuned",
+  "icon": "inv_misc_trinket6oog_handeye3",
+  "meta": "Talent",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Increases the critical strike and hit chance of you and your summons by %."
+ },
+ {
+  "name": "Fine Tuning",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, not critically healing now increases your critical strike chance by %, stacking times, until your next effective critical heal."
+ },
+ {
+  "name": "Firearms Tinker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Removes the cooldown of Reload."
+ },
+ {
+  "name": "Flexible Thinking",
+  "icon": "inv_engineering_leystone_buoy",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases Agility and Intellect by %."
+ },
+ {
+  "name": "Foresight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the critical strike chance of Scrap Shot, Spanner Smash, and Repair Shot by %."
+ },
+ {
+  "name": "Freeze Ray",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Fire an icy ray at all enemies in a line, Freezing them in place for (8 sec vs players). Damage dealt may end this effect."
+ },
+ {
+  "name": "Freezer Burn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Freeze Ray now also deals its value Frostfire Damage every sec."
+ },
+ {
+  "name": "Frozen Bomb Launcher",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage dealt by your Sentry Turrets will now slow enemy movement speed by -15% for 10 seconds, stacking 3 times."
+ },
+ {
+  "name": "Fully Loaded",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "You gain % increased damage with all spells and attacks for every Standard Ammunition you have loaded in your gun."
+ },
+ {
+  "name": "Function Over Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of Aether Augmentation by 50%."
+ },
+ {
+  "name": "Gazlowe's Wisdom",
+  "icon": "_goblin_01",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "You now spawn Shrapnel Mines under your target when Sticky Bomb explodes."
+ },
+ {
+  "name": "Gizmotronic Spark Rifle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Every 3rd Standard Round slows the target's movement speed by %."
+ },
+ {
+  "name": "Gnomish Batteries",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reduces the cooldown of Build: Battery Recharge Station by sec."
+ },
+ {
+  "name": "Gnomish Ingenuinity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Air Strike is now guaranteed to critically strike."
+ },
+ {
+  "name": "Goblin Depravity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Air Strike now drops Tear Gas, dealing nature AP Nature damage every 2 sec for 12 seconds."
+ },
+ {
+  "name": "Graftbolts",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Level 40 Passive Effective healing done now has a % chance to grant you Graftbolts."
+ },
+ {
+  "name": "Greater Mana Module",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Empower nearby party and raid members with a mana module, restoring mana every 5 seconds. Only one Module per Tinker can be active."
+ },
+ {
+  "name": "Greater Power Module",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Activates power module on raid and party members, increasing attack power by. Only one Module per Tinker can be active."
+ },
+ {
+  "name": "Guardian Module",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "3 Charges 20 sec recharge Augments the next Repair Shot within, causing it to apply a damage absorption shield for up to equal to 100% of the value of the shot. Shares a cooldown with Modules."
+ },
+ {
+  "name": "Hasta la Vista",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Removes the cooldown of your Gunsling ability for the next."
+ },
+ {
+  "name": "Hastened Shots",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reduces the cast time of Repair Shots and reduces the cooldown of Rounds by %."
+ },
+ {
+  "name": "Hasty Tech",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Scrap Shot and Repair Shot by %."
+ },
+ {
+  "name": "Healing Radiator",
+  "icon": "ability_monk_chiexplosion",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Periodic healing done by Nanobot Reconstruction now restores its value health to allied players within yds of the affected target."
+ },
+ {
+  "name": "Healing Stims",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Repair Shot now applies Healing Stims to allies. With Buckshot Rounds: Applies Lesser Healing Stim. With Standard Rounds: Applies Greater Healing Stim, stacking times, increasing the healing done when darts are drawn back by % per stack. Usi"
+ },
+ {
+  "name": "Heavy Spanner",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Increases the damage of Spanner Smash by %."
+ },
+ {
+  "name": "Hyperblast Barrage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition",
+   "mechanics"
+  ],
+  "desc": "Unleash a barrage of shrapnel, dealing fire SP Fire damage to enemies in a line, applying a lesser Sticky Bomb to each target struck that deals fire AP Fire damage after 3 sec.After 3 seconds, your active Sentry Turret will also fire a Hyperblast Barrage."
+ },
+ {
+  "name": "I'm The Creator Now",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage dealt by your summons now has a 40% chance to increase your attack power and spell power by 9 for 30 seconds, stacking 3 times."
+ },
+ {
+  "name": "Improved Explosives",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases Fire Damage dealt by %."
+ },
+ {
+  "name": "Improved Graftbolts",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Level 50 Passive Your Graftbolts now stacks 2 additional times."
+ },
+ {
+  "name": "Improved Handcannon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the mana cost of Handcannon by % and its cooldown by sec."
+ },
+ {
+  "name": "Improved Nanobot Deconstruction",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reduces cost of Nanobot Deconstruction by % and increases damage by %."
+ },
+ {
+  "name": "Improved Nanobot Reconstruction",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the healing of your Nanobot Reconstruction by %."
+ },
+ {
+  "name": "Improved Reload",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the cost of Reload by %."
+ },
+ {
+  "name": "Improved Remote Detonation",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Reduces the cooldown of Remote Detonation by sec and increases its damage by %."
+ },
+ {
+  "name": "Incendiary Bombs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Explosive Rounds now increase your Fire Damage against affected enemies by %, stacking times."
+ },
+ {
+  "name": "Incendiary Rounds",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the duration of Blackpowder Barrage by sec and causes it to deal 25% additional Fire damage over."
+ },
+ {
+  "name": "Innate Brilliance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While Aether Augmentation is active, every 4th Scrap Shot now grants you Innate Brilliance.Innate Brilliance (Buff)Your next Scrap Shot has 5 yds increased range, deals 15% increased damage, and drains ranged AP of your target's mana. Lasts 10 seconds."
+ },
+ {
+  "name": "Invention - Level 20 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Level 20 Passive Reduces the mana cost of your Nanobots and |CffffffffBeacons by %."
+ },
+ {
+  "name": "Invisibility Cloak",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Equip your Invisibility Cloak, turning you invisible."
+ },
+ {
+  "name": "Junker",
+  "icon": "achievement_dungeon_blackwingdescent_darkironcouncil",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Casting Spanner Smash and Scrap Shot now increases your pet's attack power by %, stacking times."
+ },
+ {
+  "name": "Junklord WIP",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Attacks from your turrets now"
+ },
+ {
+  "name": "Kickback",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Damage dealt by Blasting Charge now knocks enemies back. Can only occur every 15 sec."
+ },
+ {
+  "name": "Kinetic Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create magnetic shields of kinetic energy on an ally target, reducing damage taken by % and making them immune to stun effects. Usable while stunned."
+ },
+ {
+  "name": "Landstrider Keys!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Summons and dismisses a rideable Landstrider. This is a very slow mount."
+ },
+ {
+  "name": "Macro-Gravity Zone",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create a macro-gravity zone at target location. Enemies within the zone have their movement speed slowed by % and gain 1 stack of Macro-Gravity every sec."
+ },
+ {
+  "name": "Magic Augmentation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Add a Magic Augmentation to your gun for 1 hour, causing an additional its value Magic damage with each shot. Increases the range of your ranged abilities by yds."
+ },
+ {
+  "name": "Magic-Cleanser 4000X",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Deprecate"
+ },
+ {
+  "name": "Magnum Opus",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Increases the damage of your Sentry Turret by % while within yds of it."
+ },
+ {
+  "name": "Makeshift Dynamite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "2 Charges, 8 sec recharge|R Generates 10 Scrap Load dynamite into your gun and launch it at an enemy, dealing % Ranged Weapon Damage plus its value as Fire damage. Usable while moving."
+ },
+ {
+  "name": "Mana Module",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Empower an ally with a mana module, restoring mana every 5 seconds. Only one Module per Tinker can be active."
+ },
+ {
+  "name": "Maniacal",
+  "icon": "inv_offhand_1h_artifactdoomhammer_d_04",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Sticky Bomb and Deploy Blast Mine by sec."
+ },
+ {
+  "name": "Master Sapper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage dealt by your Sapper Charge explosion by %."
+ },
+ {
+  "name": "Maxi-Cleanser X-420",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "WIP"
+ },
+ {
+  "name": "Mech Augmentation Kit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Grants you 3 Augments you can apply to your Clockwork Assistant. Only 1 Augment can be active at a time."
+ },
+ {
+  "name": "Mechanical Enhancements",
+  "icon": "inv_shield_1h_mechagnome_c_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases all party and raid member's melee and ranged haste by %. Does not stack with similar effects. In addition, the range of your offensive ranged abilities and Auto Shot is increased by yds."
+ },
+ {
+  "name": "Mechanics Tinker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Teaches Build: Clockwork Assisant and reduces the cooldown of Shotgun Scrap Shots by sec."
+ },
+ {
+  "name": "Mechanosoldier",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the damage reduced by Kinetic Shield by % and its duration by sec."
+ },
+ {
+  "name": "Mechaplating",
+  "icon": "inv_misc_wartornscrap_plate",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Whenever your summons critically strike, reduce your and your pet's damage taken by %, stacking times."
+ },
+ {
+  "name": "Mechsuit: Activate Jets",
+  "icon": "inv_engineering_gunshoes",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Launch forward and slow your falling speed. When you hit the ground you blast nearby enemies for its value Fire damage based on time in the air. Shares a cooldown with other Mechsuit abilities."
+ },
+ {
+  "name": "Mechsuit: Artillery Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Charge an enemy target and strike them with an artillery missile for Physical Damage."
+ },
+ {
+  "name": "Mechsuit: Combustion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Launch a massive ball of fire at an enemy that also damages nearby enemies, dealing its value Fire damage. Usable while moving. Shares a cooldown with other Mechsuit abilities."
+ },
+ {
+  "name": "Mechsuit: Laser Beam",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Blast an enemy with a laser, dealing % Ranged Weapon Damage plus its value as Fire Damage and forcing your pet to charge to the enemy for its value Physical Damage. Shares a cooldown with other Mechsuit abilities."
+ },
+ {
+  "name": "Mechsuit: Sawblade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Requires Mechsuit Slash an enemy with your sawblade, dealing its value Physical Damage to an enemy and reduces all healing received by %."
+ },
+ {
+  "name": "Med Pack",
+  "icon": "inv_first_aid_70_medicalkit",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Toss a med pack to an ally, healing for its value over and cleanses all bleed, poison and disease effects."
+ },
+ {
+  "name": "Medical Degree",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the cooldown of Med Pack by 30 sec, but allows it to affect up to 4 additional targets around your ally."
+ },
+ {
+  "name": "Medical Training",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases healing spell power by % of Spirit."
+ },
+ {
+  "name": "Modular Charges",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage of Blasting Charge by %."
+ },
+ {
+  "name": "Modulator",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Modules by 20%."
+ },
+ {
+  "name": "Munition Expert",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases Fire and Physical damage dealt by %."
+ },
+ {
+  "name": "My Greatest Invention!",
+  "icon": "achievement_alliedrace_mechagnome",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Show off your Greatest Invention, healing party and raid members in a yd radius for its value every sec."
+ },
+ {
+  "name": "Nanobot Barrier",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Send Nanobots to an ally, dealing its value damage to enemies within yds of them every sec. Nanobot Swarm can only be sent to 1 target at time and can't be dispelled."
+ },
+ {
+  "name": "Nanobot Cleanser",
+  "icon": "spell_holy_dizzy",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Send Nanobots to an ally?s705804:[ reducing all periodic damage taken by % and] removing poison and disease effect?s705804:[s] every sec for. Nanobot Cleanser can only be sent to 1 target at a time and can't be dispelled."
+ },
+ {
+  "name": "Nanobot Deconstruction",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Send your Nanobots to an enemy, dealing Arcane damage every second for. Your Nanobots can only be sent to 1 target at time."
+ },
+ {
+  "name": "Nanobot Durability",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the duration of Nanobot Reconstruction by sec."
+ },
+ {
+  "name": "Nanobot Recharger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Send Nanobots to an ally, regenerating its value mana every sec. Nanobot Recharger can only be sent to 1 target at a time and cannot be dispelled."
+ },
+ {
+  "name": "Nanobot Reconstruction",
+  "icon": "ability_shaman_repulsiontotem",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Send Nanobots to an ally, healing them for over. Nanobot Reconstruction can only be sent to 1 target at a time and cannot be dispelled."
+ },
+ {
+  "name": "Nanobot Swarm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Send Nanobots to an ally, dealing its value damage to nearby enemies every sec. All threat generated by you is redirected to the target. Nanobot Swarm can only be sent to 1 target at time and cannot be dispelled."
+ },
+ {
+  "name": "Nanomechano",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Causes Repair Shot to increase the tick rate of your next Nanobot by %."
+ },
+ {
+  "name": "Napalm",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Level 10 Passive Dealing direct Fire damage now applies Napalm to your target."
+ },
+ {
+  "name": "Not On MY Turf!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Every 4th Round consumed now increases the damage or healing of your next Buckshot Round or Repair Shot with Buckshot Rounds by %."
+ },
+ {
+  "name": "Overcharge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Overcharge all active Beacons, unleashing their unique effects. Refer to individual Beacons for their Overcharge effects."
+ },
+ {
+  "name": "Overclocked Machine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Overclock your pet for, increasing its damage dealt by % and allowing it's attacks to trigger Hardwired Haymaker on the target enemy. Additionally, your pet will trigger Overclocked Smash every sec."
+ },
+ {
+  "name": "Overload",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Damage dealt by Mechsuit: Combustion and Mechsuit: Laser Beam now have a 40% chance to strike 2 additional times for 30% of the damage dealt."
+ },
+ {
+  "name": "Parachute Pack",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Equip party and raid members within yds with a Parachute, automatically deploying and slowing their fall speed."
+ },
+ {
+  "name": "Piercing Augmentation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Add a Piercing Augmentation to your gun for 1 hour, causing an additional its value Physical damage with each shot. Allows your attacks to ignore % of your target's armor and grants you its value spell penetration."
+ },
+ {
+  "name": "Piercing Impact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Snipe critical strikes now apply a bleed effect, dealing damage every sec."
+ },
+ {
+  "name": "Portable Potion Pack",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Casting Nanobot Reconstruction now applies Portable Potion Pack, healing for maximum Health every. Can only occur every 15 sec."
+ },
+ {
+  "name": "Power Cell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reduces the cost of Rounds and the cooldown of Reload by %, and grants Replenishment after swapping to a different Round."
+ },
+ {
+  "name": "Power Module",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Activates power module on an allied player, increasing attack power by. Only one Module per Tinker can be active."
+ },
+ {
+  "name": "Precision Scopes",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases critical strike chance by %, and the effectiveness of both damaging and healing critical strikes by %."
+ },
+ {
+  "name": "Pyromania",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the damage of |CffffffffTracer Augmentation and Bomb Toss by %."
+ },
+ {
+  "name": "Pyrotechnics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the cooldown of Boomshot by sec and increases the damage of your Sticky Bomb Explosion by %."
+ },
+ {
+  "name": "Questionable Methods",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Magic-Cleanser 4000X now also dispels poison effect and heals an ally for % of their maximum health."
+ },
+ {
+  "name": "Quickscope",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Gives Scrap Shot and Gunsling a % chance to make your next Snipe instant, deal % increased damage, and guaranteed to critically strike."
+ },
+ {
+  "name": "Rapid Fire Healing",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Casting Repair Shot or Emergency Heal now has a % chance to refresh a charge of Beacons."
+ },
+ {
+  "name": "Re-Build",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Rebuild your Clockwork Assistant, bringing it back to life."
+ },
+ {
+  "name": "Recycling Bin WIP",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Causes Disassemble to grant a damage absorbtion shield based on your Agility, and regenerate"
+ },
+ {
+  "name": "Refined Gunpowder",
+  "icon": "inv_misc_ammo_gunpowder_02",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your haste and your damage dealt against Mechanical creatures by %."
+ },
+ {
+  "name": "Refreshment Bot!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Call a service bot to deliver ice cold brews for you and your companions! Lasts"
+ },
+ {
+  "name": "Rejuvenating Gadget",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Critical strikes with Zap! now apply Rejuvenating Gas to up to allies within yards of your target that restores 15% of the value of the shot as health every sec."
+ },
+ {
+  "name": "Remote Detonation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Detonates all Blast Mines and Shrapnel Mines placed by you within 60 yards. Usable while casting or channeling."
+ },
+ {
+  "name": "Repair Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Fire a healing stimshot at an ally, healing them for its value."
+ },
+ {
+  "name": "Rockadier",
+  "icon": "ability_mount_rocketmount4",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Empowers the next 10 Scrap Shots or Rocket Launchers within deal additional Fire damage equal to % of the damage dealt to up to enemies around the target."
+ },
+ {
+  "name": "Rocket Barrage",
+  "icon": "ability_mount_rocketmount3",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the amount of stacks of Tracer Augmentation, and its duration by sec, and causes damage dealt by Bomb Toss on enemies with 10 stacks to launch a Rocket Barrage at their location."
+ },
+ {
+  "name": "Rocket Bombardment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Sticky Bomb now causes your Sentry Turret to fire a rocket cluster on its next attack, causing 126 Fire damage to enemies within 5 yds of the target."
+ },
+ {
+  "name": "Rocket Boots",
+  "icon": "inv_gizmo_rocketbootextreme",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "3 Charges, 30 sec recharge Activate your Rocket Boots, dispelling root effects and launching you forward."
+ },
+ {
+  "name": "Rocket Launcher",
+  "icon": "ability_racial_rocketbarrage",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Fire a powerful rocket at an enemy that deals its value Fire damage."
+ },
+ {
+  "name": "Rocket Pack",
+  "icon": "ability_mount_rocketmount",
+  "meta": "Ability",
+  "specs": [
+   "invention",
+   "mechanics"
+  ],
+  "desc": "Fire critical strikes now reduce the remaining cooldown of Rockadier by sec."
+ },
+ {
+  "name": "Rounds and Rounds",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the cooldown of Rounds by sec."
+ },
+ {
+  "name": "Scientific Nature",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Level 20 Passive Increases your healing power by % of your Intellect and your critical strike rating by % of your Intellect."
+ },
+ {
+  "name": "Scrap Factory",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Generates 1 Scrap every sec."
+ },
+ {
+  "name": "Scrap Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Scrapper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Search and rummage through nearby debris, gaining 10 Scrap and its value mana every sec. Not usable in combat."
+ },
+ {
+  "name": "Scrappy",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Your Scrap Slam now has a % chance to strike 2 additional times for % of the damage dealt."
+ },
+ {
+  "name": "Scrapshielding",
+  "icon": "uico_mecha_spell_02_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your critical strikes now grant you a shield that absorbs its value damage."
+ },
+ {
+  "name": "Scrapyard Enhancements",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage dealt by your summoned creatures within yds by %."
+ },
+ {
+  "name": "Self-Sustaining Technology",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Damage or healing done by your pet or summons now heals you equal to % of the value. In addition, damage or healing done by you now restores health and mana to your pet equal to % of the value. Each of these effects can only occur once per sec."
+ },
+ {
+  "name": "Shield Beacon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Shield Combatant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Attack Power increased."
+ },
+ {
+  "name": "Shock Factor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Your summon's damaging abilities now have a % chance to increase their haste by %, and strike enemies with lightning, dealing its value Nature damage."
+ },
+ {
+  "name": "Short Circuit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Distracto Shot also silences the target, but its cooldown is increased by sec."
+ },
+ {
+  "name": "Shrapnel",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Boomshot now also resets the cooldown of Bomb Toss."
+ },
+ {
+  "name": "Shrapnel Mine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "When you use Remote Detonation, deal its value Physical damage to up to enemies within yds. The mine lasts."
+ },
+ {
+  "name": "Smoking Gun",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage of Gunsling and Handcannon against enemies affected by Sticky Bomb by %."
+ },
+ {
+  "name": "Snipe",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Fires a gunshot, dealing Weapon Damage, reducing the target's movement speed by %."
+ },
+ {
+  "name": "Spanner Smash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Smash an enemy with your spanner, dealing % Weapon Damage plus its value. Guaranteed to critically strike against Mechanicals."
+ },
+ {
+  "name": "Spare Parts",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Destroys your Clockwork Knight to empower you, increasing non permanent summon damage by %, and all damage you deal by %."
+ },
+ {
+  "name": "Sparked and Ready!",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Level 20 Passive Fire damage dealt has a % chance to grant you Sparked and Ready!."
+ },
+ {
+  "name": "Spider Tank: Flak Guns",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Fires 1 Standard Ammunition Deals Physical Damage to up to enemies. Scales with Scrap Shot, but gains all bonuses specific to the Shotgun's effect regardless of your current Gun."
+ },
+ {
+  "name": "Spider Tank: Scurry",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "The Spidertank gains % increased movement speed, stacking times, and automatically Reloads at the beginning and end of this duration."
+ },
+ {
+  "name": "Spidertank: Stomp",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Inflicts Physical damage to nearby enemies and knocks them back."
+ },
+ {
+  "name": "Spreading Repair Shot",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Shotgun Repair Shots now hit 2 additional targets."
+ },
+ {
+  "name": "Sprocket Loaded",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Casting Makeshift Dynamite now resets the cooldown of your Mechsuit abilities."
+ },
+ {
+  "name": "Sticky Bomb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Generates 10 Scrap Throw a bomb that sticks to the enemy. At the end of the duration the bomb will explode, dealing its value Fire damage to the target and 4 enemies within yds of the target. Can target corpses."
+ },
+ {
+  "name": "Stim Augmentation",
+  "icon": "inv_engineering_reavesmodule",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Add a Stim Augmentation to your gun for 1 hour, causing your direct healing abilities to heal up to 5 nearby friendly players for an additional % of the amount healed."
+ },
+ {
+  "name": "Stim Pack",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Effective healing with |CffffffffStim Augmentation now reduces the cooldown of Med Pack by sec."
+ },
+ {
+  "name": "Strength Bionics",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Amplifies magic used against the targeted party member, increasing damage taken from spells by up to and healing spells by. Lasts."
+ },
+ {
+  "name": "Supercharge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Supercharge your Clockwork Assistant, increasing all damage it deals by %, and healing it for its value every sec."
+ },
+ {
+  "name": "Tactical Reload",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the damage of Bomb Toss and Boomshot by % for each Round."
+ },
+ {
+  "name": "Take Aim",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Reduces the cast time of Snipe by %, increases its damage by %, and guarantees it to critically strike."
+ },
+ {
+  "name": "Target Spotted!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Boomshot increases the damage of the next Round shot against the target by %."
+ },
+ {
+  "name": "The BIG Guns!",
+  "icon": "ability_vehicle_siegeenginecannon",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Increases the attack power of all party and raid members %. Does not stack with similar effects. In addition, increases your ranged attack power by %."
+ },
+ {
+  "name": "The Big One",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Summon a cannon that fires all of your Standard Ammunition to deal 100% Ranged Weapon Damage to an enemy, plus an additional % for each stack consumed. Current Damage: %."
+ },
+ {
+  "name": "The Doctor Is In",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Increases the healing of Repair Shot by %."
+ },
+ {
+  "name": "Tinkering Tools",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Attempt to come up with an AWESOME new gadget, and gain Engineering Skill for !"
+ },
+ {
+  "name": "Torment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Torment SLS",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Tracer Augmentation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Add a Tracer Augmentation to your gun for 1 hour, causing your ranged attacks to mark enemies, stacking times. After the duration they explode for its value Fire damage, increased based on stacks. Marked enemies are prevented from entering stealth or invisibility for"
+ },
+ {
+  "name": "Trust the Science!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Reduces the cooldown of Zap! by sec."
+ },
+ {
+  "name": "Turbo Upgrade!",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Level 40 Passive Increases the effectiveness of your Mechsuit by %."
+ },
+ {
+  "name": "Turret Mechanic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Teaches Upgrade! which allows you to enhance your turrets. Shotgun Scrap Shots now generate 5 Scrap."
+ },
+ {
+  "name": "Upgrade Mechsuit: Spider Tank",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Requires Mechsuit Upgrade your Mechsuit to the Spider Tank model, allowing the use of your Spider Tank suit abilities. Also increases movement speed by % and critical strike chance by %."
+ },
+ {
+  "name": "Upgrade Mechsuit: Vanguard X-42",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Upgrade your Mechsuit to the Vanguard X-42 model, allowing the use of your Vanguard X-173 suit abilities. Also reduces all damage taken by % and increases Fire Damage dealt by %."
+ },
+ {
+  "name": "Upgrade Z-15",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Upgrade!",
+  "icon": "garrison_upgrade",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Upgrade nearby Sentry Turrets to a Molten Grenade Turret."
+ },
+ {
+  "name": "Vanguard X-173: Onslaught",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Causes Physical Damage to enemies in a a few yards frontal cone and stunning enemies hit."
+ },
+ {
+  "name": "Vanguard X-173: Shield Crush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Smack an enemy for Weapon Damage. Every 3rd use shocks all nearby enemies recently hit by Shield Crush with Rampant Lightning, dealing an additional Arcane Damage. Damaging an enemy with this increases damage they take from Rampant Lightning by %, stacks up to 5 times."
+ },
+ {
+  "name": "Vanguard X-42: Fuselight Furnace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Restores % maximum health."
+ },
+ {
+  "name": "Vanguard X-42: Imposing Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Reduces all damage you take by %."
+ },
+ {
+  "name": "Ventilation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Direct magic damage taken now has a 50% chance to increase all magic resistances of allies within 8 yds of you by 15 for 6 seconds."
+ },
+ {
+  "name": "WIP Disassemble",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mechanics"
+  ],
+  "desc": "Deconstructs your active Sentry Turrets, refunding"
+ },
+ {
+  "name": "Warning Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "The current party or raid member targeted will receive the threat caused by your next damaging attack and all actions taken for afterwards."
+ },
+ {
+  "name": "Warphole Generator",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Teleports you to the target location. Taking any damage while casting will interrupt this ability. Not usable in combat."
+ },
+ {
+  "name": "Wide Bore Barrel",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "demolition"
+  ],
+  "desc": "Buckshot Round now strikes additional enemies and with Repair Shots heal additional allies."
+ },
+ {
+  "name": "X15 Upgrade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Nanobots now increase the targets movement speed by %. Can only occur once every 10 sec."
+ },
+ {
+  "name": "Zap!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "invention"
+  ],
+  "desc": "Fires a long range zap of electricity that heals an ally for its value. Scales with modifiers to Repair Shot."
+ }
+]

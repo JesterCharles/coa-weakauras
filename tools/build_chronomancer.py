@@ -535,10 +535,27 @@ stack_bar("CM Sands", "CM Time", 804488, 5, (0.95, 0.80, 0.45),
 # you stand in (duration -1, on you), not the absorb it puts on the target, and
 # "Mark of Order" is a passive. The real per-target effects are the four Aeon
 # ones, each named for its Aeon without the "Aeon of" prefix:
-#     Protection 560374  8s absorb
-#     Renewal    560355  3s HoT
-#     Resilience 560373  6s damage reduction
-#     Oblivion   560376  5s damage buff on the target
+#     Protection 560374  absorb          rework keeps a shield on the target
+#     Renewal    560355  HoT             rework moved it 3s -> 6s, accumulating
+#     Resilience 560373  was a 6s DR     ⚠️ see below
+#     Oblivion   560376  was a 5s buff   ⚠️ see below
+#
+# ⚠️ ALL FOUR AEONS WERE REWORKED ON 2026/07/31 AND TWO OF THESE BARS MAY NOW BE
+# DEAD. The durations above are pre-rework and the last two effects are not in
+# the new text at all:
+#     Aeon of Resilience  Epoch now makes Accelerated Recovery BOUNCE to another
+#                         target. No per-target aura is described. Highest risk.
+#     Aeon of Oblivion    Epoch now deals 100% of its healing as damage to a
+#                         NEARBY ENEMY -- a splash, which may put nothing on the
+#                         target you have selected.
+# Both spell ids still resolve on db.ascension.gg, but a spell surviving in the
+# database says nothing about whether anything still applies it. Pack 1.2 was
+# verified in game on 2026-08-02, after the rework, so these displays were on
+# screen -- nobody was checking whether a bar ever FILLS, which is the failure a
+# post-rework verification pass does not catch by accident.
+# UNKNOWN, and the thing that settles it is one trip: cast Epoch under each Aeon
+# in turn and watch the band. Do not delete a bar on the strength of changelog
+# prose -- `no-record` is a stop, not a delete-list, and the same applies here.
 T.append(dot_bars("CM Time Target", "CM Time",
                   [("Accelerated Recovery", (0.50, 0.90, 0.60), {}),
                    ("Protection", (0.55, 0.75, 1.00), {}),

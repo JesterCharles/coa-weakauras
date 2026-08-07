@@ -49,6 +49,7 @@ REPORTED, never dropped -- if this tool cannot attribute a tag it says so and
 fails the run rather than quietly showing you nothing.
 """
 import argparse
+import datetime
 import hashlib
 import html as _html
 import json
@@ -213,6 +214,10 @@ def main():
                     help="record everything seen now as known")
     ap.add_argument("--all-classes", action="store_true",
                     help="report classes with no builder too")
+    ap.add_argument("--snapshot", action="store_true",
+                    help="also write resources/changelog-entries.json -- the "
+                         "parsed entries, so mksite.py can render them with no "
+                         "network and no --accept")
     args = ap.parse_args()
 
     if args.fixture:
@@ -268,15 +273,51 @@ def main():
         print("    Add a real class to TAG_TYPOS, or a non-class tag to "
               "NON_CLASS_TAGS, in tools/changelog_watch.py.")
 
+    # The SNAPSHOT is deliberately independent of --accept. The site needs to
+    # show entries that are outstanding, and `--accept` is what marks them
+    # handled -- so a renderer that could only read accepted state would show
+    # exactly the entries nobody needs to be warned about. Written every run so
+    # the page is never staler than the last scan.
+    if args.snapshot:
+        snap = {"_comment": "Parsed changelog entries per class. Written by "
+                            "changelog_watch.py --snapshot, independent of "
+                            "--accept, so docs/ can show OUTSTANDING changes.",
+                "section": args.section,
+                "scanned_at": datetime.date.today().isoformat(),
+                "dates": {"oldest": dates[0], "newest": dates[-1]} if dates
+                         else {},
+                "entries": [{"class": e["slug"], "spec": e["spec"],
+                             "date": e["date"], "text": e["text"],
+                             "hash": e["hash"],
+                             "accepted": e["hash"] in seen}
+                            for e in entries if e["recognised"]]}
+        out = dest("changelog-entries.json")
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(snap, f, indent=1, sort_keys=True, ensure_ascii=False)
+            f.write("\n")
+        print(f"  snapshot -> {out} ({len(snap['entries'])} class entries)")
+
     if args.accept:
+        # ⚠️ `tracked`, NOT every recognised entry. This accepted the WHOLE scan
+        # until 2026/08/07, so `--accept --class chronomancer` -- the obvious
+        # thing to type after triaging one class -- also marked Pyromancer's 11
+        # outstanding entries as seen and turned its research gate green. A tool
+        # whose narrow form silently clears the other classes defeats the one
+        # rule the gate exists to enforce: never --accept to silence a blocker.
+        # `--all-classes` is how you deliberately accept the lot.
+        accepted = 0
         for e in entries:
-            if e["recognised"]:
+            if e["recognised"] and e["slug"] in tracked:
                 seen[e["hash"]] = {"class": e["slug"], "date": e["date"],
                                    "text": e["text"]}
+                accepted += 1
         state["entries"] = seen
         state["section"] = args.section
         save_state(state)
-        print(f"\naccepted: {len(seen)} entries now known")
+        scope = args.cls or ("all classes" if args.all_classes
+                             else "built classes")
+        print(f"\naccepted: {accepted} entr{'y' if accepted == 1 else 'ies'} "
+              f"for {scope}; {len(seen)} now known in total")
         return 0
 
     if not new and not unknown:

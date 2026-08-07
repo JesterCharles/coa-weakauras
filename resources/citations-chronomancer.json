@@ -1,7 +1,7 @@
 {
- "sidekick-chronomancer-artificer-2026-08-01": {
+ "sidekick-chronomancer-artificer-2026-08-02": {
   "caveats": [
-   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
   ],
   "claims": {
    "cooldowns": [
@@ -17,14 +17,14 @@
   "content_sha256": "e52c342e95c13f65",
   "origin": "scheduled",
   "policy": "user-agent",
-  "retrieved_at": "2026-08-01",
+  "retrieved_at": "2026-08-02",
   "source": "ascensionsidekick.com",
   "source_url": "https://ascensionsidekick.com/chronomancer/artificer",
   "spec": "artificer"
  },
- "sidekick-chronomancer-infinite-2026-08-01": {
+ "sidekick-chronomancer-infinite-2026-08-02": {
   "caveats": [
-   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
   ],
   "claims": {
    "cooldowns": [],
@@ -43,14 +43,14 @@
   "content_sha256": "78044afcabf22a12",
   "origin": "scheduled",
   "policy": "user-agent",
-  "retrieved_at": "2026-08-01",
+  "retrieved_at": "2026-08-02",
   "source": "ascensionsidekick.com",
   "source_url": "https://ascensionsidekick.com/chronomancer/infinite",
   "spec": "infinite"
  },
- "sidekick-chronomancer-time-2026-08-01": {
+ "sidekick-chronomancer-time-2026-08-02": {
   "caveats": [
-   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
   ],
   "claims": {
    "cooldowns": [
@@ -68,7 +68,7 @@
   "content_sha256": "9dd3f33f663ae53b",
   "origin": "scheduled",
   "policy": "user-agent",
-  "retrieved_at": "2026-08-01",
+  "retrieved_at": "2026-08-02",
   "source": "ascensionsidekick.com",
   "source_url": "https://ascensionsidekick.com/chronomancer/time",
   "spec": "time"

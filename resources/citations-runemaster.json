@@ -1,5 +1,5 @@
 {
- "sidekick-runemaster-engravement-2026-08-01": {
+ "sidekick-runemaster-engravement-2026-08-02": {
   "caveats": [
    "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
   ],
@@ -19,12 +19,12 @@
   "content_sha256": "928d3877ffc7f707",
   "origin": "scheduled",
   "policy": "user-agent",
-  "retrieved_at": "2026-08-01",
+  "retrieved_at": "2026-08-02",
   "source": "ascensionsidekick.com",
   "source_url": "https://ascensionsidekick.com/runemaster/engravement",
   "spec": "engravement"
  },
- "sidekick-runemaster-glyphic-2026-08-01": {
+ "sidekick-runemaster-glyphic-2026-08-02": {
   "caveats": [
    "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
   ],
@@ -46,12 +46,12 @@
   "content_sha256": "e2285d24ea7a44f9",
   "origin": "scheduled",
   "policy": "user-agent",
-  "retrieved_at": "2026-08-01",
+  "retrieved_at": "2026-08-02",
   "source": "ascensionsidekick.com",
   "source_url": "https://ascensionsidekick.com/runemaster/glyphic",
   "spec": "glyphic"
  },
- "sidekick-runemaster-riftblade-2026-08-01": {
+ "sidekick-runemaster-riftblade-2026-08-02": {
   "caveats": [
    "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
   ],
@@ -72,7 +72,7 @@
   "content_sha256": "d232a6f1cec1d7b2",
   "origin": "scheduled",
   "policy": "user-agent",
-  "retrieved_at": "2026-08-01",
+  "retrieved_at": "2026-08-02",
   "source": "ascensionsidekick.com",
   "source_url": "https://ascensionsidekick.com/runemaster/riftblade",
   "spec": "riftblade"

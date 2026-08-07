@@ -870,6 +870,35 @@ UI caps visible nesting at 3 levels; the runtime recursion is unbounded.
   `maxCharges`, `readyTime`, `chargeGainTime`, `chargeLostTime`,
   `effectiveSpellId`, `gcdCooldown`, `onCooldown`, `spellUsable`,
   `insufficientResources`, `spellInRange`.
+
+  ⚠️ **`effectiveSpellId` IS NOT AN OVERRIDE LOOKUP ON THIS FORK — CONFIRMED
+  AGAINST SOURCE.** `Prototypes.lua:3806` reads, in full:
+
+  ```lua
+  local effectiveSpellId = spellname
+  ```
+
+  It is the id you typed, verbatim. Upstream WeakAuras resolves spell overrides
+  into this variable; **the Ascension fork does not** — `ignoreoverride` does
+  not appear anywhere in its `Prototypes.lua`, and there is no
+  `use_ignoreoverride` option. So `effectiveSpellId == <some other spell>` can
+  never be true, and a condition written that way fires never, silently.
+
+  This cost two shipped Runemaster releases (1.5, 1.6). The list above was
+  transcribed from upstream and is right about the NAMES but wrong about what
+  one of them MEANS here. `use_ignoreSpellKnown` (`Prototypes.lua:3986`) is
+  real; `use_ignoreoverride` is not.
+
+  **There is no override API to reach for either** — `FindSpellOverrideByID` is
+  Cataclysm-era and this is a 3.3.5 client, so the retail habit of tracking a
+  transformed spell that way (Condemn replacing Execute, Lava Beam replacing
+  Chain Lightning) does not port. To track "this button became another spell",
+  use `["Spell Known"]` (`Prototypes.lua:8253`) on the REPLACEMENT's id: with
+  no override system, a 3.3.5 server makes a button change by granting the new
+  spell and taking the base away.
+  ⚠️ That prototype takes a **number** — `:8271` is
+  `type(trigger.spellName) == "number" and trigger.spellName or 0`, so a string
+  id silently becomes spell 0.
 - **Custom / TSU triggers** — `stateupdate` triggers declare their own via
   `Private.GetTsuConditionVariablesExpanded`.
 

@@ -1,0 +1,2256 @@
+[
+ {
+  "name": "A Pointed Death",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Born in Blood gains 2 additional charges."
+ },
+ {
+  "name": "Accursed Form",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Embrace your demonic curse, entering an improved Cursed Form, increasing your attack power by % of your Agility and causing your melee attacks to reduce all healing done to the target by %, stacking times. While in a Cursed Form you are treated as you were a"
+ },
+ {
+  "name": "Adrenaline",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of bleed, root, and movement slowing effects against you by %."
+ },
+ {
+  "name": "Alacrity",
+  "icon": "5_run_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage dealt by Chitin Rush now increases your dodge chance by %, stacking times."
+ },
+ {
+  "name": "Aneurysm",
+  "icon": "spell_argus_psychic_scarring",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Counter the enemy's spellcast, preventing any spell from that school of magic from being cast. Successfully interrupting an enemy heals you for % of your maximum health."
+ },
+ {
+  "name": "Animated Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Animate 2 blood worms to aid you in combat. Blood Worms bleed out over time, taking more damage the longer they live. Empowered: Duration increased by sec and you summon 1 additional amalgam. Duration increased by sec per stack of Thirst."
+ },
+ {
+  "name": "Aortic Aegis",
+  "icon": "ability_animusorbs",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver",
+   "sanguine"
+  ],
+  "desc": "When Darkfallen Lament ends, heal for % maximum health."
+ },
+ {
+  "name": "Aortic Assault",
+  "icon": "achievement_moguraid_06",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Extend the duration of your active Cursed Form by sec and strike nearby enemies every sec, each strike causing its value Physical damage. When this ends, enemies in front of you suffer its value Physical damage."
+ },
+ {
+  "name": "Apotheosis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed",
+   "eternal"
+  ],
+  "desc": "Enter a blood trance, consuming Rage every sec to allow you to heal for % of all damage dealt. you run out of Rage the effect will end early."
+ },
+ {
+  "name": "Arterial Bind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Place a pool of blood on the ground beneath enemies and allies, healing allies for its value every sec and silencing all enemies."
+ },
+ {
+  "name": "Arugal's Alacrity",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases Agility by %."
+ },
+ {
+  "name": "Atherann's Anguish",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Unleash a hemoplague upon the target area, accumulating 30% of the damage you deal to affected enemies, and then exploding for that amount of Shadow damage. Damage caused by this ability cannot critically strike."
+ },
+ {
+  "name": "Atherann's Wickedness",
+  "icon": "spell_shadow_destructivesoul",
+  "meta": "Talent",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases your Shadow damage dealt by % and increases your hit chance by %."
+ },
+ {
+  "name": "Bare Fangs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Taunts an enemy to attack you."
+ },
+ {
+  "name": "Battleweaver",
+  "icon": "warlock_charredremains",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Casting Cursed Form abilities now has a % chance to generate 1 Blood Shard, up to 8. Dealing damage with Bloodbolt will launch 1 Blood Shard, dealing its value Arcane damage to your target."
+ },
+ {
+  "name": "Binding Torment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Reduces the chance that Vestigial Muck is broken by damage by %."
+ },
+ {
+  "name": "Blood Bond",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Bond yourself to an ally, causing direct damage taken by the ally to generate Rage and its value% base health and redirect their threat generated to you. In addition, while out of combat, you and your bonded ally have % increased movement speed."
+ },
+ {
+  "name": "Blood Clot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Scarlet Delirium now deals 100% increased damage."
+ },
+ {
+  "name": "Blood Craving",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form You crave blood, for the duration you cannot be interrupted or silenced, and you regain % of your maximum health and % of your missing Rage every sec."
+ },
+ {
+  "name": "Blood Curse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Ascend into a Cursed Form, enabling the use of unique abilities, causing you to generate health and Rage over time. This ability goes on cooldown upon returning to Mortal Form. While in a Cursed Form you are treated as you were a Demon."
+ },
+ {
+  "name": "Blood Debt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Removes the cooldown from Bloodfang Bite, but increases its Rage cost."
+ },
+ {
+  "name": "Blood Feast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Requires Mortal Form Drains the essence from up to nearby enemy corpses over to quickly regain % maximum health and Rage every sec, and then causes you to burst, healing party and raid members within yds for its value. Cannot be"
+ },
+ {
+  "name": "Blood Howl",
+  "icon": "nhi_nightmarehowl_border",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Taunts nearby enemies within yds, forcing them to attack you."
+ },
+ {
+  "name": "Blood Lord",
+  "icon": "achievement_boss_kael'thassunstrider_01",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Grants your Bloodsore a % chance to provide its benefits without being consumed."
+ },
+ {
+  "name": "Blood Moon",
+  "icon": "ability_deathwing_bloodcorruption_earth",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Animated Blood now spawns an additional amalgam."
+ },
+ {
+  "name": "Blood Pact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Invoke a blood pact, exchanging health for enhanced reflexes, increasing your chance to dodge and reducing the chance for ranged attacks to hit you by %, and increasing your healing received by %. While active you can dodge or parry while casting."
+ },
+ {
+  "name": "Blood Parasites",
+  "icon": "ability_mount_bloodtick_red",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Your Taldaram's Torment now generates additional Rage per tick and increases spell critical strike chance against the target by %."
+ },
+ {
+  "name": "Blood Plague",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases the critical strike chance and critical damage of Ravenous Strike and Claw Sweep by % against Diseased targets."
+ },
+ {
+  "name": "Blood Prince's Command",
+  "icon": "nhi_foreshadowblood_border",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Your Bloodbolt is now guaranteed to critically strike on enemies affected by Taldaram's Torment."
+ },
+ {
+  "name": "Blood Prodigy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases your spell critical strike chance by % of your Agility, spell damage by % of your Agility, and spell hit rating by %."
+ },
+ {
+  "name": "Blood Rain",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases the damage of spells that cost health by %."
+ },
+ {
+  "name": "Blood Redistribution",
+  "icon": "spell_druid_massentanglement_nightmare",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases the maximum health restored by Fleshcraft by %."
+ },
+ {
+  "name": "Blood Rituals",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Dark Liturgy now marks allies for and Bloodmoon Blast now heals marked allies for its value."
+ },
+ {
+  "name": "Blood Runs Cold",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Blood Pact now also increases your healing received by 20%."
+ },
+ {
+  "name": "Blood Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Periodic damage dealt now has a 20% chance to grant you Blood Rush. Can only occur once every 5 sec.Blood RushIncreases your haste by 20% for 5 seconds."
+ },
+ {
+  "name": "Blood Scent",
+  "icon": "ability_physical_taunt",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "While in Accursed Form, you now deal 15% increased damage to targets below 35% maximum health. Dealing direct damage to enemies below 35% maximum health now leeches health equal to % of the damage dealt."
+ },
+ {
+  "name": "Blood Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Protects the caster with blood magic. Your health regeneration now continues in combat and is increased by %. Increases armor contribution from items by %. Lasts. Only 1 Shield can be active at a time."
+ },
+ {
+  "name": "Blood Tap",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Instantly regenerate % of your maximum Rage in exchange for health."
+ },
+ {
+  "name": "Blood Trails",
+  "icon": "uico_blood_spell_07_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Periodic damage and healing now causes targets to spill a pool of blood beneath them. Allies in a Cursed Form who move through the pools of blood gain Trail of Blood."
+ },
+ {
+  "name": "Blood Veil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create a magical veil around an ally, absorbing % of incoming damage, up to a maximum of its value."
+ },
+ {
+  "name": "Blood-Cursed Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "You now emanate an aura around you, increasing the Armor of party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Bloodbender",
+  "icon": "nhi_handsofblood_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of Offerings by %."
+ },
+ {
+  "name": "Bloodbolt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Hurl a bolt of blood at an enemy, dealing its value Shadow damage, healing you equal to the damage dealt. Empowered: Deals % increased damage."
+ },
+ {
+  "name": "Bloodbound Etchings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Blood Shield now increases your health regeneration by 50% more."
+ },
+ {
+  "name": "Bloodcrazed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases your healing done by % and the damage and healing of your Sanguine Rupture by %."
+ },
+ {
+  "name": "Bloodfang Bite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Bite an enemy, dealing its value Physical damage and creates a Bite Wound."
+ },
+ {
+  "name": "Bloodgale",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Mortal Form Erupt in a burst of blood magic, leeching its value health from nearby enemies and then teleport backwards yds."
+ },
+ {
+  "name": "Bloodleaper",
+  "icon": "inv_boot_cloth_raidwarlock_r_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Lunge by sec."
+ },
+ {
+  "name": "Bloodmage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Allows you to wield Staves, but reduces your Physical Damage dealt by % at all times. Increases the Healing you receive from your Lifedrinker spell by %."
+ },
+ {
+  "name": "Bloodmoon Blast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Blast an enemy for its value Shadow damage and generates Rage, and 1 stack of Thirst. Usable while moving."
+ },
+ {
+  "name": "Bloodmoon Power",
+  "icon": "sha_ability_rogue_bloodyeye_nightmare",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Liquify now cleanses all negative effects when used."
+ },
+ {
+  "name": "Bloodshards",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Damage dealt by Claw Sweep and Sanguine Rupture fling blood shards causing them to bleed for its value Shadowstrike Damage every sec."
+ },
+ {
+  "name": "Bloodsoaked Offering",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Blood magic infuses the target ally, increasing their Spirit by."
+ },
+ {
+  "name": "Bloodsores",
+  "icon": "ability_deathknight_desolation",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Level 30 Passive Increases the range of your Sanguine spells by yds."
+ },
+ {
+  "name": "Bloodstalker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Your periodic damage effects can now critically strike, and teaches you Scent of Man."
+ },
+ {
+  "name": "Bloodsurge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Mortal Form Enter a bloodsurge, enraging you and increasing your Shadow damage dealt and your spell critical strike chance by %. At the end of the duration, or whenever you trigger Accursed Form, gain Bloodchaser instead."
+ },
+ {
+  "name": "Bloodthorns",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Bloodthorns sprout from an ally, causing its value Shadow damage to attackers when hit. Can occur only once every half a second."
+ },
+ {
+  "name": "Bloody Sacrifice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your healing received by %."
+ },
+ {
+  "name": "Brutalizer",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases the critical strike chance of your Gore Barrage, Bloodfang Bite and Vital Shred by %."
+ },
+ {
+  "name": "Claw Sweep",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Swipe at nearby enemies, dealing its value Physical damage."
+ },
+ {
+  "name": "Clotting",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "At the end of |CffffffffAortic Assault's duration, all enemies in a yd frontal cone suffer its value Physical damage. Damage dealt by this effect is increased by % against bleeding targets."
+ },
+ {
+  "name": "Coagulated Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Protects the caster with a coagulated barrier, causing them to suffer no spell pushback from damaging attacks and reducing the duration of interrupt and silence effects by %. Lasts. Only 1 Shield can be active at a time."
+ },
+ {
+  "name": "Coagulation",
+  "icon": "inv_maldraxxusslime_red",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Blood Shield now also dispels 1 bleed effect from you with each tick."
+ },
+ {
+  "name": "Coated In Darkness",
+  "icon": "ability_shaman_freedomwolf",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Casting Bloodbolt or Bloodfang Bite now reduces the cooldown of your Blood Pact by sec."
+ },
+ {
+  "name": "Consolidation",
+  "icon": "spell_shadow_felmending",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases your haste by %."
+ },
+ {
+  "name": "Corrupted Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "When you use Taldaram's Torment on a Humanoid or Beast it now corrupts their blood, increasing your damage dealt against them by %."
+ },
+ {
+  "name": "Crimson Curse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your direct damage critical strikes increase the damage the target takes from bleed effects by 30% for 15 seconds."
+ },
+ {
+  "name": "Crimson Etchings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the health cost of your Blood Shield and Vital Shield."
+ },
+ {
+  "name": "Crimson Feast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Every second you remain in a Cursed Form now reduces the cooldown of your Bloodsurge by sec."
+ },
+ {
+  "name": "Crimson Hymn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Removes the cooldown of your Dark Liturgy spell."
+ },
+ {
+  "name": "Crimson Maw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Charge at an enemy, dealing its value Physical damage and then bite them, dealing its value Shadow damage, healing for 50% of the damage dealt. Applies a curse to the enemy that increases their damage taken from you by %. Scales with modifiers to Bloodfang Bite."
+ },
+ {
+  "name": "Crimson Scion",
+  "icon": "spell_animarevendreth_buff",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Direct damage dealt now has a % chance to make your next Sanguine Mend within instant cast."
+ },
+ {
+  "name": "Crimson Tide",
+  "icon": "nhi_blood_slash_border",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Requires Mortal Form Create a pool of blood beneath up to enemies within yds of you, causing them to bleed for its value Shadow damage over. Empowered: Radius increased by yds and costs % less Rage."
+ },
+ {
+  "name": "Cruel Intent",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "When you Lunge at an enemy you now strike them 3 times with auto attacks."
+ },
+ {
+  "name": "Cunning of Atherann",
+  "icon": "atherann2",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Level 20 Passive Increases your spell damage by % of your Stamina and Spirit."
+ },
+ {
+  "name": "Cursed Strikes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases the duration of Rotclaw and Hypovolemic Shock by %."
+ },
+ {
+  "name": "Dark Blood",
+  "icon": "spell_shadow_demonicfortitude",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Reduces the cost of your abilities that require Cursed Form and increases the healing done by Blood Rituals by %."
+ },
+ {
+  "name": "Dark Curse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases critical strike chance by 3%. (up to 2 ranks)"
+ },
+ {
+  "name": "Dark Frenzy",
+  "icon": "_warlock_plaiefuneste1",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases spell haste of all party and raid members by %. Does not stack with similar effects. In addition, while a Cursed Form is active, your global cooldowns are reduced by %."
+ },
+ {
+  "name": "Dark Hide",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Reduces damage taken by % and increases Stamina by %."
+ },
+ {
+  "name": "Dark Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases your Shadow damage dealt by % against bleeding targets."
+ },
+ {
+  "name": "Dark Intent",
+  "icon": "spell_shadow_auraofdarkness",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Reduces the cooldown of Aneurysm by sec and increases its duration by sec."
+ },
+ {
+  "name": "Dark Liturgy",
+  "icon": "ability_racial_pureblood",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Requires Mortal Form Form a blood bond, healing a friendly target for its value and applying Blood Rituals to them, bouncing to up to nearby allies, healing for less for each target struck."
+ },
+ {
+  "name": "Dark Mark",
+  "icon": "inv_misc_questionmark",
+  "meta": "Talent",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Reduces the chance to hit for enemies within yds of you by %."
+ },
+ {
+  "name": "Dark Mending",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Sanguine Mend by -0.5 sec."
+ },
+ {
+  "name": "Dark Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases spell haste of all party and raid members by %. Does not stack with similar effects. In addition, increases your spell haste by %."
+ },
+ {
+  "name": "Dark Sigil",
+  "icon": "_hearthstonedark_deathknight",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, you now heal for % of all critical damage dealt."
+ },
+ {
+  "name": "Darkcasting",
+  "icon": "_devouringshadow_red",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Critical strikes with abilities now spawn a Blood Orb near you."
+ },
+ {
+  "name": "Darkfallen Lament",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Chant a sinister ritual, healing up to allies affected by Blood Rituals for its value over and leeching its value health from enemies within yds over. While active, you are immune to silence and interrupt effects, but cannot"
+ },
+ {
+  "name": "Denmother",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Allows single target Worgen Form abilities to cleave up to enemies, and increases all Magical Healing you take by %."
+ },
+ {
+  "name": "Detect Life",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Shows the location of all nearby Humanoids, Giants, and Beasts on the minimap."
+ },
+ {
+  "name": "Dissipation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Reduces the cooldown of Fleshcraft and the duration of the Sated debuff by sec."
+ },
+ {
+  "name": "Easy Prey",
+  "icon": "ability_mount_epicbatmount",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Hemostasis by sec."
+ },
+ {
+  "name": "Endure the Curse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Reduce all damage taken by %. While active, taking damage that would reduce your health below 10% will instantly heal you for % of your maximum health. Can only occur once."
+ },
+ {
+  "name": "Enduring",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases the damage of Bloodbolt by %, plus an additional % while below 35% health."
+ },
+ {
+  "name": "Enraging Howls",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Casting Howl spells now increases the damage dealt and reduces damage taken by nearby party members by %."
+ },
+ {
+  "name": "Enraging Wounds",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Level 40 Passive Melee critical strikes now leech its value health from the target, scaling with your Stamina."
+ },
+ {
+  "name": "Enthraller",
+  "icon": "ability_rogue_deadliness",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases the critical strike chance of Valanar's Vengeance and Keleseth's Calamity by %."
+ },
+ {
+  "name": "Enveloped in Darkness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Casting Aortic Aegis now applies a Blood Barrier to allies affected by your Blood Rituals within yds of the target, absorbing its value damage, scaling with Spirit."
+ },
+ {
+  "name": "Essence Harvester",
+  "icon": "spell_animarevendreth_debuff",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Being struck by an enemy while below 35% health instantly resets the cooldown of your Vampiric Fang and grants you Wretched. Can only occur once per minute."
+ },
+ {
+  "name": "Eternal Curse",
+  "icon": "achievement_worganhead",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Level 10 Passive Teaches you Eternal Curse."
+ },
+ {
+  "name": "Eternal Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases your maximum health and reduces the cost of your spells and abilities by %."
+ },
+ {
+  "name": "Eternal Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases the attack power of party and raid members by %. Does not stack with similar effects. In addition, you now gain attack power equal to % of the damage taken. Can only occur once every 10 sec."
+ },
+ {
+  "name": "Eternal Resolve",
+  "icon": "skill_icon_skill73_border",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Activate your eternal resolve, sending you into a feral frenzy, increasing your melee attack speed, maximum health, and healing received by %."
+ },
+ {
+  "name": "Everhungry",
+  "icon": "inv_misc_food_legion_heartyfeast",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Direct critical strikes now increase your haste by %."
+ },
+ {
+  "name": "Everlasting Hunt",
+  "icon": "ability_hunter_rapidkilling",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Damage dealt by Blood Shards now reduces the cooldown of Veinburst and Reave by sec."
+ },
+ {
+  "name": "Eviscerated",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Worgen Form Tear through the flesh of up to enemies, dealing Physical damage causing them to bleed for an additional over."
+ },
+ {
+  "name": "Exsanguination",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases damage dealt to bleeding enemies by %."
+ },
+ {
+  "name": "Extractor",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases your haste by %."
+ },
+ {
+  "name": "Eyes In The Night",
+  "icon": "sha_spell_shadow_shadesofdarkness_nightmare",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Allies within yds are protected by Shadow Colony, giving them a % chance to trigger a Call of the Darkwing when they take direct damage. Can only occur once every 5 sec. allies have less health than you when this occurs, generate a large amount of threat against the enemy that triggered it."
+ },
+ {
+  "name": "Feral",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Generates Rage every sec."
+ },
+ {
+  "name": "Feral Strength",
+  "icon": "",
+  "meta": "Talent Passive Lvl 30",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Level 30 Passive While in Eternal Curse, you now gain % more attack power from Agility and Strength."
+ },
+ {
+  "name": "Ferocious Impact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Lunge now applies Grimclaw to enemies struck."
+ },
+ {
+  "name": "Final Embrace",
+  "icon": "inv_misc_questionmark",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Mortal Form Gorge on blood magic, entering a dramatically improved Cursed Form, transforming your Bloodfang Bite into Crimson Maw, but draining your health over time. While active, every sec you curse enemies within yds, applying H"
+ },
+ {
+  "name": "Finger of Death",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Cursed Form Attempt to turn an enemy inside out, dealing its value Shadowstrike Damage and reducing their Armor by % for sec. Refreshes the duration of Taldaram's Torment on the target."
+ },
+ {
+  "name": "Flesh Foundry",
+  "icon": "achievement_raid_hall_of_flesh",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Your critical strikes now reduce the cooldown of Fleshcraft and the duration of Sated on the target by sec. In addition, increases your critical strike rating by % of your Spirit."
+ },
+ {
+  "name": "Fleshcraft",
+  "icon": "nhi_bloodtear_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Mend blood and bone, healing an ally for % of their maximum health and applies Sated. Empowered: Heals for an additional % of your maximum health and costs % less Rage."
+ },
+ {
+  "name": "Forbidden Power",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Level 20 Passive Increases your spell critical strike rating by % of your Agility and spell hit rating by % of your Agility."
+ },
+ {
+  "name": "Furrious",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Reduces the cooldown of Ironfur by %, but causes it to cost Rage and reduces its damage reduction effect by %."
+ },
+ {
+  "name": "Gift of Lana'thel",
+  "icon": "lanathel2",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Become blessed by Lana'thel, increasing your spell power by % of your Spirit and your hit rating by % of your Spirit."
+ },
+ {
+  "name": "Gore",
+  "icon": "inv_sword_140",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Marrowbite and Mawstorm now reset the cooldown of Claw Sweep and remove the cooldown of your next 2 Claw Sweeps and reducing their rage cost by %."
+ },
+ {
+  "name": "Gorge",
+  "icon": "sha_ability_rogue_sturdyrecuperate_nightmare",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Instantly gain 10 stacks of Pooled Vitality every sec."
+ },
+ {
+  "name": "Greater Bloodsoaked Offering",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Blood magic infuses the target ally, increasing their Spirit by."
+ },
+ {
+  "name": "Greater Bloodthorns",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Bloodthorns sprout from all party and raid members, causing its value Shadow damage to attackers when hit. Can occur only once every half a second."
+ },
+ {
+  "name": "Greater Sanguinary Offering",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Establish a sanguine pact with all nearby allies, increasing their Stamina. Lasts."
+ },
+ {
+  "name": "Grim Magic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Bloodmoon Blast, Consume and Taldaram's Torment now have a % chance to apply Grimclaw when they deal damage."
+ },
+ {
+  "name": "Grim Omen",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Critical strikes with Ravenous Strike or Bloodfang Bite, or using Howl spells, now triggers Call of the Darkwing."
+ },
+ {
+  "name": "Harvest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases the damage increase from Thirst stacks by %."
+ },
+ {
+  "name": "Heartbreak",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Unleash a powerful surge of blood, dealing its value Shadow damage to an enemy, and healing allies within yds of the target for its value. Empowered: Increases your party and raid members attack or spell power by, plus an additional its value for"
+ },
+ {
+  "name": "Heightened Reflexes",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases your chance to dodge by % and your expertise."
+ },
+ {
+  "name": "Hemal Excision",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Cut into an ally's vital essence, siphoning all curse effects from them. You may reactivate this ability again within to place these curse effects on an enemy."
+ },
+ {
+  "name": "Hematophage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Infest an enemy with blood parasites, dealing its value Shadow Damage and causing them to bleed for its value over. Periodic damage from this spell can critically strike."
+ },
+ {
+  "name": "Hemoburst",
+  "icon": "nhi_bloodbolt_border",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Mortal Form Unleash a powerful burst of blood at an enemy, dealing its value Shadow damage. This ability is guaranteed to critically strike against bleeding targets. Extends the duration of your next Cursed Form by sec, stacking"
+ },
+ {
+  "name": "Hemoglobe",
+  "icon": "custom_t_bloodeye_border",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Coalesce a powerful sanguine orb above you, healing up to allies within yds for its value over. Generates 2 stacks of Pooled Vitality, and Rage every sec. Healing scales with Stamina and Spirit"
+ },
+ {
+  "name": "Hemomancy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "REMOVED"
+ },
+ {
+  "name": "Hemophobia",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Your morbid sorcery terrifies enemies within yds, causing them to flee in fear. Damage caused may interrupt the effect."
+ },
+ {
+  "name": "Hemostasis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Trap an enemy in a blood orb, horrifying them in place. Reactivating this ability within, instantly pops the Hemostasis, dealing its value Shadow damage and reducing their healing received by %."
+ },
+ {
+  "name": "Hunt",
+  "icon": "_d3leapattack",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases Physical Damage dealt to enemies affected by Goldrinn's Thirst by %."
+ },
+ {
+  "name": "Hunter's Frenzy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Night Hunter's Howl now applies Worgen Bite to all enemies struck."
+ },
+ {
+  "name": "Hypovolemic Shock",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Induce your blood into an enemy to shock their nervous system, reducing their attack power by its value for and removing enrage effect."
+ },
+ {
+  "name": "Improved Arugal's Blessing",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Reduces the cooldown of Arugal's Blessing by sec and increases its duration by sec."
+ },
+ {
+  "name": "Improved Dark Liturgy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Reduces the cost of Dark Liturgy by Rage."
+ },
+ {
+  "name": "Infected Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Periodic damage dealt now reduces the enemy's movement speed by %."
+ },
+ {
+  "name": "Infected Claws",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Ravenous Strike now slows the target's movement speed by %."
+ },
+ {
+  "name": "Infection",
+  "icon": "inv_misc_monsterclaw_06",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Auto attacking a bleeding target will now infect the wound, increasing their chance to be critically struck from you by %, stacking times."
+ },
+ {
+  "name": "Infuse",
+  "icon": "ability_ironmaidens_bloodritual",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Accumulates 10% of all damage dealt to the target and unleashes it after, dealing Shadow damage and absorbing healing done to the target equal to the damage done. Damage dealt is unable to exceed 3 times your maximum health."
+ },
+ {
+  "name": "Inhumane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Dealing damage with Aortic Assault will now launch 1 Blood Shard, dealing its value Arcane damage to your target."
+ },
+ {
+  "name": "Insatiable Appetite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Direct damaging critical strikes now heal up to allies within yds for its value, scaling with attack power and spell power."
+ },
+ {
+  "name": "Invigorated Flesh",
+  "icon": "ability_butcher_exsanguination",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases chance to hit with all spells and attacks by % for you and party and raid members. Does not stack with similar effects."
+ },
+ {
+  "name": "Ironhide",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Reduces all damage taken by %. Useable while stunned."
+ },
+ {
+  "name": "Keleseth's Calamity",
+  "icon": "nhi_bloodspikes_border",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Bend blood in an area, dealing its value Shadow damage to enemies. Each stack of Thirst reduces the cast time of this ability and increases its damage."
+ },
+ {
+  "name": "Killer Instinct",
+  "icon": "ability_deathknight_roilingblood",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Each point of Rage now increases the critical strike chance of Veinburst and Reave by %, up to a maximum of 50%."
+ },
+ {
+  "name": "Leeching Tome",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Your Bloodbolt now leeches % more health, but it now costs additional Rage."
+ },
+ {
+  "name": "Lethal Wounds",
+  "icon": "uico_blood_spell_02_border",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Allows your periodic damage effects to critically strike."
+ },
+ {
+  "name": "Life Scent",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your stealth detection significantly."
+ },
+ {
+  "name": "Lingering Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Your direct damage dealt has a % chance to increase the chance for an enemy to be critically struck by %."
+ },
+ {
+  "name": "Liquify",
+  "icon": "ability_ironmaidens_corruptedblood",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Requires Mortal Form Dissipate into a pool of blood, making you immune to damage from spells and attacks, but preventing you from attacking or casting spells and slowing your movement speed by %.?s504088[ When Liquify ends, leech its value health from nearb"
+ },
+ {
+  "name": "Lunge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Leap behind an enemy, dealing its value Physical Damage, dazing them for sec, and generating Rage."
+ },
+ {
+  "name": "Malediction",
+  "icon": "_soulharvest2__red",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Condemn an enemy, dealing its value Shadow damage over and increasing the damage they take from your next 5 direct damage spells by %."
+ },
+ {
+  "name": "Monstrous Hunger",
+  "icon": "_diablo3_cursedmonster_red",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Enrage, causing the next 6 Bloodfang Bites to have a % reduced global cooldown and cost and to trigger Call of the Darkwing."
+ },
+ {
+  "name": "Moon Gaze",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Allow your blood curse to take control and embrace your inner self, allowing you to access your Cursed Form ability bar. While active, you are unable to move, attack, or cast spells or abilities. Cannot be used in combat."
+ },
+ {
+  "name": "Mortal Wounds",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your direct harmful critical strikes with spells and abilities now cause the target to bleed for SP over 6 seconds."
+ },
+ {
+  "name": "Mucking Around",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Scarlet Delirium by -1 sec, but increases the health cost by 100%."
+ },
+ {
+  "name": "Night Hunter",
+  "icon": "_auracloak_shadow",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Your Veinburst now has a % chance to not trigger a cooldown when cast. Your Bloodbolt now has a % chance to refund half of its Rage cost when cast."
+ },
+ {
+  "name": "Night Hunter's Howl",
+  "icon": "ability_garrosh_hellscreams_warsong",
+  "meta": "Ability",
+  "specs": [
+   "accursed",
+   "eternal"
+  ],
+  "desc": "Howl into the souls of nearby enemies, slowing their movement speed by %, and dealing its value Shadow Damage."
+ },
+ {
+  "name": "Night Stalker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "All damage and healing done is increased by % at night."
+ },
+ {
+  "name": "Nightmare",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Terrify now reduces the Armor and magic resistance of nearby enemies by %."
+ },
+ {
+  "name": "No Mercy",
+  "icon": "inv_ascend_hunting_90",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Allows your Thick Pelt to affect an additional hit."
+ },
+ {
+  "name": "Nostrum",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Organ Orbs",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Each stack of Pooled Vitality now increases your Spirit by %."
+ },
+ {
+  "name": "Perilous Ascent",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Leap to the targeted location and increase your movement speed by %."
+ },
+ {
+  "name": "Permanent Damage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases the duration of your periodic damage effects by %."
+ },
+ {
+  "name": "Petrified Legions",
+  "icon": "inv_misc_reforgedarchstone_01",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Physical damage you deal or take now has a % chance to trigger a Call of the Darkwing."
+ },
+ {
+  "name": "Plaguewolf",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Periodic damage dealt now has a % chance to reduce the remaining cooldown of Bloodfang Bite by sec and generate Rage. Can only occur once every 0.5 sec."
+ },
+ {
+  "name": "Pooled Vitality",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Level 10 Passive Spells that cost health now grant a stack of Pooled Vitality, stacking times. Mortal Form spells that cost Rage consume 10 stacks of Pooled Vitality to become empowered."
+ },
+ {
+  "name": "Predator",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Claw Sweep, Sanguine Mend, and Sanguine Rupture can now strike its value additional nearby target."
+ },
+ {
+  "name": "Puncturing Fangs",
+  "icon": "achievement_boss_breaker_darmac",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Bloodmoon Blast now strikes twice, but its damage and Rage generated are reduced by %"
+ },
+ {
+  "name": "Purify Blood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Purify an allies' blood, removing disease effect from them."
+ },
+ {
+  "name": "Rabid",
+  "icon": "ability_hunter_pet_wolf",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Reduces the cooldown of Howl spells by %."
+ },
+ {
+  "name": "Ravenous Bite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "A strong bite that causes Physical Damage and heals you for the same amount. Generates additional threat. Has a chance to apply Grimclaw."
+ },
+ {
+  "name": "Ravenous Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Strike an enemy, dealing its value Physical damage and generating Rage."
+ },
+ {
+  "name": "Reave",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Lacerate an enemy, dealing % Weapon Damage plus its value. the enemy is bleeding, below 35% health, or you are behind them, deal % additional Shadow damage for each condition met."
+ },
+ {
+  "name": "Reckless Abandon",
+  "icon": "ability_hunter_longevity",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "accursed",
+   "sanguine"
+  ],
+  "desc": "Level 40 Passive Each stack of Thirst now increases your critical strike chance by %."
+ },
+ {
+  "name": "Red Thirst",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Enrage allies within yds, increasing haste by %. After being affected by this spell, allies cannot benefit from similar effects."
+ },
+ {
+  "name": "Regenerative Power",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases damage and healing done by %."
+ },
+ {
+  "name": "Rejuvenating Shadows",
+  "icon": "spell_shadow_antishadow",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Nearby party and raid members receive % more healing. Does not stack with similar effects. In addition, increases the health leeched by Bloodbolt by %."
+ },
+ {
+  "name": "Relentless",
+  "icon": "garrison_building_salvageyard",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Level 40 Passive Physical critical strikes now reduce the cooldown of Aortic Assault by sec and grant you Relentless."
+ },
+ {
+  "name": "Resilient Fury",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Reduces Physical damage taken by % and all damage taken while stunned by %."
+ },
+ {
+  "name": "Rotclaw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "2 Charges, 6 sec recharge Ravage all nearby enemies, dealing its value Shadow damage, generating Rage and infecting their wounds, causing them to bleed for its value Shadow damage over."
+ },
+ {
+  "name": "Running Wild",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases movement speed by %. Acts like a mount."
+ },
+ {
+  "name": "Sacrificial Rite",
+  "icon": "nhi_shadowtentacle_border",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Invoke a dark ritual, increasing your haste by %. While active, attackers are afflicted with Cursed Blood. Can only occur once per sec. At the end of the duration, your healing done is increased by % and you are healed for {("
+ },
+ {
+  "name": "Sanguinary Offering",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Enact a sanguinary ritual with an ally, increasing their Stamina. Lasts."
+ },
+ {
+  "name": "Sanguine Circle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Causes Sanguine Shield to mark affected allies with Blood Rituals learned."
+ },
+ {
+  "name": "Sanguine Essence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Enter a unique Cursed Form that does not disable Mortal Form abilties, coalescing a blood orb that will float beside you. While active, you replicate % of healing or damage done by Sanguine Mend and Bloodmoon Blast on the target every sec. While in a |cff"
+ },
+ {
+  "name": "Sanguine Mend",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Requires Mortal Form Mend an ally's wounds, healing them for its value. Critical strikes with this ability increase all healing the target receives by %.?s680688[ Empowered: Becomes instant cast and heals yourself for %"
+ },
+ {
+  "name": "Sanguine Rupture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Explode with boiling blood, dealing its value Shadow damage to enemies and generating Rage for each enemy hit. Generates 1 stack of Thirst."
+ },
+ {
+  "name": "Sanguine Scripture",
+  "icon": "_book6_red",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Upon exiting Accursed Form, you gain % movement speed and spell haste."
+ },
+ {
+  "name": "Saturating Sutures",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your periodic damage and healing has a 15% chance to reduce the cost your next Sanguine Mend by -100% for 8 seconds."
+ },
+ {
+  "name": "Scarlet Delirium",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Requires Mortal Form Flood the minds of up to nearby enemies with visions of unraveling flesh, fearing them for (8 sec versus players) while draining their life essence, siphoning its value health every sec. Damage caused may interrupt the effect."
+ },
+ {
+  "name": "Scent of Man",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Shows the location of all nearby humanoids on the minimap."
+ },
+ {
+  "name": "Screech of the Darkwing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Your effects that trigger Call of the Darkwing now trigger an additional Call of the Darkwing. Can only occur once per sec."
+ },
+ {
+  "name": "Shadow Hemorrhage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Bloodmoon Blast now applies Shadow Hemorrhage."
+ },
+ {
+  "name": "Shadow Howl",
+  "icon": "ability_warlock_howlofterror",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Let loose a dark howl that inspires your allies, granting immunity to movement impairing effects to all allies."
+ },
+ {
+  "name": "Shadow Strength",
+  "icon": "inv_icon_shadowcouncilorb_purple",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Casting Howl spells now deal its value Shadow damage to all nearby enemies and triggering Call of the Darkwing now reduces the cooldown of all Howl spells by sec. Can only occur once per sec."
+ },
+ {
+  "name": "Shadow Vigil",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Envelop an ally in darkness, temporarily reducing all threat. While active, the target's stealth detection is significantly increased."
+ },
+ {
+  "name": "Shadowfang Bond",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Makes you neutral to hostile enemies. This effect is removed when you deal any damage or travel to a different map."
+ },
+ {
+  "name": "Shadowfang Ritual",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Heals an ally, and transforms them into a Lesser Worgen."
+ },
+ {
+  "name": "Shadowfang Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Heal for % maximum health every sec and take % less Shadow damage at all times. Lasts."
+ },
+ {
+  "name": "Shadows In The Night",
+  "icon": "spell_nzinsanity_chasedbyshadows",
+  "meta": "Talent",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "While above 75% health, your damage taken is reduced by %."
+ },
+ {
+  "name": "Shards of Torment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Damage dealt by your Blood Shards now extends the duration of Taldaram's Torment by sec, up to a maximum of."
+ },
+ {
+  "name": "Slaughterhouse Offering",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Amplifies magic used against the targeted party member, increasing damage taken from spells by up to and healing spells by. Lasts."
+ },
+ {
+  "name": "Sovereignty",
+  "icon": "_seed_grainedecorruption",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Damage dealt by Crimson Tide now grants you Sovereignty."
+ },
+ {
+  "name": "Spice of Life",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Your periodic damage and healing now has a % chance to grant a stack of Pooled Vitality."
+ },
+ {
+  "name": "Suture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Swarm of Flies",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Your Bloodbolt now refreshes the duration of Taldaram's Torment."
+ },
+ {
+  "name": "Taldaram's Torment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Corrupt an enemy's heart, causing them to bleed for Shadow damage over. Generates Rage every time it deals damage. Periodic damage dealt through this can critically strike."
+ },
+ {
+  "name": "Teachings of Lana'thel",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Increases spell hit rating by % of Spirit and spell critical strike rating by % of Spirit."
+ },
+ {
+  "name": "Teleport: Shadowfang Keep",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Teleports the caster to Shadowfang Keep in Silverpine Forest."
+ },
+ {
+  "name": "Terrify",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "You terrify enemies within yds with your horrific form, causing them to tremble in horror."
+ },
+ {
+  "name": "Terrorizer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Increases the damage of Veinburst, Bloodfang Bite, and Claw Sweep on enemies below 35% health by %."
+ },
+ {
+  "name": "The Cup Runneth Over",
+  "icon": "inv_misc_cauldron_fire",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases the spell power scaling of Bloodmoon Blast, Taldaram's Torment and Bloodbolt by %."
+ },
+ {
+  "name": "The Hunter and the Hunted",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Level 50 Passive When you activate a Cursed Form you now charge to your target they are within yds. they're an enemy you root them. Upon expiration, your Accursed Form can be reactivated to cause you to erupt in a burst of blood magic, leeching {+0+spell power+attack power*"
+ },
+ {
+  "name": "Thick Pelt",
+  "icon": "inv_skinning_80_coarsefur",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Physical damage taken now reduces the Physical damage taken from the next attack within by its value. Can only occur once every 5 sec."
+ },
+ {
+  "name": "Thirst",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Level 10 Passive Spells that cost health now grant Thirst. Reaching stacks makes you Insatiable, reducing your damage dealt by % every sec until Thirst ends."
+ },
+ {
+  "name": "Time to Feast!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases the health returned by Ravenous Strike by %."
+ },
+ {
+  "name": "Transfusion",
+  "icon": "nhi_bloodboil_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Swap health percentages with an ally. Increases the lower health percentage of the two to %, below that amount. Empowered: Incurs a sec reduced cooldown."
+ },
+ {
+  "name": "Transgression",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Enter a unique Cursed Form for that does not disable the use of Mortal Form abilities and casts a free Vampiric Fang on your target, granting spell damage equal to % of your Spirit. While active, direct spell damage triggers a Vampiric Feast, dealing % addition"
+ },
+ {
+  "name": "Twisted Magic",
+  "icon": "_deathcoilv2_blood",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Your direct harmful critical strikes increase the target's Shadow damage taken from you by %, stacking up to times,."
+ },
+ {
+  "name": "Ultra Instinct",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Direct ability critical strikes now increase your spell and ability critical strike chance and critical damage by % for its value sec. Each additional critical strike increases this by an additional %, but reduces its duration by sec."
+ },
+ {
+  "name": "Uncanny Movement",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Level 20 Passive Increases your Agility by % and your hit rating by % of your Agility. In addition, Claw Sweep now generates additional threat."
+ },
+ {
+  "name": "Uncanny Speed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases your melee haste by % and your movement speed and mounted movement speed by %."
+ },
+ {
+  "name": "Unchained",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Level 10 Passive Your damaging Mortal Form spells can now be cast while moving."
+ },
+ {
+  "name": "Universal Donor",
+  "icon": "ability_animusdraw",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Casting Infuse or Vampyr's Kiss now increases the healing received by all allies by %."
+ },
+ {
+  "name": "Valanar's Vengeance",
+  "icon": "ability_deathknight_necroticaura",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Requires Mortal Form Launch a powerful blood bolt at an enemy, dealing its value Shadow damage. Each stack of Thirst reduces the cast time of this ability and increases its damage."
+ },
+ {
+  "name": "Vampiric Fang",
+  "icon": "custom_t_bloodhaze_border",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Expends Thirst Stacks Steal its value health from an enemy. Damage increased by % for each Thirst stack. Clears Insatiable and Thirst stacks."
+ },
+ {
+  "name": "Vampiric Hunger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "When your Blood Veil expires, the target is enraged, causing them to deal % increased damage."
+ },
+ {
+  "name": "Vampiric Pools",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "When Liquify ends, you now leech SP health from nearby enemies."
+ },
+ {
+  "name": "Vampirism",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Teaches Embrace of the Vampyr, but disables the use of Curse of the Worgen."
+ },
+ {
+  "name": "Vampyr Bite",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Brings a dead player back to life with % health and mana. For the next, the target takes % increased healing, but being damaged ends the effect. Cannot be cast when in combat."
+ },
+ {
+  "name": "Vampyr's Kiss",
+  "icon": "nhi_kiss_border",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Curse an enemy, causing them to bleed for Shadow damage over and instantly regenerate % of your maximum Rage. All periodic damage dealt to an enemy affected by Vampyr's Kiss is replicated on them equal to % of the value."
+ },
+ {
+  "name": "Veinburst",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Requires Mortal Form Blast an enemy, dealing its value Shadow damage. Deals % increased damage to bleeding targets."
+ },
+ {
+  "name": "Veins of Vengeance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your chance to resist curse effects by 15%."
+ },
+ {
+  "name": "Vicious Maw",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Grants a % chance to trigger a Worgen Bite against enemies who strike you with a melee attack while Ironfur is active."
+ },
+ {
+  "name": "Viciousness BFB proccer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "accursed"
+  ],
+  "desc": "Bloodfang Bite applies a stack of Worgen Bite to the target. At stacks, you unleash a Vicious Bite attack."
+ },
+ {
+  "name": "Visceral Magic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Adds 40% to the Armor contribution from items by Blood Shield."
+ },
+ {
+  "name": "Visceral Vitality",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "sanguine"
+  ],
+  "desc": "Increases all healing done by Lifedrinker by % and its tick rate by %."
+ },
+ {
+  "name": "Vital Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "fleshweaver"
+  ],
+  "desc": "Protects the caster with vital magic, increasing your Shadow and Nature healing received by % and restoring % of your maximum health every sec. Lasts. Only 1 Shield can be active at a time."
+ },
+ {
+  "name": "Vitality",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Increases your Stamina while in Eternal Curse by an additional %."
+ },
+ {
+  "name": "Warhound",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "eternal"
+  ],
+  "desc": "Reduces the Rage cost of Claw Sweep."
+ },
+ {
+  "name": "Wicked Howl",
+  "icon": "custom_t_bloodmaw_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Let loose a wicked howl, increasing your maximum health by %."
+ }
+]

@@ -1,0 +1,64 @@
+{
+ "class": "pyromancer",
+ "gates": {
+  "research": "2026-08-07"
+ },
+ "metrics": {
+  "research": {
+   "citation_claims": 13,
+   "citations": 3,
+   "crossdb_checked": 218,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 224,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 218,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "DEFERRED: NO PHOENIX + NO ASPECT alerts blocked on the probe (pet vs totem). NO SKIN exists."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "11 entries (all 2026/07/31) triaged and accepted. 5 are Volcanic Shell rank absorb numbers; 3 are bug fixes with no display consequence (Inferno combat-log attribution, Pyroclasm PVP mods, Phoenix Dive double coefficient + 10 targets). Draconic Invocation going baseline needs no build change -- every leaf already carries a load.spellknown gate. The Inferno rework is built (0.3, by_name in the Flameweaving absorb band). Phoenix Egg permanence is NOT closed: 707110 is the heal component on both DBs, not the castable summon, and no castable summon exists in either database. Found two real Flameweaving buttons sitting unplaced in Candidates -- Flames of Al'ar 500202 and Kiss of Al'ar 704280 -- both held at ignore pending the Phoenix section."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "3 claim-name gaps closed. Firewall aliased to Spellguard: Firewall (944833, live on both DBs; 806238 is literally 'Deprecated'). Comet Storm 524612 and Draconic Assault 802116 placed as ignore rows with their evidence. Also corrected the Stoke row, which still said main after build_pyromancer.py dropped it."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 218,
+   "note": "218/218 after the Breath Charge row. Still the same 2 no-record, both explained in their Notes cells: Draconic Assault 802116 and Stoke 803952."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "0 seed:/prop: markers, but roles were BULK-cleared 2026-08-02, not read row by row"
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "all three rebuilt from the Sidekick rotations; Stoke removed (passive talent, no db.ascension record)"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "3 Sidekick spec pages scraped 2026-08-06 via Firecrawl. Class had NO mechanics source before this."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "Fired Up! (instant Ember spenders), Aspect's Blessing (guaranteed-crit spender), Earthwarder (instant Flare Bolt) wired to PROC_GLOW. Inferno rework (changelog 07/31) added to the Flameweaving target band, matched by id OR name because 806736 is the passive."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-pyromancer.md, all 6 sections + changelog triage"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "Explode -> Echo of Nozdormu handled via wapack.spell_swap(). Draconic Invocation now baseline per changelog, no gate needed."
+  }
+ }
+}

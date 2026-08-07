@@ -197,6 +197,15 @@ def sidekick_import(cls, cites):
     Reads the SNAPSHOT, not the network. The bundle is already committed under
     the terms recorded in sources.py, and re-fetching inside an import would
     make provenance depend on when you happened to run it.
+
+    WHICH IS WHY `retrieved_at` IS THE SNAPSHOT'S DATE, NOT TODAY'S. It stamped
+    the import date until 2026/08/07, which reported the source as fresher than
+    it was -- the blob was fetched 08/02 and the citations claimed 08/06. That
+    matters because Sidekick is a REFERENCE, not ground truth: the tie-break
+    against it is how stale it is relative to the changelog, and a wrong
+    `retrieved_at` is the one number that comparison rests on. mtime is not
+    perfect (a fresh clone resets it), but it is the snapshot's date and today
+    never is.
     """
     raw_path = data("sidekick-data.js")
     if not os.path.exists(raw_path):
@@ -205,7 +214,8 @@ def sidekick_import(cls, cites):
     raw = open(raw_path, encoding="utf-8").read()
     asc = json.loads(raw[raw.index("=") + 1:].strip().rstrip(";"))
     skill = asc.get("coaSkill", {}).get(cls.name) or {}
-    stamp = _norm_date(__import__("time").strftime("%Y-%m-%d"))
+    stamp = _norm_date(__import__("time").strftime(
+        "%Y-%m-%d", __import__("time").localtime(os.path.getmtime(raw_path))))
 
     added = 0
     for spec_name, block in skill.items():
@@ -240,6 +250,15 @@ def sidekick_import(cls, cites):
             claims["signature"] = [sig]
         body = json.dumps(claims, sort_keys=True, ensure_ascii=False)
         cid = f"sidekick-{cls.slug}-{spec}-{stamp}"
+        # One Sidekick snapshot per spec. The id carries the date, so a re-import
+        # off a newer blob would otherwise pile up beside the older one and the
+        # corpus would corroborate a claim from two dates that disagree.
+        for old in [k for k, v in cites.items()
+                    if k != cid
+                    and v.get("source") == "ascensionsidekick.com"
+                    and v.get("class") == cls.slug
+                    and v.get("spec") == spec]:
+            del cites[old]
         cites[cid] = {
             "class": cls.slug,
             "spec": spec,

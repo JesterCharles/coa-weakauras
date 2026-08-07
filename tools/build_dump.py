@@ -31,6 +31,14 @@ TRACKED = [
     "Manuscription", "Silencing Rune", "Frigid Blast", "Glyphic Overload",
     "Eye of the Beholder", "Runeshroud", "Arcane Blade", "Fire Blade",
     "Frost Blade", "Runecarve",
+    # Talents that REPLACE or TRANSFORM a button rather than modifying it. The
+    # replacement's id is what the pack needs and what no database carries:
+    # dump these with the talent taken, and with Elemental Mastery procced.
+    "Elemental Mastery", "Echoes of Eternity", "Runelord",
+    # The four Elemental Mastery versions of Primordial Blast. Dump with one
+    # armed: sections 2 and 3 answer whether the transform is a spellbook
+    # replacement, a player aura, or an action-bar override.
+    "Ignis", "Hydros", "Lithos", "Stratus",
 ]
 
 
@@ -94,6 +102,44 @@ DUMP_LUA = f"""function()
     local mh, mhExp, mhCh, oh, ohExp, ohCh = GetWeaponEnchantInfo()
     say("MainHand=" .. tostring(mh) .. "|expires=" .. tostring(mhExp))
     say("OffHand=" .. tostring(oh) .. "|expires=" .. tostring(ohExp))
+
+    -- 6. Spell OVERRIDE probe. Run with Elemental Mastery armed.
+    --
+    -- The Elemental Mastery cue is built on the premise that the transform is
+    -- a spell override, which is what WeakAuras' `Cooldown Progress (Spell)`
+    -- trigger resolves and publishes as `effectiveSpellId`. This section is
+    -- what proves or kills that premise in one run, instead of another round
+    -- of guessing at auras and action bars.
+    --
+    -- Reading, for Primordial Blast 800732:
+    --   override=712668     -> confirmed, the cue works off effectiveSpellId
+    --   override=800732     -> the client does NOT override; look at 3 (an
+    --                          aura) and at the action slot below instead
+    --   FindSpellOverrideByID=nil -> the API is absent on this fork
+    say("-- 6. OVERRIDE PROBE (Primordial Blast 800732) --")
+    say("FindSpellOverrideByID=" .. tostring(FindSpellOverrideByID ~= nil))
+    if FindSpellOverrideByID then
+        local o = FindSpellOverrideByID(800732)
+        say("override=" .. tostring(o) .. "|name=" .. tostring(GetSpellInfo(o or 800732)))
+    end
+    say("GetSpellInfo(800732)=" .. tostring(GetSpellInfo(800732)))
+    say("byName=" .. tostring(GetSpellInfo("Primordial Blast")))
+    for _, n in ipairs({{"Ignis", "Hydros", "Lithos", "Stratus"}}) do
+        local nm, _, _, _, _, _, id = GetSpellInfo(n)
+        say(n .. "|known=" .. tostring(nm ~= nil) .. "|id=" .. tostring(id))
+    end
+    -- which action slot holds it, and what that slot currently casts
+    for s = 1, 120 do
+        local kind, id = GetActionInfo(s)
+        if kind == "spell" and id then
+            local nm = GetSpellInfo(id)
+            if nm == "Primordial Blast" or nm == "Ignis" or nm == "Hydros"
+                or nm == "Lithos" or nm == "Stratus" then
+                say("actionslot=" .. s .. "|id=" .. tostring(id)
+                    .. "|name=" .. tostring(nm))
+            end
+        end
+    end
 
     say("===== END =====")
 

@@ -107,6 +107,14 @@ just landed therefore needs to be on screen.
 **Runeblade** is the filler: **3 charges, 6 sec recharge**, refreshed 3 at a time by
 Eternal Magic.
 
+⚠️ **Runic Explosion is not a button.** `rank="Damage"`, `cd=0`, **`gcd=0`**, and the
+class skillbook does not list it while it does list Runeblade and Runic Brand as
+`Ability`. It is what Runeblade *causes* when it spends the mark. It sat on the
+Engravement main row from 1.0 to 1.7 and was removed in 1.8; Runeblade now glows
+while `Marked: Runic Brand` is on the target, which is the cue that slot should
+have been carrying all along. A `gcd_ms` of 0 on something that looks castable is
+the tell worth remembering.
+
 **Runic Brand** is not a self-detonating DoT. It marks the enemy for 8s with
 **`Marked: Runic Brand`**, and "your next **Runeblade** on the enemy causes a Runic
 Explosion" — the mark is *spent by Runeblade*. Leyborn raises it to 3 stacks. **Power
@@ -117,6 +125,54 @@ current aura" — that sentence is about *this* projected aura, not about tattoo
 
 Zenith has **2 charges** (Echoes of Eternity, 45s recharge) and its Runelord follow-up
 gives +30% Runic Brand and Weapon Engraving damage for 8s.
+
+⚠️ Both of those talents **replace** Zenith — `712325` becomes `712389`, a different
+spell, not the same spell with an extra charge. An exact-id trigger or an
+`IsSpellKnown` gate on the base id therefore matches nothing the moment either is
+talented, and because a dynamic group lays out only the children that are showing, the
+button does not dim — it **disappears from the row**. See `tools/in-game-verified.json`,
+whose `variants` key is what the builder reads to drop exactness.
+
+**Elemental Mastery** (`806711`) gives Runic Brand damage a 33% chance to "transform your
+Primordial Blast into a random unique elemental version of itself". The four versions are
+**named spells**, and they are in both scrapes — under their own names, which is why
+searching for "Primordial Blast" found nothing:
+
+| Spell | ID | Element | On cast |
+|---|---|---|---|
+| Ignis | `712668` | fire | 555 Fire, +10% Brand effectiveness through engravings, 6s |
+| Hydros | `713002` | water | 555 Frost, −25% root/slow duration, 6s |
+| Lithos | `712858` | earth | 681 Physical, −5% damage taken, 6s |
+| Stratus | `712404` | wind | 681 Physical, +5% attack speed, 6s |
+
+All four are level 18, 13% mana, 1s GCD and — the tell — **no cooldown of their own**,
+where Primordial Blast has 8s. A free replacement for an 8s button is only reachable
+while the proc is armed; they share Primordial Blast's slot rather than adding a fifth.
+
+**There is no spell-override system on this client, so do not look for one.** The
+Ascension WeakAuras fork's `Prototypes.lua:3806` is `local effectiveSpellId = spellname` —
+the id you typed, verbatim, with no override lookup; `ignoreoverride` appears nowhere in
+the file. And `FindSpellOverrideByID` is a Cataclysm-era API that a 3.3.5 client does not
+have, so the retail way of tracking a transformed button (Condemn replacing Execute, Lava
+Beam replacing Chain Lightning) does not port. Releases 1.5 and 1.6 were both built on
+`effectiveSpellId` and could never have fired.
+
+**Track the REPLACEMENT, not the base.** With no override system, a 3.3.5 server makes a
+button become another spell the only ordinary way it can: it grants the replacement and
+takes the base away. `["Spell Known"]` (`Prototypes.lua:8253`) reads exactly that, off
+SPELLS_CHANGED and PLAYER_TALENT_UPDATE, and stores the spell's own `name` and `icon` —
+which is the only source of art for these four, since none of them resolve in any scrape.
+⚠️ It takes a **number**; a string id silently becomes spell 0 (`:8271`).
+
+The corroborating fact is that all four have **no cooldown of their own** where Primordial
+Blast has 8s. A free no-cooldown nuke cannot be permanently castable, so whatever the
+server does, it must take them away again — which is what makes them detectable at all.
+
+⚠️ Each of the four also applies its **own 6s self-buff on cast** (+5% attack speed from
+Stratus, −5% damage taken from Lithos, …). Never match the arming on those auras by name:
+the cue would light for six seconds *after* the proc was spent, telling you to press a
+button you just pressed. Section 6 of `/rmdump` probes the override directly if this ever
+needs re-confirming.
 
 Cooldowns: Zenith → Runelord follow-up, Runic Tempest (resets Fist of the Ancients and
 unlocks Runeshroud abilities), Fists of Power (haste), Power Engraving (party DPS zone),
