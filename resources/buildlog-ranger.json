@@ -1,0 +1,108 @@
+{
+ "class": "ranger",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 58,
+   "citations": 6,
+   "crossdb_checked": 230,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 232,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 230,
+   "mechanics_sources": 3,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 58,
+   "citations": 6,
+   "crossdb_checked": 230,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 232,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 230,
+   "mechanics_sources": 3,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 58,
+   "citations": 6,
+   "crossdb_checked": 231,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 233,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 231,
+   "mechanics_sources": 3,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "S5 alerts: NO QUIVER on Archery only (aura-missing across all 5 quiver names+ids ANY-OF, ANDed via NEEDS_ALL with Spell Known on Searing Quiver 500103 exact=False so a levelling character is not nagged). No class-wide Core alert (quiver mandate is archery-cited), no NO HORN (horns are rotational CDs), no pet alert (S3 none)."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: 30 ranger entries, all 2026/07/31, triaged into requirements \u00a7-1: tree-position swaps + numeric buffs = no WA impact; Corrosive Poison merged into L10 passive (\u00a72, talent gone); Skewer/Viper's Bite switch node (\u00a72, own-id gating both); Onslaught 2min + Cutthroat 45s CDs land on ids both DBs only know as components (\u00a70 trap table). --accept AFTER build."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 citations: 3 blob imports (--import-sidekick, snapshot 2026-08-02, stale names aliased to null in aliases-ranger.json with component-tooltip reasoning: Venom Injection, Greenwood Cloak) + 3 manual transcriptions of the spec pages' Solo/Dungeon rotation paragraphs (scraped 2026-08-07, per-spec press order in claims.priority). Validator clean, exit 0."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 231,
+   "note": "crossdb_sweep.py over all 231 rows with an id (incl. Sniper's Focus, hand-added for check 16): 227 record, 4 no-record ALL re-asked by name via dbsearch (0 hits) with tooltip verdicts in the row Notes -- Brigand Strike deprecated (ignore), Toxicant one-source (ignore, \u00a76.7), Emerald Arrow + Whipvine Arrow kept on official-builder grant + exil.es tooltip + cited rotation."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide.py is Runemaster-hardcoded, so the guide read was a structural dump of the built pack (scratchpad/ranger-guide.py): 203 displays, 0 \u00a71.4 orphans, 0 parent/child mismatches; ladder per spec Alerts -18 (archery) / Target -51 / merged Buffs -84 / merged Main -132 (16 leaves) / Advantage cells -164 (per-spec width 274/228/228) / Focus bar -180 / Offense -202 GRID / Utility+Longterm on the SELECTFRAME anchored chain (-4/-16). rowwidths.py: all ranger rows <=1.00x their bar."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "AUTOMATED ROLE PASS, BULK-CLEARED (production-run.md precedent): 228 rows decided by ranger-rolepass.py, one line of reasoning per row citing sidekick page text / db tooltips / official builder / changelog; no human read them one at a time. Explicit decisions for ~130 rows incl 4 CROSSCHECK id corrections (Viper's Bite 803104, Falcon's Call 804715, Knockout 801435, Survival Potion 802839, Dirty Blades 680276); Bounty hand-added as a target-band aura row; Waterskin promoted from Candidates (changelog names it). Hedged rows collected in requirements \u00a76.7."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "Main rows ordered from the transcribed rotation citations (sidekick-page-ranger-*-2026-08-07): archery Quick Shot/Hunting Shot/Precision Shot/Skullpiercer/Serrated Shot/Deadshot (6, execute last, dungeon ST priority quote), brigand Ravage/Wild Strike/Viper's Bite/Assault/Skullpiercer (5), farstrider Quick Shot/Skullpiercer/Emerald Arrow/Woodland Arrow/Toxic Dart (5, horn-chain identity). Envelope width locked per spec (archery 6 icons); CD_PER_ROW=9 from narrowest 228px row, rowwidths all ranger rows <=1.00x."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Firecrawl scrape of ascensionsidekick.com/ranger/{archery,brigand,farstrider} -> resources/sidekick-ranger-<spec>.md (2026-08-07, postdates the 07/31 changelog batch). Playstyle+Rotations+Resource sections present for all three."
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "S3 answered: NO pet section built -- no permanent pet on any spec; farstrider War Falcons/Dragonhawks are 6-12s fire-and-forget summons (Maelstrom water-elemental shape); player-side ramp tracked instead (Coordination stacks, Wingman) in the on-me row. No pet alert, no pet resource."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW wired: Deadshot<-Silent, But Deadly (524873 execute unlock, S6.2), Assault<-Instinctual Combatant (guaranteed-crit window), Horn of War+Horn of Alacrity<-Farstrider's Command (free-Horn window, S6.7). All matched id-or-name; a wrong id fails as never-fires, not as a lie. PROC_STACKS empty -- stacking states (Coordination, Wingman, Backstreet Justice) live in the on-me buff row which draws stacks."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-ranger.md written, all sections: \u00a7-1 30 entries triaged, \u00a70 sweep 230/230 with trap+no-record verdict tables, \u00a71 per-spec mandatory buffs (Advantage 804329 cap-5 cited, Focus typeless power read, Quiver family + NO QUIVER), \u00a72 talents incl Skewer/Viper's Bite switch + Falconstrike transient transform, \u00a73 pets = none permanent (falcons 6-12s fire-and-forget), \u00a74 cited press orders + CD_PER_ROW 9 derivation, \u00a75 miss-handling with proofs, \u00a76 seven open items. Spec roles damage/damage/damage from citable Sidekick kit statements -> spec-roles.md rows with provenance."
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "S2 handled: Skewer/Viper's Bite switch node -> both leaves own-id gated (Skewer offense, VB main), either build reads correctly; Falconstrike transient transform undrawn (strike id in no source, S6.5) -- Quick Shot stays the tracked button; SBD/Instinctual Combatant/Farstrider's Command -> PROC_GLOW; add-only talent rows (Barbed Quills target entry, Wingman/Coordination buffs) are active-only, correct untalented. SPEC_KNOWN 92115/92116/92117 from the official builder's y=0 free nodes."
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed (fixtures frozen for all 4 ranger packs; CORE_LEAVES=4 recorded in classes.py -- empty Core group + 3 class-gated merged buff leaves Guise/Instinct/Elusive Character; check 16 satisfied by hand-adding the Sniper's Focus tree-granted passive row; check 13 reads docs/packs, so the built packs were copied there UNCOMMITTED -- mksite at ship time regenerates them byte-identically per the frozen fixtures)."
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "requirements \u00a76: 7 items, all DEFERRED ON PURPOSE to the post-ship in-game sweep / feedback -- Focus powertype (6.1, bar built typeless so it cannot pick the wrong column), SBD proc aura id (6.2, glow name-matched), quiver self-buff aura ids (6.3, name+id any-of), Wingman aura visibility (6.4), Falconstrike strike-spell id (6.5, transform undrawn), Advantage cap talents (6.6, full-bar-early fails safe), hedged inventory rows incl unbuildable Onslaught/Cutthroat (6.7)."
+  }
+ }
+}

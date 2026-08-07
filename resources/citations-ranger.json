@@ -1,0 +1,197 @@
+{
+ "sidekick-page-ranger-archery-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Open with Hunting Shot on cooldown... Fill gaps with Quick Shot... spend into Precision Shot (main nuke) or Serrated Shot (bleed)... Fire Deadshot... once the target is under 20% HP' (solo) and 'Run single-target priority (Precision Shot dump > Skullpiercer > Serrated Shot > Deadshot execute)' (dungeon)",
+   "quiver claim: 'Keep one Quiver active: Poison Quiver for sustained leveling DoT pressure, or Searing Quiver for more burst'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-ranger-archery.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Skirmish",
+    "Neurotoxin Arrow",
+    "Incendiary Shot",
+    "Brutal Shot",
+    "Crippling Shot"
+   ],
+   "maintain": [
+    "Poison Quiver",
+    "Searing Quiver",
+    "Serrated Shot"
+   ],
+   "priority": [
+    "Quick Shot",
+    "Hunting Shot",
+    "Precision Shot",
+    "Skullpiercer",
+    "Serrated Shot",
+    "Deadshot"
+   ]
+  },
+  "class": "ranger",
+  "content_sha256": "3f0bb9e677319a67",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/ranger/archery",
+  "spec": "archery",
+  "transcribed_by": "ranger draft pass"
+ },
+ "sidekick-page-ranger-brigand-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Ravage first to lay the bleed... Weave Wild Strike to build further Advantage... Dump with Assault once a few Advantage stacks are banked, especially below 20%... Fire Viper's Bite whenever the target is bleeding... Spend Skullpiercer at 5 Advantage as your hardest scaling nuke' (solo) and 'run the normal Ravage -> Wild Strike -> Assault/Viper's Bite/Skullpiercer melee chain' (dungeon)",
+   "maintain claim: 'you're tracking stacking timers -- the Barbed Quills bleed, the Bounty debuff up to 5 via Bounty Hunter, Toxic Dart' (Difficulty paragraph)",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-ranger-brigand.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Bushwhack",
+    "Flank",
+    "Knockout",
+    "Throatpunch",
+    "Hookshot",
+    "Outmaneuver"
+   ],
+   "maintain": [
+    "Ravage",
+    "Barbed Quills",
+    "Toxic Dart"
+   ],
+   "priority": [
+    "Ravage",
+    "Wild Strike",
+    "Viper's Bite",
+    "Assault",
+    "Skullpiercer"
+   ]
+  },
+  "class": "ranger",
+  "content_sha256": "a6419a3bd463a9ba",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/ranger/brigand",
+  "spec": "brigand",
+  "transcribed_by": "ranger draft pass"
+ },
+ "sidekick-page-ranger-farstrider-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Quick Shot to build Advantage. Dump into Skullpiercer (hits hardest at full stacks) or Emerald Arrow... Open tougher fights with Toxic Dart... and Thalassian Brand on elites' (solo) and 'chain Woodland Arrow during the pull to shave the Horn cooldown back down... so a buff is active on nearly every pull' (dungeon)",
+   "'Swap to Whipvine Arrow as your finisher when you need to keep moving' -- mobility swap, offensive row rather than main",
+   "Quel'dorei Poison is cited in prose but is a PASSIVE (both DBs: rider on Woodland/Emerald Arrow) -- not claimed as a button",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-ranger-farstrider.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Horn of War",
+    "Horn of Alacrity",
+    "Battle Screech",
+    "Whipvine Arrow",
+    "Falcon's Call",
+    "Freedom",
+    "Survival Potion"
+   ],
+   "maintain": [
+    "Toxic Dart",
+    "Thalassian Brand"
+   ],
+   "priority": [
+    "Quick Shot",
+    "Skullpiercer",
+    "Emerald Arrow",
+    "Woodland Arrow",
+    "Toxic Dart"
+   ]
+  },
+  "class": "ranger",
+  "content_sha256": "df1ae9768f6c2fb8",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/ranger/farstrider",
+  "spec": "farstrider",
+  "transcribed_by": "ranger draft pass"
+ },
+ "sidekick-ranger-archery-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Guile of the Ranger",
+    "Onslaught",
+    "Woodland Adept"
+   ],
+   "maintain": [
+    "Pierced",
+    "Poison Quiver",
+    "Venom Injection"
+   ],
+   "priority": [],
+   "signature": [
+    "Skirmisher"
+   ]
+  },
+  "class": "ranger",
+  "content_sha256": "fa1325e4bd0db6cc",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/ranger/archery",
+  "spec": "archery"
+ },
+ "sidekick-ranger-brigand-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Cannon Blast",
+    "Deepwood Poison",
+    "Viper's Bite",
+    "Hydra's Bite"
+   ],
+   "priority": [],
+   "signature": [
+    "Ravager"
+   ]
+  },
+  "class": "ranger",
+  "content_sha256": "903b6982187e9a2f",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/ranger/brigand",
+  "spec": "brigand"
+ },
+ "sidekick-ranger-farstrider-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Falcon's Call",
+    "Greenwood Cloak",
+    "Pathfinder"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Dream Flowers"
+   ]
+  },
+  "class": "ranger",
+  "content_sha256": "ec979cb404f42a05",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/ranger/farstrider",
+  "spec": "farstrider"
+ }
+}

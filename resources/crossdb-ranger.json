@@ -1,0 +1,930 @@
+{
+ "_class": "ranger",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Adaptation: Brigand": {
+   "id": 800089,
+   "state": "record"
+  },
+  "Adaptation: Farstrider": {
+   "id": 805736,
+   "state": "record"
+  },
+  "Adaptation: Swashbuckler": {
+   "id": 804937,
+   "state": "record"
+  },
+  "Adrenaline Rush": {
+   "id": 520578,
+   "state": "record"
+  },
+  "Adventurer": {
+   "id": 804331,
+   "state": "record"
+  },
+  "Aerial Assault": {
+   "id": 705068,
+   "state": "record"
+  },
+  "Affinity": {
+   "id": 705099,
+   "state": "record"
+  },
+  "Agile": {
+   "id": 705081,
+   "state": "record"
+  },
+  "Ambuscade": {
+   "id": 705053,
+   "state": "record"
+  },
+  "Archery Master": {
+   "id": 706281,
+   "state": "record"
+  },
+  "Archery Training": {
+   "id": 705036,
+   "state": "record"
+  },
+  "Arrow Storm": {
+   "id": 705038,
+   "state": "record"
+  },
+  "Assault": {
+   "id": 803108,
+   "state": "record"
+  },
+  "Backstep": {
+   "id": 800684,
+   "state": "record"
+  },
+  "Backstreet Justice": {
+   "id": 560733,
+   "state": "record"
+  },
+  "Ballista Bolts": {
+   "id": 804176,
+   "state": "record"
+  },
+  "Banditry": {
+   "id": 520574,
+   "state": "record"
+  },
+  "Barbed Quills": {
+   "id": 560965,
+   "state": "record"
+  },
+  "Battle Prowess": {
+   "id": 805888,
+   "state": "record"
+  },
+  "Battle Screech": {
+   "id": 705070,
+   "state": "record"
+  },
+  "Beastslayer": {
+   "id": 802055,
+   "state": "record"
+  },
+  "Beatdown": {
+   "id": 705047,
+   "state": "record"
+  },
+  "Befriend Beast": {
+   "id": 562301,
+   "state": "record"
+  },
+  "Blackjack": {
+   "id": 520568,
+   "state": "record"
+  },
+  "Blade Twisting": {
+   "id": 803112,
+   "state": "record"
+  },
+  "Bleeding Edge": {
+   "id": 300460,
+   "state": "record"
+  },
+  "Bloody Focus": {
+   "id": 520804,
+   "state": "record"
+  },
+  "Blow The Horns!": {
+   "id": 300464,
+   "state": "record"
+  },
+  "Blur": {
+   "id": 520369,
+   "state": "record"
+  },
+  "Bounty": {
+   "id": 560722,
+   "state": "record"
+  },
+  "Bounty Hunter": {
+   "id": 803114,
+   "state": "record"
+  },
+  "Briar Veil": {
+   "id": 800084,
+   "state": "record"
+  },
+  "Brigand - Level 20 Passive": {
+   "id": 573045,
+   "state": "record"
+  },
+  "Brigand Strike": {
+   "id": 802562,
+   "state": "no-record"
+  },
+  "Brutal Shot": {
+   "id": 570014,
+   "state": "record"
+  },
+  "Bully": {
+   "id": 705060,
+   "state": "record"
+  },
+  "Bushwhack": {
+   "id": 557333,
+   "state": "record"
+  },
+  "Camper": {
+   "id": 705026,
+   "state": "record"
+  },
+  "Cannon Blast": {
+   "id": 804938,
+   "state": "record"
+  },
+  "Command Aura": {
+   "id": 524600,
+   "state": "record"
+  },
+  "Commander": {
+   "id": 705077,
+   "state": "record"
+  },
+  "Compound Bow": {
+   "id": 705057,
+   "state": "record"
+  },
+  "Coordination": {
+   "id": 520621,
+   "state": "record"
+  },
+  "Corrosive Poison": {
+   "id": 300703,
+   "state": "record"
+  },
+  "Counter Striker": {
+   "id": 705042,
+   "state": "record"
+  },
+  "Crippling Shot": {
+   "id": 804725,
+   "state": "record"
+  },
+  "Cutthroat": {
+   "id": 573280,
+   "state": "record"
+  },
+  "Dastardly": {
+   "id": 706483,
+   "state": "record"
+  },
+  "Deadshot": {
+   "id": 520227,
+   "state": "record"
+  },
+  "Deepwood Poison": {
+   "id": 500420,
+   "state": "record"
+  },
+  "Defense of the Ancients": {
+   "id": 705094,
+   "state": "record"
+  },
+  "Deft Hands": {
+   "id": 707417,
+   "state": "record"
+  },
+  "Devastating Shots": {
+   "id": 705032,
+   "state": "record"
+  },
+  "Dice Games": {
+   "id": 705048,
+   "state": "record"
+  },
+  "Dirty Blades": {
+   "id": 680276,
+   "state": "record"
+  },
+  "Dirty Fighter": {
+   "id": 681498,
+   "state": "record"
+  },
+  "Double The Pace": {
+   "id": 705031,
+   "state": "record"
+  },
+  "Dragonhawk Tamer": {
+   "id": 573056,
+   "state": "record"
+  },
+  "Dream Flowers": {
+   "id": 92117,
+   "state": "record"
+  },
+  "Dueling": {
+   "id": 803110,
+   "state": "record"
+  },
+  "Durable Quivers": {
+   "id": 706279,
+   "state": "record"
+  },
+  "Dust Toss": {
+   "id": 807820,
+   "state": "record"
+  },
+  "Effortless": {
+   "id": 705025,
+   "state": "record"
+  },
+  "Elemental Fletcher": {
+   "id": 705058,
+   "state": "record"
+  },
+  "Elude": {
+   "id": 800701,
+   "state": "record"
+  },
+  "Elusive Character": {
+   "id": 560340,
+   "state": "record"
+  },
+  "Elven Enchantments": {
+   "id": 560698,
+   "state": "record"
+  },
+  "Elven Quivers": {
+   "id": 706278,
+   "state": "record"
+  },
+  "Elven Tactics": {
+   "id": 560701,
+   "state": "record"
+  },
+  "Emerald Arrow": {
+   "id": 804712,
+   "state": "no-record"
+  },
+  "Endurance Training": {
+   "id": 705039,
+   "state": "record"
+  },
+  "Even Quicker Shots": {
+   "id": 705030,
+   "state": "record"
+  },
+  "Excessive But Necessary": {
+   "id": 804939,
+   "state": "record"
+  },
+  "Excruciating Poison": {
+   "id": 704544,
+   "state": "record"
+  },
+  "Falcon Caller": {
+   "id": 300893,
+   "state": "record"
+  },
+  "Falcon Charmer": {
+   "id": 705076,
+   "state": "record"
+  },
+  "Falcon Dive": {
+   "id": 806341,
+   "state": "record"
+  },
+  "Falcon Scout": {
+   "id": 561395,
+   "state": "record"
+  },
+  "Falcon's Aid": {
+   "id": 705075,
+   "state": "record"
+  },
+  "Falcon's Call": {
+   "id": 804715,
+   "state": "record"
+  },
+  "Falconmark": {
+   "id": 802040,
+   "state": "record"
+  },
+  "Falconstrike": {
+   "id": 573060,
+   "state": "record"
+  },
+  "Farstrider Ranger": {
+   "id": 520616,
+   "state": "record"
+  },
+  "Farstrider's Command": {
+   "id": 704172,
+   "state": "record"
+  },
+  "Farstrider's Leap": {
+   "id": 300463,
+   "state": "record"
+  },
+  "Farstrider's Opportunity": {
+   "id": 300462,
+   "state": "record"
+  },
+  "Fencing": {
+   "id": 300705,
+   "state": "record"
+  },
+  "Feral Pressure": {
+   "id": 534605,
+   "state": "record"
+  },
+  "Flank": {
+   "id": 804940,
+   "state": "record"
+  },
+  "Footpad's Adaptation": {
+   "id": 523489,
+   "state": "record"
+  },
+  "Forest Dweller": {
+   "id": 524863,
+   "state": "record"
+  },
+  "Forest Fighter": {
+   "id": 560806,
+   "state": "record"
+  },
+  "Forest Fighter Skullpiercer": {
+   "id": 706315,
+   "state": "record"
+  },
+  "Forest Herald": {
+   "id": 800150,
+   "state": "record"
+  },
+  "Freedom": {
+   "id": 520628,
+   "state": "record"
+  },
+  "Frenzy": {
+   "id": 520492,
+   "state": "record"
+  },
+  "Grace": {
+   "id": 705092,
+   "state": "record"
+  },
+  "Grappling Arrows": {
+   "id": 561106,
+   "state": "record"
+  },
+  "Greater Footpad's Adaptation": {
+   "id": 523513,
+   "state": "record"
+  },
+  "Greater Precision": {
+   "id": 705024,
+   "state": "record"
+  },
+  "Greater Woodsman's Adaptation": {
+   "id": 680294,
+   "state": "record"
+  },
+  "Guile of the Cutthroat": {
+   "id": 560531,
+   "state": "record"
+  },
+  "Guile of the Ranger": {
+   "id": 520353,
+   "state": "record"
+  },
+  "Guise": {
+   "id": 520753,
+   "state": "record"
+  },
+  "Hailfire": {
+   "id": 706283,
+   "state": "record"
+  },
+  "Hawkeye": {
+   "id": 800358,
+   "state": "record"
+  },
+  "Heightened Senses": {
+   "id": 561320,
+   "state": "record"
+  },
+  "Highwayman": {
+   "id": 705062,
+   "state": "record"
+  },
+  "Hookshot": {
+   "id": 800360,
+   "state": "record"
+  },
+  "Horn of Alacrity": {
+   "id": 806360,
+   "state": "record"
+  },
+  "Horn of Endurance": {
+   "id": 806359,
+   "state": "record"
+  },
+  "Horn of Perseverance": {
+   "id": 800088,
+   "state": "record"
+  },
+  "Horn of War": {
+   "id": 800086,
+   "state": "record"
+  },
+  "Hunting Quiver": {
+   "id": 800262,
+   "state": "record"
+  },
+  "Hunting Shot": {
+   "id": 801191,
+   "state": "record"
+  },
+  "Hunting Tactics": {
+   "id": 300897,
+   "state": "record"
+  },
+  "Hydra's Bite": {
+   "id": 503106,
+   "state": "record"
+  },
+  "Improved Falconmark": {
+   "id": 802041,
+   "state": "record"
+  },
+  "Improved Grapplebomb": {
+   "id": 705090,
+   "state": "record"
+  },
+  "Improved Waterskins": {
+   "id": 573057,
+   "state": "record"
+  },
+  "Incendiary Shot": {
+   "id": 524868,
+   "state": "record"
+  },
+  "Instinct": {
+   "id": 801434,
+   "state": "record"
+  },
+  "Instinctual Combatant": {
+   "id": 520572,
+   "state": "record"
+  },
+  "Javelin Toss": {
+   "id": 801081,
+   "state": "record"
+  },
+  "Journeyman Navigation": {
+   "id": 803107,
+   "state": "record"
+  },
+  "Keen Eye": {
+   "id": 560699,
+   "state": "record"
+  },
+  "Killing Precision": {
+   "id": 705035,
+   "state": "record"
+  },
+  "Knockout": {
+   "id": 801435,
+   "state": "record"
+  },
+  "Lacerations": {
+   "id": 573044,
+   "state": "record"
+  },
+  "Lethal Cunning": {
+   "id": 704320,
+   "state": "record"
+  },
+  "Lethal Wounds": {
+   "id": 705055,
+   "state": "record"
+  },
+  "Lie In Wait": {
+   "id": 806349,
+   "state": "record"
+  },
+  "Light Quiver": {
+   "id": 800261,
+   "state": "record"
+  },
+  "Master Marksman": {
+   "id": 504015,
+   "state": "record"
+  },
+  "Natural Disguise": {
+   "id": 520585,
+   "state": "record"
+  },
+  "Neurotoxin Arrow": {
+   "id": 500071,
+   "state": "record"
+  },
+  "Nightblade": {
+   "id": 705049,
+   "state": "record"
+  },
+  "Nimble": {
+   "id": 301066,
+   "state": "record"
+  },
+  "No Mercy": {
+   "id": 520581,
+   "state": "record"
+  },
+  "Offhand": {
+   "id": 801569,
+   "state": "record"
+  },
+  "On The Hunt": {
+   "id": 302050,
+   "state": "record"
+  },
+  "One With The Forest": {
+   "id": 300707,
+   "state": "record"
+  },
+  "Onslaught": {
+   "id": 800361,
+   "state": "record"
+  },
+  "Opportunist": {
+   "id": 524660,
+   "state": "record"
+  },
+  "Outlaw": {
+   "id": 706276,
+   "state": "record"
+  },
+  "Outmaneuver": {
+   "id": 557325,
+   "state": "record"
+  },
+  "Pathfinder": {
+   "id": 500336,
+   "state": "record"
+  },
+  "Phoenix Plumes": {
+   "id": 520558,
+   "state": "record"
+  },
+  "Pierced": {
+   "id": 705033,
+   "state": "record"
+  },
+  "Piercing Shot": {
+   "id": 300881,
+   "state": "record"
+  },
+  "Pilfering": {
+   "id": 705087,
+   "state": "record"
+  },
+  "Pillager": {
+   "id": 300702,
+   "state": "record"
+  },
+  "Pinpoint Accuracy": {
+   "id": 801468,
+   "state": "record"
+  },
+  "Plumes of War": {
+   "id": 705071,
+   "state": "record"
+  },
+  "Poison Quiver": {
+   "id": 500104,
+   "state": "record"
+  },
+  "Power Shot": {
+   "id": 500070,
+   "state": "record"
+  },
+  "Precision Shot": {
+   "id": 500075,
+   "state": "record"
+  },
+  "Preloaded": {
+   "id": 300709,
+   "state": "record"
+  },
+  "Quick Footed": {
+   "id": 705066,
+   "state": "record"
+  },
+  "Quick Shot": {
+   "id": 500074,
+   "state": "record"
+  },
+  "Quick-Witted": {
+   "id": 704311,
+   "state": "record"
+  },
+  "Quills": {
+   "id": 560966,
+   "state": "record"
+  },
+  "Rally The Archers": {
+   "id": 705088,
+   "state": "record"
+  },
+  "Ranger General's Command": {
+   "id": 520619,
+   "state": "record"
+  },
+  "Ranger's Gambit": {
+   "id": 803103,
+   "state": "record"
+  },
+  "Ranger's Guile": {
+   "id": 705086,
+   "state": "record"
+  },
+  "Ranger's Horn of -unused": {
+   "id": 501764,
+   "state": "record"
+  },
+  "Ranger's Horn of Coordination": {
+   "id": 800087,
+   "state": "record"
+  },
+  "Ranger's Horn-unused": {
+   "id": 800278,
+   "state": "record"
+  },
+  "Rapid Strikes": {
+   "id": 560341,
+   "state": "record"
+  },
+  "Ravage": {
+   "id": 803851,
+   "state": "record"
+  },
+  "Ravager": {
+   "id": 92116,
+   "state": "record"
+  },
+  "Razorquills": {
+   "id": 705072,
+   "state": "record"
+  },
+  "Readiness": {
+   "id": 705041,
+   "state": "record"
+  },
+  "Reposition": {
+   "id": 800085,
+   "state": "record"
+  },
+  "Resourceful": {
+   "id": 504008,
+   "state": "record"
+  },
+  "Rub It In": {
+   "id": 705085,
+   "state": "record"
+  },
+  "Rusty Shiv": {
+   "id": 561315,
+   "state": "record"
+  },
+  "Searing Quiver": {
+   "id": 500103,
+   "state": "record"
+  },
+  "Serrated Shot": {
+   "id": 500073,
+   "state": "record"
+  },
+  "Serrations": {
+   "id": 705050,
+   "state": "record"
+  },
+  "Set Up": {
+   "id": 300708,
+   "state": "record"
+  },
+  "Shaky Morals": {
+   "id": 705045,
+   "state": "record"
+  },
+  "Sharpshooter": {
+   "id": 582855,
+   "state": "record"
+  },
+  "Silent, But Deadly": {
+   "id": 524873,
+   "state": "record"
+  },
+  "Skewer": {
+   "id": 800093,
+   "state": "record"
+  },
+  "Skirmish": {
+   "id": 802039,
+   "state": "record"
+  },
+  "Skirmisher": {
+   "id": 92115,
+   "state": "record"
+  },
+  "Skirmisher's Quiver": {
+   "id": 801069,
+   "state": "record"
+  },
+  "Skullpiercer": {
+   "id": 802036,
+   "state": "record"
+  },
+  "Sly": {
+   "id": 560339,
+   "state": "record"
+  },
+  "Snapseed": {
+   "id": 804027,
+   "state": "record"
+  },
+  "Snatch": {
+   "id": 560496,
+   "state": "record"
+  },
+  "Sniper's Focus": {
+   "id": 680470,
+   "state": "record"
+  },
+  "Stalker": {
+   "id": 561110,
+   "state": "record"
+  },
+  "Stays In Moonbrook": {
+   "id": 300701,
+   "state": "record"
+  },
+  "Sticky Fingers": {
+   "id": 804669,
+   "state": "record"
+  },
+  "Strike Where It Hurts": {
+   "id": 567588,
+   "state": "record"
+  },
+  "Studded Arrows": {
+   "id": 300706,
+   "state": "record"
+  },
+  "Superb Shot": {
+   "id": 301249,
+   "state": "record"
+  },
+  "Surefooted": {
+   "id": 560814,
+   "state": "record"
+  },
+  "Survival Expert": {
+   "id": 560959,
+   "state": "record"
+  },
+  "Survival Kit": {
+   "id": 504327,
+   "state": "record"
+  },
+  "Survival Potion": {
+   "id": 802839,
+   "state": "record"
+  },
+  "Swiftshot": {
+   "id": 705028,
+   "state": "record"
+  },
+  "Thalassian Brand": {
+   "id": 560805,
+   "state": "record"
+  },
+  "Throatpunch": {
+   "id": 500617,
+   "state": "record"
+  },
+  "Toxic Dart": {
+   "id": 807237,
+   "state": "record"
+  },
+  "Toxicant": {
+   "id": 561045,
+   "state": "no-record"
+  },
+  "Treasure Hunter": {
+   "id": 300459,
+   "state": "record"
+  },
+  "Trueshot Lodge Training": {
+   "id": 803113,
+   "state": "record"
+  },
+  "Uncover Weakness": {
+   "id": 572178,
+   "state": "record"
+  },
+  "Underhanded": {
+   "id": 705061,
+   "state": "record"
+  },
+  "Underhanded Throws": {
+   "id": 804942,
+   "state": "record"
+  },
+  "Venom Blade": {
+   "id": 803116,
+   "state": "record"
+  },
+  "Vile": {
+   "id": 705083,
+   "state": "record"
+  },
+  "Viper's Bite": {
+   "id": 803104,
+   "state": "record"
+  },
+  "War Falconer": {
+   "id": 705067,
+   "state": "record"
+  },
+  "Wardancer": {
+   "id": 300854,
+   "state": "record"
+  },
+  "Wargstride": {
+   "id": 704313,
+   "state": "record"
+  },
+  "Waterskin": {
+   "id": 800269,
+   "state": "record"
+  },
+  "Whats Yours Is Mine": {
+   "id": 560495,
+   "state": "record"
+  },
+  "Whipping Pressure": {
+   "id": 520625,
+   "state": "record"
+  },
+  "Whipvine Arrow": {
+   "id": 806342,
+   "state": "no-record"
+  },
+  "Wild Blessing": {
+   "id": 681527,
+   "state": "record"
+  },
+  "Wild Strike": {
+   "id": 800083,
+   "state": "record"
+  },
+  "Wingman": {
+   "id": 705098,
+   "state": "record"
+  },
+  "Woodland Adept": {
+   "id": 555728,
+   "state": "record"
+  },
+  "Woodland Arrow": {
+   "id": 806368,
+   "state": "record"
+  },
+  "Woodland Stalker": {
+   "id": 705034,
+   "state": "record"
+  },
+  "Woodsman's Adaptation": {
+   "id": 800266,
+   "state": "record"
+  }
+ }
+}
