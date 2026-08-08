@@ -137,6 +137,20 @@ contribute sustained ranged damage, not to stand and heal"
 (`resources/sidekick-witch-doctor-*.md`, scraped 2026-08-07). No tank kit
 appears in any of the three pages. Replace with an in-game read when one
 exists.
+| 17 | Knight of Xoroth | war | damage |
+| 17 | Knight of Xoroth | hellfire | damage |
+| 17 | Knight of Xoroth | defiance | tank |
+
+**Knight of Xoroth provenance (17):** not yet observed in game — filled from
+citable Sidekick kit statements, one per spec: war "Middling sustained
+single-target DPS … damage dealer" on every PvE/PvP line, "Nothing you have
+heals anyone but you"; hellfire "Closest to Vengeance Demon Hunter, re-tuned
+as a pure damage spec rather than a tank … No healing or lifesteal in the
+spec at all"; defiance "Strong dungeon tank — AoE pulls and threat …
+Middling main-tank for raid bosses", stat priority "Defense rating (to
+crit-immunity)" (`resources/sidekick-knight-of-xoroth-*.md`, scraped
+2026-08-07). No spec has an ally heal, so no healer target band can be hidden
+by these rows. Replace with an in-game read when one exists.
 
 ## Corroboration
 

@@ -259,6 +259,13 @@ CORE_LEAVES = {
     # Rockadier, Kinetic Shield) that hold the class gate alone: buff icons
     # are self-gating and a buff id is not something IsSpellKnown recognises.
     "tinker": 4,
+    # First pin (0.1). KX Core is an empty skeleton (every reminder is
+    # spec-shaped: per-spec NO PESTILENCE / NO OATH stance alerts, Hellfire's
+    # NO PET) -- the 5 are the Core group plus four merged all-spec Buffs
+    # leaves (Suffuse, Black Shield, Juggernaut, Burning Rage) that hold the
+    # class gate alone, for the standing reason: buff icons are self-gating
+    # and a buff id is not something IsSpellKnown recognises.
+    "knight-of-xoroth": 5,
 }
 
 

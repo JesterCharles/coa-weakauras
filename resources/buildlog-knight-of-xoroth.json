@@ -1,0 +1,108 @@
+{
+ "class": "knight-of-xoroth",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 216,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 220,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 216,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 216,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 220,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 216,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 11,
+   "citations": 3,
+   "crossdb_checked": 216,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 220,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 216,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "sec5: per-spec stance alerts, the stormbringer NO AEGIS shape (missing-aura AND spell-known, NEEDS_ALL): war+hellfire NO PESTILENCE over all five castable stance auras (802345/801054/801053/804786/802344), gated on Death/Apocalypse respectively; defiance NO OATH on Oath of Defiance 804285 (the tank stance found during the role pass); hellfire NO PET beside its pestilence alert; no class-wide alert - the class has no engraving-like kit"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "13 entries (all 2026/07/31) triaged into requirements-knight-of-xoroth.md section -1: entirely Greater Imp/pet tuning + numbers, zero replaced/reworked/new-player-spell; Doom 60s cd and Burning Mischief 30s cd already reflected in db.exil.es; 'Deathfire' has zero db.ascension name hits - dev shorthand for Demonfire; accepted after triage"
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "citations.py --import-sidekick: 3 records (one per spec) from sidekick-data.js snapshot 2026-08-02 (postdates the 07/31 changelog batch), 11 claims, validate clean after 3 null aliases (Forges of Demonfire once-in-blob prose with zero db rows; Warbeast and Smolder maintain claims are passives with nothing to press). Single source - corroboration not measurable, caveat carried on every record. Blob core-loop line says 'Deathfire Orbs' for all specs - same dev-shorthand naming as the changelog, noted in requirements"
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 216,
+   "note": "crossdb_sweep.py: 216/216 id rows asked of db.ascension; 3 no-record all resolved OTHER-ID by name re-ask + tooltip read (Consuming Blade 500909->804843 live rage/DF tooltip vs 573330 Deprecated legacy; Fist of Xoroth 500025->806038 stun strike; Flesh Hook 500020->800605 pull+rage) - verdicts in Notes cells; id-resolution traps fixed pre-sweep: Pestilence of War 680815(Heal)->802345, Pestilence of Apocalypse 704467(Damage)->804786, Sacrificial Circle 706752(Force)->805677, Demon's Blood 573453(holder)->800999, Demonfury 805668 DISABLED excluded"
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py (exit 0; mains 1.00x, deepest overrun defiance utility 250px = 1.10x, hellfire offense single row 0.97x at CD_PER_ROW=9) + structural read via tools/hud.py on all three per-spec packs: alerts -18 / target -51 / buffs -84 (merged class leaves inline) / main -132 / Demonfire 6-cell -160 / rage -171 / Demon's Blood 10-cell -182 / offense -215 / utility -245 and -275 / longterm -318, zero anchor-fallback warnings"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "BULK MODE (production-run.md default): automated pass proposed all 220 roles with one line of evidence per Notes cell (skillbook meta + spell-meta rank/gcd/cost + cooldown audit + SK rotation text + db.ascension tooltips), cleared in bulk 2026-08-07 - no row read one at a time by a human. Hedged rows copied to requirements sec6: Apocalypse-as-pet-ability, Demonfire 500906 id, Demon's Blood 800999 id, Hellfire Form rank, Sever/BB co-existence, Impcaller state, defiance imp count, Demonfury DISABLED, Fist of Xoroth + Consuming Blade empty &power probes"
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "all three main rows quoted from the Sidekick rotation text: war Brimstone Bludgeon>Gore>Meatsaw>Skulltaker>Warbringer ('Open hard pulls with BB... build DF with Gore and Meatsaw... dump into Skulltaker', Warbringer 'adds one more AoE slam'); hellfire Infernal Strike>Seeking Flame>Hellmaw>Flames of Xoroth>Skulltaker (numbered rotation 1-5); defiance Shieldgore>Call: Hellfire Imp>Suffuse>Implosion>Hellfire Bellows (dungeon rotation). CD_PER_ROW=9 from the 5-icon narrowest main row (228px)"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "sidekick-knight-of-xoroth-{war,hellfire,defiance}.md scraped via Firecrawl 2026-08-07 (36-40KB each, full Playstyle + Rotations + kit sections); scrape postdates the 2026/07/31 changelog batch; one known stale tooltip (Seeking Flame still 'Generates 1 Demonfire')"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "sec3 answered: hellfire = permanent Greater Imp (Summon 520661, tree-granted) with NO PET alert (pet-unit aura 520662 absence AND Spell Known 520661, the stormbringer/tinker shape); Doom window tracked on the PET via unit=pet buff-row entry; defiance = 30s Hellfire Imp swarm + Abyssal, cooldown icons only, no alert and no count (mechanism unknown, sec6.4); war = none (Evil Duo cross-references the Imp, no summon); Imp spellbook (Burst/Burning Slap/Burning Mischief/Lesser Pestilences/Apocalypse 630936) = ignore per tooltip, Chronobuff precedent"
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW: Decimation window glows Skulltaker+Warbringer (war), Goredrenched glows Gore, Xorothian Rage glows Infernal Strike, Infernal Steel glows Hellmaw (hellfire), Ritual Fire ON TARGET glows Shieldgore via target-unit group (defiance) - all quoted from talent text in requirements sec1; ramp stacks (Xorothian Fury, Gorged, The Butcher, Hellknight) ride the buff rows with stack text instead of glows"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-knight-of-xoroth.md written from the template, all sections answered: spec roles cited (defiance tank, felsworn-tyrant precedent), 5 sec2 transforms (BB/Warbringer/Shieldgore/Bellows/Impcaller) all quoted from talent text, sec3 pets answered per tooltip (Greater Imp permanent hellfire pet w/ NO PET alert; defiance 30s imp swarm no alert; imp spellbook ignore per Chronobuff precedent), main rows quoted from rotation text, 12 UNKNOWNs collected as the in-game checklist"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "sec2: three build-defining transforms tracked on REPLACEMENT ids (BB 520005, Warbringer 802581, Shieldgore 804353 - assumption declared, stormbringer Tempest Sovereign precedent); two choose-one defiance nodes get native Spell Known gate triggers via known_gate() + NEEDS_ALL (Hellfire Bellows 520292; Call: Hellfire Imp 804883 which Impcaller removes) so untalented shows no dead button; Doom is a plain cd icon (pet transform, own id); charges Gore 2 / Hellbound Charge 2; pack reads correctly untalented (transform icons vanish via Spell Known, active-only buff entries never fire)"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed (fixtures frozen via tests/freeze.py knight-of-xoroth; CORE_LEAVES knight-of-xoroth=5 pinned in classes.py with the leaf list in the comment; empty rankings-knight-of-xoroth.json created and validating; docs/packs copy renamed to knight-of-xoroth-coa.txt so check 13 measures the real pack - it then verified Ritual Fire and Torn Flesh render)"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "requirements sec6: 15 open questions DEFERRED ON PURPOSE to the post-ship verified pass (draft bar, production-run.md) - headline items: Demonfire 500906 and Demon's Blood 800999 aura ids vs their decoys, Hellfire Form rank tracking, defiance imp count mechanism, Sever/BB transform co-existence, Impcaller state, NO OATH / NO PET absent-unit mechanisms, Demonfire orb pickup, Apocalypse 630936 pet-ability read"
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "sidekick-knight-of-xoroth-defiance-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Brimstone Buckler",
+    "Demonic Grit",
+    "Forges of Demonfire"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Brimstone Buckler"
+   ]
+  },
+  "class": "knight-of-xoroth",
+  "content_sha256": "13061861fa00a5e6",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/knight-of-xoroth/defiance",
+  "spec": "defiance"
+ },
+ "sidekick-knight-of-xoroth-hellfire-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Hellfire Form"
+   ],
+   "maintain": [
+    "Smolder"
+   ],
+   "priority": [],
+   "signature": [
+    "Greater Imp"
+   ]
+  },
+  "class": "knight-of-xoroth",
+  "content_sha256": "71b59f692cd52b69",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/knight-of-xoroth/hellfire",
+  "spec": "hellfire"
+ },
+ "sidekick-knight-of-xoroth-war-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Hellhaul",
+    "Juggernaut"
+   ],
+   "maintain": [
+    "Warbeast"
+   ],
+   "priority": [],
+   "signature": [
+    "Crusher"
+   ]
+  },
+  "class": "knight-of-xoroth",
+  "content_sha256": "e85b53e5130007f7",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/knight-of-xoroth/war",
+  "spec": "war"
+ }
+}

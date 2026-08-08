@@ -1,0 +1,324 @@
+{
+ "Agonizing Inspiration": {
+  "id": 801036,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Apocalypse": {
+  "id": 630936,
+  "cd": "2 min cooldown",
+  "specs": [
+   "war",
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Black Shield": {
+  "id": 805679,
+  "cd": "2 min cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Brimstone Bludgeon": {
+  "id": 520005,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "war",
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Burning Rage": {
+  "id": 520295,
+  "cd": "1 min cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Call: Hellfire Abyssal": {
+  "id": 805074,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Call: Hellfire Imp": {
+  "id": 804883,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Chain Grab": {
+  "id": 800606,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Chains of Malice": {
+  "id": 803185,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Chains of Xoroth": {
+  "id": 706756,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Chainwhip": {
+  "id": 800081,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Consuming Blade": {
+  "id": 500909,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "war"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Curse of Xoroth": {
+  "id": 503472,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Decimation": {
+  "id": 524913,
+  "cd": "2 min cooldown",
+  "specs": [
+   "war"
+  ],
+  "gcd": false
+ },
+ "Demon Heart": {
+  "id": 805669,
+  "cd": "1 min cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Demonic Grit": {
+  "id": 805678,
+  "cd": "3 min cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Doom": {
+  "id": 802602,
+  "cd": "1 min cooldown",
+  "specs": [
+   "war",
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fist of Xoroth": {
+  "id": 500025,
+  "cd": "1 min cooldown",
+  "specs": [
+   "war"
+  ],
+  "gcd": false
+ },
+ "Flay Corpse": {
+  "id": 801042,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "war"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Flesh Hook": {
+  "id": 500020,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hell's Forge": {
+  "id": 804683,
+  "cd": "20 min cooldown",
+  "specs": [
+   "hellfire"
+  ],
+  "gcd": false
+ },
+ "Hellbound Leash": {
+  "id": 804168,
+  "cd": "1 min cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hellfire Form": {
+  "id": 503300,
+  "cd": "3 min cooldown",
+  "specs": [
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hellfire Imp": {
+  "id": 800443,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Hellhaul": {
+  "id": 503142,
+  "cd": "3 min cooldown",
+  "specs": [
+   "war"
+  ],
+  "gcd": false
+ },
+ "Hellish Rebuke": {
+  "id": 804010,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Implosion": {
+  "id": 524897,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Infernal Shield": {
+  "id": 801001,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Juggernaut": {
+  "id": 520294,
+  "cd": "2 min cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Legion's Presence": {
+  "id": 804879,
+  "cd": "3 min cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Seeking Flame": {
+  "id": 805671,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Sever": {
+  "id": 500904,
+  "cd": "4 sec cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Snarl": {
+  "id": 800169,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "defiance"
+  ],
+  "gcd": false
+ },
+ "Unleash Pestilence": {
+  "id": 801002,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Unseal": {
+  "id": 805664,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Warbringer": {
+  "id": 802581,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "war",
+   "hellfire"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Xorothian Sigil": {
+  "id": 280380,
+  "cd": "5 min cooldown",
+  "specs": [
+   "war",
+   "hellfire",
+   "defiance"
+  ],
+  "gcd": "1.5 sec"
+ }
+}

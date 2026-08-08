@@ -1,0 +1,17 @@
+{
+ "Forges of Demonfire": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited by the Sidekick rotation blob (2026-08-02) as a Defiance burst cooldown. The name appears exactly ONCE in sidekick-data.js (the generated 'Line up ...' blurb), zero times in the fresh 2026-08-07 defiance page scrape, and a db.ascension.gg name search returns no rows at all. A name that appears once in the blob is prose, not a claim (class-pack-process.md); no CoA castable exists to alias it to."
+ },
+ "Warbeast": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "The blob's War 'maintain' claim. Warbeast is a war TE PASSIVE ('Increases the critical damage of Gore and Brimstone Bludgeon') -- nothing to apply or refresh, so the maintain claim is generated noise. One blob hit; the fresh war page lists it only in the talent tree. Kept out of the corpus rather than aliased to a castable."
+ },
+ "Smolder": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "The blob's Hellfire 'maintain' claim. Smolder (805700) is a hellfire PASSIVE that ignites targets on direct Fire damage -- the Burning dot maintains itself as a side effect of the rotation, there is no Smolder button to press or refresh. Inventory row exists at role ignore; the citation claim is satisfied by playing the rotation, not by a display."
+ }
+}
