@@ -1,0 +1,30 @@
+{
+ "categories": {
+  "dungeon": {
+   "entries": [],
+   "label": "Dungeons",
+   "note": ""
+  },
+  "overall": {
+   "entries": [],
+   "label": "Overall",
+   "note": "not yet transcribed for Necromancer -- the source publishes use=reference and is read by hand; empty is the honest state until a person sits down with the rankings page"
+  },
+  "raid": {
+   "entries": [],
+   "label": "Zul'Gurub",
+   "note": ""
+  },
+  "world-boss": {
+   "entries": [],
+   "label": "World Bosses",
+   "note": ""
+  }
+ },
+ "class": "necromancer",
+ "collected_at": null,
+ "collected_by": null,
+ "policy": "reference",
+ "source": "coa.ascensionlogs.gg",
+ "source_url": "https://coa.ascensionlogs.gg/rankings"
+}

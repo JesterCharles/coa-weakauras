@@ -1,0 +1,327 @@
+{
+ "Animate: Bone Construct": {
+  "id": 531130,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Animate: Bone Wraith": {
+  "id": 805032,
+  "cd": "1 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Animate: Crypt Fiend": {
+  "id": 801941,
+  "cd": "2 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Animate: Frost Wyrm": {
+  "id": 805428,
+  "cd": "2 min cooldown",
+  "specs": [
+   "animation",
+   "death",
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Animate: Plaguefather": {
+  "id": 805048,
+  "cd": "2 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Animate: Skeletal Smith": {
+  "id": 804681,
+  "cd": "1 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Animate: Tomb King": {
+  "id": 805044,
+  "cd": "1 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Animate: Zombies": {
+  "id": 504315,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Army of the North": {
+  "id": 561138,
+  "cd": "5 min cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Black Ice": {
+  "id": 801746,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Bone Frozen": {
+  "id": 805386,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": false
+ },
+ "Bonefreeze": {
+  "id": 500326,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Call of The Scourge": {
+  "id": 801792,
+  "cd": "10 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Call of the Grave": {
+  "id": 707738,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": false
+ },
+ "Command: Bonefreeze": {
+  "id": 504489,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": false
+ },
+ "Command: Ghouls": {
+  "id": 504021,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Command: Hook": {
+  "id": 504316,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "animation",
+   "death",
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Corpse Explosion": {
+  "id": 533236,
+  "cd": "1 min cooldown",
+  "specs": [
+   "animation",
+   "death",
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Death's Due": {
+  "id": 807796,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "animation",
+   "death",
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Entomb": {
+  "id": 500341,
+  "cd": "1 min cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": false
+ },
+ "Foul Expedition": {
+  "id": 572276,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": false
+ },
+ "Glacial Tap": {
+  "id": 805369,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "animation",
+   "death",
+   "rime"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Grave March": {
+  "id": 500991,
+  "cd": "2 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Gravebound Champion": {
+  "id": 805049,
+  "cd": "5 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Heartchill": {
+  "id": 83992,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": false
+ },
+ "Hoarfrost": {
+  "id": 801762,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": false
+ },
+ "Ice Barrage": {
+  "id": 801760,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "rime"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mass Raise": {
+  "id": 505550,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Mortuary Bond": {
+  "id": 804171,
+  "cd": "1 min cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Mutation": {
+  "id": 500342,
+  "cd": "3 min cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": false
+ },
+ "Noxious Corpserot": {
+  "id": 802129,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Plaguebomb": {
+  "id": 500340,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": false
+ },
+ "Plaguestorm": {
+  "id": 801939,
+  "cd": "2 min cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Ritual Return": {
+  "id": 807098,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Sacrifice Undead": {
+  "id": 805027,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "animation",
+   "death",
+   "rime"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Sacrificial Marking": {
+  "id": 572397,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Spellbound Champion": {
+  "id": 807811,
+  "cd": "5 min cooldown",
+  "specs": [
+   "death"
+  ],
+  "gcd": false
+ },
+ "Summoning Ritual": {
+  "id": 805038,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "animation"
+  ],
+  "gcd": false
+ },
+ "Virulency": {
+  "id": 501900,
+  "cd": "1 min cooldown",
+  "specs": [
+   "animation",
+   "death"
+  ],
+  "gcd": "1.5 sec"
+ }
+}

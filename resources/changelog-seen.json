@@ -15,6 +15,11 @@
    "date": "2026/07/31",
    "text": "Skirmisher now also increases the damage of Toxic Dart by 30%."
   },
+  "048df6b2d79955e6": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Graveyard is a brand new spell taught to Necromancers at level 60. You mark a graveyard, and you begin turning corpses below your feet, resurfacing them. Nearby enemies suffer plague damage when a resurfaced corpse is brought back from its grave."
+  },
   "04a2da22f8bc15e1": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -85,6 +90,11 @@
    "date": "2026/07/31",
    "text": "Crow's Harvest Rank 1 increased weapon damage from 65% to 75% and normalized damage from 6 to 8."
   },
+  "20ec6fd83f5b6bc2": {
+   "class": "necromancer",
+   "date": "2026/08/07",
+   "text": "Note: Previous update of Corpse Explosion spell incorrectly noted an increase to its cooldown from 10 seconds to 30 seconds, The actual intended and applied value is 60 seconds."
+  },
   "21e20fb48befd110": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -119,6 +129,11 @@
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
+  },
+  "2c78ad70687e8b44": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug where Sepulchral Might was not increasing your minion\u2019s damage from the spell power gained."
   },
   "2cbbae5863808e89": {
    "class": "barbarian",
@@ -240,6 +255,11 @@
    "date": "2026/07/31",
    "text": "Night Elf can now be Witch Hunter."
   },
+  "4c6c6d37afd1385d": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Fiend talent value increased to 30% from 20%"
+  },
   "4c8bc1a59f35d881": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -265,6 +285,16 @@
    "date": "2026/07/31",
    "text": "Reap Rank 2 increased base damage from 80% to 90% and normalized damage from 5 to 6."
   },
+  "50c001316e556d55": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug where Unholy Runes was not increasing the damage of Crypt Swarm. Additionally, it now increases the damage of Blight and Blight has a 5% chance when it deals damage to reset the cooldown of Corpse Explosion."
+  },
+  "5343cf2927151d4b": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Improved the Necromancer AI, making them less likely to attack targets that are of no-danger to you or nearby party members."
+  },
   "539f94947816dc76": {
    "class": "runemaster",
    "date": "2026/07/31",
@@ -279,6 +309,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Stake Rank 2's damage has been increased from 256 to 356."
+  },
+  "5556bd15d42b5119": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Foul Invocation now additionally causes you, and your minions to emit a Disease Cloud dealing area of effect damage while active. This disease cloud is affected by modifiers that affect diseases, such as plague scientist, which increases all disease damage dealt by 100% for targets under 20% health."
   },
   "5557ae11e330d0b0": {
    "class": "runemaster",
@@ -320,6 +355,11 @@
    "date": "2026/07/31",
    "text": "A new spell Fray Magic (interrupt) is now available from the class trainer at level 26."
   },
+  "6137bbc10ae3a163": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Fetid Ward, Glacial Ward, and Bone Ward now persist through death."
+  },
   "61741d7592fd1365": {
    "class": "chronomancer",
    "date": "2026/07/31",
@@ -354,6 +394,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "The goal of moving the talents in Archery Ranger is to better pace the talents that feel more impactful and meaningful while leveling and move some of the more effects that are better with higher uptime down the tree as fight length expands. Most notably, Rangers were falling behind the curve at low levels, but when given access to their second tier of talents, they drastically increased in power. This will smooth that out leaving strong options in tier 1 and tier 2 of their talent trees."
+  },
+  "66976dc5d6fd9972": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug where Frozen Barbs from Crypt Fiend couldn\u2019t miss."
   },
   "677a9d58590d27d4": {
    "class": "stormbringer",
@@ -404,6 +449,11 @@
    "class": "stormbringer",
    "date": "2026/07/31",
    "text": "Flux Arc duration increased from 8 sec to 10 sec."
+  },
+  "7326224ccefb47bb": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Fixed a bug where Anti-Magic Shell was applying to the Necromancer and not the minions that were summoned."
   },
   "73795e505999eac1": {
    "class": "stormbringer",
@@ -500,6 +550,11 @@
    "date": "2026/07/31",
    "text": "Ravage Rank 5's damage has been increased from 119 to 149."
   },
+  "8a47e4b19792898c": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Study of Death now summons 5 total Zombies, up from 3."
+  },
   "8ac6e425f05e3cd5": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -590,6 +645,11 @@
    "date": "2026/07/31",
    "text": "Timeguard damage reduction increased from 40% to 50%."
   },
+  "a33e6534508db95e": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Corpse Explosion now explodes ALL corpses near the target corpse, causing each explosion to deal its own damage, but the cooldown has increased to 30 seconds from 10 seconds."
+  },
   "a6e44c62c0a2fa0c": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -639,6 +699,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 5's damage has been increased from 45 to 129."
+  },
+  "b5c7c212db85579c": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Entomb now only makes the target immune to Physical damage instead of all damage."
   },
   "b6e2d4304e8672b0": {
    "class": "reaper",
@@ -810,6 +875,11 @@
    "date": "2026/07/31",
    "text": "Healing done by Waterskins increased by 30%."
   },
+  "dc25cf2bb14cfca5": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Scourge Disciple has been fixed, your Skeletal Archers now properly provide you haste while active."
+  },
   "e05aab1a13b49177": {
    "class": "barbarian",
    "date": "2026/07/31",
@@ -824,6 +894,11 @@
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Increased the damage of each strike of Shudder Scythe from 30% to 40%."
+  },
+  "e63ab8f312ee4755": {
+   "class": "necromancer",
+   "date": "2026/07/31",
+   "text": "Your Summoned Minions will now be instantly summoned when you are resurrected inside a battleground."
   },
   "e7e271a627e76dc1": {
    "class": "ranger",

@@ -1,0 +1,4370 @@
+{
+ "Abomination": {
+  "ids": [
+   680760
+  ],
+  "icon": null
+ },
+ "Abomination Cloud": {
+  "ids": [
+   524814
+  ],
+  "icon": null
+ },
+ "Abomination Cloud/Baseline RPPL Scaling": {
+  "ids": [
+   525046
+  ],
+  "icon": null
+ },
+ "Abomination Hook": {
+  "ids": [
+   706761
+  ],
+  "icon": null
+ },
+ "Abomination scaling": {
+  "ids": [
+   805056
+  ],
+  "icon": null
+ },
+ "Abomination: Black Hook": {
+  "ids": [
+   706990
+  ],
+  "icon": null
+ },
+ "Active Minion Lifeforce Check": {
+  "ids": [
+   805374
+  ],
+  "icon": null
+ },
+ "Active Zombies": {
+  "ids": [
+   750700
+  ],
+  "icon": null
+ },
+ "Add 1 Crypt Plague": {
+  "ids": [
+   570132
+  ],
+  "icon": null
+ },
+ "Add 3 Crypt Plague": {
+  "ids": [
+   560719
+  ],
+  "icon": null
+ },
+ "Animate: Bone Construct": {
+  "ids": [
+   531130
+  ],
+  "icon": null
+ },
+ "Animate: Bone Wraith": {
+  "ids": [
+   805032
+  ],
+  "icon": null
+ },
+ "Animate: Crypt Fiend": {
+  "ids": [
+   801941
+  ],
+  "icon": null
+ },
+ "Animate: Frost Whelp": {
+  "ids": [
+   301305
+  ],
+  "icon": null
+ },
+ "Animate: Frost Wyrm": {
+  "ids": [
+   805428
+  ],
+  "icon": null
+ },
+ "Animate: Greater Zombie": {
+  "ids": [
+   302913
+  ],
+  "icon": null
+ },
+ "Animate: Lesser Zombie": {
+  "ids": [
+   302586
+  ],
+  "icon": null
+ },
+ "Animate: Muckworm": {
+  "ids": [
+   806087
+  ],
+  "icon": null
+ },
+ "Animate: Plaguefather": {
+  "ids": [
+   805048
+  ],
+  "icon": null
+ },
+ "Animate: Putrid Thrall": {
+  "ids": [
+   520365
+  ],
+  "icon": null
+ },
+ "Animate: Rotling": {
+  "ids": [
+   800936
+  ],
+  "icon": null
+ },
+ "Animate: Skeletal Archer": {
+  "ids": [
+   500330
+  ],
+  "icon": null
+ },
+ "Animate: Skeletal Smith": {
+  "ids": [
+   804681
+  ],
+  "icon": null
+ },
+ "Animate: Tomb King": {
+  "ids": [
+   805044
+  ],
+  "icon": null
+ },
+ "Animate: Zombie": {
+  "ids": [
+   525379
+  ],
+  "icon": null
+ },
+ "Animate: Zombies": {
+  "ids": [
+   504315
+  ],
+  "icon": null
+ },
+ "Animated Blood": {
+  "ids": [
+   909064
+  ],
+  "icon": null
+ },
+ "Animation (Summoner)": {
+  "ids": [
+   805609
+  ],
+  "icon": null
+ },
+ "Animation - Level 15 Passive": {
+  "ids": [
+   706527
+  ],
+  "icon": null
+ },
+ "Animation - Level 20 Passive": {
+  "ids": [
+   706505
+  ],
+  "icon": null
+ },
+ "Animation Attack Speed Scaler": {
+  "ids": [
+   554885
+  ],
+  "icon": null
+ },
+ "Animation Attack Speed Scaler Placer": {
+  "ids": [
+   555279
+  ],
+  "icon": null
+ },
+ "Animation Necro Owner Trigger": {
+  "ids": [
+   570047
+  ],
+  "icon": null
+ },
+ "Animation Necro Spec Passive Life Force Visual Updater": {
+  "ids": [
+   500494
+  ],
+  "icon": null
+ },
+ "Animation Spec Passive SLS2": {
+  "ids": [
+   807639
+  ],
+  "icon": null
+ },
+ "Anti-Magic Shell": {
+  "ids": [
+   504866
+  ],
+  "icon": null
+ },
+ "Apothecary's Cauldron": {
+  "ids": [
+   560537
+  ],
+  "icon": null
+ },
+ "Arch Lich": {
+  "ids": [
+   707588
+  ],
+  "icon": null
+ },
+ "Arctic Blast": {
+  "ids": [
+   801750
+  ],
+  "icon": null
+ },
+ "Army of the Dead": {
+  "ids": [
+   525388
+  ],
+  "icon": null
+ },
+ "Army of the North": {
+  "ids": [
+   561138
+  ],
+  "icon": null
+ },
+ "Avalanche": {
+  "ids": [
+   532522
+  ],
+  "icon": null
+ },
+ "Avoidance": {
+  "ids": [
+   680927
+  ],
+  "icon": null
+ },
+ "Banshee": {
+  "ids": [
+   807840
+  ],
+  "icon": null
+ },
+ "Banshee Drain": {
+  "ids": [
+   572211
+  ],
+  "icon": null
+ },
+ "Baseline Learned Passive Life Force Visual Updater": {
+  "ids": [
+   500524
+  ],
+  "icon": null
+ },
+ "Befouling": {
+  "ids": [
+   572805
+  ],
+  "icon": null
+ },
+ "Bitter Cold": {
+  "ids": [
+   801736
+  ],
+  "icon": null
+ },
+ "Black Death": {
+  "ids": [
+   806092
+  ],
+  "icon": null
+ },
+ "Black Ice": {
+  "ids": [
+   801746
+  ],
+  "icon": null
+ },
+ "Blight": {
+  "ids": [
+   500217
+  ],
+  "icon": null
+ },
+ "Blightboil": {
+  "ids": [
+   801499
+  ],
+  "icon": null
+ },
+ "Blightbound": {
+  "ids": [
+   806094
+  ],
+  "icon": null
+ },
+ "Blightweaver": {
+  "ids": [
+   570135
+  ],
+  "icon": null
+ },
+ "Blood and Ice": {
+  "ids": [
+   561164
+  ],
+  "icon": null
+ },
+ "Bone Armor": {
+  "ids": [
+   503694
+  ],
+  "icon": null
+ },
+ "Bone Club": {
+  "ids": [
+   801241
+  ],
+  "icon": null
+ },
+ "Bone Deconstruct": {
+  "ids": [
+   531132
+  ],
+  "icon": null
+ },
+ "Bone Frozen": {
+  "ids": [
+   805386
+  ],
+  "icon": null
+ },
+ "Bone King": {
+  "ids": [
+   707175
+  ],
+  "icon": null
+ },
+ "Bone Knights": {
+  "ids": [
+   707009
+  ],
+  "icon": null
+ },
+ "Bone Legion": {
+  "ids": [
+   707006
+  ],
+  "icon": null
+ },
+ "Bone Legion delay removal": {
+  "ids": [
+   822073
+  ],
+  "icon": null
+ },
+ "Bone Plating": {
+  "ids": [
+   503729
+  ],
+  "icon": null
+ },
+ "Bone Swing": {
+  "ids": [
+   800028
+  ],
+  "icon": null
+ },
+ "Bone Tithe": {
+  "ids": [
+   802084
+  ],
+  "icon": null
+ },
+ "Bone Toss": {
+  "ids": [
+   704706
+  ],
+  "icon": null
+ },
+ "Bone Ward": {
+  "ids": [
+   681529
+  ],
+  "icon": null
+ },
+ "Bone Wraith": {
+  "ids": [
+   712317
+  ],
+  "icon": null
+ },
+ "Bone Wraith Command: Bonestorm": {
+  "ids": [
+   801412
+  ],
+  "icon": null
+ },
+ "Bonefreeze": {
+  "ids": [
+   500326
+  ],
+  "icon": null
+ },
+ "Bonescrap - Force Cast": {
+  "ids": [
+   802082
+  ],
+  "icon": null
+ },
+ "Bonescrap Test": {
+  "ids": [
+   802083
+  ],
+  "icon": null
+ },
+ "Bonestorm": {
+  "ids": [
+   801411
+  ],
+  "icon": null
+ },
+ "Bring Down The Walls": {
+  "ids": [
+   570049
+  ],
+  "icon": null
+ },
+ "Bring Me Their Bones": {
+  "ids": [
+   806589
+  ],
+  "icon": null
+ },
+ "Bronze Protector": {
+  "ids": [
+   805165
+  ],
+  "icon": null
+ },
+ "Burrowing Worms": {
+  "ids": [
+   806090
+  ],
+  "icon": null
+ },
+ "Call of Anub'arak": {
+  "ids": [
+   707446
+  ],
+  "icon": null
+ },
+ "Call of Naxxramas": {
+  "ids": [
+   706950
+  ],
+  "icon": null
+ },
+ "Call of The Scourge": {
+  "ids": [
+   801792
+  ],
+  "icon": null
+ },
+ "Call of the Grave": {
+  "ids": [
+   707738
+  ],
+  "icon": null
+ },
+ "Carrion": {
+  "ids": [
+   504440
+  ],
+  "icon": null
+ },
+ "Chains of Ice": {
+  "ids": [
+   806037
+  ],
+  "icon": null
+ },
+ "Champion of Kel'thuzad": {
+  "ids": [
+   704676
+  ],
+  "icon": null
+ },
+ "Chill of the Grave 2": {
+  "ids": [
+   802774
+  ],
+  "icon": null
+ },
+ "Chill of the Grave 3": {
+  "ids": [
+   803290
+  ],
+  "icon": null
+ },
+ "Chill of the Tomb": {
+  "ids": [
+   572173
+  ],
+  "icon": null
+ },
+ "Chilling Presence": {
+  "ids": [
+   300958
+  ],
+  "icon": null
+ },
+ "Chomp": {
+  "ids": [
+   573072
+  ],
+  "icon": null
+ },
+ "Chomping Frenzy": {
+  "ids": [
+   707285
+  ],
+  "icon": null
+ },
+ "Chronic Disease": {
+  "ids": [
+   560780
+  ],
+  "icon": null
+ },
+ "Chronic Diseases": {
+  "ids": [
+   300749
+  ],
+  "icon": null
+ },
+ "CoA 'Frozen' Check": {
+  "ids": [
+   561014
+  ],
+  "icon": null
+ },
+ "CoA Aura - Necromancer - Animation": {
+  "ids": [
+   887058
+  ],
+  "icon": null
+ },
+ "CoA Aura - Necromancer - Death": {
+  "ids": [
+   887056
+  ],
+  "icon": null
+ },
+ "CoA Aura - Necromancer - Rime": {
+  "ids": [
+   887057
+  ],
+  "icon": null
+ },
+ "CoA Aura - Necromancer Class": {
+  "ids": [
+   887011
+  ],
+  "icon": null
+ },
+ "CoA Pet Resilience Conversion": {
+  "ids": [
+   524088
+  ],
+  "icon": null
+ },
+ "CoA Summons [Hit, Expertise]": {
+  "ids": [
+   802807
+  ],
+  "icon": null
+ },
+ "Cold Heart": {
+  "ids": [
+   560617
+  ],
+  "icon": null
+ },
+ "Coldwind": {
+  "ids": [
+   520380
+  ],
+  "icon": null
+ },
+ "Colossal Swing": {
+  "ids": [
+   302515
+  ],
+  "icon": null
+ },
+ "Command: Abomination": {
+  "ids": [
+   504865
+  ],
+  "icon": null
+ },
+ "Command: Animates": {
+  "ids": [
+   805871
+  ],
+  "icon": null
+ },
+ "Command: Banshee": {
+  "ids": [
+   504862
+  ],
+  "icon": null
+ },
+ "Command: Blight": {
+  "ids": [
+   504050
+  ],
+  "icon": null
+ },
+ "Command: Bone Smash": {
+  "ids": [
+   504863
+  ],
+  "icon": null
+ },
+ "Command: Bonefreeze": {
+  "ids": [
+   504489
+  ],
+  "icon": null
+ },
+ "Command: Crypt Fiend": {
+  "ids": [
+   504860
+  ],
+  "icon": null
+ },
+ "Command: Expel Plague": {
+  "ids": [
+   505223
+  ],
+  "icon": null
+ },
+ "Command: Gargoyle": {
+  "ids": [
+   504052
+  ],
+  "icon": null
+ },
+ "Command: Ghost": {
+  "ids": [
+   801527
+  ],
+  "icon": null
+ },
+ "Command: Ghouls": {
+  "ids": [
+   504021
+  ],
+  "icon": null
+ },
+ "Command: Hook": {
+  "ids": [
+   504316
+  ],
+  "icon": null
+ },
+ "Command: Skeletal Archer": {
+  "ids": [
+   801516
+  ],
+  "icon": null
+ },
+ "Command: Skeletal Archers": {
+  "ids": [
+   504319
+  ],
+  "icon": null
+ },
+ "Command: Skeletal Mage": {
+  "ids": [
+   504020
+  ],
+  "icon": null
+ },
+ "Command: Skeletal Rogue": {
+  "ids": [
+   504318
+  ],
+  "icon": null
+ },
+ "Command: Skeletal Warriors": {
+  "ids": [
+   504334
+  ],
+  "icon": null
+ },
+ "Command: Undead": {
+  "ids": [
+   504868
+  ],
+  "icon": null
+ },
+ "Construct Mastery": {
+  "ids": [
+   503739
+  ],
+  "icon": null
+ },
+ "Control Mechanical": {
+  "ids": [
+   807846
+  ],
+  "icon": null
+ },
+ "Corpse Commander": {
+  "ids": [
+   707739
+  ],
+  "icon": null
+ },
+ "Corpse Explosion": {
+  "ids": [
+   533236
+  ],
+  "icon": null
+ },
+ "Corpse Handling": {
+  "ids": [
+   704694
+  ],
+  "icon": null
+ },
+ "Corpse Wagon": {
+  "ids": [
+   503738
+  ],
+  "icon": null
+ },
+ "Corpseblast": {
+  "ids": [
+   806261
+  ],
+  "icon": null
+ },
+ "Corpseblaster": {
+  "ids": [
+   704598
+  ],
+  "icon": null
+ },
+ "Cosmetic Bone Toss": {
+  "ids": [
+   804028
+  ],
+  "icon": null
+ },
+ "Covered In Guts": {
+  "ids": [
+   500334
+  ],
+  "icon": null
+ },
+ "Create Bone Reliquary": {
+  "ids": [
+   803766
+  ],
+  "icon": null
+ },
+ "Create Death Knight": {
+  "ids": [
+   804173
+  ],
+  "icon": null
+ },
+ "Create Frozen Reliquary": {
+  "ids": [
+   803772
+  ],
+  "icon": null
+ },
+ "Creeping Crypt": {
+  "ids": [
+   300960
+  ],
+  "icon": null
+ },
+ "Creeping Plagues": {
+  "ids": [
+   572130
+  ],
+  "icon": null
+ },
+ "Critical Thinking": {
+  "ids": [
+   806007
+  ],
+  "icon": null
+ },
+ "Crown's Call": {
+  "ids": [
+   805429
+  ],
+  "icon": null
+ },
+ "Cryo Freeze": {
+  "ids": [
+   680363
+  ],
+  "icon": null
+ },
+ "Cryo Shroud": {
+  "ids": [
+   680361
+  ],
+  "icon": null
+ },
+ "Cryoshroud": {
+  "ids": [
+   302909
+  ],
+  "icon": null
+ },
+ "Crypt Caller": {
+  "ids": [
+   561214
+  ],
+  "icon": null
+ },
+ "Crypt Calling": {
+  "ids": [
+   707154
+  ],
+  "icon": null
+ },
+ "Crypt Explosion": {
+  "ids": [
+   500572
+  ],
+  "icon": null
+ },
+ "Crypt Fiend": {
+  "ids": [
+   712309
+  ],
+  "icon": null
+ },
+ "Crypt Fiend Command: Devastate": {
+  "ids": [
+   302509
+  ],
+  "icon": null
+ },
+ "Crypt Fury": {
+  "ids": [
+   704720
+  ],
+  "icon": null
+ },
+ "Crypt Keeper": {
+  "ids": [
+   560596
+  ],
+  "icon": null
+ },
+ "Crypt Keeper Attack Proc Trigger": {
+  "ids": [
+   525608
+  ],
+  "icon": null
+ },
+ "Crypt Keeper Command: Devastate": {
+  "ids": [
+   302511
+  ],
+  "icon": null
+ },
+ "Crypt Keeper Scaling": {
+  "ids": [
+   800033
+  ],
+  "icon": null
+ },
+ "Crypt Plague": {
+  "ids": [
+   92121
+  ],
+  "icon": null
+ },
+ "Crypt Plague (Debuff)": {
+  "ids": [
+   520673
+  ],
+  "icon": null
+ },
+ "Crypt Plague Damage Stacker": {
+  "ids": [
+   704597
+  ],
+  "icon": null
+ },
+ "Crypt Plague Destacker": {
+  "ids": [
+   704596
+  ],
+  "icon": null
+ },
+ "Crypt Plague Eruption": {
+  "ids": [
+   801320
+  ],
+  "icon": null
+ },
+ "Crypt Scarabs": {
+  "ids": [
+   805868
+  ],
+  "icon": null
+ },
+ "Crypt Scarabs (deprecated old max rank)": {
+  "ids": [
+   501889
+  ],
+  "icon": null
+ },
+ "Crypt Swarm": {
+  "ids": [
+   500965
+  ],
+  "icon": null
+ },
+ "Cryptfeast": {
+  "ids": [
+   803172
+  ],
+  "icon": null
+ },
+ "Curse of the Lich": {
+  "ids": [
+   300240
+  ],
+  "icon": null
+ },
+ "Curse of the North": {
+  "ids": [
+   570154
+  ],
+  "icon": null
+ },
+ "Cycle of Death": {
+  "ids": [
+   560727
+  ],
+  "icon": null
+ },
+ "Cyro Shroud": {
+  "ids": [
+   680364
+  ],
+  "icon": null
+ },
+ "DK SCALING: AGI": {
+  "ids": [
+   804243
+  ],
+  "icon": null
+ },
+ "DK SCALING: STAM": {
+  "ids": [
+   804244
+  ],
+  "icon": null
+ },
+ "DK SCALING: STR": {
+  "ids": [
+   804242
+  ],
+  "icon": null
+ },
+ "DK SCALING: Weapon DPS": {
+  "ids": [
+   804240
+  ],
+  "icon": null
+ },
+ "DK SCALING: Weapon Speed": {
+  "ids": [
+   804241
+  ],
+  "icon": null
+ },
+ "Damnation": {
+  "ids": [
+   806149
+  ],
+  "icon": null
+ },
+ "Dark Arrow": {
+  "ids": [
+   707397
+  ],
+  "icon": null
+ },
+ "Dark Harvester": {
+  "ids": [
+   807960
+  ],
+  "icon": null
+ },
+ "Dark Taunt": {
+  "ids": [
+   525300
+  ],
+  "icon": null
+ },
+ "Dead Man Walking": {
+  "ids": [
+   300233
+  ],
+  "icon": null
+ },
+ "Deadly Bond": {
+  "ids": [
+   572772
+  ],
+  "icon": null
+ },
+ "Deadly Defense": {
+  "ids": [
+   300580
+  ],
+  "icon": null
+ },
+ "Deadly Nature": {
+  "ids": [
+   681068
+  ],
+  "icon": null
+ },
+ "Death - Level 15 Passive": {
+  "ids": [
+   806151
+  ],
+  "icon": null
+ },
+ "Death Commander": {
+  "ids": [
+   300235
+  ],
+  "icon": null
+ },
+ "Death Incarnate (Death)": {
+  "ids": [
+   531134
+  ],
+  "icon": null
+ },
+ "Death Knight": {
+  "ids": [
+   804245
+  ],
+  "icon": null
+ },
+ "Death Marching": {
+  "ids": [
+   680967
+  ],
+  "icon": null
+ },
+ "Death and Decay": {
+  "ids": [
+   805252
+  ],
+  "icon": null
+ },
+ "Death and Ice": {
+  "ids": [
+   560012
+  ],
+  "icon": null
+ },
+ "Death's Call": {
+  "ids": [
+   804235
+  ],
+  "icon": null
+ },
+ "Death's Due": {
+  "ids": [
+   807796
+  ],
+  "icon": null
+ },
+ "Deathchill": {
+  "ids": [
+   801727
+  ],
+  "icon": null
+ },
+ "Deathchill Refresher": {
+  "ids": [
+   805558
+  ],
+  "icon": null
+ },
+ "Deathly Chill": {
+  "ids": [
+   680553
+  ],
+  "icon": null
+ },
+ "Deathly Wail": {
+  "ids": [
+   800473
+  ],
+  "icon": null
+ },
+ "Deathstep": {
+  "ids": [
+   805939
+  ],
+  "icon": null
+ },
+ "Decay": {
+  "ids": [
+   706819
+  ],
+  "icon": null
+ },
+ "Decaying Colossus": {
+  "ids": [
+   680762
+  ],
+  "icon": null
+ },
+ "Decaying Colossus Baseline RPPL Scaling": {
+  "ids": [
+   525070
+  ],
+  "icon": null
+ },
+ "Decaying Colossus Scaling": {
+  "ids": [
+   805059
+  ],
+  "icon": null
+ },
+ "Decaying Poison": {
+  "ids": [
+   805024
+  ],
+  "icon": null
+ },
+ "Decaying Poison Stack": {
+  "ids": [
+   504317
+  ],
+  "icon": null
+ },
+ "Decaying Presence": {
+  "ids": [
+   560720
+  ],
+  "icon": null
+ },
+ "Decrement 1 Life Force": {
+  "ids": [
+   805268
+  ],
+  "icon": null
+ },
+ "Decrement 2 Life Force": {
+  "ids": [
+   805269
+  ],
+  "icon": null
+ },
+ "Decrement 3 Life Force": {
+  "ids": [
+   805270
+  ],
+  "icon": null
+ },
+ "Decrement 5 Life Force": {
+  "ids": [
+   805271
+  ],
+  "icon": null
+ },
+ "Defend Your Master": {
+  "ids": [
+   800755
+  ],
+  "icon": null
+ },
+ "Defiled": {
+  "ids": [
+   706967
+  ],
+  "icon": null
+ },
+ "Defiled Grave": {
+  "ids": [
+   302526
+  ],
+  "icon": null
+ },
+ "Depravity": {
+  "ids": [
+   638403
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   535501
+  ],
+  "icon": null
+ },
+ "Desecrator": {
+  "ids": [
+   706951
+  ],
+  "icon": null
+ },
+ "Diabolical": {
+  "ids": [
+   704723
+  ],
+  "icon": null
+ },
+ "Disciple of Kel'thuzad": {
+  "ids": [
+   560615
+  ],
+  "icon": null
+ },
+ "Disease Cloud": {
+  "ids": [
+   578319
+  ],
+  "icon": null
+ },
+ "Disease Extender": {
+  "ids": [
+   680965
+  ],
+  "icon": null
+ },
+ "Dominion of Frost": {
+  "ids": [
+   537208
+  ],
+  "icon": null
+ },
+ "Ectoplasmic Presence": {
+  "ids": [
+   523508
+  ],
+  "icon": null
+ },
+ "Endless Cold": {
+  "ids": [
+   805371
+  ],
+  "icon": null
+ },
+ "Energize 2%": {
+  "ids": [
+   525022
+  ],
+  "icon": null
+ },
+ "Energize Runic Power": {
+  "ids": [
+   681300
+  ],
+  "icon": null
+ },
+ "Entomb": {
+  "ids": [
+   500341
+  ],
+  "icon": null
+ },
+ "Entombed": {
+  "ids": [
+   680968
+  ],
+  "icon": null
+ },
+ "Essence of the Geist": {
+  "ids": [
+   560594
+  ],
+  "icon": null
+ },
+ "Excess Decay": {
+  "ids": [
+   560618
+  ],
+  "icon": null
+ },
+ "Expediting Death": {
+  "ids": [
+   300236
+  ],
+  "icon": null
+ },
+ "Expunge": {
+  "ids": [
+   500343
+  ],
+  "icon": null
+ },
+ "Expunge Blight": {
+  "ids": [
+   500267
+  ],
+  "icon": null
+ },
+ "Expunge Blight - Caster Energize": {
+  "ids": [
+   500307
+  ],
+  "icon": null
+ },
+ "Expunge Mucksplosion": {
+  "ids": [
+   704292
+  ],
+  "icon": null
+ },
+ "Expunging Life": {
+  "ids": [
+   803088
+  ],
+  "icon": null
+ },
+ "Festering Decay": {
+  "ids": [
+   806324
+  ],
+  "icon": null
+ },
+ "Fetid Amalgamation": {
+  "ids": [
+   520221
+  ],
+  "icon": null
+ },
+ "Fetid Frenzy": {
+  "ids": [
+   302513
+  ],
+  "icon": null
+ },
+ "Fetid Mark": {
+  "ids": [
+   579322
+  ],
+  "icon": null
+ },
+ "Fetid Pawn": {
+  "ids": [
+   805144
+  ],
+  "icon": null
+ },
+ "Fetid Pawn Applier": {
+  "ids": [
+   801211
+  ],
+  "icon": null
+ },
+ "Fetid Pawns": {
+  "ids": [
+   804397
+  ],
+  "icon": null
+ },
+ "Fetid Shield": {
+  "ids": [
+   680986
+  ],
+  "icon": null
+ },
+ "Fetid Ward": {
+  "ids": [
+   680388
+  ],
+  "icon": null
+ },
+ "Fiend": {
+  "ids": [
+   707627
+  ],
+  "icon": null
+ },
+ "Filthmaker": {
+  "ids": [
+   706954
+  ],
+  "icon": null
+ },
+ "Flesh Eating Scarabs": {
+  "ids": [
+   503731
+  ],
+  "icon": null
+ },
+ "Flesh Laboratory": {
+  "ids": [
+   805037
+  ],
+  "icon": null
+ },
+ "Flesh Splatter": {
+  "ids": [
+   531127
+  ],
+  "icon": null
+ },
+ "Flesh Symbiosis": {
+  "ids": [
+   301207
+  ],
+  "icon": null
+ },
+ "Flesh To Worms RP GEN": {
+  "ids": [
+   704683
+  ],
+  "icon": null
+ },
+ "Flesh to Worms": {
+  "ids": [
+   500338
+  ],
+  "icon": null
+ },
+ "Flesh to Worms DEPRECATED RANK": {
+  "ids": [
+   501862
+  ],
+  "icon": null
+ },
+ "Fleshcrafting": {
+  "ids": [
+   300941
+  ],
+  "icon": null
+ },
+ "Flow of Frost": {
+  "ids": [
+   704675
+  ],
+  "icon": null
+ },
+ "Follow Up Destacker (-1)": {
+  "ids": [
+   524828
+  ],
+  "icon": null
+ },
+ "Forbidden Technique": {
+  "ids": [
+   302910
+  ],
+  "icon": null
+ },
+ "Force Summon Zombie": {
+  "ids": [
+   802328
+  ],
+  "icon": null
+ },
+ "Forever Frozen": {
+  "ids": [
+   560849
+  ],
+  "icon": null
+ },
+ "Foul Bidding: Assault": {
+  "ids": [
+   801522
+  ],
+  "icon": null
+ },
+ "Foul Bidding: Protect": {
+  "ids": [
+   500801
+  ],
+  "icon": null
+ },
+ "Foul Bidding: Slaughter": {
+  "ids": [
+   500976
+  ],
+  "icon": null
+ },
+ "Foul Contagion": {
+  "ids": [
+   300965
+  ],
+  "icon": null
+ },
+ "Foul Expedition": {
+  "ids": [
+   572276
+  ],
+  "icon": null
+ },
+ "Foul Expedition Spreader": {
+  "ids": [
+   680948
+  ],
+  "icon": null
+ },
+ "Foul Hands": {
+  "ids": [
+   560775
+  ],
+  "icon": null
+ },
+ "Foul Invocation": {
+  "ids": [
+   520364
+  ],
+  "icon": null
+ },
+ "Foul Invocation SLS3": {
+  "ids": [
+   302595
+  ],
+  "icon": null
+ },
+ "Foul Mandate": {
+  "ids": [
+   800199
+  ],
+  "icon": null
+ },
+ "Foul March (Leap)": {
+  "ids": [
+   500990
+  ],
+  "icon": null
+ },
+ "Foul Rage": {
+  "ids": [
+   805682
+  ],
+  "icon": null
+ },
+ "Foul Remnant": {
+  "ids": [
+   800049
+  ],
+  "icon": null
+ },
+ "Fractured Shards": {
+  "ids": [
+   704672
+  ],
+  "icon": null
+ },
+ "Fractured Shards (Consume)": {
+  "ids": [
+   704673
+  ],
+  "icon": null
+ },
+ "Freeze Dry": {
+  "ids": [
+   704680
+  ],
+  "icon": null
+ },
+ "Freezing Cloud": {
+  "ids": [
+   801730
+  ],
+  "icon": null
+ },
+ "Frenzied Ghoul": {
+  "ids": [
+   707014
+  ],
+  "icon": null
+ },
+ "Frigid": {
+  "ids": [
+   560624
+  ],
+  "icon": null
+ },
+ "Frigid Aura": {
+  "ids": [
+   561297
+  ],
+  "icon": null
+ },
+ "Frigid Death": {
+  "ids": [
+   524688
+  ],
+  "icon": null
+ },
+ "Frigid Magic": {
+  "ids": [
+   301335
+  ],
+  "icon": null
+ },
+ "Frigid Power": {
+  "ids": [
+   560620
+  ],
+  "icon": null
+ },
+ "Frigid Pulverize": {
+  "ids": [
+   532535
+  ],
+  "icon": null
+ },
+ "Frigid Tether": {
+  "ids": [
+   704677
+  ],
+  "icon": null
+ },
+ "Frigid Ward": {
+  "ids": [
+   801735
+  ],
+  "icon": null
+ },
+ "Frigid Winds": {
+  "ids": [
+   504357
+  ],
+  "icon": null
+ },
+ "Frigidness": {
+  "ids": [
+   560632
+  ],
+  "icon": null
+ },
+ "Frost Acolyte": {
+  "ids": [
+   560621
+  ],
+  "icon": null
+ },
+ "Frost Blast (Animate: Frost Giant)": {
+  "ids": [
+   560629
+  ],
+  "icon": null
+ },
+ "Frost Ghast": {
+  "ids": [
+   801732
+  ],
+  "icon": null
+ },
+ "Frost Giant": {
+  "ids": [
+   805426
+  ],
+  "icon": null
+ },
+ "Frost Lich Form": {
+  "ids": [
+   9666667
+  ],
+  "icon": null
+ },
+ "Frost Nova": {
+  "ids": [
+   805955
+  ],
+  "icon": null
+ },
+ "Frost Runes": {
+  "ids": [
+   705750
+  ],
+  "icon": null
+ },
+ "Frost Wyrm": {
+  "ids": [
+   807096
+  ],
+  "icon": null
+ },
+ "Frost Wyrm Aura": {
+  "ids": [
+   807689
+  ],
+  "icon": null
+ },
+ "Frost-Congealed Barbs": {
+  "ids": [
+   822074
+  ],
+  "icon": null
+ },
+ "Frozen": {
+  "ids": [
+   804328
+  ],
+  "icon": null
+ },
+ "Frozen Barbs": {
+  "ids": [
+   803406
+  ],
+  "icon": null
+ },
+ "Frozen Bodies": {
+  "ids": [
+   707562
+  ],
+  "icon": null
+ },
+ "Frozen Power": {
+  "ids": [
+   301303
+  ],
+  "icon": null
+ },
+ "Frozen Reliquary": {
+  "ids": [
+   803773
+  ],
+  "icon": null
+ },
+ "Frozen Solid": {
+  "ids": [
+   572101
+  ],
+  "icon": null
+ },
+ "Frozen Wrath": {
+  "ids": [
+   704730
+  ],
+  "icon": null
+ },
+ "Full Avoidance": {
+  "ids": [
+   801252
+  ],
+  "icon": null
+ },
+ "Furious Rotling": {
+  "ids": [
+   807640
+  ],
+  "icon": null
+ },
+ "Game of Bones": {
+  "ids": [
+   301198
+  ],
+  "icon": null
+ },
+ "Gandling's Pact": {
+  "ids": [
+   807841
+  ],
+  "icon": null
+ },
+ "Gangrene": {
+  "ids": [
+   704714
+  ],
+  "icon": null
+ },
+ "Gargoyle": {
+  "ids": [
+   805028
+  ],
+  "icon": null
+ },
+ "Geist": {
+  "ids": [
+   680720
+  ],
+  "icon": null
+ },
+ "Ghoul": {
+  "ids": [
+   680761
+  ],
+  "icon": null
+ },
+ "Ghoul Frenzy": {
+  "ids": [
+   707000
+  ],
+  "icon": null
+ },
+ "Ghoul Frenzy (Heal)": {
+  "ids": [
+   806726
+  ],
+  "icon": null
+ },
+ "Ghoul Hidden for Army of the Dead": {
+  "ids": [
+   545500
+  ],
+  "icon": null
+ },
+ "Ghoul Mastery": {
+  "ids": [
+   503740
+  ],
+  "icon": null
+ },
+ "Ghoul Passive Healing": {
+  "ids": [
+   805290
+  ],
+  "icon": null
+ },
+ "Ghoul Scaling": {
+  "ids": [
+   805055
+  ],
+  "icon": null
+ },
+ "Ghoul or Thrall Active": {
+  "ids": [
+   707018
+  ],
+  "icon": null
+ },
+ "Ghoulified": {
+  "ids": [
+   800708
+  ],
+  "icon": null
+ },
+ "Ghoulify": {
+  "ids": [
+   800706
+  ],
+  "icon": null
+ },
+ "Giant Bones": {
+  "ids": [
+   805427
+  ],
+  "icon": null
+ },
+ "Giant Boneyard": {
+  "ids": [
+   532537
+  ],
+  "icon": null
+ },
+ "Glacial Impact": {
+  "ids": [
+   704355
+  ],
+  "icon": null
+ },
+ "Glacial Pact": {
+  "ids": [
+   560635
+  ],
+  "icon": null
+ },
+ "Glacial Shift": {
+  "ids": [
+   801636
+  ],
+  "icon": null
+ },
+ "Glacial Shift x2": {
+  "ids": [
+   801659
+  ],
+  "icon": null
+ },
+ "Glacial Shift x8": {
+  "ids": [
+   560844
+  ],
+  "icon": null
+ },
+ "Glacial Tap": {
+  "ids": [
+   805369
+  ],
+  "icon": null
+ },
+ "Glacial Ward": {
+  "ids": [
+   681460
+  ],
+  "icon": null
+ },
+ "Glacier Lord": {
+  "ids": [
+   560013
+  ],
+  "icon": null
+ },
+ "Grave Defiler": {
+  "ids": [
+   504438
+  ],
+  "icon": null
+ },
+ "Grave Defiler Remover": {
+  "ids": [
+   535212
+  ],
+  "icon": null
+ },
+ "Grave Mage": {
+  "ids": [
+   680721
+  ],
+  "icon": null
+ },
+ "Grave Mage HP RPPL Baseline Scaling": {
+  "ids": [
+   523270
+  ],
+  "icon": null
+ },
+ "Grave Mage: Freeze": {
+  "ids": [
+   706992
+  ],
+  "icon": null
+ },
+ "Grave Mages": {
+  "ids": [
+   807937
+  ],
+  "icon": null
+ },
+ "Grave March": {
+  "ids": [
+   500991
+  ],
+  "icon": null
+ },
+ "Grave Mastery": {
+  "ids": [
+   504439
+  ],
+  "icon": null
+ },
+ "Gravebound Champion": {
+  "ids": [
+   805049
+  ],
+  "icon": null
+ },
+ "Gravedigger": {
+  "ids": [
+   704715
+  ],
+  "icon": null
+ },
+ "Gravekeeper": {
+  "ids": [
+   704698
+  ],
+  "icon": null
+ },
+ "Gravekeeper Animate: Rotling": {
+  "ids": [
+   560652
+  ],
+  "icon": null
+ },
+ "Graverobber": {
+  "ids": [
+   503757
+  ],
+  "icon": null
+ },
+ "Graveyard": {
+  "ids": [
+   500365
+  ],
+  "icon": null
+ },
+ "Greater Chill of the Tomb": {
+  "ids": [
+   572177
+  ],
+  "icon": null
+ },
+ "Greater Foul Mandate": {
+  "ids": [
+   680286
+  ],
+  "icon": null
+ },
+ "Greater Grim Mandate": {
+  "ids": [
+   572790
+  ],
+  "icon": null
+ },
+ "Greater Razorice": {
+  "ids": [
+   572214
+  ],
+  "icon": null
+ },
+ "Greater Skeletal Warrior": {
+  "ids": [
+   807927
+  ],
+  "icon": null
+ },
+ "Greater Summoning": {
+  "ids": [
+   704699
+  ],
+  "icon": null
+ },
+ "Grim Mandate": {
+  "ids": [
+   572787
+  ],
+  "icon": null
+ },
+ "Grimestep": {
+  "ids": [
+   806387
+  ],
+  "icon": null
+ },
+ "Guts": {
+  "ids": [
+   704697
+  ],
+  "icon": null
+ },
+ "Gutteral Terror": {
+  "ids": [
+   800018
+  ],
+  "icon": null
+ },
+ "Gutwrencher": {
+  "ids": [
+   570065
+  ],
+  "icon": null
+ },
+ "Hail Conversion": {
+  "ids": [
+   806052
+  ],
+  "icon": null
+ },
+ "Hail of Arrows": {
+  "ids": [
+   560631
+  ],
+  "icon": null
+ },
+ "Handful of Worms": {
+  "ids": [
+   560732
+  ],
+  "icon": null
+ },
+ "Hardened Flesh": {
+  "ids": [
+   674202
+  ],
+  "icon": null
+ },
+ "Harrowing Winds": {
+  "ids": [
+   705745
+  ],
+  "icon": null
+ },
+ "Harvest Plague": {
+  "ids": [
+   500968
+  ],
+  "icon": null
+ },
+ "Harvest Plague (Expunge)": {
+  "ids": [
+   801940
+  ],
+  "icon": null
+ },
+ "Heartchill": {
+  "ids": [
+   83992
+  ],
+  "icon": null
+ },
+ "Hexxed Strike": {
+  "ids": [
+   570194
+  ],
+  "icon": null
+ },
+ "Highwayman": {
+  "ids": [
+   707744
+  ],
+  "icon": null
+ },
+ "Hoarfrost": {
+  "ids": [
+   801762
+  ],
+  "icon": null
+ },
+ "Hoarfrost Hands": {
+  "ids": [
+   803291
+  ],
+  "icon": null
+ },
+ "Horde Lich": {
+  "ids": [
+   707008
+  ],
+  "icon": null
+ },
+ "Horrifying Presence": {
+  "ids": [
+   706997
+  ],
+  "icon": null
+ },
+ "Hulking Hordes": {
+  "ids": [
+   300748
+  ],
+  "icon": null
+ },
+ "Hydra's Bite": {
+  "ids": [
+   570742
+  ],
+  "icon": null
+ },
+ "Ice Barrage": {
+  "ids": [
+   801760
+  ],
+  "icon": null
+ },
+ "Ice Hide": {
+  "ids": [
+   501135
+  ],
+  "icon": null
+ },
+ "Icebound Champion": {
+  "ids": [
+   807812
+  ],
+  "icon": null
+ },
+ "Icecrown": {
+  "ids": [
+   523752
+  ],
+  "icon": null
+ },
+ "Icecrown Scriptures": {
+  "ids": [
+   300234
+  ],
+  "icon": null
+ },
+ "Icequake": {
+  "ids": [
+   500191
+  ],
+  "icon": null
+ },
+ "Icequake Trigger": {
+  "ids": [
+   801751
+  ],
+  "icon": null
+ },
+ "Icequake!": {
+  "ids": [
+   560986
+  ],
+  "icon": null
+ },
+ "Icicle Rupture": {
+  "ids": [
+   504358
+  ],
+  "icon": null
+ },
+ "Icicle Shards": {
+  "ids": [
+   704689
+  ],
+  "icon": null
+ },
+ "Icy Tomb": {
+  "ids": [
+   532216
+  ],
+  "icon": null
+ },
+ "Implosion": {
+  "ids": [
+   535593
+  ],
+  "icon": null
+ },
+ "Improved Mandates": {
+  "ids": [
+   560613
+  ],
+  "icon": null
+ },
+ "Improved Plaguewither": {
+  "ids": [
+   801948
+  ],
+  "icon": null
+ },
+ "Improved Razorice": {
+  "ids": [
+   704671
+  ],
+  "icon": null
+ },
+ "Infest": {
+  "ids": [
+   803781
+  ],
+  "icon": null
+ },
+ "Infestation": {
+  "ids": [
+   803782
+  ],
+  "icon": null
+ },
+ "Justice": {
+  "ids": [
+   803498
+  ],
+  "icon": null
+ },
+ "Kel'thuzad's Legacy": {
+  "ids": [
+   707420
+  ],
+  "icon": null
+ },
+ "Knight Of The Living Dead": {
+  "ids": [
+   570186
+  ],
+  "icon": null
+ },
+ "Lesser Skeletal Warrior": {
+  "ids": [
+   805016
+  ],
+  "icon": null
+ },
+ "Lich Blast": {
+  "ids": [
+   93586
+  ],
+  "icon": null
+ },
+ "Lich Bolt": {
+  "ids": [
+   801942
+  ],
+  "icon": null
+ },
+ "Lich Bolt (Flesh to Worms)": {
+  "ids": [
+   802915
+  ],
+  "icon": null
+ },
+ "Lich Bolt (Harvest Plague)": {
+  "ids": [
+   802917
+  ],
+  "icon": null
+ },
+ "Lich Bolt (Lichplague)": {
+  "ids": [
+   802916
+  ],
+  "icon": null
+ },
+ "Lich Bolt (Noxious Corpserot)": {
+  "ids": [
+   802920
+  ],
+  "icon": null
+ },
+ "Lich Bolt (Plague of Undeath)": {
+  "ids": [
+   802918
+  ],
+  "icon": null
+ },
+ "Lich Bolt (Spectral Decay)": {
+  "ids": [
+   802919
+  ],
+  "icon": null
+ },
+ "Lich Bolt Pandemic": {
+  "ids": [
+   302547
+  ],
+  "icon": null
+ },
+ "Lich Commander": {
+  "ids": [
+   704713
+  ],
+  "icon": null
+ },
+ "Lich Essence": {
+  "ids": [
+   802988
+  ],
+  "icon": null
+ },
+ "Lich Form": {
+  "ids": [
+   500981
+  ],
+  "icon": null
+ },
+ "Lich's Prodigy": {
+  "ids": [
+   302519
+  ],
+  "icon": null
+ },
+ "Lichfrost": {
+  "ids": [
+   801722
+  ],
+  "icon": null
+ },
+ "Lichplague": {
+  "ids": [
+   578306
+  ],
+  "icon": null
+ },
+ "Lichplate": {
+  "ids": [
+   706844
+  ],
+  "icon": null
+ },
+ "Life For Power": {
+  "ids": [
+   705746
+  ],
+  "icon": null
+ },
+ "Life Force": {
+  "ids": [
+   524901
+  ],
+  "icon": null
+ },
+ "Lifeless": {
+  "ids": [
+   805599
+  ],
+  "icon": null
+ },
+ "Lingering Blight": {
+  "ids": [
+   704685
+  ],
+  "icon": null
+ },
+ "Liquid's Test Buff": {
+  "ids": [
+   805532
+  ],
+  "icon": null
+ },
+ "Living Dead": {
+  "ids": [
+   302888
+  ],
+  "icon": null
+ },
+ "Long March": {
+  "ids": [
+   704717
+  ],
+  "icon": null
+ },
+ "Lord of Bones": {
+  "ids": [
+   801318
+  ],
+  "icon": null
+ },
+ "Lord of Winter": {
+  "ids": [
+   801723
+  ],
+  "icon": null
+ },
+ "Lord of Winter Glacial Dagger Cost": {
+  "ids": [
+   997783
+  ],
+  "icon": null
+ },
+ "Malady of Famine": {
+  "ids": [
+   680966
+  ],
+  "icon": null
+ },
+ "Malady of Rot DEPRECATED": {
+  "ids": [
+   806127
+  ],
+  "icon": null
+ },
+ "Malignant": {
+  "ids": [
+   704504
+  ],
+  "icon": null
+ },
+ "Mana Proc - Pet -> Pet": {
+  "ids": [
+   979697
+  ],
+  "icon": null
+ },
+ "Manbearpig": {
+  "ids": [
+   707105
+  ],
+  "icon": null
+ },
+ "March of the Dead": {
+  "ids": [
+   301007
+  ],
+  "icon": null
+ },
+ "Mass Grave": {
+  "ids": [
+   572408
+  ],
+  "icon": null
+ },
+ "Mass Raise": {
+  "ids": [
+   505550
+  ],
+  "icon": null
+ },
+ "Master Animator": {
+  "ids": [
+   504431
+  ],
+  "icon": null
+ },
+ "Master Lich": {
+  "ids": [
+   560848
+  ],
+  "icon": null
+ },
+ "Master Summoner": {
+  "ids": [
+   704404
+  ],
+  "icon": null
+ },
+ "Master Summoner Pet Buff Applier": {
+  "ids": [
+   704403
+  ],
+  "icon": null
+ },
+ "Master of Death": {
+  "ids": [
+   806328
+  ],
+  "icon": null
+ },
+ "Meat Hook": {
+  "ids": [
+   802751
+  ],
+  "icon": null
+ },
+ "Mechaleap": {
+  "ids": [
+   806054
+  ],
+  "icon": null
+ },
+ "Might of the Grave": {
+  "ids": [
+   706944
+  ],
+  "icon": null
+ },
+ "Mindless Fury": {
+  "ids": [
+   805674
+  ],
+  "icon": null
+ },
+ "Mindrot": {
+  "ids": [
+   83993
+  ],
+  "icon": null
+ },
+ "Mixed Damage Magic Absorb Test": {
+  "ids": [
+   525397
+  ],
+  "icon": null
+ },
+ "Mortification": {
+  "ids": [
+   704709
+  ],
+  "icon": null
+ },
+ "Mortuary Bond": {
+  "ids": [
+   804171
+  ],
+  "icon": null
+ },
+ "Muck Summoner": {
+  "ids": [
+   806086
+  ],
+  "icon": null
+ },
+ "Muckblood": {
+  "ids": [
+   520367
+  ],
+  "icon": null
+ },
+ "Mucksplosion": {
+  "ids": [
+   302565
+  ],
+  "icon": null
+ },
+ "Muckworm Heal": {
+  "ids": [
+   570059
+  ],
+  "icon": null
+ },
+ "Muckworm Passive": {
+  "ids": [
+   806088
+  ],
+  "icon": null
+ },
+ "Mutation": {
+  "ids": [
+   500342
+  ],
+  "icon": null
+ },
+ "NYI": {
+  "ids": [
+   500979
+  ],
+  "icon": null
+ },
+ "Naxxramas Prodigy": {
+  "ids": [
+   560622
+  ],
+  "icon": null
+ },
+ "Near Managate": {
+  "ids": [
+   805613
+  ],
+  "icon": null
+ },
+ "Necro Crypt Swarm Enrage Check": {
+  "ids": [
+   805870
+  ],
+  "icon": null
+ },
+ "Necro Instant Pet Heal Condition": {
+  "ids": [
+   525035
+  ],
+  "icon": null
+ },
+ "Necro Instant Pet Heal One Time": {
+  "ids": [
+   525034
+  ],
+  "icon": null
+ },
+ "Necro Instant Pet Heal One Time Aura": {
+  "ids": [
+   525033
+  ],
+  "icon": null
+ },
+ "Necro Instant Pet Scaling": {
+  "ids": [
+   524805
+  ],
+  "icon": null
+ },
+ "Necro Life Force Re-adder": {
+  "ids": [
+   805602
+  ],
+  "icon": null
+ },
+ "Necro Loot Tag": {
+  "ids": [
+   997426
+  ],
+  "icon": null
+ },
+ "Necro Minion": {
+  "ids": [
+   805026
+  ],
+  "icon": null
+ },
+ "Necro Minion - Hit, Crit": {
+  "ids": [
+   800972
+  ],
+  "icon": null
+ },
+ "Necro Minion Health Setter": {
+  "ids": [
+   800942
+  ],
+  "icon": null
+ },
+ "Necro Minion Health Setter Blocker": {
+  "ids": [
+   800795
+  ],
+  "icon": null
+ },
+ "Necro Minion Health Setter Blocker Trigger": {
+  "ids": [
+   800754
+  ],
+  "icon": null
+ },
+ "Necro Minion Life Force Refresher": {
+  "ids": [
+   805014
+  ],
+  "icon": null
+ },
+ "Necro Minion Life Force Refresher On Summon": {
+  "ids": [
+   805018
+  ],
+  "icon": null
+ },
+ "Necro Minion Life Force Refresher On Summon Delayer": {
+  "ids": [
+   805013
+  ],
+  "icon": null
+ },
+ "Necro Minion Life Force Visual Re-Adder": {
+  "ids": [
+   805277
+  ],
+  "icon": null
+ },
+ "Necro Minion Movespeed Boost": {
+  "ids": [
+   805071
+  ],
+  "icon": null
+ },
+ "Necro Minion Proc Enabler": {
+  "ids": [
+   805869
+  ],
+  "icon": null
+ },
+ "Necro Minion Scaling Applier": {
+  "ids": [
+   805015
+  ],
+  "icon": null
+ },
+ "Necro Minion Teleport": {
+  "ids": [
+   805070
+  ],
+  "icon": null
+ },
+ "Necro Minion Teleport Trigger": {
+  "ids": [
+   805069
+  ],
+  "icon": null
+ },
+ "Necro Pet Periodic Scaling Trigger": {
+  "ids": [
+   524808
+  ],
+  "icon": null
+ },
+ "Necro Pet Scaling Aura": {
+  "ids": [
+   524806
+  ],
+  "icon": null
+ },
+ "Necro Pet Undead Mechanic Immunity": {
+  "ids": [
+   525038
+  ],
+  "icon": null
+ },
+ "Necromancer Animation Spec Passive Aura": {
+  "ids": [
+   324092
+  ],
+  "icon": null
+ },
+ "Necromancer Archer Command Scaling": {
+  "ids": [
+   324090
+  ],
+  "icon": null
+ },
+ "Necromancer Hidden Passive": {
+  "ids": [
+   801162
+  ],
+  "icon": null
+ },
+ "Necromancer Minion Onsummon Delayer": {
+  "ids": [
+   805990
+  ],
+  "icon": null
+ },
+ "Necromancer Pet Scaling Aura 1": {
+  "ids": [
+   524084
+  ],
+  "icon": null
+ },
+ "Necromancer Pet Scaling Aura 2": {
+  "ids": [
+   524085
+  ],
+  "icon": null
+ },
+ "Necromancer Pet Scaling Aura 3": {
+  "ids": [
+   524086
+  ],
+  "icon": null
+ },
+ "Necromancer Pet Scaling Aura 4": {
+  "ids": [
+   524087
+  ],
+  "icon": null
+ },
+ "Necromancer Teachings": {
+  "ids": [
+   801251
+  ],
+  "icon": null
+ },
+ "Necromancy": {
+  "ids": [
+   804360
+  ],
+  "icon": null
+ },
+ "Necromantic Focus": {
+  "ids": [
+   808034
+  ],
+  "icon": null
+ },
+ "Necromantic Focus AoE": {
+  "ids": [
+   808035
+  ],
+  "icon": null
+ },
+ "Necrosis": {
+  "ids": [
+   802990
+  ],
+  "icon": null
+ },
+ "Necrotic Armor": {
+  "ids": [
+   806386
+  ],
+  "icon": null
+ },
+ "Necrotic Chain": {
+  "ids": [
+   704679
+  ],
+  "icon": null
+ },
+ "Necrotic Chains": {
+  "ids": [
+   801733
+  ],
+  "icon": null
+ },
+ "Necrotic Rage": {
+  "ids": [
+   804259
+  ],
+  "icon": null
+ },
+ "Ner'zhul's Blessing": {
+  "ids": [
+   704729
+  ],
+  "icon": null
+ },
+ "Ner'zhul's Pact": {
+  "ids": [
+   804717
+  ],
+  "icon": null
+ },
+ "Noxious Corpserot": {
+  "ids": [
+   802129
+  ],
+  "icon": null
+ },
+ "Overwhelmed": {
+  "ids": [
+   500337
+  ],
+  "icon": null
+ },
+ "Overwhelming Force": {
+  "ids": [
+   531128
+  ],
+  "icon": null
+ },
+ "Overwhelming Forces": {
+  "ids": [
+   531129
+  ],
+  "icon": null
+ },
+ "Overwhelming Odds": {
+  "ids": [
+   560597
+  ],
+  "icon": null
+ },
+ "Pandemic": {
+  "ids": [
+   560798
+  ],
+  "icon": null
+ },
+ "Parasite Plague": {
+  "ids": [
+   560730
+  ],
+  "icon": null
+ },
+ "Parasite Remover": {
+  "ids": [
+   560740
+  ],
+  "icon": null
+ },
+ "Parasites": {
+  "ids": [
+   560729
+  ],
+  "icon": null
+ },
+ "Parasitic Infestation": {
+  "ids": [
+   804272
+  ],
+  "icon": null
+ },
+ "Parasitical Experiments": {
+  "ids": [
+   806082
+  ],
+  "icon": null
+ },
+ "Permafrost": {
+  "ids": [
+   704681
+  ],
+  "icon": null
+ },
+ "Pestilent Aura": {
+  "ids": [
+   704707
+  ],
+  "icon": null
+ },
+ "Phylactery": {
+  "ids": [
+   500731
+  ],
+  "icon": null
+ },
+ "Phylactery Stun-Threat Periodic Aura": {
+  "ids": [
+   500911
+  ],
+  "icon": null
+ },
+ "Phylactery Threat": {
+  "ids": [
+   573217
+  ],
+  "icon": null
+ },
+ "Pierced": {
+  "ids": [
+   570216
+  ],
+  "icon": null
+ },
+ "Piercing Icicles": {
+  "ids": [
+   524687
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   802124
+  ],
+  "icon": null
+ },
+ "Plague Burst": {
+  "ids": [
+   706678
+  ],
+  "icon": null
+ },
+ "Plague Doctor": {
+  "ids": [
+   803087
+  ],
+  "icon": null
+ },
+ "Plague Drinker": {
+  "ids": [
+   704712
+  ],
+  "icon": null
+ },
+ "Plague Eruption": {
+  "ids": [
+   802332
+  ],
+  "icon": null
+ },
+ "Plague Eruptor Scaling": {
+  "ids": [
+   805061
+  ],
+  "icon": null
+ },
+ "Plague Hook": {
+  "ids": [
+   805936
+  ],
+  "icon": null
+ },
+ "Plague Horde": {
+  "ids": [
+   704722
+  ],
+  "icon": null
+ },
+ "Plague Horde trigger": {
+  "ids": [
+   302599
+  ],
+  "icon": null
+ },
+ "Plague Protection": {
+  "ids": [
+   570046
+  ],
+  "icon": null
+ },
+ "Plague Revenant": {
+  "ids": [
+   806321
+  ],
+  "icon": null
+ },
+ "Plague Science": {
+  "ids": [
+   704163
+  ],
+  "icon": null
+ },
+ "Plague of Undeath": {
+  "ids": [
+   801945
+  ],
+  "icon": null
+ },
+ "Plague's Reach": {
+  "ids": [
+   806320
+  ],
+  "icon": null
+ },
+ "Plaguebomb": {
+  "ids": [
+   500340
+  ],
+  "icon": null
+ },
+ "Plaguebomb Crypt Applier": {
+  "ids": [
+   500479
+  ],
+  "icon": null
+ },
+ "Plaguebringer DEPRECATED": {
+  "ids": [
+   806318
+  ],
+  "icon": null
+ },
+ "Plaguecraft": {
+  "ids": [
+   802127
+  ],
+  "icon": null
+ },
+ "Plagued": {
+  "ids": [
+   802913
+  ],
+  "icon": null
+ },
+ "Plagued Applier Passive": {
+  "ids": [
+   806457
+  ],
+  "icon": null
+ },
+ "Plaguefather": {
+  "ids": [
+   504505
+  ],
+  "icon": null
+ },
+ "Plaguestorm": {
+  "ids": [
+   801939
+  ],
+  "icon": null
+ },
+ "Primordial Poison": {
+  "ids": [
+   801612
+  ],
+  "icon": null
+ },
+ "Putrefy": {
+  "ids": [
+   561125
+  ],
+  "icon": null
+ },
+ "Putrefy DEPRECATED": {
+  "ids": [
+   804558
+  ],
+  "icon": null
+ },
+ "Putricide's Formula": {
+  "ids": [
+   707001
+  ],
+  "icon": null
+ },
+ "Putrid": {
+  "ids": [
+   560583
+  ],
+  "icon": null
+ },
+ "Putrid Aura": {
+  "ids": [
+   800027
+  ],
+  "icon": null
+ },
+ "Putrid Bite": {
+  "ids": [
+   800036
+  ],
+  "icon": null
+ },
+ "Putrid Blight": {
+  "ids": [
+   706968
+  ],
+  "icon": null
+ },
+ "Putrid Claw": {
+  "ids": [
+   805976
+  ],
+  "icon": null
+ },
+ "Putrid Claws": {
+  "ids": [
+   570050
+  ],
+  "icon": null
+ },
+ "Putrid Form": {
+  "ids": [
+   802989
+  ],
+  "icon": null
+ },
+ "Putrid Geist: Plague Claw": {
+  "ids": [
+   706991
+  ],
+  "icon": null
+ },
+ "Putrid Muck": {
+  "ids": [
+   806026
+  ],
+  "icon": null
+ },
+ "Putrid Summoner": {
+  "ids": [
+   504415
+  ],
+  "icon": null
+ },
+ "Putrid Thrall Command: Regurgitate": {
+  "ids": [
+   801541
+  ],
+  "icon": null
+ },
+ "Putrification": {
+  "ids": [
+   560614
+  ],
+  "icon": null
+ },
+ "Putrifier": {
+  "ids": [
+   302923
+  ],
+  "icon": null
+ },
+ "Rain of Arrows": {
+  "ids": [
+   707011
+  ],
+  "icon": null
+ },
+ "Raise: Abomination": {
+  "ids": [
+   500335
+  ],
+  "icon": null
+ },
+ "Raise: Banshee": {
+  "ids": [
+   504861
+  ],
+  "icon": null
+ },
+ "Raise: Crypt Fiend": {
+  "ids": [
+   504859
+  ],
+  "icon": null
+ },
+ "Raise: Decaying Colossus": {
+  "ids": [
+   500989
+  ],
+  "icon": null
+ },
+ "Raise: Gargoyle": {
+  "ids": [
+   500329
+  ],
+  "icon": null
+ },
+ "Raise: Ghoul": {
+  "ids": [
+   500971
+  ],
+  "icon": null
+ },
+ "Raise: Greater Skeletal Warrior": {
+  "ids": [
+   504901
+  ],
+  "icon": null
+ },
+ "Raise: Lesser Skeletal Warrior": {
+  "ids": [
+   500970
+  ],
+  "icon": null
+ },
+ "Raise: Skeletal Archer": {
+  "ids": [
+   500332
+  ],
+  "icon": null
+ },
+ "Raise: Skeletal Mage": {
+  "ids": [
+   500331
+  ],
+  "icon": null
+ },
+ "Raise: Skeletal Rogue": {
+  "ids": [
+   500969
+  ],
+  "icon": null
+ },
+ "Raise: Skeletal Warrior": {
+  "ids": [
+   504682
+  ],
+  "icon": null
+ },
+ "Raise: Test Skeleton": {
+  "ids": [
+   600992
+  ],
+  "icon": null
+ },
+ "Raise: Test Zombie": {
+  "ids": [
+   600993
+  ],
+  "icon": null
+ },
+ "Raising the Kirin Tor": {
+  "ids": [
+   805649
+  ],
+  "icon": null
+ },
+ "Rancid Air": {
+  "ids": [
+   704726
+  ],
+  "icon": null
+ },
+ "Ray of Rot": {
+  "ids": [
+   804535
+  ],
+  "icon": null
+ },
+ "Razorice": {
+  "ids": [
+   500967
+  ],
+  "icon": null
+ },
+ "Reanimate": {
+  "ids": [
+   804172
+  ],
+  "icon": null
+ },
+ "Reclaimed Life": {
+  "ids": [
+   707670
+  ],
+  "icon": null
+ },
+ "Refresh Animate CDs": {
+  "ids": [
+   706993
+  ],
+  "icon": null
+ },
+ "Refreshing Chill": {
+  "ids": [
+   300940
+  ],
+  "icon": null
+ },
+ "Refridgerate": {
+  "ids": [
+   704678
+  ],
+  "icon": null
+ },
+ "Regurgitate": {
+  "ids": [
+   802130
+  ],
+  "icon": null
+ },
+ "Remove Deathchill": {
+  "ids": [
+   704367
+  ],
+  "icon": null
+ },
+ "Remove Soulfreeze": {
+  "ids": [
+   802933
+  ],
+  "icon": null
+ },
+ "Restore Shade": {
+  "ids": [
+   500802
+  ],
+  "icon": null
+ },
+ "Restore Shade Kill Self": {
+  "ids": [
+   500804
+  ],
+  "icon": null
+ },
+ "Return: Summoning Ritual Visual": {
+  "ids": [
+   807125
+  ],
+  "icon": null
+ },
+ "Revenant Scaling": {
+  "ids": [
+   805057
+  ],
+  "icon": null
+ },
+ "Rime (Frost DPS)": {
+  "ids": [
+   805610
+  ],
+  "icon": null
+ },
+ "Rime - Level 50 Passive": {
+  "ids": [
+   532521
+  ],
+  "icon": null
+ },
+ "Rimebolt": {
+  "ids": [
+   805370
+  ],
+  "icon": null
+ },
+ "Ritual Casting": {
+  "ids": [
+   704696
+  ],
+  "icon": null
+ },
+ "Ritual Circle": {
+  "ids": [
+   687443
+  ],
+  "icon": null
+ },
+ "Ritual Return": {
+  "ids": [
+   807098
+  ],
+  "icon": null
+ },
+ "Ritual of the Damned": {
+  "ids": [
+   806714
+  ],
+  "icon": null
+ },
+ "Ritual of the Damned SLS2": {
+  "ids": [
+   806715
+  ],
+  "icon": null
+ },
+ "Rot Fetishist": {
+  "ids": [
+   573223
+  ],
+  "icon": null
+ },
+ "Rot Power": {
+  "ids": [
+   706972
+  ],
+  "icon": null
+ },
+ "Rot Power Stacker": {
+  "ids": [
+   801510
+  ],
+  "icon": null
+ },
+ "Rotcaster": {
+  "ids": [
+   806232
+  ],
+  "icon": null
+ },
+ "Rotling": {
+  "ids": [
+   805060
+  ],
+  "icon": null
+ },
+ "Rotling Command: Rot Leap": {
+  "ids": [
+   801518
+  ],
+  "icon": null
+ },
+ "Rotling Explosion": {
+  "ids": [
+   500327
+  ],
+  "icon": null
+ },
+ "Rotling Morpher": {
+  "ids": [
+   801159
+  ],
+  "icon": null
+ },
+ "Rotling or Warrior Active": {
+  "ids": [
+   707017
+  ],
+  "icon": null
+ },
+ "Rotslinger": {
+  "ids": [
+   704711
+  ],
+  "icon": null
+ },
+ "Rotten": {
+  "ids": [
+   804689
+  ],
+  "icon": null
+ },
+ "Rotten to the Bone": {
+  "ids": [
+   560845
+  ],
+  "icon": null
+ },
+ "Rotting Flesh": {
+  "ids": [
+   301304
+  ],
+  "icon": null
+ },
+ "Rotting Frost Giant": {
+  "ids": [
+   561133
+  ],
+  "icon": null
+ },
+ "Rotting Ice": {
+  "ids": [
+   561131
+  ],
+  "icon": null
+ },
+ "Runic Animation": {
+  "ids": [
+   707445
+  ],
+  "icon": null
+ },
+ "Runic Familiar Loot Tag": {
+  "ids": [
+   997418
+  ],
+  "icon": null
+ },
+ "Runic Harvest": {
+  "ids": [
+   562210
+  ],
+  "icon": null
+ },
+ "Runic Reservoir": {
+  "ids": [
+   704670
+  ],
+  "icon": null
+ },
+ "Sacrifice Undead": {
+  "ids": [
+   805027
+  ],
+  "icon": null
+ },
+ "Sacrificial Marking": {
+  "ids": [
+   572397
+  ],
+  "icon": null
+ },
+ "Scourge Apprentice Training": {
+  "ids": [
+   680283
+  ],
+  "icon": null
+ },
+ "Scourge Commander": {
+  "ids": [
+   707025
+  ],
+  "icon": null
+ },
+ "Scourge Disciple": {
+  "ids": [
+   503730
+  ],
+  "icon": null
+ },
+ "Scourge Expert Training": {
+  "ids": [
+   680284
+  ],
+  "icon": null
+ },
+ "Scourgebringer": {
+  "ids": [
+   680932
+  ],
+  "icon": null
+ },
+ "Sense Undead": {
+  "ids": [
+   562028
+  ],
+  "icon": null
+ },
+ "Sentry Dummy": {
+  "ids": [
+   524827
+  ],
+  "icon": null
+ },
+ "Sepulchral Might": {
+  "ids": [
+   706472
+  ],
+  "icon": null
+ },
+ "Shade": {
+  "ids": [
+   500730
+  ],
+  "icon": null
+ },
+ "Shadow Claws": {
+  "ids": [
+   525607
+  ],
+  "icon": null
+ },
+ "Shard of True Ice": {
+  "ids": [
+   567569
+  ],
+  "icon": null
+ },
+ "Shattered": {
+  "ids": [
+   560610
+  ],
+  "icon": null
+ },
+ "Shattered Dreams": {
+  "ids": [
+   560609
+  ],
+  "icon": null
+ },
+ "Shattered Dreams (Knockback)": {
+  "ids": [
+   532536
+  ],
+  "icon": null
+ },
+ "Skeletal Archer": {
+  "ids": [
+   802159
+  ],
+  "icon": null
+ },
+ "Skeletal Archer Passive": {
+  "ids": [
+   524900
+  ],
+  "icon": null
+ },
+ "Skeletal Archer Passive2": {
+  "ids": [
+   525002
+  ],
+  "icon": null
+ },
+ "Skeletal Archer Scaling": {
+  "ids": [
+   805053
+  ],
+  "icon": null
+ },
+ "Skeletal Archer: Volley": {
+  "ids": [
+   706988
+  ],
+  "icon": null
+ },
+ "Skeletal Arrow": {
+  "ids": [
+   800609
+  ],
+  "icon": null
+ },
+ "Skeletal Artillery": {
+  "ids": [
+   302518
+  ],
+  "icon": null
+ },
+ "Skeletal Charge": {
+  "ids": [
+   500803
+  ],
+  "icon": null
+ },
+ "Skeletal Cleave": {
+  "ids": [
+   520049
+  ],
+  "icon": null
+ },
+ "Skeletal Mage Passive": {
+  "ids": [
+   523613
+  ],
+  "icon": null
+ },
+ "Skeletal Mage Scaling": {
+  "ids": [
+   805058
+  ],
+  "icon": null
+ },
+ "Skeletal Rogue": {
+  "ids": [
+   805021
+  ],
+  "icon": null
+ },
+ "Skeletal Rogue Passive": {
+  "ids": [
+   805023
+  ],
+  "icon": null
+ },
+ "Skeletal Volley": {
+  "ids": [
+   706989
+  ],
+  "icon": null
+ },
+ "Skeletal Warrior": {
+  "ids": [
+   680924
+  ],
+  "icon": null
+ },
+ "Skeletal Warrior Mastery": {
+  "ids": [
+   301056
+  ],
+  "icon": null
+ },
+ "Skeletal Warrior Scaling": {
+  "ids": [
+   805052
+  ],
+  "icon": null
+ },
+ "Skeletal Warrior: Bash": {
+  "ids": [
+   706987
+  ],
+  "icon": null
+ },
+ "Skeleton Horde": {
+  "ids": [
+   706999
+  ],
+  "icon": null
+ },
+ "Slime's Call": {
+  "ids": [
+   706947
+  ],
+  "icon": null
+ },
+ "Sludge Belcher": {
+  "ids": [
+   705755
+  ],
+  "icon": null
+ },
+ "Solar Ascendant": {
+  "ids": [
+   804586
+  ],
+  "icon": null
+ },
+ "Soulfreeze": {
+  "ids": [
+   572023
+  ],
+  "icon": null
+ },
+ "Sower of Sickness": {
+  "ids": [
+   806150
+  ],
+  "icon": null
+ },
+ "Spectral Decay": {
+  "ids": [
+   570044
+  ],
+  "icon": null
+ },
+ "Spectral Decay DEPRECATED": {
+  "ids": [
+   801944
+  ],
+  "icon": null
+ },
+ "Spectral Decay Visual": {
+  "ids": [
+   803227
+  ],
+  "icon": null
+ },
+ "Spellbound Champion": {
+  "ids": [
+   807811
+  ],
+  "icon": null
+ },
+ "Spreading Filth": {
+  "ids": [
+   806319
+  ],
+  "icon": null
+ },
+ "Student of the Necropolis": {
+  "ids": [
+   807188
+  ],
+  "icon": null
+ },
+ "Study of Death": {
+  "ids": [
+   302597
+  ],
+  "icon": null
+ },
+ "Summoner": {
+  "ids": [
+   706953
+  ],
+  "icon": null
+ },
+ "Summoning Adept": {
+  "ids": [
+   300747
+  ],
+  "icon": null
+ },
+ "Summoning Adept (ICD)": {
+  "ids": [
+   805787
+  ],
+  "icon": null
+ },
+ "Summoning Adept Regen": {
+  "ids": [
+   302594
+  ],
+  "icon": null
+ },
+ "Summoning Expert": {
+  "ids": [
+   807494
+  ],
+  "icon": null
+ },
+ "Summoning Mastery": {
+  "ids": [
+   707015
+  ],
+  "icon": null
+ },
+ "Summoning Preparation": {
+  "ids": [
+   805600
+  ],
+  "icon": null
+ },
+ "Summoning Prodigy": {
+  "ids": [
+   504826
+  ],
+  "icon": null
+ },
+ "Summoning Ritual": {
+  "ids": [
+   805038
+  ],
+  "icon": null
+ },
+ "Summoning Ritual (Root, Hidden)": {
+  "ids": [
+   704569
+  ],
+  "icon": null
+ },
+ "Summoning Stone": {
+  "ids": [
+   704728
+  ],
+  "icon": null
+ },
+ "Swarmer": {
+  "ids": [
+   704528
+  ],
+  "icon": null
+ },
+ "Tears of Lordaeron": {
+  "ids": [
+   705752
+  ],
+  "icon": null
+ },
+ "Test Zombie": {
+  "ids": [
+   805191
+  ],
+  "icon": null
+ },
+ "The Underking Is Here": {
+  "ids": [
+   302517
+  ],
+  "icon": null
+ },
+ "The Undying": {
+  "ids": [
+   712384
+  ],
+  "icon": null
+ },
+ "Tinker Scraptron Proc Aura": {
+  "ids": [
+   806528
+  ],
+  "icon": null
+ },
+ "Tomb Claw": {
+  "ids": [
+   525606
+  ],
+  "icon": null
+ },
+ "Tomb Smash": {
+  "ids": [
+   805051
+  ],
+  "icon": null
+ },
+ "Touch of Death": {
+  "ids": [
+   707113
+  ],
+  "icon": null
+ },
+ "Toxic Plagues": {
+  "ids": [
+   706475
+  ],
+  "icon": null
+ },
+ "Transfer Essence": {
+  "ids": [
+   706719
+  ],
+  "icon": null
+ },
+ "Transfer Life": {
+  "ids": [
+   801530
+  ],
+  "icon": null
+ },
+ "Trudge": {
+  "ids": [
+   806388
+  ],
+  "icon": null
+ },
+ "Trudge Arms": {
+  "ids": [
+   806390
+  ],
+  "icon": null
+ },
+ "Trudge Visual": {
+  "ids": [
+   806389
+  ],
+  "icon": null
+ },
+ "Tundra Warriors": {
+  "ids": [
+   92122
+  ],
+  "icon": null
+ },
+ "Undead Commander": {
+  "ids": [
+   804718
+  ],
+  "icon": null
+ },
+ "Undead General": {
+  "ids": [
+   560003
+  ],
+  "icon": null
+ },
+ "Undead: Assault": {
+  "ids": [
+   500982
+  ],
+  "icon": null
+ },
+ "Undead: Focus proc": {
+  "ids": [
+   808033
+  ],
+  "icon": null
+ },
+ "Undead: Pacify": {
+  "ids": [
+   500983
+  ],
+  "icon": null
+ },
+ "Undead: Protect": {
+  "ids": [
+   500985
+  ],
+  "icon": null
+ },
+ "Underking": {
+  "ids": [
+   302516
+  ],
+  "icon": null
+ },
+ "Unholy Champion Hidden Passive": {
+  "ids": [
+   706771
+  ],
+  "icon": null
+ },
+ "Unholy Champion Passive": {
+  "ids": [
+   504416
+  ],
+  "icon": null
+ },
+ "Unholy Champion Remover": {
+  "ids": [
+   706772
+  ],
+  "icon": null
+ },
+ "Unholy Command": {
+  "ids": [
+   801347
+  ],
+  "icon": null
+ },
+ "Unholy Command Basic Attack Trigger": {
+  "ids": [
+   707026
+  ],
+  "icon": null
+ },
+ "Unholy Command Grave March Delayer": {
+  "ids": [
+   706366
+  ],
+  "icon": null
+ },
+ "Unholy Command Individual Trigger": {
+  "ids": [
+   706952
+  ],
+  "icon": null
+ },
+ "Unholy Command: Initiate, Colossus. Grave Mage": {
+  "ids": [
+   500978
+  ],
+  "icon": null
+ },
+ "Unholy Command: Shambler, Putrid Geist, Tomb King": {
+  "ids": [
+   805935
+  ],
+  "icon": null
+ },
+ "Unholy Erosion": {
+  "ids": [
+   807700
+  ],
+  "icon": null
+ },
+ "Unholy Frenzy": {
+  "ids": [
+   578117
+  ],
+  "icon": null
+ },
+ "Unholy Grasp": {
+  "ids": [
+   570043
+  ],
+  "icon": null
+ },
+ "Unholy Guard": {
+  "ids": [
+   806971
+  ],
+  "icon": null
+ },
+ "Unholy Order: Skeletal Warriors": {
+  "ids": [
+   707059
+  ],
+  "icon": null
+ },
+ "Unholy Runes": {
+  "ids": [
+   561353
+  ],
+  "icon": null
+ },
+ "Unrelenting": {
+  "ids": [
+   704718
+  ],
+  "icon": null
+ },
+ "Unrelenting Army": {
+  "ids": [
+   705747
+  ],
+  "icon": null
+ },
+ "Unrelenting Swarm": {
+  "ids": [
+   704719
+  ],
+  "icon": null
+ },
+ "Unstoppable Frenzy": {
+  "ids": [
+   573426
+  ],
+  "icon": null
+ },
+ "Used Life Force": {
+  "ids": [
+   805012
+  ],
+  "icon": null
+ },
+ "Vampiric Aura": {
+  "ids": [
+   300241
+  ],
+  "icon": null
+ },
+ "Vial of Death": {
+  "ids": [
+   561043
+  ],
+  "icon": null
+ },
+ "Virulency": {
+  "ids": [
+   501900
+  ],
+  "icon": null
+ },
+ "Virulency: Crypt Plague": {
+  "ids": [
+   570137
+  ],
+  "icon": null
+ },
+ "Virulency: Flesh to Worms": {
+  "ids": [
+   802908
+  ],
+  "icon": null
+ },
+ "Virulency: Harvest Plague": {
+  "ids": [
+   802911
+  ],
+  "icon": null
+ },
+ "Virulency: Lichplague": {
+  "ids": [
+   802912
+  ],
+  "icon": null
+ },
+ "Virulency: Noxious Corpserot": {
+  "ids": [
+   802910
+  ],
+  "icon": null
+ },
+ "Virulency: Plague of Undeath": {
+  "ids": [
+   802909
+  ],
+  "icon": null
+ },
+ "Waking Crypts": {
+  "ids": [
+   570136
+  ],
+  "icon": null
+ },
+ "Whelp Breath": {
+  "ids": [
+   504623
+  ],
+  "icon": null
+ },
+ "Will of the Necropolis": {
+  "ids": [
+   801436
+  ],
+  "icon": null
+ },
+ "Winds of Northrend": {
+  "ids": [
+   301333
+  ],
+  "icon": null
+ },
+ "Winter Winds": {
+  "ids": [
+   806043
+  ],
+  "icon": null
+ },
+ "Witch Doctor Minion Hit": {
+  "ids": [
+   803393
+  ],
+  "icon": null
+ },
+ "Withered": {
+  "ids": [
+   806093
+  ],
+  "icon": null
+ },
+ "Withering": {
+  "ids": [
+   301250
+  ],
+  "icon": null
+ },
+ "Wormfood": {
+  "ids": [
+   503763
+  ],
+  "icon": null
+ },
+ "Wormfood Delayer": {
+  "ids": [
+   561221
+  ],
+  "icon": null
+ },
+ "Wormskin": {
+  "ids": [
+   802987
+  ],
+  "icon": null
+ },
+ "Wretched Bile": {
+  "ids": [
+   560728
+  ],
+  "icon": null
+ },
+ "Wretched Bile DEPRECATED": {
+  "ids": [
+   501893
+  ],
+  "icon": null
+ },
+ "Zombardment": {
+  "ids": [
+   707024
+  ],
+  "icon": null
+ },
+ "Zombie Charge": {
+  "ids": [
+   504314
+  ],
+  "icon": null
+ },
+ "Zombie Command: Charge": {
+  "ids": [
+   570040
+  ],
+  "icon": null
+ },
+ "Zombie Explosion": {
+  "ids": [
+   707023
+  ],
+  "icon": null
+ },
+ "Zombie Plague": {
+  "ids": [
+   504022
+  ],
+  "icon": null
+ },
+ "Zombie Scaling RPPL": {
+  "ids": [
+   504312
+  ],
+  "icon": null
+ }
+}

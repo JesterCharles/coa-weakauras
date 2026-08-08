@@ -240,6 +240,12 @@ CORE_LEAVES = {
     # Souls, Jailer's Bargain) that hold the class gate alone: buff icons are
     # self-gating and a buff id is not something IsSpellKnown recognises.
     "reaper": 6,
+    # First pin (0.1). The 3 are the NO WARD alert (class-wide: the ward kit
+    # is class-tree talent territory, so the alert gates on knowing Fetid Ward
+    # rather than on a spec) plus two merged all-spec Buffs leaves (Foul
+    # Invocation, Bone Tithe) that hold the class gate alone: buff icons are
+    # self-gating and a buff id is not something IsSpellKnown recognises.
+    "necromancer": 3,
 }
 
 

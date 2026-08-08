@@ -1,0 +1,22 @@
+{
+ "Bonescrap": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "ONCE-in-blob prose (grep -o count 1 in sidekick-data.js): the generated animation rotation blurb names it, Sidekick's own skill data has no record, the class skillbook has no row, and db.exil.es' Necromancer digest has no entry. No id in any source -- unbuildable, and recorded so it is not rediscovered on the next refresh."
+ },
+ "Banshee's Wail": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "ONCE-in-blob prose: named only by the death rotation blurb. Not in the skillbook, not in the db.exil.es digest. The buildable surface for banshees is Raise: Banshee (504861, class-tree button) and its Command dispatch -- if a 'Banshee's Wail' button exists in game it has left no trace in any database."
+ },
+ "Grimestep": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "ONCE-in-blob prose. db.exil.es 806387 exists but is an effect, not a button: no cost, no GCD, no cooldown, 2s duration, empty description, and db.ascension.gg's tooltip is the bare word 'Grimestep'. A cited 'cooldown' claim resting on a component id corroborates nothing."
+ },
+ "Chill of the Grave": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "ONCE-in-blob prose: the rime blurb names it, but the only rows wearing the name are 'Chill of the Grave 2' (802774) and 'Chill of the Grave 3' (803290) in the digest -- rank-suffixed mystic-enchant shapes, no skillbook row, no base spell. Distinct from 'Chill of the Tomb' (572173), the real target frost-resist curse, which has its own inventory row."
+ }
+}
