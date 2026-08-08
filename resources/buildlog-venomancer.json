@@ -1,0 +1,108 @@
+{
+ "class": "venomancer",
+ "gates": {
+  "build": "2026-08-08",
+  "research": "2026-08-08",
+  "verify": "2026-08-08"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 11,
+   "citations": 4,
+   "crossdb_checked": 258,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 270,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 258,
+   "mechanics_sources": 4,
+   "open_unknowns": 15,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 11,
+   "citations": 4,
+   "crossdb_checked": 258,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 270,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 258,
+   "mechanics_sources": 4,
+   "open_unknowns": 15,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 11,
+   "citations": 4,
+   "crossdb_checked": 258,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 270,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 258,
+   "mechanics_sources": 4,
+   "open_unknowns": 15,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-08",
+   "note": "class-wide NO VENOM (show-on-missing over all 7 venom ids+names -- 2-of-7 is a choice, never per-venom; the NO BOON shape) in VN Core; per-spec form alerts ONLY where the kit is explicit: NO SPIDER FORM (finishers read 'Requires Spider Form'), NO VIZIER FORM ('Pre-pull: Vizier Form up'). Beetle/Weaver deliberately un-alerted (swapped out mid-fight; \u00a76). All active-only, red-bordered SZ_ALERT at Y_ALERT"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: 28 NEW venomancer entries, all 2026/07/31. Triage: From Life Comes Death now PASSIVE (was cooldown) -> not a CD row; Brood Marks no duration -> stack tracker, no timer; Withering Venom generates 1 Brood Mark; Weaver Form regen rework (5% base mana, no ICD) -> form is a mandatory long-term buff; Spider Lord scarab proc now also from Carapace Crash; rest number tweaks. NOT accepted yet."
+  },
+  "citations": {
+   "at": "2026-08-08",
+   "note": "citations.py --import-sidekick: 4 citations (one per spec), 11 claims, retrieved_at 2026-08-02 (blob mtime; post-dates newest changelog entry 07/31). --validate clean after aliases-venomancer.json recorded null verdicts for two prose-only names (Poison Eruption 1-hit-in-blob + 'Requires Scorpid Form' stale id; 'Venomancer (Stalking)' is a spec label, not a spell). ONE source -- corroboration not measurable, caveat carried on every record. Detailed press orders come from the same source's scraped spec pages (resources/sidekick-venomancer-*.md, 2026-08-07)."
+  },
+  "crossdb": {
+   "at": "2026-08-08",
+   "checked": 258,
+   "note": "crossdb_sweep + manual: 258/258 ids asked of db.ascension.gg. 252 record (incl. Brood Mark 804972, Shadra's Vigil 505203); Facemelter/Rotfang no-response on ?power resolved record via name search returning the SAME ids; no-records resolved with tooltip reads: Fang of Shadra (stale revision -> ignore), Miasma (other-id 570208, same tooltip -> keep), Ritual Healing (kit's is the L50 passive -> ignore), Widow's Kiss 800885 (other-id family 804118/807244/807483/807600 -> aura matched BY NAME, live id deferred to \u00a76). Verdicts in Notes cells."
+  },
+  "guide": {
+   "at": "2026-08-08",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py (every venomancer always-visible row <= 1.01x its own 274px bar; CD_PER_ROW=11 from narrowest main row; exit 0) + structural read via tools/hud.py displays(): ladder correct on all four spec packs -- alerts -18 (stalking/vizier carry 2: NO VENOM + form alert), target -51, buffs -84, main -132, envelope -164..-180 (stalking energy+minor mana; others solo), offense -215 wrapping to utility, longterm below the stack. 1 art placeholder (Exposed Flesh) resolves from the trigger in game per the NO_UPSTREAM_ART decision"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-08",
+   "note": "automated role pass (production default, Pyromancer precedent): 270 rows decided with one line of evidence-bearing reasoning each in Notes, BULK-CLEARED here -- provenance is machine-proposed + curated-cited, not row-by-row human read. 139 curated from the four Sidekick Rotations/kit texts, 128 rule-decided (passive/talent/no-id/uncited-castable rules named per row), 3 aura-only rows added (Widow's Kiss, Brood Mark, Shadra's Vigil). Hedged rows copied to requirements \u00a76: Fungal Assailant id (rank=Damage component smell), Locust Swarm id (rank='Spider Lord'), Hallucinogenic Venom (rank=Passive), Weakening Venom (rank=Proc), Cycle of Decay effect text, Serpent Lord toggle-vs-passive, Widow's Kiss live id, Corrosion component read, Venoxis Fang/Rime/Venocannon/Unity uncited press order, Exposed Flesh stack cap. Class leaks ignored with evidence (Spellslinger=Runemaster, Relentless=Barbarian, Hate=axe class, Fel Cloak=Felsworn); 'Champion of the Spider' tooltip reads Deprecatged."
+  },
+  "main-rows": {
+   "at": "2026-08-08",
+   "note": "main rows cited from the four Sidekick rotations, all 6 icons: fortitude Chitin Rush>Venomtip Poison>Hivebreak>Carapace Crash>Barbed Stinger>Expulsion (tank shed loop); rot Wilt>Spore>Venom Bolt>Serpent's Fang>Mycosis>Decay (DoT ramp); stalking Venom Fang>Nerubian Sting>Withering Venom>Facemelter>Rotfang>Widowmaker (builder->finishers->execute); vizier Serpent's Fang>Shadra's Prayer>Shadra's Balm>Mending Mist>Green Salve>Alkahest ('Lead with Serpent's Fang into your HoTs'). One-line derivations in requirements \u00a74. CD_PER_ROW=11 from narrowest row_w(6)=274px"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Firecrawl-scraped all 4 Sidekick spec pages (fortitude 40648, rot 39741, stalking 40524, vizier 33962 chars) to resources/sidekick-venomancer-<spec>.md; sidekick-data.js snapshot 2026-08-02 postdates newest changelog entry 2026-07-31"
+  },
+  "pets": {
+   "at": "2026-08-08",
+   "note": "\u00a73 answered: NO controllable pet. 4 summon mentions, all temporary/proc creatures -- Fungal Assailant (rot cooldown summon -> ordinary offensive cd icon, the witch-doctor button shape), Scarabs + Spider Lord (fortitude proc summons -> ignore), Scarab 560989 (the 12s creature itself -> ignore). No Call/Revive/Mend verbs anywhere; no unit=pet rows, no NO-PET alert, no pet bar"
+  },
+  "procs": {
+   "at": "2026-08-08",
+   "note": "PROC_GLOW wired from spec-page text: Rot Lich->Serpent's Fang (instant reset), Surprise Strategy->Shadra's Prayer (instant +20%), Skulk+Death Spray->Venom Fang (free/empowered); ramps in on-me rows with stacks: Exposed Flesh (helpful=False) / Alacrity / Protogenesis / Carapace Regeneration fortitude; Rot Lich / Cycle of Decay / A Pit of Snakes rot; Skulk / Widow's Kiss / Acidfang stalking; Venom Shield vizier; Tome of Ahn'kahet + Surprise Strategy + Harden + Lifeblood class-wide SHORT_ENTRIES. Aura names assumed = granting talent -> \u00a76, fail soft"
+  },
+  "requirements": {
+   "at": "2026-08-08",
+   "note": "notes/requirements-venomancer.md: all sections answered -- changelog triage table (From Life Comes Death passive, Brood Marks no duration, Weaver Form regen rework, forms shapeshift-while-silenced), both-DBs sweep with named no-record resolutions, mandatory buffs (7 Venoms 2-of-max + 4 forms + pheromones + spec ramps), talents (Widow's Kiss cyclic transform -- NOT a Spell Known swap; no permanent replaces anywhere; CHARGES Alkahest 2/Carapace Regen 3/Skitter 3/Spindlebind 2), pets (NO controllable pet -- 4 summon mentions all temporary/proc, witch-doctor button shape), main rows all 6 icons cited per spec, miss-handling table, 16 UNKNOWNs in \u00a76"
+  },
+  "talents": {
+   "at": "2026-08-08",
+   "note": "no permanent replaces/transforms in any tree -> no spell_swap; Widow's Kiss is a CYCLIC transform (every 3rd Venom Fang) -- haste aura tracked on-me by name, base button stays, NOT a Spell Known swap; From Life Comes Death now passive (07/31) -- correctly has no button row; CHARGES Alkahest 2 / Carapace Regeneration 3 / Skitter 3 / Spindlebind 2 (Tunneler); Serpent Lord / Spider Lord are form augment passives, no button change; pack reads correctly untalented (active-only glows, charge fallback)"
+  },
+  "tests": {
+   "at": "2026-08-08",
+   "note": "tests/run.py: all checks passed (1282 PASS, full suite, all 15 built classes; venomancer packs published to docs/packs/venomancer with the -coa rename so check 13 measures the real pack). Two component-rank ids caught by check 22 and corrected via CROSSCHECK (Fungal Assailant 503929 rank=Damage -> castable 504344; Shadra's Aid 504351 rank=proc -> castable 504352, both ascension tooltips read). talents.py: 24/24 talent-granted abilities tracked, no holes (rot tab named 'Venom' upstream, resolved by signature). rankings record initialised (empty is a valid state; ZG source is reference-only). Fixtures frozen via tests/freeze.py venomancer (5 files); CORE_LEAVES pinned at 5 in classes.py with composition comment"
+  },
+  "unknowns": {
+   "at": "2026-08-08",
+   "note": "15 UNKNOWN markers in requirements \u00a76, ALL deferred on purpose to the post-ship verified phase: venom + form + proc aura names (displays match id OR name, fail soft), Widow's Kiss live id (other-id family on ascension), Fungal Assailant/Shadra's Aid now CROSSCHECK-corrected but tooltip-unverified in game, Locust Swarm id rank='Spider Lord', Exposed Flesh stack cap (on-me count instead of segments), Beetle/Weaver form alert questions (deliberately un-alerted -- feedback decides), uncited press orders (Venoxis Fang, Rime, Venocannon, Unity, Toxflinger, Toxic Sludge, Big Mushroom, Impale, Brood Trap), vizier SPEC_KNOWN at L20 (Serpent's Mist -- no resolvable L10 teaching id), Cycle of Decay effect text, Serpent Lord toggle-vs-passive, four unbuildable no-id rows"
+  }
+ }
+}

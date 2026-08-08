@@ -186,6 +186,29 @@ weapon strikes carry a Shadow-magic tail, not a healer or a caster"; heretic
 (`resources/sidekick-cultist-*.md`, scraped 2026-08-07). Replace with an
 in-game read when one exists.
 
+| 29 | Venomancer | fortitude | tank |
+| 29 | Venomancer | rot | damage |
+| 29 | Venomancer | stalking | damage |
+| 29 | Venomancer | vizier | healing |
+
+**Venomancer provenance (29):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: fortitude "Closest to Brewmaster
+Monk… Both use a stance/form gimmick, Beetle Form here" with a taunt (Vile
+Sting: "Taunts an enemy target to attack you") and "built to be extremely
+hard to burst down rather than to top DPS charts" — and "Every spec-line heal
+points at yourself… You cannot keep a duo partner up", so tank, not healer;
+rot "This is a pure ranged damage spec. Its support is a group spell-haste
+aura… not any ally healing" (its Serpent's Fang splash is "modest
+off-healing rather than a healer's engine"); stalking "Stalking is a pure DPS
+spec with no group buff… You are pressure and execute, not a leech-tank";
+vizier "Vizier does what any pure healer does: keeps a frontline ally, or
+itself, alive" / "Vizier is a pure mana healer built around Shadra's Prayer"
+(`resources/sidekick-venomancer-*.md`, scraped 2026-08-07). Kit
+corroboration: vizier 11/27 abilities mention heal/absorb/shield (41%) vs
+fortitude 19% (self-heals), rot 28% (Serpent's Fang line), stalking 10% —
+muted vs the usual 5x because rot's kit genuinely heals as a side effect.
+Replace with an in-game read when one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit

@@ -75,6 +75,16 @@
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
   },
+  "1263d55cef58adc2": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "From Life Comes Death is now a passive instead of a cooldown. The effect remains the same, spawning Mushrooms on kill."
+  },
+  "126dc6665b4825d6": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 7's damage has been increased from 510 to 663, and healing from 272 to 381."
+  },
   "13f376006eaa0437": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -110,6 +120,11 @@
    "date": "2026/07/31",
    "text": "Fixed a bug where Inferno was not contributing to the Pyromancer in the combat log. (This spell was doing more than you thought because it contributed to other people\u2019s healing and not your own)."
   },
+  "18d99b679d451933": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Fungal Assailant base mana cost reduced from 20% to 15%."
+  },
   "18f27d7d3c4eb8c4": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -119,6 +134,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Hookshot Rank 6's damage has been increased from 378 to 567."
+  },
+  "1ba286705c69336c": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "All Shapeshift forms will now make you immune to polymorphs while active."
   },
   "1d4993ff994c82ca": {
    "class": "ranger",
@@ -139,6 +159,11 @@
    "class": "tinker",
    "date": "2026/07/31",
    "text": "Range of Med Pack increased from 10 yds to 30 yds."
+  },
+  "1eae5f7d498211ce": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 5's damage has been increased from 245 to 319, and healing from 114 to 160."
   },
   "2060a18cc2a3f4e2": {
    "class": "reaper",
@@ -250,6 +275,11 @@
    "date": "2026/07/31",
    "text": "Spectre Stride now roots the target for 2 sec."
   },
+  "362dd1fac804bd3d": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Spore\u2019s Spell Power coefficient has been increased to 24% from 18%."
+  },
   "37903d0e830d73f8": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -295,6 +325,11 @@
    "date": "2026/07/31",
    "text": "Terrasurge Rank 6 increased damage from 760 to 836."
   },
+  "3e581af89c519810": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Weaver Form\u2019s ICD on its mana regeneration removed."
+  },
   "3e87574f49e56bac": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -320,6 +355,16 @@
    "date": "2026/07/31",
    "text": "Scythe Rush now roots the enemy in place for 1 sec."
   },
+  "4172494e3fdbf4e6": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 3's damage has been increased from 111 to 144, and healing from 55 to 77."
+  },
+  "4190f10ba248a6c0": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Spore base mana cost reduced from 15% to 13%."
+  },
   "4234cc3f223cd9ba": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -329,6 +374,16 @@
    "class": "pyromancer",
    "date": "2026/07/31",
    "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
+  },
+  "44249258cf4dbe7d": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Wilt\u2019s Spell Power coefficient has been increased to 20% per tick from 18%."
+  },
+  "45144762f145f3ff": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 4's damage has been increased from 180 to 234, and healing from 89 to 125."
   },
   "46613deb97912961": {
    "class": "witch-doctor",
@@ -375,6 +430,11 @@
    "date": "2026/07/31",
    "text": "Ravage Rank 1's damage has been increased from 28 to 35."
   },
+  "4d4ea8c93e832474": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Mycosis base mana cost reduced from 16% to 14%."
+  },
   "4f0d1f1544de28f4": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -420,6 +480,11 @@
    "date": "2026/07/31",
    "text": "The Mechano-Bear now generates increased threat with Mechano-Growl"
   },
+  "548612985807a997": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Brood Marks no longer have a duration."
+  },
   "551f2ef223dfbfa7": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -435,10 +500,20 @@
    "date": "2026/07/31",
    "text": "Hoarfrost AoE Range increased from 5 yds to 8 yds."
   },
+  "558c2a561ffceddf": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Mycelial Ring additionally increases the damage of all Mushrooms you trigger by 50% when you have it learned."
+  },
   "567f1ddef4040863": {
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Stake Rank 1's damage has been increased from 201 to 279."
+  },
+  "5a5ee8421524e535": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 6's damage has been increased from 431 to 560, and healing from 143 to 200."
   },
   "5badf4966e8c79d1": {
    "class": "primalist",
@@ -449,6 +524,11 @@
    "class": "runemaster",
    "date": "2026/07/31",
    "text": "Runic Explosion base damage has been increased by approximately 25%."
+  },
+  "5c9c757bf6565b98": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Weaver Form now generates 5% base mana instead of 5% missing mana. This will make the mana regeneration feel more consistent, rather than only being regenerative when you are low on mana and do nothing when you are higher on mana."
   },
   "5d734f9347f9f8b9": {
    "class": "witch-hunter",
@@ -540,6 +620,11 @@
    "date": "2026/07/31",
    "text": "Aeon of Protection reworked: Increases cast time of Epoch by 25% and increases the healing done by 25% and Epoch now shields the target for 50% of the amount healed."
   },
+  "6cc0c3793ed5de1e": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 8's damage has been increased from 596 to 775, and healing from 245 to 343."
+  },
   "6d16e679d8177004": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -585,6 +670,11 @@
    "date": "2026/07/31",
    "text": "Flux Arc duration increased from 8 sec to 10 sec."
   },
+  "72949a12a7364f83": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Spider Lord\u2019s chance on auto attack to summon a Scarab increased from 5% to 15%. Additionally, it can now trigger from both Carapace Crash and Hivebreak at the same 40% chance, from just Hivebreak."
+  },
   "7326224ccefb47bb": {
    "class": "necromancer",
    "date": "2026/07/31",
@@ -620,6 +710,11 @@
    "date": "2026/07/31",
    "text": "Tonic effectiveness has been increased across the board by 50%-100%, but the durations have been reduced to 10 seconds from 15 seconds."
   },
+  "79c6503ba00b0a8b": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Wilt base mana cost reduced from 10% to 9%."
+  },
   "7d1478f0f23159f4": {
    "class": "chronomancer",
    "date": "2026/07/31",
@@ -629,6 +724,11 @@
    "class": "primalist",
    "date": "2026/07/31",
    "text": "Stoneshard Rank 6 increased damage from 478 to 526."
+  },
+  "7ee023e44c6e69d1": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 2's damage has been increased from 64 to 83, and healing from 43 to 60."
   },
   "7fbac2a10567f438": {
    "class": "knight-of-xoroth",
@@ -770,6 +870,11 @@
    "date": "2026/07/31",
    "text": "Fixed a bug causing Phoenix Dive to apply its coefficient twice to the absorb value and Phoenix Dive now hits up to 10 targets."
   },
+  "8e59cc7bfb14495c": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Serpent's Fang Rank 1's damage has been increased from 27 to 35, and healing from 32 to 45."
+  },
   "9183adc4aa4058d7": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -805,6 +910,11 @@
    "date": "2026/07/31",
    "text": "Whirling Assault\u2019s damage increase against enemies above 80% HP increased from 300% to 500%."
   },
+  "9cc69bb12eca9247": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "You can now shapeshift while silenced"
+  },
   "9d15949854ad0b27": {
    "class": "witch-doctor",
    "date": "2026/07/31",
@@ -814,6 +924,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Stake Rank 5's damage has been increased from 401 to 557."
+  },
+  "9e76a619a6324d44": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Prophetic Speaker now also increases the maximum targets struck by Decay by 5"
   },
   "9e77554370131106": {
    "class": "ranger",
@@ -854,6 +969,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Hookshot Rank 1's damage has been increased from 66 to 99."
+  },
+  "a73f5fbbaed5bf6a": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Venom Bolt base mana cost reduced from 15% to 13%."
   },
   "a779fdbb98208cb5": {
    "class": "runemaster",
@@ -909,6 +1029,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 5's damage has been increased from 45 to 129."
+  },
+  "b48dfd3dd165f46f": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Cycle of Decay now allows Spore and Wilt to critically strike."
   },
   "b52cbeef6ecf13d5": {
    "class": "primalist",
@@ -1150,6 +1275,11 @@
    "date": "2026/07/31",
    "text": "Scourge Disciple has been fixed, your Skeletal Archers now properly provide you haste while active."
   },
+  "dd010ef52067e15b": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Withering Venom now generates 1 Brood Mark."
+  },
   "e05aab1a13b49177": {
    "class": "barbarian",
    "date": "2026/07/31",
@@ -1229,6 +1359,16 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "At level 40, you can now learn Trap Launcher, allowing you to launch your traps up to 30yds away."
+  },
+  "ee4c4d2846219a5c": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Suffocating Coils proc chance increased from 5% to 8%."
+  },
+  "f0f53bf07bac447e": {
+   "class": "venomancer",
+   "date": "2026/07/31",
+   "text": "Undead can now be Venomancers."
   },
   "f14d4bf30492e40f": {
    "class": "primalist",

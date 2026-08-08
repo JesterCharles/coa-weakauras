@@ -1,0 +1,12 @@
+{
+ "Poison Eruption": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Named ONCE in the whole sidekick-data.js blob, inside fortitude's generated 'Line up X, Y, Z with your burst window' cooldown prose -- the 1-hit-in-blob shape (Pyromancer's Comet Storm). The only resolvable id, 520232, reads 'Requires Scorpid Form' -- a form that exists nowhere in the current venomancer kit, i.e. a stale revision row. Not on the scraped fortitude page kit (2026-08-07). Unbuildable prose name; recorded null so it does not come back as a fresh mystery on the next import."
+ },
+ "Venomancer (Stalking)": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "A spec LABEL, not an ability: the blob's generated maintain prose names the spec itself ('Venomancer (Stalking)'). No such spell exists in either database. Null."
+ }
+}
