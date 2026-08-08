@@ -1,0 +1,198 @@
+{
+ "sidekick-page-templar-crusader-2026-08-08": {
+  "caveats": [
+   "press order read from: 'Open with Righteous Lunge... Build the Oath layer: Holy Cleave for the extra-strike Oath, Righteous Lunge for the damage/heal Oath, Condemn for the crit Oath and its stacking DoT. Keep the Oath Chain alive with Argent Blade... Dump into Chastise... or Blade of Faith... Titanstrike is your execute below 35% health'",
+   "the page's 'Argent Blade extends the Oath Chain' claim is STALE against the 2026/08/06 changelog (it now triggers Scourgebane instead); Argent Blade keeps its main-row slot on the page's own self-heal/Scarlet-Hammer-face grounds",
+   "'Deliberately hold your Oath Breakers here. Righteous Tempest consumes the entire bank for a 3-second whirl' -- Righteous Tempest is a cooldown-row spender, not main-row",
+   "transcribed by hand from the spec page's Playstyle/Solo/Dungeon paragraphs, scraped 2026-08-08 to resources/sidekick-templar-crusader.md",
+   "ascension.gg changelog 2026/07/31+08/06 (resources/changelog-entries.json): Scarlet Training now transforms Argent Blade into Scarlet Hammer (was Chastise); Argent Blade now triggers Scourgebane instead of extending the Oath Chain; Oath buffs cap at 10 stacks"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Righteous Tempest",
+    "Testament of Strength",
+    "Libram of Consecration",
+    "Libram of Grace",
+    "Divine Charge"
+   ],
+   "maintain": [
+    "Condemn",
+    "Blade of Faith"
+   ],
+   "priority": [
+    "Righteous Lunge",
+    "Holy Cleave",
+    "Condemn",
+    "Argent Blade",
+    "Chastise",
+    "Titanstrike",
+    "Blade of Faith"
+   ]
+  },
+  "class": "templar",
+  "content_sha256": "5cbdefc8da29a3cf",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-08",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/templar/crusader",
+  "spec": "crusader",
+  "transcribed_by": "templar draft pass"
+ },
+ "sidekick-page-templar-oathkeeper-2026-08-08": {
+  "caveats": [
+   "press order read from: 'use Sacred Swing off your dodges and parries to keep Oaths flowing... Righteous Lunge... Spend into Reckoning as your default Oath Breaker... Benediction is your baseline reactive heal... bank toward Benediction by default... Holy Cleave (whose Oath makes your abilities strike additional nearby enemies)... Switch to Reckoning/Chastise only when a pull needs to die faster'",
+   "tank spec: 'Pull with Absolution to taunt and establish threat'; defensive sequencing 'Tome of Light's shield, Barrier of Light, the Staffguard and Untainted absorbs'",
+   "transcribed by hand from the spec page's Playstyle/Solo/Dungeon paragraphs, scraped 2026-08-08 to resources/sidekick-templar-oathkeeper.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Tome of Light",
+    "Barrier of Light",
+    "Absolution",
+    "Libram of Tenacity",
+    "Testament of Fortitude"
+   ],
+   "maintain": [],
+   "priority": [
+    "Sacred Swing",
+    "Righteous Lunge",
+    "Reckoning",
+    "Benediction",
+    "Holy Cleave",
+    "Chastise"
+   ]
+  },
+  "class": "templar",
+  "content_sha256": "f84e7691446c308d",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-08",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/templar/oathkeeper",
+  "spec": "oathkeeper",
+  "transcribed_by": "templar draft pass"
+ },
+ "sidekick-page-templar-zealot-2026-08-08": {
+  "caveats": [
+   "press order read from: 'Stack Condemn early... keep it up. Build Oaths with Righteous Lunge and Vindication... Spend into a finisher: Righteous Upheaval when you've triggered enough Zealotry to max its stacks, otherwise Blade of Faith... spread Condemn across a pack with Holy Cleave... Cycle your Librams on cooldown (Consecration -> Fervor -> Zeal), and pop Force of Golganneth on a tough target or pack'",
+   "the page's Divine Fury transform prose ('your Chastise becomes Divine Fury') is STALE against the 2026/08/06 changelog (Divine Fury now transforms Vindication) -- the changelog citation carries that claim",
+   "transcribed by hand from the spec page's Playstyle/Solo/Dungeon paragraphs, scraped 2026-08-08 to resources/sidekick-templar-zealot.md",
+   "ascension.gg changelog 2026/08/06 (resources/changelog-entries.json): Divine Fury now transforms Vindication instead of Titanstrike; Oath buffs cap at 10 stacks; Oath Chain base duration 15 sec"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Force of Golganneth",
+    "Libram of Consecration",
+    "Libram of Fervor",
+    "Libram of Zeal",
+    "Norgannon's Wrath"
+   ],
+   "maintain": [
+    "Condemn",
+    "Blade of Faith"
+   ],
+   "priority": [
+    "Condemn",
+    "Righteous Lunge",
+    "Vindication",
+    "Righteous Upheaval",
+    "Blade of Faith",
+    "Holy Cleave"
+   ]
+  },
+  "class": "templar",
+  "content_sha256": "bd3a8f4a941ca835",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-08",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/templar/zealot",
+  "spec": "zealot",
+  "transcribed_by": "templar draft pass"
+ },
+ "sidekick-templar-crusader-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Glory",
+    "Mirror Image",
+    "Silverhand Incantation"
+   ],
+   "maintain": [
+    "Scourgebane",
+    "Tyr's Hammer",
+    "Flaming Blade"
+   ],
+   "priority": [],
+   "signature": [
+    "Scourgebane"
+   ]
+  },
+  "class": "templar",
+  "content_sha256": "c0b4a3e18945fe5b",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/templar/crusader",
+  "spec": "crusader"
+ },
+ "sidekick-templar-oathkeeper-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Libram of Grace",
+    "Spiritual Ascension",
+    "Tome of Light"
+   ],
+   "maintain": [
+    "Templar (Oathkeeper)",
+    "Oathbreaker"
+   ],
+   "priority": [],
+   "signature": [
+    "Keeping the Oath"
+   ]
+  },
+  "class": "templar",
+  "content_sha256": "90f8a7f4b44e6c25",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/templar/oathkeeper",
+  "spec": "oathkeeper"
+ },
+ "sidekick-templar-zealot-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Barrier of Light",
+    "Beatdown",
+    "Libram of Benediction"
+   ],
+   "maintain": [
+    "Flaming Blade"
+   ],
+   "priority": [],
+   "signature": [
+    "Zealotry"
+   ]
+  },
+  "class": "templar",
+  "content_sha256": "561ae3fbbfe950a5",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/templar/zealot",
+  "spec": "zealot"
+ }
+}

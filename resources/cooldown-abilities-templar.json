@@ -1,0 +1,334 @@
+{
+ "Argent Blade": {
+  "id": 804929,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Barrier of Light": {
+  "id": 805417,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Beatdown": {
+  "id": 804910,
+  "cd": "2 min cooldown",
+  "specs": [
+   "zealot"
+  ],
+  "gcd": false
+ },
+ "Beckon": {
+  "id": 804914,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Crusader's Brand": {
+  "id": 300513,
+  "cd": "1 min cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Crusader's Presence": {
+  "id": 562302,
+  "cd": "1 min cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Divine Charge": {
+  "id": 527023,
+  "cd": "3 min cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Downfall": {
+  "id": 801482,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Force of Golganneth": {
+  "id": 500694,
+  "cd": "2 min cooldown",
+  "specs": [
+   "zealot"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Glory": {
+  "id": 801481,
+  "cd": "2 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Grace of Aman'Thul": {
+  "id": 801477,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Harmony": {
+  "id": 804680,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Interdict": {
+  "id": 560116,
+  "cd": "2 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Libram of Fervor": {
+  "id": 805423,
+  "cd": "3 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Libram of Grace": {
+  "id": 801463,
+  "cd": "3 min cooldown",
+  "specs": [
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Libram of Tenacity": {
+  "id": 801461,
+  "cd": "3 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Light's Grace": {
+  "id": 804913,
+  "cd": "2 min cooldown",
+  "specs": [
+   "zealot"
+  ],
+  "gcd": false
+ },
+ "Light's Hope": {
+  "id": 807814,
+  "cd": "1 min cooldown",
+  "specs": [
+   "zealot",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Mend Ward": {
+  "id": 804902,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Mortal Abdication": {
+  "id": 13976911,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Profound Enlightenment": {
+  "id": 680953,
+  "cd": "3 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Quickness": {
+  "id": 804909,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Reflect Magic": {
+  "id": 801440,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Righteous Duel": {
+  "id": 805419,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Silverhand Incantation": {
+  "id": 801465,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Spiritual Abdication": {
+  "id": 704408,
+  "cd": "1 min cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Spiritual Ascension": {
+  "id": 500688,
+  "cd": "5 min cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Staff Sweep": {
+  "id": 300776,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Testament of Faith": {
+  "id": 801478,
+  "cd": "3 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Testament of Fortitude": {
+  "id": 500678,
+  "cd": "3 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Testament of Hope": {
+  "id": 1397742,
+  "cd": "3 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Testament of Resolve": {
+  "id": 804228,
+  "cd": "1 min cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Testament of Strength": {
+  "id": 300514,
+  "cd": "3 min cooldown",
+  "specs": [
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Testament of Will": {
+  "id": 801455,
+  "cd": "1 min cooldown",
+  "specs": [
+   "zealot",
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Tithe": {
+  "id": 804781,
+  "cd": "1 hour cooldown",
+  "specs": [
+   "oathkeeper",
+   "crusader"
+  ],
+  "gcd": false
+ },
+ "Tome of Light": {
+  "id": 805422,
+  "cd": "5 min cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Ward of Aman'thul": {
+  "id": 804908,
+  "cd": "1 min cooldown",
+  "specs": [
+   "oathkeeper"
+  ],
+  "gcd": false
+ },
+ "Weak Spot": {
+  "id": 804920,
+  "cd": "16.667 min cooldown",
+  "specs": [
+   "zealot"
+  ],
+  "gcd": false
+ }
+}

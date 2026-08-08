@@ -1,0 +1,2834 @@
+{
+ "10 Holy Runes": {
+  "ids": [
+   802056
+  ],
+  "icon": null
+ },
+ "Absolute Power": {
+  "ids": [
+   705297
+  ],
+  "icon": null
+ },
+ "Absolution": {
+  "ids": [
+   520659
+  ],
+  "icon": null
+ },
+ "Acrobatics": {
+  "ids": [
+   704178
+  ],
+  "icon": null
+ },
+ "After Combat Move": {
+  "ids": [
+   706578
+  ],
+  "icon": null
+ },
+ "Aggramar's Rage": {
+  "ids": [
+   560650
+  ],
+  "icon": null
+ },
+ "Aggramar's Will": {
+  "ids": [
+   572573
+  ],
+  "icon": null
+ },
+ "Alertness": {
+  "ids": [
+   706321
+  ],
+  "icon": null
+ },
+ "Aman'thul's Guidance": {
+  "ids": [
+   300527
+  ],
+  "icon": null
+ },
+ "Argent Blade": {
+  "ids": [
+   804929
+  ],
+  "icon": null
+ },
+ "Argent Commander": {
+  "ids": [
+   520448
+  ],
+  "icon": null
+ },
+ "Argent Knight": {
+  "ids": [
+   300512
+  ],
+  "icon": null
+ },
+ "Argent Tempest": {
+  "ids": [
+   503575
+  ],
+  "icon": null
+ },
+ "Armor of Faith": {
+  "ids": [
+   801546
+  ],
+  "icon": null
+ },
+ "Ascend (Forward)": {
+  "ids": [
+   800980
+  ],
+  "icon": null
+ },
+ "Ascetic Abdication": {
+  "ids": [
+   500690
+  ],
+  "icon": null
+ },
+ "Ascetic Teachings": {
+  "ids": [
+   572809
+  ],
+  "icon": null
+ },
+ "At Least 3 Holy Runes": {
+  "ids": [
+   803176
+  ],
+  "icon": null
+ },
+ "At Least 5 Holy Runes": {
+  "ids": [
+   704146
+  ],
+  "icon": null
+ },
+ "Atone for your Sins!": {
+  "ids": [
+   561309
+  ],
+  "icon": null
+ },
+ "Avandra Oath: Bladebreaker": {
+  "ids": [
+   804157
+  ],
+  "icon": null
+ },
+ "Avandra Oath: Sweeping Kick": {
+  "ids": [
+   804159
+  ],
+  "icon": null
+ },
+ "Avandra Oath: Uppercut": {
+  "ids": [
+   804158
+  ],
+  "icon": null
+ },
+ "Back to Basics": {
+  "ids": [
+   504108
+  ],
+  "icon": null
+ },
+ "Bahamut": {
+  "ids": [
+   803147
+  ],
+  "icon": null
+ },
+ "Barrier of Light": {
+  "ids": [
+   805417
+  ],
+  "icon": null
+ },
+ "Battle Hardened": {
+  "ids": [
+   520033
+  ],
+  "icon": null
+ },
+ "Battlepriest": {
+  "ids": [
+   680952
+  ],
+  "icon": null
+ },
+ "Beatdown": {
+  "ids": [
+   804910
+  ],
+  "icon": null
+ },
+ "Beckon": {
+  "ids": [
+   804914
+  ],
+  "icon": null
+ },
+ "Bells of Light": {
+  "ids": [
+   801204
+  ],
+  "icon": null
+ },
+ "Benediction": {
+  "ids": [
+   801448
+  ],
+  "icon": null
+ },
+ "Bile Eruption": {
+  "ids": [
+   525041
+  ],
+  "icon": null
+ },
+ "Binding Scripture": {
+  "ids": [
+   705309
+  ],
+  "icon": null
+ },
+ "Blade Rush": {
+  "ids": [
+   805408
+  ],
+  "icon": null
+ },
+ "Blade Sermon": {
+  "ids": [
+   572548
+  ],
+  "icon": null
+ },
+ "Blade Tempest": {
+  "ids": [
+   8054099
+  ],
+  "icon": null
+ },
+ "Blade of Faith": {
+  "ids": [
+   803872
+  ],
+  "icon": null
+ },
+ "Blade of Faith Strike": {
+  "ids": [
+   706579
+  ],
+  "icon": null
+ },
+ "Blademaster": {
+  "ids": [
+   805691
+  ],
+  "icon": null
+ },
+ "Blades of Light": {
+  "ids": [
+   301257
+  ],
+  "icon": null
+ },
+ "Blessed Padding": {
+  "ids": [
+   301311
+  ],
+  "icon": null
+ },
+ "Blessed Strikes": {
+  "ids": [
+   574324
+  ],
+  "icon": null
+ },
+ "Blessing of Aggramar": {
+  "ids": [
+   300502
+  ],
+  "icon": null
+ },
+ "Blessing of Eonar": {
+  "ids": [
+   520537
+  ],
+  "icon": null
+ },
+ "Blessing of Norgannon": {
+  "ids": [
+   680956
+  ],
+  "icon": null
+ },
+ "Bloodletting": {
+  "ids": [
+   300517
+  ],
+  "icon": null
+ },
+ "Brand of Aggramar": {
+  "ids": [
+   704432
+  ],
+  "icon": null
+ },
+ "Burn Wound": {
+  "ids": [
+   801203
+  ],
+  "icon": null
+ },
+ "Burn Wounds": {
+  "ids": [
+   805414
+  ],
+  "icon": null
+ },
+ "Burning Advance": {
+  "ids": [
+   300511
+  ],
+  "icon": null
+ },
+ "Burning Banner Teleport": {
+  "ids": [
+   520010
+  ],
+  "icon": null
+ },
+ "Burning Charge": {
+  "ids": [
+   300510
+  ],
+  "icon": null
+ },
+ "Burning Cleave": {
+  "ids": [
+   13377892
+  ],
+  "icon": null
+ },
+ "Bursting Impact": {
+  "ids": [
+   705276
+  ],
+  "icon": null
+ },
+ "Call of the Monastery": {
+  "ids": [
+   560550
+  ],
+  "icon": null
+ },
+ "Calm Combatant": {
+  "ids": [
+   705281
+  ],
+  "icon": null
+ },
+ "Cat-Like Reflexes": {
+  "ids": [
+   300518
+  ],
+  "icon": null
+ },
+ "Cauterizing Flames": {
+  "ids": [
+   300516
+  ],
+  "icon": null
+ },
+ "Chainbreaker": {
+  "ids": [
+   805331
+  ],
+  "icon": null
+ },
+ "Chakra of Discipline": {
+  "ids": [
+   706581
+  ],
+  "icon": null
+ },
+ "Chakra of Light": {
+  "ids": [
+   803159
+  ],
+  "icon": null
+ },
+ "Chakra of Power": {
+  "ids": [
+   803158
+  ],
+  "icon": null
+ },
+ "Chakra of Wrath": {
+  "ids": [
+   800760
+  ],
+  "icon": null
+ },
+ "Chakram": {
+  "ids": [
+   704573
+  ],
+  "icon": null
+ },
+ "Chakre of Speed": {
+  "ids": [
+   520310
+  ],
+  "icon": null
+ },
+ "Chastise": {
+  "ids": [
+   803157
+  ],
+  "icon": null
+ },
+ "Chastise Dot Increase": {
+  "ids": [
+   560370
+  ],
+  "icon": null
+ },
+ "Chivalric": {
+  "ids": [
+   705272
+  ],
+  "icon": null
+ },
+ "CoA Aura - Templar - Crusader": {
+  "ids": [
+   887045
+  ],
+  "icon": null
+ },
+ "CoA Aura - Templar - Oathkeeper": {
+  "ids": [
+   887044
+  ],
+  "icon": null
+ },
+ "CoA Aura - Templar - Zealot": {
+  "ids": [
+   887043
+  ],
+  "icon": null
+ },
+ "CoA Aura - Templar Class": {
+  "ids": [
+   887007
+  ],
+  "icon": null
+ },
+ "Combat Training": {
+  "ids": [
+   706319
+  ],
+  "icon": null
+ },
+ "Combo: Righteous Lunge (Deprecated)": {
+  "ids": [
+   706586
+  ],
+  "icon": null
+ },
+ "Condemn": {
+  "ids": [
+   804906
+  ],
+  "icon": null
+ },
+ "Condemnation": {
+  "ids": [
+   704175
+  ],
+  "icon": null
+ },
+ "Consecrated Armor": {
+  "ids": [
+   705304
+  ],
+  "icon": null
+ },
+ "Consume 5 Holy Runes": {
+  "ids": [
+   704155
+  ],
+  "icon": null
+ },
+ "Conviction": {
+  "ids": [
+   712677
+  ],
+  "icon": null
+ },
+ "Courage": {
+  "ids": [
+   707754
+  ],
+  "icon": null
+ },
+ "Crusader's Brand": {
+  "ids": [
+   300513
+  ],
+  "icon": null
+ },
+ "Crusader's Leap": {
+  "ids": [
+   504513
+  ],
+  "icon": null
+ },
+ "Crusader's Presence": {
+  "ids": [
+   562302
+  ],
+  "icon": null
+ },
+ "Darklight": {
+  "ids": [
+   801497
+  ],
+  "icon": null
+ },
+ "Dash of Light": {
+  "ids": [
+   520443
+  ],
+  "icon": null
+ },
+ "Dash of Light Charge Delayer": {
+  "ids": [
+   520502
+  ],
+  "icon": null
+ },
+ "Dash of Light Condition Hidden Aura": {
+  "ids": [
+   520444
+  ],
+  "icon": null
+ },
+ "Deathspeaker": {
+  "ids": [
+   803174
+  ],
+  "icon": null
+ },
+ "Deep Meditation": {
+  "ids": [
+   300522
+  ],
+  "icon": null
+ },
+ "Deep Meditation (Heal)": {
+  "ids": [
+   520020
+  ],
+  "icon": null
+ },
+ "Deep Secrets": {
+  "ids": [
+   705263
+  ],
+  "icon": null
+ },
+ "Deliverance": {
+  "ids": [
+   704116
+  ],
+  "icon": null
+ },
+ "Detect Evil": {
+  "ids": [
+   562226
+  ],
+  "icon": null
+ },
+ "Determined": {
+  "ids": [
+   681136
+  ],
+  "icon": null
+ },
+ "Determined DEPRECATED": {
+  "ids": [
+   504412
+  ],
+  "icon": null
+ },
+ "Devotion of Khaz'goroth": {
+  "ids": [
+   560096
+  ],
+  "icon": null
+ },
+ "Devotion of Khaz'goroth 2": {
+  "ids": [
+   560108
+  ],
+  "icon": null
+ },
+ "Devout": {
+  "ids": [
+   705282
+  ],
+  "icon": null
+ },
+ "Diligence": {
+  "ids": [
+   300508
+  ],
+  "icon": null
+ },
+ "Dip, Strike, and Dodge": {
+  "ids": [
+   680385
+  ],
+  "icon": null
+ },
+ "Discipline": {
+  "ids": [
+   500010
+  ],
+  "icon": null
+ },
+ "Discipline of Titans": {
+  "ids": [
+   561001
+  ],
+  "icon": null
+ },
+ "Disciplined": {
+  "ids": [
+   680396
+  ],
+  "icon": null
+ },
+ "Disciplined Blows": {
+  "ids": [
+   680397
+  ],
+  "icon": null
+ },
+ "Disciplined Combat": {
+  "ids": [
+   520089
+  ],
+  "icon": null
+ },
+ "Disciplined Mind": {
+  "ids": [
+   680399
+  ],
+  "icon": null
+ },
+ "Dissonance": {
+  "ids": [
+   705301
+  ],
+  "icon": null
+ },
+ "Divine Charge": {
+  "ids": [
+   527023
+  ],
+  "icon": null
+ },
+ "Divine Force": {
+  "ids": [
+   806153
+  ],
+  "icon": null
+ },
+ "Divine Fury": {
+  "ids": [
+   500689
+  ],
+  "icon": null
+ },
+ "Divine Intervention": {
+  "ids": [
+   520451
+  ],
+  "icon": null
+ },
+ "Divine Stand": {
+  "ids": [
+   807729
+  ],
+  "icon": null
+ },
+ "Divine Strikes": {
+  "ids": [
+   705255
+  ],
+  "icon": null
+ },
+ "Divine Trample": {
+  "ids": [
+   527269
+  ],
+  "icon": null
+ },
+ "Double Jump (Forward)": {
+  "ids": [
+   704179
+  ],
+  "icon": null
+ },
+ "Downfall": {
+  "ids": [
+   801482
+  ],
+  "icon": null
+ },
+ "Duty Calls": {
+  "ids": [
+   560834
+  ],
+  "icon": null
+ },
+ "Elite Oaths": {
+  "ids": [
+   560239
+  ],
+  "icon": null
+ },
+ "Energize +5 Energy": {
+  "ids": [
+   524898
+  ],
+  "icon": null
+ },
+ "Energize +5 Focus": {
+  "ids": [
+   525081
+  ],
+  "icon": null
+ },
+ "Engrave Fists": {
+  "ids": [
+   802992
+  ],
+  "icon": null
+ },
+ "Engrave Fists (Coral Test)": {
+  "ids": [
+   504087
+  ],
+  "icon": null
+ },
+ "Enlightened": {
+  "ids": [
+   572580
+  ],
+  "icon": null
+ },
+ "Epiphany": {
+  "ids": [
+   680401
+  ],
+  "icon": null
+ },
+ "Epiphany Trigger": {
+  "ids": [
+   680403
+  ],
+  "icon": null
+ },
+ "Eternal Blessing": {
+  "ids": [
+   680951
+  ],
+  "icon": null
+ },
+ "Eternally Devoted": {
+  "ids": [
+   573452
+  ],
+  "icon": null
+ },
+ "Faith": {
+  "ids": [
+   706466
+  ],
+  "icon": null
+ },
+ "Faith Guard": {
+  "ids": [
+   705259
+  ],
+  "icon": null
+ },
+ "Fanatic": {
+  "ids": [
+   7052670
+  ],
+  "icon": null
+ },
+ "Fel Cloak": {
+  "ids": [
+   804988
+  ],
+  "icon": null
+ },
+ "Fervent Castigation": {
+  "ids": [
+   707606
+  ],
+  "icon": null
+ },
+ "Fight Club": {
+  "ids": [
+   705269
+  ],
+  "icon": null
+ },
+ "Final Prayer": {
+  "ids": [
+   705268
+  ],
+  "icon": null
+ },
+ "Finesse": {
+  "ids": [
+   705271
+  ],
+  "icon": null
+ },
+ "Fire Strike of the Leviathan": {
+  "ids": [
+   505176
+  ],
+  "icon": null
+ },
+ "Fist of Light": {
+  "ids": [
+   803142
+  ],
+  "icon": null
+ },
+ "Flaming Blade": {
+  "ids": [
+   801451
+  ],
+  "icon": null
+ },
+ "Flaming Edge": {
+  "ids": [
+   705257
+  ],
+  "icon": null
+ },
+ "Flank (Initial Apply)": {
+  "ids": [
+   805399
+  ],
+  "icon": null
+ },
+ "Flank (Left)": {
+  "ids": [
+   805397
+  ],
+  "icon": null
+ },
+ "Flank (Random Apply)": {
+  "ids": [
+   805400
+  ],
+  "icon": null
+ },
+ "Flank (Right)": {
+  "ids": [
+   805398
+  ],
+  "icon": null
+ },
+ "Flanking Passive": {
+  "ids": [
+   805401
+  ],
+  "icon": null
+ },
+ "Flanking Strike": {
+  "ids": [
+   805395
+  ],
+  "icon": null
+ },
+ "Focus": {
+  "ids": [
+   504411
+  ],
+  "icon": null
+ },
+ "Focus Fists": {
+  "ids": [
+   805460
+  ],
+  "icon": null
+ },
+ "Focused": {
+  "ids": [
+   300524
+  ],
+  "icon": null
+ },
+ "Follow Through": {
+  "ids": [
+   704577
+  ],
+  "icon": null
+ },
+ "Follow Up Destacker Passive": {
+  "ids": [
+   524825
+  ],
+  "icon": null
+ },
+ "Following Up": {
+  "ids": [
+   705273
+  ],
+  "icon": null
+ },
+ "Force Rush": {
+  "ids": [
+   520013
+  ],
+  "icon": null
+ },
+ "Force of Golganneth": {
+  "ids": [
+   500694
+  ],
+  "icon": null
+ },
+ "Forcefield": {
+  "ids": [
+   805841
+  ],
+  "icon": null
+ },
+ "Fortified Body": {
+  "ids": [
+   300515
+  ],
+  "icon": null
+ },
+ "Frost Strike of the Leviathan": {
+  "ids": [
+   504655
+  ],
+  "icon": null
+ },
+ "Fury of Aggramar": {
+  "ids": [
+   800421
+  ],
+  "icon": null
+ },
+ "Generate 1 Holy Rune": {
+  "ids": [
+   802993
+  ],
+  "icon": null
+ },
+ "Generate 3 Holy Runes": {
+  "ids": [
+   802994
+  ],
+  "icon": null
+ },
+ "Gift of Fervor": {
+  "ids": [
+   572629
+  ],
+  "icon": null
+ },
+ "Gift of Zeal": {
+  "ids": [
+   706634
+  ],
+  "icon": null
+ },
+ "Gift of the Monastery": {
+  "ids": [
+   301060
+  ],
+  "icon": null
+ },
+ "Glory": {
+  "ids": [
+   801481
+  ],
+  "icon": null
+ },
+ "Grace": {
+  "ids": [
+   804150
+  ],
+  "icon": null
+ },
+ "Grace of Aman'Thul": {
+  "ids": [
+   801477
+  ],
+  "icon": null
+ },
+ "Grace of Aman'thul": {
+  "ids": [
+   301059
+  ],
+  "icon": null
+ },
+ "Graceful Fighter": {
+  "ids": [
+   705303
+  ],
+  "icon": null
+ },
+ "Greater Crusader's Oath": {
+  "ids": [
+   572630
+  ],
+  "icon": null
+ },
+ "Greater Gift of Zeal": {
+  "ids": [
+   680306
+  ],
+  "icon": null
+ },
+ "Guardian of the Light": {
+  "ids": [
+   707364
+  ],
+  "icon": null
+ },
+ "Guidance": {
+  "ids": [
+   706324
+  ],
+  "icon": null
+ },
+ "Harmonic Disposition": {
+  "ids": [
+   560653
+  ],
+  "icon": null
+ },
+ "Harmony": {
+  "ids": [
+   804680
+  ],
+  "icon": null
+ },
+ "Heaven's Finest": {
+  "ids": [
+   805390
+  ],
+  "icon": null
+ },
+ "Heavy Slam": {
+  "ids": [
+   300528
+  ],
+  "icon": null
+ },
+ "Hellfire Skin": {
+  "ids": [
+   804346
+  ],
+  "icon": null
+ },
+ "Heroic Cleave": {
+  "ids": [
+   524881
+  ],
+  "icon": null
+ },
+ "Hex Defender's Shield": {
+  "ids": [
+   507080
+  ],
+  "icon": null
+ },
+ "Hexxed Leviathan": {
+  "ids": [
+   561117
+  ],
+  "icon": null
+ },
+ "Hidden Knowledge": {
+  "ids": [
+   705277
+  ],
+  "icon": null
+ },
+ "High General": {
+  "ids": [
+   524617
+  ],
+  "icon": null
+ },
+ "Hit Oath": {
+  "ids": [
+   704176
+  ],
+  "icon": null
+ },
+ "Holy Abdicationer Ring": {
+  "ids": [
+   804761
+  ],
+  "icon": null
+ },
+ "Holy Books": {
+  "ids": [
+   706468
+  ],
+  "icon": null
+ },
+ "Holy Cleave": {
+  "ids": [
+   801445
+  ],
+  "icon": null
+ },
+ "Holy Combatant": {
+  "ids": [
+   500011
+  ],
+  "icon": null
+ },
+ "Holy Constitution": {
+  "ids": [
+   706323
+  ],
+  "icon": null
+ },
+ "Holy Crusader": {
+  "ids": [
+   524747
+  ],
+  "icon": null
+ },
+ "Holy Edge": {
+  "ids": [
+   706312
+  ],
+  "icon": null
+ },
+ "Holy Light": {
+  "ids": [
+   706449
+  ],
+  "icon": null
+ },
+ "Holy Master": {
+  "ids": [
+   504810
+  ],
+  "icon": null
+ },
+ "Holy Rune": {
+  "ids": [
+   804330
+  ],
+  "icon": null
+ },
+ "Holy Swing": {
+  "ids": [
+   752784
+  ],
+  "icon": null
+ },
+ "Holy Tempest": {
+  "ids": [
+   301312
+  ],
+  "icon": null
+ },
+ "Holy Upheaval": {
+  "ids": [
+   572547
+  ],
+  "icon": null
+ },
+ "Holy Warstaff": {
+  "ids": [
+   705307
+  ],
+  "icon": null
+ },
+ "Honed Edge": {
+  "ids": [
+   706310
+  ],
+  "icon": null
+ },
+ "Hook Applier (Exposed)": {
+  "ids": [
+   806418
+  ],
+  "icon": null
+ },
+ "Hunting Shot": {
+  "ids": [
+   804271
+  ],
+  "icon": null
+ },
+ "Hybrid Style": {
+  "ids": [
+   524823
+  ],
+  "icon": null
+ },
+ "Improved Benediction": {
+  "ids": [
+   705287
+  ],
+  "icon": null
+ },
+ "Improved Engrave Fists": {
+  "ids": [
+   705260
+  ],
+  "icon": null
+ },
+ "Improved Mend Ward": {
+  "ids": [
+   705310
+  ],
+  "icon": null
+ },
+ "Improved Mortal Abdication": {
+  "ids": [
+   705288
+  ],
+  "icon": null
+ },
+ "Improved Scarlet Hammer": {
+  "ids": [
+   301254
+  ],
+  "icon": null
+ },
+ "Inner Strength": {
+  "ids": [
+   705294
+  ],
+  "icon": null
+ },
+ "Interdict": {
+  "ids": [
+   560116
+  ],
+  "icon": null
+ },
+ "Iron Fist": {
+  "ids": [
+   704228
+  ],
+  "icon": null
+ },
+ "Iron Penance": {
+  "ids": [
+   523712
+  ],
+  "icon": null
+ },
+ "Jab": {
+  "ids": [
+   704572
+  ],
+  "icon": null
+ },
+ "Judgement": {
+  "ids": [
+   300520
+  ],
+  "icon": null
+ },
+ "Judgement of the Gods": {
+  "ids": [
+   524767
+  ],
+  "icon": null
+ },
+ "Judicator": {
+  "ids": [
+   706359
+  ],
+  "icon": null
+ },
+ "Justicar of the Light": {
+  "ids": [
+   707663
+  ],
+  "icon": null
+ },
+ "Justice": {
+  "ids": [
+   712437
+  ],
+  "icon": null
+ },
+ "Keeping the Oath": {
+  "ids": [
+   92109
+  ],
+  "icon": null
+ },
+ "Kick": {
+  "ids": [
+   504120
+  ],
+  "icon": null
+ },
+ "Lasting Markings": {
+  "ids": [
+   705262
+  ],
+  "icon": null
+ },
+ "Left Flank": {
+  "ids": [
+   805393
+  ],
+  "icon": null
+ },
+ "Left Hook": {
+  "ids": [
+   805391
+  ],
+  "icon": null
+ },
+ "Legacy of the Monastery": {
+  "ids": [
+   560011
+  ],
+  "icon": null
+ },
+ "Legacy of the Silver Hand": {
+  "ids": [
+   806522
+  ],
+  "icon": null
+ },
+ "Leviathan Scale": {
+  "ids": [
+   507077
+  ],
+  "icon": null
+ },
+ "Liberty": {
+  "ids": [
+   705266
+  ],
+  "icon": null
+ },
+ "Libram of Benediction": {
+  "ids": [
+   562713
+  ],
+  "icon": null
+ },
+ "Libram of Consecration": {
+  "ids": [
+   801441
+  ],
+  "icon": null
+ },
+ "Libram of Fervor": {
+  "ids": [
+   805423
+  ],
+  "icon": null
+ },
+ "Libram of Grace": {
+  "ids": [
+   801463
+  ],
+  "icon": null
+ },
+ "Libram of Tenacity": {
+  "ids": [
+   801461
+  ],
+  "icon": null
+ },
+ "Libram of Zeal": {
+  "ids": [
+   575328
+  ],
+  "icon": null
+ },
+ "Light As Air": {
+  "ids": [
+   705258
+  ],
+  "icon": null
+ },
+ "Light Stride": {
+  "ids": [
+   524601
+  ],
+  "icon": null
+ },
+ "Light's Chosen": {
+  "ids": [
+   301310
+  ],
+  "icon": null
+ },
+ "Light's Echo": {
+  "ids": [
+   520017
+  ],
+  "icon": null
+ },
+ "Light's Grace": {
+  "ids": [
+   804913
+  ],
+  "icon": null
+ },
+ "Light's Grace Double Jump reset": {
+  "ids": [
+   300778
+  ],
+  "icon": null
+ },
+ "Light's Guidance": {
+  "ids": [
+   524765
+  ],
+  "icon": null
+ },
+ "Light's Holy Abdicationer": {
+  "ids": [
+   504847
+  ],
+  "icon": null
+ },
+ "Light's Hope": {
+  "ids": [
+   807814
+  ],
+  "icon": null
+ },
+ "Light's Ward": {
+  "ids": [
+   300529
+  ],
+  "icon": null
+ },
+ "Lightbringer": {
+  "ids": [
+   561277
+  ],
+  "icon": null
+ },
+ "Lightkeeper": {
+  "ids": [
+   560835
+  ],
+  "icon": null
+ },
+ "Long Blade Master": {
+  "ids": [
+   806012
+  ],
+  "icon": null
+ },
+ "Lorescribe": {
+  "ids": [
+   520050
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury": {
+  "ids": [
+   504657
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury (Flame Missile)": {
+  "ids": [
+   505178
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury (Frost Missile)": {
+  "ids": [
+   505331
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury (Nature Missile)": {
+  "ids": [
+   506627
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury Fire Missile Radius Indicator": {
+  "ids": [
+   507078
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury Fire Missile Trigger": {
+  "ids": [
+   506816
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury Frost Missile Radius Indicator": {
+  "ids": [
+   506817
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury Frost Missile Trigger": {
+  "ids": [
+   506628
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury Nature Missile Radius Indicator": {
+  "ids": [
+   510001
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury Nature Missile Trigger": {
+  "ids": [
+   507076
+  ],
+  "icon": null
+ },
+ "Magmasteel": {
+  "ids": [
+   804931
+  ],
+  "icon": null
+ },
+ "Maiming Strike": {
+  "ids": [
+   560356
+  ],
+  "icon": null
+ },
+ "Mark of Aggramar": {
+  "ids": [
+   804928
+  ],
+  "icon": null
+ },
+ "Martial Paladin": {
+  "ids": [
+   705250
+  ],
+  "icon": null
+ },
+ "Martial Strike": {
+  "ids": [
+   804921
+  ],
+  "icon": null
+ },
+ "Martial Training": {
+  "ids": [
+   806525
+  ],
+  "icon": null
+ },
+ "Martyr": {
+  "ids": [
+   300530
+  ],
+  "icon": null
+ },
+ "Mend Ward": {
+  "ids": [
+   804902
+  ],
+  "icon": null
+ },
+ "Mending Ward": {
+  "ids": [
+   806273
+  ],
+  "icon": null
+ },
+ "Might of Aggramar": {
+  "ids": [
+   803163
+  ],
+  "icon": null
+ },
+ "Mirror Image": {
+  "ids": [
+   704407
+  ],
+  "icon": null
+ },
+ "Mirror Image (Apply)": {
+  "ids": [
+   704410
+  ],
+  "icon": null
+ },
+ "Momentum": {
+  "ids": [
+   706582
+  ],
+  "icon": null
+ },
+ "Monk - Apply Unarmed or Twin Weapon": {
+  "ids": [
+   802078
+  ],
+  "icon": null
+ },
+ "Mortal Abdication": {
+  "ids": [
+   13976911
+  ],
+  "icon": null
+ },
+ "Motivated to Fight": {
+  "ids": [
+   300521
+  ],
+  "icon": null
+ },
+ "Necromancer Periodic": {
+  "ids": [
+   500808
+  ],
+  "icon": null
+ },
+ "Nimble Movements": {
+  "ids": [
+   801458
+  ],
+  "icon": null
+ },
+ "Norgannon's Wrath": {
+  "ids": [
+   520557
+  ],
+  "icon": null
+ },
+ "Oath": {
+  "ids": [
+   706686
+  ],
+  "icon": null
+ },
+ "Oath Chain": {
+  "ids": [
+   704576
+  ],
+  "icon": null
+ },
+ "Oath Chain Delayer": {
+  "ids": [
+   520504
+  ],
+  "icon": null
+ },
+ "Oath Chain Extender": {
+  "ids": [
+   704574
+  ],
+  "icon": null
+ },
+ "Oath Chain Finish": {
+  "ids": [
+   805334
+  ],
+  "icon": null
+ },
+ "Oath Chain Remover": {
+  "ids": [
+   520505
+  ],
+  "icon": null
+ },
+ "Oath Flow": {
+  "ids": [
+   560070
+  ],
+  "icon": null
+ },
+ "Oath: Argent Blade": {
+  "ids": [
+   807931
+  ],
+  "icon": null
+ },
+ "Oath: Bladebreaker": {
+  "ids": [
+   801453
+  ],
+  "icon": null
+ },
+ "Oath: Burning Cleave": {
+  "ids": [
+   13347892
+  ],
+  "icon": null
+ },
+ "Oath: Condemn": {
+  "ids": [
+   804922
+  ],
+  "icon": null
+ },
+ "Oath: Flaming Blade of Lantresor": {
+  "ids": [
+   706585
+  ],
+  "icon": null
+ },
+ "Oath: Holy Cleave": {
+  "ids": [
+   804903
+  ],
+  "icon": null
+ },
+ "Oath: Quenching Blow": {
+  "ids": [
+   804923
+  ],
+  "icon": null
+ },
+ "Oath: Quickpalm": {
+  "ids": [
+   804925
+  ],
+  "icon": null
+ },
+ "Oath: Retribution": {
+  "ids": [
+   804924
+  ],
+  "icon": null
+ },
+ "Oath: Righteous Lunge": {
+  "ids": [
+   804904
+  ],
+  "icon": null
+ },
+ "Oath: Sweeping Kick": {
+  "ids": [
+   803143
+  ],
+  "icon": null
+ },
+ "Oath: Uppercut": {
+  "ids": [
+   803145
+  ],
+  "icon": null
+ },
+ "Oath: Vindication": {
+  "ids": [
+   704244
+  ],
+  "icon": null
+ },
+ "Oathkeeper": {
+  "ids": [
+   803237
+  ],
+  "icon": null
+ },
+ "Oathkeeper - Level 20 Passive": {
+  "ids": [
+   707755
+  ],
+  "icon": null
+ },
+ "One With The Light": {
+  "ids": [
+   504807
+  ],
+  "icon": null
+ },
+ "One-Punch Man": {
+  "ids": [
+   705284
+  ],
+  "icon": null
+ },
+ "Paladin Training": {
+  "ids": [
+   504808
+  ],
+  "icon": null
+ },
+ "Paragon": {
+  "ids": [
+   706357
+  ],
+  "icon": null
+ },
+ "Parry": {
+  "ids": [
+   803165
+  ],
+  "icon": null
+ },
+ "Parry Dance": {
+  "ids": [
+   560651
+  ],
+  "icon": null
+ },
+ "Patience": {
+  "ids": [
+   712678
+  ],
+  "icon": null
+ },
+ "Perma aura for Chastise damage": {
+  "ids": [
+   560389
+  ],
+  "icon": null
+ },
+ "Pious": {
+  "ids": [
+   706431
+  ],
+  "icon": null
+ },
+ "Pious Sweep": {
+  "ids": [
+   520034
+  ],
+  "icon": null
+ },
+ "Pious Thoughts": {
+  "ids": [
+   681071
+  ],
+  "icon": null
+ },
+ "Poison Strike of the Leviathan": {
+  "ids": [
+   505329
+  ],
+  "icon": null
+ },
+ "Power Core": {
+  "ids": [
+   807205
+  ],
+  "icon": null
+ },
+ "Power In Holy Abdicationer": {
+  "ids": [
+   705267
+  ],
+  "icon": null
+ },
+ "Powerful Strikes": {
+  "ids": [
+   705254
+  ],
+  "icon": null
+ },
+ "Priest Training": {
+  "ids": [
+   504561
+  ],
+  "icon": null
+ },
+ "Profound Enlightenment": {
+  "ids": [
+   680953
+  ],
+  "icon": null
+ },
+ "Prowess": {
+  "ids": [
+   704578
+  ],
+  "icon": null
+ },
+ "Pulverizing": {
+  "ids": [
+   524619
+  ],
+  "icon": null
+ },
+ "Puncture": {
+  "ids": [
+   807179
+  ],
+  "icon": null
+ },
+ "Pure Focus": {
+  "ids": [
+   705253
+  ],
+  "icon": null
+ },
+ "Quenching": {
+  "ids": [
+   706580
+  ],
+  "icon": null
+ },
+ "Quenching Oath": {
+  "ids": [
+   560204
+  ],
+  "icon": null
+ },
+ "Quick Hooks": {
+  "ids": [
+   705252
+  ],
+  "icon": null
+ },
+ "Quick Strikes": {
+  "ids": [
+   503573
+  ],
+  "icon": null
+ },
+ "Quickness": {
+  "ids": [
+   804909
+  ],
+  "icon": null
+ },
+ "Quickpalm": {
+  "ids": [
+   804919
+  ],
+  "icon": null
+ },
+ "Radiance": {
+  "ids": [
+   706317
+  ],
+  "icon": null
+ },
+ "Radiant Blade": {
+  "ids": [
+   524822
+  ],
+  "icon": null
+ },
+ "Rebuke": {
+  "ids": [
+   524999
+  ],
+  "icon": null
+ },
+ "Recently Avoided": {
+  "ids": [
+   803166
+  ],
+  "icon": null
+ },
+ "Reckoning": {
+  "ids": [
+   805421
+  ],
+  "icon": null
+ },
+ "Reckoning Energiser": {
+  "ids": [
+   521242
+  ],
+  "icon": null
+ },
+ "Redemption": {
+  "ids": [
+   801483
+  ],
+  "icon": null
+ },
+ "Reflect Magic": {
+  "ids": [
+   801440
+  ],
+  "icon": null
+ },
+ "Remove Blade Mastery": {
+  "ids": [
+   805385
+  ],
+  "icon": null
+ },
+ "Remove at least 3 holy runes": {
+  "ids": [
+   802158
+  ],
+  "icon": null
+ },
+ "Remove at least 5 holy runes": {
+  "ids": [
+   704158
+  ],
+  "icon": null
+ },
+ "Render": {
+  "ids": [
+   704951
+  ],
+  "icon": null
+ },
+ "Reprimand": {
+  "ids": [
+   300503
+  ],
+  "icon": null
+ },
+ "Reset Spiritual Ascension": {
+  "ids": [
+   500687
+  ],
+  "icon": null
+ },
+ "Reset Tithe": {
+  "ids": [
+   800981
+  ],
+  "icon": null
+ },
+ "Retribution": {
+  "ids": [
+   525028
+  ],
+  "icon": null
+ },
+ "Right Flank": {
+  "ids": [
+   805394
+  ],
+  "icon": null
+ },
+ "Right Hook": {
+  "ids": [
+   805392
+  ],
+  "icon": null
+ },
+ "Righteous Custodian": {
+  "ids": [
+   572808
+  ],
+  "icon": null
+ },
+ "Righteous Duel": {
+  "ids": [
+   805419
+  ],
+  "icon": null
+ },
+ "Righteous Lunge": {
+  "ids": [
+   801443
+  ],
+  "icon": null
+ },
+ "Righteous Lunge (Deprecated)": {
+  "ids": [
+   801408
+  ],
+  "icon": null
+ },
+ "Righteous Reprimand": {
+  "ids": [
+   572308
+  ],
+  "icon": null
+ },
+ "Righteous Tempest": {
+  "ids": [
+   805409
+  ],
+  "icon": null
+ },
+ "Righteous Upheaval": {
+  "ids": [
+   501562
+  ],
+  "icon": null
+ },
+ "Righteousness": {
+  "ids": [
+   680891
+  ],
+  "icon": null
+ },
+ "Roundhouse Kick": {
+  "ids": [
+   504119
+  ],
+  "icon": null
+ },
+ "Runes of Power": {
+  "ids": [
+   705264
+  ],
+  "icon": null
+ },
+ "Runes of War": {
+  "ids": [
+   804926
+  ],
+  "icon": null
+ },
+ "Runic Invocation": {
+  "ids": [
+   13477892
+  ],
+  "icon": null
+ },
+ "Sacred Candle": {
+  "ids": [
+   300501
+  ],
+  "icon": null
+ },
+ "Sacred Defense": {
+  "ids": [
+   705306
+  ],
+  "icon": null
+ },
+ "Sacred Oath": {
+  "ids": [
+   712346
+  ],
+  "icon": null
+ },
+ "Sacred Resistance": {
+  "ids": [
+   301309
+  ],
+  "icon": null
+ },
+ "Sacred Restraint": {
+  "ids": [
+   102208
+  ],
+  "icon": null
+ },
+ "Sacred Slam": {
+  "ids": [
+   803169
+  ],
+  "icon": null
+ },
+ "Sacred Strikes": {
+  "ids": [
+   800518
+  ],
+  "icon": null
+ },
+ "Sacred Style": {
+  "ids": [
+   705278
+  ],
+  "icon": null
+ },
+ "Sacred Swing": {
+  "ids": [
+   705293
+  ],
+  "icon": null
+ },
+ "Sanctified": {
+  "ids": [
+   680870
+  ],
+  "icon": null
+ },
+ "Sanctify": {
+  "ids": [
+   705274
+  ],
+  "icon": null
+ },
+ "Sanctuary": {
+  "ids": [
+   805404
+  ],
+  "icon": null
+ },
+ "Scarlet Champion": {
+  "ids": [
+   805415
+  ],
+  "icon": null
+ },
+ "Scarlet Champion Remover": {
+  "ids": [
+   524618
+  ],
+  "icon": null
+ },
+ "Scarlet Crusader": {
+  "ids": [
+   301172
+  ],
+  "icon": null
+ },
+ "Scarlet Hammer": {
+  "ids": [
+   500752
+  ],
+  "icon": null
+ },
+ "Scarlet Judicator": {
+  "ids": [
+   525024
+  ],
+  "icon": null
+ },
+ "Scarlet Restoration": {
+  "ids": [
+   807182
+  ],
+  "icon": null
+ },
+ "Scarlet Secrets": {
+  "ids": [
+   520812
+  ],
+  "icon": null
+ },
+ "Scarlet Training": {
+  "ids": [
+   301065
+  ],
+  "icon": null
+ },
+ "Scourge-Defense Training": {
+  "ids": [
+   520608
+  ],
+  "icon": null
+ },
+ "Scourgebane": {
+  "ids": [
+   92111
+  ],
+  "icon": null
+ },
+ "Serendipity": {
+  "ids": [
+   300929
+  ],
+  "icon": null
+ },
+ "Shackle The Unrepentant": {
+  "ids": [
+   560963
+  ],
+  "icon": null
+ },
+ "Shield Block Visual": {
+  "ids": [
+   804396
+  ],
+  "icon": null
+ },
+ "Silverhand Incantation": {
+  "ids": [
+   801465
+  ],
+  "icon": null
+ },
+ "Singed": {
+  "ids": [
+   505330
+  ],
+  "icon": null
+ },
+ "Slow and Root dispel effect": {
+  "ids": [
+   801044
+  ],
+  "icon": null
+ },
+ "Solemn Soldier": {
+  "ids": [
+   572546
+  ],
+  "icon": null
+ },
+ "Spine of the Leviathan": {
+  "ids": [
+   507079
+  ],
+  "icon": null
+ },
+ "Spiritual": {
+  "ids": [
+   560833
+  ],
+  "icon": null
+ },
+ "Spiritual Abdication": {
+  "ids": [
+   704408
+  ],
+  "icon": null
+ },
+ "Spiritual Abdicator": {
+  "ids": [
+   803219
+  ],
+  "icon": null
+ },
+ "Spiritual Ascension": {
+  "ids": [
+   500688
+  ],
+  "icon": null
+ },
+ "Staff Sweep": {
+  "ids": [
+   300776
+  ],
+  "icon": null
+ },
+ "Staff Sweep (Energy proc)": {
+  "ids": [
+   300777
+  ],
+  "icon": null
+ },
+ "Staffguard": {
+  "ids": [
+   705295
+  ],
+  "icon": null
+ },
+ "Strike of the Leviathan": {
+  "ids": [
+   504653
+  ],
+  "icon": null
+ },
+ "Struck Down": {
+  "ids": [
+   524686
+  ],
+  "icon": null
+ },
+ "Struck by the Light": {
+  "ids": [
+   680394
+  ],
+  "icon": null
+ },
+ "Sturdy": {
+  "ids": [
+   681009
+  ],
+  "icon": null
+ },
+ "Sweeping -> Uppercut": {
+  "ids": [
+   805178
+  ],
+  "icon": null
+ },
+ "Sweeping Kick": {
+  "ids": [
+   804078
+  ],
+  "icon": null
+ },
+ "Sweeping Slam": {
+  "ids": [
+   560660
+  ],
+  "icon": null
+ },
+ "TEST AREA VISUAL": {
+  "ids": [
+   521052
+  ],
+  "icon": null
+ },
+ "Talk To Riddly": {
+  "ids": [
+   500810
+  ],
+  "icon": null
+ },
+ "Teachings of the Cathedral": {
+  "ids": [
+   520032
+  ],
+  "icon": null
+ },
+ "Templar": {
+  "ids": [
+   500016
+  ],
+  "icon": null
+ },
+ "Templar Rituals": {
+  "ids": [
+   520534
+  ],
+  "icon": null
+ },
+ "Templar Rituals Pull": {
+  "ids": [
+   520695
+  ],
+  "icon": null
+ },
+ "Templar Strike": {
+  "ids": [
+   805406
+  ],
+  "icon": null
+ },
+ "Templar's Might": {
+  "ids": [
+   524590
+  ],
+  "icon": null
+ },
+ "Temple Guardian": {
+  "ids": [
+   801165
+  ],
+  "icon": null
+ },
+ "Temple Warden": {
+  "ids": [
+   705305
+  ],
+  "icon": null
+ },
+ "Tenacious Defender": {
+  "ids": [
+   707385
+  ],
+  "icon": null
+ },
+ "Testament of Faith": {
+  "ids": [
+   801478
+  ],
+  "icon": null
+ },
+ "Testament of Fortitude": {
+  "ids": [
+   500678
+  ],
+  "icon": null
+ },
+ "Testament of Hope": {
+  "ids": [
+   1397742
+  ],
+  "icon": null
+ },
+ "Testament of Resolve": {
+  "ids": [
+   804228
+  ],
+  "icon": null
+ },
+ "Testament of Strength": {
+  "ids": [
+   300514
+  ],
+  "icon": null
+ },
+ "Testament of Will": {
+  "ids": [
+   801455
+  ],
+  "icon": null
+ },
+ "The Finest of Heaven": {
+  "ids": [
+   806517
+  ],
+  "icon": null
+ },
+ "Thousand Cuts": {
+  "ids": [
+   524672
+  ],
+  "icon": null
+ },
+ "Thousand Cuts CD Reduction Trigger": {
+  "ids": [
+   524674
+  ],
+  "icon": null
+ },
+ "Thousand Cuts Preventer Trigger Delay": {
+  "ids": [
+   524671
+  ],
+  "icon": null
+ },
+ "Thousand Cuts Trigger Preventer": {
+  "ids": [
+   524673
+  ],
+  "icon": null
+ },
+ "Thrashing Blade": {
+  "ids": [
+   705292
+  ],
+  "icon": null
+ },
+ "Time Fragment": {
+  "ids": [
+   804394
+  ],
+  "icon": null
+ },
+ "Titanfall": {
+  "ids": [
+   300607
+  ],
+  "icon": null
+ },
+ "Titanstrike": {
+  "ids": [
+   806521
+  ],
+  "icon": null
+ },
+ "Tithe": {
+  "ids": [
+   804781
+  ],
+  "icon": null
+ },
+ "Tithe Failure CD Reset": {
+  "ids": [
+   300767
+  ],
+  "icon": null
+ },
+ "Tithe of Alacrity": {
+  "ids": [
+   804818
+  ],
+  "icon": null
+ },
+ "Tithe of Courage": {
+  "ids": [
+   804820
+  ],
+  "icon": null
+ },
+ "Tithe of Crusading": {
+  "ids": [
+   804782
+  ],
+  "icon": null
+ },
+ "Tithe of Elements": {
+  "ids": [
+   804817
+  ],
+  "icon": null
+ },
+ "Tithe of Heroism": {
+  "ids": [
+   804816
+  ],
+  "icon": null
+ },
+ "Tithe of Ingenuity": {
+  "ids": [
+   804821
+  ],
+  "icon": null
+ },
+ "Tithe of Liberty": {
+  "ids": [
+   804815
+  ],
+  "icon": null
+ },
+ "Tithe of Might": {
+  "ids": [
+   804784
+  ],
+  "icon": null
+ },
+ "Tithe of Mysticism": {
+  "ids": [
+   804819
+  ],
+  "icon": null
+ },
+ "Tithe of Order": {
+  "ids": [
+   804783
+  ],
+  "icon": null
+ },
+ "Tome of Light": {
+  "ids": [
+   805422
+  ],
+  "icon": null
+ },
+ "Tome of Light: Barrier of Light": {
+  "ids": [
+   806354
+  ],
+  "icon": null
+ },
+ "Tome of Light: Nimble Movements": {
+  "ids": [
+   806934
+  ],
+  "icon": null
+ },
+ "Tome of Light: Tranquil Circle": {
+  "ids": [
+   807004
+  ],
+  "icon": null
+ },
+ "Touched By Light": {
+  "ids": [
+   705261
+  ],
+  "icon": null
+ },
+ "Tranquil Circle": {
+  "ids": [
+   524667
+  ],
+  "icon": null
+ },
+ "Tranquil State": {
+  "ids": [
+   850010
+  ],
+  "icon": null
+ },
+ "Transcend": {
+  "ids": [
+   704229
+  ],
+  "icon": null
+ },
+ "Transcendent": {
+  "ids": [
+   680950
+  ],
+  "icon": null
+ },
+ "Transcendent Guardian": {
+  "ids": [
+   804571
+  ],
+  "icon": null
+ },
+ "Transcending Strikes": {
+  "ids": [
+   804897
+  ],
+  "icon": null
+ },
+ "Twin Weapon Master": {
+  "ids": [
+   806013
+  ],
+  "icon": null
+ },
+ "Tyr's Blessing": {
+  "ids": [
+   705285
+  ],
+  "icon": null
+ },
+ "Tyr's Guard": {
+  "ids": [
+   560649
+  ],
+  "icon": null
+ },
+ "Tyr's Guard Trigger": {
+  "ids": [
+   524616
+  ],
+  "icon": null
+ },
+ "Tyr's Hand": {
+  "ids": [
+   806518
+  ],
+  "icon": null
+ },
+ "Tyr's Strength": {
+  "ids": [
+   806520
+  ],
+  "icon": null
+ },
+ "Unbroken Creed": {
+  "ids": [
+   804932
+  ],
+  "icon": null
+ },
+ "Untainted": {
+  "ids": [
+   705298
+  ],
+  "icon": null
+ },
+ "Upheave!": {
+  "ids": [
+   520442
+  ],
+  "icon": null
+ },
+ "Uther's Legacy": {
+  "ids": [
+   706385
+  ],
+  "icon": null
+ },
+ "Vindication": {
+  "ids": [
+   801446
+  ],
+  "icon": null
+ },
+ "Vitality": {
+  "ids": [
+   705312
+  ],
+  "icon": null
+ },
+ "Walking With Grace": {
+  "ids": [
+   560117
+  ],
+  "icon": null
+ },
+ "Ward of Aman'thul": {
+  "ids": [
+   804908
+  ],
+  "icon": null
+ },
+ "Warrior of Dawn": {
+  "ids": [
+   560648
+  ],
+  "icon": null
+ },
+ "Warrior of Tyr": {
+  "ids": [
+   301253
+  ],
+  "icon": null
+ },
+ "Warstaff Master": {
+  "ids": [
+   806514
+  ],
+  "icon": null
+ },
+ "Water Loggers": {
+  "ids": [
+   510002
+  ],
+  "icon": null
+ },
+ "Way of the Blademaster SLS2": {
+  "ids": [
+   570021
+  ],
+  "icon": null
+ },
+ "Way of the Monk": {
+  "ids": [
+   572052
+  ],
+  "icon": null
+ },
+ "Weak Spot": {
+  "ids": [
+   804920
+  ],
+  "icon": null
+ },
+ "Whirling Tempest": {
+  "ids": [
+   300504
+  ],
+  "icon": null
+ },
+ "Wind Dancer": {
+  "ids": [
+   705289
+  ],
+  "icon": null
+ },
+ "Wisdom of Norgannon": {
+  "ids": [
+   520454
+  ],
+  "icon": null
+ },
+ "Zealotry": {
+  "ids": [
+   92108
+  ],
+  "icon": null
+ },
+ "Zealous Wrath": {
+  "ids": [
+   806519
+  ],
+  "icon": null
+ }
+}

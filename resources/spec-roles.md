@@ -61,6 +61,27 @@ missing without any error.
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
 
+| 19 | Templar | zealot | damage |
+| 19 | Templar | oathkeeper | tank |
+| 19 | Templar | crusader | damage |
+
+**Templar provenance (19):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: zealot "Solid sustained single-target
+DPS on patchwork fights … Middling in arena as a damage dealer" (its only
+group-heal shape, Chakra of Light, is an optional 0/2 support pick the page
+itself calls a choice, "identical rotation, pointed at healing"); oathkeeper
+"Strong main-tank for raid bosses … Strong dungeon tank — AoE pulls and
+threat" (Absolution AoE taunt, Beckon single taunt, Divine Stand threat
+passive, Keeping the Oath stagger — and the 08/06 changelog buffs Divine
+Stand threat, which is a tank statement from the devs) — its Benediction ally
+heal is a tank's reactive sustain, not healer throughput, and heal-mention
+corroboration (14/70, 20%) sits well under the ~33% healer band; crusader
+"Top-tier sustained single-target DPS on patchwork fights … Strong in arena
+as a damage dealer" ("The healing is incidental self-heal off Argent Blade
+and Titanstrike, not throughput, and it cannot cover a group")
+(`resources/sidekick-templar-*.md`, scraped 2026-08-08). Replace with an
+in-game read when one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit
