@@ -201,6 +201,10 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # Pinned during the production run: the Core alert pair plus the
+    # merged all-spec Buffs leaves. The suite had been suggesting this
+    # pin since the packs page shipped; nothing structural changed.
+    "pyromancer": 5,
     # Four all-spec buff-row leaves that take the class gate alone (Charge,
     # Storm Ascendance, Predictable Weather, Storm Chaser in the merged Buffs
     # band) plus the empty SB Core skeleton group, which the counter sees as a
