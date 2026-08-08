@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WA editor prototype — decode / edit / re-encode</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 24px; background: #14161a; color: #d8dbe0;
+         font: 14px/1.5 -apple-system, "Segoe UI", sans-serif; max-width: 960px; }
+  h1 { font-size: 18px; margin: 0 0 4px; }
+  .sub { color: #8b919c; margin: 0 0 20px; font-size: 13px; }
+  section { margin: 20px 0; padding: 16px; background: #1b1e24;
+            border: 1px solid #2a2e36; border-radius: 8px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em;
+       color: #9aa1ad; margin: 0 0 10px; }
+  textarea { width: 100%; box-sizing: border-box; background: #101216;
+             color: #c6cad2; border: 1px solid #2a2e36; border-radius: 6px;
+             font: 12px/1.4 ui-monospace, Menlo, monospace; padding: 8px;
+             resize: vertical; }
+  button { background: #2d6cdf; color: #fff; border: 0; border-radius: 6px;
+           padding: 7px 14px; font-size: 13px; cursor: pointer; margin-right: 8px; }
+  button:disabled { background: #3a3f48; cursor: default; }
+  button.ghost { background: #262b33; color: #c6cad2; }
+  select, input[type=number], input[type=text] {
+    background: #101216; color: #c6cad2; border: 1px solid #2a2e36;
+    border-radius: 6px; padding: 6px 8px; font-size: 13px; }
+  input[type=number] { width: 72px; }
+  label { margin-right: 12px; }
+  .tree { font: 12px/1.6 ui-monospace, Menlo, monospace; max-height: 260px;
+          overflow-y: auto; background: #101216; border-radius: 6px;
+          padding: 10px; border: 1px solid #2a2e36; }
+  .tree .band { color: #e9b44c; }
+  .tree .leaf { color: #8b919c; padding-left: 18px; }
+  .tree .leaf.edited { color: #6fd08c; }
+  .meta { color: #6fd08c; }
+  .err { color: #e06c75; white-space: pre-wrap; }
+  .note { color: #8b919c; font-size: 12px; margin-top: 8px; }
+  .row { margin: 8px 0; }
+</style>
+</head>
+<body>
+<h1>WA editor prototype</h1>
+<p class="sub">ADR-003 D5 — decode a shipped <code>!WA:2!</code> pack in the browser,
+edit one icon's size, re-encode a valid import string. No backend, no framework.</p>
+
+<section>
+  <h2>1 — Pack string</h2>
+  <textarea id="in" rows="5" spellcheck="false"
+    placeholder="Paste a !WA:2! import string, or load the shipped Runemaster pack."></textarea>
+  <div class="row">
+    <button id="load">Load shipped Runemaster pack</button>
+    <button id="decode" class="ghost">Decode</button>
+    <span id="inStatus" class="note"></span>
+  </div>
+</section>
+
+<section>
+  <h2>2 — Decoded display tree</h2>
+  <div id="meta" class="note">Nothing decoded yet.</div>
+  <div id="tree" class="tree" hidden></div>
+</section>
+
+<section>
+  <h2>3 — Edit one icon (width + height)</h2>
+  <div class="row">
+    <select id="pick" disabled><option>decode a pack first</option></select>
+  </div>
+  <div class="row">
+    <label>width <input type="number" id="w" disabled></label>
+    <label>height <input type="number" id="h" disabled></label>
+    <button id="apply" disabled>Apply</button>
+    <span id="editStatus" class="note"></span>
+  </div>
+  <p class="note">Both fields are edited together — dynamicgroup layout reads
+  both from the child's data table. Types are preserved (integer stays integer).</p>
+</section>
+
+<section>
+  <h2>4 — Re-encode</h2>
+  <div class="row">
+    <label><input type="checkbox" id="resalt" checked> re-salt uids (fresh import,
+      avoids the update dialog's size/position discard)</label>
+    <label>salt <input type="text" id="salt" value="custom1" size="10"></label>
+  </div>
+  <div class="row">
+    <button id="encode" disabled>Validate + re-encode</button>
+    <button id="copy" class="ghost" disabled>Copy</button>
+    <span id="outStatus" class="note"></span>
+  </div>
+  <div id="verrs" class="err"></div>
+  <textarea id="out" rows="5" readonly spellcheck="false"></textarea>
+</section>
+
+<script src="vendor/pako.min.js"></script>
+<script src="wacodec.js"></script>
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var tree = null;          // decoded LuaTable
+  var leaves = [];          // editable leaves [{id, table}]
+  var edited = {};          // id -> true
+  var origUids = [];        // [{table, uid}] captured at decode, so repeated
+                            // re-encodes always salt from the ORIGINAL uid
+
+  $("load").onclick = function () {
+    $("inStatus").textContent = "fetching…";
+    fetch("../../docs/packs/runemaster/runemaster-coa.txt")
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.text();
+      })
+      .then(function (t) {
+        $("in").value = t.trim();
+        $("inStatus").textContent = t.trim().length + " chars loaded";
+      })
+      .catch(function (e) {
+        $("inStatus").textContent = "fetch failed (" + e.message +
+          ") — serve the repo root: python3 -m http.server";
+      });
+  };
+
+  $("decode").onclick = function () {
+    var s = $("in").value;
+    if (!s.trim()) { $("inStatus").textContent = "nothing to decode"; return; }
+    var t0 = performance.now();
+    try {
+      tree = wacodec.waDecode(s);
+    } catch (e) {
+      $("meta").innerHTML = '<span class="err">decode failed: ' + e.message + "</span>";
+      return;
+    }
+    var ms = (performance.now() - t0).toFixed(1);
+    edited = {};
+    var d = tree.get("d");
+    var kids = tree.get("c").arrayPart();
+    origUids = [];
+    [d].concat(kids).forEach(function (a) {
+      if (typeof a.get("uid") === "string")
+        origUids.push({ table: a, uid: a.get("uid") });
+    });
+    $("meta").innerHTML = '<span class="meta">' + esc(d.get("id")) + "</span> — " +
+      kids.length + " children, decoded in " + ms + " ms";
+    renderTree(d, kids);
+    fillPicker(kids);
+    $("encode").disabled = false;
+  };
+
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  }
+
+  function renderTree(d, kids) {
+    var byId = {};
+    kids.forEach(function (k) { byId[k.get("id")] = k; });
+    var html = "";
+    function walk(node, depth) {
+      var cc = node.get("controlledChildren");
+      var isBand = !!cc;
+      var id = node.get("id");
+      var cls = isBand ? "band" : ("leaf" + (edited[id] ? " edited" : ""));
+      var size = "";
+      if (!isBand && typeof node.get("width") === "number")
+        size = "  [" + node.get("width") + "×" + node.get("height") + "]";
+      html += '<div class="' + cls + '" style="padding-left:' + (depth * 18) +
+        'px">' + esc(id) + size + "</div>";
+      if (cc) cc.arrayPart().forEach(function (cid) {
+        var child = byId[cid];
+        if (child) walk(child, depth + 1);
+      });
+    }
+    walk(d, 0);
+    $("tree").innerHTML = html;
+    $("tree").hidden = false;
+  }
+
+  function fillPicker(kids) {
+    leaves = [];
+    kids.forEach(function (k) {
+      if (!k.has("controlledChildren") &&
+          typeof k.get("width") === "number" &&
+          typeof k.get("height") === "number") {
+        leaves.push({ id: k.get("id"), table: k });
+      }
+    });
+    var pick = $("pick");
+    pick.innerHTML = "";
+    leaves.forEach(function (l, i) {
+      var o = document.createElement("option");
+      o.value = i;
+      o.textContent = l.id + " (" + l.table.get("width") + "×" +
+        l.table.get("height") + ")";
+      pick.appendChild(o);
+    });
+    pick.disabled = $("w").disabled = $("h").disabled = $("apply").disabled = false;
+    pick.onchange = syncInputs;
+    // preselect the ADR's example leaf if present
+    var zi = leaves.findIndex(function (l) {
+      return l.id === "RM Riftblade Offense Zenith";
+    });
+    if (zi >= 0) pick.value = zi;
+    syncInputs();
+  }
+
+  function syncInputs() {
+    var l = leaves[$("pick").value];
+    if (!l) return;
+    $("w").value = l.table.get("width");
+    $("h").value = l.table.get("height");
+    $("editStatus").textContent = "";
+  }
+
+  $("apply").onclick = function () {
+    var l = leaves[$("pick").value];
+    if (!l) return;
+    var w = Number($("w").value), h = Number($("h").value);
+    if (!isFinite(w) || !isFinite(h) || w <= 0 || h <= 0) {
+      $("editStatus").textContent = "width/height must be positive numbers";
+      return;
+    }
+    // Lua type preservation: the shipped fields are integers; keep them so.
+    if (Number.isInteger(l.table.get("width"))) { w = Math.round(w); h = Math.round(h); }
+    l.table.set("width", w);
+    l.table.set("height", h);
+    edited[l.id] = true;
+    $("editStatus").textContent = l.id + " → " + w + "×" + h;
+    renderTree(tree.get("d"), tree.get("c").arrayPart());
+    var o = $("pick").options[$("pick").selectedIndex];
+    o.textContent = l.id + " (" + w + "×" + h + ")";
+  };
+
+  $("encode").onclick = function () {
+    if (!tree) return;
+    var errs = wacodec.waValidate(tree);
+    if (errs.length) {
+      $("verrs").textContent = "export refused:\n" + errs.join("\n");
+      $("out").value = "";
+      $("copy").disabled = true;
+      return;
+    }
+    $("verrs").textContent = "";
+    var salt = $("salt").value || "custom1";
+    origUids.forEach(function (e) {
+      e.table.set("uid", $("resalt").checked
+        ? wacodec.saltedUid(salt, e.uid) : e.uid);
+    });
+    var t0 = performance.now();
+    var out = wacodec.waEncode(tree);
+    var ms = (performance.now() - t0).toFixed(1);
+    $("out").value = out;
+    $("outStatus").textContent = out.length + " chars, encoded in " + ms + " ms";
+    $("copy").disabled = false;
+  };
+
+  $("copy").onclick = function () {
+    navigator.clipboard.writeText($("out").value).then(function () {
+      $("outStatus").textContent = "copied";
+    });
+  };
+})();
+</script>
+</body>
+</html>
