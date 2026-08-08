@@ -1,0 +1,17 @@
+{
+  "Astral Armor": {
+    "canonical": null,
+    "spell_id": null,
+    "why": "Named ONCE in the whole sidekick-data.js blob (the one-hit prose rule from class-pack-process.md: the build blurbs are generated and name abilities the skill data has no record of), as a moon-guard 'cooldowns' claim. The data-side records are not a tank cooldown: 806156 'Astral Armor' is a 3 s damage-and-silence row adjacent to Astral Aegis 806155 (its rider), and 29476 is a level-70 non-Starcaller spell. The kit's real armor layer is Protected by the Stars (a passive) and the Aegis family, all already rows. Not a claim; nothing to build."
+  },
+  "Essence of the Moonwell": {
+    "canonical": null,
+    "spell_id": null,
+    "why": "Named ONCE in the whole sidekick-data.js blob, as a moon-priest 'cooldowns' claim. 801232 'Essence of the Moonwell' exists on db.ascension.gg but is the moonwell-zone essence effect, not a button; db.exil.es has no castable under the name. The pressed ability is Moonwell itself (804739, 2 min cd, already an inventory row and cited by the same build). Prose for the zone's buff; nothing separate to build. Requirements section 6."
+  },
+  "Guided Reflexes": {
+    "canonical": null,
+    "spell_id": null,
+    "why": "Cited as a moon-guard 'cooldowns' claim (1 blob hit), but db.exil.es 801995's own description is literally 'Deprecated', db.ascension.gg has no record under the name at any id, and the official talent tree does not grant it. Starslip's talent text still references it ('Guided Reflexes now removes any active slow or root effects'), so the in-game pass should look for the button — requirements section 6. Until then: cut, the Manastorm shape."
+  }
+}

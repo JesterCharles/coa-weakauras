@@ -1,0 +1,108 @@
+{
+ "class": "starcaller",
+ "gates": {
+  "build": "2026-08-08",
+  "research": "2026-08-08",
+  "verify": "2026-08-08"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 11,
+   "citations": 4,
+   "crossdb_checked": 238,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 245,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 238,
+   "mechanics_sources": 4,
+   "open_unknowns": 1,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 11,
+   "citations": 4,
+   "crossdb_checked": 238,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 245,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 238,
+   "mechanics_sources": 4,
+   "open_unknowns": 1,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 11,
+   "citations": 4,
+   "crossdb_checked": 238,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 245,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 238,
+   "mechanics_sources": 4,
+   "open_unknowns": 1,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-08",
+   "note": "NO alert band ships in 0.1, deliberately (requirements section 5): both candidates (missing Aspect, missing Celestial Mind blessing) hang on aura visibility no scrape proves, and a wrong-id inverse alert is permanently on screen \u2014 the Runemaster reminder failure. The per-spec long-term band carries Aspect/blessing state passively (active-only icons); section 6 holds the alert candidates for the in-game pass. SC Core ships empty of alerts on purpose."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "13 NEW entries all 2026/07/31: Moon Guard lvl50 passive merged into lvl30 (new absorb-to-mana passive); Celestial Cleave targeting/cone rework; Warden talent positions shifted; Lunar Combatant reworked (INT from STR, weapon dmg from SP), merged into Celestial Glaives node; Starfire Shot mana scaling down; Sentinel lvl20 passive 10% INT->Ranged Crit; NEW talent (Lunar Eclipse Burn DoT on Starfire Shot, anti-stealth) in old Tyrande's Training slot; Tyrande's Training moved to lvl50 passive, affects Trueshot, 25% crit vs burning; Warden's Blade + Aspect of the Goddess spawns Elune's Cradle HoT circle; Lunar Lance (+ Moonlit Lancer DoT) now Spellfire; can wear daggers; Touch of Moonlight scales with healing power. NOT accepted yet - triage into requirements first."
+  },
+  "citations": {
+   "at": "2026-08-08",
+   "note": "citations.py --import-sidekick: 4 citations, 11 claims from the committed blob (retrieved_at 2026-08-02, post-dates all 07/31 starcaller changelog entries). Validated clean after three aliases-starcaller.json entries recorded 1-hit prose names: Astral Armor (Aegis rider, not a cd), Essence of the Moonwell (the Moonwell zone essence, the button Moonwell 804739 already ships), Guided Reflexes (Deprecated + no record + not tree-granted \u2014 cut). Single source: ascensionsidekick.com; rankings-starcaller.json initialised empty (coa.ascensionlogs.gg is link-only)."
+  },
+  "crossdb": {
+   "at": "2026-08-08",
+   "checked": 238,
+   "note": "Re-swept after CROSSCHECK id corrections: 238/238 inventory rows with an id asked of db.ascension.gg \u2014 233 record, 5 no-record all resolved in Notes (4 kept via the incomplete-snapshot/operator-tree resolution: Huntress Shot, Moon Arrow, Starfire Shot 801978 + Trueshot 520590 are the official tree's own node spellIds; 1 cut: Guided Reflexes, Deprecated + no record + not tree-granted). Corrections: Starburst->801996, Avatar of Vengeance->680822, Aspect of the Goddess->802203, Alignment->805507. Prose aliases: Astral Armor, Essence of the Moonwell, Guided Reflexes (aliases-starcaller.json)."
+  },
+  "guide": {
+   "at": "2026-08-08",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py + a hud.py structural read. rowwidths exit 0: every always-visible row within 1.2x its 274px resource bar (worst 0.91x \u2014 sentinel utility 250px; offense/utility wrap at CD_PER_ROW=9 into balanced rows). hud.py ladder on the published pack: 190 displays, x symmetric [-565,565]; target -51, buffs -84, main -132, Energy -164 + mana -180 (fixed two-bar envelope every spec), offense from -215 wrapping (moon-priest 2 rows), utility below each spec's own offense depth (moon-guard 3 rows to -305, moon-priest to -335), longterm anchored under each spec's own utility (-318 warden/sentinel, -348 moon-guard, -378 moon-priest)."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-08",
+   "note": "245 rows seeded (skillbook + audit additions + 3 aura-only rows: Full Moon, New Moon, Moonwater); roles PROPOSED BY AN AUTOMATED PASS 2026-08-08 and cleared in bulk \u2014 the production-run.md Pyromancer precedent, provenance recorded here, NOT a row-by-row human read. One line of reasoning per Notes cell. 62 prop?: hedged rows copied into requirements section 6 (untaken water-line buttons, uncited cds). 17 rows hand-corrected during review: spec widenings cited from rotation/kit text (Starsunder, Lunar Lance, Celestial Strike, Sentinel Glaive, Huntress Shot, Moon Arrow, Scattered Stars->all); component-id flags for the sweep (Starburst ATS-Slow, Avatar of Vengeance DoT, Aspect of the Goddess Heal, Alignment+Guided Reflexes 'Deprecated' descs); transform windows re-roled to buff (Moonblade, Starfire Barrage); Touch of Moonlight utility;moon-priest:main; rez/control moves (Celestial Awakening, Tidal Rebirth, Starshatter, Moonwell). Zero seed:/prop: markers remain. talents.py: 32/32 talent-granted abilities tracked, no holes."
+  },
+  "main-rows": {
+   "at": "2026-08-08",
+   "note": "Four main rows from cited rotation text (requirements section 4), all six icons: moon-guard Starburst>Starsweep>Celestial Cleave>Starsunder>Lunar Lance>Celestial Strike (cited AoE loop + ST pair + Energy filler); moon-priest healing row Moonflow>Prayer of Elune>Hand of Elune>Touch of Moonlight>Huntress Shot>Moon Arrow (cited dungeon text); sentinel Huntress Shot>Moon Arrow>Starfire Shot>Lunar Lance>Trueshot>Starcall (cited builder/spender order); warden Starsunder>Celestial Strike>Astral Blade>Umbral Blade>Sentinel Glaive>Fan of Knives (cited numbered rotation as press priority). CD_PER_ROW=9 (narrowest row 6 icons = 274px; 28*9-2=250 = 0.91x). Envelope identical all specs: Energy bar (power_type 3) at Y_BAR + mana bar at Y_SEG, width-locked to each spec's own main row. Scattered Stars renders in the TARGET band with %s stacks on every non-healer spec + warden/moon-guard extras \u2014 it lives on the enemy, not the player."
+  },
+  "mechanics-source": {
+   "at": "2026-08-08",
+   "note": "4/4 Sidekick spec pages scraped 2026-08-08 (post-dates 07/31 changelog) -> resources/sidekick-starcaller-{moon-guard,moon-priest,sentinel,warden}.md. Roles read off kit statements: moon-guard TANK (block/parry-driven melee, Scattered Stars, Aspect stances, shared-CD Aegis spells); moon-priest HEALER (Resto-Sham/Disc feel, heals % max mana, Energy ranged attacks as mana battery, Lunar Phase + Moonwater + Full/New Moon cycle); sentinel RANGED DPS (Huntress Shot/Moon Arrow builders -> Starfire Shot/Lunar Lance/Trueshot spenders, Starcall AoE); warden MELEE DPS (Starsunder builder, Celestial Strike filler, Astral/Umbral Blade, Shadowsong's Mandate crit window, Halt AoE-silence teleport, Avatar of Vengeance transform). Class-wide: dual resource Energy+Mana on all four specs; Scattered Stars stacking aura consumed by spenders in every spec."
+  },
+  "pets": {
+   "at": "2026-08-08",
+   "note": "Section 3 answered: NO pets. Four summon mentions are Bubble Buddy (short Torrent-mimic deployable, cd icon), Celestial Steed/Huntress Saber/Moonchaser Kodo (mounts; Saber = sentinel cast-while-moving platform, utility icon), Geyser/Starlight/Vigil of the Moon (zone effects, cd icons). No pet abilities, no pet auras, no pet resource, no NO-PET alert."
+  },
+  "procs": {
+   "at": "2026-08-08",
+   "note": "PROC_GLOW (all quoted from kit text, window auras keyed by name+id so an unproven id fails invisible): Celestial Strike<-[Moonblade] (Blade of the Moon 15% transform window); Starfire Shot<-[Starfire Barrage] (every-3rd transform window); Moonflow<-[Lunar Eclipse] ('Triggers with no cooldown' during Eclipse); Touch of Moonlight<-[Lunar Eclipse] ('instant and refunds its mana cost'). PROC_STACKS empty. CHARGES: Trueshot 2 ('2 Charges, 18 sec recharge' live tooltip). Buff rows carry the running states: Aegis windows + Shooting Star class-wide; Vengeance of Elune availability is an offense icon whose enabling aura is section 6 (no glow shipped on a guess); Lunar Phase %s, Full/New Moon, Celestial Form, Aspect of the Goddess, Lunar Resplendence (moon-priest); Shadowsong's Mandate, Avatar of Vengeance, Aspect of the Warden (warden); Moonblade/Starfire Barrage windows; Alignment (sentinel)."
+  },
+  "requirements": {
+   "at": "2026-08-08",
+   "note": "notes/requirements-starcaller.md: all sections answered. Changelog triage table (13 entries, accepted after triage), 100% crossdb with CROSSCHECK corrections recorded in section 0, dual-resource Energy+mana envelope specified for all four specs, Scattered Stars settled as a TARGET-band stack readout (it lives on the enemy) not a resource bar, pets answered NO (mounts/deployables/zones only, no pet section), moon-priest healing scoped to target band helpful=True + healing main row, four 6-icon main rows cited from rotation prose, transform windows (Moonblade, Starfire Barrage) shipped as window-aura + PROC_GLOW not Spell Known faces (grant mechanism unproven \u2014 section 6), no alert band in 0.1 (aura visibility unproven \u2014 the Runemaster reminder failure), section 6 carries the in-game checklist (18 items)."
+  },
+  "talents": {
+   "at": "2026-08-08",
+   "note": "Section 2 handled without Spell Known faces in 0.1: Moonblade (Blade of the Moon 802680: Celestial Strike->Moonblade 8s window) and Starfire Barrage (704739: every 3rd Starfire Shot) both tracked as WINDOW auras \u2014 buff-row entries + PROC_GLOW on the base button \u2014 because the grant mechanism (spell-grant vs aura) is unproven for this class; a wrong Spell Known face vanishes from the row, a wrong aura glow fails invisible (section 6 carries the face upgrade). Talent-granted buffs (Moonlit Lancer DoT, the new 07/31 Lunar-Eclipse-Burn) are active-only target-band/section-6 items harmless untalented. Galaxy/Bright Moon stack-cap talents are why Scattered Stars and Lunar Phase read as %s counts, never fixed-cell bars. Every adaptation reads correctly with and without the talent."
+  },
+  "tests": {
+   "at": "2026-08-08",
+   "note": "tests/run.py ALL GREEN across all 16 built classes. Check 1: five starcaller fixtures frozen (all-specs 18902B + 4 per-spec via WA_SPEC). Check 13 measured against the PUBLISHED copy (docs/packs/starcaller/starcaller-coa.txt, 190 displays, all covered; every target row renders \u2014 Elune's Favor, Moonwater, Scattered Stars all draw). Check 7: Core class-wide (5), 186 spec leaves gated. CORE_LEAVES pinned starcaller:5 in tools/classes.py with style-matching comment (empty SC Core skeleton + four merged all-spec Buffs leaves: the three Aegis windows + Shooting Star, class gate alone \u2014 self-gating buff icons). Checks 9/10 (readiness, off-GCD both directions: 19 off-GCD audited, 0 unresolved), 20/21 (per-spec depth, anchored ladder), 22 (no component in a pressable row) all pass."
+  },
+  "unknowns": {
+   "at": "2026-08-08",
+   "note": "Section 6 unknowns deferred EXPLICITLY to the post-ship verified phase (draft bar, production-run.md): Scattered Stars stack aura visual + own-only behaviour (804378, applier-machinery decoys); Starburst 801996 / Avatar of Vengeance 680822 / Aspect of the Goddess 802203 / Alignment 805507 CROSSCHECK corrections sweep-in-game; Moonblade + Starfire Barrage transform grant mechanism (Spell Known face upgrade if the server grants the spell); Vengeance of Elune enabling aura; Lunar Eclipse state aura for the Moonflow/Touch glow; Lunar Phase stack-carrying aura id; Full/New Moon aura names; Aspect + Aegis aura visibility (unlocks the deferred missing-Aspect alert); Trueshot charge text on this fork; the 07/31 Lunar-Eclipse-Burn talent debuff name; Elune's Cradle ground HoT (probably untrackable); Guided Reflexes in-game look (cut on Deprecated+no-record); untaken water-line buttons; 62 bulk-cleared hedged rows. Nothing red ships on a guess: every unproven surface is either active-only (fails invisible) or name-matched."
+  }
+ }
+}
