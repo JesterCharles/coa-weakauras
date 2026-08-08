@@ -25,6 +25,11 @@
    "date": "2026/07/31",
    "text": "Stoneshard Rank 7 increased damage from 566 to 623."
   },
+  "03e09be80680e9b3": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Adjudication was also renamed to Herald of Dawn to not be confused with the Adjudicator talent in Seraphim."
+  },
   "03fd5a1c6e830976": {
    "class": "tinker",
    "date": "2026/07/31",
@@ -75,6 +80,11 @@
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
   },
+  "10058da0eee9e490": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Fixed an issue where Adjudication would trigger a Rank 1 Dawnsear instead of the highest known rank."
+  },
   "1263d55cef58adc2": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -84,6 +94,11 @@
    "class": "venomancer",
    "date": "2026/07/31",
    "text": "Serpent's Fang Rank 7's damage has been increased from 510 to 663, and healing from 272 to 381."
+  },
+  "127ca2df56661e83": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Vows are now on the stance bar."
   },
   "13f376006eaa0437": {
    "class": "reaper",
@@ -244,6 +259,11 @@
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Incredibly Strong no longer reduces the maximum range of Maiming Spear, instead increases its duration. Deadzone removal remains untouched."
+  },
+  "301ea2617c23ce4a": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "A new capstone has been added to Valkyrie: Sunstorm."
   },
   "3150a9fbfa7834ec": {
    "class": "felsworn",
@@ -409,6 +429,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Night Elf can now be Witch Hunter."
+  },
+  "494043e0f276062b": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "All Gavel Spells now deal 100% weapon damage up from 80%."
   },
   "4b15b5c41d753787": {
    "class": "primalist",
@@ -900,6 +925,11 @@
    "date": "2026/07/31",
    "text": "Greater Inquisitor's Edict now persists through death."
   },
+  "99be7e4c5cf64cd3": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Vows now have a reduced global cooldown."
+  },
   "9a07467e6e5f42ff": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -940,10 +970,20 @@
    "date": "2026/07/31",
    "text": "Inquisitor's Edict Ranks 1-11 now persist through death."
   },
+  "9f86e318e79fc2c8": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Luminary Mendicant now additionally causes your Horusath Blast to silence the target."
+  },
   "9fa9fcdf48a07d97": {
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Crusher added as a switch node with Hail of Hammers, completely removing the cast time of Crush but reducing its damage by 25% and removing its stun."
+  },
+  "9fe398231951b8e5": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Radiant Halberds effect has been merged with Champion\u2019s Arrival"
   },
   "a035abe1f94039f3": {
    "class": "witch-hunter",
@@ -1085,6 +1125,11 @@
    "date": "2026/07/31",
    "text": "A new passive talent has been added in place of Guard Strike: Black Guard."
   },
+  "bcf90347780315db": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Sun Stride description now reflects its effect more accurately. Sun Stride now also frees you from slows and roots."
+  },
   "bd0845db863e69a9": {
    "class": "barbarian",
    "date": "2026/07/31",
@@ -1129,6 +1174,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Rearmament now causes your Traps to incur no cooldown for 8 sec."
+  },
+  "c2ef7c714ef42dd7": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Justice now deals 50% Weapon Damage up from 40%."
   },
   "c4d299cec6a4f172": {
    "class": "chronomancer",
@@ -1179,6 +1229,11 @@
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Drunken Brawler stacks now last 5 seconds, up from 3, and grant 2% dodge chance per stack, up from 1%."
+  },
+  "c903149a6b38fde8": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Ancient Rites now grants you 150/300/450% of your intellect as mana, in addition to its previous effects."
   },
   "c97fadb6c24a404e": {
    "class": "primalist",
@@ -1354,6 +1409,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Ravage Rank 3's damage has been increased from 85 to 106."
+  },
+  "eca8d4ee61bce0db": {
+   "class": "sun-cleric",
+   "date": "2026/07/31",
+   "text": "Adjudicator now additionally causes your Justicar\u2019s Wrath to deal 50% more damage if it strikes only a single target."
   },
   "ed3146be90e88494": {
    "class": "witch-hunter",

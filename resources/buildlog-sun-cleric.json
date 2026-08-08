@@ -1,0 +1,108 @@
+{
+ "class": "sun-cleric",
+ "gates": {
+  "build": "2026-08-08",
+  "research": "2026-08-08",
+  "verify": "2026-08-08"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 13,
+   "citations": 4,
+   "crossdb_checked": 231,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 252,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 231,
+   "mechanics_sources": 4,
+   "open_unknowns": 16,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 13,
+   "citations": 4,
+   "crossdb_checked": 231,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 252,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 231,
+   "mechanics_sources": 4,
+   "open_unknowns": 16,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 13,
+   "citations": 4,
+   "crossdb_checked": 231,
+   "crossdb_pct": 97.1,
+   "inventory_rows": 259,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 238,
+   "mechanics_sources": 4,
+   "open_unknowns": 16,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-08",
+   "note": "one class-wide alert: NO VOW (the NO BOON shape). Cited: every spec's Solar Power generation hangs on a Vow ('Keep a Vow active so Solar Power builds' blessings; 'get a Vow rolling' seraphim; pre-pull Vow valkyrie), Vows are mutually exclusive ('Only 1 Vow can be active at a time') and formally the class stance since 07/31 ('Vows are now on the stance bar'). Trigger matches all 7 Vow auras by id+name, showOnMissing, class gate only (Core). Devotions get NO alert -- they sit on the ALLY (the Primalist Instinct precedent, absence not cheaply detectable); requirements section 6."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "12 NEW entries all dated 2026/07/31: Gavel spells 100% WD; Ancient Rites +int-as-mana; Luminary Mendicant silence; Adjudicator single-target bonus; NEW Valkyrie capstone Sunstorm; Justice 50% WD; Radiant Halberds merged into Champion's Arrival; Sun Stride frees slows/roots; Adjudication RENAMED Herald of Dawn; Adjudication rank fix; Vows reduced GCD; Vows on stance bar. Triaged into requirements -1/\u00a70/\u00a72. NOT accepted yet."
+  },
+  "citations": {
+   "at": "2026-08-08",
+   "note": "citations.py --import-sidekick: 4 records (one per spec) from sidekick-data.js snapshot 2026-08-02 (post-dates the 07/31 changelog batch; upstream republish check 2026-08-07 returned unchanged), 13 claims, 1 source. validate clean after 3 alias verdicts in aliases-sun-cleric.json -- Solar Apex, Vindication, Sunwalking are all 1-hit generated burst-window prose (the Comet Storm shape), canonical null with reasoning recorded. Single-source caveat stands: Sidekick alone, corroboration unmeasurable."
+  },
+  "crossdb": {
+   "at": "2026-08-08",
+   "checked": 231,
+   "note": "crossdb_sweep.py: 231/231 inventory id rows asked of db.ascension.gg -- 230 record, 1 no-record (Sun Ray 500145, re-asked BY NAME -> other-id, verdict in the row's Notes, role ignore so nothing ships on it). Zero rows removed."
+  },
+  "guide": {
+   "at": "2026-08-08",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py (all always-visible rows <=1.2x: worst 1.07x Valkyrie Utility; all four mains 1.00x vs their own resource bar) + a structural read of hud.py-resolved geometry per band: Alerts -18, Target -51, Buffs -84, Main -132, Solar cells -164 (10 cells x 2 displays per spec), Mana -180, Offense -215 wrapping at 7, Utility hanging below the spec's own offense depth, Longterm below utility (-348 / -378 by spec depth). Ladder matches layout-standard.md; wide x extents in merged bands are the all-specs-resolved artifact, not a defect (only the loaded spec's icons lay out in game)."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-08",
+   "note": "BULK MODE (production-run.md default): automated pass proposed all 252 roles with one line of evidence per Notes cell (skillbook desc [sk] + spell-meta [sm] + cooldown audit [au] + sidekick page text [pg] + changelog [cl] + exiles [ex]); markers cleared in bulk, NOT a per-row human read. 11 hedged rows (were prop?:) copied to requirements \u00a76: An'she's Blessing, Battle Priest, Beatification, Chosen of the Light, Divine Retribution, Divine Vision, March of the Valkyr, Mercy, Sins of the Father, Solar Invigoration, Sun Disc. Changelog acted on: Adjudication RENAMED Herald of Dawn 804630 (alias row parked), Sunstorm 760379 added (new capstone), Vow of Benediction 803494 added (seraphim Vow, absent from blob). Spec widenings: Illumination +seraphim, Calm +seraphim, Chains of Light ->all, Dawn ->all (each cited in Notes)."
+  },
+  "main-rows": {
+   "at": "2026-08-08",
+   "note": "all four main rows quoted from the Sidekick rotation text (requirements section 4, one derivation line each): blessings Illumination>Shine>Daybreak>Radiant Cascade>Bless; piety Dawnsear>Sunflare>Radiant Flame>Horusath Blast>Rapture (difficulty text verbatim); seraphim Justicar's Wrath>Dawnbreak>Hammer of Kings>Solar Nova>Illumination>Seraphic Bulwark (in-row mitigation, MK Rock Barrier precedent); valkyrie Glorious Execution>Justice>Horusath Blast>Sunslam. CD_PER_ROW=7 from valkyrie's 4-icon row. Envelope: Solar Power stack_bar (aura 500149, 10 cells step 2, Dawn at full) + mana (full-height blessings/piety, minor seraphim/valkyrie, each cited)."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Sidekick spec pages scraped 2026-08-07 (fresh vs 07/31 changelog) to resources/sidekick-sun-cleric-{blessings,piety,seraphim,valkyrie}.md. Roles read: blessings HEALER (Holy Pala/Disc feel; Illumination/Shine/Daybreak/Radiant Cascade + Bless bodyguard + Vow->Dawn Solar Power); piety DAMAGE ranged caster (Balance/Fire feel; Dawnsear/Sunflare/Radiant Flame/Horusath Blast/Rapture, Sunrise/Sunset lock-in); seraphim TANK (block tank; Justicar's Wrath/Dawnbreak/Hammer of Kings/Illumination shields); valkyrie DAMAGE melee (Ret/WW feel; Glorious Execution/Justice/Horusath Blast/Judgement Day/Champion of the Sun). NB Sidekick blob still names Adjudication; changelog renamed it Herald of Dawn 07/31."
+  },
+  "pets": {
+   "at": "2026-08-08",
+   "note": "requirements section 3 answered: EXPLICITLY NONE. Zero skillbook rows summon a persistent combat pet; Scrying Orb is a no-id vision novelty (ignore) and the ground objects (Sunwell, Circle of Valor, Sun Gate, Dawnfall) are zone cooldowns, not pets. No pet band, no NO PET alert, no pet resource."
+  },
+  "procs": {
+   "at": "2026-08-08",
+   "note": "PROC_GLOW: Dawnsear<-Herald of Dawn (804630, the 07/31 rename), Sunflare<-Burning Heat (Sun Ray window), Shine<-Sunwalker (PROC_STACKS, stacking discount), Daybreak<-Lord Commander (seraphim block proc), Illumination<-Angelic Presence ('prioritize while active', seraphim page). Granted-aura names for Burning Heat / Lord Commander / Cultivate Divinity unverified -- requirements section 6; a wrong name fails to an absent glow, never a false one. On-me rows carry the state auras: piety Sunrise/Sunset/Twin Flames/Sun Power/Scorch Marks/Spears of Glory/Learning Light/Blinding Light/Ancient Etchings; seraphim's proc-defense layer (Angelic Presence, Sunsworn, Bastion of Hope, Gleaming Armor, Celestial Protection, The Chosen, Chosen of the Light); blessings crit-payoffs (Cultivate Divinity, Vitality, Sunwalker, Holy Form); class-wide Dawn + Gleaming Vigil."
+  },
+  "requirements": {
+   "at": "2026-08-08",
+   "note": "notes/requirements-sun-cleric.md written, all sections: changelog triage table (12 entries -> 3 acted on: Herald of Dawn rename, Sunstorm add, Vow stance-bar confirmation), both-DB sweep summary, mandatory buffs (Vow family = class stance -> NO VOW alert; Dawn window; Devotions = Instinct shape), section 2 talents (Valkyrie L15 Vow transform needs no swap - per-spec active-only rows; Burning Heat = Lithic Lance shape; Sunslam Dawn-gate via spellUsable), section 3 pets EXPLICITLY NONE, section 4 main rows quoted per spec + CD_PER_ROW=7 from valkyrie's 4-icon row + Solar Power stack_bar 10 cells step 2, section 5 miss-handling with proof column, section 6: 17 open UNKNOWNs deferred to the verified pass."
+  },
+  "talents": {
+   "at": "2026-08-08",
+   "note": "section-2 transforms: Valkyrie L15 (681084) turns Vow of Radiance into Vow of the Valkyr -- no Spell Known swap needed, Vow rows are per-spec active-only aura displays so the transformed-away Vow never lights; Burning Heat (Sunflare->Sun Ray) and Herald of Dawn (renamed 07/31, Rapture->double Dawnsear) are temporary proc transforms = the Lithic Lance shape, PROC_GLOW on the base button, transform face holds no slot; Sunslam's 'only while Dawn is active' gate carried by spellUsable desaturate (check 9 mechanism); Seraphic Bulwark CHARGES=2 (tooltip '2 Charges, 25 sec recharge'). Pack reads correctly untalented: proc glows active-only, charges fall back to plain cd, gateable leaves gate on own id."
+  },
+  "tests": {
+   "at": "2026-08-08",
+   "note": "tests/run.py all checks passed (fixtures frozen via tests/freeze.py sun-cleric -- 5 fixtures: all-specs 296 displays + blessings 87 / piety 81 / seraphim 83 / valkyrie 82; CORE_LEAVES sun-cleric=5 pinned in classes.py with the leaf list in the comment: NO VOW alert + Paragon/Radiance/Dawn/Gleaming Vigil merged Buffs leaves; docs/packs/sun-cleric/ carries the site-named copies so check 13 measures the real pack). Three check-driven fixes recorded: Mercy 503650->504848 and Solar Invigoration 562311->806123 (db.exil.es proc rows; db.ascension castable tooltips found by name re-ask, wired via CROSSCHECK + inventory), Solar Discernment 807654 added for talent coverage, aura-only rows added for Solar Power / Sunrise / Sunset / Twin Flames / Sun Power / Purging Flames."
+  },
+  "unknowns": {
+   "at": "2026-08-08",
+   "note": "requirements section 6: 17 open questions DEFERRED ON PURPOSE to the post-ship verified pass (draft bar, production-run.md) -- headline items: Solar Power 20-stack aura presentation, Dawn castable-vs-state, the four component-id Vows (name match carries), five unverified proc-granted aura names (Herald of Dawn / Burning Heat / Lord Commander / Cultivate Divinity / Beatification), Sun Ray other-id, Chosen of the Light castable id, Solar Guidance application, Mercy-vs-Blightbreaker naming, Divine Retribution accumulator id, March of the Valkyr / Sun Disc passive-vs-toggle, valkyrie SPEC_KNOWN at L15 (no L10 row exists). None blocks the draft: every hedged display is active-only or name-matched, so a wrong guess fails to absence, not to a false cue."
+  }
+ }
+}

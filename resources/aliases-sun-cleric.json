@@ -1,0 +1,14 @@
+{
+ "Solar Apex": {
+  "canonical": null,
+  "why": "1-hit in sidekick-data.js ('Line up Solar Apex, Solar Invigoration with your burst window' -- the generated burst-window sentence, the Comet Storm shape). No record under this name in the skillbook, the db.exil.es class digest, or a db.ascension name search. Prose, not a claim; the blessings cooldown row ships without it."
+ },
+ "Vindication": {
+  "canonical": null,
+  "why": "1-hit as a claim in sidekick-data.js and the other blob mentions belong to other classes' talent text ('Critically striking with Vindication or Righteous Lunge', 'the Oath effect of Vindication'). db.exil.es 802946 'Vindication' exists but its tooltip is a cooldown reset for Calm/Sungate/Solar Prayer with no cost or cooldown row -- not the cited piety burst cooldown, and no skillbook entry grants it. Prose; recorded so the name does not return as a fresh mystery."
+ },
+ "Sunwalking": {
+  "canonical": null,
+  "why": "1-hit in sidekick-data.js ('Line up Champion of the Sun, Sunwalking, Valkyr's Calling with your burst window' -- generated prose). Nearest real names are Sunwalker 704934 (a blessings/seraphim next-Shine stacker) and Sunwalker's Grace 704395 (a seraphim passive Solar Power trickle); neither is a valkyrie cooldown, and no database carries 'Sunwalking'. Prose, not a claim."
+ }
+}

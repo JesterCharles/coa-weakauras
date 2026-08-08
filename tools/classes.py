@@ -297,6 +297,15 @@ CORE_LEAVES = {
     # buff icons are self-gating and a buff id is not something IsSpellKnown
     # recognises.
     "bloodmage": 4,
+    # First pin (0.1). The 5 are the class-wide NO VOW alert (every spec's
+    # Solar Power generation hangs on a Vow, the Vows are mutually exclusive
+    # and 07/31 put them on the stance bar -- class territory, the NO BOON
+    # shape) plus four merged Buffs leaves for auras every spec's row carries
+    # (Paragon and Radiance running states off the all-spec offense rows;
+    # Dawn and Gleaming Vigil from SHORT_ENTRIES) that hold the class gate
+    # alone: buff icons are self-gating and a buff id is not something
+    # IsSpellKnown recognises.
+    "sun-cleric": 5,
 }
 
 
