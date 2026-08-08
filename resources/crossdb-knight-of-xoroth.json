@@ -1,0 +1,870 @@
+{
+ "_class": "knight-of-xoroth",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "A Gift from Hell": {
+   "id": 300390,
+   "state": "record"
+  },
+  "Absolute Hatred": {
+   "id": 680205,
+   "state": "record"
+  },
+  "Agonizing Inspiration": {
+   "id": 801036,
+   "state": "record"
+  },
+  "Apocalypse": {
+   "id": 630936,
+   "state": "record"
+  },
+  "Apocalypse Edge": {
+   "id": 705022,
+   "state": "record"
+  },
+  "Black Shield": {
+   "id": 805679,
+   "state": "record"
+  },
+  "Black Skull Shield": {
+   "id": 804354,
+   "state": "record"
+  },
+  "Bloodied Blade": {
+   "id": 800997,
+   "state": "record"
+  },
+  "Boiling Blood": {
+   "id": 300394,
+   "state": "record"
+  },
+  "Bone Collector": {
+   "id": 705012,
+   "state": "record"
+  },
+  "Boundless Fury": {
+   "id": 704954,
+   "state": "record"
+  },
+  "Brimstone Battlemaster": {
+   "id": 704984,
+   "state": "record"
+  },
+  "Brimstone Bludgeon": {
+   "id": 520005,
+   "state": "record"
+  },
+  "Brimstone Buckler": {
+   "id": 92104,
+   "state": "record"
+  },
+  "Brimstone Knight": {
+   "id": 704972,
+   "state": "record"
+  },
+  "Brimstone Splinters": {
+   "id": 805703,
+   "state": "record"
+  },
+  "Brimstone's Blood": {
+   "id": 300387,
+   "state": "record"
+  },
+  "Bringer of Fire": {
+   "id": 805667,
+   "state": "record"
+  },
+  "Broken Shackles": {
+   "id": 300457,
+   "state": "record"
+  },
+  "Brute Strength": {
+   "id": 680723,
+   "state": "record"
+  },
+  "Bulwark of Xoroth": {
+   "id": 300388,
+   "state": "record"
+  },
+  "Burning Blade": {
+   "id": 524919,
+   "state": "record"
+  },
+  "Burning Flesh": {
+   "id": 300373,
+   "state": "record"
+  },
+  "Burning Power": {
+   "id": 500004,
+   "state": "record"
+  },
+  "Burning Rage": {
+   "id": 520295,
+   "state": "record"
+  },
+  "Bursting Embers": {
+   "id": 560683,
+   "state": "record"
+  },
+  "Calamity": {
+   "id": 300393,
+   "state": "record"
+  },
+  "Call: Hellfire Abyssal": {
+   "id": 805074,
+   "state": "record"
+  },
+  "Call: Hellfire Imp": {
+   "id": 804883,
+   "state": "record"
+  },
+  "Carver": {
+   "id": 707390,
+   "state": "record"
+  },
+  "Cataclysmic Power": {
+   "id": 805692,
+   "state": "record"
+  },
+  "Chain Grab": {
+   "id": 800606,
+   "state": "record"
+  },
+  "Chain Warden": {
+   "id": 704185,
+   "state": "record"
+  },
+  "Chains of Malice": {
+   "id": 803185,
+   "state": "record"
+  },
+  "Chains of Xoroth": {
+   "id": 706756,
+   "state": "record"
+  },
+  "Chainwhip": {
+   "id": 800081,
+   "state": "record"
+  },
+  "Chaos Feast": {
+   "id": 704983,
+   "state": "record"
+  },
+  "Chop Shop": {
+   "id": 704953,
+   "state": "record"
+  },
+  "Cinderblade": {
+   "id": 704959,
+   "state": "record"
+  },
+  "Claws of Hell": {
+   "id": 706751,
+   "state": "record"
+  },
+  "Combusting Blade": {
+   "id": 704999,
+   "state": "record"
+  },
+  "Conqueror's Will": {
+   "id": 520372,
+   "state": "record"
+  },
+  "Consuming Blade": {
+   "id": 500909,
+   "state": "no-record"
+  },
+  "Create: Hellgate": {
+   "id": 804880,
+   "state": "record"
+  },
+  "Crusher": {
+   "id": 92100,
+   "state": "record"
+  },
+  "Curse of Hel'nurath": {
+   "id": 804174,
+   "state": "record"
+  },
+  "Curse of Xoroth": {
+   "id": 503472,
+   "state": "record"
+  },
+  "Darkrider": {
+   "id": 704980,
+   "state": "record"
+  },
+  "Death To All": {
+   "id": 704181,
+   "state": "record"
+  },
+  "Decimation": {
+   "id": 524913,
+   "state": "record"
+  },
+  "Defiance - Level 15 Passive": {
+   "id": 706478,
+   "state": "record"
+  },
+  "Defiance Stats": {
+   "id": 500007,
+   "state": "record"
+  },
+  "Demon Heart": {
+   "id": 805669,
+   "state": "record"
+  },
+  "Demon Knight's Might": {
+   "id": 705014,
+   "state": "record"
+  },
+  "Demon's Blood": {
+   "id": 800999,
+   "state": "record"
+  },
+  "Demon's Breath": {
+   "id": 706563,
+   "state": "record"
+  },
+  "Demonfeast": {
+   "id": 302541,
+   "state": "record"
+  },
+  "Demonfire": {
+   "id": 500906,
+   "state": "record"
+  },
+  "Demonfire Plating": {
+   "id": 704966,
+   "state": "record"
+  },
+  "Demonfire Retaliation": {
+   "id": 573034,
+   "state": "record"
+  },
+  "Demonfury": {
+   "id": 805668,
+   "state": "record"
+  },
+  "Demonic Blade": {
+   "id": 681183,
+   "state": "record"
+  },
+  "Demonic Bulwark": {
+   "id": 573066,
+   "state": "record"
+  },
+  "Demonic Frenzy": {
+   "id": 680992,
+   "state": "record"
+  },
+  "Demonic Grit": {
+   "id": 805678,
+   "state": "record"
+  },
+  "Demonic Power": {
+   "id": 807730,
+   "state": "record"
+  },
+  "Demonic Rage": {
+   "id": 524922,
+   "state": "record"
+  },
+  "Demonic Strength": {
+   "id": 704978,
+   "state": "record"
+  },
+  "Demonic Visage": {
+   "id": 300392,
+   "state": "record"
+  },
+  "Demonskin": {
+   "id": 302581,
+   "state": "record"
+  },
+  "Dismemberment": {
+   "id": 705018,
+   "state": "record"
+  },
+  "Domination": {
+   "id": 704979,
+   "state": "record"
+  },
+  "Doom": {
+   "id": 802602,
+   "state": "record"
+  },
+  "Drag Through Hell": {
+   "id": 804773,
+   "state": "record"
+  },
+  "Dread": {
+   "id": 706502,
+   "state": "record"
+  },
+  "Enslaver": {
+   "id": 704977,
+   "state": "record"
+  },
+  "Evil Duo": {
+   "id": 704961,
+   "state": "record"
+  },
+  "Explosive Demonfire": {
+   "id": 300380,
+   "state": "record"
+  },
+  "Fiend": {
+   "id": 680197,
+   "state": "record"
+  },
+  "Fiend of Forges": {
+   "id": 300386,
+   "state": "record"
+  },
+  "Fiery Retribution": {
+   "id": 556838,
+   "state": "record"
+  },
+  "Fist of Xoroth": {
+   "id": 500025,
+   "state": "no-record"
+  },
+  "Flameblade": {
+   "id": 704967,
+   "state": "record"
+  },
+  "Flameforger": {
+   "id": 805704,
+   "state": "record"
+  },
+  "Flames of Xoroth": {
+   "id": 801059,
+   "state": "record"
+  },
+  "Flamewrath": {
+   "id": 301358,
+   "state": "record"
+  },
+  "Flay Corpse": {
+   "id": 801042,
+   "state": "record"
+  },
+  "Flesh Hook": {
+   "id": 500020,
+   "state": "no-record"
+  },
+  "Forgefiend's Bulwark": {
+   "id": 801019,
+   "state": "record"
+  },
+  "Furious Fighter": {
+   "id": 704962,
+   "state": "record"
+  },
+  "Furnace of Fiends": {
+   "id": 300458,
+   "state": "record"
+  },
+  "Good Riddance": {
+   "id": 300454,
+   "state": "record"
+  },
+  "Gore": {
+   "id": 805555,
+   "state": "record"
+  },
+  "Gored": {
+   "id": 560685,
+   "state": "record"
+  },
+  "Goredrenched": {
+   "id": 805964,
+   "state": "record"
+  },
+  "Gorged": {
+   "id": 681205,
+   "state": "record"
+  },
+  "Greater Imp": {
+   "id": 92101,
+   "state": "record"
+  },
+  "Greater Mark of Blaumeux": {
+   "id": 712460,
+   "state": "record"
+  },
+  "Greater Mark of Korth\u2019azz": {
+   "id": 680300,
+   "state": "record"
+  },
+  "Greater Mark of Zeliek": {
+   "id": 803731,
+   "state": "record"
+  },
+  "Harbinger of Pestilence": {
+   "id": 704182,
+   "state": "record"
+  },
+  "Heart of Xoroth": {
+   "id": 704956,
+   "state": "record"
+  },
+  "Hell Blender": {
+   "id": 704975,
+   "state": "record"
+  },
+  "Hell's Forge": {
+   "id": 804683,
+   "state": "record"
+  },
+  "Hellbound Charge": {
+   "id": 807247,
+   "state": "record"
+  },
+  "Hellbound Leash": {
+   "id": 804168,
+   "state": "record"
+  },
+  "Hellbreaker": {
+   "id": 680216,
+   "state": "record"
+  },
+  "Hellbringer": {
+   "id": 300963,
+   "state": "record"
+  },
+  "Hellcaller": {
+   "id": 300389,
+   "state": "record"
+  },
+  "Hellfire Bellows": {
+   "id": 520292,
+   "state": "record"
+  },
+  "Hellfire Form": {
+   "id": 503300,
+   "state": "record"
+  },
+  "Hellfire Imp": {
+   "id": 800443,
+   "state": "record"
+  },
+  "Hellfire Reprimand": {
+   "id": 706565,
+   "state": "record"
+  },
+  "Hellfire Resolve": {
+   "id": 573035,
+   "state": "record"
+  },
+  "Hellfire Rituals": {
+   "id": 500551,
+   "state": "record"
+  },
+  "Hellfire Striker": {
+   "id": 573036,
+   "state": "record"
+  },
+  "Hellhaul": {
+   "id": 503142,
+   "state": "record"
+  },
+  "Hellish Rebuke": {
+   "id": 804010,
+   "state": "record"
+  },
+  "Hellknight": {
+   "id": 800702,
+   "state": "record"
+  },
+  "Hellmaw": {
+   "id": 806965,
+   "state": "record"
+  },
+  "Hellrider": {
+   "id": 803889,
+   "state": "record"
+  },
+  "Hellsmelted": {
+   "id": 524916,
+   "state": "record"
+  },
+  "Hellsmelted Armor": {
+   "id": 706569,
+   "state": "record"
+  },
+  "Hellstorm": {
+   "id": 801004,
+   "state": "record"
+  },
+  "Hellstriker": {
+   "id": 704991,
+   "state": "record"
+  },
+  "Hellwrath": {
+   "id": 572123,
+   "state": "record"
+  },
+  "Imp Guards": {
+   "id": 804340,
+   "state": "record"
+  },
+  "Impcaller": {
+   "id": 706755,
+   "state": "record"
+  },
+  "Impish Pestilence": {
+   "id": 300398,
+   "state": "record"
+  },
+  "Implosion": {
+   "id": 524897,
+   "state": "record"
+  },
+  "Imprison": {
+   "id": 801067,
+   "state": "record"
+  },
+  "Improved Gore": {
+   "id": 705011,
+   "state": "record"
+  },
+  "Improved Unleash Pestilence": {
+   "id": 704960,
+   "state": "record"
+  },
+  "Indiscriminate": {
+   "id": 300397,
+   "state": "record"
+  },
+  "Infernal Bulwark": {
+   "id": 500023,
+   "state": "record"
+  },
+  "Infernal Pursuit": {
+   "id": 704992,
+   "state": "record"
+  },
+  "Infernal Shield": {
+   "id": 801001,
+   "state": "record"
+  },
+  "Infernal Steel": {
+   "id": 520021,
+   "state": "record"
+  },
+  "Infernal Strike": {
+   "id": 801016,
+   "state": "record"
+  },
+  "Inferno Blade": {
+   "id": 805698,
+   "state": "record"
+  },
+  "Inferno Blast": {
+   "id": 805697,
+   "state": "record"
+  },
+  "Invasion": {
+   "id": 300374,
+   "state": "record"
+  },
+  "Juggernaut": {
+   "id": 520294,
+   "state": "record"
+  },
+  "Knight of Pestilence": {
+   "id": 704981,
+   "state": "record"
+  },
+  "Knight of the Apocalypse": {
+   "id": 520296,
+   "state": "record"
+  },
+  "Legion's Presence": {
+   "id": 804879,
+   "state": "record"
+  },
+  "Legionwake": {
+   "id": 706567,
+   "state": "record"
+  },
+  "Lethal Saw": {
+   "id": 705010,
+   "state": "record"
+  },
+  "Mark of Blaumeux": {
+   "id": 707693,
+   "state": "record"
+  },
+  "Mark of Rivendare": {
+   "id": 803667,
+   "state": "record"
+  },
+  "Mark of Zeliek": {
+   "id": 803671,
+   "state": "record"
+  },
+  "Meatsaw": {
+   "id": 800340,
+   "state": "record"
+  },
+  "Melt": {
+   "id": 803334,
+   "state": "record"
+  },
+  "Merciless": {
+   "id": 705009,
+   "state": "record"
+  },
+  "Mighty Swings": {
+   "id": 705003,
+   "state": "record"
+  },
+  "Mounted Champion": {
+   "id": 706295,
+   "state": "record"
+  },
+  "Mounted Reaver": {
+   "id": 707835,
+   "state": "record"
+  },
+  "Mutilation": {
+   "id": 805695,
+   "state": "record"
+  },
+  "Oath of Defiance": {
+   "id": 804285,
+   "state": "record"
+  },
+  "Omen of Rage": {
+   "id": 706590,
+   "state": "record"
+  },
+  "Pestilence of Apocalypse": {
+   "id": 804786,
+   "state": "record"
+  },
+  "Pestilence of Conquest": {
+   "id": 801053,
+   "state": "record"
+  },
+  "Pestilence of Death": {
+   "id": 801054,
+   "state": "record"
+  },
+  "Pestilence of Famine": {
+   "id": 802344,
+   "state": "record"
+  },
+  "Pestilence of War": {
+   "id": 802345,
+   "state": "record"
+  },
+  "Pestilent Retaliation": {
+   "id": 704971,
+   "state": "record"
+  },
+  "Pillars of Demonfire": {
+   "id": 300377,
+   "state": "record"
+  },
+  "Punisher": {
+   "id": 704988,
+   "state": "record"
+  },
+  "Rage Demon": {
+   "id": 500313,
+   "state": "record"
+  },
+  "Rage of Xoroth": {
+   "id": 300376,
+   "state": "record"
+  },
+  "Ragefist": {
+   "id": 300384,
+   "state": "record"
+  },
+  "Rain of Chaos": {
+   "id": 302545,
+   "state": "record"
+  },
+  "Render": {
+   "id": 704951,
+   "state": "record"
+  },
+  "Ripper": {
+   "id": 706331,
+   "state": "record"
+  },
+  "Ritual Fire": {
+   "id": 302552,
+   "state": "record"
+  },
+  "Sacrificial Circle": {
+   "id": 805677,
+   "state": "record"
+  },
+  "Screamin' Demon": {
+   "id": 804947,
+   "state": "record"
+  },
+  "Seeking Flame": {
+   "id": 805671,
+   "state": "record"
+  },
+  "Seeking Pain": {
+   "id": 805666,
+   "state": "record"
+  },
+  "Seething Strikes": {
+   "id": 300375,
+   "state": "record"
+  },
+  "Servitude": {
+   "id": 300456,
+   "state": "record"
+  },
+  "Sever": {
+   "id": 500904,
+   "state": "record"
+  },
+  "Shadowflame Forge": {
+   "id": 704989,
+   "state": "record"
+  },
+  "Shieldgore": {
+   "id": 804353,
+   "state": "record"
+  },
+  "Skulltaker": {
+   "id": 800168,
+   "state": "record"
+  },
+  "Smolder": {
+   "id": 805700,
+   "state": "record"
+  },
+  "Snarl": {
+   "id": 800169,
+   "state": "record"
+  },
+  "Soul Furnace": {
+   "id": 706758,
+   "state": "record"
+  },
+  "Spiked Chains": {
+   "id": 704987,
+   "state": "record"
+  },
+  "Spite": {
+   "id": 805705,
+   "state": "record"
+  },
+  "Stoke the Flames": {
+   "id": 704973,
+   "state": "record"
+  },
+  "Suffuse": {
+   "id": 801063,
+   "state": "record"
+  },
+  "Suffusion of Essence": {
+   "id": 706566,
+   "state": "record"
+  },
+  "Summon: Greater Imp": {
+   "id": 520661,
+   "state": "record"
+  },
+  "Superheated Blade": {
+   "id": 706329,
+   "state": "record"
+  },
+  "Swift Death": {
+   "id": 300396,
+   "state": "record"
+  },
+  "Taskmaster": {
+   "id": 500003,
+   "state": "record"
+  },
+  "The Butcher": {
+   "id": 553279,
+   "state": "record"
+  },
+  "To Ashes": {
+   "id": 705000,
+   "state": "record"
+  },
+  "Torn Flesh": {
+   "id": 800341,
+   "state": "record"
+  },
+  "Unbound Inferno": {
+   "id": 704997,
+   "state": "record"
+  },
+  "Unleash Hellfire": {
+   "id": 705001,
+   "state": "record"
+  },
+  "Unleash Pestilence": {
+   "id": 801002,
+   "state": "record"
+  },
+  "Unseal": {
+   "id": 805664,
+   "state": "record"
+  },
+  "War Pig": {
+   "id": 705020,
+   "state": "record"
+  },
+  "Warbeast": {
+   "id": 705004,
+   "state": "record"
+  },
+  "Warbringer": {
+   "id": 802581,
+   "state": "record"
+  },
+  "Warden of Hellfire": {
+   "id": 704986,
+   "state": "record"
+  },
+  "Warpath": {
+   "id": 805791,
+   "state": "record"
+  },
+  "Xorothian Empowerment": {
+   "id": 302571,
+   "state": "record"
+  },
+  "Xorothian Finesse": {
+   "id": 300385,
+   "state": "record"
+  },
+  "Xorothian Flames": {
+   "id": 300383,
+   "state": "record"
+  },
+  "Xorothian Fury": {
+   "id": 802617,
+   "state": "record"
+  },
+  "Xorothian Rage": {
+   "id": 802618,
+   "state": "record"
+  },
+  "Xorothian Sigil": {
+   "id": 280380,
+   "state": "record"
+  },
+  "Xorothian Strength": {
+   "id": 300382,
+   "state": "record"
+  }
+ }
+}

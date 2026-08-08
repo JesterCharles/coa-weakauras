@@ -1,0 +1,2480 @@
+{
+ "A Curse from Hell": {
+  "ids": [
+   302548
+  ],
+  "icon": null
+ },
+ "A Gift from Hell": {
+  "ids": [
+   300390
+  ],
+  "icon": null
+ },
+ "Absolute Hatred": {
+  "ids": [
+   680205
+  ],
+  "icon": null
+ },
+ "Absolutism": {
+  "ids": [
+   706501
+  ],
+  "icon": null
+ },
+ "Abyssal Aura": {
+  "ids": [
+   302580
+  ],
+  "icon": null
+ },
+ "Add 1 Demonfire": {
+  "ids": [
+   524912
+  ],
+  "icon": null
+ },
+ "Add 2 Demonfire": {
+  "ids": [
+   524955
+  ],
+  "icon": null
+ },
+ "Add 3 Demonfire": {
+  "ids": [
+   525008
+  ],
+  "icon": null
+ },
+ "Add 4 Demonfire": {
+  "ids": [
+   525056
+  ],
+  "icon": null
+ },
+ "Agonizing Inspiration": {
+  "ids": [
+   801036
+  ],
+  "icon": null
+ },
+ "Annihilation": {
+  "ids": [
+   504581
+  ],
+  "icon": null
+ },
+ "Apocalypse": {
+  "ids": [
+   630936
+  ],
+  "icon": null
+ },
+ "Apocalypse Edge": {
+  "ids": [
+   705022
+  ],
+  "icon": null
+ },
+ "Ascended Warlock": {
+  "ids": [
+   802610
+  ],
+  "icon": null
+ },
+ "Atrophy": {
+  "ids": [
+   801052
+  ],
+  "icon": null
+ },
+ "Battlestrider": {
+  "ids": [
+   807383
+  ],
+  "icon": null
+ },
+ "Black Furnace": {
+  "ids": [
+   805672
+  ],
+  "icon": null
+ },
+ "Black Sabbath": {
+  "ids": [
+   704183
+  ],
+  "icon": null
+ },
+ "Black Shield": {
+  "ids": [
+   805679
+  ],
+  "icon": null
+ },
+ "Black Skull Shield": {
+  "ids": [
+   804354
+  ],
+  "icon": null
+ },
+ "Blade of Xoroth": {
+  "ids": [
+   805665
+  ],
+  "icon": null
+ },
+ "Blood Frenzy": {
+  "ids": [
+   520008
+  ],
+  "icon": null
+ },
+ "Blood Frenzy DF": {
+  "ids": [
+   520452
+  ],
+  "icon": null
+ },
+ "Bloodied Blade": {
+  "ids": [
+   800997
+  ],
+  "icon": null
+ },
+ "Bloodrider": {
+  "ids": [
+   704964
+  ],
+  "icon": null
+ },
+ "Bludgeoning": {
+  "ids": [
+   520006
+  ],
+  "icon": null
+ },
+ "Blunt Edge": {
+  "ids": [
+   680206
+  ],
+  "icon": null
+ },
+ "Boiling Blood": {
+  "ids": [
+   300394
+  ],
+  "icon": null
+ },
+ "Bone Collector": {
+  "ids": [
+   705012
+  ],
+  "icon": null
+ },
+ "Bouncing Blades": {
+  "ids": [
+   560654
+  ],
+  "icon": null
+ },
+ "Boundless Fury": {
+  "ids": [
+   704954
+  ],
+  "icon": null
+ },
+ "Breach": {
+  "ids": [
+   572049
+  ],
+  "icon": null
+ },
+ "Brimstone Battlemaster": {
+  "ids": [
+   704984
+  ],
+  "icon": null
+ },
+ "Brimstone Bludgeon": {
+  "ids": [
+   520005
+  ],
+  "icon": null
+ },
+ "Brimstone Buckler": {
+  "ids": [
+   92104
+  ],
+  "icon": null
+ },
+ "Brimstone Flames": {
+  "ids": [
+   807671
+  ],
+  "icon": null
+ },
+ "Brimstone Knight": {
+  "ids": [
+   704972
+  ],
+  "icon": null
+ },
+ "Brimstone Splinters": {
+  "ids": [
+   805703
+  ],
+  "icon": null
+ },
+ "Brimstone Striker": {
+  "ids": [
+   807144
+  ],
+  "icon": null
+ },
+ "Brimstone's Blood": {
+  "ids": [
+   300387
+  ],
+  "icon": null
+ },
+ "Bringer of Destruction": {
+  "ids": [
+   681449
+  ],
+  "icon": null
+ },
+ "Bringer of Fire": {
+  "ids": [
+   805667
+  ],
+  "icon": null
+ },
+ "Broken Shackles": {
+  "ids": [
+   300457
+  ],
+  "icon": null
+ },
+ "Brutal Conquest": {
+  "ids": [
+   704251
+  ],
+  "icon": null
+ },
+ "Brute Strength": {
+  "ids": [
+   680723
+  ],
+  "icon": null
+ },
+ "Bulwark of Xoroth": {
+  "ids": [
+   300388
+  ],
+  "icon": null
+ },
+ "Burning Blade": {
+  "ids": [
+   524919
+  ],
+  "icon": null
+ },
+ "Burning Flesh": {
+  "ids": [
+   300373
+  ],
+  "icon": null
+ },
+ "Burning Light": {
+  "ids": [
+   804162
+  ],
+  "icon": null
+ },
+ "Burning Mischief": {
+  "ids": [
+   630933
+  ],
+  "icon": null
+ },
+ "Burning Power": {
+  "ids": [
+   500004
+  ],
+  "icon": null
+ },
+ "Burning Rage": {
+  "ids": [
+   520295
+  ],
+  "icon": null
+ },
+ "Burning Slap": {
+  "ids": [
+   630930
+  ],
+  "icon": null
+ },
+ "Burning Swings": {
+  "ids": [
+   707632
+  ],
+  "icon": null
+ },
+ "Burning Wrath": {
+  "ids": [
+   300399
+  ],
+  "icon": null
+ },
+ "Bursting Embers": {
+  "ids": [
+   560683
+  ],
+  "icon": null
+ },
+ "Butcher": {
+  "ids": [
+   680978
+  ],
+  "icon": null
+ },
+ "Calamity": {
+  "ids": [
+   300393
+  ],
+  "icon": null
+ },
+ "Call: Hellfire Abyssal": {
+  "ids": [
+   805074
+  ],
+  "icon": null
+ },
+ "Call: Hellfire Imp": {
+  "ids": [
+   804883
+  ],
+  "icon": null
+ },
+ "Carver": {
+  "ids": [
+   707390
+  ],
+  "icon": null
+ },
+ "Cataclysmic Power": {
+  "ids": [
+   805692
+  ],
+  "icon": null
+ },
+ "Chain Grab": {
+  "ids": [
+   800606
+  ],
+  "icon": null
+ },
+ "Chain Warden": {
+  "ids": [
+   704185
+  ],
+  "icon": null
+ },
+ "Chains of Binding": {
+  "ids": [
+   805981
+  ],
+  "icon": null
+ },
+ "Chains of Malice": {
+  "ids": [
+   803185
+  ],
+  "icon": null
+ },
+ "Chains of Xoroth": {
+  "ids": [
+   706756
+  ],
+  "icon": null
+ },
+ "Chainwhip": {
+  "ids": [
+   800081
+  ],
+  "icon": null
+ },
+ "Chaos Feast": {
+  "ids": [
+   704983
+  ],
+  "icon": null
+ },
+ "Chop Shop": {
+  "ids": [
+   704953
+  ],
+  "icon": null
+ },
+ "Cinderblade": {
+  "ids": [
+   704959
+  ],
+  "icon": null
+ },
+ "Claw Grab": {
+  "ids": [
+   803186
+  ],
+  "icon": null
+ },
+ "Claws of Hell": {
+  "ids": [
+   706751
+  ],
+  "icon": null
+ },
+ "CoA Aura - Knight of Xoroth - Defiance": {
+  "ids": [
+   887039
+  ],
+  "icon": null
+ },
+ "CoA Aura - Knight of Xoroth - Hellfire": {
+  "ids": [
+   887038
+  ],
+  "icon": null
+ },
+ "CoA Aura - Knight of Xoroth - War": {
+  "ids": [
+   887037
+  ],
+  "icon": null
+ },
+ "CoA Aura - Knight of Xoroth Class": {
+  "ids": [
+   887005
+  ],
+  "icon": null
+ },
+ "Combusting Blade": {
+  "ids": [
+   704999
+  ],
+  "icon": null
+ },
+ "Conqueror's Will": {
+  "ids": [
+   520372
+  ],
+  "icon": null
+ },
+ "Consuming Blade": {
+  "ids": [
+   500909
+  ],
+  "icon": null
+ },
+ "Create Hellgate": {
+  "ids": [
+   804881
+  ],
+  "icon": null
+ },
+ "Create: Hellgate": {
+  "ids": [
+   804880
+  ],
+  "icon": null
+ },
+ "Crusher": {
+  "ids": [
+   92100
+  ],
+  "icon": null
+ },
+ "Curse of Hel'nurath": {
+  "ids": [
+   804174
+  ],
+  "icon": null
+ },
+ "Curse of Xoroth": {
+  "ids": [
+   503472
+  ],
+  "icon": null
+ },
+ "Curse of Xoroth Hidden Passive": {
+  "ids": [
+   680729
+  ],
+  "icon": null
+ },
+ "Damnation": {
+  "ids": [
+   680726
+  ],
+  "icon": null
+ },
+ "Darkrider": {
+  "ids": [
+   704980
+  ],
+  "icon": null
+ },
+ "Death To All": {
+  "ids": [
+   704181
+  ],
+  "icon": null
+ },
+ "Death to All": {
+  "ids": [
+   926594
+  ],
+  "icon": null
+ },
+ "Decaying Blade": {
+  "ids": [
+   706826
+  ],
+  "icon": null
+ },
+ "Decimation": {
+  "ids": [
+   524913
+  ],
+  "icon": null
+ },
+ "Defiance": {
+  "ids": [
+   804296
+  ],
+  "icon": null
+ },
+ "Defiance - Level 15 Passive": {
+  "ids": [
+   706478
+  ],
+  "icon": null
+ },
+ "Defiance Pet Aura": {
+  "ids": [
+   562029
+  ],
+  "icon": null
+ },
+ "Defiance Stats": {
+  "ids": [
+   500007
+  ],
+  "icon": null
+ },
+ "Demolished": {
+  "ids": [
+   807522
+  ],
+  "icon": null
+ },
+ "Demolisher": {
+  "ids": [
+   807336
+  ],
+  "icon": null
+ },
+ "Demon Heart": {
+  "ids": [
+   805669
+  ],
+  "icon": null
+ },
+ "Demon King": {
+  "ids": [
+   560546
+  ],
+  "icon": null
+ },
+ "Demon Knight's Might": {
+  "ids": [
+   705014
+  ],
+  "icon": null
+ },
+ "Demon Scream": {
+  "ids": [
+   630873
+  ],
+  "icon": null
+ },
+ "Demon Scream Reset": {
+  "ids": [
+   520297
+  ],
+  "icon": null
+ },
+ "Demon's Blood": {
+  "ids": [
+   573453
+  ],
+  "icon": null
+ },
+ "Demon's Blood Only Energize +1 Rage": {
+  "ids": [
+   521226
+  ],
+  "icon": null
+ },
+ "Demon's Blood SLS2": {
+  "ids": [
+   520298
+  ],
+  "icon": null
+ },
+ "Demon's Breath": {
+  "ids": [
+   706563
+  ],
+  "icon": null
+ },
+ "Demonfeast": {
+  "ids": [
+   302541
+  ],
+  "icon": null
+ },
+ "Demonfire": {
+  "ids": [
+   500906
+  ],
+  "icon": null
+ },
+ "Demonfire Command": {
+  "ids": [
+   707028
+  ],
+  "icon": null
+ },
+ "Demonfire Generation Passive": {
+  "ids": [
+   572347
+  ],
+  "icon": null
+ },
+ "Demonfire Hidden 2": {
+  "ids": [
+   680816
+  ],
+  "icon": null
+ },
+ "Demonfire Hidden3": {
+  "ids": [
+   704217
+  ],
+  "icon": null
+ },
+ "Demonfire Hidden4": {
+  "ids": [
+   707630
+  ],
+  "icon": null
+ },
+ "Demonfire Hidden5": {
+  "ids": [
+   707718
+  ],
+  "icon": null
+ },
+ "Demonfire Hidden6": {
+  "ids": [
+   707914
+  ],
+  "icon": null
+ },
+ "Demonfire Plating": {
+  "ids": [
+   704966
+  ],
+  "icon": null
+ },
+ "Demonfire Remover": {
+  "ids": [
+   520441
+  ],
+  "icon": null
+ },
+ "Demonfire Remover Delay": {
+  "ids": [
+   520440
+  ],
+  "icon": null
+ },
+ "Demonfire Retaliation": {
+  "ids": [
+   573034
+  ],
+  "icon": null
+ },
+ "Demonflare DEPRECATED": {
+  "ids": [
+   804167
+  ],
+  "icon": null
+ },
+ "Demonfury": {
+  "ids": [
+   805668
+  ],
+  "icon": null
+ },
+ "Demonic Blade": {
+  "ids": [
+   681183
+  ],
+  "icon": null
+ },
+ "Demonic Blade Meatsaw Trigger": {
+  "ids": [
+   630894
+  ],
+  "icon": null
+ },
+ "Demonic Bulwark": {
+  "ids": [
+   573066
+  ],
+  "icon": null
+ },
+ "Demonic Frenzy": {
+  "ids": [
+   680992
+  ],
+  "icon": null
+ },
+ "Demonic Grit": {
+  "ids": [
+   805678
+  ],
+  "icon": null
+ },
+ "Demonic Power": {
+  "ids": [
+   807730
+  ],
+  "icon": null
+ },
+ "Demonic Rage": {
+  "ids": [
+   524922
+  ],
+  "icon": null
+ },
+ "Demonic Strength": {
+  "ids": [
+   704978
+  ],
+  "icon": null
+ },
+ "Demonic Terror": {
+  "ids": [
+   706750
+  ],
+  "icon": null
+ },
+ "Demonic Visage": {
+  "ids": [
+   300392
+  ],
+  "icon": null
+ },
+ "Demonskin": {
+  "ids": [
+   302581
+  ],
+  "icon": null
+ },
+ "Destruction": {
+  "ids": [
+   681458
+  ],
+  "icon": null
+ },
+ "Dismemberment": {
+  "ids": [
+   705018
+  ],
+  "icon": null
+ },
+ "Domination": {
+  "ids": [
+   704979
+  ],
+  "icon": null
+ },
+ "Doom": {
+  "ids": [
+   802602
+  ],
+  "icon": null
+ },
+ "Drag Through Hell": {
+  "ids": [
+   804773
+  ],
+  "icon": null
+ },
+ "Dread": {
+  "ids": [
+   706502
+  ],
+  "icon": null
+ },
+ "Dread Knight": {
+  "ids": [
+   572860
+  ],
+  "icon": null
+ },
+ "Dreadrider's Stomp": {
+  "ids": [
+   804702
+  ],
+  "icon": null
+ },
+ "Dreadsteed Portal": {
+  "ids": [
+   804774
+  ],
+  "icon": null
+ },
+ "Ember Shower": {
+  "ids": [
+   801018
+  ],
+  "icon": null
+ },
+ "Emerging Power": {
+  "ids": [
+   302574
+  ],
+  "icon": null
+ },
+ "Emerging Power (Applier)": {
+  "ids": [
+   302576
+  ],
+  "icon": null
+ },
+ "Energize +1 Rage": {
+  "ids": [
+   521229
+  ],
+  "icon": null
+ },
+ "Energize +2 Rage": {
+  "ids": [
+   521236
+  ],
+  "icon": null
+ },
+ "Energize Pet +5 Focus": {
+  "ids": [
+   521237
+  ],
+  "icon": null
+ },
+ "Enslaved": {
+  "ids": [
+   302584
+  ],
+  "icon": null
+ },
+ "Enslaver": {
+  "ids": [
+   704977
+  ],
+  "icon": null
+ },
+ "Evil Duo": {
+  "ids": [
+   704961
+  ],
+  "icon": null
+ },
+ "Executioner Condition Trigger": {
+  "ids": [
+   680990
+  ],
+  "icon": null
+ },
+ "Explosive Demonfire": {
+  "ids": [
+   300380
+  ],
+  "icon": null
+ },
+ "Famine": {
+  "ids": [
+   801020
+  ],
+  "icon": null
+ },
+ "Feast": {
+  "ids": [
+   570118
+  ],
+  "icon": null
+ },
+ "Fiend": {
+  "ids": [
+   680197
+  ],
+  "icon": null
+ },
+ "Fiend of Forges": {
+  "ids": [
+   300386
+  ],
+  "icon": null
+ },
+ "Fiery Retribution": {
+  "ids": [
+   556838
+  ],
+  "icon": null
+ },
+ "Fiery Retribution CD": {
+  "ids": [
+   804012
+  ],
+  "icon": null
+ },
+ "Firebolt": {
+  "ids": [
+   578318
+  ],
+  "icon": null
+ },
+ "Fist of Xoroth": {
+  "ids": [
+   500025
+  ],
+  "icon": null
+ },
+ "Flameblade": {
+  "ids": [
+   704967
+  ],
+  "icon": null
+ },
+ "Flameforger": {
+  "ids": [
+   805704
+  ],
+  "icon": null
+ },
+ "Flames of Xoroth": {
+  "ids": [
+   801059
+  ],
+  "icon": null
+ },
+ "Flamewrath": {
+  "ids": [
+   301358
+  ],
+  "icon": null
+ },
+ "Flay Corpse": {
+  "ids": [
+   801042
+  ],
+  "icon": null
+ },
+ "Flesh Heap": {
+  "ids": [
+   302542
+  ],
+  "icon": null
+ },
+ "Flesh Hook": {
+  "ids": [
+   500020
+  ],
+  "icon": null
+ },
+ "Flesh Hook (Apocalypse)": {
+  "ids": [
+   560695
+  ],
+  "icon": null
+ },
+ "Fleshcarver": {
+  "ids": [
+   524918
+  ],
+  "icon": null
+ },
+ "Forgefiend's Bulwark": {
+  "ids": [
+   801019
+  ],
+  "icon": null
+ },
+ "Forgehammer Effect": {
+  "ids": [
+   680727
+  ],
+  "icon": null
+ },
+ "Furious Cuts": {
+  "ids": [
+   704963
+  ],
+  "icon": null
+ },
+ "Furious Fighter": {
+  "ids": [
+   704962
+  ],
+  "icon": null
+ },
+ "Furnace of Fiends": {
+  "ids": [
+   300458
+  ],
+  "icon": null
+ },
+ "Fury of Xoroth": {
+  "ids": [
+   802615
+  ],
+  "icon": null
+ },
+ "Gash": {
+  "ids": [
+   514169
+  ],
+  "icon": null
+ },
+ "General of Xoroth": {
+  "ids": [
+   570086
+  ],
+  "icon": null
+ },
+ "Generate Rage": {
+  "ids": [
+   804079
+  ],
+  "icon": null
+ },
+ "Good Riddance": {
+  "ids": [
+   300454
+  ],
+  "icon": null
+ },
+ "Gore": {
+  "ids": [
+   805555
+  ],
+  "icon": null
+ },
+ "Gored": {
+  "ids": [
+   560685
+  ],
+  "icon": null
+ },
+ "Goredrenched": {
+  "ids": [
+   805964
+  ],
+  "icon": null
+ },
+ "Gorged": {
+  "ids": [
+   680199
+  ],
+  "icon": null
+ },
+ "Greater Demon's Might": {
+  "ids": [
+   805597
+  ],
+  "icon": null
+ },
+ "Greater Imp": {
+  "ids": [
+   92101
+  ],
+  "icon": null
+ },
+ "Greater Imp Learned Checker": {
+  "ids": [
+   520736
+  ],
+  "icon": null
+ },
+ "Greater Imp Scaling": {
+  "ids": [
+   520662
+  ],
+  "icon": null
+ },
+ "Greater Mark of Blaumeux": {
+  "ids": [
+   712460
+  ],
+  "icon": null
+ },
+ "Greater Mark of Korth\u2019azz": {
+  "ids": [
+   680300
+  ],
+  "icon": null
+ },
+ "Greater Mark of Zeliek": {
+  "ids": [
+   803731
+  ],
+  "icon": null
+ },
+ "Grotesque": {
+  "ids": [
+   707515
+  ],
+  "icon": null
+ },
+ "Hand of Doom": {
+  "ids": [
+   681191
+  ],
+  "icon": null
+ },
+ "Harbinger of Pestilence": {
+  "ids": [
+   704182
+  ],
+  "icon": null
+ },
+ "Heart of Xoroth": {
+  "ids": [
+   704956
+  ],
+  "icon": null
+ },
+ "Hell Blender": {
+  "ids": [
+   704975
+  ],
+  "icon": null
+ },
+ "Hell Scream": {
+  "ids": [
+   804946
+  ],
+  "icon": null
+ },
+ "Hell Scream Trigger": {
+  "ids": [
+   802859
+  ],
+  "icon": null
+ },
+ "Hell's Forge": {
+  "ids": [
+   804683
+  ],
+  "icon": null
+ },
+ "Hellborn": {
+  "ids": [
+   707631
+  ],
+  "icon": null
+ },
+ "Hellbound Charge": {
+  "ids": [
+   807247
+  ],
+  "icon": null
+ },
+ "Hellbound Leash": {
+  "ids": [
+   804168
+  ],
+  "icon": null
+ },
+ "Hellbreaker": {
+  "ids": [
+   680216
+  ],
+  "icon": null
+ },
+ "Hellbringer": {
+  "ids": [
+   300963
+  ],
+  "icon": null
+ },
+ "Hellcaller": {
+  "ids": [
+   300389
+  ],
+  "icon": null
+ },
+ "Hellfire Abyssal": {
+  "ids": [
+   704247
+  ],
+  "icon": null
+ },
+ "Hellfire Advance": {
+  "ids": [
+   804788
+  ],
+  "icon": null
+ },
+ "Hellfire Barrier": {
+  "ids": [
+   302573
+  ],
+  "icon": null
+ },
+ "Hellfire Bellows": {
+  "ids": [
+   520292
+  ],
+  "icon": null
+ },
+ "Hellfire Bellows2": {
+  "ids": [
+   704541
+  ],
+  "icon": null
+ },
+ "Hellfire Blade": {
+  "ids": [
+   801039
+  ],
+  "icon": null
+ },
+ "Hellfire Breath CDR": {
+  "ids": [
+   707561
+  ],
+  "icon": null
+ },
+ "Hellfire Ember": {
+  "ids": [
+   807670
+  ],
+  "icon": null
+ },
+ "Hellfire Embers": {
+  "ids": [
+   807669
+  ],
+  "icon": null
+ },
+ "Hellfire Explosion": {
+  "ids": [
+   802620
+  ],
+  "icon": null
+ },
+ "Hellfire Forgemaster": {
+  "ids": [
+   302575
+  ],
+  "icon": null
+ },
+ "Hellfire Form": {
+  "ids": [
+   503300
+  ],
+  "icon": null
+ },
+ "Hellfire Imp": {
+  "ids": [
+   800443
+  ],
+  "icon": null
+ },
+ "Hellfire Imp Aura2": {
+  "ids": [
+   570080
+  ],
+  "icon": null
+ },
+ "Hellfire Imp Heal": {
+  "ids": [
+   582255
+  ],
+  "icon": null
+ },
+ "Hellfire Imp Heal Passive": {
+  "ids": [
+   582256
+  ],
+  "icon": null
+ },
+ "Hellfire Imp Hidden Aura": {
+  "ids": [
+   302546
+  ],
+  "icon": null
+ },
+ "Hellfire Imp Threat Redirector": {
+  "ids": [
+   706571
+  ],
+  "icon": null
+ },
+ "Hellfire Pet Applier": {
+  "ids": [
+   800442
+  ],
+  "icon": null
+ },
+ "Hellfire Reprimand": {
+  "ids": [
+   706565
+  ],
+  "icon": null
+ },
+ "Hellfire Resolve": {
+  "ids": [
+   573035
+  ],
+  "icon": null
+ },
+ "Hellfire Ritual": {
+  "ids": [
+   302579
+  ],
+  "icon": null
+ },
+ "Hellfire Ritual2": {
+  "ids": [
+   302578
+  ],
+  "icon": null
+ },
+ "Hellfire Rituals": {
+  "ids": [
+   500551
+  ],
+  "icon": null
+ },
+ "Hellfire Sieger": {
+  "ids": [
+   560828
+  ],
+  "icon": null
+ },
+ "Hellfire Stirrups": {
+  "ids": [
+   804785
+  ],
+  "icon": null
+ },
+ "Hellfire Striker": {
+  "ids": [
+   573036
+  ],
+  "icon": null
+ },
+ "Hellfire Trample": {
+  "ids": [
+   804704
+  ],
+  "icon": null
+ },
+ "Hellfire Tyrant": {
+  "ids": [
+   805075
+  ],
+  "icon": null
+ },
+ "Hellgate": {
+  "ids": [
+   572756
+  ],
+  "icon": null
+ },
+ "Hellgate Force Cast Hellshine": {
+  "ids": [
+   800451
+  ],
+  "icon": null
+ },
+ "Hellgate Periodic": {
+  "ids": [
+   802352
+  ],
+  "icon": null
+ },
+ "Hellgate Summon Hellfire Imp": {
+  "ids": [
+   800441
+  ],
+  "icon": null
+ },
+ "Hellgate Summon Trigger": {
+  "ids": [
+   706936
+  ],
+  "icon": null
+ },
+ "Hellgate's Glow": {
+  "ids": [
+   805073
+  ],
+  "icon": null
+ },
+ "Hellgaze": {
+  "ids": [
+   560471
+  ],
+  "icon": null
+ },
+ "Hellhaul": {
+  "ids": [
+   503142
+  ],
+  "icon": null
+ },
+ "Hellion": {
+  "ids": [
+   805699
+  ],
+  "icon": null
+ },
+ "Hellish Flames": {
+  "ids": [
+   804007
+  ],
+  "icon": null
+ },
+ "Hellish Rebuke": {
+  "ids": [
+   804010
+  ],
+  "icon": null
+ },
+ "Hellknight": {
+  "ids": [
+   800702
+  ],
+  "icon": null
+ },
+ "Hellmaw": {
+  "ids": [
+   806965
+  ],
+  "icon": null
+ },
+ "Hellrider": {
+  "ids": [
+   803889
+  ],
+  "icon": null
+ },
+ "Hellskin": {
+  "ids": [
+   704192
+  ],
+  "icon": null
+ },
+ "Hellsmelted": {
+  "ids": [
+   524916
+  ],
+  "icon": null
+ },
+ "Hellsmelted Armor": {
+  "ids": [
+   706569
+  ],
+  "icon": null
+ },
+ "Hellstorm": {
+  "ids": [
+   801004
+  ],
+  "icon": null
+ },
+ "Hellstorm Embers": {
+  "ids": [
+   801017
+  ],
+  "icon": null
+ },
+ "Hellstriker": {
+  "ids": [
+   704991
+  ],
+  "icon": null
+ },
+ "Hellwrath": {
+  "ids": [
+   572123
+  ],
+  "icon": null
+ },
+ "Hook, Line, and Sinker": {
+  "ids": [
+   524915
+  ],
+  "icon": null
+ },
+ "Hooked": {
+  "ids": [
+   520308
+  ],
+  "icon": null
+ },
+ "Imp Gang Boss": {
+  "ids": [
+   706754
+  ],
+  "icon": null
+ },
+ "Imp Guards": {
+  "ids": [
+   804340
+  ],
+  "icon": null
+ },
+ "Imp Rush": {
+  "ids": [
+   520664
+  ],
+  "icon": null
+ },
+ "Impcaller": {
+  "ids": [
+   706755
+  ],
+  "icon": null
+ },
+ "Impish Pestilence": {
+  "ids": [
+   300398
+  ],
+  "icon": null
+ },
+ "Implosion": {
+  "ids": [
+   524897
+  ],
+  "icon": null
+ },
+ "Imprison": {
+  "ids": [
+   801067
+  ],
+  "icon": null
+ },
+ "Improved Gore": {
+  "ids": [
+   705011
+  ],
+  "icon": null
+ },
+ "Improved Unleash Pestilence": {
+  "ids": [
+   704960
+  ],
+  "icon": null
+ },
+ "Indiscriminate": {
+  "ids": [
+   300397
+  ],
+  "icon": null
+ },
+ "Infernal Bulwark": {
+  "ids": [
+   500023
+  ],
+  "icon": null
+ },
+ "Infernal Gore": {
+  "ids": [
+   302554
+  ],
+  "icon": null
+ },
+ "Infernal Pummeling": {
+  "ids": [
+   680900
+  ],
+  "icon": null
+ },
+ "Infernal Pursuit": {
+  "ids": [
+   704992
+  ],
+  "icon": null
+ },
+ "Infernal Rending": {
+  "ids": [
+   680987
+  ],
+  "icon": null
+ },
+ "Infernal Shield": {
+  "ids": [
+   801001
+  ],
+  "icon": null
+ },
+ "Infernal Steel": {
+  "ids": [
+   520021
+  ],
+  "icon": null
+ },
+ "Infernal Strike": {
+  "ids": [
+   801016
+  ],
+  "icon": null
+ },
+ "Inferno Blade": {
+  "ids": [
+   805698
+  ],
+  "icon": null
+ },
+ "Inferno Blast": {
+  "ids": [
+   805697
+  ],
+  "icon": null
+ },
+ "Into the Maw": {
+  "ids": [
+   802619
+  ],
+  "icon": null
+ },
+ "Invasion": {
+  "ids": [
+   300374
+  ],
+  "icon": null
+ },
+ "Jagged Edge": {
+  "ids": [
+   707614
+  ],
+  "icon": null
+ },
+ "Juggernaut": {
+  "ids": [
+   520294
+  ],
+  "icon": null
+ },
+ "Knight of Pestilence": {
+  "ids": [
+   704981
+  ],
+  "icon": null
+ },
+ "Knight of Xoroth Pet Scaling Aura 1": {
+  "ids": [
+   524068
+  ],
+  "icon": null
+ },
+ "Knight of Xoroth Pet Scaling Aura 2": {
+  "ids": [
+   524069
+  ],
+  "icon": null
+ },
+ "Knight of Xoroth Pet Scaling Aura 3": {
+  "ids": [
+   524070
+  ],
+  "icon": null
+ },
+ "Knight of Xoroth Pet Scaling Aura 4": {
+  "ids": [
+   524071
+  ],
+  "icon": null
+ },
+ "Knight of the Apocalypse": {
+  "ids": [
+   520296
+  ],
+  "icon": null
+ },
+ "KoX Passive - Gore": {
+  "ids": [
+   805963
+  ],
+  "icon": null
+ },
+ "Legion Strength": {
+  "ids": [
+   572370
+  ],
+  "icon": null
+ },
+ "Legion's Presence": {
+  "ids": [
+   804879
+  ],
+  "icon": null
+ },
+ "Legionwake": {
+  "ids": [
+   706567
+  ],
+  "icon": null
+ },
+ "Lesser Pestilence of Conquest": {
+  "ids": [
+   803255
+  ],
+  "icon": null
+ },
+ "Lethal Saw": {
+  "ids": [
+   705010
+  ],
+  "icon": null
+ },
+ "Losing Momentum": {
+  "ids": [
+   805746
+  ],
+  "icon": null
+ },
+ "Malice": {
+  "ids": [
+   680718
+  ],
+  "icon": null
+ },
+ "Mark of Blaumeux": {
+  "ids": [
+   707693
+  ],
+  "icon": null
+ },
+ "Mark of Korth'azz": {
+  "ids": [
+   706589
+  ],
+  "icon": null
+ },
+ "Mark of Rivendare": {
+  "ids": [
+   803667
+  ],
+  "icon": null
+ },
+ "Mark of Zeliek": {
+  "ids": [
+   803671
+  ],
+  "icon": null
+ },
+ "Mark of the Demon": {
+  "ids": [
+   302551
+  ],
+  "icon": null
+ },
+ "Maw of Flame": {
+  "ids": [
+   500683
+  ],
+  "icon": null
+ },
+ "Meatsaw": {
+  "ids": [
+   800340
+  ],
+  "icon": null
+ },
+ "Meatsaw Passive": {
+  "ids": [
+   707381
+  ],
+  "icon": null
+ },
+ "Meatsaw Rage/DF Gen": {
+  "ids": [
+   806964
+  ],
+  "icon": null
+ },
+ "Melt": {
+  "ids": [
+   803334
+  ],
+  "icon": null
+ },
+ "Merciless": {
+  "ids": [
+   705009
+  ],
+  "icon": null
+ },
+ "Mighty Swings": {
+  "ids": [
+   705003
+  ],
+  "icon": null
+ },
+ "Mounted Champion": {
+  "ids": [
+   706295
+  ],
+  "icon": null
+ },
+ "Mounted Reaver": {
+  "ids": [
+   707835
+  ],
+  "icon": null
+ },
+ "Murderous Might": {
+  "ids": [
+   520290
+  ],
+  "icon": null
+ },
+ "Mutilation": {
+  "ids": [
+   805695
+  ],
+  "icon": null
+ },
+ "Oath of Defiance": {
+  "ids": [
+   804285
+  ],
+  "icon": null
+ },
+ "Oblivion": {
+  "ids": [
+   630935
+  ],
+  "icon": null
+ },
+ "Omen of Rage": {
+  "ids": [
+   706590
+  ],
+  "icon": null
+ },
+ "Omen of Torment": {
+  "ids": [
+   560209
+  ],
+  "icon": null
+ },
+ "Overheat": {
+  "ids": [
+   560405
+  ],
+  "icon": null
+ },
+ "Partners in Flames": {
+  "ids": [
+   500578
+  ],
+  "icon": null
+ },
+ "Path of Hellfire": {
+  "ids": [
+   804787
+  ],
+  "icon": null
+ },
+ "Perpetual Flame": {
+  "ids": [
+   524921
+  ],
+  "icon": null
+ },
+ "Pestilence DF HP Restore Proc": {
+  "ids": [
+   680814
+  ],
+  "icon": null
+ },
+ "Pestilence DF HP Restore Proc 2": {
+  "ids": [
+   680817
+  ],
+  "icon": null
+ },
+ "Pestilence For All": {
+  "ids": [
+   301140
+  ],
+  "icon": null
+ },
+ "Pestilence Unbound": {
+  "ids": [
+   560633
+  ],
+  "icon": null
+ },
+ "Pestilence of Apocalypse": {
+  "ids": [
+   704467
+  ],
+  "icon": null
+ },
+ "Pestilence of Conquest": {
+  "ids": [
+   801053
+  ],
+  "icon": null
+ },
+ "Pestilence of Death": {
+  "ids": [
+   801054
+  ],
+  "icon": null
+ },
+ "Pestilence of Famine": {
+  "ids": [
+   802344
+  ],
+  "icon": null
+ },
+ "Pestilence of War": {
+  "ids": [
+   680815
+  ],
+  "icon": null
+ },
+ "Pestilent Retaliation": {
+  "ids": [
+   704971
+  ],
+  "icon": null
+ },
+ "Pet Pestilence": {
+  "ids": [
+   803693
+  ],
+  "icon": null
+ },
+ "Pet Pestilence Remover": {
+  "ids": [
+   803253
+  ],
+  "icon": null
+ },
+ "Piercing Bolts": {
+  "ids": [
+   804070
+  ],
+  "icon": null
+ },
+ "Pillars of Demonfire": {
+  "ids": [
+   300377
+  ],
+  "icon": null
+ },
+ "Power Emerged (Reflect)": {
+  "ids": [
+   302564
+  ],
+  "icon": null
+ },
+ "Power Emerged Initial Applicator": {
+  "ids": [
+   302563
+  ],
+  "icon": null
+ },
+ "Punisher": {
+  "ids": [
+   704988
+  ],
+  "icon": null
+ },
+ "Rage Demon": {
+  "ids": [
+   500313
+  ],
+  "icon": null
+ },
+ "Rage of Xoroth": {
+  "ids": [
+   300376
+  ],
+  "icon": null
+ },
+ "Ragefist": {
+  "ids": [
+   300384
+  ],
+  "icon": null
+ },
+ "Rain of Chaos": {
+  "ids": [
+   302545
+  ],
+  "icon": null
+ },
+ "Reign of Fire": {
+  "ids": [
+   302582
+  ],
+  "icon": null
+ },
+ "Remove 1 Demonfire": {
+  "ids": [
+   806005
+  ],
+  "icon": null
+ },
+ "Render": {
+  "ids": [
+   704951
+  ],
+  "icon": null
+ },
+ "Revive Hellfire Imp": {
+  "ids": [
+   540237
+  ],
+  "icon": null
+ },
+ "Ripper": {
+  "ids": [
+   706331
+  ],
+  "icon": null
+ },
+ "Ritual Fire": {
+  "ids": [
+   302552
+  ],
+  "icon": null
+ },
+ "Ritual Fire Trigger": {
+  "ids": [
+   302553
+  ],
+  "icon": null
+ },
+ "Sacrificial Circle": {
+  "ids": [
+   706752
+  ],
+  "icon": null
+ },
+ "Sargeron Stompers": {
+  "ids": [
+   704969
+  ],
+  "icon": null
+ },
+ "Sawblade": {
+  "ids": [
+   706827
+  ],
+  "icon": null
+ },
+ "Screamin' Demon": {
+  "ids": [
+   804947
+  ],
+  "icon": null
+ },
+ "Sealed": {
+  "ids": [
+   680724
+  ],
+  "icon": null
+ },
+ "Seeking Flame": {
+  "ids": [
+   805671
+  ],
+  "icon": null
+ },
+ "Seeking Pain": {
+  "ids": [
+   805666
+  ],
+  "icon": null
+ },
+ "Seething Strikes": {
+  "ids": [
+   300375
+  ],
+  "icon": null
+ },
+ "Servitude": {
+  "ids": [
+   300456
+  ],
+  "icon": null
+ },
+ "Sever": {
+  "ids": [
+   500904
+  ],
+  "icon": null
+ },
+ "Shadowflame Forge": {
+  "ids": [
+   704989
+  ],
+  "icon": null
+ },
+ "Shieldgore": {
+  "ids": [
+   804353
+  ],
+  "icon": null
+ },
+ "Skulltaker": {
+  "ids": [
+   800168
+  ],
+  "icon": null
+ },
+ "Skulltaker (Doomguard)": {
+  "ids": [
+   802613
+  ],
+  "icon": null
+ },
+ "Skulltaker (Execute)": {
+  "ids": [
+   680222
+  ],
+  "icon": null
+ },
+ "Skulltaker Hidden Passive": {
+  "ids": [
+   706728
+  ],
+  "icon": null
+ },
+ "Smolder": {
+  "ids": [
+   805700
+  ],
+  "icon": null
+ },
+ "Snarl": {
+  "ids": [
+   800169
+  ],
+  "icon": null
+ },
+ "Soul Furnace": {
+  "ids": [
+   706758
+  ],
+  "icon": null
+ },
+ "Speed Demon": {
+  "ids": [
+   707232
+  ],
+  "icon": null
+ },
+ "Speed Screamer": {
+  "ids": [
+   560831
+  ],
+  "icon": null
+ },
+ "Spiked Chains": {
+  "ids": [
+   704987
+  ],
+  "icon": null
+ },
+ "Spite": {
+  "ids": [
+   805705
+  ],
+  "icon": null
+ },
+ "Stoke the Flames": {
+  "ids": [
+   704973
+  ],
+  "icon": null
+ },
+ "Subservience": {
+  "ids": [
+   800447
+  ],
+  "icon": null
+ },
+ "Suffuse": {
+  "ids": [
+   801063
+  ],
+  "icon": null
+ },
+ "Suffusion of Essence": {
+  "ids": [
+   706566
+  ],
+  "icon": null
+ },
+ "Summon: Greater Imp": {
+  "ids": [
+   520661
+  ],
+  "icon": null
+ },
+ "Superheated Blade": {
+  "ids": [
+   706329
+  ],
+  "icon": null
+ },
+ "Superheated Blade DEPRECATED": {
+  "ids": [
+   524742
+  ],
+  "icon": null
+ },
+ "Swift Death": {
+  "ids": [
+   300396
+  ],
+  "icon": null
+ },
+ "Taskmaster": {
+  "ids": [
+   500003
+  ],
+  "icon": null
+ },
+ "Test Zombie": {
+  "ids": [
+   630939
+  ],
+  "icon": null
+ },
+ "The Butcher": {
+  "ids": [
+   553279
+  ],
+  "icon": null
+ },
+ "To Ashes": {
+  "ids": [
+   705000
+  ],
+  "icon": null
+ },
+ "Tome of Portals": {
+  "ids": [
+   704970
+  ],
+  "icon": null
+ },
+ "Torn Flesh": {
+  "ids": [
+   800341
+  ],
+  "icon": null
+ },
+ "Unbound Inferno": {
+  "ids": [
+   704997
+  ],
+  "icon": null
+ },
+ "Unholy Might": {
+  "ids": [
+   704191
+  ],
+  "icon": null
+ },
+ "Unleash Apocalypse": {
+  "ids": [
+   560817
+  ],
+  "icon": null
+ },
+ "Unleash Conquest": {
+  "ids": [
+   575046
+  ],
+  "icon": null
+ },
+ "Unleash Death": {
+  "ids": [
+   801055
+  ],
+  "icon": null
+ },
+ "Unleash Famine": {
+  "ids": [
+   802856
+  ],
+  "icon": null
+ },
+ "Unleash Hellfire": {
+  "ids": [
+   705001
+  ],
+  "icon": null
+ },
+ "Unleash Pestilence": {
+  "ids": [
+   801002
+  ],
+  "icon": null
+ },
+ "Unleash War": {
+  "ids": [
+   802855
+  ],
+  "icon": null
+ },
+ "Unseal": {
+  "ids": [
+   805664
+  ],
+  "icon": null
+ },
+ "War": {
+  "ids": [
+   802350
+  ],
+  "icon": null
+ },
+ "War Heal Pet": {
+  "ids": [
+   803254
+  ],
+  "icon": null
+ },
+ "War Pig": {
+  "ids": [
+   705020
+  ],
+  "icon": null
+ },
+ "Warbeast": {
+  "ids": [
+   705004
+  ],
+  "icon": null
+ },
+ "Warbringer": {
+  "ids": [
+   802581
+  ],
+  "icon": null
+ },
+ "Warden of Hellfire": {
+  "ids": [
+   704986
+  ],
+  "icon": null
+ },
+ "Warlord": {
+  "ids": [
+   500532
+  ],
+  "icon": null
+ },
+ "Warpath": {
+  "ids": [
+   805791
+  ],
+  "icon": null
+ },
+ "Wrathguard Whirl": {
+  "ids": [
+   706757
+  ],
+  "icon": null
+ },
+ "Xorothian Armament": {
+  "ids": [
+   803239
+  ],
+  "icon": null
+ },
+ "Xorothian Empowerment": {
+  "ids": [
+   302571
+  ],
+  "icon": null
+ },
+ "Xorothian Finesse": {
+  "ids": [
+   300385
+  ],
+  "icon": null
+ },
+ "Xorothian Flames": {
+  "ids": [
+   300383
+  ],
+  "icon": null
+ },
+ "Xorothian Fury": {
+  "ids": [
+   802617
+  ],
+  "icon": null
+ },
+ "Xorothian Rage": {
+  "ids": [
+   802618
+  ],
+  "icon": null
+ },
+ "Xorothian Sigil": {
+  "ids": [
+   280380
+  ],
+  "icon": null
+ },
+ "Xorothian Speed": {
+  "ids": [
+   560694
+  ],
+  "icon": null
+ },
+ "Xorothian Strength": {
+  "ids": [
+   300382
+  ],
+  "icon": null
+ },
+ "Xorothian Warsteed": {
+  "ids": [
+   804703
+  ],
+  "icon": null
+ }
+}
