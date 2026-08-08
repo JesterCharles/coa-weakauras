@@ -1,0 +1,4556 @@
+{
+ "'Pick Lock'": {
+  "ids": [
+   804154
+  ],
+  "icon": null
+ },
+ "100 Static Maintainer": {
+  "ids": [
+   707031
+  ],
+  "icon": null
+ },
+ "100 Static Maintainer Remover": {
+  "ids": [
+   707033
+  ],
+  "icon": null
+ },
+ "4RC4N0-D34TH-B411": {
+  "ids": [
+   503541
+  ],
+  "icon": null
+ },
+ "50 Scrap": {
+  "ids": [
+   712391
+  ],
+  "icon": null
+ },
+ "A Sizeable Firearm": {
+  "ids": [
+   561101
+  ],
+  "icon": null
+ },
+ "Activate Fire Attunement": {
+  "ids": [
+   704469
+  ],
+  "icon": null
+ },
+ "Aether Augmentation": {
+  "ids": [
+   653130
+  ],
+  "icon": null
+ },
+ "Aftermath": {
+  "ids": [
+   707260
+  ],
+  "icon": null
+ },
+ "Air Strike": {
+  "ids": [
+   801744
+  ],
+  "icon": null
+ },
+ "Air Strike Crit": {
+  "ids": [
+   807129
+  ],
+  "icon": null
+ },
+ "Alarm Field": {
+  "ids": [
+   560755
+  ],
+  "icon": null
+ },
+ "Ammo Capacity Master": {
+  "ids": [
+   802954
+  ],
+  "icon": null
+ },
+ "Ammo Capacity Master TEST": {
+  "ids": [
+   525605
+  ],
+  "icon": null
+ },
+ "Ammo Clip": {
+  "ids": [
+   800348
+  ],
+  "icon": null
+ },
+ "Another Man's Treasure": {
+  "ids": [
+   560793
+  ],
+  "icon": null
+ },
+ "Anti-Cloaking Device": {
+  "ids": [
+   675204
+  ],
+  "icon": null
+ },
+ "Anti-Magic Grenades": {
+  "ids": [
+   804861
+  ],
+  "icon": null
+ },
+ "Arcane Bionics": {
+  "ids": [
+   541493
+  ],
+  "icon": null
+ },
+ "Arcane Residue": {
+  "ids": [
+   503537
+  ],
+  "icon": null
+ },
+ "Arcano-Deathball": {
+  "ids": [
+   503540
+  ],
+  "icon": null
+ },
+ "Arcanoreflector": {
+  "ids": [
+   578339
+  ],
+  "icon": null
+ },
+ "Arclight Adept": {
+  "ids": [
+   503574
+  ],
+  "icon": null
+ },
+ "Arclight Core": {
+  "ids": [
+   524903
+  ],
+  "icon": null
+ },
+ "Arclight Rumbler": {
+  "ids": [
+   706899
+  ],
+  "icon": null
+ },
+ "Arclight Smash": {
+  "ids": [
+   806169
+  ],
+  "icon": null
+ },
+ "Assault Scope": {
+  "ids": [
+   503769
+  ],
+  "icon": null
+ },
+ "At Least 100 Scrap": {
+  "ids": [
+   704456
+  ],
+  "icon": null
+ },
+ "At Least 25 Scrap": {
+  "ids": [
+   704455
+  ],
+  "icon": null
+ },
+ "At Least 50 Scrap": {
+  "ids": [
+   704453
+  ],
+  "icon": null
+ },
+ "Augmechtation": {
+  "ids": [
+   503568
+  ],
+  "icon": null
+ },
+ "Augmentor": {
+  "ids": [
+   801821
+  ],
+  "icon": null
+ },
+ "Auto Resuscitation Device": {
+  "ids": [
+   520445
+  ],
+  "icon": null
+ },
+ "Automag": {
+  "ids": [
+   500246
+  ],
+  "icon": null
+ },
+ "Autotalon Shred": {
+  "ids": [
+   806172
+  ],
+  "icon": null
+ },
+ "Avoidance": {
+  "ids": [
+   573359
+  ],
+  "icon": null
+ },
+ "Azerothian Sniper": {
+  "ids": [
+   300641
+  ],
+  "icon": null
+ },
+ "BOOM!": {
+  "ids": [
+   705775
+  ],
+  "icon": null
+ },
+ "Backup Fuel": {
+  "ids": [
+   570189
+  ],
+  "icon": null
+ },
+ "Bandage Gun": {
+  "ids": [
+   705780
+  ],
+  "icon": null
+ },
+ "Barrel Choke": {
+  "ids": [
+   513297
+  ],
+  "icon": null
+ },
+ "Basic Intuition": {
+  "ids": [
+   504060
+  ],
+  "icon": null
+ },
+ "Battery Recharge Station": {
+  "ids": [
+   570110
+  ],
+  "icon": null
+ },
+ "Battery Swap": {
+  "ids": [
+   805319
+  ],
+  "icon": null
+ },
+ "Battle Engineer": {
+  "ids": [
+   806629
+  ],
+  "icon": null
+ },
+ "Battle Turret Anti-Scaling Condition": {
+  "ids": [
+   504649
+  ],
+  "icon": null
+ },
+ "Battle Turret x-13": {
+  "ids": [
+   524935
+  ],
+  "icon": null
+ },
+ "Battlemage's Guard": {
+  "ids": [
+   537156
+  ],
+  "icon": null
+ },
+ "Beacon AOE damage immunity": {
+  "ids": [
+   561220
+  ],
+  "icon": null
+ },
+ "Beacon Alarm": {
+  "ids": [
+   560756
+  ],
+  "icon": null
+ },
+ "Beacon Charging": {
+  "ids": [
+   524834
+  ],
+  "icon": null
+ },
+ "Beacon Replenishment": {
+  "ids": [
+   560751
+  ],
+  "icon": null
+ },
+ "Beacon Sensor": {
+  "ids": [
+   524836
+  ],
+  "icon": null
+ },
+ "Blackpowder Barrage": {
+  "ids": [
+   801822
+  ],
+  "icon": null
+ },
+ "Blackpowder Swag": {
+  "ids": [
+   300654
+  ],
+  "icon": null
+ },
+ "Blast Mine": {
+  "ids": [
+   572376
+  ],
+  "icon": null
+ },
+ "Blasting Barrels": {
+  "ids": [
+   705835
+  ],
+  "icon": null
+ },
+ "Blasting Charge": {
+  "ids": [
+   804165
+  ],
+  "icon": null
+ },
+ "Blasting Powder": {
+  "ids": [
+   801825
+  ],
+  "icon": null
+ },
+ "Blasting Round": {
+  "ids": [
+   300070
+  ],
+  "icon": null
+ },
+ "Blastmaster": {
+  "ids": [
+   704110
+  ],
+  "icon": null
+ },
+ "Blastmaster Hidden Passive": {
+  "ids": [
+   704132
+  ],
+  "icon": null
+ },
+ "Blazewrought Sunder": {
+  "ids": [
+   681307
+  ],
+  "icon": null
+ },
+ "Blazewrought Titan": {
+  "ids": [
+   681001
+  ],
+  "icon": null
+ },
+ "Blind": {
+  "ids": [
+   506637
+  ],
+  "icon": null
+ },
+ "Boch Text Tester": {
+  "ids": [
+   521215
+  ],
+  "icon": null
+ },
+ "Bomb Builder": {
+  "ids": [
+   520811
+  ],
+  "icon": null
+ },
+ "Bomb Launcher Ammo Capacity": {
+  "ids": [
+   802952
+  ],
+  "icon": null
+ },
+ "Bomb Ready": {
+  "ids": [
+   500354
+  ],
+  "icon": null
+ },
+ "Bomb Squad": {
+  "ids": [
+   520131
+  ],
+  "icon": null
+ },
+ "Bomb Toss": {
+  "ids": [
+   801005
+  ],
+  "icon": null
+ },
+ "Bomb Visual Trail": {
+  "ids": [
+   801981
+  ],
+  "icon": null
+ },
+ "Bombastic": {
+  "ids": [
+   507081
+  ],
+  "icon": null
+ },
+ "Bomber Man": {
+  "ids": [
+   707273
+  ],
+  "icon": null
+ },
+ "Bombing Rocket": {
+  "ids": [
+   300659
+  ],
+  "icon": null
+ },
+ "Bomblord": {
+  "ids": [
+   805320
+  ],
+  "icon": null
+ },
+ "Bombs Galore!": {
+  "ids": [
+   503547
+  ],
+  "icon": null
+ },
+ "Bombs? BOMBS!": {
+  "ids": [
+   705789
+  ],
+  "icon": null
+ },
+ "Boom Hour": {
+  "ids": [
+   802963
+  ],
+  "icon": null
+ },
+ "Boom!!!": {
+  "ids": [
+   707114
+  ],
+  "icon": null
+ },
+ "Boomshot": {
+  "ids": [
+   502507
+  ],
+  "icon": null
+ },
+ "Bot Battling": {
+  "ids": [
+   524936
+  ],
+  "icon": null
+ },
+ "Bot: C.U.R.B Stomp": {
+  "ids": [
+   800581
+  ],
+  "icon": null
+ },
+ "Bot: Crash & Thrash": {
+  "ids": [
+   800535
+  ],
+  "icon": null
+ },
+ "Bot: Flamespill": {
+  "ids": [
+   800572
+  ],
+  "icon": null
+ },
+ "Bot: Hydraulic Strike": {
+  "ids": [
+   800570
+  ],
+  "icon": null
+ },
+ "Bot: Move": {
+  "ids": [
+   802244
+  ],
+  "icon": null
+ },
+ "Bounce Pad": {
+  "ids": [
+   806225
+  ],
+  "icon": null
+ },
+ "Bruiser Bot Threat": {
+  "ids": [
+   561194
+  ],
+  "icon": null
+ },
+ "Buckshot Round": {
+  "ids": [
+   802962
+  ],
+  "icon": null
+ },
+ "Buckshot Rounds": {
+  "ids": [
+   525328
+  ],
+  "icon": null
+ },
+ "Build: Alarm Beacon": {
+  "ids": [
+   560754
+  ],
+  "icon": null
+ },
+ "Build: Battery Recharge Station": {
+  "ids": [
+   805308
+  ],
+  "icon": null
+ },
+ "Build: Battle Turret X-13": {
+  "ids": [
+   504519
+  ],
+  "icon": null
+ },
+ "Build: Bounce Pad!": {
+  "ids": [
+   800672
+  ],
+  "icon": null
+ },
+ "Build: Claw Bot": {
+  "ids": [
+   801812
+  ],
+  "icon": null
+ },
+ "Build: Clockwork Assistant": {
+  "ids": [
+   524974
+  ],
+  "icon": null
+ },
+ "Build: Destructo-Bot": {
+  "ids": [
+   804673
+  ],
+  "icon": null
+ },
+ "Build: Firepot Drone": {
+  "ids": [
+   500600
+  ],
+  "icon": null
+ },
+ "Build: Mechano-Bear": {
+  "ids": [
+   803405
+  ],
+  "icon": null
+ },
+ "Build: Mechsuit": {
+  "ids": [
+   92141
+  ],
+  "icon": null
+ },
+ "Build: Mortar Turret": {
+  "ids": [
+   500537
+  ],
+  "icon": null
+ },
+ "Build: Noise Box": {
+  "ids": [
+   807723
+  ],
+  "icon": null
+ },
+ "Build: Oil-Spill Pylon": {
+  "ids": [
+   707257
+  ],
+  "icon": null
+ },
+ "Build: Portable Sawmill": {
+  "ids": [
+   804707
+  ],
+  "icon": null
+ },
+ "Build: Power Foundry": {
+  "ids": [
+   500240
+  ],
+  "icon": null
+ },
+ "Build: Replenishment Beacon": {
+  "ids": [
+   560750
+  ],
+  "icon": null
+ },
+ "Build: Repulsion Unit": {
+  "ids": [
+   706904
+  ],
+  "icon": null
+ },
+ "Build: Restorative Beacon": {
+  "ids": [
+   801801
+  ],
+  "icon": null
+ },
+ "Build: Rusthound": {
+  "ids": [
+   803437
+  ],
+  "icon": null
+ },
+ "Build: Scrapmaw": {
+  "ids": [
+   500242
+  ],
+  "icon": null
+ },
+ "Build: Sentry Turret": {
+  "ids": [
+   500239
+  ],
+  "icon": null
+ },
+ "Build: Shield Beacon": {
+  "ids": [
+   801799
+  ],
+  "icon": null
+ },
+ "Build: Shredder Bot": {
+  "ids": [
+   801405
+  ],
+  "icon": null
+ },
+ "Build: Spider Bomb": {
+  "ids": [
+   500535
+  ],
+  "icon": null
+ },
+ "Build: Spider Bomb Factory": {
+  "ids": [
+   802052
+  ],
+  "icon": null
+ },
+ "Build: Testsuit": {
+  "ids": [
+   803386
+  ],
+  "icon": null
+ },
+ "Build: ZIGGI-6K": {
+  "ids": [
+   92140
+  ],
+  "icon": null
+ },
+ "Bullet Rain": {
+  "ids": [
+   803075
+  ],
+  "icon": null
+ },
+ "Bunker Operative": {
+  "ids": [
+   801706
+  ],
+  "icon": null
+ },
+ "Burning Blade": {
+  "ids": [
+   801833
+  ],
+  "icon": null
+ },
+ "Burst Rifle Ammo Capacity": {
+  "ids": [
+   802951
+  ],
+  "icon": null
+ },
+ "Buster Scope": {
+  "ids": [
+   707253
+  ],
+  "icon": null
+ },
+ "C.U.R.B Stomp": {
+  "ids": [
+   800580
+  ],
+  "icon": null
+ },
+ "Calculated Shots": {
+  "ids": [
+   706712
+  ],
+  "icon": null
+ },
+ "Caltrops Blocker": {
+  "ids": [
+   707030
+  ],
+  "icon": null
+ },
+ "Caltrops Death/Invisibility": {
+  "ids": [
+   706836
+  ],
+  "icon": null
+ },
+ "Cannon Crafter": {
+  "ids": [
+   503566
+  ],
+  "icon": null
+ },
+ "Cannon Master": {
+  "ids": [
+   504517
+  ],
+  "icon": null
+ },
+ "Capacity Expansion": {
+  "ids": [
+   578122
+  ],
+  "icon": null
+ },
+ "Charged Battery": {
+  "ids": [
+   570716
+  ],
+  "icon": null
+ },
+ "Chassis Augment: Mithril": {
+  "ids": [
+   704445
+  ],
+  "icon": null
+ },
+ "Chassis Augment: Titansteel": {
+  "ids": [
+   704447
+  ],
+  "icon": null
+ },
+ "Chassis Augment: Truesilver": {
+  "ids": [
+   704446
+  ],
+  "icon": null
+ },
+ "Cloaking Device": {
+  "ids": [
+   803833
+  ],
+  "icon": null
+ },
+ "Clockwork Guardian": {
+  "ids": [
+   806760
+  ],
+  "icon": null
+ },
+ "Clockwork Guardians": {
+  "ids": [
+   806758
+  ],
+  "icon": null
+ },
+ "Clockwork Ingenuity": {
+  "ids": [
+   505336
+  ],
+  "icon": null
+ },
+ "Clockwork Mechanic Condition Aura": {
+  "ids": [
+   500412
+  ],
+  "icon": null
+ },
+ "Clockwork Mechanic Condition Aura Trigger": {
+  "ids": [
+   500413
+  ],
+  "icon": null
+ },
+ "CoA Aura - Tinker - Demolition": {
+  "ids": [
+   887074
+  ],
+  "icon": null
+ },
+ "CoA Aura - Tinker - Invention": {
+  "ids": [
+   887075
+  ],
+  "icon": null
+ },
+ "CoA Aura - Tinker - Mechanics": {
+  "ids": [
+   887076
+  ],
+  "icon": null
+ },
+ "CoA Aura - Tinker Class": {
+  "ids": [
+   887016
+  ],
+  "icon": null
+ },
+ "CoA Dismiss Pet": {
+  "ids": [
+   532126
+  ],
+  "icon": null
+ },
+ "CoA Pick Lock Expert Level": {
+  "ids": [
+   807277
+  ],
+  "icon": null
+ },
+ "CoA Pick Lock Journeyman Level": {
+  "ids": [
+   807276
+  ],
+  "icon": null
+ },
+ "Cogmaster": {
+  "ids": [
+   504525
+  ],
+  "icon": null
+ },
+ "Combat Augment: Flame Jets": {
+  "ids": [
+   704441
+  ],
+  "icon": null
+ },
+ "Combat Augment: Hydraulic Springs": {
+  "ids": [
+   704443
+  ],
+  "icon": null
+ },
+ "Combat Augmentation Kit": {
+  "ids": [
+   806614
+  ],
+  "icon": null
+ },
+ "Combat Crafter": {
+  "ids": [
+   807499
+  ],
+  "icon": null
+ },
+ "Combat Dash": {
+  "ids": [
+   805325
+  ],
+  "icon": null
+ },
+ "Combat Engineer": {
+  "ids": [
+   805658
+  ],
+  "icon": null
+ },
+ "Combat Symbiosis": {
+  "ids": [
+   805305
+  ],
+  "icon": null
+ },
+ "Combustion": {
+  "ids": [
+   801388
+  ],
+  "icon": null
+ },
+ "Comforting Winds": {
+  "ids": [
+   584235
+  ],
+  "icon": null
+ },
+ "Commando": {
+  "ids": [
+   503610
+  ],
+  "icon": null
+ },
+ "Concussion": {
+  "ids": [
+   653254
+  ],
+  "icon": null
+ },
+ "Concussive Spanner": {
+  "ids": [
+   704107
+  ],
+  "icon": null
+ },
+ "Consume -5 Scrap": {
+  "ids": [
+   707474
+  ],
+  "icon": null
+ },
+ "Consume 15 Scrap": {
+  "ids": [
+   704461
+  ],
+  "icon": null
+ },
+ "Consume 50 Scrap": {
+  "ids": [
+   704460
+  ],
+  "icon": null
+ },
+ "Cooling Down": {
+  "ids": [
+   503536
+  ],
+  "icon": null
+ },
+ "Core Augment: Warcore": {
+  "ids": [
+   704450
+  ],
+  "icon": null
+ },
+ "Core Augmentation Kit": {
+  "ids": [
+   704444
+  ],
+  "icon": null
+ },
+ "Cosmetic - Combat Attack 1H": {
+  "ids": [
+   802872
+  ],
+  "icon": null
+ },
+ "Crack Shot": {
+  "ids": [
+   705791
+  ],
+  "icon": null
+ },
+ "Crash & Thrash": {
+  "ids": [
+   578340
+  ],
+  "icon": null
+ },
+ "Crash Site": {
+  "ids": [
+   806763
+  ],
+  "icon": null
+ },
+ "Crowd Controller": {
+  "ids": [
+   578123
+  ],
+  "icon": null
+ },
+ "Cryo Augmentation": {
+  "ids": [
+   653233
+  ],
+  "icon": null
+ },
+ "Cutting Edge Technology": {
+  "ids": [
+   707398
+  ],
+  "icon": null
+ },
+ "Cybernetic Revivification": {
+  "ids": [
+   705811
+  ],
+  "icon": null
+ },
+ "Cybernetic Shield": {
+  "ids": [
+   653283
+  ],
+  "icon": null
+ },
+ "DEPRECATED": {
+  "ids": [
+   504595
+  ],
+  "icon": null
+ },
+ "DEPRECATED !": {
+  "ids": [
+   803384
+  ],
+  "icon": null
+ },
+ "Dart: Active": {
+  "ids": [
+   460505
+  ],
+  "icon": null
+ },
+ "Deadeye": {
+  "ids": [
+   706810
+  ],
+  "icon": null
+ },
+ "Deadeye Charge": {
+  "ids": [
+   704381
+  ],
+  "icon": null
+ },
+ "Deathball": {
+  "ids": [
+   500236
+  ],
+  "icon": null
+ },
+ "Deathball Passive for Pet": {
+  "ids": [
+   500536
+  ],
+  "icon": null
+ },
+ "Deconstruct Sentry Turret": {
+  "ids": [
+   500470
+  ],
+  "icon": null
+ },
+ "Decrement 4 Ammo": {
+  "ids": [
+   803294
+  ],
+  "icon": null
+ },
+ "Decrement Ammo": {
+  "ids": [
+   802961
+  ],
+  "icon": null
+ },
+ "Defense Mode": {
+  "ids": [
+   801419
+  ],
+  "icon": null
+ },
+ "Defensive Utility": {
+  "ids": [
+   680999
+  ],
+  "icon": null
+ },
+ "Defensive Utility (Destruction)": {
+  "ids": [
+   680974
+  ],
+  "icon": null
+ },
+ "Defibrillate": {
+  "ids": [
+   802175
+  ],
+  "icon": null
+ },
+ "Deft Hands": {
+  "ids": [
+   705833
+  ],
+  "icon": null
+ },
+ "Demolition": {
+  "ids": [
+   705823
+  ],
+  "icon": null
+ },
+ "Demolition - Level 15 Passive": {
+  "ids": [
+   803383
+  ],
+  "icon": null
+ },
+ "Demolitions Expert": {
+  "ids": [
+   707242
+  ],
+  "icon": null
+ },
+ "Depleting Ally Battery Spreader": {
+  "ids": [
+   570717
+  ],
+  "icon": null
+ },
+ "Depleting Battery": {
+  "ids": [
+   560774
+  ],
+  "icon": null
+ },
+ "Deploy Ballista": {
+  "ids": [
+   801643
+  ],
+  "icon": null
+ },
+ "Deploy Blast Mine": {
+  "ids": [
+   801718
+  ],
+  "icon": null
+ },
+ "Deploy Turret Wall": {
+  "ids": [
+   804166
+  ],
+  "icon": null
+ },
+ "Destroy Brood Trap Egg": {
+  "ids": [
+   707573
+  ],
+  "icon": null
+ },
+ "Disassemble Turret": {
+  "ids": [
+   704346
+  ],
+  "icon": null
+ },
+ "Discombobulate!": {
+  "ids": [
+   807197
+  ],
+  "icon": null
+ },
+ "Distracto Shot": {
+  "ids": [
+   560470
+  ],
+  "icon": null
+ },
+ "Doomcannon": {
+  "ids": [
+   802053
+  ],
+  "icon": null
+ },
+ "Double Tap": {
+  "ids": [
+   706702
+  ],
+  "icon": null
+ },
+ "Double Tap DEPREC": {
+  "ids": [
+   705797
+  ],
+  "icon": null
+ },
+ "Dragonwrath": {
+  "ids": [
+   500254
+  ],
+  "icon": null
+ },
+ "Drill Smash": {
+  "ids": [
+   806173
+  ],
+  "icon": null
+ },
+ "Drone Striker": {
+  "ids": [
+   707256
+  ],
+  "icon": null
+ },
+ "Drone/Spider Bomb": {
+  "ids": [
+   707301
+  ],
+  "icon": null
+ },
+ "Drop Blast Mine": {
+  "ids": [
+   804760
+  ],
+  "icon": null
+ },
+ "Duobombers": {
+  "ids": [
+   707258
+  ],
+  "icon": null
+ },
+ "Dynamite Stacks": {
+  "ids": [
+   805312
+  ],
+  "icon": null
+ },
+ "Dynamite Visual": {
+  "ids": [
+   800115
+  ],
+  "icon": null
+ },
+ "E.M.P": {
+  "ids": [
+   706374
+  ],
+  "icon": null
+ },
+ "Efficiency": {
+  "ids": [
+   705806
+  ],
+  "icon": null
+ },
+ "Egg Destroyer of Absolute Doom and Depravity": {
+  "ids": [
+   712438
+  ],
+  "icon": null
+ },
+ "Eldritch Tentacle": {
+  "ids": [
+   530223
+  ],
+  "icon": null
+ },
+ "Electric Field": {
+  "ids": [
+   800574
+  ],
+  "icon": null
+ },
+ "Electromagnetic Resistors": {
+  "ids": [
+   560734
+  ],
+  "icon": null
+ },
+ "Emergency Circumvented": {
+  "ids": [
+   805303
+  ],
+  "icon": null
+ },
+ "Emergency Enhancer": {
+  "ids": [
+   560787
+  ],
+  "icon": null
+ },
+ "Emergency Heal": {
+  "ids": [
+   802684
+  ],
+  "icon": null
+ },
+ "Emergency Module": {
+  "ids": [
+   805304
+  ],
+  "icon": null
+ },
+ "Empowered Creation": {
+  "ids": [
+   806622
+  ],
+  "icon": null
+ },
+ "Empty Chamber": {
+  "ids": [
+   300634
+  ],
+  "icon": null
+ },
+ "Enchanted Battery": {
+  "ids": [
+   503617
+  ],
+  "icon": null
+ },
+ "Energize +3 Rage and 2% max mana": {
+  "ids": [
+   521228
+  ],
+  "icon": null
+ },
+ "Energize 10% Mana": {
+  "ids": [
+   504870
+  ],
+  "icon": null
+ },
+ "Energize 10% Missing Mana": {
+  "ids": [
+   504829
+  ],
+  "icon": null
+ },
+ "Energize 4% Mana": {
+  "ids": [
+   503906
+  ],
+  "icon": null
+ },
+ "Engagement": {
+  "ids": [
+   705758
+  ],
+  "icon": null
+ },
+ "Engine Augmentation": {
+  "ids": [
+   503569
+  ],
+  "icon": null
+ },
+ "Enhanced Powder": {
+  "ids": [
+   705830
+  ],
+  "icon": null
+ },
+ "Enhanced Procedures": {
+  "ids": [
+   506819
+  ],
+  "icon": null
+ },
+ "Enhanced Remote": {
+  "ids": [
+   503622
+  ],
+  "icon": null
+ },
+ "Epiphany!": {
+  "ids": [
+   560782
+  ],
+  "icon": null
+ },
+ "Eureka Mod Charges": {
+  "ids": [
+   300996
+  ],
+  "icon": null
+ },
+ "Eureka!": {
+  "ids": [
+   503552
+  ],
+  "icon": null
+ },
+ "Expedient Package": {
+  "ids": [
+   300632
+  ],
+  "icon": null
+ },
+ "Expert Mechanic": {
+  "ids": [
+   503782
+  ],
+  "icon": null
+ },
+ "Explosion Visual": {
+  "ids": [
+   804077
+  ],
+  "icon": null
+ },
+ "Explosions...MORE EXPLOSIONS!": {
+  "ids": [
+   503546
+  ],
+  "icon": null
+ },
+ "Explosive Augmentation": {
+  "ids": [
+   653236
+  ],
+  "icon": null
+ },
+ "Explosive Inventor": {
+  "ids": [
+   300636
+  ],
+  "icon": null
+ },
+ "Explosive Personality": {
+  "ids": [
+   704111
+  ],
+  "icon": null
+ },
+ "Explosive Round": {
+  "ids": [
+   524975
+  ],
+  "icon": null
+ },
+ "Explosive Rounds": {
+  "ids": [
+   525329
+  ],
+  "icon": null
+ },
+ "Explosives Expert": {
+  "ids": [
+   300656
+  ],
+  "icon": null
+ },
+ "Extendo-Arm": {
+  "ids": [
+   560406
+  ],
+  "icon": null
+ },
+ "Extra Protection": {
+  "ids": [
+   504529
+  ],
+  "icon": null
+ },
+ "FIRE EVERYTHING!": {
+  "ids": [
+   572539
+  ],
+  "icon": null
+ },
+ "Field Medic": {
+  "ids": [
+   560788
+  ],
+  "icon": null
+ },
+ "Fine Tuned": {
+  "ids": [
+   705792
+  ],
+  "icon": null
+ },
+ "Fine Tuning": {
+  "ids": [
+   300877
+  ],
+  "icon": null
+ },
+ "Firearms Tinker": {
+  "ids": [
+   500211
+  ],
+  "icon": null
+ },
+ "Firepot": {
+  "ids": [
+   500601
+  ],
+  "icon": null
+ },
+ "Firepot Drone": {
+  "ids": [
+   707241
+  ],
+  "icon": null
+ },
+ "Firing Cage": {
+  "ids": [
+   801622
+  ],
+  "icon": null
+ },
+ "Fishing Boat": {
+  "ids": [
+   504545
+  ],
+  "icon": null
+ },
+ "Fist of Light CD reducer": {
+  "ids": [
+   704117
+  ],
+  "icon": null
+ },
+ "Fists of Heaven": {
+  "ids": [
+   805330
+  ],
+  "icon": null
+ },
+ "Flak Guns": {
+  "ids": [
+   520686
+  ],
+  "icon": null
+ },
+ "Flak Guns Forcecast": {
+  "ids": [
+   537531
+  ],
+  "icon": null
+ },
+ "Flak Guns Remover": {
+  "ids": [
+   537532
+  ],
+  "icon": null
+ },
+ "Flame Jet": {
+  "ids": [
+   704442
+  ],
+  "icon": null
+ },
+ "Flame Jets": {
+  "ids": [
+   504523
+  ],
+  "icon": null
+ },
+ "Flamespill": {
+  "ids": [
+   800538
+  ],
+  "icon": null
+ },
+ "Flamethrower": {
+  "ids": [
+   572054
+  ],
+  "icon": null
+ },
+ "Flamethrowing": {
+  "ids": [
+   707237
+  ],
+  "icon": null
+ },
+ "Flameturret Shot": {
+  "ids": [
+   704466
+  ],
+  "icon": null
+ },
+ "Flaming Mortar Shot": {
+  "ids": [
+   300998
+  ],
+  "icon": null
+ },
+ "Flexible Thinking": {
+  "ids": [
+   705825
+  ],
+  "icon": null
+ },
+ "Focused Impact": {
+  "ids": [
+   706688
+  ],
+  "icon": null
+ },
+ "Focusing Charge": {
+  "ids": [
+   704382
+  ],
+  "icon": null
+ },
+ "Focusing Lens (Heal)": {
+  "ids": [
+   523828
+  ],
+  "icon": null
+ },
+ "For Consistency's Sake": {
+  "ids": [
+   503542
+  ],
+  "icon": null
+ },
+ "Force Master Generate Scrap": {
+  "ids": [
+   806046
+  ],
+  "icon": null
+ },
+ "Foresight": {
+  "ids": [
+   705832
+  ],
+  "icon": null
+ },
+ "Freeze Bomb": {
+  "ids": [
+   707266
+  ],
+  "icon": null
+ },
+ "Freeze Ray": {
+  "ids": [
+   806157
+  ],
+  "icon": null
+ },
+ "Freezer Burn": {
+  "ids": [
+   503620
+  ],
+  "icon": null
+ },
+ "Frozen Bomb Launcher": {
+  "ids": [
+   707265
+  ],
+  "icon": null
+ },
+ "Full Throttle": {
+  "ids": [
+   707248
+  ],
+  "icon": null
+ },
+ "Fully Loaded": {
+  "ids": [
+   805324
+  ],
+  "icon": null
+ },
+ "Function Over Form": {
+  "ids": [
+   572538
+  ],
+  "icon": null
+ },
+ "Fuselight Furnace": {
+  "ids": [
+   704174
+  ],
+  "icon": null
+ },
+ "Gatling Gun": {
+  "ids": [
+   500213
+  ],
+  "icon": null
+ },
+ "Gazlowe's Wisdom": {
+  "ids": [
+   803074
+  ],
+  "icon": null
+ },
+ "Gear Grind": {
+  "ids": [
+   504594
+  ],
+  "icon": null
+ },
+ "Gear Toss": {
+  "ids": [
+   520368
+  ],
+  "icon": null
+ },
+ "Generate 1 Scrap": {
+  "ids": [
+   707476
+  ],
+  "icon": null
+ },
+ "Generate 10 Scrap": {
+  "ids": [
+   704594
+  ],
+  "icon": null
+ },
+ "Generate 100 Scrap": {
+  "ids": [
+   707471
+  ],
+  "icon": null
+ },
+ "Generate 20 Scrap": {
+  "ids": [
+   707596
+  ],
+  "icon": null
+ },
+ "Generate 3 Scrap": {
+  "ids": [
+   706535
+  ],
+  "icon": null
+ },
+ "Generate 5 Scrap": {
+  "ids": [
+   704464
+  ],
+  "icon": null
+ },
+ "Generate Scrap (Junklord)": {
+  "ids": [
+   704462
+  ],
+  "icon": null
+ },
+ "Generate Standard Ammunition": {
+  "ids": [
+   705838
+  ],
+  "icon": null
+ },
+ "Gizmotronic Rifle": {
+  "ids": [
+   504511
+  ],
+  "icon": null
+ },
+ "Gizmotronic Spark": {
+  "ids": [
+   504512
+  ],
+  "icon": null
+ },
+ "Gizmotronic Spark Rifle": {
+  "ids": [
+   705770
+  ],
+  "icon": null
+ },
+ "Gnomish Batteries": {
+  "ids": [
+   705816
+  ],
+  "icon": null
+ },
+ "Gnomish Ingenuinity": {
+  "ids": [
+   705829
+  ],
+  "icon": null
+ },
+ "Gnomish Ingenuity": {
+  "ids": [
+   707291
+  ],
+  "icon": null
+ },
+ "Goblin Depravity": {
+  "ids": [
+   806762
+  ],
+  "icon": null
+ },
+ "Goblin Depravity AoE": {
+  "ids": [
+   801749
+  ],
+  "icon": null
+ },
+ "Grabby": {
+  "ids": [
+   524591
+  ],
+  "icon": null
+ },
+ "Graftbolts": {
+  "ids": [
+   560785
+  ],
+  "icon": null
+ },
+ "Grappling Hook": {
+  "ids": [
+   806174
+  ],
+  "icon": null
+ },
+ "Gravity-Adjusted": {
+  "ids": [
+   712401
+  ],
+  "icon": null
+ },
+ "Greater Healing Stim": {
+  "ids": [
+   460501
+  ],
+  "icon": null
+ },
+ "Greater Mana Module": {
+  "ids": [
+   803665
+  ],
+  "icon": null
+ },
+ "Greater Power Module": {
+  "ids": [
+   680315
+  ],
+  "icon": null
+ },
+ "Grenadier": {
+  "ids": [
+   707240
+  ],
+  "icon": null
+ },
+ "Grinding Gears": {
+  "ids": [
+   681245
+  ],
+  "icon": null
+ },
+ "Guardian Module": {
+  "ids": [
+   805309
+  ],
+  "icon": null
+ },
+ "Gunslinger": {
+  "ids": [
+   705779
+  ],
+  "icon": null
+ },
+ "HYPER Module 6900": {
+  "ids": [
+   556501
+  ],
+  "icon": null
+ },
+ "Hacking the Enemy": {
+  "ids": [
+   705796
+  ],
+  "icon": null
+ },
+ "Hail to the King": {
+  "ids": [
+   806648
+  ],
+  "icon": null
+ },
+ "Hardwired Haymaker": {
+  "ids": [
+   806780
+  ],
+  "icon": null
+ },
+ "Hasta la Vista": {
+  "ids": [
+   704109
+  ],
+  "icon": null
+ },
+ "Hastened Shots": {
+  "ids": [
+   705813
+  ],
+  "icon": null
+ },
+ "Hasty Tech": {
+  "ids": [
+   705805
+  ],
+  "icon": null
+ },
+ "Haywired State!": {
+  "ids": [
+   707395
+  ],
+  "icon": null
+ },
+ "Head Explosion": {
+  "ids": [
+   806765
+  ],
+  "icon": null
+ },
+ "Heal 3% Max": {
+  "ids": [
+   504830
+  ],
+  "icon": null
+ },
+ "Healing Radiator": {
+  "ids": [
+   705846
+  ],
+  "icon": null
+ },
+ "Healing Shells": {
+  "ids": [
+   672335
+  ],
+  "icon": null
+ },
+ "Healing Stim": {
+  "ids": [
+   460503
+  ],
+  "icon": null
+ },
+ "Healing Stim Hidden Reload -> Heal Passive": {
+  "ids": [
+   460504
+  ],
+  "icon": null
+ },
+ "Healing Stims": {
+  "ids": [
+   300645
+  ],
+  "icon": null
+ },
+ "Healthy": {
+  "ids": [
+   806158
+  ],
+  "icon": null
+ },
+ "Heavy Spanner": {
+  "ids": [
+   706536
+  ],
+  "icon": null
+ },
+ "Heavy Spider Bomb Explosion": {
+  "ids": [
+   802477
+  ],
+  "icon": null
+ },
+ "Hide NPC": {
+  "ids": [
+   707572
+  ],
+  "icon": null
+ },
+ "High Tech Shots": {
+  "ids": [
+   503570
+  ],
+  "icon": null
+ },
+ "Hit And Run": {
+  "ids": [
+   706811
+  ],
+  "icon": null
+ },
+ "Hurl Boulder": {
+  "ids": [
+   500255
+  ],
+  "icon": null
+ },
+ "Hydraulic Charge": {
+  "ids": [
+   800582
+  ],
+  "icon": null
+ },
+ "Hydraulic Strike": {
+  "ids": [
+   800565
+  ],
+  "icon": null
+ },
+ "Hydraulic Strike Script Trigger": {
+  "ids": [
+   704255
+  ],
+  "icon": null
+ },
+ "Hyperblast Barrage": {
+  "ids": [
+   500249
+  ],
+  "icon": null
+ },
+ "I Need More Explosions!": {
+  "ids": [
+   503550
+  ],
+  "icon": null
+ },
+ "I'm The Creator Now": {
+  "ids": [
+   503534
+  ],
+  "icon": null
+ },
+ "Improved Emergency Heal": {
+  "ids": [
+   504918
+  ],
+  "icon": null
+ },
+ "Improved Explosives": {
+  "ids": [
+   705773
+  ],
+  "icon": null
+ },
+ "Improved Handcannon": {
+  "ids": [
+   300635
+  ],
+  "icon": null
+ },
+ "Improved Nanobot Deconstruction": {
+  "ids": [
+   300651
+  ],
+  "icon": null
+ },
+ "Improved Nanobot Reconstruction": {
+  "ids": [
+   300649
+  ],
+  "icon": null
+ },
+ "Improved Reload": {
+  "ids": [
+   705768
+  ],
+  "icon": null
+ },
+ "Improved Remote Detonation": {
+  "ids": [
+   705784
+  ],
+  "icon": null
+ },
+ "Improved Sticky Bomb": {
+  "ids": [
+   705776
+  ],
+  "icon": null
+ },
+ "Incendiary Bombs": {
+  "ids": [
+   504516
+  ],
+  "icon": null
+ },
+ "Incendiary Bullets": {
+  "ids": [
+   707269
+  ],
+  "icon": null
+ },
+ "Incendiary Rounds": {
+  "ids": [
+   570098
+  ],
+  "icon": null
+ },
+ "Infinity Clip": {
+  "ids": [
+   706809
+  ],
+  "icon": null
+ },
+ "Infnity Clip": {
+  "ids": [
+   520321
+  ],
+  "icon": null
+ },
+ "Infused Battery": {
+  "ids": [
+   572576
+  ],
+  "icon": null
+ },
+ "Innate Brilliance": {
+  "ids": [
+   572545
+  ],
+  "icon": null
+ },
+ "Inscribed Plating": {
+  "ids": [
+   806047
+  ],
+  "icon": null
+ },
+ "Invention - Level 20 Passive": {
+  "ids": [
+   807502
+  ],
+  "icon": null
+ },
+ "Invention - Level 40 Passive": {
+  "ids": [
+   653255
+  ],
+  "icon": null
+ },
+ "Inventor's Tool Belt": {
+  "ids": [
+   560742
+  ],
+  "icon": null
+ },
+ "Invisibility Cloak": {
+  "ids": [
+   801633
+  ],
+  "icon": null
+ },
+ "Invisible": {
+  "ids": [
+   707585
+  ],
+  "icon": null
+ },
+ "J27 Upgrade": {
+  "ids": [
+   301322
+  ],
+  "icon": null
+ },
+ "Jet Exhaust": {
+  "ids": [
+   801390
+  ],
+  "icon": null
+ },
+ "Jetfuel": {
+  "ids": [
+   801386
+  ],
+  "icon": null
+ },
+ "Junker": {
+  "ids": [
+   705786
+  ],
+  "icon": null
+ },
+ "Junklord WIP": {
+  "ids": [
+   801705
+  ],
+  "icon": null
+ },
+ "Junkyard Bruiser": {
+  "ids": [
+   806615
+  ],
+  "icon": null
+ },
+ "Junkyard Loiter": {
+  "ids": [
+   706680
+  ],
+  "icon": null
+ },
+ "Kaboominator": {
+  "ids": [
+   504666
+  ],
+  "icon": null
+ },
+ "Kickback": {
+  "ids": [
+   300642
+  ],
+  "icon": null
+ },
+ "Kinetic Shield": {
+  "ids": [
+   806224
+  ],
+  "icon": null
+ },
+ "Leap": {
+  "ids": [
+   500153
+  ],
+  "icon": null
+ },
+ "Lesser Healing Stim": {
+  "ids": [
+   460502
+  ],
+  "icon": null
+ },
+ "Lesser Med Pack": {
+  "ids": [
+   570150
+  ],
+  "icon": null
+ },
+ "Lesser Sticky Bomb": {
+  "ids": [
+   500612
+  ],
+  "icon": null
+ },
+ "Lesser Sticky Bomb Explosion": {
+  "ids": [
+   803639
+  ],
+  "icon": null
+ },
+ "Living Flame": {
+  "ids": [
+   504521
+  ],
+  "icon": null
+ },
+ "MEGA ROCKET": {
+  "ids": [
+   503556
+  ],
+  "icon": null
+ },
+ "Machine Synergy": {
+  "ids": [
+   707277
+  ],
+  "icon": null
+ },
+ "Macro Designer": {
+  "ids": [
+   505230
+  ],
+  "icon": null
+ },
+ "Macro-Gravity": {
+  "ids": [
+   712289
+  ],
+  "icon": null
+ },
+ "Macro-Gravity Zone": {
+  "ids": [
+   707104
+  ],
+  "icon": null
+ },
+ "Magic Augmentation": {
+  "ids": [
+   653242
+  ],
+  "icon": null
+ },
+ "Magic Rounds": {
+  "ids": [
+   653248
+  ],
+  "icon": null
+ },
+ "Magic-Cleanser 4000X": {
+  "ids": [
+   560472
+  ],
+  "icon": null
+ },
+ "Magnetic Modulation": {
+  "ids": [
+   706840
+  ],
+  "icon": null
+ },
+ "Magnetic Pulse": {
+  "ids": [
+   706839
+  ],
+  "icon": null
+ },
+ "Magnum Opus": {
+  "ids": [
+   504528
+  ],
+  "icon": null
+ },
+ "Makeshift Dynamite": {
+  "ids": [
+   504527
+  ],
+  "icon": null
+ },
+ "Mallet Master": {
+  "ids": [
+   706842
+  ],
+  "icon": null
+ },
+ "Mallet Mastery": {
+  "ids": [
+   706843
+  ],
+  "icon": null
+ },
+ "Mana Capacitors": {
+  "ids": [
+   506818
+  ],
+  "icon": null
+ },
+ "Mana Module": {
+  "ids": [
+   803658
+  ],
+  "icon": null
+ },
+ "Mana Sphere": {
+  "ids": [
+   653258
+  ],
+  "icon": null
+ },
+ "Manabite": {
+  "ids": [
+   578254
+  ],
+  "icon": null
+ },
+ "Maniacal": {
+  "ids": [
+   503559
+  ],
+  "icon": null
+ },
+ "Marksmanship": {
+  "ids": [
+   300869
+  ],
+  "icon": null
+ },
+ "Master Builder": {
+  "ids": [
+   704475
+  ],
+  "icon": null
+ },
+ "Master Engineer": {
+  "ids": [
+   503544
+  ],
+  "icon": null
+ },
+ "Master Mind": {
+  "ids": [
+   560784
+  ],
+  "icon": null
+ },
+ "Master Sapper": {
+  "ids": [
+   805317
+  ],
+  "icon": null
+ },
+ "Master Technician": {
+  "ids": [
+   520022
+  ],
+  "icon": null
+ },
+ "Masterscope Upgrade": {
+  "ids": [
+   706690
+  ],
+  "icon": null
+ },
+ "Maxi-Cleanser X-420": {
+  "ids": [
+   705804
+  ],
+  "icon": null
+ },
+ "Mech Augmentation Kit": {
+  "ids": [
+   706195
+  ],
+  "icon": null
+ },
+ "Mechalink": {
+  "ids": [
+   805286
+  ],
+  "icon": null
+ },
+ "Mechanical Arm": {
+  "ids": [
+   681002
+  ],
+  "icon": null
+ },
+ "Mechanical Arm Remover": {
+  "ids": [
+   681000
+  ],
+  "icon": null
+ },
+ "Mechanical Enhancements": {
+  "ids": [
+   506632
+  ],
+  "icon": null
+ },
+ "Mechanical Extender": {
+  "ids": [
+   681003
+  ],
+  "icon": null
+ },
+ "Mechanical Mind": {
+  "ids": [
+   503571
+  ],
+  "icon": null
+ },
+ "Mechanical Synergy": {
+  "ids": [
+   680200
+  ],
+  "icon": null
+ },
+ "Mechanics": {
+  "ids": [
+   572609
+  ],
+  "icon": null
+ },
+ "Mechanics - Level 10 Passive": {
+  "ids": [
+   93637
+  ],
+  "icon": null
+ },
+ "Mechanics - Level 20 Passive": {
+  "ids": [
+   707579
+  ],
+  "icon": null
+ },
+ "Mechanics Tinker": {
+  "ids": [
+   500216
+  ],
+  "icon": null
+ },
+ "Mechano-Growl": {
+  "ids": [
+   806171
+  ],
+  "icon": null
+ },
+ "Mechanosoldier": {
+  "ids": [
+   705827
+  ],
+  "icon": null
+ },
+ "Mechaplating": {
+  "ids": [
+   503535
+  ],
+  "icon": null
+ },
+ "Mechguard": {
+  "ids": [
+   706902
+  ],
+  "icon": null
+ },
+ "Mechlord": {
+  "ids": [
+   803073
+  ],
+  "icon": null
+ },
+ "Mechsuit": {
+  "ids": [
+   503577
+  ],
+  "icon": null
+ },
+ "Mechsuit Explosion": {
+  "ids": [
+   801392
+  ],
+  "icon": null
+ },
+ "Mechsuit Mastery": {
+  "ids": [
+   706903
+  ],
+  "icon": null
+ },
+ "Mechsuit: Activate Jets": {
+  "ids": [
+   801389
+  ],
+  "icon": null
+ },
+ "Mechsuit: Artillery Rush": {
+  "ids": [
+   801391
+  ],
+  "icon": null
+ },
+ "Mechsuit: Combustion": {
+  "ids": [
+   801387
+  ],
+  "icon": null
+ },
+ "Mechsuit: Laser Beam": {
+  "ids": [
+   805372
+  ],
+  "icon": null
+ },
+ "Mechsuit: Sawblade": {
+  "ids": [
+   801381
+  ],
+  "icon": null
+ },
+ "Med Pack": {
+  "ids": [
+   800347
+  ],
+  "icon": null
+ },
+ "Medical Degree": {
+  "ids": [
+   505327
+  ],
+  "icon": null
+ },
+ "Medical Operative": {
+  "ids": [
+   556502
+  ],
+  "icon": null
+ },
+ "Medical Tactician": {
+  "ids": [
+   535215
+  ],
+  "icon": null
+ },
+ "Medical Training": {
+  "ids": [
+   705800
+  ],
+  "icon": null
+ },
+ "Mega Guarded": {
+  "ids": [
+   805310
+  ],
+  "icon": null
+ },
+ "Mega Scope": {
+  "ids": [
+   707252
+  ],
+  "icon": null
+ },
+ "Meltdown": {
+  "ids": [
+   581313
+  ],
+  "icon": null
+ },
+ "Mineball 2": {
+  "ids": [
+   706846
+  ],
+  "icon": null
+ },
+ "Mineball 3": {
+  "ids": [
+   706847
+  ],
+  "icon": null
+ },
+ "Mineball 4": {
+  "ids": [
+   706848
+  ],
+  "icon": null
+ },
+ "Minefield Blocker": {
+  "ids": [
+   706849
+  ],
+  "icon": null
+ },
+ "Minefield Explosion": {
+  "ids": [
+   706831
+  ],
+  "icon": null
+ },
+ "Minefield Mine": {
+  "ids": [
+   706835
+  ],
+  "icon": null
+ },
+ "Minefield Mine Delayer": {
+  "ids": [
+   706834
+  ],
+  "icon": null
+ },
+ "Minefield Mine Periodic": {
+  "ids": [
+   706830
+  ],
+  "icon": null
+ },
+ "Minelayer Bot": {
+  "ids": [
+   573218
+  ],
+  "icon": null
+ },
+ "Minicopter-Z": {
+  "ids": [
+   801626
+  ],
+  "icon": null
+ },
+ "Minigun Ammo Filler": {
+  "ids": [
+   705839
+  ],
+  "icon": null
+ },
+ "Minigun Visual": {
+  "ids": [
+   801565
+  ],
+  "icon": null
+ },
+ "Missile Swarm": {
+  "ids": [
+   807386
+  ],
+  "icon": null
+ },
+ "Modular Charges": {
+  "ids": [
+   705766
+  ],
+  "icon": null
+ },
+ "Modulator": {
+  "ids": [
+   707832
+  ],
+  "icon": null
+ },
+ "Module Belt": {
+  "ids": [
+   560772
+  ],
+  "icon": null
+ },
+ "Molten Grenade": {
+  "ids": [
+   706694
+  ],
+  "icon": null
+ },
+ "Molten Grenade Turret": {
+  "ids": [
+   706692
+  ],
+  "icon": null
+ },
+ "More Explosions!": {
+  "ids": [
+   707275
+  ],
+  "icon": null
+ },
+ "Mortar Shot": {
+  "ids": [
+   704436
+  ],
+  "icon": null
+ },
+ "Multi-Barrel Upgrade": {
+  "ids": [
+   706691
+  ],
+  "icon": null
+ },
+ "Munition Expert": {
+  "ids": [
+   705772
+  ],
+  "icon": null
+ },
+ "My Greatest Heal!": {
+  "ids": [
+   560745
+  ],
+  "icon": null
+ },
+ "My Greatest Invention!": {
+  "ids": [
+   560744
+  ],
+  "icon": null
+ },
+ "Nano-Repair Tech": {
+  "ids": [
+   681358
+  ],
+  "icon": null
+ },
+ "Nanobot Barrier": {
+  "ids": [
+   502538
+  ],
+  "icon": null
+ },
+ "Nanobot Check": {
+  "ids": [
+   706837
+  ],
+  "icon": null
+ },
+ "Nanobot Cleanser": {
+  "ids": [
+   502537
+  ],
+  "icon": null
+ },
+ "Nanobot Deconstruction": {
+  "ids": [
+   801808
+  ],
+  "icon": null
+ },
+ "Nanobot Durability": {
+  "ids": [
+   705812
+  ],
+  "icon": null
+ },
+ "Nanobot Recharger": {
+  "ids": [
+   803552
+  ],
+  "icon": null
+ },
+ "Nanobot Reconstruction": {
+  "ids": [
+   801809
+  ],
+  "icon": null
+ },
+ "Nanobot Reconstruction Check": {
+  "ids": [
+   560270
+  ],
+  "icon": null
+ },
+ "Nanobot Shield": {
+  "ids": [
+   560741
+  ],
+  "icon": null
+ },
+ "Nanobot Swarm": {
+  "ids": [
+   801709
+  ],
+  "icon": null
+ },
+ "Nanomechano": {
+  "ids": [
+   705822
+  ],
+  "icon": null
+ },
+ "Napalm": {
+  "ids": [
+   92138
+  ],
+  "icon": null
+ },
+ "Neltharion's Resolve": {
+  "ids": [
+   561270
+  ],
+  "icon": null
+ },
+ "Noise Box Aura": {
+  "ids": [
+   807742
+  ],
+  "icon": null
+ },
+ "Not On MY Turf!": {
+  "ids": [
+   805321
+  ],
+  "icon": null
+ },
+ "Not Today, BUCKO!": {
+  "ids": [
+   704125
+  ],
+  "icon": null
+ },
+ "Offensive Utility": {
+  "ids": [
+   680998
+  ],
+  "icon": null
+ },
+ "Oil Spill": {
+  "ids": [
+   707288
+  ],
+  "icon": null
+ },
+ "Oil Spill Pylon": {
+  "ids": [
+   707290
+  ],
+  "icon": null
+ },
+ "One In The Chamber": {
+  "ids": [
+   504496
+  ],
+  "icon": null
+ },
+ "Over Repaired": {
+  "ids": [
+   807503
+  ],
+  "icon": null
+ },
+ "Over-Repaired": {
+  "ids": [
+   807498
+  ],
+  "icon": null
+ },
+ "Overcharge": {
+  "ids": [
+   524835
+  ],
+  "icon": null
+ },
+ "Overcharge Shield Beacon Periodic Shield tick": {
+  "ids": [
+   560712
+  ],
+  "icon": null
+ },
+ "Overcharge Tremor Visual": {
+  "ids": [
+   560758
+  ],
+  "icon": null
+ },
+ "Overcharge: Alarm": {
+  "ids": [
+   560757
+  ],
+  "icon": null
+ },
+ "Overcharge: Replenishment": {
+  "ids": [
+   560753
+  ],
+  "icon": null
+ },
+ "Overcharge: Restorative Beacon": {
+  "ids": [
+   560710
+  ],
+  "icon": null
+ },
+ "Overcharge: Shield Beacon": {
+  "ids": [
+   560709
+  ],
+  "icon": null
+ },
+ "Overcharged": {
+  "ids": [
+   560711
+  ],
+  "icon": null
+ },
+ "Overclock Weapon": {
+  "ids": [
+   801715
+  ],
+  "icon": null
+ },
+ "Overclocked Machine": {
+  "ids": [
+   806757
+  ],
+  "icon": null
+ },
+ "Overclocked Smash": {
+  "ids": [
+   806778
+  ],
+  "icon": null
+ },
+ "Overload": {
+  "ids": [
+   705798
+  ],
+  "icon": null
+ },
+ "PLACEHOLDER": {
+  "ids": [
+   803399
+  ],
+  "icon": null
+ },
+ "Parachute Pack": {
+  "ids": [
+   804690
+  ],
+  "icon": null
+ },
+ "Parachute Pack Trigger": {
+  "ids": [
+   801502
+  ],
+  "icon": null
+ },
+ "Phoenix Dismiss": {
+  "ids": [
+   532217
+  ],
+  "icon": null
+ },
+ "Pick Lock": {
+  "ids": [
+   807275
+  ],
+  "icon": null
+ },
+ "Piercing Augmentation": {
+  "ids": [
+   653234
+  ],
+  "icon": null
+ },
+ "Piercing Impact": {
+  "ids": [
+   705756
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   504639
+  ],
+  "icon": null
+ },
+ "Placeholder2": {
+  "ids": [
+   505171
+  ],
+  "icon": null
+ },
+ "Portable Potion Pack": {
+  "ids": [
+   300647
+  ],
+  "icon": null
+ },
+ "Potent Potions": {
+  "ids": [
+   504065
+  ],
+  "icon": null
+ },
+ "Powder Overload": {
+  "ids": [
+   850016
+  ],
+  "icon": null
+ },
+ "Power Cell": {
+  "ids": [
+   705818
+  ],
+  "icon": null
+ },
+ "Power Module": {
+  "ids": [
+   706742
+  ],
+  "icon": null
+ },
+ "Precision Scopes": {
+  "ids": [
+   705807
+  ],
+  "icon": null
+ },
+ "Preloaded Magazines": {
+  "ids": [
+   802031
+  ],
+  "icon": null
+ },
+ "Prepping for the BIG ONE!": {
+  "ids": [
+   524719
+  ],
+  "icon": null
+ },
+ "Preventative Medicine": {
+  "ids": [
+   560771
+  ],
+  "icon": null
+ },
+ "Pyre Scaling Applier": {
+  "ids": [
+   706852
+  ],
+  "icon": null
+ },
+ "Pyromania": {
+  "ids": [
+   706377
+  ],
+  "icon": null
+ },
+ "Pyrotechnics": {
+  "ids": [
+   705778
+  ],
+  "icon": null
+ },
+ "Questionable Methods": {
+  "ids": [
+   520280
+  ],
+  "icon": null
+ },
+ "Quick Handcannon": {
+  "ids": [
+   300637
+  ],
+  "icon": null
+ },
+ "Quickscope": {
+  "ids": [
+   805686
+  ],
+  "icon": null
+ },
+ "Radiation Sickness": {
+  "ids": [
+   707472
+  ],
+  "icon": null
+ },
+ "Rampant Lightning": {
+  "ids": [
+   801395
+  ],
+  "icon": null
+ },
+ "Rapid Deployment": {
+  "ids": [
+   504510
+  ],
+  "icon": null
+ },
+ "Rapid Fire Healing": {
+  "ids": [
+   805311
+  ],
+  "icon": null
+ },
+ "Re-Build": {
+  "ids": [
+   578266
+  ],
+  "icon": null
+ },
+ "Re-Spark": {
+  "ids": [
+   570093
+  ],
+  "icon": null
+ },
+ "Recalibrate": {
+  "ids": [
+   578270
+  ],
+  "icon": null
+ },
+ "Recall Imp": {
+  "ids": [
+   578303
+  ],
+  "icon": null
+ },
+ "Recharge": {
+  "ids": [
+   570715
+  ],
+  "icon": null
+ },
+ "Recycling Bin WIP": {
+  "ids": [
+   801813
+  ],
+  "icon": null
+ },
+ "Refined Gunpowder": {
+  "ids": [
+   705781
+  ],
+  "icon": null
+ },
+ "Refresh Beacons": {
+  "ids": [
+   542512
+  ],
+  "icon": null
+ },
+ "Regeneration Enhancement": {
+  "ids": [
+   807635
+  ],
+  "icon": null
+ },
+ "Regenerator": {
+  "ids": [
+   705866
+  ],
+  "icon": null
+ },
+ "Rejuvenating Gadget": {
+  "ids": [
+   805306
+  ],
+  "icon": null
+ },
+ "Rejuvenating Gas": {
+  "ids": [
+   706255
+  ],
+  "icon": null
+ },
+ "Remote Bomb Explosion": {
+  "ids": [
+   802336
+  ],
+  "icon": null
+ },
+ "Remote Bomb Knockback": {
+  "ids": [
+   804306
+  ],
+  "icon": null
+ },
+ "Remote Detonation": {
+  "ids": [
+   801798
+  ],
+  "icon": null
+ },
+ "Remove 'At Least 100 Scrap'": {
+  "ids": [
+   704454
+  ],
+  "icon": null
+ },
+ "Remove 'At Least 15 Scrap'": {
+  "ids": [
+   704457
+  ],
+  "icon": null
+ },
+ "Remove 'At Least 25 Scrap'": {
+  "ids": [
+   704458
+  ],
+  "icon": null
+ },
+ "Repair": {
+  "ids": [
+   801882
+  ],
+  "icon": null
+ },
+ "Repair Shot": {
+  "ids": [
+   801707
+  ],
+  "icon": null
+ },
+ "Replenishment": {
+  "ids": [
+   560582
+  ],
+  "icon": null
+ },
+ "Reset Gunsling": {
+  "ids": [
+   801619
+  ],
+  "icon": null
+ },
+ "Reset Reticle Cooldowns": {
+  "ids": [
+   801025
+  ],
+  "icon": null
+ },
+ "Resilient Constitution": {
+  "ids": [
+   524743
+  ],
+  "icon": null
+ },
+ "Resourceful Tech": {
+  "ids": [
+   560790
+  ],
+  "icon": null
+ },
+ "Restorative Beacon": {
+  "ids": [
+   706829
+  ],
+  "icon": null
+ },
+ "Restorative Field": {
+  "ids": [
+   801803
+  ],
+  "icon": null
+ },
+ "Reticle reset Buffer": {
+  "ids": [
+   681039
+  ],
+  "icon": null
+ },
+ "Revitalise": {
+  "ids": [
+   524838
+  ],
+  "icon": null
+ },
+ "Revitalizing Aura": {
+  "ids": [
+   520819
+  ],
+  "icon": null
+ },
+ "Rifle Ammo Capacity": {
+  "ids": [
+   802949
+  ],
+  "icon": null
+ },
+ "Rockadier": {
+  "ids": [
+   801827
+  ],
+  "icon": null
+ },
+ "Rocket Barrage": {
+  "ids": [
+   801168
+  ],
+  "icon": null
+ },
+ "Rocket Bombardment": {
+  "ids": [
+   706695
+  ],
+  "icon": null
+ },
+ "Rocket Boots": {
+  "ids": [
+   500241
+  ],
+  "icon": null
+ },
+ "Rocket Boots Root": {
+  "ids": [
+   997797
+  ],
+  "icon": null
+ },
+ "Rocket Boots Spell 2": {
+  "ids": [
+   997785
+  ],
+  "icon": null
+ },
+ "Rocket Boots Spell 3": {
+  "ids": [
+   997787
+  ],
+  "icon": null
+ },
+ "Rocket Engineering": {
+  "ids": [
+   573247
+  ],
+  "icon": null
+ },
+ "Rocket Launch": {
+  "ids": [
+   500543
+  ],
+  "icon": null
+ },
+ "Rocket Launcher": {
+  "ids": [
+   500235
+  ],
+  "icon": null
+ },
+ "Rocket Pack": {
+  "ids": [
+   705820
+  ],
+  "icon": null
+ },
+ "Rocket Rider": {
+  "ids": [
+   806076
+  ],
+  "icon": null
+ },
+ "Rocket Turrets": {
+  "ids": [
+   707259
+  ],
+  "icon": null
+ },
+ "Rocket Turrets Dummy": {
+  "ids": [
+   707295
+  ],
+  "icon": null
+ },
+ "Rocket Turrets Targetting": {
+  "ids": [
+   712365
+  ],
+  "icon": null
+ },
+ "Rounds": {
+  "ids": [
+   500238
+  ],
+  "icon": null
+ },
+ "Rounds and Rounds": {
+  "ids": [
+   300631
+  ],
+  "icon": null
+ },
+ "Rustbite": {
+  "ids": [
+   712423
+  ],
+  "icon": null
+ },
+ "Rusthound Aura": {
+  "ids": [
+   712392
+  ],
+  "icon": null
+ },
+ "SHOCKED!": {
+  "ids": [
+   560792
+  ],
+  "icon": null
+ },
+ "Sapper Charge": {
+  "ids": [
+   553265
+  ],
+  "icon": null
+ },
+ "Sapper Charge Explosion": {
+  "ids": [
+   803222
+  ],
+  "icon": null
+ },
+ "Sapper Charge Periodic Stacker": {
+  "ids": [
+   803223
+  ],
+  "icon": null
+ },
+ "Scientific Nature": {
+  "ids": [
+   705802
+  ],
+  "icon": null
+ },
+ "Scrap": {
+  "ids": [
+   707470
+  ],
+  "icon": null
+ },
+ "Scrap Factory": {
+  "ids": [
+   800978
+  ],
+  "icon": null
+ },
+ "Scrap Generation Spanner Smash": {
+  "ids": [
+   503563
+  ],
+  "icon": null
+ },
+ "Scrap Generation Sticky Bomb": {
+  "ids": [
+   504596
+  ],
+  "icon": null
+ },
+ "Scrap Shot": {
+  "ids": [
+   500549
+  ],
+  "icon": null
+ },
+ "Scrap Shot After Impact": {
+  "ids": [
+   803230
+  ],
+  "icon": null
+ },
+ "Scrapper": {
+  "ids": [
+   525039
+  ],
+  "icon": null
+ },
+ "Scrapper Trigger": {
+  "ids": [
+   707468
+  ],
+  "icon": null
+ },
+ "Scrappy": {
+  "ids": [
+   705799
+  ],
+  "icon": null
+ },
+ "Scrapshield": {
+  "ids": [
+   806628
+  ],
+  "icon": null
+ },
+ "Scrapshielding": {
+  "ids": [
+   806627
+  ],
+  "icon": null
+ },
+ "Scrapstrike": {
+  "ids": [
+   801010
+  ],
+  "icon": null
+ },
+ "Scraptron": {
+  "ids": [
+   800101
+  ],
+  "icon": null
+ },
+ "Scraptron instant heal on summon": {
+  "ids": [
+   520765
+  ],
+  "icon": null
+ },
+ "Scrapyard Enhancements": {
+  "ids": [
+   705828
+  ],
+  "icon": null
+ },
+ "Seek": {
+  "ids": [
+   581311
+  ],
+  "icon": null
+ },
+ "Self Destruct Visual": {
+  "ids": [
+   802787
+  ],
+  "icon": null
+ },
+ "Self-Destruct": {
+  "ids": [
+   802176
+  ],
+  "icon": null
+ },
+ "Self-Sustaining Technology": {
+  "ids": [
+   560786
+  ],
+  "icon": null
+ },
+ "Sentry Hidden Aura": {
+  "ids": [
+   748510
+  ],
+  "icon": null
+ },
+ "Sentry Hidden Aura 2": {
+  "ids": [
+   748511
+  ],
+  "icon": null
+ },
+ "Sentry Rocket": {
+  "ids": [
+   573270
+  ],
+  "icon": null
+ },
+ "Sentry Shot": {
+  "ids": [
+   706689
+  ],
+  "icon": null
+ },
+ "Sentry Turret": {
+  "ids": [
+   807293
+  ],
+  "icon": null
+ },
+ "Sentry Turret Hidden Identifier": {
+  "ids": [
+   750001
+  ],
+  "icon": null
+ },
+ "Shattered": {
+  "ids": [
+   804447
+  ],
+  "icon": null
+ },
+ "Shattering Shells": {
+  "ids": [
+   503561
+  ],
+  "icon": null
+ },
+ "Shield Beacon": {
+  "ids": [
+   801256
+  ],
+  "icon": null
+ },
+ "Shield Crush": {
+  "ids": [
+   801396
+  ],
+  "icon": null
+ },
+ "Shield Field": {
+  "ids": [
+   806003
+  ],
+  "icon": null
+ },
+ "Shield Field Scaling": {
+  "ids": [
+   801726
+  ],
+  "icon": null
+ },
+ "Shield Sick": {
+  "ids": [
+   560713
+  ],
+  "icon": null
+ },
+ "Shock": {
+  "ids": [
+   300971
+  ],
+  "icon": null
+ },
+ "Shock Factor": {
+  "ids": [
+   572107
+  ],
+  "icon": null
+ },
+ "Short Circuit": {
+  "ids": [
+   800568
+  ],
+  "icon": null
+ },
+ "Short Fuse": {
+  "ids": [
+   707246
+  ],
+  "icon": null
+ },
+ "Shotgun": {
+  "ids": [
+   805344
+  ],
+  "icon": null
+ },
+ "Shotgun (Gun)": {
+  "ids": [
+   680317
+  ],
+  "icon": null
+ },
+ "Shotgun Ammo Capacity": {
+  "ids": [
+   802950
+  ],
+  "icon": null
+ },
+ "Shotgun Hidden 2": {
+  "ids": [
+   704431
+  ],
+  "icon": null
+ },
+ "Shotgun Kickback": {
+  "ids": [
+   300643
+  ],
+  "icon": null
+ },
+ "Show Weapons Only": {
+  "ids": [
+   707188
+  ],
+  "icon": null
+ },
+ "Shrapnel": {
+  "ids": [
+   300638
+  ],
+  "icon": null
+ },
+ "Shrapnel Mine": {
+  "ids": [
+   706647
+  ],
+  "icon": null
+ },
+ "Shrapnel Mine Explosion": {
+  "ids": [
+   706648
+  ],
+  "icon": null
+ },
+ "Shrapnel Shots (no longer implemented)": {
+  "ids": [
+   804803
+  ],
+  "icon": null
+ },
+ "Slam the Cogs!": {
+  "ids": [
+   520453
+  ],
+  "icon": null
+ },
+ "Smoking Gun": {
+  "ids": [
+   704108
+  ],
+  "icon": null
+ },
+ "Snipe": {
+  "ids": [
+   800345
+  ],
+  "icon": null
+ },
+ "Sniper Rifle": {
+  "ids": [
+   805273
+  ],
+  "icon": null
+ },
+ "Sniper Rifle Ammo Capacity": {
+  "ids": [
+   802953
+  ],
+  "icon": null
+ },
+ "Sniper Rifle Visual": {
+  "ids": [
+   801553
+  ],
+  "icon": null
+ },
+ "Sniper Shot": {
+  "ids": [
+   704112
+  ],
+  "icon": null
+ },
+ "Sniper Shot Stacker": {
+  "ids": [
+   704113
+  ],
+  "icon": null
+ },
+ "Sniper Training": {
+  "ids": [
+   805687
+  ],
+  "icon": null
+ },
+ "Sniper Training Destacker": {
+  "ids": [
+   704114
+  ],
+  "icon": null
+ },
+ "Sniper's Aim": {
+  "ids": [
+   800849
+  ],
+  "icon": null
+ },
+ "Spanner Smash": {
+  "ids": [
+   805351
+  ],
+  "icon": null
+ },
+ "Spanner Smash Crit Aura": {
+  "ids": [
+   707473
+  ],
+  "icon": null
+ },
+ "Spanner Smash Transform": {
+  "ids": [
+   707394
+  ],
+  "icon": null
+ },
+ "Spare Parts": {
+  "ids": [
+   704465
+  ],
+  "icon": null
+ },
+ "Sparked and Ready!": {
+  "ids": [
+   537247
+  ],
+  "icon": null
+ },
+ "Sparks": {
+  "ids": [
+   706729
+  ],
+  "icon": null
+ },
+ "Spawn Shrapnel Mine": {
+  "ids": [
+   704463
+  ],
+  "icon": null
+ },
+ "Speed Clip": {
+  "ids": [
+   300629
+  ],
+  "icon": null
+ },
+ "Speedy Recovery": {
+  "ids": [
+   504062
+  ],
+  "icon": null
+ },
+ "Speedy Setup": {
+  "ids": [
+   706699
+  ],
+  "icon": null
+ },
+ "Spider Bomb": {
+  "ids": [
+   707299
+  ],
+  "icon": null
+ },
+ "Spider Bomb Explosion": {
+  "ids": [
+   801982
+  ],
+  "icon": null
+ },
+ "Spider Bomb Factory": {
+  "ids": [
+   802475
+  ],
+  "icon": null
+ },
+ "Spider Tank: Flak Guns": {
+  "ids": [
+   802241
+  ],
+  "icon": null
+ },
+ "Spider Tank: Scurry": {
+  "ids": [
+   801818
+  ],
+  "icon": null
+ },
+ "Spidertank Leap": {
+  "ids": [
+   801398
+  ],
+  "icon": null
+ },
+ "Spidertank: Stomp": {
+  "ids": [
+   801817
+  ],
+  "icon": null
+ },
+ "Spreading Repair Shot": {
+  "ids": [
+   300644
+  ],
+  "icon": null
+ },
+ "Sprocket Loaded": {
+  "ids": [
+   807500
+  ],
+  "icon": null
+ },
+ "Sprocket Strike": {
+  "ids": [
+   805459
+  ],
+  "icon": null
+ },
+ "Sprocket Zap!": {
+  "ids": [
+   805657
+  ],
+  "icon": null
+ },
+ "Standard Round": {
+  "ids": [
+   801713
+  ],
+  "icon": null
+ },
+ "Standard Rounds": {
+  "ids": [
+   801648
+  ],
+  "icon": null
+ },
+ "Standard RoundsTEST": {
+  "ids": [
+   525604
+  ],
+  "icon": null
+ },
+ "Steam Rush": {
+  "ids": [
+   806170
+  ],
+  "icon": null
+ },
+ "Steam Vent": {
+  "ids": [
+   572369
+  ],
+  "icon": null
+ },
+ "Sticky Bomb": {
+  "ids": [
+   500232
+  ],
+  "icon": null
+ },
+ "Sticky Bomb Explosion": {
+  "ids": [
+   801009
+  ],
+  "icon": null
+ },
+ "Sticky Charge": {
+  "ids": [
+   707267
+  ],
+  "icon": null
+ },
+ "Stim Augmentation": {
+  "ids": [
+   653239
+  ],
+  "icon": null
+ },
+ "Stim Pack": {
+  "ids": [
+   807531
+  ],
+  "icon": null
+ },
+ "Stim Shots": {
+  "ids": [
+   808009
+  ],
+  "icon": null
+ },
+ "Strength Bionics": {
+  "ids": [
+   510176
+  ],
+  "icon": null
+ },
+ "Strider Bot Scaling": {
+  "ids": [
+   806051
+  ],
+  "icon": null
+ },
+ "Supercharge": {
+  "ids": [
+   801708
+  ],
+  "icon": null
+ },
+ "Surprise Dynamite": {
+  "ids": [
+   578124
+  ],
+  "icon": null
+ },
+ "Surprise Launch Incoming!": {
+  "ids": [
+   707245
+  ],
+  "icon": null
+ },
+ "Surprise Launch!": {
+  "ids": [
+   707244
+  ],
+  "icon": null
+ },
+ "THE BIG ONE!!!": {
+  "ids": [
+   524723
+  ],
+  "icon": null
+ },
+ "TIME TO BAT!": {
+  "ids": [
+   504524
+  ],
+  "icon": null
+ },
+ "Tactical Reload": {
+  "ids": [
+   705760
+  ],
+  "icon": null
+ },
+ "Tag Team": {
+  "ids": [
+   806619
+  ],
+  "icon": null
+ },
+ "Take Aim": {
+  "ids": [
+   500247
+  ],
+  "icon": null
+ },
+ "Tank Buster": {
+  "ids": [
+   707254
+  ],
+  "icon": null
+ },
+ "Target Acquired": {
+  "ids": [
+   707262
+  ],
+  "icon": null
+ },
+ "Target Spotted": {
+  "ids": [
+   705764
+  ],
+  "icon": null
+ },
+ "Target Spotted!": {
+  "ids": [
+   705763
+  ],
+  "icon": null
+ },
+ "Tech Hoarder": {
+  "ids": [
+   524937
+  ],
+  "icon": null
+ },
+ "Technician": {
+  "ids": [
+   560735
+  ],
+  "icon": null
+ },
+ "Telescopic Focusing Lens": {
+  "ids": [
+   801819
+  ],
+  "icon": null
+ },
+ "Tentacle of Y'shaarj IDENTIFY YOURSELF": {
+  "ids": [
+   530224
+  ],
+  "icon": null
+ },
+ "Tentacle of Yogg'Saron IDENTIFY YOURSELF": {
+  "ids": [
+   530225
+  ],
+  "icon": null
+ },
+ "Thaw and Cook DEPRECATED": {
+  "ids": [
+   503572
+  ],
+  "icon": null
+ },
+ "The BIG Guns!": {
+  "ids": [
+   560593
+  ],
+  "icon": null
+ },
+ "The BIGGEST One": {
+  "ids": [
+   503551
+  ],
+  "icon": null
+ },
+ "The Big One": {
+  "ids": [
+   805327
+  ],
+  "icon": null
+ },
+ "The Doctor Is In": {
+  "ids": [
+   705814
+  ],
+  "icon": null
+ },
+ "Thermal-Focus Lenses DEPRECATED": {
+  "ids": [
+   800687
+  ],
+  "icon": null
+ },
+ "Throw Wrench": {
+  "ids": [
+   574352
+  ],
+  "icon": null
+ },
+ "Thunderbolt": {
+  "ids": [
+   7044452
+  ],
+  "icon": null
+ },
+ "Tinker Creation": {
+  "ids": [
+   806625
+  ],
+  "icon": null
+ },
+ "Tinker Instant Pet Scaling / Heal Aura Applier": {
+  "ids": [
+   520508
+  ],
+  "icon": null
+ },
+ "Tinker Pet Periodic Scaling Trigger": {
+  "ids": [
+   520509
+  ],
+  "icon": null
+ },
+ "Tinker Pet Reverse Scaling Aura": {
+  "ids": [
+   520764
+  ],
+  "icon": null
+ },
+ "Tinker Pet Scaling Aura": {
+  "ids": [
+   520510
+  ],
+  "icon": null
+ },
+ "Tinker Pet Scaling Aura 1": {
+  "ids": [
+   524064
+  ],
+  "icon": null
+ },
+ "Tinker Pet Scaling Aura 2": {
+  "ids": [
+   524065
+  ],
+  "icon": null
+ },
+ "Tinker Pet Scaling Aura 3": {
+  "ids": [
+   524066
+  ],
+  "icon": null
+ },
+ "Tinker Pet Scaling Aura 4": {
+  "ids": [
+   524067
+  ],
+  "icon": null
+ },
+ "Tinker Scrap Shot Range Setter": {
+  "ids": [
+   707709
+  ],
+  "icon": null
+ },
+ "Tinker Scraptron Scaling Applier": {
+  "ids": [
+   806527
+  ],
+  "icon": null
+ },
+ "Tinkering Tools": {
+  "ids": [
+   801517
+  ],
+  "icon": null
+ },
+ "Titanic Contraption": {
+  "ids": [
+   806774
+  ],
+  "icon": null
+ },
+ "Tracer Augmentation": {
+  "ids": [
+   653245
+  ],
+  "icon": null
+ },
+ "Transmogrification Gun": {
+  "ids": [
+   801625
+  ],
+  "icon": null
+ },
+ "Trigger Overcharge": {
+  "ids": [
+   524833
+  ],
+  "icon": null
+ },
+ "Trust the Science!": {
+  "ids": [
+   300653
+  ],
+  "icon": null
+ },
+ "Turbo Guns": {
+  "ids": [
+   520809
+  ],
+  "icon": null
+ },
+ "Turbo Inventor": {
+  "ids": [
+   560794
+  ],
+  "icon": null
+ },
+ "Turbo Nerd": {
+  "ids": [
+   680360
+  ],
+  "icon": null
+ },
+ "Turbo Speed": {
+  "ids": [
+   803346
+  ],
+  "icon": null
+ },
+ "Turbo Upgrade": {
+  "ids": [
+   704437
+  ],
+  "icon": null
+ },
+ "Turbo Upgrade!": {
+  "ids": [
+   707115
+  ],
+  "icon": null
+ },
+ "Turret Mechanic": {
+  "ids": [
+   503567
+  ],
+  "icon": null
+ },
+ "Turret Shot": {
+  "ids": [
+   500245
+  ],
+  "icon": null
+ },
+ "Turret Upgrade Z-15": {
+  "ids": [
+   524979
+  ],
+  "icon": null
+ },
+ "Unstable Battery": {
+  "ids": [
+   512701
+  ],
+  "icon": null
+ },
+ "Upcycled": {
+  "ids": [
+   800522
+  ],
+  "icon": null
+ },
+ "Update Scrap Counters": {
+  "ids": [
+   704459
+  ],
+  "icon": null
+ },
+ "Upgrade AoE Applier": {
+  "ids": [
+   706706
+  ],
+  "icon": null
+ },
+ "Upgrade Applier": {
+  "ids": [
+   706705
+  ],
+  "icon": null
+ },
+ "Upgrade Mechsuit: Spider Tank": {
+  "ids": [
+   801710
+  ],
+  "icon": null
+ },
+ "Upgrade Mechsuit: Vanguard X-42": {
+  "ids": [
+   801393
+  ],
+  "icon": null
+ },
+ "Upgrade Z-15": {
+  "ids": [
+   801811
+  ],
+  "icon": null
+ },
+ "Upgrade!": {
+  "ids": [
+   800349
+  ],
+  "icon": null
+ },
+ "Vanguard X-173: Onslaught": {
+  "ids": [
+   801828
+  ],
+  "icon": null
+ },
+ "Vanguard X-173: Shield Crush": {
+  "ids": [
+   801394
+  ],
+  "icon": null
+ },
+ "Vanguard X-42: Fuselight Furnace": {
+  "ids": [
+   801382
+  ],
+  "icon": null
+ },
+ "Vanguard X-42: Imposing Presence": {
+  "ids": [
+   801815
+  ],
+  "icon": null
+ },
+ "Vanguard's Protection": {
+  "ids": [
+   801397
+  ],
+  "icon": null
+ },
+ "Ventilation": {
+  "ids": [
+   572367
+  ],
+  "icon": null
+ },
+ "WIP Disassemble": {
+  "ids": [
+   704345
+  ],
+  "icon": null
+ },
+ "Walking Furnace WIP": {
+  "ids": [
+   706679
+  ],
+  "icon": null
+ },
+ "War Crimes": {
+  "ids": [
+   707239
+  ],
+  "icon": null
+ },
+ "Warning Shot": {
+  "ids": [
+   534480
+  ],
+  "icon": null
+ },
+ "Warphole Generator": {
+  "ids": [
+   801544
+  ],
+  "icon": null
+ },
+ "Wavering": {
+  "ids": [
+   707032
+  ],
+  "icon": null
+ },
+ "Wavering Power Combat Watcher": {
+  "ids": [
+   707034
+  ],
+  "icon": null
+ },
+ "Weighted Bomb": {
+  "ids": [
+   712351
+  ],
+  "icon": null
+ },
+ "Weighted Bombs": {
+  "ids": [
+   707214
+  ],
+  "icon": null
+ },
+ "Weld Wounds": {
+  "ids": [
+   802026
+  ],
+  "icon": null
+ },
+ "Whirling Deathsaw": {
+  "ids": [
+   706901
+  ],
+  "icon": null
+ },
+ "Wide Bore Barrel": {
+  "ids": [
+   300640
+  ],
+  "icon": null
+ },
+ "Worn Out": {
+  "ids": [
+   524926
+  ],
+  "icon": null
+ },
+ "X15 Upgrade": {
+  "ids": [
+   300648
+  ],
+  "icon": null
+ },
+ "X15 Upgraded": {
+  "ids": [
+   503772
+  ],
+  "icon": null
+ },
+ "Zap!": {
+  "ids": [
+   680196
+  ],
+  "icon": null
+ },
+ "Ziggi-6K Aura": {
+  "ids": [
+   807793
+  ],
+  "icon": null
+ }
+}

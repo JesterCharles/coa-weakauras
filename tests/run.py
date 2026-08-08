@@ -343,9 +343,15 @@ def off_gcd_for(cls):
     """
     p = class_data(cls.cooldowns)
     if not os.path.exists(p):
-        return None
+        return None, None
     cd = json.load(open(p))
-    return {n for n, v in cd.items() if v.get("gcd") is False}
+    # BOTH sets, because suffix matching needs the longer name to win. Tinker
+    # has "Battery Recharge Station" (off-GCD, legacy) beside "Build: Battery
+    # Recharge Station" (on-GCD, the learnable button): the Build: display id
+    # ends with the shorter name too, and matching against OFF_GCD alone
+    # flags the on-GCD display as an off-GCD fault. Matching the LONGEST
+    # audit name first binds each display to the ability it actually tracks.
+    return {n for n, v in cd.items() if v.get("gcd") is False}, set(cd)
 
 
 def showgcd_of(d):
@@ -360,12 +366,19 @@ def showgcd_of(d):
 
 
 for cls, spec, name in PACKS:
-    OFF_GCD = off_gcd_for(cls)
+    OFF_GCD, AUDITED = off_gcd_for(cls)
     if OFF_GCD is None:
         check(f"{name}: {cls.cooldowns} exists", False,
               f"run: python3 tools/audit_cds.py {cls.slug}")
         continue
     pack = load(cls.pack_path(name))
+
+    def audited_ability(d):
+        """The audit row this display tracks: LONGEST suffix match over every
+        audited name, so "Build: X" cannot be mistaken for a bare "X"."""
+        hits = [a for a in AUDITED if d["id"].endswith(" " + a)]
+        return max(hits, key=len) if hits else None
+
     # `use_showgcd` makes WeakAuras substitute the tracked global for any spell
     # not already on cooldown -- blindly, with no per-spell knowledge
     # (GenericTrigger.lua:2795). On an ability that does not obey the global
@@ -376,8 +389,8 @@ for cls, spec, name in PACKS:
     for d in cd_triggered(pack):
         # display ids are "RM <Spec> <Row> <Ability>"; match on suffix so the
         # check does not have to know the row naming.
-        ability = next((a for a in OFF_GCD if d["id"].endswith(" " + a)), None)
-        if ability and showgcd_of(d) is not False:
+        ability = audited_ability(d)
+        if ability in OFF_GCD and showgcd_of(d) is not False:
             wrong.append(f"{d['id']} (off-GCD, but use_showgcd is on)")
     check(f"{name}: no off-GCD ability shows the global", not wrong,
           "\n".join(wrong[:8]))
@@ -386,7 +399,7 @@ for cls, spec, name in PACKS:
     # anti-clipping cue, which is the whole reason showgcd is on by default.
     missing = []
     for d in cd_triggered(pack):
-        if any(d["id"].endswith(" " + a) for a in OFF_GCD):
+        if audited_ability(d) in OFF_GCD:
             continue
         if showgcd_of(d) is False:
             missing.append(f"{d['id']} (on-GCD, but use_showgcd is off)")

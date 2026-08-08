@@ -1,0 +1,595 @@
+{
+ "Air Strike": {
+  "id": 801744,
+  "cd": "1 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Anti-Cloaking Device": {
+  "id": 675204,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Anti-Magic Grenades": {
+  "id": 804861,
+  "cd": "2 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Arcanoreflector": {
+  "id": 578339,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Arclight Smash": {
+  "id": 806169,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Auto Resuscitation Device": {
+  "id": 520445,
+  "cd": "3 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Basic Intuition": {
+  "id": 504060,
+  "cd": "5 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Battery Recharge Station": {
+  "id": 570110,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Battery Swap": {
+  "id": 805319,
+  "cd": "1 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Blackpowder Barrage": {
+  "id": 801822,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Blasting Powder": {
+  "id": 801825,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": false
+ },
+ "Bomb Toss": {
+  "id": 801005,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Boomshot": {
+  "id": 502507,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Bot: C.U.R.B Stomp": {
+  "id": 800581,
+  "cd": "50 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Bot: Flamespill": {
+  "id": 800572,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Bot: Hydraulic Strike": {
+  "id": 800570,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Build: Battery Recharge Station": {
+  "id": 805308,
+  "cd": "2 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Battle Turret X-13": {
+  "id": 504519,
+  "cd": "10 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Bounce Pad!": {
+  "id": 800672,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Build: Destructo-Bot": {
+  "id": 804673,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Noise Box": {
+  "id": 807723,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Oil-Spill Pylon": {
+  "id": 707257,
+  "cd": "2 min cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Repulsion Unit": {
+  "id": 706904,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Sentry Turret": {
+  "id": 500239,
+  "cd": "3 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Spider Bomb": {
+  "id": 500535,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "demolition",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Build: Spider Bomb Factory": {
+  "id": 802052,
+  "cd": "1 min cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Cloaking Device": {
+  "id": 803833,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Combat Symbiosis": {
+  "id": 805305,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Deathball": {
+  "id": 500236,
+  "cd": "2 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Deploy Blast Mine": {
+  "id": 801718,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Deploy Turret Wall": {
+  "id": 804166,
+  "cd": "5 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Discombobulate!": {
+  "id": 807197,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Distracto Shot": {
+  "id": 560470,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Freeze Ray": {
+  "id": 806157,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hasta la Vista": {
+  "id": 704109,
+  "cd": "1 min cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": false
+ },
+ "Hyperblast Barrage": {
+  "id": 500249,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "demolition",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Invisibility Cloak": {
+  "id": 801633,
+  "cd": "2 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Kinetic Shield": {
+  "id": 806224,
+  "cd": "5 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Macro-Gravity Zone": {
+  "id": 707104,
+  "cd": "2 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Mechsuit: Activate Jets": {
+  "id": 801389,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mechsuit: Artillery Rush": {
+  "id": 801391,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mechsuit: Combustion": {
+  "id": 801387,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mechsuit: Laser Beam": {
+  "id": 805372,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Med Pack": {
+  "id": 800347,
+  "cd": "1 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "My Greatest Invention!": {
+  "id": 560744,
+  "cd": "3 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Overcharge": {
+  "id": 524835,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Overclocked Machine": {
+  "id": 806757,
+  "cd": "2 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Parachute Pack": {
+  "id": 804690,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": false
+ },
+ "Recharge": {
+  "id": 570715,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Remote Detonation": {
+  "id": 801798,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Rockadier": {
+  "id": 801827,
+  "cd": "3 min cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Scrapper": {
+  "id": 525039,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Short Circuit": {
+  "id": 800568,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Shrapnel Mine": {
+  "id": 706647,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "demolition",
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Spanner Smash": {
+  "id": 805351,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "demolition",
+   "invention",
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Spider Tank: Flak Guns": {
+  "id": 802241,
+  "cd": "1 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Spider Tank: Scurry": {
+  "id": 801818,
+  "cd": "4 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Spidertank: Stomp": {
+  "id": 801817,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Supercharge": {
+  "id": 801708,
+  "cd": "2 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Telescopic Focusing Lens": {
+  "id": 801819,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "The Big One": {
+  "id": 805327,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": false
+ },
+ "Tinkering Tools": {
+  "id": 801517,
+  "cd": "24 hour cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Upgrade!": {
+  "id": 800349,
+  "cd": "2 min cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Vanguard X-173: Onslaught": {
+  "id": 801828,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Vanguard X-42: Fuselight Furnace": {
+  "id": 801382,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "Vanguard X-42: Imposing Presence": {
+  "id": 801815,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": false
+ },
+ "WIP Disassemble": {
+  "id": 704345,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "mechanics"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Warning Shot": {
+  "id": 534480,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "demolition"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Warphole Generator": {
+  "id": 801544,
+  "cd": "1 min cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Zap!": {
+  "id": 680196,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "invention"
+  ],
+  "gcd": "1.5 sec"
+ }
+}
