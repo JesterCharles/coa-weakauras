@@ -1,0 +1,918 @@
+{
+ "_class": "templar",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Absolute Power": {
+   "id": 705297,
+   "state": "record"
+  },
+  "Absolution": {
+   "id": 800424,
+   "state": "record"
+  },
+  "Aggramar's Will": {
+   "id": 572573,
+   "state": "record"
+  },
+  "Alertness": {
+   "id": 706321,
+   "state": "record"
+  },
+  "Aman'thul's Guidance": {
+   "id": 300527,
+   "state": "record"
+  },
+  "Argent Blade": {
+   "id": 804929,
+   "state": "record"
+  },
+  "Argent Knight": {
+   "id": 300512,
+   "state": "record"
+  },
+  "Armor of Faith": {
+   "id": 801546,
+   "state": "record"
+  },
+  "Barrier of Light": {
+   "id": 805417,
+   "state": "record"
+  },
+  "Battle Hardened": {
+   "id": 520033,
+   "state": "record"
+  },
+  "Battlepriest": {
+   "id": 680952,
+   "state": "record"
+  },
+  "Beatdown": {
+   "id": 804910,
+   "state": "record"
+  },
+  "Beckon": {
+   "id": 804914,
+   "state": "record"
+  },
+  "Bells of Light": {
+   "id": 801204,
+   "state": "record"
+  },
+  "Benediction": {
+   "id": 801448,
+   "state": "record"
+  },
+  "Binding Scripture": {
+   "id": 705309,
+   "state": "record"
+  },
+  "Blade of Faith": {
+   "id": 803872,
+   "state": "record"
+  },
+  "Blessed Padding": {
+   "id": 301311,
+   "state": "record"
+  },
+  "Blessed Strikes": {
+   "id": 574324,
+   "state": "record"
+  },
+  "Blessing of Aggramar": {
+   "id": 300502,
+   "state": "record"
+  },
+  "Blessing of Eonar": {
+   "id": 520537,
+   "state": "record"
+  },
+  "Burn Wounds": {
+   "id": 805414,
+   "state": "record"
+  },
+  "Burning Advance": {
+   "id": 300511,
+   "state": "record"
+  },
+  "Bursting Impact": {
+   "id": 705276,
+   "state": "record"
+  },
+  "Call of the Monastery": {
+   "id": 560550,
+   "state": "record"
+  },
+  "Calm Combatant": {
+   "id": 705281,
+   "state": "record"
+  },
+  "Cat-Like Reflexes": {
+   "id": 300518,
+   "state": "record"
+  },
+  "Cauterizing Flames": {
+   "id": 300516,
+   "state": "record"
+  },
+  "Chakra of Light": {
+   "id": 803159,
+   "state": "record"
+  },
+  "Chakra of Power": {
+   "id": 803158,
+   "state": "record"
+  },
+  "Chakra of Wrath": {
+   "id": 800760,
+   "state": "record"
+  },
+  "Chastise": {
+   "id": 803157,
+   "state": "record"
+  },
+  "Chivalric": {
+   "id": 705272,
+   "state": "record"
+  },
+  "Combat Training": {
+   "id": 706319,
+   "state": "record"
+  },
+  "Condemn": {
+   "id": 804906,
+   "state": "record"
+  },
+  "Condemnation": {
+   "id": 704175,
+   "state": "record"
+  },
+  "Consecrated Armor": {
+   "id": 705304,
+   "state": "record"
+  },
+  "Courage": {
+   "id": 707754,
+   "state": "record"
+  },
+  "Crusader's Brand": {
+   "id": 300513,
+   "state": "record"
+  },
+  "Crusader's Presence": {
+   "id": 562302,
+   "state": "record"
+  },
+  "Deep Meditation": {
+   "id": 300522,
+   "state": "record"
+  },
+  "Deep Secrets": {
+   "id": 705263,
+   "state": "record"
+  },
+  "Deliverance": {
+   "id": 704116,
+   "state": "record"
+  },
+  "Detect Evil": {
+   "id": 562226,
+   "state": "record"
+  },
+  "Determined": {
+   "id": 681136,
+   "state": "record"
+  },
+  "Devotion of Khaz'goroth": {
+   "id": 560096,
+   "state": "record"
+  },
+  "Devout": {
+   "id": 705282,
+   "state": "record"
+  },
+  "Diligence": {
+   "id": 300508,
+   "state": "record"
+  },
+  "Discipline": {
+   "id": 500010,
+   "state": "record"
+  },
+  "Discipline of Titans": {
+   "id": 561001,
+   "state": "record"
+  },
+  "Dissonance": {
+   "id": 705301,
+   "state": "record"
+  },
+  "Divine Charge": {
+   "id": 527023,
+   "state": "record"
+  },
+  "Divine Force": {
+   "id": 806153,
+   "state": "record"
+  },
+  "Divine Fury": {
+   "id": 500689,
+   "state": "record"
+  },
+  "Divine Stand": {
+   "id": 807729,
+   "state": "record"
+  },
+  "Divine Strikes": {
+   "id": 705255,
+   "state": "record"
+  },
+  "Downfall": {
+   "id": 801482,
+   "state": "record"
+  },
+  "Duty Calls": {
+   "id": 560834,
+   "state": "record"
+  },
+  "Eternal Blessing": {
+   "id": 680951,
+   "state": "record"
+  },
+  "Faith Guard": {
+   "id": 705259,
+   "state": "record"
+  },
+  "Fight Club": {
+   "id": 705269,
+   "state": "record"
+  },
+  "Final Prayer": {
+   "id": 705268,
+   "state": "record"
+  },
+  "Finesse": {
+   "id": 705271,
+   "state": "record"
+  },
+  "Flaming Blade": {
+   "id": 801451,
+   "state": "record"
+  },
+  "Flaming Edge": {
+   "id": 705257,
+   "state": "record"
+  },
+  "Focused": {
+   "id": 300524,
+   "state": "record"
+  },
+  "Force of Golganneth": {
+   "id": 500694,
+   "state": "record"
+  },
+  "Fortified Body": {
+   "id": 300515,
+   "state": "record"
+  },
+  "Fury of Aggramar": {
+   "id": 800421,
+   "state": "record"
+  },
+  "Gift of Fervor": {
+   "id": 572629,
+   "state": "record"
+  },
+  "Gift of Zeal": {
+   "id": 706634,
+   "state": "record"
+  },
+  "Glory": {
+   "id": 801481,
+   "state": "record"
+  },
+  "Grace of Aman'Thul": {
+   "id": 801477,
+   "state": "record"
+  },
+  "Graceful Fighter": {
+   "id": 705303,
+   "state": "record"
+  },
+  "Greater Crusader's Oath": {
+   "id": 572630,
+   "state": "record"
+  },
+  "Greater Zealous Oath": {
+   "id": 680306,
+   "state": "record"
+  },
+  "Guidance": {
+   "id": 706324,
+   "state": "record"
+  },
+  "Harmonic Disposition": {
+   "id": 560653,
+   "state": "record"
+  },
+  "Harmony": {
+   "id": 804680,
+   "state": "record"
+  },
+  "Heaven's Finest": {
+   "id": 805390,
+   "state": "record"
+  },
+  "Heavy Slam": {
+   "id": 300528,
+   "state": "record"
+  },
+  "Hidden Knowledge": {
+   "id": 705277,
+   "state": "record"
+  },
+  "High General": {
+   "id": 524617,
+   "state": "record"
+  },
+  "Holy Cleave": {
+   "id": 801445,
+   "state": "record"
+  },
+  "Holy Combatant": {
+   "id": 500011,
+   "state": "record"
+  },
+  "Holy Constitution": {
+   "id": 706323,
+   "state": "record"
+  },
+  "Holy Crusader": {
+   "id": 524747,
+   "state": "record"
+  },
+  "Holy Master": {
+   "id": 504810,
+   "state": "record"
+  },
+  "Holy Upheaval": {
+   "id": 572547,
+   "state": "record"
+  },
+  "Holy Warstaff": {
+   "id": 705307,
+   "state": "record"
+  },
+  "Honed Edge": {
+   "id": 706310,
+   "state": "record"
+  },
+  "Improved Benediction": {
+   "id": 705287,
+   "state": "record"
+  },
+  "Improved Engrave Fists": {
+   "id": 705260,
+   "state": "record"
+  },
+  "Improved Mend Ward": {
+   "id": 705310,
+   "state": "record"
+  },
+  "Improved Mortal Abdication": {
+   "id": 705288,
+   "state": "record"
+  },
+  "Improved Scarlet Hammer": {
+   "id": 301254,
+   "state": "record"
+  },
+  "Inner Strength": {
+   "id": 705294,
+   "state": "record"
+  },
+  "Interdict": {
+   "id": 560116,
+   "state": "record"
+  },
+  "Iron Penance": {
+   "id": 523712,
+   "state": "record"
+  },
+  "Judgement": {
+   "id": 300520,
+   "state": "record"
+  },
+  "Judgement of the Gods": {
+   "id": 524767,
+   "state": "record"
+  },
+  "Judicator": {
+   "id": 706359,
+   "state": "record"
+  },
+  "Keeping the Oath": {
+   "id": 92109,
+   "state": "record"
+  },
+  "Lasting Markings": {
+   "id": 705262,
+   "state": "record"
+  },
+  "Left Hook": {
+   "id": 805391,
+   "state": "record"
+  },
+  "Legacy of the Silver Hand": {
+   "id": 806522,
+   "state": "record"
+  },
+  "Liberty": {
+   "id": 705266,
+   "state": "record"
+  },
+  "Libram of Consecration": {
+   "id": 801441,
+   "state": "record"
+  },
+  "Libram of Fervor": {
+   "id": 805423,
+   "state": "record"
+  },
+  "Libram of Grace": {
+   "id": 801463,
+   "state": "record"
+  },
+  "Libram of Tenacity": {
+   "id": 801461,
+   "state": "record"
+  },
+  "Libram of Zeal": {
+   "id": 801466,
+   "state": "record"
+  },
+  "Light As Air": {
+   "id": 705258,
+   "state": "record"
+  },
+  "Light's Chosen": {
+   "id": 301310,
+   "state": "record"
+  },
+  "Light's Grace": {
+   "id": 804913,
+   "state": "record"
+  },
+  "Light's Hope": {
+   "id": 807814,
+   "state": "record"
+  },
+  "Light's Ward": {
+   "id": 300529,
+   "state": "record"
+  },
+  "Lorescribe": {
+   "id": 520050,
+   "state": "record"
+  },
+  "Magmasteel": {
+   "id": 804931,
+   "state": "record"
+  },
+  "Mark of Aggramar": {
+   "id": 804928,
+   "state": "record"
+  },
+  "Martial Paladin": {
+   "id": 705250,
+   "state": "record"
+  },
+  "Martial Training": {
+   "id": 806525,
+   "state": "record"
+  },
+  "Martyr": {
+   "id": 300530,
+   "state": "record"
+  },
+  "Mend Ward": {
+   "id": 804902,
+   "state": "record"
+  },
+  "Mending Ward": {
+   "id": 806273,
+   "state": "record"
+  },
+  "Might of Aggramar": {
+   "id": 803163,
+   "state": "record"
+  },
+  "Mirror Image": {
+   "id": 704407,
+   "state": "record"
+  },
+  "Mortal Abdication": {
+   "id": 13976911,
+   "state": "record"
+  },
+  "Motivated to Fight": {
+   "id": 300521,
+   "state": "record"
+  },
+  "Nimble Movements": {
+   "id": 801458,
+   "state": "record"
+  },
+  "Norgannon's Wrath": {
+   "id": 520557,
+   "state": "record"
+  },
+  "Oath Chain": {
+   "id": 704576,
+   "state": "record"
+  },
+  "Oath Flow": {
+   "id": 560070,
+   "state": "record"
+  },
+  "Oath: Argent Blade": {
+   "id": 807931,
+   "state": "record"
+  },
+  "Oath: Condemn": {
+   "id": 804922,
+   "state": "record"
+  },
+  "Oath: Holy Cleave": {
+   "id": 804903,
+   "state": "record"
+  },
+  "Oath: Retribution": {
+   "id": 804924,
+   "state": "record"
+  },
+  "Oath: Righteous Lunge": {
+   "id": 804904,
+   "state": "record"
+  },
+  "Oath: Vindication": {
+   "id": 704244,
+   "state": "record"
+  },
+  "Oathkeeper": {
+   "id": 803237,
+   "state": "record"
+  },
+  "One-Punch Man": {
+   "id": 705284,
+   "state": "record"
+  },
+  "Paragon": {
+   "id": 706357,
+   "state": "record"
+  },
+  "Parry Dance": {
+   "id": 560651,
+   "state": "record"
+  },
+  "Pious": {
+   "id": 706431,
+   "state": "record"
+  },
+  "Power In Holy Abdicationer": {
+   "id": 705267,
+   "state": "record"
+  },
+  "Powerful Strikes": {
+   "id": 705254,
+   "state": "record"
+  },
+  "Profound Enlightenment": {
+   "id": 680953,
+   "state": "record"
+  },
+  "Pulverizing": {
+   "id": 524619,
+   "state": "record"
+  },
+  "Pure Focus": {
+   "id": 705253,
+   "state": "record"
+  },
+  "Quickness": {
+   "id": 804909,
+   "state": "record"
+  },
+  "Quickpalm": {
+   "id": 804919,
+   "state": "record"
+  },
+  "Radiance": {
+   "id": 706317,
+   "state": "record"
+  },
+  "Rebuke": {
+   "id": 524999,
+   "state": "record"
+  },
+  "Reckoning": {
+   "id": 805421,
+   "state": "record"
+  },
+  "Reflect Magic": {
+   "id": 801440,
+   "state": "record"
+  },
+  "Reprimand": {
+   "id": 300503,
+   "state": "record"
+  },
+  "Right Hook": {
+   "id": 805392,
+   "state": "record"
+  },
+  "Righteous Custodian": {
+   "id": 572808,
+   "state": "record"
+  },
+  "Righteous Duel": {
+   "id": 805419,
+   "state": "record"
+  },
+  "Righteous Lunge": {
+   "id": 801443,
+   "state": "record"
+  },
+  "Righteous Tempest": {
+   "id": 805409,
+   "state": "record"
+  },
+  "Righteous Upheaval": {
+   "id": 501562,
+   "state": "record"
+  },
+  "Runes of Power": {
+   "id": 705264,
+   "state": "record"
+  },
+  "Sacred Candle": {
+   "id": 300501,
+   "state": "record"
+  },
+  "Sacred Defense": {
+   "id": 705306,
+   "state": "record"
+  },
+  "Sacred Restraint": {
+   "id": 102208,
+   "state": "record"
+  },
+  "Sacred Slam": {
+   "id": 803169,
+   "state": "record"
+  },
+  "Sacred Style": {
+   "id": 705278,
+   "state": "record"
+  },
+  "Sacred Swing": {
+   "id": 705293,
+   "state": "record"
+  },
+  "Sanctify": {
+   "id": 705274,
+   "state": "record"
+  },
+  "Scarlet Champion": {
+   "id": 805415,
+   "state": "record"
+  },
+  "Scarlet Hammer": {
+   "id": 500752,
+   "state": "record"
+  },
+  "Scarlet Judicator": {
+   "id": 525024,
+   "state": "record"
+  },
+  "Scarlet Training": {
+   "id": 301065,
+   "state": "record"
+  },
+  "Scourgebane": {
+   "id": 92111,
+   "state": "record"
+  },
+  "Serendipity": {
+   "id": 300929,
+   "state": "record"
+  },
+  "Shackle The Unrepentant": {
+   "id": 560963,
+   "state": "record"
+  },
+  "Silverhand Incantation": {
+   "id": 801465,
+   "state": "record"
+  },
+  "Solemn Soldier": {
+   "id": 572546,
+   "state": "record"
+  },
+  "Spiritual": {
+   "id": 560833,
+   "state": "record"
+  },
+  "Spiritual Abdication": {
+   "id": 704408,
+   "state": "record"
+  },
+  "Spiritual Abdicator": {
+   "id": 803219,
+   "state": "record"
+  },
+  "Spiritual Ascension": {
+   "id": 500688,
+   "state": "record"
+  },
+  "Staff Sweep": {
+   "id": 300776,
+   "state": "record"
+  },
+  "Staffguard": {
+   "id": 705295,
+   "state": "record"
+  },
+  "Sturdy": {
+   "id": 681009,
+   "state": "record"
+  },
+  "Templar Strike": {
+   "id": 805406,
+   "state": "record"
+  },
+  "Templar's Might": {
+   "id": 524590,
+   "state": "record"
+  },
+  "Temple Guardian": {
+   "id": 801165,
+   "state": "record"
+  },
+  "Temple Warden": {
+   "id": 705305,
+   "state": "record"
+  },
+  "Tenacious Defender": {
+   "id": 707385,
+   "state": "record"
+  },
+  "Testament of Faith": {
+   "id": 801478,
+   "state": "record"
+  },
+  "Testament of Fortitude": {
+   "id": 500678,
+   "state": "record"
+  },
+  "Testament of Hope": {
+   "id": 1397742,
+   "state": "record"
+  },
+  "Testament of Resolve": {
+   "id": 804228,
+   "state": "record"
+  },
+  "Testament of Strength": {
+   "id": 300514,
+   "state": "record"
+  },
+  "Testament of Will": {
+   "id": 801455,
+   "state": "record"
+  },
+  "Thrashing Blade": {
+   "id": 705292,
+   "state": "record"
+  },
+  "Titanstrike": {
+   "id": 806521,
+   "state": "record"
+  },
+  "Tithe": {
+   "id": 804781,
+   "state": "record"
+  },
+  "Tithe of Alacrity": {
+   "id": 804818,
+   "state": "record"
+  },
+  "Tithe of Courage": {
+   "id": 804820,
+   "state": "record"
+  },
+  "Tithe of Crusading": {
+   "id": 804782,
+   "state": "record"
+  },
+  "Tithe of Elements": {
+   "id": 804817,
+   "state": "record"
+  },
+  "Tithe of Heroism": {
+   "id": 804816,
+   "state": "record"
+  },
+  "Tithe of Ingenuity": {
+   "id": 804821,
+   "state": "record"
+  },
+  "Tithe of Liberty": {
+   "id": 804815,
+   "state": "record"
+  },
+  "Tithe of Might": {
+   "id": 804784,
+   "state": "record"
+  },
+  "Tithe of Mysticism": {
+   "id": 804819,
+   "state": "record"
+  },
+  "Tithe of Order": {
+   "id": 804783,
+   "state": "record"
+  },
+  "Tome of Light": {
+   "id": 805422,
+   "state": "record"
+  },
+  "Touched By Light": {
+   "id": 705261,
+   "state": "record"
+  },
+  "Tranquil Circle": {
+   "id": 524667,
+   "state": "record"
+  },
+  "Transcendent Guardian": {
+   "id": 804571,
+   "state": "record"
+  },
+  "Transcending Strikes": {
+   "id": 804897,
+   "state": "record"
+  },
+  "Tyr's Blessing": {
+   "id": 705285,
+   "state": "record"
+  },
+  "Tyr's Guard": {
+   "id": 560649,
+   "state": "record"
+  },
+  "Tyr's Hand": {
+   "id": 806518,
+   "state": "record"
+  },
+  "Unbroken Creed": {
+   "id": 804932,
+   "state": "record"
+  },
+  "Untainted": {
+   "id": 705298,
+   "state": "record"
+  },
+  "Vindication": {
+   "id": 801446,
+   "state": "record"
+  },
+  "Ward of Aman'thul": {
+   "id": 804908,
+   "state": "record"
+  },
+  "Warrior of Dawn": {
+   "id": 560648,
+   "state": "record"
+  },
+  "Way of the Monk": {
+   "id": 572052,
+   "state": "record"
+  },
+  "Weak Spot": {
+   "id": 804920,
+   "state": "record"
+  },
+  "Whirling Tempest": {
+   "id": 300504,
+   "state": "record"
+  },
+  "Wind Dancer": {
+   "id": 705289,
+   "state": "record"
+  },
+  "Zealotry": {
+   "id": 92108,
+   "state": "record"
+  }
+ }
+}

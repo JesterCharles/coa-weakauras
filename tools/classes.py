@@ -317,6 +317,13 @@ CORE_LEAVES = {
     # Shooting Star) that hold the class gate alone, the standing self-gating
     # buff-icon reason.
     "starcaller": 5,
+    # First pin (0.1). TP Core is an empty skeleton (both alerts are
+    # spec-shaped: NO GIFT on Zealot, NO STAND on Oathkeeper) -- the 7 are
+    # the Core group plus six merged all-spec Buffs leaves (Glory, Libram of
+    # Fervor, the three typed Oaths, Sacred Restraint) that hold the class
+    # gate alone, for the standing reason: buff icons are self-gating and a
+    # buff id is not something IsSpellKnown recognises.
+    "templar": 7,
 }
 
 

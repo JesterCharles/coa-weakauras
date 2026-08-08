@@ -75,6 +75,11 @@
    "date": "2026/07/31",
    "text": "Empyrean Fortitude now generates 5 RP, up from 2."
   },
+  "0c3be178d9d6b9f8": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Swapped Templar's Might talent with the Holy Tempest/Whirling Tempest switch node"
+  },
   "0d9c3a83a05cba23": {
    "class": "witch-doctor",
    "date": "2026/07/31",
@@ -85,10 +90,20 @@
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 7's damage has been increased from 100 to 182."
   },
+  "0fb01f0e13dc7a54": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 9 flat damage increased from 137 to 206"
+  },
   "10058da0eee9e490": {
    "class": "sun-cleric",
    "date": "2026/07/31",
    "text": "Fixed an issue where Adjudication would trigger a Rank 1 Dawnsear instead of the highest known rank."
+  },
+  "1089a3ad197c3e41": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Increased the duration of Condemn to 21 sec from 15"
   },
   "1263d55cef58adc2": {
    "class": "venomancer",
@@ -125,6 +140,11 @@
    "date": "2026/07/31",
    "text": "Terrasurge Rank 4 increased damage from 480 to 528."
   },
+  "16cfc823c3322773": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Argent Blade no longer extends the duration of your Oath Chain, and now instead triggers Scourgebane."
+  },
   "175ef65812060aef": {
    "class": "tinker",
    "date": "2026/07/31",
@@ -150,6 +170,11 @@
    "date": "2026/07/31",
    "text": "Onslaught now has a 2min cd down from 3min"
   },
+  "198bdf17e1079e19": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 4 flat damage increased from 67-80 to 90-107"
+  },
   "1a77024b1460de7c": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -169,6 +194,11 @@
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Cycling Aeons replaced with Rapid Acceleration and now reads: \u201cYour Accelerated Recovery now heals 15% of its total periodic amount instantly and increases the healing power contribution to Accelerated Recovery by 15%.\u201d"
+  },
+  "1e0d28a20d15cf5f": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 5 weapon damage increased from 145% to 172%"
   },
   "1e1ac9be6502e528": {
    "class": "ranger",
@@ -225,10 +255,20 @@
    "date": "2026/07/31",
    "text": "Slaughter Rank 7 increased base damage from 202 to 242 and weapon damage from 130% to 150%."
   },
+  "26042f91d9ec208b": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 1 weapon damage increased from 125% to 140%"
+  },
   "279e1a7fecf44fa6": {
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Born in Blood now grants 10% movement speed per stack, up from 5%, but the max stack count has been decreased to 10, down from 20. Armor Penetration values per stack remain the same."
+  },
+  "2a8569ab83f5b457": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Scourgebane now always critically strikes Undead enemies."
   },
   "2a994acb6a1f15f0": {
    "class": "felsworn",
@@ -280,6 +320,11 @@
    "date": "2026/07/31",
    "text": "A new capstone has been added to Valkyrie: Sunstorm."
   },
+  "3067019ff69b3daf": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Reduced the maximum stacks of Oath buffs to 10 (was 20). Once you reach 10 you can no longer stack Oaths."
+  },
   "3150a9fbfa7834ec": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -289,6 +334,16 @@
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Slaughter Rank 1 increased base damage from 14 to 17 and weapon damage from 130% to 150%."
+  },
+  "32aef114cc22d6d1": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Condemnation now allows Condemn to critically strike"
+  },
+  "33c4bd39fc5cea77": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 1 flat damage increased from 9 to 13"
   },
   "33d3326f3dc49d1b": {
    "class": "felsworn",
@@ -405,6 +460,11 @@
    "date": "2026/07/31",
    "text": "Spore base mana cost reduced from 15% to 13%."
   },
+  "41b796e456ee7aa9": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 5 flat damage increased from 139 to 202"
+  },
   "4234cc3f223cd9ba": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -414,6 +474,11 @@
    "class": "pyromancer",
    "date": "2026/07/31",
    "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
+  },
+  "433a71727d008aea": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 5 flat damage increased from 79-97 to 106-130"
   },
   "44249258cf4dbe7d": {
    "class": "venomancer",
@@ -455,6 +520,11 @@
    "date": "2026/07/31",
    "text": "All Gavel Spells now deal 100% weapon damage up from 80%."
   },
+  "4a8685b18bfb4907": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Warrior of Tyr now generates 10 Energy up from 5"
+  },
   "4b15b5c41d753787": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -464,6 +534,11 @@
    "class": "necromancer",
    "date": "2026/07/31",
    "text": "Fiend talent value increased to 30% from 20%"
+  },
+  "4c6f92ddc5ce32b2": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Might of Aggramar now also works with Condemn"
   },
   "4c8bc1a59f35d881": {
    "class": "reaper",
@@ -480,10 +555,20 @@
    "date": "2026/07/31",
    "text": "Mycosis base mana cost reduced from 16% to 14%."
   },
+  "4e3e48b8475302f8": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 4 weapon damage increased from 140% to 164%"
+  },
   "4f0d1f1544de28f4": {
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Cripple now reduces the target\u2019s moving and casting speed by 40% down from 50%. It now ticks down 8% from 10% per stack. Duration remains unchanged."
+  },
+  "50154f4cc93e9652": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 5 flat damage increased from 70 to 105"
   },
   "504893d62c5ac78f": {
    "class": "chronomancer",
@@ -499,6 +584,16 @@
    "class": "necromancer",
    "date": "2026/07/31",
    "text": "Fixed a bug where Unholy Runes was not increasing the damage of Crypt Swarm. Additionally, it now increases the damage of Blight and Blight has a 5% chance when it deals damage to reset the cooldown of Corpse Explosion."
+  },
+  "51091ad290ef8d0b": {
+   "class": "templar",
+   "date": "2026/07/31",
+   "text": "Scarlet Training now transforms your Argent Blade into Scarlet Hammer, instead of Chastise."
+  },
+  "5220d43933922094": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Increased the base damage of Divine Fury by 275 and it now strikes all enemies around you"
   },
   "533818e140a892e4": {
    "class": "witch-doctor",
@@ -560,6 +655,11 @@
    "date": "2026/07/31",
    "text": "Serpent's Fang Rank 6's damage has been increased from 431 to 560, and healing from 143 to 200."
   },
+  "5a728d72cd5ee149": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 5 flat damage increased from 279-396 to 377-535"
+  },
   "5badf4966e8c79d1": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -584,6 +684,11 @@
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Reap Rank 5 increased base damage from 30 to 38 and 80% weapon damage to 90% weapon damage."
+  },
+  "5e683711d9a67dd9": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "One With The Light now also works with Divine Force"
   },
   "5e9b9e8693daef06": {
    "class": "pyromancer",
@@ -630,6 +735,16 @@
    "date": "2026/07/31",
    "text": "Crow's Harvest Rank 7 increased weapon damage from 65% to 75% and normalized damage from 99 to 124."
   },
+  "6373ca668715c61a": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Base duration of Oath Chain increased to 15 sec from 10 sec"
+  },
+  "63b22dad817c14c7": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 2 weapon damage increased from 130% to 148%"
+  },
   "64d1fc58558be207": {
    "class": "stormbringer",
    "date": "2026/07/31",
@@ -639,6 +754,16 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "The goal of moving the talents in Archery Ranger is to better pace the talents that feel more impactful and meaningful while leveling and move some of the more effects that are better with higher uptime down the tree as fight length expands. Most notably, Rangers were falling behind the curve at low levels, but when given access to their second tier of talents, they drastically increased in power. This will smooth that out leaving strong options in tier 1 and tier 2 of their talent trees."
+  },
+  "662488c4d193942c": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 2 flat damage increased from 26 to 39"
+  },
+  "668f0e6814896bba": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Divine Fury now strikes all enemies around you instead of only up to 5 enemies in a chain."
   },
   "66976dc5d6fd9972": {
    "class": "necromancer",
@@ -755,6 +880,11 @@
    "date": "2026/07/31",
    "text": "Tonic effectiveness has been increased across the board by 50%-100%, but the durations have been reduced to 10 seconds from 15 seconds."
   },
+  "79b47dd8f6e93762": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 3 flat damage increased from 61 to 88"
+  },
   "79c6503ba00b0a8b": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -774,6 +904,21 @@
    "class": "primalist",
    "date": "2026/07/31",
    "text": "Stoneshard Rank 6 increased damage from 478 to 526."
+  },
+  "7e4d94ecc13d9f78": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Increased the SP scaling of Divine Fury to 85% from 45%"
+  },
+  "7e5276f0a2228fca": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Increased the per stack increase from Zealotry to Upheaval to 10% from 5%"
+  },
+  "7e8366c9bdfdd657": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Increased the duration of Blade of Faith to 30 sec from 21"
   },
   "7ee023e44c6e69d1": {
    "class": "venomancer",
@@ -935,6 +1080,16 @@
    "date": "2026/07/31",
    "text": "Stake Rank 7's damage has been increased from 486 to 675."
   },
+  "91d8719230ff1c50": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 8 flat damage increased from 112 to 168"
+  },
+  "927458616c7a520c": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 1 flat damage increased from 27-32 to 36-43"
+  },
   "93e5c29521b2f40d": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -955,10 +1110,20 @@
    "date": "2026/07/31",
    "text": "Greater Inquisitor's Edict now persists through death."
   },
+  "97382df07f01bbc9": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 1 flat damage increased from 17 to 26"
+  },
   "99be7e4c5cf64cd3": {
    "class": "sun-cleric",
    "date": "2026/07/31",
    "text": "Vows now have a reduced global cooldown."
+  },
+  "99d8be63c3ad1534": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 3 flat damage increased from 40 to 60"
   },
   "9a07467e6e5f42ff": {
    "class": "ranger",
@@ -970,6 +1135,11 @@
    "date": "2026/07/31",
    "text": "Whirling Assault\u2019s damage increase against enemies above 80% HP increased from 300% to 500%."
   },
+  "9bf1cec392e90b99": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 7 flat damage increased from 488-653 to 659-882"
+  },
   "9cc69bb12eca9247": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -979,6 +1149,11 @@
    "class": "witch-doctor",
    "date": "2026/07/31",
    "text": "Fixed an issue which caused Spirit Volley cast time to benefit from haste separately on top of ranged weapon haste."
+  },
+  "9d379c7d44a71944": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Fixed a bug where Martial Training was not mentioning that it increased the Weapon Damage of Scarlet Hammer by 100%."
   },
   "9e16bd9982ff844b": {
    "class": "witch-hunter",
@@ -1020,10 +1195,20 @@
    "date": "2026/07/31",
    "text": "Heartless value increased by 10/20% (to 25/50%)."
   },
+  "a07d2acda5ec662a": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 3 weapon damage increased from 135% to 156%"
+  },
   "a0ccd6ec7e3c7303": {
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Opportunist has been moved into Tier 1, swapping with Superb Shot"
+  },
+  "a175baf23066a857": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 7 flat damage increased from 124-160 to 166-214"
   },
   "a2dfed3a4d3d157f": {
    "class": "chronomancer",
@@ -1034,6 +1219,21 @@
    "class": "necromancer",
    "date": "2026/07/31",
    "text": "Corpse Explosion now explodes ALL corpses near the target corpse, causing each explosion to deal its own damage, but the cooldown has increased to 30 seconds from 10 seconds."
+  },
+  "a3ddf6f9c5731d30": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "One Punch Man talent now also increases the damage of Condemn"
+  },
+  "a52c1002ff2f15fd": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Scourgebane now deals an additional 50% Weapon Damage"
+  },
+  "a57b116a19ce967f": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 4 flat damage increased from 221-311 to 298-420"
   },
   "a6e44c62c0a2fa0c": {
    "class": "ranger",
@@ -1054,6 +1254,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Heartseeking Bolt cooldown reduced to 10 seconds from 15 seconds."
+  },
+  "a910314641db34d0": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Increased Scourgebane's base damage by 100%."
   },
   "a94833db3ed1a066": {
    "class": "witch-hunter",
@@ -1085,10 +1290,20 @@
    "date": "2026/07/31",
    "text": "Bwonsamdi\u2019s Gift no longer provides a cooldown reduction to Mimic Ward."
   },
+  "ac361270bfa83733": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning attack power scaling increased from 17.5% to 23.45%"
+  },
   "acdc3e88277435be": {
    "class": "primalist",
    "date": "2026/07/31",
    "text": "Seismic Tremor Rank 3 increased periodic damage from 106 to 143."
+  },
+  "adbfa3cb927e76d8": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 6 weapon damage increased from 150% to 180%"
   },
   "b207d584aef947c4": {
    "class": "starcaller",
@@ -1104,6 +1319,11 @@
    "class": "stormbringer",
    "date": "2026/07/31",
    "text": "Volt no longer scales with haste."
+  },
+  "b4308c736bdcb52c": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Warrior of Tyr now has a 100% chance to proc up from 20%"
   },
   "b463329fdd4fc248": {
    "class": "felsworn",
@@ -1144,6 +1364,16 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Nether Disciple no longer provides dodge chance."
+  },
+  "b8072532ef3f718f": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 4 flat damage increased from 55 to 83"
+  },
+  "b93867b030f2a65d": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Fury of Aggramar now also reduces the cooldown of your Librams"
   },
   "b9e02c96e60953ea": {
    "class": "stormbringer",
@@ -1190,6 +1420,11 @@
    "date": "2026/07/31",
    "text": "Reap Rank 8 increased base damage from 123 to 166 and 80% weapon damage to 90% weapon damage."
   },
+  "c02a10c581d234d6": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Oath Chain now increases the duration of your Oath Chain by 20% instead of a flat 5 sec."
+  },
   "c076d15184b196f7": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -1220,6 +1455,11 @@
    "date": "2026/07/31",
    "text": "Rearmament now causes your Traps to incur no cooldown for 8 sec."
   },
+  "c1f03f9aa939a701": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Legacy of the Silverhand now increases Scourgebane critical strike damage by 25% (was 15%)."
+  },
   "c2ef7c714ef42dd7": {
    "class": "sun-cleric",
    "date": "2026/07/31",
@@ -1245,6 +1485,11 @@
    "date": "2026/07/31",
    "text": "Reduced scaling of Correct the Mistake by 20%."
   },
+  "c54dab6fe0d05f0d": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith attack power scaling increased from 10% to 15%"
+  },
   "c58522dd5944f0b0": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -1259,6 +1504,11 @@
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Ramhorn Rage now doubles your passive health regeneration."
+  },
+  "c7ff8d939e6561ee": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 1 flat damage increased from 53-76 to 72-103"
   },
   "c82ece85bcde5909": {
    "class": "witch-hunter",
@@ -1280,6 +1530,11 @@
    "date": "2026/07/31",
    "text": "Ancient Rites now grants you 150/300/450% of your intellect as mana, in addition to its previous effects."
   },
+  "c97ba2beb2210511": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 3 flat damage increased from 56-66 to 75-88"
+  },
   "c97fadb6c24a404e": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -1295,6 +1550,11 @@
    "date": "2026/07/31",
    "text": "Ravage Rank 7's damage has been increased from 176 to 220."
   },
+  "caae6fc1cea84369": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Calm Combatant increased to 50% of your attack power up from 30% and now also increases your Armor penetration by 50% of your Intellect"
+  },
   "caf251a979b6bbdf": {
    "class": "felsworn",
    "date": "2026/07/31",
@@ -1305,10 +1565,20 @@
    "date": "2026/07/31",
    "text": "Adjusted the positioning of Timeline Tether and Rapid Acceleration"
   },
+  "cb2f47f574e3aac6": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Greater Crusader's Oath is now renamed to Greater Gift of Fervor"
+  },
   "cc634bab7843c240": {
    "class": "starcaller",
    "date": "2026/07/31",
    "text": "Sentinel level 20 passive now gives 10% INT -> Ranged Crit Rating conversion."
+  },
+  "cd383548b04ded6a": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith spell power scaling increased from 20% to 30%"
   },
   "cd4d2a3aec7121dc": {
    "class": "starcaller",
@@ -1335,6 +1605,11 @@
    "date": "2026/07/31",
    "text": "Deal with the Devil now only increases the cost of your abilities by 10% down from 25%"
   },
+  "d1ad7bed09663f26": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 6 flat damage increased from 378-520 to 510-702"
+  },
   "d260ef0edbcd7849": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -1355,6 +1630,11 @@
    "date": "2026/07/31",
    "text": "Knuckleduster now increases the range of Bushwhack"
   },
+  "d7b956e281b9ce86": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Blade Sermon now also gives a 10/20% chance for Zealotry to trigger twice."
+  },
   "d82c8e274e64e497": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -1369,6 +1649,11 @@
    "class": "starcaller",
    "date": "2026/07/31",
    "text": "Celestial Cleave can now be cast without a target, has 1 yd increased range and a wider cone of hit. Additionally, fixed issues with its targeting cone so that it could now correctly hit."
+  },
+  "d9c7f45ceb18a750": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval spell power scaling increased from 28.125% to 52%"
   },
   "da7c5135ea21adc0": {
    "class": "witch-doctor",
@@ -1385,10 +1670,20 @@
    "date": "2026/07/31",
    "text": "Goblin Depravity now creates a Crash Site instead of Tear Gas, now deals Fire Damage instead of Nature Damage."
   },
+  "dc172a7ebb0a8d94": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 2 flat damage increased from 103-151 to 139-204"
+  },
   "dc25cf2bb14cfca5": {
    "class": "necromancer",
    "date": "2026/07/31",
    "text": "Scourge Disciple has been fixed, your Skeletal Archers now properly provide you haste while active."
+  },
+  "dcf7cfc34a29c839": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval Rank 3 flat damage increased from 141-209 to 190-282"
   },
   "dd010ef52067e15b": {
    "class": "venomancer",
@@ -1404,6 +1699,16 @@
    "class": "knight-of-xoroth",
    "date": "2026/07/31",
    "text": "Infernal Bulwark now increases your armor contribution by 10% and causes blocked attacks to deal 15% reduced damage to you."
+  },
+  "e1999549c018ab7f": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Divine Stand base threat gained increased to 150% from 110%."
+  },
+  "e22ab0570ea9a1e7": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 2 flat damage increased from 39-47 to 52-63"
   },
   "e39b233ce265d314": {
    "class": "primalist",
@@ -1450,6 +1755,16 @@
    "date": "2026/07/31",
    "text": "Soulstrider increased to 25% from 20%"
   },
+  "e8b021c5e9ce4db8": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 4 flat damage increased from 96 to 139"
+  },
+  "e9dd74c569a836b4": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 6 flat damage increased from 192 to 278"
+  },
   "ea48175ed70f9991": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -1464,6 +1779,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Ravage's attack power scaling has been increased from 6% to 8%."
+  },
+  "ebefaf628f60b815": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Divine Fury now transforms Vindication instead of Titanstrike"
   },
   "ec3c39db3fa19b57": {
    "class": "ranger",
@@ -1484,6 +1804,11 @@
    "class": "venomancer",
    "date": "2026/07/31",
    "text": "Suffocating Coils proc chance increased from 5% to 8%."
+  },
+  "ef1d5b4900209cf8": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Sacred Swing Rank 2 flat damage increased from 33 to 48"
   },
   "f0f53bf07bac447e": {
    "class": "venomancer",
@@ -1520,6 +1845,16 @@
    "date": "2026/07/31",
    "text": "Giant Tosser now additionally increases the damage of Headhunter\u2019s Spears from further than 20 yards by 100%, but the additional energy is reduced from 50% down to 15%."
   },
+  "f494036d7641eb9f": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Righteous Upheaval attack power scaling increased from 34.375% to 36.8125%"
+  },
+  "f4ee9ab725c6a5a0": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 6 flat damage increased from 84 to 126"
+  },
   "f78f6fa638401b0e": {
    "class": "witch-doctor",
    "date": "2026/07/31",
@@ -1549,6 +1884,21 @@
    "class": "primalist",
    "date": "2026/07/31",
    "text": "Stoneshard Rank 1 increased damage from 40 to 44."
+  },
+  "fa5127a515d95cc3": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Reckoning Rank 6 flat damage increased from 96-119 to 129-159"
+  },
+  "faf6078945ed9c14": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "- Blade of Faith Rank 7 flat damage increased from 100 to 150"
+  },
+  "faf8a4234f8e50f7": {
+   "class": "templar",
+   "date": "2026/08/06",
+   "text": "Blessing of Aggramar has been reworked to now refresh the duration of an active Blade of Faith on all nearby enemies when you use an Oath Breaker with at least 10 stacks of Oath Chain"
   },
   "fb1914cf32654cba": {
    "class": "primalist",

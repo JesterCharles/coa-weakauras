@@ -1,0 +1,108 @@
+{
+ "class": "templar",
+ "gates": {
+  "build": "2026-08-08",
+  "research": "2026-08-08",
+  "verify": "2026-08-08"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 56,
+   "citations": 6,
+   "crossdb_checked": 227,
+   "crossdb_pct": 99.6,
+   "inventory_rows": 233,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 228,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 56,
+   "citations": 6,
+   "crossdb_checked": 227,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 232,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 227,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 56,
+   "citations": 6,
+   "crossdb_checked": 228,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 233,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 228,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-08",
+   "note": "Two spec-shaped missing-buff alerts, both aura-missing AND spell-known (NEEDS_ALL, ranger No Quiver shape): Zealot NO GIFT (none of the 4 Gift-family auras on you, gated Spell Known Gift of Zeal 706634 any-rank - the paladin-blessing upkeep shape, Gifts persist through death since 07/31) and Oathkeeper NO STAND (Divine Stand 807729 absent while known - the Righteous Fury threat-stance shape; aura surface UNVERIFIED, flagged first item for the in-game pass in section 6). Deliberately NOT built: NO LIBRAM (Librams are 20s steroids on ~2.5min cds, not upkeep - the alert would sit on screen most of a fight, the Runemaster reminder failure)."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "70 new entries 2026/07/31..2026/08/06 triaged: Divine Fury now transforms Vindication (was Titanstrike); Scarlet Training transforms Argent Blade->Scarlet Hammer (was Chastise); Blessing of Aggramar reworked; Argent Blade now triggers Scourgebane not extend Oath Chain; Oath stacks capped 10 (was 20); Warrior of Tyr 100% proc +10 Energy; Greater Crusader's Oath renamed Greater Gift of Fervor; Divine Stand threat buff (tank signal); rest number tweaks. NOT accepted yet - triage into requirements first."
+  },
+  "citations": {
+   "at": "2026-08-08",
+   "note": "citations-templar.json: 6 citations, 2 sources (ascensionsidekick.com scheduled blob import 08/02 snapshot + manual page transcriptions from the 2026-08-08 scrapes with press orders per spec). Changelog facts folded into page-citation caveats (validator has no transform bucket). aliases-templar.json records 4 blob contaminations as known-unbuildable (Tyr's Hammer, Templar (Oathkeeper), Oathbreaker, Libram of Benediction). --validate exits 0. Blob citations are knowingly STALE vs the 08/06 changelog; the manual page citations carry the corrections in caveats."
+  },
+  "crossdb": {
+   "at": "2026-08-08",
+   "checked": 228,
+   "note": "Re-swept after Blessed Padding row landed: 228/228 record on db.ascension.gg (zero no-record). Earlier notes stand: Absolution 800424, Scarlet Hammer 807035, Libram of Zeal 801466 castables resolved by tooltip; Greater Gift of Zeal 680306. audit_cds: 38 cooldown rows, 28 off-GCD, 0 unresolved."
+  },
+  "guide": {
+   "at": "2026-08-08",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so the guide step is rowwidths.py + hud.py per the production notes. rowwidths: Zealot main 274px bar, Offense 6=166px 0.61x, Utility 13=194px 0.71x/2 rows; Oathkeeper Utility 23=222px 0.81x/3 rows; Crusader main 320px, Utility 18=250px 0.78x/2 rows - nothing past 1.2x. hud.py structural read: alerts -18, target -51, buffs -84, main -132, energy -164, Oath Chain -180, offense -202, ladder chains verified by check 21 (utility hangs off offense, longterm 16px under each spec's own last row). 155/161 persistent displays resolve cached art; the 6 placeholders are the no-upstream-art set that resolves from the trigger at runtime."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-08",
+   "note": "232 rows, 0 seed:/prop: markers. Automated bulk pass per production-run.md: 205 explicit decisions + 14 rule-defaulted passives, one line of reasoning per row in Notes; BULK-CLEARED without row-by-row human reads (recorded here so provenance is never disguised as a human read). Hedged rows copied to requirements section 6: Norgannon's Wrath (rank Root), Spiritual Abdication (empty tooltip), Oath: Vindication (unused id, name match), Warrior of Dawn (passive id, name match), Unbroken Creed (spec filing), ~30 Monk-chassis ignores. 13 aura-only state rows added for check 13."
+  },
+  "main-rows": {
+   "at": "2026-08-08",
+   "note": "Three main rows ordered from the manual page citations (citations-templar.json sidekick-page-* entries): Zealot 6 (Condemn, Righteous Lunge, Vindication, Righteous Upheaval, Blade of Faith, Holy Cleave), Oathkeeper 6 (Sacred Swing, Righteous Lunge, Reckoning, Benediction, Holy Cleave, Chastise), Crusader 7 (Righteous Lunge, Holy Cleave, Condemn, Argent Blade, Chastise, Titanstrike, Blade of Faith). Row rationale one line per spec in requirements section 4. CD_PER_ROW=11 from narrowest row (274px); rowwidths.py all rows <=1.0x."
+  },
+  "mechanics-source": {
+   "at": "2026-08-08",
+   "note": "Sidekick spec pages scraped 2026-08-08 to resources/sidekick-templar-{zealot,oathkeeper,crusader}.md (36.8k/40.4k/39.4k chars). Zealot=DW melee DPS (Energy+Oaths, Zealotry proc engine); Oathkeeper=TANK (Keeping the Oath stagger, Absolution/Beckon taunts, Oath Breakers don't consume Oaths); Crusader=2H melee DPS (typed Oaths on shared Oath Chain timer). Sidekick snapshot STALE vs 07/31+08/06 changelog on: Scarlet Hammer transform target (now Argent Blade, not Chastise), Divine Fury transform (now Vindication), Argent Blade no longer extends Oath Chain (now triggers Scourgebane), Oath cap 10."
+  },
+  "pets": {
+   "at": "2026-08-08",
+   "note": "Section 3 answered: NONE. No permanent/cooldown pet; Testament of Hope (2 mirror copies, 20s, defensive row) and Mirror Image (crusader decoy, defensive row) are fire-and-forget cooldowns, not controllable pets - no pet abilities, no pet auras worth unit=pet triggers, no pet resource, no presence alert."
+  },
+  "procs": {
+   "at": "2026-08-08",
+   "note": "PROC_GLOW: Chastise glows on High General 524617 (5-stack Scarlet Champion payoff, guaranteed-crit +25% Chastise - the one unambiguous press-now proc) and Argent Blade glows on Warrior of Dawn (half-cost window that also arms the Scarlet Hammer transform; aura matched by name, granting passive is 560648 - section 6). Typed Oath stacks, Heaven's Finest, Unbroken Creed, Scarlet Champion, Divine Strikes, Oathkeeper stagger, Staffguard, Mending Ward all render in buff rows with live stack counts."
+  },
+  "requirements": {
+   "at": "2026-08-08",
+   "note": "notes/requirements-templar.md: all 7 sections answered. Roles zealot=damage oathkeeper=TANK crusader=damage (Sidekick kit statements, spec-roles.md provenance paragraph; no healing spec, felsworn-tyrant tank precedent, nothing structural). Pets: none. Main rows cited per spec (z6/o6/c7 icons). Resource: Energy (power 3) + Oath Chain aura bar (704576 stacks to 10, answered from db.ascension tooltip). Two transforms in section 2: Vindication-DivineFury 500689, ArgentBlade-ScarletHammer 807035. Open UNKNOWNs in section 6 incl. Zealotry trigger counter (server-side), Oath: Vindication aura id, chassis-kit feedback question."
+  },
+  "talents": {
+   "at": "2026-08-08",
+   "note": "Both section-2 transforms built as transform_face (one display, Spell Known on the REPLACEMENT's numeric id, disjunctive any, iconSource=0): Vindication carries Divine Fury 500689 (08/06 changelog; db.ascension tooltip post-patch says 'Scales with modifiers to Vindication'), Argent Blade carries Scarlet Hammer 807035 (07/31 changelog; 500752 is the debuff, castable resolved by search+tooltip). Untalented/low-level characters keep the base face - correct with AND without. talents.py extracted (29 talent-granted abilities, 28 tracked + Blessed Padding added as ignore row). Keeping the Oath (no Oath consume) needs no button change; Justicar of the Light (no Benediction cd) reads correctly off the live cooldown."
+  },
+  "tests": {
+   "at": "2026-08-08",
+   "note": "tests/run.py: all checks passed (per-spec packs built via WA_SPEC in check 1; fixtures frozen with tests/freeze.py templar - 4 fixtures; docs/packs/templar/ carries the real pack incl. templar-coa.txt so checks 13/21/22 measure it). core_leaves=7 pinned in classes.CORE_LEAVES with style-matching comment. rowwidths.py exits 0, every always-visible row <=1.0x vs its resource bar."
+  },
+  "unknowns": {
+   "at": "2026-08-08",
+   "note": "Section 6 triaged: ANSWERED during research - Oath Chain stacks (704576 tooltip, 10 cap), typed Oath ids, Sacred Restraint 102208, stagger aura Oathkeeper 803237. DEFERRED to the in-game pass, each with what settles it: (1) NO STAND alert's aura surface - FIRST check on import, pulled if Divine Stand applies no aura; (2) Zealotry trigger counter for Righteous Upheaval - server-side, needs an aura scan during a Chain; (3) Oath: Vindication aura id (704244 marked unused, display matches by name); (4) Warrior of Dawn proc aura id (name match); (5) Spiritual Abdication (empty tooltip, ignored); (6) Unbroken Creed zealot/crusader filing; (7) zealot SPEC_KNOWN gate is L31 Force of Golganneth - zealots below 31 see Core only (no earlier unranked spec-unique castable exists); (8) Monk-chassis kit ignored wholesale - feedback question; (9) Energy as UnitPower type 3 unverified in game (barbarian precedent)."
+  }
+ }
+}

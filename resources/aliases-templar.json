@@ -1,0 +1,18 @@
+{
+ "Tyr's Hammer": {
+  "canonical": null,
+  "why": "Blob-generated crusader 'maintain' claim. Neither db.exil.es nor db.ascension.gg has a templar spell of this name; the digest's nearest names are 'Tyr's Hand' (a Monk-chassis passive modifying 'Tyr's Strike') and the unrelated Sun Cleric kit. One blob mention, prose band -- not buildable."
+ },
+ "Templar (Oathkeeper)": {
+  "canonical": null,
+  "why": "The blob's label for the spec's own database aura, same shape as 'CoA Aura - Templar - Oathkeeper' (a spec marker, not a player buff -- the Runemaster retro bug #7 class of entry). Not a rotation claim."
+ },
+ "Oathbreaker": {
+  "canonical": null,
+  "why": "The blob's one-word spelling of the 'Oath Breaker' MECHANIC (the spender category: Chastise, Reckoning, Benediction...). A category, not a spell; the real spenders each have their own inventory rows."
+ },
+ "Libram of Benediction": {
+  "canonical": null,
+  "why": "Blob-generated zealot 'cooldowns' claim. No spell of this name on either database; the five real Librams (Fervor, Zeal, Consecration, Grace, Tenacity) all have rows. Generated prose fused 'Libram' with 'Benediction' (an oathkeeper Oath Breaker)."
+ }
+}
