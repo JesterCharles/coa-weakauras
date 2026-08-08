@@ -1,0 +1,108 @@
+{
+ "class": "primalist",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 16,
+   "citations": 4,
+   "crossdb_checked": 261,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 275,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 261,
+   "mechanics_sources": 4,
+   "open_unknowns": 11,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 16,
+   "citations": 4,
+   "crossdb_checked": 261,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 275,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 261,
+   "mechanics_sources": 4,
+   "open_unknowns": 11,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 16,
+   "citations": 4,
+   "crossdb_checked": 261,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 275,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 261,
+   "mechanics_sources": 4,
+   "open_unknowns": 11,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "class-wide NO BOON (show-on-missing over the 5 Boon ids+names, the NO SKIN shape -- every spec's cited rotation opens with a Boon) + wildwalker NO PET (pet-unit scaling aura family AND spell-known 92148). Both active-only, both red-bordered SZ_ALERT at Y_ALERT"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: 30 primalist entries, all 2026/07/31; triaged in notes/requirements-primalist.md \u00a7-1 \u2014 number tweaks ignored; Beastmaster's Recall (new spell, 573364) + Spirit Beast Communion regrouping -> \u00a73 pet utility; Heavy Earth stacking confirmed -> on-me row; Golem Form dispel/Dreamway portal/threat tweaks no WA change. accept deferred until inventory reflects them"
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "citations.py --import-sidekick: 4 citations (one per spec), 16 claims, retrieved_at 2026-08-02 (blob mtime; post-dates newest changelog entry 07/31). --validate clean after aliases-primalist.json recorded null verdicts for three prose-only names (Heart of Azeroth 1-hit, Stonefall no castable id, Dreamshield component). ONE source -- corroboration not measurable, caveat carried on every record"
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 261,
+   "note": "crossdb_sweep primalist: 261/261 inventory ids asked of db.ascension.gg (?spell=<id>&power); 259 record, 2 no-record (Bear's Maw 502734, Hammer of Life 572288) -- both re-asked BY NAME, both other-id on ascension (804117/804992 and 801233/803973), verdicts + one-line reasoning written into the rows' Notes; Hammer of Life resolves to a passive (both asc tooltips), role corrected to ignore"
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py (every primalist row <= 1.07x its own spec's bar after fixing the envelope to width-lock to its OWN main row: 228/228/274/182px; exit 0) + structural read via tools/hud.py displays(): ladder correct on all four spec packs -- alerts -18, target -51, buffs -84, main -132, rage -164, mana -180, offense -215 wrapping at 7, utility below, longterm bottom; main row width == bar width on every spec"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "automated role pass (production default, the Pyromancer precedent): 275 rows proposed with one line of reasoning each in Notes, BULK-CLEARED here -- provenance is machine-proposed, not row-by-row human read. prop?: hedges triaged first and copied into requirements \u00a76 (Therazane's Rage id, Bring Me Their Bones castable, Wildaxe/Unstable Fracture/Wildmend uncited, World Shaper, alternate Ursoc/Claw vertical). 14 aura-only rows hand-added so every drawn name has a row (felsworn/reaper check-13 lesson). crossdb no-records resolved by name (Bear's Maw, Hammer of Life -> other-id, Hammer of Life is a passive)."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "main rows cited from the four Sidekick rotations: geomancy Geode Barrage>Seismic Tremor>Stoneshard>Terrasurge>Eruption (5); grovekeeper Hand of the Earthmother>Spirit Charge>Seismic Wave>Sacred Grove>Wildclaw (5, healing rotation); mountain-king Quake>Seismic Crash>Geode Barrage>Mountain Fury>Mountain Hammer>Rock Barrier (6, tank); wildwalker Wildclaw>Rylak's Bite>Totemic Smash>Primal Shred (4). Lithic Lance and Tears of the Earthmother dropped from rows as passives (the Stoke lesson). CD_PER_ROW=7 from narrowest row_w(4)=182"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "all four Sidekick spec pages scraped live 2026-08-07 via Firecrawl -> resources/sidekick-primalist-{geomancy,grovekeeper,mountain-king,wildwalker}.md (pyromancer frontmatter format); slugs verified off the class page; blob sidekick-data.js mtime 2026-08-02 post-dates newest changelog entry 2026-07-31, upstream republish check today returned unchanged"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "wildwalker tamed-beast pet: NO PET alert asks pet unit for Primalist Pet Scaling Aura family (524057/805948, db.exil.es-sourced, requirements 6) ANDed with Spell Known 92148 (NEEDS_ALL); pet commands are ordinary rows (Throat Clamp interrupt pinned last, Primal Shred main, Rylak's Bite main, Mend/Recall/Call/Spirit Stable/Beastmaster's Recall utility); pet buffs: Rylak's Blessing on unit=pet in buff row, Legacy of Rexxar procs on player; pet Focus deliberately not a bar (player never spends it). Other three specs: no pet, answered explicitly in requirements 3"
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW wired from talent text: Aftershock->Geode Barrage+Earthquake, Lithic Lance conversion->Geode Barrage, Wrath of Al'Akir->Wildclaw; ramps tracked in on-me rows with stacks (Earthshaping/Dream/Geomolding/Heavy Earth/Cracking the Earth geomancy; Battleweaver/Infusion of Neptulon/Running on Instinct grovekeeper; Earth's Rage/Call of the Mountain/Thane's Rage/Mountain Mover MK; Misha's Rage/Leokk's Fury/Lacerations/Sharpened Claws/Tribalism wildwalker); every drawn aura name has an inventory row"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-primalist.md: all sections answered -- changelog triage table, both-DBs sweep, mandatory buffs (Boons/Instincts/party auras + per-spec ramps), talents (no permanent button swaps found; Lithic Lance + Aftershock are proc transforms -> PROC_GLOW; 4 charge abilities), pets (wildwalker tamed beast: NO PET alert on pet-unit scaling aura family, pet Focus deliberately scoped out), main rows cited per spec with derivations, miss-handling table, 10 open UNKNOWNs in \u00a76"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "no permanent replaces/transforms found in any of the four trees -> no spell_swap; Lithic Lance conversion + Aftershock are temporary proc transforms -> PROC_GLOW on Geode Barrage/Earthquake/Wildclaw; charges: Quake 2, Rylak's Bite 2, Rock Barrier 2, Waters of Neptulon 2; forms (Golem Form/Earthen Avatar/Ancients/Son of Ursoc feast beast) are buff-row states + own cd icons, no button swap stated anywhere; pack reads correctly untalented (active-only glows, own-id gates where gateable)"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py: all checks passed (full suite, all 13 built classes; primalist packs published to docs/packs/primalist so check 13 measures the real pack); fixtures frozen via tests/freeze.py primalist (5 files); CORE_LEAVES pinned at 7 in classes.py with composition comment (NO BOON alert + 6 merged class-gate buff leaves)"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "11 UNKNOWN markers in requirements \u00a76, ALL deferred on purpose to the post-ship verified phase: pet scaling aura family id, proc aura name/id matches (name+id matched displays fail soft), Therazane's Rage id smell, Bring Me Their Bones castable, alternate Ursoc/Claw vertical (kept ignore -- feedback mechanism owns it), Wildaxe/Unstable Fracture/Wildmend uncited press order, Instinct-absence not detectable, Empowered Boons untracked, grovekeeper envelope split. None blocks the draft bar; wrong names are the error class no scrape settles"
+  }
+ }
+}
