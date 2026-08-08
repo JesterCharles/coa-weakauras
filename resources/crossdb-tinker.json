@@ -1,0 +1,1106 @@
+{
+ "_class": "tinker",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "'Pick Lock'": {
+   "id": 804154,
+   "state": "record"
+  },
+  "Aether Augmentation": {
+   "id": 653130,
+   "state": "record"
+  },
+  "Aftermath": {
+   "id": 707260,
+   "state": "record"
+  },
+  "Air Strike": {
+   "id": 801744,
+   "state": "record"
+  },
+  "Ammo Clip": {
+   "id": 800348,
+   "state": "record"
+  },
+  "Anti-Cloaking Device": {
+   "id": 675204,
+   "state": "record"
+  },
+  "Anti-Magic Grenades": {
+   "id": 804861,
+   "state": "record"
+  },
+  "Arcane Bionics": {
+   "id": 541493,
+   "state": "record"
+  },
+  "Arcanoreflector": {
+   "id": 578339,
+   "state": "record"
+  },
+  "Arclight Adept": {
+   "id": 503574,
+   "state": "record"
+  },
+  "Arclight Core": {
+   "id": 524903,
+   "state": "record"
+  },
+  "Arclight Smash": {
+   "id": 806169,
+   "state": "record"
+  },
+  "Augmentor": {
+   "id": 801821,
+   "state": "record"
+  },
+  "Auto Resuscitation Device": {
+   "id": 520445,
+   "state": "record"
+  },
+  "Azerothian Sniper": {
+   "id": 300641,
+   "state": "record"
+  },
+  "BOOM!": {
+   "id": 705775,
+   "state": "record"
+  },
+  "Backup Fuel": {
+   "id": 570189,
+   "state": "record"
+  },
+  "Bandage Gun": {
+   "id": 705780,
+   "state": "record"
+  },
+  "Barrel Choke": {
+   "id": 513297,
+   "state": "record"
+  },
+  "Basic Intuition": {
+   "id": 504060,
+   "state": "record"
+  },
+  "Battery Recharge Station": {
+   "id": 570110,
+   "state": "record"
+  },
+  "Battery Swap": {
+   "id": 805319,
+   "state": "record"
+  },
+  "Battle Engineer": {
+   "id": 806629,
+   "state": "record"
+  },
+  "Beacon Charging": {
+   "id": 524834,
+   "state": "record"
+  },
+  "Blackpowder Barrage": {
+   "id": 801822,
+   "state": "no-record"
+  },
+  "Blackpowder Swag": {
+   "id": 300654,
+   "state": "record"
+  },
+  "Blasting Barrels": {
+   "id": 705835,
+   "state": "record"
+  },
+  "Blasting Charge": {
+   "id": 804165,
+   "state": "record"
+  },
+  "Blasting Powder": {
+   "id": 801825,
+   "state": "record"
+  },
+  "Blastmaster": {
+   "id": 704110,
+   "state": "record"
+  },
+  "Bomb Builder": {
+   "id": 520811,
+   "state": "record"
+  },
+  "Bomb Squad": {
+   "id": 520131,
+   "state": "record"
+  },
+  "Bomb Toss": {
+   "id": 801005,
+   "state": "record"
+  },
+  "Bombastic": {
+   "id": 507081,
+   "state": "record"
+  },
+  "Bomber Man": {
+   "id": 707273,
+   "state": "record"
+  },
+  "Bombing Rocket": {
+   "id": 300659,
+   "state": "record"
+  },
+  "Bomblord": {
+   "id": 805320,
+   "state": "record"
+  },
+  "Bombs? BOMBS!": {
+   "id": 705789,
+   "state": "record"
+  },
+  "Boomshot": {
+   "id": 707249,
+   "state": "record"
+  },
+  "Bot: C.U.R.B Stomp": {
+   "id": 800581,
+   "state": "record"
+  },
+  "Bot: Flamespill": {
+   "id": 800572,
+   "state": "record"
+  },
+  "Bot: Hydraulic Strike": {
+   "id": 800570,
+   "state": "no-record"
+  },
+  "Build: Alarm Beacon": {
+   "id": 560754,
+   "state": "record"
+  },
+  "Build: Battery Recharge Station": {
+   "id": 805308,
+   "state": "record"
+  },
+  "Build: Battle Turret X-13": {
+   "id": 504519,
+   "state": "record"
+  },
+  "Build: Bounce Pad!": {
+   "id": 800672,
+   "state": "record"
+  },
+  "Build: Clockwork Assistant": {
+   "id": 524974,
+   "state": "record"
+  },
+  "Build: Destructo-Bot": {
+   "id": 804673,
+   "state": "record"
+  },
+  "Build: Firepot Drone": {
+   "id": 500600,
+   "state": "record"
+  },
+  "Build: Mechano-Bear": {
+   "id": 803405,
+   "state": "record"
+  },
+  "Build: Mechsuit": {
+   "id": 92141,
+   "state": "record"
+  },
+  "Build: Noise Box": {
+   "id": 807723,
+   "state": "record"
+  },
+  "Build: Oil-Spill Pylon": {
+   "id": 707257,
+   "state": "record"
+  },
+  "Build: Power Foundry": {
+   "id": 500240,
+   "state": "record"
+  },
+  "Build: Replenishment Beacon": {
+   "id": 560750,
+   "state": "record"
+  },
+  "Build: Repulsion Unit": {
+   "id": 706904,
+   "state": "record"
+  },
+  "Build: Restorative Beacon": {
+   "id": 801801,
+   "state": "record"
+  },
+  "Build: Rusthound": {
+   "id": 803437,
+   "state": "record"
+  },
+  "Build: Scrapmaw": {
+   "id": 500242,
+   "state": "record"
+  },
+  "Build: Sentry Turret": {
+   "id": 500239,
+   "state": "record"
+  },
+  "Build: Shield Beacon": {
+   "id": 801799,
+   "state": "record"
+  },
+  "Build: Spider Bomb": {
+   "id": 500535,
+   "state": "record"
+  },
+  "Build: Spider Bomb Factory": {
+   "id": 802052,
+   "state": "record"
+  },
+  "Build: ZIGGI-6K": {
+   "id": 92140,
+   "state": "record"
+  },
+  "Bunker Operative": {
+   "id": 801706,
+   "state": "record"
+  },
+  "Calculated Shots": {
+   "id": 706712,
+   "state": "record"
+  },
+  "Chassis Augment: Mithril": {
+   "id": 704445,
+   "state": "record"
+  },
+  "Chassis Augment: Titansteel": {
+   "id": 704447,
+   "state": "record"
+  },
+  "Chassis Augment: Truesilver": {
+   "id": 704446,
+   "state": "record"
+  },
+  "Cloaking Device": {
+   "id": 803833,
+   "state": "record"
+  },
+  "Clockwork Ingenuity": {
+   "id": 505336,
+   "state": "record"
+  },
+  "Combat Augment: Flame Jets": {
+   "id": 704441,
+   "state": "record"
+  },
+  "Combat Augment: Hydraulic Springs": {
+   "id": 704443,
+   "state": "record"
+  },
+  "Combat Augmentation Kit": {
+   "id": 806614,
+   "state": "record"
+  },
+  "Combat Crafter": {
+   "id": 807499,
+   "state": "record"
+  },
+  "Combat Dash": {
+   "id": 805325,
+   "state": "record"
+  },
+  "Combat Symbiosis": {
+   "id": 805305,
+   "state": "record"
+  },
+  "Commando": {
+   "id": 503610,
+   "state": "record"
+  },
+  "Concussive Spanner": {
+   "id": 704107,
+   "state": "record"
+  },
+  "Core Augment: Warcore": {
+   "id": 704450,
+   "state": "record"
+  },
+  "Cutting Edge Technology": {
+   "id": 707398,
+   "state": "record"
+  },
+  "Cybernetic Revivification": {
+   "id": 705811,
+   "state": "record"
+  },
+  "Deadeye Charge": {
+   "id": 704381,
+   "state": "record"
+  },
+  "Deathball": {
+   "id": 500236,
+   "state": "record"
+  },
+  "Deconstruct Sentry Turret": {
+   "id": 500470,
+   "state": "record"
+  },
+  "Defensive Utility": {
+   "id": 680999,
+   "state": "record"
+  },
+  "Defibrillate": {
+   "id": 802175,
+   "state": "record"
+  },
+  "Deft Hands": {
+   "id": 705833,
+   "state": "record"
+  },
+  "Demolition": {
+   "id": 705823,
+   "state": "record"
+  },
+  "Demolition - Level 15 Passive": {
+   "id": 803383,
+   "state": "record"
+  },
+  "Deploy Blast Mine": {
+   "id": 801718,
+   "state": "record"
+  },
+  "Deploy Turret Wall": {
+   "id": 804166,
+   "state": "record"
+  },
+  "Discombobulate!": {
+   "id": 807197,
+   "state": "record"
+  },
+  "Distracto Shot": {
+   "id": 560470,
+   "state": "no-record"
+  },
+  "Double Tap DEPREC": {
+   "id": 705797,
+   "state": "record"
+  },
+  "Dynamite Stacks": {
+   "id": 805312,
+   "state": "record"
+  },
+  "E.M.P": {
+   "id": 706374,
+   "state": "record"
+  },
+  "Efficiency": {
+   "id": 705806,
+   "state": "record"
+  },
+  "Emergency Circumvented": {
+   "id": 805303,
+   "state": "record"
+  },
+  "Emergency Heal": {
+   "id": 802684,
+   "state": "record"
+  },
+  "Emergency Module": {
+   "id": 805304,
+   "state": "record"
+  },
+  "Empty Chamber": {
+   "id": 300634,
+   "state": "record"
+  },
+  "Engagement": {
+   "id": 705758,
+   "state": "record"
+  },
+  "Enhanced Procedures": {
+   "id": 506819,
+   "state": "record"
+  },
+  "Enhanced Remote": {
+   "id": 503622,
+   "state": "record"
+  },
+  "Expedient Package": {
+   "id": 300632,
+   "state": "record"
+  },
+  "Expert Mechanic": {
+   "id": 503782,
+   "state": "record"
+  },
+  "Explosive Augmentation": {
+   "id": 653236,
+   "state": "record"
+  },
+  "Explosive Inventor": {
+   "id": 300636,
+   "state": "record"
+  },
+  "Explosive Personality": {
+   "id": 704111,
+   "state": "record"
+  },
+  "Explosives Expert": {
+   "id": 300656,
+   "state": "record"
+  },
+  "Fine Tuned": {
+   "id": 705792,
+   "state": "record"
+  },
+  "Fine Tuning": {
+   "id": 300877,
+   "state": "record"
+  },
+  "Firearms Tinker": {
+   "id": 500211,
+   "state": "record"
+  },
+  "Flexible Thinking": {
+   "id": 705825,
+   "state": "record"
+  },
+  "Foresight": {
+   "id": 705832,
+   "state": "record"
+  },
+  "Freeze Ray": {
+   "id": 806157,
+   "state": "record"
+  },
+  "Freezer Burn": {
+   "id": 503620,
+   "state": "record"
+  },
+  "Frozen Bomb Launcher": {
+   "id": 707265,
+   "state": "record"
+  },
+  "Fully Loaded": {
+   "id": 805324,
+   "state": "record"
+  },
+  "Function Over Form": {
+   "id": 572538,
+   "state": "record"
+  },
+  "Gazlowe's Wisdom": {
+   "id": 803074,
+   "state": "record"
+  },
+  "Gizmotronic Spark Rifle": {
+   "id": 705770,
+   "state": "record"
+  },
+  "Gnomish Batteries": {
+   "id": 705816,
+   "state": "record"
+  },
+  "Gnomish Ingenuinity": {
+   "id": 705829,
+   "state": "record"
+  },
+  "Goblin Depravity": {
+   "id": 806762,
+   "state": "record"
+  },
+  "Graftbolts": {
+   "id": 560785,
+   "state": "record"
+  },
+  "Greater Mana Module": {
+   "id": 803665,
+   "state": "record"
+  },
+  "Greater Power Module": {
+   "id": 680315,
+   "state": "record"
+  },
+  "Guardian Module": {
+   "id": 805309,
+   "state": "record"
+  },
+  "Hasta la Vista": {
+   "id": 704109,
+   "state": "record"
+  },
+  "Hastened Shots": {
+   "id": 705813,
+   "state": "record"
+  },
+  "Hasty Tech": {
+   "id": 705805,
+   "state": "record"
+  },
+  "Healing Radiator": {
+   "id": 705846,
+   "state": "record"
+  },
+  "Healing Stims": {
+   "id": 300645,
+   "state": "record"
+  },
+  "Heavy Spanner": {
+   "id": 706536,
+   "state": "record"
+  },
+  "Hyperblast Barrage": {
+   "id": 500249,
+   "state": "record"
+  },
+  "I'm The Creator Now": {
+   "id": 503534,
+   "state": "record"
+  },
+  "Improved Explosives": {
+   "id": 705773,
+   "state": "record"
+  },
+  "Improved Handcannon": {
+   "id": 300635,
+   "state": "record"
+  },
+  "Improved Nanobot Deconstruction": {
+   "id": 300651,
+   "state": "record"
+  },
+  "Improved Nanobot Reconstruction": {
+   "id": 300649,
+   "state": "record"
+  },
+  "Improved Reload": {
+   "id": 705768,
+   "state": "record"
+  },
+  "Improved Remote Detonation": {
+   "id": 705784,
+   "state": "record"
+  },
+  "Incendiary Bombs": {
+   "id": 504516,
+   "state": "record"
+  },
+  "Incendiary Rounds": {
+   "id": 570098,
+   "state": "record"
+  },
+  "Innate Brilliance": {
+   "id": 572545,
+   "state": "record"
+  },
+  "Invention - Level 20 Passive": {
+   "id": 807502,
+   "state": "record"
+  },
+  "Invisibility Cloak": {
+   "id": 801633,
+   "state": "record"
+  },
+  "Junker": {
+   "id": 705786,
+   "state": "record"
+  },
+  "Junklord WIP": {
+   "id": 801705,
+   "state": "record"
+  },
+  "Kickback": {
+   "id": 300642,
+   "state": "record"
+  },
+  "Kinetic Shield": {
+   "id": 806224,
+   "state": "record"
+  },
+  "Machine Synergy": {
+   "id": 707277,
+   "state": "record"
+  },
+  "Macro-Gravity Zone": {
+   "id": 707104,
+   "state": "record"
+  },
+  "Magic Augmentation": {
+   "id": 653242,
+   "state": "record"
+  },
+  "Magic-Cleanser 4000X": {
+   "id": 560472,
+   "state": "record"
+  },
+  "Magnum Opus": {
+   "id": 504528,
+   "state": "record"
+  },
+  "Makeshift Dynamite": {
+   "id": 504527,
+   "state": "record"
+  },
+  "Mana Module": {
+   "id": 803658,
+   "state": "record"
+  },
+  "Maniacal": {
+   "id": 503559,
+   "state": "record"
+  },
+  "Master Sapper": {
+   "id": 805317,
+   "state": "record"
+  },
+  "Master Technician": {
+   "id": 520022,
+   "state": "record"
+  },
+  "Maxi-Cleanser X-420": {
+   "id": 705804,
+   "state": "record"
+  },
+  "Mech Augmentation Kit": {
+   "id": 706195,
+   "state": "record"
+  },
+  "Mechanical Enhancements": {
+   "id": 506632,
+   "state": "record"
+  },
+  "Mechanics Tinker": {
+   "id": 500216,
+   "state": "record"
+  },
+  "Mechanosoldier": {
+   "id": 705827,
+   "state": "record"
+  },
+  "Mechaplating": {
+   "id": 503535,
+   "state": "record"
+  },
+  "Mechsuit: Activate Jets": {
+   "id": 801389,
+   "state": "record"
+  },
+  "Mechsuit: Artillery Rush": {
+   "id": 801391,
+   "state": "record"
+  },
+  "Mechsuit: Combustion": {
+   "id": 801387,
+   "state": "record"
+  },
+  "Mechsuit: Laser Beam": {
+   "id": 805372,
+   "state": "record"
+  },
+  "Mechsuit: Sawblade": {
+   "id": 801381,
+   "state": "record"
+  },
+  "Med Pack": {
+   "id": 800347,
+   "state": "record"
+  },
+  "Medical Degree": {
+   "id": 505327,
+   "state": "record"
+  },
+  "Medical Training": {
+   "id": 705800,
+   "state": "record"
+  },
+  "Modular Charges": {
+   "id": 705766,
+   "state": "record"
+  },
+  "Modulator": {
+   "id": 707832,
+   "state": "record"
+  },
+  "Munition Expert": {
+   "id": 705772,
+   "state": "record"
+  },
+  "My Greatest Invention!": {
+   "id": 560744,
+   "state": "record"
+  },
+  "Nanobot Barrier": {
+   "id": 502538,
+   "state": "record"
+  },
+  "Nanobot Cleanser": {
+   "id": 502537,
+   "state": "record"
+  },
+  "Nanobot Deconstruction": {
+   "id": 801808,
+   "state": "record"
+  },
+  "Nanobot Durability": {
+   "id": 705812,
+   "state": "record"
+  },
+  "Nanobot Recharger": {
+   "id": 803552,
+   "state": "record"
+  },
+  "Nanobot Reconstruction": {
+   "id": 801809,
+   "state": "record"
+  },
+  "Nanobot Swarm": {
+   "id": 801709,
+   "state": "record"
+  },
+  "Nanomechano": {
+   "id": 705822,
+   "state": "record"
+  },
+  "Napalm": {
+   "id": 92138,
+   "state": "record"
+  },
+  "Not On MY Turf!": {
+   "id": 805321,
+   "state": "record"
+  },
+  "Overcharge": {
+   "id": 524835,
+   "state": "record"
+  },
+  "Overclocked Machine": {
+   "id": 806757,
+   "state": "record"
+  },
+  "Overload": {
+   "id": 705798,
+   "state": "record"
+  },
+  "Parachute Pack": {
+   "id": 804690,
+   "state": "record"
+  },
+  "Piercing Augmentation": {
+   "id": 653234,
+   "state": "record"
+  },
+  "Piercing Impact": {
+   "id": 705756,
+   "state": "record"
+  },
+  "Portable Potion Pack": {
+   "id": 300647,
+   "state": "record"
+  },
+  "Power Cell": {
+   "id": 705818,
+   "state": "record"
+  },
+  "Power Module": {
+   "id": 706742,
+   "state": "record"
+  },
+  "Precision Scopes": {
+   "id": 705807,
+   "state": "record"
+  },
+  "Pyromania": {
+   "id": 706377,
+   "state": "record"
+  },
+  "Pyrotechnics": {
+   "id": 705778,
+   "state": "record"
+  },
+  "Questionable Methods": {
+   "id": 520280,
+   "state": "record"
+  },
+  "Quickscope": {
+   "id": 805686,
+   "state": "record"
+  },
+  "Rapid Fire Healing": {
+   "id": 805311,
+   "state": "record"
+  },
+  "Re-Build": {
+   "id": 578266,
+   "state": "record"
+  },
+  "Recharge": {
+   "id": 570715,
+   "state": "record"
+  },
+  "Recycling Bin WIP": {
+   "id": 801813,
+   "state": "record"
+  },
+  "Refined Gunpowder": {
+   "id": 705781,
+   "state": "record"
+  },
+  "Rejuvenating Gadget": {
+   "id": 805306,
+   "state": "record"
+  },
+  "Remote Detonation": {
+   "id": 801798,
+   "state": "record"
+  },
+  "Repair Shot": {
+   "id": 801707,
+   "state": "record"
+  },
+  "Rockadier": {
+   "id": 801827,
+   "state": "record"
+  },
+  "Rocket Barrage": {
+   "id": 801168,
+   "state": "record"
+  },
+  "Rocket Bombardment": {
+   "id": 706695,
+   "state": "record"
+  },
+  "Rocket Boots": {
+   "id": 500241,
+   "state": "record"
+  },
+  "Rocket Launcher": {
+   "id": 500235,
+   "state": "record"
+  },
+  "Rocket Pack": {
+   "id": 705820,
+   "state": "record"
+  },
+  "Rounds and Rounds": {
+   "id": 300631,
+   "state": "record"
+  },
+  "Scientific Nature": {
+   "id": 705802,
+   "state": "record"
+  },
+  "Scrap Factory": {
+   "id": 800978,
+   "state": "record"
+  },
+  "Scrap Shot": {
+   "id": 500549,
+   "state": "record"
+  },
+  "Scrapper": {
+   "id": 525039,
+   "state": "record"
+  },
+  "Scrappy": {
+   "id": 705799,
+   "state": "record"
+  },
+  "Scrapshielding": {
+   "id": 806627,
+   "state": "record"
+  },
+  "Scrapyard Enhancements": {
+   "id": 705828,
+   "state": "record"
+  },
+  "Self-Sustaining Technology": {
+   "id": 560786,
+   "state": "record"
+  },
+  "Shield Beacon": {
+   "id": 801256,
+   "state": "record"
+  },
+  "Shock Factor": {
+   "id": 572107,
+   "state": "record"
+  },
+  "Short Circuit": {
+   "id": 800568,
+   "state": "record"
+  },
+  "Shrapnel": {
+   "id": 300638,
+   "state": "record"
+  },
+  "Shrapnel Mine": {
+   "id": 706647,
+   "state": "record"
+  },
+  "Smoking Gun": {
+   "id": 704108,
+   "state": "record"
+  },
+  "Snipe": {
+   "id": 800345,
+   "state": "record"
+  },
+  "Spanner Smash": {
+   "id": 805351,
+   "state": "record"
+  },
+  "Spare Parts": {
+   "id": 704465,
+   "state": "record"
+  },
+  "Sparked and Ready!": {
+   "id": 537247,
+   "state": "record"
+  },
+  "Spider Tank: Flak Guns": {
+   "id": 802241,
+   "state": "record"
+  },
+  "Spider Tank: Scurry": {
+   "id": 801818,
+   "state": "record"
+  },
+  "Spidertank: Stomp": {
+   "id": 801817,
+   "state": "record"
+  },
+  "Spreading Repair Shot": {
+   "id": 300644,
+   "state": "record"
+  },
+  "Sprocket Loaded": {
+   "id": 807500,
+   "state": "record"
+  },
+  "Sticky Bomb": {
+   "id": 500232,
+   "state": "record"
+  },
+  "Stim Augmentation": {
+   "id": 653239,
+   "state": "record"
+  },
+  "Stim Pack": {
+   "id": 807531,
+   "state": "record"
+  },
+  "Strength Bionics": {
+   "id": 510176,
+   "state": "record"
+  },
+  "Supercharge": {
+   "id": 801708,
+   "state": "record"
+  },
+  "Tactical Reload": {
+   "id": 705760,
+   "state": "record"
+  },
+  "Take Aim": {
+   "id": 500247,
+   "state": "record"
+  },
+  "Target Spotted!": {
+   "id": 705763,
+   "state": "record"
+  },
+  "Telescopic Focusing Lens": {
+   "id": 801819,
+   "state": "no-record"
+  },
+  "The BIG Guns!": {
+   "id": 560593,
+   "state": "record"
+  },
+  "The Big One": {
+   "id": 805327,
+   "state": "record"
+  },
+  "The Doctor Is In": {
+   "id": 705814,
+   "state": "record"
+  },
+  "Tinkering Tools": {
+   "id": 801517,
+   "state": "record"
+  },
+  "Tracer Augmentation": {
+   "id": 653245,
+   "state": "record"
+  },
+  "Trust the Science!": {
+   "id": 300653,
+   "state": "record"
+  },
+  "Turbo Upgrade!": {
+   "id": 707115,
+   "state": "record"
+  },
+  "Turret Mechanic": {
+   "id": 503567,
+   "state": "record"
+  },
+  "Upgrade Mechsuit: Spider Tank": {
+   "id": 801710,
+   "state": "record"
+  },
+  "Upgrade Mechsuit: Vanguard X-42": {
+   "id": 801393,
+   "state": "record"
+  },
+  "Upgrade Z-15": {
+   "id": 801811,
+   "state": "record"
+  },
+  "Upgrade!": {
+   "id": 800349,
+   "state": "record"
+  },
+  "Vanguard X-173: Onslaught": {
+   "id": 801828,
+   "state": "record"
+  },
+  "Vanguard X-173: Shield Crush": {
+   "id": 801394,
+   "state": "record"
+  },
+  "Vanguard X-42: Fuselight Furnace": {
+   "id": 801382,
+   "state": "record"
+  },
+  "Vanguard X-42: Imposing Presence": {
+   "id": 801815,
+   "state": "record"
+  },
+  "Ventilation": {
+   "id": 572367,
+   "state": "record"
+  },
+  "WIP Disassemble": {
+   "id": 704345,
+   "state": "record"
+  },
+  "Warning Shot": {
+   "id": 534480,
+   "state": "record"
+  },
+  "Warphole Generator": {
+   "id": 801544,
+   "state": "record"
+  },
+  "Wide Bore Barrel": {
+   "id": 300640,
+   "state": "record"
+  },
+  "X15 Upgrade": {
+   "id": 300648,
+   "state": "record"
+  },
+  "Zap!": {
+   "id": 680196,
+   "state": "record"
+  }
+ }
+}

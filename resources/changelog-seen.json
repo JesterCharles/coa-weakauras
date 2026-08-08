@@ -20,6 +20,11 @@
    "date": "2026/07/31",
    "text": "Skirmisher now also increases the damage of Toxic Dart by 30%."
   },
+  "03fd5a1c6e830976": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "Macro Designer now increases the duration of Beacons by an additional second, from plus 5 sec to plus 6 sec. (This allows an additional full tick to occur)"
+  },
   "048df6b2d79955e6": {
    "class": "necromancer",
    "date": "2026/07/31",
@@ -65,6 +70,11 @@
    "date": "2026/07/31",
    "text": "Darkslayer\u2019s Lantern will now interrupt non-player spellcasting for 3 seconds against enemies that are stun immune."
   },
+  "175ef65812060aef": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "Build: Restorative Beacon base value doubled, scaling increased by 6%."
+  },
   "1882a0db18537d2b": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -99,6 +109,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Skirmish and Swiftshot have swapped positions"
+  },
+  "1e4b7d7bc3b1a11e": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "Range of Med Pack increased from 10 yds to 30 yds."
   },
   "2060a18cc2a3f4e2": {
    "class": "reaper",
@@ -230,6 +245,11 @@
    "date": "2026/07/31",
    "text": "Phoenix Egg is now permanent, up from 1 minute, but has a cast time to resummon."
   },
+  "3bbb35869f00d610": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "Mechanical Enhancements now reduces damage taken from bleeds by 20%, up from 10%."
+  },
   "3ca9a800b49bb59e": {
    "class": "stormbringer",
    "date": "2026/08/06",
@@ -269,6 +289,11 @@
    "class": "witch-doctor",
    "date": "2026/07/31",
    "text": "Increased Spirit Glaive\u2019s base damage and scaling by 69%."
+  },
+  "472d08cd82f0c40e": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "Emergency Heal base value increased by 30%, cast time reduced from 1.8 sec to 1.5 sec."
   },
   "474d568768b496fa": {
    "class": "reaper",
@@ -339,6 +364,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Skirmisher talent no longer reduces the duration of Toxic Dart."
+  },
+  "543d4ba67cafec31": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "The Mechano-Bear now generates increased threat with Mechano-Growl"
   },
   "551f2ef223dfbfa7": {
    "class": "witch-hunter",
@@ -944,6 +974,11 @@
    "class": "witch-doctor",
    "date": "2026/07/31",
    "text": "Fixed an issue where the Healing Ward radius would be inconsistent."
+  },
+  "dc0419b4bd1e8d66": {
+   "class": "tinker",
+   "date": "2026/07/31",
+   "text": "Goblin Depravity now creates a Crash Site instead of Tear Gas, now deals Fire Damage instead of Nature Damage."
   },
   "dc25cf2bb14cfca5": {
    "class": "necromancer",

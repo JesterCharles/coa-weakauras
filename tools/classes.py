@@ -253,6 +253,12 @@ CORE_LEAVES = {
     # class gate alone, for the standing reason: buff icons are self-gating
     # and a buff id is not something IsSpellKnown recognises.
     "witch-doctor": 4,
+    # First pin (0.1). TK Core is an empty skeleton (every reminder is
+    # spec-shaped: per-spec NO AUGMENT alerts, Mechanics' NO PET) -- the 4
+    # are the Core group plus three merged all-spec Buffs leaves (Overcharge,
+    # Rockadier, Kinetic Shield) that hold the class gate alone: buff icons
+    # are self-gating and a buff id is not something IsSpellKnown recognises.
+    "tinker": 4,
 }
 
 

@@ -1,0 +1,30 @@
+{
+ "class": "tinker",
+ "source": "coa.ascensionlogs.gg",
+ "source_url": "https://coa.ascensionlogs.gg/rankings",
+ "policy": "reference",
+ "collected_at": null,
+ "collected_by": null,
+ "categories": {
+  "overall": {
+   "label": "Overall",
+   "note": "not yet transcribed for Tinker -- the source publishes use=reference and is read by hand; empty is the honest state until a person sits down with the rankings page",
+   "entries": []
+  },
+  "world-boss": {
+   "label": "World Bosses",
+   "note": "",
+   "entries": []
+  },
+  "dungeon": {
+   "label": "Dungeons",
+   "note": "",
+   "entries": []
+  },
+  "raid": {
+   "label": "Zul'Gurub",
+   "note": "",
+   "entries": []
+  }
+ }
+}

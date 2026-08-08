@@ -1,0 +1,6 @@
+{
+ "Body Armor": {
+  "canonical": null,
+  "why": "Named once in the whole sidekick-data.js blob, inside the generated mechanics rotation blurb ('Line up Body Armor, Deploy Turret Wall with your burst window'). Sidekick's own skill data has no such ability, coa-tinker-skills.json has no row, exiles-tinker.json (759 spells) has no name containing 'armor', and the mechanics spec page scraped 2026-08-07 never mentions it. The ONCE-in-blob rule from class-pack-process.md applies: the rotation blurbs are generated prose, and a name with no id behind it cannot be built. Recorded null so it does not come back as a fresh mystery on the next import."
+ }
+}

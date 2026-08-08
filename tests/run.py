@@ -343,9 +343,15 @@ def off_gcd_for(cls):
     """
     p = class_data(cls.cooldowns)
     if not os.path.exists(p):
-        return None
+        return None, None
     cd = json.load(open(p))
-    return {n for n, v in cd.items() if v.get("gcd") is False}
+    # BOTH sets, because suffix matching needs the longer name to win. Tinker
+    # has "Battery Recharge Station" (off-GCD, legacy) beside "Build: Battery
+    # Recharge Station" (on-GCD, the learnable button): the Build: display id
+    # ends with the shorter name too, and matching against OFF_GCD alone
+    # flags the on-GCD display as an off-GCD fault. Matching the LONGEST
+    # audit name first binds each display to the ability it actually tracks.
+    return {n for n, v in cd.items() if v.get("gcd") is False}, set(cd)
 
 
 def showgcd_of(d):
@@ -388,12 +394,13 @@ def off_gcd_match(d, off_gcd, known):
 
 
 for cls, spec, name in PACKS:
-    OFF_GCD = off_gcd_for(cls)
+    OFF_GCD, AUDITED = off_gcd_for(cls)
     if OFF_GCD is None:
         check(f"{name}: {cls.cooldowns} exists", False,
               f"run: python3 tools/audit_cds.py {cls.slug}")
         continue
     pack = load(cls.pack_path(name))
+
     # `use_showgcd` makes WeakAuras substitute the tracked global for any spell
     # not already on cooldown -- blindly, with no per-spell knowledge
     # (GenericTrigger.lua:2795). On an ability that does not obey the global

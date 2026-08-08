@@ -1,0 +1,172 @@
+{
+ "sidekick-page-tinker-demolition-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Open at range with Bomb Toss... Drop Sticky Bomb on your target or pack immediately... Weave Scrap Shot constantly... Send Firepot Drones and Spider Bombs... Fire Rocket Launcher as your heavy nuke... burn Rockadier or Rocket Barrage on elites... Drop an Oil-Spill Pylon'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-tinker-demolition.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Rockadier",
+    "Rocket Barrage",
+    "Build: Oil-Spill Pylon",
+    "Build: Spider Bomb Factory",
+    "The BIG Guns!"
+   ],
+   "maintain": [
+    "Napalm",
+    "Sticky Bomb"
+   ],
+   "priority": [
+    "Bomb Toss",
+    "Sticky Bomb",
+    "Scrap Shot",
+    "Build: Firepot Drone",
+    "Rocket Launcher"
+   ]
+  },
+  "class": "tinker",
+  "content_sha256": "12f6c25465997267",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/tinker/demolition",
+  "spec": "demolition"
+ },
+ "sidekick-page-tinker-invention-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Pre-pull: drop the ZIGGI-6K or a Restorative Beacon... pre-apply Nanobot Reconstruction to the tank. Open sustain with Repair Shot on the tank and Zap! for instant long-range top-offs... Spend Overcharge to supercharge your beacons... Cleanse debuffs immediately with Nanobot Cleanser, and interrupt casters with Build: Noise Box. Hold Med Pack and My Greatest Invention! as your emergency and AoE cooldowns'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-tinker-invention.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "My Greatest Invention!",
+    "Med Pack",
+    "Overcharge",
+    "Build: ZIGGI-6K"
+   ],
+   "maintain": [
+    "Nanobot Reconstruction"
+   ],
+   "priority": [
+    "Repair Shot",
+    "Zap!",
+    "Nanobot Reconstruction",
+    "Build: Restorative Beacon",
+    "Med Pack"
+   ]
+  },
+  "class": "tinker",
+  "content_sha256": "bf639addf8eb2603",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/tinker/invention",
+  "spec": "invention"
+ },
+ "sidekick-page-tinker-mechanics-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Pre-pull: Build: Scrapmaw so your pet is out, and Build: Sentry Turret near the pull. Open at range with Scrap Shot to build Scrap and, via Makeshift Dynamite, apply Arclight Core's mark... Weave Sticky Bomb on cooldown... enter Build: Mechsuit and cycle Mechsuit: Combustion and Mechsuit: Laser Beam... Overclock your pet (Overclocked Machine) during the pull's damage burn'",
+   "transcribed by hand from the spec page's Solo/Dungeon rotation paragraphs, scraped 2026-08-07 to resources/sidekick-tinker-mechanics.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Build: Mechsuit",
+    "Overclocked Machine",
+    "Build: Sentry Turret",
+    "Build: Scrapmaw"
+   ],
+   "maintain": [
+    "Arclight Core"
+   ],
+   "priority": [
+    "Scrap Shot",
+    "Makeshift Dynamite",
+    "Sticky Bomb",
+    "Mechsuit: Combustion",
+    "Mechsuit: Laser Beam"
+   ]
+  },
+  "class": "tinker",
+  "content_sha256": "ff95ae2c9102cc70",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/tinker/mechanics",
+  "spec": "mechanics"
+ },
+ "sidekick-tinker-demolition-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Incendiary Rounds"
+   ],
+   "priority": [],
+   "signature": [
+    "Napalm"
+   ]
+  },
+  "class": "tinker",
+  "content_sha256": "d588699f2cfefc62",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/tinker/demolition",
+  "spec": "demolition"
+ },
+ "sidekick-tinker-invention-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Anti-Magic Grenades",
+    "Build: Battery Recharge Station",
+    "Deathball"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Build: ZIGGI-6K"
+   ]
+  },
+  "class": "tinker",
+  "content_sha256": "63cd9b4955322f89",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/tinker/invention",
+  "spec": "invention"
+ },
+ "sidekick-tinker-mechanics-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Body Armor",
+    "Deploy Turret Wall"
+   ],
+   "maintain": [
+    "Combat Augment: Flame Jets",
+    "Upgrade!"
+   ],
+   "priority": []
+  },
+  "class": "tinker",
+  "content_sha256": "93eed3dcd2a745f8",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/tinker/mechanics",
+  "spec": "mechanics"
+ }
+}

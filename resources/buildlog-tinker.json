@@ -1,0 +1,108 @@
+{
+ "class": "tinker",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 42,
+   "citations": 6,
+   "crossdb_checked": 271,
+   "crossdb_pct": 98.5,
+   "inventory_rows": 285,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 275,
+   "mechanics_sources": 3,
+   "open_unknowns": 8,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 42,
+   "citations": 6,
+   "crossdb_checked": 271,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 281,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 271,
+   "mechanics_sources": 3,
+   "open_unknowns": 8,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 42,
+   "citations": 6,
+   "crossdb_checked": 271,
+   "crossdb_pct": 98.5,
+   "inventory_rows": 285,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 275,
+   "mechanics_sources": 3,
+   "open_unknowns": 8,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "Per-spec alert bands: NO AUGMENT on demolition (Piercing/Explosive/Tracer) and invention (Aether/Magic/Stim) -- fires only when NONE of the spec's 1-hour gun imbues is up, ANDed with Spell Known so a leveller is not nagged (aura names req 6.3); NO PET on mechanics (see pets step, mechanism req 6.2). Invention healing target band = dot_bars(helpful=True) on current target only per the settled healing scope (Nanobot Reconstruction/Med Pack/Auto Resuscitation Device/Kinetic Shield/Nanobot Barrier, refresh glow at 4s)."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "7 entries, all 2026/07/31, triaged into requirements -1: 5 number tweaks (no WA impact), Goblin Depravity rework (Crash Site/Fire -- Sidekick page still says Tear Gas, no display consequence, Air Strike stays a cd icon), Mechano-Bear threat (confirms the pet model, s3), Emergency Heal buff (confirms live Invention kit, inventory row). NOT accepted yet."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 citations: 3 blob imports (--import-sidekick, snapshot 2026-08-02) + 3 manual transcriptions of the spec pages' rotation paragraphs (scraped 2026-08-07, per-spec press order in claims.priority). Validator clean; 'Body Armor' aliased to null in aliases-tinker.json (once-in-blob prose, no id in any source)."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 275,
+   "note": "crossdb_sweep.py re-run over all 275 rows with an id (incl. the 4 hand-added proc auras, all record): 271 record, 4 no-record, ALL resolved by name re-ask with tooltip reads and recorded in their Notes cells -- Bot: Hydraulic Strike other-id (ascension 524910 castable, name-matched via Rank 1), Distracto Shot other-id (561269, the documented example), Blackpowder Barrage + Telescopic Focusing Lens genuinely dead (0 name hits / 'Deprecated Spell') -> ignore, not shipped. Boomshot's earlier name collision now records under 707249. Verdicts in crossdb-tinker.json."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py (all always-visible rows <= 1.10x the 228px resource bar; exit 0) + structural read with tools/hud.py: ladder coherent on all four packs -- alerts -18, target -51, on-me -84, main -132 (5 icons every spec), mana -170, offense from -215 wrapping at 9, utility below its own spec's depth, per-spec longterm at the bottom (mechanics carries the 6 bot augments unit=pet). No hud warnings (grow/anchor clean)."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "AUTOMATED ROLE PASS, BULK-CLEARED (production-run.md precedent): 281 rows decided by rolepass script -- 109 curated with SK-page/changelog/db evidence, 172 by spell-meta castability + cooldown-audit heuristics; one line of reasoning per row in Notes, no human read them one at a time. 25 hedged rows (marker 'hedged:' kept in Notes) carried to requirements 6.9: mostly Modules/Bionics/gadget utilities with a cd but no cited role, plus Deconstruct Sentry Turret, Freeze Ray, Combat Symbiosis, Hasta la Vista, Blasting Powder. Name collisions recorded on Boomshot; no-record resolutions on 5 rows per the crossdb step."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "5-icon main rows per spec ordered from the transcribed rotation citations (sidekick-page-tinker-*-2026-08-07): demolition Bomb Toss/Sticky Bomb/Scrap Shot/Firepot Drone/Rocket Launcher, invention Repair Shot/Zap!/Nanobot Reconstruction/Restorative Beacon/Med Pack, mechanics Scrap Shot/Makeshift Dynamite/Sticky Bomb/Mechsuit: Combustion/Mechsuit: Laser Beam. CD_PER_ROW=9 from narrowest row 228px, rowwidths.py all rows <=1.10x. NO Scrap bar (req 6.1: no buildable surface -- 707470 is a 0.2s checker dummy, threshold markers hidden-clientside)."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "3 Sidekick spec pages scraped 2026-08-07 via Firecrawl -> resources/sidekick-tinker-{demolition,invention,mechanics}.md. Each carries Playstyle + Rotations + Resource sections. Note: demolition page still describes Goblin Depravity as Tear Gas, which the 07/31 changelog reworked to Crash Site -- Sidekick snapshot is stale on that talent (WA impact: none, Air Strike stays a cooldown icon)."
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "Mechanics = permanent-bot spec, four interchangeable models (Scrapmaw/Mechano-Bear/Rusthound/Clockwork Assistant, 'until dismissed'): NO PET alert (Tinker Pet Scaling Aura family 520510/524064-67 unit=pet showOnMissing ANDed with Spell Known Build: Scrapmaw 500242 exact=False; mechanism flagged req 6.2), pet ramp in on-me row (Machine Synergy unit=pet), pet commands as real cooldown rows (Bot: C.U.R.B Stomp / Flamespill / Hydraulic Strike in offense), bot augments as longterm band unit=pet. Deployables (drones/turrets/beacons/pylons) resolved per tooltip as player-side cooldown/charge icons, NOT pets. Demolition and Invention: no pet."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW: Scrap Shot lit by Boomshot (every 4th), Aftermath (post-Sticky-Bomb window), Innate Brilliance (class choose-one under Aether Aug), Blasting Charge; Bomb Toss lit by Bombastic (free reset after Spider Bomb). On-me row: Overload, Machine Synergy (pet), Master Technician, Junker, Overcharge/Beacon Charging (invention). Four proc auras hand-added to the inventory (Aftermath 707260, Beacon Charging 524834, Machine Synergy 707277, Master Technician 520022) -- talent-granted auras absent from the skillbook, check 13 enforced it."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-tinker.md, all sections + changelog triage. Spec roles cited from Sidekick prose only (invention=healer), spec-roles.md untouched (observed-in-game file, no tinker rows). 10 UNKNOWN markers, all deferred on purpose (Scrap meter surface, NO PET mechanism, augment aura names, turret uptime, Mechsuit grant-vs-unusable, Overcharge id, ZIGGI castable id)."
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "SPEC_KNOWN = the numeric L10 teaching passives 92138/92140/92141 (contiguous block, the Stormbringer-verified shape). No replacement talents found: talents.py extracted the official tree, 29/29 talent-granted abilities have inventory rows, no holes. Mechsuit transform tracked on the suit abilities' own numeric ids with spellUsable desaturate (req 6.6); Upgrade Mechsuit model bars deferred (req 6.10). Goblin Depravity rework needs no display change. Proc talents (Boomshot/Aftermath/Bombastic/Innate Brilliance/Overload/Machine Synergy) are active-only displays, correct with and without."
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed. Fixtures frozen (all-specs + 3 per-spec); CORE_LEAVES pinned at 4 with style-matching comment (empty TK Core skeleton + 3 merged all-spec Buffs leaves). One shared-check fix in tests/run.py check 10: suffix matching now binds each display to the LONGEST audited name, because 'Build: Battery Recharge Station' (on-GCD) ends with 'Battery Recharge Station' (off-GCD legacy row) -- all other classes' fixtures byte-identical, verified against the main checkout."
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "10 UNKNOWN markers in requirements-tinker.md, all deferred on purpose with what-settles-it stated: 6.1 Scrap meter surface (in-game UnitAura probe; no bar shipped), 6.2 NO PET mechanism+aura ids (built flagged, Stormbringer precedent), 6.3 augmentation buff names (alert matches id AND name), 6.4 Sentry Turret uptime (cd only), 6.5 Rocket Launcher/Sticky tie (feedback), 6.6 Mechsuit grant-vs-unusable (desaturate carries it either way), 6.7 Overcharge id, 6.8 ZIGGI castable id (by-name), 6.9 25 hedged inventory rows, 6.10 suit model bars. Plus the spec-roles in-game confirmation at the top of the doc."
+  }
+ }
+}
