@@ -1,0 +1,185 @@
+{
+ "sidekick-page-witch-doctor-brewing-2026-08-07": {
+  "caveats": [
+   "transcribed from the page's Rotations paragraphs, scraped 2026-08-07 (postdates the 2026-07-31 changelog)",
+   "'Loa's Brew as the primary heal filler, backed by the instant Potion Toss ... Splash Potion for stacked-group healing, and Spirit in a Bottle on tank or cleave'; Mojo Beam is the channel-weave tool"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Master Mixologist",
+    "Hexbreak"
+   ],
+   "maintain": [
+    "Ingredient: Jungle Shrooms",
+    "Voodoo Cauldron"
+   ],
+   "priority": [
+    "Loa's Brew",
+    "Potion Toss",
+    "Spirit in a Bottle",
+    "Splash Potion",
+    "Mojo Beam"
+   ]
+  },
+  "class": "witch-doctor",
+  "content_sha256": "56ffedfb167f2f19",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-doctor/brewing",
+  "spec": "brewing",
+  "transcribed_by": "claude (witch-doctor class run)"
+ },
+ "sidekick-page-witch-doctor-shadowhunting-2026-08-07": {
+  "caveats": [
+   "transcribed from the page's Rotations paragraphs, scraped 2026-08-07 (postdates the 2026-07-31 changelog)",
+   "'1) Keep Serpent Wards up via Call of Sseratus 2) Reclamation ... and Malefic Arrow 3) Spirit Glaive ... then spend banked Spirits with Spirit Eclipse'; burst: 'Veil of Darkness first ... Mimic Ward ... then Shadow Avatar and Fool's Play'"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Veil of Darkness",
+    "Mimic Ward",
+    "Shadow Avatar",
+    "Fool's Play",
+    "Spirit Shock"
+   ],
+   "maintain": [
+    "Hex of Malice",
+    "Hex of Death",
+    "The True Spirit",
+    "Umbral Glaive"
+   ],
+   "priority": [
+    "Reclamation",
+    "Malefic Arrow",
+    "Spirit Glaive",
+    "Spirit Eclipse",
+    "Call of Sseratus",
+    "Shadowflare"
+   ]
+  },
+  "class": "witch-doctor",
+  "content_sha256": "a2c3b06c6569cfd9",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-doctor/shadowhunting",
+  "spec": "shadowhunting",
+  "transcribed_by": "claude (witch-doctor class run)"
+ },
+ "sidekick-page-witch-doctor-voodoo-2026-08-07": {
+  "caveats": [
+   "transcribed from the page's Rotations paragraphs, scraped 2026-08-07 (postdates the 2026-07-31 changelog)",
+   "the page's 'Jin'do's Wrath and Hexfire to cash in' names a PASSIVE (707913: Hexfire crit +25%) -- the press is Hexfire",
+   "the page's 'keep Zalazane's Malice applied' conflates the amplifier talent with the Hex of Malice DoT (aliases-witch-doctor.json)"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Voice of Bwonsamdi",
+    "War Golem",
+    "Malignant Jinx"
+   ],
+   "maintain": [
+    "Hex of Malice",
+    "Puppeteer's Threads",
+    "De Other Side"
+   ],
+   "priority": [
+    "Bad Juju",
+    "Shadow Puppets",
+    "Hexfire",
+    "Malefic Wrath"
+   ]
+  },
+  "class": "witch-doctor",
+  "content_sha256": "4659c656772f338b",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-doctor/voodoo",
+  "spec": "voodoo",
+  "transcribed_by": "claude (witch-doctor class run)"
+ },
+ "sidekick-witch-doctor-brewing-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Army of the Loa",
+    "Dance of the Loa",
+    "Dire Rage"
+   ],
+   "maintain": [
+    "Shadow Hemorrhage"
+   ],
+   "priority": [],
+   "signature": [
+    "Cauldron Brewer"
+   ]
+  },
+  "class": "witch-doctor",
+  "content_sha256": "aacefbc4f3a372a4",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-doctor/brewing",
+  "spec": "brewing"
+ },
+ "sidekick-witch-doctor-shadowhunting-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Base: Beast Blood",
+    "Master Mixologist",
+    "Vol'jin's Way"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Shadowhunter"
+   ]
+  },
+  "class": "witch-doctor",
+  "content_sha256": "e8290b8df9411bc5",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-doctor/shadowhunting",
+  "spec": "shadowhunting"
+ },
+ "sidekick-witch-doctor-voodoo-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Dark Effigy",
+    "Drakkari Barrier",
+    "Soul Marionette"
+   ],
+   "maintain": [
+    "Voodoo Strings"
+   ],
+   "priority": [],
+   "signature": [
+    "Puppeteer's Threads"
+   ]
+  },
+  "class": "witch-doctor",
+  "content_sha256": "9b92cd487ef157e0",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/witch-doctor/voodoo",
+  "spec": "voodoo"
+ }
+}

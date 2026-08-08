@@ -123,6 +123,20 @@ soul "This spec has no real heal-the-group kit … damage dealer"
 (`resources/sidekick-reaper-*.md`, scraped 2026-08-07). All self-sustain is
 leech, never an ally heal, so no healer target band can be hidden by these
 rows. Replace with an in-game read when one exists.
+| 13 | Witch Doctor | voodoo | damage |
+| 13 | Witch Doctor | brewing | healing |
+| 13 | Witch Doctor | shadowhunting | damage |
+
+**Witch Doctor provenance (13):** not yet observed in game — filled from
+citable Sidekick kit statements, one per spec: brewing "Solid dungeon healer —
+spot-heals pull damage … Strong in arena as a healer" with a full heal loop
+(Loa's Brew / Potion Toss / Mojo Beam / Cauldron); voodoo "Strong in arena as
+a damage dealer … Voodoo has no ally heal, so your 'support' is protection
+and pressure"; shadowhunting "Strong in arena as a damage dealer … built to
+contribute sustained ranged damage, not to stand and heal"
+(`resources/sidekick-witch-doctor-*.md`, scraped 2026-08-07). No tank kit
+appears in any of the three pages. Replace with an in-game read when one
+exists.
 
 ## Corroboration
 

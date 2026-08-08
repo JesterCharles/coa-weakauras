@@ -1,0 +1,413 @@
+{
+ "Allcure Elixir": {
+  "id": 804049,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Amphibimorph": {
+  "id": 500952,
+  "cd": "2 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Arcane Brew": {
+  "id": 801689,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Base: Crystal Water": {
+  "id": 500962,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Bethekk's Fury": {
+  "id": 804621,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Bind Avatar": {
+  "id": 801583,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Cursed Effigy": {
+  "id": 506820,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Dance of the Loa": {
+  "id": 801697,
+  "cd": "30 min cooldown",
+  "specs": [
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Darkwander": {
+  "id": 503599,
+  "cd": "22 sec cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Death Draught": {
+  "id": 602220,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Devotion of Gonk": {
+  "id": 302536,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Drakkari Barrier": {
+  "id": 500963,
+  "cd": "2 min cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": false
+ },
+ "Fool's Play": {
+  "id": 681007,
+  "cd": "2 min cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Frenzied Spirits": {
+  "id": 560748,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Gift of the Loa": {
+  "id": 501089,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Hexing Strike": {
+  "id": 501220,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Major Rejuvenating Mojo": {
+  "id": 572414,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Malefic Arrow": {
+  "id": 801674,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Malignant Jinx": {
+  "id": 803678,
+  "cd": "1 min cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mark of Pa'ku": {
+  "id": 504421,
+  "cd": "1 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": "0.5 sec"
+ },
+ "Mass Allcure Elixir": {
+  "id": 706555,
+  "cd": "2 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Master Mixologist": {
+  "id": 705864,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Mimic Ward": {
+  "id": 707162,
+  "cd": "1 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Mirage": {
+  "id": 501136,
+  "cd": "3 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mojo Beam": {
+  "id": 500950,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mojo: Fish Bones": {
+  "id": 705850,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Mojo: Frog Shrooms": {
+  "id": 705851,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Mojo: Jungle Thistle": {
+  "id": 500472,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Puppeteer's Grasp": {
+  "id": 706552,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": false
+ },
+ "Rage Brew": {
+  "id": 503750,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Recipe: Blood Frog": {
+  "id": 807043,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Rejuvenating Mojo": {
+  "id": 572325,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Shadow Avatar": {
+  "id": 705943,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Shadow Puppets": {
+  "id": 500015,
+  "cd": "18 sec cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Shadowstalker": {
+  "id": 807040,
+  "cd": "3 min cooldown",
+  "specs": [
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Shrink Ally": {
+  "id": 806282,
+  "cd": "2 min cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Slither": {
+  "id": 500947,
+  "cd": "1 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Soul Marionette": {
+  "id": 704243,
+  "cd": "3 min cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": false
+ },
+ "Spice: Peacebloom": {
+  "id": 803274,
+  "cd": "0.5 sec cooldown",
+  "specs": [
+   "brewing"
+  ],
+  "gcd": false
+ },
+ "Spirit Shock": {
+  "id": 806294,
+  "cd": "24 sec cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Stasis Ward": {
+  "id": 801678,
+  "cd": "1 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Umbral Glaive": {
+  "id": 801673,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "voodoo",
+   "shadowhunting"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Voice of Bwonsamdi": {
+  "id": 801716,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": false
+ },
+ "Vol'jin's Vigil": {
+  "id": 504465,
+  "cd": "2 min cooldown",
+  "specs": [
+   "voodoo",
+   "brewing",
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "Voodoo Bolt": {
+  "id": 501188,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Voodoo Puddle": {
+  "id": 803200,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": false
+ },
+ "Voodoo Slam": {
+  "id": 302532,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "shadowhunting"
+  ],
+  "gcd": false
+ },
+ "War Golem": {
+  "id": 800330,
+  "cd": "3 min cooldown",
+  "specs": [
+   "voodoo"
+  ],
+  "gcd": false
+ }
+}

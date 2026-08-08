@@ -1,5 +1,10 @@
 {
  "entries": {
+  "001ff147bb7fd1c8": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Increased Veil of Darkness\u2019s base damage and scaling by 22%."
+  },
   "00d072505ef1e0d7": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -25,6 +30,11 @@
    "date": "2026/07/31",
    "text": "Ravage Rank 2's damage has been increased from 56 to 70."
   },
+  "0594519dc3cbab83": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Base damage of Spirit Volley has been reduced by approximately 34%. This AoE spell was the best to use in all scenarios, even single target. Many other spells scaling and damage has been increased for Shadow Hunting so that this spell still remains strong but doesn\u2019t all"
+  },
   "06bedb6a738c0c98": {
    "class": "chronomancer",
    "date": "2026/07/31",
@@ -34,6 +44,11 @@
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Empyrean Fortitude now generates 5 RP, up from 2."
+  },
+  "0d9c3a83a05cba23": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Increased Voodoo Fire\u2019s base damage and scaling by 20%."
   },
   "0ddba1d563c5bb49": {
    "class": "felsworn",
@@ -129,6 +144,11 @@
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Gravity Bomb will now explode if the target dies before the timer runs out"
+  },
+  "2af2364372ede79f": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Increased Hex of Malice\u2019s base damage and scaling by 18%."
   },
   "2c78ad70687e8b44": {
    "class": "necromancer",
@@ -245,10 +265,20 @@
    "date": "2026/07/31",
    "text": "Draconic Invocation is now baseline, learned from the trainer at level 24."
   },
+  "46613deb97912961": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Increased Spirit Glaive\u2019s base damage and scaling by 69%."
+  },
   "474d568768b496fa": {
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Slaughter Rank 5 increased base damage from 119 to 143 and weapon damage from 130% to 150%."
+  },
+  "4796e4c4f9883d62": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Increased Reclamation\u2019s base damage and scaling by 21%."
   },
   "48ab5edb7de0f776": {
    "class": "witch-hunter",
@@ -289,6 +319,11 @@
    "class": "necromancer",
    "date": "2026/07/31",
    "text": "Fixed a bug where Unholy Runes was not increasing the damage of Crypt Swarm. Additionally, it now increases the damage of Blight and Blight has a 5% chance when it deals damage to reset the cooldown of Corpse Explosion."
+  },
+  "533818e140a892e4": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Fixed an issue where Loa Spirits could trigger from replicated instances of spells from Mimic Ward."
   },
   "5343cf2927151d4b": {
    "class": "necromancer",
@@ -465,6 +500,11 @@
    "date": "2026/07/31",
    "text": "Volcanic Shell Rank 5's absorb has been increased from 1961 to 3064."
   },
+  "74a0dbe675bcb3d0": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Triggered damage from Puppeteer\u2019s Threads can no longer be reflected."
+  },
   "74f722ae6dbad7c3": {
    "class": "witch-hunter",
    "date": "2026/08/01",
@@ -610,6 +650,11 @@
    "date": "2026/07/31",
    "text": "Whirling Assault\u2019s damage increase against enemies above 80% HP increased from 300% to 500%."
   },
+  "9d15949854ad0b27": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Fixed an issue which caused Spirit Volley cast time to benefit from haste separately on top of ranged weapon haste."
+  },
   "9e16bd9982ff844b": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -684,6 +729,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Greater Knight's Edict now persists through death."
+  },
+  "abb7df1e7f95d091": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Bwonsamdi\u2019s Gift no longer provides a cooldown reduction to Mimic Ward."
   },
   "b2e810949514db51": {
    "class": "ranger",
@@ -760,6 +810,11 @@
    "date": "2026/07/31",
    "text": "Hookshot Rank 3's damage has been increased from 146 to 219."
   },
+  "c08e5bd28279ffe8": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Mojo:Jungle Thistle no longer provides a threat reduction to targets hit, secondary effect value increased by 10%. (This effect had potential to hit the tanks through AOE application, making them lose threat)"
+  },
   "c0a487c360ebc78e": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -830,6 +885,11 @@
    "date": "2026/07/31",
    "text": "Drunken Brawler stacks now last 5 seconds, up from 3, and grant 2% dodge chance per stack, up from 1%."
   },
+  "c985aeb466bd060c": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Fixed an issue where Spirit Link Idol would not grant its effect for full duration and was not affected by Hastened."
+  },
   "c9bd9af9a92a4e3d": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -844,6 +904,11 @@
    "class": "chronomancer",
    "date": "2026/07/31",
    "text": "Adjusted the positioning of Timeline Tether and Rapid Acceleration"
+  },
+  "cfd4a043cada2e13": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Loa Spirits chance to allow Reclamation to cast an additional time has been reduced by 1%, meaning at max Spirits, the chance to cast an additional time is 20%, down from 25%."
   },
   "cff3c2058733d763": {
    "class": "felsworn",
@@ -875,6 +940,11 @@
    "date": "2026/07/31",
    "text": "Healing done by Waterskins increased by 30%."
   },
+  "da7c5135ea21adc0": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Fixed an issue where the Healing Ward radius would be inconsistent."
+  },
   "dc25cf2bb14cfca5": {
    "class": "necromancer",
    "date": "2026/07/31",
@@ -889,6 +959,11 @@
    "class": "runemaster",
    "date": "2026/07/31",
    "text": "Primordial Strength Attack Power to Spell Power scaling conversion increased from 25% -> 30%"
+  },
+  "e430bc826c9d6c05": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Damage of Godslayer now more evenly split between base and scaling."
   },
   "e44a730060bccbcb": {
    "class": "reaper",
@@ -950,10 +1025,25 @@
    "date": "2026/07/31",
    "text": "Giant Tosser now additionally increases the damage of Headhunter\u2019s Spears from further than 20 yards by 100%, but the additional energy is reduced from 50% down to 15%."
   },
+  "f78f6fa638401b0e": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Bwonsamdi\u2019s Gift damage increase to Spirit Volley reduced from 3% per Spirit to 2%."
+  },
   "f87ac03261ee339b": {
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Increased the value of Hemorrhage from 10% to 20%"
+  },
+  "f94d20439867666e": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Spirit Volley now uses ranged critical strike chance."
+  },
+  "f98b18622152fe18": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Fixed rank value progression of Spirit in a Bottle not consistently granting gains on rank gain."
   },
   "fc49a94f6daf0004": {
    "class": "barbarian",
@@ -964,6 +1054,11 @@
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Iron Gut now gives you a 30% reduction to the duration of poison effects, down from 40%, but it now additionally gives a 30% chance to resist the application of poisons entirely."
+  },
+  "fdfb0ccea2c2736c": {
+   "class": "witch-doctor",
+   "date": "2026/07/31",
+   "text": "Increased Auto Shot\u2019s damage by 19%."
   },
   "fe4e19bf17115bbc": {
    "class": "ranger",
