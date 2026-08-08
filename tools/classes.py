@@ -197,6 +197,13 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # First pin (0.1). The 5 are the class-wide NO VENOM alert (max 2 of 7
+    # Venoms active, every spec's cited rotation activates one -- the NO BOON
+    # shape) plus four merged Buffs leaves from SHORT_ENTRIES present on every
+    # spec (Tome of Ahn'kahet, Surprise Strategy, Harden, Lifeblood) that hold
+    # the class gate alone: buff icons are self-gating and a buff id is not
+    # something IsSpellKnown recognises.
+    "venomancer": 5,
 }
 
 

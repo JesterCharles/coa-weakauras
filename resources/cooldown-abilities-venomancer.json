@@ -1,0 +1,382 @@
+{
+ "Catalyst": {
+  "id": 800895,
+  "cd": "1 min cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Celerity": {
+  "id": 804962,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": false
+ },
+ "Chitin Rush": {
+  "id": 803570,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Claw Strike": {
+  "id": 803198,
+  "cd": "4 sec cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Contagion": {
+  "id": 503851,
+  "cd": "1 min cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Decay": {
+  "id": 800910,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "rot",
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Down The Water Spout": {
+  "id": 504378,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Extraction": {
+  "id": 805884,
+  "cd": "5 min cooldown",
+  "specs": [
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fang of Shadra": {
+  "id": 800888,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Fortify Carapace": {
+  "id": 802326,
+  "cd": "0.5 sec cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": false
+ },
+ "Gripping Webs": {
+  "id": 560222,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Harden": {
+  "id": 800892,
+  "cd": "3 min cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Harden Carapace": {
+  "id": 502934,
+  "cd": "3 min cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": false
+ },
+ "Hive Instinct": {
+  "id": 804968,
+  "cd": "2 min cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Lifeblood": {
+  "id": 804963,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": false
+ },
+ "Lure": {
+  "id": 807759,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Miasma": {
+  "id": 804549,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Molt": {
+  "id": 805102,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Mycelial Replenishment": {
+  "id": 706021,
+  "cd": "3 min cooldown",
+  "specs": [
+   "rot",
+   "vizier"
+  ],
+  "gcd": false
+ },
+ "Mycelial Ring": {
+  "id": 681291,
+  "cd": "2 min cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": false
+ },
+ "Myotoxin": {
+  "id": 572304,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "vizier"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Noxious Empowerment": {
+  "id": 804964,
+  "cd": "3 min cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Nullifying Toxin": {
+  "id": 805096,
+  "cd": "16 sec cooldown",
+  "specs": [
+   "fortitude",
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Parasite": {
+  "id": 800921,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Pinch": {
+  "id": 704235,
+  "cd": "1 min cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": false
+ },
+ "Regrow Exoskeleton": {
+  "id": 803197,
+  "cd": "1 min cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": false
+ },
+ "Rime": {
+  "id": 801091,
+  "cd": "9 sec cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": false
+ },
+ "Scarab": {
+  "id": 560989,
+  "cd": "5 min cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": false
+ },
+ "Sepsis Bloom": {
+  "id": 504867,
+  "cd": "2 min cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Serpent Lord's Amulet": {
+  "id": 800914,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "rot",
+   "vizier"
+  ],
+  "gcd": false
+ },
+ "Serpent Lord's Ring": {
+  "id": 503923,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": false
+ },
+ "Serpent's Fang": {
+  "id": 800946,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Shadra's Binding": {
+  "id": 800920,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": false
+ },
+ "Skitter": {
+  "id": 800848,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "fortitude",
+   "stalking"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Spawn": {
+  "id": 805568,
+  "cd": "10 min cooldown",
+  "specs": [
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Spider Form Jump": {
+  "id": 800879,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": "0.5 sec"
+ },
+ "Spindlebind": {
+  "id": 800887,
+  "cd": "16 sec cooldown",
+  "specs": [
+   "fortitude",
+   "rot",
+   "stalking",
+   "vizier"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Swiftness of the Spider Form": {
+  "id": 504320,
+  "cd": "1 min cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Toxflinger": {
+  "id": 803203,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Toxic Communion": {
+  "id": 680767,
+  "cd": "1 min cooldown",
+  "specs": [
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Toxic Sludge": {
+  "id": 803201,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "fortitude"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Unity": {
+  "id": 800904,
+  "cd": "16 sec cooldown",
+  "specs": [
+   "vizier"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Venocannon": {
+  "id": 804967,
+  "cd": "1 min cooldown",
+  "specs": [
+   "stalking"
+  ],
+  "gcd": false
+ },
+ "Venoxis Fang": {
+  "id": 805405,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "rot"
+  ],
+  "gcd": "1.5 sec"
+ }
+}

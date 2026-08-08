@@ -1,0 +1,3038 @@
+{
+ "4% Mana": {
+  "ids": [
+   504349
+  ],
+  "icon": null
+ },
+ "A Pit of Snakes": {
+  "ids": [
+   572767
+  ],
+  "icon": null
+ },
+ "Acceleration": {
+  "ids": [
+   705960
+  ],
+  "icon": null
+ },
+ "Acid Bolt": {
+  "ids": [
+   706025
+  ],
+  "icon": null
+ },
+ "Acid Burns": {
+  "ids": [
+   806604
+  ],
+  "icon": null
+ },
+ "Acidfang": {
+  "ids": [
+   806602
+  ],
+  "icon": null
+ },
+ "Acidic": {
+  "ids": [
+   573306
+  ],
+  "icon": null
+ },
+ "Acute Senses": {
+  "ids": [
+   300664
+  ],
+  "icon": null
+ },
+ "Adapt and Overcome": {
+  "ids": [
+   503795
+  ],
+  "icon": null
+ },
+ "Adrenal Venom": {
+  "ids": [
+   805775
+  ],
+  "icon": null
+ },
+ "Advisor's Perfidy": {
+  "ids": [
+   300684
+  ],
+  "icon": null
+ },
+ "Agitation": {
+  "ids": [
+   572909
+  ],
+  "icon": null
+ },
+ "Agonizing Sting": {
+  "ids": [
+   503855
+  ],
+  "icon": null
+ },
+ "Alacrity": {
+  "ids": [
+   705980
+  ],
+  "icon": null
+ },
+ "Alkahest": {
+  "ids": [
+   504342
+  ],
+  "icon": null
+ },
+ "Amber Guard": {
+  "ids": [
+   503959
+  ],
+  "icon": null
+ },
+ "Ambush Predator": {
+  "ids": [
+   800878
+  ],
+  "icon": null
+ },
+ "Antivenom": {
+  "ids": [
+   800905
+  ],
+  "icon": null
+ },
+ "Antivenom Curse Remover": {
+  "ids": [
+   524824
+  ],
+  "icon": null
+ },
+ "Apply Fang Venom (Spider Form)": {
+  "ids": [
+   707043
+  ],
+  "icon": null
+ },
+ "Apply Lifeblood": {
+  "ids": [
+   570133
+  ],
+  "icon": null
+ },
+ "Arachnified": {
+  "ids": [
+   706966
+  ],
+  "icon": null
+ },
+ "Arachnophobia": {
+  "ids": [
+   804970
+  ],
+  "icon": null
+ },
+ "Aspect's Pact": {
+  "ids": [
+   705994
+  ],
+  "icon": null
+ },
+ "Avatar of Shadra": {
+  "ids": [
+   503856
+  ],
+  "icon": null
+ },
+ "Barbed Stinger": {
+  "ids": [
+   680854
+  ],
+  "icon": null
+ },
+ "Beetle Form": {
+  "ids": [
+   803183
+  ],
+  "icon": null
+ },
+ "Beetle Pheromones": {
+  "ids": [
+   803651
+  ],
+  "icon": null
+ },
+ "Beetle Poison": {
+  "ids": [
+   705876
+  ],
+  "icon": null
+ },
+ "Beetle Slime": {
+  "ids": [
+   704347
+  ],
+  "icon": null
+ },
+ "Beetle or Spider Form": {
+  "ids": [
+   803184
+  ],
+  "icon": null
+ },
+ "Betraying the Spider Form Lord": {
+  "ids": [
+   503966
+  ],
+  "icon": null
+ },
+ "Big Mushroom": {
+  "ids": [
+   503924
+  ],
+  "icon": null
+ },
+ "Bile Eruption": {
+  "ids": [
+   500230
+  ],
+  "icon": null
+ },
+ "Black Widow": {
+  "ids": [
+   504322
+  ],
+  "icon": null
+ },
+ "Blaster": {
+  "ids": [
+   712362
+  ],
+  "icon": null
+ },
+ "Blessing of Shadra": {
+  "ids": [
+   300679
+  ],
+  "icon": null
+ },
+ "Blight Antidote": {
+  "ids": [
+   520153
+  ],
+  "icon": null
+ },
+ "Blight Venom": {
+  "ids": [
+   805776
+  ],
+  "icon": null
+ },
+ "Blightbringer": {
+  "ids": [
+   504360
+  ],
+  "icon": null
+ },
+ "Blightcap Ingestion": {
+  "ids": [
+   560282
+  ],
+  "icon": null
+ },
+ "Blightcaps": {
+  "ids": [
+   800868
+  ],
+  "icon": null
+ },
+ "Blightfang": {
+  "ids": [
+   680763
+  ],
+  "icon": null
+ },
+ "Blistering Fangs": {
+  "ids": [
+   572584
+  ],
+  "icon": null
+ },
+ "Boding Dread": {
+  "ids": [
+   804975
+  ],
+  "icon": null
+ },
+ "Book of Shadra": {
+  "ids": [
+   705957
+  ],
+  "icon": null
+ },
+ "Bountiful Gifts": {
+  "ids": [
+   706009
+  ],
+  "icon": null
+ },
+ "Brood Lord": {
+  "ids": [
+   707668
+  ],
+  "icon": null
+ },
+ "Brood Mark": {
+  "ids": [
+   804972
+  ],
+  "icon": null
+ },
+ "Brood Marks": {
+  "ids": [
+   92143
+  ],
+  "icon": null
+ },
+ "Brood Trap": {
+  "ids": [
+   803525
+  ],
+  "icon": null
+ },
+ "Brood Web": {
+  "ids": [
+   712455
+  ],
+  "icon": null
+ },
+ "Bug Spray": {
+  "ids": [
+   680795
+  ],
+  "icon": null
+ },
+ "Bugging": {
+  "ids": [
+   706026
+  ],
+  "icon": null
+ },
+ "Bugweaving": {
+  "ids": [
+   503963
+  ],
+  "icon": null
+ },
+ "Burrow": {
+  "ids": [
+   761050
+  ],
+  "icon": null
+ },
+ "Bursting Sore": {
+  "ids": [
+   807608
+  ],
+  "icon": null
+ },
+ "Call of the Grave": {
+  "ids": [
+   805358
+  ],
+  "icon": null
+ },
+ "Captivation": {
+  "ids": [
+   503930
+  ],
+  "icon": null
+ },
+ "Carapace Crash": {
+  "ids": [
+   803199
+  ],
+  "icon": null
+ },
+ "Carapace Regeneration": {
+  "ids": [
+   805931
+  ],
+  "icon": null
+ },
+ "Catalyst": {
+  "ids": [
+   800895
+  ],
+  "icon": null
+ },
+ "Caught In A Bind": {
+  "ids": [
+   567567
+  ],
+  "icon": null
+ },
+ "Caustic": {
+  "ids": [
+   807610
+  ],
+  "icon": null
+ },
+ "Celerity": {
+  "ids": [
+   804962
+  ],
+  "icon": null
+ },
+ "Champion of the Spider": {
+  "ids": [
+   803179
+  ],
+  "icon": null
+ },
+ "Charm of Warding": {
+  "ids": [
+   705967
+  ],
+  "icon": null
+ },
+ "Charmed Plating": {
+  "ids": [
+   300974
+  ],
+  "icon": null
+ },
+ "Chitin Rush": {
+  "ids": [
+   803570
+  ],
+  "icon": null
+ },
+ "Chitinous Spikes": {
+  "ids": [
+   503793
+  ],
+  "icon": null
+ },
+ "Chitinous Surge": {
+  "ids": [
+   705973
+  ],
+  "icon": null
+ },
+ "Claw Strike": {
+  "ids": [
+   803198
+  ],
+  "icon": null
+ },
+ "Cloud Chaser": {
+  "ids": [
+   706721
+  ],
+  "icon": null
+ },
+ "Cloud of Rot": {
+  "ids": [
+   652702
+  ],
+  "icon": null
+ },
+ "CoA Aura - Venomancer - Fortitude": {
+  "ids": [
+   887079
+  ],
+  "icon": null
+ },
+ "CoA Aura - Venomancer - Rot": {
+  "ids": [
+   887077
+  ],
+  "icon": null
+ },
+ "CoA Aura - Venomancer - Stalking": {
+  "ids": [
+   887078
+  ],
+  "icon": null
+ },
+ "CoA Aura - Venomancer - Vizier": {
+  "ids": [
+   887080
+  ],
+  "icon": null
+ },
+ "CoA Aura - Venomancer Class": {
+  "ids": [
+   887017
+  ],
+  "icon": null
+ },
+ "Conquest of Azeroth Specialization - Vizier Venomancer": {
+  "ids": [
+   680837
+  ],
+  "icon": null
+ },
+ "Consume Lethal Toxin": {
+  "ids": [
+   520700
+  ],
+  "icon": null
+ },
+ "Contagion": {
+  "ids": [
+   503851
+  ],
+  "icon": null
+ },
+ "Coral's Stat buff": {
+  "ids": [
+   560999
+  ],
+  "icon": null
+ },
+ "Corroded": {
+  "ids": [
+   560661
+  ],
+  "icon": null
+ },
+ "Corrosion": {
+  "ids": [
+   803194
+  ],
+  "icon": null
+ },
+ "Corrosive Bile": {
+  "ids": [
+   630934
+  ],
+  "icon": null
+ },
+ "Corrosive Bite": {
+  "ids": [
+   631226
+  ],
+  "icon": null
+ },
+ "Corrosive Sting": {
+  "ids": [
+   503810
+  ],
+  "icon": null
+ },
+ "Corrosive Toxin": {
+  "ids": [
+   807243
+  ],
+  "icon": null
+ },
+ "Corrupting Poison": {
+  "ids": [
+   800890
+  ],
+  "icon": null
+ },
+ "Cover": {
+  "ids": [
+   300680
+  ],
+  "icon": null
+ },
+ "Creeping Poison": {
+  "ids": [
+   805732
+  ],
+  "icon": null
+ },
+ "Cult Ichors": {
+  "ids": [
+   706715
+  ],
+  "icon": null
+ },
+ "Cunning": {
+  "ids": [
+   805093
+  ],
+  "icon": null
+ },
+ "Cunning of the Nerub'ar": {
+  "ids": [
+   805140
+  ],
+  "icon": null
+ },
+ "Curse of Shadra": {
+  "ids": [
+   504376
+  ],
+  "icon": null
+ },
+ "Cycle of Decay": {
+  "ids": [
+   500219
+  ],
+  "icon": null
+ },
+ "Cycle of Rebirth": {
+  "ids": [
+   560200
+  ],
+  "icon": null
+ },
+ "Deadly Kiss": {
+  "ids": [
+   504704
+  ],
+  "icon": null
+ },
+ "Deadly Neurotoxin": {
+  "ids": [
+   504795
+  ],
+  "icon": null
+ },
+ "Deadly Neurotoxins": {
+  "ids": [
+   504375
+  ],
+  "icon": null
+ },
+ "Deadly Sting": {
+  "ids": [
+   560264
+  ],
+  "icon": null
+ },
+ "Deadly Venom": {
+  "ids": [
+   300666
+  ],
+  "icon": null
+ },
+ "Death Spray": {
+  "ids": [
+   706271
+  ],
+  "icon": null
+ },
+ "Death's Dance": {
+  "ids": [
+   705983
+  ],
+  "icon": null
+ },
+ "Debilitating Venom": {
+  "ids": [
+   805731
+  ],
+  "icon": null
+ },
+ "Decay": {
+  "ids": [
+   800910
+  ],
+  "icon": null
+ },
+ "Destabilizing Toxins": {
+  "ids": [
+   504353
+  ],
+  "icon": null
+ },
+ "Disciple of Shadra": {
+  "ids": [
+   503907
+  ],
+  "icon": null
+ },
+ "DoT Bursing Sore Consumer": {
+  "ids": [
+   805036
+  ],
+  "icon": null
+ },
+ "Down The Water Spout": {
+  "ids": [
+   504378
+  ],
+  "icon": null
+ },
+ "Draconic - Level 15 Passive": {
+  "ids": [
+   707404
+  ],
+  "icon": null
+ },
+ "Dread Poison": {
+  "ids": [
+   705951
+  ],
+  "icon": null
+ },
+ "Dreaming...": {
+  "ids": [
+   706275
+  ],
+  "icon": null
+ },
+ "Dreamstride": {
+  "ids": [
+   706274
+  ],
+  "icon": null
+ },
+ "Drenched Fangs": {
+  "ids": [
+   800891
+  ],
+  "icon": null
+ },
+ "Drown In Poison": {
+  "ids": [
+   504407
+  ],
+  "icon": null
+ },
+ "Drowning In Poison": {
+  "ids": [
+   560267
+  ],
+  "icon": null
+ },
+ "Duke of Decay": {
+  "ids": [
+   706766
+  ],
+  "icon": null
+ },
+ "Empowered": {
+  "ids": [
+   705997
+  ],
+  "icon": null
+ },
+ "Empowered Exoskeleton": {
+  "ids": [
+   705981
+  ],
+  "icon": null
+ },
+ "Empowered Sting": {
+  "ids": [
+   705978
+  ],
+  "icon": null
+ },
+ "Empowering Pheromones": {
+  "ids": [
+   705996
+  ],
+  "icon": null
+ },
+ "Enchanted Chitin": {
+  "ids": [
+   706955
+  ],
+  "icon": null
+ },
+ "Enchanted Exoskeleton": {
+  "ids": [
+   300668
+  ],
+  "icon": null
+ },
+ "Enduring Exoskeleton": {
+  "ids": [
+   706004
+  ],
+  "icon": null
+ },
+ "Enduring Exoskeleton2": {
+  "ids": [
+   503961
+  ],
+  "icon": null
+ },
+ "Energize Base 5%": {
+  "ids": [
+   681318
+  ],
+  "icon": null
+ },
+ "Energize Max 20%": {
+  "ids": [
+   681510
+  ],
+  "icon": null
+ },
+ "Energize Missing 20%": {
+  "ids": [
+   681419
+  ],
+  "icon": null
+ },
+ "Energize Missing 3%": {
+  "ids": [
+   680917
+  ],
+  "icon": null
+ },
+ "Energize Missing 5%": {
+  "ids": [
+   681289
+  ],
+  "icon": null
+ },
+ "Envenom": {
+  "ids": [
+   805900
+  ],
+  "icon": null
+ },
+ "Envenomed Weapons": {
+  "ids": [
+   300855
+  ],
+  "icon": null
+ },
+ "Escalation": {
+  "ids": [
+   706251
+  ],
+  "icon": null
+ },
+ "Essence of Decay": {
+  "ids": [
+   707382
+  ],
+  "icon": null
+ },
+ "Eternal Curse": {
+  "ids": [
+   804359
+  ],
+  "icon": null
+ },
+ "Evasive": {
+  "ids": [
+   706003
+  ],
+  "icon": null
+ },
+ "Exposed Flesh": {
+  "ids": [
+   92144
+  ],
+  "icon": null
+ },
+ "Expulsion": {
+  "ids": [
+   805094
+  ],
+  "icon": null
+ },
+ "Extraction": {
+  "ids": [
+   805884
+  ],
+  "icon": null
+ },
+ "Facemelter": {
+  "ids": [
+   800871
+  ],
+  "icon": null
+ },
+ "Fang Blessing": {
+  "ids": [
+   503970
+  ],
+  "icon": null
+ },
+ "Fang Blessings": {
+  "ids": [
+   630870
+  ],
+  "icon": null
+ },
+ "Fang Venom: Blight": {
+  "ids": [
+   630883
+  ],
+  "icon": null
+ },
+ "Fang Venom: Creeping Poison": {
+  "ids": [
+   630881
+  ],
+  "icon": null
+ },
+ "Fang Venom: Lifeblood": {
+  "ids": [
+   630882
+  ],
+  "icon": null
+ },
+ "Fang Venom: Toxic Blast": {
+  "ids": [
+   630880
+  ],
+  "icon": null
+ },
+ "Fang Venom: Toxic Rejuvenation": {
+  "ids": [
+   630885
+  ],
+  "icon": null
+ },
+ "Fang Venom: Weakening": {
+  "ids": [
+   630884
+  ],
+  "icon": null
+ },
+ "Fang of Shadra": {
+  "ids": [
+   800888
+  ],
+  "icon": null
+ },
+ "Fang of Shadra passive": {
+  "ids": [
+   706960
+  ],
+  "icon": null
+ },
+ "Fangbinder": {
+  "ids": [
+   560195
+  ],
+  "icon": null
+ },
+ "Fortify Carapace": {
+  "ids": [
+   802326
+  ],
+  "icon": null
+ },
+ "From Death Comes Life": {
+  "ids": [
+   503926
+  ],
+  "icon": null
+ },
+ "From Life Comes Death": {
+  "ids": [
+   504855
+  ],
+  "icon": null
+ },
+ "Fungal Allies": {
+  "ids": [
+   681054
+  ],
+  "icon": null
+ },
+ "Fungal Assailant": {
+  "ids": [
+   503929
+  ],
+  "icon": null
+ },
+ "Fungal Growth": {
+  "ids": [
+   804971
+  ],
+  "icon": null
+ },
+ "Fungal Link": {
+  "ids": [
+   300959
+  ],
+  "icon": null
+ },
+ "Fungarian Passive": {
+  "ids": [
+   807154
+  ],
+  "icon": null
+ },
+ "Fungic": {
+  "ids": [
+   706455
+  ],
+  "icon": null
+ },
+ "Fungify": {
+  "ids": [
+   504362
+  ],
+  "icon": null
+ },
+ "Fury of Anub'Rekhan": {
+  "ids": [
+   800894
+  ],
+  "icon": null
+ },
+ "Fury of Shadra": {
+  "ids": [
+   503850
+  ],
+  "icon": null
+ },
+ "Gavel of Grace": {
+  "ids": [
+   681317
+  ],
+  "icon": null
+ },
+ "Genesis": {
+  "ids": [
+   705962
+  ],
+  "icon": null
+ },
+ "Gift of Shadra": {
+  "ids": [
+   804367
+  ],
+  "icon": null
+ },
+ "Glitch": {
+  "ids": [
+   805124
+  ],
+  "icon": null
+ },
+ "Glory To Shadra!": {
+  "ids": [
+   706033
+  ],
+  "icon": null
+ },
+ "Good Venom": {
+  "ids": [
+   630866
+  ],
+  "icon": null
+ },
+ "Graceful Exoskeleton": {
+  "ids": [
+   706444
+  ],
+  "icon": null
+ },
+ "Greater Beetle Pheromones": {
+  "ids": [
+   803657
+  ],
+  "icon": null
+ },
+ "Greater Spider Pheromones": {
+  "ids": [
+   680312
+  ],
+  "icon": null
+ },
+ "Greater Toxic Pheromones": {
+  "ids": [
+   712459
+  ],
+  "icon": null
+ },
+ "Green Salve": {
+  "ids": [
+   800902
+  ],
+  "icon": null
+ },
+ "Gripping Webs": {
+  "ids": [
+   560222
+  ],
+  "icon": null
+ },
+ "Hallucinogenic Venom": {
+  "ids": [
+   560188
+  ],
+  "icon": null
+ },
+ "Harden": {
+  "ids": [
+   800892
+  ],
+  "icon": null
+ },
+ "Harden Carapace": {
+  "ids": [
+   502934
+  ],
+  "icon": null
+ },
+ "Hardened": {
+  "ids": [
+   560268
+  ],
+  "icon": null
+ },
+ "Hellish Rebuke Charge Resetter": {
+  "ids": [
+   805456
+  ],
+  "icon": null
+ },
+ "Hidden Organocannon Missile Visual": {
+  "ids": [
+   300686
+  ],
+  "icon": null
+ },
+ "Hidden Organocannon Missile Visual Two": {
+  "ids": [
+   300687
+  ],
+  "icon": null
+ },
+ "Hive Instinct": {
+  "ids": [
+   804968
+  ],
+  "icon": null
+ },
+ "Hivebreak": {
+  "ids": [
+   803193
+  ],
+  "icon": null
+ },
+ "Hydrateeth": {
+  "ids": [
+   712413
+  ],
+  "icon": null
+ },
+ "Impale": {
+  "ids": [
+   520663
+  ],
+  "icon": null
+ },
+ "Improved Facemelter": {
+  "ids": [
+   706039
+  ],
+  "icon": null
+ },
+ "Improved Harden": {
+  "ids": [
+   705971
+  ],
+  "icon": null
+ },
+ "Improved Miasma": {
+  "ids": [
+   300676
+  ],
+  "icon": null
+ },
+ "Improved Nightweb Poison": {
+  "ids": [
+   503987
+  ],
+  "icon": null
+ },
+ "Improved Shadra's Vigil": {
+  "ids": [
+   300675
+  ],
+  "icon": null
+ },
+ "Improved Sting": {
+  "ids": [
+   705979
+  ],
+  "icon": null
+ },
+ "Improved Venoxis Fang": {
+  "ids": [
+   706013
+  ],
+  "icon": null
+ },
+ "Incineration - Level 15 Passive": {
+  "ids": [
+   706716
+  ],
+  "icon": null
+ },
+ "Infestation": {
+  "ids": [
+   706030
+  ],
+  "icon": null
+ },
+ "Inoculation": {
+  "ids": [
+   706008
+  ],
+  "icon": null
+ },
+ "Intoxicating Venoms": {
+  "ids": [
+   706023
+  ],
+  "icon": null
+ },
+ "Iron Fist Decrementer": {
+  "ids": [
+   805455
+  ],
+  "icon": null
+ },
+ "Lair Guard": {
+  "ids": [
+   804976
+  ],
+  "icon": null
+ },
+ "Lairguard": {
+  "ids": [
+   804966
+  ],
+  "icon": null
+ },
+ "Last Kiss": {
+  "ids": [
+   504321
+  ],
+  "icon": null
+ },
+ "Leech Poison": {
+  "ids": [
+   800881
+  ],
+  "icon": null
+ },
+ "Leg Strike": {
+  "ids": [
+   800883
+  ],
+  "icon": null
+ },
+ "Leg Strike Gen": {
+  "ids": [
+   504374
+  ],
+  "icon": null
+ },
+ "Lethal Toxin": {
+  "ids": [
+   802840
+  ],
+  "icon": null
+ },
+ "Lethal Toxin applier": {
+  "ids": [
+   680874
+  ],
+  "icon": null
+ },
+ "Lethality": {
+  "ids": [
+   503852
+  ],
+  "icon": null
+ },
+ "Lethargic": {
+  "ids": [
+   801013
+  ],
+  "icon": null
+ },
+ "Lethargy": {
+  "ids": [
+   503928
+  ],
+  "icon": null
+ },
+ "Lifeblood": {
+  "ids": [
+   804963
+  ],
+  "icon": null
+ },
+ "Lifemender": {
+  "ids": [
+   706477
+  ],
+  "icon": null
+ },
+ "Limb Decayer": {
+  "ids": [
+   681057
+  ],
+  "icon": null
+ },
+ "Locust": {
+  "ids": [
+   704271
+  ],
+  "icon": null
+ },
+ "Locust Swarm": {
+  "ids": [
+   560247
+  ],
+  "icon": null
+ },
+ "Lure": {
+  "ids": [
+   807759
+  ],
+  "icon": null
+ },
+ "Magic Shell": {
+  "ids": [
+   705970
+  ],
+  "icon": null
+ },
+ "Mamba Mentality": {
+  "ids": [
+   503976
+  ],
+  "icon": null
+ },
+ "Mantid Descent": {
+  "ids": [
+   570123
+  ],
+  "icon": null
+ },
+ "Mark of Mojo": {
+  "ids": [
+   806634
+  ],
+  "icon": null
+ },
+ "Mark of Pa'ku": {
+  "ids": [
+   504422
+  ],
+  "icon": null
+ },
+ "Master of Forms": {
+  "ids": [
+   504325
+  ],
+  "icon": null
+ },
+ "Master of Rot": {
+  "ids": [
+   706714
+  ],
+  "icon": null
+ },
+ "Master of Venoms": {
+  "ids": [
+   504326
+  ],
+  "icon": null
+ },
+ "Melioration": {
+  "ids": [
+   680324
+  ],
+  "icon": null
+ },
+ "Mending Mist": {
+  "ids": [
+   800899
+  ],
+  "icon": null
+ },
+ "Miasma": {
+  "ids": [
+   804549
+  ],
+  "icon": null
+ },
+ "Miasmic Disposition": {
+  "ids": [
+   503981
+  ],
+  "icon": null
+ },
+ "Might of Azjol-Nerub": {
+  "ids": [
+   503964
+  ],
+  "icon": null
+ },
+ "Molt": {
+  "ids": [
+   805102
+  ],
+  "icon": null
+ },
+ "Molting": {
+  "ids": [
+   681015
+  ],
+  "icon": null
+ },
+ "Mushroom": {
+  "ids": [
+   281098
+  ],
+  "icon": null
+ },
+ "Mycelial Healing": {
+  "ids": [
+   806449
+  ],
+  "icon": null
+ },
+ "Mycelial Replenishment": {
+  "ids": [
+   706021
+  ],
+  "icon": null
+ },
+ "Mycelial Ring": {
+  "ids": [
+   681291
+  ],
+  "icon": null
+ },
+ "Mycelial Synchronization": {
+  "ids": [
+   706939
+  ],
+  "icon": null
+ },
+ "Mycosis": {
+  "ids": [
+   804986
+  ],
+  "icon": null
+ },
+ "Myotoxin": {
+  "ids": [
+   572304
+  ],
+  "icon": null
+ },
+ "Natural Weapons": {
+  "ids": [
+   504393
+  ],
+  "icon": null
+ },
+ "Nature Against Nature": {
+  "ids": [
+   680871
+  ],
+  "icon": null
+ },
+ "Necessary Preparations": {
+  "ids": [
+   503919
+  ],
+  "icon": null
+ },
+ "Nerubian Heritage": {
+  "ids": [
+   300677
+  ],
+  "icon": null
+ },
+ "Nerubian Poison": {
+  "ids": [
+   706034
+  ],
+  "icon": null
+ },
+ "Nerubian Spider Form": {
+  "ids": [
+   800389
+  ],
+  "icon": null
+ },
+ "Nerubian Sting": {
+  "ids": [
+   800882
+  ],
+  "icon": null
+ },
+ "Nesting": {
+  "ids": [
+   503962
+  ],
+  "icon": null
+ },
+ "Nimble Insect": {
+  "ids": [
+   503957
+  ],
+  "icon": null
+ },
+ "Noxious Empowerment": {
+  "ids": [
+   804964
+  ],
+  "icon": null
+ },
+ "Nullifying Toxin": {
+  "ids": [
+   805096
+  ],
+  "icon": null
+ },
+ "Nullifying Venom": {
+  "ids": [
+   805777
+  ],
+  "icon": null
+ },
+ "Occultist": {
+  "ids": [
+   504339
+  ],
+  "icon": null
+ },
+ "On The Offensive": {
+  "ids": [
+   555726
+  ],
+  "icon": null
+ },
+ "One Man's Poison...": {
+  "ids": [
+   503799
+  ],
+  "icon": null
+ },
+ "Ophidian Renewal": {
+  "ids": [
+   706938
+  ],
+  "icon": null
+ },
+ "Organocannon": {
+  "ids": [
+   805341
+  ],
+  "icon": null
+ },
+ "Paralytic Poison": {
+  "ids": [
+   706941
+  ],
+  "icon": null
+ },
+ "Paralyze": {
+  "ids": [
+   560647
+  ],
+  "icon": null
+ },
+ "Paralyze Dispel": {
+  "ids": [
+   520601
+  ],
+  "icon": null
+ },
+ "Parasite": {
+  "ids": [
+   800921
+  ],
+  "icon": null
+ },
+ "Parasite Poison": {
+  "ids": [
+   807758
+  ],
+  "icon": null
+ },
+ "Parasite: Unburrow": {
+  "ids": [
+   803537
+  ],
+  "icon": null
+ },
+ "Pendo's Charm": {
+  "ids": [
+   504400
+  ],
+  "icon": null
+ },
+ "Pinch": {
+  "ids": [
+   704235
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   707569
+  ],
+  "icon": null
+ },
+ "Playing With Poison": {
+  "ids": [
+   707563
+  ],
+  "icon": null
+ },
+ "Poison Eruption": {
+  "ids": [
+   520232
+  ],
+  "icon": null
+ },
+ "Poison for Everyone!": {
+  "ids": [
+   504837
+  ],
+  "icon": null
+ },
+ "Poisonous": {
+  "ids": [
+   707320
+  ],
+  "icon": null
+ },
+ "Poisonous Body": {
+  "ids": [
+   504337
+  ],
+  "icon": null
+ },
+ "Poisonous Trinity": {
+  "ids": [
+   503978
+  ],
+  "icon": null
+ },
+ "Potency": {
+  "ids": [
+   503854
+  ],
+  "icon": null
+ },
+ "Potent Expulsion": {
+  "ids": [
+   560266
+  ],
+  "icon": null
+ },
+ "Powerful Legs": {
+  "ids": [
+   300683
+  ],
+  "icon": null
+ },
+ "Prayer Beads": {
+  "ids": [
+   520681
+  ],
+  "icon": null
+ },
+ "Prophetic Burst": {
+  "ids": [
+   524777
+  ],
+  "icon": null
+ },
+ "Prophetic Speaker": {
+  "ids": [
+   706956
+  ],
+  "icon": null
+ },
+ "Protogenesis": {
+  "ids": [
+   503783
+  ],
+  "icon": null
+ },
+ "Protraction": {
+  "ids": [
+   706942
+  ],
+  "icon": null
+ },
+ "Prowler": {
+  "ids": [
+   804342
+  ],
+  "icon": null
+ },
+ "Rabies": {
+  "ids": [
+   806940
+  ],
+  "icon": null
+ },
+ "Rage Generation": {
+  "ids": [
+   804099
+  ],
+  "icon": null
+ },
+ "Rapid Injection": {
+  "ids": [
+   705989
+  ],
+  "icon": null
+ },
+ "Ravager": {
+  "ids": [
+   301063
+  ],
+  "icon": null
+ },
+ "Reconstructive Carapace": {
+  "ids": [
+   705999
+  ],
+  "icon": null
+ },
+ "Reduce Cooldown Harden Carapace": {
+  "ids": [
+   801932
+  ],
+  "icon": null
+ },
+ "Reduce Harden Carapace": {
+  "ids": [
+   800961
+  ],
+  "icon": null
+ },
+ "Reduce Widow's Kiss CD": {
+  "ids": [
+   800387
+  ],
+  "icon": null
+ },
+ "Reform": {
+  "ids": [
+   805348
+  ],
+  "icon": null
+ },
+ "Reformed": {
+  "ids": [
+   801088
+  ],
+  "icon": null
+ },
+ "Regeneration": {
+  "ids": [
+   803213
+  ],
+  "icon": null
+ },
+ "Regenerative Properties": {
+  "ids": [
+   801519
+  ],
+  "icon": null
+ },
+ "Regenerative Strikes": {
+  "ids": [
+   805099
+  ],
+  "icon": null
+ },
+ "Regrow Exoskeleton": {
+  "ids": [
+   803197
+  ],
+  "icon": null
+ },
+ "Reinforced Exoskeleton": {
+  "ids": [
+   706002
+  ],
+  "icon": null
+ },
+ "Reinforced Shell": {
+  "ids": [
+   705966
+  ],
+  "icon": null
+ },
+ "Rejuvenating Venom": {
+  "ids": [
+   630868
+  ],
+  "icon": null
+ },
+ "Relentless": {
+  "ids": [
+   578320
+  ],
+  "icon": null
+ },
+ "Remove Exposed Flesh": {
+  "ids": [
+   800762
+  ],
+  "icon": null
+ },
+ "Remove Fang Venoms": {
+  "ids": [
+   805899
+  ],
+  "icon": null
+ },
+ "Remove Grimclaw": {
+  "ids": [
+   800668
+  ],
+  "icon": null
+ },
+ "Remove Grimclaw Delayer": {
+  "ids": [
+   800667
+  ],
+  "icon": null
+ },
+ "Remove Venoms": {
+  "ids": [
+   630872
+  ],
+  "icon": null
+ },
+ "Repeat Worship": {
+  "ids": [
+   504338
+  ],
+  "icon": null
+ },
+ "Resistant": {
+  "ids": [
+   705992
+  ],
+  "icon": null
+ },
+ "Reverse Rot": {
+  "ids": [
+   300669
+  ],
+  "icon": null
+ },
+ "Riftblade": {
+  "ids": [
+   804102
+  ],
+  "icon": null
+ },
+ "Riftgate: Prison": {
+  "ids": [
+   500280
+  ],
+  "icon": null
+ },
+ "Riftgate: Transfer": {
+  "ids": [
+   500281
+  ],
+  "icon": null
+ },
+ "Rime": {
+  "ids": [
+   801091
+  ],
+  "icon": null
+ },
+ "Ritual Healing": {
+  "ids": [
+   800900
+  ],
+  "icon": null
+ },
+ "Ritualistic": {
+  "ids": [
+   503918
+  ],
+  "icon": null
+ },
+ "Ritualistic Renewal": {
+  "ids": [
+   706028
+  ],
+  "icon": null
+ },
+ "Rot Away": {
+  "ids": [
+   681050
+  ],
+  "icon": null
+ },
+ "Rot Lich": {
+  "ids": [
+   92142
+  ],
+  "icon": null
+ },
+ "Rotfang": {
+  "ids": [
+   804977
+  ],
+  "icon": null
+ },
+ "Rotpriest": {
+  "ids": [
+   706209
+  ],
+  "icon": null
+ },
+ "Rotspreader": {
+  "ids": [
+   706020
+  ],
+  "icon": null
+ },
+ "Rotting Away": {
+  "ids": [
+   681055
+  ],
+  "icon": null
+ },
+ "Rotting Sores": {
+  "ids": [
+   807601
+  ],
+  "icon": null
+ },
+ "Rune of Haste": {
+  "ids": [
+   300874
+  ],
+  "icon": null
+ },
+ "Runed Carapace": {
+  "ids": [
+   503989
+  ],
+  "icon": null
+ },
+ "Sage": {
+  "ids": [
+   680768
+  ],
+  "icon": null
+ },
+ "Scarab": {
+  "ids": [
+   560989
+  ],
+  "icon": null
+ },
+ "Scarabs": {
+  "ids": [
+   560988
+  ],
+  "icon": null
+ },
+ "Scorpid Alacrity": {
+  "ids": [
+   561230
+  ],
+  "icon": null
+ },
+ "Scorpid Speed": {
+  "ids": [
+   504392
+  ],
+  "icon": null
+ },
+ "Scorpid,Spider Form,Vizier Form": {
+  "ids": [
+   504365
+  ],
+  "icon": null
+ },
+ "Scorpid,Spider Form,Weaver Form": {
+  "ids": [
+   504366
+  ],
+  "icon": null
+ },
+ "Scorpion King": {
+  "ids": [
+   503794
+  ],
+  "icon": null
+ },
+ "Sea Serpent Form": {
+  "ids": [
+   803212
+  ],
+  "icon": null
+ },
+ "Selfish Endeavors": {
+  "ids": [
+   681168
+  ],
+  "icon": null
+ },
+ "Sepsis Bloom": {
+  "ids": [
+   504867
+  ],
+  "icon": null
+ },
+ "Septic Trauma": {
+  "ids": [
+   504361
+  ],
+  "icon": null
+ },
+ "Serpent Coil (Fangvenom)": {
+  "ids": [
+   300780
+  ],
+  "icon": null
+ },
+ "Serpent Lord": {
+  "ids": [
+   800283
+  ],
+  "icon": null
+ },
+ "Serpent Lord's Amulet": {
+  "ids": [
+   800914
+  ],
+  "icon": null
+ },
+ "Serpent Lord's Gift": {
+  "ids": [
+   503988
+  ],
+  "icon": null
+ },
+ "Serpent Lord's Ring": {
+  "ids": [
+   503923
+  ],
+  "icon": null
+ },
+ "Serpent Lord's Ritual": {
+  "ids": [
+   706018
+  ],
+  "icon": null
+ },
+ "Serpent's Cunning": {
+  "ids": [
+   680796
+  ],
+  "icon": null
+ },
+ "Serpent's Embrace": {
+  "ids": [
+   560194
+  ],
+  "icon": null
+ },
+ "Serpent's Fang": {
+  "ids": [
+   800946
+  ],
+  "icon": null
+ },
+ "Serpent's Guidance": {
+  "ids": [
+   503968
+  ],
+  "icon": null
+ },
+ "Serpent's Mist": {
+  "ids": [
+   573305
+  ],
+  "icon": null
+ },
+ "Shadra's Aid": {
+  "ids": [
+   504351
+  ],
+  "icon": null
+ },
+ "Shadra's Balm": {
+  "ids": [
+   800901
+  ],
+  "icon": null
+ },
+ "Shadra's Binding": {
+  "ids": [
+   800920
+  ],
+  "icon": null
+ },
+ "Shadra's Boon": {
+  "ids": [
+   681443
+  ],
+  "icon": null
+ },
+ "Shadra's Champion": {
+  "ids": [
+   681045
+  ],
+  "icon": null
+ },
+ "Shadra's Favor": {
+  "ids": [
+   567591
+  ],
+  "icon": null
+ },
+ "Shadra's Gift": {
+  "ids": [
+   706937
+  ],
+  "icon": null
+ },
+ "Shadra's Lair": {
+  "ids": [
+   524957
+  ],
+  "icon": null
+ },
+ "Shadra's Prayer": {
+  "ids": [
+   800870
+  ],
+  "icon": null
+ },
+ "Shadra's Presence": {
+  "ids": [
+   504348
+  ],
+  "icon": null
+ },
+ "Shadra's Seance": {
+  "ids": [
+   300678
+  ],
+  "icon": null
+ },
+ "Shadra's Vigil": {
+  "ids": [
+   505203
+  ],
+  "icon": null
+ },
+ "Shadra's Vigil Duration Setter Delayer": {
+  "ids": [
+   706769
+  ],
+  "icon": null
+ },
+ "Shadra's Vigil Venomancer's Gift Periodic Trigger Duration Aura": {
+  "ids": [
+   560677
+  ],
+  "icon": null
+ },
+ "Shapeshifting Fatigue": {
+  "ids": [
+   800974
+  ],
+  "icon": null
+ },
+ "Shedder": {
+  "ids": [
+   705990
+  ],
+  "icon": null
+ },
+ "Shifting Veno Dispel": {
+  "ids": [
+   570199
+  ],
+  "icon": null
+ },
+ "Silver Trident": {
+  "ids": [
+   707236
+  ],
+  "icon": null
+ },
+ "Skin Shedder": {
+  "ids": [
+   705949
+  ],
+  "icon": null
+ },
+ "Skitter": {
+  "ids": [
+   800848
+  ],
+  "icon": null
+ },
+ "Skitter Smack": {
+  "ids": [
+   806202
+  ],
+  "icon": null
+ },
+ "Skittering Rush": {
+  "ids": [
+   804965
+  ],
+  "icon": null
+ },
+ "Skulk": {
+  "ids": [
+   800843
+  ],
+  "icon": null
+ },
+ "Skulk Hidden 2": {
+  "ids": [
+   520596
+  ],
+  "icon": null
+ },
+ "Skulking": {
+  "ids": [
+   520890
+  ],
+  "icon": null
+ },
+ "Slime": {
+  "ids": [
+   503798
+  ],
+  "icon": null
+ },
+ "Slimy": {
+  "ids": [
+   705998
+  ],
+  "icon": null
+ },
+ "Slimy Stingers": {
+  "ids": [
+   706001
+  ],
+  "icon": null
+ },
+ "Soothing Venoms": {
+  "ids": [
+   707726
+  ],
+  "icon": null
+ },
+ "Spawn": {
+  "ids": [
+   805568
+  ],
+  "icon": null
+ },
+ "Spellslinger": {
+  "ids": [
+   800666
+  ],
+  "icon": null
+ },
+ "Spider Form": {
+  "ids": [
+   800841
+  ],
+  "icon": null
+ },
+ "Spider Form Attack": {
+  "ids": [
+   806200
+  ],
+  "icon": null
+ },
+ "Spider Form Bite Master": {
+  "ids": [
+   802853
+  ],
+  "icon": null
+ },
+ "Spider Form Cultist": {
+  "ids": [
+   503974
+  ],
+  "icon": null
+ },
+ "Spider Form Jump": {
+  "ids": [
+   800879
+  ],
+  "icon": null
+ },
+ "Spider Form King": {
+  "ids": [
+   681046
+  ],
+  "icon": null
+ },
+ "Spider Form Lord": {
+  "ids": [
+   805139
+  ],
+  "icon": null
+ },
+ "Spider Form Lord Scarb Focus": {
+  "ids": [
+   630893
+  ],
+  "icon": null
+ },
+ "Spider Formlord's Ritual": {
+  "ids": [
+   706019
+  ],
+  "icon": null
+ },
+ "Spider Lord": {
+  "ids": [
+   704264
+  ],
+  "icon": null
+ },
+ "Spider Pheromones": {
+  "ids": [
+   803177
+  ],
+  "icon": null
+ },
+ "Spindlebind": {
+  "ids": [
+   800887
+  ],
+  "icon": null
+ },
+ "Spindly": {
+  "ids": [
+   706959
+  ],
+  "icon": null
+ },
+ "Spirit of the Jungle": {
+  "ids": [
+   681048
+  ],
+  "icon": null
+ },
+ "Spiritual Healing": {
+  "ids": [
+   706211
+  ],
+  "icon": null
+ },
+ "Spore": {
+  "ids": [
+   804983
+  ],
+  "icon": null
+ },
+ "Sporelord": {
+  "ids": [
+   804989
+  ],
+  "icon": null
+ },
+ "Spread Venom Fang": {
+  "ids": [
+   706957
+  ],
+  "icon": null
+ },
+ "Starlords Blade Decrementer": {
+  "ids": [
+   805441
+  ],
+  "icon": null
+ },
+ "Stinging Chitin": {
+  "ids": [
+   705977
+  ],
+  "icon": null
+ },
+ "Sturdy Carapace": {
+  "ids": [
+   300671
+  ],
+  "icon": null
+ },
+ "Sublime Extraction": {
+  "ids": [
+   681320
+  ],
+  "icon": null
+ },
+ "Suffocating Coil": {
+  "ids": [
+   707234
+  ],
+  "icon": null
+ },
+ "Suffocating Coils": {
+  "ids": [
+   707233
+  ],
+  "icon": null
+ },
+ "Surprise Attack": {
+  "ids": [
+   503848
+  ],
+  "icon": null
+ },
+ "Surprise Strategy": {
+  "ids": [
+   504211
+  ],
+  "icon": null
+ },
+ "Swamp Blessing": {
+  "ids": [
+   681197
+  ],
+  "icon": null
+ },
+ "Swarm of Locusts": {
+  "ids": [
+   704270
+  ],
+  "icon": null
+ },
+ "Swift Pincers": {
+  "ids": [
+   503954
+  ],
+  "icon": null
+ },
+ "Swiftness of the Spider Form": {
+  "ids": [
+   504320
+  ],
+  "icon": null
+ },
+ "The Antidote": {
+  "ids": [
+   681315
+  ],
+  "icon": null
+ },
+ "The New Kingdom": {
+  "ids": [
+   503955
+  ],
+  "icon": null
+ },
+ "The Old Kingdom": {
+  "ids": [
+   705952
+  ],
+  "icon": null
+ },
+ "Tome of Ahn'kahet": {
+  "ids": [
+   504341
+  ],
+  "icon": null
+ },
+ "Toxflinger": {
+  "ids": [
+   803203
+  ],
+  "icon": null
+ },
+ "Toxic Communion": {
+  "ids": [
+   680767
+  ],
+  "icon": null
+ },
+ "Toxic Expulsion": {
+  "ids": [
+   705959
+  ],
+  "icon": null
+ },
+ "Toxic Pheromones": {
+  "ids": [
+   707689
+  ],
+  "icon": null
+ },
+ "Toxic Rage": {
+  "ids": [
+   801259
+  ],
+  "icon": null
+ },
+ "Toxic Renewal": {
+  "ids": [
+   803982
+  ],
+  "icon": null
+ },
+ "Toxic Renewal CD Reduce": {
+  "ids": [
+   803983
+  ],
+  "icon": null
+ },
+ "Toxic Sludge": {
+  "ids": [
+   803201
+  ],
+  "icon": null
+ },
+ "Toxic Stride": {
+  "ids": [
+   504345
+  ],
+  "icon": null
+ },
+ "Toxicity": {
+  "ids": [
+   707570
+  ],
+  "icon": null
+ },
+ "Tranquil Essence": {
+  "ids": [
+   504799
+  ],
+  "icon": null
+ },
+ "Travel Form Slow and Root dispel effect": {
+  "ids": [
+   801048
+  ],
+  "icon": null
+ },
+ "Truly Rotten": {
+  "ids": [
+   503859
+  ],
+  "icon": null
+ },
+ "Tunneler": {
+  "ids": [
+   630932
+  ],
+  "icon": null
+ },
+ "Tunneling": {
+  "ids": [
+   800906
+  ],
+  "icon": null
+ },
+ "Unbreakable": {
+  "ids": [
+   573327
+  ],
+  "icon": null
+ },
+ "Unburrow": {
+  "ids": [
+   761051
+  ],
+  "icon": null
+ },
+ "Unity": {
+  "ids": [
+   800904
+  ],
+  "icon": null
+ },
+ "Unity Hidden Passive": {
+  "ids": [
+   704234
+  ],
+  "icon": null
+ },
+ "Venocannon": {
+  "ids": [
+   804967
+  ],
+  "icon": null
+ },
+ "Venom Bolt": {
+  "ids": [
+   800869
+  ],
+  "icon": null
+ },
+ "Venom Counter": {
+  "ids": [
+   805779
+  ],
+  "icon": null
+ },
+ "Venom Counter Stack Remover": {
+  "ids": [
+   807260
+  ],
+  "icon": null
+ },
+ "Venom Cultist": {
+  "ids": [
+   706212
+  ],
+  "icon": null
+ },
+ "Venom Ejection Condition": {
+  "ids": [
+   680853
+  ],
+  "icon": null
+ },
+ "Venom Fanatic": {
+  "ids": [
+   681059
+  ],
+  "icon": null
+ },
+ "Venom Fang": {
+  "ids": [
+   800880
+  ],
+  "icon": null
+ },
+ "Venom Fang passive": {
+  "ids": [
+   706965
+  ],
+  "icon": null
+ },
+ "Venom Glands": {
+  "ids": [
+   706015
+  ],
+  "icon": null
+ },
+ "Venom Saturation": {
+  "ids": [
+   804984
+  ],
+  "icon": null
+ },
+ "Venom Shell": {
+  "ids": [
+   300681
+  ],
+  "icon": null
+ },
+ "Venom Shield": {
+  "ids": [
+   804687
+  ],
+  "icon": null
+ },
+ "Venom Spewer": {
+  "ids": [
+   804985
+  ],
+  "icon": null
+ },
+ "Venom Spit": {
+  "ids": [
+   800907
+  ],
+  "icon": null
+ },
+ "Venom Weaving": {
+  "ids": [
+   504736
+  ],
+  "icon": null
+ },
+ "Venomagus": {
+  "ids": [
+   300682
+  ],
+  "icon": null
+ },
+ "Venomancer (Fortitude)": {
+  "ids": [
+   805098
+  ],
+  "icon": null
+ },
+ "Venomancer (Weaver)": {
+  "ids": [
+   681101
+  ],
+  "icon": null
+ },
+ "Venomancer Summon Scaling": {
+  "ids": [
+   562325
+  ],
+  "icon": null
+ },
+ "Venomancy": {
+  "ids": [
+   520460
+  ],
+  "icon": null
+ },
+ "Venomancy Expert": {
+  "ids": [
+   706027
+  ],
+  "icon": null
+ },
+ "Venomcult Scrolls": {
+  "ids": [
+   707574
+  ],
+  "icon": null
+ },
+ "Venomics": {
+  "ids": [
+   705975
+  ],
+  "icon": null
+ },
+ "Venomizer": {
+  "ids": [
+   680794
+  ],
+  "icon": null
+ },
+ "Venomous Approach": {
+  "ids": [
+   570198
+  ],
+  "icon": null
+ },
+ "Venomous Bite": {
+  "ids": [
+   630900
+  ],
+  "icon": null
+ },
+ "Venomous Cascade": {
+  "ids": [
+   300781
+  ],
+  "icon": null
+ },
+ "Venomshield": {
+  "ids": [
+   503972
+  ],
+  "icon": null
+ },
+ "Venomtip": {
+  "ids": [
+   803191
+  ],
+  "icon": null
+ },
+ "Venomtip Poison": {
+  "ids": [
+   803195
+  ],
+  "icon": null
+ },
+ "Venomtip Poison Proc": {
+  "ids": [
+   804408
+  ],
+  "icon": null
+ },
+ "Venomwing Form": {
+  "ids": [
+   520307
+  ],
+  "icon": null
+ },
+ "Venoxis Cult": {
+  "ids": [
+   681049
+  ],
+  "icon": null
+ },
+ "Venoxis Fang": {
+  "ids": [
+   805405
+  ],
+  "icon": null
+ },
+ "Venoxis Rage": {
+  "ids": [
+   707224
+  ],
+  "icon": null
+ },
+ "Versatile and Deadly": {
+  "ids": [
+   681052
+  ],
+  "icon": null
+ },
+ "Vigilant": {
+  "ids": [
+   504399
+  ],
+  "icon": null
+ },
+ "Vile Fangs": {
+  "ids": [
+   706036
+  ],
+  "icon": null
+ },
+ "Vile Fury": {
+  "ids": [
+   706005
+  ],
+  "icon": null
+ },
+ "Vile Sting": {
+  "ids": [
+   572910
+  ],
+  "icon": null
+ },
+ "Vileburst": {
+  "ids": [
+   804973
+  ],
+  "icon": null
+ },
+ "Virulent Opening": {
+  "ids": [
+   574353
+  ],
+  "icon": null
+ },
+ "Virulent Resonance": {
+  "ids": [
+   804969
+  ],
+  "icon": null
+ },
+ "Vizier - Level 40 Passive": {
+  "ids": [
+   850011
+  ],
+  "icon": null
+ },
+ "Vizier Form": {
+  "ids": [
+   504798
+  ],
+  "icon": null
+ },
+ "Vizier's Gift": {
+  "ids": [
+   800897
+  ],
+  "icon": null
+ },
+ "Vulnerability": {
+  "ids": [
+   572057
+  ],
+  "icon": null
+ },
+ "Vulnerable": {
+  "ids": [
+   572056
+  ],
+  "icon": null
+ },
+ "Warpchill": {
+  "ids": [
+   500308
+  ],
+  "icon": null
+ },
+ "Wasp Form": {
+  "ids": [
+   805141
+  ],
+  "icon": null
+ },
+ "Wasp Form (Speed 1)": {
+  "ids": [
+   805142
+  ],
+  "icon": null
+ },
+ "Waste": {
+  "ids": [
+   706958
+  ],
+  "icon": null
+ },
+ "Weakening Blast": {
+  "ids": [
+   504371
+  ],
+  "icon": null
+ },
+ "Weakening Venom": {
+  "ids": [
+   706000
+  ],
+  "icon": null
+ },
+ "Weaver Form": {
+  "ids": [
+   704419
+  ],
+  "icon": null
+ },
+ "Weaver, Vizier Form": {
+  "ids": [
+   504336
+  ],
+  "icon": null
+ },
+ "Web Wrap": {
+  "ids": [
+   800876
+  ],
+  "icon": null
+ },
+ "Webbing": {
+  "ids": [
+   805569
+  ],
+  "icon": null
+ },
+ "Wicked Barbs": {
+  "ids": [
+   504402
+  ],
+  "icon": null
+ },
+ "Wicked Poison": {
+  "ids": [
+   705982
+  ],
+  "icon": null
+ },
+ "Widow's Fury": {
+  "ids": [
+   705955
+  ],
+  "icon": null
+ },
+ "Widow's Kiss": {
+  "ids": [
+   800885
+  ],
+  "icon": null
+ },
+ "Widow's Watch": {
+  "ids": [
+   706014
+  ],
+  "icon": null
+ },
+ "Widower": {
+  "ids": [
+   504323
+  ],
+  "icon": null
+ },
+ "Widowing": {
+  "ids": [
+   705954
+  ],
+  "icon": null
+ },
+ "Widowmaker": {
+  "ids": [
+   804961
+  ],
+  "icon": null
+ },
+ "Widowmaker (Bursting Sore)": {
+  "ids": [
+   804974
+  ],
+  "icon": null
+ },
+ "Wilt": {
+  "ids": [
+   804982
+  ],
+  "icon": null
+ },
+ "Wilting Away": {
+  "ids": [
+   706012
+  ],
+  "icon": null
+ },
+ "Wither": {
+  "ids": [
+   800898
+  ],
+  "icon": null
+ },
+ "Withered": {
+  "ids": [
+   706038
+  ],
+  "icon": null
+ },
+ "Withering": {
+  "ids": [
+   531514
+  ],
+  "icon": null
+ },
+ "Withering Venom": {
+  "ids": [
+   706962
+  ],
+  "icon": null
+ },
+ "Worship": {
+  "ids": [
+   706016
+  ],
+  "icon": null
+ },
+ "Wrapped": {
+  "ids": [
+   800923
+  ],
+  "icon": null
+ },
+ "been there done nothing": {
+  "ids": [
+   531513
+  ],
+  "icon": null
+ }
+}

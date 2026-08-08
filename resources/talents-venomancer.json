@@ -1,0 +1,3071 @@
+{
+ "class": "venomancer",
+ "class_id": 29,
+ "source": "ascension.gg",
+ "source_url": "https://ascension.gg/en/v2/coa-builder/voljin",
+ "realm": "api/v3 builder CoA parser",
+ "class_tab": [
+  {
+   "id": 7453,
+   "name": "Runed Carapace",
+   "spell_ids": [
+    705961
+   ],
+   "x": 0,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7722,
+   "name": "Green Salve",
+   "spell_ids": [
+    800902
+   ],
+   "x": 7,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7953,
+   "name": "Relentless",
+   "spell_ids": [
+    578320
+   ],
+   "x": 1,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 9590,
+   "name": "Lifeblood",
+   "spell_ids": [
+    804963
+   ],
+   "x": 7,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 5571,
+   "name": "Enduring Exoskeleton",
+   "spell_ids": [
+    503960
+   ],
+   "x": 1,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6079,
+   "name": "Burrow",
+   "spell_ids": [
+    806154
+   ],
+   "x": 4,
+   "y": 7,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6082,
+   "name": "Acute Senses",
+   "spell_ids": [
+    300664,
+    300665
+   ],
+   "x": 3,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6086,
+   "name": "Adrenal Venom",
+   "spell_ids": [
+    805775
+   ],
+   "x": 7,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6090,
+   "name": "Avatar of Shadra",
+   "spell_ids": [
+    503856
+   ],
+   "x": 4,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6095,
+   "name": "Versatile and Deadly",
+   "spell_ids": [
+    681052,
+    681492
+   ],
+   "x": 2,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6096,
+   "name": "Blightcap Ingestion",
+   "spell_ids": [
+    560282
+   ],
+   "x": 8,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6097,
+   "name": "Fury of Shadra",
+   "spell_ids": [
+    503850
+   ],
+   "x": 2,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 6098,
+   "name": "Fury of Anub'Rekhan",
+   "spell_ids": [
+    800894
+   ],
+   "x": 3,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6116,
+   "name": "Weakening Venom",
+   "spell_ids": [
+    805778
+   ],
+   "x": 1,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6117,
+   "name": "Genesis",
+   "spell_ids": [
+    705962
+   ],
+   "x": 3,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6118,
+   "name": "Tranquil Essence",
+   "spell_ids": [
+    504799,
+    505204
+   ],
+   "x": 8,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 2,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6756,
+   "name": "Pinch",
+   "spell_ids": [
+    704235
+   ],
+   "x": 1,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6331,
+   "name": "Surprise Strategy",
+   "spell_ids": [
+    706035
+   ],
+   "x": 6,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 6553,
+   "name": "Toxic Stride",
+   "spell_ids": [
+    504347
+   ],
+   "x": 7,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7147,
+   "name": "Venomancy Expert",
+   "spell_ids": [
+    706027
+   ],
+   "x": 2,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7229,
+   "name": "Hive Instinct",
+   "spell_ids": [
+    804968
+   ],
+   "x": 1,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7231,
+   "name": "Venomizer",
+   "spell_ids": [
+    680794
+   ],
+   "x": 8,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7235,
+   "name": "Tome of Ahn'kahet",
+   "spell_ids": [
+    705993
+   ],
+   "x": 6,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7237,
+   "name": "Chitinous Spikes",
+   "spell_ids": [
+    504406
+   ],
+   "x": 0,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7241,
+   "name": "Hallucinogenic Venom",
+   "spell_ids": [
+    560188
+   ],
+   "x": 5,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7242,
+   "name": "Shadra's Lair",
+   "spell_ids": [
+    804978
+   ],
+   "x": 1,
+   "y": 9,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7244,
+   "name": "Mamba Mentality",
+   "spell_ids": [
+    503976
+   ],
+   "x": 4,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7247,
+   "name": "Master of Venoms",
+   "spell_ids": [
+    504326
+   ],
+   "x": 6,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 7248,
+   "name": "Skin Shedder",
+   "spell_ids": [
+    705949
+   ],
+   "x": 4,
+   "y": 4,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7249,
+   "name": "Shadra's Balm",
+   "spell_ids": [
+    800901
+   ],
+   "x": 7,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 7252,
+   "name": "Spindlebind",
+   "spell_ids": [
+    800887
+   ],
+   "x": 4,
+   "y": 3,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 30465,
+   "name": "Celerity",
+   "spell_ids": [
+    804962
+   ],
+   "x": 4,
+   "y": 6,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": false,
+   "entry_type": "Talent"
+  },
+  {
+   "id": 30482,
+   "name": "Playing With Poison",
+   "spell_ids": [
+    707563
+   ],
+   "x": 5,
+   "y": 1,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29574,
+   "name": "Ambush Predator",
+   "spell_ids": [
+    800878
+   ],
+   "x": 4,
+   "y": 8,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29576,
+   "name": "Empowering Pheromones",
+   "spell_ids": [
+    705996
+   ],
+   "x": 5,
+   "y": 5,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29588,
+   "name": "Reinforced Shell",
+   "spell_ids": [
+    705966
+   ],
+   "x": 0,
+   "y": 2,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  },
+  {
+   "id": 29607,
+   "name": "Envenomed Weapons",
+   "spell_ids": [
+    300855
+   ],
+   "x": 4,
+   "y": 0,
+   "te_cost": 0,
+   "ae_cost": 1,
+   "req_tab_te": 0,
+   "max_points": 1,
+   "grants_ability": true,
+   "entry_type": "Ability"
+  }
+ ],
+ "specs": {
+  "fortitude": [
+   {
+    "id": 6843,
+    "name": "Natural Weapons",
+    "spell_ids": [
+     504393
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7160,
+    "name": "Pendo's Charm",
+    "spell_ids": [
+     504400
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7166,
+    "name": "Cover",
+    "spell_ids": [
+     300680
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7169,
+    "name": "Impale",
+    "spell_ids": [
+     560248
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7170,
+    "name": "Regrow Exoskeleton",
+    "spell_ids": [
+     803197
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7177,
+    "name": "Regenerative Properties",
+    "spell_ids": [
+     803210
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4054,
+    "name": "Exposed Flesh",
+    "spell_ids": [
+     92144
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 6089,
+    "name": "Slimy",
+    "spell_ids": [
+     705998
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6099,
+    "name": "Charmed Plating",
+    "spell_ids": [
+     300974
+    ],
+    "x": 3,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6101,
+    "name": "Reinforced Exoskeleton",
+    "spell_ids": [
+     706002,
+     707873
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6102,
+    "name": "Shadra's Gift",
+    "spell_ids": [
+     503812
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6103,
+    "name": "Wicked Barbs",
+    "spell_ids": [
+     504402
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6104,
+    "name": "Empowered Exoskeleton",
+    "spell_ids": [
+     804993
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6106,
+    "name": "Alacrity",
+    "spell_ids": [
+     705980
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6107,
+    "name": "Vile Fury",
+    "spell_ids": [
+     706006,
+     707874
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6108,
+    "name": "Toxic Expulsion",
+    "spell_ids": [
+     705959
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6110,
+    "name": "Wicked Poison",
+    "spell_ids": [
+     705982
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6112,
+    "name": "Molt",
+    "spell_ids": [
+     805102
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6113,
+    "name": "Spider Lord",
+    "spell_ids": [
+     704264
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6115,
+    "name": "Venomics",
+    "spell_ids": [
+     705975
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6119,
+    "name": "Locust Swarm",
+    "spell_ids": [
+     560247
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6120,
+    "name": "Agitation",
+    "spell_ids": [
+     705969
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6122,
+    "name": "Enchanted Chitin",
+    "spell_ids": [
+     706955,
+     707872
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6125,
+    "name": "Charm of Warding",
+    "spell_ids": [
+     705967
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30485,
+    "name": "Drown In Poison",
+    "spell_ids": [
+     504407
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30499,
+    "name": "Unbreakable",
+    "spell_ids": [
+     705991
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30505,
+    "name": "Reformed",
+    "spell_ids": [
+     805103
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30793,
+    "name": "Venomtip Poison",
+    "spell_ids": [
+     803195
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30078,
+    "name": "Potent Expulsion",
+    "spell_ids": [
+     560266
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30080,
+    "name": "Barbed Stinger",
+    "spell_ids": [
+     803196
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30081,
+    "name": "Beetle Poison",
+    "spell_ids": [
+     705876
+    ],
+    "x": 5,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30084,
+    "name": "Reconstructive Carapace",
+    "spell_ids": [
+     705999
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30087,
+    "name": "Slimy Stingers",
+    "spell_ids": [
+     706001
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29589,
+    "name": "Catalyst",
+    "spell_ids": [
+     800895
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31202,
+    "name": "Expulsion",
+    "spell_ids": [
+     805094
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 33505,
+    "name": "Poisonous",
+    "spell_ids": [
+     707320
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12325,
+    "name": "Carapace Regeneration",
+    "spell_ids": [
+     805931
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12485,
+    "name": "Poison for Everyone!",
+    "spell_ids": [
+     504837
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13505,
+    "name": "Protogenesis",
+    "spell_ids": [
+     707620
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 19106,
+    "name": "Cunning",
+    "spell_ids": [
+     805093
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9280,
+    "name": "Magic Shell",
+    "spell_ids": [
+     705970
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7452,
+    "name": "Deadly Sting",
+    "spell_ids": [
+     560264
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7455,
+    "name": "Chitinous Surge",
+    "spell_ids": [
+     705973
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "stalking": [
+   {
+    "id": 29577,
+    "name": "Noxious Empowerment",
+    "spell_ids": [
+     804964
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29580,
+    "name": "Nerubian Sting",
+    "spell_ids": [
+     800882
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29582,
+    "name": "Deadly Kiss",
+    "spell_ids": [
+     504704
+    ],
+    "x": 5,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29586,
+    "name": "Corrosive Bile",
+    "spell_ids": [
+     630934
+    ],
+    "x": 0,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30794,
+    "name": "Glory To Shadra!",
+    "spell_ids": [
+     706033
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30863,
+    "name": "Virulent Resonance",
+    "spell_ids": [
+     804969
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30974,
+    "name": "Venomagus",
+    "spell_ids": [
+     300682,
+     301364
+    ],
+    "x": 2,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30975,
+    "name": "Rotfang",
+    "spell_ids": [
+     804977
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 31201,
+    "name": "Widow's Kiss",
+    "spell_ids": [
+     807600
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30464,
+    "name": "Facemelter",
+    "spell_ids": [
+     800871
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30469,
+    "name": "Deadly Neurotoxins",
+    "spell_ids": [
+     504375
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30471,
+    "name": "Vile Fangs",
+    "spell_ids": [
+     706036
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30472,
+    "name": "Withered",
+    "spell_ids": [
+     706038
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30473,
+    "name": "Death Spray",
+    "spell_ids": [
+     706271
+    ],
+    "x": 2,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30524,
+    "name": "Cunning of the Nerub'ar",
+    "spell_ids": [
+     805140
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9285,
+    "name": "Prowler",
+    "spell_ids": [
+     804342
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9324,
+    "name": "Black Widow",
+    "spell_ids": [
+     504322
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9325,
+    "name": "Vulnerability",
+    "spell_ids": [
+     574354
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11804,
+    "name": "Caustic",
+    "spell_ids": [
+     807610
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12201,
+    "name": "Widowmaker",
+    "spell_ids": [
+     804961
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13472,
+    "name": "Corrosive Toxin",
+    "spell_ids": [
+     807243
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7150,
+    "name": "Acidfang",
+    "spell_ids": [
+     806603
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7152,
+    "name": "Withering Venom",
+    "spell_ids": [
+     706962
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7188,
+    "name": "Brood Lord",
+    "spell_ids": [
+     707668
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7189,
+    "name": "Venomous Bite",
+    "spell_ids": [
+     630900
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7190,
+    "name": "Contagion",
+    "spell_ids": [
+     503851
+    ],
+    "x": 2,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7191,
+    "name": "Bile Eruption",
+    "spell_ids": [
+     500230
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7192,
+    "name": "Virulent Opening",
+    "spell_ids": [
+     574353
+    ],
+    "x": 3,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7195,
+    "name": "Serpent Lord",
+    "spell_ids": [
+     805104
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7204,
+    "name": "Black Widow",
+    "spell_ids": [
+     805933
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7263,
+    "name": "Potency",
+    "spell_ids": [
+     503854
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7264,
+    "name": "One Man's Poison...",
+    "spell_ids": [
+     503799
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6341,
+    "name": "Lethality",
+    "spell_ids": [
+     503852
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6342,
+    "name": "Shadra's Seance",
+    "spell_ids": [
+     300678
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6078,
+    "name": "Boding Dread",
+    "spell_ids": [
+     804975,
+     807920
+    ],
+    "x": 6,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6080,
+    "name": "Bugging",
+    "spell_ids": [
+     706026
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6144,
+    "name": "Blistering Fangs",
+    "spell_ids": [
+     706270
+    ],
+    "x": 6,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6146,
+    "name": "Tunneler",
+    "spell_ids": [
+     630932
+    ],
+    "x": 6,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6147,
+    "name": "Nature Against Nature",
+    "spell_ids": [
+     680871
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6148,
+    "name": "Rotting Sores",
+    "spell_ids": [
+     807601
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4053,
+    "name": "Brood Marks",
+    "spell_ids": [
+     92143
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4394,
+    "name": "Essence of Decay",
+    "spell_ids": [
+     707382
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "vizier": [
+   {
+    "id": 29591,
+    "name": "Fang Blessing",
+    "spell_ids": [
+     503970,
+     504898
+    ],
+    "x": 3,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29592,
+    "name": "Mending Mist",
+    "spell_ids": [
+     800899
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29596,
+    "name": "Serpent Lord's Amulet",
+    "spell_ids": [
+     800914
+    ],
+    "x": 6,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29598,
+    "name": "Alkahest",
+    "spell_ids": [
+     504342
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29599,
+    "name": "Venom Weaving",
+    "spell_ids": [
+     504736
+    ],
+    "x": 4,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30073,
+    "name": "Shadra's Aid",
+    "spell_ids": [
+     504352
+    ],
+    "x": 2,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30749,
+    "name": "Mycelial Replenishment",
+    "spell_ids": [
+     706021
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9283,
+    "name": "Spiritual Healing",
+    "spell_ids": [
+     706211
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9597,
+    "name": "Ritual Healing",
+    "spell_ids": [
+     681047
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11735,
+    "name": "Venomcult Scrolls",
+    "spell_ids": [
+     707574
+    ],
+    "x": 7,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 12223,
+    "name": "Extraction",
+    "spell_ids": [
+     805884
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 13783,
+    "name": "Vizier Form",
+    "spell_ids": [
+     504798
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9951,
+    "name": "Shadra's Vigil",
+    "spell_ids": [
+     680800
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 7723,
+    "name": "Worship",
+    "spell_ids": [
+     706016
+    ],
+    "x": 3,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7732,
+    "name": "The Antidote",
+    "spell_ids": [
+     681315
+    ],
+    "x": 1,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7733,
+    "name": "Fangbinder",
+    "spell_ids": [
+     560195
+    ],
+    "x": 5,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7734,
+    "name": "Lifemender",
+    "spell_ids": [
+     706477
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7735,
+    "name": "Book of Shadra",
+    "spell_ids": [
+     705957
+    ],
+    "x": 7,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7736,
+    "name": "Venom Glands",
+    "spell_ids": [
+     706015
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7737,
+    "name": "Cycle of Rebirth",
+    "spell_ids": [
+     560200
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7738,
+    "name": "Good Venom",
+    "spell_ids": [
+     680797
+    ],
+    "x": 1,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7120,
+    "name": "Widow's Watch",
+    "spell_ids": [
+     706014
+    ],
+    "x": 8,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7121,
+    "name": "Ophidian Renewal",
+    "spell_ids": [
+     706938
+    ],
+    "x": 1,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7122,
+    "name": "Shadra's Presence",
+    "spell_ids": [
+     504348
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7124,
+    "name": "Mycelial Synchronization",
+    "spell_ids": [
+     504356
+    ],
+    "x": 2,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7217,
+    "name": "Melioration",
+    "spell_ids": [
+     706945
+    ],
+    "x": 5,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7223,
+    "name": "Shadra's Gift",
+    "spell_ids": [
+     706937,
+     707868
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6128,
+    "name": "Soothing Venoms",
+    "spell_ids": [
+     707726,
+     707869
+    ],
+    "x": 3,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6132,
+    "name": "Spirit of the Jungle",
+    "spell_ids": [
+     681048
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6133,
+    "name": "Toxic Communion",
+    "spell_ids": [
+     680767
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6139,
+    "name": "Serpent Lord's Ritual",
+    "spell_ids": [
+     706018
+    ],
+    "x": 6,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6140,
+    "name": "Advisor's Perfidy",
+    "spell_ids": [
+     300684,
+     300685
+    ],
+    "x": 0,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6141,
+    "name": "Ritualistic",
+    "spell_ids": [
+     503918
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4783,
+    "name": "Occultist",
+    "spell_ids": [
+     504339
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5291,
+    "name": "Sage",
+    "spell_ids": [
+     680768
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5302,
+    "name": "Sublime Extraction",
+    "spell_ids": [
+     681320
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6607,
+    "name": "Bountiful Gifts",
+    "spell_ids": [
+     706009,
+     706010
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 1788,
+    "name": "Mycelial Healing",
+    "spell_ids": [
+     806449
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6302,
+    "name": "Venom Fanatic",
+    "spell_ids": [
+     681059
+    ],
+    "x": 7,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6324,
+    "name": "Blight Antidote",
+    "spell_ids": [
+     520153
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ],
+  "rot": [
+   {
+    "id": 9897,
+    "name": "Shadra's Gift",
+    "spell_ids": [
+     570336
+    ],
+    "x": 10,
+    "y": 2,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 11215,
+    "name": "Cycle of Decay",
+    "spell_ids": [
+     500219
+    ],
+    "x": 10,
+    "y": 8,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7724,
+    "name": "Blightfang",
+    "spell_ids": [
+     680763
+    ],
+    "x": 8,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7726,
+    "name": "Decay",
+    "spell_ids": [
+     800910
+    ],
+    "x": 1,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7727,
+    "name": "Venoxis Rage",
+    "spell_ids": [
+     707224
+    ],
+    "x": 7,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7728,
+    "name": "Fungic",
+    "spell_ids": [
+     706455
+    ],
+    "x": 1,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7730,
+    "name": "From Life Comes Death",
+    "spell_ids": [
+     504855
+    ],
+    "x": 4,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7731,
+    "name": "Suffocating Coils",
+    "spell_ids": [
+     707233
+    ],
+    "x": 5,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 9575,
+    "name": "Rotting Away",
+    "spell_ids": [
+     706370
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5575,
+    "name": "From Death Comes Life",
+    "spell_ids": [
+     504355
+    ],
+    "x": 0,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6130,
+    "name": "A Pit of Snakes",
+    "spell_ids": [
+     706007
+    ],
+    "x": 5,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6131,
+    "name": "Venom Saturation",
+    "spell_ids": [
+     804984
+    ],
+    "x": 4,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6137,
+    "name": "Fungal Growth",
+    "spell_ids": [
+     804987
+    ],
+    "x": 4,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6138,
+    "name": "Envenom",
+    "spell_ids": [
+     805900
+    ],
+    "x": 7,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6142,
+    "name": "Prophetic Speaker",
+    "spell_ids": [
+     706956
+    ],
+    "x": 3,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6143,
+    "name": "Necessary Preparations",
+    "spell_ids": [
+     503919
+    ],
+    "x": 3,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6842,
+    "name": "Infestation",
+    "spell_ids": [
+     706030
+    ],
+    "x": 6,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 4052,
+    "name": "Rot Lich",
+    "spell_ids": [
+     92142
+    ],
+    "x": 10,
+    "y": 0,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": true,
+    "entry_type": "Ability"
+   },
+   {
+    "id": 4295,
+    "name": "Weaver Form",
+    "spell_ids": [
+     706940
+    ],
+    "x": 10,
+    "y": 4,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 5215,
+    "name": "Captivation",
+    "spell_ids": [
+     503930
+    ],
+    "x": 4,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6552,
+    "name": "Septic Trauma",
+    "spell_ids": [
+     504361
+    ],
+    "x": 2,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6605,
+    "name": "Sporelord",
+    "spell_ids": [
+     804989
+    ],
+    "x": 8,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6646,
+    "name": "Serpent's Embrace",
+    "spell_ids": [
+     560194,
+     561349
+    ],
+    "x": 6,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6685,
+    "name": "Sepsis Bloom",
+    "spell_ids": [
+     504867
+    ],
+    "x": 4,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 6687,
+    "name": "Acid Bolt",
+    "spell_ids": [
+     706025,
+     707870,
+     712480
+    ],
+    "x": 6,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 3,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7123,
+    "name": "Fungal Link",
+    "spell_ids": [
+     300959
+    ],
+    "x": 4,
+    "y": 7,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7210,
+    "name": "Fungal Assailant",
+    "spell_ids": [
+     504344
+    ],
+    "x": 7,
+    "y": 5,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7215,
+    "name": "Intoxicating Venoms",
+    "spell_ids": [
+     706023
+    ],
+    "x": 10,
+    "y": 6,
+    "te_cost": 0,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7219,
+    "name": "Protraction",
+    "spell_ids": [
+     706942,
+     707871
+    ],
+    "x": 2,
+    "y": 2,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 2,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7221,
+    "name": "Mycelial Ring",
+    "spell_ids": [
+     805238
+    ],
+    "x": 1,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7222,
+    "name": "Lethargy",
+    "spell_ids": [
+     573307
+    ],
+    "x": 0,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 7225,
+    "name": "Fungal Allies",
+    "spell_ids": [
+     681054
+    ],
+    "x": 7,
+    "y": 9,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30477,
+    "name": "Wilt",
+    "spell_ids": [
+     804982
+    ],
+    "x": 4,
+    "y": 0,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30479,
+    "name": "Mycosis",
+    "spell_ids": [
+     804986
+    ],
+    "x": 4,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30481,
+    "name": "Serpent Lord's Ring",
+    "spell_ids": [
+     503923
+    ],
+    "x": 7,
+    "y": 8,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 23,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30483,
+    "name": "Limb Decayer",
+    "spell_ids": [
+     681057
+    ],
+    "x": 1,
+    "y": 6,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 30606,
+    "name": "Spore",
+    "spell_ids": [
+     804983
+    ],
+    "x": 4,
+    "y": 1,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29575,
+    "name": "Wilting Away",
+    "spell_ids": [
+     706012
+    ],
+    "x": 1,
+    "y": 3,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 0,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   },
+   {
+    "id": 29584,
+    "name": "Rotpriest",
+    "spell_ids": [
+     706209
+    ],
+    "x": 2,
+    "y": 4,
+    "te_cost": 1,
+    "ae_cost": 0,
+    "req_tab_te": 8,
+    "max_points": 1,
+    "grants_ability": false,
+    "entry_type": "Talent"
+   }
+  ]
+ },
+ "tab_map": {
+  "fortitude": {
+   "tab_id": 78,
+   "tab_name": "Fortitude"
+  },
+  "stalking": {
+   "tab_id": 77,
+   "tab_name": "Stalking"
+  },
+  "vizier": {
+   "tab_id": 92,
+   "tab_name": "Vizier"
+  },
+  "rot": {
+   "tab_id": 76,
+   "tab_name": "Venom"
+  }
+ },
+ "unmapped_tabs": [],
+ "missing_specs": []
+}

@@ -1,0 +1,97 @@
+{
+ "sidekick-venomancer-fortitude-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Poison Eruption",
+    "Harden"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Exposed Flesh"
+   ]
+  },
+  "class": "venomancer",
+  "content_sha256": "23720e1b3828adc9",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/venomancer/fortitude",
+  "spec": "fortitude"
+ },
+ "sidekick-venomancer-rot-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Rot Lich"
+   ]
+  },
+  "class": "venomancer",
+  "content_sha256": "e7e44fe208f645bc",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/venomancer/rot",
+  "spec": "rot"
+ },
+ "sidekick-venomancer-stalking-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Shadra's Lair"
+   ],
+   "maintain": [
+    "Rotfang",
+    "Venomancer (Stalking)"
+   ],
+   "priority": [],
+   "signature": [
+    "Brood Marks"
+   ]
+  },
+  "class": "venomancer",
+  "content_sha256": "ca32ec9ff0367338",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/venomancer/stalking",
+  "spec": "stalking"
+ },
+ "sidekick-venomancer-vizier-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Lifeblood",
+    "Shadra's Aid"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Shadra's Vigil"
+   ]
+  },
+  "class": "venomancer",
+  "content_sha256": "d28089e4defb6cd8",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/venomancer/vizier",
+  "spec": "vizier"
+ }
+}
