@@ -2,7 +2,7 @@
 title: Site layout plan — the ordered fixes ADR-001 implies
 date: 2026-08-08
 type: plan
-status: proposed
+status: in-progress
 tags: [weakauras, conquest-of-azeroth, site, layout, plan]
 sources:
   - "[[ADR-001-site-layout]]"
@@ -17,7 +17,7 @@ land in the apply pass; **editor-dependent** items wait on ADR-003/004.
 `--allow-unverified` while 20 classes are drafts (`mksite.py:735-771`) — the
 apply pass should expect that and keep the badges.
 
-## 1. Reorder the class page around the artifact — safe-now
+## 1. Reorder the class page around the artifact — DONE (36c7eea)
 
 - **File:** `tools/mksite.py` (`build()`, body assembly :904-960)
 - **What:** Section order becomes masthead → HUD → Packs → Layout → Server
@@ -30,7 +30,7 @@ apply pass should expect that and keep the badges.
   `.pack .copy` button appears before `#ranks` and `.changelog` in DOM
   order; site regenerates and `tests/run.py` stays green.
 
-## 2. Collapse the two ledgers to their verdicts — safe-now
+## 2. Collapse the two ledgers to their verdicts — DONE (36c7eea)
 
 - **File:** `tools/mksite.py` (`rankings_panel` :370-461, `changelog_panel`
   :293-367)
@@ -45,7 +45,7 @@ apply pass should expect that and keep the badges.
   inside a closed `details`; `#ranks` contains no `.ranklayer`. A class with
   outstanding entries renders the list open.
 
-## 3. Honest state on the index — safe-now
+## 3. Honest state on the index — DONE (36c7eea)
 
 - **Files:** `tools/mksite.py` (`class_tile` :221-253, index body
   :987-1046), `docs/assets/site.css` (pip :127-130), `docs/assets/search.js`
@@ -59,9 +59,12 @@ apply pass should expect that and keep the badges.
   anywhere before the pack block's 0.72rem chip (ADR-001 F2).
 - **Signal:** `grep -c 'data-state="draft"' docs/index.html` equals the
   count of classes failing `verified.status`; bar label matches
-  `resources/verified-builds.json`.
+  `resources/verified-builds.json`. (At apply time that is 21 drafts and
+  0 verified — runemaster is at 1.9 against a verified 1.7 record and
+  chronomancer at 1.3 against 1.2 — so the bar reads
+  "0 verified · 21 drafts · 21 of 21 built". Derived, not hardcoded.)
 
-## 4. Draft banner + dates on the class page — safe-now
+## 4. Draft banner + dates on the class page — DONE (36c7eea)
 
 - **File:** `tools/mksite.py` (`pack_block` :256-289, classhead :904-914)
 - **What:** (a) One sentence in the masthead of an unverified class: the
@@ -69,15 +72,21 @@ apply pass should expect that and keep the badges.
   nobody has confirmed this exact version in game yet. Feedback converges
   it.") printed once, visibly, instead of living in five hover tooltips.
   (b) Pack meta gains a date: `verified_at` for verified packs ("v1.2 ·
-  verified 2026-08-02"), build date for drafts — pending UNKNOWN-3's source
-  decision (buildlog `built_at` vs git log; orchestrator's call).
+  verified 2026-08-02"), build date for drafts — UNKNOWN-3 settled: the
+  buildlog verify-gate seal (`resources/buildlog-<slug>.json` `gates.verify`),
+  falling back to the newest date anywhere in the buildlog for the early
+  classes whose logs stop at the research gate (chronomancer, pyromancer,
+  runemaster).
 - **Why:** The draft explanation is unreachable on touch, and no comparable
   ships an import without a freshness stamp (ADR-001 F2).
 - **Signal:** Bloodmage masthead contains the draft sentence exactly once;
-  Chronomancer's pack meta contains "2026-08-02"; the title attribute may
-  stay but is no longer the only carrier.
+  the title attribute may stay but is no longer the only carrier. (The
+  original signal expected Chronomancer's meta to read "verified 2026-08-02",
+  but its builder moved to 1.3 past the verified 1.2 record, so it honestly
+  stamps "draft · built 2026-08-07" instead — the verified-date path is
+  exercised the moment any class re-verifies.)
 
-## 5. Fix the Layout table's band order — safe-now
+## 5. Fix the Layout table's band order — DONE (36c7eea)
 
 - **File:** `tools/mksite.py` (`layout_sections` :637-727), reusing
   `tools/hud.py`
@@ -106,7 +115,7 @@ apply pass should expect that and keep the badges.
   scroll, labels legible at 44px icons); a touch user can read all 21 names
   without navigating.
 
-## 7. Small chrome fixes — safe-now
+## 7. Small chrome fixes — DONE (36c7eea)
 
 - **File:** `tools/mksite.py`
 - **What:**
@@ -167,3 +176,18 @@ apply pass should expect that and keep the badges.
 - Preview animations — ADR-002's remit.
 - Any hand-edit to `docs/` or `site.css` outside a `mksite.py` regeneration —
   the orchestrator applies these through the generator (pass-2 rule 4).
+
+## Apply-pass record (2026-08-08, commit 36c7eea)
+
+Items 1-5 and 7 landed; `python3 tools/mksite.py --allow-unverified` clean,
+`tests/run.py` all green including the new check 23 (Layout order held to
+`hud.displays()` geometry via per-row `data-band`). ADR-002 recommendation 1
+(semantic `data-role` + proc/urgent/desat classes on preview tiles) landed in
+the same commit — its plan costs it as build-time only / zero runtime.
+Calls made where the plan left room: import steps folded as a `<details>`
+inside the Packs section; script pruning done at page-type granularity
+(index → search.js; class pages → gate/copy/hud/rankings; raid-utility →
+its own JS only). Item 6 stays open — gated on UNKNOWN-1's 360/390px
+measurement and the label-vs-name-strip design fork. Items 8-10 stay open —
+editor-dependent (8 lands in the same commit that removes the gate, per the
+HOME comment's own promise).

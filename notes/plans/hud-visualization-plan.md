@@ -71,6 +71,10 @@ draws the letter).
    Acceptance: `grep -c inv_misc_questionmark docs/*/index.html` drops from
    512 to ≤ the 7 artless leaf instances; lettered tiles only on the 4
    artless names + 6 missing textures.
+   DONE 2026-08-08 (36c7eea, layout apply pass): pages regenerated with the
+   backfilled cache; questionmark refs 512 → 9 (the remaining refs are the
+   documented artless leaves whose displayIcon IS the questionmark texture,
+   drawn per spec layer).
 2. **Correct the icon-wanted record.** `resources/icon-wanted.json`
    `_source_status` says "db.exil.es has no icon field at all" — true of the
    API, false of the pages. Re-sweep its 47 raid-utility ids through the
@@ -96,7 +100,7 @@ pass owns those files, not this agent).
 
 | # | Item | What | Cost | Acceptance signal |
 |---|---|---|---|---|
-| 1 | Semantic tile roles | `hud.py` derives per-leaf capabilities from the decoded pack (urgency conds present / proc-glow cond / desaturate cond / kind) → `data-role` + modifier classes on each preview tile | Build-time only; ~30 lines in hud.py `emit`, ~10 in mksite. No runtime cost | Every tile in a rebuilt page carries `data-role`; roles match `wapack.py` emission (spot-check one class: count of proc tiles == PROC_GLOW entries loaded for that spec) |
+| 1 (DONE 36c7eea) | Semantic tile roles | `hud.py` derives per-leaf capabilities from the decoded pack (urgency conds present / proc-glow cond / desaturate cond / kind) → `data-role` + modifier classes on each preview tile | Build-time only; ~30 lines in hud.py `emit`, ~10 in mksite. No runtime cost | Every tile in a rebuilt page carries `data-role`; roles match `wapack.py` emission (spot-check one class: count of proc tiles == PROC_GLOW entries loaded for that spec) |
 | 2 | Proc-glow affordance | Tiles with the proc role get a static golden ring + halo (pack proc colour 1.0,0.95,0.5); slow ~2s opacity pulse gated on `prefers-reduced-motion: no-preference` | CSS only (~12 lines); depends on 1 | Proc-capable tiles are visually distinct at rest; `prefers-reduced-motion: reduce` shows the static ring only |
 | 3 | Hover state-card | Hover/focus on a tile lists its state ladder ("sweeps on cooldown · timer <20s · glow <10s · urgent <5s · grey when unaffordable"), from the role data | CSS + ~20 lines JS; JS-off fallback = extend the existing `title` text (zero JS, already wired) | Card text matches the escalation ladder in [[layout-standard]] for a cd tile; buff/resource tiles say their own states |
 | — | NOT: animated cooldown sweep, GCD sweep, desaturate demos, urgency cycling | Claim live state a static page is not in; 150+ tiles × infinite animation | — | Reserved for the editor as per-tile "preview this state" toggles (ADR-003/004 surface) |
