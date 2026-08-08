@@ -1,0 +1,185 @@
+{
+ "sidekick-necromancer-animation-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Bonescrap",
+    "Call of The Scourge",
+    "Foul Invocation"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Summoning Adept"
+   ]
+  },
+  "class": "necromancer",
+  "content_sha256": "a43b36bf0f7d75dc",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/necromancer/animation",
+  "spec": "animation"
+ },
+ "sidekick-necromancer-death-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Banshee's Wail",
+    "Grimestep",
+    "Plaguestorm"
+   ],
+   "maintain": [
+    "Expunge",
+    "Noxious Corpserot"
+   ],
+   "priority": [],
+   "signature": [
+    "Crypt Plague"
+   ]
+  },
+  "class": "necromancer",
+  "content_sha256": "1815ffabfcac8182",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/necromancer/death",
+  "spec": "death"
+ },
+ "sidekick-necromancer-rime-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Chill of the Grave"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Tundra Warriors"
+   ]
+  },
+  "class": "necromancer",
+  "content_sha256": "685d415870794105",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/necromancer/rime",
+  "spec": "rime"
+ },
+ "sidekick-page-necromancer-animation-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Pull with Crypt Swarm, a channel that builds RP ... Dump generated RP into Animate: Skeletal Archers for instant ranged bodies, or into Bone Construct / Bone Wraith / Plaguefather / Tomb King ... Fire March of the Dead as an AoE plague nuke on clumps' (solo) and 'rotate RP into Animate: Skeletal Archers and the other Animates on cooldown ... Keep Tomb King up' (dungeon); Command weave from 'You weave Command spells, which drive most of your passives' (playstyle)",
+   "pre-pull claim: 'keep permanent pets topped. Raise: Ghoul first, since it self-heals you on every auto-attack, then more Ghouls as your Life Force budget allows'",
+   "Unholy Frenzy from Study of Death ('When you cast Unholy Frenzy you now summon 3 Greater Zombies') and Unstoppable Frenzy (-60s CD), both 1/1 in the listed build",
+   "transcribed by hand from the spec page's Playstyle/Solo/Dungeon paragraphs, scraped 2026-08-07 to resources/sidekick-necromancer-animation.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Animate: Bone Construct",
+    "Animate: Bone Wraith",
+    "Animate: Plaguefather",
+    "Sacrifice Undead",
+    "Summoning Ritual"
+   ],
+   "maintain": [
+    "Raise: Ghoul",
+    "Animate: Tomb King"
+   ],
+   "priority": [
+    "Crypt Swarm",
+    "Command: Undead",
+    "Animate: Skeletal Archer",
+    "March of the Dead",
+    "Unholy Frenzy"
+   ]
+  },
+  "class": "necromancer",
+  "content_sha256": "af2110617078b7c1",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/necromancer/animation",
+  "spec": "animation",
+  "transcribed_by": "necromancer draft pass"
+ },
+ "sidekick-page-necromancer-death-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Open by applying Plague of Undeath ... -> Flesh to Worms and let Crypt Plague build (Crypt Swarm applies stacks, Lichfrost applies two) -> Lichplague on top so it scales up per disease already on the target -> spend Runic Power on Command spells to apply Expunge and trigger Crypt Explosion's AoE plague -> Virulency to refresh and copy the whole disease stack when it's fully ramped' (solo); 'Refresh the whole package with Virulency on cooldown' (dungeon)",
+   "stack claims: 'The work is in the stack list: Crypt Plague and Expunge pushed to their caps' (difficulty paragraph)",
+   "Mutation sequencing: 'Virulency's disease-copy has to be sequenced against Mutation's faster-tick buff'",
+   "transcribed by hand from the spec page's Playstyle/Solo/Dungeon paragraphs, scraped 2026-08-07 to resources/sidekick-necromancer-death.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Mutation",
+    "Plaguestorm",
+    "Foul Expedition"
+   ],
+   "maintain": [
+    "Crypt Plague",
+    "Expunge"
+   ],
+   "priority": [
+    "Plague of Undeath",
+    "Flesh to Worms",
+    "Lichplague",
+    "Crypt Swarm",
+    "Lichfrost",
+    "Command: Undead",
+    "Virulency"
+   ]
+  },
+  "class": "necromancer",
+  "content_sha256": "2274548f7c342120",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/necromancer/death",
+  "spec": "death",
+  "transcribed_by": "necromancer draft pass"
+ },
+ "sidekick-page-necromancer-rime-2026-08-07": {
+  "caveats": [
+   "press order read from: 'Open at range with Lichfrost (builder, generates Runic Power, slows). Channel Ice Barrage to add damage and set up its end-of-channel entomb ... Use Glacial Impact on any Frozen target for its guaranteed crit (Glacier Lord). Tap into your Runic Power on Command: Bonefreeze to freeze a group, or on the raised Skeletal Mage's Command for extra burst' (solo)",
+   "pet claim: 'Raise a Skeletal Mage first for pet upkeep and pull damage ... Re-raise a fresh Skeletal Mage if you lose your pet'",
+   "burst window: 'Army of the North gives a Rotting Frost Giant cooldown for burst windows' (dungeon); interrupt: 'Heartchill to interrupt a caster'",
+   "transcribed by hand from the spec page's Playstyle/Solo/Dungeon paragraphs, scraped 2026-08-07 to resources/sidekick-necromancer-rime.md"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Army of the North",
+    "Heartchill"
+   ],
+   "maintain": [
+    "Raise: Skeletal Mage"
+   ],
+   "priority": [
+    "Lichfrost",
+    "Ice Barrage",
+    "Glacial Impact",
+    "Command: Bonefreeze",
+    "Command: Skeletal Mage"
+   ]
+  },
+  "class": "necromancer",
+  "content_sha256": "d2e1d47864154fae",
+  "origin": "manual",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-07",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/necromancer/rime",
+  "spec": "rime",
+  "transcribed_by": "necromancer draft pass"
+ }
+}

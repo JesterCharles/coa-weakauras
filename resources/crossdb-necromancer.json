@@ -1,0 +1,986 @@
+{
+ "_class": "necromancer",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Animate: Bone Construct": {
+   "id": 531130,
+   "state": "record"
+  },
+  "Animate: Bone Wraith": {
+   "id": 805032,
+   "state": "record"
+  },
+  "Animate: Crypt Fiend": {
+   "id": 801941,
+   "state": "record"
+  },
+  "Animate: Frost Wyrm": {
+   "id": 805428,
+   "state": "record"
+  },
+  "Animate: Plaguefather": {
+   "id": 805048,
+   "state": "record"
+  },
+  "Animate: Skeletal Archer": {
+   "id": 805040,
+   "state": "record"
+  },
+  "Animate: Skeletal Smith": {
+   "id": 804681,
+   "state": "record"
+  },
+  "Animate: Tomb King": {
+   "id": 805044,
+   "state": "record"
+  },
+  "Animate: Zombies": {
+   "id": 504315,
+   "state": "record"
+  },
+  "Animation - Level 15 Passive": {
+   "id": 706527,
+   "state": "record"
+  },
+  "Apothecary's Cauldron": {
+   "id": 560537,
+   "state": "record"
+  },
+  "Arch Lich": {
+   "id": 707588,
+   "state": "record"
+  },
+  "Army of the North": {
+   "id": 561138,
+   "state": "record"
+  },
+  "Befouling": {
+   "id": 572805,
+   "state": "record"
+  },
+  "Bitter Cold": {
+   "id": 801736,
+   "state": "record"
+  },
+  "Black Ice": {
+   "id": 801746,
+   "state": "record"
+  },
+  "Blight": {
+   "id": 500217,
+   "state": "record"
+  },
+  "Blightweaver": {
+   "id": 570135,
+   "state": "record"
+  },
+  "Bone Armor": {
+   "id": 503694,
+   "state": "record"
+  },
+  "Bone Frozen": {
+   "id": 805386,
+   "state": "record"
+  },
+  "Bone King": {
+   "id": 707175,
+   "state": "record"
+  },
+  "Bone Legion": {
+   "id": 707006,
+   "state": "record"
+  },
+  "Bone Plating": {
+   "id": 503729,
+   "state": "record"
+  },
+  "Bone Tithe": {
+   "id": 802121,
+   "state": "record"
+  },
+  "Bone Ward": {
+   "id": 681529,
+   "state": "record"
+  },
+  "Bonefreeze": {
+   "id": 500326,
+   "state": "record"
+  },
+  "Burrowing Worms": {
+   "id": 806090,
+   "state": "record"
+  },
+  "Call of The Scourge": {
+   "id": 801792,
+   "state": "record"
+  },
+  "Call of the Grave": {
+   "id": 707738,
+   "state": "record"
+  },
+  "Champion of Kel'thuzad": {
+   "id": 704676,
+   "state": "record"
+  },
+  "Chill of the Tomb": {
+   "id": 572173,
+   "state": "record"
+  },
+  "Chilling Presence": {
+   "id": 300958,
+   "state": "record"
+  },
+  "Chronic Diseases": {
+   "id": 300749,
+   "state": "record"
+  },
+  "Coldwind": {
+   "id": 520380,
+   "state": "record"
+  },
+  "Command: Abomination": {
+   "id": 504865,
+   "state": "record"
+  },
+  "Command: Banshee": {
+   "id": 504862,
+   "state": "record"
+  },
+  "Command: Blight": {
+   "id": 504050,
+   "state": "record"
+  },
+  "Command: Bone Smash": {
+   "id": 504863,
+   "state": "record"
+  },
+  "Command: Bonefreeze": {
+   "id": 504489,
+   "state": "record"
+  },
+  "Command: Crypt Fiend": {
+   "id": 504860,
+   "state": "record"
+  },
+  "Command: Gargoyle": {
+   "id": 504052,
+   "state": "record"
+  },
+  "Command: Ghouls": {
+   "id": 504021,
+   "state": "record"
+  },
+  "Command: Hook": {
+   "id": 504316,
+   "state": "record"
+  },
+  "Command: Skeletal Archers": {
+   "id": 504319,
+   "state": "record"
+  },
+  "Command: Skeletal Mage": {
+   "id": 504020,
+   "state": "record"
+  },
+  "Command: Skeletal Rogue": {
+   "id": 504318,
+   "state": "record"
+  },
+  "Command: Skeletal Warriors": {
+   "id": 504334,
+   "state": "record"
+  },
+  "Command: Undead": {
+   "id": 504868,
+   "state": "record"
+  },
+  "Corpse Commander": {
+   "id": 707739,
+   "state": "record"
+  },
+  "Corpse Explosion": {
+   "id": 533236,
+   "state": "record"
+  },
+  "Corpse Handling": {
+   "id": 704694,
+   "state": "record"
+  },
+  "Corpse Wagon": {
+   "id": 503738,
+   "state": "record"
+  },
+  "Create Bone Reliquary": {
+   "id": 803766,
+   "state": "record"
+  },
+  "Create Frozen Reliquary": {
+   "id": 803772,
+   "state": "record"
+  },
+  "Creeping Crypt": {
+   "id": 300960,
+   "state": "record"
+  },
+  "Crown's Call": {
+   "id": 805429,
+   "state": "record"
+  },
+  "Cryoshroud": {
+   "id": 302909,
+   "state": "record"
+  },
+  "Crypt Fury": {
+   "id": 704720,
+   "state": "record"
+  },
+  "Crypt Keeper": {
+   "id": 560596,
+   "state": "record"
+  },
+  "Crypt Plague": {
+   "id": 92121,
+   "state": "record"
+  },
+  "Crypt Swarm": {
+   "id": 500965,
+   "state": "record"
+  },
+  "Curse of the Lich": {
+   "id": 300240,
+   "state": "record"
+  },
+  "Damnation": {
+   "id": 806149,
+   "state": "record"
+  },
+  "Dead Man Walking": {
+   "id": 300233,
+   "state": "record"
+  },
+  "Deadly Bond": {
+   "id": 572772,
+   "state": "record"
+  },
+  "Deadly Defense": {
+   "id": 300580,
+   "state": "record"
+  },
+  "Death - Level 15 Passive": {
+   "id": 806151,
+   "state": "record"
+  },
+  "Death Commander": {
+   "id": 300235,
+   "state": "record"
+  },
+  "Death's Due": {
+   "id": 807796,
+   "state": "record"
+  },
+  "Deathchill": {
+   "id": 801727,
+   "state": "record"
+  },
+  "Deathly Chill": {
+   "id": 680553,
+   "state": "record"
+  },
+  "Depravity": {
+   "id": 638403,
+   "state": "record"
+  },
+  "Diabolical": {
+   "id": 704723,
+   "state": "record"
+  },
+  "Disciple of Kel'thuzad": {
+   "id": 560615,
+   "state": "record"
+  },
+  "Dominion of Frost": {
+   "id": 537208,
+   "state": "record"
+  },
+  "Entomb": {
+   "id": 500341,
+   "state": "record"
+  },
+  "Essence of the Geist": {
+   "id": 560594,
+   "state": "record"
+  },
+  "Expediting Death": {
+   "id": 300236,
+   "state": "record"
+  },
+  "Expunge": {
+   "id": 500343,
+   "state": "record"
+  },
+  "Festering Decay": {
+   "id": 806324,
+   "state": "record"
+  },
+  "Fetid Pawns": {
+   "id": 804397,
+   "state": "record"
+  },
+  "Fetid Ward": {
+   "id": 680388,
+   "state": "record"
+  },
+  "Flesh Laboratory": {
+   "id": 805037,
+   "state": "record"
+  },
+  "Flesh To Worms RP GEN": {
+   "id": 704683,
+   "state": "record"
+  },
+  "Flesh to Worms": {
+   "id": 500338,
+   "state": "record"
+  },
+  "Fleshcrafting": {
+   "id": 300941,
+   "state": "record"
+  },
+  "Flow of Frost": {
+   "id": 704675,
+   "state": "record"
+  },
+  "Foul Contagion": {
+   "id": 300965,
+   "state": "record"
+  },
+  "Foul Expedition": {
+   "id": 572276,
+   "state": "record"
+  },
+  "Foul Invocation": {
+   "id": 804371,
+   "state": "record"
+  },
+  "Foul Mandate": {
+   "id": 800199,
+   "state": "record"
+  },
+  "Fractured Shards": {
+   "id": 704672,
+   "state": "record"
+  },
+  "Freeze Dry": {
+   "id": 704680,
+   "state": "record"
+  },
+  "Frigid Tether": {
+   "id": 704677,
+   "state": "record"
+  },
+  "Frigid Ward": {
+   "id": 801735,
+   "state": "record"
+  },
+  "Frigidness": {
+   "id": 560632,
+   "state": "record"
+  },
+  "Frost Ghast": {
+   "id": 801732,
+   "state": "record"
+  },
+  "Frost Runes": {
+   "id": 705750,
+   "state": "record"
+  },
+  "Frozen Bodies": {
+   "id": 707562,
+   "state": "record"
+  },
+  "Frozen Power": {
+   "id": 301303,
+   "state": "record"
+  },
+  "Frozen Wrath": {
+   "id": 704730,
+   "state": "record"
+  },
+  "Game of Bones": {
+   "id": 301198,
+   "state": "record"
+  },
+  "Gangrene": {
+   "id": 704714,
+   "state": "record"
+  },
+  "Ghoulify": {
+   "id": 800706,
+   "state": "record"
+  },
+  "Giant Bones": {
+   "id": 805427,
+   "state": "record"
+  },
+  "Glacial Impact": {
+   "id": 704355,
+   "state": "record"
+  },
+  "Glacial Tap": {
+   "id": 805369,
+   "state": "record"
+  },
+  "Glacial Ward": {
+   "id": 681460,
+   "state": "record"
+  },
+  "Grave March": {
+   "id": 500991,
+   "state": "record"
+  },
+  "Grave Mastery": {
+   "id": 504439,
+   "state": "record"
+  },
+  "Gravebound Champion": {
+   "id": 805049,
+   "state": "record"
+  },
+  "Gravedigger": {
+   "id": 704715,
+   "state": "record"
+  },
+  "Gravekeeper": {
+   "id": 704698,
+   "state": "record"
+  },
+  "Graveyard": {
+   "id": 805197,
+   "state": "record"
+  },
+  "Greater Chill of the Tomb": {
+   "id": 572177,
+   "state": "record"
+  },
+  "Greater Foul Mandate": {
+   "id": 680286,
+   "state": "record"
+  },
+  "Greater Grim Mandate": {
+   "id": 572790,
+   "state": "record"
+  },
+  "Greater Razorice": {
+   "id": 572214,
+   "state": "record"
+  },
+  "Greater Summoning": {
+   "id": 704699,
+   "state": "record"
+  },
+  "Grim Mandate": {
+   "id": 572787,
+   "state": "record"
+  },
+  "Guts": {
+   "id": 704697,
+   "state": "record"
+  },
+  "Harrowing Winds": {
+   "id": 705745,
+   "state": "record"
+  },
+  "Harvest Plague": {
+   "id": 500968,
+   "state": "record"
+  },
+  "Heartchill": {
+   "id": 83992,
+   "state": "record"
+  },
+  "Hoarfrost": {
+   "id": 801762,
+   "state": "no-record"
+  },
+  "Hulking Hordes": {
+   "id": 300748,
+   "state": "record"
+  },
+  "Ice Barrage": {
+   "id": 801760,
+   "state": "record"
+  },
+  "Icebound Champion": {
+   "id": 807812,
+   "state": "record"
+  },
+  "Icecrown Scriptures": {
+   "id": 300234,
+   "state": "record"
+  },
+  "Icequake": {
+   "id": 500191,
+   "state": "record"
+  },
+  "Icequake Trigger": {
+   "id": 801751,
+   "state": "record"
+  },
+  "Icicle Shards": {
+   "id": 704689,
+   "state": "record"
+  },
+  "Improved Mandates": {
+   "id": 560613,
+   "state": "record"
+  },
+  "Improved Plaguewither": {
+   "id": 801948,
+   "state": "record"
+  },
+  "Improved Razorice": {
+   "id": 704671,
+   "state": "record"
+  },
+  "Lich Blast": {
+   "id": 93586,
+   "state": "record"
+  },
+  "Lich Bolt": {
+   "id": 801942,
+   "state": "record"
+  },
+  "Lich Commander": {
+   "id": 704713,
+   "state": "record"
+  },
+  "Lich Essence": {
+   "id": 802988,
+   "state": "record"
+  },
+  "Lich Form": {
+   "id": 500981,
+   "state": "record"
+  },
+  "Lichfrost": {
+   "id": 801722,
+   "state": "record"
+  },
+  "Lichplague": {
+   "id": 802132,
+   "state": "record"
+  },
+  "Life For Power": {
+   "id": 705746,
+   "state": "record"
+  },
+  "Life Force": {
+   "id": 524901,
+   "state": "record"
+  },
+  "Lingering Blight": {
+   "id": 704685,
+   "state": "record"
+  },
+  "Living Dead": {
+   "id": 302888,
+   "state": "record"
+  },
+  "Long March": {
+   "id": 704717,
+   "state": "record"
+  },
+  "March of the Dead": {
+   "id": 707007,
+   "state": "record"
+  },
+  "Mass Grave": {
+   "id": 803741,
+   "state": "record"
+  },
+  "Mass Raise": {
+   "id": 505550,
+   "state": "record"
+  },
+  "Master of Death": {
+   "id": 806328,
+   "state": "record"
+  },
+  "Mindless Fury": {
+   "id": 805674,
+   "state": "record"
+  },
+  "Mortification": {
+   "id": 704709,
+   "state": "record"
+  },
+  "Mortuary Bond": {
+   "id": 804171,
+   "state": "record"
+  },
+  "Muck Summoner": {
+   "id": 806086,
+   "state": "record"
+  },
+  "Muckblood": {
+   "id": 520367,
+   "state": "record"
+  },
+  "Mutation": {
+   "id": 500342,
+   "state": "record"
+  },
+  "NYI": {
+   "id": 500979,
+   "state": "record"
+  },
+  "Naxxramas Prodigy": {
+   "id": 560622,
+   "state": "record"
+  },
+  "Necromancy": {
+   "id": 804360,
+   "state": "record"
+  },
+  "Necrosis": {
+   "id": 802990,
+   "state": "record"
+  },
+  "Necrotic Armor": {
+   "id": 806386,
+   "state": "record"
+  },
+  "Necrotic Chains": {
+   "id": 801733,
+   "state": "record"
+  },
+  "Ner'zhul's Blessing": {
+   "id": 704729,
+   "state": "record"
+  },
+  "Ner'zhul's Pact": {
+   "id": 804717,
+   "state": "record"
+  },
+  "Noxious Corpserot": {
+   "id": 802129,
+   "state": "record"
+  },
+  "Overwhelming Force": {
+   "id": 531128,
+   "state": "record"
+  },
+  "Overwhelming Odds": {
+   "id": 560597,
+   "state": "record"
+  },
+  "Parasitical Experiments": {
+   "id": 806082,
+   "state": "record"
+  },
+  "Permafrost": {
+   "id": 704681,
+   "state": "record"
+  },
+  "Pestilent Aura": {
+   "id": 704707,
+   "state": "record"
+  },
+  "Phylactery": {
+   "id": 500933,
+   "state": "record"
+  },
+  "Plague Doctor": {
+   "id": 803087,
+   "state": "record"
+  },
+  "Plague Drinker": {
+   "id": 704712,
+   "state": "record"
+  },
+  "Plague Horde": {
+   "id": 704722,
+   "state": "record"
+  },
+  "Plague Protection": {
+   "id": 570046,
+   "state": "record"
+  },
+  "Plague Revenant": {
+   "id": 806321,
+   "state": "record"
+  },
+  "Plague Science": {
+   "id": 704163,
+   "state": "record"
+  },
+  "Plague of Undeath": {
+   "id": 801945,
+   "state": "record"
+  },
+  "Plague's Reach": {
+   "id": 806320,
+   "state": "record"
+  },
+  "Plaguebomb": {
+   "id": 500340,
+   "state": "record"
+  },
+  "Plaguestorm": {
+   "id": 801939,
+   "state": "record"
+  },
+  "Putricide's Formula": {
+   "id": 707001,
+   "state": "record"
+  },
+  "Putrid Summoner": {
+   "id": 504415,
+   "state": "record"
+  },
+  "Raise: Abomination": {
+   "id": 500335,
+   "state": "record"
+  },
+  "Raise: Banshee": {
+   "id": 504861,
+   "state": "record"
+  },
+  "Raise: Crypt Fiend": {
+   "id": 504859,
+   "state": "record"
+  },
+  "Raise: Decaying Colossus": {
+   "id": 500989,
+   "state": "record"
+  },
+  "Raise: Gargoyle": {
+   "id": 500329,
+   "state": "record"
+  },
+  "Raise: Ghoul": {
+   "id": 500971,
+   "state": "record"
+  },
+  "Raise: Greater Skeletal Warrior": {
+   "id": 504901,
+   "state": "record"
+  },
+  "Raise: Lesser Skeletal Warrior": {
+   "id": 500970,
+   "state": "record"
+  },
+  "Raise: Skeletal Mage": {
+   "id": 500331,
+   "state": "record"
+  },
+  "Raise: Skeletal Rogue": {
+   "id": 500969,
+   "state": "record"
+  },
+  "Rancid Air": {
+   "id": 704726,
+   "state": "record"
+  },
+  "Ray of Rot": {
+   "id": 804535,
+   "state": "record"
+  },
+  "Razorice": {
+   "id": 500967,
+   "state": "record"
+  },
+  "Reclaimed Life": {
+   "id": 707670,
+   "state": "record"
+  },
+  "Refreshing Chill": {
+   "id": 300940,
+   "state": "record"
+  },
+  "Refridgerate": {
+   "id": 704678,
+   "state": "record"
+  },
+  "Ritual Casting": {
+   "id": 704696,
+   "state": "record"
+  },
+  "Ritual Return": {
+   "id": 807098,
+   "state": "record"
+  },
+  "Rot Fetishist": {
+   "id": 573223,
+   "state": "record"
+  },
+  "Rotslinger": {
+   "id": 704711,
+   "state": "record"
+  },
+  "Rotten": {
+   "id": 804689,
+   "state": "record"
+  },
+  "Rotting Flesh": {
+   "id": 301304,
+   "state": "record"
+  },
+  "Runic Reservoir": {
+   "id": 704670,
+   "state": "record"
+  },
+  "Sacrifice Undead": {
+   "id": 805027,
+   "state": "record"
+  },
+  "Sacrificial Marking": {
+   "id": 572397,
+   "state": "record"
+  },
+  "Scourge Apprentice Training": {
+   "id": 680283,
+   "state": "record"
+  },
+  "Scourge Expert Training": {
+   "id": 680284,
+   "state": "record"
+  },
+  "Sense Undead": {
+   "id": 562028,
+   "state": "record"
+  },
+  "Shard of True Ice": {
+   "id": 567569,
+   "state": "record"
+  },
+  "Skeletal Warrior Mastery": {
+   "id": 301056,
+   "state": "record"
+  },
+  "Sludge Belcher": {
+   "id": 705755,
+   "state": "record"
+  },
+  "Soulfreeze": {
+   "id": 572023,
+   "state": "record"
+  },
+  "Sower of Sickness": {
+   "id": 806150,
+   "state": "record"
+  },
+  "Spellbound Champion": {
+   "id": 807811,
+   "state": "record"
+  },
+  "Study of Death": {
+   "id": 302597,
+   "state": "record"
+  },
+  "Summoning Adept": {
+   "id": 300747,
+   "state": "record"
+  },
+  "Summoning Expert": {
+   "id": 807494,
+   "state": "record"
+  },
+  "Summoning Mastery": {
+   "id": 707015,
+   "state": "record"
+  },
+  "Summoning Prodigy": {
+   "id": 504826,
+   "state": "record"
+  },
+  "Summoning Ritual": {
+   "id": 805038,
+   "state": "record"
+  },
+  "Summoning Stone": {
+   "id": 704728,
+   "state": "record"
+  },
+  "Tears of Lordaeron": {
+   "id": 705752,
+   "state": "record"
+  },
+  "Transfer Life": {
+   "id": 801530,
+   "state": "record"
+  },
+  "Tundra Warriors": {
+   "id": 92122,
+   "state": "record"
+  },
+  "Undead: Assault": {
+   "id": 500982,
+   "state": "record"
+  },
+  "Undead: Pacify": {
+   "id": 500983,
+   "state": "record"
+  },
+  "Undead: Protect": {
+   "id": 500985,
+   "state": "record"
+  },
+  "Underking": {
+   "id": 302516,
+   "state": "record"
+  },
+  "Unholy Command: Initiate, Colossus. Grave Mage": {
+   "id": 500978,
+   "state": "record"
+  },
+  "Unholy Erosion": {
+   "id": 807700,
+   "state": "record"
+  },
+  "Unholy Frenzy": {
+   "id": 805029,
+   "state": "record"
+  },
+  "Unrelenting": {
+   "id": 704718,
+   "state": "record"
+  },
+  "Unrelenting Army": {
+   "id": 705747,
+   "state": "record"
+  },
+  "Unrelenting Swarm": {
+   "id": 704719,
+   "state": "record"
+  },
+  "Vampiric Aura": {
+   "id": 300241,
+   "state": "record"
+  },
+  "Virulency": {
+   "id": 501900,
+   "state": "record"
+  },
+  "Winds of Northrend": {
+   "id": 301333,
+   "state": "record"
+  },
+  "Withering": {
+   "id": 301250,
+   "state": "record"
+  },
+  "Wormfood": {
+   "id": 503763,
+   "state": "record"
+  },
+  "Wormskin": {
+   "id": 802987,
+   "state": "record"
+  },
+  "Wretched Bile": {
+   "id": 560728,
+   "state": "record"
+  }
+ }
+}

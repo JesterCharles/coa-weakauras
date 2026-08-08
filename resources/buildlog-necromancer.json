@@ -1,0 +1,108 @@
+{
+ "class": "necromancer",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 44,
+   "citations": 6,
+   "crossdb_checked": 241,
+   "crossdb_pct": 98.4,
+   "inventory_rows": 251,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 245,
+   "mechanics_sources": 3,
+   "open_unknowns": 9,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 44,
+   "citations": 6,
+   "crossdb_checked": 241,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 247,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 241,
+   "mechanics_sources": 3,
+   "open_unknowns": 9,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 44,
+   "citations": 6,
+   "crossdb_checked": 245,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 251,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 245,
+   "mechanics_sources": 3,
+   "open_unknowns": 9,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "NO WARD alert in NC Core: fires when none of Fetid/Glacial/Bone Ward auras is up (ids+names any-of, \u00a76.7) AND Fetid Ward is known (Spell Known gate so an untalented/levelling character is never nagged); NEEDS_ALL so the gate stays an AND. Wards persist through death since 07/31, so a missing ward is purely a forgot-it state \u2014 the missing-imbue shape."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "6 pages scanned (600 entries, 2026/07/31..2026/08/07). 15 new necromancer entries triaged: Graveyard = brand-new lvl-60 spell (07/31, must enter inventory); Corpse Explosion CD now 60s (08/07 correction, was 10s pre-07/31); Unholy Runes = Blight 5% CE-reset proc (talent \u00a72); Foul Invocation adds Disease Cloud while active; Scourge Disciple = Skeletal Archers grant haste; AMS applies to minions not player; Study of Death 5 zombies; Entomb physical-immune only; wards persist through death; Fiend/Sepulchral Might = number tweaks. NOT accepted yet."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 records (3 blob-imported 2026-08-02 + 3 manual page transcriptions 2026-08-07), 44 claims, validated clean. Four once-in-blob prose names (Bonescrap, Banshee's Wail, Grimestep, Chill of the Grave) resolved to null in aliases-necromancer.json with per-name reasoning. Single source: Sidekick \u2014 corroboration not measurable, caveat carried on every record."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 245,
+   "note": "crossdb_sweep over all inventory rows with an id: 244 record, 1 no-record (Hoarfrost 801762 \u2014 resolved: Runemaster-mechanic digest contamination, role ignore, does not ship). Four rows added after the first sweep (Bone King 707175, Frozen Bodies 707562, Life Force 524901, Grave Mastery 504439) asked individually 2026-08-07: all record. Id-resolution tooltip verdicts in inventory Notes + builder CROSSCHECK: Graveyard 805197, Unholy Frenzy 805029, Lichplague 802132, March of the Dead 707007, Animate: Skeletal Archer 805040, Mass Grave 803741, Foul Invocation 804371, Bone Tithe 802121, Phylactery 500933."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide.py/mkpreview.py are Runemaster-hardcoded, so the guide read was a structural dump (scratchpad/necromancer-guide.py) + tools/hud.py + tools/rowwidths.py: 184 displays, 0 dup ids/uids, 0 \u00a71.4 orphans, 0 parent/child mismatches; ladder per spec Alerts -18 / Target -51 / merged Buffs -84 (13) / merged Main -132 (17 leaves) / RP bar -164 (w 228/320/228, h14, LF count text) / mana -180 (h10 minor) / Offense -202 GRID / Utility+Longterm on the SELECTFRAME chain (-4/-16). rowwidths: every necromancer row <=1.10x its bar, exit 0."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "BULK PASS (production-run precedent): 247 rows, roles machine-proposed by rule pass (spell-meta rank/cost/CD + skills meta + cooldown audit) plus ~90 curated calls carrying rotation/tooltip citations; one line of reasoning per row in Notes; markers cleared in bulk, NOT row-by-row human reads. Reviewer sweep corrected 16 rule misfires (Animates -> offensive, passives wrongly utility -> ignore). Hedged rows copied to requirements \u00a76. Provenance: this note is the record that no human read each row individually."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "Press orders from the transcribed page citations (sidekick-page-necromancer-<spec>-2026-08-07): animation Crypt Swarm > Command: Undead > Animate: Skeletal Archer > March of the Dead > Unholy Frenzy (5); death Plague of Undeath > Flesh to Worms > Lichplague > Crypt Swarm > Lichfrost > Command: Undead > Virulency (7); rime Lichfrost > Ice Barrage > Glacial Impact > Command: Bonefreeze > Command: Skeletal Mage (5). CD_PER_ROW=9 from narrowest row (5 icons, 228px)."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Sidekick spec pages scraped 2026-08-07 via Firecrawl -> resources/sidekick-necromancer-{animation,death,rime}.md. All three carry rotations + resource notes. Caveat recorded: Sidekick's kit lists do NOT contain Graveyard (new trainer spell, changelog 2026-07-31; db.exil.es id 500365) -- for anything the 07/31 batch touched, changelog+DBs outrank Sidekick."
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "\u00a73 built: minion army has no unit \u2014 Life Force aura 524901 stack count rides each spec's RP bar as 'LF %2.s' (the native budget surface; no minion-count trigger exists on this fork, confirmed against Prototypes.lua prototype list); Command: Undead in animation/death main rows, rime's own two Commands in its main row; Raise family in utility rows as the pre-pull ritual; Animate waves in animation offense; zero unit=pet triggers (whether any raised minion occupies the pet unit is \u00a76.3); NO PET alert deliberately not built for rime (no known presence surface \u2014 honest gap, \u00a76.3)."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW: Glacial Impact<-Permafrost, Ice Barrage<-Refreshing Chill, Lichfrost<-Bone King, Command: Undead<-Deadly Bond (all quoted talent text in requirements \u00a71; aura ids unverified \u00a76.6, matched id-or-name, fail safe). Stack states in the on-me rows: Diabolical, Underking (animation), Permafrost, Tundra Warriors, Frozen Bodies, Refreshing Chill (rime)."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-necromancer.md written, all sections answered from cited sources; \u00a73 (pets) is the load-bearing section: Life Force aura 524901 as the minion-budget surface (no native minion-count trigger on this fork, confirmed against Prototypes.lua), Command dispatch model hedged, 11 \u00a76 UNKNOWNs collected as the in-game checklist."
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "\u00a72: no talent replaces/transforms an ability's spell id (tree payload + changelog checked) \u2014 no variants, no spell_swap. The one build-defining fork is the Animate: Bone Wraith / Tomb King choose-one: both drawn in the animation offense row, each under its own Spell Known gate, so either build reads and the untaken one never appears. Free-cast procs (Bone King, Deadly Bond, Refreshing Chill, Permafrost) ride PROC_GLOW and fail safe on the other build. Study of Death / Unholy Runes / Withering / Long March all read correctly untalented because only native CD/aura state is drawn."
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py: all checks passed (fixtures frozen via tests/freeze.py necromancer; CORE_LEAVES pinned at 3 with style-matching comment \u2014 NO WARD alert + 2 class-gated all-spec buff leaves). Also re-published docs/packs/ranger + witch-hunter from the main checkout so their checks stopped failing vacuously in this worktree."
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "requirements \u00a76: 11 open questions, ALL deferred on purpose to the post-ship in-game sweep / community feedback per production-run draft policy \u2014 headline ones: Life Force stack semantics (6.1), Command dispatch model (6.2), rime pet presence surface (6.3), RP as UnitPower 6 (6.5). None blocks a draft: every affected display fails visible-or-safe, never lies."
+  }
+ }
+}
