@@ -1,0 +1,30 @@
+{
+ "class": "bloodmage",
+ "source": "coa.ascensionlogs.gg",
+ "source_url": "https://coa.ascensionlogs.gg/rankings",
+ "policy": "reference",
+ "collected_at": null,
+ "collected_by": null,
+ "categories": {
+  "overall": {
+   "label": "Overall",
+   "note": "",
+   "entries": []
+  },
+  "world-boss": {
+   "label": "World Bosses",
+   "note": "",
+   "entries": []
+  },
+  "dungeon": {
+   "label": "Dungeons",
+   "note": "",
+   "entries": []
+  },
+  "raid": {
+   "label": "Zul'Gurub",
+   "note": "",
+   "entries": []
+  }
+ }
+}

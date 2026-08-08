@@ -1,0 +1,3578 @@
+{
+ "A Pointed Death": {
+  "ids": [
+   704638
+  ],
+  "icon": null
+ },
+ "Accursed": {
+  "ids": [
+   681514
+  ],
+  "icon": null
+ },
+ "Accursed - Level 10 Passive": {
+  "ids": [
+   93589
+  ],
+  "icon": null
+ },
+ "Accursed Blood Hidden Consume": {
+  "ids": [
+   997798
+  ],
+  "icon": null
+ },
+ "Accursed Form": {
+  "ids": [
+   504710
+  ],
+  "icon": null
+ },
+ "Acquired Taste": {
+  "ids": [
+   807566
+  ],
+  "icon": null
+ },
+ "Adrenaline": {
+  "ids": [
+   300986
+  ],
+  "icon": null
+ },
+ "Adrenaline Boost": {
+  "ids": [
+   680675
+  ],
+  "icon": null
+ },
+ "Aerotic Aegis": {
+  "ids": [
+   680829
+  ],
+  "icon": null
+ },
+ "Agonizing Pain": {
+  "ids": [
+   560258
+  ],
+  "icon": null
+ },
+ "Agony": {
+  "ids": [
+   681496
+  ],
+  "icon": null
+ },
+ "Alacrity": {
+  "ids": [
+   504285
+  ],
+  "icon": null
+ },
+ "Aneurysm": {
+  "ids": [
+   520860
+  ],
+  "icon": null
+ },
+ "Animated Blood": {
+  "ids": [
+   573299
+  ],
+  "icon": null
+ },
+ "Animated Blood (Empowered)": {
+  "ids": [
+   681398
+  ],
+  "icon": null
+ },
+ "Animated Blood Heal Passive": {
+  "ids": [
+   504711
+  ],
+  "icon": null
+ },
+ "Aortic Aegis": {
+  "ids": [
+   704637
+  ],
+  "icon": null
+ },
+ "Aortic Assault": {
+  "ids": [
+   806212
+  ],
+  "icon": null
+ },
+ "Apotheosis": {
+  "ids": [
+   804195
+  ],
+  "icon": null
+ },
+ "Appetite for Blood": {
+  "ids": [
+   560479
+  ],
+  "icon": null
+ },
+ "Apply Worgen Bite (Melee)": {
+  "ids": [
+   705314
+  ],
+  "icon": null
+ },
+ "Arterial Bind": {
+  "ids": [
+   681077
+  ],
+  "icon": null
+ },
+ "At Least 6 Thirst": {
+  "ids": [
+   302508
+  ],
+  "icon": null
+ },
+ "At Most 5 Thirst": {
+  "ids": [
+   302507
+  ],
+  "icon": null
+ },
+ "Atherann's Acuity": {
+  "ids": [
+   504105
+  ],
+  "icon": null
+ },
+ "Atherann's Anguish": {
+  "ids": [
+   500197
+  ],
+  "icon": null
+ },
+ "Atherann's Wickedness": {
+  "ids": [
+   704642
+  ],
+  "icon": null
+ },
+ "Avatar of Vengeance": {
+  "ids": [
+   531756
+  ],
+  "icon": null
+ },
+ "Bare Fangs": {
+  "ids": [
+   801957
+  ],
+  "icon": null
+ },
+ "Barely Human": {
+  "ids": [
+   504254
+  ],
+  "icon": null
+ },
+ "Bat Bite": {
+  "ids": [
+   802358
+  ],
+  "icon": null
+ },
+ "Bat Form": {
+  "ids": [
+   704304
+  ],
+  "icon": null
+ },
+ "Batting for Supremacy": {
+  "ids": [
+   504169
+  ],
+  "icon": null
+ },
+ "Battle for Supremacy": {
+  "ids": [
+   504143
+  ],
+  "icon": null
+ },
+ "Battleweaver": {
+  "ids": [
+   801963
+  ],
+  "icon": null
+ },
+ "Battleweaver (Cursed)": {
+  "ids": [
+   504110
+  ],
+  "icon": null
+ },
+ "Battleweaver (Mortal)": {
+  "ids": [
+   504111
+  ],
+  "icon": null
+ },
+ "Beguiler": {
+  "ids": [
+   561026
+  ],
+  "icon": null
+ },
+ "Bended Blood": {
+  "ids": [
+   504099
+  ],
+  "icon": null
+ },
+ "Binding Torment": {
+  "ids": [
+   704640
+  ],
+  "icon": null
+ },
+ "Bite Wound": {
+  "ids": [
+   556234
+  ],
+  "icon": null
+ },
+ "Black Guard": {
+  "ids": [
+   536272
+  ],
+  "icon": null
+ },
+ "Black Heart": {
+  "ids": [
+   680731
+  ],
+  "icon": null
+ },
+ "Bleed test": {
+  "ids": [
+   680766
+  ],
+  "icon": null
+ },
+ "Blood Banquet": {
+  "ids": [
+   560250
+  ],
+  "icon": null
+ },
+ "Blood Barrier": {
+  "ids": [
+   560263
+  ],
+  "icon": null
+ },
+ "Blood Barrier (Empowered)": {
+  "ids": [
+   680832
+  ],
+  "icon": null
+ },
+ "Blood Blast": {
+  "ids": [
+   500546
+  ],
+  "icon": null
+ },
+ "Blood Bond": {
+  "ids": [
+   504627
+  ],
+  "icon": null
+ },
+ "Blood Burst": {
+  "ids": [
+   803326
+  ],
+  "icon": null
+ },
+ "Blood Claws": {
+  "ids": [
+   572912
+  ],
+  "icon": null
+ },
+ "Blood Clot": {
+  "ids": [
+   680657
+  ],
+  "icon": null
+ },
+ "Blood Constructor": {
+  "ids": [
+   561196
+  ],
+  "icon": null
+ },
+ "Blood Craving": {
+  "ids": [
+   800780
+  ],
+  "icon": null
+ },
+ "Blood Curse": {
+  "ids": [
+   562720
+  ],
+  "icon": null
+ },
+ "Blood Curse Charge Passive": {
+  "ids": [
+   504267
+  ],
+  "icon": null
+ },
+ "Blood Debt": {
+  "ids": [
+   524892
+  ],
+  "icon": null
+ },
+ "Blood Delirium": {
+  "ids": [
+   504299
+  ],
+  "icon": null
+ },
+ "Blood Drinker": {
+  "ids": [
+   572351
+  ],
+  "icon": null
+ },
+ "Blood Echoes": {
+  "ids": [
+   572880
+  ],
+  "icon": null
+ },
+ "Blood Feast": {
+  "ids": [
+   706605
+  ],
+  "icon": null
+ },
+ "Blood Howl": {
+  "ids": [
+   800782
+  ],
+  "icon": null
+ },
+ "Blood Lord": {
+  "ids": [
+   704636
+  ],
+  "icon": null
+ },
+ "Blood Loss": {
+  "ids": [
+   504165
+  ],
+  "icon": null
+ },
+ "Blood Mark": {
+  "ids": [
+   707624
+  ],
+  "icon": null
+ },
+ "Blood Moon": {
+  "ids": [
+   572785
+  ],
+  "icon": null
+ },
+ "Blood Orb": {
+  "ids": [
+   707434
+  ],
+  "icon": null
+ },
+ "Blood Pact": {
+  "ids": [
+   801955
+  ],
+  "icon": null
+ },
+ "Blood Parasites": {
+  "ids": [
+   300765
+  ],
+  "icon": null
+ },
+ "Blood Prince's Command": {
+  "ids": [
+   704641
+  ],
+  "icon": null
+ },
+ "Blood Prodigy": {
+  "ids": [
+   500446
+  ],
+  "icon": null
+ },
+ "Blood Rain": {
+  "ids": [
+   706618
+  ],
+  "icon": null
+ },
+ "Blood Redistribution": {
+  "ids": [
+   706256
+  ],
+  "icon": null
+ },
+ "Blood Rituals": {
+  "ids": [
+   704119
+  ],
+  "icon": null
+ },
+ "Blood Rituals Heal Proc Source": {
+  "ids": [
+   704118
+  ],
+  "icon": null
+ },
+ "Blood Runs Cold": {
+  "ids": [
+   504294
+  ],
+  "icon": null
+ },
+ "Blood Rush": {
+  "ids": [
+   504551
+  ],
+  "icon": null
+ },
+ "Blood Savant": {
+  "ids": [
+   504074
+  ],
+  "icon": null
+ },
+ "Blood Scent": {
+  "ids": [
+   804223
+  ],
+  "icon": null
+ },
+ "Blood Shard": {
+  "ids": [
+   504115
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 1": {
+  "ids": [
+   505357
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 2": {
+  "ids": [
+   505358
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 3": {
+  "ids": [
+   505359
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 4": {
+  "ids": [
+   505360
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 5": {
+  "ids": [
+   505361
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 6": {
+  "ids": [
+   505362
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 7": {
+  "ids": [
+   505363
+  ],
+  "icon": null
+ },
+ "Blood Shard Trigger Attack 8": {
+  "ids": [
+   505364
+  ],
+  "icon": null
+ },
+ "Blood Shards": {
+  "ids": [
+   804849
+  ],
+  "icon": null
+ },
+ "Blood Shield": {
+  "ids": [
+   504296
+  ],
+  "icon": null
+ },
+ "Blood Strike": {
+  "ids": [
+   589023
+  ],
+  "icon": null
+ },
+ "Blood Tap": {
+  "ids": [
+   707900
+  ],
+  "icon": null
+ },
+ "Blood Tear Spawn": {
+  "ids": [
+   712417
+  ],
+  "icon": null
+ },
+ "Blood Thickening": {
+  "ids": [
+   680659
+  ],
+  "icon": null
+ },
+ "Blood Trail": {
+  "ids": [
+   804857
+  ],
+  "icon": null
+ },
+ "Blood Trails": {
+  "ids": [
+   804858
+  ],
+  "icon": null
+ },
+ "Blood Veil": {
+  "ids": [
+   504263
+  ],
+  "icon": null
+ },
+ "Blood Work": {
+  "ids": [
+   560075
+  ],
+  "icon": null
+ },
+ "Blood of the Vampyr": {
+  "ids": [
+   524934
+  ],
+  "icon": null
+ },
+ "Bloodbender": {
+  "ids": [
+   704635
+  ],
+  "icon": null
+ },
+ "Bloodbolt": {
+  "ids": [
+   804685
+  ],
+  "icon": null
+ },
+ "Bloodbolt (Empowered)": {
+  "ids": [
+   681396
+  ],
+  "icon": null
+ },
+ "Bloodborn": {
+  "ids": [
+   504297
+  ],
+  "icon": null
+ },
+ "Bloodbound Etchings": {
+  "ids": [
+   570758
+  ],
+  "icon": null
+ },
+ "Bloodchaser": {
+  "ids": [
+   523721
+  ],
+  "icon": null
+ },
+ "Bloodclaws Visual": {
+  "ids": [
+   800492
+  ],
+  "icon": null
+ },
+ "Bloodcraft": {
+  "ids": [
+   524182
+  ],
+  "icon": null
+ },
+ "Bloodcrazed": {
+  "ids": [
+   704650
+  ],
+  "icon": null
+ },
+ "Bloodfang Bite": {
+  "ids": [
+   800156
+  ],
+  "icon": null
+ },
+ "Bloodfang Bite CDR": {
+  "ids": [
+   704306
+  ],
+  "icon": null
+ },
+ "Bloodfang Bite CDR (Bloodstalker)": {
+  "ids": [
+   801654
+  ],
+  "icon": null
+ },
+ "Bloodfusion": {
+  "ids": [
+   681382
+  ],
+  "icon": null
+ },
+ "Bloodgale": {
+  "ids": [
+   681310
+  ],
+  "icon": null
+ },
+ "Bloodgorged": {
+  "ids": [
+   804804
+  ],
+  "icon": null
+ },
+ "Bloodguard": {
+  "ids": [
+   570746
+  ],
+  "icon": null
+ },
+ "Bloodhunt": {
+  "ids": [
+   707198
+  ],
+  "icon": null
+ },
+ "Bloodied": {
+  "ids": [
+   800487
+  ],
+  "icon": null
+ },
+ "Bloodleaper": {
+  "ids": [
+   806423
+  ],
+  "icon": null
+ },
+ "Bloodlord's Curse": {
+  "ids": [
+   707449
+  ],
+  "icon": null
+ },
+ "Bloodmage": {
+  "ids": [
+   805388
+  ],
+  "icon": null
+ },
+ "Bloodmage (Accursed)": {
+  "ids": [
+   500529
+  ],
+  "icon": null
+ },
+ "Bloodmage Blood Shard Consume 1": {
+  "ids": [
+   506639
+  ],
+  "icon": null
+ },
+ "Bloodmage Blood Shard Consumer ALL": {
+  "ids": [
+   505368
+  ],
+  "icon": null
+ },
+ "Bloodmage Blood Shard Generate 1": {
+  "ids": [
+   506640
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Damage": {
+  "ids": [
+   505365
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage EXTRASS": {
+  "ids": [
+   505367
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Stack counter": {
+  "ids": [
+   505366
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 1": {
+  "ids": [
+   505349
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 2": {
+  "ids": [
+   505350
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 3": {
+  "ids": [
+   505351
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 4": {
+  "ids": [
+   505352
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 5": {
+  "ids": [
+   505353
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 6": {
+  "ids": [
+   505354
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 7": {
+  "ids": [
+   505355
+  ],
+  "icon": null
+ },
+ "Bloodmage Gore Barrage Visual 8": {
+  "ids": [
+   505356
+  ],
+  "icon": null
+ },
+ "Bloodmoon Blast": {
+  "ids": [
+   500125
+  ],
+  "icon": null
+ },
+ "Bloodmoon Power": {
+  "ids": [
+   801961
+  ],
+  "icon": null
+ },
+ "Bloodmyst": {
+  "ids": [
+   680841
+  ],
+  "icon": null
+ },
+ "Bloodshards": {
+  "ids": [
+   300588
+  ],
+  "icon": null
+ },
+ "Bloodshards (Mortal)": {
+  "ids": [
+   680225
+  ],
+  "icon": null
+ },
+ "Bloodsoaked Offering": {
+  "ids": [
+   572400
+  ],
+  "icon": null
+ },
+ "Bloodsore": {
+  "ids": [
+   805592
+  ],
+  "icon": null
+ },
+ "Bloodsores Hidden Passive": {
+  "ids": [
+   805594
+  ],
+  "icon": null
+ },
+ "Bloodstalker": {
+  "ids": [
+   704665
+  ],
+  "icon": null
+ },
+ "Bloodsurge": {
+  "ids": [
+   553267
+  ],
+  "icon": null
+ },
+ "Bloodthirst": {
+  "ids": [
+   704237
+  ],
+  "icon": null
+ },
+ "Bloodthirsty x3": {
+  "ids": [
+   523730
+  ],
+  "icon": null
+ },
+ "Bloodthorns": {
+  "ids": [
+   802313
+  ],
+  "icon": null
+ },
+ "Bloodveil": {
+  "ids": [
+   504262
+  ],
+  "icon": null
+ },
+ "Bloodwell Eruption": {
+  "ids": [
+   560072
+  ],
+  "icon": null
+ },
+ "Bloodwork": {
+  "ids": [
+   560076
+  ],
+  "icon": null
+ },
+ "Bloody Claws": {
+  "ids": [
+   572800
+  ],
+  "icon": null
+ },
+ "Bloody Sacrifice": {
+  "ids": [
+   705742
+  ],
+  "icon": null
+ },
+ "Bone Shield": {
+  "ids": [
+   301272
+  ],
+  "icon": null
+ },
+ "Born In Blood Trigger": {
+  "ids": [
+   524893
+  ],
+  "icon": null
+ },
+ "Born in Blood": {
+  "ids": [
+   504552
+  ],
+  "icon": null
+ },
+ "Brambleguard": {
+  "ids": [
+   805092
+  ],
+  "icon": null
+ },
+ "Break Roots": {
+  "ids": [
+   804323
+  ],
+  "icon": null
+ },
+ "Brutalizer": {
+  "ids": [
+   704657
+  ],
+  "icon": null
+ },
+ "Call of the Darkwing": {
+  "ids": [
+   801958
+  ],
+  "icon": null
+ },
+ "Cardiac Arrest": {
+  "ids": [
+   806944
+  ],
+  "icon": null
+ },
+ "Carelessness": {
+  "ids": [
+   503581
+  ],
+  "icon": null
+ },
+ "Catch the Scent": {
+  "ids": [
+   804260
+  ],
+  "icon": null
+ },
+ "Celestial Resonance": {
+  "ids": [
+   520929
+  ],
+  "icon": null
+ },
+ "Claw Sweep": {
+  "ids": [
+   500169
+  ],
+  "icon": null
+ },
+ "Claw Sweep Conal": {
+  "ids": [
+   704286
+  ],
+  "icon": null
+ },
+ "Claws of Fury": {
+  "ids": [
+   532523
+  ],
+  "icon": null
+ },
+ "Cleaving Strikes": {
+  "ids": [
+   704126
+  ],
+  "icon": null
+ },
+ "Clotting": {
+  "ids": [
+   704115
+  ],
+  "icon": null
+ },
+ "CoA Aura - Bloodmage - Accursed": {
+  "ids": [
+   887047
+  ],
+  "icon": null
+ },
+ "CoA Aura - Bloodmage - Eternal": {
+  "ids": [
+   887049
+  ],
+  "icon": null
+ },
+ "CoA Aura - Bloodmage - Fleshweaver": {
+  "ids": [
+   887048
+  ],
+  "icon": null
+ },
+ "CoA Aura - Bloodmage - Sanguine": {
+  "ids": [
+   887046
+  ],
+  "icon": null
+ },
+ "CoA Aura - Bloodmage Class": {
+  "ids": [
+   887008
+  ],
+  "icon": null
+ },
+ "CoA Aura: Agility SoA Buff": {
+  "ids": [
+   806509
+  ],
+  "icon": null
+ },
+ "CoA Aura: Intellect SoA Buff": {
+  "ids": [
+   805999
+  ],
+  "icon": null
+ },
+ "CoA Aura: Spirit SoA Buff": {
+  "ids": [
+   806510
+  ],
+  "icon": null
+ },
+ "CoA Transform Visual": {
+  "ids": [
+   803228
+  ],
+  "icon": null
+ },
+ "Coagulated Shield": {
+  "ids": [
+   504897
+  ],
+  "icon": null
+ },
+ "Coagulation": {
+  "ids": [
+   504102
+  ],
+  "icon": null
+ },
+ "Coated In Blood": {
+  "ids": [
+   707626
+  ],
+  "icon": null
+ },
+ "Coated In Darkness": {
+  "ids": [
+   704625
+  ],
+  "icon": null
+ },
+ "Coated in Darkness": {
+  "ids": [
+   804205
+  ],
+  "icon": null
+ },
+ "Consolidation": {
+  "ids": [
+   706603
+  ],
+  "icon": null
+ },
+ "Corrupted Blood": {
+  "ids": [
+   532623
+  ],
+  "icon": null
+ },
+ "Council Assembled CD Reduc": {
+  "ids": [
+   505153
+  ],
+  "icon": null
+ },
+ "Crimson Curse": {
+  "ids": [
+   706656
+  ],
+  "icon": null
+ },
+ "Crimson Etchings": {
+  "ids": [
+   570735
+  ],
+  "icon": null
+ },
+ "Crimson Expedition": {
+  "ids": [
+   517512
+  ],
+  "icon": null
+ },
+ "Crimson Feast": {
+  "ids": [
+   804602
+  ],
+  "icon": null
+ },
+ "Crimson Hymn": {
+  "ids": [
+   704622
+  ],
+  "icon": null
+ },
+ "Crimson Maw": {
+  "ids": [
+   803388
+  ],
+  "icon": null
+ },
+ "Crimson Scion": {
+  "ids": [
+   806424
+  ],
+  "icon": null
+ },
+ "Crimson Terror": {
+  "ids": [
+   560073
+  ],
+  "icon": null
+ },
+ "Crimson Tide": {
+  "ids": [
+   504282
+  ],
+  "icon": null
+ },
+ "Crimson Tide (Empowered)": {
+  "ids": [
+   524896
+  ],
+  "icon": null
+ },
+ "Critical Mending": {
+  "ids": [
+   680677
+  ],
+  "icon": null
+ },
+ "Cruel Intent": {
+  "ids": [
+   704653
+  ],
+  "icon": null
+ },
+ "Curse of Blood Impact Visual": {
+  "ids": [
+   803226
+  ],
+  "icon": null
+ },
+ "Curse of the Worgen": {
+  "ids": [
+   500122
+  ],
+  "icon": null
+ },
+ "Curse of the Worgen CD reduction": {
+  "ids": [
+   500676
+  ],
+  "icon": null
+ },
+ "Curse of the Worgen Derager": {
+  "ids": [
+   504257
+  ],
+  "icon": null
+ },
+ "Cursed Bites": {
+  "ids": [
+   572765
+  ],
+  "icon": null
+ },
+ "Cursed Form": {
+  "ids": [
+   524861
+  ],
+  "icon": null
+ },
+ "Cursed Form Removal": {
+  "ids": [
+   802878
+  ],
+  "icon": null
+ },
+ "Cursed Form or Sanguine Essence": {
+  "ids": [
+   803427
+  ],
+  "icon": null
+ },
+ "Cursed Ground": {
+  "ids": [
+   561195
+  ],
+  "icon": null
+ },
+ "Cursed Strikes": {
+  "ids": [
+   300982
+  ],
+  "icon": null
+ },
+ "Curseguard": {
+  "ids": [
+   704137
+  ],
+  "icon": null
+ },
+ "Cut to the Case": {
+  "ids": [
+   680697
+  ],
+  "icon": null
+ },
+ "Dark Blood": {
+  "ids": [
+   804807
+  ],
+  "icon": null
+ },
+ "Dark Curse": {
+  "ids": [
+   704649
+  ],
+  "icon": null
+ },
+ "Dark Embrace": {
+  "ids": [
+   804854
+  ],
+  "icon": null
+ },
+ "Dark Essence": {
+  "ids": [
+   680732
+  ],
+  "icon": null
+ },
+ "Dark Feast": {
+  "ids": [
+   807934
+  ],
+  "icon": null
+ },
+ "Dark Frenzy": {
+  "ids": [
+   704644
+  ],
+  "icon": null
+ },
+ "Dark Hide": {
+  "ids": [
+   705730
+  ],
+  "icon": null
+ },
+ "Dark Hunt": {
+  "ids": [
+   705733
+  ],
+  "icon": null
+ },
+ "Dark Intent": {
+  "ids": [
+   705741
+  ],
+  "icon": null
+ },
+ "Dark Liturgy": {
+  "ids": [
+   800781
+  ],
+  "icon": null
+ },
+ "Dark Mark": {
+  "ids": [
+   705731
+  ],
+  "icon": null
+ },
+ "Dark Mending": {
+  "ids": [
+   504563
+  ],
+  "icon": null
+ },
+ "Dark Pact": {
+  "ids": [
+   504293
+  ],
+  "icon": null
+ },
+ "Dark Presence": {
+  "ids": [
+   300957
+  ],
+  "icon": null
+ },
+ "Dark Sigil": {
+  "ids": [
+   560535
+  ],
+  "icon": null
+ },
+ "Darkcaster Aura": {
+  "ids": [
+   536274
+  ],
+  "icon": null
+ },
+ "Darkcasting": {
+  "ids": [
+   706247
+  ],
+  "icon": null
+ },
+ "Darkfallen Lament": {
+  "ids": [
+   524180
+  ],
+  "icon": null
+ },
+ "Darkfallen Lament (Immunity)": {
+  "ids": [
+   681024
+  ],
+  "icon": null
+ },
+ "Darkfallen's Embrace": {
+  "ids": [
+   560261
+  ],
+  "icon": null
+ },
+ "Darkness of Arugal": {
+  "ids": [
+   800464
+  ],
+  "icon": null
+ },
+ "Decrement Ever Hungry": {
+  "ids": [
+   802027
+  ],
+  "icon": null
+ },
+ "Decrement Thirst": {
+  "ids": [
+   706614
+  ],
+  "icon": null
+ },
+ "Demon Form Activation Visual": {
+  "ids": [
+   706262
+  ],
+  "icon": null
+ },
+ "Demoralizing Shout": {
+  "ids": [
+   800846
+  ],
+  "icon": null
+ },
+ "Denmother": {
+  "ids": [
+   804295
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   804601
+  ],
+  "icon": null
+ },
+ "Depth of Shadows": {
+  "ids": [
+   706461
+  ],
+  "icon": null
+ },
+ "Despair": {
+  "ids": [
+   504209
+  ],
+  "icon": null
+ },
+ "Detect Life": {
+  "ids": [
+   562228
+  ],
+  "icon": null
+ },
+ "Dissipate": {
+  "ids": [
+   553278
+  ],
+  "icon": null
+ },
+ "Dissipation": {
+  "ids": [
+   680730
+  ],
+  "icon": null
+ },
+ "Dominion of Blood": {
+  "ids": [
+   680716
+  ],
+  "icon": null
+ },
+ "Door of Shadows": {
+  "ids": [
+   706730
+  ],
+  "icon": null
+ },
+ "Dreadlord's Curse": {
+  "ids": [
+   504154
+  ],
+  "icon": null
+ },
+ "Drenched in Blood": {
+  "ids": [
+   504072
+  ],
+  "icon": null
+ },
+ "Drenched in Blood (Remover)": {
+  "ids": [
+   504073
+  ],
+  "icon": null
+ },
+ "Easy Prey": {
+  "ids": [
+   704621
+  ],
+  "icon": null
+ },
+ "Elemental Inscription Arcane": {
+  "ids": [
+   704145
+  ],
+  "icon": null
+ },
+ "Elemental Inscription Fire": {
+  "ids": [
+   704143
+  ],
+  "icon": null
+ },
+ "Elemental Inscription Frost": {
+  "ids": [
+   704144
+  ],
+  "icon": null
+ },
+ "Empowered": {
+  "ids": [
+   524899
+  ],
+  "icon": null
+ },
+ "Empowered Trigger": {
+  "ids": [
+   681035
+  ],
+  "icon": null
+ },
+ "Empowered Trigger 2": {
+  "ids": [
+   681028
+  ],
+  "icon": null
+ },
+ "Empowered Trigger3": {
+  "ids": [
+   681397
+  ],
+  "icon": null
+ },
+ "Endless Thirst": {
+  "ids": [
+   800485
+  ],
+  "icon": null
+ },
+ "Endless Thirst x3": {
+  "ids": [
+   523725
+  ],
+  "icon": null
+ },
+ "Endure the Curse": {
+  "ids": [
+   681188
+  ],
+  "icon": null
+ },
+ "Enduring": {
+  "ids": [
+   300585
+  ],
+  "icon": null
+ },
+ "Energize +3 Rage": {
+  "ids": [
+   681381
+  ],
+  "icon": null
+ },
+ "Energize +5 Rage": {
+  "ids": [
+   681086
+  ],
+  "icon": null
+ },
+ "Energize 12 Rage": {
+  "ids": [
+   681198
+  ],
+  "icon": null
+ },
+ "Energize 20 Rage": {
+  "ids": [
+   680386
+  ],
+  "icon": null
+ },
+ "Energize Rage": {
+  "ids": [
+   582765
+  ],
+  "icon": null
+ },
+ "Enraging Howl": {
+  "ids": [
+   504157
+  ],
+  "icon": null
+ },
+ "Enraging Howls": {
+  "ids": [
+   800766
+  ],
+  "icon": null
+ },
+ "Enraging Wound": {
+  "ids": [
+   560589
+  ],
+  "icon": null
+ },
+ "Enraging Wounds": {
+  "ids": [
+   300978
+  ],
+  "icon": null
+ },
+ "Enthraller": {
+  "ids": [
+   560251
+  ],
+  "icon": null
+ },
+ "Enveloped in Darkness": {
+  "ids": [
+   706600
+  ],
+  "icon": null
+ },
+ "Eradicate": {
+  "ids": [
+   804856
+  ],
+  "icon": null
+ },
+ "Essence Harvester": {
+  "ids": [
+   504092
+  ],
+  "icon": null
+ },
+ "Eternal - Level 50 Passive": {
+  "ids": [
+   560480
+  ],
+  "icon": null
+ },
+ "Eternal Curse": {
+  "ids": [
+   92114
+  ],
+  "icon": null
+ },
+ "Eternal Curse Effect": {
+  "ids": [
+   802879
+  ],
+  "icon": null
+ },
+ "Eternal Curse Shapeshift": {
+  "ids": [
+   804518
+  ],
+  "icon": null
+ },
+ "Eternal Curse Worgen Bite Proccer": {
+  "ids": [
+   800155
+  ],
+  "icon": null
+ },
+ "Eternal Hunt": {
+  "ids": [
+   804201
+  ],
+  "icon": null
+ },
+ "Eternal Presence": {
+  "ids": [
+   560001
+  ],
+  "icon": null
+ },
+ "Eternal Resolve": {
+  "ids": [
+   560588
+  ],
+  "icon": null
+ },
+ "Eternally Cursed": {
+  "ids": [
+   563208
+  ],
+  "icon": null
+ },
+ "Everhungry": {
+  "ids": [
+   802029
+  ],
+  "icon": null
+ },
+ "Everlasting Hunt": {
+  "ids": [
+   802497
+  ],
+  "icon": null
+ },
+ "Eviscerated": {
+  "ids": [
+   500127
+  ],
+  "icon": null
+ },
+ "Excess Blood": {
+  "ids": [
+   504100
+  ],
+  "icon": null
+ },
+ "Excision": {
+  "ids": [
+   803733
+  ],
+  "icon": null
+ },
+ "Explosion Kill": {
+  "ids": [
+   807306
+  ],
+  "icon": null
+ },
+ "Explosion Kill Visual": {
+  "ids": [
+   807305
+  ],
+  "icon": null
+ },
+ "Exsanguination": {
+  "ids": [
+   537221
+  ],
+  "icon": null
+ },
+ "Extractor": {
+  "ids": [
+   705738
+  ],
+  "icon": null
+ },
+ "Eyes In The Night": {
+  "ids": [
+   801959
+  ],
+  "icon": null
+ },
+ "Famine": {
+  "ids": [
+   504187
+  ],
+  "icon": null
+ },
+ "Fang Over Fang": {
+  "ids": [
+   504116
+  ],
+  "icon": null
+ },
+ "Fearmonger": {
+  "ids": [
+   501132
+  ],
+  "icon": null
+ },
+ "Feast": {
+  "ids": [
+   504188
+  ],
+  "icon": null
+ },
+ "Feast or Famine": {
+  "ids": [
+   504183
+  ],
+  "icon": null
+ },
+ "Feral": {
+  "ids": [
+   705740
+  ],
+  "icon": null
+ },
+ "Feral Exhaustion": {
+  "ids": [
+   800514
+  ],
+  "icon": null
+ },
+ "Ferocious Impact": {
+  "ids": [
+   704645
+  ],
+  "icon": null
+ },
+ "Festering Maw": {
+  "ids": [
+   706655
+  ],
+  "icon": null
+ },
+ "Final Embrace": {
+  "ids": [
+   524865
+  ],
+  "icon": null
+ },
+ "Finger of Agony": {
+  "ids": [
+   501630
+  ],
+  "icon": null
+ },
+ "Finger of Death": {
+  "ids": [
+   806178
+  ],
+  "icon": null
+ },
+ "Fire Sigil": {
+  "ids": [
+   500271
+  ],
+  "icon": null
+ },
+ "Flayer": {
+  "ids": [
+   706610
+  ],
+  "icon": null
+ },
+ "Flesh Foundry": {
+  "ids": [
+   504253
+  ],
+  "icon": null
+ },
+ "Flesh Recombobulator": {
+  "ids": [
+   807232
+  ],
+  "icon": null
+ },
+ "Fleshcraft": {
+  "ids": [
+   801952
+  ],
+  "icon": null
+ },
+ "Fleshcraft (Empowered)": {
+  "ids": [
+   681027
+  ],
+  "icon": null
+ },
+ "Fleshweaver": {
+  "ids": [
+   706602
+  ],
+  "icon": null
+ },
+ "Fleshweaver - Level 15 Passive": {
+  "ids": [
+   707496
+  ],
+  "icon": null
+ },
+ "Fleshweaver Son of Arugal": {
+  "ids": [
+   681079
+  ],
+  "icon": null
+ },
+ "Focal Mending": {
+  "ids": [
+   680694
+  ],
+  "icon": null
+ },
+ "Fortify Bloodline": {
+  "ids": [
+   680699
+  ],
+  "icon": null
+ },
+ "Foul Consumption": {
+  "ids": [
+   805987
+  ],
+  "icon": null
+ },
+ "Furrious": {
+  "ids": [
+   704307
+  ],
+  "icon": null
+ },
+ "Fury For All": {
+  "ids": [
+   807355
+  ],
+  "icon": null
+ },
+ "Gift of Lana'thel": {
+  "ids": [
+   706598
+  ],
+  "icon": null
+ },
+ "Gnash": {
+  "ids": [
+   704658
+  ],
+  "icon": null
+ },
+ "Go for the Throat": {
+  "ids": [
+   561024
+  ],
+  "icon": null
+ },
+ "Goldrinn's CD Reset": {
+  "ids": [
+   504266
+  ],
+  "icon": null
+ },
+ "Goldrinn's CD Reset2": {
+  "ids": [
+   504555
+  ],
+  "icon": null
+ },
+ "Goldrinns Thirst": {
+  "ids": [
+   504259
+  ],
+  "icon": null
+ },
+ "Gore": {
+  "ids": [
+   556237
+  ],
+  "icon": null
+ },
+ "Gore Barrage": {
+  "ids": [
+   504114
+  ],
+  "icon": null
+ },
+ "Gore Tome": {
+  "ids": [
+   807788
+  ],
+  "icon": null
+ },
+ "Gorge": {
+  "ids": [
+   804805
+  ],
+  "icon": null
+ },
+ "Gorge 10 Stack Trigger": {
+  "ids": [
+   680825
+  ],
+  "icon": null
+ },
+ "Gorge Trigger2": {
+  "ids": [
+   680826
+  ],
+  "icon": null
+ },
+ "Gory Fangs": {
+  "ids": [
+   807294
+  ],
+  "icon": null
+ },
+ "Greater Bloodsoaked Offering": {
+  "ids": [
+   572404
+  ],
+  "icon": null
+ },
+ "Greater Bloodthorns": {
+  "ids": [
+   572116
+  ],
+  "icon": null
+ },
+ "Greater Sanguinary Offering": {
+  "ids": [
+   680299
+  ],
+  "icon": null
+ },
+ "Grim Magic": {
+  "ids": [
+   704651
+  ],
+  "icon": null
+ },
+ "Grim Omen": {
+  "ids": [
+   800154
+  ],
+  "icon": null
+ },
+ "Grimclaw": {
+  "ids": [
+   800158
+  ],
+  "icon": null
+ },
+ "Gruesome Rituals": {
+  "ids": [
+   680696
+  ],
+  "icon": null
+ },
+ "Harvest": {
+  "ids": [
+   704283
+  ],
+  "icon": null
+ },
+ "Health Funneler": {
+  "ids": [
+   681401
+  ],
+  "icon": null
+ },
+ "Heart Rupturer": {
+  "ids": [
+   680685
+  ],
+  "icon": null
+ },
+ "Heartbreak": {
+  "ids": [
+   520314
+  ],
+  "icon": null
+ },
+ "Heartbreak (Empowered)": {
+  "ids": [
+   520317
+  ],
+  "icon": null
+ },
+ "Heightened Reflexes": {
+  "ids": [
+   704627
+  ],
+  "icon": null
+ },
+ "Hemal Excision": {
+  "ids": [
+   803681
+  ],
+  "icon": null
+ },
+ "Hemalurgic Awakening": {
+  "ids": [
+   505207
+  ],
+  "icon": null
+ },
+ "Hematoma": {
+  "ids": [
+   504758
+  ],
+  "icon": null
+ },
+ "Hematopage": {
+  "ids": [
+   802312
+  ],
+  "icon": null
+ },
+ "Hematophage": {
+  "ids": [
+   501640
+  ],
+  "icon": null
+ },
+ "Hemoburst": {
+  "ids": [
+   572855
+  ],
+  "icon": null
+ },
+ "Hemoglobe": {
+  "ids": [
+   524907
+  ],
+  "icon": null
+ },
+ "Hemomancy": {
+  "ids": [
+   804852
+  ],
+  "icon": null
+ },
+ "Hemophobia": {
+  "ids": [
+   300786
+  ],
+  "icon": null
+ },
+ "Hemopulse": {
+  "ids": [
+   524906
+  ],
+  "icon": null
+ },
+ "Hemorrhagic Shock": {
+  "ids": [
+   504702
+  ],
+  "icon": null
+ },
+ "Hemostasis": {
+  "ids": [
+   301233
+  ],
+  "icon": null
+ },
+ "Hemoturgy": {
+  "ids": [
+   572856
+  ],
+  "icon": null
+ },
+ "Hunger": {
+  "ids": [
+   504189
+  ],
+  "icon": null
+ },
+ "Hunt": {
+  "ids": [
+   704656
+  ],
+  "icon": null
+ },
+ "Hunter's Frenzy": {
+  "ids": [
+   704664
+  ],
+  "icon": null
+ },
+ "Hypovolemic Shock": {
+  "ids": [
+   572305
+  ],
+  "icon": null
+ },
+ "Improved Arugal's Blessing": {
+  "ids": [
+   705743
+  ],
+  "icon": null
+ },
+ "Improved Dark Liturgy": {
+  "ids": [
+   300589
+  ],
+  "icon": null
+ },
+ "Improved Hemoplague": {
+  "ids": [
+   680682
+  ],
+  "icon": null
+ },
+ "Improved Sanguine Mend": {
+  "ids": [
+   681076
+  ],
+  "icon": null
+ },
+ "Infected Blood": {
+  "ids": [
+   805035
+  ],
+  "icon": null
+ },
+ "Infection": {
+  "ids": [
+   652312
+  ],
+  "icon": null
+ },
+ "Infuse": {
+  "ids": [
+   501652
+  ],
+  "icon": null
+ },
+ "Inhumane": {
+  "ids": [
+   807488
+  ],
+  "icon": null
+ },
+ "Insatiable": {
+  "ids": [
+   706621
+  ],
+  "icon": null
+ },
+ "Insatiable Appetite": {
+  "ids": [
+   520494
+  ],
+  "icon": null
+ },
+ "Insatiable Decrement": {
+  "ids": [
+   706684
+  ],
+  "icon": null
+ },
+ "Iron Claws": {
+  "ids": [
+   572783
+  ],
+  "icon": null
+ },
+ "Ironhide": {
+  "ids": [
+   801956
+  ],
+  "icon": null
+ },
+ "Keleseth's Calamity": {
+  "ids": [
+   560249
+  ],
+  "icon": null
+ },
+ "Killer Instinct": {
+  "ids": [
+   704690
+  ],
+  "icon": null
+ },
+ "Leeching Tome": {
+  "ids": [
+   807489
+  ],
+  "icon": null
+ },
+ "Lethal Wounds": {
+  "ids": [
+   704691
+  ],
+  "icon": null
+ },
+ "Life Scent": {
+  "ids": [
+   706617
+  ],
+  "icon": null
+ },
+ "Life's Essence": {
+  "ids": [
+   520312
+  ],
+  "icon": null
+ },
+ "Lifedrinker": {
+  "ids": [
+   704106
+  ],
+  "icon": null
+ },
+ "Lifedrinker (Empowered)": {
+  "ids": [
+   680698
+  ],
+  "icon": null
+ },
+ "Lifedrunk": {
+  "ids": [
+   804806
+  ],
+  "icon": null
+ },
+ "Lifeline": {
+  "ids": [
+   806426
+  ],
+  "icon": null
+ },
+ "Lingering Blood": {
+  "ids": [
+   704639
+  ],
+  "icon": null
+ },
+ "Lingering Essence": {
+  "ids": [
+   680695
+  ],
+  "icon": null
+ },
+ "Liquify": {
+  "ids": [
+   560368
+  ],
+  "icon": null
+ },
+ "Liquify (Bloodmoon Power)": {
+  "ids": [
+   704305
+  ],
+  "icon": null
+ },
+ "Lunge": {
+  "ids": [
+   500126
+  ],
+  "icon": null
+ },
+ "Lunging Strike": {
+  "ids": [
+   804865
+  ],
+  "icon": null
+ },
+ "Lupine Shred": {
+  "ids": [
+   501687
+  ],
+  "icon": null
+ },
+ "Malediction": {
+  "ids": [
+   704120
+  ],
+  "icon": null
+ },
+ "Mana Sphere": {
+  "ids": [
+   712443
+  ],
+  "icon": null
+ },
+ "Marked": {
+  "ids": [
+   806183
+  ],
+  "icon": null
+ },
+ "Marrow Sweep": {
+  "ids": [
+   93538
+  ],
+  "icon": null
+ },
+ "Marrowbite": {
+  "ids": [
+   504112
+  ],
+  "icon": null
+ },
+ "Massacre": {
+  "ids": [
+   560407
+  ],
+  "icon": null
+ },
+ "Monstrous Howl": {
+  "ids": [
+   804091
+  ],
+  "icon": null
+ },
+ "Moon Gaze": {
+  "ids": [
+   562723
+  ],
+  "icon": null
+ },
+ "Mortal Wounds": {
+  "ids": [
+   504291
+  ],
+  "icon": null
+ },
+ "Mounting Hatred": {
+  "ids": [
+   704666
+  ],
+  "icon": null
+ },
+ "Mucking Around": {
+  "ids": [
+   681444
+  ],
+  "icon": null
+ },
+ "Night Feast": {
+  "ids": [
+   563736
+  ],
+  "icon": null
+ },
+ "Night Hunter": {
+  "ids": [
+   524592
+  ],
+  "icon": null
+ },
+ "Night Hunter (Gore Barrage)": {
+  "ids": [
+   524594
+  ],
+  "icon": null
+ },
+ "Night Hunter (Nightbane Shred)": {
+  "ids": [
+   524593
+  ],
+  "icon": null
+ },
+ "Night Hunter (Nightbane Shred) Grimclaw Applier": {
+  "ids": [
+   573252
+  ],
+  "icon": null
+ },
+ "Night Hunter (Nightbane Shred) Grimclaw Applier Delay": {
+  "ids": [
+   573253
+  ],
+  "icon": null
+ },
+ "Night Hunter's Howl": {
+  "ids": [
+   500124
+  ],
+  "icon": null
+ },
+ "Night Stalker": {
+  "ids": [
+   807774
+  ],
+  "icon": null
+ },
+ "Night Swarm": {
+  "ids": [
+   806721
+  ],
+  "icon": null
+ },
+ "Nightmare": {
+  "ids": [
+   300225
+  ],
+  "icon": null
+ },
+ "No Mercy": {
+  "ids": [
+   503589
+  ],
+  "icon": null
+ },
+ "No Rage In Fury Worgen Form": {
+  "ids": [
+   524714
+  ],
+  "icon": null
+ },
+ "Nostrum": {
+  "ids": [
+   800844
+  ],
+  "icon": null
+ },
+ "Oblivion Ball": {
+  "ids": [
+   804874
+  ],
+  "icon": null
+ },
+ "One Man's Curse...": {
+  "ids": [
+   680661
+  ],
+  "icon": null
+ },
+ "Organ Orbs": {
+  "ids": [
+   807490
+  ],
+  "icon": null
+ },
+ "Pack Hunting": {
+  "ids": [
+   802875
+  ],
+  "icon": null
+ },
+ "Packleader": {
+  "ids": [
+   504289
+  ],
+  "icon": null
+ },
+ "Palm Sigil: Earth": {
+  "ids": [
+   500282
+  ],
+  "icon": null
+ },
+ "Panacea deprecated": {
+  "ids": [
+   802077
+  ],
+  "icon": null
+ },
+ "Perilous Ascent": {
+  "ids": [
+   806180
+  ],
+  "icon": null
+ },
+ "Periodic Flag Dropper": {
+  "ids": [
+   805298
+  ],
+  "icon": null
+ },
+ "Permanent Damage": {
+  "ids": [
+   704693
+  ],
+  "icon": null
+ },
+ "Petrified Legions": {
+  "ids": [
+   500012
+  ],
+  "icon": null
+ },
+ "Piercing Talons": {
+  "ids": [
+   704667
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   561292
+  ],
+  "icon": null
+ },
+ "Plague Cast Visual": {
+  "ids": [
+   803229
+  ],
+  "icon": null
+ },
+ "Plague Sweep": {
+  "ids": [
+   707021
+  ],
+  "icon": null
+ },
+ "Plaguewolf": {
+  "ids": [
+   806042
+  ],
+  "icon": null
+ },
+ "Plate Buster": {
+  "ids": [
+   705334
+  ],
+  "icon": null
+ },
+ "Pooled Vitality": {
+  "ids": [
+   680687
+  ],
+  "icon": null
+ },
+ "Pooled Vitality (Remover 2)": {
+  "ids": [
+   681335
+  ],
+  "icon": null
+ },
+ "Pooled Vitality (Remover)": {
+  "ids": [
+   681034
+  ],
+  "icon": null
+ },
+ "Pooled Vitality +10": {
+  "ids": [
+   520318
+  ],
+  "icon": null
+ },
+ "Pooled Vitality +10 Delayer": {
+  "ids": [
+   520813
+  ],
+  "icon": null
+ },
+ "Pooled Vitality +10 Heartbreak": {
+  "ids": [
+   520815
+  ],
+  "icon": null
+ },
+ "Pooled Vitality +2": {
+  "ids": [
+   524905
+  ],
+  "icon": null
+ },
+ "Predator": {
+  "ids": [
+   300590
+  ],
+  "icon": null
+ },
+ "Puncturing Fangs": {
+  "ids": [
+   504153
+  ],
+  "icon": null
+ },
+ "Purified Blood": {
+  "ids": [
+   704121
+  ],
+  "icon": null
+ },
+ "Purify Blood": {
+  "ids": [
+   520839
+  ],
+  "icon": null
+ },
+ "Pursuit": {
+  "ids": [
+   802869
+  ],
+  "icon": null
+ },
+ "Rabid": {
+  "ids": [
+   705732
+  ],
+  "icon": null
+ },
+ "Rage": {
+  "ids": [
+   504241
+  ],
+  "icon": null
+ },
+ "Raging Hunger": {
+  "ids": [
+   681336
+  ],
+  "icon": null
+ },
+ "Rapid Regeneration": {
+  "ids": [
+   804315
+  ],
+  "icon": null
+ },
+ "Raptor Bite": {
+  "ids": [
+   802889
+  ],
+  "icon": null
+ },
+ "Ravenous": {
+  "ids": [
+   570025
+  ],
+  "icon": null
+ },
+ "Ravenous Bite (Packleader)": {
+  "ids": [
+   560365
+  ],
+  "icon": null
+ },
+ "Ravenous Strike": {
+  "ids": [
+   500123
+  ],
+  "icon": null
+ },
+ "Reave": {
+  "ids": [
+   800490
+  ],
+  "icon": null
+ },
+ "Reckless Behavior": {
+  "ids": [
+   504075
+  ],
+  "icon": null
+ },
+ "Red Thirst": {
+  "ids": [
+   520493
+  ],
+  "icon": null
+ },
+ "Regenerative Power": {
+  "ids": [
+   300587
+  ],
+  "icon": null
+ },
+ "Rejuvenating Shadows": {
+  "ids": [
+   556236
+  ],
+  "icon": null
+ },
+ "Remorseless Bite": {
+  "ids": [
+   806213
+  ],
+  "icon": null
+ },
+ "Remorseless Execution": {
+  "ids": [
+   806215
+  ],
+  "icon": null
+ },
+ "Rending Bite": {
+  "ids": [
+   805611
+  ],
+  "icon": null
+ },
+ "Rending Bite Increaser": {
+  "ids": [
+   560372
+  ],
+  "icon": null
+ },
+ "Rending Bite test": {
+  "ids": [
+   523651
+  ],
+  "icon": null
+ },
+ "Rending Slash": {
+  "ids": [
+   804600
+  ],
+  "icon": null
+ },
+ "Reprisal": {
+  "ids": [
+   504885
+  ],
+  "icon": null
+ },
+ "Resilient Fury": {
+  "ids": [
+   705744
+  ],
+  "icon": null
+ },
+ "Revelry": {
+  "ids": [
+   706612
+  ],
+  "icon": null
+ },
+ "Revitalizing Howl": {
+  "ids": [
+   804196
+  ],
+  "icon": null
+ },
+ "Roofstalker Leap": {
+  "ids": [
+   560029
+  ],
+  "icon": null
+ },
+ "Rotclaw": {
+  "ids": [
+   804197
+  ],
+  "icon": null
+ },
+ "Running Wild": {
+  "ids": [
+   800170
+  ],
+  "icon": null
+ },
+ "Running Wild (Journeyman)": {
+  "ids": [
+   520575
+  ],
+  "icon": null
+ },
+ "Sacrificial Rite": {
+  "ids": [
+   573251
+  ],
+  "icon": null
+ },
+ "San'layn Union": {
+  "ids": [
+   544395
+  ],
+  "icon": null
+ },
+ "Sanguinary Offering": {
+  "ids": [
+   706630
+  ],
+  "icon": null
+ },
+ "Sanguine Assault": {
+  "ids": [
+   300925
+  ],
+  "icon": null
+ },
+ "Sanguine Circle": {
+  "ids": [
+   805913
+  ],
+  "icon": null
+ },
+ "Sanguine Essence": {
+  "ids": [
+   505188
+  ],
+  "icon": null
+ },
+ "Sanguine Mend": {
+  "ids": [
+   802310
+  ],
+  "icon": null
+ },
+ "Sanguine Mend (Empowered)": {
+  "ids": [
+   680033
+  ],
+  "icon": null
+ },
+ "Sanguine Metamorphosis": {
+  "ids": [
+   504812
+  ],
+  "icon": null
+ },
+ "Sanguine Rupture": {
+  "ids": [
+   800774
+  ],
+  "icon": null
+ },
+ "Sanguine Scion": {
+  "ids": [
+   807292
+  ],
+  "icon": null
+ },
+ "Sanguine Scripture": {
+  "ids": [
+   504264
+  ],
+  "icon": null
+ },
+ "Sanguine Shield": {
+  "ids": [
+   680717
+  ],
+  "icon": null
+ },
+ "Sanguinity": {
+  "ids": [
+   706257
+  ],
+  "icon": null
+ },
+ "Sated": {
+  "ids": [
+   532125
+  ],
+  "icon": null
+ },
+ "Saturating Sutures": {
+  "ids": [
+   504098
+  ],
+  "icon": null
+ },
+ "Scarlet Delirium": {
+  "ids": [
+   801074
+  ],
+  "icon": null
+ },
+ "Scent of Man": {
+  "ids": [
+   704153
+  ],
+  "icon": null
+ },
+ "Screech of the Darkwing": {
+  "ids": [
+   300260
+  ],
+  "icon": null
+ },
+ "Self Coagulation": {
+  "ids": [
+   504850
+  ],
+  "icon": null
+ },
+ "Shadow Bat": {
+  "ids": [
+   802577
+  ],
+  "icon": null
+ },
+ "Shadow Bond": {
+  "ids": [
+   807101
+  ],
+  "icon": null
+ },
+ "Shadow Hemorrhage": {
+  "ids": [
+   706596
+  ],
+  "icon": null
+ },
+ "Shadow Howl": {
+  "ids": [
+   806177
+  ],
+  "icon": null
+ },
+ "Shadow Magi": {
+  "ids": [
+   800489
+  ],
+  "icon": null
+ },
+ "Shadow Missile": {
+  "ids": [
+   536273
+  ],
+  "icon": null
+ },
+ "Shadow Pact": {
+  "ids": [
+   561227
+  ],
+  "icon": null
+ },
+ "Shadow Strength": {
+  "ids": [
+   536277
+  ],
+  "icon": null
+ },
+ "Shadow Strength Trigger": {
+  "ids": [
+   520471
+  ],
+  "icon": null
+ },
+ "Shadow Strength Trigger2": {
+  "ids": [
+   556238
+  ],
+  "icon": null
+ },
+ "Shadow Vigil": {
+  "ids": [
+   806182
+  ],
+  "icon": null
+ },
+ "Shadowfang Bond": {
+  "ids": [
+   804867
+  ],
+  "icon": null
+ },
+ "Shadowfang Ritual": {
+  "ids": [
+   501625
+  ],
+  "icon": null
+ },
+ "Shadowfang Shield": {
+  "ids": [
+   500128
+  ],
+  "icon": null
+ },
+ "Shadows In The Night": {
+  "ids": [
+   572766
+  ],
+  "icon": null
+ },
+ "Shards of Torment": {
+  "ids": [
+   578121
+  ],
+  "icon": null
+ },
+ "Shurg Off": {
+  "ids": [
+   570090
+  ],
+  "icon": null
+ },
+ "Siphon": {
+  "ids": [
+   803327
+  ],
+  "icon": null
+ },
+ "Slaughterhouse Offering": {
+  "ids": [
+   1108459
+  ],
+  "icon": null
+ },
+ "SoA Base HP Cost lvl Scaler": {
+  "ids": [
+   800709
+  ],
+  "icon": null
+ },
+ "Sovereignty": {
+  "ids": [
+   504272
+  ],
+  "icon": null
+ },
+ "Sow": {
+  "ids": [
+   560082
+  ],
+  "icon": null
+ },
+ "Spice of Life": {
+  "ids": [
+   680674
+  ],
+  "icon": null
+ },
+ "Splashback": {
+  "ids": [
+   504274
+  ],
+  "icon": null
+ },
+ "Spread Taldarams": {
+  "ids": [
+   704647
+  ],
+  "icon": null
+ },
+ "Stack Taldaram's Torment": {
+  "ids": [
+   801830
+  ],
+  "icon": null
+ },
+ "Stalker": {
+  "ids": [
+   806179
+  ],
+  "icon": null
+ },
+ "Suture": {
+  "ids": [
+   520154
+  ],
+  "icon": null
+ },
+ "Swarm of Bats": {
+  "ids": [
+   800778
+  ],
+  "icon": null
+ },
+ "Swarm of Flies": {
+  "ids": [
+   704646
+  ],
+  "icon": null
+ },
+ "Taldaram's Tenacity": {
+  "ids": [
+   504567
+  ],
+  "icon": null
+ },
+ "Taldaram's Torment": {
+  "ids": [
+   800772
+  ],
+  "icon": null
+ },
+ "Taldaram's Torment Rage": {
+  "ids": [
+   582767
+  ],
+  "icon": null
+ },
+ "Tank Stance Aura": {
+  "ids": [
+   807736
+  ],
+  "icon": null
+ },
+ "Teachings of Lana'thel": {
+  "ids": [
+   504106
+  ],
+  "icon": null
+ },
+ "Terrify": {
+  "ids": [
+   680691
+  ],
+  "icon": null
+ },
+ "Terrorizer": {
+  "ids": [
+   806210
+  ],
+  "icon": null
+ },
+ "Test": {
+  "ids": [
+   681073
+  ],
+  "icon": null
+ },
+ "Test Debuff": {
+  "ids": [
+   681069
+  ],
+  "icon": null
+ },
+ "Test Trigger": {
+  "ids": [
+   681070
+  ],
+  "icon": null
+ },
+ "The Council Assembled": {
+  "ids": [
+   504103
+  ],
+  "icon": null
+ },
+ "The Cup Runneth Over": {
+  "ids": [
+   802880
+  ],
+  "icon": null
+ },
+ "The Hunter and the Hunted": {
+  "ids": [
+   807487
+  ],
+  "icon": null
+ },
+ "The Worgen Curse": {
+  "ids": [
+   704530
+  ],
+  "icon": null
+ },
+ "The Worgen Curse Remover": {
+  "ids": [
+   704531
+  ],
+  "icon": null
+ },
+ "Thick Pelt": {
+  "ids": [
+   556233
+  ],
+  "icon": null
+ },
+ "Thirst": {
+  "ids": [
+   92112
+  ],
+  "icon": null
+ },
+ "Thirst 9 Stack Check": {
+  "ids": [
+   681201
+  ],
+  "icon": null
+ },
+ "Thirst AoE reducer": {
+  "ids": [
+   573214
+  ],
+  "icon": null
+ },
+ "Thirst Hidden2": {
+  "ids": [
+   504208
+  ],
+  "icon": null
+ },
+ "Thirst SLS2": {
+  "ids": [
+   681202
+  ],
+  "icon": null
+ },
+ "Thirst Val/Kal Cast/Anim Blood": {
+  "ids": [
+   300796
+  ],
+  "icon": null
+ },
+ "Thirst/Insatiable Cleanser": {
+  "ids": [
+   504109
+  ],
+  "icon": null
+ },
+ "Thirsting for Blood Remover": {
+  "ids": [
+   570026
+  ],
+  "icon": null
+ },
+ "Thunder Gaze": {
+  "ids": [
+   806101
+  ],
+  "icon": null
+ },
+ "Time to Feast!": {
+  "ids": [
+   705737
+  ],
+  "icon": null
+ },
+ "Tissue Decay": {
+  "ids": [
+   524760
+  ],
+  "icon": null
+ },
+ "Torture": {
+  "ids": [
+   504071
+  ],
+  "icon": null
+ },
+ "Trail of Blood": {
+  "ids": [
+   804859
+  ],
+  "icon": null
+ },
+ "Transfusion": {
+  "ids": [
+   705734
+  ],
+  "icon": null
+ },
+ "Transfusion (Empowered)": {
+  "ids": [
+   681406
+  ],
+  "icon": null
+ },
+ "Transfusion Passive": {
+  "ids": [
+   706594
+  ],
+  "icon": null
+ },
+ "Transgression": {
+  "ids": [
+   504728
+  ],
+  "icon": null
+ },
+ "Twilight": {
+  "ids": [
+   560260
+  ],
+  "icon": null
+ },
+ "Twisted Magic": {
+  "ids": [
+   504138
+  ],
+  "icon": null
+ },
+ "Ultra Instinct": {
+  "ids": [
+   504166
+  ],
+  "icon": null
+ },
+ "Unbearable Rage": {
+  "ids": [
+   801070
+  ],
+  "icon": null
+ },
+ "Uncanny Movement": {
+  "ids": [
+   301064
+  ],
+  "icon": null
+ },
+ "Uncanny Speed": {
+  "ids": [
+   807491
+  ],
+  "icon": null
+ },
+ "Unchained": {
+  "ids": [
+   92113
+  ],
+  "icon": null
+ },
+ "Universal Donor": {
+  "ids": [
+   704238
+  ],
+  "icon": null
+ },
+ "Valanar's Vengeance": {
+  "ids": [
+   560315
+  ],
+  "icon": null
+ },
+ "Vampire Form": {
+  "ids": [
+   801077
+  ],
+  "icon": null
+ },
+ "Vampiric Fang": {
+  "ids": [
+   804726
+  ],
+  "icon": null
+ },
+ "Vampiric Feast": {
+  "ids": [
+   804933
+  ],
+  "icon": null
+ },
+ "Vampiric Hunger": {
+  "ids": [
+   504270
+  ],
+  "icon": null
+ },
+ "Vampiric Pools": {
+  "ids": [
+   504088
+  ],
+  "icon": null
+ },
+ "Vampiric Power": {
+  "ids": [
+   804935
+  ],
+  "icon": null
+ },
+ "Vampirism": {
+  "ids": [
+   801075
+  ],
+  "icon": null
+ },
+ "Vampyr Bite": {
+  "ids": [
+   801563
+  ],
+  "icon": null
+ },
+ "Vampyr Lord": {
+  "ids": [
+   560259
+  ],
+  "icon": null
+ },
+ "Vampyr's Kiss": {
+  "ids": [
+   504275
+  ],
+  "icon": null
+ },
+ "Vampyr's Kiss (Energize)": {
+  "ids": [
+   681031
+  ],
+  "icon": null
+ },
+ "Vampyr's Kiss CD Reduc": {
+  "ids": [
+   706687
+  ],
+  "icon": null
+ },
+ "Vampyr's Kiss Passive": {
+  "ids": [
+   681395
+  ],
+  "icon": null
+ },
+ "Vampyr's Kiss Passive (Lifedrinker)": {
+  "ids": [
+   706616
+  ],
+  "icon": null
+ },
+ "Veinburst": {
+  "ids": [
+   504260
+  ],
+  "icon": null
+ },
+ "Veinburst (Mortal)": {
+  "ids": [
+   504633
+  ],
+  "icon": null
+ },
+ "Veins of Vengeance": {
+  "ids": [
+   560074
+  ],
+  "icon": null
+ },
+ "Vengeance Is Had": {
+  "ids": [
+   680746
+  ],
+  "icon": null
+ },
+ "Vicious Bite": {
+  "ids": [
+   801596
+  ],
+  "icon": null
+ },
+ "Vicious Maw": {
+  "ids": [
+   517522
+  ],
+  "icon": null
+ },
+ "Viciousness BFB proccer": {
+  "ids": [
+   704663
+  ],
+  "icon": null
+ },
+ "Visceral Magic": {
+  "ids": [
+   707371
+  ],
+  "icon": null
+ },
+ "Visceral Power": {
+  "ids": [
+   807687
+  ],
+  "icon": null
+ },
+ "Visceral Vitality": {
+  "ids": [
+   704687
+  ],
+  "icon": null
+ },
+ "Vital Shield": {
+  "ids": [
+   504849
+  ],
+  "icon": null
+ },
+ "Vitality": {
+  "ids": [
+   704166
+  ],
+  "icon": null
+ },
+ "Vitality For Later": {
+  "ids": [
+   681026
+  ],
+  "icon": null
+ },
+ "Vitality for Later": {
+  "ids": [
+   681025
+  ],
+  "icon": null
+ },
+ "Warg Rage": {
+  "ids": [
+   804853
+  ],
+  "icon": null
+ },
+ "Warhound": {
+  "ids": [
+   704308
+  ],
+  "icon": null
+ },
+ "Waves of Blood": {
+  "ids": [
+   681427
+  ],
+  "icon": null
+ },
+ "Wicked Howl": {
+  "ids": [
+   804207
+  ],
+  "icon": null
+ },
+ "Worgen Periodic": {
+  "ids": [
+   800771
+  ],
+  "icon": null
+ },
+ "Wretched": {
+  "ids": [
+   504284
+  ],
+  "icon": null
+ }
+}

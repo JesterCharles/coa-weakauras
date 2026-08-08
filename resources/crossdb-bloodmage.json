@@ -1,0 +1,1010 @@
+{
+ "_class": "bloodmage",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "A Pointed Death": {
+   "id": 704638,
+   "state": "record"
+  },
+  "Accursed Form": {
+   "id": 504710,
+   "state": "record"
+  },
+  "Adrenaline": {
+   "id": 300986,
+   "state": "record"
+  },
+  "Alacrity": {
+   "id": 504285,
+   "state": "record"
+  },
+  "Aneurysm": {
+   "id": 520860,
+   "state": "record"
+  },
+  "Animated Blood": {
+   "id": 573299,
+   "state": "record"
+  },
+  "Aortic Aegis": {
+   "id": 704637,
+   "state": "record"
+  },
+  "Aortic Assault": {
+   "id": 806212,
+   "state": "record"
+  },
+  "Apotheosis": {
+   "id": 804195,
+   "state": "record"
+  },
+  "Arterial Bind": {
+   "id": 681077,
+   "state": "record"
+  },
+  "Atherann's Anguish": {
+   "id": 500197,
+   "state": "no-record"
+  },
+  "Atherann's Wickedness": {
+   "id": 704642,
+   "state": "record"
+  },
+  "Bare Fangs": {
+   "id": 801957,
+   "state": "record"
+  },
+  "Battleweaver": {
+   "id": 801963,
+   "state": "record"
+  },
+  "Binding Torment": {
+   "id": 704640,
+   "state": "record"
+  },
+  "Bite Wound": {
+   "id": 556234,
+   "state": "record"
+  },
+  "Blood Bond": {
+   "id": 504627,
+   "state": "record"
+  },
+  "Blood Clot": {
+   "id": 680657,
+   "state": "record"
+  },
+  "Blood Craving": {
+   "id": 800780,
+   "state": "record"
+  },
+  "Blood Curse": {
+   "id": 562720,
+   "state": "record"
+  },
+  "Blood Debt": {
+   "id": 524892,
+   "state": "record"
+  },
+  "Blood Feast": {
+   "id": 706605,
+   "state": "record"
+  },
+  "Blood Howl": {
+   "id": 800782,
+   "state": "record"
+  },
+  "Blood Lord": {
+   "id": 704636,
+   "state": "record"
+  },
+  "Blood Moon": {
+   "id": 572785,
+   "state": "record"
+  },
+  "Blood Pact": {
+   "id": 801955,
+   "state": "record"
+  },
+  "Blood Parasites": {
+   "id": 300765,
+   "state": "record"
+  },
+  "Blood Prince's Command": {
+   "id": 704641,
+   "state": "record"
+  },
+  "Blood Prodigy": {
+   "id": 500446,
+   "state": "record"
+  },
+  "Blood Rain": {
+   "id": 706618,
+   "state": "record"
+  },
+  "Blood Redistribution": {
+   "id": 706256,
+   "state": "record"
+  },
+  "Blood Rituals": {
+   "id": 704119,
+   "state": "record"
+  },
+  "Blood Runs Cold": {
+   "id": 504294,
+   "state": "record"
+  },
+  "Blood Rush": {
+   "id": 504551,
+   "state": "record"
+  },
+  "Blood Scent": {
+   "id": 804223,
+   "state": "record"
+  },
+  "Blood Shards": {
+   "id": 804849,
+   "state": "record"
+  },
+  "Blood Shield": {
+   "id": 504296,
+   "state": "record"
+  },
+  "Blood Tap": {
+   "id": 707900,
+   "state": "record"
+  },
+  "Blood Trails": {
+   "id": 804858,
+   "state": "record"
+  },
+  "Blood Veil": {
+   "id": 504263,
+   "state": "record"
+  },
+  "Blood-Cursed Weapons": {
+   "id": 684331,
+   "state": "record"
+  },
+  "Bloodbender": {
+   "id": 704635,
+   "state": "record"
+  },
+  "Bloodbolt": {
+   "id": 804685,
+   "state": "record"
+  },
+  "Bloodbound Etchings": {
+   "id": 570758,
+   "state": "record"
+  },
+  "Bloodcrazed": {
+   "id": 704650,
+   "state": "record"
+  },
+  "Bloodfang Bite": {
+   "id": 800156,
+   "state": "record"
+  },
+  "Bloodgale": {
+   "id": 681310,
+   "state": "record"
+  },
+  "Bloodleaper": {
+   "id": 806423,
+   "state": "record"
+  },
+  "Bloodmage": {
+   "id": 805388,
+   "state": "record"
+  },
+  "Bloodmoon Blast": {
+   "id": 500125,
+   "state": "record"
+  },
+  "Bloodmoon Power": {
+   "id": 801961,
+   "state": "record"
+  },
+  "Bloodmoon Strength": {
+   "id": 578120,
+   "state": "record"
+  },
+  "Bloodshards": {
+   "id": 300588,
+   "state": "record"
+  },
+  "Bloodsoaked Offering": {
+   "id": 572400,
+   "state": "record"
+  },
+  "Bloodstalker": {
+   "id": 704665,
+   "state": "record"
+  },
+  "Bloodsurge": {
+   "id": 553267,
+   "state": "record"
+  },
+  "Bloodthorns": {
+   "id": 802313,
+   "state": "record"
+  },
+  "Bloody Sacrifice": {
+   "id": 705742,
+   "state": "record"
+  },
+  "Brutalizer": {
+   "id": 704657,
+   "state": "record"
+  },
+  "Claw Sweep": {
+   "id": 500169,
+   "state": "record"
+  },
+  "Clotting": {
+   "id": 704115,
+   "state": "record"
+  },
+  "Coagulated Shield": {
+   "id": 504897,
+   "state": "record"
+  },
+  "Coagulation": {
+   "id": 504102,
+   "state": "record"
+  },
+  "Coated In Darkness": {
+   "id": 704625,
+   "state": "record"
+  },
+  "Consolidation": {
+   "id": 706603,
+   "state": "record"
+  },
+  "Corrupted Blood": {
+   "id": 532623,
+   "state": "record"
+  },
+  "Crimson Curse": {
+   "id": 706656,
+   "state": "record"
+  },
+  "Crimson Etchings": {
+   "id": 570735,
+   "state": "record"
+  },
+  "Crimson Feast": {
+   "id": 804602,
+   "state": "record"
+  },
+  "Crimson Hymn": {
+   "id": 704622,
+   "state": "record"
+  },
+  "Crimson Maw": {
+   "id": 803388,
+   "state": "record"
+  },
+  "Crimson Scion": {
+   "id": 806424,
+   "state": "record"
+  },
+  "Crimson Tide": {
+   "id": 504282,
+   "state": "record"
+  },
+  "Cruel Intent": {
+   "id": 704653,
+   "state": "record"
+  },
+  "Curse of the Worgen": {
+   "id": 500122,
+   "state": "no-record"
+  },
+  "Cursed Blood": {
+   "id": 681792,
+   "state": "record"
+  },
+  "Cursed Strikes": {
+   "id": 300982,
+   "state": "record"
+  },
+  "Dark Blood": {
+   "id": 804807,
+   "state": "record"
+  },
+  "Dark Curse": {
+   "id": 704649,
+   "state": "record"
+  },
+  "Dark Frenzy": {
+   "id": 704644,
+   "state": "record"
+  },
+  "Dark Hide": {
+   "id": 705730,
+   "state": "record"
+  },
+  "Dark Hunt": {
+   "id": 705733,
+   "state": "record"
+  },
+  "Dark Intent": {
+   "id": 705741,
+   "state": "record"
+  },
+  "Dark Liturgy": {
+   "id": 800781,
+   "state": "record"
+  },
+  "Dark Mark": {
+   "id": 705731,
+   "state": "record"
+  },
+  "Dark Mending": {
+   "id": 504563,
+   "state": "record"
+  },
+  "Dark Presence": {
+   "id": 300957,
+   "state": "record"
+  },
+  "Dark Sigil": {
+   "id": 560535,
+   "state": "record"
+  },
+  "Darkcasting": {
+   "id": 706247,
+   "state": "record"
+  },
+  "Darkfallen Lament": {
+   "id": 524180,
+   "state": "record"
+  },
+  "Denmother": {
+   "id": 804295,
+   "state": "record"
+  },
+  "Detect Life": {
+   "id": 562228,
+   "state": "record"
+  },
+  "Dissipate": {
+   "id": 553278,
+   "state": "record"
+  },
+  "Dissipation": {
+   "id": 680730,
+   "state": "record"
+  },
+  "Easy Prey": {
+   "id": 704621,
+   "state": "record"
+  },
+  "Endure the Curse": {
+   "id": 681188,
+   "state": "record"
+  },
+  "Enduring": {
+   "id": 300585,
+   "state": "record"
+  },
+  "Enraging Howls": {
+   "id": 800766,
+   "state": "record"
+  },
+  "Enraging Wounds": {
+   "id": 300978,
+   "state": "record"
+  },
+  "Enthraller": {
+   "id": 560251,
+   "state": "record"
+  },
+  "Enveloped in Darkness": {
+   "id": 706600,
+   "state": "record"
+  },
+  "Essence Harvester": {
+   "id": 504092,
+   "state": "record"
+  },
+  "Eternal Curse": {
+   "id": 92114,
+   "state": "record"
+  },
+  "Eternal Hunt": {
+   "id": 804201,
+   "state": "record"
+  },
+  "Eternal Presence": {
+   "id": 560001,
+   "state": "record"
+  },
+  "Eternal Resolve": {
+   "id": 560588,
+   "state": "record"
+  },
+  "Everhungry": {
+   "id": 802029,
+   "state": "record"
+  },
+  "Everlasting Hunt": {
+   "id": 802497,
+   "state": "record"
+  },
+  "Eviscerated": {
+   "id": 500127,
+   "state": "record"
+  },
+  "Exsanguination": {
+   "id": 537221,
+   "state": "record"
+  },
+  "Extractor": {
+   "id": 705738,
+   "state": "record"
+  },
+  "Eyes In The Night": {
+   "id": 801959,
+   "state": "record"
+  },
+  "Feral": {
+   "id": 705740,
+   "state": "record"
+  },
+  "Ferocious Impact": {
+   "id": 704645,
+   "state": "record"
+  },
+  "Final Embrace": {
+   "id": 524865,
+   "state": "record"
+  },
+  "Finger of Death": {
+   "id": 806178,
+   "state": "record"
+  },
+  "Flesh Foundry": {
+   "id": 504253,
+   "state": "record"
+  },
+  "Fleshbending": {
+   "id": 680684,
+   "state": "record"
+  },
+  "Fleshcraft": {
+   "id": 801952,
+   "state": "record"
+  },
+  "Furrious": {
+   "id": 704307,
+   "state": "record"
+  },
+  "Gift of Lana'thel": {
+   "id": 706598,
+   "state": "record"
+  },
+  "Gore": {
+   "id": 556237,
+   "state": "record"
+  },
+  "Gore Barrage": {
+   "id": 504114,
+   "state": "no-record"
+  },
+  "Gorge": {
+   "id": 804805,
+   "state": "record"
+  },
+  "Greater Bloodsoaked Offering": {
+   "id": 572404,
+   "state": "record"
+  },
+  "Greater Bloodthorns": {
+   "id": 572116,
+   "state": "record"
+  },
+  "Greater Sanguinary Offering": {
+   "id": 680299,
+   "state": "record"
+  },
+  "Grim Magic": {
+   "id": 704651,
+   "state": "record"
+  },
+  "Grim Omen": {
+   "id": 800154,
+   "state": "record"
+  },
+  "Grimclaw": {
+   "id": 800158,
+   "state": "record"
+  },
+  "Harvest": {
+   "id": 704283,
+   "state": "record"
+  },
+  "Heartbreak": {
+   "id": 520314,
+   "state": "record"
+  },
+  "Heightened Reflexes": {
+   "id": 704627,
+   "state": "record"
+  },
+  "Hemal Excision": {
+   "id": 803681,
+   "state": "record"
+  },
+  "Hematophage": {
+   "id": 501640,
+   "state": "record"
+  },
+  "Hemoburst": {
+   "id": 572855,
+   "state": "record"
+  },
+  "Hemoglobe": {
+   "id": 524907,
+   "state": "record"
+  },
+  "Hemomancy": {
+   "id": 804852,
+   "state": "record"
+  },
+  "Hemophobia": {
+   "id": 300786,
+   "state": "record"
+  },
+  "Hemostasis": {
+   "id": 301233,
+   "state": "record"
+  },
+  "Hunt": {
+   "id": 704656,
+   "state": "record"
+  },
+  "Hunter's Frenzy": {
+   "id": 704664,
+   "state": "record"
+  },
+  "Hypovolemic Shock": {
+   "id": 572305,
+   "state": "record"
+  },
+  "Improved Arugal's Blessing": {
+   "id": 705743,
+   "state": "record"
+  },
+  "Improved Dark Liturgy": {
+   "id": 300589,
+   "state": "record"
+  },
+  "Infected Blood": {
+   "id": 805035,
+   "state": "record"
+  },
+  "Infection": {
+   "id": 652312,
+   "state": "record"
+  },
+  "Infuse": {
+   "id": 501652,
+   "state": "no-record"
+  },
+  "Inhumane": {
+   "id": 807488,
+   "state": "record"
+  },
+  "Insatiable": {
+   "id": 706621,
+   "state": "record"
+  },
+  "Insatiable Appetite": {
+   "id": 520494,
+   "state": "record"
+  },
+  "Ironhide": {
+   "id": 801956,
+   "state": "record"
+  },
+  "Keleseth's Calamity": {
+   "id": 560249,
+   "state": "record"
+  },
+  "Killer Instinct": {
+   "id": 704690,
+   "state": "record"
+  },
+  "Leeching Tome": {
+   "id": 807489,
+   "state": "record"
+  },
+  "Lethal Wounds": {
+   "id": 704691,
+   "state": "record"
+  },
+  "Life Scent": {
+   "id": 706617,
+   "state": "record"
+  },
+  "Lingering Blood": {
+   "id": 704639,
+   "state": "record"
+  },
+  "Liquify": {
+   "id": 560368,
+   "state": "record"
+  },
+  "Lunge": {
+   "id": 500126,
+   "state": "record"
+  },
+  "Malediction": {
+   "id": 704120,
+   "state": "record"
+  },
+  "Moon Gaze": {
+   "id": 562723,
+   "state": "record"
+  },
+  "Mortal Wounds": {
+   "id": 504291,
+   "state": "record"
+  },
+  "Mucking Around": {
+   "id": 681444,
+   "state": "record"
+  },
+  "Night Hunter": {
+   "id": 524592,
+   "state": "record"
+  },
+  "Night Hunter's Howl": {
+   "id": 500124,
+   "state": "record"
+  },
+  "Night Stalker": {
+   "id": 807774,
+   "state": "record"
+  },
+  "Nightmare": {
+   "id": 300225,
+   "state": "record"
+  },
+  "No Mercy": {
+   "id": 503589,
+   "state": "record"
+  },
+  "Nostrum": {
+   "id": 800844,
+   "state": "record"
+  },
+  "Organ Orbs": {
+   "id": 807490,
+   "state": "record"
+  },
+  "Perilous Ascent": {
+   "id": 806180,
+   "state": "record"
+  },
+  "Permanent Damage": {
+   "id": 704693,
+   "state": "record"
+  },
+  "Petrified Legions": {
+   "id": 500012,
+   "state": "record"
+  },
+  "Plaguewolf": {
+   "id": 806042,
+   "state": "record"
+  },
+  "Pooled Vitality": {
+   "id": 680687,
+   "state": "record"
+  },
+  "Predator": {
+   "id": 300590,
+   "state": "record"
+  },
+  "Puncturing Fangs": {
+   "id": 504153,
+   "state": "record"
+  },
+  "Purify Blood": {
+   "id": 520839,
+   "state": "record"
+  },
+  "Rabid": {
+   "id": 705732,
+   "state": "record"
+  },
+  "Ravenous Bite": {
+   "id": 560365,
+   "state": "record"
+  },
+  "Ravenous Bite (Packleader)": {
+   "id": 560365,
+   "state": "record"
+  },
+  "Ravenous Strike": {
+   "id": 500123,
+   "state": "record"
+  },
+  "Reave": {
+   "id": 800490,
+   "state": "record"
+  },
+  "Red Thirst": {
+   "id": 520493,
+   "state": "record"
+  },
+  "Regenerative Power": {
+   "id": 300587,
+   "state": "record"
+  },
+  "Rejuvenating Shadows": {
+   "id": 556236,
+   "state": "record"
+  },
+  "Resilient Fury": {
+   "id": 705744,
+   "state": "record"
+  },
+  "Rotclaw": {
+   "id": 804197,
+   "state": "record"
+  },
+  "Running Wild": {
+   "id": 800170,
+   "state": "record"
+  },
+  "Sacrificial Rite": {
+   "id": 573251,
+   "state": "record"
+  },
+  "Sanguinary Offering": {
+   "id": 706630,
+   "state": "record"
+  },
+  "Sanguine Circle": {
+   "id": 805913,
+   "state": "record"
+  },
+  "Sanguine Essence": {
+   "id": 505188,
+   "state": "record"
+  },
+  "Sanguine Mend": {
+   "id": 802310,
+   "state": "record"
+  },
+  "Sanguine Rupture": {
+   "id": 800774,
+   "state": "record"
+  },
+  "Sanguine Scripture": {
+   "id": 504264,
+   "state": "record"
+  },
+  "Saturating Sutures": {
+   "id": 504098,
+   "state": "record"
+  },
+  "Scarlet Delirium": {
+   "id": 801074,
+   "state": "record"
+  },
+  "Scent of Man": {
+   "id": 704153,
+   "state": "record"
+  },
+  "Screech of the Darkwing": {
+   "id": 300260,
+   "state": "record"
+  },
+  "Shadow Hemorrhage": {
+   "id": 706596,
+   "state": "record"
+  },
+  "Shadow Howl": {
+   "id": 806177,
+   "state": "record"
+  },
+  "Shadow Strength": {
+   "id": 536277,
+   "state": "record"
+  },
+  "Shadow Vigil": {
+   "id": 806182,
+   "state": "record"
+  },
+  "Shadowfang Bond": {
+   "id": 804867,
+   "state": "record"
+  },
+  "Shadowfang Ritual": {
+   "id": 501625,
+   "state": "record"
+  },
+  "Shadowfang Shield": {
+   "id": 500128,
+   "state": "record"
+  },
+  "Shadows In The Night": {
+   "id": 572766,
+   "state": "record"
+  },
+  "Shards of Torment": {
+   "id": 578121,
+   "state": "record"
+  },
+  "Slaughterhouse Offering": {
+   "id": 1108459,
+   "state": "record"
+  },
+  "Sovereignty": {
+   "id": 504272,
+   "state": "record"
+  },
+  "Spice of Life": {
+   "id": 680674,
+   "state": "record"
+  },
+  "Suture": {
+   "id": 520154,
+   "state": "record"
+  },
+  "Swarm of Flies": {
+   "id": 704646,
+   "state": "record"
+  },
+  "Taldaram's Torment": {
+   "id": 800772,
+   "state": "record"
+  },
+  "Teachings of Lana'thel": {
+   "id": 504106,
+   "state": "record"
+  },
+  "Terrify": {
+   "id": 680691,
+   "state": "record"
+  },
+  "Terrorizer": {
+   "id": 806210,
+   "state": "record"
+  },
+  "The Cup Runneth Over": {
+   "id": 802880,
+   "state": "record"
+  },
+  "The Hunter and the Hunted": {
+   "id": 807487,
+   "state": "record"
+  },
+  "Thick Pelt": {
+   "id": 556233,
+   "state": "record"
+  },
+  "Thirst": {
+   "id": 92112,
+   "state": "record"
+  },
+  "Thirst for Blood": {
+   "id": 570023,
+   "state": "record"
+  },
+  "Time to Feast!": {
+   "id": 705737,
+   "state": "record"
+  },
+  "Transfusion": {
+   "id": 705734,
+   "state": "record"
+  },
+  "Transgression": {
+   "id": 504728,
+   "state": "record"
+  },
+  "Twisted Magic": {
+   "id": 504138,
+   "state": "record"
+  },
+  "Ultra Instinct": {
+   "id": 504166,
+   "state": "record"
+  },
+  "Uncanny Movement": {
+   "id": 301064,
+   "state": "record"
+  },
+  "Uncanny Speed": {
+   "id": 807491,
+   "state": "record"
+  },
+  "Unchained": {
+   "id": 92113,
+   "state": "record"
+  },
+  "Universal Donor": {
+   "id": 704238,
+   "state": "record"
+  },
+  "Valanar's Vengeance": {
+   "id": 560315,
+   "state": "record"
+  },
+  "Vampiric Fang": {
+   "id": 804726,
+   "state": "record"
+  },
+  "Vampiric Hunger": {
+   "id": 504270,
+   "state": "record"
+  },
+  "Vampiric Pools": {
+   "id": 504088,
+   "state": "record"
+  },
+  "Vampirism": {
+   "id": 801075,
+   "state": "record"
+  },
+  "Vampyr Bite": {
+   "id": 801563,
+   "state": "record"
+  },
+  "Vampyr's Kiss": {
+   "id": 504275,
+   "state": "record"
+  },
+  "Veinburst": {
+   "id": 504260,
+   "state": "record"
+  },
+  "Veins of Vengeance": {
+   "id": 560074,
+   "state": "record"
+  },
+  "Vicious Maw": {
+   "id": 517522,
+   "state": "record"
+  },
+  "Viciousness BFB proccer": {
+   "id": 704663,
+   "state": "record"
+  },
+  "Visceral Magic": {
+   "id": 707371,
+   "state": "record"
+  },
+  "Visceral Vitality": {
+   "id": 704687,
+   "state": "record"
+  },
+  "Vital Shield": {
+   "id": 504849,
+   "state": "record"
+  },
+  "Vitality": {
+   "id": 704166,
+   "state": "record"
+  },
+  "Warhound": {
+   "id": 704308,
+   "state": "record"
+  },
+  "Wicked Howl": {
+   "id": 804207,
+   "state": "record"
+  },
+  "Wretched": {
+   "id": 504284,
+   "state": "record"
+  }
+ }
+}

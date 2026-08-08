@@ -1,0 +1,331 @@
+{
+ "Aortic Assault": {
+  "id": 806212,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "accursed",
+   "eternal"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Apotheosis": {
+  "id": 804195,
+  "cd": "5 min cooldown",
+  "specs": [
+   "accursed",
+   "eternal"
+  ],
+  "gcd": false
+ },
+ "Arterial Bind": {
+  "id": 681077,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Bare Fangs": {
+  "id": 801957,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "eternal"
+  ],
+  "gcd": false
+ },
+ "Blood Bond": {
+  "id": 504627,
+  "cd": "2 min cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": false
+ },
+ "Blood Craving": {
+  "id": 800780,
+  "cd": "3 min cooldown",
+  "specs": [
+   "sanguine"
+  ],
+  "gcd": false
+ },
+ "Blood Curse": {
+  "id": 562720,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": false
+ },
+ "Blood Feast": {
+  "id": 706605,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Blood Pact": {
+  "id": 801955,
+  "cd": "2 min cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": false
+ },
+ "Blood Tap": {
+  "id": 707900,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "fleshweaver"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Blood Veil": {
+  "id": 504263,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Bloodgale": {
+  "id": 681310,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": false
+ },
+ "Bloodsurge": {
+  "id": 553267,
+  "cd": "3 min cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": false
+ },
+ "Curse of the Worgen": {
+  "id": 500122,
+  "cd": "1 min cooldown",
+  "specs": [
+   "sanguine"
+  ],
+  "gcd": false
+ },
+ "Dissipate": {
+  "id": 553278,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": false
+ },
+ "Final Embrace": {
+  "id": 524865,
+  "cd": "3 min cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": false
+ },
+ "Finger of Death": {
+  "id": 806178,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Fleshcraft": {
+  "id": 801952,
+  "cd": "5 min cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Gore Barrage": {
+  "id": 504114,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Gorge": {
+  "id": 804805,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "accursed",
+   "fleshweaver"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Grimclaw": {
+  "id": 800158,
+  "cd": "16.667 min cooldown",
+  "specs": [
+   "accursed",
+   "eternal"
+  ],
+  "gcd": false
+ },
+ "Hemal Excision": {
+  "id": 803681,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "fleshweaver"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Hemoburst": {
+  "id": 572855,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hemoglobe": {
+  "id": 524907,
+  "cd": "3 min cooldown",
+  "specs": [
+   "fleshweaver"
+  ],
+  "gcd": false
+ },
+ "Hemophobia": {
+  "id": 300786,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "sanguine"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Ironhide": {
+  "id": 801956,
+  "cd": "5 min cooldown",
+  "specs": [
+   "eternal"
+  ],
+  "gcd": false
+ },
+ "Lunge": {
+  "id": 500126,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Moon Gaze": {
+  "id": 562723,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "eternal"
+  ],
+  "gcd": false
+ },
+ "Night Hunter's Howl": {
+  "id": 500124,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "accursed",
+   "eternal"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Nostrum": {
+  "id": 800844,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Perilous Ascent": {
+  "id": 806180,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Red Thirst": {
+  "id": 520493,
+  "cd": "5 min cooldown",
+  "specs": [
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": false
+ },
+ "Shadow Howl": {
+  "id": 806177,
+  "cd": "1 min cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Shadow Vigil": {
+  "id": 806182,
+  "cd": "1 min cooldown",
+  "specs": [
+   "accursed"
+  ],
+  "gcd": false
+ },
+ "Shadowfang Ritual": {
+  "id": 501625,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "sanguine"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Transfusion": {
+  "id": 705734,
+  "cd": "3 min cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": false
+ },
+ "Wicked Howl": {
+  "id": 804207,
+  "cd": "2 min cooldown",
+  "specs": [
+   "sanguine",
+   "accursed",
+   "eternal",
+   "fleshweaver"
+  ],
+  "gcd": false
+ }
+}

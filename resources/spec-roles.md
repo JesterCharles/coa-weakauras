@@ -61,6 +61,31 @@ missing without any error.
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
 
+| 20 | Bloodmage | sanguine | damage |
+| 20 | Bloodmage | accursed | damage |
+| 20 | Bloodmage | eternal | tank |
+| 20 | Bloodmage | fleshweaver | healing |
+
+**Bloodmage provenance (20):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: sanguine "Strong sustained
+single-target DPS on patchwork fights … Not a party healer. … the spec
+carries itself and nobody else"; accursed "damage dealer" blurbs on every PvE
+row, "Not a party healer. … Spot patches only"; eternal "a shapeshifting
+bruiser/tank that lives in two stances" with a real tank kit (Blood Howl AoE
+taunt, Bare Fangs taunt, Eternal Curse threat/armor/Stamina stance,
+Defense-to-crit-immunity stat floor); fleshweaver — the dungeon text is a
+full healer loop ("Sanguine Mend as your primary tank/spot heal … Blood Veil
+on the tank before a big hit, Fleshcraft as the true 'oh crap' button")
+(`resources/sidekick-bloodmage-*.md`, scraped 2026-08-07). ⚠️ The
+heal-mention count is NOT the discriminator here: sanguine 21/67 (31%),
+accursed 16/65 (25%), eternal 10/51 (20%), fleshweaver 16/31 (52%) — the
+whole class self-heals by lifesteal, so every spec scores high. The
+discriminator is ALLY-targeted healing, which three spec pages explicitly
+deny ("You have no ally-targeted heals" — sanguine dungeon text; "no
+ally-targeted heal" — eternal; "Not a party healer" — accursed) and
+fleshweaver's entire rotation is built on. Replace with an in-game read when
+one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit
