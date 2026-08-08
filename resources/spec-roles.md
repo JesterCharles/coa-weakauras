@@ -61,6 +61,26 @@ missing without any error.
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
 
+
+| 26 | Starcaller | moon-guard | tank |
+| 26 | Starcaller | moon-priest | healing |
+| 26 | Starcaller | sentinel | damage |
+| 26 | Starcaller | warden | damage |
+
+**Starcaller provenance (26):** not yet observed in game — filled from
+citable Sidekick kit statements, one per spec: moon-guard "Solid main-tank
+for raid bosses … Strong dungeon tank — AoE pulls and threat" (block/parry
+kit: Chosen of the Moon taunt + physical DR, Command taunt, Moonlit Bulwark,
+Blanket of Stars, threat passive Lunar Authority); moon-priest "Solid
+raid/tank healer … Strong dungeon healer — spot-heals pull damage" (Resto
+Shaman/Disc feel; heals priced as % max mana: Hand of Elune, Moonflow,
+Prayer of Elune, Moonwell); sentinel "reads as a damage spec whose output
+occasionally heals rather than a primary healer" (ranged arcane, plant-and-
+cast); warden "You're a self-sufficient hybrid, not anyone's healer …
+Havoc Demon Hunter feel" (melee glaive DPS)
+(`resources/sidekick-starcaller-*.md`, scraped 2026-08-08). Replace with an
+in-game read when one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit
@@ -73,6 +93,10 @@ healing, absorbing or shielding, per spec.
 | 24 | Pyromancer incineration | 2 / 43 (5%) |
 | 24 | Pyromancer flameweaving | **28 / 84 (33%)** |
 | 24 | Pyromancer draconic | 4 / 51 (8%) |
+| 26 | Starcaller moon-guard | 4 / 64 (6%) |
+| 26 | Starcaller moon-priest | **30 / 72 (42%)** |
+| 26 | Starcaller sentinel | 4 / 52 (8%) |
+| 26 | Starcaller warden | 0 / 19 (0%) |
 
 The healer stands out by roughly 5x. That is a strong enough signal to *flag* a
 spec for a look, and nowhere near strong enough to set this table from — the

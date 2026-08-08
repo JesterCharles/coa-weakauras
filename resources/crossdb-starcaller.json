@@ -1,0 +1,958 @@
+{
+ "_class": "starcaller",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Aegis of Neptulon": {
+   "id": 800375,
+   "state": "record"
+  },
+  "Alignment": {
+   "id": 805507,
+   "state": "record"
+  },
+  "Arcane Protection": {
+   "id": 573343,
+   "state": "record"
+  },
+  "Arrow of the Goddess": {
+   "id": 563725,
+   "state": "record"
+  },
+  "Arrows In The Night": {
+   "id": 520481,
+   "state": "record"
+  },
+  "Arrows of Starlight": {
+   "id": 704733,
+   "state": "record"
+  },
+  "Aspect Mastery": {
+   "id": 704389,
+   "state": "record"
+  },
+  "Aspect of the Cosmos": {
+   "id": 801123,
+   "state": "record"
+  },
+  "Aspect of the Goddess": {
+   "id": 802203,
+   "state": "record"
+  },
+  "Aspect of the Huntress": {
+   "id": 805356,
+   "state": "record"
+  },
+  "Aspect of the Moonwell": {
+   "id": 574360,
+   "state": "record"
+  },
+  "Aspect of the Stars": {
+   "id": 800510,
+   "state": "record"
+  },
+  "Aspect of the Warden": {
+   "id": 801128,
+   "state": "record"
+  },
+  "Asteroid Belt": {
+   "id": 574349,
+   "state": "record"
+  },
+  "Astral Aegis": {
+   "id": 806155,
+   "state": "record"
+  },
+  "Astral Blade": {
+   "id": 805563,
+   "state": "record"
+  },
+  "Astral Combatant": {
+   "id": 706574,
+   "state": "record"
+  },
+  "Astral Flare": {
+   "id": 800499,
+   "state": "record"
+  },
+  "Astral Knowledge": {
+   "id": 300257,
+   "state": "record"
+  },
+  "Astral Onslaught": {
+   "id": 704789,
+   "state": "record"
+  },
+  "Astral Projection": {
+   "id": 300994,
+   "state": "record"
+  },
+  "Astral Quickness": {
+   "id": 680802,
+   "state": "record"
+  },
+  "Astral Reconstitution": {
+   "id": 801155,
+   "state": "record"
+  },
+  "Avatar of Vengeance": {
+   "id": 680822,
+   "state": "record"
+  },
+  "Bathe": {
+   "id": 704744,
+   "state": "record"
+  },
+  "Blanket of Stars": {
+   "id": 804381,
+   "state": "record"
+  },
+  "Blessed By The Stars": {
+   "id": 704741,
+   "state": "record"
+  },
+  "Bonds of Justice": {
+   "id": 680705,
+   "state": "record"
+  },
+  "Bright Moon": {
+   "id": 704779,
+   "state": "record"
+  },
+  "Bubble Blower": {
+   "id": 704754,
+   "state": "record"
+  },
+  "Bubble Buddy": {
+   "id": 704747,
+   "state": "record"
+  },
+  "Cascade": {
+   "id": 704765,
+   "state": "record"
+  },
+  "Celestial Aegis": {
+   "id": 801126,
+   "state": "record"
+  },
+  "Celestial Armor": {
+   "id": 805544,
+   "state": "record"
+  },
+  "Celestial Awakening": {
+   "id": 801795,
+   "state": "record"
+  },
+  "Celestial Cleave": {
+   "id": 801181,
+   "state": "record"
+  },
+  "Celestial Form": {
+   "id": 801231,
+   "state": "record"
+  },
+  "Celestial Glaives": {
+   "id": 805524,
+   "state": "record"
+  },
+  "Celestial Guard": {
+   "id": 574351,
+   "state": "record"
+  },
+  "Celestial Impact": {
+   "id": 560764,
+   "state": "record"
+  },
+  "Celestial Knight": {
+   "id": 805521,
+   "state": "record"
+  },
+  "Celestial Mind": {
+   "id": 300255,
+   "state": "record"
+  },
+  "Celestial Resonance": {
+   "id": 801130,
+   "state": "record"
+  },
+  "Celestial Shot": {
+   "id": 574348,
+   "state": "record"
+  },
+  "Celestial Steed": {
+   "id": 75614,
+   "state": "record"
+  },
+  "Celestial Strike": {
+   "id": 800496,
+   "state": "record"
+  },
+  "Choking Water": {
+   "id": 804387,
+   "state": "record"
+  },
+  "Chosen of the Moon": {
+   "id": 680755,
+   "state": "record"
+  },
+  "Coilfang Cascade": {
+   "id": 680344,
+   "state": "record"
+  },
+  "Command": {
+   "id": 804386,
+   "state": "record"
+  },
+  "Constellation Barrier": {
+   "id": 300259,
+   "state": "record"
+  },
+  "Continual Starfall": {
+   "id": 503584,
+   "state": "record"
+  },
+  "Cosmic Crown": {
+   "id": 804385,
+   "state": "record"
+  },
+  "Cosmic Duality": {
+   "id": 504628,
+   "state": "record"
+  },
+  "Cosmic Presence": {
+   "id": 502341,
+   "state": "record"
+  },
+  "Cosmic Ripple": {
+   "id": 300993,
+   "state": "record"
+  },
+  "Cosmic Shift": {
+   "id": 801134,
+   "state": "record"
+  },
+  "Cosmic Vengeance": {
+   "id": 805545,
+   "state": "record"
+  },
+  "Crystal Shield": {
+   "id": 680748,
+   "state": "record"
+  },
+  "Cycle of the Moon": {
+   "id": 500206,
+   "state": "record"
+  },
+  "Deluge": {
+   "id": 800381,
+   "state": "record"
+  },
+  "Drawstring of Elune": {
+   "id": 801975,
+   "state": "record"
+  },
+  "Eclipse of Fury": {
+   "id": 570217,
+   "state": "record"
+  },
+  "Eclipsing Arrows": {
+   "id": 574154,
+   "state": "record"
+  },
+  "Effervescence": {
+   "id": 704758,
+   "state": "record"
+  },
+  "Elune's Blessing": {
+   "id": 300876,
+   "state": "record"
+  },
+  "Elune's Favor": {
+   "id": 300237,
+   "state": "record"
+  },
+  "Elune's Grace": {
+   "id": 504001,
+   "state": "record"
+  },
+  "Elune's Presence": {
+   "id": 680774,
+   "state": "record"
+  },
+  "Elune's Purification": {
+   "id": 520869,
+   "state": "record"
+  },
+  "Elune's Warding": {
+   "id": 706227,
+   "state": "record"
+  },
+  "Enchanted Aegis": {
+   "id": 704795,
+   "state": "record"
+  },
+  "Enchanted Water": {
+   "id": 704755,
+   "state": "record"
+  },
+  "Enchanted Well": {
+   "id": 680820,
+   "state": "record"
+  },
+  "Endless Sky": {
+   "id": 704782,
+   "state": "record"
+  },
+  "Explosive Moonlight": {
+   "id": 680806,
+   "state": "record"
+  },
+  "Extinguisher": {
+   "id": 300245,
+   "state": "record"
+  },
+  "Eye of Elune": {
+   "id": 704783,
+   "state": "record"
+  },
+  "Fan of Knives": {
+   "id": 680703,
+   "state": "record"
+  },
+  "Final Prayer": {
+   "id": 704745,
+   "state": "record"
+  },
+  "Flash Flood": {
+   "id": 680346,
+   "state": "record"
+  },
+  "Flow of Mana": {
+   "id": 704604,
+   "state": "record"
+  },
+  "Flow of Water": {
+   "id": 800365,
+   "state": "record"
+  },
+  "Flow of Waters": {
+   "id": 560539,
+   "state": "record"
+  },
+  "Full Cycle": {
+   "id": 704343,
+   "state": "record"
+  },
+  "Full Moon": {
+   "id": 800393,
+   "state": "record"
+  },
+  "Fury of the Stars": {
+   "id": 704603,
+   "state": "record"
+  },
+  "Galaxy": {
+   "id": 800508,
+   "state": "record"
+  },
+  "Geyser": {
+   "id": 503037,
+   "state": "record"
+  },
+  "Glaive Tossing": {
+   "id": 680737,
+   "state": "record"
+  },
+  "Grace of the Moon": {
+   "id": 501486,
+   "state": "record"
+  },
+  "Greater Arcane Protection": {
+   "id": 573348,
+   "state": "record"
+  },
+  "Greater Celestial Mind": {
+   "id": 680301,
+   "state": "record"
+  },
+  "Guarded by the Moon": {
+   "id": 801142,
+   "state": "record"
+  },
+  "Guided Blades": {
+   "id": 680738,
+   "state": "record"
+  },
+  "Guided Reflexes": {
+   "id": 801995,
+   "state": "no-record"
+  },
+  "Halt": {
+   "id": 805432,
+   "state": "record"
+  },
+  "Hand of Elune": {
+   "id": 801990,
+   "state": "record"
+  },
+  "Huntress Saber": {
+   "id": 524643,
+   "state": "record"
+  },
+  "Huntress Shot": {
+   "id": 680220,
+   "state": "no-record"
+  },
+  "Huntress Shot - Mana Cost %": {
+   "id": 521450,
+   "state": "record"
+  },
+  "Huntress Training": {
+   "id": 92133,
+   "state": "record"
+  },
+  "Huntress of Elune": {
+   "id": 704769,
+   "state": "record"
+  },
+  "Improved Eclipse of Fury": {
+   "id": 704793,
+   "state": "record"
+  },
+  "Improved Torrent": {
+   "id": 704746,
+   "state": "record"
+  },
+  "Infused Aegis": {
+   "id": 681023,
+   "state": "record"
+  },
+  "Liquid Space": {
+   "id": 704752,
+   "state": "record"
+  },
+  "Lo'sho Amplification": {
+   "id": 500205,
+   "state": "record"
+  },
+  "Lunar Anomaly": {
+   "id": 300989,
+   "state": "record"
+  },
+  "Lunar Authority": {
+   "id": 807731,
+   "state": "record"
+  },
+  "Lunar Blades": {
+   "id": 801997,
+   "state": "record"
+  },
+  "Lunar Blessing": {
+   "id": 704756,
+   "state": "record"
+  },
+  "Lunar Cascade": {
+   "id": 704725,
+   "state": "record"
+  },
+  "Lunar Combatant": {
+   "id": 805828,
+   "state": "record"
+  },
+  "Lunar Conquest": {
+   "id": 704791,
+   "state": "record"
+  },
+  "Lunar Eclipse": {
+   "id": 800386,
+   "state": "record"
+  },
+  "Lunar Focus": {
+   "id": 801139,
+   "state": "record"
+  },
+  "Lunar Lance": {
+   "id": 801132,
+   "state": "record"
+  },
+  "Lunar Phase": {
+   "id": 524781,
+   "state": "record"
+  },
+  "Lunar Prophecy": {
+   "id": 704764,
+   "state": "record"
+  },
+  "Lunar Resplendence": {
+   "id": 801974,
+   "state": "record"
+  },
+  "Lunar Splinters": {
+   "id": 555736,
+   "state": "record"
+  },
+  "Lunar Storm": {
+   "id": 800511,
+   "state": "record"
+  },
+  "Magic Mark": {
+   "id": 704797,
+   "state": "record"
+  },
+  "Maiev's Discipline": {
+   "id": 680233,
+   "state": "record"
+  },
+  "Mana-Charged": {
+   "id": 500204,
+   "state": "record"
+  },
+  "Mending Surge": {
+   "id": 704732,
+   "state": "record"
+  },
+  "Moon Arrow": {
+   "id": 801972,
+   "state": "no-record"
+  },
+  "Moon Gazing": {
+   "id": 504786,
+   "state": "record"
+  },
+  "Moon Guard": {
+   "id": 92132,
+   "state": "record"
+  },
+  "Moon Priest": {
+   "id": 92134,
+   "state": "record"
+  },
+  "Moon Priest - Level 15 Passive": {
+   "id": 560274,
+   "state": "record"
+  },
+  "Moon Priest - Level 20 Passive": {
+   "id": 520631,
+   "state": "record"
+  },
+  "Moon Touch": {
+   "id": 300261,
+   "state": "record"
+  },
+  "Moonblade": {
+   "id": 801125,
+   "state": "record"
+  },
+  "Moonblessed Aspects": {
+   "id": 706231,
+   "state": "record"
+  },
+  "Moonchaser Kodo": {
+   "id": 525075,
+   "state": "record"
+  },
+  "Moonflow": {
+   "id": 575030,
+   "state": "record"
+  },
+  "Moonlight Ripple": {
+   "id": 503583,
+   "state": "record"
+  },
+  "Moonlit Bulwark": {
+   "id": 805433,
+   "state": "record"
+  },
+  "Moonlit Impaler": {
+   "id": 561222,
+   "state": "record"
+  },
+  "Moonlit Lancer": {
+   "id": 560662,
+   "state": "record"
+  },
+  "Moonlit Slumber": {
+   "id": 805546,
+   "state": "record"
+  },
+  "Moonstone": {
+   "id": 805503,
+   "state": "record"
+  },
+  "Moonstone Hilt": {
+   "id": 300250,
+   "state": "record"
+  },
+  "Moonwalk": {
+   "id": 300256,
+   "state": "record"
+  },
+  "Moonwater": {
+   "id": 804735,
+   "state": "record"
+  },
+  "Moonwater Blessing": {
+   "id": 800382,
+   "state": "record"
+  },
+  "Moonwell": {
+   "id": 804739,
+   "state": "record"
+  },
+  "Moonwell Acuity": {
+   "id": 680809,
+   "state": "record"
+  },
+  "Moonwell Blessing": {
+   "id": 706252,
+   "state": "record"
+  },
+  "Moonwell Dipped Arrows": {
+   "id": 801991,
+   "state": "record"
+  },
+  "Moonwell Splash": {
+   "id": 800370,
+   "state": "record"
+  },
+  "Moonwell Tide": {
+   "id": 561305,
+   "state": "record"
+  },
+  "Moonwell Tides": {
+   "id": 560951,
+   "state": "record"
+  },
+  "Mu'sha's Resilience": {
+   "id": 704774,
+   "state": "record"
+  },
+  "Nebula": {
+   "id": 300992,
+   "state": "record"
+  },
+  "New Moon": {
+   "id": 800394,
+   "state": "record"
+  },
+  "Night Hunter": {
+   "id": 801146,
+   "state": "record"
+  },
+  "Nightborne Armaments": {
+   "id": 680789,
+   "state": "record"
+  },
+  "Phase Guider": {
+   "id": 300995,
+   "state": "record"
+  },
+  "Pond": {
+   "id": 800373,
+   "state": "record"
+  },
+  "Pouch of Stardust": {
+   "id": 504694,
+   "state": "record"
+  },
+  "Prayer of Elune": {
+   "id": 801987,
+   "state": "record"
+  },
+  "Protected by the Stars": {
+   "id": 300258,
+   "state": "record"
+  },
+  "Pulsar Explosion": {
+   "id": 704794,
+   "state": "record"
+  },
+  "Pulverizing Blade": {
+   "id": 704171,
+   "state": "record"
+  },
+  "Rain of Comets": {
+   "id": 805520,
+   "state": "record"
+  },
+  "Rally The Sentinels": {
+   "id": 704784,
+   "state": "record"
+  },
+  "Rapid Cycle": {
+   "id": 300249,
+   "state": "record"
+  },
+  "Rejuvenating Arrows": {
+   "id": 300243,
+   "state": "record"
+  },
+  "Reverse Magic": {
+   "id": 570231,
+   "state": "record"
+  },
+  "Rippling Moonwater": {
+   "id": 804733,
+   "state": "record"
+  },
+  "Scattered Stars": {
+   "id": 804378,
+   "state": "record"
+  },
+  "Second Moon": {
+   "id": 300252,
+   "state": "record"
+  },
+  "Sentinel - Level 15 Passive": {
+   "id": 560955,
+   "state": "record"
+  },
+  "Sentinel Glaive": {
+   "id": 800506,
+   "state": "record"
+  },
+  "Sentinel's Focus": {
+   "id": 520480,
+   "state": "record"
+  },
+  "Shadowsong's Mandate": {
+   "id": 805439,
+   "state": "record"
+  },
+  "Shark Attack": {
+   "id": 704760,
+   "state": "record"
+  },
+  "Shattered Stars": {
+   "id": 681041,
+   "state": "record"
+  },
+  "Shooting Star": {
+   "id": 800505,
+   "state": "record"
+  },
+  "Shrouded Stars": {
+   "id": 704785,
+   "state": "record"
+  },
+  "Silvercurrent": {
+   "id": 800376,
+   "state": "record"
+  },
+  "Siren's Song": {
+   "id": 804738,
+   "state": "record"
+  },
+  "Slipstream": {
+   "id": 800366,
+   "state": "record"
+  },
+  "Star Citizen": {
+   "id": 704776,
+   "state": "record"
+  },
+  "Star Pupil": {
+   "id": 680821,
+   "state": "record"
+  },
+  "Star-Charged": {
+   "id": 500608,
+   "state": "record"
+  },
+  "Star-Guided Arrows": {
+   "id": 524642,
+   "state": "record"
+  },
+  "Starbarian": {
+   "id": 704778,
+   "state": "record"
+  },
+  "Starbound": {
+   "id": 704787,
+   "state": "record"
+  },
+  "Starburst": {
+   "id": 801996,
+   "state": "record"
+  },
+  "Starburst Invigoration": {
+   "id": 520354,
+   "state": "record"
+  },
+  "Starcall": {
+   "id": 800497,
+   "state": "record"
+  },
+  "Starcrash": {
+   "id": 560721,
+   "state": "record"
+  },
+  "Starfire Barrage": {
+   "id": 572318,
+   "state": "record"
+  },
+  "Starfire Shot": {
+   "id": 801978,
+   "state": "no-record"
+  },
+  "Starfury": {
+   "id": 800258,
+   "state": "record"
+  },
+  "Starlight": {
+   "id": 573258,
+   "state": "record"
+  },
+  "Starlight Arrows": {
+   "id": 300247,
+   "state": "record"
+  },
+  "Starlight Duelist": {
+   "id": 805505,
+   "state": "record"
+  },
+  "Starlord's Mandate": {
+   "id": 805438,
+   "state": "record"
+  },
+  "Starshatter": {
+   "id": 801135,
+   "state": "record"
+  },
+  "Starslip": {
+   "id": 704780,
+   "state": "record"
+  },
+  "Starsunder": {
+   "id": 801127,
+   "state": "record"
+  },
+  "Starsweep": {
+   "id": 805550,
+   "state": "record"
+  },
+  "Starsweeper": {
+   "id": 804389,
+   "state": "record"
+  },
+  "Stellar Amplification": {
+   "id": 801143,
+   "state": "record"
+  },
+  "Stellar Convergence": {
+   "id": 572784,
+   "state": "record"
+  },
+  "Stellar Drift": {
+   "id": 800500,
+   "state": "record"
+  },
+  "Teachings of Elune": {
+   "id": 704759,
+   "state": "record"
+  },
+  "The Stars Align": {
+   "id": 300251,
+   "state": "record"
+  },
+  "Tidal Rebirth": {
+   "id": 801793,
+   "state": "record"
+  },
+  "Tide Lash": {
+   "id": 800380,
+   "state": "record"
+  },
+  "Tideturner": {
+   "id": 300238,
+   "state": "record"
+  },
+  "Torrent": {
+   "id": 800371,
+   "state": "record"
+  },
+  "Touch of Moonlight": {
+   "id": 574328,
+   "state": "record"
+  },
+  "Touch of Moonlight Cost %": {
+   "id": 574329,
+   "state": "record"
+  },
+  "True Aim": {
+   "id": 704735,
+   "state": "record"
+  },
+  "Trueshot": {
+   "id": 520590,
+   "state": "no-record"
+  },
+  "Twinkle Toes": {
+   "id": 560763,
+   "state": "record"
+  },
+  "Tyrande's Guidance": {
+   "id": 704788,
+   "state": "record"
+  },
+  "Umbral Blade": {
+   "id": 680704,
+   "state": "record"
+  },
+  "Universal Power": {
+   "id": 300262,
+   "state": "record"
+  },
+  "Unleashed Wisps": {
+   "id": 706230,
+   "state": "record"
+  },
+  "Vengeance of Elune": {
+   "id": 801969,
+   "state": "record"
+  },
+  "Vial of Moonwell Water": {
+   "id": 804652,
+   "state": "record"
+  },
+  "Vigil of the Moon": {
+   "id": 802797,
+   "state": "record"
+  },
+  "Vigil of the Watchers": {
+   "id": 680709,
+   "state": "record"
+  },
+  "Virtue": {
+   "id": 801141,
+   "state": "record"
+  },
+  "Warden Training": {
+   "id": 680725,
+   "state": "record"
+  },
+  "Warden's Blade": {
+   "id": 805508,
+   "state": "record"
+  },
+  "Warden's Fury": {
+   "id": 706236,
+   "state": "record"
+  },
+  "Warrior of Elune": {
+   "id": 704798,
+   "state": "record"
+  },
+  "Way of the Goddess": {
+   "id": 570099,
+   "state": "record"
+  },
+  "Wrath of Elune": {
+   "id": 704786,
+   "state": "record"
+  },
+  "Wrath of Vashj": {
+   "id": 704742,
+   "state": "record"
+  }
+ }
+}

@@ -197,6 +197,13 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # First pin (0.1). SC Core is an empty skeleton (no alert survived
+    # requirements §5: missing-Aspect and missing-blessing both hang on
+    # unproven aura visibility) -- the 5 are the Core group plus four merged
+    # all-spec Buffs leaves (Celestial Aegis, Astral Aegis, Infused Aegis,
+    # Shooting Star) that hold the class gate alone, the standing self-gating
+    # buff-icon reason.
+    "starcaller": 5,
 }
 
 

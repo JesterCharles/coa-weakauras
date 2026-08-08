@@ -1,0 +1,455 @@
+{
+ "Aegis of Neptulon": {
+  "id": 800375,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Alignment": {
+  "id": 524702,
+  "cd": "1 min cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Arrow of the Goddess": {
+  "id": 563725,
+  "cd": "1 min cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Arrows In The Night": {
+  "id": 520481,
+  "cd": "1 min cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": false
+ },
+ "Aspect of the Huntress": {
+  "id": 805356,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Aspect of the Moonwell": {
+  "id": 574360,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Aspect of the Stars": {
+  "id": 800510,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Aspect of the Warden": {
+  "id": 801128,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "warden"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Astral Blade": {
+  "id": 805563,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Astral Reconstitution": {
+  "id": 801155,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Blanket of Stars": {
+  "id": 804381,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": false
+ },
+ "Bonds of Justice": {
+  "id": 680705,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "warden"
+  ],
+  "gcd": false
+ },
+ "Bubble Buddy": {
+  "id": 704747,
+  "cd": "2 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": false
+ },
+ "Celestial Form": {
+  "id": 801231,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": false
+ },
+ "Celestial Impact": {
+  "id": 560764,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Celestial Resonance": {
+  "id": 801130,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Chosen of the Moon": {
+  "id": 680755,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": false
+ },
+ "Coilfang Cascade": {
+  "id": 680344,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": false
+ },
+ "Command": {
+  "id": 804386,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": false
+ },
+ "Cosmic Presence": {
+  "id": 502341,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Cosmic Shift": {
+  "id": 801134,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-priest",
+   "sentinel"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Drawstring of Elune": {
+  "id": 801975,
+  "cd": "2 min cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": false
+ },
+ "Elune's Presence": {
+  "id": 680774,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": false
+ },
+ "Fan of Knives": {
+  "id": 680703,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Grace of the Moon": {
+  "id": 501486,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": false
+ },
+ "Guided Reflexes": {
+  "id": 801995,
+  "cd": "2 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": false
+ },
+ "Halt": {
+  "id": 805432,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "warden"
+  ],
+  "gcd": false
+ },
+ "Huntress Saber": {
+  "id": 524643,
+  "cd": "3 min cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Lunar Focus": {
+  "id": 801139,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": false
+ },
+ "Lunar Resplendence": {
+  "id": 801974,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-priest",
+   "sentinel"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Lunar Storm": {
+  "id": 800511,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "sentinel"
+  ],
+  "gcd": false
+ },
+ "Moonchaser Kodo": {
+  "id": 525075,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": false
+ },
+ "Moonlit Bulwark": {
+  "id": 805433,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Moonlit Slumber": {
+  "id": 805546,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-priest",
+   "sentinel"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Moonwater Blessing": {
+  "id": 800382,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Moonwell": {
+  "id": 804739,
+  "cd": "2 min cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Pond": {
+  "id": 800373,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Prayer of Elune": {
+  "id": 801987,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "moon-priest",
+   "sentinel"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Reverse Magic": {
+  "id": 570231,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": false
+ },
+ "Sentinel Glaive": {
+  "id": 800506,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Shadowsong's Mandate": {
+  "id": 805439,
+  "cd": "2 min cooldown",
+  "specs": [
+   "warden"
+  ],
+  "gcd": false
+ },
+ "Silvercurrent": {
+  "id": 800376,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Siren's Song": {
+  "id": 804738,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Slipstream": {
+  "id": 800366,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Starshatter": {
+  "id": 801135,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Starsweep": {
+  "id": 805550,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Starsweeper": {
+  "id": 804389,
+  "cd": "1 min cooldown",
+  "specs": [
+   "moon-guard"
+  ],
+  "gcd": false
+ },
+ "Stellar Convergence": {
+  "id": 572784,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Tidal Rebirth": {
+  "id": 801793,
+  "cd": "10 min cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Tide Lash": {
+  "id": 800380,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "moon-priest"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Vial of Moonwell Water": {
+  "id": 804652,
+  "cd": "3 min cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Vigil of the Moon": {
+  "id": 802797,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Warden's Blade": {
+  "id": 805508,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "moon-guard",
+   "moon-priest",
+   "sentinel",
+   "warden"
+  ],
+  "gcd": "1.2 sec"
+ }
+}

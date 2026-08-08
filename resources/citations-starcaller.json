@@ -1,0 +1,97 @@
+{
+ "sidekick-starcaller-moon-guard-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Astral Armor",
+    "Guided Reflexes"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Moon Guard"
+   ]
+  },
+  "class": "starcaller",
+  "content_sha256": "6d98120c22219cc6",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/starcaller/moon-guard",
+  "spec": "moon-guard"
+ },
+ "sidekick-starcaller-moon-priest-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Bubble Buddy",
+    "Essence of the Moonwell",
+    "Moonwell"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Moon Priest"
+   ]
+  },
+  "class": "starcaller",
+  "content_sha256": "e5616aabbbdf24af",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/starcaller/moon-priest",
+  "spec": "moon-priest"
+ },
+ "sidekick-starcaller-sentinel-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Alignment"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Huntress Training"
+   ]
+  },
+  "class": "starcaller",
+  "content_sha256": "f81de7f9d0298c71",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/starcaller/sentinel",
+  "spec": "sentinel"
+ },
+ "sidekick-starcaller-warden-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Shadowsong's Mandate"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Warden Training"
+   ]
+  },
+  "class": "starcaller",
+  "content_sha256": "25e24ae023362229",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/starcaller/warden",
+  "spec": "warden"
+ }
+}

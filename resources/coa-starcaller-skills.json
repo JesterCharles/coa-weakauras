@@ -1,0 +1,2176 @@
+[
+ {
+  "name": "Aegis of Neptulon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Places a protective bubble around the target ally, absorbing up to its value damage. High Tide: This is instant. Low Tide: Incurs a reduced cooldown."
+ },
+ {
+  "name": "Alignment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Instantly regenerates % of your maximum mana, but reduces damage dealt by %. While active, your threat against all enemies is nullified."
+ },
+ {
+  "name": "Arcane Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard",
+   "warden"
+  ],
+  "desc": "Increases the target's resistance to Arcane spells by."
+ },
+ {
+  "name": "Arrow of the Goddess",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Fire a star-infused arrow hitting enemies in a line, dealing % Ranged Weapon Damage plus its value Arcane damage, scaling with maximum mana and applying Scattered Stars to them."
+ },
+ {
+  "name": "Arrows In The Night",
+  "icon": "_nightelf_05",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Your Huntress Shots now strike its value additional enemies and explode with astral energy, dealing its value Arcane damage. Damage dealt by Starcall reduces the cooldown of this ability by sec."
+ },
+ {
+  "name": "Arrows of Starlight",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases the damage of Moon Arrow by %."
+ },
+ {
+  "name": "Aspect Mastery",
+  "icon": "_silence_nightelf_2",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the effectiveness of your Aspects by % and their chance to trigger by %."
+ },
+ {
+  "name": "Aspect of the Cosmos",
+  "icon": "inv_staff_11",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Melee and ranged damage dealt has a % chance to slow enemy movement speed by %, stacking times and apply Scattered Stars. Shares a cooldown with other Aspects."
+ },
+ {
+  "name": "Aspect of the Goddess",
+  "icon": "achievement_leader_tyrande_whisperwind",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "While active, your healing done is increased by % and your spells and abilities will not be able to miss. In addition, consuming Scattered Stars now heals up to allies around the target for its value. Shares a cooldown with other Aspects."
+ },
+ {
+  "name": "Aspect of the Huntress",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Melee and ranged auto attacks now have a % chance to drain the target's mana equal to % of the damage dealt and apply Scattered Stars, but your damage is reduced by % while this is active. Shares a cooldown with other Aspects."
+ },
+ {
+  "name": "Aspect of the Moonwell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "While active, doubles the damage dealt and mana gained from consuming Scattered Stars. Shares a cooldown with other Aspects."
+ },
+ {
+  "name": "Aspect of the Stars",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Melee and ranged auto attacks now have a % chance to apply Scattered Stars and deal its value Arcane damage. Shares a cooldown with other Aspects."
+ },
+ {
+  "name": "Aspect of the Warden",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Melee and ranged auto attacks have a % chance to strike 3 additional times for Arcane damage and apply Scattered Stars. Each strike can critically strike. Shares a cooldown with other Aspects."
+ },
+ {
+  "name": "Asteroid Belt",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Level 20 Passive Every sec, you now gain Asteroid Belt. In addition, your hit rating is increased by % of your Intellect and your expertise is increased."
+ },
+ {
+  "name": "Astral Aegis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drains % Maximum Mana For, direct Magic damage taken will silence the attacker for and deal its value Arcane damage to them. Shares a cooldown with other Aegis spells."
+ },
+ {
+  "name": "Astral Blade",
+  "icon": "ability_demonhunter_manabreak",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Drains % Maximum Mana Strike an enemy with precision, dealing its value Arcane damage, increased further based on your maximum mana. Increases your dealt to the enemy by %."
+ },
+ {
+  "name": "Astral Combatant",
+  "icon": "achievement_thenighthold_spellbladealuriel",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Lunar Lance and Umbral Blade increase the enemy damage taken from Scattered Stars by %."
+ },
+ {
+  "name": "Astral Flare",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "You call an Astral Flare down from the sky, dealing Arcane Damage to an enemy and regenerating % of your Maximum Mana."
+ },
+ {
+  "name": "Astral Knowledge",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases Intellect by %"
+ },
+ {
+  "name": "Astral Lancer",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Level 20 Passive Increases the critical damage of Lunar Lance by %."
+ },
+ {
+  "name": "Astral Onslaught",
+  "icon": "_d3spectralblade",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the duration of Astral Blade by sec."
+ },
+ {
+  "name": "Astral Projection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the Energy cost of Celestial Strike and Moon Arrow."
+ },
+ {
+  "name": "Astral Quickness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Critical strikes with Moon Arrow increase your melee and ranged haste by %."
+ },
+ {
+  "name": "Astral Reconstitution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Surround yourself with lunar light, causing % of damage taken to be converted into mana."
+ },
+ {
+  "name": "Avatar of Vengeance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Transform into an Avatar of Vengeance, teleporting to your target and increasing your Intellect by %. For the duration, the range of Astral Blade is increased by yards and will teleport you to your target. your target is an enemy, you strike them dealing {+Intellect"
+ },
+ {
+  "name": "Bathe",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Torrent now increases healing on allies by 3% for sec, stacking times."
+ },
+ {
+  "name": "Blanket of Stars",
+  "icon": "ability_argus_blightorb",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Cover your shield in a blanket of stars, increasing your block chance and block value by %."
+ },
+ {
+  "name": "Blessed By The Stars",
+  "icon": "inv_staff_2h_humanpriest_c_01",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Your ranged damage dealt now has a % chance to unleash a Scattered Star."
+ },
+ {
+  "name": "Bonds of Justice",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Send forth bonds of justice to an enemy, tethering them to you. the tether is broken through expiration or the target runs at least 10 yds from you, they are gripped back towards you, taking its value Arcane damage."
+ },
+ {
+  "name": "Bright Moon",
+  "icon": "spell_shadow_teleport",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Allows Lunar Phase to stack additional times."
+ },
+ {
+  "name": "Bubble Blower",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Reduces the cooldown of Bubble Buddy by sec."
+ },
+ {
+  "name": "Bubble Buddy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Summons a Bubble Buddy. While you channel Torrent, the Bubble Buddy will mimic it yds in front of you, facing the inverse of your orientation."
+ },
+ {
+  "name": "Burdening Starlight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Starlight now blasts affected enemies for its value Arcane Damage and roots them for every sec."
+ },
+ {
+  "name": "Cascade",
+  "icon": "spell_druid_lunarinspiration",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Every 8th Scattered Star you consume increases the damage of your next Starcall by %."
+ },
+ {
+  "name": "Celestial Aegis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Drains % Maximum Mana Envelop yourself with celestial magic, reducing your damage taken by %. Shares a cooldown with other Aegis spells."
+ },
+ {
+  "name": "Celestial Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Gives you a chance to afflict any enemy that deals direct damage to you with a stack of Scattered Stars, and allows Scattered Stars to stack up to additional times. Cannot occur more than once per second."
+ },
+ {
+  "name": "Celestial Awakening",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Brings a dead ally back to life with Health and Mana. The target gains % increased Mana regeneration. Cannot be cast when in combat."
+ },
+ {
+  "name": "Celestial Cleave",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Cleave up to nearby enemies in front of you for % Weapon Damage as Arcane Damage. Regenerates % maximum mana for each enemy struck."
+ },
+ {
+  "name": "Celestial Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Ascend into a celestial form, increasing your critical strike chance by %. While active, critical strikes now reduce the remaining cooldown of all healing spells by 10% and apply a Scattered Star to your target and up to 4 enemies within 5 yds of them."
+ },
+ {
+  "name": "Celestial Glaives",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Level 30 Passive Your Scattered Stars can now stack additional times."
+ },
+ {
+  "name": "Celestial Guard",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Level 40 Passive Increases the effectiveness of consuming Scattered Stars by %."
+ },
+ {
+  "name": "Celestial Impact",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Stomps the ground with celestial might, dealing its value Arcane Damage and stunning enemies within yds."
+ },
+ {
+  "name": "Celestial Knight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Gives effective healing on you a % chance and any damage dealt by Starsunder a 25% chance to enable you to use Vengeance of Elune for a short time."
+ },
+ {
+  "name": "Celestial Mind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Enhance an ally with a blessing from Elune, increasing their Intellect by."
+ },
+ {
+  "name": "Celestial Resonance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Drains % Maximum Mana Emanate an aura, causing allied players to deal its value additional damage as Arcane Damage when they deal direct damage. Applies Exhaustion, preventing you from benefiting from similar effects."
+ },
+ {
+  "name": "Celestial Shot",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Level 40 Passive Increases the effectiveness of consuming Scattered Stars by %."
+ },
+ {
+  "name": "Celestial Steed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Summons and dismisses a Celestial Steed. This mount changes depending on your Riding skill and location."
+ },
+ {
+  "name": "Celestial Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Strike an enemy for % Weapon Damage plus its value and regenerate % of your maximum mana."
+ },
+ {
+  "name": "Choking Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Dealing Frost damage to an enemy now reduces their spell power by its value and their spell haste by %. Stacks 4 times."
+ },
+ {
+  "name": "Chosen of the Moon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Become the chosen of the moon, reducing all Physical damage taken by % and taunting all enemies within yds."
+ },
+ {
+  "name": "Coilfang Cascade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases all damage dealt by % and increases the proc chance of Unleashed Water Spirits by %. Lasts."
+ },
+ {
+  "name": "Command",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Taunt an enemy to attack you. the target is a player, they are unable to stop moving."
+ },
+ {
+  "name": "Constellation Barrier",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces all Magic damage taken by %."
+ },
+ {
+  "name": "Continual Starfall",
+  "icon": "ability_druid_starfall",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Astral Flares called down by Aspect of the Stars now increase your haste by %, stacking times."
+ },
+ {
+  "name": "Cosmic Crown",
+  "icon": "inv_jewelcrafting_70_cutgem03_blue",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the duration of Aegis spells by sec."
+ },
+ {
+  "name": "Cosmic Duality",
+  "icon": "spell_shaman_elementaloath",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Lunar Renewal will increase the damage of your next Starfire Shot by %. Inversely, your Starfire Shot ability reduces the mana consumed by your next Lunar Renewal by % without impacting its heal amount."
+ },
+ {
+  "name": "Cosmic Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Surround yourself with cosmic mist, dealing its value Arcane Damage to up to nearby enemies every sec and reducing their spell power by its value. Lasts. When this ends, nearby enemies are stunned."
+ },
+ {
+  "name": "Cosmic Ripple",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Your direct critical healing now heals allies for an additional its value every sec."
+ },
+ {
+  "name": "Cosmic Shift",
+  "icon": "ability_hunter_displacement",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Shift the target ally out of the physical plane, granting improved stealth. Does not break on damage taken."
+ },
+ {
+  "name": "Cosmic Vengeance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Enables the use of Vengeance of Elune after blocking and dodging as well as parrying. Cannot occur more than once every 3 sec."
+ },
+ {
+  "name": "Crystal Shield",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Level 30 Passive Increases your Stamina by % and increases your spell damage by % of your attack power."
+ },
+ {
+  "name": "Cycle of the Moon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Every, you cycle between Full Moon and New Moon."
+ },
+ {
+  "name": "Deluge",
+  "icon": "spell_frost_summonwaterelemental",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Heals a friendly target for its value."
+ },
+ {
+  "name": "Drawstring of Elune",
+  "icon": "inv_bow_1h_auchindoun_d_01",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Huntress Shot and Starcall apply an additional stack of Scattered Stars and your ranged ability attack range is increased to 50 yds."
+ },
+ {
+  "name": "Eclipse of Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Drains % Maximum Mana Shrouds the area in lunar shadow, reducing enemy attack power by for as their fury wanes beneath the darkened sky."
+ },
+ {
+  "name": "Eclipsing Arrows",
+  "icon": "artifactability_balancedruid_newmoon",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Healing done by Hand of Elune or Touch of Moonlight now marks allies. Casting Huntress Shot now heals marked allies for its value."
+ },
+ {
+  "name": "Effervescence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Allies in your Pond gain an additional % healing from your Torrent."
+ },
+ {
+  "name": "Elemental Extension",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Casting Hand of Elune now increases the duration of Essence of the Moonwell by sec."
+ },
+ {
+  "name": "Elune's Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest",
+   "sentinel"
+  ],
+  "desc": "Increases party and raid member's melee and ranged haste by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Elune's Favor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Hand of Elune and Touch of Moonlight now heal for an additional its value% of their value over."
+ },
+ {
+  "name": "Elune's Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Critical heals with Hand of Elune now increase the target's armor by %."
+ },
+ {
+  "name": "Elune's Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Gain the blessing of a goddess, granting all party or raid members within yds % temporary maximum health."
+ },
+ {
+  "name": "Elune's Purification",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Call down Elune's cleansing waters on an ally, removing poison and disease effect from them."
+ },
+ {
+  "name": "Elune's Warding",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Avoiding an attack increases your maximum mana by %, stacking times."
+ },
+ {
+  "name": "Enchanted Aegis",
+  "icon": "spell_arcane_arcaneresilience",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Your successful blocks now have a % chance to critically block for twice the normal amount."
+ },
+ {
+  "name": "Enchanted Water",
+  "icon": "custom_t_frozenmoon_border",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases the healing of Touch of Moonlight by % and reduces spell pushback suffered from damaging attacks by %."
+ },
+ {
+  "name": "Enchanted Well",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cast time of Moonwell Splash by -0.3 sec."
+ },
+ {
+  "name": "Endless Sky",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases Stamina by % and maximum mana by %."
+ },
+ {
+  "name": "Explosive Moonlight",
+  "icon": "ability_skyreach_flash_bang",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Level 30 Passive Increases your ranged attack power by % of your Intellect and your hit rating by % of your Intellect."
+ },
+ {
+  "name": "Extinguisher",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Douse reduces Fire damage taken by % while active."
+ },
+ {
+  "name": "Eye of Elune",
+  "icon": "ability_druid_fortifiedbark",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases your critical strike chance by %."
+ },
+ {
+  "name": "Fan of Knives",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Applies 2 Scattered Star Per Hit Unleash hidden blades upon nearby enemies, dealing its value Arcane damage scaling with maximum mana. Consuming a Scattered Star reduces the remaining cooldown of Fan of Knives by"
+ },
+ {
+  "name": "Final Prayer",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Your Prayer of Elune now dispels additional effect."
+ },
+ {
+  "name": "Flash Flood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Consumes 4 Lunar Phase Overwhelms your target with powerful waters, performing a unique effect based on your active Tide. High Tide: Blasts your target dealing its value Frost damage and knocks them back they are affected by Geyser. Low Tide: Lau"
+ },
+ {
+  "name": "Flask of Moonwell Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases your swimming speed by %, and allows you to breathe underwater at all times."
+ },
+ {
+  "name": "Flow of Mana",
+  "icon": "spell_shadow_manafeed",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Intellect and Strength by %."
+ },
+ {
+  "name": "Flow of Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Reduces the cooldown of Way of the Naga by sec."
+ },
+ {
+  "name": "Flow of Waters",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects. In addition, increases your critical strike chance by %."
+ },
+ {
+  "name": "Full Cycle",
+  "icon": "ability_shaman_ancestralguidance",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Hand of Elune gains the following Full Moon and New Moon effects. Full Moon: Healing increased by %. New Moon: Cost reduced by %."
+ },
+ {
+  "name": "Fury of the Stars",
+  "icon": "inv_sword_156",
+  "meta": "Talent",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the damage of Astral Blade by %."
+ },
+ {
+  "name": "Galaxy",
+  "icon": "spell_holy_elunesgrace",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Scattered Stars can now stack additional times."
+ },
+ {
+  "name": "Geyser",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Summon a powerful surge of water beneath the target enemy, dealing its value Frost damage and launching them into the air. Focus: Party and raid members within yds of you take % reduced damage."
+ },
+ {
+  "name": "Glaive Tossing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the range of Warden's Blade by 20 yds."
+ },
+ {
+  "name": "Grace of the Moon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Allows party members within yds of you to walk on water. Lasts. Taking any damage cancels this effect."
+ },
+ {
+  "name": "Greater Arcane Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the target's party and raid members resistance to Arcane spells by."
+ },
+ {
+  "name": "Greater Celestial Mind",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Empowers your allies with galactic vigor, increasing their Intellect by."
+ },
+ {
+  "name": "Guarded by the Moon",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Level 20 Passive Consuming a Scattered Star increases your chance to block by %, stacking up to times."
+ },
+ {
+  "name": "Guided Blades",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Warden's Blade by -5 sec."
+ },
+ {
+  "name": "Halt",
+  "icon": "nhi_ghosthand_border",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Interrupt an enemy's current spellcast and prevents any spell in that school from being cast."
+ },
+ {
+  "name": "Hand of Elune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Drains % Maximum Mana Envelop an ally in Elune's grace, healing them for its value, scaling with maximum mana. Usable while moving."
+ },
+ {
+  "name": "Huntress Saber",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Mount a Huntress Saber, increasing your movement speed by %, making you immune to movement slowing effects. While on the saber, casting does not dismount you and you may cast offensive spells while moving."
+ },
+ {
+  "name": "Huntress Shot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Drains % Maximum Mana Applies 1 Scattered Star Fire an enchanted arrow, dealing % Ranged Weapon Damage plus its value as Arcane damage, increased further based on your maximum mana. Lunar Eclipse: Applies an additional Scattered Star."
+ },
+ {
+  "name": "Huntress Shot - Mana Cost %",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Huntress Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases your haste rating based on your Intellect."
+ },
+ {
+  "name": "Huntress of Elune",
+  "icon": "ability_hunter_piercingshots",
+  "meta": "Talent",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases your damage dealt by % on enemies further than 30 yds."
+ },
+ {
+  "name": "Improved Eclipse of Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the effectiveness of Eclipse of Fury by %."
+ },
+ {
+  "name": "Improved Torrent",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases the healing of Torrent and damage dealt by Shark Attack by %."
+ },
+ {
+  "name": "Infused Aegis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drains % Maximum Mana Instantly counterattack any enemy that strikes you from the front in melee for Arcane damage, lasting. Can only occur once per sec per enemy. Shares a cooldown with other Aegis spells."
+ },
+ {
+  "name": "Liquid Space",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Reduces the cast time of Water Bolt by 0.5 sec and increases its damage by %."
+ },
+ {
+  "name": "Lo'sho Amplification",
+  "icon": "inv_weapon_bow_39",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Level 50 Passive Scattered Stars now burn enemy mana equal to % of the damage dealt."
+ },
+ {
+  "name": "Lunar Anomaly",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the damage of Lunar Lance by %."
+ },
+ {
+  "name": "Lunar Authority",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Your presence intimidates enemies, increasing your threat generated by %, doubled for Arcane spells and abilities."
+ },
+ {
+  "name": "Lunar Blades",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Vengeance of Elune ability now becomes available after Blocking or Dodging an attack, as well as Parrying. This effect cannot occur more than once every 3 sec."
+ },
+ {
+  "name": "Lunar Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases your healing done by %, plus an additional % on Poisoned or Diseased targets."
+ },
+ {
+  "name": "Lunar Cascade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Critical strikes with Moonflow and Prayer of Elune now apply Eclipsing Arrows to the target. Casting Huntress Shot heals marked allies for its value."
+ },
+ {
+  "name": "Lunar Combatant",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Level 40 Passive Increases the effectiveness of consuming Scattered Stars by %."
+ },
+ {
+  "name": "Lunar Conquest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Celestial Cleave a % chance to apply Scattered Stars to affected enemies."
+ },
+ {
+  "name": "Lunar Eclipse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Activate this to cause your next Lunar Phase spell to trigger its Lunar effect. Can be used while casting or channeling another spell."
+ },
+ {
+  "name": "Lunar Focus",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases your movement speed by %."
+ },
+ {
+  "name": "Lunar Lance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Consumes Scattered Stars Unleash a lunar lance on an enemy, dealing its value Arcane damage plus its value every seconds."
+ },
+ {
+  "name": "Lunar Phase",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Passively gain 1 stack of Lunar Phase every sec."
+ },
+ {
+  "name": "Lunar Prophecy",
+  "icon": "ability_druid_lunarguidance",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Casting Moon Arrow now reduces the cooldown of Prayer of Elune by sec."
+ },
+ {
+  "name": "Lunar Resplendence",
+  "icon": "achievement_zone_newshadowmoonvalley",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest",
+   "sentinel"
+  ],
+  "desc": "Increases your healing done to allies below 20% health by %."
+ },
+ {
+  "name": "Lunar Splinters",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases the damage of consuming Scattered Stars by %."
+ },
+ {
+  "name": "Lunar Storm",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Blast an enemy target with a pillar of magic, calling down a Lunar Storm over the their location that inflicts Arcane Damage to enemies in the area every sec."
+ },
+ {
+  "name": "Magic Mark",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Level 40 Passive Scattered Stars now cause the enemy to take % increased Arcane Damage for each stack."
+ },
+ {
+  "name": "Maiev's Discipline",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Level 20 Passive Increases your critical strike rating by % of your Intellect and your expertise by % of your Intellect."
+ },
+ {
+  "name": "Mana-Charged",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the damage of the Star Sear effect of Warden's Blade by %."
+ },
+ {
+  "name": "Mending Surge",
+  "icon": "achievement_dungeon_throne_of_the_tides",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Reduces the cooldown of Stellar Convergence by sec."
+ },
+ {
+  "name": "Moon Arrow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Fire an enchanted arrow, dealing its value Physical damage and restoring % of your maximum mana. Scales with ranged attack power, spell power and Intellect."
+ },
+ {
+  "name": "Moon Gazing",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Level 40 Passive Your critical strikes now generate a stack of Lunar Phase. Can only occur once per sec."
+ },
+ {
+  "name": "Moon Guard",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Level 10 Passive You now gain Intellect equal to your Strength."
+ },
+ {
+  "name": "Moon Priest",
+  "icon": "spell_holy_rapture",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Level 10 Passive Your Huntress Shot now has a Lunar Eclipse effect. Huntress Shot: Applies 2 additional Scattered Stars."
+ },
+ {
+  "name": "Moon Priest - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Level 15 Passive Increases your healing spell power by % of your Intellect and increases hit rating by % of your Intellect."
+ },
+ {
+  "name": "Moon Priest - Level 20 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Level 20 Passive Placeholder"
+ },
+ {
+  "name": "Moon Touch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases all healing done by %."
+ },
+ {
+  "name": "Moonblade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Devastate an enemy, dealing % Weapon Damage plus its value Arcane damage and regenerating 15% missing mana."
+ },
+ {
+  "name": "Moonblessed Aspects",
+  "icon": "inv_shoulder_leather_raiddruid_q_01",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness by % and chance to trigger your Aspects by %."
+ },
+ {
+  "name": "Moonchaser Kodo",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Mount a Moonchaser Kodo, increasing your movement speed by %, making you immune to movement slowing effects, and protecting your movement speed from being reduced below %. While on the kodo, casting does not dismount you and you may cast offensive spells while moving. Can only be used outdoors"
+ },
+ {
+  "name": "Moonflow",
+  "icon": "ability_monk_essencefont",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Send forth moonwell waters to all nearby allies, healing them for its value. Lunar Eclipse: Triggers with no cooldown and consumes Scattered Stars from enemies you are in combat with within yds."
+ },
+ {
+  "name": "Moonlight Ripple",
+  "icon": "ability_socererking_arcanemines",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the mana cost of your Aegis spells by %."
+ },
+ {
+  "name": "Moonlit Bulwark",
+  "icon": "inv_shoulder_leather_raiddruid_q_01",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Grants you a shield for an amount equal to your maximum mana. Usable while stunned."
+ },
+ {
+  "name": "Moonlit Impaler",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases your Arcane damage by % and your hit chance by %."
+ },
+ {
+  "name": "Moonlit Lancer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Lunar Lance now deals additional Arcane damage over sec."
+ },
+ {
+  "name": "Moonlit Slumber",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Put an enemy to sleep for (6 sec vs players). Damage dealt will end the effect. While sleeping, you drain its value mana from them every sec."
+ },
+ {
+  "name": "Moonsteel Weapons",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Your Melee and Ranged Auto Attacks now deal an additional Arcane Damage. This effect cannot occur more than once every 1.5 sec."
+ },
+ {
+  "name": "Moonstone",
+  "icon": "inv_holiday_hearthstonelunarfestival",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the damage of Lunar Lance by %."
+ },
+ {
+  "name": "Moonstone Hilt",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases your parry chance by % and block value by %."
+ },
+ {
+  "name": "Moonwalk",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your movement speed by % at night."
+ },
+ {
+  "name": "Moonwater Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Blesses a friendly target, instantly healing them for its value, increasing their Armor by % and reducing the cost of their abilities by %. All effects are increased by % for each Lunar Phase stack you have, and will remove all stacks on use."
+ },
+ {
+  "name": "Moonwell",
+  "icon": "spell_druid_ursolsvortex",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Creates a zone blessed by moonwell waters for at the target location. All allied players standing within the well receive % more healing, and their mana regeneration is increased by %. Full Moon: This is instant. New Moon: Triggers a sec reduced cooldown."
+ },
+ {
+  "name": "Moonwell Acuity",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Level 30 Passive The Lunar Eclipse effect of Moonwell Splash now causes it to affect targets."
+ },
+ {
+  "name": "Moonwell Blessing",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases your chance to resist poison and disease effects by %."
+ },
+ {
+  "name": "Moonwell Dipped Arrows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Causes Moon Arrow to restore % of your Maximum Mana and increase the duration of Lunar Resplendence by sec."
+ },
+ {
+  "name": "Moonwell Splash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Envelop an ally in moonwell waters, healing them for its value. Lunar Eclipse: This spell is instant and heals the ally for an additional % of their maximum health."
+ },
+ {
+  "name": "Moonwell Tide",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Heals allies and damages enemies within yds."
+ },
+ {
+  "name": "Moonwell Tides",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Vial of Moonwell Water now additionally heals you equal to 25% of your current mana."
+ },
+ {
+  "name": "Mu'sha's Resilience",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces Arcane damage taken by %."
+ },
+ {
+  "name": "Nebula",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Blocking enemy attacks now applies Scattered Stars to the attacker."
+ },
+ {
+  "name": "Night Hunter",
+  "icon": "_auracloak_shadow",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Reduces the cooldown of Huntress Saber by sec."
+ },
+ {
+  "name": "Nightborne Armaments",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While below 35% health, your damage taken is reduced by -10%."
+ },
+ {
+  "name": "Phase Guider",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases the bonus healing scaling of Moonwell Splash and the healing done through Aspect of the Goddess by %."
+ },
+ {
+  "name": "Pond",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Creates a pool of healing water at the target location for that heals all allies within it for its value every sec. Focus: Increases Pond's duration by % and tick rate by %."
+ },
+ {
+  "name": "Pouch of Stardust",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the critical strike chance and critical damage of consumed Scattered Stars by 10%."
+ },
+ {
+  "name": "Prayer of Elune",
+  "icon": "artifactability_balancedruid_fullmoon",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Say a prayer to Elune, healing up to allies within yds for its value, and dispel harmful magic effect from them."
+ },
+ {
+  "name": "Protected by the Stars",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Armor by % of your Intellect and reduces the duration of stuns and disarms against you by %."
+ },
+ {
+  "name": "Pulsar Explosion",
+  "icon": "inv_sword_121",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the damage of Celestial Cleave by % and allows it to affect additional enemies."
+ },
+ {
+  "name": "Pulverizing Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Casting Warden's Blade now grants you Pulverizing Blade."
+ },
+ {
+  "name": "Rain of Comets",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Calls down a rain of comets upon the target area, inflicting its value Arcane damage to enemies in the area every sec."
+ },
+ {
+  "name": "Rally The Sentinels",
+  "icon": "inv_staff_2h_warfrontsnightelf_d_01",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Sentinel Glaive now restores % of your maximum mana and applies a Scattered Star to the enemy."
+ },
+ {
+  "name": "Rapid Cycle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Lunar Phase now increases your ranged haste by % per stack."
+ },
+ {
+  "name": "Rejuvenating Arrows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "While Lunar Resplendence is active, Moon Arrow restores % mana and extends Lunar Resplendence by sec."
+ },
+ {
+  "name": "Reverse Magic",
+  "icon": "spell_deathknight_spelldeflection",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reverse the next spell cast on you within, reflecting it back to its caster. Reversing a spell in this way drains its value of the attacker's mana."
+ },
+ {
+  "name": "Rippling Moonwater",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Your healing effects now apply Moonwater to the target, stacking times."
+ },
+ {
+  "name": "Scattered Stars",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Can be consumed by spells to deal additional Arcane Damage. and increases your Arcane Damage dealt by %. Lasts, stacking times."
+ },
+ {
+  "name": "Second Moon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Every 10th Scattered Star consumed now launches a comet at an enemy dealing its value Arcane damage to enemies within yds."
+ },
+ {
+  "name": "Sentinel - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Level 15 Passive Increases your ranged attack power by % of your Intellect and your hit rating by % of your Intellect."
+ },
+ {
+  "name": "Sentinel Glaive",
+  "icon": "inv_glaive_1h_tyrande_d_01",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Throw a sentinel glaive at an enemy, dealing Weapon Damage plus its value as Arcane damage, increased further based on your maximum mana, and increasing their resource costs by %."
+ },
+ {
+  "name": "Sentinel's Focus",
+  "icon": "inv_bow_1h_artifactwindrunner_d_03",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Starfire Shot now has a % chance to fire a free Huntress Shot at the target."
+ },
+ {
+  "name": "Shadowsong's Mandate",
+  "icon": "inv_helmet_leather_raiddruid_q_01",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Increases your critical strike chance by % and movement speed by %. While active, your damaging critical strikes have a % chance to trigger Warden's Blade."
+ },
+ {
+  "name": "Shark Attack",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Ticks of Torrent and Slipstream now cause sharks to attack enemies in their area of effect for its value Frost damage. Learning this gives Torrent a sec cooldown."
+ },
+ {
+  "name": "Shattered Stars",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases the range of Starshatter by yds."
+ },
+ {
+  "name": "Shooting Star",
+  "icon": "artifactability_balancedruid_moonandstars",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Sprint forward with astral magic at your feet, increasing your movement speed by %. While active, you cannot be slowed and cannot stop moving."
+ },
+ {
+  "name": "Shrouded Stars",
+  "icon": "spell_holy_elunesgrace",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Reduces damage taken by all party and raid members by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Silvercurrent",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Unleashes 1 Scattered Star Drains % Maximum Mana Douse an enemy with enchanted water. After, they will take its value Spellfrost Damage and up to 8 enemies around them take its value Spellfrost Damage, increased further by your maximum mana."
+ },
+ {
+  "name": "Siren's Song",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Seduces the target, preventing all actions for up to (8 sec vs players). Any damage caused has a high chance to end the effect. This is a channeled spell."
+ },
+ {
+  "name": "Slipstream",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "You liquify your physical form into a pool of healing water, making you unable to act but healing nearby allies for its value every sec. Each tick consumes 1 stack of Bathe on affected allies to do additional healing for each stack. This effect also increases your movement speed by % and"
+ },
+ {
+  "name": "Star Citizen",
+  "icon": "spell_arcane_arcanetactics",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases effectiveness of Celestial Mind by %."
+ },
+ {
+  "name": "Star Pupil",
+  "icon": "spell_arcane_starfire",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Your damaging critical strikes now grant you a stack of Star Pupil."
+ },
+ {
+  "name": "Star-Charged",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Aspects by -5 sec."
+ },
+ {
+  "name": "Star-Guided Arrows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Damage dealt by Scattered Stars now has a % chance to refresh a charge of Trueshot."
+ },
+ {
+  "name": "Starbarian",
+  "icon": "inv_axe_1h_pandaraid_d_01",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your haste by %."
+ },
+ {
+  "name": "Starbound",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases your healing done and received by %, doubled while below 20% health."
+ },
+ {
+  "name": "Starburst",
+  "icon": "inv_arcane_orb",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Applies 1 Scattered Star Per HitSmash up to 8 enemies, dealing arcane AP Arcane damage, scaling with block value and maximum mana and reducing their attack speed by 20% for 10 seconds.Consuming a Scattered Star reduces the remaining cooldown of Starburst by 2 sec."
+ },
+ {
+  "name": "Starburst Invigoration",
+  "icon": "spell_shadow_manaburn",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases your Energy regeneration by %."
+ },
+ {
+  "name": "Starcall",
+  "icon": "inv_archaeology_70_starlightbeacon",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Blast the target enemy and all enemies near them with lunar fire that deals its value Arcane damage, applying Scattered Stars. Consuming a Scattered Star reduces the remaining cooldown by sec."
+ },
+ {
+  "name": "Starcrash",
+  "icon": "spell_mage_supernova",
+  "meta": "Talent",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases the damage dealt by consuming Scattered Stars by %."
+ },
+ {
+  "name": "Starfire Barrage",
+  "icon": "skill_icon_skill3_border",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Every 3rd Starfire Shot transforms Starfire Shot into Starfire Barrage."
+ },
+ {
+  "name": "Starfire Shot",
+  "icon": "_arcaneshot_lightblue",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Consumes Scattered Stars Fire an enchanted arrow, dealing % Ranged Weapon Damage plus its value Arcane damage, scaling further based on your maximum mana."
+ },
+ {
+  "name": "Starfury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Increases your critical damage by %."
+ },
+ {
+  "name": "Starlight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Summons a beam of starlight for upon your target, blasting enemies for its value Arcane Damage every sec and slowing movement speed of enemies who pass through it by %."
+ },
+ {
+  "name": "Starlight Arrows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Enemies standing in your Rain of Comets take % increased damage from your ranged weapon abilities."
+ },
+ {
+  "name": "Starlight Duelist",
+  "icon": "inv_sword_1h_artifactfelomelorn_d_06",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Blocking or parrying an attack now increases your damage dealt by %."
+ },
+ {
+  "name": "Starlord's Mandate",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases the damage dealt by your Celestial Strike ability by %, and reduces its Energy Cost by %."
+ },
+ {
+  "name": "Starshatter",
+  "icon": "sha_ability_mage_firestarter_nightborne",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Call down the power of the stars, sending forth Elune’s astral light in a line outward from you, stunning enemies struck for and applying a Scattered Star."
+ },
+ {
+  "name": "Starslip",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Guided Reflexes now removes any active slow or root effects, and make you immune to such effects."
+ },
+ {
+  "name": "Starsunder",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Drains % Maximum Mana Applies 1 Scattered Star Strike an enemy for % Weapon Damage plus its value Arcane Damage, increased further based on your maximum mana."
+ },
+ {
+  "name": "Starsweep",
+  "icon": "inv_sword_1h_warfrontsnightelf_d_01",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Consumes Scattered Stars Sweep an enemy and all nearby enemies with your astral blade, dealing its value Arcane damage. Every Scattered Star consumed reduces the cooldown of this spell by sec."
+ },
+ {
+  "name": "Starsweeper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Reduces all damage you take by %. While active, when you Parry an attack you will deal % Weapon Damage to all nearby enemies, and reduce the remaining cooldown of this ability by sec."
+ },
+ {
+  "name": "Stellar Amplification",
+  "icon": "ability_demonhunter_soulcleave4",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Dealing damage with Scattered Stars now has a % chance to make your next Astral Blade free of cost."
+ },
+ {
+  "name": "Stellar Convergence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Applies Eclipsing Arrows to all party and raid members within yds."
+ },
+ {
+  "name": "Stellar Drift",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Seize the tide of the cosmos, slowing the movement speed of all nearby enemies by %. After, you knock back all nearby enemies a great distance."
+ },
+ {
+  "name": "Surge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "You create a wave and ride it forward up to yds. Focus: Reduces all damage you take by % for and causes enemies the wave passes through to be knocked away."
+ },
+ {
+  "name": "Teachings of Elune",
+  "icon": "inv_fabric_moonrag_02",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Increases the healing of Hand of Elune and Moonflow by %."
+ },
+ {
+  "name": "The Stars Align",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum mana by %."
+ },
+ {
+  "name": "Tidal Rebirth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Instantly brings a dead ally back to life with health and mana. This spell is usable in combat."
+ },
+ {
+  "name": "Tide Lash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "You slash the enemy with a swift stream of water, inflicting its value Frost damage plus an additional its value every sec. Focus: Frost damage taken increased by %."
+ },
+ {
+  "name": "Tideturner",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Reduces the cast time of Deluge by and increases its healing done by %."
+ },
+ {
+  "name": "Torrent",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "You channel a torrent of healing water in a yd cone in front of you, healing allies for its value every sec."
+ },
+ {
+  "name": "Touch of Moonlight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drains % Maximum Mana Quickly heal an ally with Elune's touch for its value, scaling with maximum mana. Lunar Eclipse: This spell is instant and refunds its mana cost and 1 stack of Lunar Phase."
+ },
+ {
+  "name": "Touch of Moonlight Cost %",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "True Aim",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Reduces the cost of Moon Arrow."
+ },
+ {
+  "name": "Trueshot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "sentinel"
+  ],
+  "desc": "Drains % Maximum Mana 2 Charges, 18 sec recharge Consumes Scattered Stars Fire at your target and enemies near them, dealing Ranged Weapon Damage plus its value Arcane damage, scaling with maximum mana."
+ },
+ {
+  "name": "Twinkle Toes",
+  "icon": "rogue_burstofspeed",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the movement speed granted by Shooting Star by %."
+ },
+ {
+  "name": "Tyrande's Guidance",
+  "icon": "inv_weapon_shortblade_79",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard",
+   "sentinel"
+  ],
+  "desc": "Increases the critical strike chance of your Starburst by %."
+ },
+ {
+  "name": "Umbral Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Consumes Scattered Stars Slash an enemy, dealing its value Arcane damage to them and nearby enemies. Each additional enemy beyond the first takes its value% less damage."
+ },
+ {
+  "name": "Universal Power",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Aspect of the Cosmos now stacks 1 additional time."
+ },
+ {
+  "name": "Unleashed Wisps",
+  "icon": "spell_frost_wisp",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Dealing damage with Scattered Stars has a % chance to launch a Wisp at your target, dealing its value Arcane damage to nearby enemies."
+ },
+ {
+  "name": "Vanguard's Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Blocking an attack or landing an auto attack now grants a stack of Vanguard, stacking times."
+ },
+ {
+  "name": "Vengeance of Elune",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Causes Arcane damage to up to enemies within a few yards of the target, scaling with attack power and Intellect. Can only be used after parrying an attack. This attack cannot be avoided."
+ },
+ {
+  "name": "Vial of Moonwell Water",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Drink from your enchanted moonwell vial, instantly removing all crowd control effects and making you immune to them. Usable while stunned, feared, or polymorphed."
+ },
+ {
+  "name": "Vigil of the Moon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Call one of Elune's watchers down to an area, revealing stealthed and invisible enemies."
+ },
+ {
+  "name": "Vigil of the Watchers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "warden"
+  ],
+  "desc": "Increases critical strike chance of all party and raid members by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Virtue",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases your Attack Power by % of your Agility."
+ },
+ {
+  "name": "Warden Training",
+  "icon": "inv_pet_wardenowl",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard",
+   "warden"
+  ],
+  "desc": "Reduces the cooldown of Warden's Blade by %."
+ },
+ {
+  "name": "Warden's Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Attack with celestial fervor, dealing % Weapon Damage and triggering a unique effect based on your active Aspect."
+ },
+ {
+  "name": "Warden's Fury",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Damage dealt by Umbral Blade now tethers enemies to you for sec. the tether is broken, they are gripped back towards you, taking its value Arcane Damage."
+ },
+ {
+  "name": "Warrior of Elune",
+  "icon": "inv_polearm_2h_kultirasquest_b_01",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Increases your melee haste by % and movement speed by %. Movement speed granted by this talent stacks with Moonwalk."
+ },
+ {
+  "name": "Way of the Goddess",
+  "icon": "_diablo3_arrowrain_mage",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of harmful magic effects on you by %."
+ },
+ {
+  "name": "Wrath of Elune",
+  "icon": "spell_fire_frostresistancetotem",
+  "meta": "Ability",
+  "specs": [
+   "moon-guard"
+  ],
+  "desc": "Reduces the cooldown of Sentinel Glaive by sec."
+ },
+ {
+  "name": "Wrath of Vashj",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "moon-priest"
+  ],
+  "desc": "Gives Moon Arrow a % chance to make your next Water Bolt instant."
+ }
+]
