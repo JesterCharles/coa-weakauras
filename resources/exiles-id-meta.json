@@ -1,4 +1,12 @@
 {
+ "92152": {
+  "name": "Frost Glyph",
+  "icon": "nhi_arcane_scroll_border"
+ },
+ "92153": {
+  "name": "Fists of Power",
+  "icon": null
+ },
  "300582": {
   "name": "Magic Etchings",
   "icon": "_runesauvagepourpre"
@@ -267,6 +275,10 @@
   "name": "Hoarfrost",
   "icon": "nhi_iceempower_border"
  },
+ "801105": {
+  "name": "Frost Prison",
+  "icon": "novart_magicspell_(74)_border"
+ },
  "801106": {
   "name": "Runic Tattoos: Fire",
   "icon": "tattoo_fire_attunement"
@@ -358,13 +370,5 @@
  "887090": {
   "name": "CoA Aura - Runemaster - Riftblade",
   "icon": "ability_racial_spatialrift"
- },
- "92152": {
-  "name": "Frost Glyph",
-  "icon": "nhi_arcane_scroll_border"
- },
- "92153": {
-  "name": "Fists of Power",
-  "icon": null
  }
 }

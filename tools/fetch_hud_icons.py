@@ -25,6 +25,7 @@ import json
 import os
 import subprocess
 import sys
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
 SP = os.path.dirname(os.path.abspath(__file__))
@@ -75,6 +76,29 @@ def fetch(name):
         if r.stdout.strip() == "200" and os.path.exists(dst) \
                 and os.path.getsize(dst) > 500:
             return name, True
+    # i.exil.es last: it is the only host that serves the client's custom CoA
+    # art (wd_* idols, weapon_engraving_*, novart_*) -- the same icons-clean
+    # store whose names the spell pages publish in og:image. It serves PNG, so
+    # the download converts to the .jpg the site references (sips ships with
+    # macOS, which is where every build of this repo has ever run). Discovered
+    # 2026-08-08; before this, "db.ascension.gg is the ONLY art source" was
+    # true and these textures were permanent misses.
+    png = dst[:-4] + ".tmp.png"
+    r = subprocess.run(
+        ["curl", "-sS", "--max-time", "15", "-o", png, "-w", "%{http_code}",
+         "https://i.exil.es/coa/static/icons-clean/"
+         + urllib.parse.quote(name) + ".png"],
+        capture_output=True, text=True)
+    if r.stdout.strip() == "200" and os.path.exists(png) \
+            and os.path.getsize(png) > 500:
+        c = subprocess.run(["sips", "-s", "format", "jpeg", png, "--out", dst],
+                           capture_output=True)
+        os.remove(png)
+        if c.returncode == 0 and os.path.exists(dst) \
+                and os.path.getsize(dst) > 500:
+            return name, True
+    if os.path.exists(png):
+        os.remove(png)
     # Leave nothing behind on a miss: a 0-byte or error-page file on disk would
     # be served as a broken image and would also defeat the cache check above.
     if os.path.exists(dst):

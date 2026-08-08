@@ -58,14 +58,11 @@ VERSION = "0.1"
 # Hasten; do not "fix" these with invented texture names.
 FALLBACK = {}
 # db.ascension.gg serves no art for these names' resolved ids (build survey,
-# 2026-08-08). Deliberately NOT given art -- they draw from the trigger in
-# game. Listed so a future run does not re-litigate them.
-NO_UPSTREAM_ART = {
-    "Exposed Flesh", "Widow's Kiss", "Beetle Form", "Beetle Pheromones",
-    "Greater Beetle Pheromones", "Carapace Crash", "Hivebreak",
-    "Serpent's Fang", "Shadra's Balm", "Miasma", "Sepsis Bloom", "Brood Trap",
-    "Fungify", "Spindlebind", "Venomwing Form",
-}
+# 2026-08-08). RESOLVED the same day: db.exil.es spell PAGES serve the
+# client's own DBC texture as the og:image icons-clean name, and every name
+# on the old list resolved through it -- the textures sit in
+# icon-meta-venomancer.json keyed by the trigger's id. Nothing left artless.
+NO_UPSTREAM_ART = set()
 # ONLY deliberate choices belong here: an entry overrides the CLIENT's own art
 # for the spell. None yet.
 OVERRIDE = {}

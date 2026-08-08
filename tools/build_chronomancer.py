@@ -66,16 +66,19 @@ OVERRIDE = {
 }
 
 # Art that db.ascension.gg does not have. It serves a questionmark on these
-# spells' own pages, so the SCRAPE has nothing -- but the CLIENT does, and its
-# texture is the right one. Hasten is the proof: db.ascension has no art, the
-# game draws a boot, and a placeholder picked from the class's icon pool drew a
-# clock instead. So these are deliberately NOT given art here; they are left to
-# resolve from the trigger. Listed only so a future run does not "fix" them.
-NO_UPSTREAM_ART = {
-    "Hasten", "Unearth", "Fray Magic", "Reflection", "Chronobeam", "Chronurgy",
-    "Wand of Time", "Nozdormu's Wisdom", "Greater Nozdormu's Wisdom",
-    "Chromie's Wisdom", "Greater Chromie's Wisdom",
-}
+# spells' own pages -- but the CLIENT does, and its texture is the right one.
+# Hasten is the proof: db.ascension has no art, the game draws a boot, and a
+# placeholder picked from the class's icon pool drew a clock instead.
+#
+# RESOLVED 2026-08-08, all but Fray Magic: db.exil.es spell PAGES serve the
+# client's own DBC texture as the og:image icons-clean name (the earlier "no
+# icon field" finding was about its JSON API). Those textures now sit in
+# icon-meta-chronomancer.json keyed by the id the trigger uses (Hasten 801304
+# -> nhi_magicspeed_border, the boot), so displayIcon matches the client
+# instead of guessing at it. Fray Magic (800053) stays: its exil.es page has
+# no og:image and db.ascension answers questionmark, so it still resolves
+# from the trigger alone.
+NO_UPSTREAM_ART = {"Fray Magic"}
 # Not tooltip-verified, but db.exil.es points at a spell db.ascension.gg does
 # not mark as an ability while ascension.gg has a clear Ability/Talent entry.
 # Replace with a tooltip id when one is captured.
