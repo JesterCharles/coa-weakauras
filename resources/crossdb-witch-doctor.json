@@ -1,0 +1,918 @@
+{
+ "_class": "witch-doctor",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "A Price To Pay": {
+   "id": 705948,
+   "state": "record"
+  },
+  "Agony": {
+   "id": 705919,
+   "state": "record"
+  },
+  "Allcure Elixir": {
+   "id": 804049,
+   "state": "record"
+  },
+  "Amphibimorph": {
+   "id": 500952,
+   "state": "record"
+  },
+  "Arcane Brew": {
+   "id": 801689,
+   "state": "record"
+  },
+  "Bad Juju": {
+   "id": 802087,
+   "state": "record"
+  },
+  "Bad Mojo": {
+   "id": 705875,
+   "state": "record"
+  },
+  "Banners of Empire": {
+   "id": 705914,
+   "state": "record"
+  },
+  "Base: Beast Blood": {
+   "id": 547573,
+   "state": "record"
+  },
+  "Base: Crystal Water": {
+   "id": 500962,
+   "state": "record"
+  },
+  "Berserking": {
+   "id": 705925,
+   "state": "record"
+  },
+  "Bethekk's Fury": {
+   "id": 804621,
+   "state": "record"
+  },
+  "Big Bad Voodoo": {
+   "id": 802719,
+   "state": "record"
+  },
+  "Bind Avatar": {
+   "id": 801583,
+   "state": "record"
+  },
+  "Brew Cocktail": {
+   "id": 807070,
+   "state": "record"
+  },
+  "Brew Lobber": {
+   "id": 705867,
+   "state": "record"
+  },
+  "Brew Splash": {
+   "id": 300661,
+   "state": "record"
+  },
+  "Brew Stew": {
+   "id": 807050,
+   "state": "record"
+  },
+  "Brewmaster": {
+   "id": 704512,
+   "state": "record"
+  },
+  "Bwonsamdi's Edge": {
+   "id": 705884,
+   "state": "record"
+  },
+  "Bwonsamdi's Ghost": {
+   "id": 705886,
+   "state": "record"
+  },
+  "Call Avatar: Devilsaur": {
+   "id": 801585,
+   "state": "record"
+  },
+  "Call Avatar: Pterrordax": {
+   "id": 801609,
+   "state": "record"
+  },
+  "Call Avatar: Stegodon": {
+   "id": 801584,
+   "state": "record"
+  },
+  "Call of Sseratus": {
+   "id": 681222,
+   "state": "record"
+  },
+  "Cauldron": {
+   "id": 561074,
+   "state": "record"
+  },
+  "Cauldron Brewer": {
+   "id": 92085,
+   "state": "record"
+  },
+  "Chosen One": {
+   "id": 503742,
+   "state": "record"
+  },
+  "Chosen of Hakkar": {
+   "id": 503778,
+   "state": "record"
+  },
+  "Cleansing Idol": {
+   "id": 504840,
+   "state": "record"
+  },
+  "Concoct Rejuvenating Mojo": {
+   "id": 572747,
+   "state": "record"
+  },
+  "Cursed Effigy": {
+   "id": 506820,
+   "state": "record"
+  },
+  "Cursed Weapons": {
+   "id": 705940,
+   "state": "record"
+  },
+  "Da True Voodoo Shuffle": {
+   "id": 705853,
+   "state": "record"
+  },
+  "Dambala's Rage": {
+   "id": 802264,
+   "state": "record"
+  },
+  "Dance of the Loa": {
+   "id": 801697,
+   "state": "record"
+  },
+  "Dark Effigy": {
+   "id": 707331,
+   "state": "record"
+  },
+  "Dark Idol": {
+   "id": 505195,
+   "state": "record"
+  },
+  "Dark Loa's Blessing": {
+   "id": 560545,
+   "state": "record"
+  },
+  "Dark Magic": {
+   "id": 504604,
+   "state": "record"
+  },
+  "Darkspear Drums": {
+   "id": 706380,
+   "state": "record"
+  },
+  "Darkspear Poison": {
+   "id": 705927,
+   "state": "record"
+  },
+  "Darkspear Traditionalist": {
+   "id": 503707,
+   "state": "record"
+  },
+  "Darkwander": {
+   "id": 503599,
+   "state": "record"
+  },
+  "De Other Side": {
+   "id": 570066,
+   "state": "record"
+  },
+  "Death Draught": {
+   "id": 602220,
+   "state": "record"
+  },
+  "Deathbinder": {
+   "id": 705881,
+   "state": "record"
+  },
+  "Devotion of Bwonsamdi": {
+   "id": 570156,
+   "state": "record"
+  },
+  "Devotion of Gonk": {
+   "id": 302536,
+   "state": "record"
+  },
+  "Disciple of Sseratus": {
+   "id": 300660,
+   "state": "record"
+  },
+  "Drakkari Barrier": {
+   "id": 500963,
+   "state": "record"
+  },
+  "Eye of Kimbul": {
+   "id": 503714,
+   "state": "record"
+  },
+  "Fang of Hir'eek": {
+   "id": 501162,
+   "state": "record"
+  },
+  "Feast of the Loa": {
+   "id": 807688,
+   "state": "record"
+  },
+  "Fool's Play": {
+   "id": 681007,
+   "state": "record"
+  },
+  "Frenzied Spirits": {
+   "id": 560748,
+   "state": "record"
+  },
+  "Fresh Ingredients": {
+   "id": 705855,
+   "state": "record"
+  },
+  "Frog Bones": {
+   "id": 802971,
+   "state": "record"
+  },
+  "Gift of the Loa": {
+   "id": 501089,
+   "state": "no-record"
+  },
+  "Gonk's Blessing": {
+   "id": 806469,
+   "state": "record"
+  },
+  "Gonk's Favor": {
+   "id": 705934,
+   "state": "record"
+  },
+  "Graven Effigy": {
+   "id": 504767,
+   "state": "record"
+  },
+  "Greater Resourceful Wuju": {
+   "id": 800195,
+   "state": "record"
+  },
+  "Greater Spirit Wuju": {
+   "id": 680872,
+   "state": "record"
+  },
+  "Hastened": {
+   "id": 705899,
+   "state": "record"
+  },
+  "Healing Ward": {
+   "id": 500955,
+   "state": "record"
+  },
+  "Herb Pouch": {
+   "id": 705893,
+   "state": "record"
+  },
+  "Hex Doctor": {
+   "id": 500054,
+   "state": "record"
+  },
+  "Hex of Death": {
+   "id": 706557,
+   "state": "record"
+  },
+  "Hex of Malice": {
+   "id": 801693,
+   "state": "record"
+  },
+  "Hexblade": {
+   "id": 802093,
+   "state": "record"
+  },
+  "Hexbreak": {
+   "id": 806240,
+   "state": "record"
+  },
+  "Hexfire": {
+   "id": 807042,
+   "state": "record"
+  },
+  "Hexfire Adept": {
+   "id": 704500,
+   "state": "record"
+  },
+  "Hexing Effigy": {
+   "id": 504789,
+   "state": "record"
+  },
+  "Hexing Strike": {
+   "id": 501220,
+   "state": "record"
+  },
+  "Hexplosion": {
+   "id": 704495,
+   "state": "record"
+  },
+  "Hir'eek's Jinx": {
+   "id": 803325,
+   "state": "record"
+  },
+  "Hollow Spirit": {
+   "id": 503706,
+   "state": "record"
+  },
+  "Improved Jinxes": {
+   "id": 804719,
+   "state": "record"
+  },
+  "Improved Juju Burst": {
+   "id": 705888,
+   "state": "record"
+  },
+  "Improved Moves": {
+   "id": 705908,
+   "state": "record"
+  },
+  "Improved Revitalize": {
+   "id": 705852,
+   "state": "record"
+  },
+  "Improved Spirit Shock": {
+   "id": 705874,
+   "state": "record"
+  },
+  "Ingredient: Bloodthistle": {
+   "id": 801664,
+   "state": "record"
+  },
+  "Ingredient: Fish Oil": {
+   "id": 801662,
+   "state": "record"
+  },
+  "Ingredient: Frog Bones": {
+   "id": 801663,
+   "state": "record"
+  },
+  "Ingredient: Jungle Shrooms": {
+   "id": 801660,
+   "state": "record"
+  },
+  "Jani's Intent": {
+   "id": 501159,
+   "state": "record"
+  },
+  "Jinxweaver": {
+   "id": 705889,
+   "state": "record"
+  },
+  "Juju": {
+   "id": 705873,
+   "state": "record"
+  },
+  "Juju Injection": {
+   "id": 503608,
+   "state": "record"
+  },
+  "Jungle Booms": {
+   "id": 705859,
+   "state": "record"
+  },
+  "Jungle Fever": {
+   "id": 804767,
+   "state": "record"
+  },
+  "Jungle Idol": {
+   "id": 505212,
+   "state": "record"
+  },
+  "Jungle Shrooms": {
+   "id": 802972,
+   "state": "record"
+  },
+  "Krag'wa's Blessing": {
+   "id": 807855,
+   "state": "record"
+  },
+  "Legacy of Zandalar": {
+   "id": 705849,
+   "state": "record"
+  },
+  "Lethargy Jinx": {
+   "id": 802065,
+   "state": "record"
+  },
+  "Loa Spirits": {
+   "id": 804620,
+   "state": "record"
+  },
+  "Loa's Brew": {
+   "id": 801670,
+   "state": "record"
+  },
+  "Loa's Strength": {
+   "id": 705936,
+   "state": "record"
+  },
+  "Lukou's Guidance": {
+   "id": 705896,
+   "state": "record"
+  },
+  "Major Rejuvenating Mojo": {
+   "id": 572414,
+   "state": "record"
+  },
+  "Malefic Arrow": {
+   "id": 801674,
+   "state": "no-record"
+  },
+  "Malefic Wrath": {
+   "id": 807037,
+   "state": "record"
+  },
+  "Malicious Golems": {
+   "id": 705912,
+   "state": "record"
+  },
+  "Malignant Jinx": {
+   "id": 803678,
+   "state": "record"
+  },
+  "Mana Jinx": {
+   "id": 630879,
+   "state": "record"
+  },
+  "Mark of Pa'ku": {
+   "id": 504421,
+   "state": "record"
+  },
+  "Mass Allcure Elixir": {
+   "id": 706555,
+   "state": "record"
+  },
+  "Master Brewer": {
+   "id": 802218,
+   "state": "record"
+  },
+  "Master Mixologist": {
+   "id": 705864,
+   "state": "record"
+  },
+  "Master of Concoctions": {
+   "id": 570064,
+   "state": "record"
+  },
+  "Medicine Man": {
+   "id": 705860,
+   "state": "record"
+  },
+  "Mimic Ward": {
+   "id": 707162,
+   "state": "record"
+  },
+  "Mirage": {
+   "id": 501136,
+   "state": "record"
+  },
+  "Mirage - GameObject Summon": {
+   "id": 501137,
+   "state": "record"
+  },
+  "Mojo Beam": {
+   "id": 500950,
+   "state": "record"
+  },
+  "Mojo Cauldron": {
+   "id": 572413,
+   "state": "record"
+  },
+  "Mojo Madness": {
+   "id": 503693,
+   "state": "record"
+  },
+  "Mojo: Fish Bones": {
+   "id": 705850,
+   "state": "record"
+  },
+  "Mojo: Frog Shrooms": {
+   "id": 705851,
+   "state": "record"
+  },
+  "Mojo: Jungle Thistle": {
+   "id": 500472,
+   "state": "record"
+  },
+  "My Gods Are Forever": {
+   "id": 503702,
+   "state": "record"
+  },
+  "Mystical Hexes": {
+   "id": 707406,
+   "state": "record"
+  },
+  "Natural Alchemist": {
+   "id": 536213,
+   "state": "record"
+  },
+  "Panther Talons": {
+   "id": 705944,
+   "state": "record"
+  },
+  "Plentiful Potions": {
+   "id": 803463,
+   "state": "record"
+  },
+  "Potion Slinger": {
+   "id": 705862,
+   "state": "record"
+  },
+  "Potion Toss": {
+   "id": 801661,
+   "state": "record"
+  },
+  "Power Wuju": {
+   "id": 707671,
+   "state": "record"
+  },
+  "Primordial Synergy": {
+   "id": 705946,
+   "state": "record"
+  },
+  "Prolonged Malice": {
+   "id": 704505,
+   "state": "record"
+  },
+  "Puppeteer's Grasp": {
+   "id": 706552,
+   "state": "record"
+  },
+  "Puppeteer's Threads": {
+   "id": 92084,
+   "state": "record"
+  },
+  "Quick Voodoo": {
+   "id": 705854,
+   "state": "record"
+  },
+  "Quickened Curses": {
+   "id": 705920,
+   "state": "record"
+  },
+  "Rage Brew": {
+   "id": 503750,
+   "state": "record"
+  },
+  "Rage of Bethekk": {
+   "id": 801672,
+   "state": "record"
+  },
+  "Raptor Mastery": {
+   "id": 705933,
+   "state": "record"
+  },
+  "Raptor Pens": {
+   "id": 705930,
+   "state": "record"
+  },
+  "Recipe: Blood Frog": {
+   "id": 807043,
+   "state": "record"
+  },
+  "Reclaim Soul": {
+   "id": 801796,
+   "state": "record"
+  },
+  "Reclamation": {
+   "id": 806288,
+   "state": "no-record"
+  },
+  "Regenerator": {
+   "id": 705865,
+   "state": "record"
+  },
+  "Rejuvenating Mojo": {
+   "id": 572325,
+   "state": "record"
+  },
+  "Rite of the Loa": {
+   "id": 575025,
+   "state": "record"
+  },
+  "Ritual Hexing": {
+   "id": 705840,
+   "state": "record"
+  },
+  "Rogue Spirits": {
+   "id": 524700,
+   "state": "record"
+  },
+  "Seeker": {
+   "id": 705880,
+   "state": "record"
+  },
+  "Sen'jin's Apprentice": {
+   "id": 681199,
+   "state": "record"
+  },
+  "Sen'jin's Disciple": {
+   "id": 504430,
+   "state": "record"
+  },
+  "Sen'jin's Presence": {
+   "id": 560544,
+   "state": "record"
+  },
+  "Sen'jin's Swiftness": {
+   "id": 504425,
+   "state": "record"
+  },
+  "Sen'jin's Wisdom": {
+   "id": 504774,
+   "state": "record"
+  },
+  "Sentry Ward": {
+   "id": 504646,
+   "state": "record"
+  },
+  "Serene Idol": {
+   "id": 504759,
+   "state": "record"
+  },
+  "Serpent Handler": {
+   "id": 680895,
+   "state": "record"
+  },
+  "Serpent Ward": {
+   "id": 500960,
+   "state": "record"
+  },
+  "Serpent's Guile": {
+   "id": 705928,
+   "state": "record"
+  },
+  "Shadow Avatar": {
+   "id": 705943,
+   "state": "record"
+  },
+  "Shadow Effigy": {
+   "id": 504761,
+   "state": "record"
+  },
+  "Shadow Enchantments": {
+   "id": 300662,
+   "state": "record"
+  },
+  "Shadow Puppets": {
+   "id": 500015,
+   "state": "record"
+  },
+  "Shadowflare": {
+   "id": 801669,
+   "state": "record"
+  },
+  "Shadowhunter": {
+   "id": 92086,
+   "state": "record"
+  },
+  "Shadowhunting": {
+   "id": 802623,
+   "state": "record"
+  },
+  "Shadowstalker": {
+   "id": 807040,
+   "state": "record"
+  },
+  "Shrink Ally": {
+   "id": 806282,
+   "state": "record"
+  },
+  "Shrinking Jinx": {
+   "id": 806285,
+   "state": "record"
+  },
+  "Slither": {
+   "id": 500947,
+   "state": "record"
+  },
+  "Snake Oil": {
+   "id": 704156,
+   "state": "record"
+  },
+  "Soothing Juju": {
+   "id": 806130,
+   "state": "record"
+  },
+  "Soul Feeder": {
+   "id": 572335,
+   "state": "record"
+  },
+  "Soul Marionette": {
+   "id": 704243,
+   "state": "record"
+  },
+  "Spice: Earthroot": {
+   "id": 504424,
+   "state": "record"
+  },
+  "Spice: Peacebloom": {
+   "id": 803274,
+   "state": "record"
+  },
+  "Spirit Eclipse": {
+   "id": 801607,
+   "state": "record"
+  },
+  "Spirit Glaive": {
+   "id": 806289,
+   "state": "record"
+  },
+  "Spirit Healer": {
+   "id": 560280,
+   "state": "record"
+  },
+  "Spirit Idol": {
+   "id": 500958,
+   "state": "record"
+  },
+  "Spirit Shock": {
+   "id": 807743,
+   "state": "record"
+  },
+  "Spirit Striker": {
+   "id": 806286,
+   "state": "record"
+  },
+  "Spirit Volley": {
+   "id": 504582,
+   "state": "record"
+  },
+  "Spirit Walker": {
+   "id": 504459,
+   "state": "record"
+  },
+  "Spirit Warden": {
+   "id": 503774,
+   "state": "record"
+  },
+  "Spirit Wuju": {
+   "id": 560294,
+   "state": "record"
+  },
+  "Spirit in a Bottle": {
+   "id": 801696,
+   "state": "record"
+  },
+  "Spiritual Devotee": {
+   "id": 503727,
+   "state": "record"
+  },
+  "Spiritual Traditions": {
+   "id": 705911,
+   "state": "record"
+  },
+  "Splash On 'Em": {
+   "id": 550002,
+   "state": "record"
+  },
+  "Splash Potion": {
+   "id": 802710,
+   "state": "record"
+  },
+  "Staff of the Coven": {
+   "id": 806563,
+   "state": "record"
+  },
+  "Stasis Ward": {
+   "id": 801678,
+   "state": "record"
+  },
+  "Step of the Panther": {
+   "id": 801679,
+   "state": "record"
+  },
+  "Stranglethorn Style": {
+   "id": 504458,
+   "state": "record"
+  },
+  "Strength of Da Loa": {
+   "id": 300871,
+   "state": "record"
+  },
+  "Strike A Deal": {
+   "id": 704241,
+   "state": "record"
+  },
+  "Strike of the Gods": {
+   "id": 302531,
+   "state": "record"
+  },
+  "Struck From The Shadows": {
+   "id": 705891,
+   "state": "record"
+  },
+  "Swift Idol": {
+   "id": 505194,
+   "state": "record"
+  },
+  "The Price of Power": {
+   "id": 705916,
+   "state": "record"
+  },
+  "The True Spirit": {
+   "id": 802268,
+   "state": "record"
+  },
+  "Tiki Splash": {
+   "id": 500053,
+   "state": "record"
+  },
+  "Trapped Spirits": {
+   "id": 504452,
+   "state": "record"
+  },
+  "True Brew": {
+   "id": 705869,
+   "state": "record"
+  },
+  "Umbral Glaive": {
+   "id": 801673,
+   "state": "no-record"
+  },
+  "Veil of Darkness": {
+   "id": 802100,
+   "state": "record"
+  },
+  "Viper Ward": {
+   "id": 500541,
+   "state": "record"
+  },
+  "Vivacious Brews": {
+   "id": 706248,
+   "state": "record"
+  },
+  "Voice of Bwonsamdi": {
+   "id": 801716,
+   "state": "record"
+  },
+  "Vol'jin's Legacy": {
+   "id": 705924,
+   "state": "record"
+  },
+  "Vol'jin's Vigil": {
+   "id": 504465,
+   "state": "record"
+  },
+  "Voodoo Bolt": {
+   "id": 501188,
+   "state": "record"
+  },
+  "Voodoo Cauldron": {
+   "id": 804684,
+   "state": "record"
+  },
+  "Voodoo Creep": {
+   "id": 300991,
+   "state": "record"
+  },
+  "Voodoo Fire": {
+   "id": 802262,
+   "state": "record"
+  },
+  "Voodoo Hunger": {
+   "id": 705942,
+   "state": "record"
+  },
+  "Voodoo Puddle": {
+   "id": 803200,
+   "state": "record"
+  },
+  "Voodoo Slam": {
+   "id": 302532,
+   "state": "record"
+  },
+  "Voodoo Strings": {
+   "id": 705910,
+   "state": "record"
+  },
+  "Voodoo Unleashed": {
+   "id": 504607,
+   "state": "record"
+  },
+  "Voodoo Ward": {
+   "id": 500013,
+   "state": "record"
+  },
+  "War Golem": {
+   "id": 800330,
+   "state": "record"
+  },
+  "Wholly Devoted": {
+   "id": 705905,
+   "state": "record"
+  },
+  "Wizened": {
+   "id": 705903,
+   "state": "record"
+  },
+  "Zalazane's Malice": {
+   "id": 705902,
+   "state": "record"
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "class": "witch-doctor",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 48,
+   "citations": 6,
+   "crossdb_checked": 230,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 258,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 230,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 48,
+   "citations": 6,
+   "crossdb_checked": 230,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 258,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 230,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 48,
+   "citations": 6,
+   "crossdb_checked": 230,
+   "crossdb_pct": 99.6,
+   "inventory_rows": 259,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 231,
+   "mechanics_sources": 3,
+   "open_unknowns": 2,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "\u00a75: NO missing-buff alerts ship -- the class has no imbue/engraving prepull kit, no permanent pet; the NO CAULDRON idea sits on an unverified brewed-state aura and is filed as req 6.3 for feedback, per the Runemaster reminder-band lesson"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: 19 witch-doctor entries, all 2026/07/31, all tuning (no replaced/reworked/new-spell). Key: Spirit Volley -34% base dmg because it beat single-target \u2014 any Shadow Hunting priority predating 07/31 is stale. Not yet accepted; will accept after citations land."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "6 citations, 48 claims, validated clean: 3 blob imports (2026-08-02 blob, postdates newest changelog 07/31) + 3 manual page transcriptions (origin=manual, retrieved 2026-08-07). Blob prose names resolved via aliases-witch-doctor.json: Army of the Loa + Shadow Hemorrhage -> null (1-hit prose, no castable), Zalazane's Malice -> Hex of Malice (passive amplifier vs the DoT). Blob's Dire Rage claim turned out REAL (both DBs) -> inventory row added"
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 230,
+   "note": "crossdb_sweep over all 228 id-bearing rows: 224 record / 4 no-record, every no-record re-asked BY NAME via dbsearch + tooltip reads, verdicts written into the rows' Notes: Reclamation (dev changelog 07/31 names it -- ascension snapshot incomplete for this class), Malefic Arrow (ascension has components + an Improved talent only; exiles carries the full castable), Umbral Glaive (exiles id self-describes 'Deprecated' -- switched to ascension's live 504588, other-id), Gift of the Loa (component-only both DBs, consistent with its ignore role). +2 rows added post-sweep and checked by hand on both DBs (Dire Rage 806280/806281 other-id; Vol'jin's Way 504572 record). Nothing deleted on a verdict."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified per the known workaround: tools/rowwidths.py green (widest always-visible row 1.10x vs the 228px bar; brewing utility 40 icons wraps to 5 rows at 0.97x) + structural hud.py read of all three per-spec packs: ladder Target -51 / Buffs -84 / Main -132 / Mana -170 / Offense -215 / Utility 30px steps / Longterm below with LONG_GAP, all rows centred, merged Buffs band carries the three class-wide windows inline"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "256 rows: 130 curated from the cited rotations/tooltip reads (incl. ascension-db tooltip fetches for Veil of Darkness 802100, Spirit Shock 807743, Call of Sseratus 681222, Voodoo Cauldron 804684, Big Bad Voodoo 802719, Spirit Volley 504582) + 126 heuristic (rank/meta/audit evidence) + 5 added by hand (Spirit Volley, Hex of Death, Jungle Shrooms/Frog Bones/Bloodthistle target auras). Automated pass, markers cleared in bulk per production-run.md draft mode -- provenance NOT a human per-row read. One line of reasoning per row in Notes. Hedged rows -> req 6.7: Dark Effigy, Death Draught, Devotion of Gonk, Feast of the Loa, Jani's Intent, Juju, Juju Injection, Major Rejuvenating Mojo, Mojo: Fish Bones/Frog Shrooms, Staff of the Coven, Viper Ward, Voodoo Puddle. Loa Invocation/Avatar layer (22 rows) excluded from bands, req 6.9"
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "all three main rows ordered from the cited rotation text (manual page citations sidekick-page-witch-doctor-*-2026-08-07 + blob imports 2026-08-02): voodoo Bad Juju/Shadow Puppets/Hexfire/Hex of Malice/Malefic Wrath (Jin'do's Wrath dropped -- both db rows are PASSIVES empowering Hexfire); brewing healing rotation Loa's Brew/Potion Toss/Spirit in a Bottle/Splash Potion/Mojo Beam (Voodoo Cauldron moved to the healing-CD row: castable 804684 is a 3 min cd); shadowhunting Reclamation/Malefic Arrow/Spirit Glaive/Spirit Eclipse/Call of Sseratus"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Firecrawl-scraped ascensionsidekick.com/witch-doctor/{voodoo,brewing,shadowhunting} 2026-08-07 (postdates newest changelog 07/31) -> resources/sidekick-witch-doctor-*.md"
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "req \u00a73: NO permanent companion -- every summon is a totem drop or short temporary, tracked player-side as cooldown icons; no unit=pet rows, no NO-PET alert. Avatar Dinosaur layer excluded (no cited rotation, \u00a76.9). Decided per tooltip, not from the word summon"
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "\u00a71 must-press procs wired: The True Spirit glows both its spenders (Spirit Glaive, Spirit Eclipse) with the stack count drawn on the buttons (PROC_STACKS); De Other Side/Voodoo Hunger stacks in on-me row; defensive windows (Vol'jin's Vigil, Dire Rage, Big Bad Voodoo) as SHORT_ENTRIES since cd_buffs only derives from the offense row"
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-witch-doctor.md: all sections answered. Spec roles into spec-roles.md from citable Sidekick statements (brewing HEALING: 'Solid dungeon healer/Strong in arena as a healer'; voodoo+shadowhunting damage), provenance block added. Pets: NO permanent companion -- all summons are totem drops/short temporaries; Avatar Dinosaur layer exists but is in no cited rotation -> excluded, req 6.9. Spirit bank has no readable aura id -> no Spirit bar, req 6.1"
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "req \u00a72: no replace/transform talent found in any tree (no spell_swap wired; \u00a76.5 watches). Proc talent The True Spirit -> PROC_GLOW+PROC_STACKS on Spirit Glaive + Spirit Eclipse; cooldown-reset talents (Overflowing Juju, Voodoo Unleashed, Splash On 'Em, Malicious Golems, A Price To Pay) ride the native cooldown trigger, correct with AND without; Serpent Handler's +5s Call of Sseratus cd read natively"
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py all checks passed after freezing the 4 fixtures; CORE_LEAVES pinned at 4 (empty WD Core skeleton + 3 merged all-spec Buffs leaves on the class gate alone: Vol'jin's Vigil, Dire Rage, Big Bad Voodoo). Two shared-file fixes en route: check 10's suffix matching now longest-known-name (Concoct Rejuvenating Mojo nested inside the audited off-GCD 'Rejuvenating Mojo' -- a false positive), and docs/packs/{ranger,witch-hunter} rebuilt+published locally so their check-13 runs are not vacuous in this worktree"
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "req \u00a76: 10 open questions, every one deferred deliberately to the post-ship verified phase per production-run.md: Spirit-count read (no bar ships), brewing target-band aura names, NO CAULDRON alert idea, Hex of Death name, transform watch, 7 ascension-resolved castable ids, 14 hedged rows, Big Bad Voodoo spec membership, the excluded Invocation/Avatar layer, ascension-db incompleteness"
+  }
+ }
+}

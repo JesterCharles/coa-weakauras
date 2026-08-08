@@ -1,0 +1,3464 @@
+{
+ "A Price To Pay": {
+  "ids": [
+   705948
+  ],
+  "icon": null
+ },
+ "A True Devotee": {
+  "ids": [
+   503737
+  ],
+  "icon": null
+ },
+ "Afflict Random Disease": {
+  "ids": [
+   802904
+  ],
+  "icon": null
+ },
+ "Afflict Random Hex": {
+  "ids": [
+   802903
+  ],
+  "icon": null
+ },
+ "Agony": {
+  "ids": [
+   705919
+  ],
+  "icon": null
+ },
+ "Allcure Elixir": {
+  "ids": [
+   804049
+  ],
+  "icon": null
+ },
+ "Amphibimorph": {
+  "ids": [
+   500952
+  ],
+  "icon": null
+ },
+ "An Unlikely Alliance": {
+  "ids": [
+   503776
+  ],
+  "icon": null
+ },
+ "Appeasement Bwonsamdi Stack": {
+  "ids": [
+   503704
+  ],
+  "icon": null
+ },
+ "Appeasement of Bethekk": {
+  "ids": [
+   802096
+  ],
+  "icon": null
+ },
+ "Appeasement of Bwon stack": {
+  "ids": [
+   503728
+  ],
+  "icon": null
+ },
+ "Appeasement of Gonk": {
+  "ids": [
+   570155
+  ],
+  "icon": null
+ },
+ "Appeasement of Hir'eek": {
+  "ids": [
+   802266
+  ],
+  "icon": null
+ },
+ "Appeasement of Sseratus": {
+  "ids": [
+   802098
+  ],
+  "icon": null
+ },
+ "Arcane Brew": {
+  "ids": [
+   801689
+  ],
+  "icon": null
+ },
+ "Avatar": {
+  "ids": [
+   706803
+  ],
+  "icon": null
+ },
+ "Bad Juju": {
+  "ids": [
+   802087
+  ],
+  "icon": null
+ },
+ "Bad Mojo": {
+  "ids": [
+   705875
+  ],
+  "icon": null
+ },
+ "Banners of Empire": {
+  "ids": [
+   705914
+  ],
+  "icon": null
+ },
+ "Base: Beast Blood": {
+  "ids": [
+   547573
+  ],
+  "icon": null
+ },
+ "Base: Crystal Water": {
+  "ids": [
+   500962
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Attrition Blood": {
+  "ids": [
+   578330
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Attrition Death": {
+  "ids": [
+   578326
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Attrition Lethargy": {
+  "ids": [
+   578328
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Attrition Night": {
+  "ids": [
+   578327
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Attrition Quetz": {
+  "ids": [
+   578325
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Attrition Shrinking": {
+  "ids": [
+   578329
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Aura Blood": {
+  "ids": [
+   806564
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Aura Lethargy": {
+  "ids": [
+   806566
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Aura Night": {
+  "ids": [
+   806567
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Aura Quetz": {
+  "ids": [
+   563265
+  ],
+  "icon": null
+ },
+ "Batscreech Hex Aura Shrinking": {
+  "ids": [
+   806565
+  ],
+  "icon": null
+ },
+ "Berserking": {
+  "ids": [
+   705925
+  ],
+  "icon": null
+ },
+ "Bethekk's Fury": {
+  "ids": [
+   804621
+  ],
+  "icon": null
+ },
+ "Bethekk's Rage": {
+  "ids": [
+   804622
+  ],
+  "icon": null
+ },
+ "Beware Da Voodoo": {
+  "ids": [
+   707168
+  ],
+  "icon": null
+ },
+ "Big Bad Voodoo": {
+  "ids": [
+   801665
+  ],
+  "icon": null
+ },
+ "Bimi's Bash": {
+  "ids": [
+   561091
+  ],
+  "icon": null
+ },
+ "Bind Avatar": {
+  "ids": [
+   801583
+  ],
+  "icon": null
+ },
+ "Blood Frog": {
+  "ids": [
+   500595
+  ],
+  "icon": null
+ },
+ "Blood for the Blood God": {
+  "ids": [
+   503741
+  ],
+  "icon": null
+ },
+ "Bloodthirsty Pounce": {
+  "ids": [
+   806651
+  ],
+  "icon": null
+ },
+ "Bloodthistle": {
+  "ids": [
+   802771
+  ],
+  "icon": null
+ },
+ "Bloody Chomp": {
+  "ids": [
+   806647
+  ],
+  "icon": null
+ },
+ "Brew Cocktail": {
+  "ids": [
+   807070
+  ],
+  "icon": null
+ },
+ "Brew Lobber": {
+  "ids": [
+   705867
+  ],
+  "icon": null
+ },
+ "Brew Splash": {
+  "ids": [
+   300661
+  ],
+  "icon": null
+ },
+ "Brew Stew": {
+  "ids": [
+   807050
+  ],
+  "icon": null
+ },
+ "Brewing Cauldron": {
+  "ids": [
+   520142
+  ],
+  "icon": null
+ },
+ "Brewmaster": {
+  "ids": [
+   704512
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Edge": {
+  "ids": [
+   705884
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Embrace": {
+  "ids": [
+   680894
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Ghost": {
+  "ids": [
+   705886
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Gift": {
+  "ids": [
+   504583
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Judgement": {
+  "ids": [
+   525386
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Spirit": {
+  "ids": [
+   806976
+  ],
+  "icon": null
+ },
+ "Bwonsamdi's Trickery": {
+  "ids": [
+   301221
+  ],
+  "icon": null
+ },
+ "Call Avatar: Devilsaur": {
+  "ids": [
+   801585
+  ],
+  "icon": null
+ },
+ "Call Avatar: Pterrordax": {
+  "ids": [
+   801609
+  ],
+  "icon": null
+ },
+ "Call Avatar: Stegodon": {
+  "ids": [
+   801584
+  ],
+  "icon": null
+ },
+ "Call Avatar: War Raptor": {
+  "ids": [
+   801644
+  ],
+  "icon": null
+ },
+ "Call For Da Docta?": {
+  "ids": [
+   573031
+  ],
+  "icon": null
+ },
+ "Call of Sseratus": {
+  "ids": [
+   572899
+  ],
+  "icon": null
+ },
+ "Can't Use Voodoo Caulron": {
+  "ids": [
+   503746
+  ],
+  "icon": null
+ },
+ "Cauldron": {
+  "ids": [
+   561074
+  ],
+  "icon": null
+ },
+ "Cauldron Brewer": {
+  "ids": [
+   92085
+  ],
+  "icon": null
+ },
+ "Channeler": {
+  "ids": [
+   806272
+  ],
+  "icon": null
+ },
+ "Charge": {
+  "ids": [
+   500046
+  ],
+  "icon": null
+ },
+ "Charge Stun": {
+  "ids": [
+   500047
+  ],
+  "icon": null
+ },
+ "Chosen Avatar: War Raptor": {
+  "ids": [
+   706641
+  ],
+  "icon": null
+ },
+ "Chosen One": {
+  "ids": [
+   503742
+  ],
+  "icon": null
+ },
+ "Chosen of Hakkar": {
+  "ids": [
+   503778
+  ],
+  "icon": null
+ },
+ "Cleansing Idol": {
+  "ids": [
+   504840
+  ],
+  "icon": null
+ },
+ "Cleansing Ward": {
+  "ids": [
+   524708
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Doctor - Brewing": {
+  "ids": [
+   887025
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Doctor - Shadowhunting": {
+  "ids": [
+   887026
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Doctor - Voodoo": {
+  "ids": [
+   887024
+  ],
+  "icon": null
+ },
+ "CoA Aura - Witch Doctor Class": {
+  "ids": [
+   887001
+  ],
+  "icon": null
+ },
+ "Cobra Sting DEPRECATED": {
+  "ids": [
+   500019
+  ],
+  "icon": null
+ },
+ "Concoct Rejuvenating Mojo": {
+  "ids": [
+   572747
+  ],
+  "icon": null
+ },
+ "Consume Random Disease": {
+  "ids": [
+   802906
+  ],
+  "icon": null
+ },
+ "Consume Random Hex": {
+  "ids": [
+   802905
+  ],
+  "icon": null
+ },
+ "Consume Shadow Marks": {
+  "ids": [
+   805316
+  ],
+  "icon": null
+ },
+ "Crippling Blows": {
+  "ids": [
+   524768
+  ],
+  "icon": null
+ },
+ "Crystal Water": {
+  "ids": [
+   547574
+  ],
+  "icon": null
+ },
+ "Cunning of Quetz'lun": {
+  "ids": [
+   802215
+  ],
+  "icon": null
+ },
+ "Curse of Hir'eek": {
+  "ids": [
+   525383
+  ],
+  "icon": null
+ },
+ "Cursed Effigy": {
+  "ids": [
+   506820
+  ],
+  "icon": null
+ },
+ "Cursed Weapons": {
+  "ids": [
+   705940
+  ],
+  "icon": null
+ },
+ "DEPRECATED": {
+  "ids": [
+   504609
+  ],
+  "icon": null
+ },
+ "Da Tiki Beast": {
+  "ids": [
+   500598
+  ],
+  "icon": null
+ },
+ "Da Tiki Waters": {
+  "ids": [
+   500747
+  ],
+  "icon": null
+ },
+ "Da True Voodoo Shuffle": {
+  "ids": [
+   705853
+  ],
+  "icon": null
+ },
+ "Da True Voodoo Shuffle Refresh": {
+  "ids": [
+   520522
+  ],
+  "icon": null
+ },
+ "Dambala's Lethality": {
+  "ids": [
+   712312
+  ],
+  "icon": null
+ },
+ "Dambala's Rage": {
+  "ids": [
+   802264
+  ],
+  "icon": null
+ },
+ "Dance of the Loa": {
+  "ids": [
+   801697
+  ],
+  "icon": null
+ },
+ "Dark Effigy": {
+  "ids": [
+   707331
+  ],
+  "icon": null
+ },
+ "Dark Effigy Placeholder": {
+  "ids": [
+   805132
+  ],
+  "icon": null
+ },
+ "Dark Embrace": {
+  "ids": [
+   504461
+  ],
+  "icon": null
+ },
+ "Dark Idol": {
+  "ids": [
+   505195
+  ],
+  "icon": null
+ },
+ "Dark Jujubolt": {
+  "ids": [
+   804107
+  ],
+  "icon": null
+ },
+ "Dark Loa's Blessing": {
+  "ids": [
+   560545
+  ],
+  "icon": null
+ },
+ "Dark Loa's Incantation": {
+  "ids": [
+   525371
+  ],
+  "icon": null
+ },
+ "Dark Loyalty": {
+  "ids": [
+   706548
+  ],
+  "icon": null
+ },
+ "Dark Loyalty Remover": {
+  "ids": [
+   560318
+  ],
+  "icon": null
+ },
+ "Dark Magic": {
+  "ids": [
+   504604
+  ],
+  "icon": null
+ },
+ "Dark Mojo Crash Deprecated": {
+  "ids": [
+   501078
+  ],
+  "icon": null
+ },
+ "Darkspear Drums": {
+  "ids": [
+   706380
+  ],
+  "icon": null
+ },
+ "Darkspear Poison": {
+  "ids": [
+   705927
+  ],
+  "icon": null
+ },
+ "Darkspear Power Trigger": {
+  "ids": [
+   680907
+  ],
+  "icon": null
+ },
+ "Darkspear Power Trigger2": {
+  "ids": [
+   681243
+  ],
+  "icon": null
+ },
+ "Darkspear Traditionalist": {
+  "ids": [
+   503707
+  ],
+  "icon": null
+ },
+ "Darkwander": {
+  "ids": [
+   503599
+  ],
+  "icon": null
+ },
+ "De Other Side": {
+  "ids": [
+   570066
+  ],
+  "icon": null
+ },
+ "Death Draught": {
+  "ids": [
+   602220
+  ],
+  "icon": null
+ },
+ "Deathbinder": {
+  "ids": [
+   705881
+  ],
+  "icon": null
+ },
+ "Decimate The Wicked": {
+  "ids": [
+   705460
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   801587
+  ],
+  "icon": null
+ },
+ "Destack Plagued": {
+  "ids": [
+   802914
+  ],
+  "icon": null
+ },
+ "Devotion of Bethekk": {
+  "ids": [
+   802177
+  ],
+  "icon": null
+ },
+ "Devotion of Bwonsamdi": {
+  "ids": [
+   570156
+  ],
+  "icon": null
+ },
+ "Devotion of Gonk": {
+  "ids": [
+   302536
+  ],
+  "icon": null
+ },
+ "Devotion of Hir'eek Trigger": {
+  "ids": [
+   704506
+  ],
+  "icon": null
+ },
+ "Devotion of Hireek": {
+  "ids": [
+   802178
+  ],
+  "icon": null
+ },
+ "Devotion of Kimbul": {
+  "ids": [
+   801681
+  ],
+  "icon": null
+ },
+ "Devotion of Lukou": {
+  "ids": [
+   801684
+  ],
+  "icon": null
+ },
+ "Devotion of Sseratus": {
+  "ids": [
+   802179
+  ],
+  "icon": null
+ },
+ "Devotion of Zanza": {
+  "ids": [
+   801682
+  ],
+  "icon": null
+ },
+ "Dinomancer's Call": {
+  "ids": [
+   570151
+  ],
+  "icon": null
+ },
+ "Dinosaur Attack": {
+  "ids": [
+   801595
+  ],
+  "icon": null
+ },
+ "Dire Rage": {
+  "ids": [
+   806280
+  ],
+  "icon": null
+ },
+ "Disciple of Sseratus": {
+  "ids": [
+   300660
+  ],
+  "icon": null
+ },
+ "Doctor of the Jungle": {
+  "ids": [
+   706545
+  ],
+  "icon": null
+ },
+ "Dragonhawk Strike": {
+  "ids": [
+   705895
+  ],
+  "icon": null
+ },
+ "Drakkari Barrier": {
+  "ids": [
+   500963
+  ],
+  "icon": null
+ },
+ "Drakkari Grounding Ward": {
+  "ids": [
+   800329
+  ],
+  "icon": null
+ },
+ "Drakkari Protection Aura": {
+  "ids": [
+   800331
+  ],
+  "icon": null
+ },
+ "Dreadful Screech": {
+  "ids": [
+   801671
+  ],
+  "icon": null
+ },
+ "Encroaching Night": {
+  "ids": [
+   704498
+  ],
+  "icon": null
+ },
+ "Endurance of Krag'wa": {
+  "ids": [
+   802210
+  ],
+  "icon": null
+ },
+ "Energize": {
+  "ids": [
+   805282
+  ],
+  "icon": null
+ },
+ "Extend Hexes 1 sec": {
+  "ids": [
+   504450
+  ],
+  "icon": null
+ },
+ "Extend Hexes 1 sec (Primary)": {
+  "ids": [
+   504451
+  ],
+  "icon": null
+ },
+ "Extend Hexes 4 sec": {
+  "ids": [
+   802931
+  ],
+  "icon": null
+ },
+ "Extend Hexes 4 sec (Primary)": {
+  "ids": [
+   802932
+  ],
+  "icon": null
+ },
+ "Eye of Kimbul": {
+  "ids": [
+   503714
+  ],
+  "icon": null
+ },
+ "Fang of Hir'eek": {
+  "ids": [
+   501162
+  ],
+  "icon": null
+ },
+ "Feast of the Loa": {
+  "ids": [
+   807688
+  ],
+  "icon": null
+ },
+ "Feeding Frenzy": {
+  "ids": [
+   801589
+  ],
+  "icon": null
+ },
+ "Feline Frenzy": {
+  "ids": [
+   525382
+  ],
+  "icon": null
+ },
+ "Ferocity of Bethekk": {
+  "ids": [
+   802207
+  ],
+  "icon": null
+ },
+ "Fish Bones": {
+  "ids": [
+   500594
+  ],
+  "icon": null
+ },
+ "Fish Oil": {
+  "ids": [
+   802969
+  ],
+  "icon": null
+ },
+ "Fishbones": {
+  "ids": [
+   802970
+  ],
+  "icon": null
+ },
+ "Flask of Mana": {
+  "ids": [
+   500954
+  ],
+  "icon": null
+ },
+ "Flask of Mana Cost Reduction": {
+  "ids": [
+   500946
+  ],
+  "icon": null
+ },
+ "Flask of Mana Stacker": {
+  "ids": [
+   804564
+  ],
+  "icon": null
+ },
+ "Flint Shadow Avatar": {
+  "ids": [
+   985829
+  ],
+  "icon": null
+ },
+ "Fool's Play": {
+  "ids": [
+   681007
+  ],
+  "icon": null
+ },
+ "Fortitude of Akuna": {
+  "ids": [
+   802212
+  ],
+  "icon": null
+ },
+ "Frenzied Spirits": {
+  "ids": [
+   560748
+  ],
+  "icon": null
+ },
+ "Fresh Ingredients": {
+  "ids": [
+   705855
+  ],
+  "icon": null
+ },
+ "Frog Bones": {
+  "ids": [
+   802971
+  ],
+  "icon": null
+ },
+ "Frog Shrooms": {
+  "ids": [
+   500509
+  ],
+  "icon": null
+ },
+ "Frog Venom": {
+  "ids": [
+   802968
+  ],
+  "icon": null
+ },
+ "Gift of Bethekk (Pet Forcecast)": {
+  "ids": [
+   525298
+  ],
+  "icon": null
+ },
+ "Gift of Bethekk (Pet Trigger)": {
+  "ids": [
+   525296
+  ],
+  "icon": null
+ },
+ "Gift of Bwonsamdi (Pet Forcecast)": {
+  "ids": [
+   525374
+  ],
+  "icon": null
+ },
+ "Gift of Bwonsamdi (Pet Trigger)": {
+  "ids": [
+   525375
+  ],
+  "icon": null
+ },
+ "Gift of Hi'reek (Pet Forcecast)": {
+  "ids": [
+   525373
+  ],
+  "icon": null
+ },
+ "Gift of Hi'reek (Pet Trigger)": {
+  "ids": [
+   325379
+  ],
+  "icon": null
+ },
+ "Gift of Pa'ku": {
+  "ids": [
+   806656
+  ],
+  "icon": null
+ },
+ "Gift of Sseratus (Pet Forcecast)": {
+  "ids": [
+   525297
+  ],
+  "icon": null
+ },
+ "Gift of the Loa": {
+  "ids": [
+   501089
+  ],
+  "icon": null
+ },
+ "Gift of the Loa (Pet Trigger)": {
+  "ids": [
+   525372
+  ],
+  "icon": null
+ },
+ "Gift of the Loa: Bethekk": {
+  "ids": [
+   802922
+  ],
+  "icon": null
+ },
+ "Gift of the Loa: Bwonsamdi": {
+  "ids": [
+   802921
+  ],
+  "icon": null
+ },
+ "Gift of the Loa: Hireek": {
+  "ids": [
+   802924
+  ],
+  "icon": null
+ },
+ "Gift of the Loa: Sseratus": {
+  "ids": [
+   802923
+  ],
+  "icon": null
+ },
+ "Glaiving": {
+  "ids": [
+   504587
+  ],
+  "icon": null
+ },
+ "God is Dead": {
+  "ids": [
+   681231
+  ],
+  "icon": null
+ },
+ "Godslayer": {
+  "ids": [
+   802714
+  ],
+  "icon": null
+ },
+ "Golem's Vigil": {
+  "ids": [
+   705913
+  ],
+  "icon": null
+ },
+ "Gonk's Blessing": {
+  "ids": [
+   806469
+  ],
+  "icon": null
+ },
+ "Gonk's Favor": {
+  "ids": [
+   705934
+  ],
+  "icon": null
+ },
+ "Gonk's Fury": {
+  "ids": [
+   806643
+  ],
+  "icon": null
+ },
+ "Graven Effigy": {
+  "ids": [
+   504767
+  ],
+  "icon": null
+ },
+ "Greater Power Wuju": {
+  "ids": [
+   712458
+  ],
+  "icon": null
+ },
+ "Greater Rejuvenating Mojo": {
+  "ids": [
+   572327
+  ],
+  "icon": null
+ },
+ "Greater Resourceful Wuju": {
+  "ids": [
+   800195
+  ],
+  "icon": null
+ },
+ "Greater Spirit Wuju": {
+  "ids": [
+   680872
+  ],
+  "icon": null
+ },
+ "Growing Malice": {
+  "ids": [
+   582257
+  ],
+  "icon": null
+ },
+ "Guile of the Serpent": {
+  "ids": [
+   706539
+  ],
+  "icon": null
+ },
+ "Gutpiercer": {
+  "ids": [
+   803505
+  ],
+  "icon": null
+ },
+ "Hastened": {
+  "ids": [
+   705899
+  ],
+  "icon": null
+ },
+ "Healing Ward": {
+  "ids": [
+   500955
+  ],
+  "icon": null
+ },
+ "Healing Warden": {
+  "ids": [
+   707532
+  ],
+  "icon": null
+ },
+ "Herb Pouch": {
+  "ids": [
+   705893
+  ],
+  "icon": null
+ },
+ "Hex Doctor": {
+  "ids": [
+   500054
+  ],
+  "icon": null
+ },
+ "Hex of Blood Deprecated": {
+  "ids": [
+   500948
+  ],
+  "icon": null
+ },
+ "Hex of Death": {
+  "ids": [
+   706557
+  ],
+  "icon": null
+ },
+ "Hex of Malice": {
+  "ids": [
+   801693
+  ],
+  "icon": null
+ },
+ "Hex of Shrinking": {
+  "ids": [
+   500949
+  ],
+  "icon": null
+ },
+ "Hexblade": {
+  "ids": [
+   802093
+  ],
+  "icon": null
+ },
+ "Hexbreak": {
+  "ids": [
+   806240
+  ],
+  "icon": null
+ },
+ "Hexed": {
+  "ids": [
+   504762
+  ],
+  "icon": null
+ },
+ "Hexfire": {
+  "ids": [
+   807042
+  ],
+  "icon": null
+ },
+ "Hexfire Adept": {
+  "ids": [
+   704500
+  ],
+  "icon": null
+ },
+ "Hexfire Blast": {
+  "ids": [
+   712415
+  ],
+  "icon": null
+ },
+ "Hexfire Mass": {
+  "ids": [
+   807450
+  ],
+  "icon": null
+ },
+ "Hexfire Wrath": {
+  "ids": [
+   503626
+  ],
+  "icon": null
+ },
+ "Hexing Effigy": {
+  "ids": [
+   504789
+  ],
+  "icon": null
+ },
+ "Hexing Strike": {
+  "ids": [
+   501220
+  ],
+  "icon": null
+ },
+ "Hexplosion": {
+  "ids": [
+   704495
+  ],
+  "icon": null
+ },
+ "Hexsumption (Hex of Blood) Deprecated": {
+  "ids": [
+   802976
+  ],
+  "icon": null
+ },
+ "Hexsumption (Hex of Death)": {
+  "ids": [
+   802978
+  ],
+  "icon": null
+ },
+ "Hexsumption (Hex of Lethargy)": {
+  "ids": [
+   802980
+  ],
+  "icon": null
+ },
+ "Hexsumption (Hex of Night)": {
+  "ids": [
+   802977
+  ],
+  "icon": null
+ },
+ "Hexsumption (Hex of Shrinking)": {
+  "ids": [
+   802979
+  ],
+  "icon": null
+ },
+ "Hextend DEPRECATED": {
+  "ids": [
+   801694
+  ],
+  "icon": null
+ },
+ "Hextension": {
+  "ids": [
+   504453
+  ],
+  "icon": null
+ },
+ "Hidden Soul Feeder Aura": {
+  "ids": [
+   712345
+  ],
+  "icon": null
+ },
+ "High on Mojo": {
+  "ids": [
+   712321
+  ],
+  "icon": null
+ },
+ "Hir'eek's Gift": {
+  "ids": [
+   300783
+  ],
+  "icon": null
+ },
+ "Hir'eek's Jinx": {
+  "ids": [
+   803325
+  ],
+  "icon": null
+ },
+ "Hollow Spirit": {
+  "ids": [
+   503706
+  ],
+  "icon": null
+ },
+ "Illusory Fumes": {
+  "ids": [
+   547575
+  ],
+  "icon": null
+ },
+ "Improved Jinxes": {
+  "ids": [
+   804719
+  ],
+  "icon": null
+ },
+ "Improved Juju Burst": {
+  "ids": [
+   705888
+  ],
+  "icon": null
+ },
+ "Improved Malefic Arrow": {
+  "ids": [
+   707855
+  ],
+  "icon": null
+ },
+ "Improved Moves": {
+  "ids": [
+   705908
+  ],
+  "icon": null
+ },
+ "Improved Revitalize": {
+  "ids": [
+   705852
+  ],
+  "icon": null
+ },
+ "Improved Spirit Shock": {
+  "ids": [
+   705874
+  ],
+  "icon": null
+ },
+ "Ingredient: Bloodthistle": {
+  "ids": [
+   801664
+  ],
+  "icon": null
+ },
+ "Ingredient: Fish Oil": {
+  "ids": [
+   801662
+  ],
+  "icon": null
+ },
+ "Ingredient: Frog Bones": {
+  "ids": [
+   801663
+  ],
+  "icon": null
+ },
+ "Ingredient: Jungle Shrooms": {
+  "ids": [
+   801660
+  ],
+  "icon": null
+ },
+ "Invocation of Samedi": {
+  "ids": [
+   801683
+  ],
+  "icon": null
+ },
+ "It's Da Voodoo": {
+  "ids": [
+   560278
+  ],
+  "icon": null
+ },
+ "Jani's Intent": {
+  "ids": [
+   501159
+  ],
+  "icon": null
+ },
+ "Jin'do's Wrath": {
+  "ids": [
+   707505
+  ],
+  "icon": null
+ },
+ "Jinxweaver": {
+  "ids": [
+   705889
+  ],
+  "icon": null
+ },
+ "Juju": {
+  "ids": [
+   705873
+  ],
+  "icon": null
+ },
+ "Juju Injection": {
+  "ids": [
+   503608
+  ],
+  "icon": null
+ },
+ "Juju Power": {
+  "ids": [
+   801175
+  ],
+  "icon": null
+ },
+ "Jungle Booms": {
+  "ids": [
+   705859
+  ],
+  "icon": null
+ },
+ "Jungle Fever": {
+  "ids": [
+   804767
+  ],
+  "icon": null
+ },
+ "Jungle Idol": {
+  "ids": [
+   505212
+  ],
+  "icon": null
+ },
+ "Jungle Secrets": {
+  "ids": [
+   707212
+  ],
+  "icon": null
+ },
+ "Jungle Shrooms": {
+  "ids": [
+   802972
+  ],
+  "icon": null
+ },
+ "Jungle Thistle": {
+  "ids": [
+   500508
+  ],
+  "icon": null
+ },
+ "Jungle Thistle Withdrawal": {
+  "ids": [
+   500593
+  ],
+  "icon": null
+ },
+ "Kill Avatar Pet": {
+  "ids": [
+   806636
+  ],
+  "icon": null
+ },
+ "King of the Jungle": {
+  "ids": [
+   806646
+  ],
+  "icon": null
+ },
+ "Krag'wa's Blessing": {
+  "ids": [
+   807855
+  ],
+  "icon": null
+ },
+ "Krag'wa's Guidance": {
+  "ids": [
+   503749
+  ],
+  "icon": null
+ },
+ "Leap": {
+  "ids": [
+   500062
+  ],
+  "icon": null
+ },
+ "Legacy of Vol'jin": {
+  "ids": [
+   680883
+  ],
+  "icon": null
+ },
+ "Legacy of Zandalar": {
+  "ids": [
+   705849
+  ],
+  "icon": null
+ },
+ "Lesser Rejuvenating Mojo": {
+  "ids": [
+   572323
+  ],
+  "icon": null
+ },
+ "Lesser Shadow Avatar": {
+  "ids": [
+   706544
+  ],
+  "icon": null
+ },
+ "Lesser Strike of the Gods": {
+  "ids": [
+   525393
+  ],
+  "icon": null
+ },
+ "Lethargy Jinx": {
+  "ids": [
+   802065
+  ],
+  "icon": null
+ },
+ "Loa Shadows": {
+  "ids": [
+   680881
+  ],
+  "icon": null
+ },
+ "Loa Spirits": {
+  "ids": [
+   804620
+  ],
+  "icon": null
+ },
+ "Loa's Brew": {
+  "ids": [
+   801670
+  ],
+  "icon": null
+ },
+ "Loa's Strength": {
+  "ids": [
+   705936
+  ],
+  "icon": null
+ },
+ "Lucky Charm": {
+  "ids": [
+   680884
+  ],
+  "icon": null
+ },
+ "Lukou's Blessing": {
+  "ids": [
+   803267
+  ],
+  "icon": null
+ },
+ "Lukou's Guidance": {
+  "ids": [
+   705896
+  ],
+  "icon": null
+ },
+ "Magicbreak": {
+  "ids": [
+   520155
+  ],
+  "icon": null
+ },
+ "Major Rejuvenating Mojo": {
+  "ids": [
+   572414
+  ],
+  "icon": null
+ },
+ "Malefic Arrow": {
+  "ids": [
+   801674
+  ],
+  "icon": null
+ },
+ "Malefic Spirits": {
+  "ids": [
+   707422
+  ],
+  "icon": null
+ },
+ "Malefic Wrath": {
+  "ids": [
+   807037
+  ],
+  "icon": null
+ },
+ "Malefic Wrath (Visual)": {
+  "ids": [
+   807041
+  ],
+  "icon": null
+ },
+ "Malicious Golems": {
+  "ids": [
+   705912
+  ],
+  "icon": null
+ },
+ "Malicious Intent": {
+  "ids": [
+   706540
+  ],
+  "icon": null
+ },
+ "Malignant": {
+  "ids": [
+   704503
+  ],
+  "icon": null
+ },
+ "Malignant Jinx": {
+  "ids": [
+   803678
+  ],
+  "icon": null
+ },
+ "Mana Jinx": {
+  "ids": [
+   630879
+  ],
+  "icon": null
+ },
+ "Mark of Lethargy": {
+  "ids": [
+   802929
+  ],
+  "icon": null
+ },
+ "Mark of Malice": {
+  "ids": [
+   800639
+  ],
+  "icon": null
+ },
+ "Mark of Mojo": {
+  "ids": [
+   570168
+  ],
+  "icon": null
+ },
+ "Mark of Night": {
+  "ids": [
+   802928
+  ],
+  "icon": null
+ },
+ "Mark of Pa'ku": {
+  "ids": [
+   504421
+  ],
+  "icon": null
+ },
+ "Mark of Quetz'lun": {
+  "ids": [
+   520612
+  ],
+  "icon": null
+ },
+ "Mark of Shrinking": {
+  "ids": [
+   802930
+  ],
+  "icon": null
+ },
+ "Mass Allcure Elixir": {
+  "ids": [
+   706555
+  ],
+  "icon": null
+ },
+ "Mass Serpent Ward": {
+  "ids": [
+   681234
+  ],
+  "icon": null
+ },
+ "Master Brewer": {
+  "ids": [
+   802218
+  ],
+  "icon": null
+ },
+ "Master Mixologist": {
+  "ids": [
+   705864
+  ],
+  "icon": null
+ },
+ "Master of Concoctions": {
+  "ids": [
+   570064
+  ],
+  "icon": null
+ },
+ "Mechaleap": {
+  "ids": [
+   806053
+  ],
+  "icon": null
+ },
+ "Medicine Man": {
+  "ids": [
+   705860
+  ],
+  "icon": null
+ },
+ "Might of Quetz'lun": {
+  "ids": [
+   504408
+  ],
+  "icon": null
+ },
+ "Mimic - Mirror Player Casts": {
+  "ids": [
+   707164
+  ],
+  "icon": null
+ },
+ "Mimic Ward": {
+  "ids": [
+   707162
+  ],
+  "icon": null
+ },
+ "Minor Rejuvenating Mojo": {
+  "ids": [
+   572748
+  ],
+  "icon": null
+ },
+ "Mirage": {
+  "ids": [
+   501136
+  ],
+  "icon": null
+ },
+ "Mirage (Return)": {
+  "ids": [
+   501138
+  ],
+  "icon": null
+ },
+ "Mirage - GameObject Summon": {
+  "ids": [
+   501137
+  ],
+  "icon": null
+ },
+ "Misery": {
+  "ids": [
+   806346
+  ],
+  "icon": null
+ },
+ "Mixologist": {
+  "ids": [
+   561069
+  ],
+  "icon": null
+ },
+ "Mixology": {
+  "ids": [
+   801171
+  ],
+  "icon": null
+ },
+ "Mojo Addiction": {
+  "ids": [
+   503696
+  ],
+  "icon": null
+ },
+ "Mojo Beam": {
+  "ids": [
+   500950
+  ],
+  "icon": null
+ },
+ "Mojo Beam Passive": {
+  "ids": [
+   573287
+  ],
+  "icon": null
+ },
+ "Mojo Cauldron": {
+  "ids": [
+   572413
+  ],
+  "icon": null
+ },
+ "Mojo High": {
+  "ids": [
+   706488
+  ],
+  "icon": null
+ },
+ "Mojo Idol": {
+  "ids": [
+   504766
+  ],
+  "icon": null
+ },
+ "Mojo Madness": {
+  "ids": [
+   503693
+  ],
+  "icon": null
+ },
+ "Mojo Talisman": {
+  "ids": [
+   801675
+  ],
+  "icon": null
+ },
+ "Mojo: Fish Bones": {
+  "ids": [
+   705850
+  ],
+  "icon": null
+ },
+ "Mojo: Frog Shrooms": {
+  "ids": [
+   705851
+  ],
+  "icon": null
+ },
+ "Mojo: Jungle Thistle": {
+  "ids": [
+   500472
+  ],
+  "icon": null
+ },
+ "Mordok Passive": {
+  "ids": [
+   712347
+  ],
+  "icon": null
+ },
+ "Muffled Cries": {
+  "ids": [
+   806471
+  ],
+  "icon": null
+ },
+ "My Gods Are Forever": {
+  "ids": [
+   503702
+  ],
+  "icon": null
+ },
+ "Mystical Hexes": {
+  "ids": [
+   707406
+  ],
+  "icon": null
+ },
+ "Natural Alchemist": {
+  "ids": [
+   536213
+  ],
+  "icon": null
+ },
+ "Offhand Attack": {
+  "ids": [
+   805343
+  ],
+  "icon": null
+ },
+ "Pain": {
+  "ids": [
+   706446
+  ],
+  "icon": null
+ },
+ "Panther Talons": {
+  "ids": [
+   705944
+  ],
+  "icon": null
+ },
+ "Panther's Pounce": {
+  "ids": [
+   802981
+  ],
+  "icon": null
+ },
+ "Pernicious": {
+  "ids": [
+   302892
+  ],
+  "icon": null
+ },
+ "Plentiful Potions": {
+  "ids": [
+   803463
+  ],
+  "icon": null
+ },
+ "Potent Mojo": {
+  "ids": [
+   712311
+  ],
+  "icon": null
+ },
+ "Potion Boss": {
+  "ids": [
+   561072
+  ],
+  "icon": null
+ },
+ "Potion Slinger": {
+  "ids": [
+   705862
+  ],
+  "icon": null
+ },
+ "Potion Toss": {
+  "ids": [
+   801661
+  ],
+  "icon": null
+ },
+ "Potion Toss and Splash Potion CD Reset": {
+  "ids": [
+   500527
+  ],
+  "icon": null
+ },
+ "Power Wuju": {
+  "ids": [
+   707671
+  ],
+  "icon": null
+ },
+ "Power of Pa'ku": {
+  "ids": [
+   802213
+  ],
+  "icon": null
+ },
+ "Predator's Leap": {
+  "ids": [
+   804847
+  ],
+  "icon": null
+ },
+ "Presence of the Loa": {
+  "ids": [
+   572871
+  ],
+  "icon": null
+ },
+ "Primordial Resolve": {
+  "ids": [
+   801431
+  ],
+  "icon": null
+ },
+ "Primordial Synergy": {
+  "ids": [
+   705946
+  ],
+  "icon": null
+ },
+ "Prolonged Malice": {
+  "ids": [
+   704505
+  ],
+  "icon": null
+ },
+ "Pterodax Saliva": {
+  "ids": [
+   806655
+  ],
+  "icon": null
+ },
+ "Pterrordax": {
+  "ids": [
+   706447
+  ],
+  "icon": null
+ },
+ "Puppeteer's Grasp": {
+  "ids": [
+   706552
+  ],
+  "icon": null
+ },
+ "Puppeteer's Threads": {
+  "ids": [
+   92084
+  ],
+  "icon": null
+ },
+ "Puppeteer\u2019s Threads": {
+  "ids": [
+   572836
+  ],
+  "icon": null
+ },
+ "Quick Voodoo": {
+  "ids": [
+   705854
+  ],
+  "icon": null
+ },
+ "Quickened Curses": {
+  "ids": [
+   705920
+  ],
+  "icon": null
+ },
+ "REUSE THIS FOR WD": {
+  "ids": [
+   707166
+  ],
+  "icon": null
+ },
+ "Rage Brew": {
+  "ids": [
+   503750
+  ],
+  "icon": null
+ },
+ "Rage of Bethekk": {
+  "ids": [
+   801672
+  ],
+  "icon": null
+ },
+ "Rage of Rezan": {
+  "ids": [
+   802214
+  ],
+  "icon": null
+ },
+ "Rallying Roar": {
+  "ids": [
+   801599
+  ],
+  "icon": null
+ },
+ "Ramming Horn": {
+  "ids": [
+   806644
+  ],
+  "icon": null
+ },
+ "Rampaging": {
+  "ids": [
+   505154
+  ],
+  "icon": null
+ },
+ "Raptor Mastery": {
+  "ids": [
+   705933
+  ],
+  "icon": null
+ },
+ "Raptor Pens": {
+  "ids": [
+   705930
+  ],
+  "icon": null
+ },
+ "Raptor's Charge": {
+  "ids": [
+   806641
+  ],
+  "icon": null
+ },
+ "Raptor's Speed": {
+  "ids": [
+   801214
+  ],
+  "icon": null
+ },
+ "Raptor's Speed Slow dispel effect": {
+  "ids": [
+   503734
+  ],
+  "icon": null
+ },
+ "Raptorblood Brew": {
+  "ids": [
+   503752
+  ],
+  "icon": null
+ },
+ "Recipe: Blood Frog": {
+  "ids": [
+   807043
+  ],
+  "icon": null
+ },
+ "Reclaim Soul": {
+  "ids": [
+   801796
+  ],
+  "icon": null
+ },
+ "Reclamation": {
+  "ids": [
+   806288
+  ],
+  "icon": null
+ },
+ "Regenerator": {
+  "ids": [
+   705865
+  ],
+  "icon": null
+ },
+ "Rejuvenating Mojo": {
+  "ids": [
+   572325
+  ],
+  "icon": null
+ },
+ "Residual Energy": {
+  "ids": [
+   706543
+  ],
+  "icon": null
+ },
+ "Resourceful Wuju": {
+  "ids": [
+   578344
+  ],
+  "icon": null
+ },
+ "Revitalize": {
+  "ids": [
+   503800
+  ],
+  "icon": null
+ },
+ "Rite of the Loa": {
+  "ids": [
+   575025
+  ],
+  "icon": null
+ },
+ "Ritual Hexing": {
+  "ids": [
+   705840
+  ],
+  "icon": null
+ },
+ "Rogue Spirits": {
+  "ids": [
+   524700
+  ],
+  "icon": null
+ },
+ "Seeker": {
+  "ids": [
+   705880
+  ],
+  "icon": null
+ },
+ "Sen'jin's Apprentice": {
+  "ids": [
+   681199
+  ],
+  "icon": null
+ },
+ "Sen'jin's Disciple": {
+  "ids": [
+   504430
+  ],
+  "icon": null
+ },
+ "Sen'jin's Presence": {
+  "ids": [
+   560544
+  ],
+  "icon": null
+ },
+ "Sen'jin's Swiftness": {
+  "ids": [
+   504425
+  ],
+  "icon": null
+ },
+ "Sen'jin's Wisdom": {
+  "ids": [
+   504774
+  ],
+  "icon": null
+ },
+ "Sentry Ward": {
+  "ids": [
+   504646
+  ],
+  "icon": null
+ },
+ "Serene Idol": {
+  "ids": [
+   504759
+  ],
+  "icon": null
+ },
+ "Serpent Beam": {
+  "ids": [
+   802900
+  ],
+  "icon": null
+ },
+ "Serpent Beam Deprecated": {
+  "ids": [
+   500017
+  ],
+  "icon": null
+ },
+ "Serpent Handler": {
+  "ids": [
+   680895
+  ],
+  "icon": null
+ },
+ "Serpent Style": {
+  "ids": [
+   503705
+  ],
+  "icon": null
+ },
+ "Serpent Ward": {
+  "ids": [
+   500960
+  ],
+  "icon": null
+ },
+ "Serpent Ward Attack": {
+  "ids": [
+   573055
+  ],
+  "icon": null
+ },
+ "Serpent's Guile": {
+  "ids": [
+   705928
+  ],
+  "icon": null
+ },
+ "Shadow Avatar": {
+  "ids": [
+   705943
+  ],
+  "icon": null
+ },
+ "Shadow Effigy": {
+  "ids": [
+   504761
+  ],
+  "icon": null
+ },
+ "Shadow Enchantments": {
+  "ids": [
+   300662
+  ],
+  "icon": null
+ },
+ "Shadow Hemorrhage": {
+  "ids": [
+   706445
+  ],
+  "icon": null
+ },
+ "Shadow High": {
+  "ids": [
+   706509
+  ],
+  "icon": null
+ },
+ "Shadow Hunter's Glaive": {
+  "ids": [
+   801189
+  ],
+  "icon": null
+ },
+ "Shadow Mark Stalked": {
+  "ids": [
+   805300
+  ],
+  "icon": null
+ },
+ "Shadow Power": {
+  "ids": [
+   707161
+  ],
+  "icon": null
+ },
+ "Shadow Puppet": {
+  "ids": [
+   801797
+  ],
+  "icon": null
+ },
+ "Shadow Puppets": {
+  "ids": [
+   500015
+  ],
+  "icon": null
+ },
+ "Shadow Resistance": {
+  "ids": [
+   560006
+  ],
+  "icon": null
+ },
+ "Shadowflare": {
+  "ids": [
+   801669
+  ],
+  "icon": null
+ },
+ "Shadowhunter": {
+  "ids": [
+   92086
+  ],
+  "icon": null
+ },
+ "Shadowhunting": {
+  "ids": [
+   802623
+  ],
+  "icon": null
+ },
+ "Shadowhunting - Level 20 Passive": {
+  "ids": [
+   807495
+  ],
+  "icon": null
+ },
+ "Shadowhunting Spirit": {
+  "ids": [
+   561065
+  ],
+  "icon": null
+ },
+ "Shadowhunting Spirit Trigger": {
+  "ids": [
+   561066
+  ],
+  "icon": null
+ },
+ "Shadowhunting Witch Doctor Owned Aura Condition": {
+  "ids": [
+   681269
+  ],
+  "icon": null
+ },
+ "Shadowstalker": {
+  "ids": [
+   807040
+  ],
+  "icon": null
+ },
+ "Shattering Stomp": {
+  "ids": [
+   801604
+  ],
+  "icon": null
+ },
+ "Shrink Ally": {
+  "ids": [
+   806282
+  ],
+  "icon": null
+ },
+ "Shrinking Jinx": {
+  "ids": [
+   806285
+  ],
+  "icon": null
+ },
+ "Shroom Trip": {
+  "ids": [
+   801172
+  ],
+  "icon": null
+ },
+ "Slicing Talon": {
+  "ids": [
+   806642
+  ],
+  "icon": null
+ },
+ "Slicing Talon Reset": {
+  "ids": [
+   680913
+  ],
+  "icon": null
+ },
+ "Slightly Dizzy": {
+  "ids": [
+   804410
+  ],
+  "icon": null
+ },
+ "Slither": {
+  "ids": [
+   500947
+  ],
+  "icon": null
+ },
+ "Slither root dispel": {
+  "ids": [
+   300775
+  ],
+  "icon": null
+ },
+ "Slow Poison": {
+  "ids": [
+   707538
+  ],
+  "icon": null
+ },
+ "Sluggish": {
+  "ids": [
+   500974
+  ],
+  "icon": null
+ },
+ "Snake Oil": {
+  "ids": [
+   704156
+  ],
+  "icon": null
+ },
+ "Soldier of Bethekk": {
+  "ids": [
+   804642
+  ],
+  "icon": null
+ },
+ "Soldier of Bwonsamdi": {
+  "ids": [
+   804644
+  ],
+  "icon": null
+ },
+ "Soldier of Gonk": {
+  "ids": [
+   681194
+  ],
+  "icon": null
+ },
+ "Soldier of Hir'eek": {
+  "ids": [
+   804643
+  ],
+  "icon": null
+ },
+ "Soldier of Sseratus": {
+  "ids": [
+   804641
+  ],
+  "icon": null
+ },
+ "Soothing Juju": {
+  "ids": [
+   806130
+  ],
+  "icon": null
+ },
+ "Soul Channel": {
+  "ids": [
+   807045
+  ],
+  "icon": null
+ },
+ "Soul Consumption": {
+  "ids": [
+   803265
+  ],
+  "icon": null
+ },
+ "Soul Feeder": {
+  "ids": [
+   572335
+  ],
+  "icon": null
+ },
+ "Soul Marionette": {
+  "ids": [
+   704243
+  ],
+  "icon": null
+ },
+ "Soul Shield": {
+  "ids": [
+   706511
+  ],
+  "icon": null
+ },
+ "Soul of Bwonsamdi": {
+  "ids": [
+   503595
+  ],
+  "icon": null
+ },
+ "Speed Brewer": {
+  "ids": [
+   705858
+  ],
+  "icon": null
+ },
+ "Speed of the Panther": {
+  "ids": [
+   503711
+  ],
+  "icon": null
+ },
+ "Spellburn": {
+  "ids": [
+   500185
+  ],
+  "icon": null
+ },
+ "Spice Man": {
+  "ids": [
+   572301
+  ],
+  "icon": null
+ },
+ "Spice: Earthroot": {
+  "ids": [
+   504424
+  ],
+  "icon": null
+ },
+ "Spice: Peacebloom": {
+  "ids": [
+   803274
+  ],
+  "icon": null
+ },
+ "Spirit": {
+  "ids": [
+   561067
+  ],
+  "icon": null
+ },
+ "Spirit 1 Stack Remover": {
+  "ids": [
+   505184
+  ],
+  "icon": null
+ },
+ "Spirit 5 Stack Applier": {
+  "ids": [
+   504689
+  ],
+  "icon": null
+ },
+ "Spirit Eclipse": {
+  "ids": [
+   801607
+  ],
+  "icon": null
+ },
+ "Spirit Eclipse Explosion": {
+  "ids": [
+   802712
+  ],
+  "icon": null
+ },
+ "Spirit Five Stack Visual": {
+  "ids": [
+   561382
+  ],
+  "icon": null
+ },
+ "Spirit Flow": {
+  "ids": [
+   805299
+  ],
+  "icon": null
+ },
+ "Spirit Four Stack Visual": {
+  "ids": [
+   561381
+  ],
+  "icon": null
+ },
+ "Spirit Glaive": {
+  "ids": [
+   806289
+  ],
+  "icon": null
+ },
+ "Spirit Heal": {
+  "ids": [
+   560747
+  ],
+  "icon": null
+ },
+ "Spirit Healer": {
+  "ids": [
+   560280
+  ],
+  "icon": null
+ },
+ "Spirit Hidden SLS2": {
+  "ids": [
+   561299
+  ],
+  "icon": null
+ },
+ "Spirit Hidden SLS3": {
+  "ids": [
+   561197
+  ],
+  "icon": null
+ },
+ "Spirit Hidden SLS4": {
+  "ids": [
+   561361
+  ],
+  "icon": null
+ },
+ "Spirit Hunting": {
+  "ids": [
+   707504
+  ],
+  "icon": null
+ },
+ "Spirit Idol": {
+  "ids": [
+   500958
+  ],
+  "icon": null
+ },
+ "Spirit Link Idol": {
+  "ids": [
+   500993
+  ],
+  "icon": null
+ },
+ "Spirit One Stack Visual": {
+  "ids": [
+   561378
+  ],
+  "icon": null
+ },
+ "Spirit Out Of The Bottle": {
+  "ids": [
+   301175
+  ],
+  "icon": null
+ },
+ "Spirit Shock": {
+  "ids": [
+   806294
+  ],
+  "icon": null
+ },
+ "Spirit Shroud": {
+  "ids": [
+   706554
+  ],
+  "icon": null
+ },
+ "Spirit Striker": {
+  "ids": [
+   806286
+  ],
+  "icon": null
+ },
+ "Spirit Three Stack Visual": {
+  "ids": [
+   561380
+  ],
+  "icon": null
+ },
+ "Spirit Two Stack Visual": {
+  "ids": [
+   561379
+  ],
+  "icon": null
+ },
+ "Spirit Visual Stack Checker": {
+  "ids": [
+   561298
+  ],
+  "icon": null
+ },
+ "Spirit Volley": {
+  "ids": [
+   503712
+  ],
+  "icon": null
+ },
+ "Spirit Volley CDR": {
+  "ids": [
+   504584
+  ],
+  "icon": null
+ },
+ "Spirit Walker": {
+  "ids": [
+   504459
+  ],
+  "icon": null
+ },
+ "Spirit Warden": {
+  "ids": [
+   503774
+  ],
+  "icon": null
+ },
+ "Spirit Wuju": {
+  "ids": [
+   560294
+  ],
+  "icon": null
+ },
+ "Spirit in a Bottle": {
+  "ids": [
+   801696
+  ],
+  "icon": null
+ },
+ "Spirit's Refuge": {
+  "ids": [
+   803696
+  ],
+  "icon": null
+ },
+ "Spiritual Devotee": {
+  "ids": [
+   503727
+  ],
+  "icon": null
+ },
+ "Spiritual Traditions": {
+  "ids": [
+   705911
+  ],
+  "icon": null
+ },
+ "Splash On 'Em": {
+  "ids": [
+   550002
+  ],
+  "icon": null
+ },
+ "Splash Potion": {
+  "ids": [
+   802710
+  ],
+  "icon": null
+ },
+ "Splash Potion: Bloodthistle": {
+  "ids": [
+   803271
+  ],
+  "icon": null
+ },
+ "Splash Potion: Fish Oil": {
+  "ids": [
+   803273
+  ],
+  "icon": null
+ },
+ "Splash Potion: Frog Bones": {
+  "ids": [
+   803699
+  ],
+  "icon": null
+ },
+ "Splash Potion: Jungle Shrooms": {
+  "ids": [
+   803698
+  ],
+  "icon": null
+ },
+ "Staff of the Coven": {
+  "ids": [
+   806563
+  ],
+  "icon": null
+ },
+ "Stasis": {
+  "ids": [
+   801677
+  ],
+  "icon": null
+ },
+ "Stasis Ward": {
+  "ids": [
+   801678
+  ],
+  "icon": null
+ },
+ "Step of the Panther": {
+  "ids": [
+   801679
+  ],
+  "icon": null
+ },
+ "Stranglethorn Style": {
+  "ids": [
+   504458
+  ],
+  "icon": null
+ },
+ "Strength of Da Loa": {
+  "ids": [
+   300871
+  ],
+  "icon": null
+ },
+ "Strike A Deal": {
+  "ids": [
+   704241
+  ],
+  "icon": null
+ },
+ "Strike of the Gods": {
+  "ids": [
+   302531
+  ],
+  "icon": null
+ },
+ "Struck From The Shadows": {
+  "ids": [
+   705891
+  ],
+  "icon": null
+ },
+ "Swift Idol": {
+  "ids": [
+   505194
+  ],
+  "icon": null
+ },
+ "Swooping Saviour": {
+  "ids": [
+   806591
+  ],
+  "icon": null
+ },
+ "Tazdingo!": {
+  "ids": [
+   504464
+  ],
+  "icon": null
+ },
+ "Terrifying Screech": {
+  "ids": [
+   801611
+  ],
+  "icon": null
+ },
+ "The Path to Zuldazar": {
+  "ids": [
+   302529
+  ],
+  "icon": null
+ },
+ "The Price of Power": {
+  "ids": [
+   705916
+  ],
+  "icon": null
+ },
+ "The True God": {
+  "ids": [
+   681233
+  ],
+  "icon": null
+ },
+ "The True Gods": {
+  "ids": [
+   525390
+  ],
+  "icon": null
+ },
+ "The True Gods (Pet Forcecast)": {
+  "ids": [
+   525391
+  ],
+  "icon": null
+ },
+ "The True Gods (Pet Trigger)": {
+  "ids": [
+   525392
+  ],
+  "icon": null
+ },
+ "The True Spirit": {
+  "ids": [
+   802268
+  ],
+  "icon": null
+ },
+ "Threatening Roar": {
+  "ids": [
+   806645
+  ],
+  "icon": null
+ },
+ "Tiki Splash": {
+  "ids": [
+   500053
+  ],
+  "icon": null
+ },
+ "Torta's Blessing": {
+  "ids": [
+   504423
+  ],
+  "icon": null
+ },
+ "Totem of Hir'eek DEPRECATED": {
+  "ids": [
+   704507
+  ],
+  "icon": null
+ },
+ "Touch of Sseratus": {
+  "ids": [
+   525385
+  ],
+  "icon": null
+ },
+ "Touch of Torta": {
+  "ids": [
+   802216
+  ],
+  "icon": null
+ },
+ "Touch of the Spirits": {
+  "ids": [
+   578295
+  ],
+  "icon": null
+ },
+ "Touched By Da Loa": {
+  "ids": [
+   504428
+  ],
+  "icon": null
+ },
+ "Trapped Spirit": {
+  "ids": [
+   504778
+  ],
+  "icon": null
+ },
+ "Trapped Spirits": {
+  "ids": [
+   504452
+  ],
+  "icon": null
+ },
+ "True Brew": {
+  "ids": [
+   705869
+  ],
+  "icon": null
+ },
+ "Umbral Glaive": {
+  "ids": [
+   801673
+  ],
+  "icon": null
+ },
+ "Unstable Concoction": {
+  "ids": [
+   802487
+  ],
+  "icon": null
+ },
+ "Unstable Concoction Hidden Stacker Passive": {
+  "ids": [
+   802772
+  ],
+  "icon": null
+ },
+ "Unstable Concoction Potency": {
+  "ids": [
+   802746
+  ],
+  "icon": null
+ },
+ "Veil of Darkness": {
+  "ids": [
+   524670
+  ],
+  "icon": null
+ },
+ "Village Wisdom": {
+  "ids": [
+   680882
+  ],
+  "icon": null
+ },
+ "Viper Ward": {
+  "ids": [
+   500541
+  ],
+  "icon": null
+ },
+ "Virulency: Spectral Decay": {
+  "ids": [
+   802907
+  ],
+  "icon": null
+ },
+ "Vitality of Dambala": {
+  "ids": [
+   802209
+  ],
+  "icon": null
+ },
+ "Vitality of Sseratus": {
+  "ids": [
+   802208
+  ],
+  "icon": null
+ },
+ "Vivacious Brews": {
+  "ids": [
+   706248
+  ],
+  "icon": null
+ },
+ "Voice of Bwonsamdi": {
+  "ids": [
+   801716
+  ],
+  "icon": null
+ },
+ "Voice of Bwonsamdi Transform": {
+  "ids": [
+   537222
+  ],
+  "icon": null
+ },
+ "Vol'jin's Blessing": {
+  "ids": [
+   706577
+  ],
+  "icon": null
+ },
+ "Vol'jin's Legacy": {
+  "ids": [
+   705924
+  ],
+  "icon": null
+ },
+ "Vol'jin's Vigil": {
+  "ids": [
+   504465
+  ],
+  "icon": null
+ },
+ "Vol'jin's Way": {
+  "ids": [
+   504572
+  ],
+  "icon": null
+ },
+ "Vol\u2019jin\u2019s Vigil": {
+  "ids": [
+   802097
+  ],
+  "icon": null
+ },
+ "Voodoo Bolt": {
+  "ids": [
+   501188
+  ],
+  "icon": null
+ },
+ "Voodoo Cauldron": {
+  "ids": [
+   504418
+  ],
+  "icon": null
+ },
+ "Voodoo Creep": {
+  "ids": [
+   300991
+  ],
+  "icon": null
+ },
+ "Voodoo Effigy": {
+  "ids": [
+   572840
+  ],
+  "icon": null
+ },
+ "Voodoo Fire": {
+  "ids": [
+   802262
+  ],
+  "icon": null
+ },
+ "Voodoo Hunger": {
+  "ids": [
+   705942
+  ],
+  "icon": null
+ },
+ "Voodoo Idol": {
+  "ids": [
+   501076
+  ],
+  "icon": null
+ },
+ "Voodoo Mind": {
+  "ids": [
+   504462
+  ],
+  "icon": null
+ },
+ "Voodoo Puddle": {
+  "ids": [
+   803200
+  ],
+  "icon": null
+ },
+ "Voodoo Slam": {
+  "ids": [
+   302532
+  ],
+  "icon": null
+ },
+ "Voodoo Spirits": {
+  "ids": [
+   704511
+  ],
+  "icon": null
+ },
+ "Voodoo Strings": {
+  "ids": [
+   705910
+  ],
+  "icon": null
+ },
+ "Voodoo Unleashed": {
+  "ids": [
+   504607
+  ],
+  "icon": null
+ },
+ "Voodoo Visions": {
+  "ids": [
+   704509
+  ],
+  "icon": null
+ },
+ "Voodoo Ward": {
+  "ids": [
+   500013
+  ],
+  "icon": null
+ },
+ "Voodoo Wrath": {
+  "ids": [
+   806511
+  ],
+  "icon": null
+ },
+ "WD - Avatar Scaling, Ptero": {
+  "ids": [
+   806640
+  ],
+  "icon": null
+ },
+ "WD - Avatar Scaling, Raptor": {
+  "ids": [
+   806637
+  ],
+  "icon": null
+ },
+ "WD - Avatar Scaling, Steg": {
+  "ids": [
+   806638
+  ],
+  "icon": null
+ },
+ "WD Diemetradon": {
+  "ids": [
+   805996
+  ],
+  "icon": null
+ },
+ "WD Ingredient Blocker": {
+  "ids": [
+   800524
+  ],
+  "icon": null
+ },
+ "WD Ingredient Blocker Delay Applier": {
+  "ids": [
+   802768
+  ],
+  "icon": null
+ },
+ "WD Raptor": {
+  "ids": [
+   805995
+  ],
+  "icon": null
+ },
+ "WD Saurid": {
+  "ids": [
+   805328
+  ],
+  "icon": null
+ },
+ "Waning Jinx": {
+  "ids": [
+   803328
+  ],
+  "icon": null
+ },
+ "Waning Wuju": {
+  "ids": [
+   803495
+  ],
+  "icon": null
+ },
+ "War Golem": {
+  "ids": [
+   800330
+  ],
+  "icon": null
+ },
+ "War Raptor": {
+  "ids": [
+   706644
+  ],
+  "icon": null
+ },
+ "Ward Attack": {
+  "ids": [
+   500156
+  ],
+  "icon": null
+ },
+ "Wardmaster": {
+  "ids": [
+   705898
+  ],
+  "icon": null
+ },
+ "Wholly Devoted": {
+  "ids": [
+   705905
+  ],
+  "icon": null
+ },
+ "Wings Granted": {
+  "ids": [
+   802925
+  ],
+  "icon": null
+ },
+ "Witch Doc Bind Avatar Buff": {
+  "ids": [
+   806592
+  ],
+  "icon": null
+ },
+ "Witch Doctor (Brewing)": {
+  "ids": [
+   561224
+  ],
+  "icon": null
+ },
+ "Witch Doctor Diemetradon Scaling": {
+  "ids": [
+   805994
+  ],
+  "icon": null
+ },
+ "Witch Doctor Instant Pet Scaling / Heal": {
+  "ids": [
+   524764
+  ],
+  "icon": null
+ },
+ "Witch Doctor Minion Scaling Applier": {
+  "ids": [
+   805991
+  ],
+  "icon": null
+ },
+ "Witch Doctor Pet Periodic Scaling Trigger": {
+  "ids": [
+   524763
+  ],
+  "icon": null
+ },
+ "Witch Doctor Pet Scaling Aura": {
+  "ids": [
+   524762
+  ],
+  "icon": null
+ },
+ "Witch Doctor Pet Scaling Negative Condition Aura": {
+  "ids": [
+   524761
+  ],
+  "icon": null
+ },
+ "Witch Doctor Raptor Scaling": {
+  "ids": [
+   805993
+  ],
+  "icon": null
+ },
+ "Witch Doctor Saurid Scaling": {
+  "ids": [
+   805992
+  ],
+  "icon": null
+ },
+ "Witch Doctor Saurid or Raptor": {
+  "ids": [
+   806653
+  ],
+  "icon": null
+ },
+ "Wizened": {
+  "ids": [
+   705903
+  ],
+  "icon": null
+ },
+ "Zalazane's Malice": {
+  "ids": [
+   705902
+  ],
+  "icon": null
+ },
+ "Zandalarian Brew": {
+  "ids": [
+   803276
+  ],
+  "icon": null
+ },
+ "Zandalarian Brew (NEEDS UPDAET)": {
+  "ids": [
+   802715
+  ],
+  "icon": null
+ },
+ "Zanza's Ire": {
+  "ids": [
+   801984
+  ],
+  "icon": null
+ },
+ "Zanza's Path": {
+  "ids": [
+   801591
+  ],
+  "icon": null
+ },
+ "Zanza's Wisdom": {
+  "ids": [
+   803268
+  ],
+  "icon": null
+ },
+ "ZeBulba Passive": {
+  "ids": [
+   707210
+  ],
+  "icon": null
+ },
+ "Zeal of Zanza": {
+  "ids": [
+   802217
+  ],
+  "icon": null
+ },
+ "Zulian Claws": {
+  "ids": [
+   704242
+  ],
+  "icon": null
+ }
+}

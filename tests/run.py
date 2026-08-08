@@ -359,6 +359,34 @@ def showgcd_of(d):
     return None
 
 
+def inv_names_for(cls):
+    """Every ability name in the class inventory, for suffix disambiguation."""
+    p = class_data(f"abilities-{cls.slug}.md")
+    out = set()
+    if os.path.exists(p):
+        for line in open(p, encoding="utf-8"):
+            if line.startswith("| ") and line.count("|") >= 6:
+                c = line.split("|")[1].strip()
+                if c and c != "Ability" and set(c) != {"-"}:
+                    out.add(c)
+    return out
+
+
+def off_gcd_match(d, off_gcd, known):
+    """The off-GCD name this display renders, or None.
+
+    Suffix matching can NEST: witch-doctor's "WD Brewing Utility Concoct
+    Rejuvenating Mojo" ends with the audited off-GCD name "Rejuvenating Mojo"
+    but is a different, on-GCD button (gcd_ms 1500 in spell-meta). So the
+    match is the LONGEST known name (audit + inventory) that fits the id
+    suffix, and only counts when that longest match is itself the off-GCD
+    one -- the check still never has to know the row naming.
+    """
+    best = max((a for a in (off_gcd | known) if d["id"].endswith(" " + a)),
+               key=len, default=None)
+    return best if best in off_gcd else None
+
+
 for cls, spec, name in PACKS:
     OFF_GCD = off_gcd_for(cls)
     if OFF_GCD is None:
@@ -372,12 +400,13 @@ for cls, spec, name in PACKS:
     # that is a phantom sweep every time you press something else. Which
     # abilities those are is scraped, not guessed: db.exil.es omits the GCD row
     # for them and audit_cds.py records it as `gcd: false`.
+    KNOWN = inv_names_for(cls)
     wrong = []
     for d in cd_triggered(pack):
         # display ids are "RM <Spec> <Row> <Ability>"; match on suffix so the
-        # check does not have to know the row naming.
-        ability = next((a for a in OFF_GCD if d["id"].endswith(" " + a)), None)
-        if ability and showgcd_of(d) is not False:
+        # check does not have to know the row naming. Longest-known-name wins
+        # so a nested name cannot borrow another ability's verdict.
+        if off_gcd_match(d, OFF_GCD, KNOWN) and showgcd_of(d) is not False:
             wrong.append(f"{d['id']} (off-GCD, but use_showgcd is on)")
     check(f"{name}: no off-GCD ability shows the global", not wrong,
           "\n".join(wrong[:8]))
@@ -386,7 +415,7 @@ for cls, spec, name in PACKS:
     # anti-clipping cue, which is the whole reason showgcd is on by default.
     missing = []
     for d in cd_triggered(pack):
-        if any(d["id"].endswith(" " + a) for a in OFF_GCD):
+        if off_gcd_match(d, OFF_GCD, KNOWN):
             continue
         if showgcd_of(d) is False:
             missing.append(f"{d['id']} (on-GCD, but use_showgcd is off)")

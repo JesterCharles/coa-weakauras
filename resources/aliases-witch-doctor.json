@@ -1,0 +1,17 @@
+{
+ "Army of the Loa": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited once by the Sidekick rotation blob (2026-08-02) in Brewing's burst line-up. ONE blob mention (the prose threshold) and no row under the name in db.exil.es, db.ascension.gg, the skillbook or the official talent tree. Unbuildable prose name; a future scrape that finds an id reopens it."
+ },
+ "Shadow Hemorrhage": {
+  "canonical": null,
+  "spell_id": 706445,
+  "why": "The blob's Brewing maintain bucket names it once (prose threshold). db.exil.es 706445 exists but has zero cost/gcd/cd and an EMPTY tooltip -- component shape, nothing a healer maintains; db.ascension.gg has no castable either. No Brewing rotation on the scraped page mentions it. Recorded unbuildable so it stops coming back as a fresh mystery."
+ },
+ "Zalazane's Malice": {
+  "canonical": "Hex of Malice",
+  "spell_id": 801693,
+  "why": "Sidekick's generated Voodoo rotation prose says 'keep Zalazane's Malice applied ... spread by Bad Juju/Hexfire', treating it as the DoT. The CoA skills tooltip for Zalazane's Malice (705902, Passive) reads 'Increases the damage of Hex of Malice by % and the duration of Jinxes by sec' -- a passive amplifier, not an applied debuff. The thing actually applied, spread and maintained is Hex of Malice (801693), which is the id a WeakAura can track."
+ }
+}

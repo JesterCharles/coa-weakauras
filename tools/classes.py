@@ -197,6 +197,13 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # First pin (0.1). WD Core is an empty skeleton (no imbue/engraving kit,
+    # no permanent pet, no alert survived requirements §5) -- the 4 are the
+    # Core group plus three merged all-spec Buffs leaves for the defensive
+    # windows (Vol'jin's Vigil, Dire Rage, Big Bad Voodoo) that hold the
+    # class gate alone, for the standing reason: buff icons are self-gating
+    # and a buff id is not something IsSpellKnown recognises.
+    "witch-doctor": 4,
 }
 
 
