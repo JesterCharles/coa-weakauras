@@ -1,0 +1,2348 @@
+{
+ "A Hero's Tale": {
+  "ids": [
+   705361
+  ],
+  "icon": null
+ },
+ "A Hero's Tale Trigger": {
+  "ids": [
+   520082
+  ],
+  "icon": null
+ },
+ "Accelerated Recovery Order Generation": {
+  "ids": [
+   704543
+  ],
+  "icon": null
+ },
+ "Advance": {
+  "ids": [
+   500170
+  ],
+  "icon": null
+ },
+ "Advance Scaler": {
+  "ids": [
+   801160
+  ],
+  "icon": null
+ },
+ "Aegis": {
+  "ids": [
+   705348
+  ],
+  "icon": null
+ },
+ "Ambition": {
+  "ids": [
+   806132
+  ],
+  "icon": null
+ },
+ "Ancestral Keg": {
+  "ids": [
+   570762
+  ],
+  "icon": null
+ },
+ "Apathetic About Death": {
+  "ids": [
+   804895
+  ],
+  "icon": null
+ },
+ "Apply Random Weak Tactical": {
+  "ids": [
+   802324
+  ],
+  "icon": null
+ },
+ "Arcing Strike (Offhand)": {
+  "ids": [
+   520080
+  ],
+  "icon": null
+ },
+ "Arena Master": {
+  "ids": [
+   300984
+  ],
+  "icon": null
+ },
+ "Assault Formation": {
+  "ids": [
+   803417
+  ],
+  "icon": null
+ },
+ "Assume Peak Posture": {
+  "ids": [
+   500344
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian": {
+  "ids": [
+   504701
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian: Battlemaster's Might": {
+  "ids": [
+   505333
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian: Guardian's Might": {
+  "ids": [
+   505186
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian: Motivation": {
+  "ids": [
+   506631
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian: Songs of a Soldier": {
+  "ids": [
+   505334
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian: Vanguard's Grandeur": {
+  "ids": [
+   506630
+  ],
+  "icon": null
+ },
+ "Auras of the Guardian: Vanguard's Might": {
+  "ids": [
+   506629
+  ],
+  "icon": null
+ },
+ "Axe Specialization": {
+  "ids": [
+   704326
+  ],
+  "icon": null
+ },
+ "Axe Training": {
+  "ids": [
+   704515
+  ],
+  "icon": null
+ },
+ "BIG SMACK": {
+  "ids": [
+   300981
+  ],
+  "icon": null
+ },
+ "Ballad of Dragonslayer": {
+  "ids": [
+   806001
+  ],
+  "icon": null
+ },
+ "Ballad of the Conqueror": {
+  "ids": [
+   801776
+  ],
+  "icon": null
+ },
+ "Ballad of the Dragonslayer": {
+  "ids": [
+   801772
+  ],
+  "icon": null
+ },
+ "Banner Boy": {
+  "ids": [
+   705358
+  ],
+  "icon": null
+ },
+ "Banner Lord": {
+  "ids": [
+   800322
+  ],
+  "icon": null
+ },
+ "Banner of Conquest": {
+  "ids": [
+   500261
+  ],
+  "icon": null
+ },
+ "Banner of Swiftness": {
+  "ids": [
+   500259
+  ],
+  "icon": null
+ },
+ "Bannerman": {
+  "ids": [
+   504144
+  ],
+  "icon": null
+ },
+ "Barbed Net": {
+  "ids": [
+   704165
+  ],
+  "icon": null
+ },
+ "Barbed Nets": {
+  "ids": [
+   560090
+  ],
+  "icon": null
+ },
+ "Bard's Harp": {
+  "ids": [
+   704439
+  ],
+  "icon": null
+ },
+ "Bard's Manuscript": {
+  "ids": [
+   704526
+  ],
+  "icon": null
+ },
+ "Bard's Might": {
+  "ids": [
+   572528
+  ],
+  "icon": null
+ },
+ "Bark Orders": {
+  "ids": [
+   800318
+  ],
+  "icon": null
+ },
+ "Bastion": {
+  "ids": [
+   802283
+  ],
+  "icon": null
+ },
+ "Bastion Slam": {
+  "ids": [
+   500268
+  ],
+  "icon": null
+ },
+ "Battle Bard": {
+  "ids": [
+   520086
+  ],
+  "icon": null
+ },
+ "Battle Drums": {
+  "ids": [
+   570759
+  ],
+  "icon": null
+ },
+ "Battle Rush": {
+  "ids": [
+   802197
+  ],
+  "icon": null
+ },
+ "Battle Strategist": {
+  "ids": [
+   705337
+  ],
+  "icon": null
+ },
+ "Battle Wary": {
+  "ids": [
+   705332
+  ],
+  "icon": null
+ },
+ "Battle-Inspired": {
+  "ids": [
+   560477
+  ],
+  "icon": null
+ },
+ "Battlefield Maneuvers": {
+  "ids": [
+   705349
+  ],
+  "icon": null
+ },
+ "Battlemaster": {
+  "ids": [
+   707411
+  ],
+  "icon": null
+ },
+ "Battlemaster: Axes (CD Reduc)": {
+  "ids": [
+   520638
+  ],
+  "icon": null
+ },
+ "Battlemaster: Polearms": {
+  "ids": [
+   704325
+  ],
+  "icon": null
+ },
+ "Bladed Bulwark": {
+  "ids": [
+   802891
+  ],
+  "icon": null
+ },
+ "Bloodlet": {
+  "ids": [
+   302587
+  ],
+  "icon": null
+ },
+ "Bloodletter": {
+  "ids": [
+   560093
+  ],
+  "icon": null
+ },
+ "Bloodletting": {
+  "ids": [
+   302585
+  ],
+  "icon": null
+ },
+ "Bonebreaker": {
+  "ids": [
+   705335
+  ],
+  "icon": null
+ },
+ "Brace": {
+  "ids": [
+   800313
+  ],
+  "icon": null
+ },
+ "Brace for Impact": {
+  "ids": [
+   300847
+  ],
+  "icon": null
+ },
+ "Brave Leader": {
+  "ids": [
+   504386
+  ],
+  "icon": null
+ },
+ "Bring Down The Hammer!": {
+  "ids": [
+   705379
+  ],
+  "icon": null
+ },
+ "Broad Sweep": {
+  "ids": [
+   805150
+  ],
+  "icon": null
+ },
+ "Broken and Defeated": {
+  "ids": [
+   504158
+  ],
+  "icon": null
+ },
+ "Brutal Slam": {
+  "ids": [
+   705321
+  ],
+  "icon": null
+ },
+ "Built Different": {
+  "ids": [
+   300545
+  ],
+  "icon": null
+ },
+ "Bulwark Rush": {
+  "ids": [
+   300536
+  ],
+  "icon": null
+ },
+ "Cadence of Battle": {
+  "ids": [
+   560476
+  ],
+  "icon": null
+ },
+ "Calculated Strike": {
+  "ids": [
+   705341
+  ],
+  "icon": null
+ },
+ "Call To Arms": {
+  "ids": [
+   804723
+  ],
+  "icon": null
+ },
+ "Cavalry Charge": {
+  "ids": [
+   804691
+  ],
+  "icon": null
+ },
+ "Cavalry Tactics": {
+  "ids": [
+   503631
+  ],
+  "icon": null
+ },
+ "Centurion Strike": {
+  "ids": [
+   802286
+  ],
+  "icon": null
+ },
+ "Champion": {
+  "ids": [
+   300972
+  ],
+  "icon": null
+ },
+ "Champion's Presence": {
+  "ids": [
+   520835
+  ],
+  "icon": null
+ },
+ "Chivalry": {
+  "ids": [
+   504149
+  ],
+  "icon": null
+ },
+ "Clanlord": {
+  "ids": [
+   706635
+  ],
+  "icon": null
+ },
+ "Clinch Brawler": {
+  "ids": [
+   707310
+  ],
+  "icon": null
+ },
+ "Close Combat": {
+  "ids": [
+   704514
+  ],
+  "icon": null
+ },
+ "CoA Aura - Guardian - Gladiator": {
+  "ids": [
+   887042
+  ],
+  "icon": null
+ },
+ "CoA Aura - Guardian - Inspiration": {
+  "ids": [
+   887041
+  ],
+  "icon": null
+ },
+ "CoA Aura - Guardian - Vanguard": {
+  "ids": [
+   887040
+  ],
+  "icon": null
+ },
+ "CoA Aura - Guardian Class": {
+  "ids": [
+   887006
+  ],
+  "icon": null
+ },
+ "Colossal Reprise": {
+  "ids": [
+   707311
+  ],
+  "icon": null
+ },
+ "Combat Poses": {
+  "ids": [
+   804896
+  ],
+  "icon": null
+ },
+ "Commanding Presence": {
+  "ids": [
+   500571
+  ],
+  "icon": null
+ },
+ "Confidence": {
+  "ids": [
+   806137
+  ],
+  "icon": null
+ },
+ "Counter Stance": {
+  "ids": [
+   501535
+  ],
+  "icon": null
+ },
+ "Cragmaker": {
+  "ids": [
+   705327
+  ],
+  "icon": null
+ },
+ "Crashing Force": {
+  "ids": [
+   705328
+  ],
+  "icon": null
+ },
+ "Crowd Pummeler": {
+  "ids": [
+   520148
+  ],
+  "icon": null
+ },
+ "Crush": {
+  "ids": [
+   800471
+  ],
+  "icon": null
+ },
+ "DEPRECATED": {
+  "ids": [
+   503214
+  ],
+  "icon": null
+ },
+ "Deadly Blow": {
+  "ids": [
+   706807
+  ],
+  "icon": null
+ },
+ "Death Ram Reset": {
+  "ids": [
+   802893
+  ],
+  "icon": null
+ },
+ "Death Sentence": {
+  "ids": [
+   704293
+  ],
+  "icon": null
+ },
+ "Defensive Pose": {
+  "ids": [
+   802293
+  ],
+  "icon": null
+ },
+ "Deflector": {
+  "ids": [
+   706336
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   704480
+  ],
+  "icon": null
+ },
+ "Destroy Standard": {
+  "ids": [
+   801503
+  ],
+  "icon": null
+ },
+ "Devour Essence": {
+  "ids": [
+   704425
+  ],
+  "icon": null
+ },
+ "Dirty Tactics": {
+  "ids": [
+   705325
+  ],
+  "icon": null
+ },
+ "Dissonance": {
+  "ids": [
+   505202
+  ],
+  "icon": null
+ },
+ "Dooby Omega Kick 3000": {
+  "ids": [
+   520132
+  ],
+  "icon": null
+ },
+ "Double Duty": {
+  "ids": [
+   504184
+  ],
+  "icon": null
+ },
+ "Dragonslayer": {
+  "ids": [
+   706333
+  ],
+  "icon": null
+ },
+ "Drums of Courage": {
+  "ids": [
+   587255
+  ],
+  "icon": null
+ },
+ "Drums of Cunning": {
+  "ids": [
+   587254
+  ],
+  "icon": null
+ },
+ "Duty": {
+  "ids": [
+   802305
+  ],
+  "icon": null
+ },
+ "Earthsplitter": {
+  "ids": [
+   805155
+  ],
+  "icon": null
+ },
+ "Easily Motivated": {
+  "ids": [
+   504251
+  ],
+  "icon": null
+ },
+ "Echoes of War": {
+  "ids": [
+   574338
+  ],
+  "icon": null
+ },
+ "Elegant Combat": {
+  "ids": [
+   524615
+  ],
+  "icon": null
+ },
+ "Elegant Combat Death Ram Reset": {
+  "ids": [
+   524606
+  ],
+  "icon": null
+ },
+ "Emperor's Decree": {
+  "ids": [
+   806139
+  ],
+  "icon": null
+ },
+ "Endurance": {
+  "ids": [
+   705339
+  ],
+  "icon": null
+ },
+ "Energize +50 energy": {
+  "ids": [
+   521225
+  ],
+  "icon": null
+ },
+ "Ensnared": {
+  "ids": [
+   802319
+  ],
+  "icon": null
+ },
+ "Envy": {
+  "ids": [
+   500345
+  ],
+  "icon": null
+ },
+ "Extend Press The Attack": {
+  "ids": [
+   806064
+  ],
+  "icon": null
+ },
+ "Extreme Speed": {
+  "ids": [
+   705371
+  ],
+  "icon": null
+ },
+ "Fearless": {
+  "ids": [
+   505199
+  ],
+  "icon": null
+ },
+ "Fearsome Leader": {
+  "ids": [
+   704414
+  ],
+  "icon": null
+ },
+ "Feats of Excellence": {
+  "ids": [
+   803691
+  ],
+  "icon": null
+ },
+ "Feats of Glory": {
+  "ids": [
+   803960
+  ],
+  "icon": null
+ },
+ "Feats of Honor": {
+  "ids": [
+   803959
+  ],
+  "icon": null
+ },
+ "Feats of Strength": {
+  "ids": [
+   503200
+  ],
+  "icon": null
+ },
+ "Field Commander": {
+  "ids": [
+   705320
+  ],
+  "icon": null
+ },
+ "Field Commander Trigger": {
+  "ids": [
+   562375
+  ],
+  "icon": null
+ },
+ "Final Verdict": {
+  "ids": [
+   500258
+  ],
+  "icon": null
+ },
+ "Final Verdict Reset": {
+  "ids": [
+   504744
+  ],
+  "icon": null
+ },
+ "Final Verdict Reset Passive": {
+  "ids": [
+   805152
+  ],
+  "icon": null
+ },
+ "Fine Plating": {
+  "ids": [
+   503797
+  ],
+  "icon": null
+ },
+ "Finish Them": {
+  "ids": [
+   8022921
+  ],
+  "icon": null
+ },
+ "Finish Them!": {
+  "ids": [
+   802292
+  ],
+  "icon": null
+ },
+ "Fire Protection": {
+  "ids": [
+   582533
+  ],
+  "icon": null
+ },
+ "Flexible Banners": {
+  "ids": [
+   705319
+  ],
+  "icon": null
+ },
+ "Footman's Call": {
+  "ids": [
+   705376
+  ],
+  "icon": null
+ },
+ "Footman's Calling": {
+  "ids": [
+   92105
+  ],
+  "icon": null
+ },
+ "Force Pet Cast Primal Charge": {
+  "ids": [
+   806548
+  ],
+  "icon": null
+ },
+ "Forceful Impact": {
+  "ids": [
+   705346
+  ],
+  "icon": null
+ },
+ "Formation Planner": {
+  "ids": [
+   301332
+  ],
+  "icon": null
+ },
+ "Fortified Bulwark": {
+  "ids": [
+   802189
+  ],
+  "icon": null
+ },
+ "Forward March": {
+  "ids": [
+   704424
+  ],
+  "icon": null
+ },
+ "Freedom": {
+  "ids": [
+   503222
+  ],
+  "icon": null
+ },
+ "Frontliner": {
+  "ids": [
+   504782
+  ],
+  "icon": null
+ },
+ "Gallant": {
+  "ids": [
+   705367
+  ],
+  "icon": null
+ },
+ "Gladiator Strike": {
+  "ids": [
+   802897
+  ],
+  "icon": null
+ },
+ "Glorious Arena": {
+  "ids": [
+   300983
+  ],
+  "icon": null
+ },
+ "Glorious Executioner": {
+  "ids": [
+   802303
+  ],
+  "icon": null
+ },
+ "Glory": {
+  "ids": [
+   92106
+  ],
+  "icon": null
+ },
+ "Glory of the Gladiator": {
+  "ids": [
+   300539
+  ],
+  "icon": null
+ },
+ "Grand Entrance": {
+  "ids": [
+   802870
+  ],
+  "icon": null
+ },
+ "Greater Fire Protection": {
+  "ids": [
+   582536
+  ],
+  "icon": null
+ },
+ "Greater Honor": {
+  "ids": [
+   680280
+  ],
+  "icon": null
+ },
+ "Ground Pound": {
+  "ids": [
+   805384
+  ],
+  "icon": null
+ },
+ "Guard": {
+  "ids": [
+   803895
+  ],
+  "icon": null
+ },
+ "Guardbreaker": {
+  "ids": [
+   504385
+  ],
+  "icon": null
+ },
+ "Hammer of Honor": {
+  "ids": [
+   705374
+  ],
+  "icon": null
+ },
+ "Hammer of Kings": {
+  "ids": [
+   803132
+  ],
+  "icon": null
+ },
+ "Hammer of the Law": {
+  "ids": [
+   704418
+  ],
+  "icon": null
+ },
+ "Hand of The King": {
+  "ids": [
+   705313
+  ],
+  "icon": null
+ },
+ "Harrowing Melody": {
+  "ids": [
+   572821
+  ],
+  "icon": null
+ },
+ "Harrowing Taste": {
+  "ids": [
+   572820
+  ],
+  "icon": null
+ },
+ "Heavy Blow": {
+  "ids": [
+   803129
+  ],
+  "icon": null
+ },
+ "Heavy Blow Energize": {
+  "ids": [
+   302538
+  ],
+  "icon": null
+ },
+ "Heavy Expert": {
+  "ids": [
+   803128
+  ],
+  "icon": null
+ },
+ "Heavy Strike": {
+  "ids": [
+   805154
+  ],
+  "icon": null
+ },
+ "Heavy Strikes": {
+  "ids": [
+   805153
+  ],
+  "icon": null
+ },
+ "Help!": {
+  "ids": [
+   524609
+  ],
+  "icon": null
+ },
+ "Hero's Decree": {
+  "ids": [
+   803964
+  ],
+  "icon": null
+ },
+ "Hero's March": {
+  "ids": [
+   801774
+  ],
+  "icon": null
+ },
+ "Hero's Tale Giga Trigger": {
+  "ids": [
+   524983
+  ],
+  "icon": null
+ },
+ "Heroic Effort": {
+  "ids": [
+   301057
+  ],
+  "icon": null
+ },
+ "Heroic Resolve": {
+  "ids": [
+   504910
+  ],
+  "icon": null
+ },
+ "Heroism": {
+  "ids": [
+   705323
+  ],
+  "icon": null
+ },
+ "Highwayman": {
+  "ids": [
+   704545
+  ],
+  "icon": null
+ },
+ "Hold the Line": {
+  "ids": [
+   803830
+  ],
+  "icon": null
+ },
+ "Honor": {
+  "ids": [
+   300856
+  ],
+  "icon": null
+ },
+ "Honorbound": {
+  "ids": [
+   803571
+  ],
+  "icon": null
+ },
+ "Impactful": {
+  "ids": [
+   300846
+  ],
+  "icon": null
+ },
+ "Impale": {
+  "ids": [
+   300844
+  ],
+  "icon": null
+ },
+ "Improved Feats of Strength": {
+  "ids": [
+   705360
+  ],
+  "icon": null
+ },
+ "Improved Motivating Strike": {
+  "ids": [
+   300535
+  ],
+  "icon": null
+ },
+ "Increase Shieldforge Duration": {
+  "ids": [
+   804120
+  ],
+  "icon": null
+ },
+ "Inculcation": {
+  "ids": [
+   804900
+  ],
+  "icon": null
+ },
+ "Inspiration": {
+  "ids": [
+   803958
+  ],
+  "icon": null
+ },
+ "Inspiration Decay": {
+  "ids": [
+   803967
+  ],
+  "icon": null
+ },
+ "Inspiring Fighter": {
+  "ids": [
+   573046
+  ],
+  "icon": null
+ },
+ "Inspiring Leader": {
+  "ids": [
+   505344
+  ],
+  "icon": null
+ },
+ "Inspiring Presence": {
+  "ids": [
+   503634
+  ],
+  "icon": null
+ },
+ "Inspiring Speech": {
+  "ids": [
+   503217
+  ],
+  "icon": null
+ },
+ "Intimidation": {
+  "ids": [
+   520652
+  ],
+  "icon": null
+ },
+ "Into The Fray": {
+  "ids": [
+   578293
+  ],
+  "icon": null
+ },
+ "Iron Guardian": {
+  "ids": [
+   705364
+  ],
+  "icon": null
+ },
+ "Jagged Reinforcement": {
+  "ids": [
+   653279
+  ],
+  "icon": null
+ },
+ "King's Guard": {
+  "ids": [
+   520284
+  ],
+  "icon": null
+ },
+ "King's Valor": {
+  "ids": [
+   802634
+  ],
+  "icon": null
+ },
+ "King's Valor DEPRECATED": {
+  "ids": [
+   800314
+  ],
+  "icon": null
+ },
+ "Knight's Calling": {
+  "ids": [
+   504151
+  ],
+  "icon": null
+ },
+ "Knight's Conviction": {
+  "ids": [
+   705369
+  ],
+  "icon": null
+ },
+ "Knight's Song": {
+  "ids": [
+   505228
+  ],
+  "icon": null
+ },
+ "Knighthood": {
+  "ids": [
+   806077
+  ],
+  "icon": null
+ },
+ "Knightly Demeanor": {
+  "ids": [
+   504148
+  ],
+  "icon": null
+ },
+ "Leading the March": {
+  "ids": [
+   704423
+  ],
+  "icon": null
+ },
+ "Legion Breaker": {
+  "ids": [
+   704538
+  ],
+  "icon": null
+ },
+ "Legion Commander": {
+  "ids": [
+   704535
+  ],
+  "icon": null
+ },
+ "Legion's Guard": {
+  "ids": [
+   704536
+  ],
+  "icon": null
+ },
+ "Legionnaire": {
+  "ids": [
+   504730
+  ],
+  "icon": null
+ },
+ "Lesser Ballad of the Dragonslayer": {
+  "ids": [
+   803562
+  ],
+  "icon": null
+ },
+ "Liberation": {
+  "ids": [
+   803963
+  ],
+  "icon": null
+ },
+ "Light Nets": {
+  "ids": [
+   704150
+  ],
+  "icon": null
+ },
+ "Line Formation": {
+  "ids": [
+   803130
+  ],
+  "icon": null
+ },
+ "Linebreaker": {
+  "ids": [
+   503114
+  ],
+  "icon": null
+ },
+ "Lionheart": {
+  "ids": [
+   531515
+  ],
+  "icon": null
+ },
+ "Little Drummer": {
+  "ids": [
+   706636
+  ],
+  "icon": null
+ },
+ "Lord of the Arena": {
+  "ids": [
+   802290
+  ],
+  "icon": null
+ },
+ "Mace Spec": {
+  "ids": [
+   712381
+  ],
+  "icon": null
+ },
+ "Mace Specialization": {
+  "ids": [
+   704324
+  ],
+  "icon": null
+ },
+ "Mace Training": {
+  "ids": [
+   705336
+  ],
+  "icon": null
+ },
+ "Magic Reinforcement": {
+  "ids": [
+   653280
+  ],
+  "icon": null
+ },
+ "Making an Entrance": {
+  "ids": [
+   504141
+  ],
+  "icon": null
+ },
+ "Might": {
+  "ids": [
+   300538
+  ],
+  "icon": null
+ },
+ "Mighty Steel": {
+  "ids": [
+   704422
+  ],
+  "icon": null
+ },
+ "Minstrel": {
+  "ids": [
+   704533
+  ],
+  "icon": null
+ },
+ "Momentum": {
+  "ids": [
+   504146
+  ],
+  "icon": null
+ },
+ "Motivating Strike": {
+  "ids": [
+   500174
+  ],
+  "icon": null
+ },
+ "Motivation": {
+  "ids": [
+   355780
+  ],
+  "icon": null
+ },
+ "Motivation: A Hero's Tale": {
+  "ids": [
+   520081
+  ],
+  "icon": null
+ },
+ "Motivation: Battlemaster's Might": {
+  "ids": [
+   805151
+  ],
+  "icon": null
+ },
+ "Motivation: Guardian's Might": {
+  "ids": [
+   704546
+  ],
+  "icon": null
+ },
+ "Motivation: Knight's Valor": {
+  "ids": [
+   800993
+  ],
+  "icon": null
+ },
+ "Motivation: Pulverizing": {
+  "ids": [
+   524797
+  ],
+  "icon": null
+ },
+ "Motivation: Vanguard's Grandeur": {
+  "ids": [
+   520231
+  ],
+  "icon": null
+ },
+ "Motivator": {
+  "ids": [
+   572882
+  ],
+  "icon": null
+ },
+ "Mow Them Down!": {
+  "ids": [
+   805158
+  ],
+  "icon": null
+ },
+ "Net Throw": {
+  "ids": [
+   802304
+  ],
+  "icon": null
+ },
+ "No Escape": {
+  "ids": [
+   802300
+  ],
+  "icon": null
+ },
+ "No Longer Reflective": {
+  "ids": [
+   504163
+  ],
+  "icon": null
+ },
+ "No Retreating!": {
+  "ids": [
+   504139
+  ],
+  "icon": null
+ },
+ "Offensive Pose": {
+  "ids": [
+   802282
+  ],
+  "icon": null
+ },
+ "One Man Army": {
+  "ids": [
+   805157
+  ],
+  "icon": null
+ },
+ "One True Champion": {
+  "ids": [
+   524816
+  ],
+  "icon": null
+ },
+ "One-Handed Mastery": {
+  "ids": [
+   300541
+  ],
+  "icon": null
+ },
+ "Opening Play": {
+  "ids": [
+   300533
+  ],
+  "icon": null
+ },
+ "Order In The Court": {
+  "ids": [
+   704417
+  ],
+  "icon": null
+ },
+ "Overwhelming Presence": {
+  "ids": [
+   712367
+  ],
+  "icon": null
+ },
+ "Paragon": {
+  "ids": [
+   706514
+  ],
+  "icon": null
+ },
+ "Paragon Smash": {
+  "ids": [
+   707138
+  ],
+  "icon": null
+ },
+ "Paragon Trigger": {
+  "ids": [
+   707139
+  ],
+  "icon": null
+ },
+ "Peril": {
+  "ids": [
+   524610
+  ],
+  "icon": null
+ },
+ "Pied Piper": {
+  "ids": [
+   504218
+  ],
+  "icon": null
+ },
+ "Piercing Blow": {
+  "ids": [
+   850009
+  ],
+  "icon": null
+ },
+ "Piercing Cry": {
+  "ids": [
+   520230
+  ],
+  "icon": null
+ },
+ "Pinned Down!": {
+  "ids": [
+   301252
+  ],
+  "icon": null
+ },
+ "Plate Buster": {
+  "ids": [
+   705333
+  ],
+  "icon": null
+ },
+ "Plate Mail": {
+  "ids": [
+   750
+  ],
+  "icon": null
+ },
+ "Poised Reinforcement": {
+  "ids": [
+   653278
+  ],
+  "icon": null
+ },
+ "Polearm Training": {
+  "ids": [
+   802299
+  ],
+  "icon": null
+ },
+ "Powerful Voice": {
+  "ids": [
+   705356
+  ],
+  "icon": null
+ },
+ "Press the Attack": {
+  "ids": [
+   704157
+  ],
+  "icon": null
+ },
+ "Press the Attack!": {
+  "ids": [
+   301216
+  ],
+  "icon": null
+ },
+ "Press the Line!": {
+  "ids": [
+   300542
+  ],
+  "icon": null
+ },
+ "Pulverize": {
+  "ids": [
+   800311
+  ],
+  "icon": null
+ },
+ "Pulverize Reset": {
+  "ids": [
+   802895
+  ],
+  "icon": null
+ },
+ "Pulverized": {
+  "ids": [
+   573068
+  ],
+  "icon": null
+ },
+ "Quaking": {
+  "ids": [
+   561825
+  ],
+  "icon": null
+ },
+ "Raise Shield": {
+  "ids": [
+   500168
+  ],
+  "icon": null
+ },
+ "Rallying": {
+  "ids": [
+   562373
+  ],
+  "icon": null
+ },
+ "Ram": {
+  "ids": [
+   802284
+  ],
+  "icon": null
+ },
+ "Ramster": {
+  "ids": [
+   705322
+  ],
+  "icon": null
+ },
+ "Reaper - Remove Underwalk": {
+  "ids": [
+   802187
+  ],
+  "icon": null
+ },
+ "Reclaim Standards": {
+  "ids": [
+   574339
+  ],
+  "icon": null
+ },
+ "Recovery": {
+  "ids": [
+   562374
+  ],
+  "icon": null
+ },
+ "Reflective Shield": {
+  "ids": [
+   300926
+  ],
+  "icon": null
+ },
+ "Reprisal": {
+  "ids": [
+   800316
+  ],
+  "icon": null
+ },
+ "Reset Death Ram": {
+  "ids": [
+   800288
+  ],
+  "icon": null
+ },
+ "Resilient": {
+  "ids": [
+   707137
+  ],
+  "icon": null
+ },
+ "Resilient Constitution": {
+  "ids": [
+   707140
+  ],
+  "icon": null
+ },
+ "Resolve": {
+  "ids": [
+   706806
+  ],
+  "icon": null
+ },
+ "Responsible Power": {
+  "ids": [
+   706517
+  ],
+  "icon": null
+ },
+ "Retaliation": {
+  "ids": [
+   582901
+  ],
+  "icon": null
+ },
+ "Retiarius": {
+  "ids": [
+   705338
+  ],
+  "icon": null
+ },
+ "Reverberations": {
+  "ids": [
+   300861
+  ],
+  "icon": null
+ },
+ "Royal Decree": {
+  "ids": [
+   705354
+  ],
+  "icon": null
+ },
+ "Seasoned Fighter": {
+  "ids": [
+   704421
+  ],
+  "icon": null
+ },
+ "Serenade Trigger": {
+  "ids": [
+   524693
+  ],
+  "icon": null
+ },
+ "Shield Challenge": {
+  "ids": [
+   500257
+  ],
+  "icon": null
+ },
+ "Shield Charge": {
+  "ids": [
+   802201
+  ],
+  "icon": null
+ },
+ "Shield Combatant": {
+  "ids": [
+   705381
+  ],
+  "icon": null
+ },
+ "Shield Toss": {
+  "ids": [
+   500461
+  ],
+  "icon": null
+ },
+ "Shield Tosser": {
+  "ids": [
+   500591
+  ],
+  "icon": null
+ },
+ "Shield Tossing": {
+  "ids": [
+   500590
+  ],
+  "icon": null
+ },
+ "Shield Unit": {
+  "ids": [
+   572158
+  ],
+  "icon": null
+ },
+ "Shield Wall": {
+  "ids": [
+   705370
+  ],
+  "icon": null
+ },
+ "Shield of Denial": {
+  "ids": [
+   704159
+  ],
+  "icon": null
+ },
+ "Shield's Up!": {
+  "ids": [
+   300977
+  ],
+  "icon": null
+ },
+ "Shieldbound": {
+  "ids": [
+   706515
+  ],
+  "icon": null
+ },
+ "Shieldforge": {
+  "ids": [
+   802195
+  ],
+  "icon": null
+ },
+ "Shieldlord\u2019s Strength": {
+  "ids": [
+   803738
+  ],
+  "icon": null
+ },
+ "Shoulder The Burden": {
+  "ids": [
+   572904
+  ],
+  "icon": null
+ },
+ "Show of Force": {
+  "ids": [
+   573047
+  ],
+  "icon": null
+ },
+ "Shrug It Off": {
+  "ids": [
+   802198
+  ],
+  "icon": null
+ },
+ "Soldier's Decree": {
+  "ids": [
+   806136
+  ],
+  "icon": null
+ },
+ "Song of Battle": {
+  "ids": [
+   572329
+  ],
+  "icon": null
+ },
+ "Song of Steel": {
+  "ids": [
+   704540
+  ],
+  "icon": null
+ },
+ "Song of Steel TO REWORK": {
+  "ids": [
+   704532
+  ],
+  "icon": null
+ },
+ "Sound of War": {
+  "ids": [
+   572611
+  ],
+  "icon": null
+ },
+ "Soundwave": {
+  "ids": [
+   705318
+  ],
+  "icon": null
+ },
+ "Spartan Kick": {
+  "ids": [
+   800312
+  ],
+  "icon": null
+ },
+ "Spartan Kick Knockback": {
+  "ids": [
+   302566
+  ],
+  "icon": null
+ },
+ "Spear Throw": {
+  "ids": [
+   500463
+  ],
+  "icon": null
+ },
+ "Spellcaster's Decree": {
+  "ids": [
+   806138
+  ],
+  "icon": null
+ },
+ "Spellwarding": {
+  "ids": [
+   562371
+  ],
+  "icon": null
+ },
+ "Spiked Reinforcement": {
+  "ids": [
+   653131
+  ],
+  "icon": null
+ },
+ "Spirit of Battle": {
+  "ids": [
+   504159
+  ],
+  "icon": null
+ },
+ "Stalwart": {
+  "ids": [
+   704413
+  ],
+  "icon": null
+ },
+ "Stand Behind Me": {
+  "ids": [
+   805159
+  ],
+  "icon": null
+ },
+ "Stand Tall, Walk Strong": {
+  "ids": [
+   705362
+  ],
+  "icon": null
+ },
+ "Stand Your Ground!": {
+  "ids": [
+   524981
+  ],
+  "icon": null
+ },
+ "Standard of Might": {
+  "ids": [
+   500602
+  ],
+  "icon": null
+ },
+ "Standard of Rallying": {
+  "ids": [
+   500263
+  ],
+  "icon": null
+ },
+ "Standard of Recovery": {
+  "ids": [
+   500248
+  ],
+  "icon": null
+ },
+ "Standard of Spellwarding": {
+  "ids": [
+   500547
+  ],
+  "icon": null
+ },
+ "Standard of Spellwarding Visual": {
+  "ids": [
+   500555
+  ],
+  "icon": null
+ },
+ "Standard of Supremacy": {
+  "ids": [
+   500299
+  ],
+  "icon": null
+ },
+ "Standard of Valiance": {
+  "ids": [
+   500274
+  ],
+  "icon": null
+ },
+ "Standing Tall!": {
+  "ids": [
+   561114
+  ],
+  "icon": null
+ },
+ "Steel Guardian": {
+  "ids": [
+   504147
+  ],
+  "icon": null
+ },
+ "Steel Riposte": {
+  "ids": [
+   300534
+  ],
+  "icon": null
+ },
+ "Strength In Unison": {
+  "ids": [
+   300860
+  ],
+  "icon": null
+ },
+ "Sturdy": {
+  "ids": [
+   706639
+  ],
+  "icon": null
+ },
+ "Sturdy Constitution": {
+  "ids": [
+   706334
+  ],
+  "icon": null
+ },
+ "Summoning Fatigue": {
+  "ids": [
+   807251
+  ],
+  "icon": null
+ },
+ "Sunder": {
+  "ids": [
+   500155
+  ],
+  "icon": null
+ },
+ "Supremacy": {
+  "ids": [
+   504140
+  ],
+  "icon": null
+ },
+ "Sword Specialization": {
+  "ids": [
+   704323
+  ],
+  "icon": null
+ },
+ "Sword Training": {
+  "ids": [
+   802297
+  ],
+  "icon": null
+ },
+ "Tactical Combat": {
+  "ids": [
+   504503
+  ],
+  "icon": null
+ },
+ "Tactical Strike": {
+  "ids": [
+   802294
+  ],
+  "icon": null
+ },
+ "Tank Stance Aura": {
+  "ids": [
+   807726
+  ],
+  "icon": null
+ },
+ "Tank Stance Damage Reduction + Threat": {
+  "ids": [
+   804299
+  ],
+  "icon": null
+ },
+ "Tempo": {
+  "ids": [
+   92107
+  ],
+  "icon": null
+ },
+ "Tendon Slash": {
+  "ids": [
+   501549
+  ],
+  "icon": null
+ },
+ "Tendon Slash DEPRECATED": {
+  "ids": [
+   802288
+  ],
+  "icon": null
+ },
+ "The Best Defense...": {
+  "ids": [
+   802803
+  ],
+  "icon": null
+ },
+ "The Green Tower": {
+  "ids": [
+   520235
+  ],
+  "icon": null
+ },
+ "Threat Redirector": {
+  "ids": [
+   572346
+  ],
+  "icon": null
+ },
+ "Thrill of Battle": {
+  "ids": [
+   803966
+  ],
+  "icon": null
+ },
+ "Titanic Oath": {
+  "ids": [
+   805580
+  ],
+  "icon": null
+ },
+ "Tower Formation": {
+  "ids": [
+   800317
+  ],
+  "icon": null
+ },
+ "Triumphant": {
+  "ids": [
+   707372
+  ],
+  "icon": null
+ },
+ "Tunnel Vision": {
+  "ids": [
+   800321
+  ],
+  "icon": null
+ },
+ "Turn The Blade": {
+  "ids": [
+   707170
+  ],
+  "icon": null
+ },
+ "Unscuffable": {
+  "ids": [
+   503837
+  ],
+  "icon": null
+ },
+ "Unyielding Faith DEPRECATED": {
+  "ids": [
+   706631
+  ],
+  "icon": null
+ },
+ "Unyielding Stand": {
+  "ids": [
+   500269
+  ],
+  "icon": null
+ },
+ "Upper Hand": {
+  "ids": [
+   802289
+  ],
+  "icon": null
+ },
+ "Val'Kyr Unalive Aura": {
+  "ids": [
+   713000
+  ],
+  "icon": null
+ },
+ "Valiance": {
+  "ids": [
+   562377
+  ],
+  "icon": null
+ },
+ "Valiance Energy": {
+  "ids": [
+   572881
+  ],
+  "icon": null
+ },
+ "Valiant Defender": {
+  "ids": [
+   582933
+  ],
+  "icon": null
+ },
+ "Valiant Effort": {
+  "ids": [
+   704517
+  ],
+  "icon": null
+ },
+ "Valiant Knight": {
+  "ids": [
+   582937
+  ],
+  "icon": null
+ },
+ "Valorous Hammer": {
+  "ids": [
+   525032
+  ],
+  "icon": null
+ },
+ "Valorous Strikes": {
+  "ids": [
+   524932
+  ],
+  "icon": null
+ },
+ "Vanguard": {
+  "ids": [
+   300842
+  ],
+  "icon": null
+ },
+ "Vanguard's Might": {
+  "ids": [
+   705345
+  ],
+  "icon": null
+ },
+ "Vanguard's Shield": {
+  "ids": [
+   804383
+  ],
+  "icon": null
+ },
+ "Vanguard's Shield Decrement": {
+  "ids": [
+   805740
+  ],
+  "icon": null
+ },
+ "Veteran of the Arena": {
+  "ids": [
+   705383
+  ],
+  "icon": null
+ },
+ "Veteran of the Third War": {
+  "ids": [
+   300540
+  ],
+  "icon": null
+ },
+ "Virtue": {
+  "ids": [
+   705372
+  ],
+  "icon": null
+ },
+ "Voice of an Angel": {
+  "ids": [
+   704420
+  ],
+  "icon": null
+ },
+ "Wailing Soul": {
+  "ids": [
+   804678
+  ],
+  "icon": null
+ },
+ "Walking Strong!": {
+  "ids": [
+   560516
+  ],
+  "icon": null
+ },
+ "War Drums": {
+  "ids": [
+   572529
+  ],
+  "icon": null
+ },
+ "War Standards": {
+  "ids": [
+   801506
+  ],
+  "icon": null
+ },
+ "War's Muse": {
+  "ids": [
+   505201
+  ],
+  "icon": null
+ },
+ "Warbringer's Manuscript": {
+  "ids": [
+   573281
+  ],
+  "icon": null
+ },
+ "Warmaster": {
+  "ids": [
+   300891
+  ],
+  "icon": null
+ },
+ "Warquake": {
+  "ids": [
+   800991
+  ],
+  "icon": null
+ },
+ "Warquake Visual Aura Hidden 2": {
+  "ids": [
+   802835
+  ],
+  "icon": null
+ },
+ "Waste No Movement": {
+  "ids": [
+   704516
+  ],
+  "icon": null
+ },
+ "Weak Defense": {
+  "ids": [
+   802322
+  ],
+  "icon": null
+ },
+ "Weak Point": {
+  "ids": [
+   300973
+  ],
+  "icon": null
+ },
+ "Weaponmaster Buff Applier": {
+  "ids": [
+   704349
+  ],
+  "icon": null
+ },
+ "Weighted Reinforcement": {
+  "ids": [
+   653277
+  ],
+  "icon": null
+ },
+ "Wind Wall": {
+  "ids": [
+   807117
+  ],
+  "icon": null
+ },
+ "With Honor": {
+  "ids": [
+   504383
+  ],
+  "icon": null
+ },
+ "Wounded": {
+  "ids": [
+   570739
+  ],
+  "icon": null
+ },
+ "Wreck Formation": {
+  "ids": [
+   803126
+  ],
+  "icon": null
+ },
+ "You Shall Not Fall!": {
+  "ids": [
+   505200
+  ],
+  "icon": null
+ },
+ "Zanzrakka Helm": {
+  "ids": [
+   301214
+  ],
+  "icon": null
+ }
+}

@@ -1,0 +1,1983 @@
+[
+ {
+  "name": "Advance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration",
+   "vanguard"
+  ],
+  "desc": "Increases movement speed by %, grants immunity to movement impairing effects, and prevents you from stopping. After a short delay, you can recast the ability to stomp the ground, dealing its value Physical damage to nearby enemies. not recast, you will stomp at the end of the duration."
+ },
+ {
+  "name": "Aegis",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases block value by %."
+ },
+ {
+  "name": "Ambition",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reduces the cooldown of Ram by sec and increases its damage by % and critical damage by %."
+ },
+ {
+  "name": "Assault Formation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases your critical strike chance by %, but increases your damage taken by %."
+ },
+ {
+  "name": "Assume Peak Posture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Assumes a position of optimal posture, increasing your epicness by % and causing nearby guards to clap for you in envy. This effect is toggled, moving will end the effect."
+ },
+ {
+  "name": "Ballad of the Conqueror",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Play the Ballad of the Conqueror, instantly dealing its value Magic damage to an enemy, ignoring resistances."
+ },
+ {
+  "name": "Ballad of the Dragonslayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Play the Ballad of the Dragonslayer, instantly dealing its value Magic damage to all nearby enemies, ignoring resistances, and reducing their attack power by its value."
+ },
+ {
+  "name": "Banner Boy",
+  "icon": "achievement_bg_captureflag_wsg",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reduces the Energy cost of Banners."
+ },
+ {
+  "name": "Banner Lord",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases the cost of Banners by %, but allows you to have multiple Banners active at once."
+ },
+ {
+  "name": "Banner of Conquest",
+  "icon": "demoralizing_banner",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Attach a Banner of Conquest to your back, increasing the critical strike chance of party and raid members within yds by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Banner of Swiftness",
+  "icon": "inv_banner_03",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Attach a Banner of Swiftness to your back, increasing the haste of party and raid members within yds by %. Does not stack with similar effects."
+ },
+ {
+  "name": "Bard's Manuscript",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reduces the cooldown of Hero's March by sec."
+ },
+ {
+  "name": "Bark Orders",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases the effectiveness of your Ballads by %, stacking times."
+ },
+ {
+  "name": "Bastion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Raise your shield and lead your allies within yds, reducing their damage taken by %."
+ },
+ {
+  "name": "Bastion Slam",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Slam into an enemy with your shield, dealing Physical Damage to up to 3 enemies and regenerating % of your missing Energy. Motivation Grants Vanguard's Grandeur."
+ },
+ {
+  "name": "Battle Bard",
+  "icon": "inv_inscription_scrollofwisdom_01",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases the damage of your Ballads by %."
+ },
+ {
+  "name": "Battle Drums",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Place down 3 Battle Drums around you. Allies may click on the drums to increase their critical strike chance, haste, damage, and healing done by % and causes their damage dealt to trigger a Sound of War for their next 5 instances of damage or."
+ },
+ {
+  "name": "Battle Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Charge an enemy, dealing its value Physical damage and stunning them."
+ },
+ {
+  "name": "Battle Strategist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases the damage of Arcing Strike by % and reduces Energy cost of Tendon Slash."
+ },
+ {
+  "name": "Battle Wary",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Reduces the cooldown of your Advance and Battle Rush by %."
+ },
+ {
+  "name": "Battlefield Maneuvers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reduces the cooldowns of Thundering Charge, Titanfall, Standard of Valiance, and Cavalry Charge by %"
+ },
+ {
+  "name": "Bloodletter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Avoiding an attack now reduces the remaining cooldown of Glorious Arena by 10%. Can only occur once per sec."
+ },
+ {
+  "name": "Bonebreaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Damage dealt by Heavy Blow now reduces enemy attack power by its value."
+ },
+ {
+  "name": "Brace",
+  "icon": "inv_helm_plate_warfrontsalliance_d_01",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Fortify your defenses, reducing all damage taken by % and gaining immunity to knockback effects. Motivation: Gain Knight's Valor."
+ },
+ {
+  "name": "Bring Down The Hammer!",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Damage dealt by Heavy Blow now deals an additional % of the damage dealt every sec."
+ },
+ {
+  "name": "Broad Sweep",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Swing at up to enemies in front of you, dealing % Weapon Damage plus its value and reduces their attack power by its value."
+ },
+ {
+  "name": "Brutal Slam",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases the damage of Ram by %."
+ },
+ {
+  "name": "Built Different",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases your Strength and Stamina by %."
+ },
+ {
+  "name": "Bulwark",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Level 20 Passive Increases your block value by % and your hit rating by % of your Stamina."
+ },
+ {
+  "name": "Bulwark Rush",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Casting Battle Rush increases your block rating by % of Strength."
+ },
+ {
+  "name": "Calculated Strike",
+  "icon": "achievement_raregarrisonquests_x",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Your Reprisal, Broad Sweep, and Spear Throw now deal an additional 2% Weapon Damage for each Energy point you have upon casting it."
+ },
+ {
+  "name": "Call To Arms",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Summon a party or raid member to your location."
+ },
+ {
+  "name": "Cavalry Charge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases mounted movement speed of all party and raid members within yds by %. Can be used while Mounted. Does not stack with similar effects."
+ },
+ {
+  "name": "Centurion Strike",
+  "icon": "custom_warriorskill_02_border",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Stab an enemy, dealing % Weapon Damage plus an additional effect based on your weapon. Sword: Triggers additional auto attacks. Axe: Guaranteed to critically strike for % increased damage. Mace: Ignores % of your target's Armor. Polearm: Stabs the t"
+ },
+ {
+  "name": "Chainwhip Passive SLS",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Successfully interrupting a cast with Chainwhip reduces its cooldown by %."
+ },
+ {
+  "name": "Champion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Your Centurion Strike now extends the duration of Raise Shield on you by sec."
+ },
+ {
+  "name": "Champion's Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Enrage all nearby allies, increasing their haste by %. After being affected by this spell, allies cannot benefit from similar effects."
+ },
+ {
+  "name": "Chivalry",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Embrace your heroic and brave nature, increasing your Strength by % and your critical strike chance and melee haste by %."
+ },
+ {
+  "name": "Combat Poses",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Teaches you Offensive Pose and Defensive Pose, two light stances to adjust your combat Focus."
+ },
+ {
+  "name": "Counter Stance",
+  "icon": "ability_warrior_vigilance",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You are granted 8 charges of Counter Stance, increasing your chance to block by % and your block value by % for and dealing damage to attackers whenever you take Physical Damage or block a physical attack. Each attack expends a charge."
+ },
+ {
+  "name": "Cragmaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reduces the cooldown of Linebreaker by sec."
+ },
+ {
+  "name": "Crashing Force",
+  "icon": "inv_mace_124",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases the damage of Linebreaker by %."
+ },
+ {
+  "name": "Crowd Pummeler",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Your Ram now causes up to enemies in front of you in an yd cone to bleed for an additional its value Physical Damage over."
+ },
+ {
+  "name": "Defensive Pose",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reduces damage taken by % and damage done by %. Also causes Arcing Strike to cleave additional enemies."
+ },
+ {
+  "name": "Deflector",
+  "icon": "inv_shield_30",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Raise Shield by sec and reduces its Energy cost by %."
+ },
+ {
+  "name": "Dirty Tactics",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases damage dealt by % and Armor penetration by %."
+ },
+ {
+  "name": "Dragonslayer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases your Agility by %."
+ },
+ {
+  "name": "Duty",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases your block rating by % of your Stamina, and your attack power by % of your Agility."
+ },
+ {
+  "name": "Earthsplitter",
+  "icon": "ability_kilruk_reave",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Casting Broad Sweep now increases the amount of enemies struck by your next |CffffffffBroad Sweep by and reduces its Energy cost by %, stacking times."
+ },
+ {
+  "name": "Echoes of War",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Triggering a Sound of War now grants Echoes of War to nearby allies."
+ },
+ {
+  "name": "Elegant Combat",
+  "icon": "custom_warriorskill_35_border",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Casting a Ballad has a % chance to remove the cost of the next Ram and increase its critical chance by %."
+ },
+ {
+  "name": "Endurance",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases your maximum Energy."
+ },
+ {
+  "name": "Energetic",
+  "icon": "novart_passivemastery_(8)_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Restores of your Energy every sec."
+ },
+ {
+  "name": "Experienced Soldier",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Level 40 Passive Melee attacks now reduce the cooldown of Brace by sec."
+ },
+ {
+  "name": "Favor",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Level 50 Passive Critical strikes and killing blows now grant you Favor, stacking times. At stacks, your next auto attack deals an additional 500% Weapon Damage, consuming the stacks."
+ },
+ {
+  "name": "Feats of Glory",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Mark an ally, giving them a chance to grant Motivation to nearby allies when they take heal an ally. Only 1 ally can be affected by Feats of Glory at a time."
+ },
+ {
+  "name": "Feats of Honor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Mark an ally, giving them a chance to grant Motivation to nearby allies when they take damage. Only 1 ally can be affected by Feats of Honor at a time."
+ },
+ {
+  "name": "Feats of Strength",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Empower an ally, increasing their primary stat by its value, scaling with Spirit."
+ },
+ {
+  "name": "Field Commander",
+  "icon": "achievement_pvp_a_06",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Placing a Standard causes your next Song of Steel to unleash an additional unique effect."
+ },
+ {
+  "name": "Final Verdict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Give the final verdict to your target, dealing its value Physical damage and healing you for 15% of your maximum health. Only usable on enemies below 20% health. Killing blows reset the cooldown of this ability."
+ },
+ {
+  "name": "Final Verdict Reset Passive",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reduces the cooldown of Grand Entrance by sec and casting it now grants Slayer."
+ },
+ {
+  "name": "Fine Plating",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Upon blocking an attack, Physical Damage taken is reduced by %, stacking times."
+ },
+ {
+  "name": "Finish Them!",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Battlemaster Strike applies a bleed effect causing its value Physical Damage every sec."
+ },
+ {
+  "name": "Fire Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases the target's resistance to Fire spells by."
+ },
+ {
+  "name": "Flexible Banners",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reduces the cooldown of Banner abilities by sec."
+ },
+ {
+  "name": "Footman's Call",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Damage dealt by Pulverize is increased by its value, plus an additional amount scaling with your block value."
+ },
+ {
+  "name": "Footman's Calling",
+  "icon": "_human_06",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Level 10 Passive Your damage taken is reduced by % while Tower Formation or Line Formation is active. In addition, your threat generated from Physical Damage dealt is increased significantly while Tower Formation or Line Formation is active."
+ },
+ {
+  "name": "Forceful Impact",
+  "icon": "novart_passivemastery_(11)_border",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Casting Raise Shield and Heavy Blow now extends the duration of your Brace by sec. Brace cannot be extended beyond it's maximum duration."
+ },
+ {
+  "name": "Fortified Bulwark",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Reduces damage taken by %. Forgehammer consumes sec of the duration to incur no cooldown."
+ },
+ {
+  "name": "Freedom",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Instantly breaks an ally free of any stun or snare effects and grants immunity to such effects. Dispels harmful magic effects from the ally."
+ },
+ {
+  "name": "Frontliner",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Your attacks now ignore % of an enemy's Armor."
+ },
+ {
+  "name": "Gallant",
+  "icon": "inv_chest_plate04",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases Stamina by % and healing received by % and your Raise Shield's cooldown is reduced by sec."
+ },
+ {
+  "name": "General's Presence",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases maximum energy by %."
+ },
+ {
+  "name": "Glorious Arena",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Create a yd ring beneath you. Enemies who stand inside will gain Peril every sec."
+ },
+ {
+  "name": "Glory",
+  "icon": "novart_bodyarmor_(5)_border",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Level 10 Passive Your Ram now grants you a stack of Glory. At 3 stacks, your next Ram within deals % increased damage."
+ },
+ {
+  "name": "Grand Entrance",
+  "icon": "epic_rpg_icon_pack_brutal_icon_0007s_0000_warrior_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Leap into the air, becoming immune to crowd control effects, and then crash back down with incredible speed at your location. Upon landing, deal % Weapon Damage to enemies in the impact area, plus an additional its value over, ignoring Armor and knocking them into th"
+ },
+ {
+  "name": "Greater Fire Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases the target's party and raid members resistance to Fire spells by."
+ },
+ {
+  "name": "Greater Honor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Declare all nearby allies honorable, increasing their Strength by."
+ },
+ {
+  "name": "Guard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Rush towards an ally, intercepting the next melee attack made against them and causing you to critically block the next attack against you. Lasts."
+ },
+ {
+  "name": "Guardbreaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage dealt by Pulverize now has a 20% chance to reset the cooldown of Ram."
+ },
+ {
+  "name": "Hammer of Honor",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Forgehammer applies your Honorguard damage to the target every sec for sec."
+ },
+ {
+  "name": "Hammer of Kings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Grants Motivation Slam the ground, dealing its value Physical Damage, scaling with defense rating to nearby enemies and reducing their casting speed by %. Deals % increased damage to enemies affected by Line Formation."
+ },
+ {
+  "name": "Hammer of the Law",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Smash an enemy and enemies behind them in a line, dealing its value High Threat Physical damage and silencing them."
+ },
+ {
+  "name": "Hand of The King",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Dealing damage with Line Formation now increases damage enemies take from Line Formation by % for sec, stacking times."
+ },
+ {
+  "name": "Harrowing Melody",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Play a harrowing melody, dealing its value Magic damage and reducing all healing received by enemies within yds by %. In addition, your next Ballad within is free of cost and deals % increased damage."
+ },
+ {
+  "name": "Heavy Blow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Smash an enemy and enemies behind them in a line, dealing its value High Threat Physical damage, scaling with your defense rating. Motivation: Grants Vanguard's Might."
+ },
+ {
+  "name": "Heavy Expert",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases your chance to parry and dodge by % and increase your Armor contribution from mail and plate items by %."
+ },
+ {
+  "name": "Hero's Decree",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Marks an ally, causing them to become immune to snares, and granting Inspiration to all nearby allies. While marked, any time the ally is hit by a melee attack, the attacker's melee attack power will be reduced by its value, scaling with your Spirit. Applies Confidence to th"
+ },
+ {
+  "name": "Hero's March",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Beat the drums of war, causing your auto attacks to trigger a Sound of War and increasing your haste by %. In addition, allies within yds of you have a % chance to trigger a Sound of War on any damage dealt. Does not work with Into the Fray."
+ },
+ {
+  "name": "Heroic Deeds",
+  "icon": "ability_paladin_touchedbylight",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the reputation gains of your allies within yds by % and reduces damage you take by %."
+ },
+ {
+  "name": "Heroic Resolve",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Steady your resolve, instantly restoring Energy and causing you to critically block the next attack against you. Lasts."
+ },
+ {
+  "name": "Heroism",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Whenever you reach 3 stacks of Glory or 20 stacks of Favor, your next 2 Pulverizes or Broad Sweeps within are free of cost."
+ },
+ {
+  "name": "Hold the Line",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Command nearby allies to hold the line, making them immune to incapacitate, disorient, knockback, and grip effects."
+ },
+ {
+  "name": "Honor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Declare an ally honorable, increasing their Strength by."
+ },
+ {
+  "name": "Honorable Demeanor",
+  "icon": "ability_toughness",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Whenever you block an attack your Strength and Stamina are increased by %, stacking times."
+ },
+ {
+  "name": "Impactful",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases the damage of Centurion Strike by %."
+ },
+ {
+  "name": "Improved Feats of Strength",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases the effectiveness of Feats of Strength by % and the chance to proc its effect by %."
+ },
+ {
+  "name": "Improved Motivating Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reduces the Energy cost of Motivating Strike by %."
+ },
+ {
+  "name": "Inspiring Fighter",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Level 20 Passive Increases your melee haste rating by % of your Strength and increases expertise."
+ },
+ {
+  "name": "Inspiring Leader",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "You pledge to inspire your allies in the midst of battle, transforming your Pulverize and your Broad Sweep into Ballads."
+ },
+ {
+  "name": "Inspiring Presence",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Emanate an aura around you, causing allied players within yds to deal its value additional damage as Holy damage when they deal direct damage. Applies Exhaustion, preventing you from benefiting from similar effects."
+ },
+ {
+  "name": "Inspiring Speech",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Empowers an ally, increasing the damage or healing of their next 4 attacks or spells by %. Subsequent applications stack bonus charges,. Falls off when combat ends and can only be used in combat. Usable while moving."
+ },
+ {
+  "name": "Inspiring Speech Hidden",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Utter your most Inspiring Speech, reducing an allies damage taken by %. Can be used while moving. Also reduces the damage taken of party and raid members within yds that are affected by Motivation, and cleanses 1 harmful Magic Effect from them."
+ },
+ {
+  "name": "Into The Fray",
+  "icon": "_d3wrathoftheberserker",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Triggering a Sound of War now grants you an additional auto attack on your next swing."
+ },
+ {
+  "name": "Iron Barrier",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Level 30 Passive Your successful blocks now have a % chance to critically block for twice the normal amount."
+ },
+ {
+  "name": "Iron Guardian",
+  "icon": "garrison_building_armory",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases your Stamina by %."
+ },
+ {
+  "name": "Jagged Reinforcement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reinforce your shield with razor edges, increasing your critical damage by % and giving your blocks a % chance to guarantee your next attack to critically strike. Lasts 1 hr. Can only occur once every 5 sec."
+ },
+ {
+  "name": "King's Guard",
+  "icon": "inv_helmet_plate_raidpaladin_l_01",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Your Pulverize and Ram now have a % chance to reset the cooldown of Raise Shield."
+ },
+ {
+  "name": "Knight's Advantage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your damage dealt against Humanoids by %."
+ },
+ {
+  "name": "Knight's Calling",
+  "icon": "nhi_corruptionshield_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Embrace your calling, restoring % of your maximum health and Energy, repeating every sec."
+ },
+ {
+  "name": "Knight's Conviction",
+  "icon": "inv_horsekultiran",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases the block value provided by Raise Shield by % and your block chance by %."
+ },
+ {
+  "name": "Knighthood",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases the damage reduction of your Raise Shield by %."
+ },
+ {
+  "name": "Knightly Demeanor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your attack power is increased by 1 for every 50 Armor you have."
+ },
+ {
+  "name": "Leading the March",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases your attack power and total Armor by %."
+ },
+ {
+  "name": "Legion Commander",
+  "icon": "ability_warrior_rallyingcry",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "The damage increase of Harrowing Melody now affects an additional Ballad casts and guarantees them to critically strike and deal % more damage."
+ },
+ {
+  "name": "Lesser Fel Fireball",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Deals its value Shadowflame Damage to an enemy. Scales with modifiers to Fel Fireball."
+ },
+ {
+  "name": "Liberation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Instantly breaks an ally free of any stun, fear, or polymorph effects and grants immunity to such effects. Dispels harmful magic effects from the ally. Usable while stunned, feared, or polymorphed."
+ },
+ {
+  "name": "Light Nets",
+  "icon": "hunter_pvp_trackersnet",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the range of your Net Throw by yds."
+ },
+ {
+  "name": "Line Formation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases your movement speed by %, reduces your damage taken by %, and reduces the duration of movement impairing effects on you by its value%."
+ },
+ {
+  "name": "Linebreaker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Smash an enemy with great force, destroying any damage absorption or damage immunity effects and reducing their armor by %."
+ },
+ {
+  "name": "Lionheart",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Taking damage that reduces your health below 35% will now heal you for 10% of your maximum health and reduce all damage taken by %. Can only occur once every 3."
+ },
+ {
+  "name": "Little Drummer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Allies within yds of you now gain % chance to resist curses."
+ },
+ {
+  "name": "Lord of the Arena",
+  "icon": "inv_axe_2h_war_b_02_hd",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the Energy cost of Ballad of the Conqueror and Ballad of the Dragonslayer."
+ },
+ {
+  "name": "Mace Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "While a mace is equipped, your armor penetration is increased by %."
+ },
+ {
+  "name": "Magic Reinforcement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reinforce your shield with arcane alloys, reducing your Magic damage taken by %, plus an additional % from area of effect attacks, and reducing your chance to be hit by spells by %. Lasts 1 hr."
+ },
+ {
+  "name": "Make Room! I'm Here.",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of |CffffffffStandard of Valiance and Ballad of the Dragonslayer by %."
+ },
+ {
+  "name": "Master of Arms",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Turn the Blade now guarantees you to parry 1 additional attack and the duration of its parry window is increased by sec."
+ },
+ {
+  "name": "Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases your attack power by %."
+ },
+ {
+  "name": "Minstrel",
+  "icon": "ability_racial_makecamp",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Casting a Ballad now increases your haste by %, stacking times,."
+ },
+ {
+  "name": "Motivating Strike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "An instant strike that causes Weapon Damage, granting Motivation."
+ },
+ {
+  "name": "Myrmidon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the Energy cost of Glorious Arena and increases its damage dealt by %."
+ },
+ {
+  "name": "Net Throw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Toss a weighted net at an enemy that roots them. While active, the target cannot dodge attacks."
+ },
+ {
+  "name": "No Escape",
+  "icon": "novart_physical_ability_(46)_border",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reduces the cooldown of your Battle Rush by sec when used against a rooted enemy."
+ },
+ {
+  "name": "Offensive Pose",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases damage done by % and also increases the damage of Arcing Strike :and Death Ram:ifknown by %."
+ },
+ {
+  "name": "One Man Army",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Allows Pulverize to strike up to its value additional enemies."
+ },
+ {
+  "name": "One True Champion",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases block rating by % of your Strength and direct critical strikes with abilities now have a % chance to reset the cooldown of Ram."
+ },
+ {
+  "name": "One-Handed Mastery",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases your damage dealt by % while a one-handed weapon is equipped."
+ },
+ {
+  "name": "Opening Play",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Casting Spear Throw now guarantees your next Ram within to critically strike."
+ },
+ {
+  "name": "Overwhelming Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases the attack power of all party and raid members %. Does not stack with similar effects. In addition, increases your Agility by %."
+ },
+ {
+  "name": "Pied Piper",
+  "icon": "inv_misc_flute_01",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Triggering a Sound of War now increases damage of your next Ram by %."
+ },
+ {
+  "name": "Pit Fighter",
+  "icon": "spell_warrior_gladiatorstance",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the movement speed slow of your Standard of Valiance by %."
+ },
+ {
+  "name": "Plate Buster",
+  "icon": "inv_plate_raidwarrior_s_01helm",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Critical strikes with Ram now reduces the remaining cooldown of your Challenging Cry and Hold the Line by sec."
+ },
+ {
+  "name": "Poised Reinforcement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reinforce your shield with magic, causing blocking attacks while below 75% health to grant you % increased block value."
+ },
+ {
+  "name": "Polearm Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Allows you to wield polearms and to wield them with a shield equipped. While a polearm is equipped, your melee abilities have yds increased range."
+ },
+ {
+  "name": "Powerful Voice",
+  "icon": "ability_warrior_battleshout",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases the critical strike chance of your Ballads by %."
+ },
+ {
+  "name": "Press the Attack",
+  "icon": "novart_physical_ability_(50)_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Raise your shield and press the attack, dealing % Weapon Damage plus its value to enemies in front of you and draining Energy every sec. Lasts. While active you gain % increased block chance and you may block, dodge, and parry while channeling. You cannot use other abilities while |cf"
+ },
+ {
+  "name": "Press the Line!",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "While Line Formation is active, your movement speed cannot be reduced below %, but its cost is increased by Energy."
+ },
+ {
+  "name": "Pulverize",
+  "icon": "inv_ascend_paw_b_03",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Slam an enemy with your shield, dealing its value Physical damage."
+ },
+ {
+  "name": "Raise Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Raise your shield, increasing your block chance % and block value by %. While active, blocking an attack restores Energy."
+ },
+ {
+  "name": "Ram",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Ram an enemy with your shield, dealing its value Physical damage, scaling with your block value, and reduces the target's Armor by its value."
+ },
+ {
+  "name": "Ramster",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases the damage of Death Ram by %."
+ },
+ {
+  "name": "Reclaim Standards",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Removes your placed Standard."
+ },
+ {
+  "name": "Recuperation",
+  "icon": "ability_skyreach_shielded",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Taking Physical damage or blocking a physical attack now restores Energy."
+ },
+ {
+  "name": "Reflective Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Raise your shield and reflect the next harmful spell cast on you within. While active, being hit by a spell restores Energy."
+ },
+ {
+  "name": "Refuse To Die",
+  "icon": "sha_ability_rogue_sturdyrecuperate",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Advance now resets the cooldown of Raise Shield."
+ },
+ {
+  "name": "Relentless",
+  "icon": "garrison_building_salvageyard",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Rams now ignores % of the target's Armor."
+ },
+ {
+  "name": "Reprisal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "2 Charges, 6 sec recharge Counterattack an enemy, dealing % Weapon Damage plus its value and restoring Energy. Only usable after blocking an attack."
+ },
+ {
+  "name": "Resolve",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of your Raise Shield by 1 sec."
+ },
+ {
+  "name": "Retaliation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Successful blocks now deal its value Physical damage to the attacker, scaling with defense rating. Can only occur once per sec."
+ },
+ {
+  "name": "Retiarius",
+  "icon": "novart_physical_ability_(6)_border",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases your maximum Energy."
+ },
+ {
+  "name": "Reverberations",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Dealing damage with your Ram and Broad Sweep now causes the target to bleed for an additional 40% of its damage over."
+ },
+ {
+  "name": "Royal Decree",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Reduces the duration of the Confidence effect applied by Decrees by sec and causes Decrees to extend the duration Feats of Strength by sec."
+ },
+ {
+  "name": "Seasoned Fighter",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Reduces the Energy cost of Pulverize, Ram, and Broad Sweep by %."
+ },
+ {
+  "name": "Shield Challenge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Raise your shield in challenge at your target, taunting them."
+ },
+ {
+  "name": "Shield Combat",
+  "icon": "novart_passivemastery_(11)_border",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Level 40 Passive Casting Ram and Pulverize now increases your attack power based on your block rating."
+ },
+ {
+  "name": "Shield Tosser",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Every 3rd Broad Sweep you cast transforms Pulverize into Shield Toss."
+ },
+ {
+  "name": "Shield Training",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Level 20 Passive Increases your block rating by % of your Strength."
+ },
+ {
+  "name": "Shield Unit",
+  "icon": "spell_tailor_defenceup01",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Each time you take damage, you gain % of the damage taken as attack power."
+ },
+ {
+  "name": "Shield Wall",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Armor contribution from your shield by %."
+ },
+ {
+  "name": "Shield of Denial",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Toss a shield at an enemy that bounces to up 2 nearby enemies, dealing its value Physical damage and interrupting their spellcast, preventing any spell from that school of magic from being cast."
+ },
+ {
+  "name": "Shieldforge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "You smash the ground, dealing Physical Damage to all enemies within yards."
+ },
+ {
+  "name": "Shoulder The Burden",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Instantly transfers % of the ally target's threat to you."
+ },
+ {
+  "name": "Shrug It Off",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Instantly escape the effects of any root or slow and become immune to movement slowing effects."
+ },
+ {
+  "name": "Soldier's Decree",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Empower an ally, increasing Stamina by its value, maximum health by its value, and Armor by its value, scaling with Spirit, and granting Inspiration to all nearby party members. Applies Confidence to the target."
+ },
+ {
+  "name": "Song of Battle",
+  "icon": "achievement_pvp_legion04",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Every sec you emanate Sounds of War, dealing its value Physical damage to all enemies within yds. Lasts. Upon expiration, stun all enemies within yds. Does not work with Into The Fray."
+ },
+ {
+  "name": "Song of Steel",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Boost the morale of party and raid members, increasing their attack or spell power by. Does not stack with similar effects."
+ },
+ {
+  "name": "Song of Steel TO REWORK",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Channel for, dealing Weapon Damage plus its value Physical Damage to enemies in front of you every sec. When this ends, increase party members' attack power by its value or spell power by its value for up to 22 sec based on how long you channeled for. Scales with Spirit."
+ },
+ {
+  "name": "Soundwave",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases the damage dealt by Sound of War by %."
+ },
+ {
+  "name": "Spear Throw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Throw a massive spear at an enemy, dealing its value Physical damage, reducing the effectiveness of any healing by %."
+ },
+ {
+  "name": "Spellcaster's Decree",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Empowers an ally, increasing their spell haste by % and reducing the cost of their spells and abilities by % and granting Inspiration to all nearby allies. Applies Confidence to the target."
+ },
+ {
+  "name": "Spiked Reinforcement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Reinforce your shield with spikes, causing your blocks to deal its value High Threat Physical damage to the attacker. Lasts 1 hour."
+ },
+ {
+  "name": "Stalwart",
+  "icon": "inv_helm_plate_kultirasdungeon_c_01",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases your block value by % and your expertise."
+ },
+ {
+  "name": "Stand Tall, Walk Strong",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Casting Song of Steel now reduces your damage taken by % and increases your damage dealt by % and causes allies to heal for % of the damage they deal."
+ },
+ {
+  "name": "Stand Your Ground!",
+  "icon": "spell_holy_heroism",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "While standing in your Standard of Valiance, your allies' Physical damage taken is reduced by %."
+ },
+ {
+  "name": "Standard Bearer",
+  "icon": "inv_banner_02",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the radius of Standards by yds and increases the effectiveness of your Honor by %."
+ },
+ {
+  "name": "Standard of Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Throw down a Standard of Might, increasing the base health of allies within yds by % and reducing the duration of disarm effects against them by %. Only 1 Standard can be active at a time."
+ },
+ {
+  "name": "Standard of Rallying",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Throw down a Standard of Rallying, reducing damage taken by % and the duration of stun effects on them by % on all allies within yds. Only 1 Standard can be active at a time."
+ },
+ {
+  "name": "Standard of Recovery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Throw down a Standard of Recovery, healing allies within yds for its value health every sec, scaling with your Strength, and increasing all healing they receive by %. Only 1 Standard can be active at a time."
+ },
+ {
+  "name": "Standard of Spellwarding",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Throw down a Standard of Spellwarding, reducing the spell haste of enemies within yds by %. Only 1 Standard can be active at a time."
+ },
+ {
+  "name": "Standard of Supremacy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Throw down a Standard of Supremacy, causing direct damage dealt by party members within yds to deal an additional % of the damage dealt. Only 1 Standard can be active at a time."
+ },
+ {
+  "name": "Standard of Valiance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Throw down a Standard of Valiance, nearby enemies within the area take its value Physical Damge every sec and their movement speed is slowed by %. Only 1 Standard can be active at a time."
+ },
+ {
+  "name": "Steel Riposte",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Counter Stance and Turn the Blade by %."
+ },
+ {
+  "name": "Strength In Unison",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases your melee haste by 1% for each ally within yds, up to a maximum of 20%."
+ },
+ {
+  "name": "Sturdy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum health by 6%."
+ },
+ {
+  "name": "Sturdy Constitution",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Increases Strength and Stamina by %."
+ },
+ {
+  "name": "Sword Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "While a sword is equipped, your melee haste is increased by %."
+ },
+ {
+  "name": "Tempo",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Level 10 Passive Casting Ballads now grants Tempo, stacking times. Upon reaching 3 stacks of Tempo, you consume them to perform a Sound of War, striking all enemies within yds for its value Magic damage."
+ },
+ {
+  "name": "Thick Shields",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your block value by 10%."
+ },
+ {
+  "name": "Thrill of Battle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Generates Energy every sec, and increases movement speed by %, and increases the attack power bonus of Song of Battle by %. Can only be used in combat."
+ },
+ {
+  "name": "Tower Formation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases your chance to block by % and increases the Armor contribution from your shield by %, but your damage dealt is reduced by %."
+ },
+ {
+  "name": "Triumphant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Killing an enemy that yields experience or honor now restores Energy to you. Can only occur once every 5 sec."
+ },
+ {
+  "name": "Tunnel Vision",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "For the next, your abilities cost % less Energy to use, but will not be able to consume Inspiration for additional effects."
+ },
+ {
+  "name": "Turn The Blade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Parry the next attack against you within. Successfully parrying an attack in this way will disarm the enemy's melee weapons."
+ },
+ {
+  "name": "Unstoppable",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of Stun, Root and movement speed reduction effects used against you by %."
+ },
+ {
+  "name": "Unyielding Stand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Stand your ground, taunting enemies around you for and increasing the damage they take from your Spiked Reinforcement by %."
+ },
+ {
+  "name": "Upper Hand",
+  "icon": "inv_relics_totemofrage",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Your melee auto attacks now have a % chance to strike 2 additional times."
+ },
+ {
+  "name": "Valiance",
+  "icon": "ability_warrior_shockwave",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reprisal now regenerates an additional Energy."
+ },
+ {
+  "name": "Valiant Defender",
+  "icon": "inv_shoulder_plate_pvpwarrior_c_01",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Increases your maximum Energy by and increases the damage of Pulverize and Broad Sweep by %."
+ },
+ {
+  "name": "Valiant Effort",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your auto attacks now have a 15% chance to allow the use of Reprisal as you had recently blocked an attack."
+ },
+ {
+  "name": "Valiant Warrior",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes with Ram now have a 50% chance to strike again for 100% of the damage dealt."
+ },
+ {
+  "name": "Vanguard's Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Your Heavy Blow now causes you to emanate an aura for that reduces all damage taken by % for party members."
+ },
+ {
+  "name": "Veteran of the Third War",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "You now restore % of your base health whenever you block an attack."
+ },
+ {
+  "name": "Vigilant Reflexes",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Increases block rating by % of your Strength and movement speed by %."
+ },
+ {
+  "name": "Virtue",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Each Motivation effect active on you now increases the damage dealt of Hammer of Kings by %."
+ },
+ {
+  "name": "Voice of an Angel",
+  "icon": "ability_priest_heavanlyvoice",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Sing a beautiful song, instantly resetting the cooldown of Liberation, Harrowing Melody, and Hero's March."
+ },
+ {
+  "name": "War Drums",
+  "icon": "inv_leatherworking_drums",
+  "meta": "Ability",
+  "specs": [
+   "inspiration"
+  ],
+  "desc": "Adds % to the value of Echoes of War. In addition, performing a Sound of War now has a % chance to echo, striking an additional time after sec. Can only occur once per sec."
+ },
+ {
+  "name": "Warmaster",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Level 20 Passive Pulverize and Broad Sweep now have a % chance to grant you Warmaster."
+ },
+ {
+  "name": "Warstopper",
+  "icon": "warrior_talent_icon_thunderstruck",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the Energy cost of Standard of Valiance."
+ },
+ {
+  "name": "Weighted Reinforcement",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "gladiator"
+  ],
+  "desc": "Reinforce your shield with heavy alloys, increasing your attack power by %, but reducing your attack speed by %. Lasts 1 hr."
+ },
+ {
+  "name": "Wreck Formation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "vanguard"
+  ],
+  "desc": "Melee critical strikes now have a % chance to reset the cooldown of Hammer of the Law. Casting Hammer of Kings now increases your attack power by %."
+ }
+]

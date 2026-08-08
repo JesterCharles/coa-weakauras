@@ -1,0 +1,403 @@
+{
+ "Advance": {
+  "id": 500170,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Assume Peak Posture": {
+  "id": 500344,
+  "cd": "1 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Banner of Conquest": {
+  "id": 500261,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Banner of Swiftness": {
+  "id": 500259,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Bastion": {
+  "id": 802283,
+  "cd": "5 min cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": false
+ },
+ "Bastion Slam": {
+  "id": 500268,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": false
+ },
+ "Battle Rush": {
+  "id": 802197,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Brace": {
+  "id": 800313,
+  "cd": "3 min cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Cavalry Charge": {
+  "id": 804691,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Centurion Strike": {
+  "id": 802286,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Champion's Presence": {
+  "id": 520835,
+  "cd": "5 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Chivalry": {
+  "id": 504149,
+  "cd": "2 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Feats of Glory": {
+  "id": 803960,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Feats of Honor": {
+  "id": 803959,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Feats of Strength": {
+  "id": 503200,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Final Verdict": {
+  "id": 500258,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "vanguard",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Fortified Bulwark": {
+  "id": 802189,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": false
+ },
+ "Freedom": {
+  "id": 503222,
+  "cd": "40 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Glorious Arena": {
+  "id": 300983,
+  "cd": "1 min cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Grand Entrance": {
+  "id": 802870,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Guard": {
+  "id": 803895,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Harrowing Melody": {
+  "id": 572821,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Heavy Blow": {
+  "id": 803129,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hero's Decree": {
+  "id": 803964,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hero's March": {
+  "id": 801774,
+  "cd": "2 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Heroic Resolve": {
+  "id": 504910,
+  "cd": "1 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Hold the Line": {
+  "id": 803830,
+  "cd": "2 min cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Inspiring Speech": {
+  "id": 503217,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Knight's Calling": {
+  "id": 504151,
+  "cd": "2 min cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Liberation": {
+  "id": 803963,
+  "cd": "2 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Linebreaker": {
+  "id": 806220,
+  "cd": "1 min cooldown",
+  "specs": [
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Motivating Strike": {
+  "id": 500174,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Net Throw": {
+  "id": 802304,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Raise Shield": {
+  "id": 500168,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Shield of Denial": {
+  "id": 704159,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Shieldforge": {
+  "id": 802195,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "gladiator"
+  ],
+  "gcd": false
+ },
+ "Shoulder The Burden": {
+  "id": 572904,
+  "cd": "1 min cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": false
+ },
+ "Shrug It Off": {
+  "id": 802198,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Soldier's Decree": {
+  "id": 806136,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Song of Steel TO REWORK": {
+  "id": 704532,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Spellcaster's Decree": {
+  "id": 806138,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Thrill of Battle": {
+  "id": 803966,
+  "cd": "2 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Tunnel Vision": {
+  "id": 800321,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Turn The Blade": {
+  "id": 707170,
+  "cd": "1 min cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": false
+ },
+ "Unyielding Stand": {
+  "id": 500269,
+  "cd": "2 min cooldown",
+  "specs": [
+   "vanguard"
+  ],
+  "gcd": false
+ },
+ "Voice of an Angel": {
+  "id": 704420,
+  "cd": "5 min cooldown",
+  "specs": [
+   "inspiration"
+  ],
+  "gcd": false
+ },
+ "Ram": {
+  "id": 802284,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "vanguard",
+   "inspiration",
+   "gladiator"
+  ],
+  "gcd": "1.5 sec"
+ }
+}
