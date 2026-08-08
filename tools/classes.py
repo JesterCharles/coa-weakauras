@@ -289,6 +289,14 @@ CORE_LEAVES = {
     # the class gate alone: buff icons are self-gating and a buff id is not
     # something IsSpellKnown recognises.
     "venomancer": 5,
+    # First pin (0.1). BM Core is an empty skeleton (every reminder is
+    # spec-shaped: per-spec NO SHIELD, Eternal's NO CURSE, the LOW BLOOD
+    # health-economy alerts) -- the 4 are the Core group plus three merged
+    # all-spec Buffs leaves (Blood Rush, Blood Pact, Wicked Howl from
+    # SHORT_ENTRIES) that hold the class gate alone, for the standing reason:
+    # buff icons are self-gating and a buff id is not something IsSpellKnown
+    # recognises.
+    "bloodmage": 4,
 }
 
 

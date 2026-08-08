@@ -1,0 +1,108 @@
+{
+ "class": "bloodmage",
+ "gates": {
+  "build": "2026-08-08",
+  "research": "2026-08-08",
+  "verify": "2026-08-08"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 6,
+   "citations": 4,
+   "crossdb_checked": 240,
+   "crossdb_pct": 99.6,
+   "inventory_rows": 254,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 241,
+   "mechanics_sources": 4,
+   "open_unknowns": 12,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 6,
+   "citations": 4,
+   "crossdb_checked": 240,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 254,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 240,
+   "mechanics_sources": 4,
+   "open_unknowns": 12,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 6,
+   "citations": 4,
+   "crossdb_checked": 240,
+   "crossdb_pct": 95.6,
+   "inventory_rows": 264,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 251,
+   "mechanics_sources": 4,
+   "open_unknowns": 12,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-08",
+   "note": "section 5 alerts, all spec-gated: NO SHIELD (sanguine: Shadowfang Shield; fleshweaver: any of Blood/Coagulated/Vital Shield, fires only when NONE up), NO CURSE (eternal stance by name), LOW BLOOD at <=35% (sanguine+fleshweaver health economy; percenthealth multiEntry arrays verified against the fork's GenericTrigger.lua)"
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: scanned 600 entries 2026/07/31..2026/08/07, nothing new. 12 bloodmage entries (all 2026/07/31, pre-recorded, unaccepted): all number/behaviour tweaks (Hemal Excision curse caps, Bloodbolt rage 40->30, Wicked Howl CD 3m->2m, Transgression no longer requires Insatiable + 15s, Eternal Curse instant, stat passives). NO replaced-with/now-reads/new-spell entries. Sidekick blob mtime 2026-08-02 postdates all of them. Triage recorded in requirements -1; accept deferred until acted on."
+  },
+  "citations": {
+   "at": "2026-08-08",
+   "note": "citations.py --import-sidekick: 4 records (one per spec page, retrieved_at from the live 2026-08-07 scrapes), 6 claims, 1 source (ascensionsidekick.com) \u2014 single-source caveat printed and carried; main-row press orders derive from the same pages' Rotations text, recorded per-spec in requirements \u00a74"
+  },
+  "crossdb": {
+   "at": "2026-08-08",
+   "checked": 251,
+   "note": "re-swept after 11 rows were added post-research (aura-only names + talent grants, checks 13/16): 251/251, same 4 no-records, all already resolved by name re-ask with tooltip reads (verdicts in Notes cells; Curse of the Worgen ignored, Gore Barrage demoted to aura, Atherann's Anguish other-id 570146, Infuse present as components). First sweep: 240/240."
+  },
+  "guide": {
+   "at": "2026-08-08",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so the guide step is rowwidths.py + hud.py: all always-visible rows within 1.2x (max 1.00x \u2014 each spec's main row IS its bar width), hud.py resolves 224 displays into the standard ladder (alerts -18, target -51, buffs -84, main -132, envelope -164/-180, offense -202, utility/longterm derived to -406); alerts, target band and stack bars land where the layout standard puts them"
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-08",
+   "note": "254 rows role-assigned by an automated pass (bloodmage-roles.py + fix14), one line of reasoning per row in Notes citing the spec-page rotation text or the kit tooltip; cleared in BULK per the production default (notes/production-run.md) \u2014 NOT row-by-row human reads. Hedged rows copied to requirements \u00a76: Puncturing Fangs (tooltip conflict), Accursed Form/Hunt/Hemostasis/Sanguine Essence (passive-rank ids), Ravenous Bite (Packleader id), Monstrous Hunger (no id), Eternal Curse castable (804518), Dissipate/Curse of the Worgen (empty tooltips), Blood-Cursed Armor/Invigorated Flesh (no id, name match)."
+  },
+  "main-rows": {
+   "at": "2026-08-08",
+   "note": "four main rows ordered from the cited Rotations text (derivations quoted per spec in requirements \u00a74): sanguine 6 (Bloodmoon Blast leads as 'the main filler'), accursed 6 (transformed priority Reave>cleave>Ravenous Strike + the three caster builders), eternal 4 (Ravenous Bite/Bloodfang Bite carry threat+selfheal, Rotclaw 2ch, Claw Sweep), fleshweaver 6 (Sanguine Mend primary spot heal ... Vampyr's Kiss refund)"
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Firecrawl scrape of ascensionsidekick.com/bloodmage/{sanguine,accursed,eternal,fleshweaver} -> resources/sidekick-bloodmage-<spec>.md (36-41KB each, all with Playstyle+Rotations+Resource sections)"
+  },
+  "pets": {
+   "at": "2026-08-08",
+   "note": "section 3: NO pets \u2014 no tame/companion anywhere in the corpus (1 mention was other players' pets); Animated Blood is a 60s uncontrolled summon shipped as an ordinary offensive CD icon; no NO PET alert, no pet bar"
+  },
+  "procs": {
+   "at": "2026-08-08",
+   "note": "PROC_GLOW: Vampiric Fang<-Wretched, Crimson Maw<-Final Embrace, Sanguine Mend<-Saturating Sutures; Monstrous Hunger window glows Bloodfang Bite via a name-only hand pass (no id in either DB, section 6); proc windows on the buff rows per spec"
+  },
+  "requirements": {
+   "at": "2026-08-08",
+   "note": "notes/requirements-bloodmage.md written, all sections answered; pets answered explicitly NO (1 corpus mention was other players' pets); health economy design in section 4 (no health bar duplicate; Thirst bar + Insatiable entry + LOW BLOOD 35% alert carry it); 13 UNKNOWNs collected in section 6"
+  },
+  "talents": {
+   "at": "2026-08-08",
+   "note": "section 2: no permanent replace/transform talents found; Final Embrace's 20s Bloodfang Bite->Crimson Maw window is an aura-driven PROC_GLOW, not a Spell Known swap; Rotclaw CHARGES=2; Blood Debt/Crimson Hymn CD-removal talents read correctly unmodified; Vampirism/Curse of the Worgen pair resolved by shipping neither (crossdb)"
+  },
+  "tests": {
+   "at": "2026-08-08",
+   "note": "tests/run.py: all checks passed (fixtures frozen via tests/freeze.py bloodmage \u2014 5; docs/packs/bloodmage populated so check 13 measures the real pack; CORE_LEAVES pinned at 4 in classes.py with the standing buff-leaf reasoning)"
+  },
+  "unknowns": {
+   "at": "2026-08-08",
+   "note": "13 section-6 UNKNOWNs, every one deferred ON PURPOSE to the in-game/feedback pass (buff-name matches for Thirst/Pooled Vitality/Insatiable/stance auras; passive-rank ids for Accursed Form/Hunt/Sanguine Essence; Monstrous Hunger/Darkfallen Lament/Eternal Resolve castables unresolvable in both DBs; party-aura visibility). None blocks the draft bar: every affected display is active-only or name-matched, so the failure mode is an absent icon, never a lie."
+  }
+ }
+}

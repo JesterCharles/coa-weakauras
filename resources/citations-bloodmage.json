@@ -1,0 +1,87 @@
+{
+ "sidekick-bloodmage-accursed-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Unchained"
+   ]
+  },
+  "class": "bloodmage",
+  "content_sha256": "c4afad7cb42d6cfe",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/bloodmage/accursed",
+  "spec": "accursed"
+ },
+ "sidekick-bloodmage-eternal-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Rotclaw"
+   ],
+   "priority": []
+  },
+  "class": "bloodmage",
+  "content_sha256": "b4a997ef71c73bc6",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/bloodmage/eternal",
+  "spec": "eternal"
+ },
+ "sidekick-bloodmage-fleshweaver-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Fleshcraft",
+    "Hemoglobe"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Pooled Vitality"
+   ]
+  },
+  "class": "bloodmage",
+  "content_sha256": "8dbc6baefb8ad6b1",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/bloodmage/fleshweaver",
+  "spec": "fleshweaver"
+ },
+ "sidekick-bloodmage-sanguine-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Shadow Hemorrhage"
+   ],
+   "priority": []
+  },
+  "class": "bloodmage",
+  "content_sha256": "717ccdcf90d07852",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/bloodmage/sanguine",
+  "spec": "sanguine"
+ }
+}
