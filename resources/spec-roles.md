@@ -61,6 +61,23 @@ missing without any error.
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
 
+| 25 | Cultist | corruption | damage |
+| 25 | Cultist | dreadnought | tank |
+| 25 | Cultist | godblade | damage |
+| 25 | Cultist | heretic | healing |
+
+**Cultist provenance (25):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: corruption "this pure ranged caster's
+only self-recovery is the slow Psychic Leech health drain: a trickle, not a
+heal to fall back on"; dreadnought "Middling main-tank for raid bosses …
+Solid dungeon tank — AoE pulls and threat" (sword-and-board, Insanity from
+blocking, Horrifying Presence taunt); godblade "a Strength melee DPS whose
+weapon strikes carry a Shadow-magic tail, not a healer or a caster"; heretic
+"Strong raid/tank healer … Top-tier dungeon healer — spot-heals pull damage"
+(Disc-style damage-that-heals loop)
+(`resources/sidekick-cultist-*.md`, scraped 2026-08-07). Replace with an
+in-game read when one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit

@@ -1,0 +1,3434 @@
+{
+ "+1 Insanity Stack": {
+  "ids": [
+   681103
+  ],
+  "icon": null
+ },
+ "20 Insanity": {
+  "ids": [
+   680601
+  ],
+  "icon": null
+ },
+ "40 Insanity": {
+  "ids": [
+   680602
+  ],
+  "icon": null
+ },
+ "60 Insanity": {
+  "ids": [
+   680603
+  ],
+  "icon": null
+ },
+ "60 Insanity Aura": {
+  "ids": [
+   573315
+  ],
+  "icon": null
+ },
+ "80 Insanity": {
+  "ids": [
+   680604
+  ],
+  "icon": null
+ },
+ "Aberration": {
+  "ids": [
+   301246
+  ],
+  "icon": null
+ },
+ "Absolute Horror": {
+  "ids": [
+   300309
+  ],
+  "icon": null
+ },
+ "Abyssal Cleave": {
+  "ids": [
+   707604
+  ],
+  "icon": null
+ },
+ "Abyssal Command": {
+  "ids": [
+   500710
+  ],
+  "icon": null
+ },
+ "Abyssal Commander": {
+  "ids": [
+   520338
+  ],
+  "icon": null
+ },
+ "Abyssal Covenant": {
+  "ids": [
+   500701
+  ],
+  "icon": null
+ },
+ "Abyssal Covenant Passive": {
+  "ids": [
+   300295
+  ],
+  "icon": null
+ },
+ "Abyssal Decay": {
+  "ids": [
+   500705
+  ],
+  "icon": null
+ },
+ "Abyssal Deeps": {
+  "ids": [
+   680580
+  ],
+  "icon": null
+ },
+ "Abyssal Destruction": {
+  "ids": [
+   300308
+  ],
+  "icon": null
+ },
+ "Abyssal Edge": {
+  "ids": [
+   582836
+  ],
+  "icon": null
+ },
+ "Abyssal Enslavement": {
+  "ids": [
+   681284
+  ],
+  "icon": null
+ },
+ "Abyssal Fear": {
+  "ids": [
+   804668
+  ],
+  "icon": null
+ },
+ "Abyssal Guard": {
+  "ids": [
+   800023
+  ],
+  "icon": null
+ },
+ "Abyssal Guard Trigger": {
+  "ids": [
+   807069
+  ],
+  "icon": null
+ },
+ "Abyssal Haven": {
+  "ids": [
+   300293
+  ],
+  "icon": null
+ },
+ "Abyssal Hunger": {
+  "ids": [
+   707121
+  ],
+  "icon": null
+ },
+ "Abyssal Protection": {
+  "ids": [
+   503765
+  ],
+  "icon": null
+ },
+ "Abyssal Slam": {
+  "ids": [
+   680380
+  ],
+  "icon": null
+ },
+ "Abyssal Strike": {
+  "ids": [
+   525513
+  ],
+  "icon": null
+ },
+ "Abyssal Ward": {
+  "ids": [
+   804670
+  ],
+  "icon": null
+ },
+ "Abysswalker": {
+  "ids": [
+   704898
+  ],
+  "icon": null
+ },
+ "Adaptive Combatant": {
+  "ids": [
+   300268
+  ],
+  "icon": null
+ },
+ "Add 1 Void Rune": {
+  "ids": [
+   680935
+  ],
+  "icon": null
+ },
+ "Add 10 Insanity (Tentacle of Y'shaarj)": {
+  "ids": [
+   706264
+  ],
+  "icon": null
+ },
+ "Add 2 Void Rune": {
+  "ids": [
+   680610
+  ],
+  "icon": null
+ },
+ "Add 20 Insanity": {
+  "ids": [
+   804211
+  ],
+  "icon": null
+ },
+ "Add 20 Insanity Blade of C'thun": {
+  "ids": [
+   805586
+  ],
+  "icon": null
+ },
+ "Add 5 Insanity": {
+  "ids": [
+   804209
+  ],
+  "icon": null
+ },
+ "Add 50 Insanity": {
+  "ids": [
+   520439
+  ],
+  "icon": null
+ },
+ "Alone In Darkness": {
+  "ids": [
+   560982
+  ],
+  "icon": null
+ },
+ "Ancient Curse": {
+  "ids": [
+   354191
+  ],
+  "icon": null
+ },
+ "Ancient Rituals": {
+  "ids": [
+   680509
+  ],
+  "icon": null
+ },
+ "Apocalyptic Skies": {
+  "ids": [
+   301200
+  ],
+  "icon": null
+ },
+ "Armageddon": {
+  "ids": [
+   680565
+  ],
+  "icon": null
+ },
+ "Artificer's Amplification": {
+  "ids": [
+   704483
+  ],
+  "icon": null
+ },
+ "As The Prophecy Foretold": {
+  "ids": [
+   504642
+  ],
+  "icon": null
+ },
+ "At Least 2 Void Runes": {
+  "ids": [
+   520343
+  ],
+  "icon": null
+ },
+ "At Least 3 Void Runes": {
+  "ids": [
+   520344
+  ],
+  "icon": null
+ },
+ "At Least 6 Void Runes": {
+  "ids": [
+   822170
+  ],
+  "icon": null
+ },
+ "Attached": {
+  "ids": [
+   800017
+  ],
+  "icon": null
+ },
+ "Banshee's Wail Cast": {
+  "ids": [
+   800011
+  ],
+  "icon": null
+ },
+ "Beamsplitter": {
+  "ids": [
+   706929
+  ],
+  "icon": null
+ },
+ "Befoul": {
+  "ids": [
+   806276
+  ],
+  "icon": null
+ },
+ "Bend Spell": {
+  "ids": [
+   805169
+  ],
+  "icon": null
+ },
+ "Bend Will": {
+  "ids": [
+   801965
+  ],
+  "icon": null
+ },
+ "Black Blood": {
+  "ids": [
+   804113
+  ],
+  "icon": null
+ },
+ "Blade of C'Thun Visual": {
+  "ids": [
+   804116
+  ],
+  "icon": null
+ },
+ "Blade of C'thun": {
+  "ids": [
+   500722
+  ],
+  "icon": null
+ },
+ "Blade of N'Zoth": {
+  "ids": [
+   804114
+  ],
+  "icon": null
+ },
+ "Blade of N'zoth": {
+  "ids": [
+   806253
+  ],
+  "icon": null
+ },
+ "Blade of Nzoth Effect": {
+  "ids": [
+   804268
+  ],
+  "icon": null
+ },
+ "Blade of Y'Shaarj": {
+  "ids": [
+   804115
+  ],
+  "icon": null
+ },
+ "Blade of Y'shaarj": {
+  "ids": [
+   806252
+  ],
+  "icon": null
+ },
+ "Blade of Yogg-Saron": {
+  "ids": [
+   524887
+  ],
+  "icon": null
+ },
+ "Blade of the Depths": {
+  "ids": [
+   300753
+  ],
+  "icon": null
+ },
+ "Blade of the Empire": {
+  "ids": [
+   500720
+  ],
+  "icon": null
+ },
+ "Blessing of C'Thun": {
+  "ids": [
+   301255
+  ],
+  "icon": null
+ },
+ "Blessing of N'Zoth": {
+  "ids": [
+   681107
+  ],
+  "icon": null
+ },
+ "Blessing of Y'Shaarj": {
+  "ids": [
+   801968
+  ],
+  "icon": null
+ },
+ "Blessing of Yogg-Saron": {
+  "ids": [
+   560704
+  ],
+  "icon": null
+ },
+ "Book of C'Thun": {
+  "ids": [
+   806772
+  ],
+  "icon": null
+ },
+ "Book of N'Zoth": {
+  "ids": [
+   806768
+  ],
+  "icon": null
+ },
+ "Book of Yogg-Saron": {
+  "ids": [
+   807303
+  ],
+  "icon": null
+ },
+ "Boon of Y'shaarj": {
+  "ids": [
+   560080
+  ],
+  "icon": null
+ },
+ "Bouncing Thoughts": {
+  "ids": [
+   680607
+  ],
+  "icon": null
+ },
+ "Broken Mind": {
+  "ids": [
+   704874
+  ],
+  "icon": null
+ },
+ "Bulwark of Horror": {
+  "ids": [
+   300278
+  ],
+  "icon": null
+ },
+ "Bulwark of Shadow": {
+  "ids": [
+   301182
+  ],
+  "icon": null
+ },
+ "Bulwark of Y'shaarj": {
+  "ids": [
+   680558
+  ],
+  "icon": null
+ },
+ "C'Thun's Blade": {
+  "ids": [
+   500735
+  ],
+  "icon": null
+ },
+ "C'thun's Grasp": {
+  "ids": [
+   803280
+  ],
+  "icon": null
+ },
+ "Call of C'Thun": {
+  "ids": [
+   301317
+  ],
+  "icon": null
+ },
+ "Call of N'Zoth": {
+  "ids": [
+   300306
+  ],
+  "icon": null
+ },
+ "Clasping Grasp": {
+  "ids": [
+   680559
+  ],
+  "icon": null
+ },
+ "Clasping Grasp (Effect)": {
+  "ids": [
+   300273
+  ],
+  "icon": null
+ },
+ "CoA Aura - Cultist - Corruption": {
+  "ids": [
+   887063
+  ],
+  "icon": null
+ },
+ "CoA Aura - Cultist - Dreadnought": {
+  "ids": [
+   887064
+  ],
+  "icon": null
+ },
+ "CoA Aura - Cultist - Godblade": {
+  "ids": [
+   887062
+  ],
+  "icon": null
+ },
+ "CoA Aura - Cultist - Heretic": {
+  "ids": [
+   887065
+  ],
+  "icon": null
+ },
+ "CoA Aura - Cultist Class": {
+  "ids": [
+   887013
+  ],
+  "icon": null
+ },
+ "Confuse": {
+  "ids": [
+   804063
+  ],
+  "icon": null
+ },
+ "Consumed by Voices": {
+  "ids": [
+   712406
+  ],
+  "icon": null
+ },
+ "Corrupt Fate": {
+  "ids": [
+   520810
+  ],
+  "icon": null
+ },
+ "Corrupt Mind": {
+  "ids": [
+   560109
+  ],
+  "icon": null
+ },
+ "Corrupted Soul": {
+  "ids": [
+   805118
+  ],
+  "icon": null
+ },
+ "Corrupting Whispers": {
+  "ids": [
+   92130
+  ],
+  "icon": null
+ },
+ "Corrupting Whispers remover": {
+  "ids": [
+   520051
+  ],
+  "icon": null
+ },
+ "Corruption - Level 15 Passive": {
+  "ids": [
+   805119
+  ],
+  "icon": null
+ },
+ "Corruption of the Sha": {
+  "ids": [
+   802051
+  ],
+  "icon": null
+ },
+ "Corruptor's Gaze": {
+  "ids": [
+   300754
+  ],
+  "icon": null
+ },
+ "Cosmic Horror": {
+  "ids": [
+   704870
+  ],
+  "icon": null
+ },
+ "Cosmic Ooze": {
+  "ids": [
+   801629
+  ],
+  "icon": null
+ },
+ "Crazed": {
+  "ids": [
+   707788
+  ],
+  "icon": null
+ },
+ "Crushing Dissonance": {
+  "ids": [
+   804056
+  ],
+  "icon": null
+ },
+ "Cultist Minion Scaling Applier": {
+  "ids": [
+   806034
+  ],
+  "icon": null
+ },
+ "Cunning Nature": {
+  "ids": [
+   706915
+  ],
+  "icon": null
+ },
+ "Dank Rites Trigger": {
+  "ids": [
+   524891
+  ],
+  "icon": null
+ },
+ "Dark Ascension": {
+  "ids": [
+   800012
+  ],
+  "icon": null
+ },
+ "Dark Calling": {
+  "ids": [
+   560715
+  ],
+  "icon": null
+ },
+ "Dark Celerity": {
+  "ids": [
+   300283
+  ],
+  "icon": null
+ },
+ "Dark Channeler": {
+  "ids": [
+   301008
+  ],
+  "icon": null
+ },
+ "Dark Chants": {
+  "ids": [
+   712471
+  ],
+  "icon": null
+ },
+ "Dark Coalescence": {
+  "ids": [
+   301196
+  ],
+  "icon": null
+ },
+ "Dark Desires": {
+  "ids": [
+   525011
+  ],
+  "icon": null
+ },
+ "Dark Gaze": {
+  "ids": [
+   301979
+  ],
+  "icon": null
+ },
+ "Dark Infusion": {
+  "ids": [
+   500721
+  ],
+  "icon": null
+ },
+ "Dark Magician": {
+  "ids": [
+   563123
+  ],
+  "icon": null
+ },
+ "Dark Matter": {
+  "ids": [
+   806382
+  ],
+  "icon": null
+ },
+ "Dark Prophecy": {
+  "ids": [
+   800517
+  ],
+  "icon": null
+ },
+ "Dark Prophecy Trigger": {
+  "ids": [
+   706299
+  ],
+  "icon": null
+ },
+ "Dark Prophet": {
+  "ids": [
+   301209
+  ],
+  "icon": null
+ },
+ "Dark Protection": {
+  "ids": [
+   704897
+  ],
+  "icon": null
+ },
+ "Dark Reservoir": {
+  "ids": [
+   300284
+  ],
+  "icon": null
+ },
+ "Dark Revelation": {
+  "ids": [
+   300313
+  ],
+  "icon": null
+ },
+ "Dark Rites": {
+  "ids": [
+   300290
+  ],
+  "icon": null
+ },
+ "Dark Veil": {
+  "ids": [
+   520345
+  ],
+  "icon": null
+ },
+ "Dark Word": {
+  "ids": [
+   707097
+  ],
+  "icon": null
+ },
+ "Darkness Abounds": {
+  "ids": [
+   706916
+  ],
+  "icon": null
+ },
+ "Darkward": {
+  "ids": [
+   706180
+  ],
+  "icon": null
+ },
+ "Darkwither": {
+  "ids": [
+   800446
+  ],
+  "icon": null
+ },
+ "Decay Void Runes Timer": {
+  "ids": [
+   706588
+  ],
+  "icon": null
+ },
+ "Deep Secrets": {
+  "ids": [
+   582307
+  ],
+  "icon": null
+ },
+ "Deprecated": {
+  "ids": [
+   800429
+  ],
+  "icon": null
+ },
+ "Depths of Madness": {
+  "ids": [
+   706911
+  ],
+  "icon": null
+ },
+ "Despair": {
+  "ids": [
+   704474
+  ],
+  "icon": null
+ },
+ "Despoiled Ground": {
+  "ids": [
+   805180
+  ],
+  "icon": null
+ },
+ "Devour Curse": {
+  "ids": [
+   704426
+  ],
+  "icon": null
+ },
+ "Devour Essence": {
+  "ids": [
+   704427
+  ],
+  "icon": null
+ },
+ "Devour Magic": {
+  "ids": [
+   520151
+  ],
+  "icon": null
+ },
+ "Domain of the Old-Gods": {
+  "ids": [
+   503764
+  ],
+  "icon": null
+ },
+ "Doomcloak": {
+  "ids": [
+   502134
+  ],
+  "icon": null
+ },
+ "Doomed": {
+  "ids": [
+   520390
+  ],
+  "icon": null
+ },
+ "Drain 10 Insanity": {
+  "ids": [
+   560716
+  ],
+  "icon": null
+ },
+ "Drain 2 Insanity": {
+  "ids": [
+   706925
+  ],
+  "icon": null
+ },
+ "Drain 20 Insanity": {
+  "ids": [
+   804314
+  ],
+  "icon": null
+ },
+ "Drain 40 Insanity": {
+  "ids": [
+   807847
+  ],
+  "icon": null
+ },
+ "Drain 60 Insanity": {
+  "ids": [
+   808024
+  ],
+  "icon": null
+ },
+ "Drain All Insanity": {
+  "ids": [
+   570188
+  ],
+  "icon": null
+ },
+ "Drained Essence": {
+  "ids": [
+   805135
+  ],
+  "icon": null
+ },
+ "Dread": {
+  "ids": [
+   301315
+  ],
+  "icon": null
+ },
+ "Dread Crash": {
+  "ids": [
+   808018
+  ],
+  "icon": null
+ },
+ "Dreadfall": {
+  "ids": [
+   806175
+  ],
+  "icon": null
+ },
+ "Dreadful": {
+  "ids": [
+   680579
+  ],
+  "icon": null
+ },
+ "Dreadnought": {
+  "ids": [
+   567524
+  ],
+  "icon": null
+ },
+ "Edict of Pride": {
+  "ids": [
+   801559
+  ],
+  "icon": null
+ },
+ "Edict of Violence": {
+  "ids": [
+   801558
+  ],
+  "icon": null
+ },
+ "Eldritch Bastion": {
+  "ids": [
+   560091
+  ],
+  "icon": null
+ },
+ "Eldritch Blast DEPRECATED": {
+  "ids": [
+   800411
+  ],
+  "icon": null
+ },
+ "Eldritch Decay": {
+  "ids": [
+   301987
+  ],
+  "icon": null
+ },
+ "Eldritch Devastation": {
+  "ids": [
+   802727
+  ],
+  "icon": null
+ },
+ "Eldritch Entities": {
+  "ids": [
+   681425
+  ],
+  "icon": null
+ },
+ "Eldritch Eye": {
+  "ids": [
+   802049
+  ],
+  "icon": null
+ },
+ "Eldritch Force": {
+  "ids": [
+   680576
+  ],
+  "icon": null
+ },
+ "Eldritch Grasp": {
+  "ids": [
+   804362
+  ],
+  "icon": null
+ },
+ "Eldritch Mending": {
+  "ids": [
+   500711
+  ],
+  "icon": null
+ },
+ "Eldritch Obelisk": {
+  "ids": [
+   560321
+  ],
+  "icon": null
+ },
+ "Eldritch Reach": {
+  "ids": [
+   560304
+  ],
+  "icon": null
+ },
+ "Eldritch Regalia": {
+  "ids": [
+   680566
+  ],
+  "icon": null
+ },
+ "Eldritch Reserves": {
+  "ids": [
+   504168
+  ],
+  "icon": null
+ },
+ "Eldritch Reservoir": {
+  "ids": [
+   301346
+  ],
+  "icon": null
+ },
+ "Eldritch Ritual": {
+  "ids": [
+   804777
+  ],
+  "icon": null
+ },
+ "Eldritch Screams": {
+  "ids": [
+   525049
+  ],
+  "icon": null
+ },
+ "Eldritch Shock": {
+  "ids": [
+   808036
+  ],
+  "icon": null
+ },
+ "Eldritch Smite": {
+  "ids": [
+   500111
+  ],
+  "icon": null
+ },
+ "Eldritch Smite of C'thun": {
+  "ids": [
+   502125
+  ],
+  "icon": null
+ },
+ "Eldritch Smite of Yogg-Saron": {
+  "ids": [
+   807127
+  ],
+  "icon": null
+ },
+ "Eldritch Strength": {
+  "ids": [
+   680600
+  ],
+  "icon": null
+ },
+ "Eldritch Swiftness": {
+  "ids": [
+   706185
+  ],
+  "icon": null
+ },
+ "Eldritch Tentacle": {
+  "ids": [
+   500707
+  ],
+  "icon": null
+ },
+ "Eldritch Tentacle Delayer": {
+  "ids": [
+   500754
+  ],
+  "icon": null
+ },
+ "Eldritch Velocity": {
+  "ids": [
+   520553
+  ],
+  "icon": null
+ },
+ "Embodiment of Y'shaarj": {
+  "ids": [
+   681067
+  ],
+  "icon": null
+ },
+ "Embrace the Void": {
+  "ids": [
+   300307
+  ],
+  "icon": null
+ },
+ "Empire Commander": {
+  "ids": [
+   704887
+  ],
+  "icon": null
+ },
+ "Empire's Blessing": {
+  "ids": [
+   704867
+  ],
+  "icon": null
+ },
+ "Empire's Grasp": {
+  "ids": [
+   500704
+  ],
+  "icon": null
+ },
+ "Empowered Isolation": {
+  "ids": [
+   300288
+  ],
+  "icon": null
+ },
+ "Empowered Isolation (Effect)": {
+  "ids": [
+   300289
+  ],
+  "icon": null
+ },
+ "Encroaching Presence": {
+  "ids": [
+   300280
+  ],
+  "icon": null
+ },
+ "End Times": {
+  "ids": [
+   536221
+  ],
+  "icon": null
+ },
+ "Endless Devastation": {
+  "ids": [
+   680501
+  ],
+  "icon": null
+ },
+ "Enslave": {
+  "ids": [
+   800354
+  ],
+  "icon": null
+ },
+ "Enslave Lesser Mind": {
+  "ids": [
+   800409
+  ],
+  "icon": null
+ },
+ "Entropic Fog": {
+  "ids": [
+   805137
+  ],
+  "icon": null
+ },
+ "Entropic Host": {
+  "ids": [
+   805133
+  ],
+  "icon": null
+ },
+ "Entropic Host Counter": {
+  "ids": [
+   805134
+  ],
+  "icon": null
+ },
+ "Entropic Host Missile": {
+  "ids": [
+   500136
+  ],
+  "icon": null
+ },
+ "Entropic Infestation (later)": {
+  "ids": [
+   560081
+  ],
+  "icon": null
+ },
+ "Entropic Retaliation": {
+  "ids": [
+   572613
+  ],
+  "icon": null
+ },
+ "Entropic Singularity": {
+  "ids": [
+   800430
+  ],
+  "icon": null
+ },
+ "Entropic Slam": {
+  "ids": [
+   804152
+  ],
+  "icon": null
+ },
+ "Entropic Strike": {
+  "ids": [
+   805111
+  ],
+  "icon": null
+ },
+ "Entropic Union": {
+  "ids": [
+   800022
+  ],
+  "icon": null
+ },
+ "Entropy": {
+  "ids": [
+   520410
+  ],
+  "icon": null
+ },
+ "Eternal Curse": {
+  "ids": [
+   804321
+  ],
+  "icon": null
+ },
+ "Eternally Void": {
+  "ids": [
+   300312
+  ],
+  "icon": null
+ },
+ "Everlasting Gaze": {
+  "ids": [
+   712341
+  ],
+  "icon": null
+ },
+ "Everpresent": {
+  "ids": [
+   300272
+  ],
+  "icon": null
+ },
+ "Executioner": {
+  "ids": [
+   582834
+  ],
+  "icon": null
+ },
+ "Eye of N'zoth": {
+  "ids": [
+   573313
+  ],
+  "icon": null
+ },
+ "Eye of N'zoth DEPRECATED": {
+  "ids": [
+   802614
+  ],
+  "icon": null
+ },
+ "Eyes of Eternity": {
+  "ids": [
+   706188
+  ],
+  "icon": null
+ },
+ "Facehug": {
+  "ids": [
+   800013
+  ],
+  "icon": null
+ },
+ "Faceless Destroyer": {
+  "ids": [
+   804779
+  ],
+  "icon": null
+ },
+ "Faceless Slam": {
+  "ids": [
+   805577
+  ],
+  "icon": null
+ },
+ "Fallen Templar": {
+  "ids": [
+   704882
+  ],
+  "icon": null
+ },
+ "Feardrinker": {
+  "ids": [
+   804229
+  ],
+  "icon": null
+ },
+ "Feeding Darkness": {
+  "ids": [
+   300302
+  ],
+  "icon": null
+ },
+ "Flow of Nether": {
+  "ids": [
+   800445
+  ],
+  "icon": null
+ },
+ "Forbidden Resilience": {
+  "ids": [
+   300287
+  ],
+  "icon": null
+ },
+ "Forbidden Ritual": {
+  "ids": [
+   800105
+  ],
+  "icon": null
+ },
+ "Forbidden Strength": {
+  "ids": [
+   301258
+  ],
+  "icon": null
+ },
+ "Fortifying Whisper": {
+  "ids": [
+   560317
+  ],
+  "icon": null
+ },
+ "Fortune Telling": {
+  "ids": [
+   300294
+  ],
+  "icon": null
+ },
+ "Foul Play": {
+  "ids": [
+   706921
+  ],
+  "icon": null
+ },
+ "Gaze of C'Thun": {
+  "ids": [
+   500110
+  ],
+  "icon": null
+ },
+ "Gaze of C'Thun Damage Trigger": {
+  "ids": [
+   520334
+  ],
+  "icon": null
+ },
+ "Gaze of C'Thun Heal Trigger": {
+  "ids": [
+   520335
+  ],
+  "icon": null
+ },
+ "Gaze of N'Zoth": {
+  "ids": [
+   500640
+  ],
+  "icon": null
+ },
+ "Gaze of Y'shaarj": {
+  "ids": [
+   500641
+  ],
+  "icon": null
+ },
+ "Gaze of Yogg-Saron": {
+  "ids": [
+   500642
+  ],
+  "icon": null
+ },
+ "General of Y'shaarj": {
+  "ids": [
+   680581
+  ],
+  "icon": null
+ },
+ "Gift of C'Thun": {
+  "ids": [
+   706189
+  ],
+  "icon": null
+ },
+ "Glare Up": {
+  "ids": [
+   520394
+  ],
+  "icon": null
+ },
+ "Glimpse of Madness": {
+  "ids": [
+   500719
+  ],
+  "icon": null
+ },
+ "Glorious Strawberry": {
+  "ids": [
+   582364
+  ],
+  "icon": null
+ },
+ "Glory to N'Zoth": {
+  "ids": [
+   681326
+  ],
+  "icon": null
+ },
+ "God Blade": {
+  "ids": [
+   680377
+  ],
+  "icon": null
+ },
+ "Godblade (Tank)": {
+  "ids": [
+   805604
+  ],
+  "icon": null
+ },
+ "Going MAD!": {
+  "ids": [
+   504302
+  ],
+  "icon": null
+ },
+ "Grasp of Zek'voz": {
+  "ids": [
+   573028
+  ],
+  "icon": null
+ },
+ "Greater Void Blessing": {
+  "ids": [
+   680289
+  ],
+  "icon": null
+ },
+ "Greater Whispers of C'thun": {
+  "ids": [
+   573067
+  ],
+  "icon": null
+ },
+ "Greater Whispers of N'zoth": {
+  "ids": [
+   561387
+  ],
+  "icon": null
+ },
+ "Greater Whispers of Y'shaarj": {
+  "ids": [
+   561392
+  ],
+  "icon": null
+ },
+ "Guiding Voices": {
+  "ids": [
+   520342
+  ],
+  "icon": null
+ },
+ "Hallucination": {
+  "ids": [
+   560301
+  ],
+  "icon": null
+ },
+ "Hammer of Twilight": {
+  "ids": [
+   805116
+  ],
+  "icon": null
+ },
+ "Hammer of Twilight Insanity Passive": {
+  "ids": [
+   561085
+  ],
+  "icon": null
+ },
+ "Hand of N'Zoth": {
+  "ids": [
+   704869
+  ],
+  "icon": null
+ },
+ "Hand of Yogg-Saron": {
+  "ids": [
+   704476
+  ],
+  "icon": null
+ },
+ "Herald Aura Cthun": {
+  "ids": [
+   805146
+  ],
+  "icon": null
+ },
+ "Herald Aura Nzoth": {
+  "ids": [
+   805149
+  ],
+  "icon": null
+ },
+ "Herald Aura Nzoth2": {
+  "ids": [
+   681192
+  ],
+  "icon": null
+ },
+ "Herald Aura Yogg": {
+  "ids": [
+   805148
+  ],
+  "icon": null
+ },
+ "Herald Aura Yshaarj": {
+  "ids": [
+   805147
+  ],
+  "icon": null
+ },
+ "Herald Insanity": {
+  "ids": [
+   802767
+  ],
+  "icon": null
+ },
+ "Herald of The Black Empire": {
+  "ids": [
+   704477
+  ],
+  "icon": null
+ },
+ "Herald of Yogg Aura": {
+  "ids": [
+   500114
+  ],
+  "icon": null
+ },
+ "Herald of the Depths": {
+  "ids": [
+   92131
+  ],
+  "icon": null
+ },
+ "Herald of the Depths Trigger": {
+  "ids": [
+   520785
+  ],
+  "icon": null
+ },
+ "Herald of the Old Gods": {
+  "ids": [
+   704893
+  ],
+  "icon": null
+ },
+ "Heresy": {
+  "ids": [
+   704891
+  ],
+  "icon": null
+ },
+ "Heretic - Level 15 Passive": {
+  "ids": [
+   807697
+  ],
+  "icon": null
+ },
+ "Heretic - Level 50 Passive": {
+  "ids": [
+   807883
+  ],
+  "icon": null
+ },
+ "Heretic's Pendant": {
+  "ids": [
+   630875
+  ],
+  "icon": null
+ },
+ "Heretic's Pennant": {
+  "ids": [
+   520328
+  ],
+  "icon": null
+ },
+ "Horrific Revelation": {
+  "ids": [
+   704473
+  ],
+  "icon": null
+ },
+ "Horrific Revelations": {
+  "ids": [
+   524877
+  ],
+  "icon": null
+ },
+ "Horrific Visions": {
+  "ids": [
+   707753
+  ],
+  "icon": null
+ },
+ "Horrifying Presence": {
+  "ids": [
+   500717
+  ],
+  "icon": null
+ },
+ "Horrorbolt": {
+  "ids": [
+   800416
+  ],
+  "icon": null
+ },
+ "Horrorbolt Volley": {
+  "ids": [
+   255020
+  ],
+  "icon": null
+ },
+ "Hour of Twilight": {
+  "ids": [
+   560063
+  ],
+  "icon": null
+ },
+ "Hysteria": {
+  "ids": [
+   706924
+  ],
+  "icon": null
+ },
+ "Hysterical Momentum": {
+  "ids": [
+   300274
+  ],
+  "icon": null
+ },
+ "Immune to Knockback": {
+  "ids": [
+   804305
+  ],
+  "icon": null
+ },
+ "Impenetrable Barrier": {
+  "ids": [
+   707780
+  ],
+  "icon": null
+ },
+ "Imperial Mandate": {
+  "ids": [
+   706918
+  ],
+  "icon": null
+ },
+ "In And Out of Insanity": {
+  "ids": [
+   582308
+  ],
+  "icon": null
+ },
+ "Inevitable Prophecy": {
+  "ids": [
+   525021
+  ],
+  "icon": null
+ },
+ "Influence Cultist Crit Heal Mana Regen": {
+  "ids": [
+   997796
+  ],
+  "icon": null
+ },
+ "Inner Darkness": {
+  "ids": [
+   706182
+  ],
+  "icon": null
+ },
+ "Inner Turmoil": {
+  "ids": [
+   706722
+  ],
+  "icon": null
+ },
+ "Insane": {
+  "ids": [
+   570108
+  ],
+  "icon": null
+ },
+ "Insane Screen Effect": {
+  "ids": [
+   803064
+  ],
+  "icon": null
+ },
+ "Insane Trigger Passive": {
+  "ids": [
+   500766
+  ],
+  "icon": null
+ },
+ "Insanity": {
+  "ids": [
+   500706
+  ],
+  "icon": null
+ },
+ "Insanity Bracket Checker": {
+  "ids": [
+   681258
+  ],
+  "icon": null
+ },
+ "Insanity Decay": {
+  "ids": [
+   500728
+  ],
+  "icon": null
+ },
+ "Insanity SLS2": {
+  "ids": [
+   680562
+  ],
+  "icon": null
+ },
+ "Insanity SLS3": {
+  "ids": [
+   520331
+  ],
+  "icon": null
+ },
+ "Insanity's Edge": {
+  "ids": [
+   680485
+  ],
+  "icon": null
+ },
+ "Inspired Malice Darkwither": {
+  "ids": [
+   560981
+  ],
+  "icon": null
+ },
+ "Inspired Malice Gaze": {
+  "ids": [
+   560980
+  ],
+  "icon": null
+ },
+ "Inspired Malice Wrath of the Black Empire": {
+  "ids": [
+   560983
+  ],
+  "icon": null
+ },
+ "Instill Despair": {
+  "ids": [
+   500718
+  ],
+  "icon": null
+ },
+ "Instilling Fear": {
+  "ids": [
+   527268
+  ],
+  "icon": null
+ },
+ "Into My Grasp Tentacle Summon": {
+  "ids": [
+   572311
+  ],
+  "icon": null
+ },
+ "Into The Abyss": {
+  "ids": [
+   570142
+  ],
+  "icon": null
+ },
+ "Into the Abyss": {
+  "ids": [
+   680340
+  ],
+  "icon": null
+ },
+ "Isolate": {
+  "ids": [
+   800368
+  ],
+  "icon": null
+ },
+ "Isolated Whispers": {
+  "ids": [
+   525064
+  ],
+  "icon": null
+ },
+ "Just A Sip": {
+  "ids": [
+   680616
+  ],
+  "icon": null
+ },
+ "Krelin's Disarm": {
+  "ids": [
+   47313
+  ],
+  "icon": null
+ },
+ "Lead the Covenant": {
+  "ids": [
+   704884
+  ],
+  "icon": null
+ },
+ "Lesser Nightmare": {
+  "ids": [
+   561157
+  ],
+  "icon": null
+ },
+ "Lightbreaker": {
+  "ids": [
+   704888
+  ],
+  "icon": null
+ },
+ "Lingering Protection": {
+  "ids": [
+   704433
+  ],
+  "icon": null
+ },
+ "Lose 5 Insanity": {
+  "ids": [
+   300177
+  ],
+  "icon": null
+ },
+ "Maddening Scripture Bonus Trigger": {
+  "ids": [
+   520589
+  ],
+  "icon": null
+ },
+ "Maddening Scripture Passive": {
+  "ids": [
+   500700
+  ],
+  "icon": null
+ },
+ "Madness": {
+  "ids": [
+   520674
+  ],
+  "icon": null
+ },
+ "Maelstrom's Fury": {
+  "ids": [
+   681790
+  ],
+  "icon": null
+ },
+ "Maker of Miseries": {
+  "ids": [
+   573314
+  ],
+  "icon": null
+ },
+ "Malevolence": {
+  "ids": [
+   500714
+  ],
+  "icon": null
+ },
+ "Malevolent Power": {
+  "ids": [
+   301183
+  ],
+  "icon": null
+ },
+ "Malignant Armor": {
+  "ids": [
+   680569
+  ],
+  "icon": null
+ },
+ "Manifestation of Y'shaarj": {
+  "ids": [
+   680573
+  ],
+  "icon": null
+ },
+ "Mark of Y'shaarj": {
+  "ids": [
+   680577
+  ],
+  "icon": null
+ },
+ "Mass Nightmare": {
+  "ids": [
+   805114
+  ],
+  "icon": null
+ },
+ "Mental Assault": {
+  "ids": [
+   254673
+  ],
+  "icon": null
+ },
+ "Mental Expansion": {
+  "ids": [
+   706178
+  ],
+  "icon": null
+ },
+ "Mind Games": {
+  "ids": [
+   582589
+  ],
+  "icon": null
+ },
+ "Mind Leak": {
+  "ids": [
+   300270
+  ],
+  "icon": null
+ },
+ "Mind Rot": {
+  "ids": [
+   300300
+  ],
+  "icon": null
+ },
+ "Mindbender": {
+  "ids": [
+   800016
+  ],
+  "icon": null
+ },
+ "Mindbender Dispel": {
+  "ids": [
+   560331
+  ],
+  "icon": null
+ },
+ "Mindbender Resummon Delayer": {
+  "ids": [
+   800019
+  ],
+  "icon": null
+ },
+ "Misery": {
+  "ids": [
+   300297
+  ],
+  "icon": null
+ },
+ "Moment of Clarity": {
+  "ids": [
+   706179
+  ],
+  "icon": null
+ },
+ "N'Zoth's Rage": {
+  "ids": [
+   300267
+  ],
+  "icon": null
+ },
+ "N'zoth's Cunning": {
+  "ids": [
+   300888
+  ],
+  "icon": null
+ },
+ "Nether Disk": {
+  "ids": [
+   254764
+  ],
+  "icon": null
+ },
+ "Nether Drain": {
+  "ids": [
+   520158
+  ],
+  "icon": null
+ },
+ "Nether Flow": {
+  "ids": [
+   560309
+  ],
+  "icon": null
+ },
+ "Nether Gaze": {
+  "ids": [
+   300276
+  ],
+  "icon": null
+ },
+ "Nether Shield": {
+  "ids": [
+   680571
+  ],
+  "icon": null
+ },
+ "Nether Speed": {
+  "ids": [
+   805875
+  ],
+  "icon": null
+ },
+ "Netherborne": {
+  "ids": [
+   801539
+  ],
+  "icon": null
+ },
+ "Netherstrike": {
+  "ids": [
+   806222
+  ],
+  "icon": null
+ },
+ "Nightmare": {
+  "ids": [
+   560680
+  ],
+  "icon": null
+ },
+ "Nutcase": {
+  "ids": [
+   805117
+  ],
+  "icon": null
+ },
+ "Obliteration": {
+  "ids": [
+   92129
+  ],
+  "icon": null
+ },
+ "Obliteration Beam": {
+  "ids": [
+   805572
+  ],
+  "icon": null
+ },
+ "Oblivion's Embrace": {
+  "ids": [
+   680500
+  ],
+  "icon": null
+ },
+ "Occultism": {
+  "ids": [
+   300305
+  ],
+  "icon": null
+ },
+ "Old God's Command": {
+  "ids": [
+   504066
+  ],
+  "icon": null
+ },
+ "Overwhelming Void": {
+  "ids": [
+   707429
+  ],
+  "icon": null
+ },
+ "Perpetual Isolation": {
+  "ids": [
+   706193
+  ],
+  "icon": null
+ },
+ "Perpetual Nightmare": {
+  "ids": [
+   706194
+  ],
+  "icon": null
+ },
+ "Persistent Prayers": {
+  "ids": [
+   302072
+  ],
+  "icon": null
+ },
+ "Piercing Entropy": {
+  "ids": [
+   806766
+  ],
+  "icon": null
+ },
+ "Pious Magic": {
+  "ids": [
+   706724
+  ],
+  "icon": null
+ },
+ "Placeboulder4": {
+  "ids": [
+   301998
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   527876
+  ],
+  "icon": null
+ },
+ "Power of Yogg-Saron": {
+  "ids": [
+   806264
+  ],
+  "icon": null
+ },
+ "Prayer of Yogg-Saron": {
+  "ids": [
+   800337
+  ],
+  "icon": null
+ },
+ "Precipice of Oblivion": {
+  "ids": [
+   704875
+  ],
+  "icon": null
+ },
+ "Presence of C'Thun": {
+  "ids": [
+   803339
+  ],
+  "icon": null
+ },
+ "Presence of C'thun": {
+  "ids": [
+   803355
+  ],
+  "icon": null
+ },
+ "Presence of N'Zoth": {
+  "ids": [
+   803037
+  ],
+  "icon": null
+ },
+ "Presence of N'zoth": {
+  "ids": [
+   803038
+  ],
+  "icon": null
+ },
+ "Presence of Y'Shaarj": {
+  "ids": [
+   573277
+  ],
+  "icon": null
+ },
+ "Presence of Yogg-Saron": {
+  "ids": [
+   801560
+  ],
+  "icon": null
+ },
+ "Prophet of Doom": {
+  "ids": [
+   704472
+  ],
+  "icon": null
+ },
+ "Prophet of Doom (Hidden)": {
+  "ids": [
+   704471
+  ],
+  "icon": null
+ },
+ "Prophetic Compulsion": {
+  "ids": [
+   300264
+  ],
+  "icon": null
+ },
+ "Protection From Light": {
+  "ids": [
+   804065
+  ],
+  "icon": null
+ },
+ "Protective Grasp": {
+  "ids": [
+   560092
+  ],
+  "icon": null
+ },
+ "Psychic Burst": {
+  "ids": [
+   681319
+  ],
+  "icon": null
+ },
+ "Psychic Leech": {
+  "ids": [
+   800452
+  ],
+  "icon": null
+ },
+ "Psychic Rifts": {
+  "ids": [
+   681525
+  ],
+  "icon": null
+ },
+ "Psychic Speed": {
+  "ids": [
+   300311
+  ],
+  "icon": null
+ },
+ "Psychic Suppression": {
+  "ids": [
+   800432
+  ],
+  "icon": null
+ },
+ "Psychic Trauma": {
+  "ids": [
+   806249
+  ],
+  "icon": null
+ },
+ "Psychonaut": {
+  "ids": [
+   706920
+  ],
+  "icon": null
+ },
+ "Rapid Incantations": {
+  "ids": [
+   301181
+  ],
+  "icon": null
+ },
+ "Reach of the Old Gods": {
+  "ids": [
+   300281
+  ],
+  "icon": null
+ },
+ "Reactive Tendrils": {
+  "ids": [
+   570224
+  ],
+  "icon": null
+ },
+ "Reality Twist": {
+  "ids": [
+   706371
+  ],
+  "icon": null
+ },
+ "Reaver": {
+  "ids": [
+   524730
+  ],
+  "icon": null
+ },
+ "Reaving Blade": {
+  "ids": [
+   500736
+  ],
+  "icon": null
+ },
+ "Reaving Blade Trigger": {
+  "ids": [
+   524729
+  ],
+  "icon": null
+ },
+ "Recurring Nightmare": {
+  "ids": [
+   560681
+  ],
+  "icon": null
+ },
+ "Reduce 20 Insanity": {
+  "ids": [
+   503695
+  ],
+  "icon": null
+ },
+ "Reduce 40 Insanity": {
+  "ids": [
+   504852
+  ],
+  "icon": null
+ },
+ "Reduce 5 Insanity": {
+  "ids": [
+   572857
+  ],
+  "icon": null
+ },
+ "Remove 1 Void Rune": {
+  "ids": [
+   804214
+  ],
+  "icon": null
+ },
+ "Remove 2 Void Rune": {
+  "ids": [
+   804215
+  ],
+  "icon": null
+ },
+ "Remove 30 Insanity": {
+  "ids": [
+   520775
+  ],
+  "icon": null
+ },
+ "Remove 60 Insanity": {
+  "ids": [
+   520790
+  ],
+  "icon": null
+ },
+ "Remove At Least 2 Void Runes": {
+  "ids": [
+   520401
+  ],
+  "icon": null
+ },
+ "Remove At Least 3 Void Runes": {
+  "ids": [
+   520400
+  ],
+  "icon": null
+ },
+ "Remove At Least 6 Void Runes": {
+  "ids": [
+   822171
+  ],
+  "icon": null
+ },
+ "Remove Book of the Old Gods": {
+  "ids": [
+   520475
+  ],
+  "icon": null
+ },
+ "Remove Dark Whispers": {
+  "ids": [
+   706726
+  ],
+  "icon": null
+ },
+ "Remove Stealth 8yd": {
+  "ids": [
+   800456
+  ],
+  "icon": null
+ },
+ "Remove Void Runes": {
+  "ids": [
+   570725
+  ],
+  "icon": null
+ },
+ "Residual Energy": {
+  "ids": [
+   681389
+  ],
+  "icon": null
+ },
+ "Resilient Shadows": {
+  "ids": [
+   570728
+  ],
+  "icon": null
+ },
+ "Restore Sanity": {
+  "ids": [
+   801157
+  ],
+  "icon": null
+ },
+ "Rift": {
+  "ids": [
+   806250
+  ],
+  "icon": null
+ },
+ "Ripper Saw": {
+  "ids": [
+   513126
+  ],
+  "icon": null
+ },
+ "Ritual Codex": {
+  "ids": [
+   704886
+  ],
+  "icon": null
+ },
+ "Ritual Stone": {
+  "ids": [
+   804778
+  ],
+  "icon": null
+ },
+ "Ritual of Awakening": {
+  "ids": [
+   801791
+  ],
+  "icon": null
+ },
+ "Sane": {
+  "ids": [
+   803111
+  ],
+  "icon": null
+ },
+ "Sanity": {
+  "ids": [
+   500727
+  ],
+  "icon": null
+ },
+ "Sanity Tap": {
+  "ids": [
+   802575
+  ],
+  "icon": null
+ },
+ "Saronite Blessing": {
+  "ids": [
+   301262
+  ],
+  "icon": null
+ },
+ "Saronite Cube": {
+  "ids": [
+   807307
+  ],
+  "icon": null
+ },
+ "Saronite Mind": {
+  "ids": [
+   806266
+  ],
+  "icon": null
+ },
+ "Saronite Prayer": {
+  "ids": [
+   560474
+  ],
+  "icon": null
+ },
+ "Saronite Shield": {
+  "ids": [
+   807068
+  ],
+  "icon": null
+ },
+ "Saronite Trance": {
+  "ids": [
+   712407
+  ],
+  "icon": null
+ },
+ "Satiate": {
+  "ids": [
+   804275
+  ],
+  "icon": null
+ },
+ "Seething Void": {
+  "ids": [
+   524804
+  ],
+  "icon": null
+ },
+ "Seething Void AoE Mass Apply": {
+  "ids": [
+   520398
+  ],
+  "icon": null
+ },
+ "Seething Void Passive": {
+  "ids": [
+   706355
+  ],
+  "icon": null
+ },
+ "Seething Void Proc": {
+  "ids": [
+   706356
+  ],
+  "icon": null
+ },
+ "Seraphim's Oath": {
+  "ids": [
+   804313
+  ],
+  "icon": null
+ },
+ "Sermon of Dread": {
+  "ids": [
+   620610
+  ],
+  "icon": null
+ },
+ "Servant of C'Thun": {
+  "ids": [
+   300296
+  ],
+  "icon": null
+ },
+ "Shadow Fiend": {
+  "ids": [
+   680487
+  ],
+  "icon": null
+ },
+ "Shadow Pennant": {
+  "ids": [
+   706926
+  ],
+  "icon": null
+ },
+ "Shadow Strikes": {
+  "ids": [
+   707640
+  ],
+  "icon": null
+ },
+ "Shadow Training": {
+  "ids": [
+   805607
+  ],
+  "icon": null
+ },
+ "Shadow Words": {
+  "ids": [
+   706928
+  ],
+  "icon": null
+ },
+ "Shadow of the Void": {
+  "ids": [
+   300277
+  ],
+  "icon": null
+ },
+ "Shadowy Symbiosis": {
+  "ids": [
+   572294
+  ],
+  "icon": null
+ },
+ "Shadowy Whispers": {
+  "ids": [
+   560978
+  ],
+  "icon": null
+ },
+ "Shatter Guard": {
+  "ids": [
+   802579
+  ],
+  "icon": null
+ },
+ "Shatter Void Rune": {
+  "ids": [
+   502193
+  ],
+  "icon": null
+ },
+ "Shattered": {
+  "ids": [
+   254858
+  ],
+  "icon": null
+ },
+ "Shieldreave": {
+  "ids": [
+   801540
+  ],
+  "icon": null
+ },
+ "Show of Force": {
+  "ids": [
+   520861
+  ],
+  "icon": null
+ },
+ "Shroud of Pride": {
+  "ids": [
+   805126
+  ],
+  "icon": null
+ },
+ "Slumberquell Emenation": {
+  "ids": [
+   560328
+  ],
+  "icon": null
+ },
+ "Spreading Prophecy": {
+  "ids": [
+   503687
+  ],
+  "icon": null
+ },
+ "Stance Damage Reduction 15%": {
+  "ids": [
+   805440
+  ],
+  "icon": null
+ },
+ "Stare Into The Abyss": {
+  "ids": [
+   525019
+  ],
+  "icon": null
+ },
+ "Strength of the Black Empire": {
+  "ids": [
+   680556
+  ],
+  "icon": null
+ },
+ "Strength of the Sha": {
+  "ids": [
+   804286
+  ],
+  "icon": null
+ },
+ "Succumb To Madness": {
+  "ids": [
+   301055
+  ],
+  "icon": null
+ },
+ "Sudden Doom": {
+  "ids": [
+   801221
+  ],
+  "icon": null
+ },
+ "Summon Eye of the Void": {
+  "ids": [
+   801156
+  ],
+  "icon": null
+ },
+ "Summon: Faceless Destroyer": {
+  "ids": [
+   572115
+  ],
+  "icon": null
+ },
+ "Summon: Faceless Servant": {
+  "ids": [
+   500709
+  ],
+  "icon": null
+ },
+ "Summon: Mindbender": {
+  "ids": [
+   803062
+  ],
+  "icon": null
+ },
+ "Sunderer of Realities": {
+  "ids": [
+   301067
+  ],
+  "icon": null
+ },
+ "Suppression": {
+  "ids": [
+   300269
+  ],
+  "icon": null
+ },
+ "Swift Blasts": {
+  "ids": [
+   300310
+  ],
+  "icon": null
+ },
+ "Tale of Woe": {
+  "ids": [
+   524844
+  ],
+  "icon": null
+ },
+ "Tales of Woe": {
+  "ids": [
+   520682
+  ],
+  "icon": null
+ },
+ "Teachings of Mythrax": {
+  "ids": [
+   561035
+  ],
+  "icon": null
+ },
+ "Teleport: Twilight Base Camp": {
+  "ids": [
+   704405
+  ],
+  "icon": null
+ },
+ "Tentacle Crush": {
+  "ids": [
+   680596
+  ],
+  "icon": null
+ },
+ "Tentacle Scaling Cthun": {
+  "ids": [
+   806031
+  ],
+  "icon": null
+ },
+ "Tentacle Scaling Yogg": {
+  "ids": [
+   806033
+  ],
+  "icon": null
+ },
+ "Tentacle Scaling Yshaarj": {
+  "ids": [
+   806032
+  ],
+  "icon": null
+ },
+ "Tentacle Spawner Duration Setter": {
+  "ids": [
+   572377
+  ],
+  "icon": null
+ },
+ "Tentacle of C'Thun": {
+  "ids": [
+   801153
+  ],
+  "icon": null
+ },
+ "Tentacle of N'Zoth": {
+  "ids": [
+   572103
+  ],
+  "icon": null
+ },
+ "Tentacle of Y'shaarj": {
+  "ids": [
+   802044
+  ],
+  "icon": null
+ },
+ "Tentacle of Yogg-Saron": {
+  "ids": [
+   802042
+  ],
+  "icon": null
+ },
+ "Tentacle of the Old Gods": {
+  "ids": [
+   572302
+  ],
+  "icon": null
+ },
+ "Tentacles, Tentacles": {
+  "ids": [
+   567526
+  ],
+  "icon": null
+ },
+ "Tentacular": {
+  "ids": [
+   300299
+  ],
+  "icon": null
+ },
+ "Terror": {
+  "ids": [
+   300304
+  ],
+  "icon": null
+ },
+ "Terror of the Old Gods": {
+  "ids": [
+   560718
+  ],
+  "icon": null
+ },
+ "Terrorbolt": {
+  "ids": [
+   504617
+  ],
+  "icon": null
+ },
+ "Test of Pride": {
+  "ids": [
+   800468
+  ],
+  "icon": null
+ },
+ "The Final Hour": {
+  "ids": [
+   520157
+  ],
+  "icon": null
+ },
+ "Thoughtseize": {
+  "ids": [
+   806596
+  ],
+  "icon": null
+ },
+ "Threat Redirector": {
+  "ids": [
+   572333
+  ],
+  "icon": null
+ },
+ "To The Void": {
+  "ids": [
+   680510
+  ],
+  "icon": null
+ },
+ "Too Many Voices": {
+  "ids": [
+   707190
+  ],
+  "icon": null
+ },
+ "Torment Extender": {
+  "ids": [
+   706930
+  ],
+  "icon": null
+ },
+ "Total Madness": {
+  "ids": [
+   570172
+  ],
+  "icon": null
+ },
+ "Touch of the Void": {
+  "ids": [
+   572046
+  ],
+  "icon": null
+ },
+ "Twilight Devastation": {
+  "ids": [
+   560065
+  ],
+  "icon": null
+ },
+ "Twilight Domain": {
+  "ids": [
+   807725
+  ],
+  "icon": null
+ },
+ "Twilight Domination": {
+  "ids": [
+   520405
+  ],
+  "icon": null
+ },
+ "Twilight Executioner": {
+  "ids": [
+   680484
+  ],
+  "icon": null
+ },
+ "Twilight Guardian": {
+  "ids": [
+   704889
+  ],
+  "icon": null
+ },
+ "Twilight Hammer": {
+  "ids": [
+   707723
+  ],
+  "icon": null
+ },
+ "Twilight Horror": {
+  "ids": [
+   560977
+  ],
+  "icon": null
+ },
+ "Twilight Incarnate": {
+  "ids": [
+   681087
+  ],
+  "icon": null
+ },
+ "Twilight Initiate": {
+  "ids": [
+   704890
+  ],
+  "icon": null
+ },
+ "Twilight Shieldtoss": {
+  "ids": [
+   524876
+  ],
+  "icon": null
+ },
+ "Twilight Shroud": {
+  "ids": [
+   805578
+  ],
+  "icon": null
+ },
+ "Twilight Slam": {
+  "ids": [
+   806256
+  ],
+  "icon": null
+ },
+ "Twilight's Call": {
+  "ids": [
+   301180
+  ],
+  "icon": null
+ },
+ "Twisted Mending": {
+  "ids": [
+   805576
+  ],
+  "icon": null
+ },
+ "Twisted Sanity": {
+  "ids": [
+   706187
+  ],
+  "icon": null
+ },
+ "Twisted Seal": {
+  "ids": [
+   525065
+  ],
+  "icon": null
+ },
+ "Umbral Voyage": {
+  "ids": [
+   806176
+  ],
+  "icon": null
+ },
+ "Umbral Warrior": {
+  "ids": [
+   704868
+  ],
+  "icon": null
+ },
+ "Unblinking Vigil": {
+  "ids": [
+   806383
+  ],
+  "icon": null
+ },
+ "Unbound Codex": {
+  "ids": [
+   706723
+  ],
+  "icon": null
+ },
+ "Unravel": {
+  "ids": [
+   704478
+  ],
+  "icon": null
+ },
+ "Unrelenting Void": {
+  "ids": [
+   704527
+  ],
+  "icon": null
+ },
+ "Unspeakable Truth Missile Visual Trigger": {
+  "ids": [
+   500698
+  ],
+  "icon": null
+ },
+ "Veiled Knight": {
+  "ids": [
+   706183
+  ],
+  "icon": null
+ },
+ "Vision of Doom": {
+  "ids": [
+   500725
+  ],
+  "icon": null
+ },
+ "Visions": {
+  "ids": [
+   560526
+  ],
+  "icon": null
+ },
+ "Visions of the Empire": {
+  "ids": [
+   806384
+  ],
+  "icon": null
+ },
+ "Void Adept": {
+  "ids": [
+   803055
+  ],
+  "icon": null
+ },
+ "Void Augmentation": {
+  "ids": [
+   680575
+  ],
+  "icon": null
+ },
+ "Void Barrier": {
+  "ids": [
+   300291
+  ],
+  "icon": null
+ },
+ "Void Blessing": {
+  "ids": [
+   800194
+  ],
+  "icon": null
+ },
+ "Void Burst": {
+  "ids": [
+   680735
+  ],
+  "icon": null
+ },
+ "Void Drain": {
+  "ids": [
+   681275
+  ],
+  "icon": null
+ },
+ "Void Drain Manifestation Aura": {
+  "ids": [
+   681274
+  ],
+  "icon": null
+ },
+ "Void Embrace": {
+  "ids": [
+   800367
+  ],
+  "icon": null
+ },
+ "Void Is Power": {
+  "ids": [
+   301190
+  ],
+  "icon": null
+ },
+ "Void Power": {
+  "ids": [
+   574147
+  ],
+  "icon": null
+ },
+ "Void Rage": {
+  "ids": [
+   681102
+  ],
+  "icon": null
+ },
+ "Void Reaver": {
+  "ids": [
+   502133
+  ],
+  "icon": null
+ },
+ "Void Resilience": {
+  "ids": [
+   1119881
+  ],
+  "icon": null
+ },
+ "Void Rune": {
+  "ids": [
+   301185
+  ],
+  "icon": null
+ },
+ "Void Rune Checker": {
+  "ids": [
+   520341
+  ],
+  "icon": null
+ },
+ "Void Rune Decay": {
+  "ids": [
+   560015
+  ],
+  "icon": null
+ },
+ "Void Shield": {
+  "ids": [
+   500715
+  ],
+  "icon": null
+ },
+ "Void Strength": {
+  "ids": [
+   805121
+  ],
+  "icon": null
+ },
+ "Void Strikes": {
+  "ids": [
+   567529
+  ],
+  "icon": null
+ },
+ "Void Tolerance": {
+  "ids": [
+   680570
+  ],
+  "icon": null
+ },
+ "Void Touch": {
+  "ids": [
+   300752
+  ],
+  "icon": null
+ },
+ "Void Touched Regalia": {
+  "ids": [
+   704899
+  ],
+  "icon": null
+ },
+ "Void-Enhanced Shield": {
+  "ids": [
+   572025
+  ],
+  "icon": null
+ },
+ "Void-Touched": {
+  "ids": [
+   300286
+  ],
+  "icon": null
+ },
+ "Voidborn Affliction": {
+  "ids": [
+   300301
+  ],
+  "icon": null
+ },
+ "Voidborne": {
+  "ids": [
+   681104
+  ],
+  "icon": null
+ },
+ "Voidforged Edge": {
+  "ids": [
+   704871
+  ],
+  "icon": null
+ },
+ "Voidguard": {
+  "ids": [
+   300266
+  ],
+  "icon": null
+ },
+ "Voidseeker": {
+  "ids": [
+   560320
+  ],
+  "icon": null
+ },
+ "Voidshift": {
+  "ids": [
+   806230
+  ],
+  "icon": null
+ },
+ "Voidshift Trigger": {
+  "ids": [
+   520474
+  ],
+  "icon": null
+ },
+ "Voidslam": {
+  "ids": [
+   706273
+  ],
+  "icon": null
+ },
+ "Voidspeaker": {
+  "ids": [
+   706927
+  ],
+  "icon": null
+ },
+ "Voidwarding": {
+  "ids": [
+   560002
+  ],
+  "icon": null
+ },
+ "Warrior of the Old Gods": {
+  "ids": [
+   802047
+  ],
+  "icon": null
+ },
+ "Wave of Anger": {
+  "ids": [
+   573428
+  ],
+  "icon": null
+ },
+ "Wave of Anger Passive": {
+  "ids": [
+   574332
+  ],
+  "icon": null
+ },
+ "Wave of Doubt": {
+  "ids": [
+   570111
+  ],
+  "icon": null
+ },
+ "Wave of Doubt Passive": {
+  "ids": [
+   574330
+  ],
+  "icon": null
+ },
+ "Wave of Fear": {
+  "ids": [
+   573429
+  ],
+  "icon": null
+ },
+ "Wave of Fear Passive": {
+  "ids": [
+   574333
+  ],
+  "icon": null
+ },
+ "Wave of Pride": {
+  "ids": [
+   573427
+  ],
+  "icon": null
+ },
+ "Wave of Pride Passive": {
+  "ids": [
+   574331
+  ],
+  "icon": null
+ },
+ "Wavering Hope": {
+  "ids": [
+   560502
+  ],
+  "icon": null
+ },
+ "Wavering Pride": {
+  "ids": [
+   804534
+  ],
+  "icon": null
+ },
+ "Whisper of Yogg-Saron": {
+  "ids": [
+   800369
+  ],
+  "icon": null
+ },
+ "Whispers of C'Thun": {
+  "ids": [
+   807512
+  ],
+  "icon": null
+ },
+ "Whispers of C'thun": {
+  "ids": [
+   572791
+  ],
+  "icon": null
+ },
+ "Whispers of N'Zoth": {
+  "ids": [
+   561386
+  ],
+  "icon": null
+ },
+ "Whispers of Y'shaarj": {
+  "ids": [
+   561389
+  ],
+  "icon": null
+ },
+ "Whispers of Yogg-Saron": {
+  "ids": [
+   572637
+  ],
+  "icon": null
+ },
+ "Who Needs Sanity?": {
+  "ids": [
+   681106
+  ],
+  "icon": null
+ },
+ "Wicked Thoughts": {
+  "ids": [
+   706190
+  ],
+  "icon": null
+ },
+ "Withered": {
+  "ids": [
+   355052
+  ],
+  "icon": null
+ },
+ "Withering Embrace": {
+  "ids": [
+   681262
+  ],
+  "icon": null
+ },
+ "Worrysome Idol": {
+  "ids": [
+   706914
+  ],
+  "icon": null
+ },
+ "Wracked Mind": {
+  "ids": [
+   805801
+  ],
+  "icon": null
+ },
+ "Wrath of N'zoth": {
+  "ids": [
+   806254
+  ],
+  "icon": null
+ },
+ "Wrath of The Black Empire": {
+  "ids": [
+   500724
+  ],
+  "icon": null
+ },
+ "Wrath of the Black Empire": {
+  "ids": [
+   800413
+  ],
+  "icon": null
+ },
+ "Wrathful": {
+  "ids": [
+   706191
+  ],
+  "icon": null
+ },
+ "Wrathful Slam": {
+  "ids": [
+   706192
+  ],
+  "icon": null
+ },
+ "Writhing Mass": {
+  "ids": [
+   704877
+  ],
+  "icon": null
+ },
+ "Y'Shaarj's Enforcer": {
+  "ids": [
+   803236
+  ],
+  "icon": null
+ },
+ "Yawning Decay": {
+  "ids": [
+   706909
+  ],
+  "icon": null
+ },
+ "Yogg-Saron's Embrace": {
+  "ids": [
+   301984
+  ],
+  "icon": null
+ },
+ "You Are Void": {
+  "ids": [
+   680554
+  ],
+  "icon": null
+ }
+}

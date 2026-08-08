@@ -1,0 +1,356 @@
+{
+ "Abyssal Command": {
+  "id": 500710,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Abyssal Ward": {
+  "id": 804670,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Armageddon": {
+  "id": 680565,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "dreadnought"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Corrupt Mind": {
+  "id": 560109,
+  "cd": "1 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Cosmic Ooze": {
+  "id": 801629,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": false
+ },
+ "Crushing Dissonance": {
+  "id": 804056,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "dreadnought"
+  ],
+  "gcd": false
+ },
+ "Dark Veil": {
+  "id": 520345,
+  "cd": "2 min cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Devour Curse": {
+  "id": 704426,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Doomcloak": {
+  "id": 502134,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "dreadnought"
+  ],
+  "gcd": false
+ },
+ "Dreadfall": {
+  "id": 806175,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "dreadnought",
+   "godblade"
+  ],
+  "gcd": false
+ },
+ "Eldritch Eye": {
+  "id": 802049,
+  "cd": "1 min cooldown",
+  "specs": [
+   "corruption",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Eldritch Obelisk": {
+  "id": 560321,
+  "cd": "3 min cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Eldritch Ritual": {
+  "id": 804777,
+  "cd": "1 hour cooldown",
+  "specs": [
+   "corruption"
+  ],
+  "gcd": false
+ },
+ "Eldritch Smite of C'thun": {
+  "id": 502125,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "corruption"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Empire's Grasp": {
+  "id": 500704,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": false
+ },
+ "Entropic Host": {
+  "id": 805133,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Entropic Singularity": {
+  "id": 800430,
+  "cd": "1 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Entropic Strike": {
+  "id": 805111,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Grasp of Zek'voz": {
+  "id": 573028,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hallucination": {
+  "id": 560301,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Hand of Yogg-Saron": {
+  "id": 704476,
+  "cd": "2 min cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Instill Despair": {
+  "id": 500718,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Isolate": {
+  "id": 800368,
+  "cd": "1 min cooldown",
+  "specs": [
+   "godblade",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Mass Nightmare": {
+  "id": 805114,
+  "cd": "3 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Presence of Y'Shaarj": {
+  "id": 573277,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Prophet of Doom": {
+  "id": 704472,
+  "cd": "2 min cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Protection From Light": {
+  "id": 804065,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Psychic Burst": {
+  "id": 681319,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": false
+ },
+ "Psychic Suppression": {
+  "id": 800432,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Restore Sanity": {
+  "id": 801157,
+  "cd": "5 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Rift": {
+  "id": 806250,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": false
+ },
+ "Satiate": {
+  "id": 804275,
+  "cd": "3 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Shatter Void Rune": {
+  "id": 502193,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "corruption"
+  ],
+  "gcd": false
+ },
+ "Summon: Faceless Destroyer": {
+  "id": 572115,
+  "cd": "10 min cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Tentacle of N'Zoth": {
+  "id": 572103,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Terror of the Old Gods": {
+  "id": 560718,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "corruption"
+  ],
+  "gcd": false
+ },
+ "Test of Pride": {
+  "id": 800468,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "dreadnought"
+  ],
+  "gcd": false
+ },
+ "Twisted Seal": {
+  "id": 525065,
+  "cd": "2 min cooldown",
+  "specs": [
+   "corruption",
+   "dreadnought",
+   "godblade",
+   "heretic"
+  ],
+  "gcd": false
+ },
+ "Voidborne": {
+  "id": 681104,
+  "cd": "3 min cooldown",
+  "specs": [
+   "godblade"
+  ],
+  "gcd": false
+ },
+ "Wrath of The Black Empire": {
+  "id": 500724,
+  "cd": "1 min cooldown",
+  "specs": [
+   "corruption"
+  ],
+  "gcd": "1.5 sec"
+ }
+}

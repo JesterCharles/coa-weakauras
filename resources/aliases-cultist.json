@@ -1,0 +1,27 @@
+{
+ "Obliteration": {
+  "canonical": "Hammer of Twilight",
+  "spell_id": 805116,
+  "why": "The godblade Sidekick prose 'dump it into Obliteration for a big Weapon+Shadow smash that drains Insanity. Crits refund 20 via Twilight's Call' can only be Hammer of Twilight: Twilight's Call reads 'Critical strikes with Hammer of Twilight now refund 20 Insanity', Warrior of the Old Gods boosts 'the Weapon Damage dealt by Hammer of Twilight and Entropic Slam' (the prose credits it with boosting 'Obliteration's Weapon damage'), and 805116's tooltip is the 40-Insanity smash. Every data-side 'Obliteration' is something else: 92129/805605 is the L10 Spec Passive about Gaze, 706894/5 is another tab's talent, 800751 is a generic elemental hit. The inventory's Obliteration row is ignore with this note."
+ },
+ "Void Strikes": {
+  "canonical": "Entropic Slam",
+  "spell_id": 804152,
+  "why": "The dreadnought Sidekick prose 'spend it with Void Strikes' names an ability with no castable record: 567529 'Void Strikes' is rank Scaling with an empty tooltip, the 903xxx 'Void Strike' family is a combo-point Energy strike belonging to a different class, and 254922/91904 are unrelated. The only Insanity-draining melee spender in the dreadnought kit is Entropic Slam (804152, 'Crush enemies in front of you ... draining 40 Insanity', skillbook-tagged dreadnought), which the heretic Resource paragraph also names as the damage spend. Unproven in game -- flagged in requirements section 6."
+ },
+ "Entropic Fog": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Named once in the whole sidekick-data.js blob (the ONE-hit prose rule from class-pack-process.md: rotation blurbs are generated and name abilities the skill data has no record of). The only data-side record, 805137, is rank 'Stealth' with an empty tooltip -- a component, not a heretic cooldown. Not a claim; nothing to build."
+ },
+ "Raim's Veil": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Named once in the whole sidekick-data.js blob and has no record in EITHER database under any spelling. Generated prose (possibly a garbling of Dark Veil, which is a real heretic channel and already an inventory row). Not a claim; nothing to build."
+ },
+ "Eye of N'zoth": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "The godblade prose cites 'Open at range with Eye of N'zoth' as a pressed opener, but no castable exists in either database: 573313 is rank Proc (empty tooltip), 802728 is the talent Passive (+crit to Tentacles), 1885214 is RP flavor text, 560898 is DEPRECATED. The cited opener is unbuildable -- the reaper Sever pattern. Requirements section 6 carries the in-game id capture; until then godblade ships a four-icon main row."
+ }
+}

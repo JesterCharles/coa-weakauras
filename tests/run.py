@@ -343,9 +343,15 @@ def off_gcd_for(cls):
     """
     p = class_data(cls.cooldowns)
     if not os.path.exists(p):
-        return None
+        return None, None
     cd = json.load(open(p))
-    return {n for n, v in cd.items() if v.get("gcd") is False}
+    # BOTH sets, because suffix matching needs the longer name to win. Tinker
+    # has "Battery Recharge Station" (off-GCD, legacy) beside "Build: Battery
+    # Recharge Station" (on-GCD, the learnable button): the Build: display id
+    # ends with the shorter name too, and matching against OFF_GCD alone
+    # flags the on-GCD display as an off-GCD fault. Matching the LONGEST
+    # audit name first binds each display to the ability it actually tracks.
+    return {n for n, v in cd.items() if v.get("gcd") is False}, set(cd)
 
 
 def showgcd_of(d):
@@ -359,25 +365,55 @@ def showgcd_of(d):
     return None
 
 
+def inv_names_for(cls):
+    """Every ability name in the class inventory, for suffix disambiguation."""
+    p = class_data(f"abilities-{cls.slug}.md")
+    out = set()
+    if os.path.exists(p):
+        for line in open(p, encoding="utf-8"):
+            if line.startswith("| ") and line.count("|") >= 6:
+                c = line.split("|")[1].strip()
+                if c and c != "Ability" and set(c) != {"-"}:
+                    out.add(c)
+    return out
+
+
+def off_gcd_match(d, off_gcd, known):
+    """The off-GCD name this display renders, or None.
+
+    Suffix matching can NEST: witch-doctor's "WD Brewing Utility Concoct
+    Rejuvenating Mojo" ends with the audited off-GCD name "Rejuvenating Mojo"
+    but is a different, on-GCD button (gcd_ms 1500 in spell-meta). So the
+    match is the LONGEST known name (audit + inventory) that fits the id
+    suffix, and only counts when that longest match is itself the off-GCD
+    one -- the check still never has to know the row naming.
+    """
+    best = max((a for a in (off_gcd | known) if d["id"].endswith(" " + a)),
+               key=len, default=None)
+    return best if best in off_gcd else None
+
+
 for cls, spec, name in PACKS:
-    OFF_GCD = off_gcd_for(cls)
+    OFF_GCD, AUDITED = off_gcd_for(cls)
     if OFF_GCD is None:
         check(f"{name}: {cls.cooldowns} exists", False,
               f"run: python3 tools/audit_cds.py {cls.slug}")
         continue
     pack = load(cls.pack_path(name))
+
     # `use_showgcd` makes WeakAuras substitute the tracked global for any spell
     # not already on cooldown -- blindly, with no per-spell knowledge
     # (GenericTrigger.lua:2795). On an ability that does not obey the global
     # that is a phantom sweep every time you press something else. Which
     # abilities those are is scraped, not guessed: db.exil.es omits the GCD row
     # for them and audit_cds.py records it as `gcd: false`.
+    KNOWN = inv_names_for(cls)
     wrong = []
     for d in cd_triggered(pack):
         # display ids are "RM <Spec> <Row> <Ability>"; match on suffix so the
-        # check does not have to know the row naming.
-        ability = next((a for a in OFF_GCD if d["id"].endswith(" " + a)), None)
-        if ability and showgcd_of(d) is not False:
+        # check does not have to know the row naming. Longest-known-name wins
+        # so a nested name cannot borrow another ability's verdict.
+        if off_gcd_match(d, OFF_GCD, KNOWN) and showgcd_of(d) is not False:
             wrong.append(f"{d['id']} (off-GCD, but use_showgcd is on)")
     check(f"{name}: no off-GCD ability shows the global", not wrong,
           "\n".join(wrong[:8]))
@@ -386,7 +422,7 @@ for cls, spec, name in PACKS:
     # anti-clipping cue, which is the whole reason showgcd is on by default.
     missing = []
     for d in cd_triggered(pack):
-        if any(d["id"].endswith(" " + a) for a in OFF_GCD):
+        if off_gcd_match(d, OFF_GCD, KNOWN):
             continue
         if showgcd_of(d) is False:
             missing.append(f"{d['id']} (on-GCD, but use_showgcd is off)")
@@ -522,6 +558,14 @@ else:
 # reference an ability it does not have. Runemaster shipped with 150 skillbook
 # entries that omitted Runeblade and Runic Explosion while rendering both, and
 # coverage measured against that inventory read 100%.
+#
+# ⚠️ HALF of that example was wrong, and the correction is the more useful
+# lesson. The skillbook was right to omit Runic Explosion: it is the damage
+# COMPONENT of Runeblade spending `Marked: Runic Brand` (rank="Damage", cd=0,
+# gcd=0), not a button. The pack drew it on the Engravement main row from 1.0
+# to 1.7 anyway. So "the pack renders it" is a floor on what needs a ROW, and
+# never evidence that something is an ABILITY -- this check answers coverage,
+# not correctness, and a wrong row passes it just as happily as a right one.
 #
 # Judged on triggers, not display ids: a resource bar has no ability behind it
 # and must not be counted, or the number never reaches zero and stops meaning
@@ -797,7 +841,10 @@ for cls in UNDER_TEST:
     # supports: unverified means the badge is present, verified means it is not.
     page = os.path.join(ROOT, "docs", cls.slug, "index.html")
     if os.path.exists(page):
-        badged = "not verified in game" in open(page, encoding="utf-8").read()
+        # The badge is the `unver` span mksite emits; matched on the class
+        # attribute rather than the copy so the wording can change (it now
+        # reads "draft" per notes/production-run.md) without a false fail.
+        badged = 'class="packver unver"' in open(page, encoding="utf-8").read()
         check(f"{cls.slug}: page badge matches the record "
               f"(v{ver} {'verified' if ok else 'unverified'})",
               badged != ok)
@@ -1063,6 +1110,82 @@ for cls in UNDER_TEST:
               abs(moved - want) < 1.5,
               f"moved {moved:.0f}px, expected {want:.0f}px -- the band below "
               f"is holding space for rows that did not render")
+
+
+
+# ------------------------------- 22. no damage COMPONENT sits in a pressable row
+#
+# `Runic Explosion` sat on Runemaster's Engravement main row from 1.0 to 1.7. It
+# is not a button: it is what Runeblade CAUSES when it spends
+# `Marked: Runic Brand`. It survived an in-game verification, because that check
+# confirmed the ART RESOLVED -- a different question from whether the icon means
+# anything -- and it was caught by a player who knew the class, not by anything
+# here.
+#
+# THE SIGNAL IS `rank`, AND ONLY `rank`. The obvious-looking test -- no GCD, and
+# absent from the class skillbook -- was tried first and is useless: it fires on
+# ~65 abilities across three classes, including Zenith, Ley Lock, Guarding Rune
+# and Phase Out. Off-GCD abilities are ordinary here; the repo's own off-GCD
+# note counts 26 of Runemaster's 59 cooldowns. A check that cries wolf 65 times
+# is a check people learn to skip.
+#
+# db.exil.es marks components with a rank that is not a rank: "Damage", "Heal",
+# "Giga Heal", "Absorb", "Energize", "ICD", "Proc". Runic Explosion is "Damage";
+# Pyromancer's Phoenix Egg heal component is "Heal" and its Inferno Explosion is
+# "Giga Heal", and both are correctly `ignore`d. Across all three shipped packs
+# this flags ZERO false positives -- so it is worth failing the build over.
+#
+# It does NOT catch every wrong row. Pyromancer's `Stoke` was a passive talent
+# carrying rank "Rank 1", and only the cross-database sweep found it. The two
+# checks are complements, not substitutes.
+#
+# THE TAG ALONE IS NOT THE VERDICT (Cultist, 2026-08-07 -- the first false
+# positives). db.exil.es files Twisted Seal 525065 and Grasp of Zek'voz 573028
+# under rank "Proc", yet BOTH databases' tooltips are full castables: mana
+# cost, cooldown, effect text ("27% of base mana ... 2 min cooldown", "10% of
+# base mana ... 6 sec cooldown"), and db.ascension lists both advType=Ability.
+# A genuine effect row has neither a cost nor a cast economy -- spellmeta.py's
+# own castability test says "cost 0 + gcd 0 = an effect rather than a button".
+# So a component rank only convicts when the row is also EFFECT-SHAPED (no
+# cost, no GCD, no cooldown). Loosening cannot un-catch anything for shipped
+# classes: their flagged sets are empty, and Runic Explosion / Phoenix Egg
+# Heal / Inferno Explosion are all cost-0 gcd-0 rows that stay convicted.
+print("\n22. no damage component sits in a pressable row")
+
+COMPONENT_RANKS = {"Damage", "Heal", "Giga Heal", "Absorb", "Energize",
+                   "ICD", "Proc", "proc", "Deprecated"}
+
+
+def _effect_shaped(v):
+    """No cost, no GCD, no cooldown -- nothing a player could press."""
+    return not (v.get("cost_pct") or v.get("gcd_ms") or v.get("cd_ms"))
+
+
+PRESSABLE = re.compile(r" (Main|Offense|Utility) ")
+
+for cls in UNDER_TEST:
+    mpath = class_data(f"spell-meta-{cls.slug}.json")
+    ppath = cls.pack_path(f"{cls.slug}-all-specs")
+    if not (os.path.exists(mpath) and os.path.exists(ppath)):
+        continue
+    meta = _json.load(open(mpath, encoding="utf-8"))
+    pack = load(ppath)
+    bad = []
+    for d in pack["c"].values():
+        i = d.get("id", "")
+        if d.get("controlledChildren") or not PRESSABLE.search(i):
+            continue
+        trs = d.get("triggers") or {}
+        t1 = (trs.get(1) or {}).get("trigger") or {}
+        if t1.get("type") != "spell":
+            continue
+        v = meta.get(str(t1.get("spellName"))) or {}
+        if v.get("rank") in COMPONENT_RANKS and _effect_shaped(v):
+            bad.append(f"{i} -> {t1.get('spellName')} rank={v['rank']!r}")
+    check(f"{cls.slug}: no component ranks in Main/Offense/Utility",
+          not bad,
+          "these are effects, not buttons -- set the inventory role to "
+          "`ignore` and take them off the row:\n" + "\n".join(bad[:8]))
 
 
 print()
