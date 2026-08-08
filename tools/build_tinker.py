@@ -66,6 +66,13 @@ OVERRIDE = {
     # 804166 shares achievement_alliedrace_mechagnome with Core Augment:
     # Warcore. The borrowed texture is literally a deploy-turret icon.
     "Deploy Turret Wall": "ability_ironmaidens_deployturret",
+    # 806757 shares nhi_tech_steammachine_border with Machine Synergy
+    # (707277) -- the client's own DBC art, db.exil.es serves the same
+    # icons-clean texture for both, and both are Mechanics buff icons that
+    # can be up side by side. Machine Synergy keeps the client art; the
+    # overclock takes the supercharged-engine art (donor 503569, icon-meta --
+    # renders in no row, so the borrow cannot introduce a fresh clash).
+    "Overclocked Machine": "inv_eng_superchargedengine",
 }
 # db.exil.es links a row that is not the live entity; each entry names the
 # verdict from the crossdb sweep (see requirements 0 and the inventory Notes).

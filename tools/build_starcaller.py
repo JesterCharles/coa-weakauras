@@ -97,6 +97,13 @@ OVERRIDE = {
     # water-blessing art (Bathe is a passive rider, role ignore -- it renders
     # in no row, so the borrow cannot introduce a fresh clash).
     "Slipstream": "spell_shaman_ancestralawakening",
+    # Shares inv_cosmicvoid_buff with Cosmic Presence -- the client's own DBC
+    # art, db.exil.es serves the same icons-clean texture for 801155 and
+    # 502341, and both sit in the Moon Guard utility row. The presence keeps
+    # the buff art; the rebuild channel takes the astral-recall group art
+    # (donor 300994, icon-meta -- renders in no row, so the borrow cannot
+    # introduce a fresh clash).
+    "Astral Reconstitution": "spell_nature_astralrecalgroup",
 }
 
 # Not tooltip-verified in game, but read off db.ascension.gg tooltips where

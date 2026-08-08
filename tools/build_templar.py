@@ -50,7 +50,13 @@ VERSION = "0.1"
 # is no trigger state to fall back on, so without this it draws a grey
 # question mark. Greater Blessing of Kings' art is the classic 3.3.5
 # stats-blessing icon, which is exactly what a Gift is.
-FALLBACK = {"Gift of Zeal": "spell_holy_greaterblessingofkings"}
+FALLBACK = {"Gift of Zeal": "spell_holy_greaterblessingofkings",
+            # The inventory carries the skillbook name; the live spell is
+            # "Greater Gift of Zeal" 680306, so db.exil.es never resolves the
+            # NAME and ic() cannot reach the id route. templar_buff_1 IS the
+            # client's own art for 680306 (db.exil.es page ogImage,
+            # 2026-08-08), so this fallback draws what the game draws.
+            "Greater Zealous Oath": "templar_buff_1"}
 OVERRIDE = {
     # Two pairs share art upstream and appear side by side, which is what the
     # duplicate-art check exists for. Both replacements are real art the class
