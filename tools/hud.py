@@ -43,6 +43,74 @@ def _persistent(node):
     return (trig.get("trigger") or {}).get("type") in PERSISTENT_TRIGGERS
 
 
+# What a display IS, from its first trigger. This is the semantic layer the
+# preview (and later the editor) names tiles by: a spell-cooldown icon is a
+# "cooldown" whatever its art, an aura2 display only exists while its aura
+# does, unit/status displays track a resource. Anything else falls back to its
+# regionType, which at least says what shape it draws.
+ROLE_BY_TRIGGER = {"spell": "cooldown", "aura2": "aura",
+                   "unit": "resource", "status": "resource",
+                   "custom": "custom"}
+
+
+def _vals(x):
+    return list(x.values()) if isinstance(x, dict) else list(x or [])
+
+
+def _flat_checks(chk):
+    """A condition check is either a leaf {trigger, variable, ...} or an
+    AND/OR combinator carrying `checks` -- the urgency tiers are ANDed with
+    their GCD guard, so the leaves have to be dug out."""
+    if not isinstance(chk, dict):
+        return []
+    subs = _vals(chk.get("checks"))
+    if subs:
+        out = []
+        for s in subs:
+            out.extend(_flat_checks(s))
+        return out
+    return [chk]
+
+
+def _caps(node):
+    """-> (role, proc, urgent, desat) for one leaf, read off the pack itself.
+
+    Derived from what wapack.py actually emits, never re-guessed here:
+      proc    a condition on an aura trigger's `show` that turns a sub glow on
+              -- the PROC_GLOW shape. Keyed to AURA triggers on purpose: the
+              spell-known replacement glow uses the same `show`+glow change on
+              a non-aura trigger and is not a proc cue.
+      urgent  any condition reading `expirationTime` -- the graduated
+              timer/glow/pulse ladder (and the aura refresh cue, which is the
+              same "time is running out" statement).
+      desat   a condition that desaturates -- the `spellUsable` readiness rule.
+    """
+    trigs = node.get("triggers") or {}
+    first = (trigs.get(1) or {}).get("trigger") or {}
+    role = ROLE_BY_TRIGGER.get(first.get("type"),
+                               node.get("regionType") or "icon")
+    aura_triggers = {i for i, t in trigs.items()
+                     if isinstance(i, int) and isinstance(t, dict)
+                     and (t.get("trigger") or {}).get("type") == "aura2"}
+    proc = urgent = desat = False
+    for c in _vals(node.get("conditions")):
+        if not isinstance(c, dict):
+            continue
+        props = {ch.get("property") for ch in _vals(c.get("changes"))
+                 if isinstance(ch, dict)}
+        glow = any(isinstance(p, str) and p.startswith("sub.")
+                   and p.endswith(".glow") for p in props)
+        if "desaturate" in props:
+            desat = True
+        for chk in _flat_checks(c.get("check")):
+            if chk.get("variable") == "expirationTime":
+                urgent = True
+            if (chk.get("variable") == "show" and glow
+                    and chk.get("trigger") in aura_triggers):
+                proc = True
+    return role, proc, urgent, desat
+
+
 def _ordered_children(node, by_id):
     """controlledChildren decodes to {1: id, 2: id, ...}. The numeric key IS
     the layout order for a dynamic group, so it has to be sorted numerically --
@@ -285,6 +353,7 @@ def layout(d, only_persistent=False):
             leaf = tex.replace("/", "\\").split("\\")[-1].strip().lower()
             if leaf and leaf not in missing:
                 icon = leaf
+        role, proc, urgent, desat = _caps(node)
         out.append({
             # `band` lets the caller name a display without re-deriving the
             # namespace: a leaf's parent group IS its band after the merge.
@@ -293,6 +362,9 @@ def layout(d, only_persistent=False):
             "w": w, "h": h,
             "kind": node.get("regionType") or "icon",
             "icon": icon,
+            # Semantic layer (ADR-002): what the tile IS and which states it
+            # is capable of, so the preview can say so without animating them.
+            "role": role, "proc": proc, "urgent": urgent, "desat": desat,
         })
 
     walk(d["d"], 0, 0)

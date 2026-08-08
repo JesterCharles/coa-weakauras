@@ -141,7 +141,8 @@ def pack_stats(path):
 # ----------------------------------------------------------------- templates
 
 def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
-         extra_css=(), extra_js=(), head_extra="", header_title=""):
+         extra_css=(), extra_js=(), head_extra="", header_title="",
+         scripts=None):
     """Wrap a body in the site chrome.
 
     `body` is everything between the header and the footer, including its own
@@ -159,7 +160,14 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
     accent-coloured rule in site.css reads it, so a class page is tinted
     throughout by whose page it is; the index leaves it at the default and each
     row carries its own.
+
+    `scripts` is the site JS this page actually uses. None keeps the old
+    everything-everywhere set for any caller not yet updated; pages that know
+    what they need pass it, so the index does not load the HUD toggles and the
+    raid utility does not load the roster search.
     """
+    if scripts is None:
+        scripts = ("gate.js", "copy.js", "search.js", "hud.js", "rankings.js")
     up = "../" * depth
     tint = ""
     if accent:
@@ -176,7 +184,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="dark">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="website">
@@ -208,11 +216,7 @@ def page(title, body, depth=0, accent=None, desc=TAGLINE, gate=False,
      <a href="{REPO}/blob/main/NOTICE">Data sources</a>.</p>
 </footer>
 {"".join(f'<script src="{up}assets/{j}"></script>' for j in extra_js)}
-<script src="{up}assets/gate.js"></script>
-<script src="{up}assets/copy.js"></script>
-<script src="{up}assets/search.js"></script>
-<script src="{up}assets/hud.js"></script>
-<script src="{up}assets/rankings.js"></script>
+{"".join(f'<script src="{up}assets/{j}"></script>' for j in scripts)}
 </body>
 </html>
 """
@@ -226,6 +230,11 @@ def class_tile(c, shipped, colors):
     live in the tooltip and the readout, which is how the game surfaces them
     too; putting them on the tile would turn the band back into a card grid.
 
+    `data-state` is the honest one of three: `verified` (a person loaded this
+    exact version in game), `draft` (built and validated, nobody has), or
+    `planned` (no pack yet). It used to say `ready` for anything with a pack,
+    which let the index claim more than the verified record supports.
+
     Load tokens and class ids are WeakAuras and database internals: not shown,
     not searchable.
     """
@@ -237,7 +246,8 @@ def class_tile(c, shipped, colors):
 
     href = f"{slug}/index.html"
     tag, extra = ("a", f' href="{href}"') if shipped else ("button", ' type="button"')
-    state = "ready" if shipped else "planned"
+    state = ("verified" if _verified_ok.get(slug) else "draft") if shipped \
+        else "planned"
 
     return f"""<{tag} class="cls {state}"{extra}
   style="--c:{col['accent']}"
@@ -254,7 +264,7 @@ def class_tile(c, shipped, colors):
 
 
 def pack_block(label, pack_file, stats, desc, idx, version="",
-               verified_ok=True):
+               verified_ok=True, date=""):
     """One downloadable pack.
 
     The version is shown because it is the only way to answer "is this newer
@@ -262,16 +272,24 @@ def pack_block(label, pack_file, stats, desc, idx, version="",
     its WeakAuras group name, so the page and the in-game list agree: you read
     "v1.1" here and see "Chronomancer [CoA] v1.1" in /wa. Before that pairing
     existed a delivered file could only be identified by recomputing uids.
+
+    `date` is the freshness stamp ("verified 2026-08-02" / "built 2026-08-07")
+    -- every comparable that hosts imports puts one on the card, because "is
+    this current" is the other half of the version question.
     """
     ver = (f' &middot; <span class="packver">v{html.escape(version)}</span>'
            if version else "")
     if version and not verified_ok:
         # Said on the pack itself, not in a footnote. A player deciding whether
-        # to import needs it at the point of decision.
+        # to import needs it at the point of decision. The full sentence also
+        # prints once in the masthead -- this title attr is hover-only and
+        # must not be the only carrier.
         ver += (' &middot; <span class="packver unver" '
                 'title="Community draft: generated and validated, but nobody '
                 'has confirmed this exact version in game yet. Feedback '
                 'converges it.">draft</span>')
+    if date:
+        ver += f' &middot; <span class="packdate">{html.escape(date)}</span>'
     return f"""<article class="pack">
   <div class="packhead">
     <h3>{html.escape(label)}</h3>
@@ -354,16 +372,24 @@ def changelog_panel(c):
             f'{"y" if len(mine) - 14 == 1 else "ies"} not shown.</p>'
             if len(mine) > 14 else "")
 
+    # The verdict line is the answer; the ledger is the evidence. An all-
+    # accounted list is a statement, not reading material, so it collapses --
+    # and opens itself only while something is outstanding, which is the one
+    # time the individual entries are worth a scroll.
+    shown = min(len(mine), 14)
     return f"""<section class="changelog">
   <p class="lbl">Server changes</p>
   <h2>Ascension changelog &mdash; {head}</h2>
   <p class="desc">Newest published change for this class:
      <strong>{html.escape(newest)}</strong>.
      Changelog read {html.escape(scanned or "recently")}. {note}</p>
-  <ul class="cl-list">
+  <details class="cl"{" open" if out else ""}>
+    <summary>{shown} entr{"y" if shown == 1 else "ies"}</summary>
+    <ul class="cl-list">
 {chr(10).join(rows)}
-  </ul>
-  {more}
+    </ul>
+    {more}
+  </details>
 </section>"""
 
 
@@ -396,6 +422,24 @@ def rankings_panel(c):
         return ""
 
     src = html.escape(rec.get("source_url") or "", quote=True)
+
+    # Zero entries in every category: the panel is one statement, so render it
+    # as one line rather than four empty layers. The distinction the layered
+    # empty states carried ("nobody has cleared this yet" vs "we failed to
+    # collect") still matters, but not four times over -- and it lives in the
+    # per-category notes, which come back the moment any category has rows.
+    if not any((rec.get("categories") or {}).get(k, {}).get("entries")
+               for k, _ in rankings.CATEGORIES):
+        return f"""
+<section id="ranks">
+  <p class="lbl">Who is actually clearing content</p>
+  <h2>Top logs</h2>
+  <p class="desc">Nothing logged for this class yet &mdash; see
+     <a href="{src}" rel="nofollow noopener" target="_blank">Conquest of
+     Azeroth Logs</a>. We link to it and do not crawl it.</p>
+</section>
+"""
+
     cats, layers = [], []
     for i, (key, _default_label) in enumerate(rankings.CATEGORIES):
         cat = (rec.get("categories") or {}).get(key) or {}
@@ -528,7 +572,14 @@ def hud_preview(c, packs):
                         band = band[len(_sp):].strip()
                 name = _ability_name(d["id"], tile_prefix, band,
                                      list(c["labels"].values()))
+                # Semantic layer (ADR-002 rec 1): what the tile IS and which
+                # states it can enter, derived by hud.py from the pack's own
+                # conditions. Build-time only; nothing reads it at runtime yet
+                # -- it is the hook the state cues and the editor select on.
                 cls = "t" + (" bar" if d["kind"] == "aurabar" else "")
+                for cap in ("proc", "urgent", "desat"):
+                    if d.get(cap):
+                        cls += f" {cap}"
                 pos = (f"--l:{left:.3f}%;--t:{top:.3f}%;"
                        f"--w:{w:.3f}%;--h:{h:.3f}%")
                 extra = ""
@@ -547,7 +598,8 @@ def hud_preview(c, packs):
                     cls += " noart"
                     extra = (' data-letter='
                              f'"{html.escape(name[:1].upper(), quote=True)}"')
-                tiles.append(f'<i class="{cls}"{extra} '
+                role = html.escape(d.get("role") or d["kind"], quote=True)
+                tiles.append(f'<i class="{cls}"{extra} data-role="{role}" '
                              f'title="{html.escape(name, quote=True)}" '
                              f'style="{pos}"></i>')
             layers.append(
@@ -647,6 +699,15 @@ def layout_sections(pack_path, spec_labels):
     The previous version only ever descended one level into the top-level
     containers, so after the merge it rendered 2 bands out of 8 and 17
     displays out of 171 -- the whole main rotation was missing from the page.
+
+    ORDERED BY RESOLVED GEOMETRY, the same hud.displays() output the preview
+    trusts -- NOT by stored yOffset. A shape-B band's offsets are relative to
+    its group, not the screen, so sorting on them rendered Utility at "-4"
+    above Main at "-132": the inverse of the shipped ladder, in the page's
+    most authoritative-looking artifact. The raw Y column went with the fix --
+    it was the group-relative number, meaningless to a player (each <tr>
+    carries its band's group id as data-band so tests can hold the order to
+    the geometry).
     """
     d = wa_decode(open(pack_path).read().strip())
     kids = list(d["c"].values())
@@ -684,18 +745,18 @@ def layout_sections(pack_path, spec_labels):
                 label = label[len(top["id"]):].strip() or label
             if label.startswith(prefix):
                 label = label[len(prefix):].strip() or label
-            bands.append((int(y), label, scope_of(top_name), len(gl),
+            bands.append((g["id"], label, scope_of(top_name), len(gl),
                           _band_preview(g["id"], gl, label, spec_labels,
                                         prefix)))
 
-        # Shape B: the node IS a band -- displays hang directly off it. Its own
-        # yOffset is 0 for a spec container, so the anchor comes from the
-        # displays; the topmost one is what the player sees the band start at.
+        # Shape B: the node IS a band -- displays hang directly off it. The
+        # stored-offset check is still the INCLUSION rule (all-zero offsets
+        # mean a container, not a band); it just no longer decides the order.
         if leaves:
             y = top.get("yOffset") or max(
                 (int(c.get("yOffset") or 0) for c in leaves), default=0)
             if y:
-                bands.append((int(y), top_name, scope_of(top_name),
+                bands.append((top["id"], top_name, scope_of(top_name),
                               len(leaves),
                               _band_preview(top["id"], leaves, top_name,
                                             spec_labels, prefix)))
@@ -703,19 +764,31 @@ def layout_sections(pack_path, spec_labels):
     if not bands:
         return ""
 
-    # Least-negative y first: WeakAuras yOffset counts down from the player, so
-    # this is literally top of screen to bottom.
-    bands.sort(key=lambda b: -b[0])
+    # Where each band RESOLVES on screen: top edge of its highest display, out
+    # of the same geometry pass the preview draws. Everything mode, because the
+    # table lists the active-only rows too.
+    edge = {}
+    for item in hud.displays(pack_path):
+        t = item["y"] + item["h"] / 2
+        edge[item["band"]] = max(edge.get(item["band"], t), t)
+    orphan = [b for b in bands if b[0] not in edge]
+    for gid, label, _sc, _n, _p in orphan:
+        # A band the geometry pass never placed would sort on a missing key.
+        # Should not happen -- every band's displays carry real sizes -- so
+        # say so and pin it to the bottom rather than crash the build.
+        print(f"  !! layout: {gid} has no resolved geometry, listed last")
+    bands.sort(key=lambda b: -edge.get(b[0], float("-inf")))
     rows = "\n".join(
-        f"<tr><td class='b'>{html.escape(lbl)}</td>"
+        f"<tr data-band=\"{html.escape(gid, quote=True)}\">"
+        f"<td class='b'>{html.escape(lbl)}</td>"
         f"<td class='sc'>{html.escape(scope)}</td>"
-        f"<td class='num'>{y}</td><td class='num'>{n}</td>"
+        f"<td class='num'>{n}</td>"
         f"<td class='items'>{prev}</td></tr>"
-        for y, lbl, scope, n, prev in bands)
+        for gid, lbl, scope, n, prev in bands)
     total = sum(b[3] for b in bands)
     return f"""<div class="scroll">
     <table>
-      <thead><tr><th>Band</th><th>Shown for</th><th>Y</th><th>Icons</th>
+      <thead><tr><th>Band</th><th>Shown for</th><th>Icons</th>
         <th>Contents</th></tr></thead>
       <tbody>
 {rows}
@@ -771,6 +844,33 @@ def _check_verified(classes, allow_unverified):
     print("  --allow-unverified: publishing anyway, badged on the page")
 
 
+def _pack_date(slug, version, verified_ok):
+    """The freshness stamp for a pack's meta line.
+
+    Verified packs carry the day a person confirmed them in game, straight
+    from resources/verified-builds.json. Drafts carry the day their content
+    was finished: the buildlog's verify-gate seal -- artifact mtime is not
+    stable across clean checkouts, and the buildlog is the record the pipeline
+    already writes. Early classes predate the verify gate (their buildlogs
+    stop at the research gate), so the fallback is the newest date anywhere in
+    the buildlog, which is the same "last day anyone worked on this" claim.
+    """
+    if verified_ok:
+        d = (verified.load().get(slug, {}).get(version, {})
+             .get("verified_at"))
+        return f"verified {d}" if d else ""
+    p = class_data(f"buildlog-{slug}.json")
+    if not os.path.exists(p):
+        return ""
+    log = json.load(open(p, encoding="utf-8"))
+    dates = [v for v in (log.get("gates") or {}).values()
+             if isinstance(v, str)]
+    dates += [s.get("at") for s in (log.get("steps") or {}).values()
+              if isinstance(s, dict) and isinstance(s.get("at"), str)]
+    d = (log.get("gates") or {}).get("verify") or (max(dates) if dates else "")
+    return f"built {d}" if d else ""
+
+
 UTILITY_INTRO = (
     "Who brings an interrupt, a battle rez, a purge, a spellsteal and an "
     "enrage removal &mdash; across all 21 Conquest of Azeroth classes. "
@@ -821,7 +921,7 @@ def build_utility_only():
              "removals across all 21 CoA classes.",
         extra_css=("raid-utility.css",), extra_js=("raid-utility.js",),
         header_title="Raid utility",
-        head_extra=NOSCRIPT_UTIL))
+        head_extra=NOSCRIPT_UTIL, scripts=()))
     print(f"  wrote {out}")
     return 0
 
@@ -868,7 +968,7 @@ def build(allow_unverified=False):
              "removals across all 21 CoA classes.",
         extra_css=("raid-utility.css",), extra_js=("raid-utility.js",),
         header_title="Raid utility",
-        head_extra=NOSCRIPT_UTIL))
+        head_extra=NOSCRIPT_UTIL, scripts=()))
         print("  wrote raid-utility.html")
 
     # -------------------------------------------------- per-class pack pages
@@ -892,15 +992,29 @@ def build(allow_unverified=False):
             st = pack_stats(dst)
             all_stats.append(st)
             # href is relative to docs/<class>/index.html
+            ver = version_of(f"build_{c['slug']}.py")
+            ok = _verified_ok.get(c["slug"], True)
             blocks.append(pack_block(
                 label, f"{c['slug']}/{published}", st, desc, i,
-                version=version_of(f"build_{c['slug']}.py"),
-                verified_ok=_verified_ok.get(c["slug"], True)))
+                version=ver, verified_ok=ok,
+                date=_pack_date(c["slug"], ver, ok)))
 
         main_pack = os.path.join(DOCS, "packs", c["slug"], packs[0][2])
         head = all_stats[0] if all_stats else {"displays": 0, "triggers": 0}
         spec_line = ", ".join(c["labels"][s] for s in c["specs"])
 
+        # The draft sentence, said ONCE and visibly. It used to live only in
+        # the `title` attr of five identical chips -- hover-only, dead on
+        # touch. The chips keep their tooltip; the masthead is the carrier.
+        draft_note = "" if _verified_ok.get(c["slug"], True) else (
+            '\n      <p class="draftnote">Community draft: generated and '
+            'validated, but nobody has confirmed this exact version in game '
+            'yet. Feedback converges it.</p>')
+
+        # Section order is the wago aura-page shape: preview, then the
+        # artifact block (packs + how to import), then the reference table,
+        # then the two ledgers. The copy-import CTA is the reason the page
+        # exists; it must not sit under an empty logs panel.
         body = f"""<div class="classhead">
   <div class="inner">
     <img src="../assets/class-icons/{c['slug']}/_class-{c['slug']}.png"
@@ -908,7 +1022,7 @@ def build(allow_unverified=False):
     <div>
       <p class="kicker">Conquest of Azeroth</p>
       <h1>{html.escape(c['name'])}</h1>
-      <p class="specline">{html.escape(spec_line)}</p>
+      <p class="specline">{html.escape(spec_line)}</p>{draft_note}
     </div>
   </div>
 </div>
@@ -923,26 +1037,24 @@ def build(allow_unverified=False):
      ones you are not.</p>
 {hud_preview(c, packs)}
 </section>
-{rankings_panel(c)}
-{changelog_panel(c)}
-<section>
-  <p class="lbl">Import</p>
-  <h2>Three steps</h2>
-  <ol class="steps">
-    <li>Copy a string below.</li>
-    <li>In game, type <code>/wa</code>.</li>
-    <li>Click Import, paste, confirm.</li>
-  </ol>
-  <p class="note">Re-importing an updated version replaces the old one. If the
-     pack looks unchanged after an update, delete the old group first &mdash;
-     WeakAuras keeps what it already has when nothing tells it the pack
-     moved.</p>
-</section>
 
 <section>
+  <p class="lbl">Import</p>
   <h2>Packs</h2>
   <p class="desc">Take the all-specs pack unless you only ever play the one
      spec. They are built from the same source and lay out identically.</p>
+  <details class="importsteps">
+    <summary>How to import &mdash; three steps</summary>
+    <ol class="steps">
+      <li>Copy a string below.</li>
+      <li>In game, type <code>/wa</code>.</li>
+      <li>Click Import, paste, confirm.</li>
+    </ol>
+    <p class="note">Re-importing an updated version replaces the old one. If
+       the pack looks unchanged after an update, delete the old group first
+       &mdash; WeakAuras keeps what it already has when nothing tells it the
+       pack moved.</p>
+  </details>
   <div class="packs">
 {chr(10).join(blocks)}
   </div>
@@ -956,6 +1068,8 @@ def build(allow_unverified=False):
      up, so the pack looks far sparser in play than these counts suggest.</p>
 {layout_sections(main_pack, [c['labels'][s] for s in c['specs']])}
 </section>
+{changelog_panel(c)}
+{rankings_panel(c)}
 </main>
 """
         out = os.path.join(DOCS, c["slug"], "index.html")
@@ -968,7 +1082,8 @@ def build(allow_unverified=False):
             desc=f"{c['name']} WeakAura pack for Ascension Conquest of Azeroth "
                  f"— {head['displays']} displays across "
                  f"{len(c['specs'])} specs ({spec_line}).",
-            gate=True))
+            gate=True,
+            scripts=("gate.js", "copy.js", "hud.js", "rankings.js")))
         print(f"  wrote {c['slug']}/index.html ({len(all_stats)} packs)")
 
     # ------------------------------------------------------------- index page
@@ -983,6 +1098,8 @@ def build(allow_unverified=False):
         class_tile(c, c["slug"] in SHIPPED, colors) for c in ordered)
 
     pct = round(len(ready) / max(1, len(classes)) * 100)
+    nver = sum(1 for c in ready if _verified_ok.get(c["slug"]))
+    ndraft = len(ready) - nver
 
     body = f"""<div class="wrap">
   <div class="intro">
@@ -1011,7 +1128,9 @@ def build(allow_unverified=False):
     <div class="bar">
       <div class="bartrack"><div class="barfill" style="width:{pct}%"></div></div>
       <div class="barlbl">
-        <span><b>{len(ready)}</b> of {len(classes)} classes built</span>
+        <span><b>{nver}</b> verified &middot; <b>{ndraft}</b>
+          draft{"" if ndraft == 1 else "s"} &middot;
+          {len(ready)} of {len(classes)} built</span>
         <span id="count">{len(classes)} shown</span>
       </div>
     </div>
@@ -1033,6 +1152,7 @@ def build(allow_unverified=False):
     <div>
       <div class="roname" id="roname"></div>
       <div class="rospecs" id="rospecs"></div>
+      <div class="rostate" id="rostate"></div>
     </div>
     <div id="roaction"></div>
   </div>
@@ -1045,7 +1165,7 @@ def build(allow_unverified=False):
 </div>
 """
     open(os.path.join(DOCS, "index.html"), "w").write(
-        page(SITE_TITLE, body, depth=0))
+        page(SITE_TITLE, body, depth=0, scripts=("search.js",)))
     print(f"  wrote index.html ({len(ready)} available, {len(todo)} planned)")
 
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")

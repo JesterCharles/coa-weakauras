@@ -1188,6 +1188,43 @@ for cls in UNDER_TEST:
           "`ignore` and take them off the row:\n" + "\n".join(bad[:8]))
 
 
+# --------------------------- 23. the Layout table matches the shipped ladder
+#
+# The table claims "top of screen to bottom" and used to sort on stored
+# yOffset -- but a shape-B band's offsets are group-relative, so Utility
+# rendered above Main: the inverse of the ladder, in the page's most
+# authoritative-looking artifact. mksite now orders bands by the same resolved
+# geometry the HUD preview draws, and stamps each row's group id as data-band
+# so this check can hold the published page to that geometry.
+#
+# NOTE reads docs/<slug>/index.html -- the PUBLISHED page, which mksite.py
+# writes. Run mksite.py before trusting a result here (same caveat as 13).
+print("\n23. Layout table band order matches resolved geometry")
+_BAND_ROW = re.compile(r'<tr data-band="([^"]+)">')
+
+for cls in UNDER_TEST:
+    page = os.path.join(ROOT, "docs", cls.slug, "index.html")
+    pack = os.path.join(ROOT, "docs", "packs", cls.slug, f"{cls.slug}-coa.txt")
+    if not (os.path.exists(page) and os.path.exists(pack)):
+        continue
+    table = _BAND_ROW.findall(open(page, encoding="utf-8").read())
+    if not table:
+        check(f"{cls.slug}: Layout table carries data-band rows", False,
+              "no <tr data-band=...> found -- regenerate with mksite.py")
+        continue
+    # Top edge of each band out of the same geometry pass the preview trusts.
+    edge = {}
+    for item in HUD.displays(pack):
+        t = item["y"] + item["h"] / 2
+        edge[item["band"]] = max(edge.get(item["band"], t), t)
+    want = sorted((b for b in table if b in edge), key=lambda b: -edge[b])
+    got = [b for b in table if b in edge]
+    check(f"{cls.slug}: {len(table)} bands listed top of screen to bottom",
+          got == want,
+          "page order vs geometry order:\n" +
+          "\n".join(f"  {g}  (want {w})" for g, w in zip(got, want) if g != w))
+
+
 print()
 if _fails:
     print(f"{len(_fails)} FAILED: {', '.join(_fails)}")

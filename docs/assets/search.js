@@ -31,6 +31,7 @@
   var roPortrait = document.getElementById("roportrait");
   var roName = document.getElementById("roname");
   var roSpecs = document.getElementById("rospecs");
+  var roState = document.getElementById("rostate");
   var roAction = document.getElementById("roaction");
 
   var visible = tiles.slice();
@@ -46,12 +47,21 @@
       .trim();
   }
 
+  // data-state is one of verified / draft / planned -- the honest three.
+  // "ready" here means only "there is a pack to open".
+  var STATE_TEXT = {
+    verified: "Verified in game",
+    draft: "Community draft",
+    planned: "Not built yet"
+  };
+
   tiles.forEach(function (t) {
     t._name = t.dataset.name || "";
     t._hay = norm(t._name + " " + (t.dataset.specs || ""));
     t._labels = (t.dataset.specLabels || "").split("|").filter(Boolean);
     t._icons = (t.dataset.specIcons || "").split("|").filter(Boolean);
-    t._ready = t.dataset.state === "ready";
+    t._state = t.dataset.state || "planned";
+    t._ready = t._state !== "planned";
   });
 
   function matches(t, terms) {
@@ -86,6 +96,13 @@
       roSpecs.appendChild(s);
     });
 
+    if (roState) {
+      // "Not built yet" already lives in the action slot; the state line
+      // carries only the verified/draft distinction.
+      roState.textContent = t._ready ? STATE_TEXT[t._state] || "" : "";
+      roState.className = "rostate " + t._state;
+    }
+
     roAction.textContent = "";
     if (t._ready) {
       var a = document.createElement("a");
@@ -106,8 +123,8 @@
     tipName.textContent = t._name;
     tipName.style.color = t.dataset.accent;
     tipSpecs.textContent = t._labels.join(", ");
-    tipState.textContent = t._ready ? "Pack available" : "Not built yet";
-    tipState.className = "tipstate" + (t._ready ? " ready" : "");
+    tipState.textContent = STATE_TEXT[t._state] || "Not built yet";
+    tipState.className = "tipstate " + t._state;
     tip.classList.add("show");
     moveTip(ev);
   }
