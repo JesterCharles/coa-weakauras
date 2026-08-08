@@ -1,0 +1,86 @@
+{
+ "sidekick-cultist-corruption-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Vision of Doom",
+    "Psychic Suppression"
+   ],
+   "maintain": [],
+   "priority": []
+  },
+  "class": "cultist",
+  "content_sha256": "32752296ba0ed47b",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/cultist/corruption",
+  "spec": "corruption"
+ },
+ "sidekick-cultist-dreadnought-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Presence of Y'Shaarj"
+   ],
+   "priority": []
+  },
+  "class": "cultist",
+  "content_sha256": "3a9ae1487304ff5e",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/cultist/dreadnought",
+  "spec": "dreadnought"
+ },
+ "sidekick-cultist-godblade-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Obliteration"
+   ]
+  },
+  "class": "cultist",
+  "content_sha256": "768ab175a7a3d36c",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/cultist/godblade",
+  "spec": "godblade"
+ },
+ "sidekick-cultist-heretic-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Entropic Fog",
+    "Prophet of Doom",
+    "Raim's Veil"
+   ],
+   "maintain": [],
+   "priority": []
+  },
+  "class": "cultist",
+  "content_sha256": "7b396fa330764f4e",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/cultist/heretic",
+  "spec": "heretic"
+ }
+}

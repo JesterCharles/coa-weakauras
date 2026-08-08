@@ -1138,10 +1138,29 @@ for cls in UNDER_TEST:
 # It does NOT catch every wrong row. Pyromancer's `Stoke` was a passive talent
 # carrying rank "Rank 1", and only the cross-database sweep found it. The two
 # checks are complements, not substitutes.
+#
+# THE TAG ALONE IS NOT THE VERDICT (Cultist, 2026-08-07 -- the first false
+# positives). db.exil.es files Twisted Seal 525065 and Grasp of Zek'voz 573028
+# under rank "Proc", yet BOTH databases' tooltips are full castables: mana
+# cost, cooldown, effect text ("27% of base mana ... 2 min cooldown", "10% of
+# base mana ... 6 sec cooldown"), and db.ascension lists both advType=Ability.
+# A genuine effect row has neither a cost nor a cast economy -- spellmeta.py's
+# own castability test says "cost 0 + gcd 0 = an effect rather than a button".
+# So a component rank only convicts when the row is also EFFECT-SHAPED (no
+# cost, no GCD, no cooldown). Loosening cannot un-catch anything for shipped
+# classes: their flagged sets are empty, and Runic Explosion / Phoenix Egg
+# Heal / Inferno Explosion are all cost-0 gcd-0 rows that stay convicted.
 print("\n22. no damage component sits in a pressable row")
 
 COMPONENT_RANKS = {"Damage", "Heal", "Giga Heal", "Absorb", "Energize",
                    "ICD", "Proc", "proc", "Deprecated"}
+
+
+def _effect_shaped(v):
+    """No cost, no GCD, no cooldown -- nothing a player could press."""
+    return not (v.get("cost_pct") or v.get("gcd_ms") or v.get("cd_ms"))
+
+
 PRESSABLE = re.compile(r" (Main|Offense|Utility) ")
 
 for cls in UNDER_TEST:
@@ -1161,7 +1180,7 @@ for cls in UNDER_TEST:
         if t1.get("type") != "spell":
             continue
         v = meta.get(str(t1.get("spellName"))) or {}
-        if v.get("rank") in COMPONENT_RANKS:
+        if v.get("rank") in COMPONENT_RANKS and _effect_shaped(v):
             bad.append(f"{i} -> {t1.get('spellName')} rank={v['rank']!r}")
     check(f"{cls.slug}: no component ranks in Main/Offense/Utility",
           not bad,

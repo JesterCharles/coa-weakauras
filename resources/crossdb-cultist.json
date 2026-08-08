@@ -1,0 +1,938 @@
+{
+ "_class": "cultist",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Aberration": {
+   "id": 301246,
+   "state": "record"
+  },
+  "Absolute Horror": {
+   "id": 300309,
+   "state": "record"
+  },
+  "Abyssal Command": {
+   "id": 500710,
+   "state": "record"
+  },
+  "Abyssal Covenant": {
+   "id": 500701,
+   "state": "record"
+  },
+  "Abyssal Covenant Passive": {
+   "id": 300295,
+   "state": "record"
+  },
+  "Abyssal Decay": {
+   "id": 500705,
+   "state": "record"
+  },
+  "Abyssal Destruction": {
+   "id": 300308,
+   "state": "record"
+  },
+  "Abyssal Guard": {
+   "id": 800023,
+   "state": "record"
+  },
+  "Abyssal Haven": {
+   "id": 300293,
+   "state": "record"
+  },
+  "Abyssal Protection": {
+   "id": 503765,
+   "state": "record"
+  },
+  "Abyssal Ward": {
+   "id": 804670,
+   "state": "record"
+  },
+  "Abysswalker": {
+   "id": 704898,
+   "state": "record"
+  },
+  "Adaptive Combatant": {
+   "id": 300268,
+   "state": "record"
+  },
+  "Ancient Curse": {
+   "id": 500712,
+   "state": "record"
+  },
+  "Armageddon": {
+   "id": 680565,
+   "state": "record"
+  },
+  "Befoul": {
+   "id": 806276,
+   "state": "record"
+  },
+  "Black Blood": {
+   "id": 804113,
+   "state": "record"
+  },
+  "Blade of C'thun": {
+   "id": 500722,
+   "state": "record"
+  },
+  "Blade of N'zoth": {
+   "id": 806253,
+   "state": "record"
+  },
+  "Blade of Y'shaarj": {
+   "id": 806252,
+   "state": "record"
+  },
+  "Blade of Yogg-Saron": {
+   "id": 524887,
+   "state": "record"
+  },
+  "Blade of the Depths": {
+   "id": 300753,
+   "state": "record"
+  },
+  "Blade of the Empire": {
+   "id": 500720,
+   "state": "record"
+  },
+  "Blessing of C'Thun": {
+   "id": 301255,
+   "state": "record"
+  },
+  "Blessing of Y'Shaarj": {
+   "id": 801968,
+   "state": "record"
+  },
+  "Blessing of Yogg-Saron": {
+   "id": 560704,
+   "state": "record"
+  },
+  "Broken Mind": {
+   "id": 704874,
+   "state": "record"
+  },
+  "Bulwark of Horror": {
+   "id": 300278,
+   "state": "record"
+  },
+  "Bulwark of Shadow": {
+   "id": 301182,
+   "state": "record"
+  },
+  "C'Thun's Blade": {
+   "id": 500735,
+   "state": "record"
+  },
+  "Call of N'Zoth": {
+   "id": 300306,
+   "state": "record"
+  },
+  "Corrupt Mind": {
+   "id": 560109,
+   "state": "record"
+  },
+  "Corrupting Whispers": {
+   "id": 92130,
+   "state": "record"
+  },
+  "Corruption - Level 15 Passive": {
+   "id": 805119,
+   "state": "record"
+  },
+  "Corruption of the Sha": {
+   "id": 802051,
+   "state": "record"
+  },
+  "Corruptor's Gaze": {
+   "id": 300754,
+   "state": "record"
+  },
+  "Cosmic Horror": {
+   "id": 704870,
+   "state": "record"
+  },
+  "Cosmic Ooze": {
+   "id": 801629,
+   "state": "record"
+  },
+  "Crushing Dissonance": {
+   "id": 804056,
+   "state": "record"
+  },
+  "Dark Calling": {
+   "id": 560715,
+   "state": "record"
+  },
+  "Dark Celerity": {
+   "id": 300283,
+   "state": "record"
+  },
+  "Dark Infusion": {
+   "id": 500721,
+   "state": "record"
+  },
+  "Dark Matter": {
+   "id": 806382,
+   "state": "record"
+  },
+  "Dark Protection": {
+   "id": 704897,
+   "state": "record"
+  },
+  "Dark Reservoir": {
+   "id": 300284,
+   "state": "record"
+  },
+  "Dark Revelation": {
+   "id": 300313,
+   "state": "record"
+  },
+  "Dark Rites": {
+   "id": 300290,
+   "state": "record"
+  },
+  "Dark Veil": {
+   "id": 520345,
+   "state": "record"
+  },
+  "Darkward": {
+   "id": 706180,
+   "state": "record"
+  },
+  "Darkwither": {
+   "id": 800446,
+   "state": "record"
+  },
+  "Deep Secrets": {
+   "id": 582307,
+   "state": "record"
+  },
+  "Devour Curse": {
+   "id": 704426,
+   "state": "record"
+  },
+  "Devour Essence": {
+   "id": 704427,
+   "state": "record"
+  },
+  "Devour Magic": {
+   "id": 520151,
+   "state": "record"
+  },
+  "Doomcloak": {
+   "id": 502134,
+   "state": "record"
+  },
+  "Dreadfall": {
+   "id": 806175,
+   "state": "record"
+  },
+  "Dreadnought": {
+   "id": 567524,
+   "state": "record"
+  },
+  "Eldritch Devastation": {
+   "id": 802727,
+   "state": "record"
+  },
+  "Eldritch Eye": {
+   "id": 802049,
+   "state": "record"
+  },
+  "Eldritch Force": {
+   "id": 680576,
+   "state": "record"
+  },
+  "Eldritch Mending": {
+   "id": 500711,
+   "state": "record"
+  },
+  "Eldritch Obelisk": {
+   "id": 560321,
+   "state": "record"
+  },
+  "Eldritch Ritual": {
+   "id": 804777,
+   "state": "record"
+  },
+  "Eldritch Screams": {
+   "id": 525049,
+   "state": "record"
+  },
+  "Eldritch Shock": {
+   "id": 808036,
+   "state": "record"
+  },
+  "Eldritch Smite": {
+   "id": 500111,
+   "state": "record"
+  },
+  "Eldritch Smite of C'thun": {
+   "id": 502125,
+   "state": "record"
+  },
+  "Eldritch Swiftness": {
+   "id": 706185,
+   "state": "record"
+  },
+  "Eldritch Tentacle": {
+   "id": 500707,
+   "state": "record"
+  },
+  "Embodiment of Y'shaarj": {
+   "id": 681067,
+   "state": "record"
+  },
+  "Embrace the Void": {
+   "id": 300307,
+   "state": "record"
+  },
+  "Empire Commander": {
+   "id": 704887,
+   "state": "record"
+  },
+  "Empire's Blessing": {
+   "id": 704867,
+   "state": "record"
+  },
+  "Empire's Grasp": {
+   "id": 500704,
+   "state": "record"
+  },
+  "Empowered Isolation": {
+   "id": 300288,
+   "state": "record"
+  },
+  "Encroaching Presence": {
+   "id": 300280,
+   "state": "record"
+  },
+  "End Times": {
+   "id": 536221,
+   "state": "record"
+  },
+  "Enslave": {
+   "id": 800354,
+   "state": "record"
+  },
+  "Enslave Lesser Mind": {
+   "id": 800409,
+   "state": "record"
+  },
+  "Entropic Host": {
+   "id": 805133,
+   "state": "record"
+  },
+  "Entropic Retaliation": {
+   "id": 572613,
+   "state": "record"
+  },
+  "Entropic Singularity": {
+   "id": 800430,
+   "state": "record"
+  },
+  "Entropic Slam": {
+   "id": 804152,
+   "state": "record"
+  },
+  "Entropic Strike": {
+   "id": 805111,
+   "state": "record"
+  },
+  "Eternally Void": {
+   "id": 300312,
+   "state": "record"
+  },
+  "Everpresent": {
+   "id": 300272,
+   "state": "record"
+  },
+  "Eye of N'zoth": {
+   "id": 573313,
+   "state": "record"
+  },
+  "Eyes of Eternity": {
+   "id": 706188,
+   "state": "record"
+  },
+  "Feeding Darkness": {
+   "id": 300302,
+   "state": "record"
+  },
+  "Forbidden Resilience": {
+   "id": 300287,
+   "state": "record"
+  },
+  "Forbidden Ritual": {
+   "id": 800105,
+   "state": "record"
+  },
+  "Fortune Telling": {
+   "id": 300294,
+   "state": "record"
+  },
+  "Gaze of C'Thun": {
+   "id": 500110,
+   "state": "record"
+  },
+  "Gift of C'Thun": {
+   "id": 706189,
+   "state": "record"
+  },
+  "Glimpse of Madness": {
+   "id": 500719,
+   "state": "record"
+  },
+  "Grasp of Zek'voz": {
+   "id": 573028,
+   "state": "record"
+  },
+  "Greater Void Blessing": {
+   "id": 680289,
+   "state": "record"
+  },
+  "Greater Whispers of C'thun": {
+   "id": 573067,
+   "state": "record"
+  },
+  "Greater Whispers of N'zoth": {
+   "id": 561387,
+   "state": "record"
+  },
+  "Greater Whispers of Y'shaarj": {
+   "id": 561392,
+   "state": "record"
+  },
+  "Hallucination": {
+   "id": 560301,
+   "state": "record"
+  },
+  "Hammer of Twilight": {
+   "id": 805116,
+   "state": "record"
+  },
+  "Hand of N'Zoth": {
+   "id": 704869,
+   "state": "record"
+  },
+  "Hand of Yogg-Saron": {
+   "id": 704476,
+   "state": "record"
+  },
+  "Herald of The Black Empire": {
+   "id": 704477,
+   "state": "record"
+  },
+  "Herald of the Depths": {
+   "id": 520326,
+   "state": "record"
+  },
+  "Herald of the Old Gods": {
+   "id": 704893,
+   "state": "record"
+  },
+  "Heresy": {
+   "id": 704891,
+   "state": "record"
+  },
+  "Horrifying Presence": {
+   "id": 500717,
+   "state": "record"
+  },
+  "Horrorbolt": {
+   "id": 800416,
+   "state": "record"
+  },
+  "Horrorbolt Volley": {
+   "id": 255020,
+   "state": "record"
+  },
+  "Hysterical Momentum": {
+   "id": 300274,
+   "state": "record"
+  },
+  "Inner Darkness": {
+   "id": 706182,
+   "state": "record"
+  },
+  "Insanity": {
+   "id": 500706,
+   "state": "record"
+  },
+  "Instill Despair": {
+   "id": 500718,
+   "state": "record"
+  },
+  "Isolate": {
+   "id": 800368,
+   "state": "record"
+  },
+  "Lead the Covenant": {
+   "id": 704884,
+   "state": "record"
+  },
+  "Lightbreaker": {
+   "id": 704888,
+   "state": "record"
+  },
+  "Lingering Protection": {
+   "id": 704433,
+   "state": "record"
+  },
+  "Madness": {
+   "id": 520674,
+   "state": "record"
+  },
+  "Maker of Miseries": {
+   "id": 573314,
+   "state": "record"
+  },
+  "Malevolence": {
+   "id": 500714,
+   "state": "record"
+  },
+  "Malevolent Power": {
+   "id": 301183,
+   "state": "record"
+  },
+  "Mass Nightmare": {
+   "id": 805114,
+   "state": "record"
+  },
+  "Mental Expansion": {
+   "id": 706178,
+   "state": "record"
+  },
+  "Mind Games": {
+   "id": 582589,
+   "state": "record"
+  },
+  "Mind Leak": {
+   "id": 300270,
+   "state": "record"
+  },
+  "Mind Rot": {
+   "id": 300300,
+   "state": "record"
+  },
+  "Misery": {
+   "id": 300297,
+   "state": "record"
+  },
+  "Moment of Clarity": {
+   "id": 706179,
+   "state": "record"
+  },
+  "N'Zoth's Rage": {
+   "id": 300267,
+   "state": "record"
+  },
+  "N'zoth's Cunning": {
+   "id": 300888,
+   "state": "record"
+  },
+  "Nether Gaze": {
+   "id": 300276,
+   "state": "record"
+  },
+  "Netherborne": {
+   "id": 801539,
+   "state": "record"
+  },
+  "Netherstrike": {
+   "id": 806222,
+   "state": "record"
+  },
+  "Nutcase": {
+   "id": 805117,
+   "state": "record"
+  },
+  "Obliteration": {
+   "id": 92129,
+   "state": "record"
+  },
+  "Obliteration Beam": {
+   "id": 805572,
+   "state": "record"
+  },
+  "Occultism": {
+   "id": 300305,
+   "state": "record"
+  },
+  "Overwhelming Void": {
+   "id": 707429,
+   "state": "record"
+  },
+  "Perpetual Isolation": {
+   "id": 706193,
+   "state": "record"
+  },
+  "Perpetual Nightmare": {
+   "id": 706194,
+   "state": "record"
+  },
+  "Presence of C'Thun": {
+   "id": 803339,
+   "state": "record"
+  },
+  "Presence of N'Zoth": {
+   "id": 803037,
+   "state": "record"
+  },
+  "Presence of Y'Shaarj": {
+   "id": 803035,
+   "state": "record"
+  },
+  "Presence of Yogg-Saron": {
+   "id": 803082,
+   "state": "record"
+  },
+  "Prophet of Doom": {
+   "id": 704472,
+   "state": "record"
+  },
+  "Prophetic Compulsion": {
+   "id": 300264,
+   "state": "record"
+  },
+  "Protection From Light": {
+   "id": 804065,
+   "state": "record"
+  },
+  "Psychic Burst": {
+   "id": 681319,
+   "state": "no-record"
+  },
+  "Psychic Leech": {
+   "id": 800452,
+   "state": "record"
+  },
+  "Psychic Speed": {
+   "id": 300311,
+   "state": "record"
+  },
+  "Psychic Suppression": {
+   "id": 800432,
+   "state": "record"
+  },
+  "Rapid Incantations": {
+   "id": 301181,
+   "state": "record"
+  },
+  "Reach of the Old Gods": {
+   "id": 300281,
+   "state": "record"
+  },
+  "Reality Twist": {
+   "id": 706371,
+   "state": "record"
+  },
+  "Restore Sanity": {
+   "id": 801157,
+   "state": "record"
+  },
+  "Rift": {
+   "id": 806250,
+   "state": "record"
+  },
+  "Ritual Codex": {
+   "id": 704886,
+   "state": "record"
+  },
+  "Ritual of Awakening": {
+   "id": 801791,
+   "state": "record"
+  },
+  "Sanity": {
+   "id": 500727,
+   "state": "record"
+  },
+  "Sanity Tap": {
+   "id": 802575,
+   "state": "record"
+  },
+  "Saronite Mind": {
+   "id": 806266,
+   "state": "record"
+  },
+  "Satiate": {
+   "id": 804275,
+   "state": "record"
+  },
+  "Seething Void": {
+   "id": 524804,
+   "state": "record"
+  },
+  "Sermon of Dread": {
+   "id": 620610,
+   "state": "record"
+  },
+  "Servant of C'Thun": {
+   "id": 300296,
+   "state": "record"
+  },
+  "Shadow Training": {
+   "id": 805607,
+   "state": "record"
+  },
+  "Shadow Words": {
+   "id": 706928,
+   "state": "record"
+  },
+  "Shadow of the Void": {
+   "id": 300277,
+   "state": "record"
+  },
+  "Shatter Void Rune": {
+   "id": 502193,
+   "state": "record"
+  },
+  "Shroud of Pride": {
+   "id": 805126,
+   "state": "record"
+  },
+  "Stare Into The Abyss": {
+   "id": 525019,
+   "state": "record"
+  },
+  "Strength of the Black Empire": {
+   "id": 680556,
+   "state": "record"
+  },
+  "Strength of the Sha": {
+   "id": 804286,
+   "state": "record"
+  },
+  "Sudden Doom": {
+   "id": 801221,
+   "state": "record"
+  },
+  "Summon: Faceless Destroyer": {
+   "id": 572115,
+   "state": "record"
+  },
+  "Summon: Faceless Servant": {
+   "id": 500709,
+   "state": "record"
+  },
+  "Summon: Mindbender": {
+   "id": 803062,
+   "state": "record"
+  },
+  "Suppression": {
+   "id": 300269,
+   "state": "record"
+  },
+  "Swift Blasts": {
+   "id": 300310,
+   "state": "record"
+  },
+  "Tentacle of C'Thun": {
+   "id": 801153,
+   "state": "record"
+  },
+  "Tentacle of N'Zoth": {
+   "id": 572103,
+   "state": "record"
+  },
+  "Tentacle of Y'shaarj": {
+   "id": 802044,
+   "state": "record"
+  },
+  "Tentacle of Yogg-Saron": {
+   "id": 802042,
+   "state": "record"
+  },
+  "Tentacular": {
+   "id": 300299,
+   "state": "record"
+  },
+  "Terror": {
+   "id": 300304,
+   "state": "record"
+  },
+  "Terror of the Old Gods": {
+   "id": 560718,
+   "state": "record"
+  },
+  "Test of Pride": {
+   "id": 800468,
+   "state": "record"
+  },
+  "Touch of the Void": {
+   "id": 572046,
+   "state": "record"
+  },
+  "Twilight Domain": {
+   "id": 807725,
+   "state": "record"
+  },
+  "Twilight Guardian": {
+   "id": 704889,
+   "state": "record"
+  },
+  "Twilight Initiate": {
+   "id": 704890,
+   "state": "record"
+  },
+  "Twilight Shieldtoss": {
+   "id": 524876,
+   "state": "record"
+  },
+  "Twilight's Call": {
+   "id": 301180,
+   "state": "record"
+  },
+  "Twisted Sanity": {
+   "id": 706187,
+   "state": "record"
+  },
+  "Twisted Seal": {
+   "id": 525065,
+   "state": "record"
+  },
+  "Umbral Voyage": {
+   "id": 806176,
+   "state": "record"
+  },
+  "Umbral Warrior": {
+   "id": 704868,
+   "state": "record"
+  },
+  "Unrelenting Void": {
+   "id": 704527,
+   "state": "record"
+  },
+  "Veiled Knight": {
+   "id": 706183,
+   "state": "record"
+  },
+  "Vision of Doom": {
+   "id": 500725,
+   "state": "record"
+  },
+  "Visions": {
+   "id": 560526,
+   "state": "record"
+  },
+  "Visions of the Empire": {
+   "id": 806384,
+   "state": "record"
+  },
+  "Void Barrier": {
+   "id": 300291,
+   "state": "record"
+  },
+  "Void Blessing": {
+   "id": 800194,
+   "state": "record"
+  },
+  "Void Embrace": {
+   "id": 800367,
+   "state": "record"
+  },
+  "Void Power": {
+   "id": 574147,
+   "state": "record"
+  },
+  "Void Reaver": {
+   "id": 502133,
+   "state": "record"
+  },
+  "Void Resilience": {
+   "id": 1119881,
+   "state": "record"
+  },
+  "Void Shield": {
+   "id": 500715,
+   "state": "record"
+  },
+  "Void Strength": {
+   "id": 805121,
+   "state": "record"
+  },
+  "Void Strikes": {
+   "id": 567529,
+   "state": "record"
+  },
+  "Void Touch": {
+   "id": 300752,
+   "state": "record"
+  },
+  "Void Touched Regalia": {
+   "id": 704899,
+   "state": "record"
+  },
+  "Void-Enhanced Shield": {
+   "id": 572025,
+   "state": "record"
+  },
+  "Void-Touched": {
+   "id": 300286,
+   "state": "record"
+  },
+  "Voidborn Affliction": {
+   "id": 300301,
+   "state": "record"
+  },
+  "Voidborne": {
+   "id": 681104,
+   "state": "record"
+  },
+  "Voidforged Edge": {
+   "id": 704871,
+   "state": "record"
+  },
+  "Voidguard": {
+   "id": 300266,
+   "state": "record"
+  },
+  "Voidwarding": {
+   "id": 560002,
+   "state": "record"
+  },
+  "Warrior of the Old Gods": {
+   "id": 802047,
+   "state": "record"
+  },
+  "Whispers of C'thun": {
+   "id": 572791,
+   "state": "record"
+  },
+  "Whispers of N'Zoth": {
+   "id": 561386,
+   "state": "record"
+  },
+  "Whispers of Y'shaarj": {
+   "id": 561389,
+   "state": "record"
+  },
+  "Whispers of Yogg-Saron": {
+   "id": 572637,
+   "state": "record"
+  },
+  "Wicked Thoughts": {
+   "id": 706190,
+   "state": "record"
+  },
+  "Wrath of The Black Empire": {
+   "id": 800413,
+   "state": "record"
+  },
+  "Wrath of the Black Empire": {
+   "id": 800413,
+   "state": "record"
+  },
+  "Wrathful": {
+   "id": 706191,
+   "state": "record"
+  },
+  "Wrathful Slam": {
+   "id": 706192,
+   "state": "record"
+  },
+  "Writhing Mass": {
+   "id": 704877,
+   "state": "record"
+  }
+ }
+}

@@ -275,6 +275,13 @@ CORE_LEAVES = {
     # class gate alone: buff icons are self-gating and a buff id is not
     # something IsSpellKnown recognises.
     "primalist": 7,
+    # First pin (0.1). CU Core is an empty skeleton (no alert survived
+    # requirements §5: both candidates hang on unproven aura visibility) --
+    # the 4 are the Core group plus three merged all-spec Buffs leaves
+    # (Embrace the Void, Abyssal Ward, Twisted Seal) that hold the class gate
+    # alone, for the standing reason: buff icons are self-gating and a buff
+    # id is not something IsSpellKnown recognises.
+    "cultist": 4,
 }
 
 

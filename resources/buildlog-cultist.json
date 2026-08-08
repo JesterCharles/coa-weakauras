@@ -1,0 +1,108 @@
+{
+ "class": "cultist",
+ "gates": {
+  "build": "2026-08-07",
+  "research": "2026-08-07",
+  "verify": "2026-08-07"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 7,
+   "citations": 4,
+   "crossdb_checked": 228,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 247,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 228,
+   "mechanics_sources": 4,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 4
+  },
+  "research": {
+   "citation_claims": 7,
+   "citations": 4,
+   "crossdb_checked": 233,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 252,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 233,
+   "mechanics_sources": 4,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 4
+  },
+  "verify": {
+   "citation_claims": 7,
+   "citations": 4,
+   "crossdb_checked": 233,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 252,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 233,
+   "mechanics_sources": 4,
+   "open_unknowns": 0,
+   "requirements": true,
+   "specs": 4
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-07",
+   "note": "NO alert band ships in 0.1, deliberately (requirements section 5): both candidates (missing Presence, missing permanent pet) hang on aura visibility no scrape proves, and a wrong-id inverse alert is permanently on screen \u2014 the Runemaster reminder failure. The Insanity cap warning is structural instead: the 10-cell bar's top cells lighting IS the Total Madness warning, plain aura_stacks thresholds that cannot misfire. Long-term band passively carries Presence/Whispers/pet state meanwhile."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "changelog_watch --pages 6: 600 entries scanned 2026/07/31..2026/08/07, nothing new; 22 recorded cultist entries all dated 2026/07/31, triaged into requirements-cultist.md section -1 (accept after inventory lands). Key: NEW ability Eldritch Shock 808036 (Insanity spender, dmg or heal); Dark Whispers reworked to Twilight Horror 560977; Horrorbolt Volley pre-capstone 2.5s cast; Dark Infusion moved to class tree (specs widened to all); Doomsayer+Embodied Presences combined; Black Blood refresh-rule change. Sidekick blob mtime 2026-08-02 post-dates all cultist entries; spec pages re-scraped 2026-08-07 but content still pre-patch in two places (no Eldritch Shock; old Black Blood refresh rule)."
+  },
+  "citations": {
+   "at": "2026-08-07",
+   "note": "citations.py --import-sidekick: 4 citations, 7 claims from the committed blob (retrieved_at 2026-08-02, post-dates all cultist changelog entries). Validated clean after two aliases-cultist.json entries recorded 1-hit prose names as unbuildable (Entropic Fog: 805137 is rank Stealth machinery; Raim's Veil: no record in either DB). Single source: ascensionsidekick.com; rankings-cultist.json initialised empty (coa.ascensionlogs.gg is link-only)."
+  },
+  "crossdb": {
+   "at": "2026-08-07",
+   "checked": 233,
+   "note": "Re-swept after five aura-row additions (Insanity, Black Blood, Madness, Malevolent Power, lowercase Wrath twin): 233/233 rows with an id, 232 record, 1 no-record (Psychic Burst 681319 \u2014 resolved in Notes: exiles-only, role ignore, the Manastorm shape). Original sweep findings unchanged: 7 component ids corrected via name re-asks into CROSSCHECK, two prose aliases in aliases-cultist.json, Eye of N'zoth unbuildable (section 6)."
+  },
+  "guide": {
+   "at": "2026-08-07",
+   "note": "mkguide/mkpreview are Runemaster-hardcoded, so layout verified via tools/rowwidths.py + tools/hud.py structural read. rowwidths: every always-visible row within 1.2x its resource bar (worst 1.00x \u2014 the main rows themselves; offense/utility wrap at CD_PER_ROW=7 into 0.40\u20130.91x rows). hud.py on docs/packs/cultist/cultist-coa.txt: 263 displays, ladder correct \u2014 target -51, on-me -84, main -132, Insanity cells -164 + mana -180 (fixed envelope), offense from -215 wrapping, utility below, per-spec longterm anchored under each spec's own utility depth (-348 dreadnought, -378 others). x-bounds symmetric (-473..473), everything centred."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-07",
+   "note": "247 rows seeded (240 skillbook + audit additions); roles PROPOSED BY AN AUTOMATED PASS 2026-08-07 and cleared in bulk \u2014 the production-run.md Pyromancer precedent, provenance recorded here, NOT a row-by-row human read. One line of reasoning per Notes cell; hedged rows (Embrace the Void name collision, Vision of Doom, Abyssal Decay, C'Thun's Blade, Terror of the Old Gods, Shatter Void Rune, Entropic Retaliation, Seething Void, Horrorbolt Volley window, Dreadnought transform, Voidwarding, Void-Enhanced Shield, Bulwark of Shadow, Eldritch Bastion, Voidforged Edge charges) copied into requirements section 6. Zero seed:/prop: markers remain."
+  },
+  "main-rows": {
+   "at": "2026-08-07",
+   "note": "Four main rows from cited rotation text (requirements section 4): corruption 6 (Darkwither>Horrorbolt>Gaze>Ancient Curse>Wrath of The Black Empire>Obliteration Beam), dreadnought 4 (Dreadfall>Twilight Shieldtoss>Entropic Slam[=Void Strikes alias]>Sermon of Dread), godblade 4 (Voidforged Edge>Netherstrike>Hammer of Twilight[=Obliteration alias]>Rift; Eye of N'zoth unbuildable), heretic 6 healing row (Malevolence>Blade of the Empire>Gaze>Eldritch Mending>Void Shield>Sanity Tap). CD_PER_ROW=7 from narrowest row (4 icons, 182px). Insanity 10-cell stack_bar step=10 (aura 500706) + mana bar per spec, width-locked."
+  },
+  "mechanics-source": {
+   "at": "2026-08-07",
+   "note": "Four Sidekick spec pages scraped 2026-08-07 -> resources/sidekick-cultist-{corruption,dreadnought,godblade,heretic}.md (Playstyle + numbered Rotations + Resource text per spec). Roles: corruption ranged DPS, dreadnought tank, godblade melee DPS, heretic healer \u2014 rows added to spec-roles.md with Sidekick-cited provenance note, pending in-game. Scrapes post-date the 2026/07/31 cultist changelog batch but their content lags it in two places (no Eldritch Shock; old Black Blood refresh rule), flagged in requirements."
+  },
+  "pets": {
+   "at": "2026-08-07",
+   "note": "Section 3 answered: two PERMANENT minions (Summon: Faceless Servant/corruption party-crit, Summon: Mindbender/heretic ally-heal) render as long-term icons; NO-PET alerts DEFERRED to section 6 (no proven pet-carried aura id; a wrong-id inverse alert is permanently on screen). Faceless Destroyer (10min cd) + all Old God Tentacles + Eldritch Obelisk are ordinary cd icons; Abyssal Command/Cosmic Ooze are the godblade tentacle-command buttons (Tinker Bot: pattern); Tentacle of Yogg-Saron utility icon for the heretic. No pet resource anywhere."
+  },
+  "procs": {
+   "at": "2026-08-07",
+   "note": "PROC_GLOW: Eldritch Mending<-[Eldritch Eye, Malevolent Power] and Malevolence<-[Eldritch Eye] (cited heretic proc engine); Horrorbolt<-[Horrorbolt Volley window]; Hammer of Twilight<-[Rift guaranteed-crit boon]. Inspired Malice per-spell procs (560980/1/3) left out of 0.1 \u2014 capstone talent, ids scrape-only, section 6. PROC_STACKS empty. Buff rows carry the running states: Corrupting Whispers, Shadow of the Void, Dreadnought/Strength of the Black Empire transforms, Herald of the Depths, Entropic Retaliation, Void Reaver, Embrace the Void/Abyssal Ward/Twisted Seal class-wide."
+  },
+  "requirements": {
+   "at": "2026-08-07",
+   "note": "notes/requirements-cultist.md: all sections answered. Changelog triage table (22 entries), 100% crossdb with CROSSCHECK corrections, Void Runes third-resource ruled out of 0.1 (uncited by play), pets answered (2 permanent minions -> longterm icons + deferred NO-PET alerts, tentacles = cd icons), heretic healing scoped to target band, main rows cited with two prose aliases resolved, section 6 carries the in-game checklist."
+  },
+  "talents": {
+   "at": "2026-08-07",
+   "note": "Section 2 handled without Spell Known faces: Horrorbolt Volley tracked as its 15s WINDOW aura (255020+name, buff row + PROC_GLOW on Horrorbolt) because the castable Volley id is unresolved in both DBs; Eldritch Smite's Smite of the Empire has no id (face deferred, art-only cost); Herald of the Depths resolved to its castable 520326 (offensive icon + buff row); Dreadnought resolved to castable 567524 (defensive icon); talent-granted buffs (Twilight Horror/Inspired Malice, Shadow of the Void, Entropic Retaliation, Corrupting Whispers) are active-only buff-row entries harmless untalented. Every adaptation reads correctly with and without the talent."
+  },
+  "tests": {
+   "at": "2026-08-07",
+   "note": "tests/run.py ALL GREEN across all 12 built classes after: (1) talents.py cultist extracted (34/34 talent-granted abilities tracked, no holes); (2) check 22 amended \u2014 a component rank now only convicts an EFFECT-SHAPED row (cost 0 + gcd 0 + cd 0); Twisted Seal 525065 and Grasp of Zek'voz 573028 carry db.exil.es rank 'Proc' but full castable tooltips on BOTH DBs (loosening cannot un-catch shipped classes: their flagged sets are empty and the known components are all cost-0 rows); (3) five aura-only names got inventory rows (Insanity, Black Blood, Madness, Malevolent Power, lowercase Wrath twin) \u2014 the felsworn/reaper lesson; (4) CORE_LEAVES pinned cultist:4 (empty Core group + 3 class-gate buff leaves). Fixtures frozen via tests/freeze.py cultist (5 files); packs copied to docs/packs/cultist/ (coa + 4 per-spec) and re-run green so check 13 measured the real pack."
+  },
+  "unknowns": {
+   "at": "2026-08-07",
+   "note": "Section 6 unknowns deferred EXPLICITLY to the post-ship verified phase (draft bar, production-run.md): Insanity aura id 500706 (decoy trap), Eldritch Shock spec membership, Horrorbolt Volley castable/window ids (255070 Transform candidate), Smite of the Empire id, Presence aura visibility (longterm icons are active-only so a hidden aura just never renders \u2014 no misfire mode), permanent-pet NO PET alert ids, Inspired Malice proc ids, Corrupting Whispers proc aura 706725, Herald window aura, Black Blood ally aura name, Malevolent Power proc, Sanity Tap usability gating, Black Blood refresh rule (changelog vs stale Sidekick), Shadow of the Void aura, Void Runes talent-line resource (no band shipped, uncited), Void Strikes/Obliteration aliases, Eye of N'zoth castable, VES/Bulwark/Bastion passive verdicts, Dreadnought 567524 button. Nothing red ships on a guess: every unproven surface is either active-only (fails invisible) or deferred."
+  }
+ }
+}
