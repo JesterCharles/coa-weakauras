@@ -1,0 +1,2211 @@
+[
+ {
+  "name": "Adjudication",
+  "icon": "_soulfire_light",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Casting Rapture now causes your next Dawnsear within to strike your target twice and launch a Solar Flare at the target."
+ },
+ {
+  "name": "Adjudicator",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your Justicar's Wrath now deals an additional % of its damage dealt to the target and enemies around them, healing you for 10% of the damage dealt."
+ },
+ {
+  "name": "Aeons of Conflict",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Teaches you Aeon of Oblivion and Aeon of Resilience."
+ },
+ {
+  "name": "Aeons of Harmony",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Teaches you Aeon of Protection and Aeon of Renewal."
+ },
+ {
+  "name": "An'she's Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Become An'she's champion, allowing you to cast all of your spells while moving."
+ },
+ {
+  "name": "Ancient Etchings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Dealing Holy damage now reduces the cast time of Horusath Blast by %, stacking times,."
+ },
+ {
+  "name": "Ancient Rites",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases your Intellect by % and causes you to regenerate mana equal to % of your maximum mana every sec."
+ },
+ {
+  "name": "Angel's Calling",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Instantly deals its value Holyflame Damage to nearby enemies."
+ },
+ {
+  "name": "Angelic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Reduces damage from falling."
+ },
+ {
+  "name": "Angelic Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Glare by -30 sec."
+ },
+ {
+  "name": "Angelic Presence",
+  "icon": "inv_icon_wing06c",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Level 10 Passive Avoiding an attack now has a % chance to grant you Angelic Presence."
+ },
+ {
+  "name": "Angelic Touch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases healing done by %."
+ },
+ {
+  "name": "Ascended Barrage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the damage of Radiant Flame by %."
+ },
+ {
+  "name": "Bastion of Hope",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Critical strikes now bless you, regenerating its value mana and increasing all of your primary stats by %."
+ },
+ {
+  "name": "Bastion of Vengeance",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your block chance by % and gives successful blocks a % chance to reduce the remaining cooldown of Vengeful Slam by sec."
+ },
+ {
+  "name": "Battle Cleric",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases Armor by % of Spirit."
+ },
+ {
+  "name": "Battle Priest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your Armor contribution by % of your Spirit, your block value by % and reduces all Magic damage taken by %."
+ },
+ {
+  "name": "Beatification",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Flash now increases your Magic damage dealt by %."
+ },
+ {
+  "name": "Blade of The Sun",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Glorious Execution now increases your Holy and Fire damage dealt to the target by % for sec."
+ },
+ {
+  "name": "Blazing Chariot",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases the healing and damage of Radiance by %."
+ },
+ {
+  "name": "Bless",
+  "icon": "ability_paladin_blessedhands",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Bless an ally, restoring % of their maximum health every sec. Can only affect 1 ally at a time."
+ },
+ {
+  "name": "Blessed Armor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your spell power by 1 for every 125 Armor you have."
+ },
+ {
+  "name": "Blessed Hammer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Reduces the cooldown of Solar Invocation spells by sec."
+ },
+ {
+  "name": "Blessed One",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your chance to block by % and reduces the duration of movement slowing effects by %."
+ },
+ {
+  "name": "Blessing of Absolution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Empower a Blessed ally to unleash a burst of holy energy in front of them, dealing its value Holy damage enemies in a yd frontal cone and generating additional threat. Only usable on your ally with Bless active."
+ },
+ {
+  "name": "Blessing of Purity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Protect a Blessed ally, making them immune to all damage for but reducing their damage and healing done by %. Only usable on your ally with Bless active."
+ },
+ {
+  "name": "Blessing of Retribution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Guard a Blessed ally, deflecting the next harmful spell cast on them within. Only usable on your ally with Bless active."
+ },
+ {
+  "name": "Blessing of Triumph",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Redeem a Blessed ally, granting % increased haste and % increased damage. the ally falls below 35% maximum health they are healed for % of their direct damage dealt for the remaining duration. Only usable on your ally with Bless active."
+ },
+ {
+  "name": "Blessings - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Level 15 Passive Increases your healing power by % of your Intellect."
+ },
+ {
+  "name": "Blinding Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "For the next, dealing direct Fire Damage allows Sunflare to become instant cast."
+ },
+ {
+  "name": "Bulwark of the Sun",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases block value by % and teaches you Sun Shield."
+ },
+ {
+  "name": "Burning Heat",
+  "icon": "spell_holy_devineaegis",
+  "meta": "Talent",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Casting Sunflare now has a % chance to transform your next Sunflare into Sun Ray. Casting Horusath Blast is now guaranteed to transform your next |CffffffffSunflare into Sun Ray."
+ },
+ {
+  "name": "Burning Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damaging critical strikes set the target ablaze with Burning Light, dealing its value Fire damage every. This can critically strike."
+ },
+ {
+  "name": "Bursting Bulwark",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "When your Bulkwark of Blessings effect ends without being destroyed, a flash of light is expelled in a yds radius, causing its value Holy Damage to enemies and healing allies in the area for its value."
+ },
+ {
+  "name": "Calm",
+  "icon": "spell_priest_burningwill",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Calm an enemy, disarming their melee and ranged weapons. your target is an Undead or Demon, they are also unable to attack or move. Enemies that are immune to silence effects cannot be affected by this."
+ },
+ {
+  "name": "Celestial Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Absorbs its value damage, based on attack power. Lasts."
+ },
+ {
+  "name": "Censure",
+  "icon": "5_paladinskill08_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Dealing direct damage to an enemy affected by Chains of Light will now cause it to chain to a nearby enemy. Can only occur once per sec."
+ },
+ {
+  "name": "Chains of Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Shackle an enemy with chains of light, preventing mounting, fleeing, or increasing their movement speed above normal movement speed."
+ },
+ {
+  "name": "Champion of the Sun",
+  "icon": "custom_t_sunorb_border",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Become a champion of An'she, causing your melee auto attacks to deal an additional % of the damage dealt as Holy damage. Lasts."
+ },
+ {
+  "name": "Champion's Arrival",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases the duration of |CffffffffChampion of the Sun and Chains of Light by sec."
+ },
+ {
+  "name": "Chosen of the Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Become An'she's chosen one, reducing your damage taken by %. Taking damage while below 50% health will instantly heal you for % of your maximum health. Can only occur once."
+ },
+ {
+  "name": "Circle of Valor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Place a yd holy circle at target location. Allies that stand inside of it will divert % of all damage taken to the caster, and will be healed for its value every sec. Damage which reduces the caster below 10% maximum health will break the effect."
+ },
+ {
+  "name": "Clarity of the Heavens",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Level 50 Passive Increases your block value by 50% of your Intellect."
+ },
+ {
+  "name": "Cleanser of Sins",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the critical strike damage of your Fire spells by %."
+ },
+ {
+  "name": "Concentrated Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Allows Burning Light to critically hit and stack 1 additional time."
+ },
+ {
+  "name": "Controlled Fury",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases maximum Rage by %."
+ },
+ {
+  "name": "Cultivate Divinity",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Effectively healing with Radiant Cascade has a % chance to increase the healing of your next Illumination by %. Effectively healing with Illumination has a % chance to increase the healing of your next Radiant Cascade by %."
+ },
+ {
+  "name": "Dawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Allows you to fulfill your Vows. Your next damaging or healing abilities will trigger the Fulfillment effect of your |CffffffffVow. Can only occur once per sec. Lasts. Solar Power cannot be generated while Dawn is active."
+ },
+ {
+  "name": "Dawnbreak",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Radiate holy light from your shield on enemies in front of you, dealing its value Holyfire Damage, scaling with your block value."
+ },
+ {
+  "name": "Dawnfall",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Bring down the light of An'she down at the target location. While inside, allies receive % increased healing from all sources and enemies take % increased damage from you and are struck by a Solar Flare|R every sec."
+ },
+ {
+  "name": "Dawnsear",
+  "icon": "nhi_fire_solar_border",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Blast an enemy with burning light, dealing its value Fire damage."
+ },
+ {
+  "name": "Day Cycles",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Level 50 Passive While in Sunrise, the remaining cooldown of Horusath Blast is reduced by % every sec. While in Sunset, the remaining cooldown of Rapture is reduced by % every sec."
+ },
+ {
+  "name": "Daybreak",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Make a prayer, healing an ally for its value."
+ },
+ {
+  "name": "Deliverance",
+  "icon": "spell_holy_greaterblessingofsalvation",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Reduces the cast time of Sunflare and Dawnsear by 0.25 sec and increases their damage by %."
+ },
+ {
+  "name": "Devoted",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Level 50 Passive Your Dawnbreak and Gavel of Light now strike 2 additional nearby enemies."
+ },
+ {
+  "name": "Devoted to the Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the cost of your Solar Invocation spells and they now generate 5% of your missing mana when cast."
+ },
+ {
+  "name": "Devoted to the Sun",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of your Solar Invocation spells by -5 sec."
+ },
+ {
+  "name": "Devotee",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of your Devotions by 20%."
+ },
+ {
+  "name": "Devotion of Dawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Places a Devotion on the friendly target, increasing attack power by. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Devotion of Emperors",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Places a Devotion on the friendly target, increasing total stats by %. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Devotion of Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Places a Devotion on the friendly target, restoring mana every 5 seconds and reducing their costs by %. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Devotion of Radiance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Places a Devotion on the friendly target, increasing spell power by. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Devout Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases the healing of Radiant Cascade by % on targets affected by Bless. Increases the amount of diseases dispelled by Solar Invocation: Mercy."
+ },
+ {
+  "name": "Divine Fire",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Allows Dawnbringer to affect up to enemies and increases its damage dealt by %."
+ },
+ {
+  "name": "Divine Retribution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Accumulates 25% of your damage dealt to on the target and unleashes it after, damaging enemies within yds as Holy damage."
+ },
+ {
+  "name": "Divine Vision",
+  "icon": "ability_priest_savinggrace",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Heals an ally for and causes them to take % increased healing. Sunet: Heals increased by %."
+ },
+ {
+  "name": "Duality of Light",
+  "icon": "nhi_holy_hand_border",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "While in Sunset, your Holy damage dealt grants Twin Flame. While in Sunrise, your Fire damage dealt grants Sun Power Only one aura can be active at a time."
+ },
+ {
+  "name": "Empowered Holy Form",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Doubles the effectiveness of your Holy Form."
+ },
+ {
+  "name": "Enveloped in Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your armor contribution from mail and plate items by 10% and reduces Shadow damage taken by -3%. (up to 2 ranks)"
+ },
+ {
+  "name": "Everglow",
+  "icon": "inv_artifact_xp04",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Your Radiant Cascade now bounces to additional allies."
+ },
+ {
+  "name": "Exorcism",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Sanctify now dispels additional effect."
+ },
+ {
+  "name": "Faith Militant",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Sunsworn now also increases melee attack speed by % per stack."
+ },
+ {
+  "name": "Fanaticism",
+  "icon": "ability_priest_atonement",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases the effectiveness of Gavels and Horusath Blast and reduces their mana cost by %."
+ },
+ {
+  "name": "Final Vows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Fulfilling your Vow of Grace now also reduces the cooldown of the triggered ability by 10%."
+ },
+ {
+  "name": "Fire from the Heavens",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Level 20 Passive Damage dealt by Radiant Flame now has a % chance to launch a Solar Flare at your target."
+ },
+ {
+  "name": "Flames of Absolution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damage dealt by Horusath Blast now launches a Solar Flare at up to enemies within yds of your target."
+ },
+ {
+  "name": "Flames of the Father",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Your Fire damage dealt is increased by % against Burning targets."
+ },
+ {
+  "name": "Flash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Shine a powerful beam of sunlight at an enemy, dealing its value Holy Damage and generating 1 Solar Power."
+ },
+ {
+  "name": "Fortuitous",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the cast time of Glare while above 80% health."
+ },
+ {
+  "name": "Gavel of Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Smash an enemy for % Weapon Damage plus its value and restores its value mana. Shares a cooldown with other Gavels."
+ },
+ {
+  "name": "Gavel of Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Smash an enemy for % Weapon Damage plus its value and heal yourself equal to % of the damage dealt. Shares a cooldown with other Gavels."
+ },
+ {
+  "name": "Gavel of Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Smash an enemy for % Weapon Damage plus its value and dispel beneficial magic effect from them. Shares a cooldown with other Gavels."
+ },
+ {
+  "name": "Glare",
+  "icon": "ability_priest_halo",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Flash powerful light that deals its value Holy damage and stuns enemies within yds."
+ },
+ {
+  "name": "Glaring Rays",
+  "icon": "spell_holy_power",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases the spell haste of all party and raid members by % and your spell haste by an additional %. Does not stack with similar effects."
+ },
+ {
+  "name": "Gleaming Armor",
+  "icon": "inv_legion_faction_valarjar",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Reduces your spell damage taken by %, plus an additional % while above 80% health."
+ },
+ {
+  "name": "Gleaming Vigil",
+  "icon": "inv_artifact_bulwarkoforder",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You Summon a magical barrier of sunlight that will Absorb damage dealt against yourself and all party and raid members within yards. Lasts until destroyed."
+ },
+ {
+  "name": "Glorious Execution",
+  "icon": "inv_sword_2h_armyoflight_c_01",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Strike with both weapons dealing Weapon Damage plus Physical damage and regenerate mana equal to % of the damage dealt."
+ },
+ {
+  "name": "Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the spell damage bonus of Dawnsear by % and Sunflare by %."
+ },
+ {
+  "name": "Greater Devotion of Dawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Places a Devotion on all raid and party members, increasing attack power by. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Greater Devotion of Emperors",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Places a Devotion on all raid and party members, increasing total stats by %. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Greater Devotion of Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Places a Devotion on the friendly target, restoring mana every 5 seconds and reducing their costs by %. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Greater Devotion of Radiance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Places a Devotion on all raid and party members, increasing spell power by. Players may only have one Devotion on them per Sun Cleric at any one time."
+ },
+ {
+  "name": "Guarded By The Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Direct Magic Damage taken now has a % chance to restore its value health to you every sec."
+ },
+ {
+  "name": "Guidance: Intervention",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Makes your Guided ally immune to all damage, and grants them % increased movement speed for the duration. Only usable on allies with Solar Guidance active."
+ },
+ {
+  "name": "Guidance: Touch of Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Heals your Guided ally for its value and an additional its value every over. Only usable on allies with Solar Guidance active."
+ },
+ {
+  "name": "Guiding Glow",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Allows Dawn to affect additional casts."
+ },
+ {
+  "name": "Hammer of Kings",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Become anointed by the light, summoning a blessed hammer that encircles you dealing its value Holyfire Damage to nearby enemies every sec."
+ },
+ {
+  "name": "Harmonious Bells",
+  "icon": "inv_qirajidol_rebirth_holy",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Your Mercy now affects 4 additional allies near the primary target."
+ },
+ {
+  "name": "Harsh Lessons",
+  "icon": "_maievblade_light",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Casting Dawn now grants Scorch Marks."
+ },
+ {
+  "name": "Heat Death",
+  "icon": "inv_artifact_xp01",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your Solar Eclipse now reduces the enemies chance to hit by % for sec."
+ },
+ {
+  "name": "Heat Wave",
+  "icon": "item_holyspark",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Healing with Illumination and Shine now additionally heals the target's nearby allies for % of the value."
+ },
+ {
+  "name": "Heaven’s Appraisal",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Level 40 Passive Increases the effectiveness of your Fulfillment effects by %. In addition, the Fulfillment effect granted by Vow of Dawn now triples the amount of targets struck."
+ },
+ {
+  "name": "Hegemony",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the duration of Radiance by 5 sec."
+ },
+ {
+  "name": "Herald of Purity",
+  "icon": "spell_holy_purifyingpower",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damage dealt by Justice now has an % chance to reset its own cooldown."
+ },
+ {
+  "name": "Holy Conquest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the mana cost of Paragon, Chosen of the Light, and Judgement Day by -50%."
+ },
+ {
+  "name": "Holy Fervor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the effectiveness of Sunrise and |CffffffffSunset by %."
+ },
+ {
+  "name": "Holy Form",
+  "icon": "spell_holy_rapture",
+  "meta": "Ability",
+  "specs": [
+   "blessings",
+   "piety"
+  ],
+  "desc": "Assumes a Holy Form, increasing Healing dealt by % and reducing melee damage taken by %. Holyform lasts until cancelled."
+ },
+ {
+  "name": "Holy Giant",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Level 50 Passive Doubles the effectiveness of Vow of the Valkyr."
+ },
+ {
+  "name": "Holy Strength",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Level 30 Passive Increases your spell power by % of your Strength."
+ },
+ {
+  "name": "Hope",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Your critical heals now reduce the cooldown of Solar Invocation spells by sec. Can occur only once per sec."
+ },
+ {
+  "name": "Horusath Blast",
+  "icon": "paladin_holy",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Blast an enemy with the power of the sun, dealing its value Holy damage and reducing their attack power by its value."
+ },
+ {
+  "name": "Illumination",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Illuminate an ally, healing them for its value."
+ },
+ {
+  "name": "Impartial",
+  "icon": "spell_paladin_executionsentence",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your Strength and maximum mana by % and your expertise."
+ },
+ {
+  "name": "Injunction",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Taunts an enemy target."
+ },
+ {
+  "name": "It's Always Sunny",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Activating Dawn now reduces the cooldowns of Radiance, Valkyr's Calling, and Sunslam by %."
+ },
+ {
+  "name": "Judgement Day",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Bring judgement upon all nearby enemies, disorienting them for (8 sec vs players). Damage dealt will end this effect. Affected enemies take % increased damage from your next instance of damage."
+ },
+ {
+  "name": "Judgement of the Valkyrie",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Reduces the cooldown of Judgement Day by sec."
+ },
+ {
+  "name": "Justicar's Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Bring holy wrath down upon an enemy, dealing its value High Threat Holy damage and increasing the target's spell damage taken by %."
+ },
+ {
+  "name": "Justice",
+  "icon": "inv_glaive_1h_artifactaldrochi_d_02dual",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Spin and strike with both weapons dealing % Weapon Damage plus its value to up to enemies within yds. Your main-hand strike will deal Fire damage and your off-hand strike will deal Physical damage."
+ },
+ {
+  "name": "Knight of Dawn",
+  "icon": "_d3fanofknives",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your Glorious Execution now has a % chance to strike 1 additional time."
+ },
+ {
+  "name": "Last Wish",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Glorious Execution now hits up to its value enemies."
+ },
+ {
+  "name": "Lead Me Not Astray",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Doubles the healing done by Bless."
+ },
+ {
+  "name": "Leap of the Valkyrie",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Valkyrie Spear now makes you leap to your target and slow their movement speed by %."
+ },
+ {
+  "name": "Learning Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Entering Sunset or |CffffffffSunrise|R increases your spell haste by %. Lasts for or 3 casts."
+ },
+ {
+  "name": "Light The Way",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Healing done by Shine or Illumination now increases the targets movement speed by %."
+ },
+ {
+  "name": "Light of the Sun",
+  "icon": "ability_paladin_artofwar",
+  "meta": "Talent",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Parrying an attack now restores % of your maximum health and increases your chance to parry the next attack by %."
+ },
+ {
+  "name": "Light's Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Casting Sunslam now reduces the cooldown of Pendant of the Sun by sec."
+ },
+ {
+  "name": "Lightward",
+  "icon": "ability_priest_soulwarding",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases the duration of Blessing of Purity by sec."
+ },
+ {
+  "name": "Lord Commander",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Blocking an attack grants Daybreak. Cannot occur more than once per sec."
+ },
+ {
+  "name": "Luminary Mendicant",
+  "icon": "ability_priest_clarityofpurpose",
+  "meta": "Ability",
+  "specs": [
+   "blessings",
+   "seraphim"
+  ],
+  "desc": "Reduces the mana cost of Illumination by %."
+ },
+ {
+  "name": "Luminescent Lances",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the damage of Solar Lance by % and reduces it's cooldown by sec."
+ },
+ {
+  "name": "Luminous Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Chains of Light is now guaranteed to critically strike and its cooldown is reduced by sec, but it no longer slows movement speed."
+ },
+ {
+  "name": "March of the Valkyr",
+  "icon": "spell_holy_crusade",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Increases the all damage dealt by party and raid members by %. Does not stack with similar effects. In addition, your chance to parry is increased by %."
+ },
+ {
+  "name": "Moment of Triumph",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Horusath Blast or Rapture now have a % chance to not incur a cooldown on cast."
+ },
+ {
+  "name": "New Day",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Start anew, reseting the cooldown of Paragon, Chosen of the Light, and Judgement Day."
+ },
+ {
+  "name": "No Shade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Glare now restores % of your maximum health."
+ },
+ {
+  "name": "Nysoni's Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Dawn will now provide an additional effect based on your specialization."
+ },
+ {
+  "name": "On A Cloudy Day",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases the healing done by Shine and Sunshine by %."
+ },
+ {
+  "name": "Paragon",
+  "icon": "spell_holy_surgeoflight",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Become a paragon of the light, increasing all primary attributes by % and increasing your Armor by an amount equal to 5 times your Intellect. For the duration, |CffffffffSun Stride triggers a % reduced cooldown."
+ },
+ {
+  "name": "Path To Glory",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Reduces the cooldown of Justice by sec and Glorious Execution by sec."
+ },
+ {
+  "name": "Pendant of the Sun",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Activate your pendant of the sun, refreshing the duration and all charges of Dawn."
+ },
+ {
+  "name": "Photosynthetic",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases your spell haste by %, plus an additional % during the day."
+ },
+ {
+  "name": "Piety - Level 15 Passive",
+  "icon": "",
+  "meta": "Talent Passive Lvl 15",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Level 15 Passive Increases your critical strike chance by % of Intellect. In addition, your chance to hit is increased by %."
+ },
+ {
+  "name": "Piety Sun Cleric Passive Hidden2",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Radiant Flame and Solar Wrath now generate 1 Solar Power."
+ },
+ {
+  "name": "Pious",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Level 40 Passive Increases your critical damage dealt by % and your critical strikes grant allies Replenishment."
+ },
+ {
+  "name": "Pure Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While above 80% health you now deal % increased damage and healing."
+ },
+ {
+  "name": "Purgation",
+  "icon": "inv_misc_firedancer_01",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Dealing damage with Radiant Flame now increases the target's Holy and Fire damage taken from you by %, stacking times."
+ },
+ {
+  "name": "Radiance",
+  "icon": "inv_sword_49",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Every sec you burst with light, healing nearby allies for its value and damaging nearby enemies for its value. Lasts."
+ },
+ {
+  "name": "Radiant Cascade",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Refract light into a restorative beam, healing an ally for its value, and then jumps to up to additional allies, healing for less with each bounce."
+ },
+ {
+  "name": "Radiant Flame",
+  "icon": "nhi_holysparks_border",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Launch radiant spheres at an enemy each dealing its value Holyflame Damage, repeating every sec."
+ },
+ {
+  "name": "Radiant Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damage dealt by Radiant Flame is now increased by % on enemies below 35% health."
+ },
+ {
+  "name": "Radiant Marks",
+  "icon": "ability_skyreach_solar_burst",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Reduces the channel time of Sunslam by 1 sec."
+ },
+ {
+  "name": "Rapid Execution",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "When you use Stay of Execution you reset the cooldown of Glorious Execution."
+ },
+ {
+  "name": "Rapture",
+  "icon": "ability_racial_orbitalstrike",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Call down a streak of sun light to smite your target, dealing its value Fire damage to them and nearby enemies, piercing all immunities, but dealing less damage with each enemy struck."
+ },
+ {
+  "name": "Ray of Illumination",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Call down a beam of light on an area, revealing stealthed and invisible enemies."
+ },
+ {
+  "name": "Rejuvenating Rays",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings",
+   "valkyrie"
+  ],
+  "desc": "Call down Rejuvenating Rays in an area, restoring % maximum health and mana per sec. This effect is stronger based on how long you stay in the area. Remaining in the area for at least 10 sec will remove all diseases from allies inside. Cannot be used in combat or indoors. Does not work on allies in combat"
+ },
+ {
+  "name": "Revivify",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Brings a dead ally back to life with health and mana. Not usable in combat."
+ },
+ {
+  "name": "Sanctified",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Healing a target affected by Bless refunds % of the mana cost of the spell."
+ },
+ {
+  "name": "Sanctify",
+  "icon": "spell_paladin_inquisition",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Sanctify a friendly target, dispelling magic, poison, and disease effects from them."
+ },
+ {
+  "name": "Savior",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases your healing on targets below 20% health by %."
+ },
+ {
+  "name": "Scalding Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the critical damage of your Fire spells by %."
+ },
+ {
+  "name": "Scorch Marks",
+  "icon": "inv_shield_1h_artifactstormfist_d_03",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Casting Dawnsear and Sunflare now have a % chance to grant Scorch Marks."
+ },
+ {
+  "name": "Scroll of Hope",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Read from a scroll of hope, reducing Magic damage taken by party and raid members within yds by %. any ally falls below 35% of their maximum health while this is active they are instantly healed once for % of their maximum health."
+ },
+ {
+  "name": "Scrying Orb",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Conjure a Scrying Orb for that you can control directly and see through."
+ },
+ {
+  "name": "Seraphic Bulwark",
+  "icon": "inv_shield_1h_raidnazmir_d_01",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "2 Charges, 25 sec recharge Raise your blessed shield, increasing your block value by %. Lasts for blocks or."
+ },
+ {
+  "name": "Seraphim - Level 20 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Level 20 Passive Reduces the cooldowns of Gavel of Light, Horusath Blast, and Dawnbreak by %."
+ },
+ {
+  "name": "Shine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Shine holy light upon an ally, healing for its value."
+ },
+ {
+  "name": "Shining Ray",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your Sunflare ability now causes an additional Fire Damage scaling with your attack power and applies Purging Flames."
+ },
+ {
+  "name": "Shining Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your Armor contribution from your shield by %."
+ },
+ {
+  "name": "Sins of the Father",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damage dealt by Horusath Blast and Rapture now applies Sins of the Father to the enemy. Damage dealt by Radiant Flame or Ascended Barrage against targets affected by Sins of the Father now deals {((spell power, spell power), +spell power,"
+ },
+ {
+  "name": "Sintorcher",
+  "icon": "spell_fire_lavaspawn",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases damage and healing done by %."
+ },
+ {
+  "name": "Sol Invictus",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your devotion to the sun knows no bounds, increasing your threat generated by % plus an additional % from Holy and Fire spells and abilities."
+ },
+ {
+  "name": "Solar Avenger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Gives your Physical Damage attacks and effects a % chance to empower nearby allies affected by Solar Guidance, granting them % increased damage done, and healing them."
+ },
+ {
+  "name": "Solar Concord",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Resets the cooldown of Horusath Blast while in Sunrise and |CffffffffRapture while in Sunset and causes their damage dealt to launch a Solar Flare. Lasts."
+ },
+ {
+  "name": "Solar Conduit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Reduces the cast time of Dawnsear by % while Dawn is active."
+ },
+ {
+  "name": "Solar Crusader",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Increases the damage and healing of Dawn by %."
+ },
+ {
+  "name": "Solar Eclipse",
+  "icon": "inv_artifact_xp03",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Dawnbreak now unleashes a burst of holy energy after a delay, dealing its value Holy damage to nearby enemies."
+ },
+ {
+  "name": "Solar Embrace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Heals all friendly party or raid members within a few yards of the target. Can be used on an enemy or an ally."
+ },
+ {
+  "name": "Solar Guardian",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the duration of stun effects on you by -20%."
+ },
+ {
+  "name": "Solar Incandescence",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases the damage of Sunflare by % and its critical strike chance by %."
+ },
+ {
+  "name": "Solar Invigoration",
+  "icon": "custom_element(fire)_b_01_border",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "For, your allies take % increased healing and their direct damage dealt now causes them to cast Shine. Can only occur once every 2 sec."
+ },
+ {
+  "name": "Solar Invocation: Ascension",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Call down the restorative power of the sun, healing all allied players within yds for its value. Shares a cooldown with other Solar Invocation spells."
+ },
+ {
+  "name": "Solar Invocation: Conquest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Invoke the spirit of An'she to instantly generate 10 Solar Power and refunds % of your maximum mana. Shares a cooldown with other Solar Invocation spells."
+ },
+ {
+  "name": "Solar Invocation: Resplendence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Invoke the grace of An'she, causing your llluminations to be instant cast and guaranteed to critically strike, but cost % more mana. Shares a cooldown with other Solar Invocation spells."
+ },
+ {
+  "name": "Solar Invocation: Revelation",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Invoke An'she to root an enemy for with holy shackles or heal an ally for its value% maximum health and increase their movement speed by %. Shares a cooldown with other Solar Invocation spells."
+ },
+ {
+  "name": "Solar Might",
+  "icon": "ability_paladin_holyavenger",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Strength and Intellect by %."
+ },
+ {
+  "name": "Solar Nova",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Emit a powerful holy light in an yd radius, dealing its value Holy damage to all nearby enemies. Reduces the cooldown of your Solar Invocation spells by sec for each target struck. This ability is guaranteed to critically strike against Undead or Demons."
+ },
+ {
+  "name": "Solar Prayer",
+  "icon": "spell_holy_devineaegis",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Recite a solar prayer, instantly healing you for % of your maximum health plus an additional its value, scaling with spell power. Usable while stunned."
+ },
+ {
+  "name": "Solar Priest",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Reduces the cooldown of Solar Invigoration by sec. In addition, whenever allies effectively heal with Shine they now cast Illumination. Can only occur once every 6 sec."
+ },
+ {
+  "name": "Solar Scripture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Solar Conquest now reduces the spell haste and Magic damage dealt of nearby enemies by %."
+ },
+ {
+  "name": "Solar Templar",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your Magic Damage dealt by %."
+ },
+ {
+  "name": "Solstice",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Allows Dawn to affect an additional spell."
+ },
+ {
+  "name": "Spears of Glory",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damage dealt by Radiant Flame now has an % chance to grant you Spears of Glory."
+ },
+ {
+  "name": "Stalwart",
+  "icon": "inv_helm_plate_kultirasdungeon_c_01",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Melee critical strikes against you prevent you from being critically struck again."
+ },
+ {
+  "name": "Struck by the Sun",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Increases your Holy and Fire spell damage by % and your spell hit rating by % of your Intellect. In addition, damage dealt by Dawnsear now increases the chance for the target to be critically struck by spells by %."
+ },
+ {
+  "name": "Sun Disc",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "You now emit an aura that causes all nearby allies to receive % increased healing. Does not stack with similar effects. In addition, the healing done by Illumination is increased by %."
+ },
+ {
+  "name": "Sun Down",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Bring the wrath of the sun down upon an enemy after, dealing its value Holyflame Damage and scorching the earth beneath them. While inside, enemies are struck by a Solar Flare every sec and take % increased damage from Rapture and Horusath Blas"
+ },
+ {
+  "name": "Sun Gate",
+  "icon": "ability_paladin_blindinglight2",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Shift yds forward at light speed, removing all root effects. This leaves behind a Sun Gate for that allies can interact with to blink themselves the same distance forward. Allies can only use |CffffffffSun Gate every."
+ },
+ {
+  "name": "Sun Screen",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Bulwark of Blessings now also reduces Physical Damage taken by %."
+ },
+ {
+  "name": "Sun Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces your chance to be hit by spells by %."
+ },
+ {
+  "name": "Sun Stride",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Rush forward at a high speed."
+ },
+ {
+  "name": "Sun Warrior's Guidance",
+  "icon": "inv_helm_plate_raidpaladin_r_01mythic",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases the critical strike chance of Gavels and Dawnbreak by %."
+ },
+ {
+  "name": "Sun Worship",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Level 20 Passive Increases your healing power by % of your Intellect and your spell haste rating by % of your Intellect."
+ },
+ {
+  "name": "Sun's Gift",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Level 30 Passive Your Horusath Blast now deals additional damage scaling with your attack power and grants allies Replenishment."
+ },
+ {
+  "name": "Sun's Hope",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Damage dealt by Solar Flares now grants you 1 Solar Power and increase the targets chance to be critically struck by spells by %."
+ },
+ {
+  "name": "Sun-Touched Armor",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Level 20 Passive Increases your Armor by % of your Strength and Intellect and increases your total Stamina by %."
+ },
+ {
+  "name": "Sunburn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Reduces the cast time of Rapture|R by sec."
+ },
+ {
+  "name": "Suncharged",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Judgement Day now applies Suncharged to the target every sec, stacking times. At the end of the duration, or when Judgement Day ends, the enemy takes its value Holy damage, increased for each stack on the target."
+ },
+ {
+  "name": "Sunflare",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Blast an enemy with the light of the sun, dealing its value to its value Holy damage."
+ },
+ {
+  "name": "Sunfury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Reduces the cooldown of Gavel of Light and Horusath Blast by %."
+ },
+ {
+  "name": "Sunlight",
+  "icon": "item_holyspark",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Level 10 Passive Fulfilling your Vow now unleashes Sunlight restoring its value health to up to allies within yds, prioritizing the lowest health allies."
+ },
+ {
+  "name": "Sunlight Refraction",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Increases the healing of Illumination by %."
+ },
+ {
+  "name": "Sunrise and Sunset",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Level 10 Passive After activating Dawn, casting a Holy spell grants Sunrise or casting a Fire spell grants Sunset. Entering Sunrise or Sunset prevents you from entering the other until you enter the next."
+ },
+ {
+  "name": "Sunshine",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Bask an ally in light, healing them for its value over."
+ },
+ {
+  "name": "Sunslam",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Slam an enemy every sec with the might of the sun, dealing its value Holy damage and stunning them. Lasts. Only usable while Dawn is active. Usable while moving."
+ },
+ {
+  "name": "Sunsworn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases your Physical damage dealt by % and auto attacks now have a % chance to restore % of your maximum mana."
+ },
+ {
+  "name": "Sunwalker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings",
+   "seraphim"
+  ],
+  "desc": "Reduces the cast time and mana cost of your next Shine by %, stacking times."
+ },
+ {
+  "name": "Sunwalker's Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Sunwell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Become an embodiment of the sun for that periodically dispels fear, sleep, and charm effects every sec from allies within yds."
+ },
+ {
+  "name": "Swift Justice",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your haste by %."
+ },
+ {
+  "name": "Taking Vows",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Vow of Light now heals for an additional % of damage taken or direct healing done by you."
+ },
+ {
+  "name": "The Chosen",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your Illumination now shields you for % of the amount healed."
+ },
+ {
+  "name": "The Redeemer",
+  "icon": "",
+  "meta": "Ability Passive Lvl 50",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Level 50 Passive When you critically heal your target, they will be healed for 30% of the amount originally healed the next time they take damage. Lasts."
+ },
+ {
+  "name": "Transgression",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Shroud yourself in holy Energy, reducing all damage taken by % and dealing its value Holy Damage to enemies striking you, stunning them. Enemies immune to stun effects are knocked away instead."
+ },
+ {
+  "name": "Trial of Valor",
+  "icon": "achievement_raid_trialofvalor",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Fulfilling|R a Vow now reduces the cooldown of |CffffffffHorusath Blast by sec."
+ },
+ {
+  "name": "Twilight",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Applying Vow of the Eclipse now blinds enemies struck, increasing their chance to miss their next attack by -10% for 6 seconds, stacking 5 times. Does not work on bosses.In addition, increases the effectiveness of the Fulfillment effect of Vow of the Eclipse by 100%."
+ },
+ {
+  "name": "Unbreakable Focus",
+  "icon": "spell_holy_auramastery",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Gavels|R and Horusath Blast by %."
+ },
+ {
+  "name": "Valkyr's Calling",
+  "icon": "ability_priest_angelicbulwark",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Target an enemy and leap into the air, becoming immune to all physical attacks and spells. At the end of the duration, you charge back down, dealing its value Holy damage to all enemies within yds."
+ },
+ {
+  "name": "Valkyr's Grip",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Allows you to dual wield and to wield a Two-Handed Mace, Sword, or Polearm in each hand and your chance to hit is increased by %."
+ },
+ {
+  "name": "Valkyrie - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Level 15 Passive Transforms your Vow of Radiance into Vow of the Valkyr."
+ },
+ {
+  "name": "Valkyrie's Watch",
+  "icon": "ability_priest_archangel",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Damage that would take you below 35% health and damage taken while below 35% health is reduced by %."
+ },
+ {
+  "name": "Valorous Champion",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Level 20 Passive Increases your attack power by % and your spell hit rating by % of your Strength."
+ },
+ {
+  "name": "Vindicator",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Your Glorious Execution now ignores % of the target's armor while Vow of the Valkyr is active."
+ },
+ {
+  "name": "Vitality",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Effective healing increases your Stamina and Spirit by %, stacking up to times,."
+ },
+ {
+  "name": "Vow of Dawn",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Direct ability damage or healing generates 1 Solar Power and bounces to additional nearby targets with less value per target struck. Fulfillment: Doubles the amount of targets struck. Only 1 Vow can be active at a time."
+ },
+ {
+  "name": "Vow of Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "You generate 2 Solar Power every sec and direct ability damage now regenerates % of your missing mana plus its value. Fulfillment: Halves the mana cost of all spells and abilities and reduces their cooldown by %. Only 1 Vow can be active"
+ },
+ {
+  "name": "Vow of Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "blessings"
+  ],
+  "desc": "Direct damage taken or direct healing taken by you generates 1 Solar Power and heals the nearest nearby ally equal to % of the amount. Fulfillment: Doubles the amount of healing done. Only 1 Vow can be active at a time."
+ },
+ {
+  "name": "Vow of Radiance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "piety"
+  ],
+  "desc": "Direct ability damage or healing generates 2 Solar Power and damages or heals for an additional % of the amount. Fulfillment: Doubles the damage or healing done. Only 1 Vow can be active at a time."
+ },
+ {
+  "name": "Vow of the Eclipse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Direct ability damage or effective healing now generates 1 Solar Power and burns for % of the damage or healing done every sec. Each trigger increases the damage of this effect. Additional applications do not refresh the duration. Fulfillment: Direct ability damage or healing done by yo"
+ },
+ {
+  "name": "Vow of the Valkyr",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "valkyrie"
+  ],
+  "desc": "Auto attacks generate 1 Solar Power and deal % increased damage. Fulfillment: Melee ability damage triggers an auto attack with each weapon. Only 1 Vow can be active at a time."
+ },
+ {
+  "name": "Wake",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Reduces the cooldown of Glare by seconds and reduces its mana cost by %."
+ },
+ {
+  "name": "Warmth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Direct healing now increases the target's health by 300 for 15 seconds."
+ },
+ {
+  "name": "Warrior's Light",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases the damage dealt by Sunflare and Justice by %."
+ },
+ {
+  "name": "Wrathful Sun",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "seraphim"
+  ],
+  "desc": "Increases the damage of Rapture by %."
+ },
+ {
+  "name": "Zealous ",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Radiance by -30 sec, but reduces its duration by -4 sec."
+ }
+]

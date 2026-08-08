@@ -1,0 +1,98 @@
+{
+ "sidekick-sun-cleric-blessings-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Solar Apex",
+    "Solar Invigoration"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Sunlight"
+   ]
+  },
+  "class": "sun-cleric",
+  "content_sha256": "57897da8ba0b8fee",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/sun-cleric/blessings",
+  "spec": "blessings"
+ },
+ "sidekick-sun-cleric-piety-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Blinding Light",
+    "Glare",
+    "Vindication"
+   ],
+   "maintain": [],
+   "priority": []
+  },
+  "class": "sun-cleric",
+  "content_sha256": "e2bb83db7de2a87a",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/sun-cleric/piety",
+  "spec": "piety"
+ },
+ "sidekick-sun-cleric-seraphim-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Chosen of the Light"
+   ],
+   "maintain": [
+    "Dawnbringer"
+   ],
+   "priority": [],
+   "signature": [
+    "Angelic Presence"
+   ]
+  },
+  "class": "sun-cleric",
+  "content_sha256": "30bec62ec65dcded",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/sun-cleric/seraphim",
+  "spec": "seraphim"
+ },
+ "sidekick-sun-cleric-valkyrie-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Champion of the Sun",
+    "Sunwalking",
+    "Valkyr's Calling"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Valkyr's Grip"
+   ]
+  },
+  "class": "sun-cleric",
+  "content_sha256": "6d01f29c57a1a3a5",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/sun-cleric/valkyrie",
+  "spec": "valkyrie"
+ }
+}

@@ -1,0 +1,2870 @@
+{
+ "A Pious Life": {
+  "ids": [
+   570027
+  ],
+  "icon": null
+ },
+ "Acute Faith": {
+  "ids": [
+   560570
+  ],
+  "icon": null
+ },
+ "Adept Angler's Pole": {
+  "ids": [
+   803561
+  ],
+  "icon": null
+ },
+ "Adjudicated": {
+  "ids": [
+   707774
+  ],
+  "icon": null
+ },
+ "Adjudicator": {
+  "ids": [
+   704903
+  ],
+  "icon": null
+ },
+ "Aegis of Light": {
+  "ids": [
+   704906
+  ],
+  "icon": null
+ },
+ "Agility AP Scaling": {
+  "ids": [
+   804634
+  ],
+  "icon": null
+ },
+ "An'she's Blessing": {
+  "ids": [
+   520778
+  ],
+  "icon": null
+ },
+ "An'she's Grace": {
+  "ids": [
+   572149
+  ],
+  "icon": null
+ },
+ "An'she's Guidance": {
+  "ids": [
+   681064
+  ],
+  "icon": null
+ },
+ "Ancient Etchings": {
+  "ids": [
+   806022
+  ],
+  "icon": null
+ },
+ "Ancient Rites": {
+  "ids": [
+   300351
+  ],
+  "icon": null
+ },
+ "Angel of Light visual": {
+  "ids": [
+   278596
+  ],
+  "icon": null
+ },
+ "Angel of the Sun": {
+  "ids": [
+   680654
+  ],
+  "icon": null
+ },
+ "Angel's Calling": {
+  "ids": [
+   805641
+  ],
+  "icon": null
+ },
+ "Angelic": {
+  "ids": [
+   704582
+  ],
+  "icon": null
+ },
+ "Angelic Light": {
+  "ids": [
+   560094
+  ],
+  "icon": null
+ },
+ "Angelic Presence": {
+  "ids": [
+   92137
+  ],
+  "icon": null
+ },
+ "Angelic Touch": {
+  "ids": [
+   704944
+  ],
+  "icon": null
+ },
+ "Anoint": {
+  "ids": [
+   806494
+  ],
+  "icon": null
+ },
+ "Anointed": {
+  "ids": [
+   524998
+  ],
+  "icon": null
+ },
+ "Anointed by the Sun": {
+  "ids": [
+   680635
+  ],
+  "icon": null
+ },
+ "Anshe's Blessing": {
+  "ids": [
+   806468
+  ],
+  "icon": null
+ },
+ "Answered Prayer": {
+  "ids": [
+   802942
+  ],
+  "icon": null
+ },
+ "Answered Prayer (Illuminate)": {
+  "ids": [
+   804575
+  ],
+  "icon": null
+ },
+ "Answered Prayer (Shine)": {
+  "ids": [
+   804576
+  ],
+  "icon": null
+ },
+ "Answered Prayer (Sunshine)": {
+  "ids": [
+   804577
+  ],
+  "icon": null
+ },
+ "Answered Prayer Remover": {
+  "ids": [
+   524810
+  ],
+  "icon": null
+ },
+ "Arbiter of Grace": {
+  "ids": [
+   301313
+  ],
+  "icon": null
+ },
+ "Arbiter of Light": {
+  "ids": [
+   302914
+  ],
+  "icon": null
+ },
+ "Arkantos Test Spell": {
+  "ids": [
+   850014
+  ],
+  "icon": null
+ },
+ "Armageddon": {
+  "ids": [
+   570032
+  ],
+  "icon": null
+ },
+ "Ascended": {
+  "ids": [
+   301976
+  ],
+  "icon": null
+ },
+ "Ascended Barrage": {
+  "ids": [
+   301978
+  ],
+  "icon": null
+ },
+ "Atone, Or Else": {
+  "ids": [
+   680619
+  ],
+  "icon": null
+ },
+ "Bastion of Hope": {
+  "ids": [
+   704926
+  ],
+  "icon": null
+ },
+ "Bastion of Vengeance": {
+  "ids": [
+   704925
+  ],
+  "icon": null
+ },
+ "Battle Cleric": {
+  "ids": [
+   300346
+  ],
+  "icon": null
+ },
+ "Battle Priest": {
+  "ids": [
+   801180
+  ],
+  "icon": null
+ },
+ "Beatification": {
+  "ids": [
+   300333
+  ],
+  "icon": null
+ },
+ "Blade of The Sun": {
+  "ids": [
+   805632
+  ],
+  "icon": null
+ },
+ "Blaze of Glory": {
+  "ids": [
+   300370
+  ],
+  "icon": null
+ },
+ "Blazing Chariot": {
+  "ids": [
+   300350
+  ],
+  "icon": null
+ },
+ "Bless": {
+  "ids": [
+   804247
+  ],
+  "icon": null
+ },
+ "Bless Aura": {
+  "ids": [
+   520684
+  ],
+  "icon": null
+ },
+ "Blessed Armor": {
+  "ids": [
+   300334
+  ],
+  "icon": null
+ },
+ "Blessed Bulwark": {
+  "ids": [
+   680636
+  ],
+  "icon": null
+ },
+ "Blessed Hammer": {
+  "ids": [
+   706870
+  ],
+  "icon": null
+ },
+ "Blessed Magic": {
+  "ids": [
+   560111
+  ],
+  "icon": null
+ },
+ "Blessed One": {
+  "ids": [
+   680670
+  ],
+  "icon": null
+ },
+ "Blessing of Absolution": {
+  "ids": [
+   804249
+  ],
+  "icon": null
+ },
+ "Blessing of Kings": {
+  "ids": [
+   561327
+  ],
+  "icon": null
+ },
+ "Blessing of Purity": {
+  "ids": [
+   804253
+  ],
+  "icon": null
+ },
+ "Blessing of Retribution": {
+  "ids": [
+   680888
+  ],
+  "icon": null
+ },
+ "Blessing of Sanctity": {
+  "ids": [
+   801949
+  ],
+  "icon": null
+ },
+ "Blessing of Triumph": {
+  "ids": [
+   680911
+  ],
+  "icon": null
+ },
+ "Blessing of the Sun": {
+  "ids": [
+   804943
+  ],
+  "icon": null
+ },
+ "Blessings - Level 15 Passive": {
+  "ids": [
+   300330
+  ],
+  "icon": null
+ },
+ "Blessings - Level 40 Passive": {
+  "ids": [
+   572627
+  ],
+  "icon": null
+ },
+ "Blessings Sun Cleric": {
+  "ids": [
+   582258
+  ],
+  "icon": null
+ },
+ "Blightbreaker": {
+  "ids": [
+   503375
+  ],
+  "icon": null
+ },
+ "Blinded": {
+  "ids": [
+   505342
+  ],
+  "icon": null
+ },
+ "Blinding Light": {
+  "ids": [
+   504300
+  ],
+  "icon": null
+ },
+ "Brightness": {
+  "ids": [
+   704588
+  ],
+  "icon": null
+ },
+ "Bulwark": {
+  "ids": [
+   680664
+  ],
+  "icon": null
+ },
+ "Bulwark Burst": {
+  "ids": [
+   704391
+  ],
+  "icon": null
+ },
+ "Bulwark of Hope": {
+  "ids": [
+   680638
+  ],
+  "icon": null
+ },
+ "Bulwark of the Sun": {
+  "ids": [
+   704924
+  ],
+  "icon": null
+ },
+ "Burn The Heretics": {
+  "ids": [
+   560856
+  ],
+  "icon": null
+ },
+ "Burn The Heretics Delayed Remover": {
+  "ids": [
+   561104
+  ],
+  "icon": null
+ },
+ "Burning Cascade": {
+  "ids": [
+   560859
+  ],
+  "icon": null
+ },
+ "Burning Heat": {
+  "ids": [
+   704908
+  ],
+  "icon": null
+ },
+ "Burning Light": {
+  "ids": [
+   804030
+  ],
+  "icon": null
+ },
+ "Bursting Bulwark": {
+  "ids": [
+   704392
+  ],
+  "icon": null
+ },
+ "By The Light": {
+  "ids": [
+   680620
+  ],
+  "icon": null
+ },
+ "Calamity": {
+  "ids": [
+   582833
+  ],
+  "icon": null
+ },
+ "Calm": {
+  "ids": [
+   704580
+  ],
+  "icon": null
+ },
+ "Celestial Protection": {
+  "ids": [
+   805584
+  ],
+  "icon": null
+ },
+ "Chains of Light": {
+  "ids": [
+   801524
+  ],
+  "icon": null
+ },
+ "Champion of the Sun": {
+  "ids": [
+   800612
+  ],
+  "icon": null
+ },
+ "Champion's Arrival": {
+  "ids": [
+   704905
+  ],
+  "icon": null
+ },
+ "Chosen of the Light": {
+  "ids": [
+   706442
+  ],
+  "icon": null
+ },
+ "Circle of Trials": {
+  "ids": [
+   707073
+  ],
+  "icon": null
+ },
+ "Circle of Valor": {
+  "ids": [
+   520647
+  ],
+  "icon": null
+ },
+ "City of Light": {
+  "ids": [
+   301239
+  ],
+  "icon": null
+ },
+ "Clarity of the Heavens": {
+  "ids": [
+   704935
+  ],
+  "icon": null
+ },
+ "Cleanser of Sins": {
+  "ids": [
+   806120
+  ],
+  "icon": null
+ },
+ "Cloudy": {
+  "ids": [
+   520843
+  ],
+  "icon": null
+ },
+ "CoA Aura - Sun Cleric - Blessings": {
+  "ids": [
+   887072
+  ],
+  "icon": null
+ },
+ "CoA Aura - Sun Cleric - Piety": {
+  "ids": [
+   887070
+  ],
+  "icon": null
+ },
+ "CoA Aura - Sun Cleric - Seraphim": {
+  "ids": [
+   887073
+  ],
+  "icon": null
+ },
+ "CoA Aura - Sun Cleric - Valkyrie": {
+  "ids": [
+   887071
+  ],
+  "icon": null
+ },
+ "CoA Aura - Sun Cleric Class": {
+  "ids": [
+   887015
+  ],
+  "icon": null
+ },
+ "Concentrated Light": {
+  "ids": [
+   300326
+  ],
+  "icon": null
+ },
+ "Controlled Fury": {
+  "ids": [
+   704921
+  ],
+  "icon": null
+ },
+ "Courage and Valor": {
+  "ids": [
+   681464
+  ],
+  "icon": null
+ },
+ "Crown of The Chosen": {
+  "ids": [
+   704937
+  ],
+  "icon": null
+ },
+ "Cultivate Divinity": {
+  "ids": [
+   300354
+  ],
+  "icon": null
+ },
+ "Cured": {
+  "ids": [
+   804411
+  ],
+  "icon": null
+ },
+ "Damnation": {
+  "ids": [
+   806456
+  ],
+  "icon": null
+ },
+ "Dawn": {
+  "ids": [
+   804584
+  ],
+  "icon": null
+ },
+ "Dawn's Arrival": {
+  "ids": [
+   503690
+  ],
+  "icon": null
+ },
+ "Dawnbreak": {
+  "ids": [
+   800654
+  ],
+  "icon": null
+ },
+ "Dawnbringer": {
+  "ids": [
+   706646
+  ],
+  "icon": null
+ },
+ "Dawnfall": {
+  "ids": [
+   806118
+  ],
+  "icon": null
+ },
+ "Dawnguard": {
+  "ids": [
+   680672
+  ],
+  "icon": null
+ },
+ "Dawnsear": {
+  "ids": [
+   500146
+  ],
+  "icon": null
+ },
+ "Day Cycles": {
+  "ids": [
+   300361
+  ],
+  "icon": null
+ },
+ "Daybreak": {
+  "ids": [
+   500147
+  ],
+  "icon": null
+ },
+ "Daybreak 5x": {
+  "ids": [
+   800110
+  ],
+  "icon": null
+ },
+ "Dazzled": {
+  "ids": [
+   800050
+  ],
+  "icon": null
+ },
+ "Deliverance": {
+  "ids": [
+   806114
+  ],
+  "icon": null
+ },
+ "Devoted": {
+  "ids": [
+   547092
+  ],
+  "icon": null
+ },
+ "Devotee": {
+  "ids": [
+   707767
+  ],
+  "icon": null
+ },
+ "Devotion of Dawn": {
+  "ids": [
+   572384
+  ],
+  "icon": null
+ },
+ "Devotion of Emperors": {
+  "ids": [
+   572552
+  ],
+  "icon": null
+ },
+ "Devotion of Grace": {
+  "ids": [
+   800852
+  ],
+  "icon": null
+ },
+ "Devotion of Radiance": {
+  "ids": [
+   575040
+  ],
+  "icon": null
+ },
+ "Devout Blessing": {
+  "ids": [
+   300356
+  ],
+  "icon": null
+ },
+ "Disappear in Flames": {
+  "ids": [
+   301204
+  ],
+  "icon": null
+ },
+ "Disciplined Mind": {
+  "ids": [
+   525052
+  ],
+  "icon": null
+ },
+ "Divine Fire": {
+  "ids": [
+   704904
+  ],
+  "icon": null
+ },
+ "Divine Flare": {
+  "ids": [
+   802934
+  ],
+  "icon": null
+ },
+ "Divine Retribution": {
+  "ids": [
+   570147
+  ],
+  "icon": null
+ },
+ "Divine Right": {
+  "ids": [
+   680631
+  ],
+  "icon": null
+ },
+ "Divine Vision": {
+  "ids": [
+   706735
+  ],
+  "icon": null
+ },
+ "Divine Vision Effect": {
+  "ids": [
+   802947
+  ],
+  "icon": null
+ },
+ "Duality of Light": {
+  "ids": [
+   806116
+  ],
+  "icon": null
+ },
+ "EXECUTED": {
+  "ids": [
+   560115
+  ],
+  "icon": null
+ },
+ "Emancipate": {
+  "ids": [
+   502479
+  ],
+  "icon": null
+ },
+ "Empowered Holy Form": {
+  "ids": [
+   800602
+  ],
+  "icon": null
+ },
+ "Energize 10% Mana": {
+  "ids": [
+   504722
+  ],
+  "icon": null
+ },
+ "Energize 100 Rage": {
+  "ids": [
+   532752
+  ],
+  "icon": null
+ },
+ "Energize 6% Max Mana": {
+  "ids": [
+   503648
+  ],
+  "icon": null
+ },
+ "Energize All 0": {
+  "ids": [
+   803430
+  ],
+  "icon": null
+ },
+ "Enveloped in Light": {
+  "ids": [
+   680652
+  ],
+  "icon": null
+ },
+ "Everglow": {
+  "ids": [
+   704565
+  ],
+  "icon": null
+ },
+ "Faith": {
+  "ids": [
+   707077
+  ],
+  "icon": null
+ },
+ "Faith Militant": {
+  "ids": [
+   560088
+  ],
+  "icon": null
+ },
+ "Fanaticism": {
+  "ids": [
+   805628
+  ],
+  "icon": null
+ },
+ "Fervor of the Sun": {
+  "ids": [
+   680622
+  ],
+  "icon": null
+ },
+ "Fiery Faith": {
+  "ids": [
+   301264
+  ],
+  "icon": null
+ },
+ "Fiery Weapons": {
+  "ids": [
+   706869
+  ],
+  "icon": null
+ },
+ "Fire Flame": {
+  "ids": [
+   806731
+  ],
+  "icon": null
+ },
+ "Fire from the Heavens": {
+  "ids": [
+   300369
+  ],
+  "icon": null
+ },
+ "Firefall": {
+  "ids": [
+   983368
+  ],
+  "icon": null
+ },
+ "Flames of Absolution": {
+  "ids": [
+   573449
+  ],
+  "icon": null
+ },
+ "Flames of the Father": {
+  "ids": [
+   806458
+  ],
+  "icon": null
+ },
+ "Flash": {
+  "ids": [
+   500144
+  ],
+  "icon": null
+ },
+ "Fluoresence": {
+  "ids": [
+   804590
+  ],
+  "icon": null
+ },
+ "Fortuitous": {
+  "ids": [
+   561328
+  ],
+  "icon": null
+ },
+ "Gain 1 Solar Power": {
+  "ids": [
+   804098
+  ],
+  "icon": null
+ },
+ "Gain 2 Solar Power": {
+  "ids": [
+   804097
+  ],
+  "icon": null
+ },
+ "Gateway to Heaven": {
+  "ids": [
+   301301
+  ],
+  "icon": null
+ },
+ "Gavel of Grace": {
+  "ids": [
+   800614
+  ],
+  "icon": null
+ },
+ "Gavel of Light": {
+  "ids": [
+   800611
+  ],
+  "icon": null
+ },
+ "Gavel of Wrath": {
+  "ids": [
+   800617
+  ],
+  "icon": null
+ },
+ "Gift of the Sun": {
+  "ids": [
+   680618
+  ],
+  "icon": null
+ },
+ "Glare": {
+  "ids": [
+   805583
+  ],
+  "icon": null
+ },
+ "Glaring Rays": {
+  "ids": [
+   704919
+  ],
+  "icon": null
+ },
+ "Gleaming Armor": {
+  "ids": [
+   572339
+  ],
+  "icon": null
+ },
+ "Gleaming Blade": {
+  "ids": [
+   707083
+  ],
+  "icon": null
+ },
+ "Gleaming Glory": {
+  "ids": [
+   301296
+  ],
+  "icon": null
+ },
+ "Gleaming Glory Trigger": {
+  "ids": [
+   807551
+  ],
+  "icon": null
+ },
+ "Gleaming Light": {
+  "ids": [
+   704568
+  ],
+  "icon": null
+ },
+ "Gleaming Vigil": {
+  "ids": [
+   502486
+  ],
+  "icon": null
+ },
+ "Glimmer": {
+  "ids": [
+   560359
+  ],
+  "icon": null
+ },
+ "Glorious": {
+  "ids": [
+   520362
+  ],
+  "icon": null
+ },
+ "Glorious Defender": {
+  "ids": [
+   680634
+  ],
+  "icon": null
+ },
+ "Glorious Execution": {
+  "ids": [
+   800626
+  ],
+  "icon": null
+ },
+ "Glorious Execution Mana Passive": {
+  "ids": [
+   807451
+  ],
+  "icon": null
+ },
+ "Glory To The Sun": {
+  "ids": [
+   301105
+  ],
+  "icon": null
+ },
+ "Grace": {
+  "ids": [
+   504070
+  ],
+  "icon": null
+ },
+ "Greater Devotion of Dawn": {
+  "ids": [
+   572390
+  ],
+  "icon": null
+ },
+ "Greater Devotion of Emperors": {
+  "ids": [
+   572553
+  ],
+  "icon": null
+ },
+ "Greater Devotion of Grace": {
+  "ids": [
+   681160
+  ],
+  "icon": null
+ },
+ "Greater Devotion of Radiance": {
+  "ids": [
+   575045
+  ],
+  "icon": null
+ },
+ "Gripped": {
+  "ids": [
+   800067
+  ],
+  "icon": null
+ },
+ "Guarded By The Light": {
+  "ids": [
+   560855
+  ],
+  "icon": null
+ },
+ "Guarded by the Light": {
+  "ids": [
+   503766
+  ],
+  "icon": null
+ },
+ "Guidance: Intervention": {
+  "ids": [
+   503517
+  ],
+  "icon": null
+ },
+ "Guidance: Sanctify": {
+  "ids": [
+   804255
+  ],
+  "icon": null
+ },
+ "Guidance: Touch of Light": {
+  "ids": [
+   804251
+  ],
+  "icon": null
+ },
+ "Guided Hands": {
+  "ids": [
+   704589
+  ],
+  "icon": null
+ },
+ "Guiding Glow": {
+  "ids": [
+   300324
+  ],
+  "icon": null
+ },
+ "Hammer of Kings": {
+  "ids": [
+   804751
+  ],
+  "icon": null
+ },
+ "Harmonious Bells": {
+  "ids": [
+   704917
+  ],
+  "icon": null
+ },
+ "Harsh Lessons": {
+  "ids": [
+   804625
+  ],
+  "icon": null
+ },
+ "Heat Death": {
+  "ids": [
+   704932
+  ],
+  "icon": null
+ },
+ "Heat Wave": {
+  "ids": [
+   534267
+  ],
+  "icon": null
+ },
+ "Hegemony": {
+  "ids": [
+   561204
+  ],
+  "icon": null
+ },
+ "Herald of Dawn": {
+  "ids": [
+   804630
+  ],
+  "icon": null
+ },
+ "Herald of Purity": {
+  "ids": [
+   806058
+  ],
+  "icon": null
+ },
+ "Holy Blessing": {
+  "ids": [
+   520645
+  ],
+  "icon": null
+ },
+ "Holy Conquest": {
+  "ids": [
+   504248
+  ],
+  "icon": null
+ },
+ "Holy Crusade": {
+  "ids": [
+   570036
+  ],
+  "icon": null
+ },
+ "Holy Fervor": {
+  "ids": [
+   300323
+  ],
+  "icon": null
+ },
+ "Holy Flame": {
+  "ids": [
+   806117
+  ],
+  "icon": null
+ },
+ "Holy Form": {
+  "ids": [
+   46565
+  ],
+  "icon": null
+ },
+ "Holy Giant": {
+  "ids": [
+   681337
+  ],
+  "icon": null
+ },
+ "Holy Strength": {
+  "ids": [
+   561159
+  ],
+  "icon": null
+ },
+ "Hope": {
+  "ids": [
+   300349
+  ],
+  "icon": null
+ },
+ "Horusath Blast": {
+  "ids": [
+   500154
+  ],
+  "icon": null
+ },
+ "Hot Spot": {
+  "ids": [
+   301242
+  ],
+  "icon": null
+ },
+ "Illuminate Effect": {
+  "ids": [
+   802940
+  ],
+  "icon": null
+ },
+ "Illuminate Me": {
+  "ids": [
+   680628
+  ],
+  "icon": null
+ },
+ "Illumination": {
+  "ids": [
+   500143
+  ],
+  "icon": null
+ },
+ "Impartial": {
+  "ids": [
+   704942
+  ],
+  "icon": null
+ },
+ "Improved Radiant Cascade": {
+  "ids": [
+   807963
+  ],
+  "icon": null
+ },
+ "Injunction": {
+  "ids": [
+   800624
+  ],
+  "icon": null
+ },
+ "Inquisition": {
+  "ids": [
+   706871
+  ],
+  "icon": null
+ },
+ "It's Alway Sunny": {
+  "ids": [
+   712380
+  ],
+  "icon": null
+ },
+ "It's Always Sunny": {
+  "ids": [
+   707414
+  ],
+  "icon": null
+ },
+ "It's Always Sunny In Azeroth": {
+  "ids": [
+   543251
+  ],
+  "icon": null
+ },
+ "Judgement": {
+  "ids": [
+   680645
+  ],
+  "icon": null
+ },
+ "Judgement Day": {
+  "ids": [
+   570125
+  ],
+  "icon": null
+ },
+ "Judgement Day (Dispel)": {
+  "ids": [
+   520649
+  ],
+  "icon": null
+ },
+ "Judgement of the Valkyrie": {
+  "ids": [
+   300315
+  ],
+  "icon": null
+ },
+ "Justicar's Wrath": {
+  "ids": [
+   806980
+  ],
+  "icon": null
+ },
+ "Justice": {
+  "ids": [
+   520359
+  ],
+  "icon": null
+ },
+ "Justice For All": {
+  "ids": [
+   681481
+  ],
+  "icon": null
+ },
+ "Knight of Dawn": {
+  "ids": [
+   805647
+  ],
+  "icon": null
+ },
+ "Krelin's Flourish": {
+  "ids": [
+   802778
+  ],
+  "icon": null
+ },
+ "Last Call": {
+  "ids": [
+   681448
+  ],
+  "icon": null
+ },
+ "Last Wish": {
+  "ids": [
+   704940
+  ],
+  "icon": null
+ },
+ "Lead Me Not Astray": {
+  "ids": [
+   300357
+  ],
+  "icon": null
+ },
+ "Leap of the Valkyrie": {
+  "ids": [
+   300320
+  ],
+  "icon": null
+ },
+ "Learning Light": {
+  "ids": [
+   300360
+  ],
+  "icon": null
+ },
+ "Let It Shine": {
+  "ids": [
+   503839
+  ],
+  "icon": null
+ },
+ "Let Them Come": {
+  "ids": [
+   802937
+  ],
+  "icon": null
+ },
+ "Let Them Come!": {
+  "ids": [
+   802936
+  ],
+  "icon": null
+ },
+ "Light Strider": {
+  "ids": [
+   680640
+  ],
+  "icon": null
+ },
+ "Light The Way": {
+  "ids": [
+   300336
+  ],
+  "icon": null
+ },
+ "Light of the Sun": {
+  "ids": [
+   704941
+  ],
+  "icon": null
+ },
+ "Light's Advance": {
+  "ids": [
+   805598
+  ],
+  "icon": null
+ },
+ "Light's Blessing": {
+  "ids": [
+   300318
+  ],
+  "icon": null
+ },
+ "Light's Protection": {
+  "ids": [
+   800579
+  ],
+  "icon": null
+ },
+ "Lightkeeper": {
+  "ids": [
+   704584
+  ],
+  "icon": null
+ },
+ "Lights of Absolution": {
+  "ids": [
+   807343
+  ],
+  "icon": null
+ },
+ "Lightward": {
+  "ids": [
+   582822
+  ],
+  "icon": null
+ },
+ "Lord Commander": {
+  "ids": [
+   704923
+  ],
+  "icon": null
+ },
+ "Luminary Mendicant": {
+  "ids": [
+   547214
+  ],
+  "icon": null
+ },
+ "Luminated": {
+  "ids": [
+   547217
+  ],
+  "icon": null
+ },
+ "Luminescent Lances": {
+  "ids": [
+   300358
+  ],
+  "icon": null
+ },
+ "Luminous Light": {
+  "ids": [
+   704900
+  ],
+  "icon": null
+ },
+ "March of the Valkyr": {
+  "ids": [
+   560534
+  ],
+  "icon": null
+ },
+ "Mercy": {
+  "ids": [
+   503650
+  ],
+  "icon": null
+ },
+ "Miraculous": {
+  "ids": [
+   707776
+  ],
+  "icon": null
+ },
+ "Moment of Triumph": {
+  "ids": [
+   300367
+  ],
+  "icon": null
+ },
+ "Neglected": {
+  "ids": [
+   805817
+  ],
+  "icon": null
+ },
+ "New Dawn": {
+  "ids": [
+   806078
+  ],
+  "icon": null
+ },
+ "New Day": {
+  "ids": [
+   800600
+  ],
+  "icon": null
+ },
+ "No Shade": {
+  "ids": [
+   704902
+  ],
+  "icon": null
+ },
+ "Odyn's Vanguard": {
+  "ids": [
+   806699
+  ],
+  "icon": null
+ },
+ "Offense Is Defense": {
+  "ids": [
+   707076
+  ],
+  "icon": null
+ },
+ "On A Cloudy Day": {
+  "ids": [
+   560121
+  ],
+  "icon": null
+ },
+ "Paragon": {
+  "ids": [
+   680639
+  ],
+  "icon": null
+ },
+ "Path To Glory": {
+  "ids": [
+   300319
+  ],
+  "icon": null
+ },
+ "Paying The Tithe": {
+  "ids": [
+   680647
+  ],
+  "icon": null
+ },
+ "Paying the Tithe": {
+  "ids": [
+   680649
+  ],
+  "icon": null
+ },
+ "Pendant of the Sun": {
+  "ids": [
+   680630
+  ],
+  "icon": null
+ },
+ "Photosynthetic": {
+  "ids": [
+   300363
+  ],
+  "icon": null
+ },
+ "Piety - Level 15 Passive": {
+  "ids": [
+   706727
+  ],
+  "icon": null
+ },
+ "Piety Sun Cleric Passive Hidden2": {
+  "ids": [
+   300362
+  ],
+  "icon": null
+ },
+ "Pious": {
+  "ids": [
+   300943
+  ],
+  "icon": null
+ },
+ "Pious Flames": {
+  "ids": [
+   520644
+  ],
+  "icon": null
+ },
+ "Pious Prayers": {
+  "ids": [
+   707356
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   561097
+  ],
+  "icon": null
+ },
+ "Placeholder2": {
+  "ids": [
+   707516
+  ],
+  "icon": null
+ },
+ "Power of the Val'kyr": {
+  "ids": [
+   520646
+  ],
+  "icon": null
+ },
+ "Praise the Sun!": {
+  "ids": [
+   806955
+  ],
+  "icon": null
+ },
+ "Pressure Release": {
+  "ids": [
+   520496
+  ],
+  "icon": null
+ },
+ "Protector of the Flame": {
+  "ids": [
+   560492
+  ],
+  "icon": null
+ },
+ "Pure Heart": {
+  "ids": [
+   582832
+  ],
+  "icon": null
+ },
+ "Purgation": {
+  "ids": [
+   806024
+  ],
+  "icon": null
+ },
+ "Purging Flames": {
+  "ids": [
+   800616
+  ],
+  "icon": null
+ },
+ "Radiance": {
+  "ids": [
+   800038
+  ],
+  "icon": null
+ },
+ "Radiant Cascade": {
+  "ids": [
+   500141
+  ],
+  "icon": null
+ },
+ "Radiant Conversion": {
+  "ids": [
+   807453
+  ],
+  "icon": null
+ },
+ "Radiant Flame": {
+  "ids": [
+   806060
+  ],
+  "icon": null
+ },
+ "Radiant Flame (Sunset)": {
+  "ids": [
+   804627
+  ],
+  "icon": null
+ },
+ "Radiant Fury": {
+  "ids": [
+   300325
+  ],
+  "icon": null
+ },
+ "Radiant Halberd": {
+  "ids": [
+   681252
+  ],
+  "icon": null
+ },
+ "Radiant Marks": {
+  "ids": [
+   704947
+  ],
+  "icon": null
+ },
+ "Radiant Power": {
+  "ids": [
+   707613
+  ],
+  "icon": null
+ },
+ "Radiant Surge": {
+  "ids": [
+   704339
+  ],
+  "icon": null
+ },
+ "Rapid Execution": {
+  "ids": [
+   560223
+  ],
+  "icon": null
+ },
+ "Rapture": {
+  "ids": [
+   806477
+  ],
+  "icon": null
+ },
+ "Raptured": {
+  "ids": [
+   806478
+  ],
+  "icon": null
+ },
+ "Ray of Illumination": {
+  "ids": [
+   680864
+  ],
+  "icon": null
+ },
+ "Reborn in Flames": {
+  "ids": [
+   806119
+  ],
+  "icon": null
+ },
+ "Rebuke": {
+  "ids": [
+   525051
+  ],
+  "icon": null
+ },
+ "Redeemer": {
+  "ids": [
+   300340
+  ],
+  "icon": null
+ },
+ "Reg's Wings": {
+  "ids": [
+   278595
+  ],
+  "icon": null
+ },
+ "Rejuvenating": {
+  "ids": [
+   807239
+  ],
+  "icon": null
+ },
+ "Rejuvenating Rays": {
+  "ids": [
+   807238
+  ],
+  "icon": null
+ },
+ "Retribution": {
+  "ids": [
+   300342
+  ],
+  "icon": null
+ },
+ "Revelation": {
+  "ids": [
+   570029
+  ],
+  "icon": null
+ },
+ "Reverberating Impact": {
+  "ids": [
+   704933
+  ],
+  "icon": null
+ },
+ "Revivify": {
+  "ids": [
+   801790
+  ],
+  "icon": null
+ },
+ "Sacred Vessel": {
+  "ids": [
+   680648
+  ],
+  "icon": null
+ },
+ "Sanctified": {
+  "ids": [
+   300344
+  ],
+  "icon": null
+ },
+ "Sanctified Hammer": {
+  "ids": [
+   301292
+  ],
+  "icon": null
+ },
+ "Sanctify": {
+  "ids": [
+   524968
+  ],
+  "icon": null
+ },
+ "Savior": {
+  "ids": [
+   300343
+  ],
+  "icon": null
+ },
+ "Scalding Light": {
+  "ids": [
+   804624
+  ],
+  "icon": null
+ },
+ "Scorch Marks": {
+  "ids": [
+   806021
+  ],
+  "icon": null
+ },
+ "Scorch Marks Delayed Remover": {
+  "ids": [
+   807104
+  ],
+  "icon": null
+ },
+ "Scorch Marks Remover": {
+  "ids": [
+   807218
+  ],
+  "icon": null
+ },
+ "Scroll of Hope": {
+  "ids": [
+   680646
+  ],
+  "icon": null
+ },
+ "Seeker of Sinners": {
+  "ids": [
+   704567
+  ],
+  "icon": null
+ },
+ "Seraph": {
+  "ids": [
+   582260
+  ],
+  "icon": null
+ },
+ "Seraph's Hammer": {
+  "ids": [
+   800625
+  ],
+  "icon": null
+ },
+ "Seraphic Bulwark": {
+  "ids": [
+   560095
+  ],
+  "icon": null
+ },
+ "Seraphic Justice": {
+  "ids": [
+   680651
+  ],
+  "icon": null
+ },
+ "Seraphim - Level 15 Passive": {
+  "ids": [
+   561232
+  ],
+  "icon": null
+ },
+ "Seraphim - Level 20 Passive": {
+  "ids": [
+   561334
+  ],
+  "icon": null
+ },
+ "Seraphim's Guidance": {
+  "ids": [
+   300964
+  ],
+  "icon": null
+ },
+ "Seraphim's Light": {
+  "ids": [
+   520641
+  ],
+  "icon": null
+ },
+ "Seraphim's Light CD reduc": {
+  "ids": [
+   524858
+  ],
+  "icon": null
+ },
+ "Seraphim's Shackles": {
+  "ids": [
+   681240
+  ],
+  "icon": null
+ },
+ "Servant of the Light": {
+  "ids": [
+   560504
+  ],
+  "icon": null
+ },
+ "Shattering Slam": {
+  "ids": [
+   704399
+  ],
+  "icon": null
+ },
+ "Shine": {
+  "ids": [
+   800357
+  ],
+  "icon": null
+ },
+ "Shine Bright": {
+  "ids": [
+   504250
+  ],
+  "icon": null
+ },
+ "Shining Ray": {
+  "ids": [
+   502460
+  ],
+  "icon": null
+ },
+ "Shining Rays": {
+  "ids": [
+   302527
+  ],
+  "icon": null
+ },
+ "Shining Shield": {
+  "ids": [
+   704586
+  ],
+  "icon": null
+ },
+ "Sins of the Father": {
+  "ids": [
+   573421
+  ],
+  "icon": null
+ },
+ "Sintorcher": {
+  "ids": [
+   300332
+  ],
+  "icon": null
+ },
+ "Sol Invictus": {
+  "ids": [
+   807732
+  ],
+  "icon": null
+ },
+ "Solar Adept": {
+  "ids": [
+   802938
+  ],
+  "icon": null
+ },
+ "Solar Avenger": {
+  "ids": [
+   806197
+  ],
+  "icon": null
+ },
+ "Solar Burn": {
+  "ids": [
+   500148
+  ],
+  "icon": null
+ },
+ "Solar Champion": {
+  "ids": [
+   504734
+  ],
+  "icon": null
+ },
+ "Solar Concord": {
+  "ids": [
+   301266
+  ],
+  "icon": null
+ },
+ "Solar Conduit": {
+  "ids": [
+   300321
+  ],
+  "icon": null
+ },
+ "Solar Crash": {
+  "ids": [
+   503768
+  ],
+  "icon": null
+ },
+ "Solar Crusade": {
+  "ids": [
+   560696
+  ],
+  "icon": null
+ },
+ "Solar Crusader": {
+  "ids": [
+   300317
+  ],
+  "icon": null
+ },
+ "Solar Discernment": {
+  "ids": [
+   807654
+  ],
+  "icon": null
+ },
+ "Solar Eclipse": {
+  "ids": [
+   704929
+  ],
+  "icon": null
+ },
+ "Solar Embrace": {
+  "ids": [
+   500151
+  ],
+  "icon": null
+ },
+ "Solar Embrace Effect": {
+  "ids": [
+   802941
+  ],
+  "icon": null
+ },
+ "Solar Empowerment": {
+  "ids": [
+   657125
+  ],
+  "icon": null
+ },
+ "Solar Flare": {
+  "ids": [
+   807175
+  ],
+  "icon": null
+ },
+ "Solar Flurry": {
+  "ids": [
+   300316
+  ],
+  "icon": null
+ },
+ "Solar Grace": {
+  "ids": [
+   800647
+  ],
+  "icon": null
+ },
+ "Solar Incandescence": {
+  "ids": [
+   704913
+  ],
+  "icon": null
+ },
+ "Solar Invigoration": {
+  "ids": [
+   562311
+  ],
+  "icon": null
+ },
+ "Solar Invocation: Ascension": {
+  "ids": [
+   500152
+  ],
+  "icon": null
+ },
+ "Solar Invocation: Conquest": {
+  "ids": [
+   800764
+  ],
+  "icon": null
+ },
+ "Solar Invocation: Resplendence": {
+  "ids": [
+   806159
+  ],
+  "icon": null
+ },
+ "Solar Invocation: Revelation": {
+  "ids": [
+   503651
+  ],
+  "icon": null
+ },
+ "Solar Knight": {
+  "ids": [
+   800425
+  ],
+  "icon": null
+ },
+ "Solar Lance": {
+  "ids": [
+   706868
+  ],
+  "icon": null
+ },
+ "Solar Lord": {
+  "ids": [
+   802939
+  ],
+  "icon": null
+ },
+ "Solar Might": {
+  "ids": [
+   704916
+  ],
+  "icon": null
+ },
+ "Solar Nova": {
+  "ids": [
+   680621
+  ],
+  "icon": null
+ },
+ "Solar Nova Crit": {
+  "ids": [
+   280943
+  ],
+  "icon": null
+ },
+ "Solar Power": {
+  "ids": [
+   500149
+  ],
+  "icon": null
+ },
+ "Solar Prayer": {
+  "ids": [
+   806479
+  ],
+  "icon": null
+ },
+ "Solar Priest": {
+  "ids": [
+   300347
+  ],
+  "icon": null
+ },
+ "Solar Scripture": {
+  "ids": [
+   560348
+  ],
+  "icon": null
+ },
+ "Solar Shower": {
+  "ids": [
+   536251
+  ],
+  "icon": null
+ },
+ "Solar Strength": {
+  "ids": [
+   704587
+  ],
+  "icon": null
+ },
+ "Solar Strike": {
+  "ids": [
+   800112
+  ],
+  "icon": null
+ },
+ "Solar Templar": {
+  "ids": [
+   560119
+  ],
+  "icon": null
+ },
+ "Solar Wrath": {
+  "ids": [
+   502372
+  ],
+  "icon": null
+ },
+ "Solstice": {
+  "ids": [
+   704949
+  ],
+  "icon": null
+ },
+ "Soul of Light": {
+  "ids": [
+   807964
+  ],
+  "icon": null
+ },
+ "Spears of Glory": {
+  "ids": [
+   804629
+  ],
+  "icon": null
+ },
+ "Spears of Light": {
+  "ids": [
+   502398
+  ],
+  "icon": null
+ },
+ "Stalwart": {
+  "ids": [
+   300355
+  ],
+  "icon": null
+ },
+ "Stand Against Darkness": {
+  "ids": [
+   707078
+  ],
+  "icon": null
+ },
+ "Stay of Execution": {
+  "ids": [
+   800412
+  ],
+  "icon": null
+ },
+ "Stay of Execution Delayer": {
+  "ids": [
+   800410
+  ],
+  "icon": null
+ },
+ "Stop By The Light!": {
+  "ids": [
+   681083
+  ],
+  "icon": null
+ },
+ "Struck by the Sun": {
+  "ids": [
+   300372
+  ],
+  "icon": null
+ },
+ "Sun Champion": {
+  "ids": [
+   804134
+  ],
+  "icon": null
+ },
+ "Sun Cleric - Illumination Solar Power Generation": {
+  "ids": [
+   704390
+  ],
+  "icon": null
+ },
+ "Sun Cleric - Shine Solar Power Generation": {
+  "ids": [
+   704393
+  ],
+  "icon": null
+ },
+ "Sun Disc": {
+  "ids": [
+   560547
+  ],
+  "icon": null
+ },
+ "Sun Down": {
+  "ids": [
+   572752
+  ],
+  "icon": null
+ },
+ "Sun Down Hidden Passive": {
+  "ids": [
+   536212
+  ],
+  "icon": null
+ },
+ "Sun Gate": {
+  "ids": [
+   802145
+  ],
+  "icon": null
+ },
+ "Sun Power": {
+  "ids": [
+   807077
+  ],
+  "icon": null
+ },
+ "Sun Ray": {
+  "ids": [
+   500145
+  ],
+  "icon": null
+ },
+ "Sun Ray (Dawn)": {
+  "ids": [
+   802943
+  ],
+  "icon": null
+ },
+ "Sun Run": {
+  "ids": [
+   560272
+  ],
+  "icon": null
+ },
+ "Sun Screen": {
+  "ids": [
+   704918
+  ],
+  "icon": null
+ },
+ "Sun Sermon": {
+  "ids": [
+   570031
+  ],
+  "icon": null
+ },
+ "Sun Strength": {
+  "ids": [
+   707517
+  ],
+  "icon": null
+ },
+ "Sun Stride": {
+  "ids": [
+   680700
+  ],
+  "icon": null
+ },
+ "Sun Strider": {
+  "ids": [
+   524859
+  ],
+  "icon": null
+ },
+ "Sun Warrior's Guidance": {
+  "ids": [
+   800039
+  ],
+  "icon": null
+ },
+ "Sun Warrior's Protection": {
+  "ids": [
+   680632
+  ],
+  "icon": null
+ },
+ "Sun Well": {
+  "ids": [
+   560124
+  ],
+  "icon": null
+ },
+ "Sun's Gift": {
+  "ids": [
+   680656
+  ],
+  "icon": null
+ },
+ "Sun's Hope": {
+  "ids": [
+   560276
+  ],
+  "icon": null
+ },
+ "Sun-Touched Armor": {
+  "ids": [
+   561023
+  ],
+  "icon": null
+ },
+ "Sunbeams": {
+  "ids": [
+   807874
+  ],
+  "icon": null
+ },
+ "Sunburn": {
+  "ids": [
+   300365
+  ],
+  "icon": null
+ },
+ "Sunburnt": {
+  "ids": [
+   300366
+  ],
+  "icon": null
+ },
+ "Suncharge": {
+  "ids": [
+   807064
+  ],
+  "icon": null
+ },
+ "Sunder": {
+  "ids": [
+   301314
+  ],
+  "icon": null
+ },
+ "Sunflare": {
+  "ids": [
+   800231
+  ],
+  "icon": null
+ },
+ "Sunflare Aegis": {
+  "ids": [
+   707629
+  ],
+  "icon": null
+ },
+ "Sunflare Rage Gen": {
+  "ids": [
+   500545
+  ],
+  "icon": null
+ },
+ "Sunfury": {
+  "ids": [
+   806475
+  ],
+  "icon": null
+ },
+ "Sungate": {
+  "ids": [
+   803497
+  ],
+  "icon": null
+ },
+ "Sunlight": {
+  "ids": [
+   92136
+  ],
+  "icon": null
+ },
+ "Sunlight Refraction": {
+  "ids": [
+   806122
+  ],
+  "icon": null
+ },
+ "Sunrise": {
+  "ids": [
+   500477
+  ],
+  "icon": null
+ },
+ "Sunrise and Sunset": {
+  "ids": [
+   92135
+  ],
+  "icon": null
+ },
+ "Sunrise or Sunset": {
+  "ids": [
+   500643
+  ],
+  "icon": null
+ },
+ "Sunset": {
+  "ids": [
+   500511
+  ],
+  "icon": null
+ },
+ "Sunshine": {
+  "ids": [
+   500142
+  ],
+  "icon": null
+ },
+ "Sunshine Trigger": {
+  "ids": [
+   807448
+  ],
+  "icon": null
+ },
+ "Sunshine Trigger2": {
+  "ids": [
+   807550
+  ],
+  "icon": null
+ },
+ "Sunslam": {
+  "ids": [
+   805629
+  ],
+  "icon": null
+ },
+ "Sunstorm": {
+  "ids": [
+   760379
+  ],
+  "icon": null
+ },
+ "Sunstroke": {
+  "ids": [
+   802148
+  ],
+  "icon": null
+ },
+ "Sunsworn": {
+  "ids": [
+   800069
+  ],
+  "icon": null
+ },
+ "Sunwalker": {
+  "ids": [
+   704934
+  ],
+  "icon": null
+ },
+ "Sunwalker's Grace": {
+  "ids": [
+   704395
+  ],
+  "icon": null
+ },
+ "Sunwell": {
+  "ids": [
+   560123
+  ],
+  "icon": null
+ },
+ "Sustained By the Light": {
+  "ids": [
+   707181
+  ],
+  "icon": null
+ },
+ "Swift Justice": {
+  "ids": [
+   300322
+  ],
+  "icon": null
+ },
+ "Test": {
+  "ids": [
+   560895
+  ],
+  "icon": null
+ },
+ "The Chosen": {
+  "ids": [
+   704936
+  ],
+  "icon": null
+ },
+ "The Chosen King": {
+  "ids": [
+   707079
+  ],
+  "icon": null
+ },
+ "The Coming Dawn": {
+  "ids": [
+   560860
+  ],
+  "icon": null
+ },
+ "The Redeemer": {
+  "ids": [
+   300339
+  ],
+  "icon": null
+ },
+ "Together In Conquest": {
+  "ids": [
+   681253
+  ],
+  "icon": null
+ },
+ "Touch of Light": {
+  "ids": [
+   572885
+  ],
+  "icon": null
+ },
+ "Transgression": {
+  "ids": [
+   503368
+  ],
+  "icon": null
+ },
+ "Trial of Valor": {
+  "ids": [
+   805581
+  ],
+  "icon": null
+ },
+ "True Justicar": {
+  "ids": [
+   681236
+  ],
+  "icon": null
+ },
+ "Twin Flames": {
+  "ids": [
+   807061
+  ],
+  "icon": null
+ },
+ "Val'kyr Ressurrection": {
+  "ids": [
+   804608
+  ],
+  "icon": null
+ },
+ "Valiance": {
+  "ids": [
+   570068
+  ],
+  "icon": null
+ },
+ "Valkyr's Calling": {
+  "ids": [
+   520024
+  ],
+  "icon": null
+ },
+ "Valkyr's Calling Remover": {
+  "ids": [
+   520028
+  ],
+  "icon": null
+ },
+ "Valkyr's Grip": {
+  "ids": [
+   807507
+  ],
+  "icon": null
+ },
+ "Valkyrie": {
+  "ids": [
+   800765
+  ],
+  "icon": null
+ },
+ "Valkyrie - Level 15 Passive": {
+  "ids": [
+   681084
+  ],
+  "icon": null
+ },
+ "Valkyrie Spear": {
+  "ids": [
+   800455
+  ],
+  "icon": null
+ },
+ "Valkyron Faith Passive": {
+  "ids": [
+   804406
+  ],
+  "icon": null
+ },
+ "Valorous Champion": {
+  "ids": [
+   804339
+  ],
+  "icon": null
+ },
+ "Vigil of the Sands": {
+  "ids": [
+   802945
+  ],
+  "icon": null
+ },
+ "Vindication": {
+  "ids": [
+   802946
+  ],
+  "icon": null
+ },
+ "Vindicator": {
+  "ids": [
+   704938
+  ],
+  "icon": null
+ },
+ "Vital Fury": {
+  "ids": [
+   503649
+  ],
+  "icon": null
+ },
+ "Vitality": {
+  "ids": [
+   570035
+  ],
+  "icon": null
+ },
+ "Vow Fulfilled": {
+  "ids": [
+   807441
+  ],
+  "icon": null
+ },
+ "Vow of Benediction": {
+  "ids": [
+   803494
+  ],
+  "icon": null
+ },
+ "Vow of Dawn": {
+  "ids": [
+   803491
+  ],
+  "icon": null
+ },
+ "Vow of Grace": {
+  "ids": [
+   504775
+  ],
+  "icon": null
+ },
+ "Vow of Light": {
+  "ids": [
+   505197
+  ],
+  "icon": null
+ },
+ "Vow of Radiance": {
+  "ids": [
+   803489
+  ],
+  "icon": null
+ },
+ "Vow of the Eclipse": {
+  "ids": [
+   505340
+  ],
+  "icon": null
+ },
+ "Vow of the Valkyr": {
+  "ids": [
+   506821
+  ],
+  "icon": null
+ },
+ "Vow of the Valkyr (Mainhand)": {
+  "ids": [
+   506824
+  ],
+  "icon": null
+ },
+ "Vow of the Valkyr (Offhand)": {
+  "ids": [
+   506823
+  ],
+  "icon": null
+ },
+ "Wake": {
+  "ids": [
+   706261
+  ],
+  "icon": null
+ },
+ "Warmup": {
+  "ids": [
+   300338
+  ],
+  "icon": null
+ },
+ "Warrior's Light": {
+  "ids": [
+   800610
+  ],
+  "icon": null
+ },
+ "Wrath of God": {
+  "ids": [
+   301267
+  ],
+  "icon": null
+ },
+ "Wrathful Sun": {
+  "ids": [
+   560854
+  ],
+  "icon": null
+ },
+ "Wuju Curse": {
+  "ids": [
+   803727
+  ],
+  "icon": null
+ },
+ "Wuju Tiki Shield": {
+  "ids": [
+   807655
+  ],
+  "icon": null
+ },
+ "Zealous": {
+  "ids": [
+   560113
+  ],
+  "icon": null
+ },
+ "Zealous Conquest": {
+  "ids": [
+   560077
+  ],
+  "icon": null
+ },
+ "Zealous Doctrine": {
+  "ids": [
+   680633
+  ],
+  "icon": null
+ },
+ "Zealous Executions": {
+  "ids": [
+   560114
+  ],
+  "icon": null
+ },
+ "Zealous Strike": {
+  "ids": [
+   805640
+  ],
+  "icon": null
+ },
+ "beeg spellpen": {
+  "ids": [
+   823764
+  ],
+  "icon": null
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "Angel's Calling": {
+  "id": 805641,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": false
+ },
+ "Battle Priest": {
+  "id": 801180,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Bless": {
+  "id": 804247,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Blessing of Absolution": {
+  "id": 804249,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "blessings"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Blessing of Purity": {
+  "id": 804253,
+  "cd": "5 min cooldown",
+  "specs": [
+   "blessings"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Blightbreaker": {
+  "id": 503375,
+  "cd": "4 sec cooldown",
+  "specs": [
+   "blessings"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Celestial Protection": {
+  "id": 805584,
+  "cd": "1 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": false
+ },
+ "Champion of the Sun": {
+  "id": 800612,
+  "cd": "2 min cooldown",
+  "specs": [
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Circle of Valor": {
+  "id": 520647,
+  "cd": "3 min cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Dawnbringer": {
+  "id": 706646,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Dawnfall": {
+  "id": 806118,
+  "cd": "2 min cooldown",
+  "specs": [
+   "piety"
+  ],
+  "gcd": false
+ },
+ "Daybreak": {
+  "id": 500147,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "blessings",
+   "seraphim"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Flash": {
+  "id": 500144,
+  "cd": "5 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": "0.5 sec"
+ },
+ "Gleaming Vigil": {
+  "id": 502486,
+  "cd": "15 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Glorious Execution": {
+  "id": 800626,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "blessings",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Guidance: Intervention": {
+  "id": 503517,
+  "cd": "1 min cooldown",
+  "specs": [
+   "blessings"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Guidance: Touch of Light": {
+  "id": 804251,
+  "cd": "12 sec cooldown",
+  "specs": [
+   "blessings"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Hammer of Kings": {
+  "id": 804751,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": false
+ },
+ "Horusath Blast": {
+  "id": 500154,
+  "cd": "25 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Injunction": {
+  "id": 800624,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": false
+ },
+ "New Day": {
+  "id": 800600,
+  "cd": "8 min cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Paragon": {
+  "id": 680639,
+  "cd": "5 min cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Pendant of the Sun": {
+  "id": 680630,
+  "cd": "1 min cooldown",
+  "specs": [
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Rapture": {
+  "id": 806477,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "piety",
+   "seraphim"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Rejuvenating Rays": {
+  "id": 807238,
+  "cd": "1 min cooldown",
+  "specs": [
+   "blessings",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Scroll of Hope": {
+  "id": 680646,
+  "cd": "5 min cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": false
+ },
+ "Solar Concord": {
+  "id": 301266,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "piety"
+  ],
+  "gcd": false
+ },
+ "Solar Embrace": {
+  "id": 500151,
+  "cd": "24 sec cooldown",
+  "specs": [
+   "blessings"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Solar Invocation: Conquest": {
+  "id": 800764,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Solar Invocation: Resplendence": {
+  "id": 806159,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Solar Invocation: Revelation": {
+  "id": 503651,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Solar Nova": {
+  "id": 680621,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "seraphim"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Solar Prayer": {
+  "id": 806479,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Sun Down": {
+  "id": 572752,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "piety"
+  ],
+  "gcd": false
+ },
+ "Sun Ray": {
+  "id": 500145,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "piety"
+  ],
+  "gcd": "1.0 sec"
+ },
+ "Sun Stride": {
+  "id": 680700,
+  "cd": "24 sec cooldown",
+  "specs": [
+   "blessings",
+   "piety",
+   "seraphim",
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Sunwell": {
+  "id": 560123,
+  "cd": "3 min cooldown",
+  "specs": [
+   "piety"
+  ],
+  "gcd": false
+ },
+ "Transgression": {
+  "id": 503368,
+  "cd": "2 min cooldown",
+  "specs": [
+   "piety"
+  ],
+  "gcd": false
+ },
+ "Valkyr's Calling": {
+  "id": 520024,
+  "cd": "3 min cooldown",
+  "specs": [
+   "valkyrie"
+  ],
+  "gcd": false
+ },
+ "Valorous Champion": {
+  "id": 804339,
+  "cd": "0.001 sec cooldown",
+  "specs": [
+   "valkyrie"
+  ],
+  "gcd": false
+ }
+}

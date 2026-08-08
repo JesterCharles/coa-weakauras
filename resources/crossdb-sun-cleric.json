@@ -1,0 +1,930 @@
+{
+ "_class": "sun-cleric",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Adjudicator": {
+   "id": 704903,
+   "state": "record"
+  },
+  "An'she's Blessing": {
+   "id": 520778,
+   "state": "record"
+  },
+  "Ancient Etchings": {
+   "id": 806022,
+   "state": "record"
+  },
+  "Ancient Rites": {
+   "id": 300351,
+   "state": "record"
+  },
+  "Angel's Calling": {
+   "id": 805641,
+   "state": "record"
+  },
+  "Angelic": {
+   "id": 704582,
+   "state": "record"
+  },
+  "Angelic Light": {
+   "id": 560094,
+   "state": "record"
+  },
+  "Angelic Presence": {
+   "id": 92137,
+   "state": "record"
+  },
+  "Angelic Touch": {
+   "id": 704944,
+   "state": "record"
+  },
+  "Ascended Barrage": {
+   "id": 301978,
+   "state": "record"
+  },
+  "Bastion of Hope": {
+   "id": 704926,
+   "state": "record"
+  },
+  "Bastion of Vengeance": {
+   "id": 704925,
+   "state": "record"
+  },
+  "Battle Cleric": {
+   "id": 300346,
+   "state": "record"
+  },
+  "Battle Priest": {
+   "id": 801180,
+   "state": "record"
+  },
+  "Beatification": {
+   "id": 300333,
+   "state": "record"
+  },
+  "Blade of The Sun": {
+   "id": 805632,
+   "state": "record"
+  },
+  "Blazing Chariot": {
+   "id": 300350,
+   "state": "record"
+  },
+  "Bless": {
+   "id": 804247,
+   "state": "record"
+  },
+  "Blessed Armor": {
+   "id": 300334,
+   "state": "record"
+  },
+  "Blessed Hammer": {
+   "id": 706870,
+   "state": "record"
+  },
+  "Blessed One": {
+   "id": 680670,
+   "state": "record"
+  },
+  "Blessing of Absolution": {
+   "id": 804249,
+   "state": "record"
+  },
+  "Blessing of Purity": {
+   "id": 804253,
+   "state": "record"
+  },
+  "Blessing of Retribution": {
+   "id": 680888,
+   "state": "record"
+  },
+  "Blessing of Triumph": {
+   "id": 680911,
+   "state": "record"
+  },
+  "Blessings - Level 15 Passive": {
+   "id": 300330,
+   "state": "record"
+  },
+  "Blightbreaker": {
+   "id": 503375,
+   "state": "record"
+  },
+  "Blinding Light": {
+   "id": 504300,
+   "state": "record"
+  },
+  "Bulwark of the Sun": {
+   "id": 704924,
+   "state": "record"
+  },
+  "Burning Heat": {
+   "id": 704908,
+   "state": "record"
+  },
+  "Burning Light": {
+   "id": 804030,
+   "state": "record"
+  },
+  "Bursting Bulwark": {
+   "id": 704392,
+   "state": "record"
+  },
+  "Calm": {
+   "id": 704580,
+   "state": "record"
+  },
+  "Celestial Protection": {
+   "id": 805584,
+   "state": "record"
+  },
+  "Chains of Light": {
+   "id": 801524,
+   "state": "record"
+  },
+  "Champion of the Sun": {
+   "id": 800612,
+   "state": "record"
+  },
+  "Champion's Arrival": {
+   "id": 704905,
+   "state": "record"
+  },
+  "Chosen of the Light": {
+   "id": 706442,
+   "state": "record"
+  },
+  "Circle of Valor": {
+   "id": 520647,
+   "state": "record"
+  },
+  "Clarity of the Heavens": {
+   "id": 704935,
+   "state": "record"
+  },
+  "Cleanser of Sins": {
+   "id": 806120,
+   "state": "record"
+  },
+  "Concentrated Light": {
+   "id": 300326,
+   "state": "record"
+  },
+  "Controlled Fury": {
+   "id": 704921,
+   "state": "record"
+  },
+  "Cultivate Divinity": {
+   "id": 300354,
+   "state": "record"
+  },
+  "Dawn": {
+   "id": 804584,
+   "state": "record"
+  },
+  "Dawnbreak": {
+   "id": 800654,
+   "state": "record"
+  },
+  "Dawnbringer": {
+   "id": 706646,
+   "state": "record"
+  },
+  "Dawnfall": {
+   "id": 806118,
+   "state": "record"
+  },
+  "Dawnsear": {
+   "id": 500146,
+   "state": "record"
+  },
+  "Day Cycles": {
+   "id": 300361,
+   "state": "record"
+  },
+  "Daybreak": {
+   "id": 500147,
+   "state": "record"
+  },
+  "Deliverance": {
+   "id": 806114,
+   "state": "record"
+  },
+  "Devoted": {
+   "id": 547092,
+   "state": "record"
+  },
+  "Devotee": {
+   "id": 707767,
+   "state": "record"
+  },
+  "Devotion of Dawn": {
+   "id": 572384,
+   "state": "record"
+  },
+  "Devotion of Emperors": {
+   "id": 572552,
+   "state": "record"
+  },
+  "Devotion of Grace": {
+   "id": 800852,
+   "state": "record"
+  },
+  "Devotion of Radiance": {
+   "id": 575040,
+   "state": "record"
+  },
+  "Devout Blessing": {
+   "id": 300356,
+   "state": "record"
+  },
+  "Divine Fire": {
+   "id": 704904,
+   "state": "record"
+  },
+  "Divine Retribution": {
+   "id": 570147,
+   "state": "record"
+  },
+  "Divine Vision": {
+   "id": 706735,
+   "state": "record"
+  },
+  "Duality of Light": {
+   "id": 806116,
+   "state": "record"
+  },
+  "Empowered Holy Form": {
+   "id": 800602,
+   "state": "record"
+  },
+  "Enveloped in Light": {
+   "id": 680652,
+   "state": "record"
+  },
+  "Everglow": {
+   "id": 704565,
+   "state": "record"
+  },
+  "Faith Militant": {
+   "id": 560088,
+   "state": "record"
+  },
+  "Fanaticism": {
+   "id": 805628,
+   "state": "record"
+  },
+  "Fire from the Heavens": {
+   "id": 300369,
+   "state": "record"
+  },
+  "Flames of Absolution": {
+   "id": 573449,
+   "state": "record"
+  },
+  "Flames of the Father": {
+   "id": 806458,
+   "state": "record"
+  },
+  "Flash": {
+   "id": 500144,
+   "state": "record"
+  },
+  "Fortuitous": {
+   "id": 561328,
+   "state": "record"
+  },
+  "Gavel of Grace": {
+   "id": 800614,
+   "state": "record"
+  },
+  "Gavel of Light": {
+   "id": 800611,
+   "state": "record"
+  },
+  "Gavel of Wrath": {
+   "id": 800617,
+   "state": "record"
+  },
+  "Glare": {
+   "id": 805583,
+   "state": "record"
+  },
+  "Glaring Rays": {
+   "id": 704919,
+   "state": "record"
+  },
+  "Gleaming Armor": {
+   "id": 572339,
+   "state": "record"
+  },
+  "Gleaming Vigil": {
+   "id": 502486,
+   "state": "record"
+  },
+  "Glorious Execution": {
+   "id": 800626,
+   "state": "record"
+  },
+  "Grace": {
+   "id": 504070,
+   "state": "record"
+  },
+  "Greater Devotion of Dawn": {
+   "id": 572390,
+   "state": "record"
+  },
+  "Greater Devotion of Emperors": {
+   "id": 572553,
+   "state": "record"
+  },
+  "Greater Devotion of Grace": {
+   "id": 681160,
+   "state": "record"
+  },
+  "Greater Devotion of Radiance": {
+   "id": 575045,
+   "state": "record"
+  },
+  "Guarded By The Light": {
+   "id": 560855,
+   "state": "record"
+  },
+  "Guidance: Intervention": {
+   "id": 503517,
+   "state": "record"
+  },
+  "Guidance: Touch of Light": {
+   "id": 804251,
+   "state": "record"
+  },
+  "Guiding Glow": {
+   "id": 300324,
+   "state": "record"
+  },
+  "Hammer of Kings": {
+   "id": 804751,
+   "state": "record"
+  },
+  "Harmonious Bells": {
+   "id": 704917,
+   "state": "record"
+  },
+  "Harsh Lessons": {
+   "id": 804625,
+   "state": "record"
+  },
+  "Heat Death": {
+   "id": 704932,
+   "state": "record"
+  },
+  "Heat Wave": {
+   "id": 534267,
+   "state": "record"
+  },
+  "Hegemony": {
+   "id": 561204,
+   "state": "record"
+  },
+  "Herald of Dawn": {
+   "id": 804630,
+   "state": "record"
+  },
+  "Herald of Purity": {
+   "id": 806058,
+   "state": "record"
+  },
+  "Holy Conquest": {
+   "id": 504248,
+   "state": "record"
+  },
+  "Holy Fervor": {
+   "id": 300323,
+   "state": "record"
+  },
+  "Holy Form": {
+   "id": 46565,
+   "state": "record"
+  },
+  "Holy Giant": {
+   "id": 681337,
+   "state": "record"
+  },
+  "Holy Strength": {
+   "id": 561159,
+   "state": "record"
+  },
+  "Hope": {
+   "id": 300349,
+   "state": "record"
+  },
+  "Horusath Blast": {
+   "id": 500154,
+   "state": "record"
+  },
+  "Illumination": {
+   "id": 500143,
+   "state": "record"
+  },
+  "Impartial": {
+   "id": 704942,
+   "state": "record"
+  },
+  "Injunction": {
+   "id": 800624,
+   "state": "record"
+  },
+  "It's Always Sunny": {
+   "id": 707414,
+   "state": "record"
+  },
+  "Judgement Day": {
+   "id": 570125,
+   "state": "record"
+  },
+  "Judgement of the Valkyrie": {
+   "id": 300315,
+   "state": "record"
+  },
+  "Justicar's Wrath": {
+   "id": 806980,
+   "state": "record"
+  },
+  "Justice": {
+   "id": 520359,
+   "state": "record"
+  },
+  "Knight of Dawn": {
+   "id": 805647,
+   "state": "record"
+  },
+  "Last Wish": {
+   "id": 704940,
+   "state": "record"
+  },
+  "Lead Me Not Astray": {
+   "id": 300357,
+   "state": "record"
+  },
+  "Leap of the Valkyrie": {
+   "id": 300320,
+   "state": "record"
+  },
+  "Learning Light": {
+   "id": 300360,
+   "state": "record"
+  },
+  "Light The Way": {
+   "id": 300336,
+   "state": "record"
+  },
+  "Light of the Sun": {
+   "id": 704941,
+   "state": "record"
+  },
+  "Light's Blessing": {
+   "id": 300318,
+   "state": "record"
+  },
+  "Lightward": {
+   "id": 582822,
+   "state": "record"
+  },
+  "Lord Commander": {
+   "id": 704923,
+   "state": "record"
+  },
+  "Luminary Mendicant": {
+   "id": 547214,
+   "state": "record"
+  },
+  "Luminescent Lances": {
+   "id": 300358,
+   "state": "record"
+  },
+  "Luminous Light": {
+   "id": 704900,
+   "state": "record"
+  },
+  "March of the Valkyr": {
+   "id": 560534,
+   "state": "record"
+  },
+  "Mercy": {
+   "id": 503650,
+   "state": "record"
+  },
+  "Moment of Triumph": {
+   "id": 300367,
+   "state": "record"
+  },
+  "New Day": {
+   "id": 800600,
+   "state": "record"
+  },
+  "No Shade": {
+   "id": 704902,
+   "state": "record"
+  },
+  "On A Cloudy Day": {
+   "id": 560121,
+   "state": "record"
+  },
+  "Paragon": {
+   "id": 680639,
+   "state": "record"
+  },
+  "Path To Glory": {
+   "id": 300319,
+   "state": "record"
+  },
+  "Pendant of the Sun": {
+   "id": 680630,
+   "state": "record"
+  },
+  "Photosynthetic": {
+   "id": 300363,
+   "state": "record"
+  },
+  "Piety - Level 15 Passive": {
+   "id": 706727,
+   "state": "record"
+  },
+  "Piety Sun Cleric Passive Hidden2": {
+   "id": 300362,
+   "state": "record"
+  },
+  "Pious": {
+   "id": 300943,
+   "state": "record"
+  },
+  "Purgation": {
+   "id": 806024,
+   "state": "record"
+  },
+  "Radiance": {
+   "id": 800038,
+   "state": "record"
+  },
+  "Radiant Cascade": {
+   "id": 500141,
+   "state": "record"
+  },
+  "Radiant Flame": {
+   "id": 806060,
+   "state": "record"
+  },
+  "Radiant Fury": {
+   "id": 300325,
+   "state": "record"
+  },
+  "Radiant Marks": {
+   "id": 704947,
+   "state": "record"
+  },
+  "Rapid Execution": {
+   "id": 560223,
+   "state": "record"
+  },
+  "Rapture": {
+   "id": 806477,
+   "state": "record"
+  },
+  "Ray of Illumination": {
+   "id": 680864,
+   "state": "record"
+  },
+  "Rejuvenating Rays": {
+   "id": 807238,
+   "state": "record"
+  },
+  "Revivify": {
+   "id": 801790,
+   "state": "record"
+  },
+  "Sanctified": {
+   "id": 300344,
+   "state": "record"
+  },
+  "Sanctify": {
+   "id": 524968,
+   "state": "record"
+  },
+  "Savior": {
+   "id": 300343,
+   "state": "record"
+  },
+  "Scalding Light": {
+   "id": 804624,
+   "state": "record"
+  },
+  "Scorch Marks": {
+   "id": 806021,
+   "state": "record"
+  },
+  "Scroll of Hope": {
+   "id": 680646,
+   "state": "record"
+  },
+  "Seraphic Bulwark": {
+   "id": 560095,
+   "state": "record"
+  },
+  "Seraphim - Level 20 Passive": {
+   "id": 561334,
+   "state": "record"
+  },
+  "Shine": {
+   "id": 800357,
+   "state": "record"
+  },
+  "Shining Ray": {
+   "id": 502460,
+   "state": "record"
+  },
+  "Shining Shield": {
+   "id": 704586,
+   "state": "record"
+  },
+  "Sins of the Father": {
+   "id": 573421,
+   "state": "record"
+  },
+  "Sintorcher": {
+   "id": 300332,
+   "state": "record"
+  },
+  "Sol Invictus": {
+   "id": 807732,
+   "state": "record"
+  },
+  "Solar Avenger": {
+   "id": 806197,
+   "state": "record"
+  },
+  "Solar Concord": {
+   "id": 301266,
+   "state": "record"
+  },
+  "Solar Conduit": {
+   "id": 300321,
+   "state": "record"
+  },
+  "Solar Crusader": {
+   "id": 300317,
+   "state": "record"
+  },
+  "Solar Eclipse": {
+   "id": 704929,
+   "state": "record"
+  },
+  "Solar Embrace": {
+   "id": 500151,
+   "state": "record"
+  },
+  "Solar Incandescence": {
+   "id": 704913,
+   "state": "record"
+  },
+  "Solar Invigoration": {
+   "id": 562311,
+   "state": "record"
+  },
+  "Solar Invocation: Ascension": {
+   "id": 500152,
+   "state": "record"
+  },
+  "Solar Invocation: Conquest": {
+   "id": 800764,
+   "state": "record"
+  },
+  "Solar Invocation: Resplendence": {
+   "id": 806159,
+   "state": "record"
+  },
+  "Solar Invocation: Revelation": {
+   "id": 503651,
+   "state": "record"
+  },
+  "Solar Might": {
+   "id": 704916,
+   "state": "record"
+  },
+  "Solar Nova": {
+   "id": 680621,
+   "state": "record"
+  },
+  "Solar Prayer": {
+   "id": 806479,
+   "state": "record"
+  },
+  "Solar Priest": {
+   "id": 300347,
+   "state": "record"
+  },
+  "Solar Scripture": {
+   "id": 560348,
+   "state": "record"
+  },
+  "Solar Templar": {
+   "id": 560119,
+   "state": "record"
+  },
+  "Solstice": {
+   "id": 704949,
+   "state": "record"
+  },
+  "Spears of Glory": {
+   "id": 804629,
+   "state": "record"
+  },
+  "Stalwart": {
+   "id": 300355,
+   "state": "record"
+  },
+  "Struck by the Sun": {
+   "id": 300372,
+   "state": "record"
+  },
+  "Sun Disc": {
+   "id": 560547,
+   "state": "record"
+  },
+  "Sun Down": {
+   "id": 572752,
+   "state": "record"
+  },
+  "Sun Gate": {
+   "id": 802145,
+   "state": "record"
+  },
+  "Sun Ray": {
+   "id": 500145,
+   "state": "no-record"
+  },
+  "Sun Screen": {
+   "id": 704918,
+   "state": "record"
+  },
+  "Sun Stride": {
+   "id": 680700,
+   "state": "record"
+  },
+  "Sun Warrior's Guidance": {
+   "id": 800039,
+   "state": "record"
+  },
+  "Sun's Gift": {
+   "id": 680656,
+   "state": "record"
+  },
+  "Sun's Hope": {
+   "id": 560276,
+   "state": "record"
+  },
+  "Sun-Touched Armor": {
+   "id": 561023,
+   "state": "record"
+  },
+  "Sunburn": {
+   "id": 300365,
+   "state": "record"
+  },
+  "Sunflare": {
+   "id": 800231,
+   "state": "record"
+  },
+  "Sunfury": {
+   "id": 806475,
+   "state": "record"
+  },
+  "Sunlight": {
+   "id": 92136,
+   "state": "record"
+  },
+  "Sunlight Refraction": {
+   "id": 806122,
+   "state": "record"
+  },
+  "Sunrise and Sunset": {
+   "id": 92135,
+   "state": "record"
+  },
+  "Sunshine": {
+   "id": 500142,
+   "state": "record"
+  },
+  "Sunslam": {
+   "id": 805629,
+   "state": "record"
+  },
+  "Sunstorm": {
+   "id": 760379,
+   "state": "record"
+  },
+  "Sunsworn": {
+   "id": 800069,
+   "state": "record"
+  },
+  "Sunwalker": {
+   "id": 704934,
+   "state": "record"
+  },
+  "Sunwalker's Grace": {
+   "id": 704395,
+   "state": "record"
+  },
+  "Sunwell": {
+   "id": 560123,
+   "state": "record"
+  },
+  "Swift Justice": {
+   "id": 300322,
+   "state": "record"
+  },
+  "The Chosen": {
+   "id": 704936,
+   "state": "record"
+  },
+  "The Redeemer": {
+   "id": 300339,
+   "state": "record"
+  },
+  "Transgression": {
+   "id": 503368,
+   "state": "record"
+  },
+  "Trial of Valor": {
+   "id": 805581,
+   "state": "record"
+  },
+  "Valkyr's Calling": {
+   "id": 520024,
+   "state": "record"
+  },
+  "Valkyr's Grip": {
+   "id": 807507,
+   "state": "record"
+  },
+  "Valkyrie - Level 15 Passive": {
+   "id": 681084,
+   "state": "record"
+  },
+  "Valorous Champion": {
+   "id": 804339,
+   "state": "record"
+  },
+  "Vindicator": {
+   "id": 704938,
+   "state": "record"
+  },
+  "Vitality": {
+   "id": 570035,
+   "state": "record"
+  },
+  "Vow of Benediction": {
+   "id": 803494,
+   "state": "record"
+  },
+  "Vow of Dawn": {
+   "id": 803491,
+   "state": "record"
+  },
+  "Vow of Grace": {
+   "id": 504775,
+   "state": "record"
+  },
+  "Vow of Light": {
+   "id": 505197,
+   "state": "record"
+  },
+  "Vow of Radiance": {
+   "id": 803489,
+   "state": "record"
+  },
+  "Vow of the Eclipse": {
+   "id": 505340,
+   "state": "record"
+  },
+  "Vow of the Valkyr": {
+   "id": 506821,
+   "state": "record"
+  },
+  "Wake": {
+   "id": 706261,
+   "state": "record"
+  },
+  "Warrior's Light": {
+   "id": 800610,
+   "state": "record"
+  },
+  "Wrathful Sun": {
+   "id": 560854,
+   "state": "record"
+  },
+  "Zealous": {
+   "id": 560113,
+   "state": "record"
+  }
+ }
+}
