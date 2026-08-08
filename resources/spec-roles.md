@@ -61,6 +61,23 @@ missing without any error.
 | 32 | Runemaster | engravement | damage |
 | 32 | Runemaster | riftblade | damage |
 
+| 31 | Primalist | geomancy | damage |
+| 31 | Primalist | grovekeeper | healing |
+| 31 | Primalist | mountain-king | tank |
+| 31 | Primalist | wildwalker | damage |
+
+**Primalist provenance (31):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: geomancy "it stays a self-reliant DPS
+caster rather than any kind of support … Not a heal"; grovekeeper
+"Grovekeeper is a dual-resource melee-healer" with a full healer dungeon loop
+(Tears of the Earthmother on the tank / Spirit Charge / Seismic Wave / Sacred
+Grove) — kit corroboration 21/60 abilities mention heal/absorb/shield (35%)
+vs 1–9% on the other three specs; mountain-king "Solid main-tank for raid
+bosses … Solid dungeon tank — AoE pulls and threat" (taunt: Gaze of
+Theradras, threat passive: Heart of the Mountain); wildwalker "This is a DPS
+spec, not a healer" (`resources/sidekick-primalist-*.md`, scraped
+2026-08-07). Replace with an in-game read when one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit

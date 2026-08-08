@@ -1,0 +1,104 @@
+{
+ "sidekick-primalist-geomancy-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Heart of Azeroth",
+    "Earth's Embrace"
+   ],
+   "maintain": [
+    "Seismic Crash",
+    "Stonefall"
+   ],
+   "priority": [],
+   "signature": [
+    "Earthshaping"
+   ]
+  },
+  "class": "primalist",
+  "content_sha256": "926f45128d3d570b",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/primalist/geomancy",
+  "spec": "geomancy"
+ },
+ "sidekick-primalist-grovekeeper-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Dreamshield",
+    "Dreamslip",
+    "Grove Guardian"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Grove Training"
+   ]
+  },
+  "class": "primalist",
+  "content_sha256": "aec0dd89e9ad169c",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/primalist/grovekeeper",
+  "spec": "grovekeeper"
+ },
+ "sidekick-primalist-mountain-king-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Mountain Fury"
+   ],
+   "maintain": [],
+   "priority": [],
+   "signature": [
+    "Mountain Giant"
+   ]
+  },
+  "class": "primalist",
+  "content_sha256": "1d2d93f43a267733",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/primalist/mountain-king",
+  "spec": "mountain-king"
+ },
+ "sidekick-primalist-wildwalker-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet — confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Fist of Al'Akir",
+    "Golem Form",
+    "Bearskin"
+   ],
+   "maintain": [
+    "Primal Shred"
+   ],
+   "priority": [],
+   "signature": [
+    "Spirit Beast Master"
+   ]
+  },
+  "class": "primalist",
+  "content_sha256": "8fd4fdd8f7492f3d",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/primalist/wildwalker",
+  "spec": "wildwalker"
+ }
+}

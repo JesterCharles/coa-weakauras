@@ -1,0 +1,2272 @@
+[
+ {
+  "name": "Ancient Power",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases your Strength by % and your hit chance by %."
+ },
+ {
+  "name": "Ancient of Lore",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Funnel nature's energies into yourself, transforming into an Ancient of Lore. While active, your stats are increased by % and nearby party members have their costs reduced by %. While transformed, your movement speed is reduced by %."
+ },
+ {
+  "name": "Bash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Your auto attacks have a % chance to deal % Weapon Damage and stun them."
+ },
+ {
+  "name": "Battle Druid",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "In addition, your chance to hit is increased by %."
+ },
+ {
+  "name": "Battleweaver",
+  "icon": "warlock_charredremains",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Effective healing now increases your melee haste and damage by %, stacking times."
+ },
+ {
+  "name": "Bearskin",
+  "icon": "spell_druid_primaltenacity",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces all damage taken by % and reduces the duration of root, stun, and incapacitate effects on you by %."
+ },
+ {
+  "name": "Beast Lore",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Gather information about the target beast.  The tooltip will display damage, health, armor, any special resistances, and diet.  In addition, Beast Lore will reveal whether or not the creature is tameable and what abilities the tamed creature has."
+ },
+ {
+  "name": "Beast Mastery",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases damage dealt by your pet by %, and pets now grant you a unique mastery buff."
+ },
+ {
+  "name": "Bestial Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases your haste by %."
+ },
+ {
+  "name": "Bestial Reflexes",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases haste by %."
+ },
+ {
+  "name": "Bestial Strikes",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Causes critical strikes with Bear's Maw to apply a Torn to Shreds to your target dealing 12 damage for 12 seconds."
+ },
+ {
+  "name": "Bestial Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "When you critically strike, your pet restores Focus. When your pet critically strikes, you restore % maximum mana and increase the target's Physical damage taken by %."
+ },
+ {
+  "name": "Blessed by the Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Damage dealt by Primal Rush and Quake now grant Earth's Rage."
+ },
+ {
+  "name": "Blessing of Neptulon",
+  "icon": "custom_t_ghostwater_border",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Your Hand of the Earthmother now bounces to 1 ally near the primary target."
+ },
+ {
+  "name": "Body of Magma",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Imbue your body with magma, increasing spell haste by % of your Intellect, and your spell critical strike chance by % of your Intellect. Reduces the duration of silence effects used against you by % and increases the range of Cave In by yds."
+ },
+ {
+  "name": "Boon of the Bear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases your melee attack power, your melee haste, and your rage generated from auto attacks by %. Only 1 Boon may be active at a time."
+ },
+ {
+  "name": "Boon of the Hawk",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases your spell haste by %, reduces the cost of spells and abilities by %, and causes you to regenerate % of maximum health every sec. Only 1 Boon may be active at a time."
+ },
+ {
+  "name": "Boon of the Lion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Increases your chance to resist fear, charm, and sleep effects by % and causes you to dispel fear, charm, and sleep effect from party members within yds every sec. Only 1 Boon may be active at a time."
+ },
+ {
+  "name": "Boon of the Turtle",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Reduces your damage taken by % and causes you to deal Nature damage to melee attackers. Only 1 Boon may be active at a time."
+ },
+ {
+  "name": "Boon of the Wolf",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increase your movement speed by % and dodge chance by %. Only 1 Boon may be active at a time."
+ },
+ {
+  "name": "Boulder Dash",
+  "icon": "custom_elementl(earth)_b_01_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Raise a boulder out of the ground and encase yourself within it, preventing you from attacking or casting spells. For, you roll forward at % increased movement speed, dealing its value Physical damage to enemies you roll over, and you are immune to crowd control effects."
+ },
+ {
+  "name": "Bountiful Boons",
+  "icon": "spell_nature_giftofthewild",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the effectiveness of Boons and Instincts by %."
+ },
+ {
+  "name": "Bramblepatch",
+  "icon": "inv_eng_bombroot",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Grow a patch of brambles at your location. Allies in the area are immune to grip and knockback effects. Enemies in the area are unable to leap, dash, or charge."
+ },
+ {
+  "name": "Bring Me Their Bones",
+  "icon": "inv_helm_laughingskull_01",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Mark an enemy, causing damage dealt by your pet's abilities to the target to add a stack of Bring Me Their Bones. At 5 stacks, your pet consumes this buff to deal its value damage to the target, ignoring Armor."
+ },
+ {
+  "name": "Bronzeheart",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases the chance for healing received to remove a stack of Tectonic Shift by %."
+ },
+ {
+  "name": "Call Animal Spirit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Summon your animal spirit to you."
+ },
+ {
+  "name": "Call of the Mountain",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Level 40 Passive Reaching 5 stacks of Earth's Rage now grants Call of the Mountain."
+ },
+ {
+  "name": "Cascading Restoration",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces the cost of Primal Wave by and increases the radius by yds."
+ },
+ {
+  "name": "Cave Dweller",
+  "icon": "epic_rpg_icon_pack_earth_icon_0001s_0000_dust_border",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Level 30 Passive Increases your armor penetration rating by % of your Intellect."
+ },
+ {
+  "name": "Circle of Elements",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases your Spell Power by % of your Attack Power."
+ },
+ {
+  "name": "Circle of Life",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases healing done by %, and healing received by %."
+ },
+ {
+  "name": "Collapsing Cavern",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "When Earth's Embrace expires it now stuns enemies within yds."
+ },
+ {
+  "name": "Courageous",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Reduces the cooldown of Protective Roar by sec."
+ },
+ {
+  "name": "Crashing Out",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases the damage of Seismic Crash by %."
+ },
+ {
+  "name": "Crushing the Earth",
+  "icon": "",
+  "meta": "Ability Passive Lvl 40",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Level 40 Passive You now gain spell power equal to 50% of your armor penetration rating."
+ },
+ {
+  "name": "Dismiss Animal Spirit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Dismiss your animal spirit."
+ },
+ {
+  "name": "Dismiss Companion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Dismiss your Companion."
+ },
+ {
+  "name": "Dreamslip",
+  "icon": "inv_legion_faction_dreamweavers",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Shifts a party member into the Emerald Dream, making them immune to damage and unable to attack or cast spells. While active, the target quickly regenerates health and mana and cannot be seen by other players or creatures. Cannot be used on self."
+ },
+ {
+  "name": "Dreamway: Bough Shadow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Teleport to Bough Shadow in Ashenvale."
+ },
+ {
+  "name": "Dreamway: Dream Bough",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Teleport to Dream Bough in Feralas."
+ },
+ {
+  "name": "Dreamway: Seradane",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Teleport to Seradane in The Hinterlands."
+ },
+ {
+  "name": "Dreamway: The Twilight Grove",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Teleport to The Twilight Grove in Duskwood."
+ },
+ {
+  "name": "Druid of the Claw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Critically striking with Wildclaw grants a stack of Mountain's Might."
+ },
+ {
+  "name": "Dryad Staff",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces the cooldown of Primal Wave by sec and increases the healing by %."
+ },
+ {
+  "name": "Earth's Embrace",
+  "icon": "custom_amber_stone_border",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Encapsulate your body in amber, becoming immune to all Physical attacks and spells, and healing you for its value every sec, but making you unable to move or act. Usable while stunned, feared, or polymorphed."
+ },
+ {
+  "name": "Earthen Avatar",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Become an avatar of the earth, increasing your damage dealt and reducing your damage taken by %, and increasing your attack speed by %. Immune to stuns, roots, and snares for the duration. Usable while stunned."
+ },
+ {
+  "name": "Earthen Endurance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases the friendly target's armor, all stats by and all resistances by."
+ },
+ {
+  "name": "Earthen Gamble",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Generating a stack of Earthshaping now reduces the cooldown of Earthmother's Pendant by 1 sec."
+ },
+ {
+  "name": "Earthen Resolve",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces your Nature damage taken by %."
+ },
+ {
+  "name": "Earthmother's Binding",
+  "icon": "spell_druid_symbiosis",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Envelop a target in the Earthmother's love, healing them for its value. used on an ally, % of their damage taken is redirected to you."
+ },
+ {
+  "name": "Earthmother's Blessing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Attacks which would otherwise kill you now instead reform you in stone, healing for 30% maximum health and reducing your Physical damage taken by 70% for 3 seconds.Can only occur once every 2."
+ },
+ {
+  "name": "Earthmother's Empowerment",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Hand of the Earthmother now increases the target's dodge chance by %."
+ },
+ {
+  "name": "Earthmother's Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases the critical strike chance of Primal Pulse and Flourishing Growth by %."
+ },
+ {
+  "name": "Earthmother's Hammer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Reduces the cooldown of Mountain Hammer by sec."
+ },
+ {
+  "name": "Earthmother's Pendant",
+  "icon": "_hearthstone_necklace_warrior",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "With every strike, the Earthmother’s pendant restores what was lost, healing you equal to % of your damage dealt."
+ },
+ {
+  "name": "Earthmother's Precision",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Seismic Crash now increases the chance for allies to hit with all spells against the enemy by 3% for 15 seconds."
+ },
+ {
+  "name": "Earthmother's Protection",
+  "icon": "inv_shield_cataclysm_b_01",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Direct Magic Damage taken now grants Earth's Rage."
+ },
+ {
+  "name": "Earthquake",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Create an earthquake at the target location dealing its value Nature damage every sec and slowing movement speed by %. Deals % increased damage for each Earthshaping stack."
+ },
+ {
+  "name": "Earthshaker",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the damage dealt by Seismic abilities by % and allows their periodic damage to critically strike."
+ },
+ {
+  "name": "Earthshaping",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Level 10 Passive Casting Geode Barrage and your Seismic abilities now generate Earthshaping."
+ },
+ {
+  "name": "Elemental Armor",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Reduces all Physical damage taken by % and gives damage dealt by Tectonic Shift a % chance to reduce the cooldown of Stoneguard by sec or Stone Weapon by sec."
+ },
+ {
+  "name": "Elemental Berserker",
+  "icon": "inv_mace_1h_pvppandarias1_d_01",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the area damage dealt by Totemic Smash by %, but it now costs additional Rage."
+ },
+ {
+  "name": "Emerald Protection",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Allies affected by Dreamshield now restore % maximum health upon taking direct damage. Can only occur once per sec."
+ },
+ {
+  "name": "Emerald Will",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Successfully dispelling a poison or disease effect with Soothing Touch now heals for % maximum health."
+ },
+ {
+  "name": "Empowered Boons",
+  "icon": "",
+  "meta": "Talent Passive Lvl 50",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Level 50 Passive Your Totemic Smash now applies an Empowered Boon based on your currently active Boon."
+ },
+ {
+  "name": "Enchanted Hide",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Reduces the damage your pet takes by %."
+ },
+ {
+  "name": "Environmentalist",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases Nature Damage dealt by % and healing received by %."
+ },
+ {
+  "name": "Eruption",
+  "icon": "6bf_blackrock_nova",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Launch 1 Magma Geode at your target every sec, dealing its value Firestorm Damage. Duration increased by sec for each stack of Earthshaping."
+ },
+ {
+  "name": "Essence of Convergence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Converges magic used against the targeted party member, increasing damage taken from spells by up to and healing spells by. Lasts."
+ },
+ {
+  "name": "Essence of Dispersion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Disperses magic used against the targeted party member. Reduces all spell damage taken by % and reduces all healing taken by %."
+ },
+ {
+  "name": "Essence of Nature",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases the Nature resistance of targeted party member. Lasts."
+ },
+ {
+  "name": "Eternally Chosen",
+  "icon": "spell_druid_wildburst",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Spirit Charge and Primal Rush now summons 2 Spirits of Life that immediately cast a lesser Spirit Charge on the nearest ally, healing them for its value and dealing its value Nature damage to nearby enemies."
+ },
+ {
+  "name": "Fae Dust",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Sprinkle an ally with Fae Dust, increasing their stealth detection and reducing all Nature and Arcane damage they take by %. Lasts."
+ },
+ {
+  "name": "Fae Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Removes the reagent cost from Fae Dust and causes it to increase the target's stealth detection."
+ },
+ {
+  "name": "Feasting Maw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Bear's Maw restores % maximum health."
+ },
+ {
+  "name": "Fist of Al'Akir",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Your next Stoneslam or Ruptured Earth grants Wrath of Al'Akir, causing your next Wildclaw to strike two additional times. You may only have one Fist spell active at a time. Dealing damage with Stoneslam while at full stacks of Mountai"
+ },
+ {
+  "name": "Flourishing Growth",
+  "icon": "spell_druid_massentanglement",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Empower party and raid members within yds with verdant strength, increasing their attack or spell power by. Does not stack with similar effects."
+ },
+ {
+  "name": "Focus",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your Intellect and Stamina by 5%. (up to 2 ranks)"
+ },
+ {
+  "name": "Frenzied Roar",
+  "icon": "ability_druid_challangingroar",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Roar with bestial fervor, generating Rage and granting you % increased attack speed."
+ },
+ {
+  "name": "Fury of the Elements",
+  "icon": "monk_ability_fistoffury",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Your Primal Rush now generates additional Rage."
+ },
+ {
+  "name": "Fury of the Wild",
+  "icon": "druid_stagstatue01",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the Critical Strike Damage Bonus of your Wildclaw ability by %, and reduces the Cooldown of your Primal Charge and Bear's Maw abilities by %."
+ },
+ {
+  "name": "Gaze of Theradras",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Taunts the target to attack you. the target is tauntable and not currently targeting you, they become petrified, slowing their next attack by %."
+ },
+ {
+  "name": "Geode Barrage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Fling three stones at an enemy over, each dealing its value Physical Damage and generating Rage."
+ },
+ {
+  "name": "Geode Born",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Allows Earthspine to affect enemies."
+ },
+ {
+  "name": "Geode Chain",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Allows Geodes to strike up to enemies."
+ },
+ {
+  "name": "Geothermal",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Critical strikes with Fire damage also increase the critical strike chance of Nature spells by %."
+ },
+ {
+  "name": "Golem Form",
+  "icon": "nhi_nature_shapeshift_border",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Transform into a being made of stone and earth, increasing your haste by % and your Armor by %, and allowing you to cast damaging spells while moving."
+ },
+ {
+  "name": "Greater Earthen Endurance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Grants earthen endurance to all party and raid members, increasing their armor, all attributes by and all resistances by."
+ },
+ {
+  "name": "Greater Essence of Convergence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Converges magic used against the targeted party member, increasing damage taken from spells by up to and healing spells by. Lasts."
+ },
+ {
+  "name": "Greater Essence of Nature",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases Nature resistance of all party members. Lasts."
+ },
+ {
+  "name": "Greater Grove Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Invokes an Instinct in all raid and party members, restoring mana every 5 seconds."
+ },
+ {
+  "name": "Greater Primal Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Invokes an Instinct in all raid and party members, increasing attack power by."
+ },
+ {
+  "name": "Grip",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Summon a stone hand to grip the target, incapacitating them for (8 sec vs. players). Damage dealt will break the effect."
+ },
+ {
+  "name": "Grove Guardian",
+  "icon": "custom_t_naturesguardian_border",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Mark a location as your Grove. Allies within gain % movement speed and are healed for its value every sec, removing 1 poison and disease effect. Enemies within are slowed by % and take its value Nature damage every sec and are"
+ },
+ {
+  "name": "Grove Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Invokes a calm and earthly instinct on the friendly target, restoring mana every 5 seconds. Players may only have one Instinct on them per Primalist at any one time."
+ },
+ {
+  "name": "Grove Tender",
+  "icon": "spell_nature_stranglevines",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "While inside your Bramblepatch your Seismic abilities now have a % reduced cooldown. In addition, the duration of Bramblepatch is doubled."
+ },
+ {
+  "name": "Grove Training",
+  "icon": "ui_darkshore_warfront_alliance_keeper_of_the_grove",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Level 10 Passive All melee damage, or healing done, now has a % chance to grant you Aftershock."
+ },
+ {
+  "name": "Grovekeeper - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Level 15 Passive Increases your spell power and healing spell power by % of your attack power, your melee haste by % of your Strength and your spell hit rating by % of your Strength."
+ },
+ {
+  "name": "Grovekeeper's Presence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases chance to hit with all spells and attacks by % for you and party and raid members. Does not stack with similar effects."
+ },
+ {
+  "name": "Hammer of Life",
+  "icon": "inv_mace_1h_draenorraid_d_04green",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Melee abilities now heal 10 nearby allies, scaling with attack power. Cannot occur more than once every 5 sec."
+ },
+ {
+  "name": "Hand of the Earthmother",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Rejuvenate an ally, healing them for its value."
+ },
+ {
+  "name": "Harness Animal Spirit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Begin harnessing an animal spirit, after 20 sec you successfully tame the animal spirit."
+ },
+ {
+  "name": "Heart of the Bear",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the critical damage of Totemic Smash and Seismic abilities by %."
+ },
+ {
+  "name": "Heart of the Mountain",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Therazane favors you, increasing your threat generated by %."
+ },
+ {
+  "name": "Heavy Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Your Terrasurge now consumes all stacks of Earthshaping to refresh the duration of Golem Form and grant you Heavy Earth."
+ },
+ {
+  "name": "Heavy Handed",
+  "icon": "achievement_dungeon_ulduarraid_misc_06",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Hand of the Earthmother now increases the Armor of yourself and your target by %."
+ },
+ {
+  "name": "Improved Boons",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Increases the effectiveness of Boons by %."
+ },
+ {
+  "name": "Improved Primal Charge",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Reduces the cooldown of Primal Charge by sec."
+ },
+ {
+  "name": "Improved Primal Infusion",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Primal Infusion now increases affected targets healing received from Hand of the Earthmother by an additional %."
+ },
+ {
+  "name": "Improved Stonefall",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases the damage of Stonefall by % and allows its ticks to critically strike and benefit from spell haste."
+ },
+ {
+  "name": "Infusion of Neptulon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Critically healing an ally now increases your attack power by % for your next 3 attacks. Lasts."
+ },
+ {
+  "name": "Into The Volcano",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases the critical strike damage bonus of Molten Core and Magma Geodes by % and their damage by %."
+ },
+ {
+  "name": "Judgement of The Three Hammers",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "While active, dealing direct damage has a % chance to hurl 3 hammers over, each dealing its value Physical damage. Lasts. Damage scales with modifiers to Mountain Hammer."
+ },
+ {
+  "name": "Keen Senses",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your critical strike chance and haste by %."
+ },
+ {
+  "name": "Keeper of the Grove",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces the cooldown of Bramblepatch by sec."
+ },
+ {
+  "name": "Killer's Path",
+  "icon": "novart_magicspell_(27)_border",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the attack power of party and raid members by %. Does not stack with similar effects. In addition, increases your critical strike chance by %."
+ },
+ {
+  "name": "King of the Mountain",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Level 20 Passive Increases your parry, dodge, and haste rating by % of your Strength."
+ },
+ {
+  "name": "Landslider",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the damage of Seismic Crash by % and Earthquake by %."
+ },
+ {
+  "name": "Lavabender",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases Fire Damage dealt by % and reduces the cost of Nature spells by %."
+ },
+ {
+  "name": "Lavamancy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Volcanic Skin reduces Fire and Nature damage taken by % while active."
+ },
+ {
+  "name": "Legacy of Rexxar",
+  "icon": "inv_rexxar",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Critical strikes with Primal Shred grant you and your pet Misha's Rage, causing auto attacks to deal an additional its value Physical damage. Critical strikes with Rylak's Bite grant you and your pet Leokk's Fury, increasing melee haste by % for"
+ },
+ {
+  "name": "Lithic Lance",
+  "icon": "",
+  "meta": "Talent Passive Lvl 20",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Level 20 Passive Generating Earthshaping now has a % chance to transform your next Geode Barrage within into Lithic Lance."
+ },
+ {
+  "name": "Magma Fissure",
+  "icon": "ability_rhyolith_volcano",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "A fissure erupts beneath the target, dealing its value Fire damage after a short delay and causing nearby enemies to flee in horror."
+ },
+ {
+  "name": "Magma Shell",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Removes the Rage cost of Volcanic Skin and increases the damage it deals by %."
+ },
+ {
+  "name": "Magmafury",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Gives Nature damage dealt a % chance to grant Magmafury, stacking times. Also teaches Eruption."
+ },
+ {
+  "name": "Magmatism",
+  "icon": "custom_t_nhance_rpg_icons_chaoticspikes_border",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Reduces the cooldown of Eruption by sec and causes Magma Geodes to deal % more damage to enemies above 75% health."
+ },
+ {
+  "name": "Mend Animal Spirit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Heal your pet for health over."
+ },
+ {
+  "name": "Mending Touch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Soothing Touch now dispels an additional poison and disease effect."
+ },
+ {
+  "name": "Mighty Mountain",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Reaching 5 stacks of Mountain's Might causes your next Stoneslam to deal 150% additional damage."
+ },
+ {
+  "name": "Mineralization",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "While at or below 35% health, your spells and abilities will increase your healing received by 10% for 6 seconds."
+ },
+ {
+  "name": "Misha's Gift",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Reduces the cooldown of Call of Ursoc by sec."
+ },
+ {
+  "name": "Molten Fervor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases the spell haste of all party and raid members by %. Does not stack with similar effects. In addition, increases your spell haste by %."
+ },
+ {
+  "name": "Mountain Fury",
+  "icon": "nhi_earthwall_border",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Move the earth, dealing its value Physical damage to up to enemies in a yd frontal cone, pulling them toward you, repeating every sec. Each time an enemy is pulled toward you, you gain % reduced damage taken, stacking times."
+ },
+ {
+  "name": "Mountain Giant",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Level 10 Passive Auto attacks now have a % chance to grant you Aftershock."
+ },
+ {
+  "name": "Mountain Hammer",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Throw a hammer at an enemy and up to nearby enemies, dealing its value Physical damage and stunning them."
+ },
+ {
+  "name": "Mountain King - Level 15 Passive",
+  "icon": "",
+  "meta": "Ability Passive Lvl 15",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Level 15 Passive Increases your dodge rating by % of Stamina."
+ },
+ {
+  "name": "Mountain Mover",
+  "icon": "ability_racial_mountaineer",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Avoiding an attack grants a stack of Mountain Mover, stacking times. Wildclaw consumes Mountain Mover stacks to cost % less Rage per stack."
+ },
+ {
+  "name": "My Totem, My Rules",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Critical strikes with Wildclaw and Bear's Maw now increase the duration of Boons and Empowered Boons by sec."
+ },
+ {
+  "name": "Natural Efficiency",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "all"
+  ],
+  "desc": "Whenever you are struck by a root, stun, or incapacitate effect you are now instantly healed for % of your maximum health."
+ },
+ {
+  "name": "Nature's Call",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Call upon the aggressive nature within, leading up to 3 enemies attacking the ally target to attack the Primalist instead."
+ },
+ {
+  "name": "Nature's Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Auto attacks now have a % chance to deal Weapon Damage and restore % of your maximum mana."
+ },
+ {
+  "name": "Neptulon's Grace",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Emanate a calming aura, every sec while active, nearby allies will be cleansed of 1 disease and poison effect."
+ },
+ {
+  "name": "Neptulon's Wrath",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Emanate an aura, causing allied players to deal its value additional damage as Froststorm Damage when they deal direct damage. Applies Exhaustion, preventing you from benefiting from similar effects."
+ },
+ {
+  "name": "One With The Earth",
+  "icon": "inv_offhand_1h_artifactdoomhammer_d_03",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases the damage of Stoneshard and Geode Barrage by % and Stoneshard now restores % of your maximum mana."
+ },
+ {
+  "name": "Plate Cracker",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Stonebreaker reduces the Armor of affected enemies based on your Strength for sec."
+ },
+ {
+  "name": "Power of Ursol",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Reduces the cooldown of Bear's Maw by sec and increases the bleed damage by %."
+ },
+ {
+  "name": "Predator's Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases movement speed by %, and attack power by %. This effect is also applied to your active pet. At the end of the full duration, generate Rage."
+ },
+ {
+  "name": "Primal Convergence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Ascend into a primal convergence, increasing the effectiveness of your Boons by %."
+ },
+ {
+  "name": "Primal Defusion",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces mana cost of Primal Infusion and increases healing by %."
+ },
+ {
+  "name": "Primal Fury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You now passively generate 4 Rage every 5 sec."
+ },
+ {
+  "name": "Primal Fury Threat",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": ""
+ },
+ {
+  "name": "Primal Guardian",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "When Earthen Avatar, Bearskin or Rock Barrier is removed or expires, you now gain % melee haste and parry chance."
+ },
+ {
+  "name": "Primal Hunger",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Causes critical strikes to restore % maximum Health. Cannot occur more than once every sec. Also increases all party and raid members' attack power by %."
+ },
+ {
+  "name": "Primal Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Invokes a savage instinct on a friendly target, increasing attack power by. Players may only have one Instinct on them per Primalist at any one time."
+ },
+ {
+  "name": "Primal Instincts",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Placeholder"
+ },
+ {
+  "name": "Primal Power",
+  "icon": "nhi_water_eye_border",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Casting Seismic Wave now causes your next Hand of the Earthmother within to cost % less Rage."
+ },
+ {
+  "name": "Primal Pulse",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Pulse with elemental power, healing up to allies within yds for its value."
+ },
+ {
+  "name": "Primal Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Casting Totemic Smash now refreshes a charge of Rylak's Bite."
+ },
+ {
+  "name": "Primal Resurgence",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Seismic Crash now generates an additional Rage and Seismic Spike now generates additional Rage."
+ },
+ {
+  "name": "Primal Rush",
+  "icon": "ability_druid_berserk",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "You and your pet rush forward yd through enemies in a line, dealing its value Nature damage. Generates Rage."
+ },
+ {
+  "name": "Primal Shaman's Mask",
+  "icon": "inv_helm_mask_zulgurub_d_01",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Direct damage dealt now has a % chance to launch a Geode at the enemy."
+ },
+ {
+  "name": "Primal Shred",
+  "icon": "ability_druid_freshwound",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Command your pet to shred up to enemies within yds, causing them to bleed, dealing its value Physical damage over."
+ },
+ {
+  "name": "Primal Strength",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases critical strike rating by % of Strength and hit rating by % of Strength."
+ },
+ {
+  "name": "Primal Strikes",
+  "icon": "spell_shaman_unleashweapon_life",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Critical strikes with abilities that deal Physical damage now generate Rage."
+ },
+ {
+  "name": "Primal Totem",
+  "icon": "inv_relics_totemofrebirth",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Summon a Primal Totem that increases the primary stats of party and raid members by % within yds."
+ },
+ {
+  "name": "Primal Weapon: Bestial Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "While wielding a one-handed weapon, your Physical critical strikes enrage you and any active pet, increasing the haste of your next 2 attacks by % and their next 2 attacks by %."
+ },
+ {
+  "name": "Primal Weapon: Primal Might",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "While wielding a two-handed weapon, your attack power is increased by %, you generate Rage every sec, and the damage you deal with Wildclaw is increased by %."
+ },
+ {
+  "name": "Primal Weapon: Stone",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases block rating by % of Strength and causes blocks grant Earth's Rage. Also grants Armor equal to % of Spirit and 1.5 Magic Resistance per level."
+ },
+ {
+  "name": "Primordial Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Critical strikes with melee attacks now summon 1 Spirit of Life that immediately casts a lesser Spirit Charge on a nearby ally, healing them for its value and dealing its value Nature damage to nearby enemies."
+ },
+ {
+  "name": "Protective Roar",
+  "icon": "ability_druid_kingofthejungle",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Roar with noble tenacity, generating Rage and granting % increased maximum health to all allies. Additionally, you heal all affected allies equal to % of their missing health."
+ },
+ {
+  "name": "Protector of the Grove",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Dealing direct damage now reduces the cooldown of Bearskin, Primal Convergence, and Boulder Dash by -1 sec."
+ },
+ {
+  "name": "Protector's Hand",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "You now emanate an aura around you, increasing the Armor of party and raid members by its value. Does not stack with similar effects."
+ },
+ {
+  "name": "Pulverize",
+  "icon": "inv_ascend_paw_b_03",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the critical strike chance of Totemic Smash by %."
+ },
+ {
+  "name": "Quake",
+  "icon": "spell_shaman_earthquake",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "2 Charges, 8 sec recharge Stomp the ground, dealing Weapon Damage plus its value Nature damage to enemies within yds and reduces their melee and ranged haste by %."
+ },
+ {
+  "name": "Rage Rolling",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Boulder Dash now instantly generates 50 Rage."
+ },
+ {
+  "name": "Raptor Talons",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases your Strength by % and your expertise."
+ },
+ {
+  "name": "Recall Animal Spirit",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Revives your animal spirit pet, recalling them back to this world."
+ },
+ {
+  "name": "Rejuvenating Boons",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Your Boons restore health to affected allies, scaling with attack power and spell power."
+ },
+ {
+  "name": "Resources of the Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Critical strikes now grant allies Replenishment."
+ },
+ {
+  "name": "Return to Life",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Brings a dead ally back to life with health and mana. Cannot be cast when in combat."
+ },
+ {
+  "name": "Rexxar's Might",
+  "icon": "inv_axe_02",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Your physical critical strikes now cause your pet's next attack to apply a bleed, dealing its value Physical damage every sec."
+ },
+ {
+  "name": "Ring of Life",
+  "icon": "nhi_naturestone_border",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Allies within yds receive % increased healing. Does not stack with similar effects. In addition, your Magic damage taken is reduced by %."
+ },
+ {
+  "name": "Rips and Tears",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Periodic damage dealt by you or your pet now generates 2 Rage for you and 5 Focus for your pet."
+ },
+ {
+  "name": "Rock Barrier",
+  "icon": "inv_holiday_hearthstonemidsummerfirefestival",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "2 Charges, 20 sec recharge Raise rocks from beneath you, increasing your Armor by its value, scaling with your Stamina. Lasts for attacks or. Expending a charge of Rock Barrier launches a Geode at the enemy."
+ },
+ {
+  "name": "Rolling Momentum",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the movement speed granted by Boulder Dash by 30%."
+ },
+ {
+  "name": "Running on Instinct",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Passing through allies with Primal Rush now heals up to of them for its value and grants a stack of Running on Instinct."
+ },
+ {
+  "name": "Ruptured Earth",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Stomp the ground and unleash a wave of earth and stone in a yd line that knocks all enemies to the side and deals its value Nature Damage. Each enemy struck will reduce the cast time of your next Stoneshard within 6 sec by 25%, up to 100% at 4 stacks."
+ },
+ {
+  "name": "Rupturer",
+  "icon": "inv_ascend_stone_03",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Damage dealt by Seismic Spike or Seismic Crash now generates a stack of Geomolding. Critically striking with Seismic Spike or Seismic Crash now generates an additional stack of Geomolding plus a stack of Earthshaping. Casting Lithic Lance|"
+ },
+ {
+  "name": "Rush of the Hunt",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases the damage of Wildclaw and Rylak's Bite by % against bleeding enemies."
+ },
+ {
+  "name": "Rylak's Bite",
+  "icon": "spell_beastmaster_rylak",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "2 Charges, 10 sec recharge You and your pet rush towards an enemy and strike them, dealing % Weapon Damage plus its value."
+ },
+ {
+  "name": "Sacred Grove",
+  "icon": "achievement_reputation_guardiansofcenarius",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Summon a magical tree to encompass your body, rooting you, preventing you from dealing damage, and instantly healing up to allies for its value. While active, a Sacred Grove is created in a radius around you. Up to allies in the grove take % reduced damage, % increased healing received, and reg"
+ },
+ {
+  "name": "Savage Frenzy",
+  "icon": "ability_hunter_fervor",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Enrage you and your pet, increasing damage dealt by %, and attack speed and movement speed by %."
+ },
+ {
+  "name": "Seismic Crash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Create stalactites that strike your enemy its value times, dealing its value Physical damage over. Generates 2 stacks of Earthshaping. and Rage. Shares a cooldown with other |CffffffffSeismic spells."
+ },
+ {
+  "name": "Seismic Grasp",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Form mud and debris beneath an enemy, dismounting them, and slowing their movement speed by % over. Generates 1 Earthshaping. Shares a cooldown with other |CffffffffSeismic spells."
+ },
+ {
+  "name": "Seismic Smash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Raise the earth in a line in front of you with molten fury, dealing its value Physical damage and granting you Thane's Rage and Aftershock. Shares a cooldown with other |CffffffffSeismic spells."
+ },
+ {
+  "name": "Seismic Spike",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Bring forth a massive stalagmite from the ground beneath an enemy and up to 6 nearby enemies, dealing its value Physical damage. Generates Rage for each target struck. Generates 1 Earthshaping. Shares a cooldown with other |CffffffffSeismic spells."
+ },
+ {
+  "name": "Seismic Strength",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Level 30 Passive Adds % to the attack power scaling of Seismic abilities and causes Seismic abilties to apply Crushed to the enemy."
+ },
+ {
+  "name": "Seismic Tremor",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Send a tremor through the earth at an enemy, dealing its value Physical damage, plus an additional over. Damage is dealt slowly at first, and builds up over time. Damage dealt generates Rage. Generates 2 stacks of Earthshaping. Shares a cooldown with other |CffffffffSeismic spells."
+ },
+ {
+  "name": "Seismic Wave",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Create a seismic wave of healing water around you, healing for its value health to up to allies in a yd radius and its value Nature damage in a yd radius around you. Shares a cooldown with other |CffffffffSeismic spells."
+ },
+ {
+  "name": "Shaman Training",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Damage dealt by Wildclaw now reduces the enemy's armor by its value."
+ },
+ {
+  "name": "Son of Ursoc",
+  "icon": "ability_hunter_pet_bear",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Your Savage Frenzy now transforms you into a feast beast, freeing you of all movement impairing effects. In addition, increases the effectiveness of Savage Frenzy by %, and reduces its cooldown by sec."
+ },
+ {
+  "name": "Soothing Touch",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Bring the Earthmother's grace to an ally, removing poison and disease effect from them."
+ },
+ {
+  "name": "Spinebreaker",
+  "icon": "inv_skeletonspinepet_bone",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Your Seismic Grasp now roots enemies."
+ },
+ {
+  "name": "Spirit Beast Master",
+  "icon": "",
+  "meta": "Ability Passive Lvl 10",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Level 10 Passive You may now tame beasts in Azeroth to aid you as a companion."
+ },
+ {
+  "name": "Spirit Charge",
+  "icon": "ability_monk_pathofmists",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Charge to an ally's aid, healing them for its value and dealing its value Nature damage to enemies within yds of them."
+ },
+ {
+  "name": "Spirit Stable",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Call forth a stabled animal spirit to replace your current one. Lasts."
+ },
+ {
+  "name": "Spiritual Overflow",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces mana cost of Spirit Charge by %."
+ },
+ {
+  "name": "Stone Cold",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases your maximum health by 4%. (up to 2 ranks)"
+ },
+ {
+  "name": "Stone Edge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Encase your weapon in stone, increasing parry chance by % and the chance for healing received to remove a stack of Tectonic Shift by %. While active, avoiding an attack flings a Geode at the attacker dealing its value Nature damage and generating Rage."
+ },
+ {
+  "name": "Stone Skin",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Level 30 Passive You are now immune to bleeds and your Geode Barrage and Seismic ability damage now additionally scales with your parry rating."
+ },
+ {
+  "name": "Stone Tossing",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Gives Physical Damage dealt a % chance to grant Groundshaker."
+ },
+ {
+  "name": "Stonefaced",
+  "icon": "inv_misc_stonetablet_05",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Casting Seismic abilities now also grants 2 stacks of Earth's Rage."
+ },
+ {
+  "name": "Stoneguard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "You lift stone from the earth below to shield you, increasing block chance by %. While active, blocking an attack removes a stack of Tectonic Shift."
+ },
+ {
+  "name": "Stoneshard",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Launch a sharpened stone at an enemy dealing its value Physical damage. Deals % additional damage for each Earthshaping stack."
+ },
+ {
+  "name": "Stoneskin",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases your Armor by % of your Intellect."
+ },
+ {
+  "name": "Stoning the Enemy",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Seismic Grasp now reduces an enemy's melee and ranged haste by % and casting speed by %."
+ },
+ {
+  "name": "Sturdiness",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Reduces your chance to be critically struck by % while Body of Stone is active. Increases your chance to block by %."
+ },
+ {
+  "name": "Tear Them Apart",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Wildclaw and Rylak's Bite now reduces the cooldown of Primal Shred, |CffffffffPrimal Charge, and Bear's Maw by sec."
+ },
+ {
+  "name": "Tectonic Crash",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Emerald Slumber is now instant and resets the cooldown of Ursine Crush."
+ },
+ {
+  "name": "Tectonic Flow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Reduces the cooldown of Primal Rush and Boulder Dash by -20%."
+ },
+ {
+  "name": "Tectonic Resonance",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases the amount that Earthquake slows enemies by %."
+ },
+ {
+  "name": "Tectonic Shield",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Gives successful blocks a % chance to remove a stack of Tectonic Shift."
+ },
+ {
+  "name": "Terraforming",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Seismic Crash now explodes at the end of its duration, dealing an additional its value Nature damage, healing you equal to 100% of the damage dealt."
+ },
+ {
+  "name": "Terrasmash",
+  "icon": "_d3hammeroftheancients",
+  "meta": "Ability",
+  "specs": [
+   "geomancy",
+   "mountain-king"
+  ],
+  "desc": "Damage dealt by Geode Barrage and Seismic Spike now strikes up to 2 additional enemies."
+ },
+ {
+  "name": "Terrasurge",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Unleash a massive globule of earth at an enemy, dealing its value Physical damage and reducing their Armor by % for sec. Pierces through absorption, deflection, and reflection effects. Deals % additional damage for each Earthshaping stack."
+ },
+ {
+  "name": "The Chosen One",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Earthmother's Chosen now also increases your critical strike chance by %."
+ },
+ {
+  "name": "Therazane's Gift",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Therazane's Rage now generates an additional Rage and % additional mana."
+ },
+ {
+  "name": "Therazane's Might",
+  "icon": "inv_elemental_mote_nether",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Your Terrasurge will now always critically strike against targets affected by your Seismic Tremor."
+ },
+ {
+  "name": "Therazane's Rage",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Generates % maximum mana and Rage, plus an additional Rage and its value mana every sec."
+ },
+ {
+  "name": "Throat Clamp",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Command your pet to dash forward a short distance towards your target, interrupting spellcasting and preventing any spell in that school from being cast."
+ },
+ {
+  "name": "Tide's Favor",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Reduces the Rage cost of Hammer of Life."
+ },
+ {
+  "name": "Torn to Shreds",
+  "icon": "achievement_emeraldnightmare_ursoc",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Totemic Smash and Rylak's Bite now causes enemies to bleed for its value over, stacking 2 times."
+ },
+ {
+  "name": "Totem Warrior",
+  "icon": "spell_fire_totemofwrath",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "While you have Boon of the Bear active, Wildclaw will now strike an additional time for % of the damage dealt with both weapons."
+ },
+ {
+  "name": "Totemic Smash",
+  "icon": "ability_smash",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Smash an enemy for % Weapon Damage plus its value. Deals an additional its value damage to up to enemies within yds."
+ },
+ {
+  "name": "Traumatic Wounds",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Critical strikes with Wildclaw now causes your target to bleed for 100% of the damage dealt over."
+ },
+ {
+  "name": "Tremors",
+  "icon": "",
+  "meta": "Ability Passive Lvl 30",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Level 30 Passive Periodic damage now has a % chance to reset the cooldown of your |CffffffffSeismic abilties and cause your next cast within to be free of cost."
+ },
+ {
+  "name": "Tribalism",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Damage dealt by Wildclaw now increases you and your Spirit pet's critical strike chance by %, stacking times."
+ },
+ {
+  "name": "Unstable Fracture",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Erect a mighty pillar of earth from beneath an enemy, inflicting its value Nature damage to up to enemies within yds, splitting the damage evenly amongst all enemies."
+ },
+ {
+  "name": "Untamed",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "Increases the range of Primal Rush by 3 yds."
+ },
+ {
+  "name": "Unyielding Form",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Increases your parry and dodge chance by % and your Armor contribution from mail and plate by %."
+ },
+ {
+  "name": "Ursoc's Bellow",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "mountain-king"
+  ],
+  "desc": "Bellow with the might of Ursoc, reduce attack power of enemies within yds by."
+ },
+ {
+  "name": "Volcanic Blast",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Your Physical or Nature damaging critical strikes now deal an additional % of the damage dealt as Fire damage to the target and enemies nearby."
+ },
+ {
+  "name": "Waters of Neptulon",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "2 Charges 10 sec recharge Unleash soothing water, healing up to allies within yds. Active Boons are extended by sec."
+ },
+ {
+  "name": "Wild Warrior",
+  "icon": "",
+  "meta": "Ability Passive Lvl 20",
+  "specs": [
+   "mountain-king",
+   "wildwalker"
+  ],
+  "desc": "Level 20 Passive Damage dealt by Wildclaw or Quake now reduces the cooldown of Seismic abilities by sec."
+ },
+ {
+  "name": "Wildaxe",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Strike an enemy, dealing its value Physical damage with both weapons, and causing a special effect based on your active pet. Dealing direct Physical damage reduces the remaining cooldown of this ability by sec."
+ },
+ {
+  "name": "Wildclaw",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Strike with both weapons, dealing Weapon Damage plus its value."
+ },
+ {
+  "name": "Wildfury",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Casting Wildshape now restores % of your maximum health."
+ },
+ {
+  "name": "Wildheart",
+  "icon": "inv_elemental_primal_life",
+  "meta": "Ability",
+  "specs": [
+   "all"
+  ],
+  "desc": "The Earthmother marks you as her chosen one, reducing the cooldown of all other non-damaging spells and abilities by %, repeating every sec. Instantly restores % missing health, mana, and Rage to you, repeating every sec."
+ },
+ {
+  "name": "Wildmend",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "grovekeeper"
+  ],
+  "desc": "Heals an ally, scaling with your attack power and healing spell power. Any effects that impact your Ruptured Earth ability also affect this spell."
+ },
+ {
+  "name": "Wildwalking",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Increases Agility and movement speed by %."
+ },
+ {
+  "name": "Wildwalking Primalist",
+  "icon": "",
+  "meta": "Talent",
+  "specs": [
+   "wildwalker"
+  ],
+  "desc": "Teaches Tame Beast, allowing you to tame beasts throughout Azeroth to be your companion."
+ },
+ {
+  "name": "World Shaper",
+  "icon": "",
+  "meta": "Ability",
+  "specs": [
+   "geomancy"
+  ],
+  "desc": "Every sec, you passively gain a stack of World Shaper, stacking 5 times. In addition, your direct damage dealt now has a % chance to generate a stack of |CffffffffWorldshaper."
+ }
+]

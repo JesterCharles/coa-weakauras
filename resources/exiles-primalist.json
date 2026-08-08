@@ -1,0 +1,3632 @@
+{
+ "Add Brutaliz Stack": {
+  "ids": [
+   800681
+  ],
+  "icon": null
+ },
+ "Aftershock": {
+  "ids": [
+   301086
+  ],
+  "icon": null
+ },
+ "Ancient Form": {
+  "ids": [
+   504369
+  ],
+  "icon": null
+ },
+ "Ancient Power": {
+  "ids": [
+   300740
+  ],
+  "icon": null
+ },
+ "Ancient of Lore": {
+  "ids": [
+   805105
+  ],
+  "icon": null
+ },
+ "Ancient of War": {
+  "ids": [
+   504222
+  ],
+  "icon": null
+ },
+ "Animal Companions (DEPRECATED)": {
+  "ids": [
+   804180
+  ],
+  "icon": null
+ },
+ "Animal Frienship - Reapply Scaling": {
+  "ids": [
+   706296
+  ],
+  "icon": null
+ },
+ "Animal Spirit Visual Aura": {
+  "ids": [
+   574306
+  ],
+  "icon": null
+ },
+ "Ankle Bite": {
+  "ids": [
+   570008
+  ],
+  "icon": null
+ },
+ "Bash": {
+  "ids": [
+   680964
+  ],
+  "icon": null
+ },
+ "Bashed": {
+  "ids": [
+   680949
+  ],
+  "icon": null
+ },
+ "Battle Druid": {
+  "ids": [
+   300734
+  ],
+  "icon": null
+ },
+ "Battleweaver": {
+  "ids": [
+   300733
+  ],
+  "icon": null
+ },
+ "Bear Charm": {
+  "ids": [
+   760373
+  ],
+  "icon": null
+ },
+ "Bear Mastery": {
+  "ids": [
+   524728
+  ],
+  "icon": null
+ },
+ "Bear Spirit's Slam": {
+  "ids": [
+   806570
+  ],
+  "icon": null
+ },
+ "Bear's Maw": {
+  "ids": [
+   502734
+  ],
+  "icon": null
+ },
+ "Bearskin": {
+  "ids": [
+   800094
+  ],
+  "icon": null
+ },
+ "Beast Lore": {
+  "ids": [
+   572020
+  ],
+  "icon": null
+ },
+ "Beast Mastery": {
+  "ids": [
+   706152
+  ],
+  "icon": null
+ },
+ "Beastmaster's Recall": {
+  "ids": [
+   573364
+  ],
+  "icon": null
+ },
+ "Beastmastery": {
+  "ids": [
+   806560
+  ],
+  "icon": null
+ },
+ "Bestial Fury": {
+  "ids": [
+   706151
+  ],
+  "icon": null
+ },
+ "Bestial Might": {
+  "ids": [
+   704102
+  ],
+  "icon": null
+ },
+ "Bestial Might Debuff": {
+  "ids": [
+   704169
+  ],
+  "icon": null
+ },
+ "Bestial Reflexes": {
+  "ids": [
+   706198
+  ],
+  "icon": null
+ },
+ "Bestial Strikes": {
+  "ids": [
+   560312
+  ],
+  "icon": null
+ },
+ "Bestial Wrath": {
+  "ids": [
+   572047
+  ],
+  "icon": null
+ },
+ "Bioerosion": {
+  "ids": [
+   575848
+  ],
+  "icon": null
+ },
+ "Bitten Ankle": {
+  "ids": [
+   570013
+  ],
+  "icon": null
+ },
+ "Blessed by the Earth": {
+  "ids": [
+   300695
+  ],
+  "icon": null
+ },
+ "Blessed by the Earthmother": {
+  "ids": [
+   560234
+  ],
+  "icon": null
+ },
+ "Blessing of Neptulon": {
+  "ids": [
+   520263
+  ],
+  "icon": null
+ },
+ "Blessing of Therazane": {
+  "ids": [
+   680439
+  ],
+  "icon": null
+ },
+ "Bloody Chomp": {
+  "ids": [
+   806650
+  ],
+  "icon": null
+ },
+ "Bloody Claws": {
+  "ids": [
+   504874
+  ],
+  "icon": null
+ },
+ "Body of Magma": {
+  "ids": [
+   801352
+  ],
+  "icon": null
+ },
+ "Boon Extender1": {
+  "ids": [
+   504443
+  ],
+  "icon": null
+ },
+ "Boon Extender2": {
+  "ids": [
+   504444
+  ],
+  "icon": null
+ },
+ "Boon Mastery": {
+  "ids": [
+   537213
+  ],
+  "icon": null
+ },
+ "Boon of the Bear": {
+  "ids": [
+   500939
+  ],
+  "icon": null
+ },
+ "Boon of the Deprecated": {
+  "ids": [
+   500942
+  ],
+  "icon": null
+ },
+ "Boon of the Eagle": {
+  "ids": [
+   504773
+  ],
+  "icon": null
+ },
+ "Boon of the Elements": {
+  "ids": [
+   680428
+  ],
+  "icon": null
+ },
+ "Boon of the Hawk": {
+  "ids": [
+   500943
+  ],
+  "icon": null
+ },
+ "Boon of the Lion": {
+  "ids": [
+   504856
+  ],
+  "icon": null
+ },
+ "Boon of the Turtle": {
+  "ids": [
+   500935
+  ],
+  "icon": null
+ },
+ "Boon of the Wolf": {
+  "ids": [
+   800137
+  ],
+  "icon": null
+ },
+ "Boon of the Wolf Hidden Min Speed": {
+  "ids": [
+   520288
+  ],
+  "icon": null
+ },
+ "Boonie Goonies": {
+  "ids": [
+   524744
+  ],
+  "icon": null
+ },
+ "Boontiful": {
+  "ids": [
+   560485
+  ],
+  "icon": null
+ },
+ "Boulder Dash": {
+  "ids": [
+   500692
+  ],
+  "icon": null
+ },
+ "Boulder Dash Refresh": {
+  "ids": [
+   504202
+  ],
+  "icon": null
+ },
+ "Boulder Dash SLS2": {
+  "ids": [
+   681302
+  ],
+  "icon": null
+ },
+ "Bouldermancer": {
+  "ids": [
+   560506
+  ],
+  "icon": null
+ },
+ "Bountiful Boons": {
+  "ids": [
+   706203
+  ],
+  "icon": null
+ },
+ "Bramblepatch": {
+  "ids": [
+   806415
+  ],
+  "icon": null
+ },
+ "Brilliance": {
+  "ids": [
+   680455
+  ],
+  "icon": null
+ },
+ "Bring Me Their Bones": {
+  "ids": [
+   806378
+  ],
+  "icon": null
+ },
+ "Broken and Defeated": {
+  "ids": [
+   680432
+  ],
+  "icon": null
+ },
+ "Bronzeheart": {
+  "ids": [
+   805920
+  ],
+  "icon": null
+ },
+ "Brutalize": {
+  "ids": [
+   800682
+  ],
+  "icon": null
+ },
+ "Brutalize (Offhand)": {
+  "ids": [
+   560314
+  ],
+  "icon": null
+ },
+ "CD remover for Boons (Primalist)": {
+  "ids": [
+   524771
+  ],
+  "icon": null
+ },
+ "Call Animal Spirit": {
+  "ids": [
+   574302
+  ],
+  "icon": null
+ },
+ "Call of the Mountain": {
+  "ids": [
+   680406
+  ],
+  "icon": null
+ },
+ "Calm Nature": {
+  "ids": [
+   567231
+  ],
+  "icon": null
+ },
+ "Cascading Restoration": {
+  "ids": [
+   706169
+  ],
+  "icon": null
+ },
+ "Cataclysm": {
+  "ids": [
+   680444
+  ],
+  "icon": null
+ },
+ "Cave Dweller": {
+  "ids": [
+   574314
+  ],
+  "icon": null
+ },
+ "Cave In": {
+  "ids": [
+   500615
+  ],
+  "icon": null
+ },
+ "Caved In": {
+  "ids": [
+   500763
+  ],
+  "icon": null
+ },
+ "Circle of Life": {
+  "ids": [
+   706205
+  ],
+  "icon": null
+ },
+ "Claw Over Claw": {
+  "ids": [
+   680912
+  ],
+  "icon": null
+ },
+ "CoA Aura - Primalist - Geomancy": {
+  "ids": [
+   887086
+  ],
+  "icon": null
+ },
+ "CoA Aura - Primalist - Grovekeeper": {
+  "ids": [
+   887087
+  ],
+  "icon": null
+ },
+ "CoA Aura - Primalist - Mountain King": {
+  "ids": [
+   887085
+  ],
+  "icon": null
+ },
+ "CoA Aura - Primalist - Wildwalker": {
+  "ids": [
+   887084
+  ],
+  "icon": null
+ },
+ "CoA Aura - Primalist Class": {
+  "ids": [
+   887019
+  ],
+  "icon": null
+ },
+ "CoA Fear Dispel Generic Effect": {
+  "ids": [
+   853203
+  ],
+  "icon": null
+ },
+ "Collapsing Cavern": {
+  "ids": [
+   706199
+  ],
+  "icon": null
+ },
+ "Corebreaker": {
+  "ids": [
+   561076
+  ],
+  "icon": null
+ },
+ "Courageous": {
+  "ids": [
+   706164
+  ],
+  "icon": null
+ },
+ "Cracking the Earth": {
+  "ids": [
+   560145
+  ],
+  "icon": null
+ },
+ "Crag": {
+  "ids": [
+   302590
+  ],
+  "icon": null
+ },
+ "Cragforming": {
+  "ids": [
+   302903
+  ],
+  "icon": null
+ },
+ "Crashing Out": {
+  "ids": [
+   574313
+  ],
+  "icon": null
+ },
+ "Crushing Blow": {
+  "ids": [
+   560185
+  ],
+  "icon": null
+ },
+ "Crushing Paws": {
+  "ids": [
+   504230
+  ],
+  "icon": null
+ },
+ "Crushing the Earth": {
+  "ids": [
+   300697
+  ],
+  "icon": null
+ },
+ "Cursed Blood": {
+  "ids": [
+   807565
+  ],
+  "icon": null
+ },
+ "Defender of Therazane": {
+  "ids": [
+   680429
+  ],
+  "icon": null
+ },
+ "Deprecatino": {
+  "ids": [
+   806584
+  ],
+  "icon": null
+ },
+ "Dismiss Animal Spirit": {
+  "ids": [
+   574303
+  ],
+  "icon": null
+ },
+ "Douse": {
+  "ids": [
+   807558
+  ],
+  "icon": null
+ },
+ "Doused": {
+  "ids": [
+   803514
+  ],
+  "icon": null
+ },
+ "Dream": {
+  "ids": [
+   578255
+  ],
+  "icon": null
+ },
+ "Dream Trigger": {
+  "ids": [
+   578256
+  ],
+  "icon": null
+ },
+ "Dreamshield": {
+  "ids": [
+   805106
+  ],
+  "icon": null
+ },
+ "Dreamslip": {
+  "ids": [
+   805867
+  ],
+  "icon": null
+ },
+ "Dreamway: Bough Shadow": {
+  "ids": [
+   804744
+  ],
+  "icon": null
+ },
+ "Dreamway: Dream Bough": {
+  "ids": [
+   804743
+  ],
+  "icon": null
+ },
+ "Dreamway: Seradane": {
+  "ids": [
+   804741
+  ],
+  "icon": null
+ },
+ "Dreamway: The Twilight Grove": {
+  "ids": [
+   804742
+  ],
+  "icon": null
+ },
+ "Dreamway: Twilight Grove": {
+  "ids": [
+   809937
+  ],
+  "icon": null
+ },
+ "Druid Training": {
+  "ids": [
+   707560
+  ],
+  "icon": null
+ },
+ "Druid of the Claw": {
+  "ids": [
+   706341
+  ],
+  "icon": null
+ },
+ "Dryad Staff": {
+  "ids": [
+   706147
+  ],
+  "icon": null
+ },
+ "Earth Destroyer": {
+  "ids": [
+   560508
+  ],
+  "icon": null
+ },
+ "Earth Pummeling": {
+  "ids": [
+   504201
+  ],
+  "icon": null
+ },
+ "Earth Seer": {
+  "ids": [
+   302593
+  ],
+  "icon": null
+ },
+ "Earth's Embrace": {
+  "ids": [
+   806143
+  ],
+  "icon": null
+ },
+ "Earth's Guidance": {
+  "ids": [
+   706138
+  ],
+  "icon": null
+ },
+ "Earth's Rage": {
+  "ids": [
+   680547
+  ],
+  "icon": null
+ },
+ "Earth's Rage Stack Remover": {
+  "ids": [
+   680549
+  ],
+  "icon": null
+ },
+ "Earthbound": {
+  "ids": [
+   680416
+  ],
+  "icon": null
+ },
+ "Earthbreaker": {
+  "ids": [
+   560147
+  ],
+  "icon": null
+ },
+ "Earthen Avatar": {
+  "ids": [
+   680421
+  ],
+  "icon": null
+ },
+ "Earthen Blast": {
+  "ids": [
+   805646
+  ],
+  "icon": null
+ },
+ "Earthen Champion": {
+  "ids": [
+   680546
+  ],
+  "icon": null
+ },
+ "Earthen Core": {
+  "ids": [
+   560138
+  ],
+  "icon": null
+ },
+ "Earthen Core Stack Remover": {
+  "ids": [
+   563212
+  ],
+  "icon": null
+ },
+ "Earthen Endurance": {
+  "ids": [
+   570752
+  ],
+  "icon": null
+ },
+ "Earthen Gamble": {
+  "ids": [
+   680449
+  ],
+  "icon": null
+ },
+ "Earthen Grace": {
+  "ids": [
+   680551
+  ],
+  "icon": null
+ },
+ "Earthen Resolve": {
+  "ids": [
+   706141
+  ],
+  "icon": null
+ },
+ "Earthen Skin": {
+  "ids": [
+   805645
+  ],
+  "icon": null
+ },
+ "Earthen Surge": {
+  "ids": [
+   680468
+  ],
+  "icon": null
+ },
+ "Earthenforged Barrier": {
+  "ids": [
+   680408
+  ],
+  "icon": null
+ },
+ "Earthfury": {
+  "ids": [
+   806577
+  ],
+  "icon": null
+ },
+ "Earthmaker": {
+  "ids": [
+   560150
+  ],
+  "icon": null
+ },
+ "Earthmother's Binding": {
+  "ids": [
+   805107
+  ],
+  "icon": null
+ },
+ "Earthmother's Blessing": {
+  "ids": [
+   504206
+  ],
+  "icon": null
+ },
+ "Earthmother's Chosen": {
+  "ids": [
+   520472
+  ],
+  "icon": null
+ },
+ "Earthmother's Empowerment": {
+  "ids": [
+   300738
+  ],
+  "icon": null
+ },
+ "Earthmother's Glory": {
+  "ids": [
+   542572
+  ],
+  "icon": null
+ },
+ "Earthmother's Grace": {
+  "ids": [
+   706140
+  ],
+  "icon": null
+ },
+ "Earthmother's Guidance": {
+  "ids": [
+   573234
+  ],
+  "icon": null
+ },
+ "Earthmother's Hammer": {
+  "ids": [
+   803946
+  ],
+  "icon": null
+ },
+ "Earthmother's Protection": {
+  "ids": [
+   560298
+  ],
+  "icon": null
+ },
+ "Earthmother's Roar": {
+  "ids": [
+   301306
+  ],
+  "icon": null
+ },
+ "Earthmother's Warden": {
+  "ids": [
+   707514
+  ],
+  "icon": null
+ },
+ "Earthmother, Guide Me": {
+  "ids": [
+   680447
+  ],
+  "icon": null
+ },
+ "Earthquake": {
+  "ids": [
+   520412
+  ],
+  "icon": null
+ },
+ "Earthshake": {
+  "ids": [
+   570009
+  ],
+  "icon": null
+ },
+ "Earthshaker": {
+  "ids": [
+   300698
+  ],
+  "icon": null
+ },
+ "Earthshaping": {
+  "ids": [
+   92149
+  ],
+  "icon": null
+ },
+ "Earthshaping SLS2": {
+  "ids": [
+   532562
+  ],
+  "icon": null
+ },
+ "Electrical Wizard": {
+  "ids": [
+   680393
+  ],
+  "icon": null
+ },
+ "Elemental Berserker": {
+  "ids": [
+   706338
+  ],
+  "icon": null
+ },
+ "Elemental Cascade": {
+  "ids": [
+   504196
+  ],
+  "icon": null
+ },
+ "Elemental Mastery": {
+  "ids": [
+   524717
+  ],
+  "icon": null
+ },
+ "Elemental Spirit's Power": {
+  "ids": [
+   806575
+  ],
+  "icon": null
+ },
+ "Embraced By Earth!": {
+  "ids": [
+   561037
+  ],
+  "icon": null
+ },
+ "Emerald Dream Screen Effect": {
+  "ids": [
+   806417
+  ],
+  "icon": null
+ },
+ "Emerald Protection": {
+  "ids": [
+   300736
+  ],
+  "icon": null
+ },
+ "Emerald Will": {
+  "ids": [
+   500302
+  ],
+  "icon": null
+ },
+ "Empowered Boon Caster1": {
+  "ids": [
+   545465
+  ],
+  "icon": null
+ },
+ "Empowered Boon Caster2": {
+  "ids": [
+   545501
+  ],
+  "icon": null
+ },
+ "Empowered Boon Extender1": {
+  "ids": [
+   545462
+  ],
+  "icon": null
+ },
+ "Empowered Boon Extender2": {
+  "ids": [
+   545463
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Bear": {
+  "ids": [
+   523524
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Elements": {
+  "ids": [
+   523528
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Hawk": {
+  "ids": [
+   523526
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Lion": {
+  "ids": [
+   505220
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Tiger": {
+  "ids": [
+   523525
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Turtle": {
+  "ids": [
+   523523
+  ],
+  "icon": null
+ },
+ "Empowered Boon of the Wolf": {
+  "ids": [
+   523527
+  ],
+  "icon": null
+ },
+ "Empowered Boons": {
+  "ids": [
+   706340
+  ],
+  "icon": null
+ },
+ "Empowered Earth": {
+  "ids": [
+   806538
+  ],
+  "icon": null
+ },
+ "Empowered Fist Primalist (Stoneslam)": {
+  "ids": [
+   801515
+  ],
+  "icon": null
+ },
+ "Empowered Fist Primalist2": {
+  "ids": [
+   504231
+  ],
+  "icon": null
+ },
+ "Energize +2 Rage": {
+  "ids": [
+   521233
+  ],
+  "icon": null
+ },
+ "Energize 1%": {
+  "ids": [
+   504332
+  ],
+  "icon": null
+ },
+ "Energize 1% Missing Mana": {
+  "ids": [
+   504841
+  ],
+  "icon": null
+ },
+ "Energize 15%": {
+  "ids": [
+   504838
+  ],
+  "icon": null
+ },
+ "Energize 20 Rage": {
+  "ids": [
+   681355
+  ],
+  "icon": null
+ },
+ "Energize 3 Rage": {
+  "ids": [
+   504625
+  ],
+  "icon": null
+ },
+ "Energize 4%": {
+  "ids": [
+   524366
+  ],
+  "icon": null
+ },
+ "Energize 5 Rage": {
+  "ids": [
+   504247
+  ],
+  "icon": null
+ },
+ "Energize 5%": {
+  "ids": [
+   504679
+  ],
+  "icon": null
+ },
+ "Energize 5% Base": {
+  "ids": [
+   504876
+  ],
+  "icon": null
+ },
+ "Energize 5% Missing": {
+  "ids": [
+   504858
+  ],
+  "icon": null
+ },
+ "Energize 5% Missing Mana": {
+  "ids": [
+   504836
+  ],
+  "icon": null
+ },
+ "Energize Base 2%": {
+  "ids": [
+   504731
+  ],
+  "icon": null
+ },
+ "Energize Base 20%": {
+  "ids": [
+   504811
+  ],
+  "icon": null
+ },
+ "Energize Pet +5 Focus": {
+  "ids": [
+   521231
+  ],
+  "icon": null
+ },
+ "Enhanced Plating": {
+  "ids": [
+   806080
+  ],
+  "icon": null
+ },
+ "Environmentalist": {
+  "ids": [
+   300729
+  ],
+  "icon": null
+ },
+ "Eruption": {
+  "ids": [
+   802335
+  ],
+  "icon": null
+ },
+ "Essence of Convergence": {
+  "ids": [
+   573350
+  ],
+  "icon": null
+ },
+ "Essence of Dispersion": {
+  "ids": [
+   572818
+  ],
+  "icon": null
+ },
+ "Essence of Nature": {
+  "ids": [
+   581314
+  ],
+  "icon": null
+ },
+ "Eternally Chosen": {
+  "ids": [
+   802888
+  ],
+  "icon": null
+ },
+ "Everlasting Rage": {
+  "ids": [
+   561190
+  ],
+  "icon": null
+ },
+ "Everythings A Nail": {
+  "ids": [
+   680405
+  ],
+  "icon": null
+ },
+ "Fae Dust": {
+  "ids": [
+   804664
+  ],
+  "icon": null
+ },
+ "Feasting Maw": {
+  "ids": [
+   706172
+  ],
+  "icon": null
+ },
+ "Feeding Frenzy": {
+  "ids": [
+   806649
+  ],
+  "icon": null
+ },
+ "Fist of Al'Akir": {
+  "ids": [
+   504233
+  ],
+  "icon": null
+ },
+ "Fist of Al'Akir Visual": {
+  "ids": [
+   707029
+  ],
+  "icon": null
+ },
+ "Fist of Ragnaros": {
+  "ids": [
+   800136
+  ],
+  "icon": null
+ },
+ "Flourishing Growth": {
+  "ids": [
+   805442
+  ],
+  "icon": null
+ },
+ "Focus": {
+  "ids": [
+   680936
+  ],
+  "icon": null
+ },
+ "For the Earthmother!": {
+  "ids": [
+   560299
+  ],
+  "icon": null
+ },
+ "Force Pet Cast Wildaxe Triggers 1": {
+  "ids": [
+   806579
+  ],
+  "icon": null
+ },
+ "Force Pet Cast Wildaxe Triggers 2": {
+  "ids": [
+   806580
+  ],
+  "icon": null
+ },
+ "Forgemaster Strike": {
+  "ids": [
+   804034
+  ],
+  "icon": null
+ },
+ "Fracture Stacks": {
+  "ids": [
+   680461
+  ],
+  "icon": null
+ },
+ "Fractures": {
+  "ids": [
+   561180
+  ],
+  "icon": null
+ },
+ "Frenzied Roar": {
+  "ids": [
+   800133
+  ],
+  "icon": null
+ },
+ "Fury of the Earth": {
+  "ids": [
+   680436
+  ],
+  "icon": null
+ },
+ "Fury of the Earthmother": {
+  "ids": [
+   680412
+  ],
+  "icon": null
+ },
+ "Fury of the Earthmother Gen": {
+  "ids": [
+   520134
+  ],
+  "icon": null
+ },
+ "Fury of the Elements": {
+  "ids": [
+   706165
+  ],
+  "icon": null
+ },
+ "Fury of the Wild": {
+  "ids": [
+   502748
+  ],
+  "icon": null
+ },
+ "Gaze of Theradras": {
+  "ids": [
+   572908
+  ],
+  "icon": null
+ },
+ "Gaze of Therazane": {
+  "ids": [
+   680453
+  ],
+  "icon": null
+ },
+ "Geode": {
+  "ids": [
+   804002
+  ],
+  "icon": null
+ },
+ "Geode Barrage": {
+  "ids": [
+   355467
+  ],
+  "icon": null
+ },
+ "Geode Born": {
+  "ids": [
+   300726
+  ],
+  "icon": null
+ },
+ "Geode Chain": {
+  "ids": [
+   706214
+  ],
+  "icon": null
+ },
+ "Geode Empowerment": {
+  "ids": [
+   560136
+  ],
+  "icon": null
+ },
+ "Geofissure": {
+  "ids": [
+   561281
+  ],
+  "icon": null
+ },
+ "Geomolding": {
+  "ids": [
+   560169
+  ],
+  "icon": null
+ },
+ "Geothermal": {
+  "ids": [
+   503700
+  ],
+  "icon": null
+ },
+ "Golem Form": {
+  "ids": [
+   805335
+  ],
+  "icon": null
+ },
+ "Greater Earthen Endurance": {
+  "ids": [
+   570756
+  ],
+  "icon": null
+ },
+ "Greater Essence of Convergence": {
+  "ids": [
+   573354
+  ],
+  "icon": null
+ },
+ "Greater Essence of Nature": {
+  "ids": [
+   582261
+  ],
+  "icon": null
+ },
+ "Greater Grove Instinct": {
+  "ids": [
+   572817
+  ],
+  "icon": null
+ },
+ "Greater Primal Instinct": {
+  "ids": [
+   680310
+  ],
+  "icon": null
+ },
+ "Grip": {
+  "ids": [
+   800145
+  ],
+  "icon": null
+ },
+ "Ground Tremors": {
+  "ids": [
+   704285
+  ],
+  "icon": null
+ },
+ "Groundshaker": {
+  "ids": [
+   503701
+  ],
+  "icon": null
+ },
+ "Grove Guardian": {
+  "ids": [
+   503721
+  ],
+  "icon": null
+ },
+ "Grove Instinct": {
+  "ids": [
+   572810
+  ],
+  "icon": null
+ },
+ "Grove Tender": {
+  "ids": [
+   706148
+  ],
+  "icon": null
+ },
+ "Grove Training": {
+  "ids": [
+   92150
+  ],
+  "icon": null
+ },
+ "Grovekeeper": {
+  "ids": [
+   805444
+  ],
+  "icon": null
+ },
+ "Grovekeeper - Level 15 Passive": {
+  "ids": [
+   560984
+  ],
+  "icon": null
+ },
+ "Grovekeeper's Presence": {
+  "ids": [
+   805443
+  ],
+  "icon": null
+ },
+ "Hammer Time!": {
+  "ids": [
+   681435
+  ],
+  "icon": null
+ },
+ "Hammer of Life": {
+  "ids": [
+   572288
+  ],
+  "icon": null
+ },
+ "Hammer of Life Rage Gen": {
+  "ids": [
+   804123
+  ],
+  "icon": null
+ },
+ "Hammered": {
+  "ids": [
+   680434
+  ],
+  "icon": null
+ },
+ "Hand of Neptulon": {
+  "ids": [
+   560306
+  ],
+  "icon": null
+ },
+ "Hand of Ragnaros": {
+  "ids": [
+   560215
+  ],
+  "icon": null
+ },
+ "Hand of a God": {
+  "ids": [
+   561208
+  ],
+  "icon": null
+ },
+ "Hand of the Earthmother": {
+  "ids": [
+   800135
+  ],
+  "icon": null
+ },
+ "Harness Animal Spirit": {
+  "ids": [
+   574301
+  ],
+  "icon": null
+ },
+ "Harvest Time!": {
+  "ids": [
+   505322
+  ],
+  "icon": null
+ },
+ "Hawk Mastery": {
+  "ids": [
+   524722
+  ],
+  "icon": null
+ },
+ "Hawk Spirit's Call": {
+  "ids": [
+   806573
+  ],
+  "icon": null
+ },
+ "Heal 5%": {
+  "ids": [
+   504831
+  ],
+  "icon": null
+ },
+ "Heart of the Bear": {
+  "ids": [
+   706156
+  ],
+  "icon": null
+ },
+ "Heart of the Mountain": {
+  "ids": [
+   807734
+  ],
+  "icon": null
+ },
+ "Heavy Earth": {
+  "ids": [
+   560142
+  ],
+  "icon": null
+ },
+ "Heavy Flow": {
+  "ids": [
+   560509
+  ],
+  "icon": null
+ },
+ "Heavy Handed": {
+  "ids": [
+   706344
+  ],
+  "icon": null
+ },
+ "Huffer's Speed": {
+  "ids": [
+   560971
+  ],
+  "icon": null
+ },
+ "Hurl Geode": {
+  "ids": [
+   806545
+  ],
+  "icon": null
+ },
+ "Improved Boons": {
+  "ids": [
+   706146
+  ],
+  "icon": null
+ },
+ "Improved Fist of Ragnaros": {
+  "ids": [
+   560149
+  ],
+  "icon": null
+ },
+ "Improved Primal Charge": {
+  "ids": [
+   300721
+  ],
+  "icon": null
+ },
+ "Improved Primal Infusion": {
+  "ids": [
+   300741
+  ],
+  "icon": null
+ },
+ "Improved Stonefall": {
+  "ids": [
+   706202
+  ],
+  "icon": null
+ },
+ "Improved Ursoc's Bellow": {
+  "ids": [
+   560505
+  ],
+  "icon": null
+ },
+ "Infused With Power": {
+  "ids": [
+   503718
+  ],
+  "icon": null
+ },
+ "Infusion of Neptulon": {
+  "ids": [
+   300731
+  ],
+  "icon": null
+ },
+ "Into The Volcano": {
+  "ids": [
+   560186
+  ],
+  "icon": null
+ },
+ "Journey": {
+  "ids": [
+   553275
+  ],
+  "icon": null
+ },
+ "Journey To The Core": {
+  "ids": [
+   553277
+  ],
+  "icon": null
+ },
+ "Journey to the Core": {
+  "ids": [
+   302534
+  ],
+  "icon": null
+ },
+ "Judgement of The Three Hammers": {
+  "ids": [
+   520466
+  ],
+  "icon": null
+ },
+ "Keen Senses": {
+  "ids": [
+   806533
+  ],
+  "icon": null
+ },
+ "Keeper of the Grove": {
+  "ids": [
+   706137
+  ],
+  "icon": null
+ },
+ "Khaz'goroth's Rage": {
+  "ids": [
+   561116
+  ],
+  "icon": null
+ },
+ "Killer's Path": {
+  "ids": [
+   706633
+  ],
+  "icon": null
+ },
+ "King of the Hill": {
+  "ids": [
+   680425
+  ],
+  "icon": null
+ },
+ "King of the Mountain": {
+  "ids": [
+   570183
+  ],
+  "icon": null
+ },
+ "Knifetwirler": {
+  "ids": [
+   805930
+  ],
+  "icon": null
+ },
+ "Lacerations": {
+  "ids": [
+   560286
+  ],
+  "icon": null
+ },
+ "Landslider": {
+  "ids": [
+   704094
+  ],
+  "icon": null
+ },
+ "Lavabender": {
+  "ids": [
+   706206
+  ],
+  "icon": null
+ },
+ "Lavamancy": {
+  "ids": [
+   704401
+  ],
+  "icon": null
+ },
+ "Legacy of Rexxar": {
+  "ids": [
+   800184
+  ],
+  "icon": null
+ },
+ "Legacy of the Bronzebeards": {
+  "ids": [
+   680424
+  ],
+  "icon": null
+ },
+ "Leokk's Fury": {
+  "ids": [
+   560972
+  ],
+  "icon": null
+ },
+ "Less Than Tranquil": {
+  "ids": [
+   504224
+  ],
+  "icon": null
+ },
+ "Lesser Boon of the Bear": {
+  "ids": [
+   524755
+  ],
+  "icon": null
+ },
+ "Lesser Boon of the Elements": {
+  "ids": [
+   524754
+  ],
+  "icon": null
+ },
+ "Lesser Boon of the Hawk": {
+  "ids": [
+   524753
+  ],
+  "icon": null
+ },
+ "Lesser Boon of the Tiger": {
+  "ids": [
+   524751
+  ],
+  "icon": null
+ },
+ "Lesser Boon of the Turtle": {
+  "ids": [
+   524750
+  ],
+  "icon": null
+ },
+ "Lesser Boon of the Wolf": {
+  "ids": [
+   524749
+  ],
+  "icon": null
+ },
+ "Lesser Dreamshield": {
+  "ids": [
+   504221
+  ],
+  "icon": null
+ },
+ "Lesser Primal Wave": {
+  "ids": [
+   926597
+  ],
+  "icon": null
+ },
+ "Lesser Spirit Charge": {
+  "ids": [
+   572830
+  ],
+  "icon": null
+ },
+ "Life": {
+  "ids": [
+   801163
+  ],
+  "icon": null
+ },
+ "Life Mender": {
+  "ids": [
+   560574
+  ],
+  "icon": null
+ },
+ "Lithic Lance": {
+  "ids": [
+   681251
+  ],
+  "icon": null
+ },
+ "Loa Idol": {
+  "ids": [
+   807002
+  ],
+  "icon": null
+ },
+ "Magma Fissure": {
+  "ids": [
+   802793
+  ],
+  "icon": null
+ },
+ "Magma Geode": {
+  "ids": [
+   560176
+  ],
+  "icon": null
+ },
+ "Magma Geode (Decrement)": {
+  "ids": [
+   706390
+  ],
+  "icon": null
+ },
+ "Magma Shell": {
+  "ids": [
+   704400
+  ],
+  "icon": null
+ },
+ "Magmafury": {
+  "ids": [
+   706163
+  ],
+  "icon": null
+ },
+ "Magmatism": {
+  "ids": [
+   560166
+  ],
+  "icon": null
+ },
+ "Magmaweaving": {
+  "ids": [
+   680438
+  ],
+  "icon": null
+ },
+ "Mana Capacitors": {
+  "ids": [
+   504748
+  ],
+  "icon": null
+ },
+ "Many Spines": {
+  "ids": [
+   706175
+  ],
+  "icon": null
+ },
+ "Mark of Chaos": {
+  "ids": [
+   524713
+  ],
+  "icon": null
+ },
+ "Master Elementalist": {
+  "ids": [
+   504195
+  ],
+  "icon": null
+ },
+ "Master Geomancer": {
+  "ids": [
+   681127
+  ],
+  "icon": null
+ },
+ "Mastery Buffs": {
+  "ids": [
+   520521
+  ],
+  "icon": null
+ },
+ "Melting Point": {
+  "ids": [
+   504843
+  ],
+  "icon": null
+ },
+ "Mend Animal Spirit": {
+  "ids": [
+   570335
+  ],
+  "icon": null
+ },
+ "Mending Growth": {
+  "ids": [
+   502784
+  ],
+  "icon": null
+ },
+ "Mending Touch": {
+  "ids": [
+   524971
+  ],
+  "icon": null
+ },
+ "Mighty Mountain": {
+  "ids": [
+   302524
+  ],
+  "icon": null
+ },
+ "Mineralization": {
+  "ids": [
+   520464
+  ],
+  "icon": null
+ },
+ "Misha's Fury": {
+  "ids": [
+   570004
+  ],
+  "icon": null
+ },
+ "Misha's Gift": {
+  "ids": [
+   706149
+  ],
+  "icon": null
+ },
+ "Misha's Rage": {
+  "ids": [
+   504227
+  ],
+  "icon": null
+ },
+ "Molten Fervor": {
+  "ids": [
+   680476
+  ],
+  "icon": null
+ },
+ "Monolith Smash": {
+  "ids": [
+   991349
+  ],
+  "icon": null
+ },
+ "More Eruptions!": {
+  "ids": [
+   560143
+  ],
+  "icon": null
+ },
+ "Mortal Peck": {
+  "ids": [
+   570006
+  ],
+  "icon": null
+ },
+ "Mountain Avatar": {
+  "ids": [
+   707616
+  ],
+  "icon": null
+ },
+ "Mountain Fury": {
+  "ids": [
+   806185
+  ],
+  "icon": null
+ },
+ "Mountain Giant": {
+  "ids": [
+   680395
+  ],
+  "icon": null
+ },
+ "Mountain Hammer": {
+  "ids": [
+   681130
+  ],
+  "icon": null
+ },
+ "Mountain King - Level 15 Passive": {
+  "ids": [
+   574317
+  ],
+  "icon": null
+ },
+ "Mountain King - Level 50 Passive": {
+  "ids": [
+   712446
+  ],
+  "icon": null
+ },
+ "Mountain King SLS3": {
+  "ids": [
+   803976
+  ],
+  "icon": null
+ },
+ "Mountain King Spec Passive CDR": {
+  "ids": [
+   681357
+  ],
+  "icon": null
+ },
+ "Mountain Mover": {
+  "ids": [
+   805643
+  ],
+  "icon": null
+ },
+ "Mountain Thane": {
+  "ids": [
+   680404
+  ],
+  "icon": null
+ },
+ "Mountain's Might": {
+  "ids": [
+   805874
+  ],
+  "icon": null
+ },
+ "Mountain's Reverence": {
+  "ids": [
+   712433
+  ],
+  "icon": null
+ },
+ "My Totem, My Rules": {
+  "ids": [
+   504445
+  ],
+  "icon": null
+ },
+ "Nature's Blessing": {
+  "ids": [
+   807466
+  ],
+  "icon": null
+ },
+ "Nature's Call": {
+  "ids": [
+   706150
+  ],
+  "icon": null
+ },
+ "Nature's Fury": {
+  "ids": [
+   300742
+  ],
+  "icon": null
+ },
+ "Nature's Will": {
+  "ids": [
+   536256
+  ],
+  "icon": null
+ },
+ "Neptulon's Grace": {
+  "ids": [
+   520512
+  ],
+  "icon": null
+ },
+ "Neptulon's Infusion": {
+  "ids": [
+   520414
+  ],
+  "icon": null
+ },
+ "Neptulon's Infusion Remover": {
+  "ids": [
+   524779
+  ],
+  "icon": null
+ },
+ "Neptulon's Infusion Trigger": {
+  "ids": [
+   874436
+  ],
+  "icon": null
+ },
+ "Neptulon's Wrath": {
+  "ids": [
+   537250
+  ],
+  "icon": null
+ },
+ "Neutralizing Touch": {
+  "ids": [
+   572307
+  ],
+  "icon": null
+ },
+ "One With The Earth": {
+  "ids": [
+   704402
+  ],
+  "icon": null
+ },
+ "Placeholder": {
+  "ids": [
+   302906
+  ],
+  "icon": null
+ },
+ "Placeholder of Azeroth": {
+  "ids": [
+   712352
+  ],
+  "icon": null
+ },
+ "Plate Cracker": {
+  "ids": [
+   706158
+  ],
+  "icon": null
+ },
+ "Platebender": {
+  "ids": [
+   680417
+  ],
+  "icon": null
+ },
+ "Power Hammer": {
+  "ids": [
+   303014
+  ],
+  "icon": null
+ },
+ "Power Shield": {
+  "ids": [
+   680426
+  ],
+  "icon": null
+ },
+ "Power of Ursol": {
+  "ids": [
+   706361
+  ],
+  "icon": null
+ },
+ "Powerful Stones": {
+  "ids": [
+   560191
+  ],
+  "icon": null
+ },
+ "Predator's Hunt": {
+  "ids": [
+   500941
+  ],
+  "icon": null
+ },
+ "Preparing to Pulverize!": {
+  "ids": [
+   532516
+  ],
+  "icon": null
+ },
+ "Pridelord": {
+  "ids": [
+   806556
+  ],
+  "icon": null
+ },
+ "Primal Aura": {
+  "ids": [
+   504228
+  ],
+  "icon": null
+ },
+ "Primal Awakening": {
+  "ids": [
+   807560
+  ],
+  "icon": null
+ },
+ "Primal Convergence": {
+  "ids": [
+   800181
+  ],
+  "icon": null
+ },
+ "Primal Defusion": {
+  "ids": [
+   706144
+  ],
+  "icon": null
+ },
+ "Primal Focus": {
+  "ids": [
+   681477
+  ],
+  "icon": null
+ },
+ "Primal Guardian": {
+  "ids": [
+   300728
+  ],
+  "icon": null
+ },
+ "Primal Hunger": {
+  "ids": [
+   706154
+  ],
+  "icon": null
+ },
+ "Primal Infusion": {
+  "ids": [
+   502791
+  ],
+  "icon": null
+ },
+ "Primal Infusion checker": {
+  "ids": [
+   524683
+  ],
+  "icon": null
+ },
+ "Primal Instinct": {
+  "ids": [
+   800197
+  ],
+  "icon": null
+ },
+ "Primal Instincts": {
+  "ids": [
+   706166
+  ],
+  "icon": null
+ },
+ "Primal Might": {
+  "ids": [
+   563263
+  ],
+  "icon": null
+ },
+ "Primal Power": {
+  "ids": [
+   706216
+  ],
+  "icon": null
+ },
+ "Primal Pulse": {
+  "ids": [
+   800177
+  ],
+  "icon": null
+ },
+ "Primal Rage": {
+  "ids": [
+   300690
+  ],
+  "icon": null
+ },
+ "Primal Resurgence": {
+  "ids": [
+   300688
+  ],
+  "icon": null
+ },
+ "Primal Rush": {
+  "ids": [
+   500696
+  ],
+  "icon": null
+ },
+ "Primal Shaman's Mask": {
+  "ids": [
+   800185
+  ],
+  "icon": null
+ },
+ "Primal Shred": {
+  "ids": [
+   500940
+  ],
+  "icon": null
+ },
+ "Primal Shred Cast Visual": {
+  "ids": [
+   801255
+  ],
+  "icon": null
+ },
+ "Primal Slam": {
+  "ids": [
+   504207
+  ],
+  "icon": null
+ },
+ "Primal Spirit: Bear deprecated": {
+  "ids": [
+   805943
+  ],
+  "icon": null
+ },
+ "Primal Spirit: Elemental": {
+  "ids": [
+   806379
+  ],
+  "icon": null
+ },
+ "Primal Spirit: Hawk": {
+  "ids": [
+   805944
+  ],
+  "icon": null
+ },
+ "Primal Spirit: Tiger": {
+  "ids": [
+   805947
+  ],
+  "icon": null
+ },
+ "Primal Spirit: Turtle": {
+  "ids": [
+   805946
+  ],
+  "icon": null
+ },
+ "Primal Spirit: Wolf deprecated": {
+  "ids": [
+   805945
+  ],
+  "icon": null
+ },
+ "Primal Strength": {
+  "ids": [
+   300712
+  ],
+  "icon": null
+ },
+ "Primal Strike": {
+  "ids": [
+   560970
+  ],
+  "icon": null
+ },
+ "Primal Totem": {
+  "ids": [
+   504229
+  ],
+  "icon": null
+ },
+ "Primal Wave Cast Visual": {
+  "ids": [
+   801257
+  ],
+  "icon": null
+ },
+ "Primal Weapon: Bestial Might": {
+  "ids": [
+   563262
+  ],
+  "icon": null
+ },
+ "Primal Weapon: Bestial Might TG": {
+  "ids": [
+   704103
+  ],
+  "icon": null
+ },
+ "Primal Weapon: Primal Might": {
+  "ids": [
+   704098
+  ],
+  "icon": null
+ },
+ "Primal Weapon: Stone": {
+  "ids": [
+   801351
+  ],
+  "icon": null
+ },
+ "Primal Weapons": {
+  "ids": [
+   537218
+  ],
+  "icon": null
+ },
+ "Primalist Instant Pet Scaling / Heal Aura Applier": {
+  "ids": [
+   520507
+  ],
+  "icon": null
+ },
+ "Primalist Pet Periodic Scaling Trigger": {
+  "ids": [
+   524058
+  ],
+  "icon": null
+ },
+ "Primalist Pet Scaling (All)": {
+  "ids": [
+   805948
+  ],
+  "icon": null
+ },
+ "Primalist Pet Scaling Aura": {
+  "ids": [
+   524057
+  ],
+  "icon": null
+ },
+ "Primalist Pet Scaling Aura 1": {
+  "ids": [
+   524060
+  ],
+  "icon": null
+ },
+ "Primalist Pet Scaling Aura 2": {
+  "ids": [
+   524061
+  ],
+  "icon": null
+ },
+ "Primalist Pet Scaling Aura 3": {
+  "ids": [
+   524062
+  ],
+  "icon": null
+ },
+ "Primalist Pet Scaling Aura 4": {
+  "ids": [
+   524063
+  ],
+  "icon": null
+ },
+ "Primalist Stalk": {
+  "ids": [
+   500708
+  ],
+  "icon": null
+ },
+ "Primalistic Synergy": {
+  "ids": [
+   803348
+  ],
+  "icon": null
+ },
+ "Primordial Earth": {
+  "ids": [
+   806536
+  ],
+  "icon": null
+ },
+ "Protective Roar": {
+  "ids": [
+   800142
+  ],
+  "icon": null
+ },
+ "Protector of the Grove": {
+  "ids": [
+   504198
+  ],
+  "icon": null
+ },
+ "Protector's Hand": {
+  "ids": [
+   300730
+  ],
+  "icon": null
+ },
+ "Pulverize": {
+  "ids": [
+   706153
+  ],
+  "icon": null
+ },
+ "Quake": {
+  "ids": [
+   803974
+  ],
+  "icon": null
+ },
+ "Quakeformer": {
+  "ids": [
+   680419
+  ],
+  "icon": null
+ },
+ "Quakemaster": {
+  "ids": [
+   560507
+  ],
+  "icon": null
+ },
+ "Quakemaster2": {
+  "ids": [
+   681111
+  ],
+  "icon": null
+ },
+ "Quaking Thane": {
+  "ids": [
+   561193
+  ],
+  "icon": null
+ },
+ "Quicksand": {
+  "ids": [
+   680915
+  ],
+  "icon": null
+ },
+ "Rage Rolling": {
+  "ids": [
+   561191
+  ],
+  "icon": null
+ },
+ "Rage of Ragnaros": {
+  "ids": [
+   802887
+  ],
+  "icon": null
+ },
+ "Raging Earth": {
+  "ids": [
+   681089
+  ],
+  "icon": null
+ },
+ "Rapid Geodes": {
+  "ids": [
+   560189
+  ],
+  "icon": null
+ },
+ "Raptor Talons": {
+  "ids": [
+   704096
+  ],
+  "icon": null
+ },
+ "Recall Animal Spirit": {
+  "ids": [
+   500860
+  ],
+  "icon": null
+ },
+ "Rejuvenating Boons": {
+  "ids": [
+   706217
+  ],
+  "icon": null
+ },
+ "Resounding Roar": {
+  "ids": [
+   524731
+  ],
+  "icon": null
+ },
+ "Resounding Roar CD Reduc": {
+  "ids": [
+   803136
+  ],
+  "icon": null
+ },
+ "Resources of the Earth": {
+  "ids": [
+   560548
+  ],
+  "icon": null
+ },
+ "Return to Life": {
+  "ids": [
+   801794
+  ],
+  "icon": null
+ },
+ "Rexxar's Might": {
+  "ids": [
+   806559
+  ],
+  "icon": null
+ },
+ "Ride the Wave": {
+  "ids": [
+   300867
+  ],
+  "icon": null
+ },
+ "Ring of Life": {
+  "ids": [
+   804705
+  ],
+  "icon": null
+ },
+ "Rips and Tears": {
+  "ids": [
+   800141
+  ],
+  "icon": null
+ },
+ "Ritual Cleansing": {
+  "ids": [
+   520514
+  ],
+  "icon": null
+ },
+ "Ritualistic": {
+  "ids": [
+   504797
+  ],
+  "icon": null
+ },
+ "Rock Barrage": {
+  "ids": [
+   991352
+  ],
+  "icon": null
+ },
+ "Rock Barrier": {
+  "ids": [
+   503630
+  ],
+  "icon": null
+ },
+ "Rock Beats Everything": {
+  "ids": [
+   561158
+  ],
+  "icon": null
+ },
+ "Rock Formation": {
+  "ids": [
+   805878
+  ],
+  "icon": null
+ },
+ "Rock Formation Periodic": {
+  "ids": [
+   805879
+  ],
+  "icon": null
+ },
+ "Rock Formation Trigger": {
+  "ids": [
+   805877
+  ],
+  "icon": null
+ },
+ "Rock Hard": {
+  "ids": [
+   301062
+  ],
+  "icon": null
+ },
+ "Rock Solid": {
+  "ids": [
+   681363
+  ],
+  "icon": null
+ },
+ "Rock Tomb": {
+  "ids": [
+   560325
+  ],
+  "icon": null
+ },
+ "Rockhide": {
+  "ids": [
+   302533
+  ],
+  "icon": null
+ },
+ "Rockslide": {
+  "ids": [
+   560154
+  ],
+  "icon": null
+ },
+ "Rolling Momentum": {
+  "ids": [
+   680446
+  ],
+  "icon": null
+ },
+ "Rumbler": {
+  "ids": [
+   560144
+  ],
+  "icon": null
+ },
+ "Running on Instinct": {
+  "ids": [
+   300744
+  ],
+  "icon": null
+ },
+ "Ruptured Earth": {
+  "ids": [
+   802724
+  ],
+  "icon": null
+ },
+ "Rupturer": {
+  "ids": [
+   706208
+  ],
+  "icon": null
+ },
+ "Rush of the Hunt": {
+  "ids": [
+   300691
+  ],
+  "icon": null
+ },
+ "Rylak's Bite": {
+  "ids": [
+   706342
+  ],
+  "icon": null
+ },
+ "Rylak's Blessing": {
+  "ids": [
+   802595
+  ],
+  "icon": null
+ },
+ "Sacred Grove": {
+  "ids": [
+   502820
+  ],
+  "icon": null
+ },
+ "Sandstorm": {
+  "ids": [
+   680457
+  ],
+  "icon": null
+ },
+ "Savage Frenzy": {
+  "ids": [
+   806549
+  ],
+  "icon": null
+ },
+ "Seismic Crash": {
+  "ids": [
+   803981
+  ],
+  "icon": null
+ },
+ "Seismic Grasp": {
+  "ids": [
+   807432
+  ],
+  "icon": null
+ },
+ "Seismic Reset": {
+  "ids": [
+   680445
+  ],
+  "icon": null
+ },
+ "Seismic Smash": {
+  "ids": [
+   300693
+  ],
+  "icon": null
+ },
+ "Seismic Spike": {
+  "ids": [
+   804433
+  ],
+  "icon": null
+ },
+ "Seismic Strength": {
+  "ids": [
+   574315
+  ],
+  "icon": null
+ },
+ "Seismic Tremor": {
+  "ids": [
+   680442
+  ],
+  "icon": null
+ },
+ "Seismic Tremor +2": {
+  "ids": [
+   681072
+  ],
+  "icon": null
+ },
+ "Seismic Wave": {
+  "ids": [
+   805462
+  ],
+  "icon": null
+ },
+ "Seismic Waves": {
+  "ids": [
+   707450
+  ],
+  "icon": null
+ },
+ "Seismically Efficient": {
+  "ids": [
+   680413
+  ],
+  "icon": null
+ },
+ "Shaman Training": {
+  "ids": [
+   805445
+  ],
+  "icon": null
+ },
+ "Sharded (remover)": {
+  "ids": [
+   680938
+  ],
+  "icon": null
+ },
+ "Sharpened Claws": {
+  "ids": [
+   504225
+  ],
+  "icon": null
+ },
+ "Shattered Stones": {
+  "ids": [
+   800182
+  ],
+  "icon": null
+ },
+ "Shattering": {
+  "ids": [
+   520469
+  ],
+  "icon": null
+ },
+ "Shielding Wave": {
+  "ids": [
+   706250
+  ],
+  "icon": null
+ },
+ "Shred": {
+  "ids": [
+   806569
+  ],
+  "icon": null
+ },
+ "Shredder": {
+  "ids": [
+   570005
+  ],
+  "icon": null
+ },
+ "Sluggishness": {
+  "ids": [
+   520434
+  ],
+  "icon": null
+ },
+ "Soiled": {
+  "ids": [
+   520133
+  ],
+  "icon": null
+ },
+ "Son of Ursoc": {
+  "ids": [
+   524727
+  ],
+  "icon": null
+ },
+ "Soothing Touch": {
+  "ids": [
+   520841
+  ],
+  "icon": null
+ },
+ "Soulbender": {
+  "ids": [
+   804005
+  ],
+  "icon": null
+ },
+ "Spectral Burst": {
+  "ids": [
+   704359
+  ],
+  "icon": null
+ },
+ "Spinebreaker": {
+  "ids": [
+   537212
+  ],
+  "icon": null
+ },
+ "Spirit Beast Communion": {
+  "ids": [
+   573365
+  ],
+  "icon": null
+ },
+ "Spirit Beast Master": {
+  "ids": [
+   92148
+  ],
+  "icon": null
+ },
+ "Spirit Charge": {
+  "ids": [
+   800144
+  ],
+  "icon": null
+ },
+ "Spirit Stable": {
+  "ids": [
+   573310
+  ],
+  "icon": null
+ },
+ "Spiritbound": {
+  "ids": [
+   681364
+  ],
+  "icon": null
+ },
+ "Spirits of Life": {
+  "ids": [
+   572826
+  ],
+  "icon": null
+ },
+ "Spiritual Frenzy": {
+  "ids": [
+   707367
+  ],
+  "icon": null
+ },
+ "Spiritual Overflow": {
+  "ids": [
+   706143
+  ],
+  "icon": null
+ },
+ "Spiritual Warrior": {
+  "ids": [
+   504220
+  ],
+  "icon": null
+ },
+ "Stalactite": {
+  "ids": [
+   572371
+  ],
+  "icon": null
+ },
+ "Stalk": {
+  "ids": [
+   806550
+  ],
+  "icon": null
+ },
+ "Stalker's Pride": {
+  "ids": [
+   806571
+  ],
+  "icon": null
+ },
+ "Starstrike": {
+  "ids": [
+   807753
+  ],
+  "icon": null
+ },
+ "Stone Barrage": {
+  "ids": [
+   991374
+  ],
+  "icon": null
+ },
+ "Stone Bound": {
+  "ids": [
+   560483
+  ],
+  "icon": null
+ },
+ "Stone Cold": {
+  "ids": [
+   560158
+  ],
+  "icon": null
+ },
+ "Stone Edge": {
+  "ids": [
+   560512
+  ],
+  "icon": null
+ },
+ "Stone Skin": {
+  "ids": [
+   573308
+  ],
+  "icon": null
+ },
+ "Stone Skipping": {
+  "ids": [
+   504203
+  ],
+  "icon": null
+ },
+ "Stone Soldier": {
+  "ids": [
+   570157
+  ],
+  "icon": null
+ },
+ "Stone Tosser": {
+  "ids": [
+   680862
+  ],
+  "icon": null
+ },
+ "Stone Tossing": {
+  "ids": [
+   804991
+  ],
+  "icon": null
+ },
+ "Stonebound": {
+  "ids": [
+   680415
+  ],
+  "icon": null
+ },
+ "Stoned": {
+  "ids": [
+   680414
+  ],
+  "icon": null
+ },
+ "Stoneguard": {
+  "ids": [
+   802205
+  ],
+  "icon": null
+ },
+ "Stoneshard": {
+  "ids": [
+   680448
+  ],
+  "icon": null
+ },
+ "Stoneskin": {
+  "ids": [
+   706162
+  ],
+  "icon": null
+ },
+ "Stoneslam": {
+  "ids": [
+   804370
+  ],
+  "icon": null
+ },
+ "Stoneslam Master": {
+  "ids": [
+   802886
+  ],
+  "icon": null
+ },
+ "Stoneslinger": {
+  "ids": [
+   680435
+  ],
+  "icon": null
+ },
+ "Stoning the Enemy": {
+  "ids": [
+   706213
+  ],
+  "icon": null
+ },
+ "Strength in Numbers": {
+  "ids": [
+   806534
+  ],
+  "icon": null
+ },
+ "Sturdiness": {
+  "ids": [
+   300694
+  ],
+  "icon": null
+ },
+ "Sunwell": {
+  "ids": [
+   853225
+  ],
+  "icon": null
+ },
+ "Swoop": {
+  "ids": [
+   806546
+  ],
+  "icon": null
+ },
+ "Talonfury": {
+  "ids": [
+   806070
+  ],
+  "icon": null
+ },
+ "Talonstrike": {
+  "ids": [
+   801642
+  ],
+  "icon": null
+ },
+ "Tear Them Apart": {
+  "ids": [
+   300718
+  ],
+  "icon": null
+ },
+ "Tears of the Earthmother": {
+  "ids": [
+   574326
+  ],
+  "icon": null
+ },
+ "Tectonic Crash": {
+  "ids": [
+   300692
+  ],
+  "icon": null
+ },
+ "Tectonic Crash Reset": {
+  "ids": [
+   680969
+  ],
+  "icon": null
+ },
+ "Tectonic Flow": {
+  "ids": [
+   802494
+  ],
+  "icon": null
+ },
+ "Tectonic Power": {
+  "ids": [
+   707810
+  ],
+  "icon": null
+ },
+ "Tectonic Resonance": {
+  "ids": [
+   707173
+  ],
+  "icon": null
+ },
+ "Tectonic Shield": {
+  "ids": [
+   805634
+  ],
+  "icon": null
+ },
+ "Tectonic Shift": {
+  "ids": [
+   803977
+  ],
+  "icon": null
+ },
+ "Tectonic Slam": {
+  "ids": [
+   803944
+  ],
+  "icon": null
+ },
+ "Terraforming": {
+  "ids": [
+   706145
+  ],
+  "icon": null
+ },
+ "Terrasmash": {
+  "ids": [
+   706173
+  ],
+  "icon": null
+ },
+ "Terrasurge": {
+  "ids": [
+   681119
+  ],
+  "icon": null
+ },
+ "Terrasurge Visual": {
+  "ids": [
+   520446
+  ],
+  "icon": null
+ },
+ "Thane's Guidance": {
+  "ids": [
+   680410
+  ],
+  "icon": null
+ },
+ "Thane's Rage": {
+  "ids": [
+   804124
+  ],
+  "icon": null
+ },
+ "The Chosen One": {
+  "ids": [
+   706219
+  ],
+  "icon": null
+ },
+ "Therazane's Blessing": {
+  "ids": [
+   560156
+  ],
+  "icon": null
+ },
+ "Therazane's Might": {
+  "ids": [
+   560214
+  ],
+  "icon": null
+ },
+ "Therazane's Rage": {
+  "ids": [
+   503735
+  ],
+  "icon": null
+ },
+ "Thick Skin": {
+  "ids": [
+   504194
+  ],
+  "icon": null
+ },
+ "Thorns": {
+  "ids": [
+   504732
+  ],
+  "icon": null
+ },
+ "Throat Clamp": {
+  "ids": [
+   500764
+  ],
+  "icon": null
+ },
+ "Tide's Favor": {
+  "ids": [
+   500734
+  ],
+  "icon": null
+ },
+ "Tiger Mastery": {
+  "ids": [
+   524056
+  ],
+  "icon": null
+ },
+ "Tiger Spirit's Fury": {
+  "ids": [
+   806572
+  ],
+  "icon": null
+ },
+ "Tiger's Claw": {
+  "ids": [
+   806581
+  ],
+  "icon": null
+ },
+ "Tilling the Earth": {
+  "ids": [
+   680409
+  ],
+  "icon": null
+ },
+ "To The Core": {
+  "ids": [
+   553276
+  ],
+  "icon": null
+ },
+ "Torn to Shreds": {
+  "ids": [
+   500294
+  ],
+  "icon": null
+ },
+ "Totem Warrior": {
+  "ids": [
+   555732
+  ],
+  "icon": null
+ },
+ "Totemic Echoes": {
+  "ids": [
+   500937
+  ],
+  "icon": null
+ },
+ "Totemic Smash": {
+  "ids": [
+   800178
+  ],
+  "icon": null
+ },
+ "Totemic Smash Target Block": {
+  "ids": [
+   525305
+  ],
+  "icon": null
+ },
+ "Tranquil Mind": {
+  "ids": [
+   504223
+  ],
+  "icon": null
+ },
+ "Traumatic Wounds": {
+  "ids": [
+   706168
+  ],
+  "icon": null
+ },
+ "Trembling Rage": {
+  "ids": [
+   560135
+  ],
+  "icon": null
+ },
+ "Tremors": {
+  "ids": [
+   562312
+  ],
+  "icon": null
+ },
+ "Tribal Totem": {
+  "ids": [
+   806696
+  ],
+  "icon": null
+ },
+ "Tribalism": {
+  "ids": [
+   300720
+  ],
+  "icon": null
+ },
+ "Turtle Mastery": {
+  "ids": [
+   524720
+  ],
+  "icon": null
+ },
+ "Turtle Shell": {
+  "ids": [
+   570011
+  ],
+  "icon": null
+ },
+ "Unstable Fracture": {
+  "ids": [
+   500303
+  ],
+  "icon": null
+ },
+ "Untamed": {
+  "ids": [
+   681478
+  ],
+  "icon": null
+ },
+ "Unyielding Form": {
+  "ids": [
+   706161
+  ],
+  "icon": null
+ },
+ "Ursine Crush": {
+  "ids": [
+   504665
+  ],
+  "icon": null
+ },
+ "Ursoc's Bellow": {
+  "ids": [
+   704101
+  ],
+  "icon": null
+ },
+ "Ursoc's Maw": {
+  "ids": [
+   302561
+  ],
+  "icon": null
+ },
+ "Veiled Knight": {
+  "ids": [
+   706184
+  ],
+  "icon": null
+ },
+ "Verdant Chase": {
+  "ids": [
+   560305
+  ],
+  "icon": null
+ },
+ "Verdant Warrior": {
+  "ids": [
+   301299
+  ],
+  "icon": null
+ },
+ "Viridian Essence": {
+  "ids": [
+   504216
+  ],
+  "icon": null
+ },
+ "Vitality Surge": {
+  "ids": [
+   504214
+  ],
+  "icon": null
+ },
+ "Volcanic Blast": {
+  "ids": [
+   680451
+  ],
+  "icon": null
+ },
+ "Volcanic Fury": {
+  "ids": [
+   560141
+  ],
+  "icon": null
+ },
+ "Walking Mountain": {
+  "ids": [
+   520462
+  ],
+  "icon": null
+ },
+ "War Druid": {
+  "ids": [
+   805446
+  ],
+  "icon": null
+ },
+ "Warding Shot": {
+  "ids": [
+   572309
+  ],
+  "icon": null
+ },
+ "Waters of Neptulon": {
+  "ids": [
+   800147
+  ],
+  "icon": null
+ },
+ "Whispers of the Earth": {
+  "ids": [
+   681494
+  ],
+  "icon": null
+ },
+ "Wild At Heart": {
+  "ids": [
+   524677
+  ],
+  "icon": null
+ },
+ "Wild Carnage": {
+  "ids": [
+   503717
+  ],
+  "icon": null
+ },
+ "Wild Rage": {
+  "ids": [
+   301280
+  ],
+  "icon": null
+ },
+ "Wild Rampage": {
+  "ids": [
+   504197
+  ],
+  "icon": null
+ },
+ "Wild Warrior": {
+  "ids": [
+   300714
+  ],
+  "icon": null
+ },
+ "Wild and Dangerous": {
+  "ids": [
+   562318
+  ],
+  "icon": null
+ },
+ "Wildaxe": {
+  "ids": [
+   806551
+  ],
+  "icon": null
+ },
+ "Wildaxe CD Reduc": {
+  "ids": [
+   806557
+  ],
+  "icon": null
+ },
+ "Wildclaw": {
+  "ids": [
+   800140
+  ],
+  "icon": null
+ },
+ "Wildclaw (Offhand)": {
+  "ids": [
+   504240
+  ],
+  "icon": null
+ },
+ "Wildfury": {
+  "ids": [
+   706196
+  ],
+  "icon": null
+ },
+ "Wildheart": {
+  "ids": [
+   803980
+  ],
+  "icon": null
+ },
+ "Wildmend": {
+  "ids": [
+   805108
+  ],
+  "icon": null
+ },
+ "Wildshape Force": {
+  "ids": [
+   801355
+  ],
+  "icon": null
+ },
+ "Wildshape Periodic Aura": {
+  "ids": [
+   801615
+  ],
+  "icon": null
+ },
+ "Wildwalking Primalist": {
+  "ids": [
+   300713
+  ],
+  "icon": null
+ },
+ "Witching Idol": {
+  "ids": [
+   806875
+  ],
+  "icon": null
+ },
+ "Wolf Mastery": {
+  "ids": [
+   524725
+  ],
+  "icon": null
+ },
+ "Wolf Spirit's Claw": {
+  "ids": [
+   806576
+  ],
+  "icon": null
+ },
+ "World Shaper": {
+  "ids": [
+   560187
+  ],
+  "icon": null
+ },
+ "Wrath of Al'Akir": {
+  "ids": [
+   504232
+  ],
+  "icon": null
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "Heart of Azeroth": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Named ONCE in the whole sidekick-data.js blob, inside geomancy's generated 'Line up X, Y, Z with your burst window' cooldown prose -- the 1-hit-in-blob shape that flagged Pyromancer's Comet Storm. No row in exiles-primalist.json (605 spells), no db.ascension.gg record found, no talent in any of the four scraped spec pages mentions it. Unbuildable prose name; recorded null so it does not come back as a fresh mystery on the next import."
+ },
+ "Stonefall": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "5 blob mentions, but every one is a RIDER on it ('Improved Stonefall: Increases the damage of Stonefall...') or the same maintain prose -- the ability itself has no row in exiles-primalist.json and no skillbook entry. db.exil.es knows only 'Improved Stonefall' (706202, Passive). A name with no castable id in any source cannot be built; likely a talent-granted DoT from a geomancy vertical the scraped build does not take. Null, revisit if a player reports the button."
+ },
+ "Dreamshield": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "Cited as a grovekeeper 'cooldown' by the blob's generated prose, but the only resolvable row is 805106, rank='Heal', tooltip 'Restores 3% of your Maximum Health' -- a heal COMPONENT, not a button (the same component smell spellmeta.py documents). The grovekeeper kit references it only through 'Emerald Protection: Allies affected by Dreamshield...', i.e. as an aura another talent applies. No castable id in either DB; null."
+ }
+}

@@ -1,0 +1,1050 @@
+{
+ "_class": "primalist",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Aftershock": {
+   "id": 301086,
+   "state": "record"
+  },
+  "Ancient Power": {
+   "id": 300740,
+   "state": "record"
+  },
+  "Ancient of Lore": {
+   "id": 805105,
+   "state": "record"
+  },
+  "Ancient of War": {
+   "id": 504222,
+   "state": "record"
+  },
+  "Bash": {
+   "id": 680964,
+   "state": "record"
+  },
+  "Battle Druid": {
+   "id": 300734,
+   "state": "record"
+  },
+  "Battleweaver": {
+   "id": 300733,
+   "state": "record"
+  },
+  "Bear's Maw": {
+   "id": 502734,
+   "state": "no-record"
+  },
+  "Bearskin": {
+   "id": 800094,
+   "state": "record"
+  },
+  "Beast Lore": {
+   "id": 572020,
+   "state": "record"
+  },
+  "Beast Mastery": {
+   "id": 706152,
+   "state": "record"
+  },
+  "Beastmaster's Recall": {
+   "id": 573364,
+   "state": "record"
+  },
+  "Bestial Fury": {
+   "id": 706151,
+   "state": "record"
+  },
+  "Bestial Reflexes": {
+   "id": 706198,
+   "state": "record"
+  },
+  "Bestial Strikes": {
+   "id": 560312,
+   "state": "record"
+  },
+  "Bestial Wrath": {
+   "id": 572047,
+   "state": "record"
+  },
+  "Blessed by the Earth": {
+   "id": 300695,
+   "state": "record"
+  },
+  "Blessing of Neptulon": {
+   "id": 520263,
+   "state": "record"
+  },
+  "Body of Magma": {
+   "id": 801352,
+   "state": "record"
+  },
+  "Boon of the Bear": {
+   "id": 500939,
+   "state": "record"
+  },
+  "Boon of the Hawk": {
+   "id": 500943,
+   "state": "record"
+  },
+  "Boon of the Lion": {
+   "id": 504856,
+   "state": "record"
+  },
+  "Boon of the Turtle": {
+   "id": 500935,
+   "state": "record"
+  },
+  "Boon of the Wolf": {
+   "id": 800137,
+   "state": "record"
+  },
+  "Boulder Dash": {
+   "id": 500692,
+   "state": "record"
+  },
+  "Bountiful Boons": {
+   "id": 706203,
+   "state": "record"
+  },
+  "Bramblepatch": {
+   "id": 806415,
+   "state": "record"
+  },
+  "Bring Me Their Bones": {
+   "id": 806378,
+   "state": "record"
+  },
+  "Bronzeheart": {
+   "id": 805920,
+   "state": "record"
+  },
+  "Call Animal Spirit": {
+   "id": 574302,
+   "state": "record"
+  },
+  "Call of the Mountain": {
+   "id": 680406,
+   "state": "record"
+  },
+  "Cascading Restoration": {
+   "id": 706169,
+   "state": "record"
+  },
+  "Cave Dweller": {
+   "id": 574314,
+   "state": "record"
+  },
+  "Cave In": {
+   "id": 500615,
+   "state": "record"
+  },
+  "Circle of Life": {
+   "id": 706205,
+   "state": "record"
+  },
+  "Collapsing Cavern": {
+   "id": 706199,
+   "state": "record"
+  },
+  "Courageous": {
+   "id": 706164,
+   "state": "record"
+  },
+  "Cracking the Earth": {
+   "id": 560145,
+   "state": "record"
+  },
+  "Crashing Out": {
+   "id": 574313,
+   "state": "record"
+  },
+  "Crushing the Earth": {
+   "id": 300697,
+   "state": "record"
+  },
+  "Dismiss Animal Spirit": {
+   "id": 574303,
+   "state": "record"
+  },
+  "Dream": {
+   "id": 578255,
+   "state": "record"
+  },
+  "Dreamslip": {
+   "id": 805867,
+   "state": "record"
+  },
+  "Dreamway: Bough Shadow": {
+   "id": 804744,
+   "state": "record"
+  },
+  "Dreamway: Dream Bough": {
+   "id": 804743,
+   "state": "record"
+  },
+  "Dreamway: Seradane": {
+   "id": 804741,
+   "state": "record"
+  },
+  "Dreamway: The Twilight Grove": {
+   "id": 804742,
+   "state": "record"
+  },
+  "Druid Training": {
+   "id": 707560,
+   "state": "record"
+  },
+  "Druid of the Claw": {
+   "id": 706341,
+   "state": "record"
+  },
+  "Dryad Staff": {
+   "id": 706147,
+   "state": "record"
+  },
+  "Earth's Embrace": {
+   "id": 806143,
+   "state": "record"
+  },
+  "Earth's Rage": {
+   "id": 680547,
+   "state": "record"
+  },
+  "Earthen Avatar": {
+   "id": 680421,
+   "state": "record"
+  },
+  "Earthen Endurance": {
+   "id": 570752,
+   "state": "record"
+  },
+  "Earthen Gamble": {
+   "id": 680449,
+   "state": "record"
+  },
+  "Earthen Resolve": {
+   "id": 706141,
+   "state": "record"
+  },
+  "Earthmother's Binding": {
+   "id": 805107,
+   "state": "record"
+  },
+  "Earthmother's Blessing": {
+   "id": 504206,
+   "state": "record"
+  },
+  "Earthmother's Empowerment": {
+   "id": 300738,
+   "state": "record"
+  },
+  "Earthmother's Grace": {
+   "id": 706140,
+   "state": "record"
+  },
+  "Earthmother's Hammer": {
+   "id": 803946,
+   "state": "record"
+  },
+  "Earthmother's Protection": {
+   "id": 560298,
+   "state": "record"
+  },
+  "Earthquake": {
+   "id": 520412,
+   "state": "record"
+  },
+  "Earthshake": {
+   "id": 570009,
+   "state": "record"
+  },
+  "Earthshaker": {
+   "id": 300698,
+   "state": "record"
+  },
+  "Earthshaping": {
+   "id": 92149,
+   "state": "record"
+  },
+  "Elemental Berserker": {
+   "id": 706338,
+   "state": "record"
+  },
+  "Emerald Protection": {
+   "id": 300736,
+   "state": "record"
+  },
+  "Emerald Will": {
+   "id": 500302,
+   "state": "record"
+  },
+  "Empowered Boons": {
+   "id": 706340,
+   "state": "record"
+  },
+  "Environmentalist": {
+   "id": 300729,
+   "state": "record"
+  },
+  "Eruption": {
+   "id": 802335,
+   "state": "record"
+  },
+  "Essence of Convergence": {
+   "id": 573350,
+   "state": "record"
+  },
+  "Essence of Dispersion": {
+   "id": 572818,
+   "state": "record"
+  },
+  "Essence of Nature": {
+   "id": 581314,
+   "state": "record"
+  },
+  "Eternally Chosen": {
+   "id": 802888,
+   "state": "record"
+  },
+  "Fae Dust": {
+   "id": 804664,
+   "state": "record"
+  },
+  "Feasting Maw": {
+   "id": 706172,
+   "state": "record"
+  },
+  "Fist of Al'Akir": {
+   "id": 504233,
+   "state": "record"
+  },
+  "Flourishing Growth": {
+   "id": 805442,
+   "state": "record"
+  },
+  "Focus": {
+   "id": 680936,
+   "state": "record"
+  },
+  "Frenzied Roar": {
+   "id": 800133,
+   "state": "record"
+  },
+  "Fury of the Elements": {
+   "id": 706165,
+   "state": "record"
+  },
+  "Fury of the Wild": {
+   "id": 502748,
+   "state": "record"
+  },
+  "Gaze of Theradras": {
+   "id": 572908,
+   "state": "record"
+  },
+  "Geode Barrage": {
+   "id": 355467,
+   "state": "record"
+  },
+  "Geode Born": {
+   "id": 300726,
+   "state": "record"
+  },
+  "Geode Chain": {
+   "id": 706214,
+   "state": "record"
+  },
+  "Geomolding": {
+   "id": 560169,
+   "state": "record"
+  },
+  "Geothermal": {
+   "id": 503700,
+   "state": "record"
+  },
+  "Golem Form": {
+   "id": 805335,
+   "state": "record"
+  },
+  "Greater Earthen Endurance": {
+   "id": 570756,
+   "state": "record"
+  },
+  "Greater Essence of Convergence": {
+   "id": 573354,
+   "state": "record"
+  },
+  "Greater Essence of Nature": {
+   "id": 582261,
+   "state": "record"
+  },
+  "Greater Grove Instinct": {
+   "id": 572817,
+   "state": "record"
+  },
+  "Greater Primal Instinct": {
+   "id": 680310,
+   "state": "record"
+  },
+  "Grip": {
+   "id": 800145,
+   "state": "record"
+  },
+  "Grove Guardian": {
+   "id": 503721,
+   "state": "record"
+  },
+  "Grove Instinct": {
+   "id": 572810,
+   "state": "record"
+  },
+  "Grove Tender": {
+   "id": 706148,
+   "state": "record"
+  },
+  "Grove Training": {
+   "id": 92150,
+   "state": "record"
+  },
+  "Grovekeeper - Level 15 Passive": {
+   "id": 560984,
+   "state": "record"
+  },
+  "Grovekeeper's Presence": {
+   "id": 805443,
+   "state": "record"
+  },
+  "Hammer of Life": {
+   "id": 572288,
+   "state": "no-record"
+  },
+  "Hand of the Earthmother": {
+   "id": 800135,
+   "state": "record"
+  },
+  "Harness Animal Spirit": {
+   "id": 574301,
+   "state": "record"
+  },
+  "Heart of the Bear": {
+   "id": 706156,
+   "state": "record"
+  },
+  "Heart of the Mountain": {
+   "id": 807734,
+   "state": "record"
+  },
+  "Heavy Earth": {
+   "id": 560142,
+   "state": "record"
+  },
+  "Heavy Handed": {
+   "id": 706344,
+   "state": "record"
+  },
+  "Improved Boons": {
+   "id": 706146,
+   "state": "record"
+  },
+  "Improved Primal Charge": {
+   "id": 300721,
+   "state": "record"
+  },
+  "Improved Primal Infusion": {
+   "id": 300741,
+   "state": "record"
+  },
+  "Improved Stonefall": {
+   "id": 706202,
+   "state": "record"
+  },
+  "Infusion of Neptulon": {
+   "id": 300731,
+   "state": "record"
+  },
+  "Into The Volcano": {
+   "id": 560186,
+   "state": "record"
+  },
+  "Judgement of The Three Hammers": {
+   "id": 520466,
+   "state": "record"
+  },
+  "Keen Senses": {
+   "id": 806533,
+   "state": "record"
+  },
+  "Keeper of the Grove": {
+   "id": 706137,
+   "state": "record"
+  },
+  "Killer's Path": {
+   "id": 706633,
+   "state": "record"
+  },
+  "King of the Mountain": {
+   "id": 570183,
+   "state": "record"
+  },
+  "Lacerations": {
+   "id": 560286,
+   "state": "record"
+  },
+  "Landslider": {
+   "id": 704094,
+   "state": "record"
+  },
+  "Lavabender": {
+   "id": 706206,
+   "state": "record"
+  },
+  "Lavamancy": {
+   "id": 704401,
+   "state": "record"
+  },
+  "Legacy of Rexxar": {
+   "id": 800184,
+   "state": "record"
+  },
+  "Leokk's Fury": {
+   "id": 560972,
+   "state": "record"
+  },
+  "Lithic Lance": {
+   "id": 681251,
+   "state": "record"
+  },
+  "Magma Fissure": {
+   "id": 802793,
+   "state": "record"
+  },
+  "Magma Shell": {
+   "id": 704400,
+   "state": "record"
+  },
+  "Magmafury": {
+   "id": 706163,
+   "state": "record"
+  },
+  "Magmatism": {
+   "id": 560166,
+   "state": "record"
+  },
+  "Mend Animal Spirit": {
+   "id": 570335,
+   "state": "record"
+  },
+  "Mending Touch": {
+   "id": 524971,
+   "state": "record"
+  },
+  "Mighty Mountain": {
+   "id": 302524,
+   "state": "record"
+  },
+  "Mineralization": {
+   "id": 520464,
+   "state": "record"
+  },
+  "Misha's Gift": {
+   "id": 706149,
+   "state": "record"
+  },
+  "Misha's Rage": {
+   "id": 504227,
+   "state": "record"
+  },
+  "Molten Fervor": {
+   "id": 680476,
+   "state": "record"
+  },
+  "Mountain Fury": {
+   "id": 806185,
+   "state": "record"
+  },
+  "Mountain Giant": {
+   "id": 680395,
+   "state": "record"
+  },
+  "Mountain Hammer": {
+   "id": 681130,
+   "state": "record"
+  },
+  "Mountain King - Level 15 Passive": {
+   "id": 574317,
+   "state": "record"
+  },
+  "Mountain Mover": {
+   "id": 805643,
+   "state": "record"
+  },
+  "My Totem, My Rules": {
+   "id": 504445,
+   "state": "record"
+  },
+  "Nature's Call": {
+   "id": 706150,
+   "state": "record"
+  },
+  "Nature's Fury": {
+   "id": 300742,
+   "state": "record"
+  },
+  "Neptulon's Grace": {
+   "id": 520512,
+   "state": "record"
+  },
+  "Neptulon's Wrath": {
+   "id": 537250,
+   "state": "record"
+  },
+  "One With The Earth": {
+   "id": 704402,
+   "state": "record"
+  },
+  "Plate Cracker": {
+   "id": 706158,
+   "state": "record"
+  },
+  "Power of Ursol": {
+   "id": 706361,
+   "state": "record"
+  },
+  "Predator's Hunt": {
+   "id": 500941,
+   "state": "record"
+  },
+  "Primal Awakening": {
+   "id": 807560,
+   "state": "record"
+  },
+  "Primal Convergence": {
+   "id": 800181,
+   "state": "record"
+  },
+  "Primal Defusion": {
+   "id": 706144,
+   "state": "record"
+  },
+  "Primal Guardian": {
+   "id": 300728,
+   "state": "record"
+  },
+  "Primal Hunger": {
+   "id": 706154,
+   "state": "record"
+  },
+  "Primal Instinct": {
+   "id": 800197,
+   "state": "record"
+  },
+  "Primal Instincts": {
+   "id": 706166,
+   "state": "record"
+  },
+  "Primal Power": {
+   "id": 706216,
+   "state": "record"
+  },
+  "Primal Pulse": {
+   "id": 800177,
+   "state": "record"
+  },
+  "Primal Rage": {
+   "id": 300690,
+   "state": "record"
+  },
+  "Primal Resurgence": {
+   "id": 300688,
+   "state": "record"
+  },
+  "Primal Rush": {
+   "id": 500696,
+   "state": "record"
+  },
+  "Primal Shaman's Mask": {
+   "id": 800185,
+   "state": "record"
+  },
+  "Primal Shred": {
+   "id": 500940,
+   "state": "record"
+  },
+  "Primal Strength": {
+   "id": 300712,
+   "state": "record"
+  },
+  "Primal Totem": {
+   "id": 504229,
+   "state": "record"
+  },
+  "Primal Weapon: Bestial Might": {
+   "id": 563262,
+   "state": "record"
+  },
+  "Primal Weapon: Primal Might": {
+   "id": 704098,
+   "state": "record"
+  },
+  "Primal Weapon: Stone": {
+   "id": 801351,
+   "state": "record"
+  },
+  "Primalist Pet Scaling (All)": {
+   "id": 805948,
+   "state": "record"
+  },
+  "Primalist Pet Scaling Aura": {
+   "id": 524057,
+   "state": "record"
+  },
+  "Primordial Earth": {
+   "id": 806536,
+   "state": "record"
+  },
+  "Protective Roar": {
+   "id": 800142,
+   "state": "record"
+  },
+  "Protector of the Grove": {
+   "id": 504198,
+   "state": "record"
+  },
+  "Protector's Hand": {
+   "id": 300730,
+   "state": "record"
+  },
+  "Pulverize": {
+   "id": 706153,
+   "state": "record"
+  },
+  "Quake": {
+   "id": 803974,
+   "state": "record"
+  },
+  "Rage Rolling": {
+   "id": 561191,
+   "state": "record"
+  },
+  "Raptor Talons": {
+   "id": 704096,
+   "state": "record"
+  },
+  "Recall Animal Spirit": {
+   "id": 500860,
+   "state": "record"
+  },
+  "Rejuvenating Boons": {
+   "id": 706217,
+   "state": "record"
+  },
+  "Resources of the Earth": {
+   "id": 560548,
+   "state": "record"
+  },
+  "Return to Life": {
+   "id": 801794,
+   "state": "record"
+  },
+  "Rexxar's Might": {
+   "id": 806559,
+   "state": "record"
+  },
+  "Ring of Life": {
+   "id": 804705,
+   "state": "record"
+  },
+  "Rips and Tears": {
+   "id": 800141,
+   "state": "record"
+  },
+  "Rock Barrier": {
+   "id": 503630,
+   "state": "record"
+  },
+  "Rolling Momentum": {
+   "id": 680446,
+   "state": "record"
+  },
+  "Running on Instinct": {
+   "id": 300744,
+   "state": "record"
+  },
+  "Ruptured Earth": {
+   "id": 802724,
+   "state": "record"
+  },
+  "Rupturer": {
+   "id": 706208,
+   "state": "record"
+  },
+  "Rush of the Hunt": {
+   "id": 300691,
+   "state": "record"
+  },
+  "Rylak's Bite": {
+   "id": 706342,
+   "state": "record"
+  },
+  "Rylak's Blessing": {
+   "id": 802595,
+   "state": "record"
+  },
+  "Sacred Grove": {
+   "id": 502820,
+   "state": "record"
+  },
+  "Savage Frenzy": {
+   "id": 806549,
+   "state": "record"
+  },
+  "Seismic Crash": {
+   "id": 803981,
+   "state": "record"
+  },
+  "Seismic Grasp": {
+   "id": 807432,
+   "state": "record"
+  },
+  "Seismic Smash": {
+   "id": 300693,
+   "state": "record"
+  },
+  "Seismic Spike": {
+   "id": 804433,
+   "state": "record"
+  },
+  "Seismic Strength": {
+   "id": 574315,
+   "state": "record"
+  },
+  "Seismic Tremor": {
+   "id": 680442,
+   "state": "record"
+  },
+  "Seismic Wave": {
+   "id": 805462,
+   "state": "record"
+  },
+  "Shaman Training": {
+   "id": 805445,
+   "state": "record"
+  },
+  "Sharpened Claws": {
+   "id": 504225,
+   "state": "record"
+  },
+  "Shred": {
+   "id": 806569,
+   "state": "record"
+  },
+  "Son of Ursoc": {
+   "id": 524727,
+   "state": "record"
+  },
+  "Soothing Touch": {
+   "id": 520841,
+   "state": "record"
+  },
+  "Spinebreaker": {
+   "id": 537212,
+   "state": "record"
+  },
+  "Spirit Beast Master": {
+   "id": 92148,
+   "state": "record"
+  },
+  "Spirit Charge": {
+   "id": 800144,
+   "state": "record"
+  },
+  "Spirit Stable": {
+   "id": 573310,
+   "state": "record"
+  },
+  "Spiritual Overflow": {
+   "id": 706143,
+   "state": "record"
+  },
+  "Stone Cold": {
+   "id": 560158,
+   "state": "record"
+  },
+  "Stone Edge": {
+   "id": 560512,
+   "state": "record"
+  },
+  "Stone Skin": {
+   "id": 573308,
+   "state": "record"
+  },
+  "Stone Tossing": {
+   "id": 804991,
+   "state": "record"
+  },
+  "Stoneguard": {
+   "id": 802205,
+   "state": "record"
+  },
+  "Stoneshard": {
+   "id": 680448,
+   "state": "record"
+  },
+  "Stoneskin": {
+   "id": 706162,
+   "state": "record"
+  },
+  "Stoning the Enemy": {
+   "id": 706213,
+   "state": "record"
+  },
+  "Sturdiness": {
+   "id": 300694,
+   "state": "record"
+  },
+  "Tear Them Apart": {
+   "id": 300718,
+   "state": "record"
+  },
+  "Tears of the Earthmother": {
+   "id": 574326,
+   "state": "record"
+  },
+  "Tectonic Crash": {
+   "id": 300692,
+   "state": "record"
+  },
+  "Tectonic Flow": {
+   "id": 802494,
+   "state": "record"
+  },
+  "Tectonic Resonance": {
+   "id": 707173,
+   "state": "record"
+  },
+  "Tectonic Shield": {
+   "id": 805634,
+   "state": "record"
+  },
+  "Terraforming": {
+   "id": 706145,
+   "state": "record"
+  },
+  "Terrasmash": {
+   "id": 706173,
+   "state": "record"
+  },
+  "Terrasurge": {
+   "id": 681119,
+   "state": "record"
+  },
+  "Thane's Rage": {
+   "id": 804124,
+   "state": "record"
+  },
+  "The Chosen One": {
+   "id": 706219,
+   "state": "record"
+  },
+  "Therazane's Might": {
+   "id": 560214,
+   "state": "record"
+  },
+  "Therazane's Rage": {
+   "id": 503735,
+   "state": "record"
+  },
+  "Throat Clamp": {
+   "id": 500764,
+   "state": "record"
+  },
+  "Tide's Favor": {
+   "id": 500734,
+   "state": "record"
+  },
+  "Torn to Shreds": {
+   "id": 500294,
+   "state": "record"
+  },
+  "Totem Warrior": {
+   "id": 555732,
+   "state": "record"
+  },
+  "Totemic Smash": {
+   "id": 800178,
+   "state": "record"
+  },
+  "Traumatic Wounds": {
+   "id": 706168,
+   "state": "record"
+  },
+  "Tremors": {
+   "id": 562312,
+   "state": "record"
+  },
+  "Tribalism": {
+   "id": 300720,
+   "state": "record"
+  },
+  "Unstable Fracture": {
+   "id": 500303,
+   "state": "record"
+  },
+  "Untamed": {
+   "id": 681478,
+   "state": "record"
+  },
+  "Unyielding Form": {
+   "id": 706161,
+   "state": "record"
+  },
+  "Ursoc's Bellow": {
+   "id": 704101,
+   "state": "record"
+  },
+  "Volcanic Blast": {
+   "id": 680451,
+   "state": "record"
+  },
+  "Waters of Neptulon": {
+   "id": 800147,
+   "state": "record"
+  },
+  "Wild Warrior": {
+   "id": 300714,
+   "state": "record"
+  },
+  "Wildaxe": {
+   "id": 806551,
+   "state": "record"
+  },
+  "Wildclaw": {
+   "id": 800140,
+   "state": "record"
+  },
+  "Wildfury": {
+   "id": 706196,
+   "state": "record"
+  },
+  "Wildheart": {
+   "id": 803980,
+   "state": "record"
+  },
+  "Wildmend": {
+   "id": 805108,
+   "state": "record"
+  },
+  "Wildwalking Primalist": {
+   "id": 300713,
+   "state": "record"
+  },
+  "World Shaper": {
+   "id": 560187,
+   "state": "record"
+  },
+  "Wrath of Al'Akir": {
+   "id": 504232,
+   "state": "record"
+  }
+ }
+}

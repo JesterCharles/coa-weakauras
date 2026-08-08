@@ -1,0 +1,449 @@
+{
+ "Ancient of Lore": {
+  "id": 805105,
+  "cd": "2.5 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Ancient of War": {
+  "id": 504222,
+  "cd": "2.5 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Bear's Maw": {
+  "id": 502734,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": "0.5 sec"
+ },
+ "Bearskin": {
+  "id": 800094,
+  "cd": "5 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Body of Magma": {
+  "id": 801352,
+  "cd": "1 sec cooldown",
+  "specs": [
+   "geomancy"
+  ],
+  "gcd": false
+ },
+ "Boulder Dash": {
+  "id": 500692,
+  "cd": "3 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Bramblepatch": {
+  "id": 806415,
+  "cd": "2 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Cave In": {
+  "id": 500615,
+  "cd": "24 sec cooldown",
+  "specs": [
+   "geomancy"
+  ],
+  "gcd": false
+ },
+ "Dreamslip": {
+  "id": 805867,
+  "cd": "3 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Dreamway: Bough Shadow": {
+  "id": 804744,
+  "cd": "10 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Dreamway: Dream Bough": {
+  "id": 804743,
+  "cd": "10 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Dreamway: Seradane": {
+  "id": 804741,
+  "cd": "10 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Dreamway: The Twilight Grove": {
+  "id": 804742,
+  "cd": "10 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Druid Training": {
+  "id": 707560,
+  "cd": "1.5 sec cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Earth's Embrace": {
+  "id": 806143,
+  "cd": "5 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Earthen Avatar": {
+  "id": 680421,
+  "cd": "3 min cooldown",
+  "specs": [
+   "geomancy",
+   "mountain-king"
+  ],
+  "gcd": false
+ },
+ "Earthmother's Binding": {
+  "id": 805107,
+  "cd": "1 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Earthmother's Grace": {
+  "id": 706140,
+  "cd": "1.5 sec cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Earthshake": {
+  "id": 570009,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": "1.5 sec"
+ },
+ "Eruption": {
+  "id": 802335,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "geomancy"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Fist of Al'Akir": {
+  "id": 504233,
+  "cd": "2 min cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Flourishing Growth": {
+  "id": 805442,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Frenzied Roar": {
+  "id": 800133,
+  "cd": "1 min cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Golem Form": {
+  "id": 805335,
+  "cd": "2 min cooldown",
+  "specs": [
+   "geomancy"
+  ],
+  "gcd": false
+ },
+ "Grove Guardian": {
+  "id": 503721,
+  "cd": "1 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Judgement of The Three Hammers": {
+  "id": 520466,
+  "cd": "1 min cooldown",
+  "specs": [
+   "mountain-king"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Keeper of the Grove": {
+  "id": 706137,
+  "cd": "1.5 sec cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Magma Fissure": {
+  "id": 802793,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "geomancy"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Mountain Fury": {
+  "id": 806185,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "mountain-king"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Neptulon's Grace": {
+  "id": 520512,
+  "cd": "1 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Predator's Hunt": {
+  "id": 500941,
+  "cd": "1.5 min cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Primal Awakening": {
+  "id": 807560,
+  "cd": "5 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": false
+ },
+ "Primal Convergence": {
+  "id": 800181,
+  "cd": "3 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Primal Pulse": {
+  "id": 800177,
+  "cd": "10 sec cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Primal Totem": {
+  "id": 504229,
+  "cd": "10 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Protective Roar": {
+  "id": 800142,
+  "cd": "1.667 hour cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Ruptured Earth": {
+  "id": 802724,
+  "cd": "45 sec cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Sacred Grove": {
+  "id": 502820,
+  "cd": "6 min cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Savage Frenzy": {
+  "id": 806549,
+  "cd": "3 min cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Seismic Crash": {
+  "id": 803981,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Seismic Grasp": {
+  "id": 807432,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "geomancy",
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Seismic Smash": {
+  "id": 300693,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "geomancy",
+   "mountain-king"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Seismic Spike": {
+  "id": 804433,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Shred": {
+  "id": 806569,
+  "cd": "20 sec cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Spirit Stable": {
+  "id": 573310,
+  "cd": "30 sec cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Stone Edge": {
+  "id": 560512,
+  "cd": "1 min cooldown",
+  "specs": [
+   "mountain-king"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Stoneguard": {
+  "id": 802205,
+  "cd": "35 sec cooldown",
+  "specs": [
+   "geomancy"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Throat Clamp": {
+  "id": 500764,
+  "cd": "14 sec cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Totemic Smash": {
+  "id": 800178,
+  "cd": "6 sec cooldown",
+  "specs": [
+   "wildwalker"
+  ],
+  "gcd": "1.2 sec"
+ },
+ "Wildheart": {
+  "id": 803980,
+  "cd": "5 min cooldown",
+  "specs": [
+   "geomancy",
+   "grovekeeper",
+   "mountain-king",
+   "wildwalker"
+  ],
+  "gcd": false
+ },
+ "Wildmend": {
+  "id": 805108,
+  "cd": "8 sec cooldown",
+  "specs": [
+   "grovekeeper"
+  ],
+  "gcd": "1.2 sec"
+ }
+}

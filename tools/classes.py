@@ -197,6 +197,15 @@ CORE_LEAVES = {
     # class-wide leaves. Core now holds the two reminder alerts and the
     # class-wide trackers only.
     "chronomancer": 12,
+    # First pin (0.1). The 7 are the class-wide NO BOON alert (every spec's
+    # cited rotation opens with a Boon and they are mutually exclusive, so
+    # the alert is class territory, the NO SKIN shape) plus six merged Buffs
+    # leaves for auras every spec's row carries (Primal Convergence, Primal
+    # Totem running states off the all-spec offense rows; Aftershock,
+    # Earth's Rage, Bearskin, Rock Barrier from SHORT_ENTRIES) that hold the
+    # class gate alone: buff icons are self-gating and a buff id is not
+    # something IsSpellKnown recognises.
+    "primalist": 7,
 }
 
 
