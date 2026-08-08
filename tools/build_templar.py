@@ -43,7 +43,7 @@ import wapack as W
 
 # Release tag. Salts the uids -- WeakAuras dedupes imports on uid, so a rebuilt
 # pack MUST carry a different salt or the client silently keeps the old copy.
-VERSION = "0.1"
+VERSION = "0.2"
 
 # Art for ids with no art at ALL on either database. The Gift family serves
 # nothing upstream, and the NO GIFT alert is a showOnMissing display -- there

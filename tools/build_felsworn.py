@@ -44,7 +44,7 @@ import wapack as W
 # 0.1: first build (draft bar, notes/production-run.md). Roles were assigned by
 # an automated pass and cleared in bulk 2026-08-07 -- provenance in the
 # buildlog; the hedged rows are listed in requirements §6.
-VERSION = "0.1"
+VERSION = "0.2"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {}

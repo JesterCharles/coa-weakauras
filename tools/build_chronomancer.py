@@ -49,7 +49,7 @@ import wapack as W
 # (infinite), Moment's Reprieve, Rehatch (time) -- plus Shifting Sands, an 8s
 # attack-power debuff on the Infinite target band.
 # 1.2: one long-term band per spec, anchored under that spec's own ladder.
-VERSION = "1.2"
+VERSION = "1.3"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {}

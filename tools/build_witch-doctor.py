@@ -44,7 +44,7 @@ import wapack as W
 # 0.1: first build, DRAFT. Never imported in game; the inventory roles were
 # machine-proposed and bulk-cleared (recorded in buildlog-witch-doctor.json),
 # and requirements §6 lists what only the client can settle.
-VERSION = "0.1"
+VERSION = "0.2"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {}

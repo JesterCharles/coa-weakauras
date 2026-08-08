@@ -48,7 +48,7 @@ import wapack as W
 # Release tag. Feeds the uid salt (WeakAuras dedupes imports on uid, so a
 # rebuilt pack MUST carry a different salt or the client silently keeps the
 # old copy) and the group name, so a screenshot identifies its own build.
-VERSION = "0.1"
+VERSION = "0.2"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {}

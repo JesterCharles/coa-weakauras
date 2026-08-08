@@ -44,7 +44,7 @@ import wapack as W
 
 # Release tag. Salts the uids -- WeakAuras dedupes imports on uid, so a rebuilt
 # pack MUST carry a different salt or the client silently keeps the old copy.
-VERSION = "0.1"
+VERSION = "0.2"
 
 # Only deliberate choices belong here: an entry overrides the CLIENT's own art.
 FALLBACK = {}

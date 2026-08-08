@@ -46,7 +46,7 @@ import wapack as W
 # machine-proposed with cited reasoning and bulk-cleared (recorded in
 # buildlog-venomancer.json), and requirements §6 lists what only the client
 # can settle.
-VERSION = "0.1"
+VERSION = "0.2"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 # EMPTY on purpose. 18 drawn names have no art on db.ascension.gg (the

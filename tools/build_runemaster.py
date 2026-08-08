@@ -62,7 +62,7 @@ from wacodec import LuaTable
 # occupied a main-row slot since 1.0. Runeblade now glows while the mark is up,
 # which is the cue that slot should always have been carrying. CD_PER_ROW 9->7
 # follows from the narrower row.
-VERSION = "1.8"
+VERSION = "1.9"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {

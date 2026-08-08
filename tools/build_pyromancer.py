@@ -51,7 +51,7 @@ import wapack as W
 #
 # 0.3: the Inferno rework (changelog 2026/07/31) lands in the Flameweaving
 # target band.
-VERSION = "0.3"
+VERSION = "0.4"
 
 # Only real Ascension/3.3.5 icon names -- a missing texture renders as a "?".
 FALLBACK = {}
