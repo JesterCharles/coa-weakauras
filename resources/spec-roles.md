@@ -294,6 +294,25 @@ and Titanstrike, not throughput, and it cannot cover a group")
 (`resources/sidekick-templar-*.md`, scraped 2026-08-08). Replace with an
 in-game read when one exists.
 
+| 18 | Guardian | vanguard | tank |
+| 18 | Guardian | inspiration | damage |
+| 18 | Guardian | gladiator | damage |
+
+**Guardian provenance (18):** not yet observed in game — filled from citable
+Sidekick kit statements, one per spec: vanguard "Middling main-tank for raid
+bosses … Strong dungeon tank — AoE pulls and threat" (Closest to Protection
+Warrior; taunts: Challenging Cry, Shield Challenge; High Threat abilities;
+stat priority "Defense (to crit-immunity)"); inspiration "Closest to
+Augmentation Evoker … a buff and mitigation unit wearing a shield, not a
+direct-heal caster … No hard single-target heal" (a support buffer, still
+`damage` in this three-role vocabulary); gladiator "a DPS-Prot hybrid …
+Solid in arena as a damage dealer", no taunt in the rotation text and
+"self-healing is thin" (`resources/sidekick-guardian-*.md`, scraped
+2026-08-08). Kit corroboration: heal/absorb mentions inspiration 9/74 (12%),
+vanguard 2/56 (4%), gladiator 2/49 (4%) — no spec near the 33–35% healer
+band. Zero "absorb" mentions class-wide: Guardian's defensive economy is
+BLOCK, not absorbs. Replace with an in-game read when one exists.
+
 ## Corroboration
 
 Observation comes first — these were read off the specs in game. The kit

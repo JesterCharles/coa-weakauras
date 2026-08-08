@@ -1,0 +1,108 @@
+{
+ "class": "guardian",
+ "gates": {
+  "build": "2026-08-08",
+  "research": "2026-08-08",
+  "verify": "2026-08-08"
+ },
+ "metrics": {
+  "build": {
+   "citation_claims": 52,
+   "citations": 6,
+   "crossdb_checked": 196,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 223,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 196,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  },
+  "research": {
+   "citation_claims": 52,
+   "citations": 6,
+   "crossdb_checked": 196,
+   "crossdb_pct": 100.0,
+   "inventory_rows": 223,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 196,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  },
+  "verify": {
+   "citation_claims": 52,
+   "citations": 6,
+   "crossdb_checked": 196,
+   "crossdb_pct": 99.5,
+   "inventory_rows": 224,
+   "inventory_unreviewed": 0,
+   "inventory_with_id": 197,
+   "mechanics_sources": 3,
+   "open_unknowns": 4,
+   "requirements": true,
+   "specs": 3
+  }
+ },
+ "steps": {
+  "alerts": {
+   "at": "2026-08-08",
+   "note": "NO REINFORCEMENT per spec (KX stance-alert shape): missing-aura over that spec's 1-hr shield imbues ANDed with Spell Known of the lowest-level imbue, so levelling characters are not nagged. needs_all set on all three."
+  },
+  "changelog": {
+   "at": "2026-08-07",
+   "note": "60 entries 2026/07/31+2026/08/07, scanned --pages 6. All number tweaks except: Final Verdict execute range 20%->35% (\u00a74 execute cue), Supremacy talent now allows+refreshes Reprisal charge (\u00a72), Reprisal GCD 1.5->1.0s (on-GCD either way). Triaged into requirements-guardian.md; --accept after triage."
+  },
+  "citations": {
+   "at": "2026-08-08",
+   "note": "6 citations, 52 claims: 3 scheduled blob imports (2026-08-02 snapshot) + 3 manual page transcriptions (2026-08-08, post-changelog snapshot, barbarian sidekick-page precedent). Validation clean; 2 unresolvable prose names recorded null in aliases-guardian.json (Hero's Serenade, Shield Formation). One source only -- corroboration not measurable."
+  },
+  "crossdb": {
+   "at": "2026-08-08",
+   "checked": 197,
+   "note": "crossdb 197/197 (196-row sweep + Experienced Combatant 707633 added during verify, registerSpell answers with a full record). 1 no-record (Linebreaker) resolved other-id to 806220 by name with both tooltips read; nothing deleted."
+  },
+  "guide": {
+   "at": "2026-08-08",
+   "note": "mkguide is Runemaster-hardcoded; guide step = rowwidths.py (all guardian rows <= 1.07x vs bar, exit 0) + hud.py structural ladder read: main -110..-154, energy -158..-182, offense -202, utility wraps below, longterm under; per-spec persistent columns show 4/4/7 main icons (incl shared Ram) and ZERO overlaps."
+  },
+  "inventory-reviewed": {
+   "at": "2026-08-08",
+   "note": "BULK ROLE PASS by the class agent (production-run default, Pyromancer precedent): all 223 rows assigned by an automated pass with one line of reasoning per Notes cell, cleared in bulk -- no human read them one at a time. Hedged rows copied to requirements \u00a76. 3 aura-only rows hand-added for check 13 (High Guard, Peril, Vanguard's Shield). Ram added to cooldown audit manually (len<4 candidate filter)."
+  },
+  "main-rows": {
+   "at": "2026-08-08",
+   "note": "Main rows from the cited press order (manual citations sidekick-page-guardian-*-2026-08-08): vanguard Heavy Blow/Pulverize/Ram/Hammer of Kings; inspiration Ram/Ballads/Broad Sweep; gladiator Ram/Pulverize/Reprisal/Centurion Strike/Broad Sweep/Spear Throw/Final Verdict. CD_PER_ROW=7 from narrowest row (4 icons)."
+  },
+  "mechanics-source": {
+   "at": "2026-08-08",
+   "note": "Sidekick spec pages scraped via Firecrawl 2026-08-08 -> resources/sidekick-guardian-{vanguard,inspiration,gladiator}.md. Roles per Sidekick: vanguard=tank (Prot Warrior analogue, Energy+block), inspiration=melee support DPS (Aug Evoker analogue, buffs+banners, NO direct heals), gladiator=melee DPS (block-scaling burst). Absorb mentions: 0 across all three \u2014 Guardian economy is BLOCK, not absorbs."
+  },
+  "pets": {
+   "at": "2026-08-08",
+   "note": "\u00a73: NONE -- 0 pet mentions in skills json, spec pages and coaKits petLines. No pet section, answered explicitly."
+  },
+  "procs": {
+   "at": "2026-08-08",
+   "note": "PROC_GLOW: Heavy Blow <- High Guard 707621 (free press), Ram <- Elegant Combat 524615 (free Ram), Ballads <- Harrowing Melody (free Ballad window). All aura names/ids hedged in \u00a76 pending in-game."
+  },
+  "requirements": {
+   "at": "2026-08-08",
+   "note": "notes/requirements-guardian.md: all 6 sections + changelog triage answered. No pets (0 mentions, answered explicitly). Absorb expectation falsified: 0 absorb mentions vs ~90 block -- Guardian economy is BLOCK. 13 \u00a76 UNKNOWNs, each with what settles it."
+  },
+  "talents": {
+   "at": "2026-08-08",
+   "note": "\u00a72: spell_swap Standard of Valiance -> Press the Attack 801219 (Press the Attack! 301216 transform, Spell Known numeric); Inspiring Leader's Ballads hold their own inspiration main-row slots (ranked ids never own-id-gated, unlearned = never fires); Supremacy/cd-resets read live, no structural change; Shield Tosser mid-combat transform deferred \u00a76. Pack reads correctly with and without each."
+  },
+  "tests": {
+   "at": "2026-08-08",
+   "note": "tests/run.py all checks passed (all 16 classes). guardian: 147 class-gated leaves, 141 spec-gated, CORE_LEAVES=6 pinned in classes.py (Core skeleton + 4 SHORT_ENTRIES buff leaves + GD Main Ram, ranked all-spec). Fixtures frozen (4). Fixes en route: Counter Stance re-roled buff (rank Heal, check 22), Experienced Combatant row added (707633, talent coverage), rankings-guardian.json empty-valid record, docs/packs copy named guardian-coa.txt."
+  },
+  "unknowns": {
+   "at": "2026-08-08",
+   "note": "13 \u00a76 UNKNOWNs, all deferred on purpose with what-settles-it named: energy power type, Reinforcement aura visibility, High Guard/Favor aura ids, Warmaster effect, Heroism/Valiant Knight proc auras, Shield Tosser transform mechanism, Challenging Cry, Ballad/Ram charges, Standard uptime surface, Motivation economy, Final Verdict 35% cue, hedged bulk-pass rows. Post-ship in-game sweep is their checklist."
+  }
+ }
+}

@@ -10,6 +10,11 @@
    "date": "2026/07/31",
    "text": "Fixed an issue where Woodland Stalker would be active all the time except for when in Eluder (opposite effect than intended)"
   },
+  "0346cdcb1768ab38": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Final Verdict can now be used on enemies within the 35% health execute range, up from the 20% health execute range."
+  },
   "03764121514692c7": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -49,6 +54,11 @@
    "class": "witch-doctor",
    "date": "2026/07/31",
    "text": "Base damage of Spirit Volley has been reduced by approximately 34%. This AoE spell was the best to use in all scenarios, even single target. Many other spells scaling and damage has been increased for Shadow Hunting so that this spell still remains strong but doesn\u2019t all"
+  },
+  "066dfb87cf20b9b9": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 5's damage has been increased from 105% Weapon Damage plus 89 to 135% Weapon Damage plus 116."
   },
   "06bedb6a738c0c98": {
    "class": "chronomancer",
@@ -120,6 +130,11 @@
    "date": "2026/07/31",
    "text": "Vows are now on the stance bar."
   },
+  "1294362a04cbde35": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Centurion Strike Rank 4 weapon damage increased from 170% to 220%."
+  },
   "13f376006eaa0437": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -175,6 +190,11 @@
    "date": "2026/08/06",
    "text": "- Reckoning Rank 4 flat damage increased from 67-80 to 90-107"
   },
+  "19d5d32e0c610ad2": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 2 flat damage increased from 8 to 10."
+  },
   "1a77024b1460de7c": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -204,6 +224,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Skirmish and Swiftshot have swapped positions"
+  },
+  "1e331a8009a1880b": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Pulverize\u2019s Attack Power scaling has increased from 35% to 40%"
   },
   "1e4b7d7bc3b1a11e": {
    "class": "tinker",
@@ -255,6 +280,11 @@
    "date": "2026/07/31",
    "text": "Slaughter Rank 7 increased base damage from 202 to 242 and weapon damage from 130% to 150%."
   },
+  "24d058b41bcfaf5c": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 4 flat damage increased from 72 to 95."
+  },
   "26042f91d9ec208b": {
    "class": "templar",
    "date": "2026/08/06",
@@ -289,6 +319,16 @@
    "class": "witch-doctor",
    "date": "2026/07/31",
    "text": "Increased Hex of Malice\u2019s base damage and scaling by 18%."
+  },
+  "2af9ef8e8f16c277": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 7 flat damage increased from 196 to 253."
+  },
+  "2bd327ebf28b4d67": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Shield Training now converts 20% of Strength into Block Rating, increased from 10%."
   },
   "2c78ad70687e8b44": {
    "class": "necromancer",
@@ -325,15 +365,35 @@
    "date": "2026/08/06",
    "text": "Reduced the maximum stacks of Oath buffs to 10 (was 20). Once you reach 10 you can no longer stack Oaths."
   },
+  "30961a540116a764": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 6 flat damage increased from 86 to 120."
+  },
+  "30f4ae79af3a1be1": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Pulverize Rank 8\u2019s damage has been increased from 320 to 380"
+  },
   "3150a9fbfa7834ec": {
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Legionfall now additionally causes your next Annihilan Strike to cost 50% less energy."
   },
+  "3164b3ada94dec75": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 8 flat damage increased from 288 to 380."
+  },
   "31a15f126000c9f8": {
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Slaughter Rank 1 increased base damage from 14 to 17 and weapon damage from 130% to 150%."
+  },
+  "32701670232e5c20": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 1's damage has been increased from 45 to 86."
   },
   "32aef114cc22d6d1": {
    "class": "templar",
@@ -480,6 +540,16 @@
    "date": "2026/08/06",
    "text": "- Reckoning Rank 5 flat damage increased from 79-97 to 106-130"
   },
+  "43df57537a84866f": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Crashing Force now increases the damage of Reprisal by 20/40%, up from 15/30%."
+  },
+  "43e82b6f19cdefea": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Broad Sweep across all ranks now deals 90% Weapon Damage (ranks were previously dealing 70% to 85% weapon damage)"
+  },
   "44249258cf4dbe7d": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -489,6 +559,11 @@
    "class": "venomancer",
    "date": "2026/07/31",
    "text": "Serpent's Fang Rank 4's damage has been increased from 180 to 234, and healing from 89 to 125."
+  },
+  "4549c8968a0f450c": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 4's damage has been increased from 148 to 281."
   },
   "46613deb97912961": {
    "class": "witch-doctor",
@@ -520,6 +595,16 @@
    "date": "2026/07/31",
    "text": "All Gavel Spells now deal 100% weapon damage up from 80%."
   },
+  "49479de8e98254da": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Experienced Combatant now converts 40% of Strength into Attack Power, increased from 20%."
+  },
+  "49f76f43882b7518": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 4 flat damage increased from 46 to 64."
+  },
   "4a8685b18bfb4907": {
    "class": "templar",
    "date": "2026/08/06",
@@ -529,6 +614,11 @@
    "class": "primalist",
    "date": "2026/07/31",
    "text": "Seismic Tremor Rank 5 increased periodic damage from 196 to 265."
+  },
+  "4bce4a332d7c31e2": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Ram\u2019s Attack Power scaling has increased from 37% to 42%"
   },
   "4c6c6d37afd1385d": {
    "class": "necromancer",
@@ -554,6 +644,11 @@
    "class": "venomancer",
    "date": "2026/07/31",
    "text": "Mycosis base mana cost reduced from 16% to 14%."
+  },
+  "4d8ca441f411066b": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal's global cooldown has been reduced from 1.5 seconds to 1 second."
   },
   "4e3e48b8475302f8": {
    "class": "templar",
@@ -585,6 +680,11 @@
    "date": "2026/07/31",
    "text": "Fixed a bug where Unholy Runes was not increasing the damage of Crypt Swarm. Additionally, it now increases the damage of Blight and Blight has a 5% chance when it deals damage to reset the cooldown of Corpse Explosion."
   },
+  "5101f32025590fba": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Centurion Strike Rank 6 weapon damage increased from 210% to 275%."
+  },
   "51091ad290ef8d0b": {
    "class": "templar",
    "date": "2026/07/31",
@@ -594,6 +694,11 @@
    "class": "templar",
    "date": "2026/08/06",
    "text": "Increased the base damage of Divine Fury by 275 and it now strikes all enemies around you"
+  },
+  "53035473d331c03a": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 3's damage has been increased from 105% Weapon Damage plus 44 to 135% Weapon Damage plus 57."
   },
   "533818e140a892e4": {
    "class": "witch-doctor",
@@ -640,6 +745,11 @@
    "date": "2026/07/31",
    "text": "Hoarfrost AoE Range increased from 5 yds to 8 yds."
   },
+  "5580110d54752107": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 7 flat damage increased from 112 to 157."
+  },
   "558c2a561ffceddf": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -679,6 +789,11 @@
    "class": "witch-hunter",
    "date": "2026/07/31",
    "text": "Witching Edict Ranks 1-4 now persist through death."
+  },
+  "5d9dbd3d12cd3aed": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 4 flat damage increased from 47 to 61."
   },
   "5e2a6c1f90bc0c29": {
    "class": "reaper",
@@ -790,6 +905,11 @@
    "date": "2026/07/31",
    "text": "Aeon of Protection reworked: Increases cast time of Epoch by 25% and increases the healing done by 25% and Epoch now shields the target for 50% of the amount healed."
   },
+  "6cb32f4589ca5474": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 1 flat damage increased from 12 to 17."
+  },
   "6cc0c3793ed5de1e": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -815,6 +935,11 @@
    "date": "2026/07/31",
    "text": "Increased the duration of Limbo to 6 sec from 5 sec"
   },
+  "6f234471dab09da2": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 5 flat damage increased from 77 to 99."
+  },
   "6f3afd844365cdf8": {
    "class": "primalist",
    "date": "2026/07/31",
@@ -825,10 +950,20 @@
    "date": "2026/07/31",
    "text": "Burning Mischief now has a 30 sec cd, but allows your Imp to heal and restore mana for 100% of all damage dealt up from 20% and increases its Fire Damage dealt by 15% for the duration."
   },
+  "702c9f919d3d0b3e": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 3's damage has been increased from 99 to 188."
+  },
   "70b5f4eb4af3a76c": {
    "class": "reaper",
    "date": "2026/07/31",
    "text": "Slaughter Rank 6 increased base damage from 167 to 200 and weapon damage from 130% to 150%."
+  },
+  "710c4c95dcd620bd": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 7 flat damage increased from 221 to 292."
   },
   "71d5ea77037024aa": {
    "class": "runemaster",
@@ -839,6 +974,11 @@
    "class": "stormbringer",
    "date": "2026/07/31",
    "text": "Flux Arc duration increased from 8 sec to 10 sec."
+  },
+  "728e5935df8f2466": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 2 flat damage increased from 16 to 22."
   },
   "72949a12a7364f83": {
    "class": "venomancer",
@@ -880,6 +1020,16 @@
    "date": "2026/07/31",
    "text": "Tonic effectiveness has been increased across the board by 50%-100%, but the durations have been reduced to 10 seconds from 15 seconds."
   },
+  "76a0165105c7db7b": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 4's damage has been increased from 105% Weapon Damage plus 65 to 135% Weapon Damage plus 85."
+  },
+  "7753987ef7336ce2": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw's attack power scaling has been increased from 35% to 66.5%."
+  },
   "79b47dd8f6e93762": {
    "class": "templar",
    "date": "2026/08/06",
@@ -889,6 +1039,11 @@
    "class": "venomancer",
    "date": "2026/07/31",
    "text": "Wilt base mana cost reduced from 10% to 9%."
+  },
+  "7c89b153b23524eb": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 2's damage has been increased from 105% Weapon Damage plus 27 to 135% Weapon Damage plus 35."
   },
   "7d1478f0f23159f4": {
    "class": "chronomancer",
@@ -1135,6 +1290,11 @@
    "date": "2026/07/31",
    "text": "Whirling Assault\u2019s damage increase against enemies above 80% HP increased from 300% to 500%."
   },
+  "9aec910f13402b75": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Centurion Strike Rank 3 weapon damage increased from 150% to 195%."
+  },
   "9bf1cec392e90b99": {
    "class": "templar",
    "date": "2026/08/06",
@@ -1200,6 +1360,11 @@
    "date": "2026/08/06",
    "text": "- Sacred Swing Rank 3 weapon damage increased from 135% to 156%"
   },
+  "a094af7cc21d9e9c": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 5 flat damage increased from 64 to 90."
+  },
   "a0ccd6ec7e3c7303": {
    "class": "ranger",
    "date": "2026/07/31",
@@ -1209,6 +1374,11 @@
    "class": "templar",
    "date": "2026/08/06",
    "text": "- Reckoning Rank 7 flat damage increased from 124-160 to 166-214"
+  },
+  "a2a389269da31b4a": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 5's damage has been increased from 222 to 422."
   },
   "a2dfed3a4d3d157f": {
    "class": "chronomancer",
@@ -1230,10 +1400,20 @@
    "date": "2026/08/06",
    "text": "Scourgebane now deals an additional 50% Weapon Damage"
   },
+  "a52c1c3a69556e14": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 3 flat damage increased from 28 to 36."
+  },
   "a57b116a19ce967f": {
    "class": "templar",
    "date": "2026/08/06",
    "text": "- Righteous Upheaval Rank 4 flat damage increased from 221-311 to 298-420"
+  },
+  "a5dd3558800231b7": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Broad Sweep target cap has been increased to 8 targets from 4"
   },
   "a6e44c62c0a2fa0c": {
    "class": "ranger",
@@ -1305,6 +1485,16 @@
    "date": "2026/08/06",
    "text": "- Sacred Swing Rank 6 weapon damage increased from 150% to 180%"
   },
+  "ae843a4e535abb6b": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 3 flat damage increased from 35 to 46."
+  },
+  "b1bd0e53a5e59e06": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Broad Sweep additional physical damage has been doubled across all ranks"
+  },
   "b207d584aef947c4": {
    "class": "starcaller",
    "date": "2026/07/31",
@@ -1350,6 +1540,11 @@
    "date": "2026/07/31",
    "text": "Entomb now only makes the target immune to Physical damage instead of all damage."
   },
+  "b69489145fd5660e": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 6's damage has been increased from 333 to 633."
+  },
   "b6e2d4304e8672b0": {
    "class": "reaper",
    "date": "2026/07/31",
@@ -1364,6 +1559,11 @@
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Nether Disciple no longer provides dodge chance."
+  },
+  "b7b6aee082b1953c": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 5 flat damage increased from 97 to 128."
   },
   "b8072532ef3f718f": {
    "class": "templar",
@@ -1410,10 +1610,20 @@
    "date": "2026/07/31",
    "text": "Crush now pauses your swing timer when cast instead of restarting it."
   },
+  "bd0de1a1ec8eb9cf": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Centurion Strike Rank 2 weapon damage increased from 130% to 170%."
+  },
   "bdcad2c829c37f2a": {
    "class": "felsworn",
    "date": "2026/07/31",
    "text": "Immolation Aura Rank 3's damage has been increased from 21 to 69."
+  },
+  "bed018f85b6a4ed4": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 6's damage has been increased from 105% Weapon Damage plus 117 to 135% Weapon Damage plus 152."
   },
   "bee30471fe10b97a": {
    "class": "reaper",
@@ -1450,6 +1660,11 @@
    "date": "2026/07/31",
    "text": "Reap Rank 6 increased base damage from 48 to 62 and 80% weapon damage to 90% weapon damage."
   },
+  "c147cbc1a8a6d4b2": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 7's damage has been increased from 499 to 948."
+  },
   "c185418a1d49b4a6": {
    "class": "witch-hunter",
    "date": "2026/07/31",
@@ -1464,6 +1679,11 @@
    "class": "sun-cleric",
    "date": "2026/07/31",
    "text": "Justice now deals 50% Weapon Damage up from 40%."
+  },
+  "c3062d1078281a8f": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Spear Throw Rank 2's damage has been increased from 66 to 125."
   },
   "c4d299cec6a4f172": {
    "class": "chronomancer",
@@ -1504,6 +1724,11 @@
    "class": "barbarian",
    "date": "2026/07/31",
    "text": "Ramhorn Rage now doubles your passive health regeneration."
+  },
+  "c7703280e578d0f1": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 6 flat damage increased from 171 to 226."
   },
   "c7ff8d939e6561ee": {
    "class": "templar",
@@ -1585,6 +1810,16 @@
    "date": "2026/07/31",
    "text": "Warden\u2019s Blade now has a new effect for Aspect of the Goddess, Elune\u2019s Cradle, which spawns a small radius healing over time circle around the target of the Blade, healing up to 8 allies within every 3 seconds."
   },
+  "ce8d38aae0d48d51": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 1 flat damage increased from 3 to 4."
+  },
+  "cf0792a22f1fdde8": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 9 flat damage increased from 374 to 494."
+  },
   "cfd4a043cada2e13": {
    "class": "witch-doctor",
    "date": "2026/07/31",
@@ -1595,10 +1830,25 @@
    "date": "2026/07/31",
    "text": "The damage absorb provided from Hateforged Barrier is reduced by 30%."
   },
+  "d0318468f0f3c9ee": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Broad Sweep Rank 3 flat damage increased from 28 to 39."
+  },
+  "d06f927805a595dc": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Centurion Strike Rank 5 weapon damage increased from 190% to 245%."
+  },
   "d1125b9c2f131c64": {
    "class": "primalist",
    "date": "2026/07/31",
    "text": "Terrasurge Rank 8 increased damage from 1978 to 2176."
+  },
+  "d199ea383b53ff03": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 7's damage has been increased from 105% Weapon Damage plus 151 to 135% Weapon Damage plus 196."
   },
   "d1a65bdd7d44740b": {
    "class": "witch-hunter",
@@ -1800,6 +2050,16 @@
    "date": "2026/07/31",
    "text": "At level 40, you can now learn Trap Launcher, allowing you to launch your traps up to 30yds away."
   },
+  "ed6dc8bd64ce42ba": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 8 flat damage increased from 380 to 439."
+  },
+  "ed7304801fabf9a5": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Pulverize Rank 6 flat damage increased from 122 to 157."
+  },
   "ee4c4d2846219a5c": {
    "class": "venomancer",
    "date": "2026/07/31",
@@ -1809,6 +2069,11 @@
    "class": "templar",
    "date": "2026/08/06",
    "text": "- Sacred Swing Rank 2 flat damage increased from 33 to 48"
+  },
+  "f031e5ee9766746d": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Legionnaire now increases the critical damage of Reprisal by 15/30%, up from 10/20%."
   },
   "f0f53bf07bac447e": {
    "class": "venomancer",
@@ -1855,6 +2120,16 @@
    "date": "2026/08/06",
    "text": "- Blade of Faith Rank 6 flat damage increased from 84 to 126"
   },
+  "f68bbc70fc8783ca": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 1 flat damage increased from 9 to 12."
+  },
+  "f7691374dc6e0e09": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "Ram Rank 2 flat damage increased from 15 to 20."
+  },
   "f78f6fa638401b0e": {
    "class": "witch-doctor",
    "date": "2026/07/31",
@@ -1864,6 +2139,11 @@
    "class": "knight-of-xoroth",
    "date": "2026/07/31",
    "text": "Lesser Pestilence of Apocalypse now grants your Imp additional mana every 5 sec while active instead of increasing its mana regeneration in combat."
+  },
+  "f813fac3263ca328": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Tactical Combat Rank 2 block value increased from 15% to 20%."
   },
   "f87ac03261ee339b": {
    "class": "reaper",
@@ -1890,6 +2170,11 @@
    "date": "2026/08/06",
    "text": "- Reckoning Rank 6 flat damage increased from 96-119 to 129-159"
   },
+  "fab31c1dac0421d8": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Supremacy Talent now allows the use of Reprisal as well as refreshing a charge."
+  },
   "faf6078945ed9c14": {
    "class": "templar",
    "date": "2026/08/06",
@@ -1910,6 +2195,16 @@
    "date": "2026/07/31",
    "text": "Axe Twirling is now toggleable, and has no cooldown and no fixed duration, but it reduces your damage dealt by 15%. Talents affecting Axe Twirling have been adjusted with this new duration and no cooldown in mind."
   },
+  "fc9324b9bcb5a712": {
+   "class": "guardian",
+   "date": "2026/07/31",
+   "text": "Reprisal Rank 1's damage has been increased from 105% Weapon Damage plus 12 to 135% Weapon Damage plus 16."
+  },
+  "fc9d275735073881": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Centurion Strike Rank 1 weapon damage increased from 110% to 145%."
+  },
   "fcf21aabbfce2a25": {
    "class": "knight-of-xoroth",
    "date": "2026/07/31",
@@ -1929,6 +2224,11 @@
    "class": "ranger",
    "date": "2026/07/31",
    "text": "Increased the slow of Freezing Toxin to 30% from 20%"
+  },
+  "ff0516dc5439d676": {
+   "class": "guardian",
+   "date": "2026/08/07",
+   "text": "- Tactical Combat Rank 1 block value increased from 8% to 10%."
   },
   "ff6a22175c176e3d": {
    "class": "chronomancer",

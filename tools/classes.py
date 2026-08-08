@@ -324,6 +324,15 @@ CORE_LEAVES = {
     # gate alone, for the standing reason: buff icons are self-gating and a
     # buff id is not something IsSpellKnown recognises.
     "templar": 7,
+    # First pin (0.1). GD Core is an empty skeleton (the NO REINFORCEMENT
+    # alerts are per spec, so they live spec-gated in the spec blocks) -- the
+    # 6 are the Core group plus four merged all-spec Buffs leaves (Counter
+    # Stance, Brace, Raise Shield, Reflective Shield from SHORT_ENTRIES) that
+    # hold the class gate alone (buff icons are self-gating and a buff id is
+    # not something IsSpellKnown recognises), plus GD Main Ram: on every spec
+    # with a ranked id (802284 Rank 1), so its merged main-row leaf cannot
+    # own-id-gate and takes the class gate instead.
+    "guardian": 6,
 }
 
 

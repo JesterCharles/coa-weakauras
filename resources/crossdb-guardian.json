@@ -1,0 +1,794 @@
+{
+ "_class": "guardian",
+ "_comment": "db.ascension.gg ?spell=<id>&power over the whole class inventory. `no-record` means ONE database has the ability -- re-ask BY NAME before calling it dead, and read both tooltips before calling a name hit a match.",
+ "verdicts": {
+  "Advance": {
+   "id": 500170,
+   "state": "record"
+  },
+  "Aegis": {
+   "id": 705348,
+   "state": "record"
+  },
+  "Ambition": {
+   "id": 806132,
+   "state": "record"
+  },
+  "Assault Formation": {
+   "id": 803417,
+   "state": "record"
+  },
+  "Assume Peak Posture": {
+   "id": 500344,
+   "state": "record"
+  },
+  "Ballad of the Conqueror": {
+   "id": 801776,
+   "state": "record"
+  },
+  "Ballad of the Dragonslayer": {
+   "id": 801772,
+   "state": "record"
+  },
+  "Banner Boy": {
+   "id": 705358,
+   "state": "record"
+  },
+  "Banner Lord": {
+   "id": 800322,
+   "state": "record"
+  },
+  "Banner of Conquest": {
+   "id": 500261,
+   "state": "record"
+  },
+  "Banner of Swiftness": {
+   "id": 500259,
+   "state": "record"
+  },
+  "Bard's Manuscript": {
+   "id": 704526,
+   "state": "record"
+  },
+  "Bark Orders": {
+   "id": 800318,
+   "state": "record"
+  },
+  "Bastion": {
+   "id": 802283,
+   "state": "record"
+  },
+  "Bastion Slam": {
+   "id": 500268,
+   "state": "record"
+  },
+  "Battle Bard": {
+   "id": 520086,
+   "state": "record"
+  },
+  "Battle Drums": {
+   "id": 570759,
+   "state": "record"
+  },
+  "Battle Rush": {
+   "id": 802197,
+   "state": "record"
+  },
+  "Battle Strategist": {
+   "id": 705337,
+   "state": "record"
+  },
+  "Battle Wary": {
+   "id": 705332,
+   "state": "record"
+  },
+  "Battlefield Maneuvers": {
+   "id": 705349,
+   "state": "record"
+  },
+  "Bloodletter": {
+   "id": 560093,
+   "state": "record"
+  },
+  "Bonebreaker": {
+   "id": 705335,
+   "state": "record"
+  },
+  "Brace": {
+   "id": 800313,
+   "state": "record"
+  },
+  "Bring Down The Hammer!": {
+   "id": 705379,
+   "state": "record"
+  },
+  "Broad Sweep": {
+   "id": 805150,
+   "state": "record"
+  },
+  "Brutal Slam": {
+   "id": 705321,
+   "state": "record"
+  },
+  "Built Different": {
+   "id": 300545,
+   "state": "record"
+  },
+  "Bulwark Rush": {
+   "id": 300536,
+   "state": "record"
+  },
+  "Calculated Strike": {
+   "id": 705341,
+   "state": "record"
+  },
+  "Call To Arms": {
+   "id": 804723,
+   "state": "record"
+  },
+  "Cavalry Charge": {
+   "id": 804691,
+   "state": "record"
+  },
+  "Centurion Strike": {
+   "id": 802286,
+   "state": "record"
+  },
+  "Champion": {
+   "id": 300972,
+   "state": "record"
+  },
+  "Champion's Presence": {
+   "id": 520835,
+   "state": "record"
+  },
+  "Chivalry": {
+   "id": 504149,
+   "state": "record"
+  },
+  "Combat Poses": {
+   "id": 804896,
+   "state": "record"
+  },
+  "Counter Stance": {
+   "id": 501535,
+   "state": "record"
+  },
+  "Cragmaker": {
+   "id": 705327,
+   "state": "record"
+  },
+  "Crashing Force": {
+   "id": 705328,
+   "state": "record"
+  },
+  "Crowd Pummeler": {
+   "id": 520148,
+   "state": "record"
+  },
+  "Defensive Pose": {
+   "id": 802293,
+   "state": "record"
+  },
+  "Deflector": {
+   "id": 706336,
+   "state": "record"
+  },
+  "Dirty Tactics": {
+   "id": 705325,
+   "state": "record"
+  },
+  "Dragonslayer": {
+   "id": 706333,
+   "state": "record"
+  },
+  "Duty": {
+   "id": 802305,
+   "state": "record"
+  },
+  "Earthsplitter": {
+   "id": 805155,
+   "state": "record"
+  },
+  "Echoes of War": {
+   "id": 574338,
+   "state": "record"
+  },
+  "Elegant Combat": {
+   "id": 524615,
+   "state": "record"
+  },
+  "Endurance": {
+   "id": 705339,
+   "state": "record"
+  },
+  "Experienced Combatant": {
+   "id": 707633,
+   "state": "record"
+  },
+  "Feats of Glory": {
+   "id": 803960,
+   "state": "record"
+  },
+  "Feats of Honor": {
+   "id": 803959,
+   "state": "record"
+  },
+  "Feats of Strength": {
+   "id": 503200,
+   "state": "record"
+  },
+  "Field Commander": {
+   "id": 705320,
+   "state": "record"
+  },
+  "Final Verdict": {
+   "id": 500258,
+   "state": "record"
+  },
+  "Final Verdict Reset Passive": {
+   "id": 805152,
+   "state": "record"
+  },
+  "Fine Plating": {
+   "id": 503797,
+   "state": "record"
+  },
+  "Finish Them!": {
+   "id": 802292,
+   "state": "record"
+  },
+  "Fire Protection": {
+   "id": 582533,
+   "state": "record"
+  },
+  "Flexible Banners": {
+   "id": 705319,
+   "state": "record"
+  },
+  "Footman's Call": {
+   "id": 705376,
+   "state": "record"
+  },
+  "Footman's Calling": {
+   "id": 92105,
+   "state": "record"
+  },
+  "Forceful Impact": {
+   "id": 705346,
+   "state": "record"
+  },
+  "Fortified Bulwark": {
+   "id": 802189,
+   "state": "record"
+  },
+  "Freedom": {
+   "id": 503222,
+   "state": "record"
+  },
+  "Frontliner": {
+   "id": 504782,
+   "state": "record"
+  },
+  "Gallant": {
+   "id": 705367,
+   "state": "record"
+  },
+  "Glorious Arena": {
+   "id": 300983,
+   "state": "record"
+  },
+  "Glory": {
+   "id": 92106,
+   "state": "record"
+  },
+  "Grand Entrance": {
+   "id": 802870,
+   "state": "record"
+  },
+  "Greater Fire Protection": {
+   "id": 582536,
+   "state": "record"
+  },
+  "Greater Honor": {
+   "id": 680280,
+   "state": "record"
+  },
+  "Guard": {
+   "id": 803895,
+   "state": "record"
+  },
+  "Guardbreaker": {
+   "id": 504385,
+   "state": "record"
+  },
+  "Hammer of Honor": {
+   "id": 705374,
+   "state": "record"
+  },
+  "Hammer of Kings": {
+   "id": 803132,
+   "state": "record"
+  },
+  "Hammer of the Law": {
+   "id": 704418,
+   "state": "record"
+  },
+  "Hand of The King": {
+   "id": 705313,
+   "state": "record"
+  },
+  "Harrowing Melody": {
+   "id": 572821,
+   "state": "record"
+  },
+  "Heavy Blow": {
+   "id": 803129,
+   "state": "record"
+  },
+  "Heavy Expert": {
+   "id": 803128,
+   "state": "record"
+  },
+  "Hero's Decree": {
+   "id": 803964,
+   "state": "record"
+  },
+  "Hero's March": {
+   "id": 801774,
+   "state": "record"
+  },
+  "Heroic Resolve": {
+   "id": 504910,
+   "state": "record"
+  },
+  "Heroism": {
+   "id": 705323,
+   "state": "record"
+  },
+  "High Guard": {
+   "id": 707621,
+   "state": "record"
+  },
+  "Hold the Line": {
+   "id": 803830,
+   "state": "record"
+  },
+  "Honor": {
+   "id": 300856,
+   "state": "record"
+  },
+  "Impactful": {
+   "id": 300846,
+   "state": "record"
+  },
+  "Improved Feats of Strength": {
+   "id": 705360,
+   "state": "record"
+  },
+  "Improved Motivating Strike": {
+   "id": 300535,
+   "state": "record"
+  },
+  "Inspiring Fighter": {
+   "id": 573046,
+   "state": "record"
+  },
+  "Inspiring Leader": {
+   "id": 505344,
+   "state": "record"
+  },
+  "Inspiring Presence": {
+   "id": 503634,
+   "state": "record"
+  },
+  "Inspiring Speech": {
+   "id": 503217,
+   "state": "record"
+  },
+  "Into The Fray": {
+   "id": 578293,
+   "state": "record"
+  },
+  "Iron Guardian": {
+   "id": 705364,
+   "state": "record"
+  },
+  "Jagged Reinforcement": {
+   "id": 653279,
+   "state": "record"
+  },
+  "King's Guard": {
+   "id": 520284,
+   "state": "record"
+  },
+  "Knight's Calling": {
+   "id": 504151,
+   "state": "record"
+  },
+  "Knight's Conviction": {
+   "id": 705369,
+   "state": "record"
+  },
+  "Knighthood": {
+   "id": 806077,
+   "state": "record"
+  },
+  "Knightly Demeanor": {
+   "id": 504148,
+   "state": "record"
+  },
+  "Leading the March": {
+   "id": 704423,
+   "state": "record"
+  },
+  "Legion Commander": {
+   "id": 704535,
+   "state": "record"
+  },
+  "Liberation": {
+   "id": 803963,
+   "state": "record"
+  },
+  "Light Nets": {
+   "id": 704150,
+   "state": "record"
+  },
+  "Line Formation": {
+   "id": 803130,
+   "state": "record"
+  },
+  "Linebreaker": {
+   "id": 806220,
+   "state": "record"
+  },
+  "Lionheart": {
+   "id": 531515,
+   "state": "record"
+  },
+  "Little Drummer": {
+   "id": 706636,
+   "state": "record"
+  },
+  "Lord of the Arena": {
+   "id": 802290,
+   "state": "record"
+  },
+  "Mace Training": {
+   "id": 705336,
+   "state": "record"
+  },
+  "Magic Reinforcement": {
+   "id": 653280,
+   "state": "record"
+  },
+  "Might": {
+   "id": 300538,
+   "state": "record"
+  },
+  "Minstrel": {
+   "id": 704533,
+   "state": "record"
+  },
+  "Motivating Strike": {
+   "id": 500174,
+   "state": "record"
+  },
+  "Net Throw": {
+   "id": 802304,
+   "state": "record"
+  },
+  "No Escape": {
+   "id": 802300,
+   "state": "record"
+  },
+  "Offensive Pose": {
+   "id": 802282,
+   "state": "record"
+  },
+  "One Man Army": {
+   "id": 805157,
+   "state": "record"
+  },
+  "One True Champion": {
+   "id": 524816,
+   "state": "record"
+  },
+  "One-Handed Mastery": {
+   "id": 300541,
+   "state": "record"
+  },
+  "Opening Play": {
+   "id": 300533,
+   "state": "record"
+  },
+  "Overwhelming Presence": {
+   "id": 712367,
+   "state": "record"
+  },
+  "Peril": {
+   "id": 524610,
+   "state": "record"
+  },
+  "Pied Piper": {
+   "id": 504218,
+   "state": "record"
+  },
+  "Plate Buster": {
+   "id": 705333,
+   "state": "record"
+  },
+  "Poised Reinforcement": {
+   "id": 653278,
+   "state": "record"
+  },
+  "Polearm Training": {
+   "id": 802299,
+   "state": "record"
+  },
+  "Powerful Voice": {
+   "id": 705356,
+   "state": "record"
+  },
+  "Press the Attack": {
+   "id": 801219,
+   "state": "record"
+  },
+  "Press the Line!": {
+   "id": 300542,
+   "state": "record"
+  },
+  "Pulverize": {
+   "id": 800311,
+   "state": "record"
+  },
+  "Raise Shield": {
+   "id": 500168,
+   "state": "record"
+  },
+  "Ram": {
+   "id": 802284,
+   "state": "record"
+  },
+  "Ramster": {
+   "id": 705322,
+   "state": "record"
+  },
+  "Reclaim Standards": {
+   "id": 574339,
+   "state": "record"
+  },
+  "Reflective Shield": {
+   "id": 355779,
+   "state": "record"
+  },
+  "Reprisal": {
+   "id": 800316,
+   "state": "record"
+  },
+  "Resolve": {
+   "id": 706806,
+   "state": "record"
+  },
+  "Retaliation": {
+   "id": 582901,
+   "state": "record"
+  },
+  "Retiarius": {
+   "id": 705338,
+   "state": "record"
+  },
+  "Reverberations": {
+   "id": 300861,
+   "state": "record"
+  },
+  "Royal Decree": {
+   "id": 705354,
+   "state": "record"
+  },
+  "Seasoned Fighter": {
+   "id": 704421,
+   "state": "record"
+  },
+  "Shield Challenge": {
+   "id": 500257,
+   "state": "record"
+  },
+  "Shield Tosser": {
+   "id": 500591,
+   "state": "record"
+  },
+  "Shield Unit": {
+   "id": 572158,
+   "state": "record"
+  },
+  "Shield Wall": {
+   "id": 705370,
+   "state": "record"
+  },
+  "Shield of Denial": {
+   "id": 704159,
+   "state": "record"
+  },
+  "Shieldforge": {
+   "id": 802195,
+   "state": "record"
+  },
+  "Shoulder The Burden": {
+   "id": 572904,
+   "state": "record"
+  },
+  "Shrug It Off": {
+   "id": 802198,
+   "state": "record"
+  },
+  "Soldier's Decree": {
+   "id": 806136,
+   "state": "record"
+  },
+  "Song of Battle": {
+   "id": 572329,
+   "state": "record"
+  },
+  "Song of Steel": {
+   "id": 704540,
+   "state": "record"
+  },
+  "Song of Steel TO REWORK": {
+   "id": 704532,
+   "state": "record"
+  },
+  "Soundwave": {
+   "id": 705318,
+   "state": "record"
+  },
+  "Spear Throw": {
+   "id": 500463,
+   "state": "record"
+  },
+  "Spellcaster's Decree": {
+   "id": 806138,
+   "state": "record"
+  },
+  "Spiked Reinforcement": {
+   "id": 653131,
+   "state": "record"
+  },
+  "Stalwart": {
+   "id": 704413,
+   "state": "record"
+  },
+  "Stand Tall, Walk Strong": {
+   "id": 705362,
+   "state": "record"
+  },
+  "Stand Your Ground!": {
+   "id": 524981,
+   "state": "record"
+  },
+  "Standard of Might": {
+   "id": 500602,
+   "state": "record"
+  },
+  "Standard of Rallying": {
+   "id": 500263,
+   "state": "record"
+  },
+  "Standard of Recovery": {
+   "id": 500248,
+   "state": "record"
+  },
+  "Standard of Spellwarding": {
+   "id": 500547,
+   "state": "record"
+  },
+  "Standard of Supremacy": {
+   "id": 500299,
+   "state": "record"
+  },
+  "Standard of Valiance": {
+   "id": 500274,
+   "state": "record"
+  },
+  "Steel Riposte": {
+   "id": 300534,
+   "state": "record"
+  },
+  "Strength In Unison": {
+   "id": 300860,
+   "state": "record"
+  },
+  "Sturdy": {
+   "id": 706639,
+   "state": "record"
+  },
+  "Sturdy Constitution": {
+   "id": 706334,
+   "state": "record"
+  },
+  "Sword Training": {
+   "id": 802297,
+   "state": "record"
+  },
+  "Tempo": {
+   "id": 92107,
+   "state": "record"
+  },
+  "Thrill of Battle": {
+   "id": 803966,
+   "state": "record"
+  },
+  "Tower Formation": {
+   "id": 800317,
+   "state": "record"
+  },
+  "Triumphant": {
+   "id": 707372,
+   "state": "record"
+  },
+  "Tunnel Vision": {
+   "id": 800321,
+   "state": "record"
+  },
+  "Turn The Blade": {
+   "id": 707170,
+   "state": "record"
+  },
+  "Unyielding Stand": {
+   "id": 500269,
+   "state": "record"
+  },
+  "Upper Hand": {
+   "id": 802289,
+   "state": "record"
+  },
+  "Valiance": {
+   "id": 562377,
+   "state": "record"
+  },
+  "Valiant Defender": {
+   "id": 582933,
+   "state": "record"
+  },
+  "Valiant Effort": {
+   "id": 704517,
+   "state": "record"
+  },
+  "Vanguard's Might": {
+   "id": 705345,
+   "state": "record"
+  },
+  "Vanguard's Shield": {
+   "id": 804383,
+   "state": "record"
+  },
+  "Veteran of the Third War": {
+   "id": 300540,
+   "state": "record"
+  },
+  "Virtue": {
+   "id": 705372,
+   "state": "record"
+  },
+  "Voice of an Angel": {
+   "id": 704420,
+   "state": "record"
+  },
+  "War Drums": {
+   "id": 572529,
+   "state": "record"
+  },
+  "Warmaster": {
+   "id": 300891,
+   "state": "record"
+  },
+  "Weighted Reinforcement": {
+   "id": 653277,
+   "state": "record"
+  },
+  "Wreck Formation": {
+   "id": 803126,
+   "state": "record"
+  }
+ }
+}

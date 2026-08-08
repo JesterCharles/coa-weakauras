@@ -1,0 +1,191 @@
+{
+ "sidekick-guardian-gladiator-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [],
+   "maintain": [
+    "Grand Entrance"
+   ],
+   "priority": [],
+   "signature": [
+    "Glory"
+   ]
+  },
+  "class": "guardian",
+  "content_sha256": "c0f8120ae527943a",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/guardian/gladiator",
+  "spec": "gladiator"
+ },
+ "sidekick-guardian-inspiration-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Chivalry",
+    "Hero's Serenade",
+    "Thrill of Battle"
+   ],
+   "maintain": [],
+   "priority": []
+  },
+  "class": "guardian",
+  "content_sha256": "d83429e682df9b76",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/guardian/inspiration",
+  "spec": "inspiration"
+ },
+ "sidekick-guardian-vanguard-2026-08-02": {
+  "caveats": [
+   "Point allocation & optimal order aren't settled yet \u2014 confirm in the official Vol'jin builder and adjust on live."
+  ],
+  "claims": {
+   "cooldowns": [
+    "Shield Formation"
+   ],
+   "maintain": [
+    "Crowd Pummeler"
+   ],
+   "priority": [],
+   "signature": [
+    "Footman's Calling"
+   ]
+  },
+  "class": "guardian",
+  "content_sha256": "79042a4afdfbd26c",
+  "origin": "scheduled",
+  "policy": "user-agent",
+  "retrieved_at": "2026-08-02",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/guardian/vanguard",
+  "spec": "vanguard"
+ },
+ "sidekick-page-guardian-gladiator-2026-08-08": {
+  "caveats": [
+   "Sidekick's own caveat: point allocation & optimal order aren't settled yet",
+   "Final Verdict execute range text may predate the 2026-07-31 change to 35% -- the changelog outranks the page"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Glorious Arena",
+    "Battle Rush",
+    "Raise Shield"
+   ],
+   "maintain": [
+    "Glory",
+    "Favor",
+    "Spear Throw"
+   ],
+   "priority": [
+    "Ram",
+    "Pulverize",
+    "Reprisal",
+    "Centurion Strike",
+    "Broad Sweep",
+    "Spear Throw",
+    "Final Verdict"
+   ],
+   "signature": [
+    "Glory"
+   ]
+  },
+  "class": "guardian",
+  "content_sha256": "0ac08413d5f690d7641cafb508543cc0d4909e3d53e38f61c17d52f82fc1e21c",
+  "origin": "manual",
+  "policy": "reference",
+  "retrieved_at": "2026-08-08",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/guardian/gladiator",
+  "spec": "gladiator",
+  "transcribed_by": "claude (guardian pack agent)"
+ },
+ "sidekick-page-guardian-inspiration-2026-08-08": {
+  "caveats": [
+   "Sidekick's own caveat: point allocation & optimal order aren't settled yet",
+   "'Hero's Serenade' in the rotation prose resolves to no spell in any DB (aliases-guardian.json)"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Song of Battle",
+    "Champion's Presence",
+    "Hero's March",
+    "Harrowing Melody",
+    "Voice of an Angel",
+    "Liberation",
+    "Cavalry Charge"
+   ],
+   "maintain": [
+    "Standard of Valiance",
+    "Banner of Conquest",
+    "Banner of Swiftness",
+    "Song of Steel",
+    "Tempo"
+   ],
+   "priority": [
+    "Ram",
+    "Ballad of the Conqueror",
+    "Ballad of the Dragonslayer",
+    "Broad Sweep"
+   ],
+   "signature": [
+    "Tempo"
+   ]
+  },
+  "class": "guardian",
+  "content_sha256": "46e47ba97ce1b4f5328a4209f2312be6fb2f2e8ef9da10df5a4295f4087faa63",
+  "origin": "manual",
+  "policy": "reference",
+  "retrieved_at": "2026-08-08",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/guardian/inspiration",
+  "spec": "inspiration",
+  "transcribed_by": "claude (guardian pack agent)"
+ },
+ "sidekick-page-guardian-vanguard-2026-08-08": {
+  "caveats": [
+   "Sidekick's own caveat: point allocation & optimal order aren't settled yet",
+   "page snapshot postdates the 2026-08-07 changelog entries, which are number tweaks for this spec"
+  ],
+  "claims": {
+   "cooldowns": [
+    "Raise Shield",
+    "Brace",
+    "Bastion",
+    "Tower Formation",
+    "Hammer of the Law"
+   ],
+   "maintain": [
+    "Vanguard's Shield",
+    "Fine Plating",
+    "Vanguard's Might"
+   ],
+   "priority": [
+    "Heavy Blow",
+    "Pulverize",
+    "Ram",
+    "Hammer of Kings"
+   ],
+   "signature": [
+    "Footman's Calling"
+   ]
+  },
+  "class": "guardian",
+  "content_sha256": "b14cbc9d868f8e10af3022a35f92795df0dcd213e09464f46d6337b014272a0b",
+  "origin": "manual",
+  "policy": "reference",
+  "retrieved_at": "2026-08-08",
+  "source": "ascensionsidekick.com",
+  "source_url": "https://ascensionsidekick.com/guardian/vanguard",
+  "spec": "vanguard",
+  "transcribed_by": "claude (guardian pack agent)"
+ }
+}

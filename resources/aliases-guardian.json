@@ -1,0 +1,12 @@
+{
+ "Hero's Serenade": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "1 mention in the whole sidekick-data.js blob (generated rotation prose); no db.exil.es row by name (only a 'Serenade Trigger' 524693 component), no db.ascension.gg row -- Sidekick's own skill data has no record. The Pyromancer Comet Storm shape: prose, not a claim. Unbuildable."
+ },
+ "Shield Formation": {
+  "canonical": null,
+  "spell_id": null,
+  "why": "2 blob mentions, both rotation prose; no db.exil.es row by that name. Reads like prose shorthand for the Formations family (Tower Formation 800317 / Line Formation 803130), which carry their own inventory rows -- but 'like' is not 'the same as', so the name maps to nothing rather than to a guess."
+ }
+}
